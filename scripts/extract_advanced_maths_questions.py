@@ -5,7 +5,6 @@ Each record keeps its source file/page and an embedded base64 JPEG of that page,
 so mathematical notation can be checked against the original scan.
 """
 
-import base64
 import csv
 import glob
 import io
@@ -137,14 +136,6 @@ def main():
                 if not text:
                     continue
 
-                # Keep page images only for pages with extracted text; the data URI is
-                # directly usable in an <img src="..."> and is shared by its question rows.
-                thumb = original.copy()
-                thumb.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
-                image_buffer = io.BytesIO()
-                thumb.save(image_buffer, format="JPEG", quality=72, optimize=True)
-                image_uri = "data:image/jpeg;base64," + base64.b64encode(image_buffer.getvalue()).decode("ascii")
-
                 chunks = split_questions(text)
                 for question_number, question_text in chunks:
                     questions.append({
@@ -161,7 +152,6 @@ def main():
                             "page": page_number,
                             "questionNumber": question_number,
                             "ocrConfidence": confidence,
-                            "image": image_uri,
                         },
                     })
                     record_id += 1
