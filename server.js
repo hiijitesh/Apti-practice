@@ -66,7 +66,7 @@ function saveAttempts(attempts) {
 app.get('/api/chapters', (req, res) => {
   const questions = loadQuestions();
   const counts = {};
-  
+
   questions.forEach(q => {
     const chap = q.chapter || 'General';
     counts[chap] = (counts[chap] || 0) + 1;
@@ -123,7 +123,7 @@ app.get('/api/mock', (req, res) => {
   const chapterNames = Object.keys(byChapter);
   const totalTarget = 30;
   const numChapters = chapterNames.length;
-  
+
   // Distribute 30 uniformly among available chapters
   const baseCount = Math.floor(totalTarget / numChapters);
   const remainder = totalTarget % numChapters;
