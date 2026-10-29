@@ -44,11 +44,21 @@ class AptiPrepApp {
       currentFilter: 'all'
     };
 
+    // Subject Filters
+    this.currentSubjectFilter = 'all'; // 'all' | 'aptitude' | 'science'
+    this.currentSubSubjectFilter = 'all'; // 'all' | 'Biology' | 'Chemistry' | 'Physics'
+
+    // Fullscreen & Auto-Pause State
+    this.isTestPaused = false;
+    this.pauseStartTime = null;
+    this.totalPausedDuration = 0; // ms
+
     this.init();
     this.bindKeyboardShortcuts();
   }
 
   async init() {
+    this.setupFullscreenListeners();
     this.updateSheetStatusUI();
     this.updateUserSessionUI();
     await this.loadChapters();
@@ -123,6 +133,118 @@ class AptiPrepApp {
       input.value = (this.currentUserEmail === 'guest@local') ? '' : this.currentUserEmail;
       input.focus();
     }
+  }
+
+  // ==========================================
+  // FULLSCREEN & AUTO-PAUSE INTEGRATION
+  // ==========================================
+
+  setupFullscreenListeners() {
+    const handleFsChange = () => this.handleFullscreenChange();
+    document.addEventListener('fullscreenchange', handleFsChange);
+    document.addEventListener('webkitfullscreenchange', handleFsChange);
+    document.addEventListener('mozfullscreenchange', handleFsChange);
+    document.addEventListener('MSFullscreenChange', handleFsChange);
+  }
+
+  handleFullscreenChange() {
+    const isFullscreen = !!(
+      document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement ||
+      document.msFullscreenElement
+    );
+
+    // If user comes out of fullscreen in test mode, pause test automatically!
+    if (!isFullscreen) {
+      if (this.currentMode === 'mock' && !this.isTestPaused) {
+        this.pauseMockTest();
+      } else if (this.currentMode === 'practice' && this.practice.modeType === 'test' && !this.isTestPaused) {
+        this.pausePracticeTest();
+      }
+      // Note: In study mode, exiting full screen does NOT pause the test
+    }
+  }
+
+  async enterFullscreen() {
+    try {
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        const el = document.documentElement;
+        if (el.requestFullscreen) {
+          await el.requestFullscreen();
+        } else if (el.webkitRequestFullscreen) {
+          await el.webkitRequestFullscreen();
+        } else if (el.msRequestFullscreen) {
+          await el.msRequestFullscreen();
+        }
+      }
+    } catch (err) {
+      console.warn('Fullscreen entry not permitted or supported:', err);
+    }
+  }
+
+  exitFullscreen() {
+    try {
+      if (document.fullscreenElement || document.webkitFullscreenElement) {
+        if (document.exitFullscreen) {
+          document.exitFullscreen().catch(() => {});
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        }
+      }
+    } catch (err) {
+      console.warn('Fullscreen exit error:', err);
+    }
+  }
+
+  pauseMockTest() {
+    this.isTestPaused = true;
+    this.clearMockTimer();
+    this.showTestPausedModal('Full Mock Examination', false);
+  }
+
+  pausePracticeTest() {
+    this.isTestPaused = true;
+    this.pauseStartTime = Date.now();
+    this.showTestPausedModal(`Chapter Test: ${this.practice.chapter}`, true);
+  }
+
+  showTestPausedModal(testTitle, canSwitchToStudy = false) {
+    const modal = document.getElementById('test-paused-modal');
+    const titleEl = document.getElementById('test-paused-exam-name');
+    const studyBtn = document.getElementById('pause-modal-study-btn');
+    if (titleEl && testTitle) titleEl.textContent = testTitle;
+    if (studyBtn) {
+      if (canSwitchToStudy) {
+        studyBtn.classList.remove('hidden');
+      } else {
+        studyBtn.classList.add('hidden');
+      }
+    }
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  async resumeFromPauseModal() {
+    await this.enterFullscreen();
+    const modal = document.getElementById('test-paused-modal');
+    if (modal) modal.classList.add('hidden');
+    this.isTestPaused = false;
+
+    if (this.currentMode === 'mock') {
+      this.startMockTimer();
+    } else if (this.currentMode === 'practice' && this.practice.modeType === 'test') {
+      if (this.pauseStartTime) {
+        this.totalPausedDuration += (Date.now() - this.pauseStartTime);
+        this.pauseStartTime = null;
+      }
+    }
+  }
+
+  switchFromPauseToStudy() {
+    const modal = document.getElementById('test-paused-modal');
+    if (modal) modal.classList.add('hidden');
+    this.isTestPaused = false;
+    this.setPracticeModeType('study');
   }
 
   // ==========================================
@@ -321,6 +443,10 @@ class AptiPrepApp {
       }
       this.clearMockTimer();
     }
+    this.isTestPaused = false;
+    const pauseModal = document.getElementById('test-paused-modal');
+    if (pauseModal) pauseModal.classList.add('hidden');
+    this.exitFullscreen();
     this.loadAttempts();
     this.switchView('dashboard');
   }
@@ -349,8 +475,7 @@ class AptiPrepApp {
         const data = await res.json();
         if (data.chapters && data.chapters.length > 0) {
           this.chapters = data.chapters;
-          const badge = document.getElementById('total-questions-badge');
-          if (badge) badge.textContent = `${data.totalQuestions.toLocaleString()} questions`;
+          this.updateDashboardBadges(data.totalQuestions, data.totalChapters);
           this.renderChaptersGrid();
           this.populateChapterDropdown();
           return;
@@ -371,13 +496,24 @@ class AptiPrepApp {
 
       const chapterMap = {};
       this.allQuestions.forEach(q => {
-        chapterMap[q.chapter] = (chapterMap[q.chapter] || 0) + 1;
+        const chap = q.chapter || 'General';
+        if (!chapterMap[chap]) {
+          chapterMap[chap] = {
+            name: chap,
+            subject: q.subject || 'Quantitative Aptitude',
+            subSubject: q.subSubject || (q.subject === 'General Science' ? 'General Science' : 'Aptitude'),
+            count: 0
+          };
+        }
+        chapterMap[chap].count += 1;
       });
 
-      this.chapters = Object.entries(chapterMap).map(([name, count]) => ({ name, count }));
-      const badge = document.getElementById('total-questions-badge');
-      if (badge) badge.textContent = `${this.allQuestions.length.toLocaleString()} questions`;
+      this.chapters = Object.values(chapterMap).sort((a, b) => {
+        if (a.subject !== b.subject) return a.subject.localeCompare(b.subject);
+        return a.name.localeCompare(b.name);
+      });
 
+      this.updateDashboardBadges(this.allQuestions.length, this.chapters.length);
       this.renderChaptersGrid();
       this.populateChapterDropdown();
     } catch (err) {
@@ -385,44 +521,97 @@ class AptiPrepApp {
     }
   }
 
-  async loadAttempts() {
-    if (!this.currentUserEmail) {
-      this.attempts = [];
-      this.renderAttemptsHistory();
-      return;
+  updateDashboardBadges(totalQuestions, totalChapters) {
+    const badge = document.getElementById('total-questions-badge');
+    if (badge) badge.textContent = `${totalQuestions.toLocaleString()} questions`;
+
+    const chapBadge = document.getElementById('dashboard-total-chapters-badge');
+    if (chapBadge) chapBadge.textContent = `${totalChapters} Chapters`;
+
+    const heroSub = document.getElementById('dashboard-hero-subtitle');
+    if (heroSub) heroSub.innerHTML = `${totalChapters} chapters &bull; ${totalQuestions.toLocaleString()} questions &bull; Offline & local`;
+
+    const aptiCount = this.chapters.filter(c => (c.subject || '').includes('Aptitude')).length;
+    const sciCount = this.chapters.filter(c => (c.subject || '').includes('Science')).length;
+
+    const bAll = document.getElementById('badge-count-all');
+    if (bAll) bAll.textContent = `(${totalChapters})`;
+    const bApti = document.getElementById('badge-count-aptitude');
+    if (bApti) bApti.textContent = `(${aptiCount})`;
+    const bSci = document.getElementById('badge-count-science');
+    if (bSci) bSci.textContent = `(${sciCount})`;
+  }
+
+  // ==========================================
+  // SUBJECT FILTERING
+  // ==========================================
+
+  setSubjectFilter(filter) {
+    this.currentSubjectFilter = filter;
+    this.currentSubSubjectFilter = 'all';
+
+    const btnAll = document.getElementById('filter-btn-all');
+    const btnApti = document.getElementById('filter-btn-aptitude');
+    const btnSci = document.getElementById('filter-btn-science');
+    const subBar = document.getElementById('subsubject-filter-bar');
+
+    const activeClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-zinc-900 text-white shadow-xs';
+    const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300';
+
+    if (btnAll) btnAll.className = (filter === 'all' ? activeClass : inactiveClass);
+    if (btnApti) btnApti.className = (filter === 'aptitude' ? activeClass : inactiveClass);
+    if (btnSci) btnSci.className = (filter === 'science' ? activeClass : inactiveClass);
+
+    if (subBar) {
+      if (filter === 'science') {
+        subBar.classList.remove('hidden');
+      } else {
+        subBar.classList.add('hidden');
+      }
     }
 
-    let loaded = [];
-    const activeEmail = this.currentUserEmail;
+    this.renderChaptersGrid();
+  }
 
-    // 1. Load from browser localStorage
-    try {
-      const stored = localStorage.getItem('apti_attempts');
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        // Filter attempts for this user session
-        loaded = parsed.filter(a => (a.userEmail || 'guest@local').toLowerCase() === activeEmail);
-      }
-    } catch (e) {}
+  setSubSubjectFilter(subfilter) {
+    this.currentSubSubjectFilter = subfilter;
 
-    // 2. If running locally with Node backend, load from /api/attempts
-    try {
-      const res = await fetch(`/api/attempts?email=${encodeURIComponent(activeEmail)}`);
-      if (res.ok) {
-        const data = await res.json();
-        if (data.attempts && data.attempts.length > 0) {
-          const map = new Map();
-          data.attempts.forEach(a => map.set(a.attemptId, a));
-          loaded.forEach(a => {
-            if (!map.has(a.attemptId)) map.set(a.attemptId, a);
-          });
-          loaded = Array.from(map.values()).sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    const subBtns = {
+      'all': document.getElementById('subfilter-btn-all'),
+      'Biology': document.getElementById('subfilter-btn-biology'),
+      'Chemistry': document.getElementById('subfilter-btn-chemistry'),
+      'Physics': document.getElementById('subfilter-btn-physics')
+    };
+
+    Object.keys(subBtns).forEach(key => {
+      const btn = subBtns[key];
+      if (btn) {
+        if (key === subfilter) {
+          btn.className = 'px-2 py-0.5 rounded text-[11px] font-medium transition bg-white text-zinc-900 shadow-xs';
+        } else {
+          btn.className = 'px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900';
         }
       }
-    } catch (e) {}
+    });
 
-    this.attempts = loaded;
-    this.renderAttemptsHistory();
+    this.renderChaptersGrid();
+  }
+
+  getFilteredChapters() {
+    return this.chapters.filter(ch => {
+      const subj = (ch.subject || '').toLowerCase();
+      const subSubj = (ch.subSubject || '').toLowerCase();
+
+      if (this.currentSubjectFilter === 'aptitude') {
+        if (!subj.includes('aptitude')) return false;
+      } else if (this.currentSubjectFilter === 'science') {
+        if (!subj.includes('science')) return false;
+        if (this.currentSubSubjectFilter !== 'all') {
+          if (subSubj !== this.currentSubSubjectFilter.toLowerCase()) return false;
+        }
+      }
+      return true;
+    });
   }
 
   // ==========================================
@@ -438,29 +627,84 @@ class AptiPrepApp {
     const grid = document.getElementById('chapters-grid');
     if (!grid) return;
 
-    if (this.chapters.length === 0) {
-      grid.innerHTML = '<p class="text-zinc-400 text-xs col-span-full">No chapters found.</p>';
+    const filtered = this.getFilteredChapters();
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<p class="text-zinc-400 text-xs col-span-full py-8 text-center">No chapters found for selected filter.</p>';
       return;
     }
 
-    grid.innerHTML = this.chapters.map(ch => `
-      <div onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')"
-           class="bg-white hover:border-zinc-400 border border-zinc-200 rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
-        <div>
-          <h4 class="font-medium text-zinc-900 group-hover:text-zinc-700 text-xs line-clamp-1">${ch.name}</h4>
-          <span class="text-[11px] text-zinc-400">${ch.count} Qs</span>
+    grid.innerHTML = filtered.map(ch => {
+      const isSci = (ch.subject === 'General Science');
+      let badgeHtml = '';
+      if (isSci) {
+        if (ch.subSubject === 'Biology') {
+          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">Bio</span>';
+        } else if (ch.subSubject === 'Chemistry') {
+          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200/60">Chem</span>';
+        } else if (ch.subSubject === 'Physics') {
+          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded border border-violet-200/60">Phys</span>';
+        } else {
+          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-1.5 py-0.5 rounded">Sci</span>';
+        }
+      } else {
+        badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200/60">Apti</span>';
+      }
+
+      return `
+        <div onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')"
+             class="bg-white hover:border-zinc-400 border border-zinc-200 rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
+          <div class="space-y-1 overflow-hidden pr-2">
+            <div class="flex items-center gap-1.5">
+              ${badgeHtml}
+              <span class="text-[11px] text-zinc-400 font-mono">${ch.count} Qs</span>
+            </div>
+            <h4 class="font-medium text-zinc-900 group-hover:text-zinc-700 text-xs truncate" title="${ch.name}">${ch.name}</h4>
+          </div>
+          <span class="text-xs text-zinc-300 group-hover:text-zinc-600 transition shrink-0">&rarr;</span>
         </div>
-        <span class="text-xs text-zinc-300 group-hover:text-zinc-600 transition">&rarr;</span>
-      </div>
-    `).join('');
+      `;
+    }).join('');
   }
 
   populateChapterDropdown() {
     const dd = document.getElementById('practice-chapter-dropdown');
     if (!dd) return;
-    dd.innerHTML = this.chapters.map(ch => `
-      <option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>
-    `).join('');
+
+    const groups = {
+      'Quantitative Aptitude': [],
+      'General Science — Biology': [],
+      'General Science — Chemistry': [],
+      'General Science — Physics': [],
+      'Other': []
+    };
+
+    this.chapters.forEach(ch => {
+      if (ch.subject === 'Quantitative Aptitude' || (ch.subject || '').includes('Aptitude')) {
+        groups['Quantitative Aptitude'].push(ch);
+      } else if (ch.subSubject === 'Biology') {
+        groups['General Science — Biology'].push(ch);
+      } else if (ch.subSubject === 'Chemistry') {
+        groups['General Science — Chemistry'].push(ch);
+      } else if (ch.subSubject === 'Physics') {
+        groups['General Science — Physics'].push(ch);
+      } else {
+        groups['Other'].push(ch);
+      }
+    });
+
+    let html = '';
+    Object.entries(groups).forEach(([groupName, chaps]) => {
+      if (chaps.length > 0) {
+        html += `<optgroup label="${groupName} (${chaps.length})">`;
+        chaps.forEach(ch => {
+          html += `<option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>`;
+        });
+        html += `</optgroup>`;
+      }
+    });
+
+    dd.innerHTML = html;
   }
 
   renderAttemptsHistory() {
@@ -552,6 +796,16 @@ class AptiPrepApp {
       chapterName = this.chapters[0].name;
     }
 
+    // Reset pause trackers
+    this.isTestPaused = false;
+    this.pauseStartTime = null;
+    this.totalPausedDuration = 0;
+
+    // When test starts, enter full screen mode (only in test mode, not study mode!)
+    if (this.practice.modeType === 'test') {
+      await this.enterFullscreen();
+    }
+
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
       const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
@@ -593,7 +847,7 @@ class AptiPrepApp {
     this.renderPracticePalette();
   }
 
-  setPracticeModeType(type) {
+  async setPracticeModeType(type) {
     this.practice.modeType = type;
 
     const btnTest = document.getElementById('toggle-btn-test');
@@ -605,12 +859,23 @@ class AptiPrepApp {
       if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
       if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
       if (badge) badge.textContent = 'Chapter Test';
-      if (subtitle) subtitle.textContent = 'Answers revealed on submission';
+      if (subtitle) subtitle.textContent = 'Answers revealed on submission (Full Screen)';
+      // Enter full screen when switching to test mode
+      if (this.currentMode === 'practice') {
+        await this.enterFullscreen();
+      }
     } else {
       if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
       if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
       if (badge) badge.textContent = 'Study Mode';
       if (subtitle) subtitle.textContent = 'Instant answers & explanation';
+
+      // Study mode: dismiss pause modal if open and unpause!
+      if (this.isTestPaused) {
+        this.isTestPaused = false;
+        const modal = document.getElementById('test-paused-modal');
+        if (modal) modal.classList.add('hidden');
+      }
     }
 
     this.renderPracticeQuestion();
@@ -629,8 +894,10 @@ class AptiPrepApp {
     const current = this.practice.currentIndex + 1;
     const isTestMode = (this.practice.modeType === 'test');
 
+    const chapDisplay = q.subSubject && q.subSubject !== q.chapter ? `${q.subSubject} • ${q.chapter}` : q.chapter;
+
     document.getElementById('practice-q-number').textContent = `Q${current}`;
-    document.getElementById('practice-q-chapter').textContent = q.chapter;
+    document.getElementById('practice-q-chapter').textContent = chapDisplay;
     document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}`;
 
     const fillPercent = (current / total) * 100;
@@ -818,7 +1085,9 @@ class AptiPrepApp {
   }
 
   async executeChapterTestSubmission() {
-    const timeTakenSeconds = Math.round((Date.now() - (this.practice.startTime || Date.now())) / 1000);
+    this.exitFullscreen();
+    const elapsedMs = (Date.now() - (this.practice.startTime || Date.now())) - this.totalPausedDuration;
+    const timeTakenSeconds = Math.max(1, Math.round(elapsedMs / 1000));
 
     const answersPayload = this.practice.questions.map((q, idx) => ({
       questionId: q.id,
@@ -883,28 +1152,60 @@ class AptiPrepApp {
       return;
     }
 
-    const confirmed = confirm(
-      `Start 30-minute Full Mock Examination?\n\nUser: ${this.currentUserEmail}\n• 30 questions uniformly balanced across chapters\n• 30 minutes timed test\n• Automatic submission on timeout\n\nClick OK to begin.`
-    );
-    if (confirmed) {
-      this.startMockTest();
+    const modal = document.getElementById('mock-select-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+    } else {
+      this.startMockTest('all');
     }
   }
 
-  async startMockTest() {
+  closeMockSelectModal() {
+    const modal = document.getElementById('mock-select-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  handleMockChoiceChange(radio) {
+    document.querySelectorAll('.mock-choice-card').forEach(card => {
+      card.classList.remove('border-zinc-900', 'bg-zinc-50/70');
+      card.classList.add('border-zinc-200');
+    });
+    const parent = radio.closest('.mock-choice-card');
+    if (parent) {
+      parent.classList.remove('border-zinc-200');
+      parent.classList.add('border-zinc-900', 'bg-zinc-50/70');
+    }
+  }
+
+  async confirmStartMockTest() {
+    const checked = document.querySelector('input[name="mock_subject_option"]:checked');
+    const choice = checked ? checked.value : 'all';
+    this.closeMockSelectModal();
+    await this.startMockTest(choice);
+  }
+
+  async startMockTest(subject = 'all') {
+    this.isTestPaused = false;
+    this.pauseStartTime = null;
+    this.totalPausedDuration = 0;
+
+    // When test start enter full screen mode!
+    await this.enterFullscreen();
+
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
-      const mockQuestions = this.generateMockQuestionsStatic(30);
-      this.initMockState(mockQuestions);
+      const mockQuestions = this.generateMockQuestionsStatic(30, subject);
+      this.initMockState(mockQuestions, subject);
       return;
     }
 
     try {
-      const res = await fetch('/api/mock');
+      const url = (subject && subject !== 'all') ? `/api/mock?subject=${encodeURIComponent(subject)}` : '/api/mock';
+      const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
         if (data.questions && data.questions.length > 0) {
-          this.initMockState(data.questions);
+          this.initMockState(data.questions, subject);
           return;
         }
       }
@@ -912,13 +1213,20 @@ class AptiPrepApp {
 
     this.isStaticMode = true;
     if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
-    const mockQuestions = this.generateMockQuestionsStatic(30);
-    this.initMockState(mockQuestions);
+    const mockQuestions = this.generateMockQuestionsStatic(30, subject);
+    this.initMockState(mockQuestions, subject);
   }
 
-  generateMockQuestionsStatic(count = 30) {
+  generateMockQuestionsStatic(count = 30, subject = 'all') {
+    let pool = [...this.allQuestions];
+    if (subject === 'aptitude') {
+      pool = pool.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
+    } else if (subject === 'science') {
+      pool = pool.filter(q => (q.subject || '').toLowerCase().includes('science'));
+    }
+
     const byChapter = {};
-    this.allQuestions.forEach(q => {
+    pool.forEach(q => {
       if (!byChapter[q.chapter]) byChapter[q.chapter] = [];
       byChapter[q.chapter].push(q);
     });
@@ -926,28 +1234,31 @@ class AptiPrepApp {
     const chapters = Object.keys(byChapter);
     if (chapters.length === 0) return [];
 
-    const basePerChap = Math.floor(count / chapters.length);
+    const totalTarget = Math.min(count, pool.length);
+    const basePerChap = Math.floor(totalTarget / chapters.length);
+    const remainder = totalTarget % chapters.length;
     const selected = [];
     const shuffle = arr => [...arr].sort(() => 0.5 - Math.random());
+    const shuffledChapters = shuffle(chapters);
 
-    chapters.forEach(chap => {
-      const pool = shuffle(byChapter[chap]);
-      const take = Math.min(basePerChap, pool.length);
-      for (let i = 0; i < take; i++) selected.push(pool[i]);
+    shuffledChapters.forEach((chap, idx) => {
+      const target = basePerChap + (idx < remainder ? 1 : 0);
+      const chPool = shuffle(byChapter[chap]);
+      selected.push(...chPool.slice(0, target));
     });
 
-    if (selected.length < count) {
-      const remainingPool = shuffle(this.allQuestions.filter(q => !selected.some(s => s.id === q.id)));
-      for (let i = 0; i < (count - selected.length) && i < remainingPool.length; i++) {
-        selected.push(remainingPool[i]);
-      }
+    if (selected.length < totalTarget) {
+      const pickedIds = new Set(selected.map(q => q.id));
+      const leftovers = pool.filter(q => !pickedIds.has(q.id));
+      selected.push(...shuffle(leftovers).slice(0, totalTarget - selected.length));
     }
 
-    return shuffle(selected);
+    return shuffle(selected).slice(0, totalTarget);
   }
 
-  initMockState(questions) {
+  initMockState(questions, subject = 'all') {
     this.mock.questions = questions;
+    this.mock.subject = subject;
     this.mock.currentIndex = 0;
     this.mock.userAnswers = {};
     this.mock.reviewFlags = {};
@@ -1010,8 +1321,10 @@ class AptiPrepApp {
     const total = this.mock.questions.length;
     const current = this.mock.currentIndex + 1;
 
+    const chapDisplay = q.subSubject && q.subSubject !== q.chapter ? `${q.subSubject} • ${q.chapter}` : q.chapter;
+
     document.getElementById('mock-q-number').textContent = `Question ${current} of ${total}`;
-    document.getElementById('mock-q-chapter').textContent = q.chapter;
+    document.getElementById('mock-q-chapter').textContent = chapDisplay;
 
     const isMarked = !!this.mock.reviewFlags[q.id];
     const reviewBtn = document.getElementById('mock-btn-review-toggle');
@@ -1178,18 +1491,21 @@ class AptiPrepApp {
   }
 
   confirmSubmitMock() {
+    this.exitFullscreen();
     this.closeSubmitModal();
     this.clearMockTimer();
     this.executeMockSubmission();
   }
 
   autoSubmitMock() {
+    this.exitFullscreen();
     this.closeSubmitModal();
     this.clearMockTimer();
     this.executeMockSubmission();
   }
 
   async executeMockSubmission() {
+    this.exitFullscreen();
     const timeTakenSeconds = 1800 - Math.max(0, this.mock.timeLeftSeconds);
 
     const answersPayload = this.mock.questions.map(q => ({
@@ -1256,6 +1572,8 @@ class AptiPrepApp {
       return {
         questionId: ans.questionId,
         chapter: q ? q.chapter : (chapter || 'General'),
+        subject: q ? q.subject : undefined,
+        subSubject: q ? q.subSubject : undefined,
         question: q ? q.question : '',
         options: q ? q.options : [],
         userAnswer: ans.userAnswer,

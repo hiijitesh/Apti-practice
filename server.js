@@ -62,20 +62,28 @@ function saveAttempts(attempts) {
   }
 }
 
-// 1. GET /api/chapters - List of chapters with question counts
+// 1. GET /api/chapters - List of chapters with question counts, subjects, and subSubjects
 app.get('/api/chapters', (req, res) => {
   const questions = loadQuestions();
-  const counts = {};
+  const chaptersMap = {};
 
   questions.forEach(q => {
     const chap = q.chapter || 'General';
-    counts[chap] = (counts[chap] || 0) + 1;
+    if (!chaptersMap[chap]) {
+      chaptersMap[chap] = {
+        name: chap,
+        subject: q.subject || 'Quantitative Aptitude',
+        subSubject: q.subSubject || (q.subject === 'General Science' ? 'General Science' : 'Aptitude'),
+        count: 0
+      };
+    }
+    chaptersMap[chap].count += 1;
   });
 
-  const chapters = Object.keys(counts).sort().map(name => ({
-    name,
-    count: counts[name]
-  }));
+  const chapters = Object.values(chaptersMap).sort((a, b) => {
+    if (a.subject !== b.subject) return a.subject.localeCompare(b.subject);
+    return a.name.localeCompare(b.name);
+  });
 
   res.json({
     totalChapters: chapters.length,
@@ -107,10 +115,24 @@ app.get('/api/questions', (req, res) => {
 });
 
 // 3. GET /api/mock - 30 randomized questions uniformly distributed across chapters (WITHOUT leaking answers)
+// Supports optional ?subject=aptitude | ?subject=science | ?subject=biology | etc.
 app.get('/api/mock', (req, res) => {
-  const allQuestions = loadQuestions();
+  let allQuestions = loadQuestions();
   if (allQuestions.length === 0) {
     return res.status(500).json({ error: 'No questions loaded. Please run extraction first.' });
+  }
+
+  const subjectQuery = (req.query.subject || '').trim().toLowerCase();
+  if (subjectQuery === 'aptitude' || subjectQuery === 'quantitative aptitude') {
+    allQuestions = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
+  } else if (subjectQuery === 'science' || subjectQuery === 'general science') {
+    allQuestions = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('science'));
+  } else if (subjectQuery === 'biology' || subjectQuery === 'chemistry' || subjectQuery === 'physics') {
+    allQuestions = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === subjectQuery);
+  }
+
+  if (allQuestions.length === 0) {
+    return res.status(404).json({ error: `No questions found matching subject '${subjectQuery}'` });
   }
 
   // Group by chapter
@@ -121,10 +143,10 @@ app.get('/api/mock', (req, res) => {
   });
 
   const chapterNames = Object.keys(byChapter);
-  const totalTarget = 30;
+  const totalTarget = Math.min(30, allQuestions.length);
   const numChapters = chapterNames.length;
 
-  // Distribute 30 uniformly among available chapters
+  // Distribute uniformly among available chapters
   const baseCount = Math.floor(totalTarget / numChapters);
   const remainder = totalTarget % numChapters;
 
@@ -139,7 +161,7 @@ app.get('/api/mock', (req, res) => {
     selectedQuestions.push(...picked);
   });
 
-  // If there are still fewer than 30 (e.g. some chapter had very few questions), fill from remaining
+  // If there are still fewer than totalTarget, fill from remaining
   if (selectedQuestions.length < totalTarget) {
     const pickedIds = new Set(selectedQuestions.map(q => q.id));
     const leftovers = allQuestions.filter(q => !pickedIds.has(q.id)).sort(() => 0.5 - Math.random());
@@ -147,12 +169,14 @@ app.get('/api/mock', (req, res) => {
     selectedQuestions.push(...extra);
   }
 
-  // Shuffle the final 30 questions
+  // Shuffle the final questions
   const finalQuestions = selectedQuestions.sort(() => 0.5 - Math.random()).slice(0, totalTarget);
 
   // SANITIZE: remove correctAnswer and explanation so client cannot inspect/cheat!
   const sanitized = finalQuestions.map(q => ({
     id: q.id,
+    subject: q.subject,
+    subSubject: q.subSubject,
     chapter: q.chapter,
     question: q.question,
     options: q.options
@@ -215,7 +239,9 @@ app.post('/api/submit-attempt', (req, res) => {
       explanation: q ? q.explanation : '',
       question: q ? q.question : '',
       options: q ? q.options : [],
-      chapter: chap
+      chapter: chap,
+      subject: q ? q.subject : undefined,
+      subSubject: q ? q.subSubject : undefined
     });
   });
 
@@ -299,7 +325,9 @@ app.get('/api/attempts/:id', (req, res) => {
       explanation: q ? q.explanation : '',
       question: q ? q.question : '',
       options: q ? q.options : [],
-      chapter: q ? q.chapter : 'General'
+      chapter: q ? q.chapter : 'General',
+      subject: q ? q.subject : undefined,
+      subSubject: q ? q.subSubject : undefined
     };
   });
 

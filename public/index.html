@@ -84,9 +84,9 @@
       <!-- Minimal Header -->
       <div class="border-b border-zinc-200 pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <span class="text-xs uppercase font-medium tracking-wider text-zinc-400 block mb-1">Aptitude Test Engine</span>
-          <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-900">Quantitative Practice</h1>
-          <p class="text-xs sm:text-sm text-zinc-500 mt-1">17 chapters &bull; 1,342 questions &bull; Offline & local</p>
+          <span class="text-xs uppercase font-medium tracking-wider text-zinc-400 block mb-1">CBT Preparation Engine</span>
+          <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-900">Aptitude & General Science</h1>
+          <p id="dashboard-hero-subtitle" class="text-xs sm:text-sm text-zinc-500 mt-1">51 chapters &bull; 2,721 questions &bull; Offline & local</p>
         </div>
         <div id="summary-stats-bar" class="flex gap-2 text-xs">
           <!-- Summary stats pills rendered by app.js -->
@@ -100,7 +100,7 @@
           <div>
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-medium text-zinc-500 uppercase tracking-wide">Mode 01</span>
-              <span class="text-xs text-zinc-400">17 Chapters</span>
+              <span id="dashboard-total-chapters-badge" class="text-xs text-zinc-400">51 Chapters</span>
             </div>
             <h2 class="text-lg font-semibold text-zinc-900 group-hover:text-zinc-700">Chapter-Wise Test</h2>
             <p class="text-xs text-zinc-500 mt-1.5 leading-relaxed">
@@ -132,12 +132,37 @@
         </div>
       </div>
 
-      <!-- Clean Chapter Grid -->
+      <!-- Clean Chapter Grid & Subject Filter Tabs -->
       <div class="space-y-3">
-        <div class="flex items-center justify-between">
-          <h3 class="text-sm font-semibold text-zinc-900">Chapters</h3>
-          <span id="total-questions-badge" class="text-xs text-zinc-400">Loading...</span>
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+          <div class="flex items-center gap-2">
+            <h3 class="text-sm font-semibold text-zinc-900">Chapters</h3>
+            <span id="total-questions-badge" class="text-xs text-zinc-400">Loading...</span>
+          </div>
+
+          <!-- Subject Filter Pills -->
+          <div class="flex flex-wrap items-center gap-1.5 text-xs" id="subject-filter-container">
+            <button onclick="app.setSubjectFilter('all')" id="filter-btn-all" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-zinc-900 text-white shadow-xs">
+              All <span id="badge-count-all" class="opacity-70 text-[11px]">(51)</span>
+            </button>
+            <button onclick="app.setSubjectFilter('aptitude')" id="filter-btn-aptitude" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300">
+              Aptitude <span id="badge-count-aptitude" class="opacity-70 text-[11px]">(17)</span>
+            </button>
+            <button onclick="app.setSubjectFilter('science')" id="filter-btn-science" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300">
+              General Science <span id="badge-count-science" class="opacity-70 text-[11px]">(34)</span>
+            </button>
+          </div>
         </div>
+
+        <!-- Science Sub-Subject Filters (Biology / Chemistry / Physics) -->
+        <div id="subsubject-filter-bar" class="hidden flex items-center gap-1.5 text-xs bg-zinc-100/70 p-1.5 rounded-lg border border-zinc-200">
+          <span class="text-[10px] text-zinc-400 uppercase tracking-wider font-bold ml-1 mr-1">Discipline:</span>
+          <button onclick="app.setSubSubjectFilter('all')" id="subfilter-btn-all" class="px-2 py-0.5 rounded text-[11px] font-medium transition bg-white text-zinc-900 shadow-xs">All Science (34)</button>
+          <button onclick="app.setSubSubjectFilter('Biology')" id="subfilter-btn-biology" class="px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900">Biology (16)</button>
+          <button onclick="app.setSubSubjectFilter('Chemistry')" id="subfilter-btn-chemistry" class="px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900">Chemistry (8)</button>
+          <button onclick="app.setSubSubjectFilter('Physics')" id="subfilter-btn-physics" class="px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900">Physics (10)</button>
+        </div>
+
         <div id="chapters-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
           <!-- Dynamically filled by app.js -->
         </div>
@@ -543,6 +568,105 @@
         </button>
         <button onclick="app.confirmSubmitMock()" class="flex-1 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition">
           Confirm & Submit
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOCK TEST SELECTOR MODAL -->
+  <div id="mock-select-modal" class="fixed inset-0 bg-zinc-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-xl max-w-md w-full p-6 border border-zinc-200 shadow-xl space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <span class="text-[11px] uppercase tracking-wider font-semibold text-zinc-400 block mb-0.5">Examination Setup</span>
+          <h3 class="text-base font-semibold text-zinc-900">Start Mock Examination</h3>
+        </div>
+        <button onclick="app.closeMockSelectModal()" class="text-zinc-400 hover:text-zinc-700 text-xl leading-none">&times;</button>
+      </div>
+
+      <p class="text-xs text-zinc-500 leading-relaxed">
+        Select your exam syllabus. 30 questions timed for 30 minutes in CBT full-screen mode.
+      </p>
+
+      <div class="space-y-2">
+        <label id="label-mock-all" class="mock-choice-card flex items-start gap-3 p-3 rounded-lg border border-zinc-900 bg-zinc-50/70 cursor-pointer transition">
+          <input type="radio" name="mock_subject_option" value="all" checked class="mt-0.5 accent-zinc-900" onchange="app.handleMockChoiceChange(this)">
+          <div class="flex-1 text-xs">
+            <div class="flex items-center justify-between">
+              <span class="font-semibold text-zinc-900">Combined CBT Mock</span>
+              <span class="text-[10px] bg-zinc-200 text-zinc-700 font-mono px-1.5 py-0.5 rounded">All 51 Chaps</span>
+            </div>
+            <p class="text-[11px] text-zinc-500 mt-0.5">Balanced questions from Quantitative Aptitude & General Science.</p>
+          </div>
+        </label>
+
+        <label id="label-mock-aptitude" class="mock-choice-card flex items-start gap-3 p-3 rounded-lg border border-zinc-200 hover:border-zinc-300 cursor-pointer transition">
+          <input type="radio" name="mock_subject_option" value="aptitude" class="mt-0.5 accent-zinc-900" onchange="app.handleMockChoiceChange(this)">
+          <div class="flex-1 text-xs">
+            <div class="flex items-center justify-between">
+              <span class="font-semibold text-zinc-900">Quantitative Aptitude Mock</span>
+              <span class="text-[10px] bg-zinc-100 text-zinc-600 font-mono px-1.5 py-0.5 rounded">17 Chaps</span>
+            </div>
+            <p class="text-[11px] text-zinc-500 mt-0.5">30 questions uniformly sampled across all 17 Aptitude topics.</p>
+          </div>
+        </label>
+
+        <label id="label-mock-science" class="mock-choice-card flex items-start gap-3 p-3 rounded-lg border border-zinc-200 hover:border-zinc-300 cursor-pointer transition">
+          <input type="radio" name="mock_subject_option" value="science" class="mt-0.5 accent-zinc-900" onchange="app.handleMockChoiceChange(this)">
+          <div class="flex-1 text-xs">
+            <div class="flex items-center justify-between">
+              <span class="font-semibold text-zinc-900">General Science Mock</span>
+              <span class="text-[10px] bg-zinc-100 text-zinc-600 font-mono px-1.5 py-0.5 rounded">34 Chaps</span>
+            </div>
+            <p class="text-[11px] text-zinc-500 mt-0.5">30 questions sampled across Biology, Chemistry, and Physics chapters.</p>
+          </div>
+        </label>
+      </div>
+
+      <div class="bg-zinc-50 rounded-lg p-2.5 border border-zinc-100 flex items-center gap-2 text-[11px] text-zinc-500">
+        <svg class="w-4 h-4 text-zinc-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+        <span>Test begins in Full-Screen mode. Exiting full screen pauses test timer.</span>
+      </div>
+
+      <div class="flex items-center justify-end gap-2 pt-1 text-xs">
+        <button type="button" onclick="app.closeMockSelectModal()" class="px-3 py-2 rounded-lg border border-zinc-200 text-zinc-600 font-medium hover:bg-zinc-50 transition">
+          Cancel
+        </button>
+        <button type="button" onclick="app.confirmStartMockTest()" class="px-4 py-2 rounded-lg bg-zinc-900 text-white font-medium hover:bg-zinc-800 transition flex items-center gap-1.5">
+          <span>Start Examination</span>
+          <span>&rarr;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEST PAUSED (FULLSCREEN EXITED) MODAL -->
+  <div id="test-paused-modal" class="fixed inset-0 bg-zinc-900/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-xl max-w-sm w-full p-6 border border-zinc-200 shadow-2xl space-y-4 text-center">
+      <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-600 border border-amber-200 flex items-center justify-center mx-auto text-xl font-bold">
+        ⏸
+      </div>
+
+      <div class="space-y-1">
+        <h3 class="text-base font-semibold text-zinc-900">Test Paused</h3>
+        <p id="test-paused-exam-name" class="text-xs font-medium text-zinc-600"></p>
+        <p class="text-xs text-zinc-500 leading-relaxed pt-1">
+          Full-screen mode was exited. Your examination timer has been automatically paused.
+        </p>
+      </div>
+
+      <div class="bg-zinc-50 rounded-lg p-2.5 text-[11px] text-zinc-500 border border-zinc-100">
+        To maintain examination integrity, please stay in full-screen until completion.
+      </div>
+
+      <div class="space-y-2 pt-1">
+        <button onclick="app.resumeFromPauseModal()" class="w-full py-2.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition flex items-center justify-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+          <span>Resume in Full Screen</span>
+        </button>
+
+        <button id="pause-modal-study-btn" onclick="app.switchFromPauseToStudy()" class="w-full py-2 text-zinc-500 hover:text-zinc-800 text-xs transition hidden">
+          Switch to Study Mode (No Full Screen)
         </button>
       </div>
     </div>
