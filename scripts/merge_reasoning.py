@@ -2,7 +2,7 @@
 """
 scripts/merge_reasoning.py
 Merges all Calendar Reasoning part files (part_01 through part_06)
-into consolidated JSON datasets:
+into consolidated JSON datasets with base64 Data URI diagrams:
   - data/calendar_reasoning.json & public/data/calendar_reasoning.json
   - data/reasoning.json & public/data/reasoning.json
 """
@@ -14,6 +14,14 @@ import glob
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 PUBLIC_DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
+
+def to_data_uri(diag):
+    if isinstance(diag, dict) and 'data' in diag:
+        mime = diag.get('mime_type', 'image/jpeg')
+        return f"data:{mime};base64,{diag['data']}"
+    elif isinstance(diag, str):
+        return diag
+    return ''
 
 def merge_reasoning_parts():
     pattern = os.path.join(DATA_DIR, 'calendar_reasoning_part_*.json')
@@ -36,7 +44,11 @@ def merge_reasoning_parts():
         source_name = data.get('source', source_name)
         qs = data.get('questions', [])
         print(f"  - {os.path.basename(part_file)}: {len(qs)} questions")
-        all_questions.extend(qs)
+        
+        for q in qs:
+            if 'diagram' in q and q['diagram']:
+                q['diagram'] = to_data_uri(q['diagram'])
+            all_questions.append(q)
 
     # Sort strictly by q_num
     all_questions.sort(key=lambda q: q.get('q_num', 0))
@@ -77,7 +89,7 @@ def merge_reasoning_parts():
             json.dump(keyed_data, f, ensure_ascii=False)
         print(f"Saved: {reas_path} ({os.path.getsize(reas_path)} bytes)")
 
-    print("Reasoning merge complete!")
+    print("Reasoning merge complete with base64 Data URI images!")
 
 if __name__ == '__main__':
     merge_reasoning_parts()
