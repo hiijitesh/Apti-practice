@@ -90,15 +90,45 @@ class AptiPrepApp {
   updateUserSessionUI() {
     const widget = document.getElementById('user-header-widget');
     const label = document.getElementById('header-user-email');
-    if (!widget || !label) return;
+    const btnChapters = document.getElementById('nav-btn-practice');
+    const btnDashboard = document.getElementById('nav-btn-home');
+    const btnMock = document.getElementById('nav-btn-mock');
 
-    if (this.currentUserEmail) {
-      widget.classList.remove('hidden');
-      widget.classList.add('flex');
-      label.textContent = this.currentUserEmail;
-    } else {
-      widget.classList.add('hidden');
-      widget.classList.remove('flex');
+    const isLoggedIn = !!this.currentUserEmail && this.currentMode !== 'login';
+
+    if (btnChapters) {
+      if (isLoggedIn) {
+        btnChapters.classList.remove('hidden');
+      } else {
+        btnChapters.classList.add('hidden');
+      }
+    }
+
+    if (btnDashboard) {
+      if (isLoggedIn) {
+        btnDashboard.classList.remove('hidden');
+      } else {
+        btnDashboard.classList.add('hidden');
+      }
+    }
+
+    if (btnMock) {
+      if (isLoggedIn) {
+        btnMock.classList.remove('hidden');
+      } else {
+        btnMock.classList.add('hidden');
+      }
+    }
+
+    if (widget && label) {
+      if (isLoggedIn) {
+        widget.classList.remove('hidden');
+        widget.classList.add('flex');
+        label.textContent = this.currentUserEmail;
+      } else {
+        widget.classList.add('hidden');
+        widget.classList.remove('flex');
+      }
     }
   }
 
@@ -463,6 +493,7 @@ class AptiPrepApp {
   // View Switching
   switchView(viewName) {
     this.currentMode = viewName;
+    this.updateUserSessionUI();
     const views = ['login', 'dashboard', 'practice', 'mock', 'results'];
     views.forEach(v => {
       const el = document.getElementById(`view-${v}`);
