@@ -4,3 +4,4 @@ node_modules/
 *.pdf
 source_pdfs/
 
+__pycache__/

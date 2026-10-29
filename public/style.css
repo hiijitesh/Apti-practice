@@ -177,20 +177,33 @@ body.zen-mode main {
 /* Prevent accidental text selection on buttons and controls during rapid CBT clicking */
 button,
 button *,
+[role="button"],
+[role="button"] *,
 .option-label,
 .option-label *,
 .cursor-pointer,
 .option-badge,
 nav,
 header {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-touch-callout: none !important;
 }
 
 button::selection,
-button *::selection {
+button *::selection,
+[role="button"]::selection,
+[role="button"] *::selection {
+  background: transparent !important;
+  color: inherit !important;
+}
+
+button::-moz-selection,
+button *::-moz-selection,
+[role="button"]::-moz-selection,
+[role="button"] *::-moz-selection {
   background: transparent !important;
   color: inherit !important;
 }

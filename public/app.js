@@ -1438,10 +1438,9 @@ class AptiPrepApp {
     const mobileBtnNext = document.getElementById('practice-mobile-btn-next');
     if (btnPrev) btnPrev.disabled = (this.practice.currentIndex === 0);
     if (btnNext) {
-      if (this.practice.currentIndex === total - 1) {
-        btnNext.textContent = 'Submit Test';
-      } else {
-        btnNext.innerHTML = 'Save & Next &rarr;';
+      const targetText = (this.practice.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next →';
+      if (btnNext.textContent.trim() !== targetText) {
+        btnNext.textContent = targetText;
       }
     }
     if (mobileBtnNext) {
@@ -1885,7 +1884,10 @@ class AptiPrepApp {
     const mobileBtnNext = document.getElementById('mock-mobile-btn-next');
     if (btnPrev) btnPrev.disabled = (this.mock.currentIndex === 0);
     if (btnNext) {
-      btnNext.innerHTML = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next &rarr;';
+      const targetText = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next →';
+      if (btnNext.textContent.trim() !== targetText) {
+        btnNext.textContent = targetText;
+      }
     }
     if (mobileBtnNext) {
       mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next →';
