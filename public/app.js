@@ -1,10 +1,11 @@
-// public/app.js - AptiPrep CBT Engine Frontend Logic
+// public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal & Distraction-Free)
 
 class AptiPrepApp {
   constructor() {
     this.chapters = [];
     this.attempts = [];
     this.currentMode = 'dashboard';
+    this.zenMode = false;
 
     // Practice / Chapter Test State
     this.practice = {
@@ -35,12 +36,52 @@ class AptiPrepApp {
     };
 
     this.init();
+    this.bindKeyboardShortcuts();
   }
 
   async init() {
     await this.loadChapters();
     await this.loadAttempts();
     this.renderDashboard();
+  }
+
+  // Keyboard Navigation for Distraction-Free Test Taking
+  bindKeyboardShortcuts() {
+    window.addEventListener('keydown', (e) => {
+      // Don't intercept if user is typing into input or select
+      if (['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
+
+      const key = e.key.toLowerCase();
+
+      // Zen mode toggle shortcut: 'z'
+      if (key === 'z' && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault();
+        this.toggleZenMode();
+        return;
+      }
+
+      if (this.currentMode === 'practice') {
+        if (key === '1' || key === 'a') { e.preventDefault(); this.selectPracticeOption(0); }
+        else if (key === '2' || key === 'b') { e.preventDefault(); this.selectPracticeOption(1); }
+        else if (key === '3' || key === 'c') { e.preventDefault(); this.selectPracticeOption(2); }
+        else if (key === '4' || key === 'd') { e.preventDefault(); this.selectPracticeOption(3); }
+        else if (key === 'arrowright' || key === 'enter') { e.preventDefault(); this.nextPracticeQuestion(); }
+        else if (key === 'arrowleft') { e.preventDefault(); this.prevPracticeQuestion(); }
+      } else if (this.currentMode === 'mock') {
+        if (key === '1' || key === 'a') { e.preventDefault(); this.selectMockOption(0); }
+        else if (key === '2' || key === 'b') { e.preventDefault(); this.selectMockOption(1); }
+        else if (key === '3' || key === 'c') { e.preventDefault(); this.selectMockOption(2); }
+        else if (key === '4' || key === 'd') { e.preventDefault(); this.selectMockOption(3); }
+        else if (key === 'r') { e.preventDefault(); this.toggleMockReview(); }
+        else if (key === 'arrowright' || key === 'enter') { e.preventDefault(); this.nextMockQuestion(); }
+        else if (key === 'arrowleft') { e.preventDefault(); this.prevMockQuestion(); }
+      }
+    });
+  }
+
+  toggleZenMode() {
+    this.zenMode = !this.zenMode;
+    document.body.classList.toggle('zen-mode', this.zenMode);
   }
 
   // View Switching
@@ -55,8 +96,8 @@ class AptiPrepApp {
     const btnHome = document.getElementById('nav-btn-home');
     const btnPractice = document.getElementById('nav-btn-practice');
 
-    if (btnHome) btnHome.classList.toggle('bg-slate-100', viewName === 'dashboard');
-    if (btnPractice) btnPractice.classList.toggle('bg-slate-100', viewName === 'practice');
+    if (btnHome) btnHome.classList.toggle('bg-zinc-100', viewName === 'dashboard');
+    if (btnPractice) btnPractice.classList.toggle('bg-zinc-100', viewName === 'practice');
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -91,7 +132,7 @@ class AptiPrepApp {
       this.chapters = data.chapters || [];
       const badge = document.getElementById('total-questions-badge');
       if (badge) {
-        badge.textContent = `${data.totalQuestions.toLocaleString()} Total Questions`;
+        badge.textContent = `${data.totalQuestions.toLocaleString()} questions`;
       }
       this.renderChaptersGrid();
       this.populateChapterDropdown();
@@ -125,21 +166,18 @@ class AptiPrepApp {
     if (!grid) return;
 
     if (this.chapters.length === 0) {
-      grid.innerHTML = '<p class="text-slate-400 col-span-full">No chapters found.</p>';
+      grid.innerHTML = '<p class="text-zinc-400 text-xs col-span-full">No chapters found.</p>';
       return;
     }
 
     grid.innerHTML = this.chapters.map(ch => `
       <div onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')"
-           class="group bg-slate-50 hover:bg-indigo-50/50 border border-slate-200 hover:border-indigo-300 rounded-xl p-3.5 cursor-pointer transition flex flex-col justify-between">
+           class="bg-white hover:border-zinc-400 border border-zinc-200 rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
         <div>
-          <h4 class="font-bold text-slate-800 group-hover:text-indigo-700 text-sm line-clamp-1">${ch.name}</h4>
-          <span class="text-xs text-slate-500 mt-0.5 block">${ch.count} questions</span>
+          <h4 class="font-medium text-zinc-900 group-hover:text-zinc-700 text-xs line-clamp-1">${ch.name}</h4>
+          <span class="text-[11px] text-zinc-400">${ch.count} Qs</span>
         </div>
-        <div class="mt-3 flex items-center justify-between text-xs font-semibold text-indigo-600 opacity-80 group-hover:opacity-100">
-          <span>Start Test</span>
-          <svg class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
-        </div>
+        <span class="text-xs text-zinc-300 group-hover:text-zinc-600 transition">&rarr;</span>
       </div>
     `).join('');
   }
@@ -173,52 +211,53 @@ class AptiPrepApp {
 
     if (summaryBar) {
       summaryBar.innerHTML = `
-        <span class="bg-indigo-50 text-indigo-700 font-semibold px-2.5 py-1 rounded-md">Tests Taken: ${totalTests}</span>
-        <span class="bg-emerald-50 text-emerald-700 font-semibold px-2.5 py-1 rounded-md">Avg Score: ${avgScore}%</span>
-        <span class="bg-amber-50 text-amber-700 font-semibold px-2.5 py-1 rounded-md">Best: ${bestScore}%</span>
+        <span class="text-zinc-500">Taken: <strong class="text-zinc-900">${totalTests}</strong></span>
+        <span class="text-zinc-300">&bull;</span>
+        <span class="text-zinc-500">Avg: <strong class="text-zinc-900">${avgScore}%</strong></span>
+        <span class="text-zinc-300">&bull;</span>
+        <span class="text-zinc-500">Best: <strong class="text-zinc-900">${bestScore}%</strong></span>
       `;
     }
 
     tbody.innerHTML = this.attempts.map(att => {
       const date = new Date(att.timestamp);
-      const dateStr = date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+      const dateStr = date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
       const timeStr = date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 
-      let modeBadge = '<span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2.5 py-0.5 rounded-full uppercase">Mock Test</span>';
+      let modeBadge = '<span class="text-[11px] font-medium text-zinc-700">Mock</span>';
       if (att.mode === 'chapter_test') {
-        modeBadge = '<span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded-full uppercase">Chapter Test</span>';
+        modeBadge = '<span class="text-[11px] font-medium text-zinc-700">Chapter Test</span>';
       } else if (att.mode === 'practice') {
-        modeBadge = '<span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-0.5 rounded-full uppercase">Practice</span>';
+        modeBadge = '<span class="text-[11px] font-medium text-zinc-500">Practice</span>';
       }
 
       const accuracy = att.scorePercentage || 0;
-      let accBadge = 'bg-slate-100 text-slate-700';
-      if (accuracy >= 75) accBadge = 'bg-emerald-100 text-emerald-800 font-bold';
-      else if (accuracy >= 50) accBadge = 'bg-amber-100 text-amber-800 font-bold';
-      else accBadge = 'bg-rose-100 text-rose-800 font-bold';
+      let accBadge = 'text-zinc-700';
+      if (accuracy >= 75) accBadge = 'text-emerald-700 font-semibold';
+      else if (accuracy >= 50) accBadge = 'text-amber-700 font-semibold';
+      else accBadge = 'text-rose-600 font-semibold';
 
       const mins = Math.floor((att.timeTakenSeconds || 0) / 60);
       const secs = (att.timeTakenSeconds || 0) % 60;
       const timeTakenStr = mins > 0 ? `${mins}m ${secs.toString().padStart(2, '0')}s` : `${secs}s`;
 
       return `
-        <tr class="hover:bg-slate-50/80 transition">
-          <td class="py-3.5 px-4 font-medium text-slate-900 whitespace-nowrap">
-            <div>${dateStr}</div>
-            <div class="text-xs text-slate-400 font-normal">${timeStr}</div>
+        <tr class="hover:bg-zinc-50 transition">
+          <td class="py-2.5 px-4 font-normal text-zinc-600 whitespace-nowrap">
+            <span>${dateStr}</span> <span class="text-zinc-400 text-[10px] ml-1">${timeStr}</span>
           </td>
-          <td class="py-3.5 px-4 whitespace-nowrap">${modeBadge}</td>
-          <td class="py-3.5 px-4 font-medium text-slate-700 whitespace-nowrap">${att.chapter || 'All Chapters'}</td>
-          <td class="py-3.5 px-4 font-bold text-slate-900 whitespace-nowrap">
+          <td class="py-2.5 px-4 whitespace-nowrap">${modeBadge}</td>
+          <td class="py-2.5 px-4 font-medium text-zinc-800 whitespace-nowrap">${att.chapter || 'All Chapters'}</td>
+          <td class="py-2.5 px-4 font-mono font-medium text-zinc-900 whitespace-nowrap">
             ${att.correctCount} / ${att.totalQuestions}
           </td>
-          <td class="py-3.5 px-4 whitespace-nowrap">
-            <span class="text-xs px-2 py-0.5 rounded-full ${accBadge}">${accuracy}%</span>
+          <td class="py-2.5 px-4 whitespace-nowrap">
+            <span class="${accBadge}">${accuracy}%</span>
           </td>
-          <td class="py-3.5 px-4 text-slate-600 font-mono text-xs whitespace-nowrap">${timeTakenStr}</td>
-          <td class="py-3.5 px-4 text-right whitespace-nowrap">
-            <button onclick="app.viewPastAttempt('${att.attemptId}')" class="px-3 py-1 bg-slate-100 hover:bg-indigo-50 hover:text-indigo-600 text-slate-700 font-semibold text-xs rounded-lg transition">
-              Review
+          <td class="py-2.5 px-4 text-zinc-500 font-mono text-[11px] whitespace-nowrap">${timeTakenStr}</td>
+          <td class="py-2.5 px-4 text-right whitespace-nowrap">
+            <button onclick="app.viewPastAttempt('${att.attemptId}')" class="px-2.5 py-1 text-[11px] font-medium text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 rounded transition">
+              Review &rarr;
             </button>
           </td>
         </tr>
@@ -270,21 +309,15 @@ class AptiPrepApp {
     const subtitle = document.getElementById('practice-mode-subtitle');
 
     if (type === 'test') {
-      if (btnTest) btnTest.className = 'px-3 py-1.5 rounded-lg bg-white text-indigo-700 shadow-xs font-bold transition';
-      if (btnStudy) btnStudy.className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition font-medium';
-      if (badge) {
-        badge.className = 'text-xs bg-indigo-100 text-indigo-800 font-bold px-2.5 py-0.5 rounded-full uppercase';
-        badge.textContent = 'Chapter Test';
-      }
-      if (subtitle) subtitle.textContent = 'Answers & solutions shown upon submission';
+      if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
+      if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
+      if (badge) badge.textContent = 'Chapter Test';
+      if (subtitle) subtitle.textContent = 'Answers revealed on submission';
     } else {
-      if (btnStudy) btnStudy.className = 'px-3 py-1.5 rounded-lg bg-white text-emerald-700 shadow-xs font-bold transition';
-      if (btnTest) btnTest.className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition font-medium';
-      if (badge) {
-        badge.className = 'text-xs bg-emerald-100 text-emerald-800 font-bold px-2.5 py-0.5 rounded-full uppercase';
-        badge.textContent = 'Study Mode';
-      }
-      if (subtitle) subtitle.textContent = 'Instant answers & step-by-step explanations';
+      if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
+      if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
+      if (badge) badge.textContent = 'Study Mode';
+      if (subtitle) subtitle.textContent = 'Instant answers & explanation';
     }
 
     this.renderPracticeQuestion();
@@ -304,7 +337,7 @@ class AptiPrepApp {
     const isTestMode = (this.practice.modeType === 'test');
 
     // Header info
-    document.getElementById('practice-q-number').textContent = `Question ${current} of ${total}`;
+    document.getElementById('practice-q-number').textContent = `Q${current}`;
     document.getElementById('practice-q-chapter').textContent = q.chapter;
     document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}`;
 
@@ -312,7 +345,7 @@ class AptiPrepApp {
     const fillPercent = (current / total) * 100;
     document.getElementById('practice-progress-fill').style.width = `${fillPercent}%`;
 
-    // Question text (clean English, no Hindi)
+    // Question text (clean English)
     document.getElementById('practice-q-text').textContent = q.question;
 
     // Options Container
@@ -321,38 +354,38 @@ class AptiPrepApp {
     const letters = ['A', 'B', 'C', 'D'];
 
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
-      let cardStyle = 'border-slate-200 hover:border-slate-300 bg-white text-slate-800';
+      let cardStyle = 'border-zinc-200 hover:border-zinc-300 bg-white text-zinc-800';
       let icon = letters[idx];
-      let iconStyle = 'bg-slate-100 text-slate-600';
+      let iconStyle = 'border border-zinc-200 text-zinc-500 bg-zinc-50';
 
       if (isTestMode) {
-        // IN TEST MODE: Only show that this option is selected. DO NOT show correct or wrong!
+        // IN TEST MODE: Only show that this option is selected. DO NOT reveal answer!
         if (selected === idx) {
-          cardStyle = 'border-indigo-600 bg-indigo-50/70 text-indigo-900 font-semibold ring-1 ring-indigo-600';
-          iconStyle = 'bg-indigo-600 text-white';
+          cardStyle = 'border-zinc-900 bg-zinc-50 text-zinc-900 font-medium ring-1 ring-zinc-900';
+          iconStyle = 'bg-zinc-900 text-white border-zinc-900';
         }
       } else {
-        // IN STUDY MODE: Show instant feedback
+        // IN STUDY MODE: Instant feedback
         if (selected !== undefined && selected !== null) {
           if (idx === q.correctAnswer) {
-            cardStyle = 'border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold ring-1 ring-emerald-500';
-            iconStyle = 'bg-emerald-600 text-white';
+            cardStyle = 'border-emerald-500 bg-emerald-50/60 text-emerald-950 font-medium ring-1 ring-emerald-500';
+            iconStyle = 'bg-emerald-600 text-white border-emerald-600';
             icon = '✓';
           } else if (idx === selected) {
-            cardStyle = 'border-rose-500 bg-rose-50 text-rose-900 font-semibold ring-1 ring-rose-500';
-            iconStyle = 'bg-rose-600 text-white';
+            cardStyle = 'border-rose-400 bg-rose-50/60 text-rose-950 font-medium ring-1 ring-rose-400';
+            iconStyle = 'bg-rose-600 text-white border-rose-600';
             icon = '✕';
           } else {
-            cardStyle = 'border-slate-200 bg-slate-50/50 text-slate-400 opacity-60';
+            cardStyle = 'border-zinc-100 bg-zinc-50/50 text-zinc-400 opacity-60';
           }
         }
       }
 
       return `
         <div onclick="app.selectPracticeOption(${idx})"
-             class="option-label p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3">
-          <span class="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold ${iconStyle}">${icon}</span>
-          <span class="text-sm font-medium leading-normal">${opt}</span>
+             class="option-label p-3.5 rounded-lg border ${cardStyle} cursor-pointer flex items-center gap-3 text-xs sm:text-sm">
+          <span class="w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${iconStyle}">${icon}</span>
+          <span class="leading-relaxed">${opt}</span>
         </div>
       `;
     }).join('');
@@ -367,16 +400,16 @@ class AptiPrepApp {
       const expText = document.getElementById('practice-explanation-text');
 
       if (isCorrect) {
-        expBox.className = 'mt-6 p-4 rounded-xl border border-emerald-200 bg-emerald-50 text-emerald-900';
-        badge.className = 'text-xs font-bold px-2 py-0.5 rounded-full uppercase bg-emerald-600 text-white';
+        expBox.className = 'mt-5 p-3.5 rounded-lg border border-emerald-200 bg-emerald-50/50 text-emerald-900 text-xs';
+        badge.className = 'font-semibold uppercase tracking-wider text-[10px] px-1.5 py-0.5 rounded bg-emerald-600 text-white';
         badge.textContent = 'Correct';
       } else {
-        expBox.className = 'mt-6 p-4 rounded-xl border border-rose-200 bg-rose-50 text-rose-900';
-        badge.className = 'text-xs font-bold px-2 py-0.5 rounded-full uppercase bg-rose-600 text-white';
+        expBox.className = 'mt-5 p-3.5 rounded-lg border border-rose-200 bg-rose-50/50 text-rose-900 text-xs';
+        badge.className = 'font-semibold uppercase tracking-wider text-[10px] px-1.5 py-0.5 rounded bg-rose-600 text-white';
         badge.textContent = 'Incorrect';
       }
 
-      correctLabel.textContent = `Correct Answer: Option ${letters[q.correctAnswer] || 'A'}`;
+      correctLabel.textContent = `Correct: Option ${letters[q.correctAnswer] || 'A'}`;
       expText.textContent = q.explanation || 'No detailed explanation provided.';
     } else {
       expBox.classList.add('hidden');
@@ -388,9 +421,9 @@ class AptiPrepApp {
     if (btnPrev) btnPrev.disabled = (this.practice.currentIndex === 0);
     if (btnNext) {
       if (this.practice.currentIndex === total - 1) {
-        btnNext.innerHTML = `<span>Submit Chapter Test</span>`;
+        btnNext.textContent = 'Submit Test';
       } else {
-        btnNext.innerHTML = `<span>Save & Next</span><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>`;
+        btnNext.innerHTML = `<span>Save & Next</span> <span>&rarr;</span>`;
       }
     }
 
@@ -421,7 +454,6 @@ class AptiPrepApp {
       this.practice.currentIndex++;
       this.renderPracticeQuestion();
     } else {
-      // Last question reached - prompt to submit chapter test!
       this.promptSubmitChapterTest();
     }
   }
@@ -445,11 +477,11 @@ class AptiPrepApp {
 
     const statsEl = document.getElementById('practice-score-stats');
     if (statsEl) {
-      statsEl.textContent = `Answered: ${answeredCount} / ${total}`;
+      statsEl.textContent = `${answeredCount} / ${total} answered`;
     }
 
     const summaryEl = document.getElementById('practice-palette-summary');
-    if (summaryEl) summaryEl.textContent = `${answeredCount} of ${total} Answered`;
+    if (summaryEl) summaryEl.textContent = `${answeredCount} / ${total}`;
   }
 
   renderPracticePalette() {
@@ -463,25 +495,23 @@ class AptiPrepApp {
       const isAnswered = (selected !== undefined && selected !== null);
       const isCurrent = (idx === this.practice.currentIndex);
 
-      let btnClass = 'bg-slate-100 text-slate-700 hover:bg-slate-200 border-slate-200';
+      let btnClass = 'bg-zinc-50 text-zinc-600 hover:bg-zinc-100 border-zinc-200';
 
       if (isAnswered) {
         if (isTestMode) {
-          // In test mode, all answered buttons are cleanly marked in indigo
-          btnClass = 'bg-indigo-600 text-white font-bold border-indigo-700';
+          btnClass = 'bg-zinc-900 text-white font-medium border-zinc-900';
         } else {
-          // In study mode, show green/red
           btnClass = (selected === q.correctAnswer)
-            ? 'bg-emerald-500 text-white font-bold border-emerald-600'
-            : 'bg-rose-500 text-white font-bold border-rose-600';
+            ? 'bg-emerald-600 text-white font-medium border-emerald-600'
+            : 'bg-rose-600 text-white font-medium border-rose-600';
         }
       }
 
-      const ringClass = isCurrent ? 'ring-2 ring-indigo-500 ring-offset-2' : '';
+      const ringClass = isCurrent ? 'ring-2 ring-zinc-800 ring-offset-1' : '';
 
       return `
         <button onclick="app.jumpPracticeQuestion(${idx})"
-                class="palette-btn w-full py-2 rounded-lg text-xs font-semibold border ${btnClass} ${ringClass} transition">
+                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition">
           ${idx + 1}
         </button>
       `;
@@ -494,7 +524,7 @@ class AptiPrepApp {
     const unanswered = total - answered;
 
     const confirmed = confirm(
-      `Submit Chapter Test for "${this.practice.chapter}"?\n\n• Answered: ${answered}\n• Unanswered: ${unanswered}\n• Total Questions: ${total}\n\nUpon submission, your full score, correct answers, and step-by-step solutions will be shown.`
+      `Submit Chapter Test for "${this.practice.chapter}"?\n\nAnswered: ${answered}\nUnanswered: ${unanswered}\nTotal: ${total}\n\nUpon submission, your full score, correct answers, and step-by-step solutions will be shown.`
     );
 
     if (confirmed) {
@@ -524,7 +554,6 @@ class AptiPrepApp {
 
       const data = await res.json();
       if (data.success && data.attempt) {
-        // Display full results & review screen with correct answers!
         this.renderResults(data.attempt);
       } else {
         alert('Failed to submit chapter test.');
@@ -541,7 +570,7 @@ class AptiPrepApp {
 
   startMockTestPrompt() {
     const confirmed = confirm(
-      "Ready to start the Full Mock Test?\n\n• 30 Questions uniformly distributed across all chapters\n• 30 Minutes countdown timer (1 min per question)\n• Auto-submits when time expires\n\nClick OK to begin."
+      "Start 30-minute Full Mock Examination?\n\n• 30 questions uniformly balanced across chapters\n• 30 minutes timed test\n• Automatic submission on timeout\n\nClick OK to begin."
     );
     if (confirmed) {
       this.startMockTest();
@@ -588,11 +617,11 @@ class AptiPrepApp {
 
       if (timerContainer) {
         if (this.mock.timeLeftSeconds <= 60) {
-          timerContainer.className = 'flex items-center gap-2 bg-rose-600 px-4 py-2 rounded-xl border border-rose-500 shadow-inner timer-critical';
+          timerContainer.className = 'flex items-center gap-1.5 bg-rose-50 px-2.5 py-1 rounded-md border border-rose-200 text-rose-700 font-mono font-bold';
         } else if (this.mock.timeLeftSeconds <= 300) {
-          timerContainer.className = 'flex items-center gap-2 bg-amber-600 px-4 py-2 rounded-xl border border-amber-500 shadow-inner';
+          timerContainer.className = 'flex items-center gap-1.5 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200 text-amber-700 font-mono font-bold';
         } else {
-          timerContainer.className = 'flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-xl border border-slate-700 shadow-inner';
+          timerContainer.className = 'flex items-center gap-1.5 bg-zinc-100 px-2.5 py-1 rounded-md border border-zinc-200 text-zinc-800 font-mono font-medium';
         }
       }
     };
@@ -635,11 +664,11 @@ class AptiPrepApp {
     const reviewLabel = document.getElementById('mock-review-toggle-label');
     if (reviewBtn && reviewLabel) {
       if (isMarked) {
-        reviewBtn.className = 'px-3 py-1.5 rounded-lg bg-purple-600 text-white font-semibold text-xs flex items-center gap-1.5 shadow-sm transition';
-        reviewLabel.textContent = 'Marked for Review';
+        reviewBtn.className = 'px-2.5 py-1 rounded-md bg-amber-100 text-amber-900 border border-amber-300 text-[11px] font-medium transition';
+        reviewLabel.textContent = '★ Marked for Review';
       } else {
-        reviewBtn.className = 'px-3 py-1.5 rounded-lg border border-purple-200 text-purple-700 hover:bg-purple-50 text-xs font-semibold flex items-center gap-1.5 transition';
-        reviewLabel.textContent = 'Mark for Review';
+        reviewBtn.className = 'px-2.5 py-1 rounded-md border border-zinc-200 text-zinc-600 hover:bg-zinc-50 text-[11px] font-medium transition';
+        reviewLabel.textContent = '☆ Mark for Review';
       }
     }
 
@@ -654,17 +683,17 @@ class AptiPrepApp {
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
       const isSelected = (selectedOption === idx);
       const cardStyle = isSelected
-        ? 'border-indigo-600 bg-indigo-50/70 text-indigo-900 font-semibold ring-1 ring-indigo-600'
-        : 'border-slate-200 hover:border-slate-300 bg-white text-slate-800';
+        ? 'border-zinc-900 bg-zinc-50 text-zinc-900 font-medium ring-1 ring-zinc-900'
+        : 'border-zinc-200 hover:border-zinc-300 bg-white text-zinc-800';
 
       return `
         <label onclick="app.selectMockOption(${idx})"
-               class="option-label p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3">
+               class="option-label p-3.5 rounded-lg border ${cardStyle} cursor-pointer flex items-center gap-3 text-xs sm:text-sm">
           <input type="radio" name="mock_option" value="${idx}" ${isSelected ? 'checked' : ''} class="hidden">
-          <span class="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold ${
-            isSelected ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-600'
+          <span class="w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${
+            isSelected ? 'bg-zinc-900 text-white border-zinc-900' : 'border border-zinc-200 text-zinc-500 bg-zinc-50'
           }">${letters[idx]}</span>
-          <span class="text-sm font-medium leading-normal">${opt}</span>
+          <span class="leading-relaxed">${opt}</span>
         </label>
       `;
     }).join('');
@@ -674,7 +703,7 @@ class AptiPrepApp {
     const btnNext = document.getElementById('mock-btn-next');
     if (btnPrev) btnPrev.disabled = (this.mock.currentIndex === 0);
     if (btnNext) {
-      btnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next';
+      btnNext.innerHTML = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : `<span>Save & Next</span> <span>&rarr;</span>`;
     }
 
     this.updateMockPalette();
@@ -740,18 +769,18 @@ class AptiPrepApp {
       if (isAnswered) answeredCount++;
       else unansweredCount++;
 
-      let btnClass = 'bg-slate-100 text-slate-700 hover:bg-slate-200 border-slate-200';
+      let btnClass = 'bg-zinc-50 text-zinc-600 hover:bg-zinc-100 border-zinc-200';
       if (isReview) {
-        btnClass = 'bg-purple-600 text-white font-bold border-purple-700';
+        btnClass = 'bg-amber-400 text-zinc-950 font-medium border-amber-500';
       } else if (isAnswered) {
-        btnClass = 'bg-emerald-500 text-white font-bold border-emerald-600';
+        btnClass = 'bg-zinc-900 text-white font-medium border-zinc-900';
       }
 
-      const ringClass = isCurrent ? 'ring-2 ring-indigo-500 ring-offset-2' : '';
+      const ringClass = isCurrent ? 'ring-2 ring-zinc-800 ring-offset-1' : '';
 
       return `
         <button onclick="app.jumpMockQuestion(${idx})"
-                class="palette-btn w-full py-2.5 rounded-lg text-xs font-semibold border ${btnClass} ${ringClass} transition">
+                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition">
           ${idx + 1}
         </button>
       `;
@@ -867,21 +896,18 @@ class AptiPrepApp {
     const modeTag = document.getElementById('result-mode-tag');
     if (modeTag) {
       if (attempt.mode === 'mock') {
-        modeTag.textContent = 'Full Mock Test';
-        modeTag.className = 'text-xs bg-indigo-100 text-indigo-800 font-bold px-2.5 py-0.5 rounded-full uppercase';
+        modeTag.textContent = 'Mock Examination Result';
       } else if (attempt.mode === 'chapter_test') {
         modeTag.textContent = `Chapter Test: ${attempt.chapter}`;
-        modeTag.className = 'text-xs bg-blue-100 text-blue-800 font-bold px-2.5 py-0.5 rounded-full uppercase';
       } else {
         modeTag.textContent = `Practice: ${attempt.chapter || 'Chapter'}`;
-        modeTag.className = 'text-xs bg-emerald-100 text-emerald-800 font-bold px-2.5 py-0.5 rounded-full uppercase';
       }
     }
 
     const timeEl = document.getElementById('result-timestamp');
     if (timeEl) {
       const d = new Date(attempt.timestamp);
-      timeEl.textContent = d.toLocaleString();
+      timeEl.textContent = d.toLocaleString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
     }
 
     const titleEl = document.getElementById('result-score-title');
@@ -892,20 +918,20 @@ class AptiPrepApp {
     const feedbackEl = document.getElementById('result-feedback-message');
     if (feedbackEl) {
       const pct = attempt.scorePercentage || 0;
-      if (pct >= 85) feedbackEl.textContent = 'Outstanding result! You demonstrated mastery of these concepts.';
-      else if (pct >= 70) feedbackEl.textContent = 'Great score! Solid grasp of concepts, keep refining tricky questions.';
-      else if (pct >= 50) feedbackEl.textContent = 'Decent effort. Check the detailed explanations below to learn the solutions.';
-      else feedbackEl.textContent = 'Needs revision. Review each solution carefully and re-test yourself.';
+      if (pct >= 85) feedbackEl.textContent = 'Outstanding accuracy. Concepts are well-cemented.';
+      else if (pct >= 70) feedbackEl.textContent = 'Strong performance. Review occasional misses below.';
+      else if (pct >= 50) feedbackEl.textContent = 'Satisfactory. Read through the step-by-step solutions below.';
+      else feedbackEl.textContent = 'Focus on reviewing the missed questions and their formulas below.';
     }
 
-    // Stats Pills
+    // Stats
     document.getElementById('res-correct').textContent = attempt.correctCount;
     document.getElementById('res-incorrect').textContent = attempt.incorrectCount;
     document.getElementById('res-unattempted').textContent = attempt.unattemptedCount;
 
     const mins = Math.floor((attempt.timeTakenSeconds || 0) / 60);
     const secs = (attempt.timeTakenSeconds || 0) % 60;
-    document.getElementById('res-time-taken').textContent = mins > 0 ? `${mins}:${secs.toString().padStart(2, '0')}` : `${secs}s`;
+    document.getElementById('res-time-taken').textContent = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
 
     // Chapter Breakdown
     this.renderChapterBreakdown(attempt.chapterBreakdown || {});
@@ -927,30 +953,29 @@ class AptiPrepApp {
 
     const chapters = Object.keys(breakdown);
     if (chapters.length === 0) {
-      container.innerHTML = '<p class="text-xs text-slate-400 col-span-full">No chapter breakdown available.</p>';
+      container.innerHTML = '<p class="text-xs text-zinc-400 col-span-full">No chapter breakdown recorded.</p>';
       return;
     }
 
     container.innerHTML = chapters.map(chap => {
       const stats = breakdown[chap];
       const acc = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
-      let barColor = 'bg-emerald-500';
+      let barColor = 'bg-zinc-900';
       if (acc < 50) barColor = 'bg-rose-500';
       else if (acc < 75) barColor = 'bg-amber-500';
 
       return `
-        <div class="bg-slate-50 border border-slate-200 rounded-xl p-3.5 space-y-2">
-          <div class="flex justify-between items-center text-xs">
-            <span class="font-bold text-slate-800 line-clamp-1">${chap}</span>
-            <span class="font-extrabold text-slate-700">${acc}%</span>
+        <div class="bg-zinc-50 border border-zinc-100 rounded-lg p-3 space-y-1.5 text-xs">
+          <div class="flex justify-between items-center">
+            <span class="font-medium text-zinc-800 line-clamp-1">${chap}</span>
+            <span class="font-mono font-bold text-zinc-900">${acc}%</span>
           </div>
-          <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+          <div class="w-full bg-zinc-200 h-1 rounded-full overflow-hidden">
             <div class="${barColor} h-full rounded-full" style="width: ${acc}%"></div>
           </div>
-          <div class="flex justify-between text-[11px] text-slate-500 font-medium">
-            <span>Correct: ${stats.correct}/${stats.total}</span>
-            <span>Incorrect: ${stats.incorrect}</span>
-            <span>Unattempted: ${stats.unattempted}</span>
+          <div class="flex justify-between text-[11px] text-zinc-400">
+            <span>${stats.correct}/${stats.total} correct</span>
+            <span>${stats.incorrect} wrong</span>
           </div>
         </div>
       `;
@@ -965,9 +990,9 @@ class AptiPrepApp {
       const btn = document.getElementById(`filter-btn-${f}`);
       if (btn) {
         if (f === filterType) {
-          btn.className = 'px-3 py-1.5 rounded-lg bg-white text-slate-900 font-bold shadow-xs';
+          btn.className = 'px-2.5 py-1 rounded-md bg-white text-zinc-900 font-medium shadow-xs';
         } else {
-          btn.className = 'px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 font-medium';
+          btn.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900';
         }
       }
     });
@@ -990,7 +1015,7 @@ class AptiPrepApp {
     });
 
     if (filtered.length === 0) {
-      list.innerHTML = `<div class="p-8 text-center text-slate-400 text-sm">No questions match filter: ${filter}</div>`;
+      list.innerHTML = `<div class="p-6 text-center text-zinc-400 text-xs">No questions in filter category.</div>`;
       return;
     }
 
@@ -998,63 +1023,60 @@ class AptiPrepApp {
 
     list.innerHTML = filtered.map((item, idx) => {
       let statusTag = '';
-      let borderTag = 'border-slate-200';
 
       if (item.isCorrect) {
-        statusTag = '<span class="bg-emerald-100 text-emerald-800 font-bold text-xs px-2.5 py-0.5 rounded-full uppercase">Correct (+1)</span>';
-        borderTag = 'border-emerald-200';
+        statusTag = '<span class="text-emerald-700 font-medium text-xs">Correct (+1)</span>';
       } else if (item.userAnswer === null) {
-        statusTag = '<span class="bg-slate-100 text-slate-600 font-bold text-xs px-2.5 py-0.5 rounded-full uppercase">Unattempted (0)</span>';
-        borderTag = 'border-slate-200';
+        statusTag = '<span class="text-zinc-400 font-medium text-xs">Skipped (0)</span>';
       } else {
-        statusTag = '<span class="bg-rose-100 text-rose-800 font-bold text-xs px-2.5 py-0.5 rounded-full uppercase">Incorrect (0)</span>';
-        borderTag = 'border-rose-200';
+        statusTag = '<span class="text-rose-600 font-medium text-xs">Incorrect (0)</span>';
       }
 
       const optionsHtml = (item.options || []).map((opt, optIdx) => {
-        let optStyle = 'border-slate-100 bg-slate-50/50 text-slate-700';
-        let badgeStyle = 'bg-slate-200 text-slate-700';
+        let optStyle = 'border-zinc-100 bg-zinc-50/50 text-zinc-700';
+        let badgeStyle = 'border border-zinc-200 text-zinc-500 bg-white';
         let badgeText = letters[optIdx];
 
         if (optIdx === item.correctAnswer) {
-          optStyle = 'border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold ring-1 ring-emerald-400';
-          badgeStyle = 'bg-emerald-600 text-white';
+          optStyle = 'border-emerald-300 bg-emerald-50/60 text-emerald-950 font-medium';
+          badgeStyle = 'bg-emerald-600 text-white border-emerald-600';
           badgeText = '✓';
         } else if (optIdx === item.userAnswer && !item.isCorrect) {
-          optStyle = 'border-rose-400 bg-rose-50 text-rose-900 font-semibold ring-1 ring-rose-400';
-          badgeStyle = 'bg-rose-600 text-white';
+          optStyle = 'border-rose-300 bg-rose-50/60 text-rose-950 font-medium';
+          badgeStyle = 'bg-rose-600 text-white border-rose-600';
           badgeText = '✕';
         }
 
         return `
-          <div class="p-3 rounded-xl border ${optStyle} flex items-center gap-3 text-sm">
-            <span class="w-6 h-6 rounded-md flex items-center justify-center text-xs font-bold ${badgeStyle}">${badgeText}</span>
-            <span>${opt}</span>
-            ${optIdx === item.userAnswer ? '<span class="ml-auto text-xs font-bold px-2 py-0.5 rounded bg-slate-200 text-slate-700">Your Answer</span>' : ''}
+          <div class="p-2.5 rounded-lg border ${optStyle} flex items-center gap-2.5 text-xs">
+            <span class="w-5 h-5 rounded flex items-center justify-center text-[10px] font-semibold ${badgeStyle}">${badgeText}</span>
+            <span class="leading-relaxed">${opt}</span>
+            ${optIdx === item.userAnswer ? '<span class="ml-auto text-[10px] text-zinc-400 font-normal">Your Choice</span>' : ''}
           </div>
         `;
       }).join('');
 
       return `
-        <div class="bg-white rounded-2xl p-6 border ${borderTag} shadow-xs space-y-4">
-          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
-            <div class="flex items-center gap-3">
-              <span class="font-bold text-slate-800 text-sm">Q${idx + 1}</span>
-              <span class="text-xs bg-slate-100 text-slate-700 font-semibold px-2.5 py-0.5 rounded">${item.chapter}</span>
+        <div class="bg-white rounded-xl p-5 border border-zinc-200 space-y-3">
+          <div class="flex items-center justify-between border-b border-zinc-100 pb-2 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="font-mono font-medium text-zinc-500">Q${idx + 1}</span>
+              <span class="text-zinc-300">&bull;</span>
+              <span class="text-zinc-500">${item.chapter}</span>
             </div>
             ${statusTag}
           </div>
 
-          <div class="text-slate-900 font-medium text-sm leading-relaxed question-content">
+          <div class="text-zinc-900 font-medium text-xs sm:text-sm question-content leading-relaxed">
             ${item.question}
           </div>
 
-          <div class="space-y-2 pt-1">
+          <div class="space-y-1.5 pt-1">
             ${optionsHtml}
           </div>
 
-          <div class="bg-indigo-50/60 border border-indigo-100 rounded-xl p-3.5 text-xs text-slate-700 space-y-1">
-            <span class="font-bold text-indigo-900 block">Explanation & Solution:</span>
+          <div class="bg-zinc-50 border border-zinc-100 rounded-lg p-3 text-xs text-zinc-600 space-y-1">
+            <span class="font-medium text-zinc-900 block text-[11px] uppercase tracking-wider">Solution:</span>
             <p class="leading-relaxed">${item.explanation || 'Option ' + letters[item.correctAnswer]}</p>
           </div>
         </div>
