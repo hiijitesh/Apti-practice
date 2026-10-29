@@ -4207,7 +4207,9 @@
     "question": "I. Sum is Same Which discount is better in: 10% & 20% or 14% & 16%?",
     "options": [
       "10% & 20%",
-      "14% & 16% 10%, 20% & 30% or 15%, 20% & 25% (a) 10%, 20% & 30% (b) 15%, 20% & 25%"
+      "14% & 16% 10%, 20% & 30% or 15%, 20% & 25% (a) 10%, 20% & 30% (b) 15%, 20% & 25%",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10% & 20%)"
@@ -4235,7 +4237,9 @@
     "question": "II. Sum is NOT Same Which discount is better in: 20% & 40% and 30% & 20%",
     "options": [
       "20% & 40%",
-      "30% & 20%"
+      "30% & 20%",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C"
@@ -4248,7 +4252,9 @@
     "question": "Which discount is better in: 30%, 30% or 50% & 5%",
     "options": [
       "30%, 30%",
-      "50% & 5%"
+      "50% & 5%",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30%, 30%)"
@@ -7501,7 +7507,9 @@
     "question": "Two years ago, the population of a small town was 60,000. It increased by 5% in the first year, but due to the pandemic. it decreased by 10% in the second year. What is its present population (after the end of 2 years) ?",
     "options": [
       "Option A",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | Exam: SSC CHSL 2023"
@@ -10319,7 +10327,9 @@
     "question": "If oranges are bought at 11 for ₹ 10 and sold at 10 for ₹ 11 , what is the gain or loss percentage?",
     "options": [
       "= 11%",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D"
@@ -10767,7 +10777,9 @@
     "question": "The price of a land passing through three hands rises on the whole by 65%. The first and second sellers earned 20% and 25% profit, respectively. Find the profit percentage earned by the third seller.",
     "options": [
       "15%",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C"
@@ -11395,7 +11407,9 @@
     "question": "A dealer sells rice at a profit of and uses a weight that is less than the actual weight. Find his percentage gain.",
     "options": [
       "26%",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C"
@@ -12368,7 +12382,9 @@
     "question": "If , then ?",
     "options": [
       "29: 21",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | Exam: SSC MTS 2023"
@@ -12636,7 +12652,9 @@
     "question": "Find Fourth Proportion ( ) of .",
     "options": [
       "20",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20)"
@@ -12754,7 +12772,9 @@
     "question": "The third proportional to ( ) and ( ) is:",
     "options": [
       "Option A",
-      "(c) (d) ( )"
+      "(c) (d) ( )",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | ((c) (d) ( ))"
@@ -12797,7 +12817,9 @@
     "question": "Find the mean proportion of. and",
     "options": [
       "1",
-      "(c) (d) √"
+      "(c) (d) √",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | ((c) (d) √)"
@@ -12885,7 +12907,9 @@
     "question": "Find Duplicate Ratio ( ) of",
     "options": [
       "4:6",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B"
@@ -12913,7 +12937,9 @@
     "question": "25",
     "options": [
       "4:5",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C"
@@ -12926,7 +12952,9 @@
     "question": "Question 48",
     "options": [
       "6:5",
-      "Type - 7"
+      "Type - 7",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C"
@@ -15684,7 +15712,9 @@
     "question": "If 7 men working 7 hours a day for each of 7 days produce 7 units of work, then the units of work produced by 5 men working 5 hours a day for each of 5 days is?",
     "options": [
       "5",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | Exam: SSC MTS 2024"
@@ -16492,7 +16522,9 @@
     "question": "A & B together can do a work in 5 days. If do the work with twice of his efficiency and B with one -third of his efficiency, then the work is completed in 3 days. In how many days 'A' alone can do the work?",
     "options": [
       "5",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | Exam: SSC CGL 2022"
@@ -16565,7 +16597,9 @@
     "question": "A and B can do a piece of work in 20 days and 25 days, respectively. They work on alternate days, starting with A till the work gets completed. How long (in days) would it take A and B to complete the work?",
     "options": [
       "23(1/5)",
-      "22(1/5)"
+      "22(1/5)",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (22(1/5)) | Exam: SSC CGL 2023"
@@ -16638,7 +16672,9 @@
     "question": "If and can do a piece of work in 30, 20 and 10 days respectively. is assisted by on one day and by C on the next day, alternately. How long would the work take to finish?",
     "options": [
       "10",
-      "Option B"
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | Exam: SSC MTS 2023"
@@ -16816,7 +16852,9 @@
     "question": "Five men can complete work in 20 days. Ten women can complete the same work in 15 days. Two men and six women started working together. After 5 days, three women left the work and a new man joined the work. The group continued working together till the end of the work. In how many days will they be able to do the remaining work?",
     "options": [
       "14",
-      "19"
+      "19",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (14) | Exam: SSC CGL 2023"
@@ -18449,7 +18487,9 @@
     "question": "If a man travels at on a journey and returns at , then his average speed for the journey is:",
     "options": [
       "(b) (c) (d) SSC CGL 2022 Pre",
-      "Distance is Different"
+      "Distance is Different",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (Distance is Different)"

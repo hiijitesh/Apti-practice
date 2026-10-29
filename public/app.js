@@ -52,12 +52,18 @@ class AptiPrepApp {
     this.isTestPaused = false;
     this.pauseStartTime = null;
     this.totalPausedDuration = 0; // ms
+    this.isSubmitting = false;
+
+    // Modal Chapter Select State
+    this.modalSubject = 'aptitude';
+    this.modalScienceSub = 'all';
 
     this.init();
     this.bindKeyboardShortcuts();
   }
 
   async init() {
+    this.initFontScale();
     this.setupFullscreenListeners();
     this.updateSheetStatusUI();
     this.updateUserSessionUI();
@@ -148,6 +154,10 @@ class AptiPrepApp {
   }
 
   handleFullscreenChange() {
+    if (this.isSubmitting || this.currentMode === 'results' || this.currentMode === 'dashboard' || this.currentMode === 'login') {
+      return;
+    }
+
     const isFullscreen = !!(
       document.fullscreenElement ||
       document.webkitFullscreenElement ||
@@ -197,19 +207,28 @@ class AptiPrepApp {
     }
   }
 
+  hideTestPausedModal() {
+    this.isTestPaused = false;
+    const modal = document.getElementById('test-paused-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
   pauseMockTest() {
+    if (this.isSubmitting || this.currentMode !== 'mock') return;
     this.isTestPaused = true;
     this.clearMockTimer();
     this.showTestPausedModal('Full Mock Examination', false);
   }
 
   pausePracticeTest() {
+    if (this.isSubmitting || this.currentMode !== 'practice' || this.practice.modeType !== 'test') return;
     this.isTestPaused = true;
     this.pauseStartTime = Date.now();
     this.showTestPausedModal(`Chapter Test: ${this.practice.chapter}`, true);
   }
 
   showTestPausedModal(testTitle, canSwitchToStudy = false) {
+    if (this.isSubmitting) return;
     const modal = document.getElementById('test-paused-modal');
     const titleEl = document.getElementById('test-paused-exam-name');
     const studyBtn = document.getElementById('pause-modal-study-btn');
@@ -413,6 +432,34 @@ class AptiPrepApp {
     document.body.classList.toggle('zen-mode', this.zenMode);
   }
 
+  // ==========================================
+  // CBT FONT SIZE ZOOM SCALING (A / A+ / A++)
+  // ==========================================
+
+  cycleFontSize() {
+    const scales = ['normal', 'lg', 'xl'];
+    const current = localStorage.getItem('apti_font_scale') || 'normal';
+    const nextIdx = (scales.indexOf(current) + 1) % scales.length;
+    const next = scales[nextIdx];
+    this.setFontScale(next);
+  }
+
+  setFontScale(scale) {
+    document.body.classList.remove('font-scale-lg', 'font-scale-xl');
+    if (scale === 'lg') document.body.classList.add('font-scale-lg');
+    else if (scale === 'xl') document.body.classList.add('font-scale-xl');
+    localStorage.setItem('apti_font_scale', scale);
+
+    const labels = { 'normal': 'A', 'lg': 'A+', 'xl': 'A++' };
+    const btnText = document.querySelectorAll('.font-scale-indicator');
+    btnText.forEach(el => el.textContent = labels[scale] || 'A');
+  }
+
+  initFontScale() {
+    const saved = localStorage.getItem('apti_font_scale') || 'normal';
+    this.setFontScale(saved);
+  }
+
   // View Switching
   switchView(viewName) {
     this.currentMode = viewName;
@@ -432,6 +479,9 @@ class AptiPrepApp {
   }
 
   showDashboard() {
+    this.isSubmitting = false;
+    this.hideTestPausedModal();
+
     if (!this.currentUserEmail) {
       this.switchView('login');
       return;
@@ -443,24 +493,142 @@ class AptiPrepApp {
       }
       this.clearMockTimer();
     }
-    this.isTestPaused = false;
-    const pauseModal = document.getElementById('test-paused-modal');
-    if (pauseModal) pauseModal.classList.add('hidden');
     this.exitFullscreen();
     this.loadAttempts();
     this.switchView('dashboard');
   }
 
   showChapterSelect() {
+    this.openChapterSelectModal();
+  }
+
+  // ==========================================
+  // CHAPTER TEST SELECTION MODAL
+  // ==========================================
+
+  openChapterSelectModal(defaultSubj = 'aptitude') {
     if (!this.currentUserEmail) {
       this.switchView('login');
       return;
     }
-    this.showDashboard();
-    setTimeout(() => {
-      const grid = document.getElementById('chapters-grid');
-      if (grid) grid.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+
+    this.modalSubject = defaultSubj;
+    this.modalScienceSub = 'all';
+
+    const modal = document.getElementById('chapter-select-modal');
+    if (modal) modal.classList.remove('hidden');
+
+    this.updateModalTabsUI();
+    this.renderModalChapters();
+  }
+
+  closeChapterSelectModal() {
+    const modal = document.getElementById('chapter-select-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  setModalSubjectTab(subj) {
+    this.modalSubject = subj;
+    this.modalScienceSub = 'all';
+    this.updateModalTabsUI();
+    this.renderModalChapters();
+  }
+
+  setModalScienceSubTab(sub) {
+    this.modalScienceSub = sub;
+    this.updateModalTabsUI();
+    this.renderModalChapters();
+  }
+
+  updateModalTabsUI() {
+    const tabApti = document.getElementById('modal-tab-aptitude');
+    const tabSci = document.getElementById('modal-tab-science');
+    const sciBar = document.getElementById('modal-science-subfilter-bar');
+
+    const activeTab = 'flex-1 py-1.5 rounded-md font-semibold transition bg-white text-zinc-900 shadow-xs text-center';
+    const inactiveTab = 'flex-1 py-1.5 rounded-md font-medium text-zinc-600 hover:text-zinc-900 transition text-center';
+
+    if (tabApti) tabApti.className = (this.modalSubject === 'aptitude' ? activeTab : inactiveTab);
+    if (tabSci) tabSci.className = (this.modalSubject === 'science' ? activeTab : inactiveTab);
+
+    if (sciBar) {
+      sciBar.classList.toggle('hidden', this.modalSubject !== 'science');
+    }
+
+    if (this.modalSubject === 'science') {
+      const subTabs = {
+        'all': document.getElementById('modal-subtab-all'),
+        'Biology': document.getElementById('modal-subtab-bio'),
+        'Chemistry': document.getElementById('modal-subtab-chem'),
+        'Physics': document.getElementById('modal-subtab-phys')
+      };
+      Object.keys(subTabs).forEach(k => {
+        const btn = subTabs[k];
+        if (btn) {
+          if (k === this.modalScienceSub) {
+            btn.className = 'px-2 py-0.5 rounded font-semibold bg-zinc-900 text-white transition';
+          } else {
+            btn.className = 'px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition';
+          }
+        }
+      });
+    }
+  }
+
+  renderModalChapters() {
+    const list = document.getElementById('modal-chapters-list');
+    if (!list) return;
+
+    let filtered = this.chapters;
+    if (this.modalSubject === 'aptitude') {
+      filtered = filtered.filter(c => (c.subject || '').includes('Aptitude'));
+    } else if (this.modalSubject === 'science') {
+      filtered = filtered.filter(c => (c.subject || '').includes('Science'));
+      if (this.modalScienceSub !== 'all') {
+        filtered = filtered.filter(c => (c.subSubject || '').toLowerCase() === this.modalScienceSub.toLowerCase());
+      }
+    }
+
+    if (filtered.length === 0) {
+      list.innerHTML = `<p class="col-span-full py-8 text-center text-xs text-zinc-400">No chapters found.</p>`;
+      return;
+    }
+
+    list.innerHTML = filtered.map(ch => {
+      let badge = '';
+      if ((ch.subject || '').includes('Aptitude')) {
+        badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200/60">Apti</span>';
+      } else if (ch.subSubject === 'Biology') {
+        badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">Bio</span>';
+      } else if (ch.subSubject === 'Chemistry') {
+        badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200/60">Chem</span>';
+      } else if (ch.subSubject === 'Physics') {
+        badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded border border-violet-200/60">Phys</span>';
+      }
+
+      return `
+        <div onclick="app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}')"
+             class="p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-400 hover:bg-zinc-50 cursor-pointer transition flex items-center justify-between group">
+          <div class="overflow-hidden pr-2">
+            <div class="flex items-center gap-1.5 mb-0.5">
+              ${badge}
+              <span class="text-[10px] text-zinc-400 font-mono">${ch.count} Qs</span>
+            </div>
+            <h4 class="text-xs font-semibold text-zinc-900 group-hover:text-zinc-700 truncate">${ch.name}</h4>
+          </div>
+          <span class="text-xs text-zinc-300 group-hover:text-zinc-800 transition font-bold">&rarr;</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  startPracticeFromModal(chapterName) {
+    this.closeChapterSelectModal();
+    let filter = this.modalSubject;
+    if (this.modalSubject === 'science' && this.modalScienceSub !== 'all') {
+      filter = this.modalScienceSub.toLowerCase();
+    }
+    this.startPractice(chapterName, filter);
   }
 
   // ==========================================
@@ -667,44 +835,110 @@ class AptiPrepApp {
     }).join('');
   }
 
-  populateChapterDropdown() {
+  populateChapterDropdown(filterSubject = 'all') {
     const dd = document.getElementById('practice-chapter-dropdown');
     if (!dd) return;
 
-    const groups = {
-      'Quantitative Aptitude': [],
-      'General Science — Biology': [],
-      'General Science — Chemistry': [],
-      'General Science — Physics': [],
-      'Other': []
-    };
+    let chapsToDisplay = [...this.chapters];
+    const s = (filterSubject || 'all').toLowerCase();
 
-    this.chapters.forEach(ch => {
-      if (ch.subject === 'Quantitative Aptitude' || (ch.subject || '').includes('Aptitude')) {
-        groups['Quantitative Aptitude'].push(ch);
-      } else if (ch.subSubject === 'Biology') {
-        groups['General Science — Biology'].push(ch);
-      } else if (ch.subSubject === 'Chemistry') {
-        groups['General Science — Chemistry'].push(ch);
-      } else if (ch.subSubject === 'Physics') {
-        groups['General Science — Physics'].push(ch);
-      } else {
-        groups['Other'].push(ch);
+    if (s === 'aptitude') {
+      chapsToDisplay = chapsToDisplay.filter(c => (c.subject || '').includes('Aptitude'));
+    } else if (s === 'science') {
+      chapsToDisplay = chapsToDisplay.filter(c => (c.subject || '').includes('Science'));
+    } else if (s === 'biology') {
+      chapsToDisplay = chapsToDisplay.filter(c => (c.subSubject || '').toLowerCase() === 'biology');
+    } else if (s === 'chemistry') {
+      chapsToDisplay = chapsToDisplay.filter(c => (c.subSubject || '').toLowerCase() === 'chemistry');
+    } else if (s === 'physics') {
+      chapsToDisplay = chapsToDisplay.filter(c => (c.subSubject || '').toLowerCase() === 'physics');
+    }
+
+    if (s === 'all') {
+      const groups = {
+        'Quantitative Aptitude': [],
+        'General Science — Biology': [],
+        'General Science — Chemistry': [],
+        'General Science — Physics': []
+      };
+
+      chapsToDisplay.forEach(ch => {
+        if ((ch.subject || '').includes('Aptitude')) {
+          groups['Quantitative Aptitude'].push(ch);
+        } else if (ch.subSubject === 'Biology') {
+          groups['General Science — Biology'].push(ch);
+        } else if (ch.subSubject === 'Chemistry') {
+          groups['General Science — Chemistry'].push(ch);
+        } else if (ch.subSubject === 'Physics') {
+          groups['General Science — Physics'].push(ch);
+        }
+      });
+
+      let html = '';
+      Object.entries(groups).forEach(([groupName, chaps]) => {
+        if (chaps.length > 0) {
+          html += `<optgroup label="${groupName} (${chaps.length})">`;
+          chaps.forEach(ch => {
+            html += `<option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>`;
+          });
+          html += `</optgroup>`;
+        }
+      });
+      dd.innerHTML = html;
+    } else if (s === 'science') {
+      const groups = {
+        'General Science — Biology': [],
+        'General Science — Chemistry': [],
+        'General Science — Physics': []
+      };
+
+      chapsToDisplay.forEach(ch => {
+        if (ch.subSubject === 'Biology') {
+          groups['General Science — Biology'].push(ch);
+        } else if (ch.subSubject === 'Chemistry') {
+          groups['General Science — Chemistry'].push(ch);
+        } else if (ch.subSubject === 'Physics') {
+          groups['General Science — Physics'].push(ch);
+        }
+      });
+
+      let html = '';
+      Object.entries(groups).forEach(([groupName, chaps]) => {
+        if (chaps.length > 0) {
+          html += `<optgroup label="${groupName} (${chaps.length})">`;
+          chaps.forEach(ch => {
+            html += `<option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>`;
+          });
+          html += `</optgroup>`;
+        }
+      });
+      dd.innerHTML = html;
+    } else {
+      dd.innerHTML = chapsToDisplay.map(ch => `
+        <option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>
+      `).join('');
+    }
+  }
+
+  filterPracticeChaptersBySubject(subjectValue) {
+    this.practiceSubjectFilter = subjectValue;
+    this.populateChapterDropdown(subjectValue);
+
+    const dd = document.getElementById('practice-chapter-dropdown');
+    if (!dd) return;
+
+    let hasCurrent = false;
+    for (let i = 0; i < dd.options.length; i++) {
+      if (dd.options[i].value === this.practice.chapter) {
+        hasCurrent = true;
+        dd.value = this.practice.chapter;
+        break;
       }
-    });
+    }
 
-    let html = '';
-    Object.entries(groups).forEach(([groupName, chaps]) => {
-      if (chaps.length > 0) {
-        html += `<optgroup label="${groupName} (${chaps.length})">`;
-        chaps.forEach(ch => {
-          html += `<option value="${ch.name}">${ch.name} (${ch.count} Qs)</option>`;
-        });
-        html += `</optgroup>`;
-      }
-    });
-
-    dd.innerHTML = html;
+    if (!hasCurrent && dd.options.length > 0) {
+      this.startPractice(dd.options[0].value, subjectValue);
+    }
   }
 
   renderAttemptsHistory() {
@@ -786,7 +1020,7 @@ class AptiPrepApp {
   // MODE 1: CHAPTER TEST / PRACTICE
   // ==========================================
 
-  async startPractice(chapterName) {
+  async startPractice(chapterName, preferredSubjectFilter = null) {
     if (!this.currentUserEmail) {
       this.switchView('login');
       return;
@@ -809,7 +1043,7 @@ class AptiPrepApp {
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
       const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
-      this.initPracticeState(chapterName, filtered);
+      this.initPracticeState(chapterName, filtered, preferredSubjectFilter);
       return;
     }
 
@@ -817,7 +1051,7 @@ class AptiPrepApp {
       const res = await fetch(`/api/questions?chapter=${encodeURIComponent(chapterName)}`);
       if (res.ok) {
         const data = await res.json();
-        this.initPracticeState(chapterName, data.questions || []);
+        this.initPracticeState(chapterName, data.questions || [], preferredSubjectFilter);
         return;
       }
     } catch (err) {}
@@ -825,10 +1059,10 @@ class AptiPrepApp {
     this.isStaticMode = true;
     if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
     const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
-    this.initPracticeState(chapterName, filtered);
+    this.initPracticeState(chapterName, filtered, preferredSubjectFilter);
   }
 
-  initPracticeState(chapterName, questions) {
+  initPracticeState(chapterName, questions, preferredSubjectFilter = null) {
     this.practice.chapter = chapterName;
     this.practice.questions = questions;
     this.practice.currentIndex = 0;
@@ -837,6 +1071,48 @@ class AptiPrepApp {
 
     const titleEl = document.getElementById('practice-chapter-title');
     if (titleEl) titleEl.textContent = chapterName;
+
+    // Sync the subject dropdown in Chapter Test
+    const chInfo = this.chapters.find(c => c.name.toLowerCase() === chapterName.toLowerCase());
+    const subjSelect = document.getElementById('practice-subject-dropdown');
+
+    if (preferredSubjectFilter) {
+      this.practiceSubjectFilter = preferredSubjectFilter;
+    }
+
+    if (subjSelect) {
+      const activeFilter = this.practiceSubjectFilter || 'all';
+      let keepFilter = false;
+      if (activeFilter === 'all') {
+        keepFilter = true;
+      } else if (activeFilter === 'aptitude' && (chInfo?.subject || '').includes('Aptitude')) {
+        keepFilter = true;
+      } else if (activeFilter === 'science' && (chInfo?.subject || '').includes('Science')) {
+        keepFilter = true;
+      } else if (activeFilter === 'biology' && (chInfo?.subSubject || '').toLowerCase() === 'biology') {
+        keepFilter = true;
+      } else if (activeFilter === 'chemistry' && (chInfo?.subSubject || '').toLowerCase() === 'chemistry') {
+        keepFilter = true;
+      } else if (activeFilter === 'physics' && (chInfo?.subSubject || '').toLowerCase() === 'physics') {
+        keepFilter = true;
+      }
+
+      if (keepFilter) {
+        subjSelect.value = activeFilter;
+        this.populateChapterDropdown(activeFilter);
+      } else if (chInfo) {
+        const newFilter = (chInfo.subject || '').includes('Science') ? 'science' : 'aptitude';
+        this.practiceSubjectFilter = newFilter;
+        subjSelect.value = newFilter;
+        this.populateChapterDropdown(newFilter);
+      } else {
+        this.practiceSubjectFilter = 'all';
+        subjSelect.value = 'all';
+        this.populateChapterDropdown('all');
+      }
+    } else {
+      this.populateChapterDropdown('all');
+    }
 
     const dd = document.getElementById('practice-chapter-dropdown');
     if (dd) dd.value = chapterName;
@@ -883,7 +1159,16 @@ class AptiPrepApp {
   }
 
   switchPracticeChapter(newChap) {
-    this.startPractice(newChap);
+    if (this.practice.modeType === 'test' && Object.keys(this.practice.userAnswers).length > 0) {
+      const ok = confirm('Switching chapters will discard your current chapter test progress. Continue?');
+      if (!ok) {
+        const dd = document.getElementById('practice-chapter-dropdown');
+        if (dd) dd.value = this.practice.chapter;
+        return;
+      }
+    }
+    const curFilter = this.practiceSubjectFilter || document.getElementById('practice-subject-dropdown')?.value || 'all';
+    this.startPractice(newChap, curFilter);
   }
 
   renderPracticeQuestion() {
@@ -910,36 +1195,36 @@ class AptiPrepApp {
     const letters = ['A', 'B', 'C', 'D'];
 
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
-      let cardStyle = 'border-zinc-200 hover:border-zinc-300 bg-white text-zinc-800';
+      let cardStyle = 'border-zinc-200 hover:border-zinc-400 bg-white text-zinc-900 shadow-xs';
       let icon = letters[idx];
-      let iconStyle = 'border border-zinc-200 text-zinc-500 bg-zinc-50';
+      let iconStyle = 'border border-zinc-200 text-zinc-600 bg-zinc-50';
 
       if (isTestMode) {
         if (selected === idx) {
-          cardStyle = 'border-zinc-900 bg-zinc-50 text-zinc-900 font-medium ring-1 ring-zinc-900';
-          iconStyle = 'bg-zinc-900 text-white border-zinc-900';
+          cardStyle = 'border-zinc-900 bg-zinc-50/80 text-zinc-900 font-medium ring-2 ring-zinc-900 shadow-sm';
+          iconStyle = 'bg-zinc-900 text-white border-zinc-900 font-bold';
         }
       } else {
         if (selected !== undefined && selected !== null) {
           if (idx === q.correctAnswer) {
-            cardStyle = 'border-emerald-500 bg-emerald-50/60 text-emerald-950 font-medium ring-1 ring-emerald-500';
-            iconStyle = 'bg-emerald-600 text-white border-emerald-600';
+            cardStyle = 'border-emerald-500 bg-emerald-50/80 text-emerald-950 font-medium ring-2 ring-emerald-500';
+            iconStyle = 'bg-emerald-600 text-white border-emerald-600 font-bold';
             icon = '✓';
           } else if (idx === selected) {
-            cardStyle = 'border-rose-400 bg-rose-50/60 text-rose-950 font-medium ring-1 ring-rose-400';
-            iconStyle = 'bg-rose-600 text-white border-rose-600';
+            cardStyle = 'border-rose-400 bg-rose-50/80 text-rose-950 font-medium ring-2 ring-rose-400';
+            iconStyle = 'bg-rose-600 text-white border-rose-600 font-bold';
             icon = '✕';
           } else {
-            cardStyle = 'border-zinc-100 bg-zinc-50/50 text-zinc-400 opacity-60';
+            cardStyle = 'border-zinc-200 bg-zinc-50/40 text-zinc-400 opacity-60';
           }
         }
       }
 
       return `
         <div onclick="app.selectPracticeOption(${idx})"
-             class="option-label p-3.5 rounded-lg border ${cardStyle} cursor-pointer flex items-center gap-3 text-xs sm:text-sm">
-          <span class="w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${iconStyle}">${icon}</span>
-          <span class="leading-relaxed">${opt}</span>
+             class="option-label p-3.5 sm:p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3.5 transition">
+          <span class="option-badge ${iconStyle}">${icon}</span>
+          <span class="option-text flex-1">${opt}</span>
         </div>
       `;
     }).join('');
@@ -1013,13 +1298,24 @@ class AptiPrepApp {
   jumpPracticeQuestion(idx) {
     this.practice.currentIndex = idx;
     this.renderPracticeQuestion();
+    if (window.innerWidth < 1024) {
+      const panel = document.getElementById('practice-drawer-panel');
+      const backdrop = document.getElementById('practice-palette-backdrop');
+      if (panel) panel.classList.add('hidden');
+      if (backdrop) backdrop.classList.add('hidden');
+      this.practice.drawerOpen = false;
+    }
   }
 
   togglePracticeDrawer() {
     const panel = document.getElementById('practice-drawer-panel');
+    const backdrop = document.getElementById('practice-palette-backdrop');
     if (panel) {
       this.practice.drawerOpen = !this.practice.drawerOpen;
       panel.classList.toggle('hidden', !this.practice.drawerOpen);
+      if (backdrop) {
+        backdrop.classList.toggle('hidden', !this.practice.drawerOpen || window.innerWidth >= 1024);
+      }
     }
   }
 
@@ -1034,6 +1330,9 @@ class AptiPrepApp {
 
     const summaryEl = document.getElementById('practice-palette-summary');
     if (summaryEl) summaryEl.textContent = `${answeredCount} / ${total}`;
+
+    const mobPracPalText = document.getElementById('practice-mobile-palette-btn-text');
+    if (mobPracPalText) mobPracPalText.textContent = `Palette (${answeredCount}/${total})`;
   }
 
   renderPracticePalette() {
@@ -1080,11 +1379,14 @@ class AptiPrepApp {
     );
 
     if (confirmed) {
+      this.isSubmitting = true;
       this.executeChapterTestSubmission();
     }
   }
 
   async executeChapterTestSubmission() {
+    this.isSubmitting = true;
+    this.hideTestPausedModal();
     this.exitFullscreen();
     const elapsedMs = (Date.now() - (this.practice.startTime || Date.now())) - this.totalPausedDuration;
     const timeTakenSeconds = Math.max(1, Math.round(elapsedMs / 1000));
@@ -1339,6 +1641,17 @@ class AptiPrepApp {
       }
     }
 
+    const mobileReviewBtn = document.getElementById('mock-mobile-btn-review');
+    if (mobileReviewBtn) {
+      if (isMarked) {
+        mobileReviewBtn.className = 'px-3 py-2.5 rounded-lg bg-amber-400 text-zinc-950 font-bold text-xs text-center shadow-xs transition';
+        mobileReviewBtn.textContent = '★ Review';
+      } else {
+        mobileReviewBtn.className = 'px-3 py-2.5 rounded-lg border border-zinc-200 text-zinc-600 text-xs text-center active:bg-zinc-100 transition';
+        mobileReviewBtn.textContent = 'Review';
+      }
+    }
+
     document.getElementById('mock-q-text').textContent = q.question;
 
     const optContainer = document.getElementById('mock-options-container');
@@ -1348,17 +1661,19 @@ class AptiPrepApp {
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
       const isSelected = (selectedOption === idx);
       const cardStyle = isSelected
-        ? 'border-zinc-900 bg-zinc-50 text-zinc-900 font-medium ring-1 ring-zinc-900'
-        : 'border-zinc-200 hover:border-zinc-300 bg-white text-zinc-800';
+        ? 'border-zinc-900 bg-zinc-50/80 text-zinc-900 font-medium ring-2 ring-zinc-900 shadow-sm'
+        : 'border-zinc-200 hover:border-zinc-400 bg-white text-zinc-900 shadow-xs';
+
+      const iconStyle = isSelected
+        ? 'bg-zinc-900 text-white border-zinc-900 font-bold'
+        : 'border border-zinc-200 text-zinc-600 bg-zinc-50';
 
       return `
         <label onclick="app.selectMockOption(${idx})"
-               class="option-label p-3.5 rounded-lg border ${cardStyle} cursor-pointer flex items-center gap-3 text-xs sm:text-sm">
+               class="option-label p-3.5 sm:p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3.5 transition">
           <input type="radio" name="mock_option" value="${idx}" ${isSelected ? 'checked' : ''} class="hidden">
-          <span class="w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${
-            isSelected ? 'bg-zinc-900 text-white border-zinc-900' : 'border border-zinc-200 text-zinc-500 bg-zinc-50'
-          }">${letters[idx]}</span>
-          <span class="leading-relaxed">${opt}</span>
+          <span class="option-badge ${iconStyle}">${letters[idx]}</span>
+          <span class="option-text flex-1">${opt}</span>
         </label>
       `;
     }).join('');
@@ -1414,6 +1729,25 @@ class AptiPrepApp {
   jumpMockQuestion(idx) {
     this.mock.currentIndex = idx;
     this.renderMockQuestion();
+    if (window.innerWidth < 1024) {
+      const panel = document.getElementById('mock-drawer-panel');
+      const backdrop = document.getElementById('mock-palette-backdrop');
+      if (panel) panel.classList.add('hidden');
+      if (backdrop) backdrop.classList.add('hidden');
+      this.mock.drawerOpen = false;
+    }
+  }
+
+  toggleMockDrawer() {
+    const panel = document.getElementById('mock-drawer-panel');
+    const backdrop = document.getElementById('mock-palette-backdrop');
+    if (panel) {
+      this.mock.drawerOpen = !this.mock.drawerOpen;
+      panel.classList.toggle('hidden', !this.mock.drawerOpen);
+      if (backdrop) {
+        backdrop.classList.toggle('hidden', !this.mock.drawerOpen || window.innerWidth >= 1024);
+      }
+    }
   }
 
   updateMockPalette() {
@@ -1456,6 +1790,9 @@ class AptiPrepApp {
     if (legAns) legAns.textContent = answeredCount;
     if (legUnans) legUnans.textContent = unansweredCount;
     if (legRev) legRev.textContent = reviewCount;
+
+    const mobPalText = document.getElementById('mock-mobile-palette-btn-text');
+    if (mobPalText) mobPalText.textContent = `Palette (${answeredCount}/30)`;
   }
 
   promptSubmitMock() {
@@ -1491,6 +1828,8 @@ class AptiPrepApp {
   }
 
   confirmSubmitMock() {
+    this.isSubmitting = true;
+    this.hideTestPausedModal();
     this.exitFullscreen();
     this.closeSubmitModal();
     this.clearMockTimer();
@@ -1498,6 +1837,8 @@ class AptiPrepApp {
   }
 
   autoSubmitMock() {
+    this.isSubmitting = true;
+    this.hideTestPausedModal();
     this.exitFullscreen();
     this.closeSubmitModal();
     this.clearMockTimer();
@@ -1505,6 +1846,8 @@ class AptiPrepApp {
   }
 
   async executeMockSubmission() {
+    this.isSubmitting = true;
+    this.hideTestPausedModal();
     this.exitFullscreen();
     const timeTakenSeconds = 1800 - Math.max(0, this.mock.timeLeftSeconds);
 
@@ -1669,6 +2012,8 @@ class AptiPrepApp {
   }
 
   renderResults(attempt) {
+    this.isSubmitting = false;
+    this.hideTestPausedModal();
     this.results.attempt = attempt;
     this.results.currentFilter = 'all';
 
@@ -1824,10 +2169,10 @@ class AptiPrepApp {
         }
 
         return `
-          <div class="p-2.5 rounded-lg border ${optStyle} flex items-center gap-2.5 text-xs">
-            <span class="w-5 h-5 rounded flex items-center justify-center text-[10px] font-semibold ${badgeStyle}">${badgeText}</span>
-            <span class="leading-relaxed">${opt}</span>
-            ${optIdx === item.userAnswer ? '<span class="ml-auto text-[10px] text-zinc-400 font-normal">Your Choice</span>' : ''}
+          <div class="p-3 sm:p-3.5 rounded-xl border ${optStyle} flex items-center gap-3">
+            <span class="w-7 h-7 min-w-7 rounded-lg flex items-center justify-center text-xs font-bold ${badgeStyle}">${badgeText}</span>
+            <span class="option-text flex-1 font-normal">${opt}</span>
+            ${optIdx === item.userAnswer ? '<span class="ml-auto text-xs text-zinc-500 font-medium bg-zinc-100 px-2.5 py-0.5 rounded border border-zinc-200 shrink-0">Your Choice</span>' : ''}
           </div>
         `;
       }).join('');
@@ -1843,7 +2188,7 @@ class AptiPrepApp {
             ${statusTag}
           </div>
 
-          <div class="text-zinc-900 font-medium text-xs sm:text-sm question-content leading-relaxed">
+          <div class="text-zinc-950 font-medium text-[15px] sm:text-[16px] question-content leading-relaxed">
             ${item.question}
           </div>
 

@@ -16,7 +16,7 @@ DATA_DIR = os.path.join(BASE_DIR, 'data')
 PUBLIC_DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
 
 APTI_FILE = os.path.join(DATA_DIR, 'questions.json')
-SCI_SOURCE_FILE = os.path.join(DATA_DIR, 'All_Chapters_Science_Questions_Master.json')
+SCI_SOURCE_FILE = os.path.join(DATA_DIR, 'science.json')
 if not os.path.exists(SCI_SOURCE_FILE):
     # Fallback to absolute external path if needed
     SCI_SOURCE_FILE = '/Users/hiijitesh/Downloads/Govt Exams & RRB/A RRB NOTES/A Science Magnet/Chapterwise_Questions/All_Chapters_Questions_Master.json'

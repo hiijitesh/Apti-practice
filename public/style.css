@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+/* public/style.css - CBT Examination & Test Series Optimized Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@500;600&display=swap');
 
 :root {
   --bg-page: #fafafa;
   --bg-card: #ffffff;
   --border-subtle: #e4e4e7;
   --border-focus: #18181b;
-  --text-main: #18181b;
+  --text-main: #09090b;
   --text-muted: #71717a;
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-page);
   color: var(--text-main);
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
+  font-feature-settings: 'cv05' 1, 'cv08' 1, 'calt' 1;
 }
 
 .font-mono {
@@ -37,20 +41,113 @@ body {
   background: #a1a1aa;
 }
 
-/* Clean option row */
-.option-label {
-  transition: all 0.15s ease;
-  user-select: none;
-}
-.option-label:hover {
-  border-color: #a1a1aa;
-}
+/* =========================================================
+   CBT TEST SERIES QUESTION & OPTION TYPOGRAPHY
+   Tested & benchmarked against TCS iON, Testbook & Oliveboard
+   ========================================================= */
 
-/* Question body typography */
+/* Question stem - crisp, distinct, highly legible */
 .question-content {
+  font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   white-space: pre-wrap;
   word-break: break-word;
-  line-height: 1.75;
+  font-size: 16.5px;
+  line-height: 1.68;
+  letter-spacing: 0.005em;
+  color: #09090b;
+  font-weight: 500;
+  font-feature-settings: 'cv05' 1, 'cv08' 1, 'tnum' 1;
+}
+
+@media (min-width: 640px) {
+  .question-content {
+    font-size: 17.5px;
+    line-height: 1.7;
+  }
+}
+
+/* Option container card */
+.option-label {
+  font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  font-feature-settings: 'cv05' 1, 'cv08' 1, 'tnum' 1;
+  border-width: 1.5px;
+}
+
+.option-label:hover {
+  border-color: #94a3b8;
+  background-color: #f8fafc;
+}
+
+/* Option letter badge (A, B, C, D) */
+.option-badge {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 13.5px;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+  letter-spacing: 0;
+}
+
+/* Option body text */
+.option-text {
+  font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  font-size: 15.5px;
+  line-height: 1.58;
+  color: #1e293b;
+  font-weight: 450;
+  letter-spacing: 0.005em;
+  word-break: break-word;
+}
+
+@media (min-width: 640px) {
+  .option-text {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+
+/* =========================================================
+   CBT FONT ZOOM SCALING (A / A+ / A++)
+   ========================================================= */
+
+/* Level 2: Large (A+) */
+body.font-scale-lg .question-content {
+  font-size: 19px !important;
+  line-height: 1.75 !important;
+}
+body.font-scale-lg .option-text {
+  font-size: 17.5px !important;
+  line-height: 1.68 !important;
+}
+body.font-scale-lg .option-badge {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  font-size: 14.5px !important;
+}
+
+/* Level 3: Extra Large (A++) */
+body.font-scale-xl .question-content {
+  font-size: 21px !important;
+  line-height: 1.8 !important;
+}
+body.font-scale-xl .option-text {
+  font-size: 19.5px !important;
+  line-height: 1.72 !important;
+}
+body.font-scale-xl .option-badge {
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  font-size: 16px !important;
 }
 
 /* Minimal keyboard shortcut badge */
@@ -71,4 +168,82 @@ body.zen-mode footer {
 }
 body.zen-mode main {
   padding-top: 1rem;
+}
+
+/* =========================================================
+   MOBILE & TOUCH EXPERIENCE ENHANCEMENTS
+   ========================================================= */
+
+/* Prevent iOS 300ms double-tap zoom delay */
+button,
+input,
+select,
+.option-label,
+.cursor-pointer {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Minimum accessible touch targets on mobile */
+@media (max-width: 639px) {
+  button,
+  select,
+  .option-label {
+    min-height: 42px;
+  }
+
+  .option-label {
+    padding: 0.75rem 0.875rem !important;
+  }
+
+  .option-badge {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px !important;
+    font-size: 12.5px !important;
+    border-radius: 6px !important;
+  }
+
+  .option-text {
+    font-size: 14.5px !important;
+    line-height: 1.52 !important;
+  }
+}
+
+/* Interactive tap feedback */
+.option-label:active {
+  transform: scale(0.995);
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+/* Safe Area Inset Support for Modern Mobile Viewports */
+.safe-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+/* Off-canvas / Bottom Sheet Drawer on Mobile (<1024px) */
+@media (max-width: 1023px) {
+  .palette-sheet-drawer {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    max-height: 82vh !important;
+    z-index: 50 !important;
+    border-radius: 1.25rem 1.25rem 0 0 !important;
+    box-shadow: 0 -12px 30px -5px rgba(0, 0, 0, 0.2) !important;
+    background: #ffffff !important;
+    margin: 0 !important;
+  }
+
+  .palette-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(9, 9, 11, 0.45);
+    backdrop-filter: blur(2px);
+    z-index: 49;
+  }
 }

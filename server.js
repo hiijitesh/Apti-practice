@@ -114,66 +114,55 @@ app.get('/api/questions', (req, res) => {
   });
 });
 
-// 3. GET /api/mock - 30 randomized questions uniformly distributed across chapters (WITHOUT leaking answers)
-// Supports optional ?subject=aptitude | ?subject=science | ?subject=biology | etc.
-app.get('/api/mock', (req, res) => {
-  let allQuestions = loadQuestions();
-  if (allQuestions.length === 0) {
-    return res.status(500).json({ error: 'No questions loaded. Please run extraction first.' });
+// Helper to generate mock questions
+function generateMockQuestions(allQuestions, subjectQuery = 'all', targetCount = 30) {
+  let pool = [...allQuestions];
+  const sq = (subjectQuery || '').trim().toLowerCase();
+  if (sq === 'aptitude' || sq === 'quantitative aptitude') {
+    pool = pool.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
+  } else if (sq === 'science' || sq === 'general science') {
+    pool = pool.filter(q => (q.subject || '').toLowerCase().includes('science'));
+  } else if (sq === 'biology' || sq === 'chemistry' || sq === 'physics') {
+    pool = pool.filter(q => (q.subSubject || '').toLowerCase() === sq);
   }
 
-  const subjectQuery = (req.query.subject || '').trim().toLowerCase();
-  if (subjectQuery === 'aptitude' || subjectQuery === 'quantitative aptitude') {
-    allQuestions = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
-  } else if (subjectQuery === 'science' || subjectQuery === 'general science') {
-    allQuestions = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('science'));
-  } else if (subjectQuery === 'biology' || subjectQuery === 'chemistry' || subjectQuery === 'physics') {
-    allQuestions = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === subjectQuery);
-  }
-
-  if (allQuestions.length === 0) {
-    return res.status(404).json({ error: `No questions found matching subject '${subjectQuery}'` });
-  }
+  if (pool.length === 0) return [];
 
   // Group by chapter
   const byChapter = {};
-  allQuestions.forEach(q => {
+  pool.forEach(q => {
     if (!byChapter[q.chapter]) byChapter[q.chapter] = [];
     byChapter[q.chapter].push(q);
   });
 
   const chapterNames = Object.keys(byChapter);
-  const totalTarget = Math.min(30, allQuestions.length);
+  const totalTarget = Math.min(targetCount, pool.length);
   const numChapters = chapterNames.length;
 
-  // Distribute uniformly among available chapters
   const baseCount = Math.floor(totalTarget / numChapters);
   const remainder = totalTarget % numChapters;
 
-  // Shuffle chapter order to distribute remainder randomly
   const shuffledChapters = [...chapterNames].sort(() => 0.5 - Math.random());
   const selectedQuestions = [];
 
   shuffledChapters.forEach((chap, idx) => {
     const targetForThisChap = baseCount + (idx < remainder ? 1 : 0);
-    const pool = [...byChapter[chap]].sort(() => 0.5 - Math.random());
-    const picked = pool.slice(0, targetForThisChap);
+    const cPool = [...byChapter[chap]].sort(() => 0.5 - Math.random());
+    const picked = cPool.slice(0, targetForThisChap);
     selectedQuestions.push(...picked);
   });
 
-  // If there are still fewer than totalTarget, fill from remaining
   if (selectedQuestions.length < totalTarget) {
     const pickedIds = new Set(selectedQuestions.map(q => q.id));
-    const leftovers = allQuestions.filter(q => !pickedIds.has(q.id)).sort(() => 0.5 - Math.random());
+    const leftovers = pool.filter(q => !pickedIds.has(q.id)).sort(() => 0.5 - Math.random());
     const extra = leftovers.slice(0, totalTarget - selectedQuestions.length);
     selectedQuestions.push(...extra);
   }
 
-  // Shuffle the final questions
   const finalQuestions = selectedQuestions.sort(() => 0.5 - Math.random()).slice(0, totalTarget);
 
   // SANITIZE: remove correctAnswer and explanation so client cannot inspect/cheat!
-  const sanitized = finalQuestions.map(q => ({
+  return finalQuestions.map(q => ({
     id: q.id,
     subject: q.subject,
     subSubject: q.subSubject,
@@ -181,19 +170,10 @@ app.get('/api/mock', (req, res) => {
     question: q.question,
     options: q.options
   }));
+}
 
-  res.json({
-    totalQuestions: sanitized.length,
-    durationMinutes: 30,
-    questions: sanitized
-  });
-});
-
-// 4. POST /api/submit-attempt - Submit test answers, score on backend, persist to attempts.json
-app.post('/api/submit-attempt', (req, res) => {
-  const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null } = req.body;
-
-  const allQuestions = loadQuestions();
+// Helper to calculate score and detailed evaluation
+function calculateScore(allQuestions, { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null }) {
   const qMap = new Map();
   allQuestions.forEach(q => qMap.set(q.id, q));
 
@@ -201,9 +181,7 @@ app.post('/api/submit-attempt', (req, res) => {
   let incorrectCount = 0;
   let unattemptedCount = 0;
 
-  // Detailed evaluated answers for review screen
   const evaluatedAnswers = [];
-  // Chapter-wise breakdown
   const chapterBreakdown = {};
 
   answers.forEach(item => {
@@ -250,7 +228,6 @@ app.post('/api/submit-attempt', (req, res) => {
     ? Number(((correctCount / totalQuestions) * 100).toFixed(1))
     : 0;
 
-  // Stored attempt object matching required schema
   const attemptRecord = {
     attemptId: crypto.randomUUID ? crypto.randomUUID() : `att_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
     timestamp: new Date().toISOString(),
@@ -263,7 +240,6 @@ app.post('/api/submit-attempt', (req, res) => {
     unattemptedCount,
     scorePercentage,
     timeTakenSeconds: Math.round(timeTakenSeconds),
-    // Only store answered questions, excluding unattempted/null answers
     answers: evaluatedAnswers
       .filter(a => a.userAnswer !== null && a.userAnswer !== undefined)
       .map(a => ({
@@ -273,6 +249,51 @@ app.post('/api/submit-attempt', (req, res) => {
       }))
   };
 
+  return {
+    attemptRecord,
+    fullAttempt: {
+      ...attemptRecord,
+      chapterBreakdown,
+      detailedAnswers: evaluatedAnswers
+    }
+  };
+}
+
+// 3. GET /api/mock - 30 randomized questions uniformly distributed across chapters (WITHOUT leaking answers)
+// Supports optional ?subject=aptitude | ?subject=science | ?subject=biology | etc.
+app.get('/api/mock', (req, res) => {
+  const allQuestions = loadQuestions();
+  if (allQuestions.length === 0) {
+    return res.status(500).json({ error: 'No questions loaded. Please run extraction first.' });
+  }
+
+  const subjectQuery = (req.query.subject || '').trim().toLowerCase();
+  const sanitized = generateMockQuestions(allQuestions, subjectQuery, 30);
+
+  if (sanitized.length === 0) {
+    return res.status(404).json({ error: `No questions found matching subject '${subjectQuery}'` });
+  }
+
+  res.json({
+    totalQuestions: sanitized.length,
+    durationMinutes: 30,
+    questions: sanitized
+  });
+});
+
+// 4. POST /api/submit-attempt - Submit test answers, score on backend, persist to attempts.json
+app.post('/api/submit-attempt', (req, res) => {
+  const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null } = req.body;
+
+  const allQuestions = loadQuestions();
+  const { attemptRecord, fullAttempt } = calculateScore(allQuestions, {
+    mode,
+    chapter,
+    timeTakenSeconds,
+    answers,
+    userEmail
+  });
+
   // Persist to attempts.json
   const attempts = loadAttempts();
   attempts.unshift(attemptRecord); // Prepend so latest is first
@@ -281,11 +302,7 @@ app.post('/api/submit-attempt', (req, res) => {
   // Return full result including detailed review items
   res.json({
     success: true,
-    attempt: {
-      ...attemptRecord,
-      chapterBreakdown,
-      detailedAnswers: evaluatedAnswers
-    }
+    attempt: fullAttempt
   });
 });
 
@@ -360,24 +377,35 @@ app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-const server = app.listen(PORT, () => {
-  console.log(`===============================================`);
-  console.log(` Aptitude Test Application running on:`);
-  console.log(` http://localhost:${PORT}`);
-  console.log(`===============================================`);
-});
+let serverInstance = null;
+if (require.main === module) {
+  serverInstance = app.listen(PORT, () => {
+    console.log(`===============================================`);
+    console.log(` Aptitude Test Application running on:`);
+    console.log(` http://localhost:${PORT}`);
+    console.log(`===============================================`);
+  });
 
-server.on('error', (err) => {
-  if (err.code === 'EADDRINUSE') {
-    const nextPort = Number(PORT) + 1;
-    console.log(`Port ${PORT} in use, trying http://localhost:${nextPort}...`);
-    app.listen(nextPort, () => {
-      console.log(`===============================================`);
-      console.log(` Aptitude Test Application running on:`);
-      console.log(` http://localhost:${nextPort}`);
-      console.log(`===============================================`);
-    });
-  } else {
-    console.error('Server error:', err);
-  }
-});
+  serverInstance.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      const nextPort = Number(PORT) + 1;
+      console.log(`Port ${PORT} in use, trying http://localhost:${nextPort}...`);
+      serverInstance = app.listen(nextPort, () => {
+        console.log(`===============================================`);
+        console.log(` Aptitude Test Application running on:`);
+        console.log(` http://localhost:${nextPort}`);
+        console.log(`===============================================`);
+      });
+    } else {
+      console.error('Server error:', err);
+    }
+  });
+}
+
+module.exports = {
+  app,
+  loadQuestions,
+  loadAttempts,
+  generateMockQuestions,
+  calculateScore
+};

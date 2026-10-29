@@ -1,5 +1,160 @@
 [
   {
+    "attemptId": "1361e191-699a-4bcf-94c2-7689bb1a97d9",
+    "timestamp": "2026-10-29T12:52:44.268Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "f258456b-5a81-4e2c-aac6-48915d4f73ae",
+    "timestamp": "2026-10-29T12:19:50.168Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "81e1d950-977d-43d8-9d41-952083eaa668",
+    "timestamp": "2026-10-29T12:19:25.485Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "e682e0ac-65ad-4c40-8d27-6ea2bf1893e6",
+    "timestamp": "2026-10-29T12:19:03.534Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "7ef2dcd5-c371-4577-86d4-cd75c9821c1f",
+    "timestamp": "2026-10-29T12:04:06.067Z",
+    "userEmail": "test@abc.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 30,
+    "correctCount": 0,
+    "incorrectCount": 4,
+    "unattemptedCount": 26,
+    "scorePercentage": 0,
+    "timeTakenSeconds": 22,
+    "answers": [
+      {
+        "questionId": "sci_reflection_of_light_q025",
+        "userAnswer": 0,
+        "isCorrect": false
+      },
+      {
+        "questionId": "sci_metals_and_non_metals_q028",
+        "userAnswer": 2,
+        "isCorrect": false
+      },
+      {
+        "questionId": "sci_digestive_system_q013",
+        "userAnswer": 0,
+        "isCorrect": false
+      },
+      {
+        "questionId": "sci_blood_q020",
+        "userAnswer": 0,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "8ae1e62a-5759-4106-81e2-f7474026397b",
+    "timestamp": "2026-10-29T12:02:24.459Z",
+    "userEmail": "test@abc.com",
+    "mode": "chapter_test",
+    "chapter": "Classification of Organisms",
+    "totalQuestions": 37,
+    "correctCount": 0,
+    "incorrectCount": 1,
+    "unattemptedCount": 36,
+    "scorePercentage": 0,
+    "timeTakenSeconds": 19,
+    "answers": [
+      {
+        "questionId": "sci_classification_of_organisms_q001",
+        "userAnswer": 0,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
     "attemptId": "73a647cc-8681-4a1c-ad7a-35b3f5556cd3",
     "timestamp": "2026-10-29T10:46:30.106Z",
     "mode": "chapter_test",
