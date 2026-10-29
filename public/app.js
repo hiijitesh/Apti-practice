@@ -66,21 +66,24 @@ class AptiPrepApp {
     this.initFontScale();
     this.setupFullscreenListeners();
     this.updateSheetStatusUI();
-    this.updateUserSessionUI();
-    await this.loadChapters();
 
     if (!this.currentUserEmail) {
-      // First time user: ask for email before proceeding to dashboard
+      // First time user: immediately activate login view with zero flash/network wait
       this.switchView('login');
+      this.updateUserSessionUI();
       setTimeout(() => {
         const inp = document.getElementById('login-email-input');
         if (inp) inp.focus();
-      }, 100);
-    } else {
-      await this.loadAttempts();
-      this.renderDashboard();
-      this.switchView('dashboard');
+      }, 50);
+      await this.loadChapters();
+      return;
     }
+
+    // Existing authenticated user: show dashboard and load data
+    this.switchView('dashboard');
+    this.updateUserSessionUI();
+    await Promise.all([this.loadChapters(), this.loadAttempts()]);
+    this.renderDashboard();
   }
 
   // ==========================================

@@ -9,6 +9,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Instant anti-flicker router: determines initial view before layout paint
+    (function() {
+      try {
+        var email = localStorage.getItem('apti_user_email');
+        document.addEventListener('DOMContentLoaded', function() {
+          var viewLogin = document.getElementById('view-login');
+          var viewDash = document.getElementById('view-dashboard');
+          if (email) {
+            if (viewDash) viewDash.classList.remove('hidden');
+            if (viewLogin) viewLogin.classList.add('hidden');
+          } else {
+            if (viewLogin) viewLogin.classList.remove('hidden');
+            if (viewDash) viewDash.classList.add('hidden');
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body class="bg-zinc-50 min-h-screen text-zinc-900 flex flex-col antialiased selection:bg-zinc-200 selection:text-zinc-900">
 
@@ -85,7 +104,7 @@
     </section>
 
     <!-- VIEW 1: DASHBOARD -->
-    <section id="view-dashboard" class="space-y-10">
+    <section id="view-dashboard" class="space-y-10 hidden">
 
       <!-- Minimal Header -->
       <div class="border-b border-zinc-200 pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
