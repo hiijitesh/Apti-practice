@@ -44,7 +44,7 @@ def merge_reasoning_parts():
         source_name = data.get('source', source_name)
         qs = data.get('questions', [])
         print(f"  - {os.path.basename(part_file)}: {len(qs)} questions")
-        
+
         for q in qs:
             if 'diagram' in q and q['diagram']:
                 q['diagram'] = to_data_uri(q['diagram'])
