@@ -167,7 +167,7 @@ app.get('/api/mock', (req, res) => {
 
 // 4. POST /api/submit-attempt - Submit test answers, score on backend, persist to attempts.json
 app.post('/api/submit-attempt', (req, res) => {
-  const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [] } = req.body;
+  const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null } = req.body;
 
   const allQuestions = loadQuestions();
   const qMap = new Map();
@@ -228,6 +228,7 @@ app.post('/api/submit-attempt', (req, res) => {
   const attemptRecord = {
     attemptId: crypto.randomUUID ? crypto.randomUUID() : `att_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
     timestamp: new Date().toISOString(),
+    userEmail: userEmail ? userEmail.trim().toLowerCase() : 'guest@local',
     mode,
     chapter: chapter || null,
     totalQuestions,
@@ -262,9 +263,13 @@ app.post('/api/submit-attempt', (req, res) => {
   });
 });
 
-// 5. GET /api/attempts - All past attempts
+// 5. GET /api/attempts - All past attempts (optional ?email=... filter)
 app.get('/api/attempts', (req, res) => {
-  const attempts = loadAttempts();
+  let attempts = loadAttempts();
+  const email = (req.query.email || req.query.userEmail || '').trim().toLowerCase();
+  if (email) {
+    attempts = attempts.filter(a => (a.userEmail || '').toLowerCase() === email);
+  }
   res.json({
     totalAttempts: attempts.length,
     attempts

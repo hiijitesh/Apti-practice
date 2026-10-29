@@ -29,6 +29,12 @@
         <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="px-3 py-1.5 font-medium rounded-md bg-zinc-900 text-white hover:bg-zinc-800 transition">
           Mock Test
         </button>
+        <div id="user-header-widget" class="hidden items-center gap-1.5 ml-1 pl-2.5 border-l border-zinc-200">
+          <span id="header-user-email" class="font-mono text-[11px] text-zinc-600 truncate max-w-[130px] sm:max-w-[180px]"></span>
+          <button onclick="app.promptSwitchUser()" class="text-[10px] text-zinc-400 hover:text-zinc-700 transition" title="Switch User Email">
+            (Switch)
+          </button>
+        </div>
         <button onclick="app.toggleZenMode()" id="btn-zen" title="Toggle Distraction-Free Zen Mode" class="p-1.5 ml-1 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
         </button>
@@ -38,6 +44,39 @@
 
   <!-- Main Content Container -->
   <main class="flex-1 max-w-5xl w-full mx-auto px-4 sm:px-6 py-8">
+
+    <!-- VIEW 0: EMAIL SESSION GATEWAY -->
+    <section id="view-login" class="max-w-md mx-auto my-12 p-6 sm:p-8 bg-white border border-zinc-200 rounded-xl space-y-5 hidden">
+      <div>
+        <span class="text-[11px] uppercase tracking-wider font-semibold text-zinc-400 block mb-1">Welcome to AptiPrep</span>
+        <h2 class="text-xl font-semibold text-zinc-900">Enter your Email ID</h2>
+        <p class="text-xs text-zinc-500 mt-1 leading-relaxed">
+          Your test attempts, scores, and analytics will be saved under your email so you can track your progress.
+        </p>
+      </div>
+
+      <form onsubmit="app.handleEmailSubmit(event)" class="space-y-3 pt-1">
+        <div>
+          <label for="login-email-input" class="block text-xs font-medium text-zinc-700 mb-1">Email Address</label>
+          <input type="email" id="login-email-input" required placeholder="you@example.com"
+                 class="w-full px-3.5 py-2.5 border border-zinc-200 rounded-lg text-xs font-medium text-zinc-900 placeholder-zinc-400 focus:outline-none focus:border-zinc-500">
+        </div>
+
+        <div id="login-error-msg" class="text-[11px] text-rose-600 hidden"></div>
+
+        <button type="submit" class="w-full py-2.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition flex items-center justify-center gap-1.5">
+          <span>Continue to Dashboard</span>
+          <span>&rarr;</span>
+        </button>
+      </form>
+
+      <div class="pt-2 border-t border-zinc-100 flex items-center justify-between text-[11px] text-zinc-400">
+        <span>No password required</span>
+        <button type="button" onclick="app.loginAsGuest()" class="hover:text-zinc-700 transition">
+          Continue as Guest &rarr;
+        </button>
+      </div>
+    </section>
 
     <!-- VIEW 1: DASHBOARD -->
     <section id="view-dashboard" class="space-y-10">

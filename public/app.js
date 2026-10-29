@@ -1,4 +1,4 @@
-// public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal, Distraction-Free & Google Sheets Backend Ready)
+// public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal, Distraction-Free & Email Session Ready)
 
 class AptiPrepApp {
   constructor() {
@@ -8,6 +8,9 @@ class AptiPrepApp {
     this.currentMode = 'dashboard';
     this.zenMode = false;
     this.isStaticMode = false;
+
+    // Email Session
+    this.currentUserEmail = (localStorage.getItem('apti_user_email') || '').trim().toLowerCase();
 
     // Google Sheet Backend URL
     this.googleSheetUrl = localStorage.getItem('apti_google_sheet_url') ||
@@ -47,9 +50,79 @@ class AptiPrepApp {
 
   async init() {
     this.updateSheetStatusUI();
+    this.updateUserSessionUI();
     await this.loadChapters();
-    await this.loadAttempts();
-    this.renderDashboard();
+
+    if (!this.currentUserEmail) {
+      // First time user: ask for email before proceeding to dashboard
+      this.switchView('login');
+      setTimeout(() => {
+        const inp = document.getElementById('login-email-input');
+        if (inp) inp.focus();
+      }, 100);
+    } else {
+      await this.loadAttempts();
+      this.renderDashboard();
+      this.switchView('dashboard');
+    }
+  }
+
+  // ==========================================
+  // USER SESSION & EMAIL GATEWAY
+  // ==========================================
+
+  updateUserSessionUI() {
+    const widget = document.getElementById('user-header-widget');
+    const label = document.getElementById('header-user-email');
+    if (!widget || !label) return;
+
+    if (this.currentUserEmail) {
+      widget.classList.remove('hidden');
+      widget.classList.add('flex');
+      label.textContent = this.currentUserEmail;
+    } else {
+      widget.classList.add('hidden');
+      widget.classList.remove('flex');
+    }
+  }
+
+  handleEmailSubmit(e) {
+    if (e) e.preventDefault();
+    const input = document.getElementById('login-email-input');
+    const err = document.getElementById('login-error-msg');
+    const val = (input ? input.value : '').trim().toLowerCase();
+
+    if (!val || !val.includes('@') || !val.includes('.')) {
+      if (err) {
+        err.textContent = 'Please enter a valid email address.';
+        err.classList.remove('hidden');
+      }
+      return;
+    }
+
+    if (err) err.classList.add('hidden');
+    this.currentUserEmail = val;
+    localStorage.setItem('apti_user_email', val);
+    this.updateUserSessionUI();
+    this.loadAttempts();
+    this.showDashboard();
+  }
+
+  loginAsGuest() {
+    this.currentUserEmail = 'guest@local';
+    localStorage.setItem('apti_user_email', 'guest@local');
+    this.updateUserSessionUI();
+    this.loadAttempts();
+    this.showDashboard();
+  }
+
+  promptSwitchUser() {
+    this.switchView('login');
+    const input = document.getElementById('login-email-input');
+    if (input) {
+      input.value = (this.currentUserEmail === 'guest@local') ? '' : this.currentUserEmail;
+      input.focus();
+    }
   }
 
   // ==========================================
@@ -115,7 +188,6 @@ class AptiPrepApp {
     result.className = 'text-[11px] font-medium text-zinc-500 block';
 
     try {
-      // Test payload
       await fetch(url, {
         method: 'POST',
         mode: 'no-cors',
@@ -123,6 +195,7 @@ class AptiPrepApp {
         body: JSON.stringify({
           attemptId: 'ping_' + Date.now(),
           timestamp: new Date().toISOString(),
+          userEmail: this.currentUserEmail || 'test@ping.local',
           mode: 'connection_test',
           chapter: 'System Ping',
           totalQuestions: 0,
@@ -146,11 +219,10 @@ class AptiPrepApp {
     const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(this.attempts, null, 2));
     const dlAnchorElem = document.createElement('a');
     dlAnchorElem.setAttribute('href', dataStr);
-    dlAnchorElem.setAttribute('download', `apti_attempts_${new Date().toISOString().slice(0, 10)}.json`);
+    dlAnchorElem.setAttribute('download', `apti_attempts_${(this.currentUserEmail || 'user').replace(/[^a-zA-Z0-9]/g, '_')}_${new Date().toISOString().slice(0, 10)}.json`);
     dlAnchorElem.click();
   }
 
-  // Sync attempt to Google Sheet
   async syncToGoogleSheet(attempt) {
     if (!this.googleSheetUrl || this.googleSheetUrl.trim().length === 0) return;
 
@@ -158,6 +230,7 @@ class AptiPrepApp {
       const payload = {
         attemptId: attempt.attemptId,
         timestamp: attempt.timestamp,
+        userEmail: attempt.userEmail || this.currentUserEmail || 'guest@local',
         mode: attempt.mode,
         chapter: attempt.chapter || 'All Chapters',
         totalQuestions: attempt.totalQuestions,
@@ -221,7 +294,7 @@ class AptiPrepApp {
   // View Switching
   switchView(viewName) {
     this.currentMode = viewName;
-    const views = ['dashboard', 'practice', 'mock', 'results'];
+    const views = ['login', 'dashboard', 'practice', 'mock', 'results'];
     views.forEach(v => {
       const el = document.getElementById(`view-${v}`);
       if (el) el.classList.toggle('hidden', v !== viewName);
@@ -237,6 +310,11 @@ class AptiPrepApp {
   }
 
   showDashboard() {
+    if (!this.currentUserEmail) {
+      this.switchView('login');
+      return;
+    }
+
     if (this.mock.timerInterval) {
       if (!confirm('You have an ongoing mock test. Leaving will abandon the current test. Continue?')) {
         return;
@@ -248,6 +326,10 @@ class AptiPrepApp {
   }
 
   showChapterSelect() {
+    if (!this.currentUserEmail) {
+      this.switchView('login');
+      return;
+    }
     this.showDashboard();
     setTimeout(() => {
       const grid = document.getElementById('chapters-grid');
@@ -260,7 +342,7 @@ class AptiPrepApp {
   // ==========================================
 
   async loadChapters() {
-    // 1. Try local Express API first if not forced static
+    // 1. Try local Express API first
     try {
       const res = await fetch('/api/chapters');
       if (res.ok) {
@@ -274,9 +356,7 @@ class AptiPrepApp {
           return;
         }
       }
-    } catch (e) {
-      // Local API unavailable (e.g. running on GitHub Pages)
-    }
+    } catch (e) {}
 
     // 2. Fallback to direct static data loading
     this.isStaticMode = true;
@@ -289,7 +369,6 @@ class AptiPrepApp {
       const questions = await res.json();
       this.allQuestions = questions || [];
 
-      // Group by chapter
       const chapterMap = {};
       this.allQuestions.forEach(q => {
         chapterMap[q.chapter] = (chapterMap[q.chapter] || 0) + 1;
@@ -307,21 +386,31 @@ class AptiPrepApp {
   }
 
   async loadAttempts() {
+    if (!this.currentUserEmail) {
+      this.attempts = [];
+      this.renderAttemptsHistory();
+      return;
+    }
+
     let loaded = [];
+    const activeEmail = this.currentUserEmail;
 
     // 1. Load from browser localStorage
     try {
       const stored = localStorage.getItem('apti_attempts');
-      if (stored) loaded = JSON.parse(stored);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        // Filter attempts for this user session
+        loaded = parsed.filter(a => (a.userEmail || 'guest@local').toLowerCase() === activeEmail);
+      }
     } catch (e) {}
 
     // 2. If running locally with Node backend, load from /api/attempts
     try {
-      const res = await fetch('/api/attempts');
+      const res = await fetch(`/api/attempts?email=${encodeURIComponent(activeEmail)}`);
       if (res.ok) {
         const data = await res.json();
         if (data.attempts && data.attempts.length > 0) {
-          // Merge avoiding duplicates by attemptId
           const map = new Map();
           data.attempts.forEach(a => map.set(a.attemptId, a));
           loaded.forEach(a => {
@@ -454,11 +543,15 @@ class AptiPrepApp {
   // ==========================================
 
   async startPractice(chapterName) {
+    if (!this.currentUserEmail) {
+      this.switchView('login');
+      return;
+    }
+
     if (!chapterName && this.chapters.length > 0) {
       chapterName = this.chapters[0].name;
     }
 
-    // If static mode or questions cached
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
       const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
@@ -466,7 +559,6 @@ class AptiPrepApp {
       return;
     }
 
-    // Try API
     try {
       const res = await fetch(`/api/questions?chapter=${encodeURIComponent(chapterName)}`);
       if (res.ok) {
@@ -476,7 +568,6 @@ class AptiPrepApp {
       }
     } catch (err) {}
 
-    // Fallback to static
     this.isStaticMode = true;
     if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
     const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
@@ -538,19 +629,15 @@ class AptiPrepApp {
     const current = this.practice.currentIndex + 1;
     const isTestMode = (this.practice.modeType === 'test');
 
-    // Header info
     document.getElementById('practice-q-number').textContent = `Q${current}`;
     document.getElementById('practice-q-chapter').textContent = q.chapter;
     document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}`;
 
-    // Progress bar fill
     const fillPercent = (current / total) * 100;
     document.getElementById('practice-progress-fill').style.width = `${fillPercent}%`;
 
-    // Question text (clean English)
     document.getElementById('practice-q-text').textContent = q.question;
 
-    // Options Container
     const optContainer = document.getElementById('practice-options-container');
     const selected = this.practice.userAnswers[this.practice.currentIndex];
     const letters = ['A', 'B', 'C', 'D'];
@@ -561,13 +648,11 @@ class AptiPrepApp {
       let iconStyle = 'border border-zinc-200 text-zinc-500 bg-zinc-50';
 
       if (isTestMode) {
-        // IN TEST MODE: Only show that this option is selected. DO NOT reveal answer!
         if (selected === idx) {
           cardStyle = 'border-zinc-900 bg-zinc-50 text-zinc-900 font-medium ring-1 ring-zinc-900';
           iconStyle = 'bg-zinc-900 text-white border-zinc-900';
         }
       } else {
-        // IN STUDY MODE: Instant feedback
         if (selected !== undefined && selected !== null) {
           if (idx === q.correctAnswer) {
             cardStyle = 'border-emerald-500 bg-emerald-50/60 text-emerald-950 font-medium ring-1 ring-emerald-500';
@@ -592,7 +677,6 @@ class AptiPrepApp {
       `;
     }).join('');
 
-    // Explanation Box (Only shown in Study Mode after an answer is chosen)
     const expBox = document.getElementById('practice-explanation-box');
     if (!isTestMode && selected !== undefined && selected !== null) {
       expBox.classList.remove('hidden');
@@ -617,7 +701,6 @@ class AptiPrepApp {
       expBox.classList.add('hidden');
     }
 
-    // Previous / Next button states
     const btnPrev = document.getElementById('practice-btn-prev');
     const btnNext = document.getElementById('practice-btn-next');
     if (btnPrev) btnPrev.disabled = (this.practice.currentIndex === 0);
@@ -726,7 +809,7 @@ class AptiPrepApp {
     const unanswered = total - answered;
 
     const confirmed = confirm(
-      `Submit Chapter Test for "${this.practice.chapter}"?\n\nAnswered: ${answered}\nUnanswered: ${unanswered}\nTotal: ${total}\n\nUpon submission, your full score, correct answers, and step-by-step solutions will be shown.`
+      `Submit Chapter Test for "${this.practice.chapter}"?\n\nUser: ${this.currentUserEmail}\nAnswered: ${answered}\nUnanswered: ${unanswered}\nTotal: ${total}\n\nUpon submission, your full score, correct answers, and step-by-step solutions will be shown.`
     );
 
     if (confirmed) {
@@ -742,7 +825,6 @@ class AptiPrepApp {
       userAnswer: this.practice.userAnswers[idx] !== undefined ? this.practice.userAnswers[idx] : null
     }));
 
-    // If static mode or fallback, calculate locally
     if (this.isStaticMode || this.allQuestions.length > 0) {
       const attempt = this.calculateAttemptLocally({
         mode: 'chapter_test',
@@ -764,6 +846,7 @@ class AptiPrepApp {
         body: JSON.stringify({
           mode: 'chapter_test',
           chapter: this.practice.chapter,
+          userEmail: this.currentUserEmail || 'guest@local',
           timeTakenSeconds,
           answers: answersPayload
         })
@@ -778,7 +861,6 @@ class AptiPrepApp {
         alert('Failed to submit chapter test.');
       }
     } catch (err) {
-      // Fallback local calculation
       const attempt = this.calculateAttemptLocally({
         mode: 'chapter_test',
         chapter: this.practice.chapter,
@@ -796,8 +878,13 @@ class AptiPrepApp {
   // ==========================================
 
   startMockTestPrompt() {
+    if (!this.currentUserEmail) {
+      this.switchView('login');
+      return;
+    }
+
     const confirmed = confirm(
-      "Start 30-minute Full Mock Examination?\n\n• 30 questions uniformly balanced across chapters\n• 30 minutes timed test\n• Automatic submission on timeout\n\nClick OK to begin."
+      `Start 30-minute Full Mock Examination?\n\nUser: ${this.currentUserEmail}\n• 30 questions uniformly balanced across chapters\n• 30 minutes timed test\n• Automatic submission on timeout\n\nClick OK to begin.`
     );
     if (confirmed) {
       this.startMockTest();
@@ -805,7 +892,6 @@ class AptiPrepApp {
   }
 
   async startMockTest() {
-    // 1. If static mode or questions loaded, generate uniformly in JS
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
       const mockQuestions = this.generateMockQuestionsStatic(30);
@@ -813,7 +899,6 @@ class AptiPrepApp {
       return;
     }
 
-    // 2. Try API
     try {
       const res = await fetch('/api/mock');
       if (res.ok) {
@@ -825,7 +910,6 @@ class AptiPrepApp {
       }
     } catch (err) {}
 
-    // 3. Fallback
     this.isStaticMode = true;
     if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
     const mockQuestions = this.generateMockQuestionsStatic(30);
@@ -926,11 +1010,9 @@ class AptiPrepApp {
     const total = this.mock.questions.length;
     const current = this.mock.currentIndex + 1;
 
-    // Header info
     document.getElementById('mock-q-number').textContent = `Question ${current} of ${total}`;
     document.getElementById('mock-q-chapter').textContent = q.chapter;
 
-    // Review Toggle Button
     const isMarked = !!this.mock.reviewFlags[q.id];
     const reviewBtn = document.getElementById('mock-btn-review-toggle');
     const reviewLabel = document.getElementById('mock-review-toggle-label');
@@ -944,10 +1026,8 @@ class AptiPrepApp {
       }
     }
 
-    // Question Text (clean English)
     document.getElementById('mock-q-text').textContent = q.question;
 
-    // Options Container
     const optContainer = document.getElementById('mock-options-container');
     const selectedOption = this.mock.userAnswers[q.id];
     const letters = ['A', 'B', 'C', 'D'];
@@ -970,7 +1050,6 @@ class AptiPrepApp {
       `;
     }).join('');
 
-    // Previous / Next button states
     const btnPrev = document.getElementById('mock-btn-prev');
     const btnNext = document.getElementById('mock-btn-next');
     if (btnPrev) btnPrev.disabled = (this.mock.currentIndex === 0);
@@ -1118,7 +1197,6 @@ class AptiPrepApp {
       userAnswer: this.mock.userAnswers[q.id] !== undefined ? this.mock.userAnswers[q.id] : null
     }));
 
-    // If static mode or fallback, calculate locally
     if (this.isStaticMode || this.allQuestions.length > 0) {
       const attempt = this.calculateAttemptLocally({
         mode: 'mock',
@@ -1140,6 +1218,7 @@ class AptiPrepApp {
         body: JSON.stringify({
           mode: 'mock',
           chapter: null,
+          userEmail: this.currentUserEmail || 'guest@local',
           timeTakenSeconds,
           answers: answersPayload
         })
@@ -1154,7 +1233,6 @@ class AptiPrepApp {
         alert('Failed to submit test. Please check server status.');
       }
     } catch (err) {
-      // Local calculation fallback
       const attempt = this.calculateAttemptLocally({
         mode: 'mock',
         chapter: null,
@@ -1208,6 +1286,7 @@ class AptiPrepApp {
     return {
       attemptId: 'att_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6),
       timestamp: new Date().toISOString(),
+      userEmail: this.currentUserEmail || 'guest@local',
       mode,
       chapter,
       totalQuestions,
@@ -1232,7 +1311,16 @@ class AptiPrepApp {
   saveAttempt(attempt) {
     try {
       this.attempts.unshift(attempt);
-      localStorage.setItem('apti_attempts', JSON.stringify(this.attempts));
+      
+      // Save to global attempts array in localStorage
+      let all = [];
+      try {
+        const stored = localStorage.getItem('apti_attempts');
+        if (stored) all = JSON.parse(stored);
+      } catch (e) {}
+      
+      all.unshift(attempt);
+      localStorage.setItem('apti_attempts', JSON.stringify(all));
     } catch (e) {
       console.warn('LocalStorage save error:', e);
     }
@@ -1266,7 +1354,6 @@ class AptiPrepApp {
     this.results.attempt = attempt;
     this.results.currentFilter = 'all';
 
-    // Banner details
     const modeTag = document.getElementById('result-mode-tag');
     if (modeTag) {
       if (attempt.mode === 'mock') {
@@ -1298,7 +1385,6 @@ class AptiPrepApp {
       else feedbackEl.textContent = 'Focus on reviewing the missed questions and their formulas below.';
     }
 
-    // Stats
     document.getElementById('res-correct').textContent = attempt.correctCount;
     document.getElementById('res-incorrect').textContent = attempt.incorrectCount;
     document.getElementById('res-unattempted').textContent = attempt.unattemptedCount;
@@ -1307,10 +1393,8 @@ class AptiPrepApp {
     const secs = (attempt.timeTakenSeconds || 0) % 60;
     document.getElementById('res-time-taken').textContent = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
 
-    // Chapter Breakdown
     this.renderChapterBreakdown(attempt.chapterBreakdown || {});
 
-    // Filter counts
     const detailed = attempt.detailedAnswers || [];
     document.getElementById('filter-count-all').textContent = detailed.length;
     document.getElementById('filter-count-correct').textContent = detailed.filter(a => a.isCorrect).length;

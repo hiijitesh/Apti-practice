@@ -1,8 +1,8 @@
 /**
- * Google Apps Script Backend for AptiPrep
- * ---------------------------------------
+ * Google Apps Script Backend for AptiPrep (with User Email Sessions)
+ * -------------------------------------------------------------------
  * Setup Instructions:
- * 1. Create a new Google Sheet (e.g. name it "AptiPrep Attempts").
+ * 1. Create a new Google Sheet (e.g. "AptiPrep Attempts").
  * 2. In Google Sheets, click: Extensions > Apps Script.
  * 3. Delete any default code in Code.gs and paste this entire file.
  * 4. Click "Deploy" (top right) > "New deployment".
@@ -27,6 +27,7 @@ function doPost(e) {
       sheet.appendRow([
         "Attempt ID",
         "Timestamp",
+        "User Email",
         "Mode",
         "Chapter",
         "Score",
@@ -37,7 +38,7 @@ function doPost(e) {
         "Incorrect",
         "Unattempted"
       ]);
-      sheet.getRange(1, 1, 1, 11).setFontWeight("bold").setBackground("#f3f4f6");
+      sheet.getRange(1, 1, 1, 12).setFontWeight("bold").setBackground("#f3f4f6");
       sheet.setFrozenRows(1);
     }
 
@@ -55,6 +56,7 @@ function doPost(e) {
     sheet.appendRow([
       data.attemptId || Utilities.getUuid(),
       data.timestamp || new Date().toISOString(),
+      (data.userEmail || "guest@local").toLowerCase(),
       data.mode === "mock" ? "Mock Test" : (data.mode === "chapter_test" ? "Chapter Test" : "Practice"),
       data.chapter || "All Chapters",
       data.correctCount || 0,
@@ -87,20 +89,30 @@ function doGet(e) {
         .setMimeType(ContentService.MimeType.JSON);
     }
 
+    var filterEmail = e && e.parameter ? (e.parameter.email || e.parameter.userEmail || "").toLowerCase() : null;
     var attempts = [];
+
     for (var i = 1; i < rows.length; i++) {
       var r = rows[i];
+      var userEmail = (r[2] || "").toString().toLowerCase();
+
+      // If email filter requested, only return matching attempts
+      if (filterEmail && userEmail !== filterEmail) {
+        continue;
+      }
+
       attempts.push({
         attemptId: r[0],
         timestamp: r[1],
-        mode: r[2],
-        chapter: r[3],
-        correctCount: Number(r[4]) || 0,
-        totalQuestions: Number(r[5]) || 0,
-        scorePercentage: parseFloat(r[6]) || 0,
-        timeTakenFormatted: r[7],
-        incorrectCount: Number(r[9]) || 0,
-        unattemptedCount: Number(r[10]) || 0
+        userEmail: userEmail,
+        mode: r[3],
+        chapter: r[4],
+        correctCount: Number(r[5]) || 0,
+        totalQuestions: Number(r[6]) || 0,
+        scorePercentage: parseFloat(r[7]) || 0,
+        timeTakenFormatted: r[8],
+        incorrectCount: Number(r[10]) || 0,
+        unattemptedCount: Number(r[11]) || 0
       });
     }
 
