@@ -72,8 +72,8 @@ def main():
             continue
         confidence = float(source.get("ocrConfidence") or 0)
         if confidence < 45:
-            text = "[unclear] " + text
             poor_pages.add((source.get("file"), source.get("page")))
+            continue
         question, options = split_options(text)
         questions.append({
             "id": f"adv_math_{len(questions) + 1:05d}",
@@ -98,7 +98,7 @@ def main():
     for output_path in OUTPUTS:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as output:
-            json.dump(result, output, ensure_ascii=False, separators=(",", ":"))
+            json.dump(result, output, ensure_ascii=False, indent=2)
             output.write("\n")
     print(f"Questions retained: {len(questions)}")
     print(f"Pages flagged [unclear] (OCR confidence <45): {len(poor_pages)}")
