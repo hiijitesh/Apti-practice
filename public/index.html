@@ -51,10 +51,10 @@
         <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md bg-zinc-900 text-white hover:bg-zinc-800 transition whitespace-nowrap">
           Mock Test
         </button>
-        <div id="user-header-widget" class="hidden items-center gap-1 ml-0.5 sm:ml-1 pl-1.5 sm:pl-2.5 border-l border-zinc-200">
+        <div id="user-header-widget" class="hidden items-center gap-1.5 ml-0.5 sm:ml-1 pl-1.5 sm:pl-2.5 border-l border-zinc-200">
           <span id="header-user-email" class="font-mono text-[10px] sm:text-[11px] text-zinc-600 truncate max-w-[70px] sm:max-w-[160px]"></span>
-          <button onclick="app.promptSwitchUser()" class="text-[10px] text-zinc-400 hover:text-zinc-700 transition" title="Switch User Email">
-            &bull;
+          <button onclick="app.promptSwitchUser()" class="text-[10px] text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 rounded px-1 py-0.5 transition" title="Switch User / Logout">
+            Switch
           </button>
         </div>
         <button onclick="app.cycleFontSize()" id="btn-font-size" title="Change Text Size (A / A+ / A++)" class="px-2 py-1 rounded-md border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 font-bold font-mono text-xs transition flex items-center gap-1">
@@ -412,7 +412,7 @@
         </button>
         <button onclick="app.togglePracticeDrawer()" class="px-3 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-          <span>Palette</span>
+          <span id="practice-mobile-palette-btn-text">Palette</span>
         </button>
         <button onclick="app.nextPracticeQuestion()" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition">
           Next &rarr;
@@ -554,7 +554,7 @@
         </button>
         <button onclick="app.toggleMockDrawer()" class="px-2.5 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-          <span>Palette</span>
+          <span id="mock-mobile-palette-btn-text">Palette</span>
         </button>
         <button onclick="app.nextMockQuestion()" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition">
           Save & Next &rarr;

@@ -82,7 +82,11 @@ class AptiPrepApp {
     // Existing authenticated user: show dashboard and load data
     this.switchView('dashboard');
     this.updateUserSessionUI();
-    await Promise.all([this.loadChapters(), this.loadAttempts()]);
+    try {
+      await Promise.all([this.loadChapters(), this.loadAttempts()]);
+    } catch (e) {
+      console.warn('Init data load error:', e);
+    }
     this.renderDashboard();
   }
 
@@ -135,7 +139,7 @@ class AptiPrepApp {
     }
   }
 
-  handleEmailSubmit(e) {
+  async handleEmailSubmit(e) {
     if (e) e.preventDefault();
     const input = document.getElementById('login-email-input');
     const err = document.getElementById('login-error-msg');
@@ -153,23 +157,36 @@ class AptiPrepApp {
     this.currentUserEmail = val;
     localStorage.setItem('apti_user_email', val);
     this.updateUserSessionUI();
-    this.loadAttempts();
     this.showDashboard();
+    try {
+      await this.loadAttempts();
+      this.renderDashboard();
+    } catch (e) {
+      console.error('Error loading attempts:', e);
+    }
   }
 
-  loginAsGuest() {
+  async loginAsGuest() {
     this.currentUserEmail = 'guest@local';
     localStorage.setItem('apti_user_email', 'guest@local');
     this.updateUserSessionUI();
-    this.loadAttempts();
     this.showDashboard();
+    try {
+      await this.loadAttempts();
+      this.renderDashboard();
+    } catch (e) {
+      console.error('Error loading guest attempts:', e);
+    }
   }
 
   promptSwitchUser() {
+    this.currentUserEmail = null;
+    localStorage.removeItem('apti_user_email');
+    this.updateUserSessionUI();
     this.switchView('login');
     const input = document.getElementById('login-email-input');
     if (input) {
-      input.value = (this.currentUserEmail === 'guest@local') ? '' : this.currentUserEmail;
+      input.value = '';
       input.focus();
     }
   }
@@ -426,6 +443,56 @@ class AptiPrepApp {
     }
   }
 
+  async loadAttempts() {
+    if (!this.currentUserEmail) {
+      this.attempts = [];
+      this.renderAttemptsHistory();
+      return;
+    }
+
+    let loaded = [];
+    const activeEmail = this.currentUserEmail.trim().toLowerCase();
+
+    // 1. Load from browser localStorage
+    try {
+      const stored = localStorage.getItem('apti_attempts');
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          loaded = parsed.filter(a => ((a && a.userEmail) || 'guest@local').toLowerCase() === activeEmail);
+        }
+      }
+    } catch (e) {
+      console.warn('LocalStorage loadAttempts error:', e);
+    }
+
+    // 2. If running locally with Node backend, load from /api/attempts
+    try {
+      const res = await fetch(`/api/attempts?email=${encodeURIComponent(activeEmail)}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.attempts && Array.isArray(data.attempts)) {
+          const map = new Map();
+          data.attempts.forEach(a => {
+            if (a && a.attemptId) map.set(a.attemptId, a);
+          });
+          loaded.forEach(a => {
+            if (a && a.attemptId && !map.has(a.attemptId)) {
+              map.set(a.attemptId, a);
+            }
+          });
+          loaded = Array.from(map.values());
+        }
+      }
+    } catch (e) {
+      // Offline / static mode - keep loaded attempts
+    }
+
+    loaded.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    this.attempts = loaded;
+    this.renderAttemptsHistory();
+  }
+
   // Keyboard Navigation for Distraction-Free Test Taking
   bindKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
@@ -528,8 +595,10 @@ class AptiPrepApp {
       this.clearMockTimer();
     }
     this.exitFullscreen();
-    this.loadAttempts();
     this.switchView('dashboard');
+    this.updateUserSessionUI();
+    this.renderDashboard();
+    this.loadAttempts().catch(() => {});
   }
 
   showChapterSelect() {
@@ -1555,10 +1624,13 @@ class AptiPrepApp {
 
   generateMockQuestionsStatic(count = 30, subject = 'all') {
     let pool = [...this.allQuestions];
-    if (subject === 'aptitude') {
+    const sq = (subject || '').trim().toLowerCase();
+    if (sq === 'aptitude' || sq === 'quantitative aptitude') {
       pool = pool.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
-    } else if (subject === 'science') {
+    } else if (sq === 'science' || sq === 'general science') {
       pool = pool.filter(q => (q.subject || '').toLowerCase().includes('science'));
+    } else if (sq === 'biology' || sq === 'chemistry' || sq === 'physics') {
+      pool = pool.filter(q => (q.subSubject || '').toLowerCase() === sq);
     }
 
     const byChapter = {};
@@ -2034,15 +2106,37 @@ class AptiPrepApp {
 
     try {
       const res = await fetch(`/api/attempts/${attemptId}`);
-      const data = await res.json();
-      if (data.attemptId) {
-        this.renderResults(data);
-      } else {
-        alert('Attempt record not found.');
+      if (res.ok) {
+        const data = await res.json();
+        if (data.attemptId) {
+          this.renderResults(data);
+          return;
+        }
       }
-    } catch (err) {
-      console.error('Failed to load past attempt:', err);
+    } catch (err) {}
+
+    // Fallback: reconstruct detailedAnswers from local allQuestions if available
+    if (found && found.answers && this.allQuestions && this.allQuestions.length > 0) {
+      const qMap = new Map(this.allQuestions.map(q => [q.id, q]));
+      found.detailedAnswers = found.answers.map(ans => {
+        const q = qMap.get(ans.questionId);
+        return {
+          questionId: ans.questionId,
+          userAnswer: ans.userAnswer,
+          isCorrect: ans.isCorrect,
+          correctAnswer: q ? q.correctAnswer : null,
+          explanation: q ? q.explanation : '',
+          question: q ? q.question : '',
+          options: q ? q.options : [],
+          chapter: q ? q.chapter : 'General',
+          subject: q ? q.subject : undefined,
+          subSubject: q ? q.subSubject : undefined
+        };
+      });
+      this.renderResults(found);
+      return;
     }
+    alert('Attempt record not found.');
   }
 
   renderResults(attempt) {
