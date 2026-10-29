@@ -1,11 +1,17 @@
-// public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal & Distraction-Free)
+// public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal, Distraction-Free & Google Sheets Backend Ready)
 
 class AptiPrepApp {
   constructor() {
     this.chapters = [];
     this.attempts = [];
+    this.allQuestions = [];
     this.currentMode = 'dashboard';
     this.zenMode = false;
+    this.isStaticMode = false;
+
+    // Google Sheet Backend URL
+    this.googleSheetUrl = localStorage.getItem('apti_google_sheet_url') ||
+                          (window.APTIPREP_CONFIG && window.APTIPREP_CONFIG.GOOGLE_SHEET_URL) || '';
 
     // Practice / Chapter Test State
     this.practice = {
@@ -40,9 +46,137 @@ class AptiPrepApp {
   }
 
   async init() {
+    this.updateSheetStatusUI();
     await this.loadChapters();
     await this.loadAttempts();
     this.renderDashboard();
+  }
+
+  // ==========================================
+  // GOOGLE SHEET BACKEND CONFIGURATION
+  // ==========================================
+
+  updateSheetStatusUI() {
+    const dot = document.getElementById('sheet-status-dot');
+    const label = document.getElementById('sheet-status-text');
+    if (!dot || !label) return;
+
+    if (this.googleSheetUrl && this.googleSheetUrl.trim().length > 0) {
+      dot.className = 'w-1.5 h-1.5 rounded-full bg-emerald-500';
+      label.textContent = 'Sheet Synced';
+    } else {
+      dot.className = 'w-1.5 h-1.5 rounded-full bg-zinc-300';
+      label.textContent = 'Connect Sheet';
+    }
+  }
+
+  openSheetModal() {
+    const input = document.getElementById('sheet-url-input');
+    const result = document.getElementById('sheet-test-result');
+    if (input) input.value = this.googleSheetUrl;
+    if (result) {
+      result.textContent = '';
+      result.className = 'text-[11px] font-medium hidden';
+    }
+    const modal = document.getElementById('google-sheet-modal');
+    if (modal) modal.classList.remove('hidden');
+  }
+
+  closeSheetModal() {
+    const modal = document.getElementById('google-sheet-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  saveSheetConfig() {
+    const input = document.getElementById('sheet-url-input');
+    if (!input) return;
+    const url = input.value.trim();
+    this.googleSheetUrl = url;
+    localStorage.setItem('apti_google_sheet_url', url);
+    this.updateSheetStatusUI();
+    this.closeSheetModal();
+  }
+
+  async testSheetConnection() {
+    const input = document.getElementById('sheet-url-input');
+    const result = document.getElementById('sheet-test-result');
+    const btn = document.getElementById('btn-test-sheet');
+    if (!input || !result) return;
+
+    const url = input.value.trim();
+    if (!url) {
+      result.textContent = 'Please enter a valid Google Apps Script Web App URL.';
+      result.className = 'text-[11px] font-medium text-rose-600 block';
+      return;
+    }
+
+    if (btn) btn.textContent = 'Testing...';
+    result.textContent = 'Pinging Google Sheet...';
+    result.className = 'text-[11px] font-medium text-zinc-500 block';
+
+    try {
+      // Test payload
+      await fetch(url, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          attemptId: 'ping_' + Date.now(),
+          timestamp: new Date().toISOString(),
+          mode: 'connection_test',
+          chapter: 'System Ping',
+          totalQuestions: 0,
+          correctCount: 0,
+          scorePercentage: 100,
+          timeTakenSeconds: 0
+        })
+      });
+
+      result.textContent = 'Connection test signal sent! Check your Google Sheet to verify the ping row.';
+      result.className = 'text-[11px] font-medium text-emerald-600 block';
+    } catch (err) {
+      result.textContent = 'Error connecting: ' + err.message;
+      result.className = 'text-[11px] font-medium text-rose-600 block';
+    } finally {
+      if (btn) btn.textContent = 'Test Connection';
+    }
+  }
+
+  exportAttemptsJson() {
+    const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(this.attempts, null, 2));
+    const dlAnchorElem = document.createElement('a');
+    dlAnchorElem.setAttribute('href', dataStr);
+    dlAnchorElem.setAttribute('download', `apti_attempts_${new Date().toISOString().slice(0, 10)}.json`);
+    dlAnchorElem.click();
+  }
+
+  // Sync attempt to Google Sheet
+  async syncToGoogleSheet(attempt) {
+    if (!this.googleSheetUrl || this.googleSheetUrl.trim().length === 0) return;
+
+    try {
+      const payload = {
+        attemptId: attempt.attemptId,
+        timestamp: attempt.timestamp,
+        mode: attempt.mode,
+        chapter: attempt.chapter || 'All Chapters',
+        totalQuestions: attempt.totalQuestions,
+        correctCount: attempt.correctCount,
+        incorrectCount: attempt.incorrectCount,
+        unattemptedCount: attempt.unattemptedCount,
+        scorePercentage: attempt.scorePercentage,
+        timeTakenSeconds: attempt.timeTakenSeconds
+      };
+
+      await fetch(this.googleSheetUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+    } catch (err) {
+      console.warn('Google Sheet background sync notice:', err);
+    }
   }
 
   // Keyboard Navigation for Distraction-Free Test Taking
@@ -122,34 +256,84 @@ class AptiPrepApp {
   }
 
   // ==========================================
-  // DATA FETCHING
+  // DATA FETCHING (DUAL MODE: API & STATIC)
   // ==========================================
 
   async loadChapters() {
+    // 1. Try local Express API first if not forced static
     try {
       const res = await fetch('/api/chapters');
-      const data = await res.json();
-      this.chapters = data.chapters || [];
-      const badge = document.getElementById('total-questions-badge');
-      if (badge) {
-        badge.textContent = `${data.totalQuestions.toLocaleString()} questions`;
+      if (res.ok) {
+        const data = await res.json();
+        if (data.chapters && data.chapters.length > 0) {
+          this.chapters = data.chapters;
+          const badge = document.getElementById('total-questions-badge');
+          if (badge) badge.textContent = `${data.totalQuestions.toLocaleString()} questions`;
+          this.renderChaptersGrid();
+          this.populateChapterDropdown();
+          return;
+        }
       }
+    } catch (e) {
+      // Local API unavailable (e.g. running on GitHub Pages)
+    }
+
+    // 2. Fallback to direct static data loading
+    this.isStaticMode = true;
+    await this.loadAllQuestionsStatic();
+  }
+
+  async loadAllQuestionsStatic() {
+    try {
+      const res = await fetch('./data/questions.json');
+      const questions = await res.json();
+      this.allQuestions = questions || [];
+
+      // Group by chapter
+      const chapterMap = {};
+      this.allQuestions.forEach(q => {
+        chapterMap[q.chapter] = (chapterMap[q.chapter] || 0) + 1;
+      });
+
+      this.chapters = Object.entries(chapterMap).map(([name, count]) => ({ name, count }));
+      const badge = document.getElementById('total-questions-badge');
+      if (badge) badge.textContent = `${this.allQuestions.length.toLocaleString()} questions`;
+
       this.renderChaptersGrid();
       this.populateChapterDropdown();
     } catch (err) {
-      console.error('Failed to load chapters:', err);
+      console.error('Failed to load static questions.json:', err);
     }
   }
 
   async loadAttempts() {
+    let loaded = [];
+
+    // 1. Load from browser localStorage
+    try {
+      const stored = localStorage.getItem('apti_attempts');
+      if (stored) loaded = JSON.parse(stored);
+    } catch (e) {}
+
+    // 2. If running locally with Node backend, load from /api/attempts
     try {
       const res = await fetch('/api/attempts');
-      const data = await res.json();
-      this.attempts = data.attempts || [];
-      this.renderAttemptsHistory();
-    } catch (err) {
-      console.error('Failed to load attempts:', err);
-    }
+      if (res.ok) {
+        const data = await res.json();
+        if (data.attempts && data.attempts.length > 0) {
+          // Merge avoiding duplicates by attemptId
+          const map = new Map();
+          data.attempts.forEach(a => map.set(a.attemptId, a));
+          loaded.forEach(a => {
+            if (!map.has(a.attemptId)) map.set(a.attemptId, a);
+          });
+          loaded = Array.from(map.values()).sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+        }
+      }
+    } catch (e) {}
+
+    this.attempts = loaded;
+    this.renderAttemptsHistory();
   }
 
   // ==========================================
@@ -274,30 +458,48 @@ class AptiPrepApp {
       chapterName = this.chapters[0].name;
     }
 
+    // If static mode or questions cached
+    if (this.isStaticMode || this.allQuestions.length > 0) {
+      if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+      const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
+      this.initPracticeState(chapterName, filtered);
+      return;
+    }
+
+    // Try API
     try {
       const res = await fetch(`/api/questions?chapter=${encodeURIComponent(chapterName)}`);
-      const data = await res.json();
+      if (res.ok) {
+        const data = await res.json();
+        this.initPracticeState(chapterName, data.questions || []);
+        return;
+      }
+    } catch (err) {}
 
-      this.practice.chapter = chapterName;
-      this.practice.questions = data.questions || [];
-      this.practice.currentIndex = 0;
-      this.practice.userAnswers = {};
-      this.practice.startTime = Date.now();
+    // Fallback to static
+    this.isStaticMode = true;
+    if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+    const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
+    this.initPracticeState(chapterName, filtered);
+  }
 
-      const titleEl = document.getElementById('practice-chapter-title');
-      if (titleEl) titleEl.textContent = chapterName;
+  initPracticeState(chapterName, questions) {
+    this.practice.chapter = chapterName;
+    this.practice.questions = questions;
+    this.practice.currentIndex = 0;
+    this.practice.userAnswers = {};
+    this.practice.startTime = Date.now();
 
-      const dd = document.getElementById('practice-chapter-dropdown');
-      if (dd) dd.value = chapterName;
+    const titleEl = document.getElementById('practice-chapter-title');
+    if (titleEl) titleEl.textContent = chapterName;
 
-      this.setPracticeModeType(this.practice.modeType);
-      this.switchView('practice');
-      this.renderPracticeQuestion();
-      this.renderPracticePalette();
-    } catch (err) {
-      console.error('Failed to load chapter questions:', err);
-      alert('Error loading questions for ' + chapterName);
-    }
+    const dd = document.getElementById('practice-chapter-dropdown');
+    if (dd) dd.value = chapterName;
+
+    this.setPracticeModeType(this.practice.modeType);
+    this.switchView('practice');
+    this.renderPracticeQuestion();
+    this.renderPracticePalette();
   }
 
   setPracticeModeType(type) {
@@ -540,6 +742,21 @@ class AptiPrepApp {
       userAnswer: this.practice.userAnswers[idx] !== undefined ? this.practice.userAnswers[idx] : null
     }));
 
+    // If static mode or fallback, calculate locally
+    if (this.isStaticMode || this.allQuestions.length > 0) {
+      const attempt = this.calculateAttemptLocally({
+        mode: 'chapter_test',
+        chapter: this.practice.chapter,
+        timeTakenSeconds,
+        answers: answersPayload
+      });
+
+      this.saveAttempt(attempt);
+      this.syncToGoogleSheet(attempt);
+      this.renderResults(attempt);
+      return;
+    }
+
     try {
       const res = await fetch('/api/submit-attempt', {
         method: 'POST',
@@ -554,13 +771,23 @@ class AptiPrepApp {
 
       const data = await res.json();
       if (data.success && data.attempt) {
+        this.saveAttempt(data.attempt);
+        this.syncToGoogleSheet(data.attempt);
         this.renderResults(data.attempt);
       } else {
         alert('Failed to submit chapter test.');
       }
     } catch (err) {
-      console.error('Error submitting chapter test:', err);
-      alert('Error submitting chapter test answers.');
+      // Fallback local calculation
+      const attempt = this.calculateAttemptLocally({
+        mode: 'chapter_test',
+        chapter: this.practice.chapter,
+        timeTakenSeconds,
+        answers: answersPayload
+      });
+      this.saveAttempt(attempt);
+      this.syncToGoogleSheet(attempt);
+      this.renderResults(attempt);
     }
   }
 
@@ -578,30 +805,75 @@ class AptiPrepApp {
   }
 
   async startMockTest() {
+    // 1. If static mode or questions loaded, generate uniformly in JS
+    if (this.isStaticMode || this.allQuestions.length > 0) {
+      if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+      const mockQuestions = this.generateMockQuestionsStatic(30);
+      this.initMockState(mockQuestions);
+      return;
+    }
+
+    // 2. Try API
     try {
       const res = await fetch('/api/mock');
-      const data = await res.json();
-
-      if (!data.questions || data.questions.length === 0) {
-        alert('No questions available to generate mock test.');
-        return;
+      if (res.ok) {
+        const data = await res.json();
+        if (data.questions && data.questions.length > 0) {
+          this.initMockState(data.questions);
+          return;
+        }
       }
+    } catch (err) {}
 
-      this.mock.questions = data.questions;
-      this.mock.currentIndex = 0;
-      this.mock.userAnswers = {};
-      this.mock.reviewFlags = {};
-      this.mock.timeLeftSeconds = 1800; // 30 minutes
-      this.mock.startTime = Date.now();
+    // 3. Fallback
+    this.isStaticMode = true;
+    if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+    const mockQuestions = this.generateMockQuestionsStatic(30);
+    this.initMockState(mockQuestions);
+  }
 
-      this.switchView('mock');
-      this.renderMockQuestion();
-      this.updateMockPalette();
-      this.startMockTimer();
-    } catch (err) {
-      console.error('Failed to start mock test:', err);
-      alert('Error starting mock test. Please ensure questions are extracted.');
+  generateMockQuestionsStatic(count = 30) {
+    const byChapter = {};
+    this.allQuestions.forEach(q => {
+      if (!byChapter[q.chapter]) byChapter[q.chapter] = [];
+      byChapter[q.chapter].push(q);
+    });
+
+    const chapters = Object.keys(byChapter);
+    if (chapters.length === 0) return [];
+
+    const basePerChap = Math.floor(count / chapters.length);
+    const selected = [];
+    const shuffle = arr => [...arr].sort(() => 0.5 - Math.random());
+
+    chapters.forEach(chap => {
+      const pool = shuffle(byChapter[chap]);
+      const take = Math.min(basePerChap, pool.length);
+      for (let i = 0; i < take; i++) selected.push(pool[i]);
+    });
+
+    if (selected.length < count) {
+      const remainingPool = shuffle(this.allQuestions.filter(q => !selected.some(s => s.id === q.id)));
+      for (let i = 0; i < (count - selected.length) && i < remainingPool.length; i++) {
+        selected.push(remainingPool[i]);
+      }
     }
+
+    return shuffle(selected);
+  }
+
+  initMockState(questions) {
+    this.mock.questions = questions;
+    this.mock.currentIndex = 0;
+    this.mock.userAnswers = {};
+    this.mock.reviewFlags = {};
+    this.mock.timeLeftSeconds = 1800; // 30 minutes
+    this.mock.startTime = Date.now();
+
+    this.switchView('mock');
+    this.renderMockQuestion();
+    this.updateMockPalette();
+    this.startMockTimer();
   }
 
   startMockTimer() {
@@ -846,6 +1118,21 @@ class AptiPrepApp {
       userAnswer: this.mock.userAnswers[q.id] !== undefined ? this.mock.userAnswers[q.id] : null
     }));
 
+    // If static mode or fallback, calculate locally
+    if (this.isStaticMode || this.allQuestions.length > 0) {
+      const attempt = this.calculateAttemptLocally({
+        mode: 'mock',
+        chapter: null,
+        timeTakenSeconds,
+        answers: answersPayload
+      });
+
+      this.saveAttempt(attempt);
+      this.syncToGoogleSheet(attempt);
+      this.renderResults(attempt);
+      return;
+    }
+
     try {
       const res = await fetch('/api/submit-attempt', {
         method: 'POST',
@@ -860,13 +1147,94 @@ class AptiPrepApp {
 
       const data = await res.json();
       if (data.success && data.attempt) {
+        this.saveAttempt(data.attempt);
+        this.syncToGoogleSheet(data.attempt);
         this.renderResults(data.attempt);
       } else {
         alert('Failed to submit test. Please check server status.');
       }
     } catch (err) {
-      console.error('Submission error:', err);
-      alert('Error submitting test answers.');
+      // Local calculation fallback
+      const attempt = this.calculateAttemptLocally({
+        mode: 'mock',
+        chapter: null,
+        timeTakenSeconds,
+        answers: answersPayload
+      });
+      this.saveAttempt(attempt);
+      this.syncToGoogleSheet(attempt);
+      this.renderResults(attempt);
+    }
+  }
+
+  // ==========================================
+  // LOCAL ATTEMPT CALCULATION & STORAGE
+  // ==========================================
+
+  calculateAttemptLocally({ mode, chapter, timeTakenSeconds, answers }) {
+    const detailedAnswers = answers.map(ans => {
+      const q = this.allQuestions.find(item => item.id === ans.questionId);
+      const isCorrect = (ans.userAnswer !== null && ans.userAnswer !== undefined && q && ans.userAnswer === q.correctAnswer);
+      return {
+        questionId: ans.questionId,
+        chapter: q ? q.chapter : (chapter || 'General'),
+        question: q ? q.question : '',
+        options: q ? q.options : [],
+        userAnswer: ans.userAnswer,
+        correctAnswer: q ? q.correctAnswer : null,
+        isCorrect: !!isCorrect,
+        explanation: q ? q.explanation : ''
+      };
+    });
+
+    const totalQuestions = answers.length;
+    const correctCount = detailedAnswers.filter(a => a.isCorrect).length;
+    const incorrectCount = detailedAnswers.filter(a => a.userAnswer !== null && !a.isCorrect).length;
+    const unattemptedCount = detailedAnswers.filter(a => a.userAnswer === null).length;
+    const scorePercentage = totalQuestions > 0 ? parseFloat(((correctCount / totalQuestions) * 100).toFixed(1)) : 0;
+
+    const chapterBreakdown = {};
+    detailedAnswers.forEach(a => {
+      const ch = a.chapter;
+      if (!chapterBreakdown[ch]) {
+        chapterBreakdown[ch] = { total: 0, correct: 0, incorrect: 0, unattempted: 0 };
+      }
+      chapterBreakdown[ch].total++;
+      if (a.isCorrect) chapterBreakdown[ch].correct++;
+      else if (a.userAnswer === null) chapterBreakdown[ch].unattempted++;
+      else chapterBreakdown[ch].incorrect++;
+    });
+
+    return {
+      attemptId: 'att_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6),
+      timestamp: new Date().toISOString(),
+      mode,
+      chapter,
+      totalQuestions,
+      correctCount,
+      incorrectCount,
+      unattemptedCount,
+      scorePercentage,
+      timeTakenSeconds,
+      chapterBreakdown,
+      detailedAnswers,
+      // Only store user answered questions, omitting unattempted/null answers
+      answers: detailedAnswers
+        .filter(a => a.userAnswer !== null && a.userAnswer !== undefined)
+        .map(a => ({
+          questionId: a.questionId,
+          userAnswer: a.userAnswer,
+          isCorrect: a.isCorrect
+        }))
+    };
+  }
+
+  saveAttempt(attempt) {
+    try {
+      this.attempts.unshift(attempt);
+      localStorage.setItem('apti_attempts', JSON.stringify(this.attempts));
+    } catch (e) {
+      console.warn('LocalStorage save error:', e);
     }
   }
 
@@ -875,6 +1243,12 @@ class AptiPrepApp {
   // ==========================================
 
   async viewPastAttempt(attemptId) {
+    const found = this.attempts.find(a => a.attemptId === attemptId);
+    if (found && found.detailedAnswers) {
+      this.renderResults(found);
+      return;
+    }
+
     try {
       const res = await fetch(`/api/attempts/${attemptId}`);
       const data = await res.json();

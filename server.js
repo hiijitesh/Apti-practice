@@ -236,11 +236,14 @@ app.post('/api/submit-attempt', (req, res) => {
     unattemptedCount,
     scorePercentage,
     timeTakenSeconds: Math.round(timeTakenSeconds),
-    answers: evaluatedAnswers.map(a => ({
-      questionId: a.questionId,
-      userAnswer: a.userAnswer,
-      isCorrect: a.isCorrect
-    }))
+    // Only store answered questions, excluding unattempted/null answers
+    answers: evaluatedAnswers
+      .filter(a => a.userAnswer !== null && a.userAnswer !== undefined)
+      .map(a => ({
+        questionId: a.questionId,
+        userAnswer: a.userAnswer,
+        isCorrect: a.isCorrect
+      }))
   };
 
   // Persist to attempts.json
