@@ -124,6 +124,8 @@ function generateMockQuestions(allQuestions, subjectQuery = 'all', targetCount =
     pool = pool.filter(q => (q.subject || '').toLowerCase().includes('science'));
   } else if (sq === 'biology' || sq === 'chemistry' || sq === 'physics') {
     pool = pool.filter(q => (q.subSubject || '').toLowerCase() === sq);
+  } else if (sq === 'top300' || sq === 'top 300' || sq === 'top_300') {
+    pool = pool.filter(q => q.chapter === 'Top 300 Questions');
   }
 
   if (pool.length === 0) return [];

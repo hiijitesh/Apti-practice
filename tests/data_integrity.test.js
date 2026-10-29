@@ -17,13 +17,13 @@ describe('Data Integrity Tests', () => {
     const serverQuestions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
     const publicQuestions = JSON.parse(fs.readFileSync(publicQuestionsPath, 'utf8'));
 
-    assert.equal(serverQuestions.length, 2721, 'Master questions file should contain 2721 questions');
-    assert.equal(publicQuestions.length, 2721, 'Public static questions file should contain 2721 questions');
+    assert.equal(serverQuestions.length, 2891, 'Master questions file should contain 2891 questions');
+    assert.equal(publicQuestions.length, 2891, 'Public static questions file should contain 2891 questions');
 
     const serverIds = new Set(serverQuestions.map(q => q.id));
     const publicIds = new Set(publicQuestions.map(q => q.id));
-    assert.equal(serverIds.size, 2721, 'All question IDs must be unique');
-    assert.equal(publicIds.size, 2721, 'All public question IDs must be unique');
+    assert.equal(serverIds.size, 2891, 'All question IDs must be unique');
+    assert.equal(publicIds.size, 2891, 'All public question IDs must be unique');
   });
 
   test('every question adheres strictly to CBT schema', () => {
@@ -48,20 +48,20 @@ describe('Data Integrity Tests', () => {
     });
   });
 
-  test('subject distribution: 1342 Aptitude and 1379 Science across 51 chapters', () => {
+  test('subject distribution: 1342 Aptitude and 1549 Science across 52 chapters', () => {
     const questions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
     const apti = questions.filter(q => q.subject === 'Quantitative Aptitude');
     const science = questions.filter(q => q.subject === 'General Science');
 
     assert.equal(apti.length, 1342, 'Quantitative Aptitude must have 1342 questions');
-    assert.equal(science.length, 1379, 'General Science must have 1379 questions');
+    assert.equal(science.length, 1549, 'General Science must have 1549 questions');
 
     const chapters = new Set(questions.map(q => q.chapter));
-    assert.equal(chapters.size, 51, 'Total unique chapters must be 51');
+    assert.equal(chapters.size, 52, 'Total unique chapters must be 52');
 
     const aptiChapters = new Set(apti.map(q => q.chapter));
     const sciChapters = new Set(science.map(q => q.chapter));
     assert.equal(aptiChapters.size, 17, 'Aptitude must have 17 chapters');
-    assert.equal(sciChapters.size, 34, 'General Science must have 34 chapters');
+    assert.equal(sciChapters.size, 35, 'General Science must have 35 chapters');
   });
 });

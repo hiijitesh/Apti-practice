@@ -646,13 +646,17 @@ class AptiPrepApp {
   updateModalTabsUI() {
     const tabApti = document.getElementById('modal-tab-aptitude');
     const tabSci = document.getElementById('modal-tab-science');
+    const tabTop300 = document.getElementById('modal-tab-top300');
     const sciBar = document.getElementById('modal-science-subfilter-bar');
 
     const activeTab = 'flex-1 py-1.5 rounded-md font-semibold transition bg-white text-zinc-900 shadow-xs text-center';
     const inactiveTab = 'flex-1 py-1.5 rounded-md font-medium text-zinc-600 hover:text-zinc-900 transition text-center';
+    const activeTop300 = 'flex-1 py-1.5 rounded-md font-semibold transition bg-amber-600 text-white shadow-xs text-center';
+    const inactiveTop300 = 'flex-1 py-1.5 rounded-md font-medium text-amber-800 hover:text-amber-900 transition text-center';
 
     if (tabApti) tabApti.className = (this.modalSubject === 'aptitude' ? activeTab : inactiveTab);
     if (tabSci) tabSci.className = (this.modalSubject === 'science' ? activeTab : inactiveTab);
+    if (tabTop300) tabTop300.className = (this.modalSubject === 'top300' ? activeTop300 : inactiveTop300);
 
     if (sciBar) {
       sciBar.classList.toggle('hidden', this.modalSubject !== 'science');
@@ -686,10 +690,12 @@ class AptiPrepApp {
     if (this.modalSubject === 'aptitude') {
       filtered = filtered.filter(c => (c.subject || '').includes('Aptitude'));
     } else if (this.modalSubject === 'science') {
-      filtered = filtered.filter(c => (c.subject || '').includes('Science'));
+      filtered = filtered.filter(c => (c.subject || '').includes('Science') && c.name !== 'Top 300 Questions');
       if (this.modalScienceSub !== 'all') {
         filtered = filtered.filter(c => (c.subSubject || '').toLowerCase() === this.modalScienceSub.toLowerCase());
       }
+    } else if (this.modalSubject === 'top300') {
+      filtered = filtered.filter(c => c.name === 'Top 300 Questions');
     }
 
     if (filtered.length === 0) {
@@ -699,7 +705,9 @@ class AptiPrepApp {
 
     list.innerHTML = filtered.map(ch => {
       let badge = '';
-      if ((ch.subject || '').includes('Aptitude')) {
+      if (ch.name === 'Top 300 Questions') {
+        badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-1.5 py-0.5 rounded border border-amber-300">🔥 TOP 300</span>';
+      } else if ((ch.subject || '').includes('Aptitude')) {
         badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-500 bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200/60">Apti</span>';
       } else if (ch.subSubject === 'Biology') {
         badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">Bio</span>';
@@ -811,6 +819,10 @@ class AptiPrepApp {
     if (bApti) bApti.textContent = `(${aptiCount})`;
     const bSci = document.getElementById('badge-count-science');
     if (bSci) bSci.textContent = `(${sciCount})`;
+
+    const bTop300 = document.getElementById('badge-count-top300');
+    const top300Count = this.chapters.filter(c => c.name === 'Top 300 Questions').reduce((sum, c) => sum + c.count, 0) || 170;
+    if (bTop300) bTop300.textContent = `(${top300Count} Qs)`;
   }
 
   // ==========================================
@@ -824,14 +836,18 @@ class AptiPrepApp {
     const btnAll = document.getElementById('filter-btn-all');
     const btnApti = document.getElementById('filter-btn-aptitude');
     const btnSci = document.getElementById('filter-btn-science');
+    const btnTop300 = document.getElementById('filter-btn-top300');
     const subBar = document.getElementById('subsubject-filter-bar');
 
     const activeClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-zinc-900 text-white shadow-xs';
     const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300';
+    const activeTop300 = 'px-2.5 py-1 rounded-md text-xs font-semibold transition bg-amber-600 text-white shadow-xs border border-amber-600';
+    const inactiveTop300 = 'px-2.5 py-1 rounded-md text-xs font-semibold transition bg-amber-50 border border-amber-200 text-amber-800 hover:bg-amber-100';
 
     if (btnAll) btnAll.className = (filter === 'all' ? activeClass : inactiveClass);
     if (btnApti) btnApti.className = (filter === 'aptitude' ? activeClass : inactiveClass);
     if (btnSci) btnSci.className = (filter === 'science' ? activeClass : inactiveClass);
+    if (btnTop300) btnTop300.className = (filter === 'top300' ? activeTop300 : inactiveTop300);
 
     if (subBar) {
       if (filter === 'science') {
@@ -873,7 +889,9 @@ class AptiPrepApp {
       const subj = (ch.subject || '').toLowerCase();
       const subSubj = (ch.subSubject || '').toLowerCase();
 
-      if (this.currentSubjectFilter === 'aptitude') {
+      if (this.currentSubjectFilter === 'top300') {
+        return ch.name === 'Top 300 Questions';
+      } else if (this.currentSubjectFilter === 'aptitude') {
         if (!subj.includes('aptitude')) return false;
       } else if (this.currentSubjectFilter === 'science') {
         if (!subj.includes('science')) return false;
@@ -883,6 +901,10 @@ class AptiPrepApp {
       }
       return true;
     });
+  }
+
+  launchTop300ChapterTest() {
+    this.startPractice('Top 300 Questions');
   }
 
   // ==========================================
@@ -908,7 +930,11 @@ class AptiPrepApp {
     grid.innerHTML = filtered.map(ch => {
       const isSci = (ch.subject === 'General Science');
       let badgeHtml = '';
-      if (isSci) {
+      let cardBorder = 'bg-white hover:border-zinc-400 border border-zinc-200';
+      if (ch.name === 'Top 300 Questions') {
+        badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-1.5 py-0.5 rounded border border-amber-300">🔥 TOP 300</span>';
+        cardBorder = 'bg-gradient-to-r from-amber-50/70 to-white hover:border-amber-400 border border-amber-200 shadow-xs';
+      } else if (isSci) {
         if (ch.subSubject === 'Biology') {
           badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">Bio</span>';
         } else if (ch.subSubject === 'Chemistry') {
@@ -924,7 +950,7 @@ class AptiPrepApp {
 
       return `
         <div onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')"
-             class="bg-white hover:border-zinc-400 border border-zinc-200 rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
+             class="${cardBorder} rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
           <div class="space-y-1 overflow-hidden pr-2">
             <div class="flex items-center gap-1.5">
               ${badgeHtml}
@@ -955,10 +981,13 @@ class AptiPrepApp {
       chapsToDisplay = chapsToDisplay.filter(c => (c.subSubject || '').toLowerCase() === 'chemistry');
     } else if (s === 'physics') {
       chapsToDisplay = chapsToDisplay.filter(c => (c.subSubject || '').toLowerCase() === 'physics');
+    } else if (s === 'top300' || s === 'top 300') {
+      chapsToDisplay = chapsToDisplay.filter(c => c.name === 'Top 300 Questions');
     }
 
     if (s === 'all') {
       const groups = {
+        '🔥 TOP 300 Science Series': [],
         'Quantitative Aptitude': [],
         'General Science — Biology': [],
         'General Science — Chemistry': [],
@@ -966,7 +995,9 @@ class AptiPrepApp {
       };
 
       chapsToDisplay.forEach(ch => {
-        if ((ch.subject || '').includes('Aptitude')) {
+        if (ch.name === 'Top 300 Questions') {
+          groups['🔥 TOP 300 Science Series'].push(ch);
+        } else if ((ch.subject || '').includes('Aptitude')) {
           groups['Quantitative Aptitude'].push(ch);
         } else if (ch.subSubject === 'Biology') {
           groups['General Science — Biology'].push(ch);
@@ -1631,6 +1662,8 @@ class AptiPrepApp {
       pool = pool.filter(q => (q.subject || '').toLowerCase().includes('science'));
     } else if (sq === 'biology' || sq === 'chemistry' || sq === 'physics') {
       pool = pool.filter(q => (q.subSubject || '').toLowerCase() === sq);
+    } else if (sq === 'top300' || sq === 'top 300' || sq === 'top_300') {
+      pool = pool.filter(q => q.chapter === 'Top 300 Questions');
     }
 
     const byChapter = {};

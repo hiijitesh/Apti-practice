@@ -4550,7 +4550,7 @@
   "NUTRITION": {
     "chapter": "NUTRITION",
     "subject": "Bio",
-    "total_questions": 38,
+    "total_questions": 42,
     "source": "Science Magnet · RRB General Science (Group-D / ALP / NTPC / JE)",
     "questions": [
       {
@@ -5008,6 +5008,54 @@
         },
         "answer": "B",
         "exam_tag": "ALP 29 Nov 2024 | 1st Shift"
+      },
+      {
+        "q_num": 39,
+        "question": "Which of the following is a waste product produced in photosynthesis?",
+        "options": {
+          "A": "Glucose",
+          "B": "Water",
+          "C": "Carbon dioxide",
+          "D": "Oxygen"
+        },
+        "answer": "D",
+        "exam_tag": "RRB Group-D - 01/09/2022 (Shift-III)"
+      },
+      {
+        "q_num": 40,
+        "question": "Which of the following is not required for autotrophic nutrition?",
+        "options": {
+          "A": "Oxygen",
+          "B": "Carbon dioxide",
+          "C": "Light",
+          "D": "Chlorophyll"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D: 29/08/2022 (Shift-II)"
+      },
+      {
+        "q_num": 41,
+        "question": "During photosynthesis, six molecules of water are formed from ___________.",
+        "options": {
+          "A": "6H₂O",
+          "B": "12H₂O",
+          "C": "18H₂O",
+          "D": "24H₂O"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D - 20/09/2022 (Shift-III)"
+      },
+      {
+        "q_num": 42,
+        "question": "The rate of photosynthesis is maximum in which color of light?",
+        "options": {
+          "A": "Purple",
+          "B": "Green",
+          "C": "Red",
+          "D": "Yellow"
+        },
+        "answer": "C",
+        "exam_tag": "RRB NTPC 09.03.2021 (Shift-I)"
       }
     ]
   },
@@ -11538,7 +11586,7 @@
   "STRUCTURE OF ATOM": {
     "chapter": "STRUCTURE OF ATOM",
     "subject": "Chemistry",
-    "total_questions": 62,
+    "total_questions": 83,
     "source": "Science Magnet · RRB General Science (Group-D / ALP / NTPC / JE)",
     "questions": [
       {
@@ -12284,6 +12332,258 @@
         },
         "answer": "C",
         "exam_tag": "RRB Group-D 28-09-2018 (Shift-II)"
+      },
+      {
+        "q_num": 63,
+        "question": "What is the atomic mass of Carbon-13 isotope?",
+        "options": {
+          "A": "13 amu",
+          "B": "12 amu",
+          "C": "11 amu",
+          "D": "14 amu"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D, 04/12/2025 (Shift-1)"
+      },
+      {
+        "q_num": 64,
+        "question": "The hydrogen isotope, deuterium, contains ..........",
+        "options": {
+          "A": "Zero neutrons and one proton",
+          "B": "One proton and one neutron",
+          "C": "One electron and two neutrons",
+          "D": "One neutron and two protons"
+        },
+        "answer": "B",
+        "exam_tag": "RRB JE 25.05.2019 (Shift-I)"
+      },
+      {
+        "q_num": 65,
+        "question": "Isotopes of an element have the same number of __________.",
+        "options": {
+          "A": "Neutrons",
+          "B": "Protons",
+          "C": "Nucleus",
+          "D": "Electrons"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D, 29/12/2025 (Shift-3)"
+      },
+      {
+        "q_num": 66,
+        "question": "₁₈⁴⁰Ar and ₂₀⁴⁰Ca are a pair of:",
+        "options": {
+          "A": "Isotones",
+          "B": "Isobars",
+          "C": "Isoelectronic",
+          "D": "Isotopes"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D, 27/11/2025 (Shift-2)"
+      },
+      {
+        "q_num": 67,
+        "question": "In isobars, which property is the same?",
+        "options": {
+          "A": "Same mass number",
+          "B": "Same number of protons",
+          "C": "Same atomic number",
+          "D": "Same chemical properties"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Technician - III, 10-03-2026, Shift-3"
+      },
+      {
+        "q_num": 68,
+        "question": "If an element 'X' has two isotopes X-35 and X-37, then the average atomic mass of chlorine (if X-35 = 25% and X-37 = 75%) will be _____.",
+        "options": {
+          "A": "34.5 u",
+          "B": "35.5 u",
+          "C": "36.5 u",
+          "D": "36.0 u"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Technician - III, 10-03-2026, Shift-3"
+      },
+      {
+        "q_num": 69,
+        "question": "What conclusion can be drawn about the carbon atom from ₆C¹²?",
+        "options": {
+          "A": "It has 12 neutrons and 6 electrons",
+          "B": "It has 12 protons and 6 neutrons",
+          "C": "It has 6 protons and 12 neutrons",
+          "D": "It has 6 neutrons and 6 protons"
+        },
+        "answer": "D",
+        "exam_tag": "RRB Group-D 18-09-2018 (Shift-III)"
+      },
+      {
+        "q_num": 70,
+        "question": "What is the main difference between isobars and isotopes?",
+        "options": {
+          "A": "Isobars are atoms of different elements; isotopes are atoms of the same element.",
+          "B": "Isobars have the same mass number, but different atomic numbers.",
+          "C": "Isobars have the same number of electrons; isotopes do not.",
+          "D": "Isobars have the same atomic number; isotopes have different atomic numbers."
+        },
+        "answer": "A",
+        "exam_tag": "RRB Technician - III, 09-03-2026, Shift-3"
+      },
+      {
+        "q_num": 71,
+        "question": "Which of the following pairs represent the Isobar?",
+        "options": {
+          "A": "₁₅N₇ and ₁₆O₈",
+          "B": "¹⁵O₈ and ¹⁶O₈",
+          "C": "₄₀K₁₉ and ₄₀Ar₁₈",
+          "D": "²³⁵U₉₂ and ²³⁸U₉₂"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Group-D, 19/12/2025 (Shift-3)"
+      },
+      {
+        "q_num": 72,
+        "question": "What is the correct definition of atomic mass?",
+        "options": {
+          "A": "It is the mass of one atom in kilograms.",
+          "B": "It is the mass of one hydrogen molecule.",
+          "C": "It is the mass of an atom in grams.",
+          "D": "It is the mass relative to carbon-12 atom."
+        },
+        "answer": "D",
+        "exam_tag": "RRB Group-D, 09/12/2025 (Shift-2)"
+      },
+      {
+        "q_num": 73,
+        "question": "In his atomic model, Bohr used which set of symbols to represent different electron shells?",
+        "options": {
+          "A": "W, X, Y, Z, A....",
+          "B": "R, S, T, U, V....",
+          "C": "A, B, C, D, E....",
+          "D": "K, L, M, N, O...."
+        },
+        "answer": "D",
+        "exam_tag": "RRB Technicians Grade III 28/12/2024 Shift 3"
+      },
+      {
+        "q_num": 74,
+        "question": "According to Bohr-Bury, what is the maximum number of electrons that the M-shell can accommodate?",
+        "options": {
+          "A": "18",
+          "B": "20",
+          "C": "2",
+          "D": "8"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D, 08/01/2026 (Shift-2)"
+      },
+      {
+        "q_num": 75,
+        "question": "Which formula represents the maximum number of electrons that can be accommodated in the orbit of an atom?",
+        "options": {
+          "A": "2n",
+          "B": "2n⁻²",
+          "C": "2n³",
+          "D": "2n²"
+        },
+        "answer": "D",
+        "exam_tag": "RRB ALP & Tec. (31-08-18 Shift-I)"
+      },
+      {
+        "q_num": 76,
+        "question": "The maximum number of electrons that can be accommodated in M orbit is :",
+        "options": {
+          "A": "8",
+          "B": "2",
+          "C": "18",
+          "D": "32"
+        },
+        "answer": "C",
+        "exam_tag": "RRB ALP & Tec. (09-08-18 Shift-III)"
+      },
+      {
+        "q_num": 77,
+        "question": "The number of electrons that can be accommodated in the N shell is:",
+        "options": {
+          "A": "18",
+          "B": "32",
+          "C": "2",
+          "D": "8"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D 16-11-2018 (Shift-II)"
+      },
+      {
+        "q_num": 78,
+        "question": "The third orbit is denoted as ________ shell.",
+        "options": {
+          "A": "L",
+          "B": "K",
+          "C": "N",
+          "D": "M"
+        },
+        "answer": "D",
+        "exam_tag": "RRB JE 26.06.2019 (Shift-I)"
+      },
+      {
+        "q_num": 79,
+        "question": "What is the maximum number of electrons that can be accommodated in the K shell of an atom?",
+        "options": {
+          "A": "8",
+          "B": "18",
+          "C": "2",
+          "D": "6"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Group-D 05-11-2018 (Shift-II)"
+      },
+      {
+        "q_num": 80,
+        "question": "The maximum number of electrons that can be accommodated in a single shell depends on the formula-",
+        "options": {
+          "A": "2n²",
+          "B": "n²",
+          "C": "1n²",
+          "D": "3n²"
+        },
+        "answer": "A",
+        "exam_tag": "RRB ALP & Tec. (21-08-18 Shift I)"
+      },
+      {
+        "q_num": 81,
+        "question": "The maximum number of electrons that can be accommodated in the fourth level of energy is-",
+        "options": {
+          "A": "2",
+          "B": "32",
+          "C": "18",
+          "D": "8"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D 23-10-2018 (Shift-II)"
+      },
+      {
+        "q_num": 82,
+        "question": "The atomic number of an element is 13. So how many shells does this element have?",
+        "options": {
+          "A": "3",
+          "B": "1",
+          "C": "4",
+          "D": "2"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D 27-09-2018 (Shift-III)"
+      },
+      {
+        "q_num": 83,
+        "question": "The maximum number of electrons present in a shell is determined by which formula?",
+        "options": {
+          "A": "2n",
+          "B": "2n+1",
+          "C": "2n²",
+          "D": "n"
+        },
+        "answer": "C",
+        "exam_tag": "RRB JE 02.06.2019 (Shift-IV)"
       }
     ]
   },
@@ -14342,7 +14642,7 @@
   "MAGNETIC EFFECT OF CURRENT": {
     "chapter": "MAGNETIC EFFECT OF CURRENT",
     "subject": "Physics",
-    "total_questions": 22,
+    "total_questions": 24,
     "source": "Science Magnet · RRB General Science (Group-D / ALP / NTPC / JE)",
     "questions": [
       {
@@ -14608,13 +14908,37 @@
         },
         "answer": "B",
         "exam_tag": "RRB Group-D, 09 02 2026 (Shift-2)"
+      },
+      {
+        "q_num": 23,
+        "question": "Which of the following statements is true about magnetic field lines?",
+        "options": {
+          "A": "Field lines inside a magnet move from north to south.",
+          "B": "Field lines outside a magnet move from north to south.",
+          "C": "Magnetic field is weaker where lines are close.",
+          "D": "Field lines intersect at poles."
+        },
+        "answer": "B",
+        "exam_tag": "RRB Group-D, 01/12/2025 (Shift-1)"
+      },
+      {
+        "q_num": 24,
+        "question": "The closeness of magnetic field lines indicates:",
+        "options": {
+          "A": "Strength of magnetic field",
+          "B": "Position of the poles",
+          "C": "Direction of magnetic field",
+          "D": "Length of the magnet"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D, 24/12/2025 (Shift-1)"
       }
     ]
   },
   "MOTION": {
     "chapter": "MOTION",
     "subject": "Physics",
-    "total_questions": 53,
+    "total_questions": 67,
     "source": "Science Magnet · RRB General Science (Group-D / ALP / NTPC / JE)",
     "questions": [
       {
@@ -15252,6 +15576,174 @@
         },
         "answer": "B",
         "exam_tag": "RRB Group-D, 03 12 2025 (Shift-1)"
+      },
+      {
+        "q_num": 54,
+        "question": "A car starts from rest and accelerates uniformly at 2 m/s² for 5 seconds. What is the final velocity of the car?",
+        "options": {
+          "A": "20 m/s",
+          "B": "5 m/s",
+          "C": "10 m/s",
+          "D": "15 m/s"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Group-D, 27/11/2025 (Shift-3)"
+      },
+      {
+        "q_num": 55,
+        "question": "If the speed of a car increases from 20 m/s to 40 m/s in 4 seconds, the acceleration of the car is _____.",
+        "options": {
+          "A": "5 m/s²",
+          "B": "5 m/s",
+          "C": "10 m/s",
+          "D": "10 m/s²"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D, 09/02/2026 (Shift-2)"
+      },
+      {
+        "q_num": 56,
+        "question": "A particle accelerates uniformly at 2 m/s². Its velocity changes from 5 m/s to 15 m/s. How long does this take?",
+        "options": {
+          "A": "7 s",
+          "B": "2 s",
+          "C": "5 s",
+          "D": "10 s"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Group-D, 02/02/2026 (Shift-3)"
+      },
+      {
+        "q_num": 57,
+        "question": "Starting from rest, a car attains a speed of 10 m/s in 20 s. Braking reduces the speed to 5 m/s in the next 5 s. What is the respective acceleration in the two scenarios?",
+        "options": {
+          "A": "0.5 m/s² ; -1 m/s²",
+          "B": "0.5 m/s² ; 1 m/s²",
+          "C": "1 m/s² ; 0.5 m/s²",
+          "D": "-1 m/s² ; 0.5 m/s²"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Group-D, 04/02/2026 (Shift-2)"
+      },
+      {
+        "q_num": 58,
+        "question": "With respect to the equations of motion, which of the following is incorrect?",
+        "options": {
+          "A": "2as = u² - v²",
+          "B": "2as = v² - u²",
+          "C": "v = u + at",
+          "D": "s = ut + ½ at²"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Practice Question"
+      },
+      {
+        "q_num": 59,
+        "question": "A body starts from rest and accelerates at the rate of 5 m/s². What is the velocity after 5 seconds?",
+        "options": {
+          "A": "20 m/s",
+          "B": "25 m/s",
+          "C": "15 m/s",
+          "D": "5 m/s"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Practice Question"
+      },
+      {
+        "q_num": 60,
+        "question": "If a car is running at a speed of 72 km/hr and stops after 45 seconds, then what will be the retardation?",
+        "options": {
+          "A": "0.3 m/s²",
+          "B": "0.44 m/s²",
+          "C": "3 m/s²",
+          "D": "0.25 m/s²"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Practice Question"
+      },
+      {
+        "q_num": 61,
+        "question": "If a train travelling with a velocity of 20 m/s undergoes a uniform acceleration of 4 m/s², what is the value of its velocity in 5 seconds?",
+        "options": {
+          "A": "40 m/s",
+          "B": "80 m/s",
+          "C": "16 m/s",
+          "D": "60 m/s"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Technicians Grade III 23/12/2024 Shift 2"
+      },
+      {
+        "q_num": 62,
+        "question": "Select the correct equation(s) that relate(s) the final and initial velocity of a freely falling object with respect to time.\n(A) s = ut + 2at²\n(B) v = u + ½ at\n(C) (v−u) = at",
+        "options": {
+          "A": "Only A",
+          "B": "(A) and (B)",
+          "C": "(B) and (C)",
+          "D": "Only C"
+        },
+        "answer": "D",
+        "exam_tag": "RRB Technicians Grade III 23/12/2024 Shift 2"
+      },
+      {
+        "q_num": 63,
+        "question": "A motorcycle starting from rest attains a velocity of 30 m/s in 10 s. Assuming that the acceleration is uniform, find the distance travelled by the motorcycle to attain this velocity.",
+        "options": {
+          "A": "300 m",
+          "B": "250 m",
+          "C": "150 m",
+          "D": "270 m"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Technicians Grade III 26/12/2024 Shift 3"
+      },
+      {
+        "q_num": 64,
+        "question": "A bus accelerates uniformly from 12 m/s to 30 m/s in 30 s. Calculate the distance covered by the bus in that time.",
+        "options": {
+          "A": "1900 m",
+          "B": "400 m",
+          "C": "630 m",
+          "D": "175 m"
+        },
+        "answer": "C",
+        "exam_tag": "RRB Technicians Grade III 26/12/2024 Shift 3"
+      },
+      {
+        "q_num": 65,
+        "question": "Select the correct pair from the following options.",
+        "options": {
+          "A": "Velocity does not change with time - Non-uniform motion",
+          "B": "Change in velocity per unit time – Acceleration",
+          "C": "Motion of a freely falling body - Non-uniform acceleration",
+          "D": "Velocity varies with time - Uniform motion"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Technicians Grade III 20/12/2024 Shift 2"
+      },
+      {
+        "q_num": 66,
+        "question": "A car starts from rest and reaches a speed of 90 km/h in 30 seconds, what will be the acceleration of the car?",
+        "options": {
+          "A": "3 m/s²",
+          "B": "5/6 m/s²",
+          "C": "9 m/s²",
+          "D": "5/6 ms⁻²"
+        },
+        "answer": "B",
+        "exam_tag": "RRB Practice Question"
+      },
+      {
+        "q_num": 67,
+        "question": "A car starts from rest and accelerates at the rate of 3 m/s². What is the distance covered in 10 sec?",
+        "options": {
+          "A": "150 m",
+          "B": "100 m",
+          "C": "200 m",
+          "D": "250 m"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Practice Question"
       }
     ]
   },

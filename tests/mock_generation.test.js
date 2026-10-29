@@ -47,6 +47,15 @@ describe('Mock Test Generation Unit Tests', () => {
     });
   });
 
+  test('generateMockQuestions with "top300" filter generates 30 Top 300 questions', () => {
+    const mock = generateMockQuestions(allQuestions, 'top300', 30);
+    assert.equal(mock.length, 30);
+    mock.forEach(q => {
+      assert.equal(q.chapter, 'Top 300 Questions');
+      assert.ok(q.id.startsWith('sci_top300_'));
+    });
+  });
+
   test('questions are distributed uniformly across multiple chapters', () => {
     const mock = generateMockQuestions(allQuestions, 'all', 30);
     const chapters = new Set(mock.map(q => q.chapter));

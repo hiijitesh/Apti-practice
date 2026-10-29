@@ -1,0 +1,2722 @@
+[
+  {
+    "slide_num": 2,
+    "question": "A man stands 3 m in front of a plane mirror. The mirror is moved 1 m towards him while he stays where he is. The distance between the man and his image decreases by",
+    "options": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "4 m"
+    ],
+    "options_dict": {
+      "A": "1 m",
+      "B": "2 m",
+      "C": "3 m",
+      "D": "4 m"
+    }
+  },
+  {
+    "slide_num": 3,
+    "question": "Match List I with List II: List I List II (a) Gangue (i) Heating a sulphide ore strongly in excess air (b) Roasting (ii) An ore of mercury (c) Calcination (iii) Soil and sand mixed with the ore (d) Cinnabar (iv) Heating a carbonate ore strongly in limited air Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "C": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "D": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 5,
+    "question": "Assertion (A): Ozone formed near the ground from vehicular emissions is harmful to human health. Reason (R): Ozone present in the stratosphere blocks harmful ultraviolet radiation coming from the Sun.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 7,
+    "question": "Match List I with List II: List I List II (a) Mode of nutrition (i) Producer or decomposer (b) Cell structure (ii) Similarities studied using DNA DNA (c) Ecological role (iii) Autotrophic or heterotrophic (d) Genetic similarity (iv) Prokaryote or eukaryote (d) (iv) Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "D": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 9,
+    "question": "Two children of different masses start from rest at the top of two frictionless slides of the same height but different shapes. Which statement about their speeds on reaching the bottom is correct?",
+    "options": [
+      "The heavier child reaches with a greater speed",
+      "The lighter child reaches with a greater speed",
+      "Both reach with the same speed",
+      "The child on the steeper slide reaches with a greater speed"
+    ],
+    "options_dict": {
+      "A": "The heavier child reaches with a greater speed",
+      "B": "The lighter child reaches with a greater speed",
+      "C": "Both reach with the same speed",
+      "D": "The child on the steeper slide reaches with a greater speed"
+    }
+  },
+  {
+    "slide_num": 10,
+    "question": "To form a nitrogen molecule (N₂), how many of its electrons does each nitrogen atom share with the other atom?",
+    "options": [
+      "1 electron 1",
+      "3 electrons 3",
+      "2 electrons 2",
+      "5 electrons 5"
+    ],
+    "options_dict": {
+      "A": "1 electron 1",
+      "B": "3 electrons 3",
+      "C": "2 electrons 2",
+      "D": "5 electrons 5"
+    }
+  },
+  {
+    "slide_num": 11,
+    "question": "An electron enters a magnetic field at right angles to it. To find the direction of the force on the electron by Fleming's left-hand rule, the middle finger must point",
+    "options": [
+      "Along the motion of the electron",
+      "Opposite to the motion of the electron",
+      "Along the magnetic field",
+      "Perpendicular to both the field and the motion"
+    ],
+    "options_dict": {
+      "A": "Along the motion of the electron",
+      "B": "Opposite to the motion of the electron",
+      "C": "Along the magnetic field",
+      "D": "Perpendicular to both the field and the motion"
+    }
+  },
+  {
+    "slide_num": 12,
+    "question": "Assertion (A): A gas stove gives a clean blue flame when the air inlets at its base are open. Reason (R): When sufficient oxygen is available, the fuel undergoes incomplete combustion. (R)",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 15,
+    "question": "In the upper atmosphere, ozone (O₃) is formed when",
+    "options": [
+      "Three O₂ molecules combine directly",
+      "Sunlight splits CO₂ molecules",
+      "CFCs react with O₂ molecules CFC, O₂",
+      "Free O atoms, made by UV, join O₂ molecules UV"
+    ],
+    "options_dict": {
+      "A": "Three O₂ molecules combine directly",
+      "B": "Sunlight splits CO₂ molecules",
+      "C": "CFCs react with O₂ molecules CFC, O₂",
+      "D": "Free O atoms, made by UV, join O₂ molecules UV"
+    }
+  },
+  {
+    "slide_num": 17,
+    "question": "When a Planaria is cut into pieces, each piece grows into a complete animal. Yet this regeneration is not counted as reproduction because",
+    "options": [
+      "The pieces grow without any cell division",
+      "Regeneration occurs only in unicellular organisms",
+      "Organisms do not normally depend on being cut up to multiply",
+      "The new animals formed belong to a different species"
+    ],
+    "options_dict": {
+      "A": "The pieces grow without any cell division",
+      "B": "Regeneration occurs only in unicellular organisms",
+      "C": "Organisms do not normally depend on being cut up to multiply",
+      "D": "The new animals formed belong to a different species"
+    }
+  },
+  {
+    "slide_num": 19,
+    "question": "Consider the following statements: 1. In a sound wave travelling through air, the air particles vibrate parallel to the direction in which the wave travels. 2. Light is a mechanical wave because it is a transverse wave. 3. The seismic waves detected first by a seismograph during an earthquake are longitudinal waves. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "All of 1, 2 and 3",
+      "Only 1 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "All of 1, 2 and 3",
+      "D": "Only 1 and 3"
+    }
+  },
+  {
+    "slide_num": 21,
+    "question": "An electric kettle rated 1.5 kW is used on a 220 V supply. Which of the standard domestic fuse ratings should be placed in series with the kettle? 1.5 kW",
+    "options": [
+      "3",
+      "5",
+      "10",
+      "2"
+    ],
+    "options_dict": {
+      "A": "3",
+      "B": "5",
+      "C": "10",
+      "D": "2"
+    }
+  },
+  {
+    "slide_num": 24,
+    "question": "Propanal and propanone are two carbon compounds, each with three carbon atoms. The two compounds differ in their",
+    "options": [
+      "Molecular formula",
+      "Number of carbon atoms",
+      "Type of bond between the carbon atoms",
+      "Functional group"
+    ],
+    "options_dict": {
+      "A": "Molecular formula",
+      "B": "Number of carbon atoms",
+      "C": "Type of bond between the carbon atoms",
+      "D": "Functional group"
+    }
+  },
+  {
+    "slide_num": 26,
+    "question": "Assertion (A): While walking on a road, the force that moves a person forward is applied by the ground. Reason (R): The person pushes the ground backward with the feet, and the ground applies a force of the same size on the feet in the opposite direction.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 27,
+    "question": "In a group of students, some have earlobes that hang free while in others the earlobe is attached to the side of the head. The two kinds of earlobes are",
+    "options": [
+      "Two variants of an inherited trait",
+      "Acquired traits developed after birth",
+      "Variations caused only by diet",
+      "A trait found in only one sex"
+    ],
+    "options_dict": {
+      "A": "Two variants of an inherited trait",
+      "B": "Acquired traits developed after birth",
+      "C": "Variations caused only by diet",
+      "D": "A trait found in only one sex"
+    }
+  },
+  {
+    "slide_num": 29,
+    "question": "A child sits on a merry-go-round of radius 3.5 m, which completes one revolution in 11 s. What is the average speed of the child during one revolution? (Take π = 22/7)",
+    "options": [
+      "0 m/s",
+      "1 m/s",
+      "4 m/s",
+      "2 m/s"
+    ],
+    "options_dict": {
+      "A": "0 m/s",
+      "B": "1 m/s",
+      "C": "4 m/s",
+      "D": "2 m/s"
+    }
+  },
+  {
+    "slide_num": 30,
+    "question": "A student holds a page 25 cm from the eye. Two tiny dots on the page appear as a single dot. The distance between the dots must be less than about",
+    "options": [
+      "0.1 mm",
+      "1 mm",
+      "1 cm",
+      "0.01 mm"
+    ],
+    "options_dict": {
+      "A": "0.1 mm",
+      "B": "1 mm",
+      "C": "1 cm",
+      "D": "0.01 mm"
+    }
+  },
+  {
+    "slide_num": 32,
+    "question": "Very fine particles in the air scatter mainly blue light. If the scattering particles are large enough, the scattered light may appear",
+    "options": [
+      "White",
+      "Violet",
+      "Blue",
+      "Black"
+    ],
+    "options_dict": {
+      "A": "White",
+      "B": "Violet",
+      "C": "Blue",
+      "D": "Black"
+    }
+  },
+  {
+    "slide_num": 34,
+    "question": "A sound wave has a wavelength of 1.7 m and a time period of 0.005 s. What is the speed of this wave?",
+    "options": [
+      "0.0085 m/s",
+      "340 m/s",
+      "3.4 m/s",
+      "8.5 m/s"
+    ],
+    "options_dict": {
+      "A": "0.0085 m/s",
+      "B": "340 m/s",
+      "C": "3.4 m/s",
+      "D": "8.5 m/s"
+    }
+  },
+  {
+    "slide_num": 35,
+    "question": "The motor of a lift raises a cabin of mass 600 kg through a height of 25 m in 50 s at a steady speed. What is the power delivered by the motor? (Take g = 10 m/s²)",
+    "options": [
+      "150 kW",
+      "3 kW",
+      "300 W",
+      "1.5 kW"
+    ],
+    "options_dict": {
+      "A": "150 kW",
+      "B": "3 kW",
+      "C": "300 W",
+      "D": "1.5 kW"
+    }
+  },
+  {
+    "slide_num": 36,
+    "question": "Consider the following statements about the chlor-alkali process: 1. Chlorine gas is given off at the anode. 2. Sodium hydroxide solution is formed near the anode. 3. The chlorine obtained is used to make bleaching powder. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3 1, 2",
+      "1 and 3 only"
+    ],
+    "options_dict": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1, 2 and 3 1, 2",
+      "D": "1 and 3 only"
+    }
+  },
+  {
+    "slide_num": 38,
+    "question": "A biodiversity hotspot is a region with a large number of endemic species that has suffered significant habitat loss. Which of the following is NOT one of the global biodiversity hotspots that extend into India?",
+    "options": [
+      "Western Ghats",
+      "Himalayas",
+      "Thar Desert",
+      "Indo-Burma"
+    ],
+    "options_dict": {
+      "A": "Western Ghats",
+      "B": "Himalayas",
+      "C": "Thar Desert",
+      "D": "Indo-Burma"
+    }
+  },
+  {
+    "slide_num": 40,
+    "question": "Match List I with List II: List I List II (a) In yeast, without oxygen (i) Carbon dioxide and water (a) (i) (b) In muscle cells short of oxygen (ii) Ethanol and carbon dioxide (c) In mitochondria, with oxygen (iii) Pyruvate (d) First step, in the cytoplasm (iv) Lactic acid Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "B": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "C": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 43,
+    "question": "Match List I with List II: List I List II (a) F. C. Steward (i) Anther culture (b) Sipra Guha Mukherjee (ii) Crown gall disease (c) Agrobacterium tumefaciens (iii) Complete plant from a single carrot cell (d) Totipotency (iv) Ability of a mature cell to form a whole plant Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "D": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 46,
+    "question": "Consider the following statements about the human brain: 1. Blood pressure, salivation and vomiting are controlled by the medulla in the hind-brain. 2. The cerebellum is the centre for thought-out actions such as moving a chair. 3. Inside the skull, the brain lies in a fluid-filled balloon that absorbs shocks. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "2 and 3 only",
+      "D": "1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 48,
+    "question": "Consider the following statements about the centre of curvature of a spherical mirror: 1. It lies on the reflecting surface of the mirror. 2. It lies in front of a concave mirror but behind a convex mirror. 3. Its distance from the pole is equal to the radius of curvature. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3",
+      "2 and 3 only"
+    ],
+    "options_dict": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "1, 2 and 3",
+      "D": "2 and 3 only"
+    }
+  },
+  {
+    "slide_num": 50,
+    "question": "Match List I with List II: List I List II (a) W (i) Latin name ferrum (b) Zn (ii) Greek name hydrargyros (c) Fe (iii) German name wolfram (d) Hg (iv) First letter and a later letter of the English name Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 52,
+    "question": "A magnesium ribbon placed in cold water shows no change. When the water is heated, bubbles appear and the ribbon starts floating. The ribbon floats because",
+    "options": [
+      "Magnesium hydroxide formed is lighter than water",
+      "Magnesium expands on heating and becomes less dense",
+      "Bubbles of hydrogen gas stick to the surface of the metal",
+      "Oxygen from the hot water collects on the ribbon"
+    ],
+    "options_dict": {
+      "A": "Magnesium hydroxide formed is lighter than water",
+      "B": "Magnesium expands on heating and becomes less dense",
+      "C": "Bubbles of hydrogen gas stick to the surface of the metal",
+      "D": "Oxygen from the hot water collects on the ribbon"
+    }
+  },
+  {
+    "slide_num": 54,
+    "question": "In each reaction of List I, one substance is oxidised. Match List I with List II: List I List II (a) CuO + H₂ → Cu + H₂O (i) HCl (b) ZnO + C → Zn + CO (ii) Carbon (c) MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂ (iii) Copper (d) 2Cu + O₂ → 2CuO (iv) Hydrogen Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "B": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "C": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "D": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 55,
+    "question": "Rotis kept at room temperature for a few days get covered with mould, but the same rotis stay fresh much longer in a refrigerator. The low temperature of the refrigerator mainly",
+    "options": [
+      "Slows or stops the reproduction of mould",
+      "Kills all the spores present on the food",
+      "Removes all the moisture from the food",
+      "Stops air from reaching the food"
+    ],
+    "options_dict": {
+      "A": "Slows or stops the reproduction of mould",
+      "B": "Kills all the spores present on the food",
+      "C": "Removes all the moisture from the food",
+      "D": "Stops air from reaching the food"
+    }
+  },
+  {
+    "slide_num": 57,
+    "question": "A 9 V battery sends a charge of 6 C through a circuit. The energy given to this charge by the battery is",
+    "options": [
+      "54 J",
+      "1.5 J",
+      "15 J",
+      "0.67 J"
+    ],
+    "options_dict": {
+      "A": "54 J",
+      "B": "1.5 J",
+      "C": "15 J",
+      "D": "0.67 J"
+    }
+  },
+  {
+    "slide_num": 58,
+    "question": "A jeweller makes a 22 carat gold ornament of mass 48 g. The mass of copper or silver alloyed in the ornament is",
+    "options": [
+      "2 g",
+      "4 g",
+      "22 g",
+      "44 g"
+    ],
+    "options_dict": {
+      "A": "2 g",
+      "B": "4 g",
+      "C": "22 g",
+      "D": "44 g"
+    }
+  },
+  {
+    "slide_num": 60,
+    "question": "Which of the following about the word equation \"Magnesium + Oxygen → Magnesium oxide\" is correct?",
+    "options": [
+      "Magnesium and oxygen are the reactants and the arrowhead points",
+      "Magnesium oxide is a reactant written on the right of the arrow",
+      "Oxygen is the product because it is written beside the plus sign",
+      "The arrowhead points towards the reactants"
+    ],
+    "options_dict": {
+      "A": "Magnesium and oxygen are the reactants and the arrowhead points",
+      "B": "Magnesium oxide is a reactant written on the right of the arrow",
+      "C": "Oxygen is the product because it is written beside the plus sign",
+      "D": "The arrowhead points towards the reactants"
+    }
+  },
+  {
+    "slide_num": 61,
+    "question": "Under clear sky conditions the insolation is about 1 kW m⁻². How much solar energy falls on a solar panel of area 2 m² in 1 hour? 2 m²",
+    "options": [
+      "3.6 × 10⁶ J",
+      "7.2 × 10³ J",
+      "1.2 × 10⁵ J",
+      "7.2 × 10⁶ J"
+    ],
+    "options_dict": {
+      "A": "3.6 × 10⁶ J",
+      "B": "7.2 × 10³ J",
+      "C": "1.2 × 10⁵ J",
+      "D": "7.2 × 10⁶ J"
+    }
+  },
+  {
+    "slide_num": 62,
+    "question": "The leaves of the sensitive plant fold and droop when touched, although the plant has neither nervous tissue nor muscle tissue. This movement is possible because the plant cells",
+    "options": [
+      "Use special contractile proteins like animal muscle cells",
+      "Conduct information through a specialised nerve tissue",
+      "Change shape by changing the amount of water in them",
+      "Grow faster on the side of the leaf that is touched"
+    ],
+    "options_dict": {
+      "A": "Use special contractile proteins like animal muscle cells",
+      "B": "Conduct information through a specialised nerve tissue",
+      "C": "Change shape by changing the amount of water in them",
+      "D": "Grow faster on the side of the leaf that is touched"
+    }
+  },
+  {
+    "slide_num": 64,
+    "question": "Match List I with List II: List I List II (a) CuSO₄.5H₂O (i) Washing soda (b) CaSO₄.2H₂O (ii) Plaster of Paris (c) CaSO₄.1/2H₂O (iii) Gypsum (d) Na₂CO₃.10H₂O (iv) Blue crystals that turn white on heating Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 68,
+    "question": "Substances that are not broken down by biological processes are called non-biodegradable. Such a substance in the environment",
+    "options": [
+      "Is quickly broken down by living organisms",
+      "Is always converted into nutrients for plants",
+      "May persist for a long time or may harm members of the ecosystem",
+      "Is always inert and never harms any organism"
+    ],
+    "options_dict": {
+      "A": "Is quickly broken down by living organisms",
+      "B": "Is always converted into nutrients for plants",
+      "C": "May persist for a long time or may harm members of the ecosystem",
+      "D": "Is always inert and never harms any organism"
+    }
+  },
+  {
+    "slide_num": 70,
+    "question": "Match List I with List II: List I List II (a) Monera (i) Heterotrophic, multicellular, no cell wall (b) Protista (ii) Cell wall made of chitin (c) Fungi (iii) Includes Amoeba and Euglena (d) Animalia (iv) Prokaryotes such as bacteria Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "D": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 71,
+    "question": "When the live wire and the neutral wire of a domestic circuit come into direct contact because of damaged insulation, the current in the circuit abruptly ______, and this is called ______.",
+    "options": [
+      "Decreases; overloading",
+      "Increases; short-circuiting",
+      "Decreases; short-circuiting",
+      "Increases; earthing"
+    ],
+    "options_dict": {
+      "A": "Decreases; overloading",
+      "B": "Increases; short-circuiting",
+      "C": "Decreases; short-circuiting",
+      "D": "Increases; earthing"
+    }
+  },
+  {
+    "slide_num": 73,
+    "question": "Match List I with List II: List I List II (a) Shoots in phototropism (i) Growth of pollen tubes towards ovules (b) Roots in phototropism (ii) Bend away from light (c) Hydrotropism (iii) Bend towards light (d) Chemotropism (iv) Directional growth in response to water Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "C": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "D": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 76,
+    "question": "Match List I with List II: List I List II (a) Distance between two consecutive crests (i) Frequency (b) Number of density oscillations per second (ii) Wavelength (c) Time for one complete density oscillation (iii) Time period (d) Time period of a 5 Hz sound wave 5 (iv) 0.2 s Hz Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "D": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 78,
+    "question": "Match List I with List II: List I List II (a) Torch (i) Large image of the teeth (b) Solar furnace (ii) Powerful parallel beam of light (c) Dentist's mirror (iii) Concentrates sunlight to produce heat (d) Mirror in the Agra Fort wall (iv) Full image of the Taj Mahal Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "D": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 81,
+    "question": "Consider the following statements about a flower: 1. The filament connects the stigma to the ovary. 2. The anther produces pollen grains containing male gametes. 3. The ovary contains ovules, and each ovule has an egg cell. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 83,
+    "question": "Consider the following statements about ethanoic acid: 1. A 5-8% solution of acetic acid in water is called vinegar. 2. Pure ethanoic acid has a melting point of 290 K, so it often freezes during winter in cold climates. 3. Like hydrochloric acid, carboxylic acids are completely ionised and are strong acids. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 3",
+      "Only 2 and 3",
+      "All of 1, 2 and 3",
+      "Only 1 and 2"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 3",
+      "B": "Only 2 and 3",
+      "C": "All of 1, 2 and 3",
+      "D": "Only 1 and 2"
+    }
+  },
+  {
+    "slide_num": 85,
+    "question": "How does a rocket engine lift the rocket off the ground?",
+    "options": [
+      "The launch pad pushes the rocket upward",
+      "The Moon pulls the rocket upward",
+      "The expelled gas pushes the rocket upward with a force larger",
+      "The expelled gas pushes the rocket upward with a force equal"
+    ],
+    "options_dict": {
+      "A": "The launch pad pushes the rocket upward",
+      "B": "The Moon pulls the rocket upward",
+      "C": "The expelled gas pushes the rocket upward with a force larger",
+      "D": "The expelled gas pushes the rocket upward with a force equal"
+    }
+  },
+  {
+    "slide_num": 87,
+    "question": "Consider the following statements about electrons in atoms: 1. The L-shell can hold a maximum of 2 × 2² = 8 electrons. 2. A carbon atom has 2 electrons in the K-shell and 4 electrons in the L-shell. 3. A sodium atom has 1 electron in its M-shell. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 88,
+    "question": "A magnesium atom gives two electrons to become Mg²⁺, and a chlorine atom takes one electron to become Cl⁻. In what ratio do the Mg²⁺ and Cl⁻ ions combine?",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 1",
+      "2 : 3"
+    ],
+    "options_dict": {
+      "A": "1 : 2",
+      "B": "2 : 1",
+      "C": "1 : 1",
+      "D": "2 : 3"
+    }
+  },
+  {
+    "slide_num": 89,
+    "question": "Consider the following statements about plant tissues: 1. The lateral meristem, located along the circumference of a stem, increases the girth of the stem. 2. After a hedge is trimmed, more branches appear because of the intercalary meristem at the nodes. 3. Meristematic cells have large vacuoles and a small nucleus. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 92,
+    "question": "A peel of a Rhoeo leaf is kept in a concentrated sugar solution. Its cells lose water by osmosis, but the cell as a whole does not shrink in size. What is the reason?",
+    "options": [
+      "The cell membrane does not let water leave",
+      "Sugar enters the cell and replaces the lost water",
+      "The rigid cell wall maintains the shape of the cell",
+      "The nucleus holds the cell contents together"
+    ],
+    "options_dict": {
+      "A": "The cell membrane does not let water leave",
+      "B": "Sugar enters the cell and replaces the lost water",
+      "C": "The rigid cell wall maintains the shape of the cell",
+      "D": "The nucleus holds the cell contents together"
+    }
+  },
+  {
+    "slide_num": 94,
+    "question": "Match List I with List II: List I List II (a) CS₂ (i) Dinitrogen pentoxide (b) SF₆ (ii) Sulfur hexafluoride (c) N₂O₄ (iii) Dinitrogen tetroxide (d) N₂O₅ (iv) Carbon disulfide Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+      "B": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "C": "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 96,
+    "question": "Consider the following statements about chemical change: 1. Milk left at room temperature during summers undergoes a chemical change. 2. In rusting and in digestion of food, the nature and identity of the initial substance remain unchanged. 3. Respiration is an example of a chemical change in daily life. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 97,
+    "question": "Consider the following statements about the human eye: 1. The far point of a normal eye is at 25 cm. 2. Cataract is the milky and cloudy condition of the crystalline lens and causes partial or complete loss of vision. 3. Myopia, hypermetropia and presbyopia are three common refractive defects of vision. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 100,
+    "question": "Assertion (A): DNA copying during reproduction is absolutely accurate, so no variations arise in a population. Reason (R): Variations in a population are useful for ensuring the survival of the species.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 102,
+    "question": "A current of 3 A flows through a wire for 4 s. The number of electrons passing through a cross- section of the wire in this time is nearly",
+    "options": [
+      "2 × 10¹⁸",
+      "7.2 × 10¹⁸",
+      "1.8 × 10¹⁹",
+      "7.2 × 10¹⁹"
+    ],
+    "options_dict": {
+      "A": "2 × 10¹⁸",
+      "B": "7.2 × 10¹⁸",
+      "C": "1.8 × 10¹⁹",
+      "D": "7.2 × 10¹⁹"
+    }
+  },
+  {
+    "slide_num": 103,
+    "question": "Assertion (A): Veins do not need thick walls. Reason (R): The blood in veins is no longer under pressure.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 105,
+    "question": "Among the visible characters of pea plants studied by Mendel, the contrasting character of round seed shape was",
+    "options": [
+      "Wrinkled seed shape",
+      "Short plant height",
+      "White flower colour",
+      "Violet flower colour"
+    ],
+    "options_dict": {
+      "A": "Wrinkled seed shape",
+      "B": "Short plant height",
+      "C": "White flower colour",
+      "D": "Violet flower colour"
+    }
+  },
+  {
+    "slide_num": 107,
+    "question": "A load of 600 N is raised to a height of 1.5 m along a frictionless ramp of length 3 m. What effort is needed along the ramp? 600 N",
+    "options": [
+      "1200 N",
+      "300 N",
+      "900 N",
+      "400 N"
+    ],
+    "options_dict": {
+      "A": "1200 N",
+      "B": "300 N",
+      "C": "900 N",
+      "D": "400 N"
+    }
+  },
+  {
+    "slide_num": 108,
+    "question": "Which of the following changes at puberty occurs in both boys and girls?",
+    "options": [
+      "Increase in the size of the breasts",
+      "Beginning of menstruation",
+      "Darkening of the skin of the nipples",
+      "Oilier skin with possible pimples"
+    ],
+    "options_dict": {
+      "A": "Increase in the size of the breasts",
+      "B": "Beginning of menstruation",
+      "C": "Darkening of the skin of the nipples",
+      "D": "Oilier skin with possible pimples"
+    }
+  },
+  {
+    "slide_num": 110,
+    "question": "Seeds of a self-pollinated Tt pea plant grow into 2000 plants. How many of them are expected to carry two identical copies of the gene (genotype TT or tt)? 2000",
+    "options": [
+      "500",
+      "750",
+      "1000",
+      "1500"
+    ],
+    "options_dict": {
+      "A": "500",
+      "B": "750",
+      "C": "1000",
+      "D": "1500"
+    }
+  },
+  {
+    "slide_num": 112,
+    "question": "Match List I with List II: List I List II (a) Ovary (i) Terminal part, may be sticky (b) Style (ii) Swollen bottom part (c) Stigma (iii) Middle elongated part (d) Ovule (iv) Contains the egg cell Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 113,
+    "question": "Consider the following statements about mixtures: 1. A solution can turn into a heterogeneous mixture if it is left undisturbed for a long time. 2. Vinegar, which is acetic acid in water, is a homogeneous mixture. 3. A stirred mixture of sand and water is heterogeneous, because the sand particles are visible and settle with time. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 114,
+    "question": "In plants living in very dry habitats, the epidermis is covered by a thick layer of cuticle. What is the main advantage of this thick cuticle?",
+    "options": [
+      "It reduces the loss of water during transpiration",
+      "It increases the absorption of water from the soil",
+      "It increases the number of stomata for gaseous exchange",
+      "It helps the plant to make its own food"
+    ],
+    "options_dict": {
+      "A": "It reduces the loss of water during transpiration",
+      "B": "It increases the absorption of water from the soil",
+      "C": "It increases the number of stomata for gaseous exchange",
+      "D": "It helps the plant to make its own food"
+    }
+  },
+  {
+    "slide_num": 116,
+    "question": "Consider the following statements: 1. A metal reacts with an acid to give a salt and hydrogen gas. 2. A base gives hydrogen gas on reacting with every metal. 3. Sodium carbonate reacts with dilute HCl to give sodium chloride, water and carbon dioxide. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 120,
+    "question": "Match List I with List II: List I List II (a) Auxin (i) Promotes cell division (b) Gibberellin (ii) Inhibits growth (c) Cytokinin (iii) Helps in the growth of the stem (d) Abscisic acid (iv) Diffuses to the shady side of the shoot Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "C": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 123,
+    "question": "Assertion (A): Myopia is corrected by using a concave lens of suitable power. Reason (R): In a myopic eye the image of a distant object is formed behind the retina.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 124,
+    "question": "Consider the following statements about transport in plants: 1. Xylem transports the products of photosynthesis from the leaves to other parts of the plant. 2. Evaporation of water from the leaf cells creates a suction that pulls water from the xylem cells of the roots. 3. The effect of root pressure in the transport of water is more important at night. Which of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "1, 2 and 3",
+      "2 and 3 only"
+    ],
+    "options_dict": {
+      "A": "1 and 2 only",
+      "B": "1 and 3 only",
+      "C": "1, 2 and 3",
+      "D": "2 and 3 only"
+    }
+  },
+  {
+    "slide_num": 126,
+    "question": "Match List I with List II: List I List II (a) Source of litmus solution (i) Reddish-brown (b) Turmeric stain scrubbed with soap (ii) Lichen (c) Litmus solution in a neutral medium (iii) Purple (d) Phenolphthalein (iv) Synthetic indicator Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "D": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 129,
+    "question": "A 250 mL glucose solution contains 12.5 g of glucose. What is its mass by volume percentage (% m/v)? 250 mL",
+    "options": [
+      "5%",
+      "12.5%",
+      "20%",
+      "0.05%"
+    ],
+    "options_dict": {
+      "A": "5%",
+      "B": "12.5%",
+      "C": "20%",
+      "D": "0.05%"
+    }
+  },
+  {
+    "slide_num": 130,
+    "question": "In a circuit diagram, a student wants to show a component whose resistance can be changed. The component is called a",
+    "options": [
+      "Plug key",
+      "Ammeter",
+      "Voltmeter",
+      "Rheostat"
+    ],
+    "options_dict": {
+      "A": "Plug key",
+      "B": "Ammeter",
+      "C": "Voltmeter",
+      "D": "Rheostat"
+    }
+  },
+  {
+    "slide_num": 132,
+    "question": "Consider the following statements: 1. Fungi do not make their own food; they absorb nutrients from dead or decaying matter through a network of fine filaments called mycelium. 2. Yeast is unicellular, yet it is placed under Fungi because its cell wall is made of chitin. 3. All protists are autotrophs. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 135,
+    "question": "Assertion (A): A dark coloured road heats up more quickly in sunlight than a light coloured surface. Reason (R): Dark surfaces reflect more sunlight than light coloured surfaces.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 137,
+    "question": "Match List I with List II: List I List II (a) Typical prokaryotic cell (i) Diameter 10 to 100 µm (b) Typical eukaryotic cell (ii) Nucleoid (c) Primitive nucleus (iii) Diameter 1 to 10 µm (d) Most cell organelles (iv) Visible only with an electron microscope Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "D": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 140,
+    "question": "In 1820, Oersted noticed that a compass needle placed near a metallic wire got deflected when an electric current passed through the wire. This observation showed that",
+    "options": [
+      "An electric current heats the compass needle",
+      "Electricity and magnetism are related phenomena",
+      "A magnet can produce an electric current",
+      "A compass needle is attracted by every metal"
+    ],
+    "options_dict": {
+      "A": "An electric current heats the compass needle",
+      "B": "Electricity and magnetism are related phenomena",
+      "C": "A magnet can produce an electric current",
+      "D": "A compass needle is attracted by every metal"
+    }
+  },
+  {
+    "slide_num": 142,
+    "question": "Dilute ethanoic acid is added to sodium hydrogencarbonate in a test tube. The products formed are",
+    "options": [
+      "Sodium ethanoate, carbon dioxide and water",
+      "Sodium ethanoate and hydrogen gas",
+      "An ester and water",
+      "Sodium hydroxide and ethanol"
+    ],
+    "options_dict": {
+      "A": "Sodium ethanoate, carbon dioxide and water",
+      "B": "Sodium ethanoate and hydrogen gas",
+      "C": "An ester and water",
+      "D": "Sodium hydroxide and ethanol"
+    }
+  },
+  {
+    "slide_num": 144,
+    "question": "A sulfur atom has the electron distribution K = 2, L = 8, M = 6. How does it complete its octet, and what is its valency?",
+    "options": [
+      "By losing 6 electrons; valency 6 6",
+      "By losing 2 electrons; valency 2 2",
+      "By sharing 4 electrons; valency 4 4",
+      "By gaining 2 electrons; valency 2 2"
+    ],
+    "options_dict": {
+      "A": "By losing 6 electrons; valency 6 6",
+      "B": "By losing 2 electrons; valency 2 2",
+      "C": "By sharing 4 electrons; valency 4 4",
+      "D": "By gaining 2 electrons; valency 2 2"
+    }
+  },
+  {
+    "slide_num": 146,
+    "question": "Match List I with List II: List I List II (a) Pollination (i) Wind, water, insects and birds (b) Self-pollination (ii) Pollen from anther to stigma of another plant of the same type (c) Cross-pollination (iii) Transfer of pollen from anther to stigma (d) Pollinators (iv) Pollen to stigma of the same flower or the same plant Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "(a)-(i), (b)-(iv), (c)-(ii), (d)-(iii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "C": "(a)-(i), (b)-(iv), (c)-(ii), (d)-(iii)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 149,
+    "question": "Match List I with List II: List I List II (a) K⁺ (i) Ferric ion (b) Ca²⁺ (ii) Fluoride ion (c) Fe³⁺ (iii) Calcium ion (d) F⁻ (iv) Potassium ion Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "D": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 152,
+    "question": "A spherical mirror forms an erect image 1.2 cm tall of an object 3.0 cm tall. The magnification is",
+    "options": [
+      "+0.4",
+      "0.4",
+      "+2.5",
+      "2.5"
+    ],
+    "options_dict": {
+      "A": "+0.4",
+      "B": "0.4",
+      "C": "+2.5",
+      "D": "2.5"
+    }
+  },
+  {
+    "slide_num": 153,
+    "question": "Assertion (A): Nearly all weather phenomena take place in the troposphere. Reason (R): The troposphere extends from 12 km to 50 km and contains the ozone layer.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 155,
+    "question": "Consider the following statements about ecosystems: 1. Temperature, rainfall and wind are biotic components of an ecosystem. 2. An aquarium is an example of a human-made ecosystem. 3. Frogs, insects and birds of a garden are its biotic components. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 156,
+    "question": "Assertion (A): Hypermetropia arises because the eyeball has become too large. Reason (R): In hypermetropia, light rays from a close object are focussed at a point behind the retina.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 157,
+    "question": "Lime water turns milky when carbon dioxide is passed through it. On passing excess carbon dioxide, the milkiness disappears because the white precipitate changes into",
+    "options": [
+      "Calcium oxide",
+      "Calcium hydroxide",
+      "Calcium hydrogencarbonate",
+      "Calcium chloride"
+    ],
+    "options_dict": {
+      "A": "Calcium oxide",
+      "B": "Calcium hydroxide",
+      "C": "Calcium hydrogencarbonate",
+      "D": "Calcium chloride"
+    }
+  },
+  {
+    "slide_num": 159,
+    "question": "Match List I with List II: List I List II (a) Nephron (i) Connects the kidney with the urinary bladder (b) Bowman's capsule (ii) Stores urine until it is passed out (c) Ureter (iii) Filtration unit present in large numbers in a kidney (d) Urinary bladder (iv) Cup-shaped end of a coiled tube that collects the filtrate Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "D": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 161,
+    "question": "The skeletal equation Fe + H₂O → Fe₃O₄ + H₂ is balanced. The coefficients of Fe, H₂O, Fe₃O₄ and H₂, in this order, are: H₂",
+    "options": [
+      "3, 4, 1, 4",
+      "1, 4, 1, 4",
+      "3, 4, 1, 2",
+      "3, 1, 1, 4"
+    ],
+    "options_dict": {
+      "A": "3, 4, 1, 4",
+      "B": "1, 4, 1, 4",
+      "C": "3, 4, 1, 2",
+      "D": "3, 1, 1, 4"
+    }
+  },
+  {
+    "slide_num": 163,
+    "question": "Match List I with List II: List I List II (a) Uranium-235 (i) Treatment of goitre (b) Cobalt-60 (ii) Fuel in a nuclear reactor (c) Iodine-131 (iii) Radiation treatment for cancer (d) Carbon-14 (iv) Finding the age of ancient fossils Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "B": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "D": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 165,
+    "question": "Match List I with List II: List I List II (a) Spirogyra (i) Macroscopic fungus that reproduces by spores (b) Moss (ii) Fungus used to make enzymes and antibiotics (c) Mushroom (iii) Example of Thallophyta (d) Aspergillus (iv) Example of Bryophyta Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "C": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 169,
+    "question": "Which pair consists of two human-made ecosystems?",
+    "options": [
+      "Forest and pond",
+      "Pond and lake",
+      "Forest and garden",
+      "Garden and crop-field"
+    ],
+    "options_dict": {
+      "A": "Forest and pond",
+      "B": "Pond and lake",
+      "C": "Forest and garden",
+      "D": "Garden and crop-field"
+    }
+  },
+  {
+    "slide_num": 171,
+    "question": "A frog lays thousands of eggs in water, yet only a few young ones survive. What is the main reason?",
+    "options": [
+      "The eggs are fertilised inside the body of the female",
+      "Fertilisation is outside the body, and many eggs are destroyed or",
+      "Each egg contains a very large quantity of yolk",
+      "The embryo is well protected inside the mother"
+    ],
+    "options_dict": {
+      "A": "The eggs are fertilised inside the body of the female",
+      "B": "Fertilisation is outside the body, and many eggs are destroyed or",
+      "C": "Each egg contains a very large quantity of yolk",
+      "D": "The embryo is well protected inside the mother"
+    }
+  },
+  {
+    "slide_num": 173,
+    "question": "Consider the following statements about a flowering plant after fertilisation: 1. The ovary enlarges and develops into a fruit. 2. The ovules develop into seeds inside the fruit. 3. The fertilised egg is called a zygote, which later develops into a seed. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 175,
+    "question": "Match List I with List II: List I List II (a) Metal that is liquid at room temperature (i) Diamond (b) Non-metal that is lustrous (ii) Graphite (c) Hardest natural substance (iii) Mercury (d) Allotrope of carbon that conducts electricity (iv) Iodine Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "D": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 178,
+    "question": "Match List I with List II: List I List II (a) Parenchyma (i) Thick lignified walls, mostly dead cells (b) Collenchyma (ii) Unevenly thickened corners due to pectin (c) Sclerenchyma (iii) Thin-walled living cells that mainly store food (d) Xylem (iv) Carries water and minerals from the roots Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "C": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "D": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 182,
+    "question": "About 2 km of wire can be drawn from just one gram of which metal?",
+    "options": [
+      "Gold",
+      "Iron",
+      "Lead",
+      "Mercury"
+    ],
+    "options_dict": {
+      "A": "Gold",
+      "B": "Iron",
+      "C": "Lead",
+      "D": "Mercury"
+    }
+  },
+  {
+    "slide_num": 184,
+    "question": "Consider the following statements about the nucleus of a cell: 1. The nuclear membrane is a single layer without any pores. 2. The nucleolus is the dense round body in which ribosomal subunits are synthesised. 3. Chromosomes are composed of DNA and specific proteins. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 187,
+    "question": "Consider the following statements about adrenaline: 1. It is secreted directly into the blood and carried to different parts of the body. 2. It makes the heart beat faster, so more oxygen reaches the muscles. 3. It reduces blood flow to the digestive system and skin. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 189,
+    "question": "Consider the following statements about sound: 20 1. Sound waves with a frequency above 20 kHz are called ultrasonic waves. kHz 2. Elephants can detect ultrasound. 3. A sound wave of larger amplitude is heard louder. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 191,
+    "question": "A boy walks 30 m east and then walks 30 m back west to his starting point. The whole walk takes 40 s. What are his average speed and average velocity? 30 m",
+    "options": [
+      "1.5 m/s and 0 m/s",
+      "0 m/s and 1.5 m/s",
+      "0.75 m/s and 0 m/s",
+      "1.5 m/s and 0.75 m/s"
+    ],
+    "options_dict": {
+      "A": "1.5 m/s and 0 m/s",
+      "B": "0 m/s and 1.5 m/s",
+      "C": "0.75 m/s and 0 m/s",
+      "D": "1.5 m/s and 0.75 m/s"
+    }
+  },
+  {
+    "slide_num": 192,
+    "question": "In the F2 progeny of a cross between tall plants with round seeds and short plants with wrinkled seeds, the new combinations of traits are",
+    "options": [
+      "Tall round and short wrinkled",
+      "Tall round and tall wrinkled",
+      "Short wrinkled and short round",
+      "Tall wrinkled and short round"
+    ],
+    "options_dict": {
+      "A": "Tall round and short wrinkled",
+      "B": "Tall round and tall wrinkled",
+      "C": "Short wrinkled and short round",
+      "D": "Tall wrinkled and short round"
+    }
+  },
+  {
+    "slide_num": 195,
+    "question": "In a tug of war, Team X pulls the rope to the left with 900 N and Team Y pulls it to the right with 800 N. What happens to the rope?",
+    "options": [
+      "It moves to the left, because the forces are unbalanced",
+      "It moves to the right, because Team Y pulls with the smaller force",
+      "It does not move, because the forces are balanced",
+      "It does not move, because the forces act in opposite directions"
+    ],
+    "options_dict": {
+      "A": "It moves to the left, because the forces are unbalanced",
+      "B": "It moves to the right, because Team Y pulls with the smaller force",
+      "C": "It does not move, because the forces are balanced",
+      "D": "It does not move, because the forces act in opposite directions"
+    }
+  },
+  {
+    "slide_num": 196,
+    "question": "Consider the following statements about soaps and detergents: 1. Soap molecules are sodium or potassium salts of long-chain carboxylic acids. 2. Soap micelles are too small to scatter light. 3. Detergents do not form insoluble precipitates with calcium and magnesium ions in hard water. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 200,
+    "question": "Match List I with List II: List I List II (a) Deficiency of iodine in the diet (i) Dwarfism (b) Deficiency of growth hormone in (ii) Regulates blood sugar level childhood (c) Insulin (iii) Goitre (d) Testosterone (iv) Puberty changes in males Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "D": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 203,
+    "question": "Inside a glass slab, a ray reaches the second face and emerges into air. At this face the ray",
+    "options": [
+      "Speeds up and bends away from the normal",
+      "Slows down and bends towards the normal",
+      "Speeds up and bends towards the normal",
+      "Slows down and bends away from the normal"
+    ],
+    "options_dict": {
+      "A": "Speeds up and bends away from the normal",
+      "B": "Slows down and bends towards the normal",
+      "C": "Speeds up and bends towards the normal",
+      "D": "Slows down and bends away from the normal"
+    }
+  },
+  {
+    "slide_num": 204,
+    "question": "Light travels at 2 × 10⁸ m/s in medium 1 and at 1.6 × 10⁸ m/s in medium 2. The refractive index of medium 2 with respect to medium 1 is: m/s",
+    "options": [
+      "0.8",
+      "1.25",
+      "1.6",
+      "3.6"
+    ],
+    "options_dict": {
+      "A": "0.8",
+      "B": "1.25",
+      "C": "1.6",
+      "D": "3.6"
+    }
+  },
+  {
+    "slide_num": 205,
+    "question": "The temperature at which ethanol remains a liquid is",
+    "options": [
+      "90 K",
+      "158 K",
+      "391 K",
+      "352 K"
+    ],
+    "options_dict": {
+      "A": "90 K",
+      "B": "158 K",
+      "C": "391 K",
+      "D": "352 K"
+    }
+  },
+  {
+    "slide_num": 207,
+    "question": "A cyclist applies the brakes on a straight road, and her velocity falls from 8 m/s to 2 m/s in 3 s. What is her average acceleration? m/s",
+    "options": [
+      "2 m/s²",
+      "−2 m/s²",
+      "−6 m/s²",
+      "−2.67 m/s²"
+    ],
+    "options_dict": {
+      "A": "2 m/s²",
+      "B": "−2 m/s²",
+      "C": "−6 m/s²",
+      "D": "−2.67 m/s²"
+    }
+  },
+  {
+    "slide_num": 208,
+    "question": "Match List I with List II: List I List II (a) Tone (i) Quality that tells instruments apart (b) Musical note (ii) Sound of a single frequency note) (c) Timbre (iii) One note has double the frequency (d) Octave (iv) Fundamental along with overtones Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+      "B": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "C": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
+      "D": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 211,
+    "question": "Consider the following statements about carbon and its compounds: 1. The earth's crust contains about 20% carbon. 2. In a nitrogen molecule, the two atoms share three pairs of electrons, forming a triple bond. 3. Methane is a major component of bio-gas and Compressed Natural Gas (CNG). Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 214,
+    "question": "Match List I with List II: List I List II (a) Upper part of a bifocal lens (i) Convex lens for near vision (b) Lower part of a bifocal lens (ii) Concave lens for distant vision (c) Angle between the two lateral faces of a prism (iii) Angle of the prism (d) Angle between the emergent ray and the incident ray in a prism (iv) Angle of deviation Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "C": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
+      "D": "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)"
+    }
+  },
+  {
+    "slide_num": 217,
+    "question": "The atomic mass of chlorine is given as 35.5 u, although no single chlorine atom has a fractional mass. What does this value represent?",
+    "options": [
+      "A weighted average of its isotopes 35-Cl and 37-Cl",
+      "A simple average of the masses of 35-Cl and 37-Cl 35-Cl",
+      "The mass of every chlorine atom",
+      "The mass of the isotope 35-Cl alone"
+    ],
+    "options_dict": {
+      "A": "A weighted average of its isotopes 35-Cl and 37-Cl",
+      "B": "A simple average of the masses of 35-Cl and 37-Cl 35-Cl",
+      "C": "The mass of every chlorine atom",
+      "D": "The mass of the isotope 35-Cl alone"
+    }
+  },
+  {
+    "slide_num": 218,
+    "question": "Assertion (A): Without its atmosphere, the Earth would be too cold for life to survive. Reason (R): The ozone layer traps the heat that the Earth's surface radiates.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 220,
+    "question": "Dead leaves lying on a forest floor are slowly changed into simple inorganic substances that go into the soil and are used again by plants. Which group of organisms carries out this change?",
+    "options": [
+      "Producers",
+      "Decomposers",
+      "Herbivores",
+      "Parasites"
+    ],
+    "options_dict": {
+      "A": "Producers",
+      "B": "Decomposers",
+      "C": "Herbivores",
+      "D": "Parasites"
+    }
+  },
+  {
+    "slide_num": 222,
+    "question": "Assertion (A): A compass needle kept near a wire carrying current gets deflected. Reason (R): An electric current through a metallic conductor produces a magnetic field around it.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 223,
+    "question": "A wire has a resistance of 5 Ω. Another wire of the same material is twice as long and has half the area of cross-section. Its resistance is",
+    "options": [
+      "5 Ω",
+      "10 Ω",
+      "40 Ω",
+      "20 Ω"
+    ],
+    "options_dict": {
+      "A": "5 Ω",
+      "B": "10 Ω",
+      "C": "40 Ω",
+      "D": "20 Ω"
+    }
+  },
+  {
+    "slide_num": 224,
+    "question": "Consider the following statements about reproduction in humans: 1. Sperm and eggs have 46 chromosomes each, the same as body cells. 2. In males, gametogenesis produces numerous tiny, motile sperm, while in females it forms a single large egg. 3. The vas deferens opens into the urethra, which is a common passage for urine and sperm. (vas deferens) Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 227,
+    "question": "Consider the following statements about work: 1. Pushing a rigid wall does no work on the wall, because the wall is not displaced. 2. If a force acts perpendicular to the displacement of an object, the work done by that force is zero. 3. Work has no direction; it is described by a number with a positive or negative sign. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 228,
+    "question": "How does the way cnidarians obtain food differ from that of poriferans?",
+    "options": [
+      "Both use tentacles to catch prey",
+      "Both depend on water currents through pores",
+      "Poriferans use tentacles; cnidarians use water currents",
+      "Cnidarians use tentacles; poriferans use water currents"
+    ],
+    "options_dict": {
+      "A": "Both use tentacles to catch prey",
+      "B": "Both depend on water currents through pores",
+      "C": "Poriferans use tentacles; cnidarians use water currents",
+      "D": "Cnidarians use tentacles; poriferans use water currents"
+    }
+  },
+  {
+    "slide_num": 230,
+    "question": "In a healthy adult, about 180 litres of filtrate is formed in the kidneys daily, but only a litre or two of urine is excreted. This is because",
+    "options": [
+      "Most of the filtrate is re-absorbed in the kidney tubules",
+      "Most of the filtrate is stored in the urinary bladder",
+      "Most of the filtrate is lost as sweat",
+      "The kidneys filter only a small volume of blood"
+    ],
+    "options_dict": {
+      "A": "Most of the filtrate is re-absorbed in the kidney tubules",
+      "B": "Most of the filtrate is stored in the urinary bladder",
+      "C": "Most of the filtrate is lost as sweat",
+      "D": "The kidneys filter only a small volume of blood"
+    }
+  },
+  {
+    "slide_num": 232,
+    "question": "Which cells in the phloem regulate the cellular functions of the sieve tube cells?",
+    "options": [
+      "Phloem fibres",
+      "Phloem parenchyma",
+      "Tracheids",
+      "Companion cells"
+    ],
+    "options_dict": {
+      "A": "Phloem fibres",
+      "B": "Phloem parenchyma",
+      "C": "Tracheids",
+      "D": "Companion cells"
+    }
+  },
+  {
+    "slide_num": 234,
+    "question": "Match List I with List II: List I List II (a) Magnesium ribbon in air (i) Oxide dissolves in water to form an alkali (b) Aluminium oxide (ii) Reacts with both acids and bases (c) Sodium oxide (iii) Burns with a dazzling white flame (d) Copper heated in air (iv) Gets a black coating of copper(II) oxide Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "D": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 237,
+    "question": "Consider the following statements about the human female reproductive system: 1. The ovaries make the eggs and also produce some hormones. 2. When a girl is born, her ovaries already contain thousands of immature eggs. 3. After puberty, one egg is produced every month by one of the ovaries. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 239,
+    "question": "Solid sodium chloride does not conduct electricity, but its solution in water does. What is the reason?",
+    "options": [
+      "Water gives electrons to the ions",
+      "Solid sodium chloride has no ions in it",
+      "The ions become free to move in the solution",
+      "Sodium chloride becomes a covalent compound"
+    ],
+    "options_dict": {
+      "A": "Water gives electrons to the ions",
+      "B": "Solid sodium chloride has no ions in it",
+      "C": "The ions become free to move in the solution",
+      "D": "Sodium chloride becomes a covalent compound"
+    }
+  },
+  {
+    "slide_num": 241,
+    "question": "A girl lowers a dumbbell by 40 cm while holding it with an upward force of 60 N. What is the work done by her force on the dumbbell? cm",
+    "options": [
+      "24 J",
+      "−24 J",
+      "−2400 J",
+      "−150 J"
+    ],
+    "options_dict": {
+      "A": "24 J",
+      "B": "−24 J",
+      "C": "−2400 J",
+      "D": "−150 J"
+    }
+  },
+  {
+    "slide_num": 242,
+    "question": "Match List I with List II: List I List II (a) Ribosome (i) Cell's post office (b) Golgi apparatus (ii) Powerhouse of the cell (c) Lysosome (iii) Site of protein synthesis (d) Mitochondrion (iv) Single-membrane sac of enzymes Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "B": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 247,
+    "question": "Match List I with List II: List I List II (a) Bryophytes (i) Seeds enclosed in fruits (b) Pteridophytes (ii) Seeds exposed on cones (c) Gymnosperms (iii) Called plant amphibians (d) Angiosperms (iv) True roots, stems and leaves, no seeds Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "D": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 252,
+    "question": "Consider the following statements about cells: 1. Mature human red blood cells have no nucleus, which leaves more space for haemoglobin. 2. The genetic material of a prokaryotic cell lies inside a well-defined nucleus called the nucleoid. 3. Ribosomes are the sites of protein synthesis. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 254,
+    "question": "Consider the following statements about oxides and acids: 1. Metal oxides react with acids to give a salt and water, so they are called basic oxides. 2. Non-metallic oxides, such as carbon dioxide, are basic in nature. 3. Acids produce H⁺(aq) ions in solution, which are responsible for their acidic properties. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 255,
+    "question": "Thomson's model spreads the positive charge evenly, so alpha particles fired at a thin gold foil should pass straight through or deflect only slightly. Which observation of the gold foil experiment contradicted this expectation?",
+    "options": [
+      "Most alpha particles passed through undeflected",
+      "Alpha particles are positively charged",
+      "Alpha particles are nuclei of helium atoms",
+      "A few alpha particles bounced back"
+    ],
+    "options_dict": {
+      "A": "Most alpha particles passed through undeflected",
+      "B": "Alpha particles are positively charged",
+      "C": "Alpha particles are nuclei of helium atoms",
+      "D": "A few alpha particles bounced back"
+    }
+  },
+  {
+    "slide_num": 256,
+    "question": "Consider the following statements about the placenta: 1. It is a disc embedded in the uterine wall. 2. Its villi and the surrounding maternal blood spaces provide a large surface area for glucose and oxygen to pass from the mother to the embryo. 3. Waste substances produced by the embryo are transferred into the mother's blood through it. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 260,
+    "question": "Assertion (A): Desert plants can take up carbon dioxide at night. Reason (R): The steps of photosynthesis need not take place one after the other immediately. (R)",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 262,
+    "question": "Consider the following statements about reproduction in human females: 1. An egg that is not fertilised remains viable for about a day and then degenerates. 2. Ovulation is the shedding of the uterine lining along with some blood. 3. The implantation of the zygote in the uterus marks the beginning of pregnancy. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 265,
+    "question": "Assertion (A): In the spectrum of white light formed by a glass prism, red light bends the most. Reason (R): Different colours of light bend through different angles with respect to the incident ray as they pass through a prism.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 267,
+    "question": "Match List I with List II: List I List II (a) Autotrophs (producers) (i) Third trophic level (b) Herbivores (ii) Fourth trophic level (c) Small carnivores (iii) First trophic level (d) Larger carnivores (iv) Second trophic level Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "C": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 268,
+    "question": "Isaac Newton placed a second identical prism in an inverted position behind the first and passed all the colours of the spectrum through it. The light emerging from the second prism was",
+    "options": [
+      "A still wider spectrum",
+      "A beam of red light only",
+      "A beam of white light",
+      "A band of only violet and red"
+    ],
+    "options_dict": {
+      "A": "A still wider spectrum",
+      "B": "A beam of red light only",
+      "C": "A beam of white light",
+      "D": "A band of only violet and red"
+    }
+  },
+  {
+    "slide_num": 269,
+    "question": "A train moving at 72 km/h applies its brakes and comes to rest in 20 s. What is its average acceleration? 72 km/h",
+    "options": [
+      "+1 m/s²",
+      "−3.6 m/s²",
+      "−1 m/s²",
+      "−20 m/s²"
+    ],
+    "options_dict": {
+      "A": "+1 m/s²",
+      "B": "−3.6 m/s²",
+      "C": "−1 m/s²",
+      "D": "−20 m/s²"
+    }
+  },
+  {
+    "slide_num": 270,
+    "question": "On a position-time graph, a vehicle is at 20 m at t = 1 s (point A) and at 110 m at t = 4 s (point B). What is the magnitude of its average velocity between A and B, which is the slope of line AB?",
+    "options": [
+      "22.5 m/s",
+      "27.5 m/s",
+      "30 m/s",
+      "90 m/s"
+    ],
+    "options_dict": {
+      "A": "22.5 m/s",
+      "B": "27.5 m/s",
+      "C": "30 m/s",
+      "D": "90 m/s"
+    }
+  },
+  {
+    "slide_num": 271,
+    "question": "Consider the following statements about plastids and vacuoles in plant cells: 1. Chromoplasts are colourless plastids that store starch. 2. Some leucoplasts in potato cells store starch. 3. The large central vacuole maintains pressure inside the cell, which keeps a plant cell firm. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 274,
+    "question": "Why does a single-celled organism not need specific organs for taking in food and exchanging gases?",
+    "options": [
+      "It needs no energy for its life processes",
+      "Its entire surface is in contact with the environment",
+      "It does not use oxygen to break down food",
+      "It has specialised tissues for uptake of food and oxygen"
+    ],
+    "options_dict": {
+      "A": "It needs no energy for its life processes",
+      "B": "Its entire surface is in contact with the environment",
+      "C": "It does not use oxygen to break down food",
+      "D": "It has specialised tissues for uptake of food and oxygen"
+    }
+  },
+  {
+    "slide_num": 276,
+    "question": "Two sounds reaching us are heard as separate only if the gap between them is at least 0.1 s. If the speed of sound is 330 m/s, what is the minimum distance of a reflecting wall from which an echo can be heard? s",
+    "options": [
+      "16.5 m",
+      "33 m",
+      "17 m",
+      "3.3 m"
+    ],
+    "options_dict": {
+      "A": "16.5 m",
+      "B": "33 m",
+      "C": "17 m",
+      "D": "3.3 m"
+    }
+  },
+  {
+    "slide_num": 277,
+    "question": "Consider the following statements about energy: 1. The SI unit of energy is the same as the SI unit of work. 2. Energy can be transferred only by doing mechanical work and never as heat. 3. When two objects at different temperatures come in contact, energy flows from the hotter object to the colder object. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 278,
+    "question": "The resistivity of copper at 20°C is 1.62 × 10⁻⁸ Ω m. The resistance of a copper wire of length 10 m and cross-sectional area 1.62 × 10⁻⁶ m² at 20°C is: 20°C 20°C",
+    "options": [
+      "0.1 Ω",
+      "1 Ω",
+      "0.01 Ω",
+      "10 Ω"
+    ],
+    "options_dict": {
+      "A": "0.1 Ω",
+      "B": "1 Ω",
+      "C": "0.01 Ω",
+      "D": "10 Ω"
+    }
+  },
+  {
+    "slide_num": 279,
+    "question": "In a hilly region, the mountain slopes facing the Sun are heated more rapidly than the valley floor during the day. Which wind is produced as a result?",
+    "options": [
+      "Valley breeze, blowing up the slopes",
+      "Mountain breeze, blowing down the slopes",
+      "Sea breeze, blowing from the water to the land",
+      "Land breeze, blowing from the land to the water"
+    ],
+    "options_dict": {
+      "A": "Valley breeze, blowing up the slopes",
+      "B": "Mountain breeze, blowing down the slopes",
+      "C": "Sea breeze, blowing from the water to the land",
+      "D": "Land breeze, blowing from the land to the water"
+    }
+  },
+  {
+    "slide_num": 281,
+    "question": "Match List I with List II: List I List II (a) Porifera (i) Organ system level (b) Cnidaria (ii) Organ level (c) Platyhelminthes (iii) Cellular level (d) Annelida (iv) Tissue level Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "C": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 284,
+    "question": "Respiration in the cells follows C₆H₁₂O₆ + O₂ → CO₂ + H₂O + energy. The number of CO₂ molecules formed when 5 glucose molecules are completely respired is: + H₂O +",
+    "options": [
+      "6",
+      "30",
+      "11",
+      "60"
+    ],
+    "options_dict": {
+      "A": "6",
+      "B": "30",
+      "C": "11",
+      "D": "60"
+    }
+  },
+  {
+    "slide_num": 286,
+    "question": "Compared with an ionic compound such as common salt, camphor (a covalent compound) is expected to have which of the following properties?",
+    "options": [
+      "Higher melting point and good electrical conduction",
+      "Lower melting point and no electrical conduction",
+      "Higher boiling point and conduction when dissolved",
+      "Lower melting point and conduction when molten"
+    ],
+    "options_dict": {
+      "A": "Higher melting point and good electrical conduction",
+      "B": "Lower melting point and no electrical conduction",
+      "C": "Higher boiling point and conduction when dissolved",
+      "D": "Lower melting point and conduction when molten"
+    }
+  },
+  {
+    "slide_num": 288,
+    "question": "Match List I with List II: List I List II (a) Sodium in cold water (i) A thin oxide layer protects it from further corrosion (b) Calcium in cold water (ii) The hydrogen evolved catches fire (c) Aluminium in air (iii) The heat released is not enough for hydrogen to catch fire (d) Silver and gold heated in oxygen (iv) No reaction even at high temperature Select the correct answer",
+    "options": [
+      "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "D": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 291,
+    "question": "A box starts moving when it is pushed on a rough floor. Which two forces acting on the box are balanced?",
+    "options": [
+      "Weight and normal force",
+      "Applied force and force of friction",
+      "Weight and applied force",
+      "Normal force and force of friction"
+    ],
+    "options_dict": {
+      "A": "Weight and normal force",
+      "B": "Applied force and force of friction",
+      "C": "Weight and applied force",
+      "D": "Normal force and force of friction"
+    }
+  },
+  {
+    "slide_num": 293,
+    "question": "Match List I with List II: List I List II (a) Bone (i) Connects bone to bone (b) Cartilage (ii) Connects muscle to bone (c) Tendon (iii) Soft, jelly-like matrix (d) Ligament (iv) Rigid matrix with calcium and phosphorus compounds Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 295,
+    "question": "Many ports on the northwestern coast of Europe stay ice-free in winter even though they lie at high latitudes. Which of the following is the main reason?",
+    "options": [
+      "A cold surface current flowing from the poles",
+      "A deep current of dense, highly saline water",
+      "The North Atlantic Drift, a warm current",
+      "A gyre rotating anticlockwise in the Northern Hemisphere"
+    ],
+    "options_dict": {
+      "A": "A cold surface current flowing from the poles",
+      "B": "A deep current of dense, highly saline water",
+      "C": "The North Atlantic Drift, a warm current",
+      "D": "A gyre rotating anticlockwise in the Northern Hemisphere"
+    }
+  },
+  {
+    "slide_num": 298,
+    "question": "Consider the following statements about the magnetic field produced by a current in a long straight wire: 1. Reversing the direction of the current does not change the direction of the field. 2. At a given point, the magnitude of the field increases as the current through the wire increases. 3. For an unchanged current, the field at a point decreases as its distance from the wire increases. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 299,
+    "question": "Light travels in a transparent material at a speed of 1.5 × 10⁸ m/s. Taking the speed of light in vacuum as 3 × 10⁸ m/s, the refractive index of the material is: m/s",
+    "options": [
+      "0.5",
+      "2",
+      "4.5",
+      "1.5"
+    ],
+    "options_dict": {
+      "A": "0.5",
+      "B": "2",
+      "C": "4.5",
+      "D": "1.5"
+    }
+  },
+  {
+    "slide_num": 300,
+    "question": "A sprinter runs a race by voluntary movements of the legs. Which description fits the fibres of the skeletal muscles that carry out these movements?",
+    "options": [
+      "Long, cylindrical, unbranched, multinucleate and striated",
+      "Short, branched, with a single nucleus and no bands",
+      "Long, unbranched, with a single nucleus and no bands",
+      "Cuboidal, closely packed, with very little space between them"
+    ],
+    "options_dict": {
+      "A": "Long, cylindrical, unbranched, multinucleate and striated",
+      "B": "Short, branched, with a single nucleus and no bands",
+      "C": "Long, unbranched, with a single nucleus and no bands",
+      "D": "Cuboidal, closely packed, with very little space between them"
+    }
+  },
+  {
+    "slide_num": 302,
+    "question": "If the leaves of the plants in a field receive 40,000 kJ of sunlight energy, the energy converted into food energy is about",
+    "options": [
+      "4,000 kJ",
+      "400 kJ",
+      "40 kJ",
+      "39,600 kJ"
+    ],
+    "options_dict": {
+      "A": "4,000 kJ",
+      "B": "400 kJ",
+      "C": "40 kJ",
+      "D": "39,600 kJ"
+    }
+  },
+  {
+    "slide_num": 304,
+    "question": "Match List I with List II (convex lens): List I List II (a) Object at infinity (i) Real, inverted, same size, at 2F₂ 2F₂ (b) Object at 2F₁ (ii) Virtual, erect, enlarged (c) Object between F₁ and 2F₁ (iii) Real, inverted, enlarged, beyond 2F₂ 2F₂ (d) Object between F₁ and O (iv) Real, inverted, highly diminished, at F₂ Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "B": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "C": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "D": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 307,
+    "question": "Consider the following statements about cell division: 1. Meiosis is the most common type of cell division by which cells increase in number. (Meiosis) 2. Mitosis is important for normal growth, repair, maintenance and asexual reproduction. (Mitosis) 3. Each new cell produced by mitosis gets the same DNA and the same number of chromosomes as the parent cell. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 309,
+    "question": "Match List I with List II: List I List II (a) Echinodermata (i) Notochord present at least once in life (b) Mollusca (ii) Backbone that protects the brain and spinal cord (c) Protochordates (iii) Hard internal skeleton of calcium carbonate (d) Vertebrates (iv) Shell that protects the soft body Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "D": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 313,
+    "question": "Solutions of sodium sulfate and barium chloride are weighed separately and then mixed in a conical flask. A white precipitate appears. Which compound is the precipitate, and what happens to the total mass?",
+    "options": [
+      "Sodium chloride; the total mass increases",
+      "Barium sulfate; the total mass decreases",
+      "Sodium chloride; the total mass remains unchanged",
+      "Barium sulfate; the total mass remains unchanged"
+    ],
+    "options_dict": {
+      "A": "Sodium chloride; the total mass increases",
+      "B": "Barium sulfate; the total mass decreases",
+      "C": "Sodium chloride; the total mass remains unchanged",
+      "D": "Barium sulfate; the total mass remains unchanged"
+    }
+  },
+  {
+    "slide_num": 315,
+    "question": "A resistor connected across a 12 V source carries a current of 0.6 A. If the potential difference across it is reduced to 9 V, the current through it becomes",
+    "options": [
+      "0.30",
+      "0.45",
+      "0.80",
+      "0.60"
+    ],
+    "options_dict": {
+      "A": "0.30",
+      "B": "0.45",
+      "C": "0.80",
+      "D": "0.60"
+    }
+  },
+  {
+    "slide_num": 317,
+    "question": "Match List I with List II: List I List II (a) Gustatory receptors (i) Detect smell (b) Olfactory receptors (ii) Release of chemicals when the impulse reaches the end of the axon (c) End of the axon (iii) Detect taste (d) Synapse (iv) Gap across which chemicals reach the next neuron Select the correct answer",
+    "options": [
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
+      "B": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+      "C": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+      "D": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)"
+    }
+  },
+  {
+    "slide_num": 319,
+    "question": "Consider the following statements about nutrition: 1. Guard cells swell when water flows into them, and the stomatal pore opens. 2. Amoeba takes in food at a specific spot, to which the food is moved by the movement of cilia. 3. Cuscuta, ticks, leeches and tape-worms obtain nutrition from plants or animals without killing them. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 323,
+    "question": "Resistors of 4 Ω and 8 Ω are joined in series with a battery. The potential difference across the 8 Ω resistor is 6 V. The potential difference across the battery is: 4 Ω",
+    "options": [
+      "3 V",
+      "6 V",
+      "12 V",
+      "9 V"
+    ],
+    "options_dict": {
+      "A": "3 V",
+      "B": "6 V",
+      "C": "12 V",
+      "D": "9 V"
+    }
+  },
+  {
+    "slide_num": 324,
+    "question": "Match List I with List II: List I List II (a) Smooth muscle (i) Long fibre that carries messages away from the cell (b) Cardiac muscle (ii) Receives signals from other neurons (c) Dendrites (iii) Branched cylindrical fibres found only in the heart (d) Axon (iv) Spindle-shaped cells with one nucleus and no striations Select the correct answer",
+    "options": [
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "B": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "C": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
+      "D": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+    }
+  },
+  {
+    "slide_num": 327,
+    "question": "Assertion (A): Objects seen through the hot air rising above a fire appear to waver. Reason (R): Hot air has a refractive index slightly greater than that of cooler air.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 329,
+    "question": "Assertion (A): In the gold foil experiment, most of the alpha particles passed through the foil without any deflection. Reason (R): Most of the space inside an atom is empty.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of",
+      "Both A and R are true but R is not the correct explanation of",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "options_dict": {
+      "A": "Both A and R are true and R is the correct explanation of",
+      "B": "Both A and R are true but R is not the correct explanation of",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    }
+  },
+  {
+    "slide_num": 330,
+    "question": "About 2 g of lead nitrate powder is heated in a boiling tube and brown fumes are seen. The products of this decomposition are",
+    "options": [
+      "PbO, NO₂ and O₂",
+      "Pb, NO₂ and O₂",
+      "PbO, NO and O₂",
+      "PbO₂, N₂ and O₂"
+    ],
+    "options_dict": {
+      "A": "PbO, NO₂ and O₂",
+      "B": "Pb, NO₂ and O₂",
+      "C": "PbO, NO and O₂",
+      "D": "PbO₂, N₂ and O₂"
+    }
+  },
+  {
+    "slide_num": 332,
+    "question": "Match List I with List II: List I List II (a) Calcium (i) Reacts with steam to form metal oxide and hydrogen (b) Magnesium (ii) Does not react with water at all (c) Iron (iii) Reacts with cold water and starts floating (d) Copper (iv) Reacts with hot water but not with cold water Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "C": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+      "D": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+    }
+  },
+  {
+    "slide_num": 335,
+    "question": "Consider the following statements about human reproduction: 1. The mother always contributes an X chromosome to the baby. 2. A child is female if the father contributes a Y chromosome. 3. From about the ninth week of pregnancy, the developing embryo is called a foetus. Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 337,
+    "question": "Hydrogen is combustible and oxygen supports combustion. What is true of water, the compound formed when they combine?",
+    "options": [
+      "It is combustible, like hydrogen",
+      "It neither burns nor helps in burning, and it extinguishes fire",
+      "It supports combustion, like oxygen",
+      "It is a gas with properties between those of hydrogen and oxygen"
+    ],
+    "options_dict": {
+      "A": "It is combustible, like hydrogen",
+      "B": "It neither burns nor helps in burning, and it extinguishes fire",
+      "C": "It supports combustion, like oxygen",
+      "D": "It is a gas with properties between those of hydrogen and oxygen"
+    }
+  },
+  {
+    "slide_num": 338,
+    "question": "Consider the following statements about contraception: 1. A condom works as a mechanical barrier so that sperm does not reach the egg. 2. Oral contraceptive pills change the hormonal balance of the body so that eggs are not released. 3. A copper-T placed in the uterus also protects a woman from sexually transmitted diseases. Which of the statements given above are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 339,
+    "question": "Which of the following is NOT a supporting (simple permanent) tissue of plants?",
+    "options": [
+      "Parenchyma",
+      "Collenchyma",
+      "Sclerenchyma",
+      "Phloem"
+    ],
+    "options_dict": {
+      "A": "Parenchyma",
+      "B": "Collenchyma",
+      "C": "Sclerenchyma",
+      "D": "Phloem"
+    }
+  },
+  {
+    "slide_num": 341,
+    "question": "Consider the following statements about carbon in the ocean: 1. Ocean water absorbs atmospheric CO₂ to form carbonate and bicarbonate ions. CO₂ 2. Phytoplankton use carbonate and bicarbonate ions for photosynthesis. 3. CO₂ moves only from the atmosphere into the ocean and never in the opposite direction. CO₂ Which of the statements is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 2 and 3",
+      "Only 1 and 3",
+      "All of 1, 2 and 3"
+    ],
+    "options_dict": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "All of 1, 2 and 3"
+    }
+  },
+  {
+    "slide_num": 343,
+    "question": "Match List I with List II: List I List II (a) Electric bulb (i) Chemical energy to mechanical energy (b) Electric water heater (ii) Mechanical energy to sound energy (c) Muscles using food (iii) Electrical energy to light energy (d) Ringing bell (iv) Electrical energy to thermal energy Select the correct answer",
+    "options": [
+      "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    ],
+    "options_dict": {
+      "A": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
+      "C": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "D": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+    }
+  }
+]
