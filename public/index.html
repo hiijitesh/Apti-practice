@@ -403,7 +403,7 @@
               <button onclick="app.clearPracticeResponse()" class="px-3 py-2 rounded-lg text-zinc-400 hover:text-zinc-700 transition">
                 Clear
               </button>
-              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition">
+              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition select-none inline-flex items-center justify-center gap-1.5">
                 Save & Next &rarr;
               </button>
             </div>
@@ -445,8 +445,8 @@
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           <span id="practice-mobile-palette-btn-text">Palette</span>
         </button>
-        <button onclick="app.nextPracticeQuestion()" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition">
-          Next &rarr;
+        <button onclick="app.nextPracticeQuestion()" id="practice-mobile-btn-next" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition select-none">
+          Save & Next &rarr;
         </button>
       </div>
       </div>
@@ -540,7 +540,7 @@
                 <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="px-3.5 py-2 rounded-lg border border-zinc-200 text-zinc-700 font-medium hover:bg-zinc-50 transition disabled:opacity-30 disabled:pointer-events-none">
                   Previous
                 </button>
-                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition">
+                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition select-none inline-flex items-center justify-center gap-1.5">
                   Save & Next &rarr;
                 </button>
               </div>
@@ -592,7 +592,7 @@
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           <span id="mock-mobile-palette-btn-text">Palette</span>
         </button>
-        <button onclick="app.nextMockQuestion()" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition">
+        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition select-none">
           Save & Next &rarr;
         </button>
       </div>
@@ -946,6 +946,6 @@
 
   <!-- Client Configuration & Script -->
   <script src="config.js"></script>
-  <script src="app.js?v=2.3.0"></script>
+  <script src="app.js?v=2.4.0"></script>
 </body>
 </html>
