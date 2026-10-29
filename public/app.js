@@ -1357,6 +1357,19 @@ class AptiPrepApp {
 
     document.getElementById('practice-q-text').textContent = q.question;
 
+    // Render Diagram
+    const diagBox = document.getElementById('practice-q-diagram-box');
+    const diagImg = document.getElementById('practice-q-diagram');
+    if (diagBox && diagImg) {
+      if (q.diagram && q.diagram.trim()) {
+        diagImg.src = q.diagram;
+        diagBox.classList.remove('hidden');
+      } else {
+        diagImg.src = '';
+        diagBox.classList.add('hidden');
+      }
+    }
+
     const optContainer = document.getElementById('practice-options-container');
     const selected = this.practice.userAnswers[this.practice.currentIndex];
     const letters = ['A', 'B', 'C', 'D'];
@@ -1826,6 +1839,19 @@ class AptiPrepApp {
 
     document.getElementById('mock-q-text').textContent = q.question;
 
+    // Render Diagram
+    const mockDiagBox = document.getElementById('mock-q-diagram-box');
+    const mockDiagImg = document.getElementById('mock-q-diagram');
+    if (mockDiagBox && mockDiagImg) {
+      if (q.diagram && q.diagram.trim()) {
+        mockDiagImg.src = q.diagram;
+        mockDiagBox.classList.remove('hidden');
+      } else {
+        mockDiagImg.src = '';
+        mockDiagBox.classList.add('hidden');
+      }
+    }
+
     const optContainer = document.getElementById('mock-options-container');
     const selectedOption = this.mock.userAnswers[q.id];
     const letters = ['A', 'B', 'C', 'D'];
@@ -2091,6 +2117,7 @@ class AptiPrepApp {
         subSubject: q ? q.subSubject : undefined,
         question: q ? q.question : '',
         options: q ? q.options : [],
+        diagram: (q && q.diagram) ? q.diagram : undefined,
         userAnswer: ans.userAnswer,
         correctAnswer: q ? q.correctAnswer : null,
         isCorrect: !!isCorrect,
@@ -2385,6 +2412,12 @@ class AptiPrepApp {
           <div class="text-zinc-950 font-medium text-[15px] sm:text-[16px] question-content leading-relaxed">
             ${item.question}
           </div>
+
+          ${item.diagram ? `
+            <div class="my-3 flex justify-center">
+              <img src="${item.diagram}" alt="Question Diagram" class="max-h-60 max-w-full rounded-xl border border-zinc-200 shadow-xs bg-white p-2 object-contain" />
+            </div>
+          ` : ''}
 
           <div class="space-y-1.5 pt-1">
             ${optionsHtml}

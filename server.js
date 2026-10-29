@@ -170,7 +170,8 @@ function generateMockQuestions(allQuestions, subjectQuery = 'all', targetCount =
     subSubject: q.subSubject,
     chapter: q.chapter,
     question: q.question,
-    options: q.options
+    options: q.options,
+    diagram: q.diagram || undefined
   }));
 }
 
@@ -219,6 +220,7 @@ function calculateScore(allQuestions, { mode = 'mock', chapter = null, timeTaken
       explanation: q ? q.explanation : '',
       question: q ? q.question : '',
       options: q ? q.options : [],
+      diagram: (q && q.diagram) ? q.diagram : undefined,
       chapter: chap,
       subject: q ? q.subject : undefined,
       subSubject: q ? q.subSubject : undefined

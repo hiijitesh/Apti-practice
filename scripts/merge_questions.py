@@ -156,10 +156,13 @@ def main():
                 'subSubject': sub_subject,
                 'chapter': ch_title,
                 'question': qtext,
+                'diagram': q.get('diagram', ''),
                 'options': opt_list,
                 'correctAnswer': correct_idx,
                 'explanation': expl
             }
+            if not sci_item['diagram']:
+                del sci_item['diagram']
             converted_sci.append(sci_item)
             q_idx += 1
 
@@ -168,8 +171,17 @@ def main():
     for o in omitted:
         print(f"  - {o[0]} Q{o[1]}: {o[2]}")
 
+    # Load Top 300 Questions if present
+    top300_file = os.path.join(DATA_DIR, 'top_300_questions_science.json')
+    top300_data = []
+    if os.path.exists(top300_file):
+        print(f"Loading Top 300 questions from {top300_file}...")
+        with open(top300_file, 'r', encoding='utf-8') as f:
+            top300_data = json.load(f)
+        print(f"Loaded {len(top300_data)} Top 300 questions.")
+
     # Combine all questions
-    combined = tagged_apti + converted_sci
+    combined = tagged_apti + converted_sci + top300_data
     print(f"Total combined questions: {len(combined)}")
 
     # Ensure output directories exist

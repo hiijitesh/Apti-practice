@@ -35,6 +35,8 @@ jobs:
           cp -r public/* dist/
           mkdir -p dist/data
           cp data/questions.json dist/data/questions.json
+          mkdir -p dist/data/diagrams
+          cp -r data/diagrams/* dist/data/diagrams/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,5 +1,30 @@
 [
   {
+    "attemptId": "ea115b03-1583-47e9-a0ea-7d6c53c7f497",
+    "timestamp": "2026-10-29T15:38:18.765Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
     "attemptId": "93fc0ba8-18ef-4903-8e10-354d8d15170b",
     "timestamp": "2026-10-29T13:34:00.876Z",
     "userEmail": "unit_test@apti.com",
