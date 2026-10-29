@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AptiPrep CBT - RRB & Govt Exam Test Portal</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800 flex flex-col">
+
+  <!-- Top Navigation Bar -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3 cursor-pointer" onclick="app.showDashboard()">
+        <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold text-xl shadow-md shadow-indigo-200">
+          A
+        </div>
+        <div>
+          <span class="text-lg font-bold text-slate-900 tracking-tight flex items-center gap-2">
+            AptiPrep <span class="bg-indigo-100 text-indigo-700 text-xs px-2 py-0.5 rounded-full font-semibold">CBT v1.0</span>
+          </span>
+          <p class="text-xs text-slate-500 hidden sm:block">RRB & Govt Exams Test-Taking Portal</p>
+        </div>
+      </div>
+
+      <nav class="flex items-center space-x-2">
+        <button onclick="app.showDashboard()" id="nav-btn-home" class="px-3.5 py-2 text-sm font-semibold rounded-lg text-slate-700 hover:text-indigo-600 hover:bg-slate-100 transition">
+          Dashboard
+        </button>
+        <button onclick="app.showChapterSelect()" id="nav-btn-practice" class="px-3.5 py-2 text-sm font-semibold rounded-lg text-slate-700 hover:text-indigo-600 hover:bg-slate-100 transition">
+          Chapter Practice
+        </button>
+        <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="px-3.5 py-2 text-sm font-semibold rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm transition">
+          Full Mock Test
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area with Dynamic Views -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- VIEW 1: DASHBOARD / HOME -->
+    <section id="view-dashboard" class="space-y-8">
+      <!-- Hero Welcome -->
+      <div class="bg-gradient-to-r from-indigo-900 via-indigo-800 to-blue-900 rounded-2xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden">
+        <div class="absolute right-0 top-0 bottom-0 opacity-10 flex items-center pr-10 pointer-events-none">
+          <svg class="w-72 h-72" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <div class="relative z-10 max-w-2xl">
+          <span class="inline-block bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full border border-indigo-400/30 mb-3">
+            Offline Local Engine Ready
+          </span>
+          <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Master Quantitative Aptitude</h1>
+          <p class="mt-2 text-indigo-100 text-sm sm:text-base leading-relaxed">
+            Practice over 1,340 official exam questions extracted directly from authentic previous-year papers across 17 chapters.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mode Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Card 1: Chapter-Wise Test & Practice -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold mb-4">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+            </div>
+            <h2 class="text-xl font-bold text-slate-900">Chapter-Wise Test</h2>
+            <p class="text-slate-600 text-sm mt-1">
+              Test your mastery chapter by chapter. Answers and comprehensive explanations are revealed at the end upon submitting your test.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-500">
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">17 Chapters</span>
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">Results Shown at End</span>
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">Study Mode Toggle</span>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <button onclick="app.showChapterSelect()" class="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+              <span>Choose Chapter to Test</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Full Mock Test -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold mb-4">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <div class="flex items-center justify-between">
+              <h2 class="text-xl font-bold text-slate-900">Full Mock Test</h2>
+              <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded-full">30 Min Timer</span>
+            </div>
+            <p class="text-slate-600 text-sm mt-1">
+              Standard exam simulation. 30 questions uniformly balanced across all chapters. Sticky countdown timer, CBT question palette, and detailed score breakdown.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-500">
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">30 Random Questions</span>
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">Auto-Submit at 00:00</span>
+              <span class="bg-slate-100 px-2.5 py-1 rounded-md font-medium">Review Screen</span>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <button onclick="app.startMockTestPrompt()" class="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-sm transition flex items-center justify-center gap-2">
+              <span>Start 30-Min Mock Test</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Chapter Grid -->
+      <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Available Chapters</h3>
+            <p class="text-xs text-slate-500">Click any chapter to start practicing questions immediately</p>
+          </div>
+          <span id="total-questions-badge" class="text-xs bg-slate-100 font-semibold text-slate-600 px-3 py-1 rounded-full">
+            Loading...
+          </span>
+        </div>
+        <div id="chapters-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          <!-- Filled dynamically by app.js -->
+        </div>
+      </div>
+
+      <!-- Performance Summary & History -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Past Test Performance</h3>
+            <p class="text-xs text-slate-500">Records loaded from local persistence (<code class="bg-slate-100 px-1 py-0.5 rounded text-xs">attempts.json</code>)</p>
+          </div>
+          <div id="summary-stats-bar" class="flex gap-4 text-xs">
+            <!-- Summary stats pills -->
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse text-sm">
+              <thead>
+                <tr class="bg-slate-50 text-slate-600 text-xs uppercase font-semibold border-b border-slate-200">
+                  <th class="py-3.5 px-4">Date & Time</th>
+                  <th class="py-3.5 px-4">Mode</th>
+                  <th class="py-3.5 px-4">Chapter</th>
+                  <th class="py-3.5 px-4">Score</th>
+                  <th class="py-3.5 px-4">Accuracy</th>
+                  <th class="py-3.5 px-4">Time Taken</th>
+                  <th class="py-3.5 px-4 text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="attempts-table-body" class="divide-y divide-slate-100">
+                <!-- Dynamically loaded -->
+              </tbody>
+            </table>
+          </div>
+          <div id="empty-attempts-state" class="p-8 text-center text-slate-400 hidden">
+            <svg class="w-12 h-12 mx-auto mb-2 opacity-50" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            <p class="font-medium text-slate-600">No test attempts recorded yet.</p>
+            <p class="text-xs text-slate-400 mt-1">Complete your first mock test or chapter practice session to see performance analytics here!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: CHAPTER-WISE PRACTICE & TEST -->
+    <section id="view-practice" class="space-y-6 hidden">
+      <!-- Practice Header Bar -->
+      <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <button onclick="app.showDashboard()" class="p-2 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-600 transition" title="Dashboard">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+          </button>
+          <div>
+            <div class="flex items-center gap-2">
+              <span id="practice-mode-badge" class="text-xs bg-indigo-100 text-indigo-800 font-bold px-2.5 py-0.5 rounded-full uppercase">Chapter Test</span>
+              <span id="practice-mode-subtitle" class="text-xs text-slate-400 font-medium">Answers & solutions shown upon submission</span>
+            </div>
+            <h2 id="practice-chapter-title" class="text-xl font-bold text-slate-900 mt-0.5">Chapter Name</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <!-- Mode Toggle: Test Mode vs Study Mode -->
+          <div class="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-semibold">
+            <button onclick="app.setPracticeModeType('test')" id="toggle-btn-test" class="px-3 py-1.5 rounded-lg bg-white text-indigo-700 shadow-xs font-bold transition">
+              Test Mode
+            </button>
+            <button onclick="app.setPracticeModeType('study')" id="toggle-btn-study" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition">
+              Study Mode
+            </button>
+          </div>
+
+          <!-- Chapter Switcher Dropdown -->
+          <select id="practice-chapter-dropdown" onchange="app.switchPracticeChapter(this.value)" class="text-sm border border-slate-300 rounded-xl px-3 py-2 bg-white text-slate-700 font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <!-- Filled dynamically -->
+          </select>
+
+          <!-- Submit Chapter Test Button -->
+          <button onclick="app.promptSubmitChapterTest()" id="practice-btn-submit-header" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-xl shadow-sm transition">
+            Submit Test
+          </button>
+
+          <!-- Toggle Question Drawer -->
+          <button onclick="app.togglePracticeDrawer()" class="px-3 py-2 text-sm font-semibold rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 flex items-center gap-2">
+            <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            <span id="practice-drawer-btn-label">Palette</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Practice Progress Bar -->
+      <div class="bg-white rounded-xl p-3 border border-slate-200 shadow-sm flex items-center justify-between gap-4 text-xs">
+        <div class="flex items-center gap-2 font-medium text-slate-600">
+          <span id="practice-progress-text">Question 1 of 28</span>
+        </div>
+        <div class="flex-1 max-w-md bg-slate-100 h-2 rounded-full overflow-hidden">
+          <div id="practice-progress-fill" class="bg-indigo-600 h-full rounded-full transition-all duration-300" style="width: 5%"></div>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-slate-700 font-bold" id="practice-score-stats">Answered: 0 / 28</span>
+        </div>
+      </div>
+
+      <!-- Main Practice Workspace -->
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+        <!-- Question Card (Takes 3 cols) -->
+        <div class="lg:col-span-3 space-y-4">
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm relative min-h-[380px] flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+                <span id="practice-q-number" class="text-sm font-bold text-slate-500">Question #1</span>
+                <span id="practice-q-chapter" class="text-xs bg-slate-100 text-slate-700 font-medium px-2.5 py-1 rounded-md">Chapter</span>
+              </div>
+
+              <!-- Question text -->
+              <div id="practice-q-text" class="text-base sm:text-lg text-slate-900 font-medium leading-relaxed question-content mb-6">
+                <!-- Question content -->
+              </div>
+
+              <!-- Options -->
+              <div id="practice-options-container" class="space-y-3">
+                <!-- Option buttons generated dynamically -->
+              </div>
+            </div>
+
+            <!-- Instant Explanation Box (Only appears in Study Mode) -->
+            <div id="practice-explanation-box" class="mt-6 p-4 rounded-xl border hidden transition-all">
+              <div class="flex items-center gap-2 mb-1">
+                <span id="practice-eval-badge" class="text-xs font-bold px-2 py-0.5 rounded-full uppercase">Correct</span>
+                <span class="text-xs font-semibold text-slate-700" id="practice-eval-correct-label">Correct Answer: Option B</span>
+              </div>
+              <p id="practice-explanation-text" class="text-sm text-slate-700 leading-relaxed"></p>
+            </div>
+          </div>
+
+          <!-- Bottom Practice Controls -->
+          <div class="flex items-center justify-between pt-2">
+            <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-5 py-2.5 rounded-xl border border-slate-300 font-semibold text-slate-700 hover:bg-slate-100 transition flex items-center gap-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+              <span>Previous</span>
+            </button>
+            <div class="flex items-center gap-2">
+              <button onclick="app.clearPracticeResponse()" class="px-4 py-2.5 rounded-xl text-slate-500 hover:text-slate-800 text-sm font-medium transition">
+                Clear Response
+              </button>
+              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-sm transition flex items-center gap-2">
+                <span>Save & Next</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Practice Quick Jump Palette Drawer (Desktop right col, mobile toggle) -->
+        <div id="practice-drawer-panel" class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-100 pb-2">
+            <h4 class="text-sm font-bold text-slate-900">Question Palette</h4>
+            <span id="practice-palette-summary" class="text-xs text-slate-500">0 Answered</span>
+          </div>
+          <div id="practice-palette-grid" class="grid grid-cols-5 gap-2 max-h-[400px] overflow-y-auto pr-1">
+            <!-- Palette buttons -->
+          </div>
+          <div class="pt-2 border-t border-slate-100">
+            <button onclick="app.promptSubmitChapterTest()" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-xl shadow-sm transition">
+              Submit Chapter Test
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+                <span>Next Question</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Practice Quick Jump Palette Drawer (Desktop right col, mobile toggle) -->
+        <div id="practice-drawer-panel" class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-100 pb-2">
+            <h4 class="text-sm font-bold text-slate-900">Question Palette</h4>
+            <span id="practice-palette-summary" class="text-xs text-slate-500">0 Answered</span>
+          </div>
+          <div id="practice-palette-grid" class="grid grid-cols-5 gap-2 max-h-[460px] overflow-y-auto pr-1">
+            <!-- Palette buttons -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: MOCK TEST (CBT EXAM PORTAL) -->
+    <section id="view-mock" class="space-y-4 hidden">
+      <!-- Sticky Exam Header -->
+      <div class="bg-slate-900 text-white rounded-2xl p-4 sm:p-5 shadow-lg border border-slate-800 sticky top-20 z-20 flex items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          </div>
+          <div>
+            <h2 class="text-base sm:text-lg font-bold tracking-tight">Full Aptitude Mock Test</h2>
+            <p class="text-xs text-slate-400">30 Questions &bull; Uniform Distribution across All Chapters</p>
+          </div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="flex items-center gap-4">
+          <div id="mock-timer-container" class="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-xl border border-slate-700 shadow-inner">
+            <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <div class="text-right">
+              <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider block leading-none">Time Left</span>
+              <span id="mock-timer-display" class="font-mono text-xl sm:text-2xl font-bold text-white tracking-widest leading-none">30:00</span>
+            </div>
+          </div>
+
+          <button onclick="app.promptSubmitMock()" class="px-5 py-2.5 bg-rose-600 hover:bg-rose-700 font-bold text-white text-sm rounded-xl shadow-md transition">
+            Submit Test
+          </button>
+        </div>
+      </div>
+
+      <!-- Exam Layout: Question Area + Question Palette -->
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
+        <!-- Question Pane (Cols 1-3) -->
+        <div class="lg:col-span-3 space-y-4">
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm min-h-[420px] flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-5">
+                <div class="flex items-center gap-3">
+                  <span id="mock-q-number" class="text-base font-bold text-slate-800">Question 1 of 30</span>
+                  <span id="mock-q-chapter" class="text-xs bg-indigo-50 text-indigo-700 font-semibold px-2.5 py-1 rounded-md">Chapter</span>
+                </div>
+                <button onclick="app.toggleMockReview()" id="mock-btn-review-toggle" class="px-3 py-1.5 rounded-lg border border-purple-200 text-purple-700 hover:bg-purple-50 text-xs font-semibold flex items-center gap-1.5 transition">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path></svg>
+                  <span id="mock-review-toggle-label">Mark for Review</span>
+                </button>
+              </div>
+
+              <!-- Question text -->
+              <div id="mock-q-text" class="text-base sm:text-lg text-slate-900 font-medium leading-relaxed question-content mb-6">
+                <!-- Question text filled dynamically -->
+              </div>
+
+              <!-- Options -->
+              <div id="mock-options-container" class="space-y-3">
+                <!-- Options filled dynamically -->
+              </div>
+            </div>
+
+            <!-- Action buttons inside question pane -->
+            <div class="border-t border-slate-100 pt-5 mt-6 flex flex-wrap items-center justify-between gap-3">
+              <button onclick="app.clearMockResponse()" class="px-4 py-2 text-xs font-semibold text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-lg transition">
+                Clear Response
+              </button>
+
+              <div class="flex items-center gap-3">
+                <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="px-4 py-2.5 rounded-xl border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50 transition">
+                  Previous
+                </button>
+                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm shadow-sm transition">
+                  Save & Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CBT Question Palette Pane (Col 4) -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-5">
+          <!-- Palette Status Legend -->
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Question Palette</h4>
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded-md bg-emerald-500 inline-block"></span>
+                <span class="text-slate-600 font-medium">Answered (<span id="legend-answered">0</span>)</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="w-3.5 h-3.5 rounded-md bg-slate-200 inline-block"></span>
+                <span class="text-slate-600 font-medium">Unanswered (<span id="legend-unanswered">30</span>)</span>
+              </div>
+              <div class="flex items-center gap-2 col-span-2">
+                <span class="w-3.5 h-3.5 rounded-md bg-purple-500 inline-block"></span>
+                <span class="text-slate-600 font-medium">Marked for Review (<span id="legend-review">0</span>)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Numbers Grid (1 to 30) -->
+          <div id="mock-palette-grid" class="grid grid-cols-5 gap-2 max-h-[380px] overflow-y-auto pr-1">
+            <!-- Dynamically generated palette buttons -->
+          </div>
+
+          <!-- Palette Submit Button -->
+          <div class="pt-3 border-t border-slate-100">
+            <button onclick="app.promptSubmitMock()" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-md transition flex items-center justify-center gap-2">
+              <span>Submit Examination</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: RESULTS & REVIEW SCREEN -->
+    <section id="view-results" class="space-y-6 hidden">
+      <!-- Result Banner Card -->
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex items-center gap-5">
+            <div id="result-trophy-icon" class="w-16 h-16 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-2xl shadow-inner">
+              🏆
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span id="result-mode-tag" class="text-xs bg-indigo-100 text-indigo-800 font-bold px-2.5 py-0.5 rounded-full uppercase">Mock Test</span>
+                <span id="result-timestamp" class="text-xs text-slate-400 font-medium">Just now</span>
+              </div>
+              <h2 id="result-score-title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">Score: 24 / 30 (80.0%)</h2>
+              <p id="result-feedback-message" class="text-sm text-slate-600 mt-0.5">Great performance! You showed strong understanding across most chapters.</p>
+            </div>
+          </div>
+
+          <!-- Stats Pills -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full md:w-auto">
+            <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-3 text-center">
+              <span class="text-xs font-bold uppercase text-emerald-600 block">Correct</span>
+              <span id="res-correct" class="text-xl font-extrabold text-emerald-700">24</span>
+            </div>
+            <div class="bg-rose-50 border border-rose-100 rounded-xl p-3 text-center">
+              <span class="text-xs font-bold uppercase text-rose-600 block">Incorrect</span>
+              <span id="res-incorrect" class="text-xl font-extrabold text-rose-700">4</span>
+            </div>
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 text-center">
+              <span class="text-xs font-bold uppercase text-slate-500 block">Unattempted</span>
+              <span id="res-unattempted" class="text-xl font-extrabold text-slate-700">2</span>
+            </div>
+            <div class="bg-indigo-50 border border-indigo-100 rounded-xl p-3 text-center">
+              <span class="text-xs font-bold uppercase text-indigo-600 block">Time Taken</span>
+              <span id="res-time-taken" class="text-xl font-extrabold text-indigo-700 font-mono">18:42</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Action Buttons -->
+        <div class="mt-6 pt-5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <button onclick="app.startMockTestPrompt()" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm rounded-xl shadow-sm transition">
+              Take Another Mock Test
+            </button>
+            <button onclick="app.showChapterSelect()" class="px-4 py-2.5 border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold text-sm rounded-xl transition">
+              Practice by Chapter
+            </button>
+          </div>
+          <button onclick="app.showDashboard()" class="px-4 py-2.5 text-slate-500 hover:text-slate-800 text-sm font-semibold transition">
+            Back to Dashboard
+          </button>
+        </div>
+      </div>
+
+      <!-- Chapter-Wise Accuracy Breakdown -->
+      <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+        <h3 class="text-base font-bold text-slate-900 mb-3">Chapter-Wise Accuracy Breakdown</h3>
+        <div id="result-chapter-breakdown" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <!-- Dynamically filled -->
+        </div>
+      </div>
+
+      <!-- Full Question-by-Question Review -->
+      <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+          <div>
+            <h3 class="text-lg font-bold text-slate-900">Question-by-Question Detailed Review</h3>
+            <p class="text-xs text-slate-500">Examine your selected answer, correct answers, and full solutions</p>
+          </div>
+
+          <!-- Review Filters -->
+          <div class="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl text-xs font-semibold">
+            <button onclick="app.filterReview('all')" id="filter-btn-all" class="px-3 py-1.5 rounded-lg bg-white text-slate-800 shadow-xs">
+              All (<span id="filter-count-all">30</span>)
+            </button>
+            <button onclick="app.filterReview('correct')" id="filter-btn-correct" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-emerald-700">
+              Correct (<span id="filter-count-correct">24</span>)
+            </button>
+            <button onclick="app.filterReview('incorrect')" id="filter-btn-incorrect" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-rose-700">
+              Incorrect (<span id="filter-count-incorrect">4</span>)
+            </button>
+            <button onclick="app.filterReview('unattempted')" id="filter-btn-unattempted" class="px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-700">
+              Unattempted (<span id="filter-count-unattempted">2</span>)
+            </button>
+          </div>
+        </div>
+
+        <!-- Review Question Cards List -->
+        <div id="result-questions-list" class="space-y-4 pt-2">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONFIRMATION SUBMIT MODAL -->
+  <div id="mock-confirm-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-100 animate-in fade-in zoom-in-95 duration-150">
+      <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold mb-4 mx-auto">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+      </div>
+
+      <h3 class="text-lg font-bold text-slate-900 text-center">Submit Mock Examination?</h3>
+      <p class="text-sm text-slate-500 text-center mt-1">Review your test progress before final submission:</p>
+
+      <div class="bg-slate-50 rounded-xl p-4 my-4 space-y-2 text-sm border border-slate-100">
+        <div class="flex justify-between text-slate-700">
+          <span class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> Answered:</span>
+          <span id="modal-stat-answered" class="font-bold text-emerald-700">0</span>
+        </div>
+        <div class="flex justify-between text-slate-700">
+          <span class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-slate-400"></span> Unanswered:</span>
+          <span id="modal-stat-unanswered" class="font-bold text-slate-700">30</span>
+        </div>
+        <div class="flex justify-between text-slate-700">
+          <span class="flex items-center gap-2"><span class="w-2.5 h-2.5 rounded-full bg-purple-500"></span> Marked for Review:</span>
+          <span id="modal-stat-review" class="font-bold text-purple-700">0</span>
+        </div>
+        <div class="flex justify-between text-slate-700 border-t border-slate-200 pt-2 font-medium">
+          <span>Time Remaining:</span>
+          <span id="modal-stat-time-left" class="font-mono font-bold text-indigo-700">30:00</span>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-3 mt-6">
+        <button onclick="app.closeSubmitModal()" class="flex-1 py-2.5 rounded-xl border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50 transition">
+          Resume Test
+        </button>
+        <button onclick="app.confirmSubmitMock()" class="flex-1 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm shadow-md transition">
+          Confirm & Submit
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-6 mt-12">
+    <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400">
+      <p>AptiPrep CBT Engine &bull; Running locally on Node.js + Express &bull; Offline Ready</p>
+    </div>
+  </footer>
+
+  <!-- Main Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
+
