@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>AptiPrep - Distraction-Free Aptitude Testing</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,7 +83,7 @@
         </p>
       </div>
 
-      <form onsubmit="app.handleEmailSubmit(event)" class="space-y-3 pt-1">
+      <form onsubmit="if(window.app && app.handleEmailSubmit){ app.handleEmailSubmit(event); } else { var v=(document.getElementById('login-email-input')||{}).value; if(v){ localStorage.setItem('apti_user_email', v); location.reload(); } } return false;" class="space-y-3 pt-1">
         <div>
           <label for="login-email-input" class="block text-xs font-medium text-zinc-700 mb-1">Email Address</label>
           <input type="email" id="login-email-input" required placeholder="you@example.com"
@@ -97,7 +100,7 @@
 
       <div class="pt-2 border-t border-zinc-100 flex items-center justify-between text-[11px] text-zinc-400">
         <span>No password required</span>
-        <button type="button" onclick="app.loginAsGuest()" class="hover:text-zinc-700 transition">
+        <button type="button" onclick="if(window.app && app.loginAsGuest){ app.loginAsGuest(); } else { localStorage.setItem('apti_user_email', 'guest@local'); location.reload(); }" class="hover:text-zinc-700 transition">
           Continue as Guest &rarr;
         </button>
       </div>
@@ -111,7 +114,7 @@
         <div>
           <span class="text-xs uppercase font-medium tracking-wider text-zinc-400 block mb-1">CBT Preparation Engine</span>
           <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-900">Aptitude & General Science</h1>
-          <p id="dashboard-hero-subtitle" class="text-xs sm:text-sm text-zinc-500 mt-1">51 chapters &bull; 2,721 questions &bull; Offline & local</p>
+          <p id="dashboard-hero-subtitle" class="text-xs sm:text-sm text-zinc-500 mt-1">52 chapters &bull; 2,891 questions &bull; Offline & local</p>
         </div>
         <div id="summary-stats-bar" class="flex gap-2 text-xs">
           <!-- Summary stats pills rendered by app.js -->
@@ -933,6 +936,6 @@
 
   <!-- Client Configuration & Script -->
   <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2.2.0"></script>
 </body>
 </html>

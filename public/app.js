@@ -140,7 +140,10 @@ class AptiPrepApp {
   }
 
   async handleEmailSubmit(e) {
-    if (e) e.preventDefault();
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     const input = document.getElementById('login-email-input');
     const err = document.getElementById('login-error-msg');
     const val = (input ? input.value : '').trim().toLowerCase();
@@ -150,32 +153,47 @@ class AptiPrepApp {
         err.textContent = 'Please enter a valid email address.';
         err.classList.remove('hidden');
       }
-      return;
+      return false;
     }
 
     if (err) err.classList.add('hidden');
     this.currentUserEmail = val;
     localStorage.setItem('apti_user_email', val);
     this.updateUserSessionUI();
-    this.showDashboard();
-    try {
-      await this.loadAttempts();
-      this.renderDashboard();
-    } catch (e) {
-      console.error('Error loading attempts:', e);
+
+    // Immediately switch to dashboard with zero network or blocking wait
+    this.switchView('dashboard');
+    this.renderDashboard();
+
+    // Load user attempts in background safely
+    if (typeof this.loadAttempts === 'function') {
+      try {
+        await this.loadAttempts();
+        this.renderDashboard();
+      } catch (e) {
+        console.warn('Background attempt load notice:', e);
+      }
     }
+    return false;
   }
 
   async loginAsGuest() {
     this.currentUserEmail = 'guest@local';
     localStorage.setItem('apti_user_email', 'guest@local');
     this.updateUserSessionUI();
-    this.showDashboard();
-    try {
-      await this.loadAttempts();
-      this.renderDashboard();
-    } catch (e) {
-      console.error('Error loading guest attempts:', e);
+
+    // Immediately switch to dashboard with zero network or blocking wait
+    this.switchView('dashboard');
+    this.renderDashboard();
+
+    // Load guest attempts in background safely
+    if (typeof this.loadAttempts === 'function') {
+      try {
+        await this.loadAttempts();
+        this.renderDashboard();
+      } catch (e) {
+        console.warn('Background guest attempt load notice:', e);
+      }
     }
   }
 
@@ -467,25 +485,32 @@ class AptiPrepApp {
     }
 
     // 2. If running locally with Node backend, load from /api/attempts
-    try {
-      const res = await fetch(`/api/attempts?email=${encodeURIComponent(activeEmail)}`);
-      if (res.ok) {
-        const data = await res.json();
-        if (data.attempts && Array.isArray(data.attempts)) {
-          const map = new Map();
-          data.attempts.forEach(a => {
-            if (a && a.attemptId) map.set(a.attemptId, a);
-          });
-          loaded.forEach(a => {
-            if (a && a.attemptId && !map.has(a.attemptId)) {
-              map.set(a.attemptId, a);
-            }
-          });
-          loaded = Array.from(map.values());
+    const isLocalhost = Boolean(
+      window.location.hostname === 'localhost' ||
+      window.location.hostname === '127.0.0.1' ||
+      window.location.port === '3000'
+    );
+    if (isLocalhost && !this.isStaticMode) {
+      try {
+        const res = await fetch(`/api/attempts?email=${encodeURIComponent(activeEmail)}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data.attempts && Array.isArray(data.attempts)) {
+            const map = new Map();
+            data.attempts.forEach(a => {
+              if (a && a.attemptId) map.set(a.attemptId, a);
+            });
+            loaded.forEach(a => {
+              if (a && a.attemptId && !map.has(a.attemptId)) {
+                map.set(a.attemptId, a);
+              }
+            });
+            loaded = Array.from(map.values());
+          }
         }
+      } catch (e) {
+        // Offline / static mode - keep loaded attempts
       }
-    } catch (e) {
-      // Offline / static mode - keep loaded attempts
     }
 
     loaded.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
@@ -747,22 +772,30 @@ class AptiPrepApp {
   // ==========================================
 
   async loadChapters() {
-    // 1. Try local Express API first
-    try {
-      const res = await fetch('/api/chapters');
-      if (res.ok) {
-        const data = await res.json();
-        if (data.chapters && data.chapters.length > 0) {
-          this.chapters = data.chapters;
-          this.updateDashboardBadges(data.totalQuestions, data.totalChapters);
-          this.renderChaptersGrid();
-          this.populateChapterDropdown();
-          return;
-        }
-      }
-    } catch (e) {}
+    const isLocalhost = Boolean(
+      window.location.hostname === 'localhost' ||
+      window.location.hostname === '127.0.0.1' ||
+      window.location.port === '3000'
+    );
 
-    // 2. Fallback to direct static data loading
+    if (isLocalhost) {
+      // 1. Try local Express API first
+      try {
+        const res = await fetch('/api/chapters');
+        if (res.ok) {
+          const data = await res.json();
+          if (data.chapters && data.chapters.length > 0) {
+            this.chapters = data.chapters;
+            this.updateDashboardBadges(data.totalQuestions, data.totalChapters);
+            this.renderChaptersGrid();
+            this.populateChapterDropdown();
+            return;
+          }
+        }
+      } catch (e) {}
+    }
+
+    // 2. Direct static data loading (GitHub Pages / offline mode)
     this.isStaticMode = true;
     await this.loadAllQuestionsStatic();
   }
