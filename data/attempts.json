@@ -1,5 +1,95 @@
 [
   {
+    "attemptId": "d6a06a62-79ab-4b3a-a13c-26d6442abf51",
+    "timestamp": "2026-10-29T13:06:09.801Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "fa45eece-fe10-43d6-b151-a1a1a3c75bab",
+    "timestamp": "2026-10-29T13:03:15.121Z",
+    "userEmail": "unit_test@apti.com",
+    "mode": "mock",
+    "chapter": null,
+    "totalQuestions": 2,
+    "correctCount": 1,
+    "incorrectCount": 1,
+    "unattemptedCount": 0,
+    "scorePercentage": 50,
+    "timeTakenSeconds": 45,
+    "answers": [
+      {
+        "questionId": "ages_q001",
+        "userAnswer": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "ages_q002",
+        "userAnswer": 3,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "56c046b7-7b05-487d-b4f2-ce29146caaa2",
+    "timestamp": "2026-10-29T13:02:52.877Z",
+    "userEmail": "test@abc.com",
+    "mode": "chapter_test",
+    "chapter": "Acids, Bases and Salt",
+    "totalQuestions": 55,
+    "correctCount": 0,
+    "incorrectCount": 1,
+    "unattemptedCount": 54,
+    "scorePercentage": 0,
+    "timeTakenSeconds": 4,
+    "answers": [
+      {
+        "questionId": "sci_acids_bases_and_salt_q001",
+        "userAnswer": 0,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "attemptId": "af45640c-41cd-4ec6-8eec-91b15ba59f1a",
+    "timestamp": "2026-10-29T13:02:02.919Z",
+    "userEmail": "test@abc.com",
+    "mode": "chapter_test",
+    "chapter": "Motion",
+    "totalQuestions": 51,
+    "correctCount": 0,
+    "incorrectCount": 1,
+    "unattemptedCount": 50,
+    "scorePercentage": 0,
+    "timeTakenSeconds": 8,
+    "answers": [
+      {
+        "questionId": "sci_motion_q001",
+        "userAnswer": 2,
+        "isCorrect": false
+      }
+    ]
+  },
+  {
     "attemptId": "1361e191-699a-4bcf-94c2-7689bb1a97d9",
     "timestamp": "2026-10-29T12:52:44.268Z",
     "userEmail": "unit_test@apti.com",
