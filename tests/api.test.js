@@ -106,4 +106,26 @@ describe('API Integration Tests', () => {
     assert.ok(data.attempts.length > 0);
     assert.equal(data.attempts[0].userEmail, 'unit_test@apti.com');
   });
+
+  test('GET /api/revision-materials returns Google Drive folder and chapter PDFs', async () => {
+    const res = await fetch(`${baseUrl}/api/revision-materials`);
+    assert.equal(res.status, 200);
+    const data = await res.json();
+
+    assert.ok(data.folderUrl.includes('drive.google.com'));
+    assert.ok(Array.isArray(data.pdfs));
+    assert.equal(data.pdfs.length, 4);
+
+    const pdfIds = data.pdfs.map(p => p.id);
+    assert.ok(pdfIds.includes('bio'));
+    assert.ok(pdfIds.includes('chem'));
+    assert.ok(pdfIds.includes('physics'));
+    assert.ok(pdfIds.includes('top300'));
+
+    data.pdfs.forEach(pdf => {
+      assert.ok(pdf.fileId && pdf.fileId.length > 20);
+      assert.ok(pdf.previewUrl.includes('/preview'));
+      assert.ok(pdf.viewUrl.includes('/view'));
+    });
+  });
 });

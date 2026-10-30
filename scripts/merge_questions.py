@@ -3,8 +3,7 @@
 scripts/merge_questions.py
 Merges Quantitative Aptitude questions with General Science questions into standardized schema.
 Outputs to:
-  - data/questions.json
-  - public/data/questions.json
+  - public/data/questions.json (single source of truth)
 """
 
 import json
@@ -15,13 +14,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 PUBLIC_DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
 
-APTI_FILE = os.path.join(DATA_DIR, 'questions.json')
+APTI_FILE = os.path.join(PUBLIC_DATA_DIR, 'questions.json')
 SCI_SOURCE_FILE = os.path.join(DATA_DIR, 'science.json')
 if not os.path.exists(SCI_SOURCE_FILE):
     # Fallback to absolute external path if needed
     SCI_SOURCE_FILE = '/Users/hiijitesh/Downloads/Govt Exams & RRB/A RRB NOTES/A Science Magnet/Chapterwise_Questions/All_Chapters_Questions_Master.json'
 
-OUTPUT_DATA_FILE = os.path.join(DATA_DIR, 'questions.json')
 OUTPUT_PUBLIC_FILE = os.path.join(PUBLIC_DATA_DIR, 'questions.json')
 
 CHAPTER_TITLE_MAP = {
@@ -184,13 +182,8 @@ def main():
     combined = tagged_apti + converted_sci + top300_data
     print(f"Total combined questions: {len(combined)}")
 
-    # Ensure output directories exist
-    os.makedirs(os.path.dirname(OUTPUT_DATA_FILE), exist_ok=True)
+    # Ensure output directory exists
     os.makedirs(os.path.dirname(OUTPUT_PUBLIC_FILE), exist_ok=True)
-
-    print(f"Writing to {OUTPUT_DATA_FILE}...")
-    with open(OUTPUT_DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(combined, f, indent=2, ensure_ascii=False)
 
     print(f"Writing to {OUTPUT_PUBLIC_FILE}...")
     with open(OUTPUT_PUBLIC_FILE, 'w', encoding='utf-8') as f:

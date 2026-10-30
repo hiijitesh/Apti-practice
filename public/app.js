@@ -58,6 +58,15 @@ class AptiPrepApp {
     this.modalSubject = 'aptitude';
     this.modalScienceSub = 'all';
 
+    // Revision Materials & PDFs State
+    this.revision = {
+      folderUrl: 'https://drive.google.com/drive/folders/1DpWFTDuPRoHvCcKeqK_FPo2u4Zp13sHJ?usp=sharing',
+      folderName: 'Merged Science & Revision Materials',
+      pdfs: [],
+      activePdfId: 'bio',
+      isLoading: false
+    };
+
     this.init();
     this.bindKeyboardShortcuts();
   }
@@ -75,7 +84,7 @@ class AptiPrepApp {
         const inp = document.getElementById('login-email-input');
         if (inp) inp.focus();
       }, 50);
-      await this.loadChapters();
+      await Promise.all([this.loadChapters(), this.loadRevisionMaterials()]);
       return;
     }
 
@@ -83,7 +92,7 @@ class AptiPrepApp {
     this.switchView('dashboard');
     this.updateUserSessionUI();
     try {
-      await Promise.all([this.loadChapters(), this.loadAttempts()]);
+      await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
     } catch (e) {
       console.warn('Init data load error:', e);
     }
@@ -100,6 +109,7 @@ class AptiPrepApp {
     const btnChapters = document.getElementById('nav-btn-practice');
     const btnDashboard = document.getElementById('nav-btn-home');
     const btnMock = document.getElementById('nav-btn-mock');
+    const btnRevision = document.getElementById('nav-btn-revision');
 
     const isLoggedIn = !!this.currentUserEmail && this.currentMode !== 'login';
 
@@ -124,6 +134,16 @@ class AptiPrepApp {
         btnMock.classList.remove('hidden');
       } else {
         btnMock.classList.add('hidden');
+      }
+    }
+
+    if (btnRevision) {
+      if (isLoggedIn) {
+        btnRevision.classList.remove('hidden');
+        btnRevision.classList.add('inline-flex');
+      } else {
+        btnRevision.classList.add('hidden');
+        btnRevision.classList.remove('inline-flex');
       }
     }
 
@@ -525,6 +545,16 @@ class AptiPrepApp {
       if (['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
 
       const key = e.key.toLowerCase();
+
+      // Escape key closes Revision Modal
+      if (key === 'escape') {
+        const revModal = document.getElementById('revision-modal');
+        if (revModal && !revModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeRevisionModal();
+          return;
+        }
+      }
 
       // Zen mode toggle shortcut: 'z'
       if (key === 'z' && (e.metaKey || e.ctrlKey)) {
@@ -2440,6 +2470,250 @@ class AptiPrepApp {
         </div>
       `;
     }).join('');
+  }
+
+  // ==========================================
+  // REVISION NOTES & CHAPTER PDFS MODAL
+  // ==========================================
+
+  async loadRevisionMaterials() {
+    try {
+      let data = null;
+      const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      if (isLocalhost) {
+        try {
+          const res = await fetch('/api/revision-materials');
+          if (res.ok) data = await res.json();
+        } catch (e) {}
+      }
+
+      if (!data) {
+        const res = await fetch('./data/revision_materials.json');
+        if (res.ok) data = await res.json();
+      }
+
+      if (data) {
+        if (data.folderUrl) this.revision.folderUrl = data.folderUrl;
+        if (data.folderName) this.revision.folderName = data.folderName;
+        if (Array.isArray(data.pdfs) && data.pdfs.length > 0) {
+          this.revision.pdfs = data.pdfs;
+        }
+      }
+    } catch (err) {
+      console.warn('Could not fetch revision_materials.json, applying fallbacks:', err);
+    }
+
+    if (!this.revision.pdfs || this.revision.pdfs.length === 0) {
+      this.revision.pdfs = [
+        {
+          id: 'bio',
+          title: 'General Science — Biology Revision Notes',
+          shortTitle: 'Biology',
+          icon: '🧬',
+          subject: 'General Science',
+          subSubject: 'Biology',
+          fileId: '1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa',
+          fileName: 'Bio.pdf',
+          fileSize: 'Comprehensive Notes',
+          viewUrl: 'https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/view?usp=sharing',
+          previewUrl: 'https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/preview'
+        },
+        {
+          id: 'chem',
+          title: 'General Science — Chemistry Revision Notes',
+          shortTitle: 'Chemistry',
+          icon: '🧪',
+          subject: 'General Science',
+          subSubject: 'Chemistry',
+          fileId: '12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ',
+          fileName: 'Chemistry.pdf',
+          fileSize: 'Comprehensive Notes',
+          viewUrl: 'https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/view?usp=sharing',
+          previewUrl: 'https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/preview'
+        },
+        {
+          id: 'physics',
+          title: 'General Science — Physics Revision Notes',
+          shortTitle: 'Physics',
+          icon: '⚡',
+          subject: 'General Science',
+          subSubject: 'Physics',
+          fileId: '1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC',
+          fileName: 'Physics.pdf',
+          fileSize: 'Comprehensive Notes',
+          viewUrl: 'https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/view?usp=sharing',
+          previewUrl: 'https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/preview'
+        },
+        {
+          id: 'top300',
+          title: 'RRB Top 300 Questions & Revision Notes',
+          shortTitle: 'Top 300 Qs',
+          icon: '🔥',
+          subject: 'General Science',
+          subSubject: 'Top 300 Questions',
+          fileId: '1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl',
+          fileName: 'Top 300 Questions.pdf',
+          fileSize: '54 MB',
+          viewUrl: 'https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view?usp=sharing',
+          previewUrl: 'https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview'
+        }
+      ];
+    }
+  }
+
+  detectRelevantRevisionPdf() {
+    let activeSubj = '';
+    let activeChap = '';
+
+    if (this.currentMode === 'practice' && this.practice.questions.length > 0) {
+      const q = this.practice.questions[this.practice.currentIndex] || {};
+      activeSubj = (q.subSubject || q.subject || '').toLowerCase();
+      activeChap = (q.chapter || this.practice.chapter || '').toLowerCase();
+    } else if (this.currentMode === 'mock' && this.mock.questions.length > 0) {
+      const q = this.mock.questions[this.mock.currentIndex] || {};
+      activeSubj = (q.subSubject || q.subject || '').toLowerCase();
+      activeChap = (q.chapter || '').toLowerCase();
+    }
+
+    if (activeChap.includes('top 300')) return 'top300';
+    if (activeSubj.includes('bio') || activeChap.includes('cell') || activeChap.includes('blood') || activeChap.includes('botany')) return 'bio';
+    if (activeSubj.includes('chem') || activeChap.includes('acid') || activeChap.includes('metal') || activeChap.includes('periodic')) return 'chem';
+    if (activeSubj.includes('phys') || activeChap.includes('light') || activeChap.includes('motion') || activeChap.includes('electric') || activeChap.includes('optics')) return 'physics';
+
+    return this.revision.activePdfId || 'bio';
+  }
+
+  openRevisionModal(preferredPdfId = null) {
+    if (!this.revision.pdfs || this.revision.pdfs.length === 0) {
+      this.loadRevisionMaterials();
+    }
+
+    const modal = document.getElementById('revision-modal');
+    if (!modal) return;
+
+    const targetPdfId = preferredPdfId || this.detectRelevantRevisionPdf();
+    this.revision.activePdfId = targetPdfId;
+
+    // Update folder link
+    const folderLink = document.getElementById('revision-drive-folder-link');
+    if (folderLink && this.revision.folderUrl) {
+      folderLink.href = this.revision.folderUrl;
+    }
+
+    // Context Banner & Topic Badge
+    const banner = document.getElementById('revision-context-banner');
+    const bannerText = document.getElementById('revision-context-text');
+    const bannerBtn = document.getElementById('revision-context-btn');
+    const topicBadge = document.getElementById('revision-badge-topic');
+
+    let currentContextInfo = '';
+    if (this.currentMode === 'practice') {
+      const qNum = this.practice.currentIndex + 1;
+      const chName = this.practice.chapter || 'Chapter Test';
+      currentContextInfo = `Question ${qNum} • ${chName}`;
+    } else if (this.currentMode === 'mock') {
+      const qNum = this.mock.currentIndex + 1;
+      const q = this.mock.questions[this.mock.currentIndex];
+      const chName = q ? q.chapter : 'Mock Exam';
+      currentContextInfo = `Mock Q${qNum} • ${chName}`;
+    }
+
+    if (currentContextInfo) {
+      if (topicBadge) {
+        topicBadge.textContent = currentContextInfo;
+        topicBadge.classList.remove('hidden');
+      }
+      if (banner && bannerText && bannerBtn) {
+        bannerText.textContent = `Testing: ${currentContextInfo} — Recommended notes: ${this.getPdfShortTitle(targetPdfId)}`;
+        bannerBtn.dataset.pdfId = targetPdfId;
+        banner.classList.remove('hidden');
+      }
+    } else {
+      if (topicBadge) topicBadge.classList.add('hidden');
+      if (banner) banner.classList.add('hidden');
+    }
+
+    this.renderRevisionTabs();
+    this.selectRevisionPdf(targetPdfId);
+    modal.classList.remove('hidden');
+  }
+
+  getPdfShortTitle(pdfId) {
+    const p = (this.revision.pdfs || []).find(item => item.id === pdfId);
+    return p ? (p.shortTitle || p.title) : 'Notes';
+  }
+
+  renderRevisionTabs() {
+    const container = document.getElementById('revision-tabs-container');
+    if (!container) return;
+
+    container.innerHTML = (this.revision.pdfs || []).map(pdf => {
+      const isActive = pdf.id === this.revision.activePdfId;
+      const cls = isActive
+        ? 'px-3 py-1.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center gap-1.5 transition text-xs whitespace-nowrap'
+        : 'px-3 py-1.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-100 text-zinc-700 font-medium flex items-center gap-1.5 transition text-xs whitespace-nowrap';
+
+      return `
+        <button onclick="app.selectRevisionPdf('${pdf.id}')" class="${cls}">
+          <span>${pdf.icon || '📄'}</span>
+          <span>${pdf.shortTitle || pdf.title}</span>
+        </button>
+      `;
+    }).join('');
+  }
+
+  selectRevisionPdf(pdfId) {
+    const pdf = (this.revision.pdfs || []).find(p => p.id === pdfId);
+    if (!pdf) return;
+
+    this.revision.activePdfId = pdfId;
+    this.renderRevisionTabs();
+
+    const iframe = document.getElementById('revision-iframe');
+    const loader = document.getElementById('revision-iframe-loader');
+    const loaderText = document.getElementById('revision-loader-text');
+    const activeMeta = document.getElementById('revision-active-meta');
+    const newTabBtn = document.getElementById('revision-open-tab-btn');
+    const fallbackLink = document.getElementById('revision-fallback-direct-link');
+
+    if (activeMeta) {
+      activeMeta.textContent = `${pdf.title} • ${pdf.fileName || 'Google Drive PDF'}`;
+    }
+
+    const viewUrl = pdf.viewUrl || `https://drive.google.com/file/d/${pdf.fileId}/view`;
+    const previewUrl = pdf.previewUrl || `https://drive.google.com/file/d/${pdf.fileId}/preview`;
+
+    if (newTabBtn) newTabBtn.href = viewUrl;
+    if (fallbackLink) fallbackLink.href = viewUrl;
+
+    if (iframe) {
+      if (loader) {
+        loader.classList.remove('opacity-0', 'pointer-events-none');
+        if (loaderText) loaderText.textContent = `Loading ${pdf.shortTitle || 'PDF'} preview...`;
+      }
+
+      if (iframe.src !== previewUrl) {
+        iframe.src = previewUrl;
+      } else {
+        // Already loaded, hide loader quickly
+        setTimeout(() => this.handleRevisionIframeLoaded(), 300);
+      }
+
+      // Fallback safety timeout in case onload is blocked by browser sandbox
+      setTimeout(() => this.handleRevisionIframeLoaded(), 3000);
+    }
+  }
+
+  handleRevisionIframeLoaded() {
+    const loader = document.getElementById('revision-iframe-loader');
+    if (loader) {
+      loader.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  closeRevisionModal() {
+    const modal = document.getElementById('revision-modal');
+    if (modal) modal.classList.add('hidden');
   }
 }
 

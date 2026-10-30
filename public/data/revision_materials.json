@@ -1,0 +1,82 @@
+{
+  "folderUrl": "https://drive.google.com/drive/folders/1DpWFTDuPRoHvCcKeqK_FPo2u4Zp13sHJ?usp=sharing",
+  "folderName": "Merged Science & Revision Materials",
+  "lastUpdated": "2026-10-30",
+  "pdfs": [
+    {
+      "id": "bio",
+      "title": "General Science — Biology Revision Notes",
+      "shortTitle": "Biology",
+      "icon": "🧬",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "fileId": "1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa",
+      "fileName": "Bio.pdf",
+      "fileSize": "Comprehensive Notes",
+      "viewUrl": "https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/view?usp=sharing",
+      "previewUrl": "https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/preview",
+      "chapters": [
+        "Cell", "Blood", "Botany", "Human Diseases", "Nutrients", "Genetics & Evolution",
+        "Circulatory System", "Digestive System", "Endocrine System", "Excretory System",
+        "Nervous System", "Reproduction System", "Respiratory System", "Skeletal System",
+        "Ecology & Environment", "Animal Kingdom", "Plant Kingdom", "Zoology"
+      ],
+      "description": "Comprehensive Biology theory, diagrams, human anatomy, organ systems, cytology, botany, and health science notes."
+    },
+    {
+      "id": "chem",
+      "title": "General Science — Chemistry Revision Notes",
+      "shortTitle": "Chemistry",
+      "icon": "🧪",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "fileId": "12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ",
+      "fileName": "Chemistry.pdf",
+      "fileSize": "Comprehensive Notes",
+      "viewUrl": "https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/view?usp=sharing",
+      "previewUrl": "https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/preview",
+      "chapters": [
+        "Acid, Bases & Salts", "Atomic Structure", "Chemical Bonding", "Chemical Reactions",
+        "Metals & Non-Metals", "Periodic Table", "Carbon & Its Compounds", "States of Matter",
+        "Everyday Chemistry", "Metallurgy", "Solutions"
+      ],
+      "description": "Complete Chemistry formulas, periodic trends, acid-base reactions, chemical equations, metallurgy, and organic concepts."
+    },
+    {
+      "id": "physics",
+      "title": "General Science — Physics Revision Notes",
+      "shortTitle": "Physics",
+      "icon": "⚡",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "fileId": "1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC",
+      "fileName": "Physics.pdf",
+      "fileSize": "Comprehensive Notes",
+      "viewUrl": "https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/view?usp=sharing",
+      "previewUrl": "https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/preview",
+      "chapters": [
+        "Light & Optics", "Electricity & Magnetism", "Work, Power & Energy", "Force & Laws of Motion",
+        "Gravitation", "Sound Waves", "Heat & Thermodynamics", "Motion & Kinematics",
+        "Units & Measurements", "Nuclear Physics"
+      ],
+      "description": "Physics laws, numerical formulas, ray diagrams, Ohm's law, circuits, wave mechanics, and essential constants."
+    },
+    {
+      "id": "top300",
+      "title": "RRB Top 300 Questions & Revision Notes",
+      "shortTitle": "Top 300 Qs",
+      "icon": "🔥",
+      "subject": "General Science",
+      "subSubject": "Top 300 Questions",
+      "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
+      "fileName": "Top 300 Questions.pdf",
+      "fileSize": "54 MB",
+      "viewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view?usp=sharing",
+      "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview",
+      "chapters": [
+        "Top 300 Questions", "High-Yield Science", "Previous Year Exam Series"
+      ],
+      "description": "The 300 highest-yielding exam questions with thorough explanations and short notes."
+    }
+  ]
+}

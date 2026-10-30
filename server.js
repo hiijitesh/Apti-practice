@@ -12,8 +12,10 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const DATA_DIR = path.join(__dirname, 'data');
-const QUESTIONS_FILE = path.join(DATA_DIR, 'questions.json');
+const PUBLIC_DATA_DIR = path.join(__dirname, 'public', 'data');
+const QUESTIONS_FILE = path.join(PUBLIC_DATA_DIR, 'questions.json');
 const ATTEMPTS_FILE = path.join(DATA_DIR, 'attempts.json');
+const REVISION_FILE = path.join(PUBLIC_DATA_DIR, 'revision_materials.json');
 
 // Ensure data files exist
 if (!fs.existsSync(DATA_DIR)) {
@@ -374,6 +376,20 @@ app.get('/api/attempts/:id', (req, res) => {
     chapterBreakdown,
     detailedAnswers
   });
+});
+
+// 6. GET /api/revision-materials - Revision PDFs, Drive URLs and chapter mappings
+app.get('/api/revision-materials', (req, res) => {
+  if (fs.existsSync(REVISION_FILE)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(REVISION_FILE, 'utf8'));
+      return res.json(data);
+    } catch (e) {
+      console.error('Error reading revision_materials.json:', e);
+      return res.status(500).json({ error: 'Failed to read revision materials' });
+    }
+  }
+  res.status(404).json({ error: 'Revision materials not found' });
 });
 
 // Fallback to index.html for SPA navigation

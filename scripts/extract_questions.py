@@ -3,7 +3,7 @@
 scripts/extract_questions.py
 
 Extracts aptitude questions from PDF files in ./source_pdfs/ (or current directory)
-into ./data/questions.json following the structured schema:
+into ./public/data/questions.json following the structured schema:
 [
   {
     "id": "ch1_q001",
@@ -366,7 +366,7 @@ def main():
             import traceback
             traceback.print_exc()
 
-    out_dir = os.path.join(".", "data")
+    out_dir = os.path.join(".", "public", "data")
     os.makedirs(out_dir, exist_ok=True)
     out_file = os.path.join(out_dir, "questions.json")
 

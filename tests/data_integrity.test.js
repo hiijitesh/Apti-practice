@@ -5,29 +5,23 @@ const path = require('path');
 
 describe('Data Integrity Tests', () => {
   const rootDir = path.resolve(__dirname, '..');
-  const serverQuestionsPath = path.join(rootDir, 'data', 'questions.json');
-  const publicQuestionsPath = path.join(rootDir, 'public', 'data', 'questions.json');
+  const questionsPath = path.join(rootDir, 'public', 'data', 'questions.json');
 
-  test('questions.json exists in both data/ and public/data/', () => {
-    assert.ok(fs.existsSync(serverQuestionsPath), 'data/questions.json should exist');
-    assert.ok(fs.existsSync(publicQuestionsPath), 'public/data/questions.json should exist');
+  test('questions.json exists in public/data/ as single source of truth', () => {
+    assert.ok(fs.existsSync(questionsPath), 'public/data/questions.json should exist');
   });
 
-  test('both questions files have matching counts and identical question IDs', () => {
-    const serverQuestions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
-    const publicQuestions = JSON.parse(fs.readFileSync(publicQuestionsPath, 'utf8'));
+  test('questions file contains 2891 questions with unique IDs', () => {
+    const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
 
-    assert.equal(serverQuestions.length, 2891, 'Master questions file should contain 2891 questions');
-    assert.equal(publicQuestions.length, 2891, 'Public static questions file should contain 2891 questions');
+    assert.equal(questions.length, 2891, 'Questions file should contain 2891 questions');
 
-    const serverIds = new Set(serverQuestions.map(q => q.id));
-    const publicIds = new Set(publicQuestions.map(q => q.id));
-    assert.equal(serverIds.size, 2891, 'All question IDs must be unique');
-    assert.equal(publicIds.size, 2891, 'All public question IDs must be unique');
+    const questionIds = new Set(questions.map(q => q.id));
+    assert.equal(questionIds.size, 2891, 'All question IDs must be unique');
   });
 
   test('every question adheres strictly to CBT schema', () => {
-    const questions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
+    const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     const validSubjects = new Set(['Quantitative Aptitude', 'General Science']);
     const validSubSubjects = new Set(['Quantitative Aptitude', 'Biology', 'Chemistry', 'Physics']);
 
@@ -49,7 +43,7 @@ describe('Data Integrity Tests', () => {
   });
 
   test('subject distribution: 1342 Aptitude and 1549 Science across 52 chapters', () => {
-    const questions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
+    const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     const apti = questions.filter(q => q.subject === 'Quantitative Aptitude');
     const science = questions.filter(q => q.subject === 'General Science');
 
@@ -66,7 +60,7 @@ describe('Data Integrity Tests', () => {
   });
 
   test('diagrams are attached to questions and valid png data uris', () => {
-    const questions = JSON.parse(fs.readFileSync(serverQuestionsPath, 'utf8'));
+    const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     const withDiagram = questions.filter(q => q.diagram && q.diagram.trim().length > 0);
 
     assert.ok(withDiagram.length >= 20, `Should have at least 20 questions with diagrams (found ${withDiagram.length})`);

@@ -12,8 +12,8 @@ A lightweight, local test-taking web application that runs entirely on localhost
 - **Frontend:** Vanilla HTML5, Tailwind CSS (via CDN), and Vanilla JavaScript (`public/`)
   - Fast, responsive Computer-Based Test (CBT) portal UI modeled after real exam interfaces.
   - Zero heavy build tools or bundlers required—runs directly in any modern browser.
-- **Data Persistence:** Local JSON files (`data/`)
-  - `data/questions.json`: 1,344 structured aptitude questions across 17 chapters.
+- **Data Persistence:** Local JSON files (`data/` and `public/data/`)
+  - `public/data/questions.json`: 2,891 structured questions across 52 chapters (Quantitative Aptitude & General Science - single source of truth for both backend and static frontend).
   - `data/attempts.json`: Stores all past test attempts with accuracy, timestamps, and answer histories.
 - **Extraction Script:** Python 3 (`scripts/extract_questions.py`)
   - Robust parser using `pypdf` that extracts questions, options, and answer keys from PDFs in `./source_pdfs/` (or current directory) into structured JSON.
@@ -33,7 +33,7 @@ npm run extract
 # or directly:
 python3 scripts/extract_questions.py
 ```
-This scans all question PDFs, extracts questions, formats options (A, B, C, D), maps correct answers from the answer keys, and writes them to `./data/questions.json`.
+This scans all question PDFs, extracts questions, formats options (A, B, C, D), maps correct answers from the answer keys, and writes them to `./public/data/questions.json`.
 
 ### 3. Start the Local Server
 ```bash
