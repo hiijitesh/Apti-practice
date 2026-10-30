@@ -116,10 +116,51 @@ describe('API Integration Tests', () => {
     assert.ok(Array.isArray(data.pdfs));
     assert.ok(data.chapters && typeof data.chapters === 'object');
 
-    // Verify Science Google Drive preview for chapters
-    const cell = data.chapters['Cell'];
-    assert.ok(cell);
-    assert.equal(cell.subSubject, 'Biology');
-    assert.ok(cell.previewUrl.includes('/preview'));
+    // Verify 35 Science chapters (16 Biology, 8 Chemistry, 10 Physics, 1 Top 300)
+    const chapterNames = Object.keys(data.chapters);
+    assert.equal(chapterNames.length, 35);
+
+    // Verify no Aptitude chapters
+    chapterNames.forEach(name => {
+      const ch = data.chapters[name];
+      assert.notEqual(ch.subject, 'Aptitude');
+      assert.ok(ch.fileId);
+      assert.ok(ch.previewUrl.includes('drive.google.com/file/d/'));
+      assert.ok(ch.previewUrl.endsWith('/preview'));
+    });
+
+    const bioCount = Object.values(data.chapters).filter(c => c.subSubject === 'Biology').length;
+    const chemCount = Object.values(data.chapters).filter(c => c.subSubject === 'Chemistry').length;
+    const physCount = Object.values(data.chapters).filter(c => c.subSubject === 'Physics').length;
+    const topCount = Object.values(data.chapters).filter(c => c.subSubject === 'Top 300 Questions' || c.chapter === 'Top 300 Questions').length;
+
+    assert.equal(bioCount, 16);
+    assert.equal(chemCount, 8);
+    assert.equal(physCount, 10);
+    assert.equal(topCount, 1);
+  });
+
+  test('Revision UI HTML and CSS supports Studio Workspace and True Fullscreen', () => {
+    const fs = require('fs');
+    const html = fs.readFileSync('public/index.html', 'utf8');
+    const css = fs.readFileSync('public/style.css', 'utf8');
+
+    // Iframe must have true fullscreen permissions
+    assert.ok(html.includes('allowfullscreen="true"'));
+    assert.ok(html.includes('allow="autoplay; fullscreen'));
+
+    // Studio workspace elements
+    assert.ok(html.includes('id="revision-workspace-container"'));
+    assert.ok(html.includes('id="revision-sidebar"'));
+    assert.ok(html.includes('id="revision-reader-container"'));
+    assert.ok(html.includes('id="rev-fullscreen-btn"'));
+    assert.ok(html.includes('id="rev-exit-fullscreen-btn"'));
+    assert.ok(html.includes('id="rev-btn-prev"'));
+    assert.ok(html.includes('id="rev-btn-next"'));
+    assert.ok(html.includes('id="revision-search-input"'));
+    assert.ok(html.includes('id="revision-chapter-dropdown-mobile"'));
+
+    // Fullscreen CSS rule
+    assert.ok(css.includes('.revision-fullscreen-active'));
   });
 });

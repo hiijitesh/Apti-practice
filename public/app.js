@@ -253,6 +253,14 @@ class AptiPrepApp {
       document.msFullscreenElement
     );
 
+    // Sync Revision fullscreen state when exiting browser fullscreen
+    if (this.currentMode === 'revision') {
+      if (!isFullscreen && this.revision && this.revision.isFullscreen) {
+        this.toggleRevisionFullscreen(false);
+      }
+      return;
+    }
+
     // If user comes out of fullscreen in test mode, pause test automatically!
     if (!isFullscreen) {
       if (this.currentMode === 'mock' && !this.isTestPaused) {
@@ -546,12 +554,42 @@ class AptiPrepApp {
 
       const key = e.key.toLowerCase();
 
-      // Escape key closes Revision Modal
+      // Escape key handles Revision view and Fullscreen
       if (key === 'escape') {
+        if (this.currentMode === 'revision') {
+          e.preventDefault();
+          if (this.revision && this.revision.isFullscreen) {
+            this.toggleRevisionFullscreen(false);
+          } else {
+            this.exitRevisionView();
+          }
+          return;
+        }
         const revModal = document.getElementById('revision-modal');
         if (revModal && !revModal.classList.contains('hidden')) {
           e.preventDefault();
           this.closeRevisionModal();
+          return;
+        }
+      }
+
+      // 'f' toggles Fullscreen in Revision Mode
+      if (key === 'f' && this.currentMode === 'revision') {
+        e.preventDefault();
+        this.toggleRevisionFullscreen();
+        return;
+      }
+
+      // Left/Right arrows navigate chapters in Revision Mode
+      if (this.currentMode === 'revision') {
+        if (key === 'arrowleft') {
+          e.preventDefault();
+          this.prevRevisionChapter();
+          return;
+        }
+        if (key === 'arrowright') {
+          e.preventDefault();
+          this.nextRevisionChapter();
           return;
         }
       }
@@ -617,6 +655,10 @@ class AptiPrepApp {
 
   // View Switching
   switchView(viewName) {
+    if (this.currentMode === 'revision' && viewName !== 'revision') {
+      this.toggleRevisionFullscreen(false);
+    }
+
     this.currentMode = viewName;
     this.updateUserSessionUI();
     const views = ['login', 'dashboard', 'practice', 'mock', 'results', 'revision'];
@@ -624,6 +666,18 @@ class AptiPrepApp {
       const el = document.getElementById(`view-${v}`);
       if (el) el.classList.toggle('hidden', v !== viewName);
     });
+
+    // Adapt main container width: expand for revision studio layout
+    const mainEl = document.querySelector('main');
+    if (mainEl) {
+      if (viewName === 'revision') {
+        mainEl.classList.remove('max-w-5xl', 'py-8');
+        mainEl.classList.add('max-w-7xl', 'py-3', 'sm:py-4');
+      } else {
+        mainEl.classList.remove('max-w-7xl', 'py-3', 'sm:py-4');
+        mainEl.classList.add('max-w-5xl', 'py-8');
+      }
+    }
 
     const btnHome = document.getElementById('nav-btn-home');
     const btnPractice = document.getElementById('nav-btn-practice');
@@ -2475,8 +2529,7 @@ class AptiPrepApp {
   }
 
   // ==========================================
-  // VIEW 5: CHAPTERWISE REVISION (NO MODAL)
-  // 1. SELECT SUBJECT -> 2. SELECT CHAPTER -> 3. PDF PREVIEW
+  // CHAPTER REVISION STUDIO & FULLSCREEN PREVIEW
   // ==========================================
 
   async loadRevisionMaterials() {
@@ -2507,6 +2560,24 @@ class AptiPrepApp {
     } catch (err) {
       console.warn('Could not fetch revision_materials.json:', err);
     }
+  }
+
+  getCurrentSubjectChapters(subject = this.revision.activeSubject) {
+    const chaptersMap = this.revision.chapters || {};
+    let list = Object.values(chaptersMap);
+
+    if (subject === 'Biology') {
+      list = list.filter(c => c.subSubject === 'Biology');
+    } else if (subject === 'Chemistry') {
+      list = list.filter(c => c.subSubject === 'Chemistry');
+    } else if (subject === 'Physics') {
+      list = list.filter(c => c.subSubject === 'Physics');
+    } else if (subject === 'top300') {
+      list = list.filter(c => c.chapter === 'Top 300 Questions' || c.subSubject === 'Top 300 Questions');
+    }
+
+    list.sort((a, b) => a.chapter.localeCompare(b.chapter));
+    return list;
   }
 
   showRevisionView(defaultSubject = 'Biology', defaultChapter = null) {
@@ -2586,6 +2657,8 @@ class AptiPrepApp {
   }
 
   exitRevisionView() {
+    this.toggleRevisionFullscreen(false);
+
     if (this.revision.returnView === 'practice') {
       this.switchView('practice');
     } else if (this.revision.returnView === 'mock') {
@@ -2597,6 +2670,10 @@ class AptiPrepApp {
 
   setRevisionSubject(subject, preferredChapter = null) {
     this.revision.activeSubject = subject;
+    this.revision.searchQuery = '';
+
+    const searchInput = document.getElementById('revision-search-input');
+    if (searchInput) searchInput.value = '';
 
     const subjButtons = {
       'Biology': document.getElementById('rev-subj-btn-Biology'),
@@ -2615,65 +2692,84 @@ class AptiPrepApp {
     const subjLabel = document.getElementById('revision-selected-subj-label');
     if (subjLabel) subjLabel.textContent = subjDisplayNames[subject] || subject;
 
-    // Style active subject button
+    const breadcrumbSubj = document.getElementById('revision-breadcrumb-subject');
+    if (breadcrumbSubj) breadcrumbSubj.textContent = subject === 'top300' ? 'Top 300' : subject;
+
+    // Style active subject pill
     Object.entries(subjButtons).forEach(([key, btn]) => {
       if (!btn) return;
       if (key === subject) {
-        btn.classList.add('border-zinc-900', 'ring-2', 'ring-zinc-900', 'bg-zinc-50', 'shadow-xs');
-        btn.classList.remove('border-zinc-200');
+        btn.className = 'px-2.5 py-1 rounded-md text-xs font-semibold transition border border-zinc-900 bg-zinc-900 text-white shadow-2xs whitespace-nowrap';
+      } else if (key === 'top300') {
+        btn.className = 'px-2.5 py-1 rounded-md text-xs font-medium transition border border-amber-200 bg-amber-50/70 hover:bg-amber-100 text-amber-800 whitespace-nowrap';
       } else {
-        btn.classList.remove('border-zinc-900', 'ring-2', 'ring-zinc-900', 'bg-zinc-50', 'shadow-xs');
-        btn.classList.add('border-zinc-200');
+        btn.className = 'px-2.5 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap';
       }
     });
 
     this.renderRevisionChapterButtons(subject, preferredChapter);
   }
 
+  handleRevisionSearch(query) {
+    this.revision.searchQuery = (query || '').toLowerCase().trim();
+    this.renderRevisionChapterButtons(this.revision.activeSubject, this.revision.activeChapter);
+  }
+
   renderRevisionChapterButtons(subject, preferredChapter = null) {
     const container = document.getElementById('revision-chapter-buttons-container');
+    const mobileDropdown = document.getElementById('revision-chapter-dropdown-mobile');
     const countLabel = document.getElementById('revision-chapter-count-label');
-    if (!container) return;
 
-    const chaptersMap = this.revision.chapters || {};
-    let chList = Object.values(chaptersMap);
+    const fullList = this.getCurrentSubjectChapters(subject);
+    if (countLabel) countLabel.textContent = `${fullList.length} ch`;
 
-    if (subject === 'Biology') {
-      chList = chList.filter(c => c.subSubject === 'Biology');
-    } else if (subject === 'Chemistry') {
-      chList = chList.filter(c => c.subSubject === 'Chemistry');
-    } else if (subject === 'Physics') {
-      chList = chList.filter(c => c.subSubject === 'Physics');
-    } else if (subject === 'top300') {
-      chList = chList.filter(c => c.chapter === 'Top 300 Questions');
+    let filteredList = fullList;
+    if (this.revision.searchQuery) {
+      filteredList = fullList.filter(c => c.chapter.toLowerCase().includes(this.revision.searchQuery));
     }
 
-    if (countLabel) countLabel.textContent = `${chList.length} Chapters`;
-
-    chList.sort((a, b) => a.chapter.localeCompare(b.chapter));
-
-    let chosen = preferredChapter && chList.find(c => c.chapter === preferredChapter)
+    let chosen = preferredChapter && fullList.find(c => c.chapter === preferredChapter)
       ? preferredChapter
-      : (chList[0] ? chList[0].chapter : null);
+      : (fullList[0] ? fullList[0].chapter : null);
 
     this.revision.activeChapter = chosen;
 
-    container.innerHTML = chList.map(item => {
-      const isSelected = item.chapter === chosen;
-      const cls = isSelected
-        ? 'p-2.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center justify-between text-left transition select-none'
-        : 'p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50 bg-white text-zinc-800 font-medium flex items-center justify-between text-left transition select-none';
+    // Render mobile dropdown
+    if (mobileDropdown) {
+      mobileDropdown.innerHTML = fullList.map(item => `
+        <option value="${item.chapter.replace(/"/g, '&quot;')}" ${item.chapter === chosen ? 'selected' : ''}>
+          ${item.icon || '📄'} ${item.chapter}
+        </option>
+      `).join('');
+    }
 
-      return `
-        <button onclick="app.selectRevisionChapter('${item.chapter.replace(/'/g, "\\'")}')" class="${cls}">
-          <div class="truncate pr-1">
-            <span class="mr-1">${item.icon || '📄'}</span>
-            <span class="text-xs truncate">${item.chapter}</span>
+    // Render sidebar list
+    if (container) {
+      if (filteredList.length === 0) {
+        container.innerHTML = `
+          <div class="py-8 text-center text-zinc-400 text-xs">
+            No chapters match "${this.revision.searchQuery}"
           </div>
-          <span class="text-[10px] ${isSelected ? 'text-zinc-300' : 'text-zinc-400'} font-mono">&rarr;</span>
-        </button>
-      `;
-    }).join('');
+        `;
+      } else {
+        container.innerHTML = filteredList.map(item => {
+          const isSelected = item.chapter === chosen;
+          const cls = isSelected
+            ? 'p-2 rounded-lg bg-zinc-900 text-white font-semibold shadow-2xs flex items-center justify-between text-left transition select-none w-full'
+            : 'p-2 rounded-lg border border-transparent hover:border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 font-medium flex items-center justify-between text-left transition select-none w-full';
+
+          return `
+            <button onclick="app.selectRevisionChapter('${item.chapter.replace(/'/g, "\\'")}')" class="${cls}">
+              <div class="flex items-center gap-1.5 min-w-0 pr-1">
+                <span class="text-xs shrink-0">${item.icon || '📄'}</span>
+                <span class="text-xs truncate">${item.chapter}</span>
+              </div>
+              <span class="text-[10px] ${isSelected ? 'text-zinc-300' : 'text-zinc-400'} font-mono shrink-0">&rarr;</span>
+            </button>
+          `;
+        }).join('');
+      }
+    }
 
     if (chosen) {
       this.selectRevisionChapter(chosen);
@@ -2687,7 +2783,7 @@ class AptiPrepApp {
 
     this.revision.activeChapter = chapterName;
 
-    // Update active highlight in chapter buttons
+    // Update active highlight in sidebar list
     const container = document.getElementById('revision-chapter-buttons-container');
     if (container) {
       const buttons = container.querySelectorAll('button');
@@ -2695,20 +2791,34 @@ class AptiPrepApp {
         const text = btn.textContent || '';
         const match = text.includes(chapterName);
         if (match) {
-          btn.className = 'p-2.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center justify-between text-left transition select-none';
+          btn.className = 'p-2 rounded-lg bg-zinc-900 text-white font-semibold shadow-2xs flex items-center justify-between text-left transition select-none w-full';
         } else {
-          btn.className = 'p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50 bg-white text-zinc-800 font-medium flex items-center justify-between text-left transition select-none';
+          btn.className = 'p-2 rounded-lg border border-transparent hover:border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 font-medium flex items-center justify-between text-left transition select-none w-full';
         }
       });
     }
 
-    // Step 3: Update Preview Header Info
+    // Sync mobile dropdown
+    const mobileDropdown = document.getElementById('revision-chapter-dropdown-mobile');
+    if (mobileDropdown && mobileDropdown.value !== chapterName) {
+      mobileDropdown.value = chapterName;
+    }
+
+    // Update Breadcrumb & Header Info
+    const breadcrumbChapter = document.getElementById('revision-breadcrumb-chapter');
     const titleEl = document.getElementById('revision-preview-title');
     const badgeEl = document.getElementById('revision-preview-badge');
     const fileEl = document.getElementById('revision-preview-file');
+    const popoutLink = document.getElementById('revision-popout-link');
 
+    if (breadcrumbChapter) breadcrumbChapter.textContent = chapterName;
     if (titleEl) titleEl.textContent = info.title || `${chapterName} Revision Notes`;
     if (fileEl) fileEl.textContent = info.fileName || `${chapterName}.pdf`;
+
+    const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
+    if (popoutLink) {
+      popoutLink.href = previewUrl.replace('/preview', '/view?usp=sharing');
+    }
 
     if (badgeEl) {
       const disc = info.subSubject || 'General Science';
@@ -2724,12 +2834,10 @@ class AptiPrepApp {
       }
     }
 
-    // Load PDF in on-page iframe
+    // Load PDF in iframe with true full-screen support
     const iframe = document.getElementById('revision-view-iframe');
     const loader = document.getElementById('revision-view-loader');
     const loaderText = document.getElementById('revision-view-loader-text');
-
-    const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
 
     if (iframe) {
       if (loader) {
@@ -2754,20 +2862,79 @@ class AptiPrepApp {
     }
   }
 
-  toggleRevisionPreviewHeight() {
-    const wrapper = document.getElementById('revision-preview-wrapper');
-    const label = document.getElementById('rev-height-btn-label');
-    if (!wrapper) return;
-
-    this.revision.isExpanded = !this.revision.isExpanded;
-    if (this.revision.isExpanded) {
-      wrapper.classList.remove('h-[72vh]');
-      wrapper.classList.add('h-[92vh]');
-      if (label) label.textContent = 'Collapse View';
+  prevRevisionChapter() {
+    const list = this.getCurrentSubjectChapters();
+    if (!list || list.length <= 1) return;
+    const currIdx = list.findIndex(c => c.chapter === this.revision.activeChapter);
+    if (currIdx > 0) {
+      this.selectRevisionChapter(list[currIdx - 1].chapter);
     } else {
-      wrapper.classList.remove('h-[92vh]');
-      wrapper.classList.add('h-[72vh]');
-      if (label) label.textContent = 'Expand View';
+      this.selectRevisionChapter(list[list.length - 1].chapter);
+    }
+  }
+
+  nextRevisionChapter() {
+    const list = this.getCurrentSubjectChapters();
+    if (!list || list.length <= 1) return;
+    const currIdx = list.findIndex(c => c.chapter === this.revision.activeChapter);
+    if (currIdx >= 0 && currIdx < list.length - 1) {
+      this.selectRevisionChapter(list[currIdx + 1].chapter);
+    } else {
+      this.selectRevisionChapter(list[0].chapter);
+    }
+  }
+
+  toggleRevisionFullscreen(enable) {
+    const reader = document.getElementById('revision-reader-container');
+    if (!reader) return;
+
+    if (enable === undefined) {
+      enable = !this.revision.isFullscreen;
+    }
+
+    this.revision.isFullscreen = enable;
+
+    const fsBtn = document.getElementById('rev-fullscreen-btn');
+    const exitFsBtn = document.getElementById('rev-exit-fullscreen-btn');
+
+    if (enable) {
+      reader.classList.add('revision-fullscreen-active');
+      document.body.classList.add('overflow-hidden');
+      if (fsBtn) {
+        fsBtn.innerHTML = `
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+          <span class="hidden sm:inline">Exit Fullscreen</span>
+        `;
+        fsBtn.setAttribute('title', 'Exit Fullscreen (Esc)');
+        fsBtn.onclick = () => this.toggleRevisionFullscreen(false);
+      }
+      if (exitFsBtn) exitFsBtn.classList.remove('hidden');
+
+      // Request browser fullscreen on the reader container
+      if (reader.requestFullscreen && !document.fullscreenElement) {
+        reader.requestFullscreen().catch(() => {});
+      } else if (reader.webkitRequestFullscreen && !document.webkitFullscreenElement) {
+        reader.webkitRequestFullscreen().catch(() => {});
+      }
+    } else {
+      reader.classList.remove('revision-fullscreen-active');
+      document.body.classList.remove('overflow-hidden');
+      if (fsBtn) {
+        fsBtn.innerHTML = `
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+          <span class="hidden sm:inline">Full Screen</span>
+        `;
+        fsBtn.setAttribute('title', 'Full Screen (F)');
+        fsBtn.onclick = () => this.toggleRevisionFullscreen(true);
+      }
+      if (exitFsBtn) exitFsBtn.classList.add('hidden');
+
+      // Exit browser fullscreen if active
+      if (document.fullscreenElement && document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+      } else if (document.webkitFullscreenElement && document.webkitExitFullscreen) {
+        document.webkitExitFullscreen().catch(() => {});
+      }
     }
   }
 }

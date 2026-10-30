@@ -1,0 +1,710 @@
+{
+  "folderUrl": "https://drive.google.com/drive/folders/1DpWFTDuPRoHvCcKeqK_FPo2u4Zp13sHJ?usp=sharing",
+  "folderName": "Merged_Science_Magnet",
+  "lastUpdated": "2026-10-30",
+  "totalChapters": 35,
+  "chapters": {
+    "Blood": {
+      "chapter": "Blood",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Blood — Biology Revision Notes",
+      "fileName": "Blood.pdf",
+      "fileId": "19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q",
+      "previewUrl": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/preview"
+    },
+    "Botany": {
+      "chapter": "Botany",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Botany — Biology Revision Notes",
+      "fileName": "Botany.pdf",
+      "fileId": "18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT",
+      "previewUrl": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/preview"
+    },
+    "Cell": {
+      "chapter": "Cell",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Cell — Biology Revision Notes",
+      "fileName": "Cell.pdf",
+      "fileId": "1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7",
+      "previewUrl": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/preview"
+    },
+    "Circulatory System": {
+      "chapter": "Circulatory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Circulatory System — Biology Revision Notes",
+      "fileName": "Circulatory System.pdf",
+      "fileId": "1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq",
+      "previewUrl": "https://drive.google.com/file/d/1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq/preview"
+    },
+    "Classification of Organisms": {
+      "chapter": "Classification of Organisms",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Classification of Organisms — Biology Revision Notes",
+      "fileName": "Classification of Organisms.pdf",
+      "fileId": "14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h",
+      "previewUrl": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/preview"
+    },
+    "Digestive System": {
+      "chapter": "Digestive System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Digestive System — Biology Revision Notes",
+      "fileName": "Digestive System.pdf",
+      "fileId": "1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c",
+      "previewUrl": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/preview"
+    },
+    "Endocrine System": {
+      "chapter": "Endocrine System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Endocrine System — Biology Revision Notes",
+      "fileName": "Endocrine System.pdf",
+      "fileId": "1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak",
+      "previewUrl": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/preview"
+    },
+    "Environment": {
+      "chapter": "Environment",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Environment — Biology Revision Notes",
+      "fileName": "Environment.pdf",
+      "fileId": "1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7",
+      "previewUrl": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/preview"
+    },
+    "Excretory System": {
+      "chapter": "Excretory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Excretory System — Biology Revision Notes",
+      "fileName": "Excretory System.pdf",
+      "fileId": "1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym",
+      "previewUrl": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/preview"
+    },
+    "Heredity": {
+      "chapter": "Heredity",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Heredity — Biology Revision Notes",
+      "fileName": "Heredity.pdf",
+      "fileId": "1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3",
+      "previewUrl": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/preview"
+    },
+    "Improvement in Food Resources": {
+      "chapter": "Improvement in Food Resources",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Improvement in Food Resources — Biology Revision Notes",
+      "fileName": "Improvement in Food Resources.pdf",
+      "fileId": "1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA",
+      "previewUrl": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/preview"
+    },
+    "Nervous System": {
+      "chapter": "Nervous System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Nervous System — Biology Revision Notes",
+      "fileName": "Nervous System.pdf",
+      "fileId": "1eRMNE2cN2PzgQ_Kt5jntbAnqk0yoOoGj",
+      "previewUrl": "https://drive.google.com/file/d/1eRMNE2cN2PzgQ_Kt5jntbAnqk0yoOoGj/preview"
+    },
+    "Nutrition": {
+      "chapter": "Nutrition",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Nutrition — Biology Revision Notes",
+      "fileName": "Nutrition.pdf",
+      "fileId": "1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg",
+      "previewUrl": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/preview"
+    },
+    "Reproduction in Organisms": {
+      "chapter": "Reproduction in Organisms",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Reproduction in Organisms — Biology Revision Notes",
+      "fileName": "Reproduction in Organisms.pdf",
+      "fileId": "1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd",
+      "previewUrl": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/preview"
+    },
+    "Respiratory System": {
+      "chapter": "Respiratory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Respiratory System — Biology Revision Notes",
+      "fileName": "Respiratory System.pdf",
+      "fileId": "1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU",
+      "previewUrl": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/preview"
+    },
+    "Tissue": {
+      "chapter": "Tissue",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Tissue — Biology Revision Notes",
+      "fileName": "Tissue.pdf",
+      "fileId": "1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2",
+      "previewUrl": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/preview"
+    },
+    "Acids, Bases and Salt": {
+      "chapter": "Acids, Bases and Salt",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Acids, Bases and Salt — Chemistry Revision Notes",
+      "fileName": "Acids, Bases & Salt.pdf",
+      "fileId": "1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG",
+      "previewUrl": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/preview"
+    },
+    "Atom and Molecule": {
+      "chapter": "Atom and Molecule",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Atom and Molecule — Chemistry Revision Notes",
+      "fileName": "Atom & Molecule.pdf",
+      "fileId": "1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r",
+      "previewUrl": "https://drive.google.com/file/d/1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r/preview"
+    },
+    "Carbon and its Compounds": {
+      "chapter": "Carbon and its Compounds",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Carbon and its Compounds — Chemistry Revision Notes",
+      "fileName": "Carbon and its Compounds.pdf",
+      "fileId": "1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns",
+      "previewUrl": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/preview"
+    },
+    "Chemical Reactions and Equations": {
+      "chapter": "Chemical Reactions and Equations",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Chemical Reactions and Equations — Chemistry Revision Notes",
+      "fileName": "Chemical Reactions and Equations.pdf",
+      "fileId": "1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT",
+      "previewUrl": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/preview"
+    },
+    "Classification of Matter": {
+      "chapter": "Classification of Matter",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Classification of Matter — Chemistry Revision Notes",
+      "fileName": "Classification of Matter.pdf",
+      "fileId": "1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM",
+      "previewUrl": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/preview"
+    },
+    "Matter": {
+      "chapter": "Matter",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Matter — Chemistry Revision Notes",
+      "fileName": "Matter.pdf",
+      "fileId": "1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip",
+      "previewUrl": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/preview"
+    },
+    "Metals and Non-Metals": {
+      "chapter": "Metals and Non-Metals",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Metals and Non-Metals — Chemistry Revision Notes",
+      "fileName": "Metals & Non-Metals.pdf",
+      "fileId": "13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB",
+      "previewUrl": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/preview"
+    },
+    "Structure of Atom": {
+      "chapter": "Structure of Atom",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Structure of Atom — Chemistry Revision Notes",
+      "fileName": "Structure of Atom.pdf",
+      "fileId": "1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY",
+      "previewUrl": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/preview"
+    },
+    "Electricity": {
+      "chapter": "Electricity",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Electricity — Physics Revision Notes",
+      "fileName": "Electricity.pdf",
+      "fileId": "1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI",
+      "previewUrl": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/preview"
+    },
+    "Gravitation": {
+      "chapter": "Gravitation",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Gravitation — Physics Revision Notes",
+      "fileName": "Gravitation.pdf",
+      "fileId": "1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4",
+      "previewUrl": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/preview"
+    },
+    "Human Eye": {
+      "chapter": "Human Eye",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Human Eye — Physics Revision Notes",
+      "fileName": "Human Eye.pdf",
+      "fileId": "1tall8eSqobi215in1UKv3xv-vw6yLSUJ",
+      "previewUrl": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/preview"
+    },
+    "Magnetic Effect of Current": {
+      "chapter": "Magnetic Effect of Current",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Magnetic Effect of Current — Physics Revision Notes",
+      "fileName": "Magnetic Effect of Current.pdf",
+      "fileId": "18Rghfu8D7Oizfv8rjr8bw0ECWrrNV4VF",
+      "previewUrl": "https://drive.google.com/file/d/18Rghfu8D7Oizfv8rjr8bw0ECWrrNV4VF/preview"
+    },
+    "Motion": {
+      "chapter": "Motion",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Motion — Physics Revision Notes",
+      "fileName": "Motion.pdf",
+      "fileId": "11fYuEkRGR14kMmM358h6ACtlMqUBgtn8",
+      "previewUrl": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/preview"
+    },
+    "Prism": {
+      "chapter": "Prism",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Prism — Physics Revision Notes",
+      "fileName": "Prism.pdf",
+      "fileId": "12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt",
+      "previewUrl": "https://drive.google.com/file/d/12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt/preview"
+    },
+    "Reflection of Light": {
+      "chapter": "Reflection of Light",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Reflection of Light — Physics Revision Notes",
+      "fileName": "Reflection of Light.pdf",
+      "fileId": "1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0",
+      "previewUrl": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/preview"
+    },
+    "Refraction": {
+      "chapter": "Refraction",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Refraction — Physics Revision Notes",
+      "fileName": "Refraction of Light.pdf",
+      "fileId": "1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9",
+      "previewUrl": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/preview"
+    },
+    "Sound": {
+      "chapter": "Sound",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Sound — Physics Revision Notes",
+      "fileName": "Sound.pdf",
+      "fileId": "1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H",
+      "previewUrl": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/preview"
+    },
+    "Work, Energy and Power": {
+      "chapter": "Work, Energy and Power",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Work, Energy and Power — Physics Revision Notes",
+      "fileName": "Work, Energy & Power.pdf",
+      "fileId": "1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR",
+      "previewUrl": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/preview"
+    },
+    "Top 300 Questions": {
+      "chapter": "Top 300 Questions",
+      "subject": "General Science",
+      "subSubject": "Top 300 Questions",
+      "icon": "🔥",
+      "title": "RRB Top 300 Questions & Revision Series",
+      "fileName": "Top 300 Questions.pdf",
+      "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
+      "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
+    }
+  },
+  "pdfs": [
+    {
+      "chapter": "Blood",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Blood — Biology Revision Notes",
+      "fileName": "Blood.pdf",
+      "fileId": "19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q",
+      "previewUrl": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/preview"
+    },
+    {
+      "chapter": "Botany",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Botany — Biology Revision Notes",
+      "fileName": "Botany.pdf",
+      "fileId": "18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT",
+      "previewUrl": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/preview"
+    },
+    {
+      "chapter": "Cell",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Cell — Biology Revision Notes",
+      "fileName": "Cell.pdf",
+      "fileId": "1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7",
+      "previewUrl": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/preview"
+    },
+    {
+      "chapter": "Circulatory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Circulatory System — Biology Revision Notes",
+      "fileName": "Circulatory System.pdf",
+      "fileId": "1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq",
+      "previewUrl": "https://drive.google.com/file/d/1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq/preview"
+    },
+    {
+      "chapter": "Classification of Organisms",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Classification of Organisms — Biology Revision Notes",
+      "fileName": "Classification of Organisms.pdf",
+      "fileId": "14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h",
+      "previewUrl": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/preview"
+    },
+    {
+      "chapter": "Digestive System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Digestive System — Biology Revision Notes",
+      "fileName": "Digestive System.pdf",
+      "fileId": "1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c",
+      "previewUrl": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/preview"
+    },
+    {
+      "chapter": "Endocrine System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Endocrine System — Biology Revision Notes",
+      "fileName": "Endocrine System.pdf",
+      "fileId": "1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak",
+      "previewUrl": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/preview"
+    },
+    {
+      "chapter": "Environment",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Environment — Biology Revision Notes",
+      "fileName": "Environment.pdf",
+      "fileId": "1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7",
+      "previewUrl": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/preview"
+    },
+    {
+      "chapter": "Excretory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Excretory System — Biology Revision Notes",
+      "fileName": "Excretory System.pdf",
+      "fileId": "1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym",
+      "previewUrl": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/preview"
+    },
+    {
+      "chapter": "Heredity",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Heredity — Biology Revision Notes",
+      "fileName": "Heredity.pdf",
+      "fileId": "1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3",
+      "previewUrl": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/preview"
+    },
+    {
+      "chapter": "Improvement in Food Resources",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Improvement in Food Resources — Biology Revision Notes",
+      "fileName": "Improvement in Food Resources.pdf",
+      "fileId": "1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA",
+      "previewUrl": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/preview"
+    },
+    {
+      "chapter": "Nervous System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Nervous System — Biology Revision Notes",
+      "fileName": "Nervous System.pdf",
+      "fileId": "1eRMNE2cN2PzgQ_Kt5jntbAnqk0yoOoGj",
+      "previewUrl": "https://drive.google.com/file/d/1eRMNE2cN2PzgQ_Kt5jntbAnqk0yoOoGj/preview"
+    },
+    {
+      "chapter": "Nutrition",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Nutrition — Biology Revision Notes",
+      "fileName": "Nutrition.pdf",
+      "fileId": "1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg",
+      "previewUrl": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/preview"
+    },
+    {
+      "chapter": "Reproduction in Organisms",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Reproduction in Organisms — Biology Revision Notes",
+      "fileName": "Reproduction in Organisms.pdf",
+      "fileId": "1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd",
+      "previewUrl": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/preview"
+    },
+    {
+      "chapter": "Respiratory System",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Respiratory System — Biology Revision Notes",
+      "fileName": "Respiratory System.pdf",
+      "fileId": "1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU",
+      "previewUrl": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/preview"
+    },
+    {
+      "chapter": "Tissue",
+      "subject": "General Science",
+      "subSubject": "Biology",
+      "icon": "🧬",
+      "title": "Tissue — Biology Revision Notes",
+      "fileName": "Tissue.pdf",
+      "fileId": "1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2",
+      "previewUrl": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/preview"
+    },
+    {
+      "chapter": "Acids, Bases and Salt",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Acids, Bases and Salt — Chemistry Revision Notes",
+      "fileName": "Acids, Bases & Salt.pdf",
+      "fileId": "1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG",
+      "previewUrl": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/preview"
+    },
+    {
+      "chapter": "Atom and Molecule",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Atom and Molecule — Chemistry Revision Notes",
+      "fileName": "Atom & Molecule.pdf",
+      "fileId": "1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r",
+      "previewUrl": "https://drive.google.com/file/d/1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r/preview"
+    },
+    {
+      "chapter": "Carbon and its Compounds",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Carbon and its Compounds — Chemistry Revision Notes",
+      "fileName": "Carbon and its Compounds.pdf",
+      "fileId": "1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns",
+      "previewUrl": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/preview"
+    },
+    {
+      "chapter": "Chemical Reactions and Equations",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Chemical Reactions and Equations — Chemistry Revision Notes",
+      "fileName": "Chemical Reactions and Equations.pdf",
+      "fileId": "1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT",
+      "previewUrl": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/preview"
+    },
+    {
+      "chapter": "Classification of Matter",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Classification of Matter — Chemistry Revision Notes",
+      "fileName": "Classification of Matter.pdf",
+      "fileId": "1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM",
+      "previewUrl": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/preview"
+    },
+    {
+      "chapter": "Matter",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Matter — Chemistry Revision Notes",
+      "fileName": "Matter.pdf",
+      "fileId": "1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip",
+      "previewUrl": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/preview"
+    },
+    {
+      "chapter": "Metals and Non-Metals",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Metals and Non-Metals — Chemistry Revision Notes",
+      "fileName": "Metals & Non-Metals.pdf",
+      "fileId": "13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB",
+      "previewUrl": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/preview"
+    },
+    {
+      "chapter": "Structure of Atom",
+      "subject": "General Science",
+      "subSubject": "Chemistry",
+      "icon": "🧪",
+      "title": "Structure of Atom — Chemistry Revision Notes",
+      "fileName": "Structure of Atom.pdf",
+      "fileId": "1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY",
+      "previewUrl": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/preview"
+    },
+    {
+      "chapter": "Electricity",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Electricity — Physics Revision Notes",
+      "fileName": "Electricity.pdf",
+      "fileId": "1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI",
+      "previewUrl": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/preview"
+    },
+    {
+      "chapter": "Gravitation",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Gravitation — Physics Revision Notes",
+      "fileName": "Gravitation.pdf",
+      "fileId": "1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4",
+      "previewUrl": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/preview"
+    },
+    {
+      "chapter": "Human Eye",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Human Eye — Physics Revision Notes",
+      "fileName": "Human Eye.pdf",
+      "fileId": "1tall8eSqobi215in1UKv3xv-vw6yLSUJ",
+      "previewUrl": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/preview"
+    },
+    {
+      "chapter": "Magnetic Effect of Current",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Magnetic Effect of Current — Physics Revision Notes",
+      "fileName": "Magnetic Effect of Current.pdf",
+      "fileId": "18Rghfu8D7Oizfv8rjr8bw0ECWrrNV4VF",
+      "previewUrl": "https://drive.google.com/file/d/18Rghfu8D7Oizfv8rjr8bw0ECWrrNV4VF/preview"
+    },
+    {
+      "chapter": "Motion",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Motion — Physics Revision Notes",
+      "fileName": "Motion.pdf",
+      "fileId": "11fYuEkRGR14kMmM358h6ACtlMqUBgtn8",
+      "previewUrl": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/preview"
+    },
+    {
+      "chapter": "Prism",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Prism — Physics Revision Notes",
+      "fileName": "Prism.pdf",
+      "fileId": "12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt",
+      "previewUrl": "https://drive.google.com/file/d/12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt/preview"
+    },
+    {
+      "chapter": "Reflection of Light",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Reflection of Light — Physics Revision Notes",
+      "fileName": "Reflection of Light.pdf",
+      "fileId": "1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0",
+      "previewUrl": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/preview"
+    },
+    {
+      "chapter": "Refraction",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Refraction — Physics Revision Notes",
+      "fileName": "Refraction of Light.pdf",
+      "fileId": "1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9",
+      "previewUrl": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/preview"
+    },
+    {
+      "chapter": "Sound",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Sound — Physics Revision Notes",
+      "fileName": "Sound.pdf",
+      "fileId": "1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H",
+      "previewUrl": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/preview"
+    },
+    {
+      "chapter": "Work, Energy and Power",
+      "subject": "General Science",
+      "subSubject": "Physics",
+      "icon": "⚡",
+      "title": "Work, Energy and Power — Physics Revision Notes",
+      "fileName": "Work, Energy & Power.pdf",
+      "fileId": "1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR",
+      "previewUrl": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/preview"
+    },
+    {
+      "chapter": "Top 300 Questions",
+      "subject": "General Science",
+      "subSubject": "Top 300 Questions",
+      "icon": "🔥",
+      "title": "RRB Top 300 Questions & Revision Series",
+      "fileName": "Top 300 Questions.pdf",
+      "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
+      "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
+    }
+  ]
+}
