@@ -733,6 +733,13 @@ class AptiPrepApp {
           return;
         }
 
+        const shortcutsModal = document.getElementById('keyboard-shortcuts-modal');
+        if (shortcutsModal && !shortcutsModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeShortcutsModal();
+          return;
+        }
+
         const qPaperModal = document.getElementById('mock-question-paper-modal');
         if (qPaperModal && !qPaperModal.classList.contains('hidden')) {
           e.preventDefault();
@@ -838,6 +845,13 @@ class AptiPrepApp {
         else if (key === 'r') { e.preventDefault(); this.toggleMockReview(); }
         else if (key === 'arrowright' || key === 'enter') { e.preventDefault(); this.nextMockQuestion(); }
         else if (key === 'arrowleft') { e.preventDefault(); this.prevMockQuestion(); }
+      }
+
+      // '?' or 'h' opens Keyboard Shortcuts Help modal
+      if (e.key === '?' || (key === 'h' && this.currentMode !== 'mock' && this.currentMode !== 'practice')) {
+        e.preventDefault();
+        this.toggleShortcutsModal();
+        return;
       }
     });
   }
@@ -1006,6 +1020,20 @@ class AptiPrepApp {
   closeChapterSelectModal() {
     const modal = document.getElementById('chapter-select-modal');
     if (modal) modal.classList.add('hidden');
+  }
+
+  toggleShortcutsModal() {
+    const modal = document.getElementById('keyboard-shortcuts-modal');
+    if (modal) {
+      modal.classList.toggle('hidden');
+    }
+  }
+
+  closeShortcutsModal() {
+    const modal = document.getElementById('keyboard-shortcuts-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
   }
 
   setModalSubjectTab(subj) {
@@ -1298,8 +1326,152 @@ class AptiPrepApp {
   // ==========================================
 
   renderDashboard() {
+    this.renderStudyAnalyticsWidget();
     this.renderChaptersGrid();
     this.renderAttemptsHistory();
+  }
+
+  renderStudyAnalyticsWidget() {
+    const container = document.getElementById('dashboard-study-widget');
+    if (!container) return;
+
+    const totalAttempts = (this.attempts || []).length;
+    if (totalAttempts === 0) {
+      container.classList.remove('hidden');
+      container.innerHTML = `
+        <div class="bg-gradient-to-r from-sky-50/70 via-indigo-50/40 to-white border border-sky-200/80 rounded-2xl p-4 sm:p-5 shadow-2xs space-y-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-sm">🎯</span>
+                <h3 class="text-sm sm:text-base font-bold text-zinc-900">Start Your Prep Journey</h3>
+                <span class="text-[10px] font-semibold bg-sky-100 text-sky-800 px-2 py-0.5 rounded-full">New Account</span>
+              </div>
+              <p class="text-xs text-zinc-600">Take a full mock test or pick a chapter test to unlock personal accuracy tracking, weakness analysis, and targeted drills.</p>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <button onclick="app.startMockTestPrompt()" class="px-3.5 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-semibold text-xs shadow-xs transition whitespace-nowrap">
+                Take Diagnostic Mock &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    // Aggregate statistics
+    let totalQuestionsSolved = 0;
+    let totalCorrect = 0;
+    let mockScores = [];
+    const chapterStats = {};
+
+    this.attempts.forEach(att => {
+      const qCount = att.totalQuestions || (att.detailedAnswers ? att.detailedAnswers.length : 0);
+      const cCount = att.correctCount || (att.detailedAnswers ? att.detailedAnswers.filter(a => a.isCorrect).length : 0);
+      totalQuestionsSolved += qCount;
+      totalCorrect += cCount;
+
+      if (att.mode === 'mock') {
+        mockScores.push(att.scorePercentage !== undefined ? att.scorePercentage : (qCount > 0 ? Math.round((cCount / qCount) * 100) : 0));
+      }
+
+      if (att.chapter) {
+        if (!chapterStats[att.chapter]) {
+          chapterStats[att.chapter] = { correct: 0, total: 0, attempts: 0 };
+        }
+        chapterStats[att.chapter].correct += cCount;
+        chapterStats[att.chapter].total += qCount;
+        chapterStats[att.chapter].attempts += 1;
+      }
+    });
+
+    const overallAccuracy = totalQuestionsSolved > 0 ? Math.round((totalCorrect / totalQuestionsSolved) * 100) : 0;
+    const avgMockScore = mockScores.length > 0 ? Math.round(mockScores.reduce((a, b) => a + b, 0) / mockScores.length) : null;
+    const bestScore = Math.max(...this.attempts.map(a => a.scorePercentage || 0), 0);
+
+    // Identify weak or recommended chapters
+    const weakChapters = [];
+    const chapterNames = (this.chapters || []).map(c => c.name);
+
+    // First check attempted chapters with accuracy < 65%
+    Object.keys(chapterStats).forEach(ch => {
+      const st = chapterStats[ch];
+      const acc = st.total > 0 ? Math.round((st.correct / st.total) * 100) : 0;
+      if (acc < 65) {
+        weakChapters.push({ name: ch, accuracy: acc, attempted: true });
+      }
+    });
+
+    // If less than 3 weak chapters, add high-yield unattempted chapters
+    if (weakChapters.length < 3) {
+      for (const ch of chapterNames) {
+        if (!chapterStats[ch] && weakChapters.length < 3) {
+          weakChapters.push({ name: ch, accuracy: null, attempted: false });
+        }
+      }
+    }
+
+    container.classList.remove('hidden');
+    container.innerHTML = `
+      <div class="bg-white border border-zinc-200 rounded-2xl p-4 sm:p-5 shadow-2xs space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-zinc-100 pb-3">
+          <div class="flex items-center gap-2">
+            <span class="text-sm">📊</span>
+            <div>
+              <h3 class="text-sm sm:text-base font-bold text-zinc-900">Your Prep Analytics</h3>
+              <p class="text-[11px] text-zinc-400">Calibrated from ${totalAttempts} total evaluation session${totalAttempts > 1 ? 's' : ''}</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 text-xs">
+            <span class="text-zinc-400">Best Score:</span>
+            <span class="font-mono font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/60">${bestScore}%</span>
+          </div>
+        </div>
+
+        <!-- 4 Key Metrics Bar -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3">
+          <div class="bg-zinc-50/80 border border-zinc-100 rounded-xl p-3 text-center">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-zinc-400 block mb-0.5">Accuracy</span>
+            <span class="text-lg sm:text-xl font-bold font-mono ${overallAccuracy >= 70 ? 'text-emerald-700' : overallAccuracy >= 50 ? 'text-amber-700' : 'text-rose-600'}">${overallAccuracy}%</span>
+            <span class="text-[10px] text-zinc-400 block mt-0.5">${totalCorrect}/${totalQuestionsSolved} correct</span>
+          </div>
+          <div class="bg-zinc-50/80 border border-zinc-100 rounded-xl p-3 text-center">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-zinc-400 block mb-0.5">Solved</span>
+            <span class="text-lg sm:text-xl font-bold font-mono text-zinc-900">${totalQuestionsSolved}</span>
+            <span class="text-[10px] text-zinc-400 block mt-0.5">Questions</span>
+          </div>
+          <div class="bg-zinc-50/80 border border-zinc-100 rounded-xl p-3 text-center">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-zinc-400 block mb-0.5">Mocks</span>
+            <span class="text-lg sm:text-xl font-bold font-mono text-zinc-900">${mockScores.length}</span>
+            <span class="text-[10px] text-zinc-400 block mt-0.5">Full 30-min exams</span>
+          </div>
+          <div class="bg-zinc-50/80 border border-zinc-100 rounded-xl p-3 text-center">
+            <span class="text-[10px] uppercase font-bold tracking-wider text-zinc-400 block mb-0.5">Mock Avg</span>
+            <span class="text-lg sm:text-xl font-bold font-mono text-indigo-700">${avgMockScore !== null ? `${avgMockScore}%` : 'N/A'}</span>
+            <span class="text-[10px] text-zinc-400 block mt-0.5">${avgMockScore !== null ? 'CBT average' : 'Take 1st mock'}</span>
+          </div>
+        </div>
+
+        ${weakChapters.length > 0 ? `
+          <!-- Recommended Priority Focus Chapters -->
+          <div class="pt-2 border-t border-zinc-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 text-xs">
+            <div class="flex items-center gap-1.5 shrink-0">
+              <span class="text-amber-500 text-xs">⚡</span>
+              <span class="font-semibold text-zinc-700">Recommended Next:</span>
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5 flex-1 justify-start sm:justify-end">
+              ${weakChapters.map(ch => `
+                <button onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')" class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg border border-zinc-200 bg-white hover:bg-zinc-100 hover:border-zinc-300 transition text-[11px] font-medium text-zinc-800 shadow-2xs group">
+                  <span class="group-hover:text-sky-700 truncate max-w-[140px]">${ch.name}</span>
+                  ${ch.accuracy !== null ? `<span class="text-[10px] font-mono font-bold text-rose-600 bg-rose-50 px-1 py-0.2 rounded">${ch.accuracy}%</span>` : `<span class="text-[10px] font-mono text-zinc-400 bg-zinc-100 px-1 py-0.2 rounded">Unattempted</span>`}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+    `;
   }
 
   renderChaptersGrid() {
@@ -1811,6 +1983,14 @@ class AptiPrepApp {
   selectPracticeOption(idx) {
     this.practice.userAnswers[this.practice.currentIndex] = idx;
     this.renderPracticeQuestion();
+    if (this.practice.isStudyMode) {
+      setTimeout(() => {
+        const solBox = document.getElementById('practice-solution-box');
+        if (solBox) {
+          solBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }, 50);
+    }
   }
 
   clearPracticeResponse() {
@@ -2930,8 +3110,157 @@ class AptiPrepApp {
     document.getElementById('filter-count-incorrect').textContent = detailed.filter(a => a.userAnswer !== null && !a.isCorrect).length;
     document.getElementById('filter-count-unattempted').textContent = detailed.filter(a => a.userAnswer === null).length;
 
+    // Mistakes badges & re-attempt buttons
+    const incorrectCount = detailed.filter(a => a.userAnswer !== null && !a.isCorrect).length;
+    const unattemptedCount = detailed.filter(a => a.userAnswer === null).length;
+    const mistakesCount = incorrectCount + unattemptedCount;
+
+    const badgeMistakes = document.getElementById('res-badge-mistakes-count');
+    if (badgeMistakes) badgeMistakes.textContent = mistakesCount;
+
+    const btnReattempt = document.getElementById('res-btn-reattempt-mistakes');
+    const badgeReattempt = document.getElementById('res-badge-reattempt-count');
+    if (btnReattempt && badgeReattempt) {
+      badgeReattempt.textContent = mistakesCount;
+      if (mistakesCount > 0) {
+        btnReattempt.classList.remove('hidden');
+      } else {
+        btnReattempt.classList.add('hidden');
+      }
+    }
+
+    this.renderSubjectAggregates(detailed);
+
     this.renderReviewQuestionsList();
     this.switchView('results');
+  }
+
+  renderSubjectAggregates(detailed) {
+    const container = document.getElementById('result-subject-aggregates');
+    const summaryText = document.getElementById('results-subject-summary-text');
+    if (!container) return;
+
+    if (!detailed || detailed.length === 0) {
+      container.innerHTML = '';
+      if (summaryText) summaryText.textContent = '';
+      return;
+    }
+
+    const chapterToSubj = {};
+    (this.chapters || []).forEach(ch => {
+      chapterToSubj[ch.name] = (ch.subject && ch.subject.includes('Science')) ? 'General Science' : 'Quantitative Aptitude';
+    });
+
+    const subjects = {
+      'Quantitative Aptitude': { total: 0, correct: 0, incorrect: 0, unattempted: 0, icon: '📐' },
+      'General Science': { total: 0, correct: 0, incorrect: 0, unattempted: 0, icon: '🔬' }
+    };
+
+    detailed.forEach(item => {
+      const subj = chapterToSubj[item.chapter] || (item.chapter?.toLowerCase().includes('cell') || item.chapter?.toLowerCase().includes('chemistry') || item.chapter?.toLowerCase().includes('physics') || item.chapter?.toLowerCase().includes('light') || item.chapter?.toLowerCase().includes('motion') ? 'General Science' : 'Quantitative Aptitude');
+      const target = subjects[subj] || subjects['Quantitative Aptitude'];
+      target.total++;
+      if (item.isCorrect) target.correct++;
+      else if (item.userAnswer === null) target.unattempted++;
+      else target.incorrect++;
+    });
+
+    const subKeys = Object.keys(subjects).filter(k => subjects[k].total > 0);
+    if (summaryText) {
+      summaryText.textContent = `${subKeys.length} Subjects Evaluated • Tap "Show Chapter Details" below for breakdown`;
+    }
+
+    container.innerHTML = subKeys.map(k => {
+      const data = subjects[k];
+      const acc = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
+      let barColor = 'bg-emerald-600';
+      if (acc < 50) barColor = 'bg-rose-500';
+      else if (acc < 75) barColor = 'bg-amber-500';
+
+      return `
+        <div class="bg-zinc-50 border border-zinc-200/80 rounded-xl p-3.5 space-y-2">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5">
+              <span>${data.icon}</span>
+              <span class="font-bold text-xs text-zinc-900">${k}</span>
+            </div>
+            <span class="font-mono font-bold text-sm ${acc >= 70 ? 'text-emerald-700' : acc >= 50 ? 'text-amber-700' : 'text-rose-600'}">${acc}%</span>
+          </div>
+          <div class="w-full bg-zinc-200 h-1.5 rounded-full overflow-hidden">
+            <div class="${barColor} h-full rounded-full transition-all" style="width: ${acc}%"></div>
+          </div>
+          <div class="flex items-center justify-between text-[11px] text-zinc-500 pt-0.5">
+            <span><strong>${data.correct}</strong> / ${data.total} correct</span>
+            <span><strong>${data.incorrect}</strong> wrong • <strong>${data.unattempted}</strong> skipped</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  toggleResultsChapterBreakdown() {
+    const el = document.getElementById('result-chapter-breakdown');
+    const btnText = document.getElementById('toggle-results-breakdown-text');
+    const icon = document.getElementById('toggle-results-breakdown-icon');
+    if (!el) return;
+
+    const isHidden = el.classList.contains('hidden');
+    if (isHidden) {
+      el.classList.remove('hidden');
+      if (btnText) btnText.textContent = 'Hide Chapter Details';
+      if (icon) icon.classList.add('rotate-180');
+    } else {
+      el.classList.add('hidden');
+      if (btnText) btnText.textContent = 'Show Chapter Details';
+      if (icon) icon.classList.remove('rotate-180');
+    }
+  }
+
+  scrollToQuestionsSection() {
+    const section = document.getElementById('result-questions-section');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  reattemptMistakes() {
+    if (!this.results.attempt || !this.results.attempt.detailedAnswers) return;
+
+    const missed = this.results.attempt.detailedAnswers.filter(a => !a.isCorrect);
+    if (missed.length === 0) {
+      alert('No mistakes in this attempt! Outstanding job.');
+      return;
+    }
+
+    const reattemptQuestions = missed.map(item => ({
+      id: item.questionId || (item.question ? item.question.slice(0, 32) : Math.random().toString(36).slice(2)),
+      question: item.question,
+      options: item.options || [],
+      correctAnswer: item.correctAnswer,
+      explanation: item.explanation || '',
+      chapter: item.chapter || 'Mistakes Drill'
+    }));
+
+    this.practice = {
+      chapter: `Mistakes Drill (${reattemptQuestions.length} Qs)`,
+      questions: reattemptQuestions,
+      currentIndex: 0,
+      userAnswers: {},
+      markedForReview: {},
+      startTime: Date.now(),
+      timerInterval: null,
+      isStudyMode: true,
+      subjectFilter: 'all',
+      drawerOpen: false,
+      isFullscreen: false
+    };
+
+    this.switchView('practice');
+    this.renderPracticeQuestion();
+    this.updatePracticePalette();
+
+    const titleEl = document.getElementById('practice-chapter-title');
+    if (titleEl) titleEl.textContent = `⚡ Mistakes Drill (${reattemptQuestions.length} Questions)`;
   }
 
   renderChapterBreakdown(breakdown) {
@@ -3132,6 +3461,16 @@ class AptiPrepApp {
   showRevisionView(defaultSubject = 'Biology', defaultChapter = null) {
     this.revision.returnView = 'dashboard';
     this.revision.returnInfo = null;
+
+    if (!defaultChapter) {
+      try {
+        const lastSaved = localStorage.getItem('apti_last_revision_chapter');
+        if (lastSaved && this.revision.chapters && this.revision.chapters[lastSaved]) {
+          defaultChapter = lastSaved;
+          defaultSubject = this.revision.chapters[lastSaved].subSubject || defaultSubject;
+        }
+      } catch (e) {}
+    }
 
     const returnBtnLabel = document.getElementById('revision-return-btn-label');
     const testBadge = document.getElementById('revision-test-badge');
@@ -3336,6 +3675,9 @@ class AptiPrepApp {
     if (!info) return;
 
     this.revision.activeChapter = chapterName;
+    try {
+      localStorage.setItem('apti_last_revision_chapter', chapterName);
+    } catch (e) {}
 
     // Auto-close sidebar drawer when a chapter is selected
     if (this.revision.sidebarOpen) {
@@ -3392,6 +3734,26 @@ class AptiPrepApp {
       }
     }
 
+    // Google Drive direct view link setup
+    const fallbackContainer = document.getElementById('revision-fallback-container');
+    const fallbackLink = document.getElementById('revision-fallback-link');
+    if (fallbackContainer) fallbackContainer.classList.add('hidden');
+    if (fallbackLink && info.fileId) {
+      fallbackLink.href = `https://drive.google.com/file/d/${info.fileId}/view?usp=sharing`;
+    }
+
+    if (this.revisionFallbackTimer) {
+      clearTimeout(this.revisionFallbackTimer);
+      this.revisionFallbackTimer = null;
+    }
+
+    this.revisionFallbackTimer = setTimeout(() => {
+      const curLoader = document.getElementById('revision-view-loader');
+      if (curLoader && !curLoader.classList.contains('opacity-0') && fallbackContainer) {
+        fallbackContainer.classList.remove('hidden');
+      }
+    }, 3500);
+
     // Load PDF in iframe with true full-screen support
     const iframe = document.getElementById('revision-view-iframe');
     const loader = document.getElementById('revision-view-loader');
@@ -3414,6 +3776,12 @@ class AptiPrepApp {
   }
 
   handleRevisionViewIframeLoaded() {
+    if (this.revisionFallbackTimer) {
+      clearTimeout(this.revisionFallbackTimer);
+      this.revisionFallbackTimer = null;
+    }
+    const fallbackContainer = document.getElementById('revision-fallback-container');
+    if (fallbackContainer) fallbackContainer.classList.add('hidden');
     const loader = document.getElementById('revision-view-loader');
     if (loader) {
       loader.classList.add('opacity-0', 'pointer-events-none');

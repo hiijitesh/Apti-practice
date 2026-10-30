@@ -50,16 +50,16 @@
 
       <!-- Desktop Navigation Bar (md:flex) -->
       <nav class="hidden md:flex items-center space-x-1 sm:space-x-2 text-xs">
-        <button onclick="app.showDashboard()" id="nav-btn-home" class="hidden px-2.5 py-1.5 font-medium rounded-md text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
+        <button onclick="app.showDashboard()" id="nav-btn-home" class="px-3 py-1.5 font-medium rounded-lg text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
           Dashboard
         </button>
-        <button onclick="app.openChapterSelectModal()" id="nav-btn-practice" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
+        <button onclick="app.openChapterSelectModal()" id="nav-btn-practice" class="px-3 py-1.5 font-medium rounded-lg text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
           Chapters
         </button>
-        <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md btn-primary transition whitespace-nowrap">
+        <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="px-3 py-1.5 font-semibold rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white transition whitespace-nowrap shadow-2xs">
           Mock Test
         </button>
-        <button onclick="app.showRevisionView()" id="nav-btn-revision" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md text-indigo-700 hover:text-indigo-900 hover:bg-indigo-50 border border-indigo-200/80 bg-indigo-50/50 transition items-center gap-1.5 whitespace-nowrap" title="Revision Notes & PDFs">
+        <button onclick="app.showRevisionView()" id="nav-btn-revision" class="px-3 py-1.5 font-medium rounded-lg text-indigo-700 hover:text-indigo-900 hover:bg-indigo-100/70 border border-indigo-200/80 bg-indigo-50/60 transition flex items-center gap-1.5 whitespace-nowrap" title="Revision Notes & PDFs">
           <svg class="w-3.5 h-3.5 text-indigo-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
           <span>Revision</span>
         </button>
@@ -69,7 +69,10 @@
             Switch
           </button>
         </div>
-        <button onclick="app.toggleZenMode()" id="btn-zen" title="Toggle Distraction-Free Zen Mode" class="hidden sm:inline-flex p-1.5 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition">
+        <button onclick="app.toggleShortcutsModal()" id="btn-shortcuts-help" title="Keyboard Shortcuts (?)" class="hidden sm:inline-flex p-1.5 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </button>
+        <button onclick="app.toggleZenMode()" id="btn-zen" title="Toggle Distraction-Free Zen Mode (Z)" class="hidden sm:inline-flex p-1.5 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
         </button>
       </nav>
@@ -163,7 +166,7 @@
     <section id="view-dashboard" class="space-y-10 hidden">
 
       <!-- Minimal Header -->
-      <div class="border-b border-zinc-200 pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+      <div class="border-b border-zinc-200 pb-5 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
           <span class="text-xs uppercase font-medium tracking-wider text-zinc-400 block mb-1">CBT Preparation Engine</span>
           <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-900">Aptitude & General Science</h1>
@@ -172,6 +175,11 @@
         <div id="summary-stats-bar" class="flex gap-2 text-xs">
           <!-- Summary stats pills rendered by app.js -->
         </div>
+      </div>
+
+      <!-- Personalized Study Progress & Focus Areas Widget -->
+      <div id="dashboard-study-widget" class="hidden">
+        <!-- Rendered dynamically by app.js renderDashboard() -->
       </div>
 
       <!-- Clean Mode Cards -->
@@ -374,8 +382,9 @@
             </select>
 
             <!-- Browse Chapters Modal Button -->
-            <button onclick="app.openChapterSelectModal()" title="Browse & switch chapters" class="p-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition shrink-0" aria-label="Browse chapters">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+            <button onclick="app.openChapterSelectModal()" title="Browse all 52 chapters" class="p-1.5 sm:px-2 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition shrink-0 flex items-center gap-1" aria-label="Browse chapters">
+              <svg class="w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+              <span class="hidden sm:inline text-[11px] font-medium">Browse</span>
             </button>
           </div>
 
@@ -386,10 +395,10 @@
               <span class="hidden xs:inline">Revision</span>
             </button>
 
-            <!-- Palette Toggle Button -->
-            <button onclick="app.togglePracticeDrawer()" class="px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition flex items-center gap-1">
+            <!-- Palette Toggle Button (Desktop only; mobile uses the pinned bottom bar button) -->
+            <button onclick="app.togglePracticeDrawer()" class="hidden md:flex px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition items-center gap-1" title="Toggle Question Palette">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-              <span id="practice-drawer-btn-label" class="hidden xs:inline">Palette</span>
+              <span id="practice-drawer-btn-label">Palette</span>
             </button>
           </div>
         </div>
@@ -778,20 +787,19 @@
 
       </div>
 
-      <!-- 4. FLOATING ACTION BUTTON (EXACT IMAGE 3 FAB: GREEN CIRCLE WITH PALETTE ICON) -->
-      <button onclick="app.toggleMockDrawer()" class="tb-mobile-fab lg:hidden" title="Open Question Palette">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
-      </button>
-
-      <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR -->
-      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3 py-2 z-30 lg:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
-        <button onclick="app.clearMockResponse()" class="tb-btn-outline px-3 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition">
+      <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR (Ergonomic 4-button layout, zero content collision) -->
+      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3 py-2 z-30 lg:hidden flex items-center justify-between gap-1.5 sm:gap-2 shadow-lg safe-bottom">
+        <button onclick="app.clearMockResponse()" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition">
           Clear
         </button>
-        <button onclick="app.prevMockQuestion()" id="mock-mobile-btn-prev" class="tb-btn-outline px-3.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition disabled:opacity-30 disabled:pointer-events-none">
-          Previous
+        <button onclick="app.prevMockQuestion()" id="mock-mobile-btn-prev" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition disabled:opacity-30 disabled:pointer-events-none">
+          Prev
         </button>
-        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="tb-btn-primary flex-1 py-2.5 px-4 rounded-md text-xs font-bold text-center whitespace-nowrap active:scale-95 transition shadow-xs">
+        <button onclick="app.toggleMockDrawer()" id="mock-mobile-palette-toggle-btn" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition flex items-center justify-center gap-1 text-zinc-700 bg-zinc-50" title="Open Question Palette">
+          <svg class="w-3.5 h-3.5 text-[#00a8cc]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+          <span id="mock-mobile-palette-btn-text">Palette (0/30)</span>
+        </button>
+        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="tb-btn-primary flex-1 py-2.5 px-3 rounded-md text-xs font-bold text-center whitespace-nowrap active:scale-95 transition shadow-xs">
           Save & Next &rarr;
         </button>
       </div>
@@ -835,31 +843,55 @@
           </div>
         </div>
 
-        <div class="mt-4 flex items-center justify-between gap-3 text-xs">
-          <div class="flex items-center gap-2">
-            <button onclick="app.startMockTestPrompt()" class="px-3.5 py-1.5 btn-primary font-medium rounded-lg transition">
-              Take Mock Test
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div class="flex flex-wrap items-center gap-2">
+            <button id="res-btn-review-mistakes" onclick="app.filterReview('incorrect'); app.scrollToQuestionsSection();" class="px-3.5 py-2 rounded-lg bg-rose-600 hover:bg-rose-700 text-white font-bold transition flex items-center gap-1.5 shadow-xs">
+              <span>⚡ Review Mistakes</span>
+              <span id="res-badge-mistakes-count" class="bg-rose-800 text-white text-[10px] px-1.5 py-0.2 rounded-full font-mono">0</span>
             </button>
-            <button onclick="app.showChapterSelect()" class="px-3 py-1.5 btn-secondary text-zinc-700 font-medium rounded-lg transition">
+            <button onclick="app.reattemptMistakes()" id="res-btn-reattempt-mistakes" class="px-3 py-2 rounded-lg border border-rose-200 bg-rose-50/70 hover:bg-rose-100 text-rose-800 font-semibold transition hidden" title="Practice only the questions you got wrong">
+              <span>Re-attempt Missed</span>
+              <span id="res-badge-reattempt-count" class="text-[10px] bg-rose-200/80 px-1 py-0.2 rounded ml-1">0</span>
+            </button>
+            <button onclick="app.startMockTestPrompt()" class="px-3 py-2 btn-primary font-medium rounded-lg transition">
+              New Test
+            </button>
+            <button onclick="app.showChapterSelect()" class="px-3 py-2 btn-secondary text-zinc-700 font-medium rounded-lg transition">
               Practice Chapters
             </button>
           </div>
-          <button onclick="app.showDashboard()" class="text-zinc-500 hover:text-zinc-900 transition">
+          <button onclick="app.showDashboard()" class="text-zinc-500 hover:text-zinc-900 transition font-medium">
             &larr; Dashboard
           </button>
         </div>
       </div>
 
-      <!-- Chapter Breakdown -->
-      <div class="bg-white rounded-xl p-5 border border-zinc-200 space-y-3">
-        <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Chapter Breakdown</h3>
-        <div id="result-chapter-breakdown" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-          <!-- Dynamically filled -->
+      <!-- Collapsible Subject & Chapter Breakdown (Saves 800px vertical space so questions are visible!) -->
+      <div id="results-breakdown-card" class="bg-white rounded-xl p-5 border border-zinc-200 space-y-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-wider text-zinc-400">Subject & Chapter Performance</h3>
+            <p id="results-subject-summary-text" class="text-xs text-zinc-600 mt-0.5 font-medium"></p>
+          </div>
+          <button onclick="app.toggleResultsChapterBreakdown()" id="btn-toggle-results-breakdown" class="text-xs font-semibold text-sky-700 hover:text-sky-900 transition flex items-center gap-1">
+            <span id="toggle-results-breakdown-text">Show Chapter Details</span>
+            <svg id="toggle-results-breakdown-icon" class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+        </div>
+
+        <!-- Subject Aggregates (Aptitude & Science summary bars) -->
+        <div id="result-subject-aggregates" class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          <!-- Filled dynamically by app.js -->
+        </div>
+
+        <!-- Detailed Individual Chapter Grid (Collapsible to save screen space) -->
+        <div id="result-chapter-breakdown" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 pt-2 border-t border-zinc-100 hidden">
+          <!-- Dynamically filled by app.js -->
         </div>
       </div>
 
       <!-- Full Question-by-Question Review -->
-      <div class="bg-white rounded-xl p-5 border border-zinc-200 space-y-4">
+      <div id="result-questions-section" class="bg-white rounded-xl p-5 border border-zinc-200 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-zinc-100 pb-3">
           <div>
             <h3 class="text-sm font-semibold text-zinc-900">Detailed Question Review</h3>
@@ -1003,10 +1035,16 @@
 
           <!-- Embedded Viewer Area directly on Page -->
           <div id="revision-preview-wrapper" class="relative w-full h-full bg-zinc-900 overflow-hidden">
-            <!-- Loading Spinner -->
+            <!-- Loading Spinner & Google Drive Fallback -->
             <div id="revision-view-loader" class="absolute inset-0 bg-white/95 z-10 flex flex-col items-center justify-center space-y-2.5 transition-opacity">
               <div class="w-8 h-8 border-3 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
               <span id="revision-view-loader-text" class="text-xs font-medium text-zinc-700">Loading chapter PDF on website...</span>
+              <div id="revision-fallback-container" class="pt-2 text-center hidden">
+                <p class="text-[11px] text-zinc-400">Taking longer than usual or blocked by browser settings?</p>
+                <a id="revision-fallback-link" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-xs font-semibold text-indigo-600 hover:text-indigo-800 underline mt-1">
+                  <span>Open directly in Google Drive ↗</span>
+                </a>
+              </div>
             </div>
 
             <!-- Embedded Iframe on Page with true fullscreen permissions -->
@@ -1313,6 +1351,71 @@
             Save & Connect
           </button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEYBOARD SHORTCUTS MODAL -->
+  <div id="keyboard-shortcuts-modal" class="fixed inset-0 bg-zinc-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-xl max-w-md w-full p-5 sm:p-6 border border-zinc-200 shadow-xl space-y-4">
+      <div class="flex items-center justify-between border-b border-zinc-100 pb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-base">⌨️</span>
+          <h3 class="font-bold text-sm sm:text-base text-zinc-900">Keyboard Shortcuts</h3>
+        </div>
+        <button onclick="app.closeShortcutsModal()" class="text-zinc-400 hover:text-zinc-800 text-xl leading-none">&times;</button>
+      </div>
+
+      <div class="space-y-1.5 text-xs divide-y divide-zinc-100 text-zinc-700">
+        <div class="flex items-center justify-between py-1.5">
+          <span>Select Options</span>
+          <div class="flex items-center gap-1 font-mono text-[11px]">
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">1</kbd>
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">2</kbd>
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">3</kbd>
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">4</kbd>
+            <span class="text-zinc-400 text-[10px]">or</span>
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">A-D</kbd>
+          </div>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Save &amp; Next Question</span>
+          <div class="flex items-center gap-1 font-mono text-[11px]">
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">Enter</kbd>
+            <span class="text-zinc-400 text-[10px]">or</span>
+            <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800">&rarr;</kbd>
+          </div>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Previous Question</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">&larr;</kbd>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Mark for Review (Mock Test)</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">R</kbd>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Toggle Distraction-Free Zen Mode</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">Z</kbd>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Fullscreen (Revision Studio)</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">F</kbd>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Close Dialogs / Dismiss</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">Esc</kbd>
+        </div>
+        <div class="flex items-center justify-between py-1.5">
+          <span>Open this Shortcuts Help</span>
+          <kbd class="px-1.5 py-0.5 rounded bg-zinc-100 border border-zinc-200 text-zinc-800 font-mono text-[11px]">?</kbd>
+        </div>
+      </div>
+
+      <div class="pt-2 flex justify-end">
+        <button onclick="app.closeShortcutsModal()" class="tb-btn-primary px-4 py-1.5 rounded-lg text-xs font-semibold">
+          Got it
+        </button>
       </div>
     </div>
   </div>
