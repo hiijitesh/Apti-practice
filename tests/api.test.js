@@ -160,7 +160,17 @@ describe('API Integration Tests', () => {
     assert.ok(html.includes('id="revision-search-input"'));
     assert.ok(html.includes('id="revision-chapter-dropdown-mobile"'));
 
-    // Fullscreen CSS rule
+    // Fullscreen CSS rule with 150% zoom
     assert.ok(css.includes('.revision-fullscreen-active'));
+    assert.ok(css.includes('var(--rev-zoom, 1.5)'));
+    assert.ok(css.includes('scale(var(--rev-zoom, 1.5))'));
+
+    // Zoom controls in HTML and JS
+    assert.ok(html.includes('id="revision-zoom-controls"'));
+    assert.ok(html.includes('id="revision-zoom-label"'));
+
+    const js = fs.readFileSync('public/app.js', 'utf8');
+    assert.ok(js.includes('setRevisionZoom'));
+    assert.ok(js.includes('adjustRevisionZoom'));
   });
 });

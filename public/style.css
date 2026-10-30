@@ -344,5 +344,30 @@ button:active:not(:disabled) {
   height: calc(100vh - 48px) !important;
   max-height: calc(100vh - 48px) !important;
   border-radius: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  background-color: #09090b !important;
 }
+
+/* In fullscreen mode, automatically use zoom 150% */
+.revision-fullscreen-active #revision-view-iframe {
+  width: calc(100% / var(--rev-zoom, 1.5)) !important;
+  height: calc(100% / var(--rev-zoom, 1.5)) !important;
+  transform: scale(var(--rev-zoom, 1.5)) !important;
+  transform-origin: top center !important;
+  transition: transform 0.12s ease-out, width 0.12s ease-out, height 0.12s ease-out !important;
+}
+
+.revision-fullscreen-active #revision-zoom-controls {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+  color: #f4f4f5 !important;
+}
+
+.revision-fullscreen-active #revision-zoom-label {
+  color: #f4f4f5 !important;
+}
+
 

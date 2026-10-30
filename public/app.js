@@ -592,6 +592,25 @@ class AptiPrepApp {
           this.nextRevisionChapter();
           return;
         }
+
+        // Fullscreen zoom shortcuts (+, -, 0 to reset 150%)
+        if (this.revision && this.revision.isFullscreen) {
+          if (key === '+' || key === '=') {
+            e.preventDefault();
+            this.adjustRevisionZoom(0.25);
+            return;
+          }
+          if (key === '-' || key === '_') {
+            e.preventDefault();
+            this.adjustRevisionZoom(-0.25);
+            return;
+          }
+          if (key === '0') {
+            e.preventDefault();
+            this.setRevisionZoom(1.5);
+            return;
+          }
+        }
       }
 
       // Zen mode toggle shortcut: 'z'
@@ -2884,6 +2903,26 @@ class AptiPrepApp {
     }
   }
 
+  setRevisionZoom(zoom) {
+    zoom = Math.min(Math.max(zoom, 0.75), 2.5);
+    this.revision.fullscreenZoom = zoom;
+
+    const wrapper = document.getElementById('revision-preview-wrapper');
+    const label = document.getElementById('revision-zoom-label');
+
+    if (wrapper) {
+      wrapper.style.setProperty('--rev-zoom', zoom.toString());
+    }
+    if (label) {
+      label.textContent = `${Math.round(zoom * 100)}%`;
+    }
+  }
+
+  adjustRevisionZoom(delta) {
+    const current = this.revision.fullscreenZoom || 1.5;
+    this.setRevisionZoom(current + delta);
+  }
+
   toggleRevisionFullscreen(enable) {
     const reader = document.getElementById('revision-reader-container');
     if (!reader) return;
@@ -2900,6 +2939,10 @@ class AptiPrepApp {
     if (enable) {
       reader.classList.add('revision-fullscreen-active');
       document.body.classList.add('overflow-hidden');
+
+      // In full screen, automatically activate zoom 150%
+      this.setRevisionZoom(1.5);
+
       if (fsBtn) {
         fsBtn.innerHTML = `
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -2919,6 +2962,13 @@ class AptiPrepApp {
     } else {
       reader.classList.remove('revision-fullscreen-active');
       document.body.classList.remove('overflow-hidden');
+
+      // Reset wrapper custom zoom variable
+      const wrapper = document.getElementById('revision-preview-wrapper');
+      if (wrapper) {
+        wrapper.style.removeProperty('--rev-zoom');
+      }
+
       if (fsBtn) {
         fsBtn.innerHTML = `
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>

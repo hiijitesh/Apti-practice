@@ -806,6 +806,14 @@
                 <span>&rarr;</span>
               </button>
 
+              <!-- Zoom Controls (Auto 150% in Fullscreen) -->
+              <div id="revision-zoom-controls" class="flex items-center gap-1 rounded-md px-1.5 py-0.5 border border-zinc-200 bg-white reader-ctrl-btn text-xs">
+                <button onclick="app.adjustRevisionZoom(-0.25)" class="text-zinc-500 hover:text-zinc-900 px-1 py-0.5 font-bold transition select-none" title="Zoom Out (-)">−</button>
+                <span id="revision-zoom-label" class="font-mono text-[11px] font-semibold text-zinc-800 px-1 select-none">150%</span>
+                <button onclick="app.adjustRevisionZoom(0.25)" class="text-zinc-500 hover:text-zinc-900 px-1 py-0.5 font-bold transition select-none" title="Zoom In (+)">+</button>
+                <button onclick="app.setRevisionZoom(1.5)" class="text-[10px] text-zinc-400 hover:text-zinc-800 font-mono pl-1 border-l border-zinc-200 transition" title="Reset to 150%">150%</button>
+              </div>
+
               <span class="text-zinc-300">|</span>
 
               <!-- Direct Fullscreen Toggle Button -->
