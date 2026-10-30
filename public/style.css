@@ -543,7 +543,7 @@ body.cbt-portal-active #main-container {
 }
 
 body.cbt-portal-active {
-  background-color: #f4f7f9 !important;
+  background-color: #ffffff !important;
 }
 
 /* Fixed viewport height in Mock Test: Prevents jumping buttons */

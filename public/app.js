@@ -2210,7 +2210,7 @@ class AptiPrepApp {
       }
     }
 
-    // Render Unboxed Options (Exact CBT style: ○ 1. Option text)
+    // Render Unboxed Options (Exact CBT style: ○ Option text)
     const optContainer = document.getElementById('mock-options-container');
     const selectedOption = this.mock.userAnswers[q.id];
 
@@ -2223,7 +2223,6 @@ class AptiPrepApp {
             <span class="tb-option-radio">
               ${isSelected ? '<span class="tb-option-radio-dot"></span>' : ''}
             </span>
-            <span class="tb-option-prefix">${idx + 1}.</span>
             <span class="tb-option-text">${opt}</span>
           </label>
         `;
