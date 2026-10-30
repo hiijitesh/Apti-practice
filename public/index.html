@@ -39,7 +39,7 @@
 <body class="bg-zinc-50 min-h-screen text-zinc-900 flex flex-col antialiased selection:bg-zinc-200 selection:text-zinc-900">
 
   <!-- Minimal Top Navigation Bar -->
-  <header id="global-header" class="bg-white/95 backdrop-blur-md border-b border-zinc-200 sticky top-0 z-30">
+  <header id="global-header" class="bg-white border-b border-zinc-200 sticky top-0 z-30">
     <div class="max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-3.5 sm:px-8 lg:px-16 h-11 sm:h-14 flex items-center justify-between relative">
       <div class="flex items-center space-x-2 sm:space-x-3 cursor-pointer shrink-0" onclick="app.showDashboard()">
         <span class="text-sm sm:text-base font-semibold text-zinc-900 tracking-tight flex items-center gap-1.5">
@@ -473,7 +473,7 @@
       </div>
 
       <!-- FIXED BOTTOM NAVIGATION BAR (FIXED ACROSS ALL SCREEN SIZES: NEVER SHIFTS WITH QUESTION LENGTH) -->
-      <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3.5 sm:px-6 lg:px-8 py-2.5 sm:py-3 z-40 flex items-center justify-between gap-2 sm:gap-3 shadow-lg safe-bottom">
+      <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3.5 sm:px-6 lg:px-8 py-2.5 sm:py-3 z-40 flex items-center justify-between gap-2 sm:gap-3 shadow-lg safe-bottom">
         <!-- Left: Previous, Clear & Keyboard Hints (Desktop) -->
         <div class="flex items-center gap-2 sm:gap-3">
           <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 sm:px-4 py-2 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center transition disabled:opacity-30 disabled:pointer-events-none active:scale-95">

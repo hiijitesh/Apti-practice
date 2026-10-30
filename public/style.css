@@ -532,6 +532,13 @@ button:active:not(:disabled) {
   --tb-not-visited-border: #cbd5e1;
 }
 
+#global-header {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
 /* Edge-to-edge Distraction-Free Test & Study Mode */
 body.cbt-portal-active #global-header,
 body.cbt-portal-active footer {
