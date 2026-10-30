@@ -328,7 +328,7 @@ button:active:not(:disabled) {
   color: #a1a1aa !important;
 }
 
-.revision-fullscreen-active #rev-toggle-sidebar-reader-btn {
+.revision-fullscreen-active #rev-toggle-sidebar-btn {
   display: none !important;
 }
 
