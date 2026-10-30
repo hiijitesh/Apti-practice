@@ -19,12 +19,25 @@ class AptiPrepApp {
     this.zenMode = false;
     this.isStaticMode = false;
 
+    // Modular Service Delegators (DIP / SRP)
+    this.sessionService = (window.AptiPrep && window.AptiPrep.SessionService)
+      ? new window.AptiPrep.SessionService()
+      : null;
+    this.storageService = (window.AptiPrep && window.AptiPrep.StorageService)
+      ? new window.AptiPrep.StorageService({
+          useLocalApi: window.APTIPREP_CONFIG ? window.APTIPREP_CONFIG.USE_LOCAL_API_IF_AVAILABLE !== false : true
+        })
+      : null;
+
     // Email Session
-    this.currentUserEmail = (localStorage.getItem('apti_user_email') || '').trim().toLowerCase();
+    this.currentUserEmail = this.sessionService
+      ? this.sessionService.currentUserEmail
+      : (localStorage.getItem('apti_user_email') || '').trim().toLowerCase();
 
     // Google Sheet Backend URL
-    this.googleSheetUrl = localStorage.getItem('apti_google_sheet_url') ||
-                          (window.APTIPREP_CONFIG && window.APTIPREP_CONFIG.GOOGLE_SHEET_URL) || '';
+    this.googleSheetUrl = this.storageService
+      ? this.storageService.getGoogleSheetUrl()
+      : (localStorage.getItem('apti_google_sheet_url') || (window.APTIPREP_CONFIG && window.APTIPREP_CONFIG.GOOGLE_SHEET_URL) || '');
 
     // Practice / Chapter Test State
     this.practice = {
@@ -248,6 +261,10 @@ class AptiPrepApp {
   }
 
   getUserDisplayName() {
+    if (this.sessionService) {
+      this.sessionService.currentUserEmail = this.currentUserEmail;
+      return this.sessionService.getUserDisplayName();
+    }
     if (!this.currentUserEmail || this.currentUserEmail === 'guest@local') {
       return 'Jitesh';
     }
@@ -2233,6 +2250,9 @@ class AptiPrepApp {
   }
 
   generateMockQuestionsStatic(count = 30, subject = 'all') {
+    if (window.AptiPrep && window.AptiPrep.MockGenerator) {
+      return window.AptiPrep.MockGenerator.generate(this.allQuestions, count, subject);
+    }
     let pool = [...this.allQuestions];
     const sq = (subject || '').trim().toLowerCase();
     if (sq === 'aptitude' || sq === 'quantitative aptitude') {
@@ -2932,6 +2952,18 @@ class AptiPrepApp {
   // ==========================================
 
   calculateAttemptLocally({ mode, chapter, timeTakenSeconds, answers }) {
+    if (window.AptiPrep && window.AptiPrep.ScoringService) {
+      const { fullAttempt } = window.AptiPrep.ScoringService.calculate({
+        questions: this.allQuestions,
+        answers,
+        mode,
+        chapter,
+        timeTakenSeconds,
+        userEmail: this.currentUserEmail
+      });
+      return fullAttempt;
+    }
+
     const detailedAnswers = answers.map(ans => {
       const q = this.allQuestions.find(item => item.id === ans.questionId);
       const isCorrect = (ans.userAnswer !== null && ans.userAnswer !== undefined && q && ans.userAnswer === q.correctAnswer);
