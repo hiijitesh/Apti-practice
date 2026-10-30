@@ -556,12 +556,14 @@ class AptiPrepApp {
 
       const key = e.key.toLowerCase();
 
-      // Escape key handles Revision view and Fullscreen
+      // Escape key handles Revision view, Drawer, and Fullscreen
       if (key === 'escape') {
         if (this.currentMode === 'revision') {
           e.preventDefault();
           if (this.revision && this.revision.isFullscreen) {
             this.toggleRevisionFullscreen(false);
+          } else if (this.revision && this.revision.sidebarOpen) {
+            this.setRevisionSidebarOpen(false);
           } else {
             this.exitRevisionView();
           }
@@ -676,15 +678,17 @@ class AptiPrepApp {
       if (el) el.classList.toggle('hidden', v !== viewName);
     });
 
-    // Adapt main container width: expand for revision studio layout
+    // Adapt main container width: expand for revision studio layout (flush beneath navbar, zero scrolling)
     const mainEl = document.querySelector('main');
     if (mainEl) {
       if (viewName === 'revision') {
         mainEl.classList.remove('max-w-5xl', 'py-8');
-        mainEl.classList.add('max-w-7xl', 'py-3', 'sm:py-4');
+        mainEl.classList.add('max-w-full', 'w-full', 'px-2', 'sm:px-3', 'py-1', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
+        document.body.classList.add('overflow-y-hidden');
       } else {
-        mainEl.classList.remove('max-w-7xl', 'py-3', 'sm:py-4');
+        mainEl.classList.remove('max-w-full', 'w-full', 'px-2', 'sm:px-3', 'py-1', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
         mainEl.classList.add('max-w-5xl', 'py-8');
+        document.body.classList.remove('overflow-y-hidden');
       }
     }
 
@@ -2669,6 +2673,8 @@ class AptiPrepApp {
 
   exitRevisionView() {
     this.toggleRevisionFullscreen(false);
+    this.setRevisionSidebarOpen(false);
+    document.body.classList.remove('overflow-y-hidden');
 
     if (this.revision.returnView === 'practice') {
       this.switchView('practice');
@@ -2794,8 +2800,8 @@ class AptiPrepApp {
 
     this.revision.activeChapter = chapterName;
 
-    // On mobile screens (< 768px), auto-collapse the sidebar after picking a chapter
-    if (window.innerWidth < 768 && this.revision.sidebarOpen) {
+    // Auto-close sidebar drawer when a chapter is selected
+    if (this.revision.sidebarOpen) {
       this.setRevisionSidebarOpen(false);
     }
 
@@ -2899,44 +2905,30 @@ class AptiPrepApp {
   setRevisionSidebarOpen(open) {
     this.revision.sidebarOpen = !!open;
     const sidebar = document.getElementById('revision-sidebar');
-    const reader = document.getElementById('revision-reader-container');
+    const backdrop = document.getElementById('revision-sidebar-backdrop');
     const toggleBtn = document.getElementById('rev-toggle-sidebar-btn');
 
-    if (!sidebar || !reader) return;
+    if (!sidebar) return;
 
     if (this.revision.sidebarOpen) {
       sidebar.classList.remove('hidden');
-      sidebar.classList.add('flex', 'col-span-12', 'md:col-span-4', 'lg:col-span-3');
-      reader.classList.remove('col-span-12', 'w-full');
-      reader.classList.add('col-span-12', 'md:col-span-8', 'lg:col-span-9');
-
+      sidebar.classList.add('flex');
+      if (backdrop) backdrop.classList.remove('hidden');
       if (toggleBtn) {
-        toggleBtn.classList.add('bg-zinc-900', 'text-white', 'border-zinc-900');
-        toggleBtn.classList.remove('bg-zinc-50', 'text-zinc-700', 'border-zinc-200');
-        const icon = toggleBtn.querySelector('svg');
-        if (icon) {
-          icon.classList.remove('text-zinc-600');
-          icon.classList.add('text-white');
-        }
-        const textSpan = toggleBtn.querySelector('.btn-text');
-        if (textSpan) textSpan.textContent = 'Hide Chapters';
+        toggleBtn.classList.add('border-zinc-900', 'bg-zinc-900', 'text-white');
+        toggleBtn.classList.remove('bg-zinc-50', 'text-zinc-800', 'border-zinc-200');
+      }
+      const searchInput = document.getElementById('revision-search-input');
+      if (searchInput) {
+        setTimeout(() => searchInput.focus(), 60);
       }
     } else {
       sidebar.classList.add('hidden');
-      sidebar.classList.remove('flex', 'col-span-12', 'md:col-span-4', 'lg:col-span-3');
-      reader.classList.remove('md:col-span-8', 'lg:col-span-9');
-      reader.classList.add('col-span-12', 'w-full');
-
+      sidebar.classList.remove('flex');
+      if (backdrop) backdrop.classList.add('hidden');
       if (toggleBtn) {
-        toggleBtn.classList.remove('bg-zinc-900', 'text-white', 'border-zinc-900');
-        toggleBtn.classList.add('border-zinc-200', 'bg-zinc-50', 'text-zinc-700');
-        const icon = toggleBtn.querySelector('svg');
-        if (icon) {
-          icon.classList.add('text-zinc-600');
-          icon.classList.remove('text-white');
-        }
-        const textSpan = toggleBtn.querySelector('.btn-text');
-        if (textSpan) textSpan.textContent = 'Chapters';
+        toggleBtn.classList.remove('border-zinc-900', 'bg-zinc-900', 'text-white');
+        toggleBtn.classList.add('border-zinc-200', 'bg-zinc-50', 'text-zinc-800');
       }
     }
   }
