@@ -328,6 +328,10 @@ button:active:not(:disabled) {
   color: #a1a1aa !important;
 }
 
+.revision-fullscreen-active #rev-toggle-sidebar-reader-btn {
+  display: none !important;
+}
+
 .revision-fullscreen-active .reader-ctrl-btn {
   background-color: #27272a !important;
   border-color: #3f3f46 !important;

@@ -745,11 +745,16 @@
         </div>
       </div>
 
-      <!-- Mobile Chapter Dropdown Bar (visible on screens < 768px) -->
-      <div class="block md:hidden bg-white border border-zinc-200 rounded-xl p-2.5 shadow-2xs">
-        <div class="flex items-center gap-2">
-          <label for="revision-chapter-dropdown-mobile" class="text-xs font-bold text-zinc-700 shrink-0">Chapter:</label>
-          <select id="revision-chapter-dropdown-mobile" onchange="app.selectRevisionChapter(this.value)" class="flex-1 text-xs font-semibold py-1.5 px-2.5 border border-zinc-200 rounded-lg bg-zinc-50 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900">
+      <!-- Quick Chapter Selector Bar -->
+      <div class="bg-white border border-zinc-200 rounded-xl p-2 sm:p-2.5 shadow-2xs flex items-center justify-between gap-2 sm:gap-3">
+        <div class="flex items-center gap-2 flex-1 min-w-0">
+          <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 text-xs font-semibold transition flex items-center gap-1.5 shrink-0 shadow-2xs" title="Toggle Chapters List (C)">
+            <svg class="w-3.5 h-3.5 text-zinc-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+            <span class="btn-text">Chapters</span>
+          </button>
+          <div class="h-4 w-px bg-zinc-200 shrink-0"></div>
+          <label for="revision-chapter-dropdown-mobile" class="text-xs font-bold text-zinc-700 shrink-0 hidden xs:inline">Chapter:</label>
+          <select id="revision-chapter-dropdown-mobile" onchange="app.selectRevisionChapter(this.value)" class="flex-1 text-xs font-semibold py-1.5 px-2.5 border border-zinc-200 rounded-lg bg-zinc-50 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900 truncate" title="Select Chapter">
             <!-- Populated dynamically -->
           </select>
         </div>
@@ -758,13 +763,16 @@
       <!-- Split Studio Workspace: Sidebar + PDF Reader -->
       <div id="revision-workspace-container" class="grid grid-cols-1 md:grid-cols-12 gap-3 sm:gap-4 items-start">
 
-        <!-- LEFT SIDEBAR: Chapter Explorer (md:col-span-4 lg:col-span-3) -->
-        <div id="revision-sidebar" class="hidden md:flex md:col-span-4 lg:col-span-3 flex-col bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-2xs h-[calc(100vh-165px)] min-h-[640px]">
+        <!-- LEFT SIDEBAR: Chapter Explorer (Initially collapsed/hidden) -->
+        <div id="revision-sidebar" class="hidden flex-col bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-2xs h-[calc(100vh-165px)] min-h-[640px]">
           <!-- Sidebar Header & Search -->
           <div class="p-3 border-b border-zinc-100 bg-zinc-50/70 space-y-2 shrink-0">
             <div class="flex items-center justify-between">
               <span id="revision-selected-subj-label" class="text-xs font-bold text-zinc-900 truncate">General Science — Biology</span>
-              <span id="revision-chapter-count-label" class="text-[10px] font-mono text-zinc-500 bg-white border border-zinc-200 px-1.5 py-0.5 rounded shrink-0">16 ch</span>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <span id="revision-chapter-count-label" class="text-[10px] font-mono text-zinc-500 bg-white border border-zinc-200 px-1.5 py-0.5 rounded shrink-0">16 ch</span>
+                <button onclick="app.setRevisionSidebarOpen(false)" title="Close Sidebar" class="text-zinc-400 hover:text-zinc-800 p-0.5 rounded text-sm leading-none font-bold">&times;</button>
+              </div>
             </div>
             <div class="relative">
               <input type="text"
@@ -782,12 +790,16 @@
           </div>
         </div>
 
-        <!-- RIGHT PANEL: PDF Reader Studio (md:col-span-8 lg:col-span-9) -->
-        <div id="revision-reader-container" class="md:col-span-8 lg:col-span-9 flex flex-col bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-2xs h-[calc(100vh-165px)] min-h-[640px] transition-all duration-150">
+        <!-- RIGHT PANEL: PDF Reader Studio (Takes 100% full width when sidebar is collapsed) -->
+        <div id="revision-reader-container" class="col-span-12 w-full flex flex-col bg-white border border-zinc-200 rounded-xl overflow-hidden shadow-2xs h-[calc(100vh-165px)] min-h-[640px] transition-all duration-150">
 
           <!-- Reader Header Bar -->
           <div class="reader-header-bar p-2.5 sm:p-3 border-b border-zinc-200 flex items-center justify-between gap-2 bg-zinc-50/70 shrink-0">
             <div class="flex items-center gap-2 min-w-0">
+              <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-reader-btn" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-white bg-zinc-50 text-zinc-700 transition flex items-center gap-1 shrink-0" title="Toggle Chapter List (C)">
+                <svg class="w-3.5 h-3.5 text-zinc-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                <span class="btn-text hidden sm:inline">Chapters</span>
+              </button>
               <span id="revision-preview-badge" class="text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 shrink-0">Biology</span>
               <div class="min-w-0">
                 <h3 id="revision-preview-title" class="text-xs sm:text-sm font-bold text-zinc-900 truncate">Cell — Biology Revision Notes</h3>

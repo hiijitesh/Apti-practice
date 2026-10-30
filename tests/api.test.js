@@ -158,6 +158,11 @@ describe('API Integration Tests', () => {
     assert.ok(html.includes('id="rev-btn-next"'));
     assert.ok(html.includes('id="revision-search-input"'));
     assert.ok(html.includes('id="revision-chapter-dropdown-mobile"'));
+    assert.ok(html.includes('id="rev-toggle-sidebar-btn"'));
+
+    // Sidebar must start collapsed (hidden) and reader container full-width (col-span-12 w-full)
+    assert.ok(html.includes('id="revision-sidebar" class="hidden'));
+    assert.ok(html.includes('id="revision-reader-container" class="col-span-12 w-full'));
 
     // Fullscreen CSS rule
     assert.ok(css.includes('.revision-fullscreen-active'));

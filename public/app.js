@@ -64,7 +64,9 @@ class AptiPrepApp {
       folderName: 'Merged Science & Revision Materials',
       pdfs: [],
       activePdfId: 'bio',
-      isLoading: false
+      isLoading: false,
+      sidebarOpen: false,
+      isFullscreen: false
     };
 
     this.init();
@@ -577,6 +579,13 @@ class AptiPrepApp {
       if (key === 'f' && this.currentMode === 'revision') {
         e.preventDefault();
         this.toggleRevisionFullscreen();
+        return;
+      }
+
+      // 'c' toggles Chapters Sidebar in Revision Mode
+      if (key === 'c' && this.currentMode === 'revision') {
+        e.preventDefault();
+        this.toggleRevisionSidebar();
         return;
       }
 
@@ -2590,6 +2599,7 @@ class AptiPrepApp {
     if (returnBtnLabel) returnBtnLabel.textContent = 'Dashboard';
     if (testBadge) testBadge.classList.add('hidden');
 
+    this.setRevisionSidebarOpen(false);
     this.switchView('revision');
     this.setRevisionSubject(defaultSubject, defaultChapter);
   }
@@ -2652,6 +2662,7 @@ class AptiPrepApp {
     if (returnBtnLabel) returnBtnLabel.textContent = returnLabel;
     if (testBadge) testBadge.classList.remove('hidden');
 
+    this.setRevisionSidebarOpen(false);
     this.switchView('revision');
     this.setRevisionSubject(targetSubject, targetChapter);
   }
@@ -2783,6 +2794,11 @@ class AptiPrepApp {
 
     this.revision.activeChapter = chapterName;
 
+    // On mobile screens (< 768px), auto-collapse the sidebar after picking a chapter
+    if (window.innerWidth < 768 && this.revision.sidebarOpen) {
+      this.setRevisionSidebarOpen(false);
+    }
+
     // Update active highlight in sidebar list
     const container = document.getElementById('revision-chapter-buttons-container');
     if (container) {
@@ -2878,6 +2894,65 @@ class AptiPrepApp {
     } else {
       this.selectRevisionChapter(list[0].chapter);
     }
+  }
+
+  setRevisionSidebarOpen(open) {
+    this.revision.sidebarOpen = !!open;
+    const sidebar = document.getElementById('revision-sidebar');
+    const reader = document.getElementById('revision-reader-container');
+    const toggleBtns = [
+      document.getElementById('rev-toggle-sidebar-btn'),
+      document.getElementById('rev-toggle-sidebar-reader-btn')
+    ];
+
+    if (!sidebar || !reader) return;
+
+    if (this.revision.sidebarOpen) {
+      sidebar.classList.remove('hidden');
+      sidebar.classList.add('flex', 'col-span-12', 'md:col-span-4', 'lg:col-span-3');
+      reader.classList.remove('col-span-12', 'w-full');
+      reader.classList.add('col-span-12', 'md:col-span-8', 'lg:col-span-9');
+
+      toggleBtns.forEach(btn => {
+        if (!btn) return;
+        btn.classList.add('bg-zinc-900', 'text-white', 'border-zinc-900');
+        btn.classList.remove('bg-white', 'text-zinc-700', 'border-zinc-200', 'bg-zinc-50');
+        const icon = btn.querySelector('svg');
+        if (icon) {
+          icon.classList.remove('text-zinc-600');
+          icon.classList.add('text-white');
+        }
+        const textSpan = btn.querySelector('.btn-text');
+        if (textSpan) textSpan.textContent = 'Hide Chapters';
+      });
+    } else {
+      sidebar.classList.add('hidden');
+      sidebar.classList.remove('flex', 'col-span-12', 'md:col-span-4', 'lg:col-span-3');
+      reader.classList.remove('md:col-span-8', 'lg:col-span-9');
+      reader.classList.add('col-span-12', 'w-full');
+
+      toggleBtns.forEach(btn => {
+        if (!btn) return;
+        btn.classList.remove('bg-zinc-900', 'text-white', 'border-zinc-900');
+        btn.classList.add('border-zinc-200');
+        if (btn.id === 'rev-toggle-sidebar-reader-btn') {
+          btn.classList.add('bg-zinc-50', 'text-zinc-700');
+        } else {
+          btn.classList.add('bg-white', 'text-zinc-700');
+        }
+        const icon = btn.querySelector('svg');
+        if (icon) {
+          icon.classList.add('text-zinc-600');
+          icon.classList.remove('text-white');
+        }
+        const textSpan = btn.querySelector('.btn-text');
+        if (textSpan) textSpan.textContent = 'Chapters';
+      });
+    }
+  }
+
+  toggleRevisionSidebar() {
+    this.setRevisionSidebarOpen(!this.revision.sidebarOpen);
   }
 
   toggleRevisionFullscreen(enable) {
