@@ -79,15 +79,21 @@ class AptiPrepApp {
     this.updateSheetStatusUI();
 
     if (!this.currentUserEmail) {
-      // First time user: immediately activate login view with zero flash/network wait
-      this.switchView('login');
-      this.updateUserSessionUI();
-      setTimeout(() => {
-        const inp = document.getElementById('login-email-input');
-        if (inp) inp.focus();
-      }, 50);
-      await Promise.all([this.loadChapters(), this.loadRevisionMaterials()]);
-      return;
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('autostart') === 'mock') {
+        this.currentUserEmail = 'jitesh@local';
+        localStorage.setItem('apti_user_email', 'jitesh@local');
+      } else {
+        // First time user: immediately activate login view with zero flash/network wait
+        this.switchView('login');
+        this.updateUserSessionUI();
+        setTimeout(() => {
+          const inp = document.getElementById('login-email-input');
+          if (inp) inp.focus();
+        }, 50);
+        await Promise.all([this.loadChapters(), this.loadRevisionMaterials()]);
+        return;
+      }
     }
 
     // Existing authenticated user: show dashboard and load data
@@ -99,6 +105,16 @@ class AptiPrepApp {
       console.warn('Init data load error:', e);
     }
     this.renderDashboard();
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('autostart') === 'mock') {
+      await this.startMockTest('all');
+      if (params.get('pause') === '1') {
+        this.pauseMockTest();
+      } else if (params.get('drawer') === '1') {
+        this.toggleMockDrawer();
+      }
+    }
   }
 
   // ==========================================
@@ -159,6 +175,15 @@ class AptiPrepApp {
         widget.classList.remove('flex');
       }
     }
+  }
+
+  getUserDisplayName() {
+    if (!this.currentUserEmail || this.currentUserEmail === 'guest@local') {
+      return 'Jitesh';
+    }
+    const part = this.currentUserEmail.split('@')[0];
+    if (!part || part.toLowerCase() === 'guest') return 'Jitesh';
+    return part.charAt(0).toUpperCase() + part.slice(1);
   }
 
   async handleEmailSubmit(e) {
@@ -330,7 +355,10 @@ class AptiPrepApp {
     const modal = document.getElementById('test-paused-modal');
     const titleEl = document.getElementById('test-paused-exam-name');
     const studyBtn = document.getElementById('pause-modal-study-btn');
-    if (titleEl && testTitle) titleEl.textContent = testTitle;
+    if (titleEl && testTitle) {
+      titleEl.textContent = testTitle;
+      titleEl.classList.remove('hidden');
+    }
     if (studyBtn) {
       if (canSwitchToStudy) {
         studyBtn.classList.remove('hidden');
@@ -338,7 +366,70 @@ class AptiPrepApp {
         studyBtn.classList.add('hidden');
       }
     }
+
+    // Populate Pause Summary Table (Image 1 replica)
+    if (this.currentMode === 'mock' && this.mock && this.mock.questions) {
+      let answered = 0;
+      let unanswered = 0;
+      let marked = 0;
+      let notVisited = 0;
+
+      this.mock.questions.forEach((q, idx) => {
+        const isVisited = !!(this.mock.visited && this.mock.visited[idx]);
+        const isAns = (this.mock.userAnswers && this.mock.userAnswers[q.id] !== undefined && this.mock.userAnswers[q.id] !== null);
+        const isMark = !!(this.mock.reviewFlags && this.mock.reviewFlags[q.id]);
+
+        if (isAns) answered++;
+        if (isMark) marked++;
+        if (!isAns && isVisited && !isMark) unanswered++;
+        if (!isVisited && !isAns && !isMark) notVisited++;
+      });
+
+      const secEl = document.getElementById('pause-table-section');
+      const totEl = document.getElementById('pause-table-total');
+      const ansEl = document.getElementById('pause-table-answered');
+      const unansEl = document.getElementById('pause-table-unanswered');
+      const markEl = document.getElementById('pause-table-marked');
+      const notVisEl = document.getElementById('pause-table-not-visited');
+
+      if (secEl) secEl.textContent = 'Test';
+      if (totEl) totEl.textContent = this.mock.questions.length;
+      if (ansEl) ansEl.textContent = answered;
+      if (unansEl) unansEl.textContent = unanswered;
+      if (markEl) markEl.textContent = marked;
+      if (notVisEl) notVisEl.textContent = notVisited;
+    } else if (this.currentMode === 'practice') {
+      let answered = 0;
+      let unanswered = 0;
+      let total = (this.practice.questions || []).length;
+      (this.practice.questions || []).forEach(q => {
+        if (this.practice.userAnswers[q.id] !== undefined && this.practice.userAnswers[q.id] !== null) answered++;
+        else unanswered++;
+      });
+      const secEl = document.getElementById('pause-table-section');
+      const totEl = document.getElementById('pause-table-total');
+      const ansEl = document.getElementById('pause-table-answered');
+      const unansEl = document.getElementById('pause-table-unanswered');
+      const markEl = document.getElementById('pause-table-marked');
+      const notVisEl = document.getElementById('pause-table-not-visited');
+      if (secEl) secEl.textContent = (this.practice.chapter || 'Chapter');
+      if (totEl) totEl.textContent = total;
+      if (ansEl) ansEl.textContent = answered;
+      if (unansEl) unansEl.textContent = unanswered;
+      if (markEl) markEl.textContent = 0;
+      if (notVisEl) notVisEl.textContent = 0;
+    }
+
     if (modal) modal.classList.remove('hidden');
+  }
+
+  exitMockFromPauseModal() {
+    if (confirm('Do you want to leave this examination and return to Dashboard?')) {
+      this.hideTestPausedModal();
+      this.clearMockTimer();
+      this.exitFullscreen();
+      this.showDashboard();
+    }
   }
 
   async resumeFromPauseModal() {
@@ -707,6 +798,12 @@ class AptiPrepApp {
 
     this.currentMode = viewName;
     this.updateUserSessionUI();
+
+    if (viewName === 'mock') {
+      document.body.classList.add('cbt-portal-active');
+    } else {
+      document.body.classList.remove('cbt-portal-active');
+    }
     const views = ['login', 'dashboard', 'practice', 'mock', 'results', 'revision'];
     views.forEach(v => {
       const el = document.getElementById(`view-${v}`);
@@ -1890,8 +1987,47 @@ class AptiPrepApp {
     this.mock.currentIndex = 0;
     this.mock.userAnswers = {};
     this.mock.reviewFlags = {};
+    this.mock.visited = { 0: true };
+    this.mock.questionTimes = {};
     this.mock.timeLeftSeconds = 1800; // 30 minutes
     this.mock.startTime = Date.now();
+    this.mock.isSidebarCollapsed = false;
+    this.mock.drawerOpen = false;
+
+    // Set Header Titles
+    const titleEl = document.getElementById('mock-test-header-title');
+    const subtitleEl = document.getElementById('mock-test-header-subtitle');
+    const sub = (subject || '').toLowerCase();
+    let titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    let subtitleStr = '30 Questions • 30 Minutes • Negative Marking: 1/3 (-0.33)';
+
+    if (sub === 'aptitude') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    } else if (sub === 'science') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - General Science (Held On: 05 Jun, 2025 Shift 1)';
+    } else if (sub === 'top300') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - TOP 300 High-Yield Science (Held On: 05 Jun, 2025 Shift 1)';
+    } else {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics & General Science (Held On: 05 Jun, 2025 Shift 1)';
+    }
+
+    if (titleEl) titleEl.textContent = titleStr;
+    if (subtitleEl) subtitleEl.textContent = subtitleStr;
+
+    // Set Candidate Profile
+    const userNameEl = document.getElementById('mock-user-name-display');
+    const userEmailEl = document.getElementById('mock-user-email-display');
+    const userAvatarEl = document.getElementById('mock-user-avatar-text');
+    const displayName = this.getUserDisplayName();
+    if (userNameEl) userNameEl.textContent = displayName;
+    if (userEmailEl) userEmailEl.textContent = this.currentUserEmail || 'Candidate';
+    if (userAvatarEl) userAvatarEl.textContent = displayName.charAt(0).toUpperCase();
+
+    // Reset Sidebar Collapse state
+    const mockSection = document.getElementById('view-mock');
+    if (mockSection) mockSection.classList.remove('sidebar-collapsed');
+    const arrowEl = document.getElementById('mock-sidebar-collapse-arrow');
+    if (arrowEl) arrowEl.innerHTML = '&gt;';
 
     this.switchView('mock');
     this.renderMockQuestion();
@@ -1902,22 +2038,53 @@ class AptiPrepApp {
   startMockTimer() {
     this.clearMockTimer();
     const timerDisplay = document.getElementById('mock-timer-display');
+    const hhEl = document.getElementById('mock-timer-hh');
+    const mmEl = document.getElementById('mock-timer-mm');
+    const ssEl = document.getElementById('mock-timer-ss');
     const timerContainer = document.getElementById('mock-timer-container');
 
     const updateTimerUI = () => {
-      const mins = Math.floor(this.mock.timeLeftSeconds / 60);
+      const hrs = Math.floor(this.mock.timeLeftSeconds / 3600);
+      const mins = Math.floor((this.mock.timeLeftSeconds % 3600) / 60);
       const secs = this.mock.timeLeftSeconds % 60;
-      const str = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-      if (timerDisplay) timerDisplay.textContent = str;
+
+      const hhStr = hrs.toString().padStart(2, '0');
+      const mmStr = mins.toString().padStart(2, '0');
+      const ssStr = secs.toString().padStart(2, '0');
+
+      if (hhEl) hhEl.textContent = hhStr;
+      if (mmEl) mmEl.textContent = mmStr;
+      if (ssEl) ssEl.textContent = ssStr;
+      if (timerDisplay) timerDisplay.textContent = `${mmStr}:${ssStr}`;
+
+      const mobTimer = document.getElementById('mock-mobile-timer-display');
+      if (mobTimer) mobTimer.textContent = `${hhStr}:${mmStr}:${ssStr}`;
+
+      const progressCircle = document.getElementById('mock-mobile-progress-circle');
+      if (progressCircle) {
+        const totalSecs = 1800;
+        const pct = Math.max(0, Math.min(100, (this.mock.timeLeftSeconds / totalSecs) * 100));
+        progressCircle.setAttribute('stroke-dashoffset', (100 - pct).toString());
+      }
 
       if (timerContainer) {
         if (this.mock.timeLeftSeconds <= 60) {
-          timerContainer.className = 'flex items-center gap-1.5 bg-rose-50 px-2.5 py-1 rounded-md border border-rose-200 text-rose-700 font-mono font-bold';
+          timerContainer.className = 'flex items-center gap-1 sm:gap-2 bg-rose-50 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-rose-300';
         } else if (this.mock.timeLeftSeconds <= 300) {
-          timerContainer.className = 'flex items-center gap-1.5 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-200 text-amber-700 font-mono font-bold';
+          timerContainer.className = 'flex items-center gap-1 sm:gap-2 bg-amber-50 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-amber-300';
         } else {
-          timerContainer.className = 'flex items-center gap-1.5 bg-zinc-100 px-2.5 py-1 rounded-md border border-zinc-200 text-zinc-800 font-mono font-medium';
+          timerContainer.className = 'flex items-center gap-1 sm:gap-2 bg-zinc-100/90 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-zinc-200';
         }
+      }
+
+      // Live update question spent time
+      if (this.mock.questions && this.mock.questions[this.mock.currentIndex]) {
+        const currentQ = this.mock.questions[this.mock.currentIndex];
+        const spent = this.mock.questionTimes[currentQ.id] || 0;
+        const qM = Math.floor(spent / 60).toString().padStart(2, '0');
+        const qS = (spent % 60).toString().padStart(2, '0');
+        const qTimeEl = document.getElementById('mock-question-spent-time');
+        if (qTimeEl) qTimeEl.textContent = `${qM}:${qS}`;
       }
     };
 
@@ -1925,6 +2092,12 @@ class AptiPrepApp {
 
     this.mock.timerInterval = setInterval(() => {
       this.mock.timeLeftSeconds--;
+
+      if (this.mock.questions && this.mock.questions[this.mock.currentIndex]) {
+        const currentQ = this.mock.questions[this.mock.currentIndex];
+        this.mock.questionTimes[currentQ.id] = (this.mock.questionTimes[currentQ.id] || 0) + 1;
+      }
+
       updateTimerUI();
 
       if (this.mock.timeLeftSeconds <= 0) {
@@ -1946,39 +2119,68 @@ class AptiPrepApp {
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
 
+    if (!this.mock.visited) this.mock.visited = {};
+    this.mock.visited[this.mock.currentIndex] = true;
+
     const total = this.mock.questions.length;
     const current = this.mock.currentIndex + 1;
 
-    const chapDisplay = q.subSubject && q.subSubject !== q.chapter ? `${q.subSubject} • ${q.chapter}` : q.chapter;
+    const chapDisplay = q.subSubject && q.subSubject !== q.chapter ? `${q.subSubject} • ${q.chapter}` : (q.chapter || 'Mathematics');
 
-    document.getElementById('mock-q-number').textContent = `Question ${current} of ${total}`;
-    document.getElementById('mock-q-chapter').textContent = chapDisplay;
+    const qNumEl = document.getElementById('mock-q-number');
+    if (qNumEl) qNumEl.textContent = `Question No. ${current}`;
+
+    const mobQNumEl = document.getElementById('mock-mobile-q-num');
+    if (mobQNumEl) mobQNumEl.textContent = current.toString().padStart(2, '0');
+
+    const qChapEl = document.getElementById('mock-q-chapter');
+    if (qChapEl) qChapEl.textContent = `• ${chapDisplay}`;
+
+    // Question spent time
+    if (!this.mock.questionTimes) this.mock.questionTimes = {};
+    const spent = this.mock.questionTimes[q.id] || 0;
+    const qM = Math.floor(spent / 60).toString().padStart(2, '0');
+    const qS = (spent % 60).toString().padStart(2, '0');
+    const qTimeEl = document.getElementById('mock-question-spent-time');
+    if (qTimeEl) qTimeEl.textContent = `${qM}:${qS}`;
 
     const isMarked = !!this.mock.reviewFlags[q.id];
     const reviewBtn = document.getElementById('mock-btn-review-toggle');
     const reviewLabel = document.getElementById('mock-review-toggle-label');
     if (reviewBtn && reviewLabel) {
       if (isMarked) {
-        reviewBtn.className = 'px-2.5 py-1 rounded-md bg-amber-100 text-amber-900 border border-amber-300 text-[11px] font-medium transition';
-        reviewLabel.textContent = '★ Marked for Review';
+        reviewBtn.className = 'tb-btn-primary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition';
+        reviewLabel.textContent = '★ Marked for Review & Next';
       } else {
-        reviewBtn.className = 'px-2.5 py-1 rounded-md border border-zinc-200 text-zinc-600 hover:bg-zinc-50 text-[11px] font-medium transition';
-        reviewLabel.textContent = '☆ Mark for Review';
+        reviewBtn.className = 'tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition';
+        reviewLabel.textContent = 'Mark for Review & Next';
       }
     }
 
     const mobileReviewBtn = document.getElementById('mock-mobile-btn-review');
     if (mobileReviewBtn) {
       if (isMarked) {
-        mobileReviewBtn.className = 'px-3 py-2.5 rounded-lg bg-amber-400 text-zinc-950 font-bold text-xs text-center shadow-xs transition';
-        mobileReviewBtn.textContent = '★ Review';
+        mobileReviewBtn.className = 'tb-btn-primary px-2.5 py-2.5 rounded-md text-[11px] font-bold text-center active:scale-95 transition';
+        mobileReviewBtn.textContent = '★ Marked';
       } else {
-        mobileReviewBtn.className = 'px-3 py-2.5 rounded-lg border border-zinc-200 text-zinc-600 text-xs text-center active:bg-zinc-100 transition';
-        mobileReviewBtn.textContent = 'Review';
+        mobileReviewBtn.className = 'tb-btn-secondary px-2.5 py-2.5 rounded-md text-[11px] font-semibold text-center active:scale-95 transition';
+        mobileReviewBtn.textContent = 'Mark Review';
       }
     }
 
-    document.getElementById('mock-q-text').textContent = q.question;
+    const mobBookmarkBtn = document.getElementById('mock-mobile-bookmark-btn');
+    if (mobBookmarkBtn) {
+      if (isMarked) {
+        mobBookmarkBtn.className = 'p-1 text-[#7c3aed] transition flex items-center justify-center';
+        mobBookmarkBtn.innerHTML = '<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+      } else {
+        mobBookmarkBtn.className = 'p-1 text-zinc-400 hover:text-[#7c3aed] transition flex items-center justify-center';
+        mobBookmarkBtn.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>';
+      }
+    }
+
+    const qTextEl = document.getElementById('mock-q-text');
+    if (qTextEl) qTextEl.textContent = q.question;
 
     // Render Diagram
     const mockDiagBox = document.getElementById('mock-q-diagram-box');
@@ -1993,42 +2195,33 @@ class AptiPrepApp {
       }
     }
 
+    // Render Option Cards (Exact Image 3 replica)
     const optContainer = document.getElementById('mock-options-container');
     const selectedOption = this.mock.userAnswers[q.id];
-    const letters = ['A', 'B', 'C', 'D'];
 
-    optContainer.innerHTML = (q.options || []).map((opt, idx) => {
-      const isSelected = (selectedOption === idx);
-      const cardStyle = isSelected
-        ? 'border-indigo-500 bg-indigo-50/90 text-indigo-950 font-semibold ring-2 ring-indigo-500/30 shadow-xs hover:bg-indigo-100 hover:border-indigo-600'
-        : 'border-zinc-200 hover:border-indigo-300 hover:bg-indigo-50/40 bg-white text-zinc-900 shadow-xs';
-
-      const iconStyle = isSelected
-        ? 'btn-primary text-white font-bold shadow-xs'
-        : 'border border-zinc-200 text-zinc-600 bg-zinc-50';
-
-      return `
-        <label onclick="app.selectMockOption(${idx})"
-               class="option-label p-3.5 sm:p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3.5 transition">
-          <input type="radio" name="mock_option" value="${idx}" ${isSelected ? 'checked' : ''} class="hidden">
-          <span class="option-badge ${iconStyle}">${letters[idx]}</span>
-          <span class="option-text flex-1">${opt}</span>
-        </label>
-      `;
-    }).join('');
+    if (optContainer) {
+      optContainer.innerHTML = (q.options || []).map((opt, idx) => {
+        const isSelected = (selectedOption === idx);
+        return `
+          <label onclick="app.selectMockOption(${idx})"
+                 class="tb-mobile-option-card ${isSelected ? 'selected' : ''}">
+            <span class="tb-option-prefix">${idx + 1}.</span>
+            <span class="tb-option-text">${opt}</span>
+          </label>
+        `;
+      }).join('');
+    }
 
     const btnPrev = document.getElementById('mock-btn-prev');
     const btnNext = document.getElementById('mock-btn-next');
     const mobileBtnNext = document.getElementById('mock-mobile-btn-next');
     if (btnPrev) btnPrev.disabled = (this.mock.currentIndex === 0);
     if (btnNext) {
-      const targetText = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next →';
-      if (btnNext.textContent.trim() !== targetText) {
-        btnNext.textContent = targetText;
-      }
+      const targetText = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next';
+      btnNext.textContent = targetText;
     }
     if (mobileBtnNext) {
-      mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next →';
+      mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next';
     }
 
     this.updateMockPalette();
@@ -2096,49 +2289,157 @@ class AptiPrepApp {
     }
   }
 
+  toggleFullScreenMock() {
+    const isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    const btnText = document.getElementById('mock-fullscreen-btn-text');
+    if (isFullscreen) {
+      this.exitFullscreen();
+      if (btnText) btnText.textContent = 'Switch Full Screen';
+    } else {
+      this.enterFullscreen();
+      if (btnText) btnText.textContent = 'Exit Full Screen';
+    }
+  }
+
+  toggleMockSidebarCollapse() {
+    const mockSection = document.getElementById('view-mock');
+    const arrowEl = document.getElementById('mock-sidebar-collapse-arrow');
+    const btn = document.getElementById('mock-sidebar-collapse-btn');
+    if (!mockSection) return;
+
+    this.mock.isSidebarCollapsed = !this.mock.isSidebarCollapsed;
+    mockSection.classList.toggle('sidebar-collapsed', this.mock.isSidebarCollapsed);
+
+    if (this.mock.isSidebarCollapsed) {
+      if (arrowEl) arrowEl.innerHTML = '&lt;';
+      if (btn) btn.style.right = '0px';
+    } else {
+      if (arrowEl) arrowEl.innerHTML = '&gt;';
+      if (btn) btn.style.right = '';
+    }
+  }
+
+  openQuestionPaperModal() {
+    const modal = document.getElementById('mock-question-paper-modal');
+    const listEl = document.getElementById('mock-question-paper-list');
+    if (!modal || !listEl) return;
+
+    const letters = ['A', 'B', 'C', 'D'];
+    listEl.innerHTML = this.mock.questions.map((q, idx) => {
+      const selected = this.mock.userAnswers[q.id];
+      const diagHtml = (q.diagram && q.diagram.trim())
+        ? `<div class="my-2"><img src="${q.diagram}" class="max-h-48 rounded border border-zinc-200 bg-white p-1" /></div>`
+        : '';
+      const optsHtml = (q.options || []).map((opt, oIdx) => {
+        const isSel = (selected === oIdx);
+        const selClass = isSel ? 'bg-sky-50 font-bold border-sky-400 text-sky-950' : 'bg-white border-zinc-200 text-zinc-800';
+        return `
+          <div class="p-2 rounded border ${selClass} flex items-start gap-2 text-xs">
+            <span class="font-mono font-bold">${letters[oIdx]}.</span>
+            <span>${opt}</span>
+            ${isSel ? '<span class="ml-auto text-[10px] text-[#00a8cc] font-bold">Selected</span>' : ''}
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div class="p-4 rounded-lg border border-zinc-200 bg-zinc-50/50 space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-xs text-zinc-900">Question ${idx + 1}</span>
+            <span class="text-[11px] text-zinc-400 font-medium">${q.chapter || ''}</span>
+          </div>
+          <p class="text-xs sm:text-sm text-zinc-900 leading-relaxed">${q.question}</p>
+          ${diagHtml}
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+            ${optsHtml}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    modal.classList.remove('hidden');
+  }
+
+  closeQuestionPaperModal() {
+    const modal = document.getElementById('mock-question-paper-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+
+  reportMockQuestion() {
+    const current = this.mock.currentIndex + 1;
+    alert(`Question No. ${current} has been reported. Our academic team will verify the solution and question content. Thank you for helping keep question quality top notch!`);
+  }
+
   updateMockPalette() {
     const grid = document.getElementById('mock-palette-grid');
     if (!grid) return;
 
     let answeredCount = 0;
-    let reviewCount = 0;
+    let markedCount = 0;
+    let notVisitedCount = 0;
+    let markedAnsweredCount = 0;
     let unansweredCount = 0;
 
     grid.innerHTML = this.mock.questions.map((q, idx) => {
+      const isVisited = !!(this.mock.visited && this.mock.visited[idx]);
       const isAnswered = (this.mock.userAnswers[q.id] !== undefined && this.mock.userAnswers[q.id] !== null);
-      const isReview = !!this.mock.reviewFlags[q.id];
+      const isMarked = !!this.mock.reviewFlags[q.id];
       const isCurrent = (idx === this.mock.currentIndex);
 
-      if (isReview) reviewCount++;
-      if (isAnswered) answeredCount++;
-      else unansweredCount++;
+      let badgeClass = 'cbt-badge-not-visited';
 
-      let btnClass = 'bg-zinc-50 text-zinc-600 hover:bg-zinc-100 border-zinc-200';
-      if (isReview) {
-        btnClass = 'bg-amber-400 text-zinc-950 font-medium border-amber-500';
-      } else if (isAnswered) {
-        btnClass = 'bg-indigo-100 text-indigo-900 font-semibold border-indigo-300 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 transition';
+      if (isAnswered && !isMarked) {
+        answeredCount++;
+        badgeClass = 'cbt-badge-answered';
+      } else if (isAnswered && isMarked) {
+        markedAnsweredCount++;
+        badgeClass = 'cbt-badge-marked-answered';
+      } else if (!isAnswered && isMarked) {
+        markedCount++;
+        badgeClass = 'cbt-badge-marked';
+      } else if (!isAnswered && !isMarked && isVisited) {
+        unansweredCount++;
+        badgeClass = 'cbt-badge-unanswered';
+      } else {
+        notVisitedCount++;
+        badgeClass = 'cbt-badge-not-visited';
       }
 
-      const ringClass = isCurrent ? 'ring-2 ring-indigo-600 ring-offset-1 font-bold' : '';
+      const ringClass = isCurrent ? 'cbt-badge-current font-bold' : '';
 
       return `
         <button onclick="app.jumpMockQuestion(${idx})"
-                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition">
+                class="cbt-badge ${badgeClass} ${ringClass}"
+                title="Question ${idx + 1}">
           ${idx + 1}
         </button>
       `;
     }).join('');
 
+    // Update 5-State Legend Counters
+    const elAns = document.getElementById('legend-count-answered');
+    const elMarked = document.getElementById('legend-count-marked');
+    const elNotVisited = document.getElementById('legend-count-not-visited');
+    const elMarkedAns = document.getElementById('legend-count-marked-answered');
+    const elUnans = document.getElementById('legend-count-unanswered');
+
+    if (elAns) elAns.textContent = answeredCount;
+    if (elMarked) elMarked.textContent = markedCount;
+    if (elNotVisited) elNotVisited.textContent = notVisitedCount;
+    if (elMarkedAns) elMarkedAns.textContent = markedAnsweredCount;
+    if (elUnans) elUnans.textContent = unansweredCount;
+
+    // Legacy bindings for backward compatibility
     const legAns = document.getElementById('legend-answered');
     const legUnans = document.getElementById('legend-unanswered');
     const legRev = document.getElementById('legend-review');
-    if (legAns) legAns.textContent = answeredCount;
-    if (legUnans) legUnans.textContent = unansweredCount;
-    if (legRev) legRev.textContent = reviewCount;
+    if (legAns) legAns.textContent = answeredCount + markedAnsweredCount;
+    if (legUnans) legUnans.textContent = unansweredCount + notVisitedCount;
+    if (legRev) legRev.textContent = markedCount + markedAnsweredCount;
 
     const mobPalText = document.getElementById('mock-mobile-palette-btn-text');
-    if (mobPalText) mobPalText.textContent = `Palette (${answeredCount}/30)`;
+    if (mobPalText) mobPalText.textContent = `Palette (${answeredCount + markedAnsweredCount}/${this.mock.questions.length})`;
   }
 
   promptSubmitMock() {

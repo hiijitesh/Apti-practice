@@ -35,7 +35,7 @@
 <body class="bg-zinc-50 min-h-screen text-zinc-900 flex flex-col antialiased selection:bg-zinc-200 selection:text-zinc-900">
 
   <!-- Minimal Top Navigation Bar -->
-  <header class="bg-white/95 backdrop-blur-md border-b border-zinc-200 sticky top-0 z-30">
+  <header id="global-header" class="bg-white/95 backdrop-blur-md border-b border-zinc-200 sticky top-0 z-30">
     <div class="max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-8 sm:px-12 lg:px-24 h-14 flex items-center justify-between">
       <div class="flex items-center space-x-2 sm:space-x-3 cursor-pointer shrink-0" onclick="app.showDashboard()">
         <span class="text-sm sm:text-base font-semibold text-zinc-900 tracking-tight flex items-center gap-1.5">
@@ -75,7 +75,7 @@
   </header>
 
   <!-- Main Content Container -->
-  <main class="flex-1 max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] w-full mx-auto px-8 sm:px-12 lg:px-24 py-6 sm:py-8">
+  <main id="main-container" class="flex-1 max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] w-full mx-auto px-8 sm:px-12 lg:px-24 py-6 sm:py-8">
 
     <!-- VIEW 0: EMAIL SESSION GATEWAY -->
     <section id="view-login" class="max-w-md mx-auto my-12 p-6 sm:p-8 bg-white border border-zinc-200 rounded-xl space-y-5 hidden">
@@ -462,156 +462,315 @@
       </div>
     </section>
 
-    <!-- VIEW 3: MOCK TEST (CBT EXAM PORTAL) -->
-    <section id="view-mock" class="space-y-6 hidden">
+    <!-- VIEW 3: MOCK TEST (TESTBOOK CBT EXAM PORTAL) -->
+    <section id="view-mock" class="cbt-portal min-h-screen flex flex-col bg-[#eef2f5] text-zinc-900 hidden select-none">
 
-      <!-- Minimal Sticky Exam Bar -->
-      <div class="bg-white border border-zinc-200 rounded-xl p-2.5 sm:p-3.5 sticky top-14 sm:top-16 z-20 flex items-center justify-between gap-2 sm:gap-4 shadow-xs">
-        <div class="flex items-center space-x-2 sm:space-x-3 overflow-hidden">
-          <button onclick="app.showDashboard()" class="text-xs text-zinc-500 hover:text-zinc-900 transition flex items-center gap-1 shrink-0 p-1 -ml-1">
-            <span>&larr;</span> <span class="hidden xs:inline">Exit</span>
-          </button>
-          <span class="text-zinc-300">|</span>
-          <div class="overflow-hidden">
-            <span class="text-xs sm:text-sm font-semibold text-zinc-900 block leading-tight truncate">Mock Exam</span>
-            <span class="text-[10px] sm:text-[11px] text-zinc-400 truncate block">30 Qs &bull; 30 Mins</span>
+      <!-- 1A. MOBILE HEADER (EXACT REPLICA OF IMAGE 3: TESTBOOK APP TOP BAR) -->
+      <div class="lg:hidden bg-[#00a8cc] px-3.5 py-2.5 flex items-center justify-between shadow-xs sticky top-0 z-30">
+        <!-- Left: Circular Countdown Ring + Time + Test Subtitle -->
+        <div class="flex items-center gap-2.5 min-w-0">
+          <div class="relative w-8 h-8 flex items-center justify-center shrink-0">
+            <svg class="w-full h-full -rotate-90" viewBox="0 0 36 36">
+              <path class="text-white/25" stroke-width="3.5" stroke="currentColor" fill="none"
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              <path id="mock-mobile-progress-circle" class="text-white transition-all duration-1000" stroke-width="3.5" stroke-dasharray="100, 100" stroke-dashoffset="15" stroke-linecap="round" stroke="currentColor" fill="none"
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+            </svg>
+          </div>
+          <div class="min-w-0">
+            <div id="mock-mobile-timer-display" class="text-white font-black text-sm sm:text-base leading-none font-mono tracking-wide">00:29:16</div>
+            <div id="mock-mobile-exam-subtitle" class="text-white/85 text-[10px] leading-tight mt-0.5 truncate font-medium">RRB NTPC CBT-I Mock</div>
           </div>
         </div>
 
-        <!-- Timer & Actions -->
-        <div class="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-          <!-- Revision PDF Notes Button (Mock Exam) -->
-          <button onclick="app.openRevisionViewFromTest()" id="mock-btn-revision" title="Open Chapter Revision Notes (PDF)" class="px-2 sm:px-2.5 py-1.5 rounded-lg border border-indigo-200 bg-indigo-50/70 hover:bg-indigo-100 text-indigo-700 font-semibold text-xs transition flex items-center gap-1 shadow-2xs">
-            <svg class="w-3.5 h-3.5 text-indigo-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-            <span class="hidden xs:inline">Revision</span>
+        <!-- Right: Pause & SUBMIT Text Button -->
+        <div class="flex items-center gap-2 shrink-0">
+          <button onclick="app.pauseMockTest()" class="text-white/90 hover:text-white p-1 rounded hover:bg-white/10 transition" title="Pause Examination">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </button>
+          <button onclick="app.promptSubmitMock()" class="text-white font-black text-xs uppercase tracking-wider px-2.5 py-1 rounded bg-white/20 hover:bg-white/30 active:scale-95 transition">
+            SUBMIT
+          </button>
+        </div>
+      </div>
+
+      <!-- 1B. DESKTOP HEADER (EXACT REPLICA OF IMAGE 2: TESTBOOK CBT EXAM BAR) -->
+      <div class="hidden lg:flex bg-white border-b border-zinc-200 px-6 py-2.5 items-center justify-between gap-4 shadow-xs sticky top-0 z-30">
+        <!-- Left: Testbook Brand & Exam Title -->
+        <div class="flex items-center gap-3.5 overflow-hidden min-w-0">
+          <div class="flex items-center gap-1.5 shrink-0">
+            <div class="w-8 h-8 rounded bg-[#00a8cc] flex items-center justify-center text-white font-bold shadow-xs">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            </div>
+            <span class="font-black text-[#00a8cc] text-lg tracking-tight">testbook</span>
+          </div>
+
+          <div class="h-6 w-px bg-zinc-200 shrink-0"></div>
+
+          <!-- Test Title & Breadcrumb -->
+          <div class="min-w-0">
+            <h1 id="mock-test-header-title" class="text-sm font-semibold text-zinc-900 truncate leading-tight">
+              PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)
+            </h1>
+            <div class="flex items-center gap-2 text-[11px] text-zinc-400 mt-0.5 truncate">
+              <span id="mock-test-header-subtitle">30 Questions &bull; 30 Minutes &bull; CBT Mode</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Time Left, Full Screen, Pause -->
+        <div class="flex items-center gap-2.5 shrink-0">
+          <!-- Time Left Digital Blocks -->
+          <div id="mock-timer-container" class="flex items-center gap-2 bg-zinc-100/90 px-3 py-1.5 rounded-lg border border-zinc-200">
+            <span class="text-xs font-semibold text-zinc-500 uppercase tracking-wide">Time Left</span>
+            <div class="flex items-center gap-1 font-mono">
+              <span id="mock-timer-hh" class="tb-timer-digit">00</span>
+              <span class="text-zinc-600 font-bold">:</span>
+              <span id="mock-timer-mm" class="tb-timer-digit">29</span>
+              <span class="text-zinc-600 font-bold">:</span>
+              <span id="mock-timer-ss" class="tb-timer-digit">16</span>
+            </div>
+            <span id="mock-timer-display" class="hidden font-mono text-xs font-bold text-zinc-900">29:16</span>
+          </div>
+
+          <!-- Switch Full Screen Button -->
+          <button onclick="app.toggleFullScreenMock()" title="Toggle Full Screen" class="tb-btn-outline inline-flex items-center gap-1 px-3 py-1.5 rounded-md text-xs">
+            <svg class="w-3.5 h-3.5 text-[#0284c7]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+            <span id="mock-fullscreen-btn-text">Switch Full Screen</span>
           </button>
 
-          <!-- Font Size Zoom Toggle -->
-          <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-2 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-xs transition">
+          <!-- Pause Button (Image 1 trigger) -->
+          <button onclick="app.pauseMockTest()" title="Pause Examination" class="tb-btn-outline flex items-center gap-1 px-3 py-1.5 rounded-md text-xs font-medium">
+            <svg class="w-3.5 h-3.5 text-[#0284c7]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Pause</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 2. SECTION TABS BAR (IMAGE 3 WHITE TABS WITH ACTIVE UNDERLINE) -->
+      <div class="bg-white border-b border-zinc-200 px-3 sm:px-6 flex items-center justify-between text-xs sticky top-12 lg:top-14 z-20">
+        <div id="mock-sections-tabs" class="flex items-center gap-1 sm:gap-2 overflow-x-auto no-scrollbar py-0">
+          <button onclick="app.setMockSectionTab('all')" id="mock-tab-all" class="tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition">
+            Test
+          </button>
+          <button onclick="app.setMockSectionTab('aptitude')" id="mock-tab-apti" class="tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition">
+            Quantitative Aptitude
+          </button>
+          <button onclick="app.setMockSectionTab('science')" id="mock-tab-sci" class="tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition">
+            General Science
+          </button>
+        </div>
+
+        <!-- Quick Aux Tools (Font Size & Revision Notes) -->
+        <div class="flex items-center gap-1.5 shrink-0 py-1">
+          <button onclick="app.openRevisionViewFromTest()" id="mock-btn-revision" title="Open Chapter Revision Notes" class="px-2 py-0.5 rounded border border-indigo-200 bg-indigo-50/70 hover:bg-indigo-100 text-indigo-700 font-medium text-[11px] transition hidden xs:flex items-center gap-1">
+            <span>📖 Revision</span>
+          </button>
+          <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-1.5 py-0.5 rounded border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-[11px] transition">
             <span class="font-scale-indicator">A</span>
           </button>
-
-          <!-- Palette Toggle Button (Mobile/Desktop) -->
-          <button onclick="app.toggleMockDrawer()" class="px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 text-xs transition flex items-center gap-1">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            <span class="hidden xs:inline">Palette</span>
-          </button>
-
-          <div id="mock-timer-container" class="flex items-center gap-1.5 bg-zinc-100 px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-zinc-200">
-            <span class="text-[9px] uppercase font-bold text-zinc-400 hidden xs:inline">Time:</span>
-            <span id="mock-timer-display" class="font-mono text-xs sm:text-base font-bold text-zinc-900 tracking-wider">30:00</span>
-          </div>
-
-          <button onclick="app.promptSubmitMock()" class="px-2.5 sm:px-3.5 py-1.5 btn-primary font-medium text-xs rounded-lg transition whitespace-nowrap">
-            Submit
-          </button>
         </div>
       </div>
 
-      <!-- Exam Layout -->
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 items-start pb-16 sm:pb-0">
-        <!-- Question Pane (Cols 1-3) -->
-        <div class="lg:col-span-3 space-y-4">
-          <div class="bg-white rounded-xl p-4 sm:p-6 lg:p-8 border border-zinc-200 min-h-[340px] flex flex-col justify-between shadow-xs">
-            <div>
-              <div class="flex items-center justify-between border-b border-zinc-100 pb-2.5 mb-4 text-xs">
+      <!-- 3. MAIN WORKSPACE: LEFT QUESTION PANE + RIGHT PALETTE SIDEBAR -->
+      <div class="flex-1 flex flex-row overflow-hidden relative">
+
+        <!-- LEFT: QUESTION AREA -->
+        <div id="mock-question-pane" class="flex-1 flex flex-col justify-between overflow-y-auto pb-24 lg:pb-0 transition-all duration-200 bg-[#f4f7f9] lg:bg-white">
+          <div class="p-3 sm:p-5 lg:p-8 space-y-3.5 sm:space-y-4 max-w-4xl mx-auto w-full">
+
+            <!-- ELEVATED QUESTION CARD (IMAGE 3 MOBILE REPLICA) -->
+            <div class="bg-white rounded-xl lg:rounded-none border border-zinc-200/90 lg:border-0 lg:border-b lg:border-zinc-200 p-4 sm:p-5 lg:p-0 shadow-2xs lg:shadow-none space-y-3">
+              <!-- Meta Row: Q Number Circle, Spent Time, Marks Boxes, Report & Bookmark -->
+              <div class="flex items-center justify-between pb-1 gap-2">
+                <!-- Left: Question Number Circle + Spent Time + Marks Badges -->
                 <div class="flex items-center gap-2">
-                  <span id="mock-q-number" class="font-mono font-medium text-zinc-700">Question 1 of 30</span>
-                  <span class="text-zinc-300">&bull;</span>
-                  <span id="mock-q-chapter" class="text-zinc-500 font-medium truncate max-w-[150px] sm:max-w-none">Chapter</span>
+                  <span id="mock-mobile-q-num" class="w-6 h-6 rounded-full bg-zinc-400 text-white text-xs font-bold flex items-center justify-center shrink-0">01</span>
+                  <span id="mock-q-number" class="hidden lg:inline text-base font-bold text-zinc-900">Question No. 1</span>
+                  <span id="mock-question-spent-time" class="text-xs text-zinc-400 font-mono font-medium">00:00</span>
+                  
+                  <!-- Marks Badges: +1 (green box) and -0.33 (red box) -->
+                  <div class="flex items-center gap-1 font-semibold ml-0.5 sm:ml-1">
+                    <span class="bg-[#10b981] text-white text-[10px] font-bold px-1.5 py-0.5 rounded shadow-2xs">+1</span>
+                    <span class="bg-[#ef4444] text-white text-[10px] font-bold px-1.5 py-0.5 rounded shadow-2xs">-0.33</span>
+                  </div>
                 </div>
-                <button onclick="app.toggleMockReview()" id="mock-btn-review-toggle" class="px-2.5 py-1 rounded-md border border-zinc-200 hover:bg-zinc-50 text-[11px] font-medium text-zinc-600 transition flex items-center gap-1">
-                  <span id="mock-review-toggle-label">Mark for Review</span>
-                </button>
+
+                <!-- Right: Report (Warning) & Bookmark / Mark for Review -->
+                <div class="flex items-center gap-2 sm:gap-3 text-zinc-400">
+                  <span id="mock-q-chapter" class="text-xs text-zinc-400 hidden md:inline truncate max-w-[180px]">&bull; Quantitative Aptitude</span>
+
+                  <!-- Report (Warning Triangle Icon) -->
+                  <button onclick="app.reportMockQuestion()" class="p-1 text-zinc-400 hover:text-amber-600 transition flex items-center justify-center" title="Report Question">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                  </button>
+
+                  <!-- Bookmark Ribbon Icon (Mark for Review) -->
+                  <button onclick="app.toggleMockReview()" id="mock-mobile-bookmark-btn" class="p-1 text-zinc-400 hover:text-[#7c3aed] transition flex items-center justify-center" title="Bookmark / Mark for Review">
+                    <svg id="mock-bookmark-icon" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+                  </button>
+
+                  <!-- View In Language Selector (Desktop) -->
+                  <div class="hidden sm:flex items-center gap-1 text-[11px] text-zinc-500 ml-1">
+                    <span>View:</span>
+                    <select class="border border-zinc-200 rounded px-1.5 py-0.5 text-xs bg-white text-zinc-700 font-medium focus:outline-none">
+                      <option value="en">English</option>
+                      <option value="hi">Hindi</option>
+                    </select>
+                  </div>
+                </div>
               </div>
 
-              <!-- Question text -->
-              <div id="mock-q-text" class="text-base sm:text-lg text-zinc-950 font-medium question-content leading-relaxed mb-4">
-                <!-- Question text filled dynamically -->
+              <!-- Question Stem Text -->
+              <div id="mock-q-text" class="question-content text-zinc-950 font-normal leading-relaxed text-sm sm:text-base pt-1">
+                <!-- Populated dynamically -->
               </div>
 
-              <!-- Mock Question Diagram Box -->
-              <div id="mock-q-diagram-box" class="hidden mb-5 flex justify-center">
-                <img id="mock-q-diagram" src="" alt="Question Diagram" class="max-h-64 max-w-full rounded-xl border border-zinc-200 shadow-xs bg-white p-2 object-contain" />
-              </div>
-
-              <!-- Options -->
-              <div id="mock-options-container" class="space-y-2.5">
-                <!-- Options filled dynamically -->
+              <!-- Question Diagram Box (if any) -->
+              <div id="mock-q-diagram-box" class="hidden my-3 flex justify-center">
+                <img id="mock-q-diagram" src="" alt="Question Diagram" class="max-h-60 max-w-full rounded-lg border border-zinc-200 shadow-xs bg-white p-2 object-contain" />
               </div>
             </div>
 
-            <!-- Bottom Actions (Desktop & Tablet) -->
-            <div class="hidden sm:flex border-t border-zinc-100 pt-4 mt-6 flex-row items-center justify-between gap-3 text-xs">
-              <div class="text-[11px] text-zinc-400 flex items-center gap-1.5">
-                <span>Keys:</span>
-                <kbd>1-4</kbd> / <kbd>A-D</kbd> <span>Select</span> &bull;
-                <kbd>&rarr;</kbd> / <kbd>Enter</kbd> <span>Next</span>
-              </div>
+            <!-- SEPARATE OPTION CARDS (IMAGE 3 REPLICA: 1. 2. 3. 4.) -->
+            <div id="mock-options-container" class="space-y-2.5 sm:space-y-3 pt-1">
+              <!-- Populated dynamically with .tb-mobile-option-card -->
+            </div>
 
-              <div class="flex items-center justify-end gap-2">
-                <button onclick="app.clearMockResponse()" class="px-3 py-2 text-zinc-400 hover:text-zinc-700 transition">
-                  Clear
-                </button>
-                <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="px-3.5 py-2 rounded-lg btn-secondary text-zinc-700 font-medium transition disabled:opacity-30 disabled:pointer-events-none">
-                  Previous
-                </button>
-                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-4 py-2 rounded-lg btn-primary font-medium transition select-none inline-flex items-center justify-center gap-1.5">
-                  Save & Next &rarr;
-                </button>
-              </div>
+          </div>
+
+          <!-- DESKTOP / TABLET BOTTOM ACTION BAR -->
+          <div class="hidden lg:flex border-t border-zinc-200 px-6 lg:px-8 py-3 bg-white items-center justify-between gap-3 text-xs sticky bottom-0 z-10 shadow-xs">
+            <div class="flex items-center gap-2">
+              <button onclick="app.toggleMockReview()" id="mock-btn-review-toggle" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition">
+                <span id="mock-review-toggle-label">Mark for Review & Next</span>
+              </button>
+              <button onclick="app.clearMockResponse()" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs transition">
+                Clear Response
+              </button>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="tb-btn-outline px-3.5 py-2 rounded-md font-medium text-xs transition disabled:opacity-30 disabled:pointer-events-none">
+                Previous
+              </button>
+              <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="tb-btn-primary px-6 py-2 rounded-md font-bold text-xs flex items-center gap-1.5 transition shadow-xs">
+                Save & Next
+              </button>
             </div>
           </div>
         </div>
 
-        <!-- Mobile Palette Backdrop -->
-        <div id="mock-palette-backdrop" onclick="app.toggleMockDrawer()" class="palette-backdrop hidden"></div>
+        <!-- COLLAPSIBLE TOGGLE TAB (DESKTOP) -->
+        <button onclick="app.toggleMockSidebarCollapse()" id="mock-sidebar-collapse-btn" class="hidden lg:flex absolute right-[320px] top-1/2 -translate-y-1/2 z-20 w-5 h-10 bg-zinc-800 text-white hover:bg-zinc-900 rounded-l-md items-center justify-center text-xs shadow-md cursor-pointer transition-all duration-200" title="Collapse / Expand Palette">
+          <span id="mock-sidebar-collapse-arrow">&gt;</span>
+        </button>
 
-        <!-- CBT Question Palette Pane (Col 4 on Desktop, Slide-up Bottom Sheet on Mobile) -->
-        <div id="mock-drawer-panel" class="bg-white rounded-xl p-4 border border-zinc-200 space-y-4 palette-sheet-drawer hidden lg:block">
-          <div>
-            <div class="flex items-center justify-between text-xs font-semibold text-zinc-800 mb-2.5">
-              <span>Exam Palette</span>
-              <div class="flex items-center gap-2">
-                <span class="text-[11px] text-zinc-400 font-mono">30 Questions</span>
-                <button onclick="app.toggleMockDrawer()" class="lg:hidden text-zinc-400 hover:text-zinc-800 text-lg leading-none p-1">&times;</button>
+        <!-- RIGHT: PALETTE SIDEBAR (Desktop docked, Mobile slide-up drawer) -->
+        <div id="mock-drawer-panel" class="w-full lg:w-[320px] xl:w-[340px] bg-[#eaf6fb] border-l border-zinc-200 flex flex-col justify-between overflow-y-auto palette-sheet-drawer hidden lg:flex shrink-0 transition-all duration-200">
+          
+          <div class="p-3.5 sm:p-4 space-y-3.5">
+            <!-- User Info Card -->
+            <div class="flex items-center justify-between bg-white rounded-lg p-2.5 border border-sky-100 shadow-2xs">
+              <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-full bg-sky-100 border border-sky-200 flex items-center justify-center text-sm font-bold text-[#00a8cc] overflow-hidden">
+                  <span id="mock-user-avatar-text">J</span>
+                </div>
+                <div>
+                  <span id="mock-user-name-display" class="font-bold text-xs text-zinc-900 block leading-tight">Jitesh</span>
+                  <span id="mock-user-email-display" class="text-[10px] text-zinc-400 block truncate max-w-[170px]">Candidate</span>
+                </div>
               </div>
+              <!-- Close Button on Mobile Sheet -->
+              <button onclick="app.toggleMockDrawer()" class="lg:hidden text-zinc-400 hover:text-zinc-800 text-xl leading-none p-1">&times;</button>
             </div>
-            <div class="flex flex-wrap gap-2 text-[11px] text-zinc-500 mb-2">
-              <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded btn-primary"></span> Ans (<span id="legend-answered">0</span>)</span>
-              <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-zinc-200"></span> Left (<span id="legend-unanswered">30</span>)</span>
-              <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-amber-400"></span> Review (<span id="legend-review">0</span>)</span>
+
+            <!-- 5-State Legend Grid (Exact Image 2 Replica) -->
+            <div class="bg-white rounded-lg p-2.5 border border-sky-100 shadow-2xs space-y-2 text-[11px]">
+              <div class="grid grid-cols-3 gap-2">
+                <!-- 1. Answered -->
+                <div class="flex items-center gap-1.5">
+                  <span class="cbt-badge cbt-badge-answered text-[11px] w-6 h-6 min-w-6" id="legend-count-answered">0</span>
+                  <span class="text-zinc-600 font-medium">Answered</span>
+                </div>
+                <!-- 2. Marked -->
+                <div class="flex items-center gap-1.5">
+                  <span class="cbt-badge cbt-badge-marked text-[11px] w-6 h-6 min-w-6" id="legend-count-marked">0</span>
+                  <span class="text-zinc-600 font-medium">Marked</span>
+                </div>
+                <!-- 3. Not Visited -->
+                <div class="flex items-center gap-1.5">
+                  <span class="cbt-badge cbt-badge-not-visited text-[11px] w-6 h-6 min-w-6" id="legend-count-not-visited">30</span>
+                  <span class="text-zinc-600 font-medium">Not Visited</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-2 pt-1 border-t border-zinc-100">
+                <!-- 4. Marked and answered -->
+                <div class="flex items-center gap-1.5">
+                  <span class="cbt-badge cbt-badge-marked-answered text-[11px] w-6 h-6 min-w-6" id="legend-count-marked-answered">0</span>
+                  <span class="text-zinc-600 font-medium truncate">Marked &amp; answered</span>
+                </div>
+                <!-- 5. Not Answered -->
+                <div class="flex items-center gap-1.5">
+                  <span class="cbt-badge cbt-badge-unanswered text-[11px] w-6 h-6 min-w-6" id="legend-count-unanswered">0</span>
+                  <span class="text-zinc-600 font-medium truncate">Not Answered</span>
+                </div>
+              </div>
+
+              <!-- Hidden elements to preserve legacy test references if any -->
+              <span id="legend-answered" class="hidden">0</span>
+              <span id="legend-unanswered" class="hidden">30</span>
+              <span id="legend-review" class="hidden">0</span>
+            </div>
+
+            <!-- Section Banner Strip -->
+            <div class="bg-[#bfe9f6] text-[#0d4863] font-bold text-xs px-3 py-1.5 rounded flex items-center justify-between shadow-2xs">
+              <span id="mock-palette-section-title">SECTION : Test</span>
+            </div>
+
+            <!-- Question Numbers Palette Grid (5 Columns) -->
+            <div id="mock-palette-grid" class="grid grid-cols-5 gap-1.5 sm:gap-2 max-h-[290px] lg:max-h-[360px] overflow-y-auto pr-1">
+              <!-- Question Badges Rendered Dynamically -->
             </div>
           </div>
 
-          <div id="mock-palette-grid" class="grid grid-cols-5 gap-1.5 max-h-[280px] lg:max-h-[340px] overflow-y-auto pr-1">
-            <!-- Palette numbers -->
-          </div>
+          <!-- Bottom Actions in Palette Sidebar -->
+          <div class="p-3.5 sm:p-4 bg-white/80 border-t border-sky-100 space-y-2">
+            <button onclick="app.openQuestionPaperModal()" class="tb-btn-secondary w-full py-2 rounded-md text-xs font-semibold text-center transition">
+              Question Paper
+            </button>
 
-          <div class="pt-2 border-t border-zinc-100">
-            <button onclick="app.promptSubmitMock()" class="w-full py-2 btn-primary font-medium text-xs rounded-lg transition">
-              Submit Examination
+            <button onclick="app.promptSubmitMock()" class="tb-btn-primary w-full py-2.5 rounded-md text-xs font-bold shadow-xs text-center transition">
+              Submit Test
             </button>
           </div>
+
         </div>
+
+        <!-- Mobile Drawer Backdrop -->
+        <div id="mock-palette-backdrop" onclick="app.toggleMockDrawer()" class="palette-backdrop hidden"></div>
+
       </div>
 
-      <!-- Mobile Thumb-Friendly Fixed Bottom Bar for Mock Exam -->
-      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3 py-2 z-40 sm:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
-        <button onclick="app.prevMockQuestion()" class="flex-1 py-2.5 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
-          &larr; Prev
+      <!-- 4. FLOATING ACTION BUTTON (EXACT IMAGE 3 FAB: GREEN CIRCLE WITH PALETTE ICON) -->
+      <button onclick="app.toggleMockDrawer()" class="tb-mobile-fab lg:hidden" title="Open Question Palette">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+
+      <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR -->
+      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3 py-2 z-30 lg:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
+        <button onclick="app.clearMockResponse()" class="tb-btn-outline px-3 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition">
+          Clear
         </button>
-        <button onclick="app.toggleMockReview()" id="mock-mobile-btn-review" class="px-2.5 py-2.5 rounded-lg btn-secondary text-zinc-600 text-[11px] text-center active:bg-zinc-100 transition">
-          Review
+        <button onclick="app.prevMockQuestion()" id="mock-mobile-btn-prev" class="tb-btn-outline px-3.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition disabled:opacity-30 disabled:pointer-events-none">
+          Previous
         </button>
-        <button onclick="app.toggleMockDrawer()" class="px-2.5 py-2.5 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-          <span id="mock-mobile-palette-btn-text">Palette</span>
-        </button>
-        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="flex-1 py-2.5 rounded-lg btn-primary font-medium text-xs text-center shadow-xs active:opacity-90 transition select-none">
+        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="tb-btn-primary flex-1 py-2.5 px-4 rounded-md text-xs font-bold text-center whitespace-nowrap active:scale-95 transition shadow-xs">
           Save & Next &rarr;
         </button>
       </div>
+
     </section>
 
     <!-- VIEW 4: RESULTS & REVIEW SCREEN -->
@@ -1014,37 +1173,79 @@
     </div>
   </div>
 
-  <!-- TEST PAUSED (FULLSCREEN EXITED) MODAL -->
-  <div id="test-paused-modal" class="fixed inset-0 bg-zinc-900/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
-    <div class="bg-white rounded-xl max-w-sm w-full p-6 border border-zinc-200 shadow-2xl space-y-4 text-center">
-      <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-600 border border-amber-200 flex items-center justify-center mx-auto text-xl font-bold">
-        ⏸
+  <!-- TESTBOOK PAUSE & TEST SUMMARY MODAL (IMAGE 1 REPLICA) -->
+  <div id="test-paused-modal" class="fixed inset-0 bg-zinc-950/70 backdrop-blur-xs z-50 flex items-center justify-center p-3 sm:p-6 hidden">
+    <div class="bg-white rounded-lg max-w-3xl w-full border border-zinc-200 shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+      
+      <!-- Responsive Table Container -->
+      <div class="overflow-x-auto">
+        <table class="w-full text-center border-collapse text-[11px] sm:text-xs md:text-sm">
+          <thead>
+            <tr class="bg-[#00a8cc] text-white font-bold">
+              <th class="py-2.5 px-1.5 sm:px-3 border-r border-[#0092b3] whitespace-nowrap">Section</th>
+              <th class="py-2.5 px-1.5 sm:px-3 border-r border-[#0092b3] whitespace-nowrap">No. of questions</th>
+              <th class="py-2.5 px-1.5 sm:px-3 border-r border-[#0092b3] whitespace-nowrap">Answered</th>
+              <th class="py-2.5 px-1.5 sm:px-3 border-r border-[#0092b3] whitespace-nowrap">Not Answered</th>
+              <th class="py-2.5 px-1.5 sm:px-3 border-r border-[#0092b3] whitespace-nowrap">Marked for Review</th>
+              <th class="py-2.5 px-1.5 sm:px-3 whitespace-nowrap">Not Visited</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-200 font-semibold text-zinc-800">
+            <tr class="hover:bg-zinc-50/70 transition">
+              <td id="pause-table-section" class="py-3 px-1.5 sm:px-3 border-r border-zinc-200 text-zinc-900 font-bold">Test</td>
+              <td id="pause-table-total" class="py-3 px-1.5 sm:px-3 border-r border-zinc-200 font-mono">30</td>
+              <td id="pause-table-answered" class="py-3 px-1.5 sm:px-3 border-r border-zinc-200 font-mono text-[#16a34a]">3</td>
+              <td id="pause-table-unanswered" class="py-3 px-1.5 sm:px-3 border-r border-zinc-200 font-mono text-[#dc2626]">23</td>
+              <td id="pause-table-marked" class="py-3 px-1.5 sm:px-3 border-r border-zinc-200 font-mono text-[#7c3aed]">0</td>
+              <td id="pause-table-not-visited" class="py-3 px-1.5 sm:px-3 font-mono text-zinc-500">4</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      <div class="space-y-1">
-        <h3 class="text-base font-semibold text-zinc-900">Test Paused</h3>
-        <p id="test-paused-exam-name" class="text-xs font-medium text-zinc-600"></p>
-        <p class="text-xs text-zinc-500 leading-relaxed pt-1">
-          Full-screen mode was exited. Your examination timer has been automatically paused.
-        </p>
-      </div>
+      <!-- Context Subtitle (e.g. Chapter name if in chapter test) -->
+      <div id="test-paused-exam-name" class="hidden px-4 py-1.5 bg-zinc-50 border-t border-zinc-100 text-[11px] text-zinc-500 text-center"></div>
 
-      <div class="bg-zinc-50 rounded-lg p-2.5 text-[11px] text-zinc-500 border border-zinc-100">
-        To maintain examination integrity, please stay in full-screen until completion.
-      </div>
-
-      <div class="space-y-2 pt-1">
-        <button onclick="app.resumeFromPauseModal()" class="w-full py-2.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition flex items-center justify-center gap-2">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
-          <span>Resume in Full Screen</span>
+      <!-- Modal Footer (Image 1 replica: Tests on Left, Resume Test on Right) -->
+      <div class="p-3.5 sm:p-5 bg-white border-t border-zinc-100 flex items-center justify-between gap-3">
+        <button onclick="app.exitMockFromPauseModal()" class="tb-btn-primary px-5 sm:px-6 py-2 rounded text-xs sm:text-sm font-semibold shadow-xs transition">
+          Tests
         </button>
 
-        <button id="pause-modal-study-btn" onclick="app.switchFromPauseToStudy()" class="w-full py-2 text-zinc-500 hover:text-zinc-800 text-xs transition hidden">
-          Switch to Study Mode (No Full Screen)
+        <div class="flex items-center gap-2">
+          <button id="pause-modal-study-btn" onclick="app.switchFromPauseToStudy()" class="text-xs text-zinc-500 hover:text-zinc-800 underline transition hidden">
+            Switch to Study Mode
+          </button>
+          <button onclick="app.resumeFromPauseModal()" class="tb-btn-primary px-5 sm:px-6 py-2 rounded text-xs sm:text-sm font-semibold shadow-xs transition">
+            Resume Test
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- QUESTION PAPER MODAL -->
+  <div id="mock-question-paper-modal" class="fixed inset-0 bg-zinc-950/70 backdrop-blur-xs z-50 flex items-center justify-center p-3 sm:p-6 hidden">
+    <div class="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] flex flex-col border border-zinc-200 shadow-2xl overflow-hidden">
+      <div class="p-4 sm:p-5 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 rounded bg-[#00a8cc] flex items-center justify-center text-white text-xs font-bold">📄</div>
+          <h3 class="font-bold text-sm sm:text-base text-zinc-900">Question Paper Review</h3>
+        </div>
+        <button onclick="app.closeQuestionPaperModal()" class="text-zinc-400 hover:text-zinc-800 text-2xl leading-none">&times;</button>
+      </div>
+      <div id="mock-question-paper-list" class="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5">
+        <!-- Populated dynamically with all questions -->
+      </div>
+      <div class="p-3.5 sm:p-4 border-t border-zinc-200 bg-zinc-50 flex justify-end">
+        <button onclick="app.closeQuestionPaperModal()" class="tb-btn-primary px-5 py-2 rounded-md text-xs font-bold shadow-xs">
+          Close
         </button>
       </div>
     </div>
   </div>
+
 
   <!-- GOOGLE SHEET CONFIGURATION MODAL -->
   <div id="google-sheet-modal" class="fixed inset-0 bg-zinc-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">

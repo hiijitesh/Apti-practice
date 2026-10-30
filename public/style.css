@@ -72,11 +72,10 @@
 }
 
 /* ========================================================
-   TEST PAGES (PRACTICE & MOCK):
+   TEST PAGES (PRACTICE):
    Low-contrast primary by default, full-contrast on hover
    ======================================================== */
-#view-practice .btn-primary,
-#view-mock .btn-primary {
+#view-practice .btn-primary {
   background-color: rgba(79, 70, 229, 0.12) !important;
   color: #4338ca !important;
   border: 1px solid rgba(79, 70, 229, 0.3) !important;
@@ -84,8 +83,7 @@
   font-weight: 600 !important;
 }
 
-#view-practice .btn-primary:hover:not(:disabled),
-#view-mock .btn-primary:hover:not(:disabled) {
+#view-practice .btn-primary:hover:not(:disabled) {
   background-color: var(--btn-primary-bg) !important;
   color: #ffffff !important;
   border-color: var(--btn-primary-border) !important;
@@ -93,22 +91,19 @@
   transform: translateY(-1px) !important;
 }
 
-#view-practice .btn-primary:active:not(:disabled),
-#view-mock .btn-primary:active:not(:disabled) {
+#view-practice .btn-primary:active:not(:disabled) {
   background-color: var(--btn-primary-bg-active) !important;
   color: #ffffff !important;
   transform: translateY(0) !important;
 }
 
-/* Option cards hover on test pages */
-#view-practice .option-label:hover,
-#view-mock .option-label:hover {
+/* Option cards hover on practice page */
+#view-practice .option-label:hover {
   background-color: rgba(79, 70, 229, 0.05) !important;
   border-color: rgba(79, 70, 229, 0.35) !important;
 }
 
-#view-practice .option-label:hover .option-badge,
-#view-mock .option-label:hover .option-badge {
+#view-practice .option-label:hover .option-badge {
   background-color: rgba(79, 70, 229, 0.15) !important;
   border-color: rgba(79, 70, 229, 0.4) !important;
   color: #4338ca !important;
@@ -372,18 +367,22 @@ button:active:not(:disabled) {
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    max-height: 82vh !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    max-height: 85vh !important;
     z-index: 50 !important;
     border-radius: 1.25rem 1.25rem 0 0 !important;
-    box-shadow: 0 -12px 30px -5px rgba(0, 0, 0, 0.2) !important;
-    background: #ffffff !important;
+    box-shadow: 0 -12px 30px -5px rgba(0, 0, 0, 0.25) !important;
+    background: #eaf6fb !important;
+    box-sizing: border-box !important;
     margin: 0 !important;
+    overflow-y: auto !important;
   }
 
   .palette-backdrop {
     position: fixed;
     inset: 0;
-    background: rgba(9, 9, 11, 0.45);
+    background: rgba(9, 9, 11, 0.55);
     backdrop-filter: blur(2px);
     z-index: 49;
   }
@@ -505,5 +504,370 @@ button:active:not(:disabled) {
   display: block !important;
   background-color: #09090b !important;
 }
+
+/* ========================================================
+   TESTBOOK CBT MOCK EXAM PORTAL DESIGN SYSTEM
+   Exact replica of Testbook CBT interface (Mobile-First)
+   ======================================================== */
+
+:root {
+  --tb-teal: #00a8cc;
+  --tb-teal-hover: #0093b3;
+  --tb-teal-active: #007e99;
+  --tb-navy-active: #0d4863;
+  --tb-sidebar-bg: #eaf6fb;
+  --tb-section-banner: #bfe9f6;
+  --tb-btn-blue-bg: #e0f2fe;
+  --tb-btn-blue-border: #bae6fd;
+  --tb-btn-blue-text: #0369a1;
+  --tb-btn-blue-hover: #bae6fd;
+  --tb-answered-green: #22c55e;
+  --tb-unanswered-red: #dc2626;
+  --tb-review-purple: #7c3aed;
+  --tb-not-visited-border: #cbd5e1;
+}
+
+/* Edge-to-edge CBT Exam Mode */
+body.cbt-portal-active #global-header,
+body.cbt-portal-active footer {
+  display: none !important;
+}
+
+body.cbt-portal-active #main-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body.cbt-portal-active {
+  background-color: #f4f7f9 !important;
+}
+
+/* Authentic Testbook Buttons */
+.tb-btn-primary {
+  background-color: var(--tb-teal) !important;
+  color: #ffffff !important;
+  border: 1px solid var(--tb-teal) !important;
+  font-weight: 600 !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 168, 204, 0.25) !important;
+  transition: all 0.15s ease !important;
+}
+.tb-btn-primary:hover:not(:disabled) {
+  background-color: var(--tb-teal-hover) !important;
+  border-color: var(--tb-teal-hover) !important;
+  color: #ffffff !important;
+  box-shadow: 0 3px 6px 0 rgba(0, 168, 204, 0.3) !important;
+}
+.tb-btn-primary:active:not(:disabled) {
+  background-color: var(--tb-teal-active) !important;
+  transform: scale(0.98);
+}
+
+.tb-btn-secondary {
+  background-color: var(--tb-btn-blue-bg) !important;
+  color: var(--tb-btn-blue-text) !important;
+  border: 1px solid var(--tb-btn-blue-border) !important;
+  font-weight: 500 !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.15s ease !important;
+}
+.tb-btn-secondary:hover:not(:disabled) {
+  background-color: #bae6fd !important;
+  border-color: #7dd3fc !important;
+  color: #0284c7 !important;
+}
+.tb-btn-secondary:active:not(:disabled) {
+  background-color: #e0f2fe !important;
+  transform: scale(0.98);
+}
+
+.tb-btn-outline {
+  background-color: #ffffff !important;
+  color: #0284c7 !important;
+  border: 1px solid #bae6fd !important;
+  font-weight: 500 !important;
+  transition: all 0.15s ease !important;
+}
+.tb-btn-outline:hover:not(:disabled) {
+  background-color: #f0f9ff !important;
+  border-color: #7dd3fc !important;
+}
+.tb-btn-outline:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+/* Digital Timer Box Blocks */
+.tb-timer-digit {
+  background: #18181b;
+  color: #ffffff;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-weight: 700;
+  padding: 2.5px 6.5px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: inline-block;
+  min-width: 26px;
+  text-align: center;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 639px) {
+  .tb-timer-digit {
+    padding: 1.5px 4.5px;
+    font-size: 11.5px;
+    min-width: 22px;
+  }
+}
+
+/* CBT Palette Question Badge Shapes */
+.cbt-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+  max-width: 40px;
+  height: 32px;
+  margin: 0 auto;
+  transition: all 0.12s ease;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+@media (max-width: 639px) {
+  .cbt-badge {
+    height: 30px;
+    font-size: 11.5px;
+    max-width: 36px;
+  }
+}
+
+/* 1. Answered: Green shield / rounded top */
+.cbt-badge-answered {
+  background-color: #22c55e !important;
+  color: #ffffff !important;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 1px 2px rgba(34, 197, 94, 0.3);
+}
+
+/* 2. Not Answered: Red shield / rounded bottom */
+.cbt-badge-unanswered {
+  background-color: #dc2626 !important;
+  color: #ffffff !important;
+  border-radius: 4px 4px 12px 12px;
+  box-shadow: 0 1px 2px rgba(220, 38, 38, 0.3);
+}
+
+/* 3. Not Visited: White rectangle with grey border */
+.cbt-badge-not-visited {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 4px;
+}
+
+/* 4. Marked for Review: Purple Circle */
+.cbt-badge-marked {
+  background-color: #7c3aed !important;
+  color: #ffffff !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.3);
+}
+
+/* 5. Marked and Answered: Purple Circle with Green Dot */
+.cbt-badge-marked-answered {
+  background-color: #7c3aed !important;
+  color: #ffffff !important;
+  border-radius: 9999px !important;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(124, 58, 237, 0.3);
+}
+.cbt-badge-marked-answered::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 9px;
+  height: 9px;
+  background-color: #22c55e;
+  border: 1.5px solid #ffffff;
+  border-radius: 9999px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+/* Active Question Ring */
+.cbt-badge-current {
+  outline: 2.5px solid #00a8cc !important;
+  outline-offset: 2px !important;
+  transform: scale(1.08);
+  z-index: 2;
+}
+
+/* Testbook Radio Options */
+.tb-radio-option {
+  border: 1.5px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.tb-radio-option:hover {
+  border-color: #00a8cc;
+  background-color: #f0f9ff;
+}
+.tb-radio-option.selected {
+  border-color: #00a8cc;
+  background-color: #f0fdfa;
+  box-shadow: 0 1px 3px rgba(0, 168, 204, 0.15);
+}
+.tb-radio-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  border: 2px solid #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+  background: #ffffff;
+}
+.tb-radio-option:hover .tb-radio-circle {
+  border-color: #00a8cc;
+}
+.tb-radio-option.selected .tb-radio-circle {
+  border-color: #00a8cc;
+  background-color: #ffffff;
+}
+.tb-radio-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #00a8cc;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.15s ease;
+}
+.tb-radio-option.selected .tb-radio-dot {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Collapsible Desktop Sidebar */
+#view-mock.sidebar-collapsed #mock-drawer-panel {
+  display: none !important;
+}
+#view-mock.sidebar-collapsed #mock-sidebar-collapse-btn {
+  right: 0 !important;
+}
+
+/* ========================================================
+   TESTBOOK MOBILE FIRST APP STYLES (IMAGE 3)
+   ======================================================== */
+
+.tb-mobile-header {
+  background-color: var(--tb-teal) !important;
+  color: #ffffff !important;
+}
+
+.tb-mobile-tab-active {
+  color: #09090b !important;
+  font-weight: 700 !important;
+  border-bottom: 2.5px solid #09090b !important;
+}
+
+.tb-mobile-tab-inactive {
+  color: #71717a !important;
+  font-weight: 500 !important;
+  border-bottom: 2.5px solid transparent !important;
+}
+
+.tb-mobile-option-card {
+  background-color: #ffffff;
+  border: 1.5px solid #e4e4e7;
+  border-radius: 8px;
+  padding: 13px 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.tb-mobile-option-card:hover {
+  border-color: #00a8cc;
+  background-color: #f8fafc;
+}
+
+.tb-mobile-option-card.selected {
+  border-color: #00a8cc;
+  background-color: #f0fdfa;
+  box-shadow: 0 1px 3px rgba(0, 168, 204, 0.18);
+}
+
+.tb-option-prefix {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-weight: 600;
+  color: #94a3b8;
+  font-size: 14px;
+  min-width: 20px;
+  line-height: 1.5;
+  transition: color 0.15s ease;
+}
+
+.tb-mobile-option-card.selected .tb-option-prefix {
+  color: #00a8cc;
+  font-weight: 700;
+}
+
+.tb-option-text {
+  font-family: 'Inter', 'Roboto', -apple-system, sans-serif;
+  font-size: 14.5px;
+  color: #1e293b;
+  line-height: 1.55;
+  flex: 1;
+}
+
+/* Floating Action Button (FAB) */
+.tb-mobile-fab {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 4.75rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 9999px;
+  background-color: #10b981;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4), 0 4px 6px -4px rgba(16, 185, 129, 0.3);
+  z-index: 40;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tb-mobile-fab:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+.tb-mobile-fab:active {
+  transform: scale(0.95);
+}
+
+
 
 
