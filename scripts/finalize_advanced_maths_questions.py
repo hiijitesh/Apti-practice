@@ -6,9 +6,8 @@ import os
 import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INPUT_FILE = os.path.join(BASE_DIR, "data", "advanced_maths_questions.json")
+INPUT_FILE = os.path.join(BASE_DIR, "public", "data", "advanced_maths_questions.json")
 OUTPUTS = [
-    os.path.join(BASE_DIR, "data", "advanced_maths_questions.json"),
     os.path.join(BASE_DIR, "public", "data", "advanced_maths_questions.json"),
 ]
 

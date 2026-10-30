@@ -12,7 +12,6 @@ import os
 import glob
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
 PUBLIC_DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
 
 def to_data_uri(diag):
@@ -75,19 +74,18 @@ def merge_reasoning_parts():
         }
     }
 
-    # Save to both data/ and public/data/
-    for out_dir in [DATA_DIR, PUBLIC_DATA_DIR]:
-        os.makedirs(out_dir, exist_ok=True)
+    # Save to public/data/
+    os.makedirs(PUBLIC_DATA_DIR, exist_ok=True)
 
-        cal_path = os.path.join(out_dir, 'calendar_reasoning.json')
-        with open(cal_path, 'w', encoding='utf-8') as f:
-            json.dump(flat_data, f, ensure_ascii=False)
-        print(f"Saved: {cal_path} ({os.path.getsize(cal_path)} bytes)")
+    cal_path = os.path.join(PUBLIC_DATA_DIR, 'calendar_reasoning.json')
+    with open(cal_path, 'w', encoding='utf-8') as f:
+        json.dump(flat_data, f, ensure_ascii=False)
+    print(f"Saved: {cal_path} ({os.path.getsize(cal_path)} bytes)")
 
-        reas_path = os.path.join(out_dir, 'reasoning.json')
-        with open(reas_path, 'w', encoding='utf-8') as f:
-            json.dump(keyed_data, f, ensure_ascii=False)
-        print(f"Saved: {reas_path} ({os.path.getsize(reas_path)} bytes)")
+    reas_path = os.path.join(PUBLIC_DATA_DIR, 'reasoning.json')
+    with open(reas_path, 'w', encoding='utf-8') as f:
+        json.dump(keyed_data, f, ensure_ascii=False)
+    print(f"Saved: {reas_path} ({os.path.getsize(reas_path)} bytes)")
 
     print("Reasoning merge complete with base64 Data URI images!")
 

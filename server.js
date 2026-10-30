@@ -11,11 +11,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const DATA_DIR = path.join(__dirname, 'data');
-const PUBLIC_DATA_DIR = path.join(__dirname, 'public', 'data');
-const QUESTIONS_FILE = path.join(PUBLIC_DATA_DIR, 'questions.json');
+const DATA_DIR = path.join(__dirname, 'public', 'data');
+const QUESTIONS_FILE = path.join(DATA_DIR, 'questions.json');
 const ATTEMPTS_FILE = path.join(DATA_DIR, 'attempts.json');
-const REVISION_FILE = path.join(PUBLIC_DATA_DIR, 'revision_materials.json');
+const REVISION_FILE = path.join(DATA_DIR, 'revision_materials.json');
 
 // Ensure data files exist
 if (!fs.existsSync(DATA_DIR)) {

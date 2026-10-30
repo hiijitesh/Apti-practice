@@ -9,8 +9,9 @@ import re
 import json
 import os
 
-PDF_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'Top 300 Questions.pdf')
-OUT_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'top300_extracted.json')
+SOURCES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'scripts', 'sources')
+PDF_PATH = os.path.join(SOURCES_DIR, 'Top 300 Questions.pdf')
+OUT_PATH = os.path.join(SOURCES_DIR, 'top300_extracted.json')
 
 def is_devanagari_char(c):
     return '\u0900' <= c <= '\u097F'

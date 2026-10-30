@@ -21,7 +21,7 @@ from pypdf import PdfReader
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCE_DIR = "/Users/hiijitesh/Downloads/Govt Exams & RRB/A RRB NOTES/CLASS NOTES/Advance maths PPT"
-OUTPUT_FILE = os.path.join(BASE_DIR, "data", "advanced_maths_questions.json")
+OUTPUT_FILE = os.path.join(BASE_DIR, "public", "data", "advanced_maths_questions.json")
 TESSERACT = "/opt/homebrew/bin/tesseract"
 PDFTOPPM = "/Users/hiijitesh/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm"
 

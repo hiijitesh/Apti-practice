@@ -9,9 +9,9 @@ import json
 import os
 import re
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
-IN_FILE = os.path.join(DATA_DIR, 'top300_extracted.json')
-OUT_SOLVED = os.path.join(DATA_DIR, 'top_300_questions_science.json')
+SOURCES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'scripts', 'sources')
+IN_FILE = os.path.join(SOURCES_DIR, 'top300_extracted.json')
+OUT_SOLVED = os.path.join(SOURCES_DIR, 'top_300_questions_science.json')
 
 # Verified answers (0=A, 1=B, 2=C, 3=D) and disciplines
 SOLUTIONS_META = [

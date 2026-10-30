@@ -22,7 +22,6 @@ SOURCE_DIR = "/Users/hiijitesh/Downloads/Govt Exams & RRB/A RRB NOTES/CLASS NOTE
 TESSERACT = "/opt/homebrew/bin/tesseract"
 PDFTOPPM = "/Users/hiijitesh/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm"
 OUTPUTS = [
-    os.path.join(BASE_DIR, "data", "reasoning_class_questions.json"),
     os.path.join(BASE_DIR, "public", "data", "reasoning_class_questions.json"),
 ]
 

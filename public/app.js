@@ -2473,7 +2473,7 @@ class AptiPrepApp {
   }
 
   // ==========================================
-  // REVISION NOTES & CHAPTER PDFS MODAL
+  // REVISION NOTES & CHAPTERWISE PDFS MODAL
   // ==========================================
 
   async loadRevisionMaterials() {
@@ -2494,213 +2494,214 @@ class AptiPrepApp {
 
       if (data) {
         if (data.folderUrl) this.revision.folderUrl = data.folderUrl;
-        if (data.folderName) this.revision.folderName = data.folderName;
-        if (Array.isArray(data.pdfs) && data.pdfs.length > 0) {
+        if (data.chapters && typeof data.chapters === 'object') {
+          this.revision.chapters = data.chapters;
+        }
+        if (Array.isArray(data.masterCompilations)) {
+          this.revision.masterCompilations = data.masterCompilations;
+        }
+        if (Array.isArray(data.pdfs)) {
           this.revision.pdfs = data.pdfs;
         }
       }
     } catch (err) {
-      console.warn('Could not fetch revision_materials.json, applying fallbacks:', err);
-    }
-
-    if (!this.revision.pdfs || this.revision.pdfs.length === 0) {
-      this.revision.pdfs = [
-        {
-          id: 'bio',
-          title: 'General Science — Biology Revision Notes',
-          shortTitle: 'Biology',
-          icon: '🧬',
-          subject: 'General Science',
-          subSubject: 'Biology',
-          fileId: '1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa',
-          fileName: 'Bio.pdf',
-          fileSize: 'Comprehensive Notes',
-          viewUrl: 'https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/view?usp=sharing',
-          previewUrl: 'https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/preview'
-        },
-        {
-          id: 'chem',
-          title: 'General Science — Chemistry Revision Notes',
-          shortTitle: 'Chemistry',
-          icon: '🧪',
-          subject: 'General Science',
-          subSubject: 'Chemistry',
-          fileId: '12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ',
-          fileName: 'Chemistry.pdf',
-          fileSize: 'Comprehensive Notes',
-          viewUrl: 'https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/view?usp=sharing',
-          previewUrl: 'https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/preview'
-        },
-        {
-          id: 'physics',
-          title: 'General Science — Physics Revision Notes',
-          shortTitle: 'Physics',
-          icon: '⚡',
-          subject: 'General Science',
-          subSubject: 'Physics',
-          fileId: '1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC',
-          fileName: 'Physics.pdf',
-          fileSize: 'Comprehensive Notes',
-          viewUrl: 'https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/view?usp=sharing',
-          previewUrl: 'https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/preview'
-        },
-        {
-          id: 'top300',
-          title: 'RRB Top 300 Questions & Revision Notes',
-          shortTitle: 'Top 300 Qs',
-          icon: '🔥',
-          subject: 'General Science',
-          subSubject: 'Top 300 Questions',
-          fileId: '1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl',
-          fileName: 'Top 300 Questions.pdf',
-          fileSize: '54 MB',
-          viewUrl: 'https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view?usp=sharing',
-          previewUrl: 'https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview'
-        }
-      ];
+      console.warn('Could not fetch revision_materials.json:', err);
     }
   }
 
-  detectRelevantRevisionPdf() {
-    let activeSubj = '';
+  detectRelevantRevisionChapter() {
     let activeChap = '';
+    let activeSubj = '';
 
     if (this.currentMode === 'practice' && this.practice.questions.length > 0) {
       const q = this.practice.questions[this.practice.currentIndex] || {};
-      activeSubj = (q.subSubject || q.subject || '').toLowerCase();
-      activeChap = (q.chapter || this.practice.chapter || '').toLowerCase();
+      activeChap = q.chapter || this.practice.chapter || '';
+      activeSubj = q.subSubject || q.subject || '';
     } else if (this.currentMode === 'mock' && this.mock.questions.length > 0) {
       const q = this.mock.questions[this.mock.currentIndex] || {};
-      activeSubj = (q.subSubject || q.subject || '').toLowerCase();
-      activeChap = (q.chapter || '').toLowerCase();
+      activeChap = q.chapter || '';
+      activeSubj = q.subSubject || q.subject || '';
+    } else if (this.practice && this.practice.chapter) {
+      activeChap = this.practice.chapter;
     }
 
-    if (activeChap.includes('top 300')) return 'top300';
-    if (activeSubj.includes('bio') || activeChap.includes('cell') || activeChap.includes('blood') || activeChap.includes('botany')) return 'bio';
-    if (activeSubj.includes('chem') || activeChap.includes('acid') || activeChap.includes('metal') || activeChap.includes('periodic')) return 'chem';
-    if (activeSubj.includes('phys') || activeChap.includes('light') || activeChap.includes('motion') || activeChap.includes('electric') || activeChap.includes('optics')) return 'physics';
+    if (activeChap && this.revision.chapters && this.revision.chapters[activeChap]) {
+      return activeChap;
+    }
 
-    return this.revision.activePdfId || 'bio';
+    const subjLow = (activeSubj || '').toLowerCase();
+    if (subjLow.includes('bio')) return 'Cell';
+    if (subjLow.includes('chem')) return 'Chemical Reactions and Equations';
+    if (subjLow.includes('phys')) return 'Electricity';
+    if (activeChap.toLowerCase().includes('top 300')) return 'Top 300 Questions';
+
+    return 'Cell';
   }
 
-  openRevisionModal(preferredPdfId = null) {
-    if (!this.revision.pdfs || this.revision.pdfs.length === 0) {
+  openRevisionModal(suggestedChapter = null) {
+    if (!this.revision.chapters || Object.keys(this.revision.chapters).length === 0) {
       this.loadRevisionMaterials();
     }
 
     const modal = document.getElementById('revision-modal');
     if (!modal) return;
 
-    const targetPdfId = preferredPdfId || this.detectRelevantRevisionPdf();
-    this.revision.activePdfId = targetPdfId;
+    const targetChapter = suggestedChapter || this.detectRelevantRevisionChapter();
+    this.revision.activeChapter = targetChapter;
+    this.revision.currentDisciplineFilter = 'all';
 
-    // Update folder link
-    const folderLink = document.getElementById('revision-drive-folder-link');
-    if (folderLink && this.revision.folderUrl) {
-      folderLink.href = this.revision.folderUrl;
-    }
-
-    // Context Banner & Topic Badge
-    const banner = document.getElementById('revision-context-banner');
-    const bannerText = document.getElementById('revision-context-text');
-    const bannerBtn = document.getElementById('revision-context-btn');
-    const topicBadge = document.getElementById('revision-badge-topic');
-
-    let currentContextInfo = '';
-    if (this.currentMode === 'practice') {
-      const qNum = this.practice.currentIndex + 1;
-      const chName = this.practice.chapter || 'Chapter Test';
-      currentContextInfo = `Question ${qNum} • ${chName}`;
-    } else if (this.currentMode === 'mock') {
-      const qNum = this.mock.currentIndex + 1;
-      const q = this.mock.questions[this.mock.currentIndex];
-      const chName = q ? q.chapter : 'Mock Exam';
-      currentContextInfo = `Mock Q${qNum} • ${chName}`;
-    }
-
-    if (currentContextInfo) {
-      if (topicBadge) {
-        topicBadge.textContent = currentContextInfo;
-        topicBadge.classList.remove('hidden');
+    const contextLabel = document.getElementById('revision-current-test-context');
+    if (contextLabel) {
+      if (this.currentMode === 'practice') {
+        contextLabel.textContent = `Testing: ${this.practice.chapter || 'Chapter Test'} (Q${this.practice.currentIndex + 1})`;
+      } else if (this.currentMode === 'mock') {
+        const q = this.mock.questions[this.mock.currentIndex];
+        contextLabel.textContent = `Mock Exam: Q${this.mock.currentIndex + 1} (${q ? q.chapter : ''})`;
+      } else {
+        contextLabel.textContent = '';
       }
-      if (banner && bannerText && bannerBtn) {
-        bannerText.textContent = `Testing: ${currentContextInfo} — Recommended notes: ${this.getPdfShortTitle(targetPdfId)}`;
-        bannerBtn.dataset.pdfId = targetPdfId;
-        banner.classList.remove('hidden');
-      }
-    } else {
-      if (topicBadge) topicBadge.classList.add('hidden');
-      if (banner) banner.classList.add('hidden');
     }
 
-    this.renderRevisionTabs();
-    this.selectRevisionPdf(targetPdfId);
+    this.populateRevisionChapterDropdown('all');
+    this.switchRevisionChapter(targetChapter);
     modal.classList.remove('hidden');
   }
 
-  getPdfShortTitle(pdfId) {
-    const p = (this.revision.pdfs || []).find(item => item.id === pdfId);
-    return p ? (p.shortTitle || p.title) : 'Notes';
+  populateRevisionChapterDropdown(discipline = 'all') {
+    const dd = document.getElementById('revision-chapter-dropdown');
+    if (!dd) return;
+
+    const chaptersMap = this.revision.chapters || {};
+    const chList = Object.values(chaptersMap);
+
+    let filtered = chList;
+    if (discipline === 'Biology') {
+      filtered = chList.filter(c => c.subSubject === 'Biology');
+    } else if (discipline === 'Chemistry') {
+      filtered = chList.filter(c => c.subSubject === 'Chemistry');
+    } else if (discipline === 'Physics') {
+      filtered = chList.filter(c => c.subSubject === 'Physics');
+    } else if (discipline === 'top300') {
+      filtered = chList.filter(c => c.chapter === 'Top 300 Questions');
+    } else if (discipline === 'master') {
+      filtered = this.revision.masterCompilations || [];
+    }
+
+    if (discipline === 'all') {
+      const groups = {
+        'Biology (16)': chList.filter(c => c.subSubject === 'Biology'),
+        'Chemistry (8)': chList.filter(c => c.subSubject === 'Chemistry'),
+        'Physics (10)': chList.filter(c => c.subSubject === 'Physics'),
+        'High-Yield Series': chList.filter(c => c.chapter === 'Top 300 Questions'),
+        'Master Full Books': this.revision.masterCompilations || []
+      };
+
+      let html = '';
+      Object.entries(groups).forEach(([grpName, items]) => {
+        if (items.length > 0) {
+          html += `<optgroup label="${grpName}">`;
+          items.forEach(item => {
+            const val = item.chapter || item.title;
+            html += `<option value="${val}">${item.icon || '📄'} ${item.chapter || item.shortTitle || item.title}</option>`;
+          });
+          html += `</optgroup>`;
+        }
+      });
+      dd.innerHTML = html;
+    } else {
+      dd.innerHTML = filtered.map(item => {
+        const val = item.chapter || item.title;
+        return `<option value="${val}">${item.icon || '📄'} ${item.chapter || item.shortTitle || item.title}</option>`;
+      }).join('');
+    }
   }
 
-  renderRevisionTabs() {
-    const container = document.getElementById('revision-tabs-container');
-    if (!container) return;
+  filterRevisionDiscipline(discipline) {
+    this.revision.currentDisciplineFilter = discipline;
 
-    container.innerHTML = (this.revision.pdfs || []).map(pdf => {
-      const isActive = pdf.id === this.revision.activePdfId;
-      const cls = isActive
-        ? 'px-3 py-1.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center gap-1.5 transition text-xs whitespace-nowrap'
-        : 'px-3 py-1.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-100 text-zinc-700 font-medium flex items-center gap-1.5 transition text-xs whitespace-nowrap';
+    const discButtons = {
+      'all': document.getElementById('rev-disc-all'),
+      'Biology': document.getElementById('rev-disc-bio'),
+      'Chemistry': document.getElementById('rev-disc-chem'),
+      'Physics': document.getElementById('rev-disc-phys'),
+      'top300': document.getElementById('rev-disc-top300'),
+      'master': document.getElementById('rev-disc-master')
+    };
 
-      return `
-        <button onclick="app.selectRevisionPdf('${pdf.id}')" class="${cls}">
-          <span>${pdf.icon || '📄'}</span>
-          <span>${pdf.shortTitle || pdf.title}</span>
-        </button>
-      `;
-    }).join('');
+    Object.entries(discButtons).forEach(([key, btn]) => {
+      if (!btn) return;
+      if (key === discipline) {
+        btn.className = 'px-2.5 py-1 rounded-md text-[11px] font-semibold bg-zinc-900 text-white transition whitespace-nowrap shadow-xs';
+      } else {
+        btn.className = 'px-2.5 py-1 rounded-md text-[11px] font-medium text-zinc-600 hover:text-zinc-900 hover:bg-zinc-200/80 transition whitespace-nowrap';
+      }
+    });
+
+    this.populateRevisionChapterDropdown(discipline);
+
+    const dd = document.getElementById('revision-chapter-dropdown');
+    if (dd && dd.options.length > 0) {
+      this.switchRevisionChapter(dd.options[0].value);
+    }
   }
 
-  selectRevisionPdf(pdfId) {
-    const pdf = (this.revision.pdfs || []).find(p => p.id === pdfId);
-    if (!pdf) return;
+  switchRevisionChapter(chapterName) {
+    const chaptersMap = this.revision.chapters || {};
+    let info = chaptersMap[chapterName];
 
-    this.revision.activePdfId = pdfId;
-    this.renderRevisionTabs();
+    if (!info && this.revision.masterCompilations) {
+      info = this.revision.masterCompilations.find(m => (m.chapter === chapterName || m.title === chapterName));
+    }
+
+    if (!info) return;
+
+    this.revision.activeChapter = chapterName;
+
+    const dd = document.getElementById('revision-chapter-dropdown');
+    if (dd && dd.value !== chapterName) {
+      dd.value = chapterName;
+    }
+
+    const titleEl = document.getElementById('revision-modal-title');
+    const badgeEl = document.getElementById('revision-badge-discipline');
+    const filenameEl = document.getElementById('revision-active-filename');
+
+    if (titleEl) titleEl.textContent = info.title || `${chapterName} Revision Notes`;
+    if (filenameEl) filenameEl.textContent = info.fileName || `${chapterName}.pdf`;
+
+    if (badgeEl) {
+      const disc = info.subSubject || 'General Science';
+      badgeEl.textContent = disc;
+      if (disc === 'Biology') {
+        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 shrink-0';
+      } else if (disc === 'Chemistry') {
+        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-sky-100 text-sky-800 shrink-0';
+      } else if (disc === 'Physics') {
+        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-violet-100 text-violet-800 shrink-0';
+      } else {
+        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 shrink-0';
+      }
+    }
 
     const iframe = document.getElementById('revision-iframe');
     const loader = document.getElementById('revision-iframe-loader');
     const loaderText = document.getElementById('revision-loader-text');
-    const activeMeta = document.getElementById('revision-active-meta');
-    const newTabBtn = document.getElementById('revision-open-tab-btn');
-    const fallbackLink = document.getElementById('revision-fallback-direct-link');
 
-    if (activeMeta) {
-      activeMeta.textContent = `${pdf.title} • ${pdf.fileName || 'Google Drive PDF'}`;
-    }
-
-    const viewUrl = pdf.viewUrl || `https://drive.google.com/file/d/${pdf.fileId}/view`;
-    const previewUrl = pdf.previewUrl || `https://drive.google.com/file/d/${pdf.fileId}/preview`;
-
-    if (newTabBtn) newTabBtn.href = viewUrl;
-    if (fallbackLink) fallbackLink.href = viewUrl;
+    const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
 
     if (iframe) {
       if (loader) {
         loader.classList.remove('opacity-0', 'pointer-events-none');
-        if (loaderText) loaderText.textContent = `Loading ${pdf.shortTitle || 'PDF'} preview...`;
+        if (loaderText) loaderText.textContent = `Loading ${info.chapter || 'Chapter'} PDF on website...`;
       }
 
       if (iframe.src !== previewUrl) {
         iframe.src = previewUrl;
       } else {
-        // Already loaded, hide loader quickly
         setTimeout(() => this.handleRevisionIframeLoaded(), 300);
       }
 
-      // Fallback safety timeout in case onload is blocked by browser sandbox
-      setTimeout(() => this.handleRevisionIframeLoaded(), 3000);
+      setTimeout(() => this.handleRevisionIframeLoaded(), 2500);
     }
   }
 
@@ -2708,6 +2709,20 @@ class AptiPrepApp {
     const loader = document.getElementById('revision-iframe-loader');
     if (loader) {
       loader.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  toggleRevisionMaximize() {
+    const card = document.getElementById('revision-modal-card');
+    if (!card) return;
+
+    this.revision.isMaximized = !this.revision.isMaximized;
+    if (this.revision.isMaximized) {
+      card.classList.remove('max-w-5xl', 'h-[92vh]');
+      card.classList.add('max-w-[98vw]', 'h-[98vh]', 'rounded-xl');
+    } else {
+      card.classList.remove('max-w-[98vw]', 'h-[98vh]', 'rounded-xl');
+      card.classList.add('max-w-5xl', 'h-[92vh]', 'rounded-2xl');
     }
   }
 

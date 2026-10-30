@@ -11,11 +11,11 @@ import os
 import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'data')
+SOURCES_DIR = os.path.join(BASE_DIR, 'scripts', 'sources')
 PUBLIC_DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
 
 APTI_FILE = os.path.join(PUBLIC_DATA_DIR, 'questions.json')
-SCI_SOURCE_FILE = os.path.join(DATA_DIR, 'science.json')
+SCI_SOURCE_FILE = os.path.join(SOURCES_DIR, 'science.json')
 if not os.path.exists(SCI_SOURCE_FILE):
     # Fallback to absolute external path if needed
     SCI_SOURCE_FILE = '/Users/hiijitesh/Downloads/Govt Exams & RRB/A RRB NOTES/A Science Magnet/Chapterwise_Questions/All_Chapters_Questions_Master.json'
@@ -170,7 +170,7 @@ def main():
         print(f"  - {o[0]} Q{o[1]}: {o[2]}")
 
     # Load Top 300 Questions if present
-    top300_file = os.path.join(DATA_DIR, 'top_300_questions_science.json')
+    top300_file = os.path.join(SOURCES_DIR, 'top_300_questions_science.json')
     top300_data = []
     if os.path.exists(top300_file):
         print(f"Loading Top 300 questions from {top300_file}...")

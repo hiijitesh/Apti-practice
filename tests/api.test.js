@@ -114,18 +114,12 @@ describe('API Integration Tests', () => {
 
     assert.ok(data.folderUrl.includes('drive.google.com'));
     assert.ok(Array.isArray(data.pdfs));
-    assert.equal(data.pdfs.length, 4);
+    assert.ok(data.chapters && typeof data.chapters === 'object');
 
-    const pdfIds = data.pdfs.map(p => p.id);
-    assert.ok(pdfIds.includes('bio'));
-    assert.ok(pdfIds.includes('chem'));
-    assert.ok(pdfIds.includes('physics'));
-    assert.ok(pdfIds.includes('top300'));
-
-    data.pdfs.forEach(pdf => {
-      assert.ok(pdf.fileId && pdf.fileId.length > 20);
-      assert.ok(pdf.previewUrl.includes('/preview'));
-      assert.ok(pdf.viewUrl.includes('/view'));
-    });
+    // Verify Science Google Drive preview for chapters
+    const cell = data.chapters['Cell'];
+    assert.ok(cell);
+    assert.equal(cell.subSubject, 'Biology');
+    assert.ok(cell.previewUrl.includes('/preview'));
   });
 });
