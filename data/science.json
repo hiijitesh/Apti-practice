@@ -16553,9 +16553,9 @@
         "q_num": 3,
         "question": "Figure shows a ray of light as it travels from medium A to medium B. Refractive index of the medium B relative to medium A is Refraction of Light",
         "options": {
-          "A": "",
-          "B": "2 3",
-          "C": "1 2",
+          "A": "root3/root2",
+          "B": "2/3",
+          "C": "1/2",
           "D": "2"
         },
         "answer": "D",
@@ -16663,10 +16663,10 @@
         "q_num": 12,
         "question": "The path of a light ray incident on the interface separating two media is shown in the figure given below. The refractive index of medium B with respect to medium A is equal to ___________.",
         "options": {
-          "A": "1 2",
-          "B": "2 2",
+          "A": "1/root(2)",
+          "B": "2root(2)",
           "C": "1",
-          "D": "2"
+          "D": "root(2)"
         },
         "answer": "A",
         "exam_tag": "RRB JE 31.05.2019 (Shift-I)",
