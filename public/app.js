@@ -2909,6 +2909,7 @@ class AptiPrepApp {
 
     const wrapper = document.getElementById('revision-preview-wrapper');
     const label = document.getElementById('revision-zoom-label');
+    const fitBtn = document.getElementById('rev-fit-width-btn');
 
     if (wrapper) {
       wrapper.style.setProperty('--rev-zoom', zoom.toString());
@@ -2916,6 +2917,16 @@ class AptiPrepApp {
     if (label) {
       label.textContent = `${Math.round(zoom * 100)}%`;
     }
+    if (fitBtn) {
+      const isFit = Math.abs(zoom - 1.5) < 0.05;
+      fitBtn.classList.toggle('is-active', isFit);
+      fitBtn.classList.toggle('bg-zinc-100', isFit);
+      fitBtn.classList.toggle('font-bold', isFit);
+    }
+  }
+
+  fitToWidth() {
+    this.setRevisionZoom(1.5);
   }
 
   adjustRevisionZoom(delta) {

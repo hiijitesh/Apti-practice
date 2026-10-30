@@ -370,4 +370,20 @@ button:active:not(:disabled) {
   color: #f4f4f5 !important;
 }
 
+.revision-fullscreen-active #rev-fit-width-btn {
+  color: #d4d4d8 !important;
+  border-left-color: #3f3f46 !important;
+}
+
+.revision-fullscreen-active #rev-fit-width-btn:hover {
+  background-color: #3f3f46 !important;
+  color: #ffffff !important;
+}
+
+.revision-fullscreen-active #rev-fit-width-btn.is-active {
+  background-color: #3f3f46 !important;
+  color: #38bdf8 !important;
+  font-weight: 600 !important;
+}
+
 
