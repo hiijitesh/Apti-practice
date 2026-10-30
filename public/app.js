@@ -683,14 +683,14 @@ class AptiPrepApp {
     if (viewName === 'revision') {
       document.body.classList.add('revision-mode-active');
       if (mainEl) {
-        mainEl.classList.remove('max-w-5xl', 'py-8', 'px-4', 'sm:px-6', 'mx-auto');
+        mainEl.classList.remove('max-w-5xl', 'max-w-7xl', 'xl:max-w-[1440px]', '2xl:max-w-[1600px]', 'py-6', 'sm:py-8', 'py-8', 'px-4', 'sm:px-6', 'lg:px-8', 'mx-auto');
         mainEl.classList.add('max-w-none', 'w-full', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
       }
     } else {
       document.body.classList.remove('revision-mode-active');
       if (mainEl) {
         mainEl.classList.remove('max-w-none', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
-        mainEl.classList.add('max-w-5xl', 'w-full', 'mx-auto', 'py-8', 'px-4', 'sm:px-6');
+        mainEl.classList.add('max-w-7xl', 'xl:max-w-[1440px]', '2xl:max-w-[1600px]', 'w-full', 'mx-auto', 'py-6', 'sm:py-8', 'px-4', 'sm:px-6', 'lg:px-8');
       }
     }
 
