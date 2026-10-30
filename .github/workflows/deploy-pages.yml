@@ -29,15 +29,10 @@ jobs:
         with:
           enablement: true
 
-      - name: Prepare site directory
-        run: |
-          mkdir -p dist
-          cp -r public/* dist/
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: 'public'
 
       - name: Deploy to GitHub Pages
         id: deployment

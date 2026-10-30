@@ -281,3 +281,68 @@ button:active:not(:disabled) {
     z-index: 49;
   }
 }
+
+/* =========================================================
+   CHAPTER REVISION STUDIO & TRUE FULLSCREEN STYLES
+   ========================================================= */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* True Fullscreen Overlay Mode */
+.revision-fullscreen-active {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 99999 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  background-color: #09090b !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-shadow: none !important;
+}
+
+.revision-fullscreen-active .reader-header-bar {
+  background-color: #18181b !important;
+  border-bottom: 1px solid #27272a !important;
+  color: #f4f4f5 !important;
+  padding: 0.6rem 1rem !important;
+}
+
+.revision-fullscreen-active #revision-preview-title {
+  color: #fafafa !important;
+}
+
+.revision-fullscreen-active #revision-preview-file {
+  color: #a1a1aa !important;
+}
+
+.revision-fullscreen-active .reader-ctrl-btn {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+  color: #e4e4e7 !important;
+}
+
+.revision-fullscreen-active .reader-ctrl-btn:hover {
+  background-color: #3f3f46 !important;
+  color: #ffffff !important;
+}
+
+.revision-fullscreen-active #revision-preview-wrapper {
+  flex: 1 1 0% !important;
+  height: calc(100vh - 48px) !important;
+  max-height: calc(100vh - 48px) !important;
+  border-radius: 0 !important;
+}
+

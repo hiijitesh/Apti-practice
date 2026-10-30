@@ -619,7 +619,7 @@ class AptiPrepApp {
   switchView(viewName) {
     this.currentMode = viewName;
     this.updateUserSessionUI();
-    const views = ['login', 'dashboard', 'practice', 'mock', 'results'];
+    const views = ['login', 'dashboard', 'practice', 'mock', 'results', 'revision'];
     views.forEach(v => {
       const el = document.getElementById(`view-${v}`);
       if (el) el.classList.toggle('hidden', v !== viewName);
@@ -627,9 +627,11 @@ class AptiPrepApp {
 
     const btnHome = document.getElementById('nav-btn-home');
     const btnPractice = document.getElementById('nav-btn-practice');
+    const btnRevision = document.getElementById('nav-btn-revision');
 
     if (btnHome) btnHome.classList.toggle('bg-zinc-100', viewName === 'dashboard');
     if (btnPractice) btnPractice.classList.toggle('bg-zinc-100', viewName === 'practice');
+    if (btnRevision) btnRevision.classList.toggle('bg-indigo-100', viewName === 'revision');
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -2211,14 +2213,14 @@ class AptiPrepApp {
   saveAttempt(attempt) {
     try {
       this.attempts.unshift(attempt);
-      
+
       // Save to global attempts array in localStorage
       let all = [];
       try {
         const stored = localStorage.getItem('apti_attempts');
         if (stored) all = JSON.parse(stored);
       } catch (e) {}
-      
+
       all.unshift(attempt);
       localStorage.setItem('apti_attempts', JSON.stringify(all));
     } catch (e) {
@@ -2473,7 +2475,8 @@ class AptiPrepApp {
   }
 
   // ==========================================
-  // REVISION NOTES & CHAPTERWISE PDFS MODAL
+  // VIEW 5: CHAPTERWISE REVISION (NO MODAL)
+  // 1. SELECT SUBJECT -> 2. SELECT CHAPTER -> 3. PDF PREVIEW
   // ==========================================
 
   async loadRevisionMaterials() {
@@ -2497,9 +2500,6 @@ class AptiPrepApp {
         if (data.chapters && typeof data.chapters === 'object') {
           this.revision.chapters = data.chapters;
         }
-        if (Array.isArray(data.masterCompilations)) {
-          this.revision.masterCompilations = data.masterCompilations;
-        }
         if (Array.isArray(data.pdfs)) {
           this.revision.pdfs = data.pdfs;
         }
@@ -2509,183 +2509,225 @@ class AptiPrepApp {
     }
   }
 
-  detectRelevantRevisionChapter() {
-    let activeChap = '';
-    let activeSubj = '';
+  showRevisionView(defaultSubject = 'Biology', defaultChapter = null) {
+    this.revision.returnView = 'dashboard';
+    this.revision.returnInfo = null;
 
-    if (this.currentMode === 'practice' && this.practice.questions.length > 0) {
-      const q = this.practice.questions[this.practice.currentIndex] || {};
-      activeChap = q.chapter || this.practice.chapter || '';
-      activeSubj = q.subSubject || q.subject || '';
-    } else if (this.currentMode === 'mock' && this.mock.questions.length > 0) {
-      const q = this.mock.questions[this.mock.currentIndex] || {};
-      activeChap = q.chapter || '';
-      activeSubj = q.subSubject || q.subject || '';
-    } else if (this.practice && this.practice.chapter) {
-      activeChap = this.practice.chapter;
-    }
+    const returnBtnLabel = document.getElementById('revision-return-btn-label');
+    const testBadge = document.getElementById('revision-test-badge');
 
-    if (activeChap && this.revision.chapters && this.revision.chapters[activeChap]) {
-      return activeChap;
-    }
+    if (returnBtnLabel) returnBtnLabel.textContent = 'Dashboard';
+    if (testBadge) testBadge.classList.add('hidden');
 
-    const subjLow = (activeSubj || '').toLowerCase();
-    if (subjLow.includes('bio')) return 'Cell';
-    if (subjLow.includes('chem')) return 'Chemical Reactions and Equations';
-    if (subjLow.includes('phys')) return 'Electricity';
-    if (activeChap.toLowerCase().includes('top 300')) return 'Top 300 Questions';
-
-    return 'Cell';
+    this.switchView('revision');
+    this.setRevisionSubject(defaultSubject, defaultChapter);
   }
 
-  openRevisionModal(suggestedChapter = null) {
-    if (!this.revision.chapters || Object.keys(this.revision.chapters).length === 0) {
-      this.loadRevisionMaterials();
-    }
+  openRevisionViewFromTest() {
+    const fromMode = this.currentMode;
+    this.revision.returnView = fromMode;
 
-    const modal = document.getElementById('revision-modal');
-    if (!modal) return;
+    let targetSubject = 'Biology';
+    let targetChapter = 'Cell';
+    let returnLabel = 'Return to Test';
 
-    const targetChapter = suggestedChapter || this.detectRelevantRevisionChapter();
-    this.revision.activeChapter = targetChapter;
-    this.revision.currentDisciplineFilter = 'all';
+    if (fromMode === 'practice') {
+      const qNum = this.practice.currentIndex + 1;
+      const q = this.practice.questions[this.practice.currentIndex] || {};
+      const activeChap = q.chapter || this.practice.chapter || '';
+      const activeSubj = (q.subSubject || q.subject || '').toLowerCase();
 
-    const contextLabel = document.getElementById('revision-current-test-context');
-    if (contextLabel) {
-      if (this.currentMode === 'practice') {
-        contextLabel.textContent = `Testing: ${this.practice.chapter || 'Chapter Test'} (Q${this.practice.currentIndex + 1})`;
-      } else if (this.currentMode === 'mock') {
-        const q = this.mock.questions[this.mock.currentIndex];
-        contextLabel.textContent = `Mock Exam: Q${this.mock.currentIndex + 1} (${q ? q.chapter : ''})`;
-      } else {
-        contextLabel.textContent = '';
+      returnLabel = `Return to Test (Q${qNum})`;
+
+      if (activeChap && this.revision.chapters && this.revision.chapters[activeChap]) {
+        targetChapter = activeChap;
+        targetSubject = this.revision.chapters[activeChap].subSubject || 'Biology';
+      } else if (activeSubj.includes('chem')) {
+        targetSubject = 'Chemistry';
+        targetChapter = 'Acids, Bases and Salt';
+      } else if (activeSubj.includes('phys')) {
+        targetSubject = 'Physics';
+        targetChapter = 'Electricity';
+      } else if (activeChap.toLowerCase().includes('top 300')) {
+        targetSubject = 'top300';
+        targetChapter = 'Top 300 Questions';
+      }
+    } else if (fromMode === 'mock') {
+      const qNum = this.mock.currentIndex + 1;
+      const q = this.mock.questions[this.mock.currentIndex] || {};
+      const activeChap = q.chapter || '';
+      const activeSubj = (q.subSubject || q.subject || '').toLowerCase();
+
+      returnLabel = `Return to Mock (Q${qNum})`;
+
+      if (activeChap && this.revision.chapters && this.revision.chapters[activeChap]) {
+        targetChapter = activeChap;
+        targetSubject = this.revision.chapters[activeChap].subSubject || 'Biology';
+      } else if (activeSubj.includes('chem')) {
+        targetSubject = 'Chemistry';
+        targetChapter = 'Acids, Bases and Salt';
+      } else if (activeSubj.includes('phys')) {
+        targetSubject = 'Physics';
+        targetChapter = 'Electricity';
+      } else if (activeChap.toLowerCase().includes('top 300')) {
+        targetSubject = 'top300';
+        targetChapter = 'Top 300 Questions';
       }
     }
 
-    this.populateRevisionChapterDropdown('all');
-    this.switchRevisionChapter(targetChapter);
-    modal.classList.remove('hidden');
+    const returnBtnLabel = document.getElementById('revision-return-btn-label');
+    const testBadge = document.getElementById('revision-test-badge');
+
+    if (returnBtnLabel) returnBtnLabel.textContent = returnLabel;
+    if (testBadge) testBadge.classList.remove('hidden');
+
+    this.switchView('revision');
+    this.setRevisionSubject(targetSubject, targetChapter);
   }
 
-  populateRevisionChapterDropdown(discipline = 'all') {
-    const dd = document.getElementById('revision-chapter-dropdown');
-    if (!dd) return;
-
-    const chaptersMap = this.revision.chapters || {};
-    const chList = Object.values(chaptersMap);
-
-    let filtered = chList;
-    if (discipline === 'Biology') {
-      filtered = chList.filter(c => c.subSubject === 'Biology');
-    } else if (discipline === 'Chemistry') {
-      filtered = chList.filter(c => c.subSubject === 'Chemistry');
-    } else if (discipline === 'Physics') {
-      filtered = chList.filter(c => c.subSubject === 'Physics');
-    } else if (discipline === 'top300') {
-      filtered = chList.filter(c => c.chapter === 'Top 300 Questions');
-    } else if (discipline === 'master') {
-      filtered = this.revision.masterCompilations || [];
-    }
-
-    if (discipline === 'all') {
-      const groups = {
-        'Biology (16)': chList.filter(c => c.subSubject === 'Biology'),
-        'Chemistry (8)': chList.filter(c => c.subSubject === 'Chemistry'),
-        'Physics (10)': chList.filter(c => c.subSubject === 'Physics'),
-        'High-Yield Series': chList.filter(c => c.chapter === 'Top 300 Questions'),
-        'Master Full Books': this.revision.masterCompilations || []
-      };
-
-      let html = '';
-      Object.entries(groups).forEach(([grpName, items]) => {
-        if (items.length > 0) {
-          html += `<optgroup label="${grpName}">`;
-          items.forEach(item => {
-            const val = item.chapter || item.title;
-            html += `<option value="${val}">${item.icon || '📄'} ${item.chapter || item.shortTitle || item.title}</option>`;
-          });
-          html += `</optgroup>`;
-        }
-      });
-      dd.innerHTML = html;
+  exitRevisionView() {
+    if (this.revision.returnView === 'practice') {
+      this.switchView('practice');
+    } else if (this.revision.returnView === 'mock') {
+      this.switchView('mock');
     } else {
-      dd.innerHTML = filtered.map(item => {
-        const val = item.chapter || item.title;
-        return `<option value="${val}">${item.icon || '📄'} ${item.chapter || item.shortTitle || item.title}</option>`;
-      }).join('');
+      this.showDashboard();
     }
   }
 
-  filterRevisionDiscipline(discipline) {
-    this.revision.currentDisciplineFilter = discipline;
+  setRevisionSubject(subject, preferredChapter = null) {
+    this.revision.activeSubject = subject;
 
-    const discButtons = {
-      'all': document.getElementById('rev-disc-all'),
-      'Biology': document.getElementById('rev-disc-bio'),
-      'Chemistry': document.getElementById('rev-disc-chem'),
-      'Physics': document.getElementById('rev-disc-phys'),
-      'top300': document.getElementById('rev-disc-top300'),
-      'master': document.getElementById('rev-disc-master')
+    const subjButtons = {
+      'Biology': document.getElementById('rev-subj-btn-Biology'),
+      'Chemistry': document.getElementById('rev-subj-btn-Chemistry'),
+      'Physics': document.getElementById('rev-subj-btn-Physics'),
+      'top300': document.getElementById('rev-subj-btn-top300')
     };
 
-    Object.entries(discButtons).forEach(([key, btn]) => {
+    const subjDisplayNames = {
+      'Biology': 'General Science — Biology',
+      'Chemistry': 'General Science — Chemistry',
+      'Physics': 'General Science — Physics',
+      'top300': 'RRB Top 300 Series'
+    };
+
+    const subjLabel = document.getElementById('revision-selected-subj-label');
+    if (subjLabel) subjLabel.textContent = subjDisplayNames[subject] || subject;
+
+    // Style active subject button
+    Object.entries(subjButtons).forEach(([key, btn]) => {
       if (!btn) return;
-      if (key === discipline) {
-        btn.className = 'px-2.5 py-1 rounded-md text-[11px] font-semibold bg-zinc-900 text-white transition whitespace-nowrap shadow-xs';
+      if (key === subject) {
+        btn.classList.add('border-zinc-900', 'ring-2', 'ring-zinc-900', 'bg-zinc-50', 'shadow-xs');
+        btn.classList.remove('border-zinc-200');
       } else {
-        btn.className = 'px-2.5 py-1 rounded-md text-[11px] font-medium text-zinc-600 hover:text-zinc-900 hover:bg-zinc-200/80 transition whitespace-nowrap';
+        btn.classList.remove('border-zinc-900', 'ring-2', 'ring-zinc-900', 'bg-zinc-50', 'shadow-xs');
+        btn.classList.add('border-zinc-200');
       }
     });
 
-    this.populateRevisionChapterDropdown(discipline);
+    this.renderRevisionChapterButtons(subject, preferredChapter);
+  }
 
-    const dd = document.getElementById('revision-chapter-dropdown');
-    if (dd && dd.options.length > 0) {
-      this.switchRevisionChapter(dd.options[0].value);
+  renderRevisionChapterButtons(subject, preferredChapter = null) {
+    const container = document.getElementById('revision-chapter-buttons-container');
+    const countLabel = document.getElementById('revision-chapter-count-label');
+    if (!container) return;
+
+    const chaptersMap = this.revision.chapters || {};
+    let chList = Object.values(chaptersMap);
+
+    if (subject === 'Biology') {
+      chList = chList.filter(c => c.subSubject === 'Biology');
+    } else if (subject === 'Chemistry') {
+      chList = chList.filter(c => c.subSubject === 'Chemistry');
+    } else if (subject === 'Physics') {
+      chList = chList.filter(c => c.subSubject === 'Physics');
+    } else if (subject === 'top300') {
+      chList = chList.filter(c => c.chapter === 'Top 300 Questions');
+    }
+
+    if (countLabel) countLabel.textContent = `${chList.length} Chapters`;
+
+    chList.sort((a, b) => a.chapter.localeCompare(b.chapter));
+
+    let chosen = preferredChapter && chList.find(c => c.chapter === preferredChapter)
+      ? preferredChapter
+      : (chList[0] ? chList[0].chapter : null);
+
+    this.revision.activeChapter = chosen;
+
+    container.innerHTML = chList.map(item => {
+      const isSelected = item.chapter === chosen;
+      const cls = isSelected
+        ? 'p-2.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center justify-between text-left transition select-none'
+        : 'p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50 bg-white text-zinc-800 font-medium flex items-center justify-between text-left transition select-none';
+
+      return `
+        <button onclick="app.selectRevisionChapter('${item.chapter.replace(/'/g, "\\'")}')" class="${cls}">
+          <div class="truncate pr-1">
+            <span class="mr-1">${item.icon || '📄'}</span>
+            <span class="text-xs truncate">${item.chapter}</span>
+          </div>
+          <span class="text-[10px] ${isSelected ? 'text-zinc-300' : 'text-zinc-400'} font-mono">&rarr;</span>
+        </button>
+      `;
+    }).join('');
+
+    if (chosen) {
+      this.selectRevisionChapter(chosen);
     }
   }
 
-  switchRevisionChapter(chapterName) {
+  selectRevisionChapter(chapterName) {
     const chaptersMap = this.revision.chapters || {};
-    let info = chaptersMap[chapterName];
-
-    if (!info && this.revision.masterCompilations) {
-      info = this.revision.masterCompilations.find(m => (m.chapter === chapterName || m.title === chapterName));
-    }
-
+    const info = chaptersMap[chapterName];
     if (!info) return;
 
     this.revision.activeChapter = chapterName;
 
-    const dd = document.getElementById('revision-chapter-dropdown');
-    if (dd && dd.value !== chapterName) {
-      dd.value = chapterName;
+    // Update active highlight in chapter buttons
+    const container = document.getElementById('revision-chapter-buttons-container');
+    if (container) {
+      const buttons = container.querySelectorAll('button');
+      buttons.forEach(btn => {
+        const text = btn.textContent || '';
+        const match = text.includes(chapterName);
+        if (match) {
+          btn.className = 'p-2.5 rounded-lg bg-zinc-900 text-white font-semibold shadow-xs flex items-center justify-between text-left transition select-none';
+        } else {
+          btn.className = 'p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-300 hover:bg-zinc-50 bg-white text-zinc-800 font-medium flex items-center justify-between text-left transition select-none';
+        }
+      });
     }
 
-    const titleEl = document.getElementById('revision-modal-title');
-    const badgeEl = document.getElementById('revision-badge-discipline');
-    const filenameEl = document.getElementById('revision-active-filename');
+    // Step 3: Update Preview Header Info
+    const titleEl = document.getElementById('revision-preview-title');
+    const badgeEl = document.getElementById('revision-preview-badge');
+    const fileEl = document.getElementById('revision-preview-file');
 
     if (titleEl) titleEl.textContent = info.title || `${chapterName} Revision Notes`;
-    if (filenameEl) filenameEl.textContent = info.fileName || `${chapterName}.pdf`;
+    if (fileEl) fileEl.textContent = info.fileName || `${chapterName}.pdf`;
 
     if (badgeEl) {
       const disc = info.subSubject || 'General Science';
       badgeEl.textContent = disc;
       if (disc === 'Biology') {
-        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 shrink-0';
+        badgeEl.className = 'text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 shrink-0';
       } else if (disc === 'Chemistry') {
-        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-sky-100 text-sky-800 shrink-0';
+        badgeEl.className = 'text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-sky-100 text-sky-800 shrink-0';
       } else if (disc === 'Physics') {
-        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-violet-100 text-violet-800 shrink-0';
+        badgeEl.className = 'text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-violet-100 text-violet-800 shrink-0';
       } else {
-        badgeEl.className = 'text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 shrink-0';
+        badgeEl.className = 'text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-100 text-amber-800 shrink-0';
       }
     }
 
-    const iframe = document.getElementById('revision-iframe');
-    const loader = document.getElementById('revision-iframe-loader');
-    const loaderText = document.getElementById('revision-loader-text');
+    // Load PDF in on-page iframe
+    const iframe = document.getElementById('revision-view-iframe');
+    const loader = document.getElementById('revision-view-loader');
+    const loaderText = document.getElementById('revision-view-loader-text');
 
     const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
 
@@ -2698,37 +2740,35 @@ class AptiPrepApp {
       if (iframe.src !== previewUrl) {
         iframe.src = previewUrl;
       } else {
-        setTimeout(() => this.handleRevisionIframeLoaded(), 300);
+        setTimeout(() => this.handleRevisionViewIframeLoaded(), 300);
       }
 
-      setTimeout(() => this.handleRevisionIframeLoaded(), 2500);
+      setTimeout(() => this.handleRevisionViewIframeLoaded(), 2500);
     }
   }
 
-  handleRevisionIframeLoaded() {
-    const loader = document.getElementById('revision-iframe-loader');
+  handleRevisionViewIframeLoaded() {
+    const loader = document.getElementById('revision-view-loader');
     if (loader) {
       loader.classList.add('opacity-0', 'pointer-events-none');
     }
   }
 
-  toggleRevisionMaximize() {
-    const card = document.getElementById('revision-modal-card');
-    if (!card) return;
+  toggleRevisionPreviewHeight() {
+    const wrapper = document.getElementById('revision-preview-wrapper');
+    const label = document.getElementById('rev-height-btn-label');
+    if (!wrapper) return;
 
-    this.revision.isMaximized = !this.revision.isMaximized;
-    if (this.revision.isMaximized) {
-      card.classList.remove('max-w-5xl', 'h-[92vh]');
-      card.classList.add('max-w-[98vw]', 'h-[98vh]', 'rounded-xl');
+    this.revision.isExpanded = !this.revision.isExpanded;
+    if (this.revision.isExpanded) {
+      wrapper.classList.remove('h-[72vh]');
+      wrapper.classList.add('h-[92vh]');
+      if (label) label.textContent = 'Collapse View';
     } else {
-      card.classList.remove('max-w-[98vw]', 'h-[98vh]', 'rounded-xl');
-      card.classList.add('max-w-5xl', 'h-[92vh]', 'rounded-2xl');
+      wrapper.classList.remove('h-[92vh]');
+      wrapper.classList.add('h-[72vh]');
+      if (label) label.textContent = 'Expand View';
     }
-  }
-
-  closeRevisionModal() {
-    const modal = document.getElementById('revision-modal');
-    if (modal) modal.classList.add('hidden');
   }
 }
 

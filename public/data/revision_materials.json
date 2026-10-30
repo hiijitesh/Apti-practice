@@ -355,56 +355,6 @@
       "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
     }
   },
-  "masterCompilations": [
-    {
-      "id": "bio_full",
-      "chapter": "Biology Full Book",
-      "title": "General Science — Biology Full Book",
-      "shortTitle": "Biology Full Book",
-      "icon": "🧬",
-      "subject": "General Science",
-      "subSubject": "Biology",
-      "fileId": "1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa",
-      "fileName": "Bio.pdf",
-      "previewUrl": "https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/preview"
-    },
-    {
-      "id": "chem_full",
-      "chapter": "Chemistry Full Book",
-      "title": "General Science — Chemistry Full Book",
-      "shortTitle": "Chemistry Full Book",
-      "icon": "🧪",
-      "subject": "General Science",
-      "subSubject": "Chemistry",
-      "fileId": "12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ",
-      "fileName": "Chemistry.pdf",
-      "previewUrl": "https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/preview"
-    },
-    {
-      "id": "physics_full",
-      "chapter": "Physics Full Book",
-      "title": "General Science — Physics Full Book",
-      "shortTitle": "Physics Full Book",
-      "icon": "⚡",
-      "subject": "General Science",
-      "subSubject": "Physics",
-      "fileId": "1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC",
-      "fileName": "Physics.pdf",
-      "previewUrl": "https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/preview"
-    },
-    {
-      "id": "top300_full",
-      "chapter": "Top 300 Questions",
-      "title": "RRB Top 300 Questions Full PDF",
-      "shortTitle": "Top 300 Qs",
-      "icon": "🔥",
-      "subject": "General Science",
-      "subSubject": "Top 300 Questions",
-      "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
-      "fileName": "Top 300 Questions.pdf",
-      "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
-    }
-  ],
   "pdfs": [
     {
       "chapter": "Blood",
@@ -754,54 +704,6 @@
       "title": "RRB Top 300 Questions & Revision Series",
       "fileName": "Top 300 Questions.pdf",
       "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
-      "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
-    },
-    {
-      "id": "bio_full",
-      "chapter": "Biology Full Book",
-      "title": "General Science — Biology Full Book",
-      "shortTitle": "Biology Full Book",
-      "icon": "🧬",
-      "subject": "General Science",
-      "subSubject": "Biology",
-      "fileId": "1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa",
-      "fileName": "Bio.pdf",
-      "previewUrl": "https://drive.google.com/file/d/1mqZJgP8LH1J0zJ13rM6A964KY4IZMqMa/preview"
-    },
-    {
-      "id": "chem_full",
-      "chapter": "Chemistry Full Book",
-      "title": "General Science — Chemistry Full Book",
-      "shortTitle": "Chemistry Full Book",
-      "icon": "🧪",
-      "subject": "General Science",
-      "subSubject": "Chemistry",
-      "fileId": "12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ",
-      "fileName": "Chemistry.pdf",
-      "previewUrl": "https://drive.google.com/file/d/12Ryv0MCcj2BU9mmMOg1E7mQslcrfrukQ/preview"
-    },
-    {
-      "id": "physics_full",
-      "chapter": "Physics Full Book",
-      "title": "General Science — Physics Full Book",
-      "shortTitle": "Physics Full Book",
-      "icon": "⚡",
-      "subject": "General Science",
-      "subSubject": "Physics",
-      "fileId": "1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC",
-      "fileName": "Physics.pdf",
-      "previewUrl": "https://drive.google.com/file/d/1jhd9YapFc2GGoJ1IDPoL6gZ7xffMEoGC/preview"
-    },
-    {
-      "id": "top300_full",
-      "chapter": "Top 300 Questions",
-      "title": "RRB Top 300 Questions Full PDF",
-      "shortTitle": "Top 300 Qs",
-      "icon": "🔥",
-      "subject": "General Science",
-      "subSubject": "Top 300 Questions",
-      "fileId": "1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl",
-      "fileName": "Top 300 Questions.pdf",
       "previewUrl": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/preview"
     }
   ]
