@@ -358,30 +358,118 @@ button:active:not(:disabled) {
   transform: none !important;
 }
 
-/* Revision View Studio Sizing & Full Viewport */
-#revision-workspace-container {
-  height: calc(100vh - 120px) !important;
-  min-height: 560px !important;
+/* ========================================================
+   REVISION MODE: FULL-WIDTH EDGE-TO-EDGE STUDIO (ZERO WHITE SPACES)
+   ======================================================== */
+body.revision-mode-active {
+  overflow: hidden !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #09090b !important;
+}
+
+body.revision-mode-active header {
+  flex-shrink: 0 !important;
+  border-bottom: 1px solid #e4e4e7 !important;
+  background-color: #ffffff !important;
+  z-index: 30 !important;
+}
+
+body.revision-mode-active header > div {
+  max-width: 100% !important;
   width: 100% !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+body.revision-mode-active main {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: calc(100vh - 3.5rem) !important;
+  max-height: calc(100vh - 3.5rem) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+body.revision-mode-active footer {
+  display: none !important;
+}
+
+body.revision-mode-active #view-revision {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Slim Revision Toolbar directly below navbar */
+#revision-toolbar {
+  width: 100% !important;
+  height: 42px !important;
+  min-height: 42px !important;
+  flex-shrink: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e4e4e7 !important;
+  padding: 0 1rem !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Revision Workspace: Fills 100% width and full remaining viewport height */
+#revision-workspace-container {
+  width: 100% !important;
+  height: calc(100% - 42px) !important;
+  flex: 1 1 0% !important;
+  min-height: 0 !important;
   position: relative !important;
-  background-color: #18181b !important;
+  background-color: #09090b !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
 }
 
 #revision-reader-container {
   width: 100% !important;
   height: 100% !important;
+  min-height: 0 !important;
   display: flex !important;
   flex-direction: column !important;
   flex: 1 1 0% !important;
-  background-color: #18181b !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #09090b !important;
 }
 
 #revision-preview-wrapper {
   width: 100% !important;
   height: 100% !important;
+  min-height: 0 !important;
   flex: 1 1 0% !important;
   position: relative !important;
-  background-color: #18181b !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: #09090b !important;
 }
 
 #revision-view-iframe {
@@ -390,7 +478,10 @@ button:active:not(:disabled) {
   min-height: 100% !important;
   border: 0 !important;
   display: block !important;
-  background-color: #ffffff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background-color: #09090b !important;
 }
 
 

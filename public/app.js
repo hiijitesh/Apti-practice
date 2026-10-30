@@ -678,17 +678,19 @@ class AptiPrepApp {
       if (el) el.classList.toggle('hidden', v !== viewName);
     });
 
-    // Adapt main container padding: flush beneath navbar in revision view, centered with navbar
+    // Adapt layout: full-width edge-to-edge studio for revision view (zero side gutters, zero scrolling)
     const mainEl = document.querySelector('main');
-    if (mainEl) {
-      if (viewName === 'revision') {
-        mainEl.classList.remove('py-8');
-        mainEl.classList.add('py-1.5', 'sm:py-2');
-        document.body.classList.add('overflow-y-hidden');
-      } else {
-        mainEl.classList.remove('py-1.5', 'sm:py-2');
-        mainEl.classList.add('py-8');
-        document.body.classList.remove('overflow-y-hidden');
+    if (viewName === 'revision') {
+      document.body.classList.add('revision-mode-active');
+      if (mainEl) {
+        mainEl.classList.remove('max-w-5xl', 'py-8', 'px-4', 'sm:px-6', 'mx-auto');
+        mainEl.classList.add('max-w-none', 'w-full', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
+      }
+    } else {
+      document.body.classList.remove('revision-mode-active');
+      if (mainEl) {
+        mainEl.classList.remove('max-w-none', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
+        mainEl.classList.add('max-w-5xl', 'w-full', 'mx-auto', 'py-8', 'px-4', 'sm:px-6');
       }
     }
 
@@ -700,7 +702,7 @@ class AptiPrepApp {
     if (btnPractice) btnPractice.classList.toggle('bg-zinc-100', viewName === 'practice');
     if (btnRevision) btnRevision.classList.toggle('bg-indigo-100', viewName === 'revision');
 
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   showDashboard() {
@@ -2674,6 +2676,7 @@ class AptiPrepApp {
   exitRevisionView() {
     this.toggleRevisionFullscreen(false);
     this.setRevisionSidebarOpen(false);
+    document.body.classList.remove('revision-mode-active');
     document.body.classList.remove('overflow-y-hidden');
 
     if (this.revision.returnView === 'practice') {
@@ -2836,7 +2839,10 @@ class AptiPrepApp {
     if (titleEl) titleEl.textContent = info.title || `${chapterName} Revision Notes`;
     if (fileEl) fileEl.textContent = info.fileName || `${chapterName}.pdf`;
 
-    const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
+    let previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
+    if (!previewUrl.includes('#')) {
+      previewUrl += '#view=FitH';
+    }
 
     if (badgeEl) {
       const disc = info.subSubject || 'General Science';

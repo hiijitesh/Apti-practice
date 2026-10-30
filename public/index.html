@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css?v=2.5.0">
+  <link rel="stylesheet" href="style.css?v=3.0.0">
   <script>
     // Instant anti-flicker router: determines initial view before layout paint
     (function() {
@@ -708,30 +708,30 @@
     <!-- VIEW 5: CHAPTERWISE REVISION (ULTRA-CLEAN VIEWPORT STUDIO) -->
     <section id="view-revision" class="h-full flex flex-col space-y-0 hidden">
 
-      <!-- Single Ultra-Compact Toolbar Directly Below Navbar -->
-      <div class="bg-white border border-zinc-200 rounded-xl px-2 sm:px-3 py-1.5 flex flex-wrap sm:flex-nowrap items-center justify-between gap-1.5 sm:gap-2 shadow-2xs shrink-0 mb-1.5">
+      <!-- Single Ultra-Compact Full-Width Toolbar Directly Below Navbar -->
+      <div class="bg-white border border-zinc-200 rounded-xl px-2.5 sm:px-3 py-1.5 flex items-center justify-between gap-2 shadow-2xs shrink-0 mb-1.5 w-full">
 
         <!-- Left: Exit Button & Subject Tabs -->
-        <div class="flex items-center gap-1.5 min-w-0">
+        <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <button onclick="app.exitRevisionView()" id="revision-return-btn" class="px-2.5 py-1 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-700 text-xs font-semibold transition flex items-center gap-1 shrink-0" title="Return">
             <span>&larr;</span>
             <span id="revision-return-btn-label">Dashboard</span>
           </button>
 
-          <span class="text-zinc-200 hidden xs:inline">|</span>
+          <span class="text-zinc-200 hidden sm:inline">|</span>
 
           <!-- Subject Selector Tabs -->
           <div class="flex items-center gap-1 overflow-x-auto no-scrollbar shrink-0" id="revision-subject-pills">
-            <button onclick="app.setRevisionSubject('Biology')" id="rev-subj-btn-Biology" class="px-2.5 py-1 rounded-md text-xs font-semibold transition border border-zinc-900 bg-zinc-900 text-white shadow-2xs whitespace-nowrap">
-              🧬 Bio <span class="opacity-75 font-normal hidden sm:inline">(16)</span>
+            <button onclick="app.setRevisionSubject('Biology')" id="rev-subj-btn-Biology" class="px-2 py-1 rounded-md text-xs font-semibold transition border border-zinc-900 bg-zinc-900 text-white shadow-2xs whitespace-nowrap">
+              🧬 Bio <span class="opacity-75 font-normal hidden md:inline">(16)</span>
             </button>
-            <button onclick="app.setRevisionSubject('Chemistry')" id="rev-subj-btn-Chemistry" class="px-2.5 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
-              🧪 Chem <span class="opacity-75 font-normal hidden sm:inline">(8)</span>
+            <button onclick="app.setRevisionSubject('Chemistry')" id="rev-subj-btn-Chemistry" class="px-2 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
+              🧪 Chem <span class="opacity-75 font-normal hidden md:inline">(8)</span>
             </button>
-            <button onclick="app.setRevisionSubject('Physics')" id="rev-subj-btn-Physics" class="px-2.5 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
-              ⚡ Phys <span class="opacity-75 font-normal hidden sm:inline">(10)</span>
+            <button onclick="app.setRevisionSubject('Physics')" id="rev-subj-btn-Physics" class="px-2 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
+              ⚡ Phys <span class="opacity-75 font-normal hidden md:inline">(10)</span>
             </button>
-            <button onclick="app.setRevisionSubject('top300')" id="rev-subj-btn-top300" class="px-2.5 py-1 rounded-md text-xs font-semibold transition border border-amber-200 bg-amber-50/70 hover:bg-amber-100 text-amber-800 whitespace-nowrap">
+            <button onclick="app.setRevisionSubject('top300')" id="rev-subj-btn-top300" class="px-2 py-1 rounded-md text-xs font-semibold transition border border-amber-200 bg-amber-50/70 hover:bg-amber-100 text-amber-800 whitespace-nowrap">
               🔥 Top 300
             </button>
           </div>
@@ -741,8 +741,8 @@
           </span>
         </div>
 
-        <!-- Center: Redesigned Interactive Chapter Selector Button -->
-        <div class="flex items-center gap-1 min-w-0 flex-1 max-w-xs sm:max-w-sm justify-center order-3 sm:order-2 w-full sm:w-auto">
+        <!-- Center: Interactive Chapter Selector Button -->
+        <div class="flex items-center gap-1 min-w-0 flex-1 max-w-[220px] sm:max-w-xs md:max-w-sm justify-center mx-1 sm:mx-2">
           <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="w-full px-2.5 py-1 text-xs font-semibold rounded-lg border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 text-zinc-800 transition flex items-center justify-between gap-1.5 shadow-2xs group" title="Click to browse all chapters (C)">
             <div class="flex items-center gap-1.5 min-w-0 truncate">
               <span class="text-xs">📖</span>
@@ -753,16 +753,16 @@
         </div>
 
         <!-- Right: Chapter Navigation & Fullscreen Controls -->
-        <div class="flex items-center gap-1 sm:gap-1.5 shrink-0 order-2 sm:order-3">
+        <div class="flex items-center gap-1 sm:gap-1.5 shrink-0">
           <button onclick="app.prevRevisionChapter()" id="rev-btn-prev" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 transition flex items-center gap-1" title="Previous Chapter (&larr;)">
             <span>&larr;</span>
-            <span class="hidden md:inline">Prev</span>
+            <span class="hidden sm:inline">Prev</span>
           </button>
           <button onclick="app.nextRevisionChapter()" id="rev-btn-next" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 transition flex items-center gap-1" title="Next Chapter (&rarr;)">
-            <span class="hidden md:inline">Next</span>
+            <span class="hidden sm:inline">Next</span>
             <span>&rarr;</span>
           </button>
-          <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2 sm:px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1 shadow-2xs" title="Full Screen (F)">
+          <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1.5 shadow-2xs" title="Full Screen (F)">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
             <span class="hidden sm:inline">Full</span>
           </button>
