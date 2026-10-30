@@ -101,6 +101,10 @@ class AptiPrepApp {
     this.setupFullscreenListeners();
     this.updateSheetStatusUI();
 
+    if (window.AptiPrep && window.AptiPrep.EventRouter) {
+      this.eventRouter = new window.AptiPrep.EventRouter(this);
+    }
+
     document.addEventListener('click', (e) => {
       const header = document.getElementById('global-header');
       if (header && !header.contains(e.target)) {
