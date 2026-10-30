@@ -702,6 +702,7 @@ class AptiPrepApp {
   switchView(viewName) {
     if (this.currentMode === 'revision' && viewName !== 'revision') {
       this.toggleRevisionFullscreen(false);
+      this.toggleZenMode(false);
     }
 
     this.currentMode = viewName;
@@ -720,12 +721,14 @@ class AptiPrepApp {
         mainEl.classList.remove('py-6', 'sm:py-8');
         mainEl.classList.add('py-2', 'sm:py-3');
       }
+      this.toggleZenMode(true);
     } else {
       document.body.classList.remove('overflow-y-hidden');
       if (mainEl) {
         mainEl.classList.remove('py-2', 'sm:py-3');
         mainEl.classList.add('py-6', 'sm:py-8');
       }
+      this.toggleZenMode(false);
     }
 
     const btnHome = document.getElementById('nav-btn-home');
