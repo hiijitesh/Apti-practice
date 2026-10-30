@@ -1010,8 +1010,8 @@ class AptiPrepApp {
     const btnTop300 = document.getElementById('filter-btn-top300');
     const subBar = document.getElementById('subsubject-filter-bar');
 
-    const activeClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-zinc-900 text-white shadow-xs';
-    const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300';
+    const activeClass = 'px-2.5 py-1 rounded-md text-xs font-semibold transition btn-primary shadow-xs';
+    const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition btn-secondary border border-zinc-200 text-zinc-600 hover:text-zinc-900';
     const activeTop300 = 'px-2.5 py-1 rounded-md text-xs font-semibold transition bg-amber-600 text-white shadow-xs border border-amber-600';
     const inactiveTop300 = 'px-2.5 py-1 rounded-md text-xs font-semibold transition bg-amber-50 border border-amber-200 text-amber-800 hover:bg-amber-100';
 
@@ -1519,8 +1519,8 @@ class AptiPrepApp {
 
       if (isTestMode) {
         if (selected === idx) {
-          cardStyle = 'border-zinc-900 bg-zinc-50/80 text-zinc-900 font-medium ring-2 ring-zinc-900 shadow-sm';
-          iconStyle = 'bg-zinc-900 text-white border-zinc-900 font-bold';
+          cardStyle = 'border-indigo-500 bg-indigo-50/90 text-indigo-950 font-semibold ring-2 ring-indigo-500/30 shadow-xs hover:bg-indigo-100 hover:border-indigo-600';
+          iconStyle = 'btn-primary text-white font-bold shadow-xs';
         }
       } else {
         if (selected !== undefined && selected !== null) {
@@ -1671,7 +1671,7 @@ class AptiPrepApp {
 
       if (isAnswered) {
         if (isTestMode) {
-          btnClass = 'bg-zinc-900 text-white font-medium border-zinc-900';
+          btnClass = 'bg-indigo-100 text-indigo-900 font-semibold border-indigo-300 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 transition';
         } else {
           btnClass = (selected === q.correctAnswer)
             ? 'bg-emerald-600 text-white font-medium border-emerald-600'
@@ -1679,7 +1679,7 @@ class AptiPrepApp {
         }
       }
 
-      const ringClass = isCurrent ? 'ring-2 ring-zinc-800 ring-offset-1' : '';
+      const ringClass = isCurrent ? 'ring-2 ring-indigo-600 ring-offset-1 font-bold' : '';
 
       return `
         <button onclick="app.jumpPracticeQuestion(${idx})"
@@ -2000,11 +2000,11 @@ class AptiPrepApp {
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
       const isSelected = (selectedOption === idx);
       const cardStyle = isSelected
-        ? 'border-zinc-900 bg-zinc-50/80 text-zinc-900 font-medium ring-2 ring-zinc-900 shadow-sm'
-        : 'border-zinc-200 hover:border-zinc-400 bg-white text-zinc-900 shadow-xs';
+        ? 'border-indigo-500 bg-indigo-50/90 text-indigo-950 font-semibold ring-2 ring-indigo-500/30 shadow-xs hover:bg-indigo-100 hover:border-indigo-600'
+        : 'border-zinc-200 hover:border-indigo-300 hover:bg-indigo-50/40 bg-white text-zinc-900 shadow-xs';
 
       const iconStyle = isSelected
-        ? 'bg-zinc-900 text-white border-zinc-900 font-bold'
+        ? 'btn-primary text-white font-bold shadow-xs'
         : 'border border-zinc-200 text-zinc-600 bg-zinc-50';
 
       return `
@@ -2117,10 +2117,10 @@ class AptiPrepApp {
       if (isReview) {
         btnClass = 'bg-amber-400 text-zinc-950 font-medium border-amber-500';
       } else if (isAnswered) {
-        btnClass = 'bg-zinc-900 text-white font-medium border-zinc-900';
+        btnClass = 'bg-indigo-100 text-indigo-900 font-semibold border-indigo-300 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 transition';
       }
 
-      const ringClass = isCurrent ? 'ring-2 ring-zinc-800 ring-offset-1' : '';
+      const ringClass = isCurrent ? 'ring-2 ring-indigo-600 ring-offset-1 font-bold' : '';
 
       return `
         <button onclick="app.jumpMockQuestion(${idx})"

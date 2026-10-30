@@ -9,6 +9,109 @@
   --border-focus: #18181b;
   --text-main: #09090b;
   --text-muted: #71717a;
+
+  /* Global Button Design System: Premium Indigo / Royal Accent */
+  --btn-primary-bg: #5651b9;
+  --btn-primary-bg-hover: #4338ca;
+  --btn-primary-bg-active: #3730a3;
+  --btn-primary-text: #ffffff;
+  --btn-primary-border: #4338ca;
+  --btn-primary-shadow: 0 1px 3px 0 rgba(79, 70, 229, 0.28), 0 1px 2px -1px rgba(79, 70, 229, 0.2);
+  --btn-primary-shadow-hover: 0 4px 6px -1px rgba(79, 70, 229, 0.35), 0 2px 4px -2px rgba(79, 70, 229, 0.25);
+
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-bg-hover: #f8fafc;
+  --btn-secondary-bg-active: #f1f5f9;
+  --btn-secondary-text: #27272a;
+  --btn-secondary-border: #e4e4e7;
+  --btn-secondary-border-hover: #cbd5e1;
+  --btn-secondary-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Global Primary Button */
+.btn-primary {
+  background-color: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-text) !important;
+  border-color: var(--btn-primary-border) !important;
+  box-shadow: var(--btn-primary-shadow) !important;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: var(--btn-primary-bg-hover) !important;
+  border-color: var(--btn-primary-bg-hover) !important;
+  box-shadow: var(--btn-primary-shadow-hover) !important;
+  color: var(--btn-primary-text) !important;
+}
+
+.btn-primary:active:not(:disabled) {
+  background-color: var(--btn-primary-bg-active) !important;
+  box-shadow: var(--btn-primary-shadow) !important;
+}
+
+/* Global Secondary Button (support both spellings) */
+.btn-secondary,
+.btn-secondry {
+  background-color: var(--btn-secondary-bg) !important;
+  color: var(--btn-secondary-text) !important;
+  border-color: var(--btn-secondary-border) !important;
+  box-shadow: var(--btn-secondary-shadow) !important;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.btn-secondary:hover:not(:disabled),
+.btn-secondry:hover:not(:disabled) {
+  background-color: var(--btn-secondary-bg-hover) !important;
+  border-color: var(--btn-secondary-border-hover) !important;
+  color: #09090b !important;
+}
+
+.btn-secondary:active:not(:disabled),
+.btn-secondry:active:not(:disabled) {
+  background-color: var(--btn-secondary-bg-active) !important;
+}
+
+/* ========================================================
+   TEST PAGES (PRACTICE & MOCK):
+   Low-contrast primary by default, full-contrast on hover
+   ======================================================== */
+#view-practice .btn-primary,
+#view-mock .btn-primary {
+  background-color: rgba(79, 70, 229, 0.12) !important;
+  color: #4338ca !important;
+  border: 1px solid rgba(79, 70, 229, 0.3) !important;
+  box-shadow: 0 1px 2px 0 rgba(79, 70, 229, 0.08) !important;
+  font-weight: 600 !important;
+}
+
+#view-practice .btn-primary:hover:not(:disabled),
+#view-mock .btn-primary:hover:not(:disabled) {
+  background-color: var(--btn-primary-bg) !important;
+  color: #ffffff !important;
+  border-color: var(--btn-primary-border) !important;
+  box-shadow: 0 4px 12px 0 rgba(79, 70, 229, 0.35) !important;
+  transform: translateY(-1px) !important;
+}
+
+#view-practice .btn-primary:active:not(:disabled),
+#view-mock .btn-primary:active:not(:disabled) {
+  background-color: var(--btn-primary-bg-active) !important;
+  color: #ffffff !important;
+  transform: translateY(0) !important;
+}
+
+/* Option cards hover on test pages */
+#view-practice .option-label:hover,
+#view-mock .option-label:hover {
+  background-color: rgba(79, 70, 229, 0.05) !important;
+  border-color: rgba(79, 70, 229, 0.35) !important;
+}
+
+#view-practice .option-label:hover .option-badge,
+#view-mock .option-label:hover .option-badge {
+  background-color: rgba(79, 70, 229, 0.15) !important;
+  border-color: rgba(79, 70, 229, 0.4) !important;
+  color: #4338ca !important;
 }
 
 body {

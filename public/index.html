@@ -51,7 +51,7 @@
         <button onclick="app.openChapterSelectModal()" id="nav-btn-practice" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
           Chapters
         </button>
-        <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md bg-zinc-900 text-white hover:bg-zinc-800 transition whitespace-nowrap">
+        <button onclick="app.startMockTestPrompt()" id="nav-btn-mock" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md btn-primary transition whitespace-nowrap">
           Mock Test
         </button>
         <button onclick="app.showRevisionView()" id="nav-btn-revision" class="hidden px-2.5 sm:px-3 py-1.5 font-medium rounded-md text-indigo-700 hover:text-indigo-900 hover:bg-indigo-50 border border-indigo-200/80 bg-indigo-50/50 transition items-center gap-1.5 whitespace-nowrap" title="Revision Notes & PDFs">
@@ -96,7 +96,7 @@
 
         <div id="login-error-msg" class="text-[11px] text-rose-600 hidden"></div>
 
-        <button type="submit" class="w-full py-2.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition flex items-center justify-center gap-1.5">
+        <button type="submit" class="w-full py-2.5 btn-primary font-medium text-xs rounded-lg transition flex items-center justify-center gap-1.5">
           <span>Continue to Dashboard</span>
           <span>&rarr;</span>
         </button>
@@ -194,7 +194,7 @@
 
           <!-- Subject Filter Pills -->
           <div class="flex flex-wrap items-center gap-1.5 text-xs" id="subject-filter-container">
-            <button onclick="app.setSubjectFilter('all')" id="filter-btn-all" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-zinc-900 text-white shadow-xs">
+            <button onclick="app.setSubjectFilter('all')" id="filter-btn-all" class="px-2.5 py-1 rounded-md text-xs font-medium transition btn-primary shadow-xs">
               All <span id="badge-count-all" class="opacity-70 text-[11px]">(52)</span>
             </button>
             <button onclick="app.setSubjectFilter('aptitude')" id="filter-btn-aptitude" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300">
@@ -300,7 +300,7 @@
             </div>
 
             <!-- Submit Chapter Test Button (Desktop & Tablet) -->
-            <button onclick="app.promptSubmitChapterTest()" id="practice-btn-submit-header" class="px-3 py-1.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition whitespace-nowrap">
+            <button onclick="app.promptSubmitChapterTest()" id="practice-btn-submit-header" class="px-3 py-1.5 btn-primary font-medium text-xs rounded-lg transition whitespace-nowrap">
               Submit Test
             </button>
           </div>
@@ -407,13 +407,13 @@
             </div>
 
             <div class="flex items-center justify-end gap-2 text-xs">
-              <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 py-2 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-medium transition disabled:opacity-30 disabled:pointer-events-none">
+              <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 py-2 rounded-lg btn-secondary text-zinc-700 font-medium transition disabled:opacity-30 disabled:pointer-events-none">
                 Previous
               </button>
               <button onclick="app.clearPracticeResponse()" class="px-3 py-2 rounded-lg text-zinc-400 hover:text-zinc-700 transition">
                 Clear
               </button>
-              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition select-none inline-flex items-center justify-center gap-1.5">
+              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-4 py-2 rounded-lg btn-primary font-medium transition select-none inline-flex items-center justify-center gap-1.5">
                 Save & Next &rarr;
               </button>
             </div>
@@ -436,7 +436,7 @@
             <!-- Palette buttons -->
           </div>
           <div class="pt-2 border-t border-zinc-100">
-            <button onclick="app.promptSubmitChapterTest()" class="w-full py-2 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition">
+            <button onclick="app.promptSubmitChapterTest()" class="w-full py-2 btn-primary font-medium text-xs rounded-lg transition">
               Submit Chapter Test
             </button>
           </div>
@@ -445,17 +445,17 @@
 
       <!-- Mobile Thumb-Friendly Fixed Bottom Bar (Visible on mobile only) -->
       <div id="practice-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3 py-2 z-40 sm:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
-        <button onclick="app.prevPracticeQuestion()" class="flex-1 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
+        <button onclick="app.prevPracticeQuestion()" class="flex-1 py-2.5 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
           &larr; Prev
         </button>
         <button onclick="app.clearPracticeResponse()" class="px-3 py-2.5 text-zinc-400 hover:text-zinc-700 text-xs text-center transition">
           Clear
         </button>
-        <button onclick="app.togglePracticeDrawer()" class="px-3 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
+        <button onclick="app.togglePracticeDrawer()" class="px-3 py-2.5 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           <span id="practice-mobile-palette-btn-text">Palette</span>
         </button>
-        <button onclick="app.nextPracticeQuestion()" id="practice-mobile-btn-next" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition select-none">
+        <button onclick="app.nextPracticeQuestion()" id="practice-mobile-btn-next" class="flex-1 py-2.5 rounded-lg btn-primary font-medium text-xs text-center shadow-xs active:opacity-90 transition select-none">
           Save & Next &rarr;
         </button>
       </div>
@@ -502,7 +502,7 @@
             <span id="mock-timer-display" class="font-mono text-xs sm:text-base font-bold text-zinc-900 tracking-wider">30:00</span>
           </div>
 
-          <button onclick="app.promptSubmitMock()" class="px-2.5 sm:px-3.5 py-1.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition whitespace-nowrap">
+          <button onclick="app.promptSubmitMock()" class="px-2.5 sm:px-3.5 py-1.5 btn-primary font-medium text-xs rounded-lg transition whitespace-nowrap">
             Submit
           </button>
         </div>
@@ -553,10 +553,10 @@
                 <button onclick="app.clearMockResponse()" class="px-3 py-2 text-zinc-400 hover:text-zinc-700 transition">
                   Clear
                 </button>
-                <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="px-3.5 py-2 rounded-lg border border-zinc-200 text-zinc-700 font-medium hover:bg-zinc-50 transition disabled:opacity-30 disabled:pointer-events-none">
+                <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="px-3.5 py-2 rounded-lg btn-secondary text-zinc-700 font-medium transition disabled:opacity-30 disabled:pointer-events-none">
                   Previous
                 </button>
-                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-4 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition select-none inline-flex items-center justify-center gap-1.5">
+                <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="px-4 py-2 rounded-lg btn-primary font-medium transition select-none inline-flex items-center justify-center gap-1.5">
                   Save & Next &rarr;
                 </button>
               </div>
@@ -578,7 +578,7 @@
               </div>
             </div>
             <div class="flex flex-wrap gap-2 text-[11px] text-zinc-500 mb-2">
-              <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-zinc-900"></span> Ans (<span id="legend-answered">0</span>)</span>
+              <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded btn-primary"></span> Ans (<span id="legend-answered">0</span>)</span>
               <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-zinc-200"></span> Left (<span id="legend-unanswered">30</span>)</span>
               <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-amber-400"></span> Review (<span id="legend-review">0</span>)</span>
             </div>
@@ -589,7 +589,7 @@
           </div>
 
           <div class="pt-2 border-t border-zinc-100">
-            <button onclick="app.promptSubmitMock()" class="w-full py-2 bg-zinc-900 hover:bg-zinc-800 text-white font-medium text-xs rounded-lg transition">
+            <button onclick="app.promptSubmitMock()" class="w-full py-2 btn-primary font-medium text-xs rounded-lg transition">
               Submit Examination
             </button>
           </div>
@@ -598,17 +598,17 @@
 
       <!-- Mobile Thumb-Friendly Fixed Bottom Bar for Mock Exam -->
       <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3 py-2 z-40 sm:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
-        <button onclick="app.prevMockQuestion()" class="flex-1 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
+        <button onclick="app.prevMockQuestion()" class="flex-1 py-2.5 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
           &larr; Prev
         </button>
-        <button onclick="app.toggleMockReview()" id="mock-mobile-btn-review" class="px-2.5 py-2.5 rounded-lg border border-zinc-200 text-zinc-600 text-[11px] text-center active:bg-zinc-100 transition">
+        <button onclick="app.toggleMockReview()" id="mock-mobile-btn-review" class="px-2.5 py-2.5 rounded-lg btn-secondary text-zinc-600 text-[11px] text-center active:bg-zinc-100 transition">
           Review
         </button>
-        <button onclick="app.toggleMockDrawer()" class="px-2.5 py-2.5 rounded-lg border border-zinc-200 text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
+        <button onclick="app.toggleMockDrawer()" class="px-2.5 py-2.5 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
           <span id="mock-mobile-palette-btn-text">Palette</span>
         </button>
-        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="flex-1 py-2.5 rounded-lg bg-zinc-900 text-white font-medium text-xs text-center shadow-xs active:bg-zinc-800 transition select-none">
+        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="flex-1 py-2.5 rounded-lg btn-primary font-medium text-xs text-center shadow-xs active:opacity-90 transition select-none">
           Save & Next &rarr;
         </button>
       </div>
@@ -653,10 +653,10 @@
 
         <div class="mt-4 flex items-center justify-between gap-3 text-xs">
           <div class="flex items-center gap-2">
-            <button onclick="app.startMockTestPrompt()" class="px-3.5 py-1.5 bg-zinc-900 hover:bg-zinc-800 text-white font-medium rounded-lg transition">
+            <button onclick="app.startMockTestPrompt()" class="px-3.5 py-1.5 btn-primary font-medium rounded-lg transition">
               Take Mock Test
             </button>
-            <button onclick="app.showChapterSelect()" class="px-3 py-1.5 border border-zinc-200 hover:bg-zinc-50 text-zinc-700 font-medium rounded-lg transition">
+            <button onclick="app.showChapterSelect()" class="px-3 py-1.5 btn-secondary text-zinc-700 font-medium rounded-lg transition">
               Practice Chapters
             </button>
           </div>
@@ -713,7 +713,7 @@
 
         <!-- Left: Exit Button & Subject Tabs -->
         <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
-          <button onclick="app.exitRevisionView()" id="revision-return-btn" class="px-2.5 py-1 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-700 text-xs font-semibold transition flex items-center gap-1 shrink-0" title="Return">
+          <button onclick="app.exitRevisionView()" id="revision-return-btn" class="px-2.5 py-1 rounded-lg btn-secondary text-zinc-700 text-xs font-semibold transition flex items-center gap-1 shrink-0" title="Return">
             <span>&larr;</span>
             <span id="revision-return-btn-label">Dashboard</span>
           </button>
@@ -722,13 +722,13 @@
 
           <!-- Subject Selector Tabs -->
           <div class="flex items-center gap-1 overflow-x-auto no-scrollbar shrink-0" id="revision-subject-pills">
-            <button onclick="app.setRevisionSubject('Biology')" id="rev-subj-btn-Biology" class="px-2 py-1 rounded-md text-xs font-semibold transition border border-zinc-900 bg-zinc-900 text-white shadow-2xs whitespace-nowrap">
+            <button onclick="app.setRevisionSubject('Biology')" id="rev-subj-btn-Biology" class="px-2 py-1 rounded-md text-xs font-semibold transition btn-primary shadow-2xs whitespace-nowrap">
               🧬 Bio <span class="opacity-75 font-normal hidden md:inline">(16)</span>
             </button>
-            <button onclick="app.setRevisionSubject('Chemistry')" id="rev-subj-btn-Chemistry" class="px-2 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
+            <button onclick="app.setRevisionSubject('Chemistry')" id="rev-subj-btn-Chemistry" class="px-2 py-1 rounded-md text-xs font-medium transition btn-secondary border border-zinc-200 hover:border-zinc-300 text-zinc-700 whitespace-nowrap">
               🧪 Chem <span class="opacity-75 font-normal hidden md:inline">(8)</span>
             </button>
-            <button onclick="app.setRevisionSubject('Physics')" id="rev-subj-btn-Physics" class="px-2 py-1 rounded-md text-xs font-medium transition border border-zinc-200 hover:border-zinc-300 bg-white text-zinc-700 whitespace-nowrap">
+            <button onclick="app.setRevisionSubject('Physics')" id="rev-subj-btn-Physics" class="px-2 py-1 rounded-md text-xs font-medium transition btn-secondary border border-zinc-200 hover:border-zinc-300 text-zinc-700 whitespace-nowrap">
               ⚡ Phys <span class="opacity-75 font-normal hidden md:inline">(10)</span>
             </button>
             <button onclick="app.setRevisionSubject('top300')" id="rev-subj-btn-top300" class="px-2 py-1 rounded-md text-xs font-semibold transition border border-amber-200 bg-amber-50/70 hover:bg-amber-100 text-amber-800 whitespace-nowrap">
@@ -743,7 +743,7 @@
 
         <!-- Center: Interactive Chapter Selector Button -->
         <div class="flex items-center gap-1 min-w-0 flex-1 max-w-[220px] sm:max-w-xs md:max-w-sm justify-center mx-1 sm:mx-2">
-          <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="w-full px-2.5 py-1 text-xs font-semibold rounded-lg border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 text-zinc-800 transition flex items-center justify-between gap-1.5 shadow-2xs group" title="Click to browse all chapters (C)">
+          <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="w-full px-2.5 py-1 text-xs font-semibold rounded-lg btn-secondary text-zinc-800 transition flex items-center justify-between gap-1.5 shadow-2xs group" title="Click to browse all chapters (C)">
             <div class="flex items-center gap-1.5 min-w-0 truncate">
               <span class="text-xs">📖</span>
               <span id="revision-breadcrumb-chapter" class="truncate font-bold text-zinc-900">Cell</span>
@@ -754,19 +754,22 @@
 
         <!-- Right: Chapter Navigation & Fullscreen Controls -->
         <div class="flex items-center gap-1 sm:gap-1.5 shrink-0">
-          <button onclick="app.prevRevisionChapter()" id="rev-btn-prev" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 transition flex items-center gap-1" title="Previous Chapter (&larr;)">
+          <button onclick="app.prevRevisionChapter()" id="rev-btn-prev" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1" title="Previous Chapter (&larr;)">
             <span>&larr;</span>
             <span class="hidden sm:inline">Prev</span>
           </button>
-          <button onclick="app.nextRevisionChapter()" id="rev-btn-next" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 transition flex items-center gap-1" title="Next Chapter (&rarr;)">
+          <button onclick="app.nextRevisionChapter()" id="rev-btn-next" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1" title="Next Chapter (&rarr;)">
             <span class="hidden sm:inline">Next</span>
             <span>&rarr;</span>
           </button>
-          <button onclick="app.toggleZenMode()" id="rev-zen-btn" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md border border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 transition flex items-center gap-1 shadow-2xs" title="Toggle Distraction-Free Mode (Z)">
+          <button onclick="app.toggleZenMode()" id="rev-zen-btn" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1 shadow-2xs" title="Toggle Distraction-Free Mode (Z)">
             <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
             <span class="zen-btn-label hidden sm:inline">Zen</span>
           </button>
-          <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1.5 shadow-2xs" title="Full Screen (F)">
+          <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md btn-primary transition flex items-center gap-1.5 shadow-2xs" title="Full Screen (F)">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+            <span class="hidden sm:inline">Full</span>
+          </button>
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
             <span class="hidden sm:inline">Full</span>
           </button>
@@ -874,10 +877,10 @@
       </div>
 
       <div class="flex items-center space-x-2 pt-1 text-xs">
-        <button onclick="app.closeSubmitModal()" class="flex-1 py-2 rounded-lg border border-zinc-200 text-zinc-700 font-medium hover:bg-zinc-50 transition">
+        <button onclick="app.closeSubmitModal()" class="flex-1 py-2 rounded-lg btn-secondary text-zinc-700 font-medium transition">
           Resume
         </button>
-        <button onclick="app.confirmSubmitMock()" class="flex-1 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-medium transition">
+        <button onclick="app.confirmSubmitMock()" class="flex-1 py-2 rounded-lg btn-primary font-medium transition">
           Confirm & Submit
         </button>
       </div>
@@ -911,7 +914,7 @@
       <!-- Science Sub-discipline Filter Bar -->
       <div id="modal-science-subfilter-bar" class="hidden flex items-center gap-1 text-[11px] bg-zinc-50 p-1 rounded-lg border border-zinc-200">
         <span class="text-zinc-400 uppercase tracking-wider font-bold text-[10px] ml-1 mr-1">Discipline:</span>
-        <button onclick="app.setModalScienceSubTab('all')" id="modal-subtab-all" class="px-2 py-0.5 rounded font-medium bg-zinc-900 text-white transition">All (34)</button>
+        <button onclick="app.setModalScienceSubTab('all')" id="modal-subtab-all" class="px-2 py-0.5 rounded font-medium btn-primary transition">All (34)</button>
         <button onclick="app.setModalScienceSubTab('Biology')" id="modal-subtab-bio" class="px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition">Biology (16)</button>
         <button onclick="app.setModalScienceSubTab('Chemistry')" id="modal-subtab-chem" class="px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition">Chemistry (8)</button>
         <button onclick="app.setModalScienceSubTab('Physics')" id="modal-subtab-phys" class="px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition">Physics (10)</button>
