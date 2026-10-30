@@ -97,6 +97,43 @@ describe('API Integration Tests', () => {
     assert.equal(data.attempt.scorePercentage, 50);
   });
 
+  test('POST /api/submit-attempt preserves unattempted questions in answers for full review', async () => {
+    const allQuestions = loadQuestions();
+    const q1 = allQuestions[0];
+    const q2 = allQuestions[1];
+
+    const payload = {
+      mode: 'mock',
+      userEmail: 'unattempted_test@apti.com',
+      timeTakenSeconds: 30,
+      answers: [
+        { questionId: q1.id, userAnswer: q1.correctAnswer },
+        { questionId: q2.id, userAnswer: null }
+      ]
+    };
+
+    const res = await fetch(`${baseUrl}/api/submit-attempt`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    assert.equal(res.status, 200);
+    const data = await res.json();
+    assert.ok(data.success);
+    assert.equal(data.attempt.answers.length, 2);
+    assert.equal(data.attempt.answers[1].userAnswer, null);
+    assert.equal(data.attempt.answers[1].isCorrect, false);
+    assert.equal(data.attempt.unattemptedCount, 1);
+
+    // Verify GET /api/attempts/:id returns all questions including unattempted
+    const detailRes = await fetch(`${baseUrl}/api/attempts/${data.attempt.attemptId}`);
+    assert.equal(detailRes.status, 200);
+    const detailData = await detailRes.json();
+    assert.equal(detailData.detailedAnswers.length, 2);
+    assert.equal(detailData.detailedAnswers[1].userAnswer, null);
+  });
+
   test('GET /api/attempts returns attempt history', async () => {
     const res = await fetch(`${baseUrl}/api/attempts?email=unit_test@apti.com`);
     assert.equal(res.status, 200);

@@ -1,5 +1,15 @@
 // public/app.js - AptiPrep CBT Engine Frontend Logic (Minimal, Distraction-Free & Email Session Ready)
 
+function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 class AptiPrepApp {
   constructor() {
     this.chapters = [];
@@ -84,6 +94,11 @@ class AptiPrepApp {
         this.closeMobileNav();
       }
     });
+
+    const revIframe = document.getElementById('revision-view-iframe');
+    if (revIframe) {
+      revIframe.addEventListener('load', () => this.handleRevisionViewIframeLoaded());
+    }
 
     if (!this.currentUserEmail) {
       const params = new URLSearchParams(window.location.search);
@@ -457,8 +472,8 @@ class AptiPrepApp {
       let answered = 0;
       let unanswered = 0;
       let total = (this.practice.questions || []).length;
-      (this.practice.questions || []).forEach(q => {
-        if (this.practice.userAnswers[q.id] !== undefined && this.practice.userAnswers[q.id] !== null) answered++;
+      (this.practice.questions || []).forEach((q, idx) => {
+        if (this.practice.userAnswers[idx] !== undefined && this.practice.userAnswers[idx] !== null) answered++;
         else unanswered++;
       });
       const secEl = document.getElementById('pause-table-section');
@@ -702,7 +717,7 @@ class AptiPrepApp {
 
       const key = e.key.toLowerCase();
 
-      // Escape key handles Revision view, Drawer, and Fullscreen
+      // Escape key handles Revision view, open Modals, and Drawers
       if (key === 'escape') {
         if (this.currentMode === 'revision') {
           e.preventDefault();
@@ -717,10 +732,51 @@ class AptiPrepApp {
           }
           return;
         }
-        const revModal = document.getElementById('revision-modal');
-        if (revModal && !revModal.classList.contains('hidden')) {
+
+        const qPaperModal = document.getElementById('mock-question-paper-modal');
+        if (qPaperModal && !qPaperModal.classList.contains('hidden')) {
           e.preventDefault();
-          this.closeRevisionModal();
+          this.closeQuestionPaperModal();
+          return;
+        }
+
+        const confirmModal = document.getElementById('mock-confirm-modal');
+        if (confirmModal && !confirmModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeSubmitModal();
+          return;
+        }
+
+        const chSelectModal = document.getElementById('chapter-select-modal');
+        if (chSelectModal && !chSelectModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeChapterSelectModal();
+          return;
+        }
+
+        const mockSelectModal = document.getElementById('mock-select-modal');
+        if (mockSelectModal && !mockSelectModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeMockSelectModal();
+          return;
+        }
+
+        const sheetModal = document.getElementById('google-sheet-modal');
+        if (sheetModal && !sheetModal.classList.contains('hidden')) {
+          e.preventDefault();
+          this.closeGoogleSheetModal();
+          return;
+        }
+
+        if (this.currentMode === 'mock' && this.mock.drawerOpen) {
+          e.preventDefault();
+          this.toggleMockDrawer();
+          return;
+        }
+
+        if (this.currentMode === 'practice' && this.practice.drawerOpen) {
+          e.preventDefault();
+          this.togglePracticeDrawer();
           return;
         }
       }
@@ -1880,52 +1936,45 @@ class AptiPrepApp {
       userAnswer: this.practice.userAnswers[idx] !== undefined ? this.practice.userAnswers[idx] : null
     }));
 
-    if (this.isStaticMode || this.allQuestions.length > 0) {
-      const attempt = this.calculateAttemptLocally({
-        mode: 'chapter_test',
-        chapter: this.practice.chapter,
-        timeTakenSeconds,
-        answers: answersPayload
-      });
+    if (!this.isStaticMode) {
+      try {
+        const res = await fetch('/api/submit-attempt', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            mode: 'chapter_test',
+            chapter: this.practice.chapter,
+            userEmail: this.currentUserEmail || 'guest@local',
+            timeTakenSeconds,
+            answers: answersPayload
+          })
+        });
 
-      this.saveAttempt(attempt);
-      this.syncToGoogleSheet(attempt);
-      this.renderResults(attempt);
-      return;
-    }
-
-    try {
-      const res = await fetch('/api/submit-attempt', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          mode: 'chapter_test',
-          chapter: this.practice.chapter,
-          userEmail: this.currentUserEmail || 'guest@local',
-          timeTakenSeconds,
-          answers: answersPayload
-        })
-      });
-
-      const data = await res.json();
-      if (data.success && data.attempt) {
-        this.saveAttempt(data.attempt);
-        this.syncToGoogleSheet(data.attempt);
-        this.renderResults(data.attempt);
-      } else {
-        alert('Failed to submit chapter test.');
+        if (res.ok) {
+          const data = await res.json();
+          if (data.success && data.attempt) {
+            this.saveAttempt(data.attempt);
+            this.syncToGoogleSheet(data.attempt);
+            this.renderResults(data.attempt);
+            return;
+          }
+        }
+      } catch (err) {
+        console.warn('Network submit failed, using local calculation fallback:', err);
       }
-    } catch (err) {
-      const attempt = this.calculateAttemptLocally({
-        mode: 'chapter_test',
-        chapter: this.practice.chapter,
-        timeTakenSeconds,
-        answers: answersPayload
-      });
-      this.saveAttempt(attempt);
-      this.syncToGoogleSheet(attempt);
-      this.renderResults(attempt);
     }
+
+    if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+    const attempt = this.calculateAttemptLocally({
+      mode: 'chapter_test',
+      chapter: this.practice.chapter,
+      timeTakenSeconds,
+      answers: answersPayload
+    });
+
+    this.saveAttempt(attempt);
+    this.syncToGoogleSheet(attempt);
+    this.renderResults(attempt);
   }
 
   // ==========================================
@@ -2094,6 +2143,9 @@ class AptiPrepApp {
     if (mockSection) mockSection.classList.remove('sidebar-collapsed');
     const arrowEl = document.getElementById('mock-sidebar-collapse-arrow');
     if (arrowEl) arrowEl.innerHTML = '&gt;';
+
+    const initTab = (sub === 'aptitude') ? 'aptitude' : (sub === 'science' || sub === 'top300' || sub === 'biology' || sub === 'chemistry' || sub === 'physics') ? 'science' : 'all';
+    this.setMockSectionTab(initTab);
 
     this.switchView('mock');
     this.renderMockQuestion();
@@ -2274,10 +2326,38 @@ class AptiPrepApp {
             <span class="tb-option-radio">
               ${isSelected ? '<span class="tb-option-radio-dot"></span>' : ''}
             </span>
-            <span class="tb-option-text">${opt}</span>
+            <span class="tb-option-text">${escapeHtml(opt)}</span>
           </label>
         `;
       }).join('');
+    }
+
+    // Sync active section tab and palette section title with current question subject
+    const currentSubj = (q.subject || '').toLowerCase();
+    const tabAll = document.getElementById('mock-tab-all');
+    const tabApti = document.getElementById('mock-tab-apti');
+    const tabSci = document.getElementById('mock-tab-sci');
+    const sectionTitleEl = document.getElementById('mock-palette-section-title');
+
+    if (this.mockSectionTab && this.mockSectionTab !== 'all') {
+      if (this.mockSectionTab === 'science') {
+        if (tabAll) tabAll.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (tabApti) tabApti.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (tabSci) tabSci.className = 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (sectionTitleEl) sectionTitleEl.textContent = 'SECTION : General Science';
+      } else if (this.mockSectionTab === 'aptitude') {
+        if (tabAll) tabAll.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (tabApti) tabApti.className = 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (tabSci) tabSci.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+        if (sectionTitleEl) sectionTitleEl.textContent = 'SECTION : Quantitative Aptitude';
+      }
+    } else {
+      if (tabAll) tabAll.className = 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition';
+      if (tabApti) tabApti.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+      if (tabSci) tabSci.className = 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+      if (sectionTitleEl) {
+        sectionTitleEl.textContent = currentSubj.includes('science') ? 'SECTION : General Science' : 'SECTION : Quantitative Aptitude';
+      }
     }
 
     const btnPrev = document.getElementById('mock-btn-prev');
@@ -2295,6 +2375,58 @@ class AptiPrepApp {
     this.updateMockPalette();
   }
 
+  setMockSectionTab(filter = 'all') {
+    this.mockSectionTab = filter;
+
+    const tabAll = document.getElementById('mock-tab-all');
+    const tabApti = document.getElementById('mock-tab-apti');
+    const tabSci = document.getElementById('mock-tab-sci');
+    const sectionTitleEl = document.getElementById('mock-palette-section-title');
+
+    if (tabAll) {
+      tabAll.className = (filter === 'all')
+        ? 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition'
+        : 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+    }
+    if (tabApti) {
+      tabApti.className = (filter === 'aptitude')
+        ? 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition'
+        : 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+    }
+    if (tabSci) {
+      tabSci.className = (filter === 'science')
+        ? 'tb-mobile-tab-active px-3 py-2.5 text-xs whitespace-nowrap transition'
+        : 'tb-mobile-tab-inactive px-3 py-2.5 text-xs whitespace-nowrap transition';
+    }
+
+    if (sectionTitleEl) {
+      if (filter === 'aptitude') sectionTitleEl.textContent = 'SECTION : Quantitative Aptitude';
+      else if (filter === 'science') sectionTitleEl.textContent = 'SECTION : General Science';
+      else sectionTitleEl.textContent = 'SECTION : Test';
+    }
+
+    if (this.mock && this.mock.questions && this.mock.questions.length > 0) {
+      if (filter === 'aptitude') {
+        const idx = this.mock.questions.findIndex(q => (q.subject || '').toLowerCase().includes('aptitude'));
+        if (idx !== -1 && idx !== this.mock.currentIndex) {
+          this.mock.currentIndex = idx;
+          this.renderMockQuestion();
+        }
+      } else if (filter === 'science') {
+        const idx = this.mock.questions.findIndex(q => (q.subject || '').toLowerCase().includes('science'));
+        if (idx !== -1 && idx !== this.mock.currentIndex) {
+          this.mock.currentIndex = idx;
+          this.renderMockQuestion();
+        }
+      } else if (filter === 'all') {
+        if (this.mock.currentIndex !== 0) {
+          this.mock.currentIndex = 0;
+          this.renderMockQuestion();
+        }
+      }
+    }
+  }
+
   selectMockOption(idx) {
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
@@ -2309,10 +2441,13 @@ class AptiPrepApp {
     this.renderMockQuestion();
   }
 
-  toggleMockReview() {
+  toggleMockReview(andNext = false) {
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
     this.mock.reviewFlags[q.id] = !this.mock.reviewFlags[q.id];
+    if (andNext && this.mock.currentIndex < this.mock.questions.length - 1) {
+      this.mock.currentIndex++;
+    }
     this.renderMockQuestion();
   }
 
@@ -2404,7 +2539,7 @@ class AptiPrepApp {
         return `
           <div class="p-2 rounded border ${selClass} flex items-start gap-2 text-xs">
             <span class="font-mono font-bold">${letters[oIdx]}.</span>
-            <span>${opt}</span>
+            <span>${escapeHtml(opt)}</span>
             ${isSel ? '<span class="ml-auto text-[10px] text-[#00a8cc] font-bold">Selected</span>' : ''}
           </div>
         `;
@@ -2414,9 +2549,9 @@ class AptiPrepApp {
         <div class="p-4 rounded-lg border border-zinc-200 bg-zinc-50/50 space-y-2">
           <div class="flex items-center justify-between">
             <span class="font-bold text-xs text-zinc-900">Question ${idx + 1}</span>
-            <span class="text-[11px] text-zinc-400 font-medium">${q.chapter || ''}</span>
+            <span class="text-[11px] text-zinc-400 font-medium">${escapeHtml(q.chapter || '')}</span>
           </div>
-          <p class="text-xs sm:text-sm text-zinc-900 leading-relaxed">${q.question}</p>
+          <p class="text-xs sm:text-sm text-zinc-900 leading-relaxed">${escapeHtml(q.question)}</p>
           ${diagHtml}
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
             ${optsHtml}
@@ -2571,52 +2706,45 @@ class AptiPrepApp {
       userAnswer: this.mock.userAnswers[q.id] !== undefined ? this.mock.userAnswers[q.id] : null
     }));
 
-    if (this.isStaticMode || this.allQuestions.length > 0) {
-      const attempt = this.calculateAttemptLocally({
-        mode: 'mock',
-        chapter: null,
-        timeTakenSeconds,
-        answers: answersPayload
-      });
+    if (!this.isStaticMode) {
+      try {
+        const res = await fetch('/api/submit-attempt', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            mode: 'mock',
+            chapter: null,
+            userEmail: this.currentUserEmail || 'guest@local',
+            timeTakenSeconds,
+            answers: answersPayload
+          })
+        });
 
-      this.saveAttempt(attempt);
-      this.syncToGoogleSheet(attempt);
-      this.renderResults(attempt);
-      return;
-    }
-
-    try {
-      const res = await fetch('/api/submit-attempt', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          mode: 'mock',
-          chapter: null,
-          userEmail: this.currentUserEmail || 'guest@local',
-          timeTakenSeconds,
-          answers: answersPayload
-        })
-      });
-
-      const data = await res.json();
-      if (data.success && data.attempt) {
-        this.saveAttempt(data.attempt);
-        this.syncToGoogleSheet(data.attempt);
-        this.renderResults(data.attempt);
-      } else {
-        alert('Failed to submit test. Please check server status.');
+        if (res.ok) {
+          const data = await res.json();
+          if (data.success && data.attempt) {
+            this.saveAttempt(data.attempt);
+            this.syncToGoogleSheet(data.attempt);
+            this.renderResults(data.attempt);
+            return;
+          }
+        }
+      } catch (err) {
+        console.warn('Network mock submit failed, using local calculation fallback:', err);
       }
-    } catch (err) {
-      const attempt = this.calculateAttemptLocally({
-        mode: 'mock',
-        chapter: null,
-        timeTakenSeconds,
-        answers: answersPayload
-      });
-      this.saveAttempt(attempt);
-      this.syncToGoogleSheet(attempt);
-      this.renderResults(attempt);
     }
+
+    if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
+    const attempt = this.calculateAttemptLocally({
+      mode: 'mock',
+      chapter: null,
+      timeTakenSeconds,
+      answers: answersPayload
+    });
+
+    this.saveAttempt(attempt);
+    this.syncToGoogleSheet(attempt);
+    this.renderResults(attempt);
   }
 
   // ==========================================
@@ -2909,7 +3037,7 @@ class AptiPrepApp {
         return `
           <div class="p-3 sm:p-3.5 rounded-xl border ${optStyle} flex items-center gap-3">
             <span class="w-7 h-7 min-w-7 rounded-lg flex items-center justify-center text-xs font-bold ${badgeStyle}">${badgeText}</span>
-            <span class="option-text flex-1 font-normal">${opt}</span>
+            <span class="option-text flex-1 font-normal">${escapeHtml(opt)}</span>
             ${optIdx === item.userAnswer ? '<span class="ml-auto text-xs text-zinc-500 font-medium bg-zinc-100 px-2.5 py-0.5 rounded border border-zinc-200 shrink-0">Your Choice</span>' : ''}
           </div>
         `;
@@ -2921,13 +3049,13 @@ class AptiPrepApp {
             <div class="flex items-center gap-2">
               <span class="font-mono font-medium text-zinc-500">Q${idx + 1}</span>
               <span class="text-zinc-300">&bull;</span>
-              <span class="text-zinc-500">${item.chapter}</span>
+              <span class="text-zinc-500">${escapeHtml(item.chapter || '')}</span>
             </div>
             ${statusTag}
           </div>
 
           <div class="text-zinc-950 font-medium text-[15px] sm:text-[16px] question-content leading-relaxed">
-            ${item.question}
+            ${escapeHtml(item.question)}
           </div>
 
           ${item.diagram ? `

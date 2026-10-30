@@ -667,7 +667,7 @@
           <!-- DESKTOP / TABLET BOTTOM ACTION BAR (PINNED PERMANENTLY AT BOTTOM OF VIEWPORT) -->
           <div class="hidden lg:flex shrink-0 border-t border-zinc-200 px-6 lg:px-8 py-3 bg-white items-center justify-between gap-3 text-xs z-10 shadow-xs">
             <div class="flex items-center gap-2">
-              <button onclick="app.toggleMockReview()" id="mock-btn-review-toggle" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition">
+              <button onclick="app.toggleMockReview(true)" id="mock-btn-review-toggle" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition">
                 <span id="mock-review-toggle-label">Mark for Review & Next</span>
               </button>
               <button onclick="app.clearMockResponse()" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs transition">
@@ -1018,8 +1018,7 @@
                     allowfullscreen="true"
                     webkitallowfullscreen="true"
                     mozallowfullscreen="true"
-                    title="Chapter Revision PDF Preview"
-                    onload="app.handleRevisionViewIframeLoaded()">
+                    title="Chapter Revision PDF Preview">
             </iframe>
           </div>
         </div>

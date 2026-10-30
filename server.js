@@ -246,7 +246,6 @@ function calculateScore(allQuestions, { mode = 'mock', chapter = null, timeTaken
     scorePercentage,
     timeTakenSeconds: Math.round(timeTakenSeconds),
     answers: evaluatedAnswers
-      .filter(a => a.userAnswer !== null && a.userAnswer !== undefined)
       .map(a => ({
         questionId: a.questionId,
         userAnswer: a.userAnswer,
