@@ -864,21 +864,21 @@ class AptiPrepApp {
     const btnRevZen = document.getElementById('rev-zen-btn');
 
     if (btnHeaderZen) {
-      btnHeaderZen.classList.toggle('bg-zinc-900', this.zenMode);
+      btnHeaderZen.classList.toggle('btn-primary', this.zenMode);
       btnHeaderZen.classList.toggle('text-white', this.zenMode);
       btnHeaderZen.title = this.zenMode ? 'Exit Distraction-Free Mode (Z)' : 'Toggle Distraction-Free Zen Mode (Z)';
     }
 
     if (btnRevZen) {
       if (this.zenMode) {
-        btnRevZen.classList.add('bg-zinc-900', 'text-white', 'border-zinc-900');
-        btnRevZen.classList.remove('bg-white', 'text-zinc-700');
+        btnRevZen.classList.add('btn-primary', 'text-white');
+        btnRevZen.classList.remove('btn-secondary', 'text-zinc-700');
         btnRevZen.title = 'Exit Distraction-Free Zen Mode (Z)';
         const label = btnRevZen.querySelector('.zen-btn-label');
         if (label) label.textContent = 'Exit Zen';
       } else {
-        btnRevZen.classList.remove('bg-zinc-900', 'text-white', 'border-zinc-900');
-        btnRevZen.classList.add('bg-white', 'text-zinc-700');
+        btnRevZen.classList.remove('btn-primary', 'text-white');
+        btnRevZen.classList.add('btn-secondary', 'text-zinc-700');
         btnRevZen.title = 'Toggle Distraction-Free Zen Mode (Z)';
         const label = btnRevZen.querySelector('.zen-btn-label');
         if (label) label.textContent = 'Zen';
@@ -1079,7 +1079,7 @@ class AptiPrepApp {
         const btn = subTabs[k];
         if (btn) {
           if (k === this.modalScienceSub) {
-            btn.className = 'px-2 py-0.5 rounded font-semibold bg-zinc-900 text-white transition';
+            btn.className = 'px-2 py-0.5 rounded font-semibold btn-primary text-white transition';
           } else {
             btn.className = 'px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition';
           }
@@ -1350,7 +1350,7 @@ class AptiPrepApp {
               <p class="text-xs text-zinc-600">Take a full mock test or pick a chapter test to unlock personal accuracy tracking, weakness analysis, and targeted drills.</p>
             </div>
             <div class="flex items-center gap-2 shrink-0">
-              <button onclick="app.startMockTestPrompt()" class="px-3.5 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-white font-semibold text-xs shadow-xs transition whitespace-nowrap">
+              <button onclick="app.startMockTestPrompt()" class="px-3.5 py-2 rounded-lg btn-primary text-white font-semibold text-xs shadow-xs transition whitespace-nowrap">
                 Take Diagnostic Mock &rarr;
               </button>
             </div>
@@ -3276,7 +3276,7 @@ class AptiPrepApp {
     container.innerHTML = chapters.map(chap => {
       const stats = breakdown[chap];
       const acc = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0;
-      let barColor = 'bg-zinc-900';
+      let barColor = 'bg-indigo-600';
       if (acc < 50) barColor = 'bg-rose-500';
       else if (acc < 75) barColor = 'bg-amber-500';
 
@@ -3592,7 +3592,7 @@ class AptiPrepApp {
     Object.entries(subjButtons).forEach(([key, btn]) => {
       if (!btn) return;
       if (key === subject) {
-        btn.className = 'px-2.5 py-1 rounded-md text-xs font-semibold transition border border-zinc-900 bg-zinc-900 text-white shadow-2xs whitespace-nowrap';
+        btn.className = 'px-2.5 py-1 rounded-md text-xs font-semibold transition btn-primary text-white shadow-2xs whitespace-nowrap';
       } else if (key === 'top300') {
         btn.className = 'px-2.5 py-1 rounded-md text-xs font-medium transition border border-amber-200 bg-amber-50/70 hover:bg-amber-100 text-amber-800 whitespace-nowrap';
       } else {
@@ -3648,7 +3648,7 @@ class AptiPrepApp {
         container.innerHTML = filteredList.map(item => {
           const isSelected = item.chapter === chosen;
           const cls = isSelected
-            ? 'p-2 rounded-lg bg-zinc-900 text-white font-semibold shadow-2xs flex items-center justify-between text-left transition select-none w-full'
+            ? 'p-2 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-950 font-bold shadow-2xs flex items-center justify-between text-left transition select-none w-full'
             : 'p-2 rounded-lg border border-transparent hover:border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 font-medium flex items-center justify-between text-left transition select-none w-full';
 
           return `
@@ -3692,7 +3692,7 @@ class AptiPrepApp {
         const text = btn.textContent || '';
         const match = text.includes(chapterName);
         if (match) {
-          btn.className = 'p-2 rounded-lg bg-zinc-900 text-white font-semibold shadow-2xs flex items-center justify-between text-left transition select-none w-full';
+          btn.className = 'p-2 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-950 font-bold shadow-2xs flex items-center justify-between text-left transition select-none w-full';
         } else {
           btn.className = 'p-2 rounded-lg border border-transparent hover:border-zinc-200 hover:bg-zinc-100 bg-white text-zinc-700 font-medium flex items-center justify-between text-left transition select-none w-full';
         }
@@ -3823,7 +3823,7 @@ class AptiPrepApp {
       sidebar.classList.add('flex');
       if (backdrop) backdrop.classList.remove('hidden');
       if (toggleBtn) {
-        toggleBtn.classList.add('border-zinc-900', 'bg-zinc-900', 'text-white');
+        toggleBtn.classList.add('btn-primary', 'text-white');
         toggleBtn.classList.remove('bg-zinc-50', 'text-zinc-800', 'border-zinc-200');
       }
       const searchInput = document.getElementById('revision-search-input');
@@ -3835,7 +3835,7 @@ class AptiPrepApp {
       sidebar.classList.remove('flex');
       if (backdrop) backdrop.classList.add('hidden');
       if (toggleBtn) {
-        toggleBtn.classList.remove('border-zinc-900', 'bg-zinc-900', 'text-white');
+        toggleBtn.classList.remove('btn-primary', 'text-white');
         toggleBtn.classList.add('border-zinc-200', 'bg-zinc-50', 'text-zinc-800');
       }
     }
@@ -3882,7 +3882,7 @@ class AptiPrepApp {
       document.body.classList.remove('overflow-hidden');
 
       if (fsBtn) {
-        fsBtn.className = 'reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1.5 shadow-2xs select-none';
+        fsBtn.className = 'reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md btn-primary text-white transition flex items-center gap-1.5 shadow-2xs select-none';
         fsBtn.innerHTML = `
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
           <span class="hidden sm:inline">Full Screen</span>
