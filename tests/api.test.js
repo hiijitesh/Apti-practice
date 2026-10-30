@@ -154,7 +154,6 @@ describe('API Integration Tests', () => {
     assert.ok(html.includes('id="revision-sidebar"'));
     assert.ok(html.includes('id="revision-reader-container"'));
     assert.ok(html.includes('id="rev-fullscreen-btn"'));
-    assert.ok(html.includes('id="rev-exit-fullscreen-btn"'));
     assert.ok(html.includes('id="rev-btn-prev"'));
     assert.ok(html.includes('id="rev-btn-next"'));
     assert.ok(html.includes('id="revision-search-input"'));

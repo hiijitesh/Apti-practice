@@ -2828,16 +2828,12 @@ class AptiPrepApp {
     const titleEl = document.getElementById('revision-preview-title');
     const badgeEl = document.getElementById('revision-preview-badge');
     const fileEl = document.getElementById('revision-preview-file');
-    const popoutLink = document.getElementById('revision-popout-link');
 
     if (breadcrumbChapter) breadcrumbChapter.textContent = chapterName;
     if (titleEl) titleEl.textContent = info.title || `${chapterName} Revision Notes`;
     if (fileEl) fileEl.textContent = info.fileName || `${chapterName}.pdf`;
 
     const previewUrl = info.previewUrl || `https://drive.google.com/file/d/${info.fileId}/preview`;
-    if (popoutLink) {
-      popoutLink.href = previewUrl.replace('/preview', '/view?usp=sharing');
-    }
 
     if (badgeEl) {
       const disc = info.subSubject || 'General Science';
@@ -2945,24 +2941,23 @@ class AptiPrepApp {
     this.revision.isFullscreen = enable;
 
     const fsBtn = document.getElementById('rev-fullscreen-btn');
-    const exitFsBtn = document.getElementById('rev-exit-fullscreen-btn');
 
     if (enable) {
       reader.classList.add('revision-fullscreen-active');
       document.body.classList.add('overflow-hidden');
 
-      // In full screen, automatically activate zoom 150%
+      // In full screen, automatically activate zoom 150% (Fit to Width)
       this.setRevisionZoom(1.5);
 
       if (fsBtn) {
+        fsBtn.className = 'px-2.5 py-1 text-xs font-semibold rounded-md bg-rose-600 text-white hover:bg-rose-500 transition flex items-center gap-1.5 shadow-2xs select-none';
         fsBtn.innerHTML = `
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
-          <span class="hidden sm:inline">Exit Fullscreen</span>
+          <span>&times;</span>
+          <span>Exit Fullscreen</span>
         `;
         fsBtn.setAttribute('title', 'Exit Fullscreen (Esc)');
         fsBtn.onclick = () => this.toggleRevisionFullscreen(false);
       }
-      if (exitFsBtn) exitFsBtn.classList.remove('hidden');
 
       // Request browser fullscreen on the reader container
       if (reader.requestFullscreen && !document.fullscreenElement) {
@@ -2981,6 +2976,7 @@ class AptiPrepApp {
       }
 
       if (fsBtn) {
+        fsBtn.className = 'reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1.5 shadow-2xs select-none';
         fsBtn.innerHTML = `
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
           <span class="hidden sm:inline">Full Screen</span>
@@ -2988,7 +2984,6 @@ class AptiPrepApp {
         fsBtn.setAttribute('title', 'Full Screen (F)');
         fsBtn.onclick = () => this.toggleRevisionFullscreen(true);
       }
-      if (exitFsBtn) exitFsBtn.classList.add('hidden');
 
       // Exit browser fullscreen if active
       if (document.fullscreenElement && document.exitFullscreen) {
