@@ -769,20 +769,20 @@
         </div>
       </div>
 
-      <!-- Hidden compatibility elements required by app logic & tests -->
-      <span id="revision-breadcrumb-subject" class="hidden">Biology</span>
-      <span id="revision-preview-badge" class="hidden">Biology</span>
-      <span id="revision-preview-title" class="hidden">Cell Revision Notes</span>
-      <span id="revision-preview-file" class="hidden">Cell.pdf</span>
-      <select id="revision-chapter-dropdown-mobile" class="hidden" aria-hidden="true"></select>
+      <!-- Hidden compatibility elements required by app logic & tests (strict display:none) -->
+      <span id="revision-breadcrumb-subject" style="display: none !important;">Biology</span>
+      <span id="revision-preview-badge" style="display: none !important;">Biology</span>
+      <span id="revision-preview-title" style="display: none !important;">Cell Revision Notes</span>
+      <span id="revision-preview-file" style="display: none !important;">Cell.pdf</span>
+      <select id="revision-chapter-dropdown-mobile" style="display: none !important;" aria-hidden="true"></select>
 
       <!-- Workspace Container (Relative overlay studio) -->
-      <div id="revision-workspace-container" class="relative flex-1 w-full flex overflow-hidden rounded-xl border border-zinc-200 shadow-2xs bg-white min-h-[580px] h-[calc(100vh-115px)]">
+      <div id="revision-workspace-container" class="relative w-full rounded-xl border border-zinc-200 overflow-hidden shadow-2xs bg-zinc-900">
 
         <!-- REDESIGNED CHAPTER DRAWER OVERLAY -->
         <div id="revision-sidebar-backdrop" onclick="app.setRevisionSidebarOpen(false)" class="absolute inset-0 bg-zinc-900/40 backdrop-blur-2xs z-20 hidden transition-opacity"></div>
 
-        <div id="revision-sidebar" class="hidden absolute inset-y-0 left-0 z-30 w-72 sm:w-84 max-w-[85vw] bg-white border-r border-zinc-200 flex-col shadow-xl">
+        <div id="revision-sidebar" class="hidden absolute inset-y-0 left-0 z-30 w-72 sm:w-84 max-w-[85vw] h-full bg-white border-r border-zinc-200 flex-col shadow-xl">
           <!-- Drawer Header -->
           <div class="p-3 border-b border-zinc-100 bg-zinc-50 flex items-center justify-between shrink-0">
             <div class="min-w-0">
@@ -811,10 +811,10 @@
         </div>
 
         <!-- MAIN: Full-Size PDF Reader Studio -->
-        <div id="revision-reader-container" class="col-span-12 w-full flex-1 flex flex-col h-full bg-zinc-900 overflow-hidden relative">
+        <div id="revision-reader-container" class="col-span-12 w-full h-full flex flex-col bg-zinc-900 overflow-hidden relative">
 
           <!-- Embedded Viewer Area directly on Page -->
-          <div id="revision-preview-wrapper" class="relative w-full h-full flex-1 bg-zinc-900 overflow-hidden">
+          <div id="revision-preview-wrapper" class="relative w-full h-full bg-zinc-900 overflow-hidden">
             <!-- Loading Spinner -->
             <div id="revision-view-loader" class="absolute inset-0 bg-white/95 z-10 flex flex-col items-center justify-center space-y-2.5 transition-opacity">
               <div class="w-8 h-8 border-3 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
@@ -824,7 +824,8 @@
             <!-- Embedded Iframe on Page with true fullscreen permissions -->
             <iframe id="revision-view-iframe"
                     src=""
-                    class="w-full h-full border-0 bg-white"
+                    class="w-full h-full border-0 bg-white block"
+                    style="width: 100%; height: 100%; min-height: 100%;"
                     allow="autoplay; fullscreen; clipboard-read; clipboard-write; encrypted-media; picture-in-picture"
                     allowfullscreen="true"
                     webkitallowfullscreen="true"

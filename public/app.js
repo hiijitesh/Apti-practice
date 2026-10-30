@@ -678,16 +678,16 @@ class AptiPrepApp {
       if (el) el.classList.toggle('hidden', v !== viewName);
     });
 
-    // Adapt main container width: expand for revision studio layout (flush beneath navbar, zero scrolling)
+    // Adapt main container padding: flush beneath navbar in revision view, centered with navbar
     const mainEl = document.querySelector('main');
     if (mainEl) {
       if (viewName === 'revision') {
-        mainEl.classList.remove('max-w-5xl', 'py-8');
-        mainEl.classList.add('max-w-full', 'w-full', 'px-2', 'sm:px-3', 'py-1', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
+        mainEl.classList.remove('py-8');
+        mainEl.classList.add('py-1.5', 'sm:py-2');
         document.body.classList.add('overflow-y-hidden');
       } else {
-        mainEl.classList.remove('max-w-full', 'w-full', 'px-2', 'sm:px-3', 'py-1', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
-        mainEl.classList.add('max-w-5xl', 'py-8');
+        mainEl.classList.remove('py-1.5', 'sm:py-2');
+        mainEl.classList.add('py-8');
         document.body.classList.remove('overflow-y-hidden');
       }
     }

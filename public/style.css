@@ -358,4 +358,39 @@ button:active:not(:disabled) {
   transform: none !important;
 }
 
+/* Revision View Studio Sizing & Full Viewport */
+#revision-workspace-container {
+  height: calc(100vh - 120px) !important;
+  min-height: 560px !important;
+  width: 100% !important;
+  position: relative !important;
+  background-color: #18181b !important;
+}
+
+#revision-reader-container {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 0% !important;
+  background-color: #18181b !important;
+}
+
+#revision-preview-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+  flex: 1 1 0% !important;
+  position: relative !important;
+  background-color: #18181b !important;
+}
+
+#revision-view-iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  border: 0 !important;
+  display: block !important;
+  background-color: #ffffff !important;
+}
+
 
