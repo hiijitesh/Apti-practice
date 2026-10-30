@@ -564,6 +564,8 @@ class AptiPrepApp {
             this.toggleRevisionFullscreen(false);
           } else if (this.revision && this.revision.sidebarOpen) {
             this.setRevisionSidebarOpen(false);
+          } else if (this.zenMode) {
+            this.toggleZenMode(false);
           } else {
             this.exitRevisionView();
           }
@@ -581,6 +583,13 @@ class AptiPrepApp {
       if (key === 'f' && this.currentMode === 'revision') {
         e.preventDefault();
         this.toggleRevisionFullscreen();
+        return;
+      }
+
+      // 'z' toggles Zen / Distraction-Free in Revision Mode
+      if (key === 'z' && this.currentMode === 'revision' && !e.metaKey && !e.ctrlKey) {
+        e.preventDefault();
+        this.toggleZenMode();
         return;
       }
 
@@ -631,9 +640,34 @@ class AptiPrepApp {
     });
   }
 
-  toggleZenMode() {
-    this.zenMode = !this.zenMode;
+  toggleZenMode(forcedState) {
+    this.zenMode = (typeof forcedState === 'boolean') ? forcedState : !this.zenMode;
     document.body.classList.toggle('zen-mode', this.zenMode);
+
+    const btnHeaderZen = document.getElementById('btn-zen');
+    const btnRevZen = document.getElementById('rev-zen-btn');
+
+    if (btnHeaderZen) {
+      btnHeaderZen.classList.toggle('bg-zinc-900', this.zenMode);
+      btnHeaderZen.classList.toggle('text-white', this.zenMode);
+      btnHeaderZen.title = this.zenMode ? 'Exit Distraction-Free Mode (Z)' : 'Toggle Distraction-Free Zen Mode (Z)';
+    }
+
+    if (btnRevZen) {
+      if (this.zenMode) {
+        btnRevZen.classList.add('bg-zinc-900', 'text-white', 'border-zinc-900');
+        btnRevZen.classList.remove('bg-white', 'text-zinc-700');
+        btnRevZen.title = 'Exit Distraction-Free Zen Mode (Z)';
+        const label = btnRevZen.querySelector('.zen-btn-label');
+        if (label) label.textContent = 'Exit Zen';
+      } else {
+        btnRevZen.classList.remove('bg-zinc-900', 'text-white', 'border-zinc-900');
+        btnRevZen.classList.add('bg-white', 'text-zinc-700');
+        btnRevZen.title = 'Toggle Distraction-Free Zen Mode (Z)';
+        const label = btnRevZen.querySelector('.zen-btn-label');
+        if (label) label.textContent = 'Zen';
+      }
+    }
   }
 
   // ==========================================
@@ -678,19 +712,19 @@ class AptiPrepApp {
       if (el) el.classList.toggle('hidden', v !== viewName);
     });
 
-    // Adapt layout: full-width edge-to-edge studio for revision view (zero side gutters, zero scrolling)
+    // Adapt main container padding: tight vertical spacing for revision view, aligned with navbar
     const mainEl = document.querySelector('main');
     if (viewName === 'revision') {
-      document.body.classList.add('revision-mode-active');
+      document.body.classList.add('overflow-y-hidden');
       if (mainEl) {
-        mainEl.classList.remove('max-w-5xl', 'max-w-7xl', 'xl:max-w-[1440px]', '2xl:max-w-[1600px]', 'py-6', 'sm:py-8', 'py-8', 'px-4', 'sm:px-6', 'lg:px-8', 'mx-auto');
-        mainEl.classList.add('max-w-none', 'w-full', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
+        mainEl.classList.remove('py-6', 'sm:py-8');
+        mainEl.classList.add('py-2', 'sm:py-3');
       }
     } else {
-      document.body.classList.remove('revision-mode-active');
+      document.body.classList.remove('overflow-y-hidden');
       if (mainEl) {
-        mainEl.classList.remove('max-w-none', 'p-0', 'm-0', 'h-[calc(100vh-3.5rem)]', 'flex', 'flex-col');
-        mainEl.classList.add('max-w-7xl', 'xl:max-w-[1440px]', '2xl:max-w-[1600px]', 'w-full', 'mx-auto', 'py-6', 'sm:py-8', 'px-4', 'sm:px-6', 'lg:px-8');
+        mainEl.classList.remove('py-2', 'sm:py-3');
+        mainEl.classList.add('py-6', 'sm:py-8');
       }
     }
 
@@ -2676,7 +2710,7 @@ class AptiPrepApp {
   exitRevisionView() {
     this.toggleRevisionFullscreen(false);
     this.setRevisionSidebarOpen(false);
-    document.body.classList.remove('revision-mode-active');
+    if (this.zenMode) this.toggleZenMode(false);
     document.body.classList.remove('overflow-y-hidden');
 
     if (this.revision.returnView === 'practice') {
