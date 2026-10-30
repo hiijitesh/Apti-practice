@@ -78,6 +78,13 @@ class AptiPrepApp {
     this.setupFullscreenListeners();
     this.updateSheetStatusUI();
 
+    document.addEventListener('click', (e) => {
+      const header = document.getElementById('global-header');
+      if (header && !header.contains(e.target)) {
+        this.closeMobileNav();
+      }
+    });
+
     if (!this.currentUserEmail) {
       const params = new URLSearchParams(window.location.search);
       if (params.get('autostart') === 'mock' || params.get('autostart') === 'practice') {
@@ -180,6 +187,49 @@ class AptiPrepApp {
         widget.classList.remove('flex');
       }
     }
+
+    // Mobile Navigation UI Sync
+    const mobToggle = document.getElementById('mobile-nav-toggle-btn');
+    const mobEmail = document.getElementById('mobile-user-email');
+    const mobName = document.getElementById('mobile-user-name');
+    const mobInit = document.getElementById('mobile-user-initial');
+
+    if (mobToggle) {
+      if (isLoggedIn) {
+        mobToggle.classList.remove('hidden');
+      } else {
+        mobToggle.classList.add('hidden');
+        this.closeMobileNav();
+      }
+    }
+    if (mobEmail) mobEmail.textContent = this.currentUserEmail || 'guest@local';
+    const dispName = this.getUserDisplayName();
+    if (mobName) mobName.textContent = dispName;
+    if (mobInit) mobInit.textContent = dispName.charAt(0).toUpperCase();
+  }
+
+  toggleMobileNav() {
+    const menu = document.getElementById('mobile-nav-menu');
+    const iconMenu = document.getElementById('mobile-nav-icon-menu');
+    const iconClose = document.getElementById('mobile-nav-icon-close');
+    if (!menu) return;
+    const isHidden = menu.classList.contains('hidden');
+    if (isHidden) {
+      menu.classList.remove('hidden');
+      if (iconMenu) iconMenu.classList.add('hidden');
+      if (iconClose) iconClose.classList.remove('hidden');
+    } else {
+      this.closeMobileNav();
+    }
+  }
+
+  closeMobileNav() {
+    const menu = document.getElementById('mobile-nav-menu');
+    const iconMenu = document.getElementById('mobile-nav-icon-menu');
+    const iconClose = document.getElementById('mobile-nav-icon-close');
+    if (menu) menu.classList.add('hidden');
+    if (iconMenu) iconMenu.classList.remove('hidden');
+    if (iconClose) iconClose.classList.add('hidden');
   }
 
   getUserDisplayName() {
@@ -796,6 +846,7 @@ class AptiPrepApp {
 
   // View Switching
   switchView(viewName) {
+    this.closeMobileNav();
     if (this.currentMode === 'revision' && viewName !== 'revision') {
       this.toggleRevisionFullscreen(false);
       this.toggleZenMode(false);

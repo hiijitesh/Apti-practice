@@ -40,7 +40,7 @@
 
   <!-- Minimal Top Navigation Bar -->
   <header id="global-header" class="bg-white/95 backdrop-blur-md border-b border-zinc-200 sticky top-0 z-30">
-    <div class="max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-8 sm:px-12 lg:px-24 h-14 flex items-center justify-between">
+    <div class="max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-8 lg:px-16 h-14 flex items-center justify-between">
       <div class="flex items-center space-x-2 sm:space-x-3 cursor-pointer shrink-0" onclick="app.showDashboard()">
         <span class="text-sm sm:text-base font-semibold text-zinc-900 tracking-tight flex items-center gap-1.5">
           AptiPrep
@@ -48,7 +48,8 @@
         </span>
       </div>
 
-      <nav class="flex items-center space-x-1 sm:space-x-2 text-xs">
+      <!-- Desktop Navigation Bar (md:flex) -->
+      <nav class="hidden md:flex items-center space-x-1 sm:space-x-2 text-xs">
         <button onclick="app.showDashboard()" id="nav-btn-home" class="hidden px-2.5 py-1.5 font-medium rounded-md text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 transition">
           Dashboard
         </button>
@@ -75,11 +76,61 @@
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
         </button>
       </nav>
+
+      <!-- Mobile Right Controls (Hamburger + Font Size) -->
+      <div class="flex md:hidden items-center gap-2">
+        <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-2 py-1 rounded border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-xs transition">
+          <span class="font-scale-indicator">A</span>
+        </button>
+        <button id="mobile-nav-toggle-btn" onclick="app.toggleMobileNav()" aria-label="Toggle Navigation Menu" class="p-1.5 rounded-lg border border-zinc-200 text-zinc-700 hover:bg-zinc-100 transition flex items-center justify-center">
+          <svg id="mobile-nav-icon-menu" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          <svg id="mobile-nav-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation Menu -->
+    <div id="mobile-nav-menu" class="hidden md:hidden border-t border-zinc-200/90 bg-white/98 backdrop-blur-md px-4 py-3 space-y-3 shadow-lg">
+      <!-- User Profile Card -->
+      <div id="mobile-user-widget" class="flex items-center justify-between p-2.5 rounded-lg bg-zinc-50 border border-zinc-200">
+        <div class="flex items-center gap-2.5 min-w-0">
+          <div class="w-8 h-8 rounded-full bg-zinc-900 text-white font-bold text-xs flex items-center justify-center shrink-0 shadow-xs">
+            <span id="mobile-user-initial">J</span>
+          </div>
+          <div class="min-w-0">
+            <div id="mobile-user-name" class="text-xs font-semibold text-zinc-900 truncate">Jitesh</div>
+            <div id="mobile-user-email" class="text-[10px] font-mono text-zinc-500 truncate">guest@local</div>
+          </div>
+        </div>
+        <button onclick="app.promptSwitchUser(); app.closeMobileNav();" class="text-[11px] font-medium text-zinc-600 hover:text-zinc-900 px-2 py-1 rounded border border-zinc-200 bg-white hover:bg-zinc-100 transition shrink-0">
+          Switch
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Links -->
+      <div class="space-y-1 text-xs font-medium">
+        <button onclick="app.showDashboard(); app.closeMobileNav();" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 active:bg-zinc-200 transition text-left">
+          <span class="text-sm">📊</span>
+          <span>Dashboard</span>
+        </button>
+        <button onclick="app.openChapterSelectModal(); app.closeMobileNav();" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 active:bg-zinc-200 transition text-left">
+          <span class="text-sm">📚</span>
+          <span>Chapters & Practice</span>
+        </button>
+        <button onclick="app.startMockTestPrompt(); app.closeMobileNav();" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-indigo-700 bg-indigo-50/70 hover:bg-indigo-100 active:bg-indigo-200 transition text-left font-semibold">
+          <span class="text-sm">⏱️</span>
+          <span>Full Mock Test</span>
+        </button>
+        <button onclick="app.showRevisionView(); app.closeMobileNav();" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-zinc-700 hover:text-zinc-950 hover:bg-zinc-100 active:bg-zinc-200 transition text-left">
+          <span class="text-sm">📖</span>
+          <span>Revision Notes & PDFs</span>
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- Main Content Container -->
-  <main id="main-container" class="flex-1 max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] w-full mx-auto px-8 sm:px-12 lg:px-24 py-6 sm:py-8">
+  <main id="main-container" class="flex-1 max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] w-full mx-auto px-4 sm:px-8 lg:px-16 py-5 sm:py-8">
 
     <!-- VIEW 0: EMAIL SESSION GATEWAY -->
     <section id="view-login" class="max-w-md mx-auto my-12 p-6 sm:p-8 bg-white border border-zinc-200 rounded-xl space-y-5 hidden">
@@ -577,7 +628,7 @@
                 <span id="mock-mobile-q-num" class="w-6 h-6 rounded-full bg-zinc-400 text-white text-xs font-bold flex items-center justify-center shrink-0">01</span>
                 <span id="mock-q-number" class="hidden lg:inline text-base font-bold text-zinc-900">Question No. 1</span>
                 <span id="mock-question-spent-time" class="text-xs text-zinc-400 font-mono font-medium">00:00</span>
-                
+
                 <!-- Marks Badges: +1 (green box) and -0.33 (red box) -->
                 <div class="flex items-center gap-1 font-semibold ml-0.5 sm:ml-1">
                   <span class="bg-[#10b981] text-white text-[10px] font-bold px-1.5 py-0.5 rounded shadow-2xs">+1</span>
@@ -656,7 +707,7 @@
 
         <!-- RIGHT: PALETTE SIDEBAR (Desktop docked, Mobile slide-up drawer) -->
         <div id="mock-drawer-panel" class="w-full lg:w-[320px] xl:w-[340px] bg-[#eaf6fb] border-l border-zinc-200 flex flex-col justify-between overflow-y-auto palette-sheet-drawer hidden lg:flex shrink-0 transition-all duration-200">
-          
+
           <div class="p-3.5 sm:p-4 space-y-3.5">
             <!-- User Info Card -->
             <div class="flex items-center justify-between bg-white rounded-lg p-2.5 border border-sky-100 shadow-2xs">
@@ -1164,7 +1215,7 @@
   <!-- TESTBOOK PAUSE & TEST SUMMARY MODAL (IMAGE 1 REPLICA) -->
   <div id="test-paused-modal" class="fixed inset-0 bg-zinc-950/70 backdrop-blur-xs z-50 flex items-center justify-center p-3 sm:p-6 hidden">
     <div class="bg-white rounded-lg max-w-3xl w-full border border-zinc-200 shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
-      
+
       <!-- Responsive Table Container -->
       <div class="overflow-x-auto">
         <table class="w-full text-center border-collapse text-[11px] sm:text-xs md:text-sm">
