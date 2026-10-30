@@ -592,25 +592,6 @@ class AptiPrepApp {
           this.nextRevisionChapter();
           return;
         }
-
-        // Fullscreen zoom shortcuts (+, -, 0 to reset 150%)
-        if (this.revision && this.revision.isFullscreen) {
-          if (key === '+' || key === '=') {
-            e.preventDefault();
-            this.adjustRevisionZoom(0.25);
-            return;
-          }
-          if (key === '-' || key === '_') {
-            e.preventDefault();
-            this.adjustRevisionZoom(-0.25);
-            return;
-          }
-          if (key === '0') {
-            e.preventDefault();
-            this.setRevisionZoom(1.5);
-            return;
-          }
-        }
       }
 
       // Zen mode toggle shortcut: 'z'
@@ -2899,37 +2880,6 @@ class AptiPrepApp {
     }
   }
 
-  setRevisionZoom(zoom) {
-    zoom = Math.min(Math.max(zoom, 0.75), 2.5);
-    this.revision.fullscreenZoom = zoom;
-
-    const wrapper = document.getElementById('revision-preview-wrapper');
-    const label = document.getElementById('revision-zoom-label');
-    const fitBtn = document.getElementById('rev-fit-width-btn');
-
-    if (wrapper) {
-      wrapper.style.setProperty('--rev-zoom', zoom.toString());
-    }
-    if (label) {
-      label.textContent = `${Math.round(zoom * 100)}%`;
-    }
-    if (fitBtn) {
-      const isFit = Math.abs(zoom - 1.5) < 0.05;
-      fitBtn.classList.toggle('is-active', isFit);
-      fitBtn.classList.toggle('bg-zinc-100', isFit);
-      fitBtn.classList.toggle('font-bold', isFit);
-    }
-  }
-
-  fitToWidth() {
-    this.setRevisionZoom(1.5);
-  }
-
-  adjustRevisionZoom(delta) {
-    const current = this.revision.fullscreenZoom || 1.5;
-    this.setRevisionZoom(current + delta);
-  }
-
   toggleRevisionFullscreen(enable) {
     const reader = document.getElementById('revision-reader-container');
     if (!reader) return;
@@ -2945,9 +2895,6 @@ class AptiPrepApp {
     if (enable) {
       reader.classList.add('revision-fullscreen-active');
       document.body.classList.add('overflow-hidden');
-
-      // In full screen, automatically activate zoom 150% (Fit to Width)
-      this.setRevisionZoom(1.5);
 
       if (fsBtn) {
         fsBtn.className = 'px-2.5 py-1 text-xs font-semibold rounded-md bg-rose-600 text-white hover:bg-rose-500 transition flex items-center gap-1.5 shadow-2xs select-none';
@@ -2968,12 +2915,6 @@ class AptiPrepApp {
     } else {
       reader.classList.remove('revision-fullscreen-active');
       document.body.classList.remove('overflow-hidden');
-
-      // Reset wrapper custom zoom variable
-      const wrapper = document.getElementById('revision-preview-wrapper');
-      if (wrapper) {
-        wrapper.style.removeProperty('--rev-zoom');
-      }
 
       if (fsBtn) {
         fsBtn.className = 'reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md border border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800 transition flex items-center gap-1.5 shadow-2xs select-none';
