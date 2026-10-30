@@ -882,7 +882,7 @@ class AptiPrepApp {
 
       return `
         <div onclick="app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}')"
-             class="p-2.5 rounded-lg border border-zinc-200 hover:border-zinc-400 hover:bg-zinc-50 cursor-pointer transition flex items-center justify-between group">
+             class="p-2.5 rounded-lg border border-zinc-200 hover:border-sky-300 hover:bg-sky-50/80 cursor-pointer transition flex items-center justify-between group">
           <div class="overflow-hidden pr-2">
             <div class="flex items-center gap-1.5 mb-0.5">
               ${badge}
@@ -1101,35 +1101,35 @@ class AptiPrepApp {
     grid.innerHTML = filtered.map(ch => {
       const isSci = (ch.subject === 'General Science');
       let badgeHtml = '';
-      let cardBorder = 'bg-white hover:border-zinc-400 border border-zinc-200';
+      let cardBorder = 'bg-white hover:bg-sky-50/80 hover:border-sky-300 border border-zinc-200';
       if (ch.name === 'Top 300 Questions') {
-        badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-1.5 py-0.5 rounded border border-amber-300">🔥 TOP 300</span>';
-        cardBorder = 'bg-gradient-to-r from-amber-50/70 to-white hover:border-amber-400 border border-amber-200 shadow-xs';
+        badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 bg-amber-100 px-2 py-0.5 rounded border border-amber-300">🔥 TOP 300</span>';
+        cardBorder = 'bg-gradient-to-r from-amber-50/70 to-white hover:bg-sky-50 hover:border-sky-400 border border-amber-200 shadow-xs';
       } else if (isSci) {
         if (ch.subSubject === 'Biology') {
-          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200/60">Bio</span>';
+          badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/60">Bio</span>';
         } else if (ch.subSubject === 'Chemistry') {
-          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200/60">Chem</span>';
+          badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-sky-700 bg-sky-50 px-2 py-0.5 rounded border border-sky-200/60">Chem</span>';
         } else if (ch.subSubject === 'Physics') {
-          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded border border-violet-200/60">Phys</span>';
+          badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-violet-700 bg-violet-50 px-2 py-0.5 rounded border border-violet-200/60">Phys</span>';
         } else {
-          badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-1.5 py-0.5 rounded">Sci</span>';
+          badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded">Sci</span>';
         }
       } else {
-        badgeHtml = '<span class="text-[9px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200/60">Apti</span>';
+        badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded border border-zinc-200/60">Apti</span>';
       }
 
       return `
         <div onclick="app.startPractice('${ch.name.replace(/'/g, "\\'")}')"
-             class="${cardBorder} rounded-lg p-3 cursor-pointer transition flex items-center justify-between group">
-          <div class="space-y-1 overflow-hidden pr-2">
-            <div class="flex items-center gap-1.5">
+             class="${cardBorder} rounded-xl p-3.5 sm:p-4 cursor-pointer transition-all duration-150 flex items-center justify-between group shadow-2xs hover:shadow-xs">
+          <div class="space-y-1.5 overflow-hidden pr-2 flex-1">
+            <div class="flex items-center gap-2">
               ${badgeHtml}
-              <span class="text-[11px] text-zinc-400 font-mono">${ch.count} Qs</span>
+              <span class="text-xs text-zinc-500 group-hover:text-sky-700 font-mono font-medium transition-colors">${ch.count} Qs</span>
             </div>
-            <h4 class="font-medium text-zinc-900 group-hover:text-zinc-700 text-xs truncate" title="${ch.name}">${ch.name}</h4>
+            <h4 class="font-semibold text-zinc-900 group-hover:text-sky-900 text-sm sm:text-base leading-snug truncate transition-colors" title="${ch.name}">${ch.name}</h4>
           </div>
-          <span class="text-xs text-zinc-300 group-hover:text-zinc-600 transition shrink-0">&rarr;</span>
+          <span class="text-sm text-zinc-300 group-hover:text-sky-600 transition-colors shrink-0 font-bold ml-1">&rarr;</span>
         </div>
       `;
     }).join('');
