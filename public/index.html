@@ -16,7 +16,11 @@
     // Instant anti-flicker router: determines initial view before layout paint
     (function() {
       try {
-        var email = localStorage.getItem('apti_user_email');
+        var params = new URLSearchParams(window.location.search);
+      var email = localStorage.getItem('apti_user_email') || (params.get('autostart') ? 'jitesh@local' : null);
+      if (params.get('autostart') && !localStorage.getItem('apti_user_email')) {
+        localStorage.setItem('apti_user_email', 'jitesh@local');
+      }
         document.addEventListener('DOMContentLoaded', function() {
           var viewLogin = document.getElementById('view-login');
           var viewDash = document.getElementById('view-dashboard');
@@ -396,28 +400,6 @@
               <p id="practice-explanation-text" class="text-zinc-600 leading-relaxed text-xs sm:text-sm"></p>
             </div>
           </div>
-
-          <!-- Desktop Navigation Controls & Keyboard Hint -->
-          <div class="hidden sm:flex flex-row items-center justify-between gap-3 pt-1">
-            <div class="text-[11px] text-zinc-400 flex items-center gap-1.5">
-              <span>Keys:</span>
-              <kbd>1-4</kbd> / <kbd>A-D</kbd> <span>Select</span> &bull;
-              <kbd>&rarr;</kbd> / <kbd>Enter</kbd> <span>Next</span> &bull;
-              <kbd>&larr;</kbd> <span>Prev</span>
-            </div>
-
-            <div class="flex items-center justify-end gap-2 text-xs">
-              <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 py-2 rounded-lg btn-secondary text-zinc-700 font-medium transition disabled:opacity-30 disabled:pointer-events-none">
-                Previous
-              </button>
-              <button onclick="app.clearPracticeResponse()" class="px-3 py-2 rounded-lg text-zinc-400 hover:text-zinc-700 transition">
-                Clear
-              </button>
-              <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-4 py-2 rounded-lg btn-primary font-medium transition select-none inline-flex items-center justify-center gap-1.5">
-                Save & Next &rarr;
-              </button>
-            </div>
-          </div>
         </div>
 
         <!-- Mobile Palette Backdrop -->
@@ -443,22 +425,34 @@
         </div>
       </div>
 
-      <!-- Mobile Thumb-Friendly Fixed Bottom Bar (Visible on mobile only) -->
-      <div id="practice-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3 py-2 z-40 sm:hidden flex items-center justify-between gap-2 shadow-lg safe-bottom">
-        <button onclick="app.prevPracticeQuestion()" class="flex-1 py-2.5 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center active:bg-zinc-100 transition">
-          &larr; Prev
-        </button>
-        <button onclick="app.clearPracticeResponse()" class="px-3 py-2.5 text-zinc-400 hover:text-zinc-700 text-xs text-center transition">
-          Clear
-        </button>
-        <button onclick="app.togglePracticeDrawer()" class="px-3 py-2.5 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:bg-zinc-100 transition">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-          <span id="practice-mobile-palette-btn-text">Palette</span>
-        </button>
-        <button onclick="app.nextPracticeQuestion()" id="practice-mobile-btn-next" class="flex-1 py-2.5 rounded-lg btn-primary font-medium text-xs text-center shadow-xs active:opacity-90 transition select-none">
-          Save & Next &rarr;
-        </button>
-      </div>
+      <!-- FIXED BOTTOM NAVIGATION BAR (FIXED ACROSS ALL SCREEN SIZES: NEVER SHIFTS WITH QUESTION LENGTH) -->
+      <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-zinc-200 px-3.5 sm:px-6 lg:px-8 py-2.5 sm:py-3 z-40 flex items-center justify-between gap-2 sm:gap-3 shadow-lg safe-bottom">
+        <!-- Left: Previous, Clear & Keyboard Hints (Desktop) -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 sm:px-4 py-2 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center transition disabled:opacity-30 disabled:pointer-events-none active:scale-95">
+            Previous
+          </button>
+          <button onclick="app.clearPracticeResponse()" id="practice-btn-clear" class="px-2.5 sm:px-3 py-2 rounded-lg text-xs text-zinc-500 hover:text-zinc-800 transition active:scale-95">
+            Clear
+          </button>
+          <div class="hidden md:flex items-center gap-1.5 text-[11px] text-zinc-400 border-l border-zinc-200 pl-3">
+            <span>Keys:</span>
+            <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">1-4</kbd> / <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">A-D</kbd> <span>Select</span> &bull;
+            <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">&rarr;</kbd> / <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">Enter</kbd> <span>Next</span>
+          </div>
+        </div>
+
+        <!-- Right: Mobile Palette Toggle & Save & Next Button -->
+        <div class="flex items-center gap-2">
+          <button onclick="app.togglePracticeDrawer()" class="lg:hidden px-3 py-2 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:scale-95 transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            <span id="practice-mobile-palette-btn-text">Palette</span>
+          </button>
+          <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-5 sm:px-7 py-2.5 rounded-lg btn-primary font-semibold text-xs text-center shadow-xs active:scale-95 transition select-none flex items-center gap-1.5">
+            Save & Next &rarr;
+          </button>
+          <span id="practice-mobile-btn-next" class="hidden"></span>
+        </div>
       </div>
     </section>
 
@@ -575,9 +569,10 @@
       <!-- 3. MAIN WORKSPACE: LEFT QUESTION PANE + RIGHT PALETTE SIDEBAR -->
       <div class="flex-1 flex flex-row overflow-hidden relative">
 
-        <!-- LEFT: QUESTION AREA -->
-        <div id="mock-question-pane" class="flex-1 flex flex-col justify-between overflow-y-auto pb-24 lg:pb-0 transition-all duration-200 bg-[#f4f7f9] lg:bg-white">
-          <div class="p-3 sm:p-5 lg:p-8 space-y-3.5 sm:space-y-4 max-w-4xl mx-auto w-full">
+        <!-- LEFT: QUESTION AREA (Pinned bottom bar: never shifts with question length!) -->
+        <div id="mock-question-pane" class="flex-1 flex flex-col h-full overflow-hidden bg-[#f4f7f9] lg:bg-white min-h-0">
+          <!-- Scrollable Question & Options Content -->
+          <div class="flex-1 overflow-y-auto p-3 sm:p-5 lg:p-8 space-y-3.5 sm:space-y-4 max-w-4xl mx-auto w-full pb-24 lg:pb-6">
 
             <!-- ELEVATED QUESTION CARD (IMAGE 3 MOBILE REPLICA) -->
             <div class="bg-white rounded-xl lg:rounded-none border border-zinc-200/90 lg:border-0 lg:border-b lg:border-zinc-200 p-4 sm:p-5 lg:p-0 shadow-2xs lg:shadow-none space-y-3">
@@ -632,15 +627,15 @@
               </div>
             </div>
 
-            <!-- SEPARATE OPTION CARDS (IMAGE 3 REPLICA: 1. 2. 3. 4.) -->
-            <div id="mock-options-container" class="space-y-2.5 sm:space-y-3 pt-1">
+            <!-- UNBOXED OPTIONS (AUTHENTIC CBT STYLE) -->
+            <div id="mock-options-container" class="space-y-1 sm:space-y-1.5 pt-1">
               <!-- Populated dynamically with .tb-mobile-option-card -->
             </div>
 
           </div>
 
-          <!-- DESKTOP / TABLET BOTTOM ACTION BAR -->
-          <div class="hidden lg:flex border-t border-zinc-200 px-6 lg:px-8 py-3 bg-white items-center justify-between gap-3 text-xs sticky bottom-0 z-10 shadow-xs">
+          <!-- DESKTOP / TABLET BOTTOM ACTION BAR (PINNED PERMANENTLY AT BOTTOM OF VIEWPORT) -->
+          <div class="hidden lg:flex shrink-0 border-t border-zinc-200 px-6 lg:px-8 py-3 bg-white items-center justify-between gap-3 text-xs z-10 shadow-xs">
             <div class="flex items-center gap-2">
               <button onclick="app.toggleMockReview()" id="mock-btn-review-toggle" class="tb-btn-secondary px-3.5 py-2 rounded-md font-medium text-xs flex items-center gap-1.5 transition">
                 <span id="mock-review-toggle-label">Mark for Review & Next</span>

@@ -80,7 +80,7 @@ class AptiPrepApp {
 
     if (!this.currentUserEmail) {
       const params = new URLSearchParams(window.location.search);
-      if (params.get('autostart') === 'mock') {
+      if (params.get('autostart') === 'mock' || params.get('autostart') === 'practice') {
         this.currentUserEmail = 'jitesh@local';
         localStorage.setItem('apti_user_email', 'jitesh@local');
       } else {
@@ -113,6 +113,11 @@ class AptiPrepApp {
         this.pauseMockTest();
       } else if (params.get('drawer') === '1') {
         this.toggleMockDrawer();
+      }
+    } else if (params.get('autostart') === 'practice') {
+      if (!this.chapters || this.chapters.length === 0) await this.loadChapters();
+      if (this.chapters && this.chapters.length > 0) {
+        await this.startPractice(this.chapters[0].name);
       }
     }
   }
@@ -799,10 +804,16 @@ class AptiPrepApp {
     this.currentMode = viewName;
     this.updateUserSessionUI();
 
-    if (viewName === 'mock') {
+    if (viewName === 'mock' || viewName === 'practice') {
       document.body.classList.add('cbt-portal-active');
+      if (viewName === 'mock') {
+        document.body.classList.add('in-mock-portal');
+      } else {
+        document.body.classList.remove('in-mock-portal');
+      }
     } else {
       document.body.classList.remove('cbt-portal-active');
+      document.body.classList.remove('in-mock-portal');
     }
     const views = ['login', 'dashboard', 'practice', 'mock', 'results', 'revision'];
     views.forEach(v => {
@@ -1610,37 +1621,41 @@ class AptiPrepApp {
     const letters = ['A', 'B', 'C', 'D'];
 
     optContainer.innerHTML = (q.options || []).map((opt, idx) => {
-      let cardStyle = 'border-zinc-200 hover:border-zinc-400 bg-white text-zinc-900 shadow-xs';
-      let icon = letters[idx];
-      let iconStyle = 'border border-zinc-200 text-zinc-600 bg-zinc-50';
+      const isSelected = (selected === idx);
+      let radioState = '';
+      let textStyle = 'text-zinc-800';
 
       if (isTestMode) {
-        if (selected === idx) {
-          cardStyle = 'border-indigo-500 bg-indigo-50/90 text-indigo-950 font-semibold ring-2 ring-indigo-500/30 shadow-xs hover:bg-indigo-100 hover:border-indigo-600';
-          iconStyle = 'btn-primary text-white font-bold shadow-xs';
+        if (isSelected) {
+          radioState = '<span class="tb-option-radio-dot bg-indigo-600"></span>';
+          textStyle = 'text-indigo-950 font-semibold';
         }
       } else {
         if (selected !== undefined && selected !== null) {
           if (idx === q.correctAnswer) {
-            cardStyle = 'border-emerald-500 bg-emerald-50/80 text-emerald-950 font-medium ring-2 ring-emerald-500';
-            iconStyle = 'bg-emerald-600 text-white border-emerald-600 font-bold';
-            icon = '✓';
+            radioState = '<span class="text-xs text-emerald-600 font-black">✓</span>';
+            textStyle = 'text-emerald-950 font-bold';
           } else if (idx === selected) {
-            cardStyle = 'border-rose-400 bg-rose-50/80 text-rose-950 font-medium ring-2 ring-rose-400';
-            iconStyle = 'bg-rose-600 text-white border-rose-600 font-bold';
-            icon = '✕';
+            radioState = '<span class="text-xs text-rose-600 font-black">✕</span>';
+            textStyle = 'text-rose-950 font-medium';
           } else {
-            cardStyle = 'border-zinc-200 bg-zinc-50/40 text-zinc-400 opacity-60';
+            textStyle = 'text-zinc-400 opacity-60';
           }
+        } else if (isSelected) {
+          radioState = '<span class="tb-option-radio-dot bg-indigo-600"></span>';
+          textStyle = 'text-indigo-950 font-semibold';
         }
       }
 
       return `
-        <div onclick="app.selectPracticeOption(${idx})"
-             class="option-label p-3.5 sm:p-4 rounded-xl border ${cardStyle} cursor-pointer flex items-center gap-3.5 transition">
-          <span class="option-badge ${iconStyle}">${icon}</span>
-          <span class="option-text flex-1">${opt}</span>
-        </div>
+        <label onclick="app.selectPracticeOption(${idx})"
+               class="tb-unboxed-option ${isSelected ? 'selected' : ''}">
+          <span class="tb-option-radio">
+            ${radioState}
+          </span>
+          <span class="tb-option-prefix">${letters[idx]}.</span>
+          <span class="tb-option-text ${textStyle}">${opt}</span>
+        </label>
       `;
     }).join('');
 
@@ -2195,7 +2210,7 @@ class AptiPrepApp {
       }
     }
 
-    // Render Option Cards (Exact Image 3 replica)
+    // Render Unboxed Options (Exact CBT style: ○ 1. Option text)
     const optContainer = document.getElementById('mock-options-container');
     const selectedOption = this.mock.userAnswers[q.id];
 
@@ -2205,6 +2220,9 @@ class AptiPrepApp {
         return `
           <label onclick="app.selectMockOption(${idx})"
                  class="tb-mobile-option-card ${isSelected ? 'selected' : ''}">
+            <span class="tb-option-radio">
+              ${isSelected ? '<span class="tb-option-radio-dot"></span>' : ''}
+            </span>
             <span class="tb-option-prefix">${idx + 1}.</span>
             <span class="tb-option-text">${opt}</span>
           </label>
