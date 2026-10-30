@@ -69,19 +69,13 @@
             Switch
           </button>
         </div>
-        <button onclick="app.cycleFontSize()" id="btn-font-size" title="Change Text Size (A / A+ / A++)" class="px-2 py-1 rounded-md border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 font-bold font-mono text-xs transition flex items-center gap-1">
-          <span class="font-scale-indicator">A</span>
-        </button>
         <button onclick="app.toggleZenMode()" id="btn-zen" title="Toggle Distraction-Free Zen Mode" class="hidden sm:inline-flex p-1.5 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
         </button>
       </nav>
 
-      <!-- Mobile Right Controls (Hamburger + Font Size) -->
+      <!-- Mobile Right Controls (Hamburger) -->
       <div class="flex md:hidden items-center gap-1.5">
-        <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-2 py-0.5 rounded border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-[11px] transition">
-          <span class="font-scale-indicator">A</span>
-        </button>
         <button id="mobile-nav-toggle-btn" onclick="app.toggleMobileNav()" aria-label="Toggle Navigation Menu" class="p-1 rounded-md border border-zinc-200 text-zinc-700 hover:bg-zinc-100 transition flex items-center justify-center">
           <svg id="mobile-nav-icon-menu" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
           <svg id="mobile-nav-icon-close" class="w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -392,11 +386,6 @@
               <span class="hidden xs:inline">Revision</span>
             </button>
 
-            <!-- Font Size Zoom Toggle -->
-            <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-2 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-xs transition">
-              <span class="font-scale-indicator">A</span>
-            </button>
-
             <!-- Palette Toggle Button -->
             <button onclick="app.togglePracticeDrawer()" class="px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition flex items-center gap-1">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
@@ -602,13 +591,10 @@
           </button>
         </div>
 
-        <!-- Quick Aux Tools (Font Size & Revision Notes) -->
+        <!-- Quick Aux Tools (Revision Notes) -->
         <div class="flex items-center gap-1.5 shrink-0 py-1">
           <button onclick="app.openRevisionViewFromTest()" id="mock-btn-revision" title="Open Chapter Revision Notes" class="px-2 py-0.5 rounded border border-indigo-200 bg-indigo-50/70 hover:bg-indigo-100 text-indigo-700 font-medium text-[11px] transition hidden xs:flex items-center gap-1">
             <span>📖 Revision</span>
-          </button>
-          <button onclick="app.cycleFontSize()" title="Text Size: A / A+ / A++" class="px-1.5 py-0.5 rounded border border-zinc-200 hover:bg-zinc-100 text-zinc-700 font-bold font-mono text-[11px] transition">
-            <span class="font-scale-indicator">A</span>
           </button>
         </div>
       </div>
@@ -906,18 +892,49 @@
     <!-- VIEW 5: CHAPTERWISE REVISION (ULTRA-CLEAN VIEWPORT STUDIO) -->
     <section id="view-revision" class="h-full flex flex-col space-y-0 hidden">
 
-      <!-- Single Ultra-Compact Full-Width Toolbar Directly Below Navbar -->
-      <div class="bg-white border border-zinc-200 rounded-xl px-2.5 sm:px-3 py-1.5 flex items-center justify-between gap-2 shadow-2xs shrink-0 mb-1.5 w-full">
+      <!-- Single Ultra-Compact Responsive Toolbar -->
+      <div class="bg-white border border-zinc-200 rounded-xl p-2 sm:px-3 sm:py-1.5 flex flex-col md:flex-row md:items-center md:justify-between gap-1.5 sm:gap-2 shadow-2xs shrink-0 mb-1.5 w-full">
 
-        <!-- Left: Exit Button & Subject Tabs -->
-        <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <!-- Row 1: Return + Chapter Selector + Controls (Mobile Top / Desktop Center-Right) -->
+        <div class="flex items-center justify-between gap-1.5 w-full md:w-auto md:flex-1 md:order-2 md:max-w-md md:mx-2">
+          <!-- Return button -->
           <button onclick="app.exitRevisionView()" id="revision-return-btn" class="px-2.5 py-1 rounded-lg btn-secondary text-zinc-700 text-xs font-semibold transition flex items-center gap-1 shrink-0" title="Return">
             <span>&larr;</span>
-            <span id="revision-return-btn-label">Dashboard</span>
+            <span id="revision-return-btn-label" class="hidden xs:inline">Dashboard</span>
           </button>
 
-          <span class="text-zinc-200 hidden sm:inline">|</span>
+          <!-- Interactive Chapter Selector Button (Click to browse all chapters) -->
+          <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="flex-1 min-w-0 px-2 sm:px-2.5 py-1 text-xs font-semibold rounded-lg btn-secondary text-zinc-800 transition flex items-center justify-between gap-1 shadow-2xs group" title="Click to browse all chapters (C)">
+            <div class="flex items-center gap-1 min-w-0 truncate">
+              <span class="text-xs shrink-0">📖</span>
+              <span id="revision-breadcrumb-chapter" class="truncate font-bold text-zinc-900">Cell</span>
+            </div>
+            <span class="text-[10px] text-zinc-400 group-hover:text-zinc-700 font-mono shrink-0 ml-1">▼</span>
+          </button>
 
+          <!-- Navigation Prev/Next & Fullscreen Controls -->
+          <div class="flex items-center gap-1 shrink-0">
+            <button onclick="app.prevRevisionChapter()" id="rev-btn-prev" class="reader-ctrl-btn px-1.5 py-1 sm:px-2 sm:py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-0.5" title="Previous Chapter (&larr;)">
+              <span>&larr;</span>
+              <span class="hidden sm:inline">Prev</span>
+            </button>
+            <button onclick="app.nextRevisionChapter()" id="rev-btn-next" class="reader-ctrl-btn px-1.5 py-1 sm:px-2 sm:py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-0.5" title="Next Chapter (&rarr;)">
+              <span class="hidden sm:inline">Next</span>
+              <span>&rarr;</span>
+            </button>
+            <button onclick="app.toggleZenMode()" id="rev-zen-btn" class="reader-ctrl-btn px-1.5 py-1 sm:px-2 sm:py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition hidden xs:flex items-center gap-1 shadow-2xs" title="Toggle Distraction-Free Mode (Z)">
+              <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+              <span class="zen-btn-label hidden sm:inline">Zen</span>
+            </button>
+            <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2 sm:px-2.5 py-1 text-xs font-semibold rounded-md btn-primary transition flex items-center gap-1 shadow-2xs" title="Full Screen (F)">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+              <span class="hidden sm:inline">Full</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 2 on Mobile (Subject Tabs) / Left on Desktop -->
+        <div class="flex items-center gap-1.5 w-full md:w-auto md:order-1 overflow-x-auto no-scrollbar shrink-0 pt-1 md:pt-0 border-t border-zinc-100 md:border-t-0" id="revision-subject-pills-wrapper">
           <!-- Subject Selector Tabs -->
           <div class="flex items-center gap-1 overflow-x-auto no-scrollbar shrink-0" id="revision-subject-pills">
             <button onclick="app.setRevisionSubject('Biology')" id="rev-subj-btn-Biology" class="px-2 py-1 rounded-md text-xs font-semibold transition btn-primary shadow-2xs whitespace-nowrap">
@@ -937,37 +954,6 @@
           <span id="revision-test-badge" class="hidden text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 shrink-0">
             Active
           </span>
-        </div>
-
-        <!-- Center: Interactive Chapter Selector Button -->
-        <div class="flex items-center gap-1 min-w-0 flex-1 max-w-[220px] sm:max-w-xs md:max-w-sm justify-center mx-1 sm:mx-2">
-          <button onclick="app.toggleRevisionSidebar()" id="rev-toggle-sidebar-btn" class="w-full px-2.5 py-1 text-xs font-semibold rounded-lg btn-secondary text-zinc-800 transition flex items-center justify-between gap-1.5 shadow-2xs group" title="Click to browse all chapters (C)">
-            <div class="flex items-center gap-1.5 min-w-0 truncate">
-              <span class="text-xs">📖</span>
-              <span id="revision-breadcrumb-chapter" class="truncate font-bold text-zinc-900">Cell</span>
-            </div>
-            <span class="text-[10px] text-zinc-400 group-hover:text-zinc-700 font-mono shrink-0 ml-1">▼ Chapters</span>
-          </button>
-        </div>
-
-        <!-- Right: Chapter Navigation & Fullscreen Controls -->
-        <div class="flex items-center gap-1 sm:gap-1.5 shrink-0">
-          <button onclick="app.prevRevisionChapter()" id="rev-btn-prev" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1" title="Previous Chapter (&larr;)">
-            <span>&larr;</span>
-            <span class="hidden sm:inline">Prev</span>
-          </button>
-          <button onclick="app.nextRevisionChapter()" id="rev-btn-next" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1" title="Next Chapter (&rarr;)">
-            <span class="hidden sm:inline">Next</span>
-            <span>&rarr;</span>
-          </button>
-          <button onclick="app.toggleZenMode()" id="rev-zen-btn" class="reader-ctrl-btn px-2 py-1 text-xs font-medium rounded-md btn-secondary text-zinc-700 transition flex items-center gap-1 shadow-2xs" title="Toggle Distraction-Free Mode (Z)">
-            <svg class="w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
-            <span class="zen-btn-label hidden sm:inline">Zen</span>
-          </button>
-          <button onclick="app.toggleRevisionFullscreen(true)" id="rev-fullscreen-btn" class="reader-ctrl-btn px-2.5 py-1 text-xs font-semibold rounded-md btn-primary transition flex items-center gap-1.5 shadow-2xs" title="Full Screen (F)">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
-            <span class="hidden sm:inline">Full</span>
-          </button>
         </div>
       </div>
 
