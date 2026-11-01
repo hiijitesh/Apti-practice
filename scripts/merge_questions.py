@@ -142,11 +142,21 @@ def main():
             correct_idx = letter_to_idx[ans_letter]
             correct_text = opt_list[correct_idx]
 
-            expl = f'Correct Answer: Option {ans_letter}'
-            if correct_text:
-                expl += f' | ({correct_text})'
-            if exam_tag:
-                expl += f' | Exam: {exam_tag}'
+            slide_page = q.get('slidePage')
+            raw_expl = (q.get('explanation') or '').strip()
+
+            if raw_expl:
+                expl = raw_expl
+                if slide_page and f'Slide: Page {slide_page}' not in expl:
+                    expl += f' | Slide: Page {slide_page}'
+            else:
+                expl = f'Correct Answer: Option {ans_letter}'
+                if correct_text:
+                    expl += f' | ({correct_text})'
+                if exam_tag:
+                    expl += f' | Exam: {exam_tag}'
+                if slide_page:
+                    expl += f' | Slide: Page {slide_page}'
 
             sci_item = {
                 'id': f'sci_{ch_slug}_q{str(q_idx).zfill(3)}',
@@ -159,6 +169,8 @@ def main():
                 'correctAnswer': correct_idx,
                 'explanation': expl
             }
+            if slide_page is not None:
+                sci_item['slidePage'] = int(slide_page)
             if not sci_item['diagram']:
                 del sci_item['diagram']
             converted_sci.append(sci_item)

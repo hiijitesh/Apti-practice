@@ -24,12 +24,12 @@ describe('API Integration Tests', () => {
     }
   });
 
-  test('GET /api/chapters returns all 52 chapters and 2921 total questions', async () => {
+  test('GET /api/chapters returns all 52 chapters and 2992 total questions', async () => {
     const res = await fetch(`${baseUrl}/api/chapters`);
     assert.equal(res.status, 200);
     const data = await res.json();
 
-    assert.equal(data.totalQuestions, 2921);
+    assert.equal(data.totalQuestions, 2992);
     assert.equal(data.totalChapters, 52);
     assert.equal(data.chapters.length, 52);
 
