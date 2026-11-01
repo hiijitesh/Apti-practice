@@ -5092,6 +5092,18 @@
       },
       {
         "q_num": 2,
+        "question": "Which of the following factors is mainly responsible for the survival of species?",
+        "options": {
+          "A": "Temperature",
+          "B": "Mutation",
+          "C": "Variations",
+          "D": "Niche"
+        },
+        "answer": "C",
+        "exam_tag": "RRB JE DMS CMA CS MS 17-12-2024 (Shift-3)"
+      },
+      {
+        "q_num": 3,
         "question": "Select the correct feature about sexual reproduction in organisms.",
         "options": {
           "A": "It combines the DNA of two parents in the offspring.",
@@ -5103,7 +5115,31 @@
         "exam_tag": "RRB Group-D, 27 11 2025 (Shift-2)"
       },
       {
-        "q_num": 3,
+        "q_num": 4,
+        "question": "During cell division, an organism generally divides into two equal parts. What is this process called?",
+        "options": {
+          "A": "Binary fission",
+          "B": "Budding",
+          "C": "Regeneration",
+          "D": "Spore formation"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Technicians Grade III 23-12-2024 (Shift-2)"
+      },
+      {
+        "q_num": 5,
+        "question": "Leishmania reproduces by __________.",
+        "options": {
+          "A": "Binary fission in any plane",
+          "B": "Binary fission into two equal parts",
+          "C": "Binary fission in a definite plane",
+          "D": "Binary fission only in vertical plane"
+        },
+        "answer": "C",
+        "exam_tag": "RRB JE DMS CMA CS MS 17-12-2024 (Shift-3)"
+      },
+      {
+        "q_num": 6,
         "question": "Which of the following organisms multiplies by the means of multiple fission mode of reproduction?",
         "options": {
           "A": "Hibiscus",
@@ -5115,7 +5151,19 @@
         "exam_tag": "RRB Group-D, 01 12 2025 (Shift-3)"
       },
       {
-        "q_num": 4,
+        "q_num": 7,
+        "question": "If multiple fission :: many cells, then binary fission :: _________.",
+        "options": {
+          "A": "Two cells",
+          "B": "Three cells",
+          "C": "Four cells",
+          "D": "One cell"
+        },
+        "answer": "A",
+        "exam_tag": "RRB Technicians Grade III 27-12-2024 (Shift-1)"
+      },
+      {
+        "q_num": 8,
         "question": "In which of the following organisms does asexual reproduction not occur through fission?",
         "options": {
           "A": "Leishmania",
@@ -5127,7 +5175,7 @@
         "exam_tag": "RRB ALP CBT 1 26 th Nov 2024 Shift 1"
       },
       {
-        "q_num": 5,
+        "q_num": 9,
         "question": "Select the incorrect pair in the context of asexual reproduction.",
         "options": {
           "A": "Leishmania - Binary fission -",
@@ -5139,7 +5187,7 @@
         "exam_tag": "RRB ALP CBT 1 26 TH Nov 2024 Shift 2"
       },
       {
-        "q_num": 6,
+        "q_num": 10,
         "question": "What is the sequence of stages involved in the budding process of hydra?",
         "options": {
           "A": "Bud maturation → Bud initiation → Bud detachment → New individual → → →",
@@ -5151,7 +5199,7 @@
         "exam_tag": "RRB Group-D, 28 11 2025 (Shift-1)"
       },
       {
-        "q_num": 7,
+        "q_num": 11,
         "question": "Which type of cells are used by organisms like hydra for reproduction in the process budding?",
         "options": {
           "A": "Stomatal cells",
@@ -5163,7 +5211,7 @@
         "exam_tag": "RRB Group-D, 10 12 2025 (Shift-1)"
       },
       {
-        "q_num": 8,
+        "q_num": 12,
         "question": "Which of the following statements correctly describes the process of budding in organisms like Hydra?",
         "options": {
           "A": "A bud forms as an outgrowth due to repeated cell division and detaches when mature. - ()",
@@ -5175,7 +5223,7 @@
         "exam_tag": "RRB Group-D, 08 12 2025 (Shift-3)"
       },
       {
-        "q_num": 9,
+        "q_num": 13,
         "question": "Read the given statements and select the most appropriate option. A: Small bulb like projection from yeast cell is bud. B: Chain of bud formation is found in the budding process of yeast.",
         "options": {
           "A": "Both Statement A and Statement B are incorrect A B",
@@ -5187,7 +5235,7 @@
         "exam_tag": "RRB Group-D, 10 12 2025 (Shift-2)"
       },
       {
-        "q_num": 10,
+        "q_num": 14,
         "question": "The special reproductive structures in fungi like Rhizopus, which germinate to form new individuals,  are called:",
         "options": {
           "A": "Spores",
@@ -5199,7 +5247,7 @@
         "exam_tag": "RRB JE 17 12 2024 2nd shift"
       },
       {
-        "q_num": 11,
+        "q_num": 15,
         "question": "In Rhizopus, tubular thread like structures bearing sporangia at their tips are called-",
         "options": {
           "A": "Filaments",
@@ -5211,7 +5259,7 @@
         "exam_tag": "RRB NTPC 04-04-2016 (Shift-II)"
       },
       {
-        "q_num": 12,
+        "q_num": 16,
         "question": "25 At maturity, an organism breaks into smaller pieces, which grow into new individuals. What is this process called?",
         "options": {
           "A": "Budding",
@@ -5223,7 +5271,7 @@
         "exam_tag": "RRB Group-D, 08 12 2025 (Shift-2)"
       },
       {
-        "q_num": 13,
+        "q_num": 17,
         "question": "1 Which feature of Spirogyra allows fragmentation to be successful?",
         "options": {
           "A": "Complex tissues",
@@ -5235,7 +5283,7 @@
         "exam_tag": "RRB Group-D, 14 12 2025 (Shift-3)"
       },
       {
-        "q_num": 14,
+        "q_num": 18,
         "question": "Which among the following organisms reproduce by the regeneration method?",
         "options": {
           "A": "Bryophyllum",
@@ -5247,7 +5295,7 @@
         "exam_tag": "RRB J.E 18 Dec 2024, Shift 2"
       },
       {
-        "q_num": 15,
+        "q_num": 19,
         "question": "Which of the following statements is INCORRECT about regeneration?",
         "options": {
           "A": "Regeneration involves specialised cells and requires cell division.",
@@ -5259,7 +5307,7 @@
         "exam_tag": "RRB Group-D, 23 12 2025 (Shift-3)"
       },
       {
-        "q_num": 16,
+        "q_num": 20,
         "question": "The phenomenon in which different parts of the plant, like root, stem and leaves, develop into new plants under appropriate conditions is called _________.",
         "options": {
           "A": "Regeneration",
@@ -5271,7 +5319,7 @@
         "exam_tag": "RRB Group-D, 27 12 2025 (Shift-2)"
       },
       {
-        "q_num": 17,
+        "q_num": 21,
         "question": "Which of the following plants reproduces asexually by budding along the margins of a leaf?",
         "options": {
           "A": "Mango",
@@ -5283,7 +5331,7 @@
         "exam_tag": "RRB Group-D, 27 11 2025 (Shift-3)"
       },
       {
-        "q_num": 18,
+        "q_num": 22,
         "question": "Some plants can also produce new plants from their roots. An example of such a plant is ____________.",
         "options": {
           "A": "Cactus",
@@ -5295,7 +5343,7 @@
         "exam_tag": "RRB Group-D 18-08-2022 (Shift-III)"
       },
       {
-        "q_num": 19,
+        "q_num": 23,
         "question": "Which of the following statements are correct regarding vegetative propagation? Statement A: Roots, stems and leaves develop into new plants under suitable conditions. Statement B: Vegetative propagation is used in sugarcane, rose and grape.",
         "options": {
           "A": "Only Statement B B",
@@ -5307,7 +5355,7 @@
         "exam_tag": "RRB Group-D, 21 12 2025 (Shift-1)"
       },
       {
-        "q_num": 20,
+        "q_num": 24,
         "question": "Which of the following actions is responsible for the survival of species over time?",
         "options": {
           "A": "Conservation",
@@ -5319,7 +5367,7 @@
         "exam_tag": "ALP 28 Nov 2024 | 3 rd Shift"
       },
       {
-        "q_num": 21,
+        "q_num": 25,
         "question": "Select the process responsible for stability of populations of species.",
         "options": {
           "A": "Reproduction",
@@ -5331,7 +5379,7 @@
         "exam_tag": "ALP 28 Nov 2024 | 1 st Shift"
       },
       {
-        "q_num": 22,
+        "q_num": 26,
         "question": "Read the given statements with regards to importance of variation produced by sexual reproduction in plants and select the most appropriate option. Statement A: Reproduction is linked to the stability of populations of species. Statement B: Variation is thus not useful for the survival of species over time.",
         "options": {
           "A": "Both Statement A and statement B is incorrect A B",
@@ -5343,7 +5391,7 @@
         "exam_tag": "RRB Group-D, 03 12 2025 (Shift-1)"
       },
       {
-        "q_num": 23,
+        "q_num": 27,
         "question": "Which of the following helps a developing embryo to expel waste products in case of humans? Previous years Questions",
         "options": {
           "A": "Placenta",
@@ -5355,7 +5403,7 @@
         "exam_tag": "RRB JE 16 12 2024 3 rd shift"
       },
       {
-        "q_num": 24,
+        "q_num": 28,
         "question": "Waste generated by developing human embryo is removed with the help of which of the following organs?",
         "options": {
           "A": "Fallopian tube",
@@ -5367,7 +5415,7 @@
         "exam_tag": "RRB Group-D, 03 12 2025 (Shift-1)"
       },
       {
-        "q_num": 25,
+        "q_num": 29,
         "question": "Which of the following carries egg from the ovary to the womb?",
         "options": {
           "A": "Cervix",
@@ -5379,7 +5427,7 @@
         "exam_tag": "Railway Technician 24 12 2024 --> 2 nd shift"
       },
       {
-        "q_num": 26,
+        "q_num": 30,
         "question": "Which of the following is NOT a part of the female reproductive system?",
         "options": {
           "A": "Fallopian tubes",
@@ -5391,7 +5439,7 @@
         "exam_tag": "RRB Group-D 30-08-2022 (Shift-I)"
       },
       {
-        "q_num": 27,
+        "q_num": 31,
         "question": "Testes are located outside the abdominal cavity in scrotum because sperm formation requires:",
         "options": {
           "A": "lower temperature than the normal body temperature",
@@ -5403,7 +5451,7 @@
         "exam_tag": "Railway Technician 24 12 2024 --> 1 st shift"
       },
       {
-        "q_num": 28,
+        "q_num": 32,
         "question": "Why are the testes located outside the abdominal cavity in human males?",
         "options": {
           "A": "Because sperm formation requires higher temperature",
@@ -5415,7 +5463,7 @@
         "exam_tag": "RRB Group-D, 11 12 2025 (Shift-2)"
       },
       {
-        "q_num": 29,
+        "q_num": 33,
         "question": "In the male reproductive system, where does sperm formation take place?",
         "options": {
           "A": "Testes",
@@ -5427,7 +5475,7 @@
         "exam_tag": "RRB Group-D, 24 12 2025 (Shift-2)"
       },
       {
-        "q_num": 30,
+        "q_num": 34,
         "question": "What is the main function of the vas deferens in the male reproductive system?",
         "options": {
           "A": "Sperm production",
@@ -5439,7 +5487,7 @@
         "exam_tag": "RRB Group-D, 01 12 2025 (Shift-1)"
       },
       {
-        "q_num": 31,
+        "q_num": 35,
         "question": "What is the role of the prostate gland and seminal vesicles in the human male reproductive system?",
         "options": {
           "A": "To provide fluids for transporting sperm",
@@ -5451,7 +5499,7 @@
         "exam_tag": "RRB Group-D, 12 12 2025 (Shift-2)"
       },
       {
-        "q_num": 32,
+        "q_num": 36,
         "question": "A male patient has low sperm motility. Which glands are most likely to be NOT functioning properly?",
         "options": {
           "A": "Pancreas and adrenal glands",
@@ -5463,7 +5511,7 @@
         "exam_tag": "RRB Group-D, 08 01 2026 (Shift-2)"
       },
       {
-        "q_num": 33,
+        "q_num": 37,
         "question": "When the egg is not fertilized in a female human, which of the following processes occurs?",
         "options": {
           "A": "Menstruation",
@@ -5475,7 +5523,7 @@
         "exam_tag": "RRB Group-D, 11 12 2025 (Shift-1)"
       },
       {
-        "q_num": 34,
+        "q_num": 38,
         "question": "What happens during menstruation?",
         "options": {
           "A": "The uterine lining is shed",
@@ -5487,7 +5535,7 @@
         "exam_tag": "RRB Group-D 19-09-2022 (Shift-I)"
       },
       {
-        "q_num": 35,
+        "q_num": 39,
         "question": "The term ___________' refers to the end of menstruation.",
         "options": {
           "A": "Menopause",
@@ -5499,7 +5547,7 @@
         "exam_tag": "RRB Group-D – 05 09 2022 (Shift-1)'"
       },
       {
-        "q_num": 36,
+        "q_num": 40,
         "question": "Select the correct example for the mechanical barrier method of contraception from the options given below.",
         "options": {
           "A": "Use of contraceptive pills",
@@ -5511,7 +5559,7 @@
         "exam_tag": "RRB Group-D – 13 09 2022 (Shift-III)"
       },
       {
-        "q_num": 37,
+        "q_num": 41,
         "question": "Besides being a barrier method of contraception, condoms also serve which of the following purposes? Previous years Questions",
         "options": {
           "A": "Prevent transmission of STDs such as gonorrhoea. (STDs)",
@@ -5523,7 +5571,7 @@
         "exam_tag": "RRB JE 17 12 2024 2nd shift"
       },
       {
-        "q_num": 38,
+        "q_num": 42,
         "question": "Which contraceptive method provides dual protection against pregnancy and most sexually transmitted diseases?",
         "options": {
           "A": "Male condom",
@@ -5535,7 +5583,7 @@
         "exam_tag": "RRB Group-D, 09 01 2026 (Shift-2)"
       },
       {
-        "q_num": 39,
+        "q_num": 43,
         "question": "How can the transmission of certain sexually transmitted infections (STIs) be reduced during sexual activity?",
         "options": {
           "A": "By avoiding physical contact with all individuals",
@@ -5547,7 +5595,7 @@
         "exam_tag": "RRB Group-D, 17 12 2025 (Shift-2)"
       },
       {
-        "q_num": 40,
+        "q_num": 44,
         "question": "Which of the following birth control methods can cause hormonal imbalance, and probably health issues?",
         "options": {
           "A": "Condoms",
@@ -5559,7 +5607,7 @@
         "exam_tag": "RRB Group-D, 17 12 2025 (Shift-1)"
       },
       {
-        "q_num": 41,
+        "q_num": 45,
         "question": "Oral contraceptive pills work by stopping ___________.",
         "options": {
           "A": "ovulation",
@@ -5571,7 +5619,7 @@
         "exam_tag": "RRB Group-D 18-08-2022 (Shift-II)"
       },
       {
-        "q_num": 42,
+        "q_num": 46,
         "question": "Which of the following contraceptive devices is placed in the uterus to prevent pregnancy?",
         "options": {
           "A": "Oral pills",
@@ -5583,7 +5631,7 @@
         "exam_tag": "RRB Group-D, 21 12 2025 (Shift-3)"
       },
       {
-        "q_num": 43,
+        "q_num": 47,
         "question": "How does the Loop work as a contraceptive?",
         "options": {
           "A": "It blocks the passage of fallopian tubes. ( fallopian tubes)",
@@ -5595,7 +5643,7 @@
         "exam_tag": "RRB Group-D - 30 09 2022 (Shift-II)"
       },
       {
-        "q_num": 44,
+        "q_num": 48,
         "question": "What is prevented when the fallopian tubes in females are blocked?",
         "options": {
           "A": "Childbirth",
@@ -5607,7 +5655,7 @@
         "exam_tag": "RRB Group-D, 03 12 2025 (Shift-1)"
       },
       {
-        "q_num": 45,
+        "q_num": 49,
         "question": "A man undergoes a minor surgical procedure that prevents sperm from mixing with semen. Which structure was most likely altered?",
         "options": {
           "A": "Penis",
@@ -5619,7 +5667,7 @@
         "exam_tag": "RRB Group-D, 02 12 2025 (Shift-2)"
       },
       {
-        "q_num": 46,
+        "q_num": 50,
         "question": "What specializations are found in the germ cells of sexually reproducing animals with complex body designs?",
         "options": {
           "A": "Male germ cell- large with food store, Female-small and motile -, -",
@@ -5631,7 +5679,7 @@
         "exam_tag": "RRB Group-D- 01 09 2022 (Shift-I)"
       },
       {
-        "q_num": 47,
+        "q_num": 51,
         "question": "External fertilisation is found in which of the following organisms?",
         "options": {
           "A": "Human",
@@ -5643,7 +5691,7 @@
         "exam_tag": "RRB Group-D, 16 12 2025 (Shift-2)"
       },
       {
-        "q_num": 48,
+        "q_num": 52,
         "question": "____________ are parts of the stamen.",
         "options": {
           "A": "Anther and ovary",
@@ -5655,7 +5703,7 @@
         "exam_tag": "RRB Group-D 06-12-2018 (Shift-II)"
       },
       {
-        "q_num": 49,
+        "q_num": 53,
         "question": "___ is a unisexual flower.",
         "options": {
           "A": "Papaya",
@@ -5667,7 +5715,7 @@
         "exam_tag": "RRB Group-D 29-10-2018 (Shift-III)"
       },
       {
-        "q_num": 50,
+        "q_num": 54,
         "question": "Which of the following plants produce unisexual flowers?",
         "options": {
           "A": "Mustard and Hibiscus",
@@ -5679,7 +5727,7 @@
         "exam_tag": "RRB Group-D 30-10-2018 (Shift-III)"
       },
       {
-        "q_num": 51,
+        "q_num": 55,
         "question": "The flower of the Hibiscus plant is-",
         "options": {
           "A": "Bisexual",
@@ -5691,7 +5739,7 @@
         "exam_tag": "RRB Group-D - 18 08 2022 (Shift-I)"
       },
       {
-        "q_num": 52,
+        "q_num": 56,
         "question": "The pollen needs to be transferred from the stamen to the stigma. If this transfer of pollen occurs in the same flower, this phenomenon is known as:",
         "options": {
           "A": "Spore formation",
@@ -5703,7 +5751,7 @@
         "exam_tag": "Railway Technician 23 12 2024 --> 2 nd shift"
       },
       {
-        "q_num": 53,
+        "q_num": 57,
         "question": "What is the transfer of pollen grain from one flower to another flower called?",
         "options": {
           "A": "Self pollination -",
@@ -5715,7 +5763,7 @@
         "exam_tag": "RRB Group-D, 02 02 2026 (Shift-1)"
       },
       {
-        "q_num": 54,
+        "q_num": 58,
         "question": "Which of the following organisms may help in pollination of a flower?",
         "options": {
           "A": "Amoeba",
@@ -5727,7 +5775,7 @@
         "exam_tag": "RRB Group-D, 26 12 2025 (Shift-3)"
       },
       {
-        "q_num": 55,
+        "q_num": 59,
         "question": "What is the process of fusion of the male and female gametes called in plants?",
         "options": {
           "A": "Fertilisation",
@@ -5739,7 +5787,7 @@
         "exam_tag": "RRB J.E 18 Dec 2024, Shift 2"
       },
       {
-        "q_num": 56,
+        "q_num": 60,
         "question": "Select the correct statement.",
         "options": {
           "A": "Pollination is the visit of insects to the flower.",
@@ -5751,7 +5799,7 @@
         "exam_tag": "ALP Biology Questions | ALP 25 Nov 2024 3 rd Shift"
       },
       {
-        "q_num": 57,
+        "q_num": 61,
         "question": "If a student cuts off the stigma of a flower before pollination, what will be the most likely result?",
         "options": {
           "A": "Pollination will occur faster.",
@@ -5763,7 +5811,7 @@
         "exam_tag": "RRB Group-D, 28 11 2025 (Shift-1)"
       },
       {
-        "q_num": 58,
+        "q_num": 62,
         "question": "In the process of sexual reproduction in flowering plants, what is the primary role of the pistil?",
         "options": {
           "A": "Receives pollen and houses the ovules for fertilization",
@@ -5775,7 +5823,7 @@
         "exam_tag": "RRB Group-D, 08 12 2025 (Shift-1)"
       },
       {
-        "q_num": 59,
+        "q_num": 63,
         "question": "From the given alternatives, which part of the flower finally changes into a fruit in the flowering plant?",
         "options": {
           "A": "Ovule",
@@ -5787,7 +5835,7 @@
         "exam_tag": "RRB Group-D, 12 12 2025 (Shift-3)"
       },
       {
-        "q_num": 60,
+        "q_num": 64,
         "question": "Seed dispersal is important for plants because it:",
         "options": {
           "A": "Prevents pollination",
@@ -5799,7 +5847,7 @@
         "exam_tag": "RRB Group-D, 05 12 2025 (Shift-1)"
       },
       {
-        "q_num": 61,
+        "q_num": 65,
         "question": "Seed dispersal helps in ______.",
         "options": {
           "A": "Promoting self-pollination -",
@@ -5811,7 +5859,7 @@
         "exam_tag": "RRB Group-D, 27 12 2025 (Shift-2)"
       },
       {
-        "q_num": 62,
+        "q_num": 66,
         "question": "Where can we find a plumule in a plant?",
         "options": {
           "A": "In a flower",
@@ -5823,7 +5871,7 @@
         "exam_tag": "RRB Group-D-26 08 2022 (Shift-I)"
       },
       {
-        "q_num": 63,
+        "q_num": 67,
         "question": "_____________ are three parts of seed.",
         "options": {
           "A": "Cotyledons, zygote and plumule ,",
@@ -5835,7 +5883,7 @@
         "exam_tag": "RRB Group-D 15-10-2018 (Shift-I)"
       },
       {
-        "q_num": 64,
+        "q_num": 68,
         "question": "Which of the following modifications of seeds help in wind dispersal?",
         "options": {
           "A": "Wing-like or hairy outgrowths",
@@ -5847,7 +5895,7 @@
         "exam_tag": "RRB Group-D, 09 01 2026 (Shift-3)"
       },
       {
-        "q_num": 65,
+        "q_num": 69,
         "question": "Which of the following has spiny seeds with hook-like structures that get attached to the bodies of animals for dispersal?",
         "options": {
           "A": "Sunflower",
@@ -5859,7 +5907,7 @@
         "exam_tag": "RRB Group-D, 26 12 2025 (Shift-2)"
       },
       {
-        "q_num": 66,
+        "q_num": 70,
         "question": "In which of the following plants, seed is dispersed by the bursting of fruits?",
         "options": {
           "A": "Xanthium",
@@ -5871,7 +5919,7 @@
         "exam_tag": "RRB Group-D, 23 12 2025 (Shift-3)"
       },
       {
-        "q_num": 67,
+        "q_num": 71,
         "question": "Seeds that are dispersed by animals often: Previous years Questions",
         "options": {
           "A": "have hooks or edible flesh",

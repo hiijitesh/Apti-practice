@@ -175,7 +175,11 @@ def main():
     if os.path.exists(top300_file):
         print(f"Loading Top 300 questions from {top300_file}...")
         with open(top300_file, 'r', encoding='utf-8') as f:
-            top300_data = json.load(f)
+            raw_top300 = json.load(f)
+            if isinstance(raw_top300, dict):
+                top300_data = raw_top300.get('questions', [])
+            elif isinstance(raw_top300, list):
+                top300_data = raw_top300
         print(f"Loaded {len(top300_data)} Top 300 questions.")
 
     # Combine all questions

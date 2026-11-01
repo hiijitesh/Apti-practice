@@ -26297,6 +26297,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
+    "question": "Which of the following factors is mainly responsible for the survival of species?",
+    "options": [
+      "Temperature",
+      "Mutation",
+      "Variations",
+      "Niche"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Variations) | Exam: RRB JE DMS CMA CS MS 17-12-2024 (Shift-3)"
+  },
+  {
+    "id": "sci_reproduction_in_organisms_q003",
+    "subject": "General Science",
+    "subSubject": "Biology",
+    "chapter": "Reproduction in Organisms",
     "question": "Select the correct feature about sexual reproduction in organisms.",
     "options": [
       "It combines the DNA of two parents in the offspring.",
@@ -26308,7 +26323,37 @@
     "explanation": "Correct Answer: Option A | (It combines the DNA of two parents in the offspring.) | Exam: RRB Group-D, 27 11 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q003",
+    "id": "sci_reproduction_in_organisms_q004",
+    "subject": "General Science",
+    "subSubject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "question": "During cell division, an organism generally divides into two equal parts. What is this process called?",
+    "options": [
+      "Binary fission",
+      "Budding",
+      "Regeneration",
+      "Spore formation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Binary fission) | Exam: RRB Technicians Grade III 23-12-2024 (Shift-2)"
+  },
+  {
+    "id": "sci_reproduction_in_organisms_q005",
+    "subject": "General Science",
+    "subSubject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "question": "Leishmania reproduces by __________.",
+    "options": [
+      "Binary fission in any plane",
+      "Binary fission into two equal parts",
+      "Binary fission in a definite plane",
+      "Binary fission only in vertical plane"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Binary fission in a definite plane) | Exam: RRB JE DMS CMA CS MS 17-12-2024 (Shift-3)"
+  },
+  {
+    "id": "sci_reproduction_in_organisms_q006",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26323,7 +26368,22 @@
     "explanation": "Correct Answer: Option D | (Plasmodium) | Exam: RRB Group-D, 01 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q004",
+    "id": "sci_reproduction_in_organisms_q007",
+    "subject": "General Science",
+    "subSubject": "Biology",
+    "chapter": "Reproduction in Organisms",
+    "question": "If multiple fission :: many cells, then binary fission :: _________.",
+    "options": [
+      "Two cells",
+      "Three cells",
+      "Four cells",
+      "One cell"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Two cells) | Exam: RRB Technicians Grade III 27-12-2024 (Shift-1)"
+  },
+  {
+    "id": "sci_reproduction_in_organisms_q008",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26338,7 +26398,7 @@
     "explanation": "Correct Answer: Option C | (Earthworm) | Exam: RRB ALP CBT 1 26 th Nov 2024 Shift 1"
   },
   {
-    "id": "sci_reproduction_in_organisms_q005",
+    "id": "sci_reproduction_in_organisms_q009",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26353,7 +26413,7 @@
     "explanation": "Correct Answer: Option D | (Hydra - Multiple fission -) | Exam: RRB ALP CBT 1 26 TH Nov 2024 Shift 2"
   },
   {
-    "id": "sci_reproduction_in_organisms_q006",
+    "id": "sci_reproduction_in_organisms_q010",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26368,7 +26428,7 @@
     "explanation": "Correct Answer: Option B | (Bud initiation → Bud maturation → Bud detachment → New individual → → →) | Exam: RRB Group-D, 28 11 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q007",
+    "id": "sci_reproduction_in_organisms_q011",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26383,7 +26443,7 @@
     "explanation": "Correct Answer: Option B | (Regenerative cells) | Exam: RRB Group-D, 10 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q008",
+    "id": "sci_reproduction_in_organisms_q012",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26398,7 +26458,7 @@
     "explanation": "Correct Answer: Option A | (A bud forms as an outgrowth due to repeated cell division and detaches when mature. - ()) | Exam: RRB Group-D, 08 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q009",
+    "id": "sci_reproduction_in_organisms_q013",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26413,7 +26473,7 @@
     "explanation": "Correct Answer: Option D | (Both Statement A and Statement B are correct A B) | Exam: RRB Group-D, 10 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q010",
+    "id": "sci_reproduction_in_organisms_q014",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26428,7 +26488,7 @@
     "explanation": "Correct Answer: Option A | (Spores) | Exam: RRB JE 17 12 2024 2nd shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q011",
+    "id": "sci_reproduction_in_organisms_q015",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26443,7 +26503,7 @@
     "explanation": "Correct Answer: Option B | (Hyphae) | Exam: RRB NTPC 04-04-2016 (Shift-II)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q012",
+    "id": "sci_reproduction_in_organisms_q016",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26458,7 +26518,7 @@
     "explanation": "Correct Answer: Option C | (Fragmentation) | Exam: RRB Group-D, 08 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q013",
+    "id": "sci_reproduction_in_organisms_q017",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26473,7 +26533,7 @@
     "explanation": "Correct Answer: Option B | (Simple filamentous body) | Exam: RRB Group-D, 14 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q014",
+    "id": "sci_reproduction_in_organisms_q018",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26488,7 +26548,7 @@
     "explanation": "Correct Answer: Option C | (Planaria) | Exam: RRB J.E 18 Dec 2024, Shift 2"
   },
   {
-    "id": "sci_reproduction_in_organisms_q015",
+    "id": "sci_reproduction_in_organisms_q019",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26503,7 +26563,7 @@
     "explanation": "Correct Answer: Option D | (Dogs can regrow lost body parts and form whole new individuals.) | Exam: RRB Group-D, 23 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q016",
+    "id": "sci_reproduction_in_organisms_q020",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26518,7 +26578,7 @@
     "explanation": "Correct Answer: Option B | (Vegetative propagation) | Exam: RRB Group-D, 27 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q017",
+    "id": "sci_reproduction_in_organisms_q021",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26533,7 +26593,7 @@
     "explanation": "Correct Answer: Option C | (Bryophyllum) | Exam: RRB Group-D, 27 11 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q018",
+    "id": "sci_reproduction_in_organisms_q022",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26548,7 +26608,7 @@
     "explanation": "Correct Answer: Option C | (Sweet Potato) | Exam: RRB Group-D 18-08-2022 (Shift-III)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q019",
+    "id": "sci_reproduction_in_organisms_q023",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26563,7 +26623,7 @@
     "explanation": "Correct Answer: Option B | (Both Statement A and Statement B A B) | Exam: RRB Group-D, 21 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q020",
+    "id": "sci_reproduction_in_organisms_q024",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26578,7 +26638,7 @@
     "explanation": "Correct Answer: Option C | (Reproduction) | Exam: ALP 28 Nov 2024 | 3 rd Shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q021",
+    "id": "sci_reproduction_in_organisms_q025",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26593,7 +26653,7 @@
     "explanation": "Correct Answer: Option A | (Reproduction) | Exam: ALP 28 Nov 2024 | 1 st Shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q022",
+    "id": "sci_reproduction_in_organisms_q026",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26608,7 +26668,7 @@
     "explanation": "Correct Answer: Option C | (Statement A is correct but statement B is incorrect A B) | Exam: RRB Group-D, 03 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q023",
+    "id": "sci_reproduction_in_organisms_q027",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26623,7 +26683,7 @@
     "explanation": "Correct Answer: Option A | (Placenta) | Exam: RRB JE 16 12 2024 3 rd shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q024",
+    "id": "sci_reproduction_in_organisms_q028",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26638,7 +26698,7 @@
     "explanation": "Correct Answer: Option D | (Placenta) | Exam: RRB Group-D, 03 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q025",
+    "id": "sci_reproduction_in_organisms_q029",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26653,7 +26713,7 @@
     "explanation": "Correct Answer: Option C | (Fallopian tube) | Exam: Railway Technician 24 12 2024 --> 2 nd shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q026",
+    "id": "sci_reproduction_in_organisms_q030",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26668,7 +26728,7 @@
     "explanation": "Correct Answer: Option C | (Urethra) | Exam: RRB Group-D 30-08-2022 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q027",
+    "id": "sci_reproduction_in_organisms_q031",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26683,7 +26743,7 @@
     "explanation": "Correct Answer: Option A | (lower temperature than the normal body temperature) | Exam: Railway Technician 24 12 2024 --> 1 st shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q028",
+    "id": "sci_reproduction_in_organisms_q032",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26698,7 +26758,7 @@
     "explanation": "Correct Answer: Option B | (Because sperm formation requires a lower temperature than body temperature) | Exam: RRB Group-D, 11 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q029",
+    "id": "sci_reproduction_in_organisms_q033",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26713,7 +26773,7 @@
     "explanation": "Correct Answer: Option A | (Testes) | Exam: RRB Group-D, 24 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q030",
+    "id": "sci_reproduction_in_organisms_q034",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26728,7 +26788,7 @@
     "explanation": "Correct Answer: Option C | (Transporting sperm from the epididymis to the urethra) | Exam: RRB Group-D, 01 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q031",
+    "id": "sci_reproduction_in_organisms_q035",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26743,7 +26803,7 @@
     "explanation": "Correct Answer: Option A | (To provide fluids for transporting sperm) | Exam: RRB Group-D, 12 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q032",
+    "id": "sci_reproduction_in_organisms_q036",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26758,7 +26818,7 @@
     "explanation": "Correct Answer: Option B | (Prostate gland and seminal vesicles) | Exam: RRB Group-D, 08 01 2026 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q033",
+    "id": "sci_reproduction_in_organisms_q037",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26773,7 +26833,7 @@
     "explanation": "Correct Answer: Option A | (Menstruation) | Exam: RRB Group-D, 11 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q034",
+    "id": "sci_reproduction_in_organisms_q038",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26788,7 +26848,7 @@
     "explanation": "Correct Answer: Option A | (The uterine lining is shed) | Exam: RRB Group-D 19-09-2022 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q035",
+    "id": "sci_reproduction_in_organisms_q039",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26803,7 +26863,7 @@
     "explanation": "Correct Answer: Option A | (Menopause) | Exam: RRB Group-D – 05 09 2022 (Shift-1)'"
   },
   {
-    "id": "sci_reproduction_in_organisms_q036",
+    "id": "sci_reproduction_in_organisms_q040",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26818,7 +26878,7 @@
     "explanation": "Correct Answer: Option B | (Use of condoms) | Exam: RRB Group-D – 13 09 2022 (Shift-III)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q037",
+    "id": "sci_reproduction_in_organisms_q041",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26833,7 +26893,7 @@
     "explanation": "Correct Answer: Option A | (Prevent transmission of STDs such as gonorrhoea. (STDs)) | Exam: RRB JE 17 12 2024 2nd shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q038",
+    "id": "sci_reproduction_in_organisms_q042",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26848,7 +26908,7 @@
     "explanation": "Correct Answer: Option A | (Male condom) | Exam: RRB Group-D, 09 01 2026 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q039",
+    "id": "sci_reproduction_in_organisms_q043",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26863,7 +26923,7 @@
     "explanation": "Correct Answer: Option C | (By using protection such as condoms during intercourse) | Exam: RRB Group-D, 17 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q040",
+    "id": "sci_reproduction_in_organisms_q044",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26878,7 +26938,7 @@
     "explanation": "Correct Answer: Option D | (Oral contraceptive pills) | Exam: RRB Group-D, 17 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q041",
+    "id": "sci_reproduction_in_organisms_q045",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26893,7 +26953,7 @@
     "explanation": "Correct Answer: Option A | (ovulation) | Exam: RRB Group-D 18-08-2022 (Shift-II)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q042",
+    "id": "sci_reproduction_in_organisms_q046",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26908,7 +26968,7 @@
     "explanation": "Correct Answer: Option D | (Copper-T -) | Exam: RRB Group-D, 21 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q043",
+    "id": "sci_reproduction_in_organisms_q047",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26923,7 +26983,7 @@
     "explanation": "Correct Answer: Option B | (It prevents implantation of the embryo.) | Exam: RRB Group-D - 30 09 2022 (Shift-II)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q044",
+    "id": "sci_reproduction_in_organisms_q048",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26938,7 +26998,7 @@
     "explanation": "Correct Answer: Option D | (Fertilisation) | Exam: RRB Group-D, 03 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q045",
+    "id": "sci_reproduction_in_organisms_q049",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26953,7 +27013,7 @@
     "explanation": "Correct Answer: Option C | (Vas deferens ( )) | Exam: RRB Group-D, 02 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q046",
+    "id": "sci_reproduction_in_organisms_q050",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26968,7 +27028,7 @@
     "explanation": "Correct Answer: Option C | (Male germ cell - small and motile, Female-large with food store – , –) | Exam: RRB Group-D- 01 09 2022 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q047",
+    "id": "sci_reproduction_in_organisms_q051",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26983,7 +27043,7 @@
     "explanation": "Correct Answer: Option C | (Fish) | Exam: RRB Group-D, 16 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q048",
+    "id": "sci_reproduction_in_organisms_q052",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -26998,7 +27058,7 @@
     "explanation": "Correct Answer: Option B | (Anther and stalk) | Exam: RRB Group-D 06-12-2018 (Shift-II)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q049",
+    "id": "sci_reproduction_in_organisms_q053",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27013,7 +27073,7 @@
     "explanation": "Correct Answer: Option A | (Papaya) | Exam: RRB Group-D 29-10-2018 (Shift-III)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q050",
+    "id": "sci_reproduction_in_organisms_q054",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27028,7 +27088,7 @@
     "explanation": "Correct Answer: Option B | (Watermelon and Papaya) | Exam: RRB Group-D 30-10-2018 (Shift-III)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q051",
+    "id": "sci_reproduction_in_organisms_q055",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27043,7 +27103,7 @@
     "explanation": "Correct Answer: Option A | (Bisexual) | Exam: RRB Group-D - 18 08 2022 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q052",
+    "id": "sci_reproduction_in_organisms_q056",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27058,7 +27118,7 @@
     "explanation": "Correct Answer: Option B | (Self-pollination -) | Exam: Railway Technician 23 12 2024 --> 2 nd shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q053",
+    "id": "sci_reproduction_in_organisms_q057",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27073,7 +27133,7 @@
     "explanation": "Correct Answer: Option D | (Cross pollination -) | Exam: RRB Group-D, 02 02 2026 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q054",
+    "id": "sci_reproduction_in_organisms_q058",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27088,7 +27148,7 @@
     "explanation": "Correct Answer: Option B | (Honey bee) | Exam: RRB Group-D, 26 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q055",
+    "id": "sci_reproduction_in_organisms_q059",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27103,7 +27163,7 @@
     "explanation": "Correct Answer: Option A | (Fertilisation) | Exam: RRB J.E 18 Dec 2024, Shift 2"
   },
   {
-    "id": "sci_reproduction_in_organisms_q056",
+    "id": "sci_reproduction_in_organisms_q060",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27118,7 +27178,7 @@
     "explanation": "Correct Answer: Option D | (stamen to stigma. ,) | Exam: ALP Biology Questions | ALP 25 Nov 2024 3 rd Shift"
   },
   {
-    "id": "sci_reproduction_in_organisms_q057",
+    "id": "sci_reproduction_in_organisms_q061",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27133,7 +27193,7 @@
     "explanation": "Correct Answer: Option C | (Fertilisation will not occur.) | Exam: RRB Group-D, 28 11 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q058",
+    "id": "sci_reproduction_in_organisms_q062",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27148,7 +27208,7 @@
     "explanation": "Correct Answer: Option A | (Receives pollen and houses the ovules for fertilization) | Exam: RRB Group-D, 08 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q059",
+    "id": "sci_reproduction_in_organisms_q063",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27163,7 +27223,7 @@
     "explanation": "Correct Answer: Option D | (Ovary) | Exam: RRB Group-D, 12 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q060",
+    "id": "sci_reproduction_in_organisms_q064",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27178,7 +27238,7 @@
     "explanation": "Correct Answer: Option C | (Prevents overcrowding and competition) | Exam: RRB Group-D, 05 12 2025 (Shift-1)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q061",
+    "id": "sci_reproduction_in_organisms_q065",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27193,7 +27253,7 @@
     "explanation": "Correct Answer: Option B | (Growing plants in new geographical environments) | Exam: RRB Group-D, 27 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q062",
+    "id": "sci_reproduction_in_organisms_q066",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27208,7 +27268,7 @@
     "explanation": "Correct Answer: Option B | (In a seed) | Exam: RRB Group-D-26 08 2022 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q063",
+    "id": "sci_reproduction_in_organisms_q067",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27223,7 +27283,7 @@
     "explanation": "Correct Answer: Option B | (Cotyledons, radicle and plumule ,) | Exam: RRB Group-D 15-10-2018 (Shift-I)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q064",
+    "id": "sci_reproduction_in_organisms_q068",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27238,7 +27298,7 @@
     "explanation": "Correct Answer: Option A | (Wing-like or hairy outgrowths) | Exam: RRB Group-D, 09 01 2026 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q065",
+    "id": "sci_reproduction_in_organisms_q069",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27253,7 +27313,7 @@
     "explanation": "Correct Answer: Option B | (Xanthium) | Exam: RRB Group-D, 26 12 2025 (Shift-2)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q066",
+    "id": "sci_reproduction_in_organisms_q070",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
@@ -27268,7 +27328,7 @@
     "explanation": "Correct Answer: Option C | (Castor) | Exam: RRB Group-D, 23 12 2025 (Shift-3)"
   },
   {
-    "id": "sci_reproduction_in_organisms_q067",
+    "id": "sci_reproduction_in_organisms_q071",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
