@@ -97,3 +97,84 @@ python3 scripts/universal_pdf_question_extractor.py --input "/path/to/folder_or_
 python3 scripts/universal_pdf_question_extractor.py --input "/path/to/notes.pdf" --subject "General Science" --subsubject "Physics" --output output.json
 ```
 
+---
+
+## 5. Project Architecture & Directory Layout
+
+### 5.1 Project Tree
+```
+Apti Practice/
+├── server.js                      # Express HTTP server entrypoint
+├── start.js                       # Server launcher script
+├── package.json                   # Dependencies & npm scripts ('npm test', 'npm start')
+├── nodemon.json                   # Nodemon configuration for hot-reload dev
+├── GEMINI.md                      # Persistent operational memory & safety guidelines
+├── README.md                      # User guide & project overview
+├── src/                           # Backend Application Source (Modular Architecture)
+│   ├── app.js                     # Express app instance, security headers, middleware wiring
+│   ├── config/
+│   │   └── index.js               # Application configuration constants & paths
+│   ├── middleware/
+│   │   └── error.middleware.js    # Global error handling and HTTP status normalizer
+│   ├── routes/
+│   │   └── api.routes.js          # REST API route definitions (/api/*)
+│   ├── controllers/
+│   │   ├── question.controller.js # GET /api/chapters, GET /api/questions
+│   │   ├── mock.controller.js     # GET /api/mock
+│   │   ├── attempt.controller.js  # POST /api/submit-attempt, GET /api/attempts
+│   │   └── revision.controller.js # GET /api/revision-materials
+│   ├── services/
+│   │   ├── mock-generator.service.js # Pure question sampling & option sanitization
+│   │   └── scoring.service.js     # Pure score, accuracy, and chapter aggregation logic
+│   └── repositories/
+│       ├── question.repository.js # In-memory caching & indexing for public/data/questions.json
+│       ├── attempt.repository.js  # Persistence for user & guest attempts (public/data/attempts.json)
+│       └── revision.repository.js # Loads Google Drive revision links (public/data/revision_materials.json)
+├── public/                        # Frontend Single-Page Application (SPA)
+│   ├── index.html                 # CBT interface (Practice, Mock Test, Revision Studio, Analytics)
+│   ├── style.css                  # UI theme, layout, responsive typography, and dark mode
+│   ├── app.js                     # Client state controller, question renderer, timer, navigation
+│   ├── config.js                  # Frontend configuration settings
+│   ├── js/                        # Modular frontend services & utility helpers
+│   │   ├── services/
+│   │   └── utils/
+│   └── data/                      # Single Source of Truth Datasets
+│       ├── questions.json         # Master dataset: 2,992 questions across 52 chapters
+│       ├── attempts.json          # Persistent user attempt history & performance records
+│       ├── revision_materials.json# Google Drive PDF URLs for chapter revision
+│       └── diagrams/              # Embedded visual assets for diagram questions
+├── scripts/                       # Extraction, Merging, and Audit Tooling
+│   ├── universal_pdf_question_extractor.py # Spatial-aware 2D bounding box PDF extractor
+│   ├── merge_questions.py         # Merges sources into public/data/questions.json
+│   ├── apply_biology_reverification.py # Biology verification & slide mapping pipeline
+│   └── sources/                   # Raw chapterwise question sources
+│       ├── science.json           # Raw Science questions with slidePage & explanations
+│       └── top_300_questions_science.json # Curated Top 300 Science questions
+└── tests/                         # Comprehensive Node.js Native Test Suites ('npm test')
+    ├── api.test.js                # API integration tests (52 chapters, 2,992 questions)
+    ├── data_integrity.test.js     # CBT schema, subject distributions, unique IDs, diagrams
+    ├── physics_reverification.test.js   # Validates all 399 Physics questions & slide numbers
+    ├── chemistry_reverification.test.js # Validates all 465 Chemistry questions & slide numbers
+    ├── biology_reverification.test.js   # Validates all 616 Biology questions & slide numbers
+    ├── mock_generation.test.js    # Mock test 30-question sampling & sanitization tests
+    ├── scoring.test.js            # Pure scoring, accuracy, and aggregation unit tests
+    ├── architecture.test.js       # Repository caching, controller contracts, service purity
+    └── app_logic.test.js          # Authentication, email trimming, and guest session tests
+```
+
+### 5.2 Key Data Flows
+1. **Source Data to Master Database**:
+   - `scripts/sources/science.json` + `public/data/questions.json` (Aptitude) + `scripts/sources/top_300_questions_science.json` $\rightarrow$ `scripts/merge_questions.py` $\rightarrow$ `public/data/questions.json`.
+2. **Server Startup**:
+   - `server.js` starts `src/app.js`.
+   - `QuestionRepository.init()` reads and caches `public/data/questions.json` in memory.
+   - Precomputes chapter counts and subject indexes for sub-millisecond retrieval.
+3. **Mock Test Generation**:
+   - `GET /api/mock` $\rightarrow$ `mock.controller.js` $\rightarrow$ `MockGeneratorService.generateMockQuestions()`.
+   - Strips `correctAnswer` and `explanation` so answer keys never leak to the client before submission.
+4. **Attempt Scoring & Persistence**:
+   - `POST /api/submit-attempt` $\rightarrow$ `attempt.controller.js` $\rightarrow$ `ScoringService.calculate()`.
+   - Evaluates answers against stored master questions.
+   - Saves record to `public/data/attempts.json` via `AttemptRepository`.
+   - Returns full attempt review with correct answers, explanations, and slide references.
+
