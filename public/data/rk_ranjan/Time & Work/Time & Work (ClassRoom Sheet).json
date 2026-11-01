@@ -6,15 +6,32 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Akhil can complete a piece of work",
+    "question": "Akhil can complete a piece of work in 24 days. Shyam can complete the same piece of work in 12 days. If both of them work together, in how many days can they complete the same piece of work?",
     "options": [
       "6 days",
       "8 days",
       "10 days",
-      "12 day"
+      "12 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (8 days) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "In a factory, a piece of work is completed by Raima in 15 days while Joe can finish it in 10 days. The factory manager has to complete the work as soon as possible and so he orders Joe and Raima to work together. How many days will they take to complete the work?",
+    "options": [
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6) | Exam: SSC CGL 20/07/2023 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q003",
@@ -23,7 +40,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Jason can do a piece of work alone",
+    "question": "Jason can do a piece of work alone in 23.4 days, while Refique can do the same piece of work alone in 39 days. In how many days can the duo complete the same work if they work together?",
     "options": [
       "14.750",
       "14.625",
@@ -40,15 +57,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P can complete of a work",
+    "question": "P can complete of a work in 12 days and 5 1 Q can complete of a work in 8 days. In how 6 many days can both P and Q together complete the work? 1",
     "options": [
-      "26",
-      "25",
-      "22",
-      "24"
+      "2/26",
+      "4/25",
+      "4/22",
+      "2/24"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (26) | Exam: SSC MTS 13/09/2023 (Shift- 03)"
+    "explanation": "Correct Answer: Option A | (2/26) | Exam: SSC MTS 13/09/2023 (Shift- 03)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q005",
@@ -57,15 +74,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete of a work",
+    "question": "A can complete of a work in 7 days and B 3 can complete 2/7 of the same work in 10 days. In how many days can both A and B together complete the work? 1",
     "options": [
-      "12",
-      "11",
-      "13",
-      "15"
+      "3/12",
+      "7/11",
+      "1/13",
+      "1/15"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (13) | Exam: SSC CGL 25/07/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (1/13) | Exam: SSC CGL 25/07/2023 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q006",
@@ -74,7 +91,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Sumit and Rajiv, working together, can do a",
+    "question": "Sumit and Rajiv, working together, can do a work in 20 hours whereas Sumit alone can do the same work in 25 hours. In how many hours can Rajiv alone do the work?",
     "options": [
       "70",
       "90",
@@ -91,7 +108,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do 20% of a work",
+    "question": "A can do 20% of a work in 7 days and B can do 25% of the work in 7 days if they worked alone. How much of the work (in percentage) can they complete in 7 days if they worked together?",
     "options": [
       "38",
       "52",
@@ -108,15 +125,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do 87.5% of the work",
+    "question": "A can do 87.5% of the work in 35 days while B can do 65% of the same work in 23.4 days. If they work together, what fraction of the work will get done in 1 day?",
     "options": [
       "1/19",
       "7/120",
-      "19/36",
-      "1/0 20"
+      "19/360",
+      "1/20"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (19/36) | Exam: NTPC CBT-02 15/06/2022 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (19/360) | Exam: NTPC CBT-02 15/06/2022 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q009",
@@ -125,7 +142,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A alone can finish a work",
+    "question": "A alone can finish a work in 15 days. A works only for the first two days and last two days. The rest work is done by B and the work is completed in 20 days. In how many days A and B together can finish the work?",
     "options": [
       "90/8",
       "80/7",
@@ -142,7 +159,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Raju and Akber take 4 hours and 6 hours to type 32 pages and 48 pages, respectively, on a computer. They are given an assignment of typing 256 pages. If they work together, typing on two different computers, starting at the same time, how much time will they take to complete",
+    "question": "Raju and Akber take 4 hours and 6 hours to computer. They are given an assignment of typing 256 pages. If they work together, typing on two different computers, starting at the same time, how much time will they take to complete the assignment (in hours)?",
     "options": [
       "16",
       "14",
@@ -159,7 +176,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Vipin can do a piece of work",
+    "question": "Vipin can do a piece of work in 2 days; Vaibhav can do the same work in 3 days and Chirag can do the same work in 6 days. If they start working together, how many days will they take to complete the work?",
     "options": [
       "3",
       "5",
@@ -176,12 +193,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A, B and C can complete a work",
+    "question": "A, B and C can complete a work in 12, 15 and 20 days, respectively. How many days are required to finish the work if they work together?",
     "options": [
       "5 days",
       "4 days",
       "6 days",
-      "3 day"
+      "3 days"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (5 days) | Exam: SSC CHSL 02/07/2024 (Shift-04)"
@@ -193,15 +210,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "M, N and O alone can complete a piece of work",
+    "question": "M, N and O alone can complete a piece of work in 10, 12 and 15 days respectively. In how 1 many days can M, N and O complete th of 6 the same work working together?",
     "options": [
-      "days",
-      "days",
-      "days",
-      "days"
+      "4/days",
+      "2/days",
+      "5/days",
+      "1/days"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (days) | Exam: SSC GD 01/03/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option B | (2/days) | Exam: SSC GD 01/03/2024 (Shift-04)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q014",
@@ -210,7 +227,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Ali, Avtar Singh and Ashok working together",
+    "question": "Ali, Avtar Singh and Ashok working together can finish a work in 8 days. Ali alone can do it in 20 days and Avtar Singh alone can do it in 24 days. In how many days can Ashok alone do the same work?",
     "options": [
       "30",
       "28",
@@ -227,7 +244,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B together can do a piece of work",
+    "question": "A and B together can do a piece of work in 30 days. Together with C, they can complete the same work in 24 days. In how many days can C alone complete the same work?",
     "options": [
       "150 days",
       "120 days",
@@ -244,12 +261,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete a piece of work",
+    "question": "A can complete a piece of work in 7 hours, B 21 and C can complete the same work in 4 hours and C and A can complete the same 7 work in hours. So how long will it take B 2 to complete the same work alone?",
     "options": [
       "22 hours",
       "20 hours",
       "21 hours",
-      "24 hour"
+      "24 hours"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (21 hours) | Exam: SSC GD 21/02/2024 (Shift-02)"
@@ -261,7 +278,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do 20% of a work",
+    "question": "A can do 20% of a work in 4 days and B can 1 do 33 % of the same work in 10 days. They 3 worked together for 9 days and then C completed the remaining work in 6 days. B and C together will complete 75% of the same work in:",
     "options": [
       "12 days",
       "9 days",
@@ -278,12 +295,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do of a work",
+    "question": "A can do of a work in 15 days, B can do 3 3 of the same work in 18 days and C can 4 do the same work in 36 days. B and C work together for 8 days. In how many days will A alone complete the remaining work? 1",
     "options": [
       "24 days",
       "18 days",
       "20 days",
-      "16 day"
+      "16 days"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (20 days) | Exam: SSC CGL TIER-II (13/09/2019)"
@@ -295,12 +312,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Ram can complete a piece of work",
+    "question": "Ram can complete a piece of work in 15 days, Rohan in 25 days and Rohit in 30 days. Rohan and Rohit worked together for 2 days and then Rohit was replaced by Ram. In how many days altogether was the work completed?",
     "options": [
       "10 days",
       "8 days",
       "12 days",
-      "7 day"
+      "7 days"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10 days) | Exam: SSC CGL 27/07/2023 (Shift-3)"
@@ -312,7 +329,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a piece of work",
+    "question": "A and B can do a piece of work in 10 days. B and C can do the same work in 12 days. C and A can do the same work in 15 days. If all the three work together, find the number of days required to complete the work.",
     "options": [
       "6",
       "10",
@@ -329,7 +346,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a project",
+    "question": "A and B can do a project in 9 days, B and C can do it in 12 days while C and A can do it in 18 days. In how many days A, B and C all working together, can finish the project?",
     "options": [
       "9",
       "8",
@@ -346,7 +363,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can complete a work",
+    "question": "A and B can complete a work in 9 days, while B and C can complete the same work in 18 days. When working together, A, B and C can finish the same work in 8 days. How many days will it take for A and C to complete the work together?",
     "options": [
       "11",
       "14",
@@ -363,7 +380,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B together can complete a piece of work",
+    "question": "A and B together can complete a piece of work in 25 days, B and C together can complete the same piece of work in 36 days, while C and A together can complete it in 30 days. If A, B, C and D together can complete this piece of work in 18 days, then in how many days can D alone complete this piece of work?",
     "options": [
       "225",
       "210",
@@ -380,15 +397,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can complete a job together",
+    "question": "A and B can complete a job together in 12.5 days; B and C can complete the same job together in 18.75 days, while C and A can complete the same job together in 15 days. In how many days will A, B and C together be able to complete the same job alongside D, who is only 40% as efficient as C?",
     "options": [
-      "9",
-      "9",
-      "9",
-      "9"
+      "1/9",
+      "17/9",
+      "2/9",
+      "7/9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9) | Exam: SSC CGL TIER-II 26/10/2023"
+    "explanation": "Correct Answer: Option D | (7/9) | Exam: SSC CGL TIER-II 26/10/2023"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q025",
@@ -397,12 +414,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A + B, B + C can do a work",
+    "question": "A + B, B + C can do a work in 12 days and 16 days respectively. If A works for 5 days and B works for 7 days and C completes the remaining work in 13 days, then C would complete the work in how many days?",
     "options": [
       "20 days",
       "22 days",
       "24 days",
-      "26 day"
+      "26 days"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (24 days)"
@@ -414,7 +431,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A + B can do a work",
+    "question": "A + B can do a work in 12 days while B + C in 2 6 days. Work is completed by A, B & C by 3 working 3, 4 and 7 days, respectively. In how many days A alone would complete the whole work?",
     "options": [
       "25 days",
       "27 days",
@@ -431,7 +448,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a work",
+    "question": "A and B can do a work in 13 days and 26 days, respectively. If they work for a day alternately, starting with A, then in how many days will the work be completed?",
     "options": [
       "17",
       "16",
@@ -448,15 +465,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Rani and Adya, working separately, can finish",
+    "question": "Rani and Adya, working separately, can finish a task in 12 days and 16 days, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in:",
     "options": [
-      "12 days",
-      "13 days",
-      "13 days",
-      "12 days"
+      "1/(12 days)",
+      "2/(13 days)",
+      "1/(13 days)",
+      "2/(12 days)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (13 days) | Exam: SSC CGL TIER-II (18/01/2025)"
+    "explanation": "Correct Answer: Option B | (2/(13 days)) | Exam: SSC CGL TIER-II (18/01/2025)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q029",
@@ -465,7 +482,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Supraja and Kausalya can complete a work",
+    "question": "Supraja and Kausalya can complete a work in 30 days and 20 days, respectively. If Supraja starts the work and they work on alternate days, in how many days will 75% of the work be completed?",
     "options": [
       "28",
       "24",
@@ -482,15 +499,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Keshav and Madhav decide to take up a",
+    "question": "Keshav and Madhav decide to take up a project to complete together in 35 days while Keshav alone can finish the project in 84 days. But due to the non-availability of space, they decided to work on alternate days, Keshav working on day 1 and Madhav working on day 2 and day 3 and so on. In how many days will they complete the project?",
     "options": [
-      "70",
-      "6221",
-      "66",
-      "64"
+      "25/70",
+      "11/6221",
+      "2/66",
+      "6/64"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (66)"
+    "explanation": "Correct Answer: Option C | (2/66)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q031",
@@ -499,15 +516,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A, B and C can complete a work",
+    "question": "A, B and C can complete a work in 10, 15 and 20 days, respectively. They work on alternate days such that 1st day A, 2nd day B and 3rd day C. Again 4th day A, 5th day B and so on. If they work in the same way, in how many days will the work be completed?",
     "options": [
-      "13",
+      "1/13",
       "14",
-      "13",
+      "1/13",
       "15"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (13) | Exam: SSC MTS 04/09/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1/13) | Exam: SSC MTS 04/09/2023 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q032",
@@ -516,7 +533,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Tushar, Megha, Punam and Richa can complete",
+    "question": "Tushar, Megha, Punam and Richa can complete a piece of work in 10 days, 12 days, 15 days and 18 days, respectively. In how many days will the work be completed if each of them work on alternate days starting with Megha on first day, Punam on second day, Richa on third day. Tushar on fourth day and then again Megha on fifth day and so on.",
     "options": [
       "12",
       "10",
@@ -533,7 +550,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 24 days and B can do it in 80 days. B works alone for 2 days and A works alone on the 3rd day. This process continues till the work is completed. In how many days will the work be completed?",
     "options": [
       "42",
       "45",
@@ -550,15 +567,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete a piece of work alone",
+    "question": "A can complete a piece of work alone in 200 days, while B can complete the same piece of work alone in 100 days. In every three-day cycle, both A and B work on day 1, only A works on day 2 and only B works on day 3. This cycle continues till the work is completed. How many days in all does it take the duo to complete the work?",
     "options": [
-      "100",
-      "99",
-      "100",
+      "1/100",
+      "2/99",
+      "1/100",
       "100"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (99) | Exam: SSC CPO 27/06/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (2/99) | Exam: SSC CPO 27/06/2024 (Shift-01)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q035",
@@ -567,7 +584,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P, Q and R can finish a work",
+    "question": "P, Q and R can finish a work in 5 days, 10 days and 15 days, respectively, working alone. P and Q works on first day, P and R works on second day and P and Q works on third day and so on till the work is completed. In how many days the work will be completed?",
     "options": [
       "2 9",
       "2 7",
@@ -584,15 +601,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A alone can do a work",
+    "question": "A alone can do a work in 11 days. B alone can do the same work in 22 days. C alone can do the same work in 33 days. They work in the following manner:",
     "options": [
       "12 days",
       "3 days",
       "6 days",
-      "9 day"
+      "9 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9 day) | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option D | (9 days) | Exam: SSC CGL MAINS (08/08/2022)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q037",
@@ -601,12 +618,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B complete a work",
+    "question": "A and B complete a work in 24 and 30 days, respectively, working 10 hours per day. The work is to be done in two shifts. The morning shift is for 6 hours and the evening shift is for 4 hours. On the first day, A works in the morning and B works in the evening and they interchange their shifts every day. On which day did the work get completed?",
     "options": [
       "24th day",
       "27th day",
       "30th day",
-      "21th da"
+      "21th day"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (27th day) | Exam: SSC CPO 05/10/2023 (Shift-01)"
@@ -618,7 +635,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B are equally efficient and each can",
+    "question": "A and B are equally efficient and each can individually complete a piece of work in 36 days, if none takes any holiday. A and B started working together on this piece of work but A took a day off after every five days of work, while B took a day off after every seven days of work. If they had started work on 1 July 2021, on which date was the work completed?",
     "options": [
       "19 July 2021",
       "20 July 2021",
@@ -635,7 +652,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B are equally efficient and each could",
+    "question": "A and B are equally efficient and each could individually complete a piece of work in 30 days, if none took any holiday. A and B started working together on this piece of work, but A took a day off after every four days of work, while B took a day off after every five days of work. If the duo had started work on 01 August 2022, on which date was the work completed?",
     "options": [
       "19 August 2022",
       "18 August 2022",
@@ -652,15 +669,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Two men A and B, each working alone by working 12 hours per day, can complete a work",
+    "question": "Two men A and B, each working alone by working 12 hours per day, can complete a work in 20 days. For execution of the work, it was decided that A and B would be working for 8 and 6 hours per day, respectively, on alternate days starting with A. If it takes x days and y hours to complete the work then (x, y) is:",
     "options": [
       "(34, 4)",
       "(33, 4)",
       "(33, 2)",
-      "(34, 2"
+      "(34, 2)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((34, 2) | Exam: SSC MTS 05/10/2021 (Shift-01)"
+    "explanation": "Correct Answer: Option D | ((34, 2)) | Exam: SSC MTS 05/10/2021 (Shift-01)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q041",
@@ -669,7 +686,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A man and woman working on alternate days",
+    "question": "A man and woman working on alternate days can finish a work in 15 days if the man works on the first day. The same work is finished in 14.5 days if they work on alternate days and if the woman starts on the first day. The work will be finished by a man alone in ___ days.",
     "options": [
       "22",
       "15",
@@ -686,11 +703,11 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "To do a certain work, Ajay and Bharat work on alternate days, with Bharat starting the work on the first day. Ajay can finish the work alone",
+    "question": "To do a certain work, Ajay and Bharat work on alternate days, with Bharat starting the work on the first day. Ajay can finish the work alone in 32 days. If the work gets completed in exactly 8 days, then Bharat alone can finish 7 times the same work in ____ days.",
     "options": [
-      "28/8",
+      "28",
       "4",
-      "32/7",
+      "32",
       "32"
     ],
     "correctAnswer": 3,
@@ -703,11 +720,11 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "To do a certain work, A and B work on alternate days with B beginning the work on the first day.",
+    "question": "To do a certain work, A and B work on alternate days with B beginning the work on the first day. A alone can complete the same work in 24 1 days. If the work gets completed in 113 days, 7 then B alone can complete part of the 9 original work in:",
     "options": [
-      "5 days",
+      "1/(5 days)",
       "4 days",
-      "4 days",
+      "1/(4 days)",
       "6 days"
     ],
     "correctAnswer": 3,
@@ -720,7 +737,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Aman and Rajan are working at a construction site.",
+    "question": "Aman and Rajan are working at a construction site. In some engineering experiment, Aman is constructing a wall, while Rajan is demolishing that wall. Aman can completely build the wall in 15 days, while Rajan will take 20 days to completely demolish the wall. In how many days will the complete wall be built for the first time if they work on alternate days, with Aman working on the 1st day?",
     "options": [
       "57",
       "117",
@@ -731,21 +748,38 @@
     "explanation": "Correct Answer: Option C | (113) | Exam: SSC Phase XII 21/06/2024 (Shift-03)"
   },
   {
+    "id": "rkr_time_work_time_work_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "In a computer game, a builder can build a wall in 10 hours while a destroyer can completely demolish such a wall in 25 hours. Both builders and destroyers were initially designed to work together on level ground. But after 15 hours the destroyers were removed. How much time did it take to build the entire wall?",
+    "options": [
+      "16 hours 20 min.",
+      "16 hours",
+      "17 hours 2 min.",
+      "18 hours 24 min."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16 hours)"
+  },
+  {
     "id": "rkr_time_work_time_work_classroom_sheet_q046",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "There are two robots A and B, which can construct a duplicate of the great China wall",
+    "question": "There are two robots A and B, which can construct a duplicate of the great China wall working alone in 24 years and 20 years respectively. Also, there is a robot C, which can destroy the fully constructed wall in 30 years. If the robots are working alternately for 1 year each, one after the other, starting with robot A, then robot B, then robot C. After how many years will the wall be completed for the first time?",
     "options": [
       "More than 51.4 years",
       "Less than 17.3 years",
       "51.2 years",
-      "49.5 year"
+      "49.5 years"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (49.5 year)"
+    "explanation": "Correct Answer: Option D | (49.5 years)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q047",
@@ -754,7 +788,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P can do a piece of work",
+    "question": "P can do a piece of work in 30 days and Q in 40 days. They work together for 4 days and then Q leaves. The number of days taken by P to finish the remaining work is:",
     "options": [
       "23 days/fnu",
       "28 days/fnu",
@@ -771,12 +805,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a work",
+    "question": "A and B can do a work in 15 days and 30 days, respectively. They start working together, but A leaves after 3 days. How much time will B take to complete the remaining work?",
     "options": [
       "21 days",
       "28 days",
       "24 days",
-      "32 day"
+      "32 days"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (21 days) | Exam: SSC Phase XII 20/06/2024 (Shift-03)"
@@ -788,15 +822,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a piece of work",
+    "question": "A and B can do a piece of work in 5 days and 10 days, respectively. They began the work together but A left after some days and B finished the remaining work in 8 days. After how many days did A leave?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/3",
+      "1/5",
+      "1/6",
+      "2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CGL 18/07/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CGL 18/07/2023 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q050",
@@ -810,7 +844,7 @@
       "6 days",
       "8.1 days",
       "5.1 days",
-      "7 day"
+      "7 days"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (5.1 days)"
@@ -822,7 +856,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A man can alone finish a piece of work",
+    "question": "A man can alone finish a piece of work in 8 days, while a woman can finish the same work in 16 days. They start working together and Man quits after 2 days. Woman continues. After 3 days man is called back for work. Then after 1 day woman quits work and remaining work is done by Man. What is the ratio of work done by man to work done by woman?",
     "options": [
       "5 : 3",
       "4 : 3",
@@ -839,12 +873,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P and Q can do a certain work together",
+    "question": "P and Q can do a certain work together in 12 days, Q and R in 20 days and P and R in 15 days. P, Q, R start working together. They work for 2 days after which Q leaves. After 10 more days Q re-joins and P leaves. Q works to 2 days along with R and then he leaves. The remaining work is completed by R. In how many days will the work be completed?",
     "options": [
       "12 days",
       "16 days",
       "20 days",
-      "24 day"
+      "24 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (16 days)"
@@ -856,15 +890,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete a piece of work",
+    "question": "A can complete a piece of work in 25 days while B can complete the same work in 30 days. They work on alternate basis, starting with A. Both A and B follow this pattern for 5 days and then A leaves the work. In how many days will B finish the remaining work?",
     "options": [
-      "24",
-      "5",
-      "5",
-      "24"
+      "2/24",
+      "2/5",
+      "3/5",
+      "3/24"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (24) | Exam: SSC CGL 14/07/2023 (Shift-1)"
+    "explanation": "Correct Answer: Option A | (2/24) | Exam: SSC CGL 14/07/2023 (Shift-1)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q054",
@@ -873,7 +907,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can do a piece of work",
+    "question": "A and B can do a piece of work in 10 days and 15 days, respectively. They worked together, but 5 days before the completion of the work, A left. In how many days was the work completed?",
     "options": [
       "4",
       "8",
@@ -890,7 +924,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can individually complete a piece of",
+    "question": "A and B can individually complete a piece of work in 18 days and 30 days, respectively. A and B started working together, but A left 2 16 days before the work is completed and B 3 alone completed the rest of the work. For how many days did A work?",
     "options": [
       "4",
       "5",
@@ -907,7 +941,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Benny can do a piece of work",
+    "question": "Benny can do a piece of work in 24 days. Chethan and David can do the same work individually in 36 and 48 days, respectively. All of them begin the work together. However, Benny leaves the work 4 days before the completion of work and Chethan leaves the work 10 days before the completion of the work. David worked till the end and completed the work. Find the number of days in which the work was completed.",
     "options": [
       "16",
       "20",
@@ -924,7 +958,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P, Q and R, when working individually, can",
+    "question": "P, Q and R, when working individually, can complete a job in, respectively, 36 days, 48 days and 144 days. P, Q and R start working together. P leaves the job 12 days before completion and Q leaves the job 8 days before completion. R works from the beginning till the end of the job. Determine the total number of days taken to complete the job.",
     "options": [
       "30",
       "24",
@@ -941,15 +975,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A alone can do a work",
+    "question": "A alone can do a work in 14 days. B alone can do the same work in 28 days. C alone can do the same work in 56 days. They start the work together and completed the work such that B was not working on last 2 days and A did not work in last 3 days. In how many days (total) was the work completed?",
     "options": [
-      "days",
-      "days",
-      "days",
-      "days"
+      "72/days",
+      "87/days",
+      "79/days",
+      "65/days"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (days) | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option A | (72/days) | Exam: SSC CGL MAINS (08/08/2022)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q059",
@@ -958,7 +992,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A , B and C can do a work",
+    "question": "A , B and C can do a work in 10, 12 and 15 days respectively. They begin the work together but after 3 days C left the work and 4 days before B left the work. In how many days will the total work be completed?",
     "options": [
       "68/11",
       "67/11",
@@ -975,7 +1009,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A , B and C can do a work",
+    "question": "A , B and C can do a work in 10, 12 and 15 days respectively. They begin the work together but after 4 days B left the work and 3 days before C left the work. In how many days will the total work be completed?",
     "options": [
       "27/5",
       "26/5",
@@ -992,15 +1026,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do 1/5 of a piece of work",
+    "question": "A can do 1/5 of a piece of work in 20 days, B can do 30% of the same work in 36 days, while C can do 80% of the same work in 160 days. B and C together started and worked for x days. After x days B left the work, and A joined C and both completed the remaining work in (x – 41) days. If the ratio between the work done by (B + C) together to the work done by (A + C) together is 19 : 6, then what fraction of the same work can be completed by C alone in 2x days?",
     "options": [
-      "57/10",
-      "19/0 25",
+      "57/100",
+      "19/25",
       "13/25",
       "6/25"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (57/10) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (57/100) | Exam: SSC CPO 05/10/2023 (Shift-01)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q062",
@@ -1009,15 +1043,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Virat can complete a work",
+    "question": "Virat can complete a work in 30 days and Daniel is 60% more efficient than Virat to complete the same work. Find the total time taken by Daniel to complete the work.",
     "options": [
-      "16 days",
-      "18 days",
-      "19 days",
-      "17 days"
+      "3/(16 days)",
+      "3/(18 days)",
+      "5/(19 days)",
+      "5/(17 days)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (18 days) | Exam: SSC CGL 14/07/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option B | (3/(18 days)) | Exam: SSC CGL 14/07/2023 (Shift-3)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q063",
@@ -1026,7 +1060,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Tarun is twice as good as Tripti",
+    "question": "Tarun is twice as good as Tripti in doing a work. Together, they can complete the work in 16 days. In how many days can Tripti alone complete the same work?",
     "options": [
       "24",
       "48",
@@ -1060,12 +1094,12 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "P takes twice as long as Q or three times as long as R to complete a task. If they work together,",
+    "question": "P takes twice as long as Q or three times as long as R to complete a task. If they work together, they can complete the task in two days. How long will it take Q to complete the task on his own?",
     "options": [
       "8 days",
       "6 days",
       "5 days",
-      "7 day"
+      "7 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (6 days) | Exam: SSC CGL 24/07/2023 (Shift-1)"
@@ -1077,15 +1111,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Ramesh does half as much work as Parul",
+    "question": "Ramesh does half as much work as Parul in 4 of the time. If together Ramesh and Parul 5 take 24 days to complete the work, then how much time will Parul take to do it? 4",
     "options": [
       "37 days",
       "38 days",
       "41 days",
-      "39 day"
+      "39 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (39 day) | Exam: SSC CPO 03/10/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option D | (39 days) | Exam: SSC CPO 03/10/2023 (Shift-3)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q067",
@@ -1094,7 +1128,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Amita can build a room",
+    "question": "Amita can build a room in the same amount of time that Bina and Sita working together can build. If Amita and Bina together could do it in 25 days and Sita alone in 35 days, then how many days are required for Bina alone to do the same work?",
     "options": [
       "152 days",
       "175 days",
@@ -1111,7 +1145,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A's efficiency is twice that of B's. A can work only for 8 hours a day while B can work for 12",
+    "question": "A's efficiency is twice that of B's. A can work only for 8 hours a day while B can work for 12 hours a day. If A can finish a work in 12 days, in how many days can B finish the same work?",
     "options": [
       "8",
       "10",
@@ -1128,15 +1162,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A, B, and C together can complete a work",
+    "question": "A, B, and C together can complete a work in 6 days. The efficiency of A and C is 3 times of B, and the efficiency of A is 4 times of C, and then they alone can finish the job in how many days?",
     "options": [
       "12, 12, 18 days",
       "15, 60, 30 days",
       "15, 30, 60 days",
-      "10, 24, 40 day"
+      "10, 24, 40 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10, 24, 40 day) | Exam: MAINS EXAM (21/06/2023)"
+    "explanation": "Correct Answer: Option D | (10, 24, 40 days) | Exam: MAINS EXAM (21/06/2023)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q070",
@@ -1145,7 +1179,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can do a certain piece of work",
+    "question": "A can do a certain piece of work in 2.4 times the number of days in which B and C together can do it. If A and B together can do the said piece of work in 27 days and C alone can do it in 75 days, then how many days will B take to do this piece of work alone?",
     "options": [
       "42",
       "54",
@@ -1162,7 +1196,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "To do a certain work, the ratio of efficiencies of X and Y is 5 : 7. Working together, X and",
+    "question": "To do a certain work, the ratio of efficiencies of X and Y is 5 : 7. Working together, X and Y can complete the same work in 70 days. X alone started the work and left after 42 days. Y alone will complete the remaining work in:",
     "options": [
       "90 days",
       "96 days",
@@ -1179,7 +1213,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B together can finish a task",
+    "question": "A and B together can finish a task in 12 days. If A worked half as efficiently as he usually does and B works thrice as efficiently as he usually does, the task gets completed in 9 days. How long would A take to finish the task if he worked independently?",
     "options": [
       "Option A",
       "Option B",
@@ -1196,15 +1230,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "To do a certain work, A is 40% more efficient than B. Working together, they can do the same",
+    "question": "To do a certain work, A is 40% more efficient than B. Working together, they can do the same work in 15 days. A started the work and left after 15 days. B and C together completed the remaining work in next 10 days. C alone can do one third of the original work in:",
     "options": [
       "36 days",
       "21 days",
       "30 days",
-      "24 day"
+      "24 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (24 day) | Exam: SSC Phase IX 8/02/2022 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (24 days) | Exam: SSC Phase IX 8/02/2022 (Shift-03)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q074",
@@ -1213,7 +1247,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B together can finish a certain work",
+    "question": "A and B together can finish a certain work in 45 days. They worked on it for 35 days and then A left the work. The remaining work was done by B alone in 24 days more. In how many days can B alone finish the entire work?",
     "options": [
       "96",
       "108",
@@ -1230,7 +1264,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Raja and Rocky together can complete",
+    "question": "Raja and Rocky together can complete painting work in 5 days. Together they both start painting, but after 2 days, Rocky falls sick and leaves the work. If Raja completes the remaining painting in 4 days, find the number of days in which Rocky alone can do the work.",
     "options": [
       "12 days/fnu",
       "15 days/fnu",
@@ -1247,7 +1281,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B together can complete a task",
+    "question": "A and B together can complete a task in 12 days. However, if A works alone, completes half the job and leaves and then B works alone and completes the rest of the work, it takes 25 days in all to complete the work. If B is more efficient than A, how many days would it have taken B to do the work by herself?",
     "options": [
       "18",
       "22",
@@ -1264,15 +1298,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A alone can do 2/5 of a work",
+    "question": "A alone can do 2/5 of a work in 12 days. B is 25 percent more efficient than A. C alone can do the same work in 12 days less than B. D is 25 percent less efficient than C. If they all work together, then the work will be completed in how many days? 2",
     "options": [
-      "24/53",
-      "0 180/43",
-      "30/47",
-      "0 200/57"
+      "240/53",
+      "180/43",
+      "300/47",
+      "200/57"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (24/53) | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option A | (240/53) | Exam: SSC CGL MAINS (08/08/2022)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q078",
@@ -1281,7 +1315,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "x and y together can complete a certain work",
+    "question": "x and y together can complete a certain work in 48 days. They worked together for 15 days and then z joined them. All the three together completed the remaining work in 22 days . If the work done by y in 8 days is equal to the work done by z in 12 days, then x alone can 1 complete part of the original work in: 12",
     "options": [
       "20 days",
       "16 days",
@@ -1298,7 +1332,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B can finish a work",
+    "question": "A and B can finish a work in 6 days. If A works at double his normal speed, and B works at one-third his normal speed, they will complete 1 the work in 4 days. How many days will it 2 take for B to complete the work at his normal speed, working alone?",
     "options": [
       "15",
       "18",
@@ -1315,7 +1349,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete a certain work",
+    "question": "A can complete a certain work in 18 days. B can complete the same work in 72 days, C 1 is 33 % more efficient than B. All the three 3 started the work together. A left 8 days and C left 17 days before the completion of work, but B continued to work till the work was completed. For how many days did A work?",
     "options": [
       "9",
       "15",
@@ -1332,7 +1366,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "When they work alone, B needs 25% more time to finish a job than A does. They two",
+    "question": "When they work alone, B needs 25% more time to finish a job than A does. They two finish the job in 13 days in the following manner: A works alone till half the job is done, then A and B work together for four days, and finally B works alone to complete the remaining 5% of the job. In how many days can B alone finish the entire job?",
     "options": [
       "16",
       "20",
@@ -1349,7 +1383,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A alone would take 27 hours more to complete a work than A and B work together. B takes 3 hours more to complete a work alone than A and B work together.",
+    "question": "A alone would take 27 hours more to complete a work than A and B work together. B takes 3 hours more to complete a work alone than A and B work together. In how many days A alone can it.",
     "options": [
       "36",
       "18",
@@ -1366,7 +1400,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A and B working together can complete a work",
+    "question": "A and B working together can complete a work in d days. Working alone, A takes (8+d) days and B takes (18+d) days to complete the same work. A works for 4 days . The remaining work is completed by B alone in :",
     "options": [
       "24",
       "18",
@@ -1383,7 +1417,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A can complete a work",
+    "question": "A can complete a work in 5 more days than B while A does the same work in 9 more days than C. If A and B can complete the whole work in same time in which C alone does the work. In how many days A alone could complete the same work.",
     "options": [
       "24",
       "15",
@@ -1400,7 +1434,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A does a work",
+    "question": "A does a work in 6 days less than that of B and 2 days more than that of C. If time taken by A and B together to do the work is equal to time taken by C to do the same work. Then find in how many days B alone can complete the same work?",
     "options": [
       "10",
       "14",
@@ -1417,7 +1451,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A group of 25 tourists consume 5 containers",
+    "question": "A group of 25 tourists consume 5 containers of food in 8 days in a hotel. How many containers will be required for 10 tourists to eat for 16 days?",
     "options": [
       "6",
       "3",
@@ -1434,7 +1468,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "36 persons can do a work",
+    "question": "36 persons can do a work in 10 days, working 6 hours a day. In how many days will 24 persons, working 9 hours a day complete the work?",
     "options": [
       "4",
       "10",
@@ -1456,7 +1490,7 @@
       "10 days/fnu",
       "14 days/fnu",
       "12 days/fnu",
-      "16 days/fn"
+      "16 days/fnu"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (12 days/fnu) | Exam: SSC CPO 29/06/2024 (Shift-02)"
@@ -1468,7 +1502,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "18 workers can complete a piece of work",
+    "question": "18 workers can complete a piece of work in 96 days. They start working together and af- ter 26 days 10 more workers join them. In how many days in all will the work be completed?",
     "options": [
       "69",
       "71",
@@ -1485,7 +1519,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "(N + 15) persons, each working for 9 hours a",
+    "question": "(N + 15) persons, each working for 9 hours a day, can complete 36% of a work in 8 days. (N + 9) persons can complete the remaining work in 20 days, if each of them works for 7 hours per day. Determine the value of N.",
     "options": [
       "55",
       "52",
@@ -1502,7 +1536,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A work has to be completed",
+    "question": "A work has to be completed in 100 days, x number of men are employed but it is found that only half of the work is done in 60 days, then an additional 40 men were joined to complete the work on time. How many men were initially put to work?",
     "options": [
       "90",
       "75",
@@ -1519,7 +1553,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A man undertakes to do a certain work",
+    "question": "A man undertakes to do a certain work in 150 days. He employs 200 men. He finds that only a quarter of the work is done in 50 days. How many additional men should he employ so that the whole work is finished in time?",
     "options": [
       "75",
       "85",
@@ -1536,7 +1570,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A contractor undertook to complete a project",
+    "question": "A contractor undertook to complete a project in 90 days and employed 60 men on it. After 3 60 days, he found that of the work has 4 already been completed. How many men can he discharge so that the project may be completed exactly on time?",
     "options": [
       "40",
       "20",
@@ -1553,7 +1587,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "64 men working 8 hours a day plan to complete",
+    "question": "64 men working 8 hours a day plan to complete a piece of work in 9 days. How ever, 5 days later they found that they had completed only 40% of the work. They now wanted to finish the remaining work in 4 more days. How many hours per day should they need to work in order to achieve the target?",
     "options": [
       "11",
       "12",
@@ -1570,7 +1604,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A contractor employees 245 men who finish 7",
+    "question": "A contractor employees 245 men who finish 7 the th of total work in 54 days. Due to rain 11 the work will stopped for 11days and 40% work also destroyed. After rain 41 people falls sick and were not able to do the work. In how many days the work will completed?",
     "options": [
       "121",
       "128",
@@ -1587,7 +1621,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Each one of five men independently can",
+    "question": "Each one of five men independently can complete a work in 20 days. The work is started by one person. Next day one more person joins and every next day one more person joins. From the fifth day, five persons continued working as a team. In how many days, will the work be completed?",
     "options": [
       "2",
       "6",
@@ -1604,7 +1638,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "150 workers were engaged to finish a piece",
+    "question": "150 workers were engaged to finish a piece of work in a certain number of days. Four workers dropped the second day, four more workers dropped the third day and So on. It takes 8 more days to finish the work now. Find the number of days in which the work was completed.",
     "options": [
       "30",
       "25",
@@ -1621,7 +1655,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Few men can do a piece of work",
+    "question": "Few men can do a piece of work in 8 day. Then start the work but every day 10 men left the work. The work will be completed in 12 days. Find the number of men at the starting.",
     "options": [
       "175",
       "165",
@@ -1638,7 +1672,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "If 3 goats or 5 sheep can graze a field",
+    "question": "If 3 goats or 5 sheep can graze a field in 54 days, then in how many days can 6 goats and 8 sheep graze the same field?",
     "options": [
       "12",
       "10",
@@ -1655,7 +1689,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "4 women or 6 men can finish a work",
+    "question": "4 women or 6 men can finish a work in the same number of days. A man can finish it in 60 days. In how many days can 5 women finish the work, working together every day?",
     "options": [
       "4",
       "10",
@@ -1672,15 +1706,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "If 8 men or 16 women or 32 boys can do a piece",
+    "question": "If 8 men or 16 women or 32 boys can do a piece of work in 8 months, then in how many months can 4 men, 4 women and 4 boys together complete the work?",
     "options": [
-      "9",
-      "6",
-      "8",
-      "10"
+      "1/9",
+      "3/6",
+      "2/8",
+      "5/10"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9) | Exam: SSC Phase XII 20/06/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1/9) | Exam: SSC Phase XII 20/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q102",
@@ -1689,7 +1723,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "15 men and 25 women can complete a piece of",
+    "question": "15 men and 25 women can complete a piece of work in 9.6 days. If 16 women can complete the same work in 27 days, find the number of days in which 16 men can complete the same work.",
     "options": [
       "22.50",
       "20.25",
@@ -1706,7 +1740,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "3 men can finish a work",
+    "question": "3 men can finish a work in 10 days, 4 women can finish it in 12 days and 10 qualified workers can finish it in 6 days. In how many days can the work finished by 4 men, 4 women and 4 qualified workers, working together every day?",
     "options": [
       "30/19",
       "45/17",
@@ -1723,15 +1757,15 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "The one-day work of 2 men is equal to the one-day work of 4 women or the one-day work of 8 qualified workers. 10 qualified workers",
+    "question": "The one-day work of 2 men is equal to the one-day work of 4 women or the one-day work of 8 qualified workers. 10 qualified workers can finish a work in 8 days. If a man, a woman and a qualified worker work in the same order on three different days, the work is finished in ____ days.",
     "options": [
-      "20/6",
-      "3 135/4",
-      "13/4",
-      "1 166/5"
+      "203/6",
+      "135/4",
+      "131/4",
+      "166/5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3 135/4) | Exam: SSC Phase XII 24/06/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (135/4) | Exam: SSC Phase XII 24/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_time_work_time_work_classroom_sheet_q105",
@@ -1740,7 +1774,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A man and a woman can finish a work together",
+    "question": "A man and a woman can finish a work together in half the time taken by a woman and a boy together. A boy can finish the work alone in 20 days and 2 women together can finish it in 30 days. In how many days will the work be finished by 4 men?",
     "options": [
       "2",
       "2.14",
@@ -1757,7 +1791,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "4 men and 5 women can complete a work",
+    "question": "4 men and 5 women can complete a work in 15 days, whereas 9 men and 6 women can complete it in 10 days. To complete the same work in 7 days, how many women should assist 4 men?",
     "options": [
       "14",
       "15",
@@ -1774,7 +1808,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "2 men and 7 women can complete a work",
+    "question": "2 men and 7 women can complete a work in 28 days, whereas 6 men and 16 women can do the work in 11 days. In how many days will 5 men and 4 women, working together, will complete the work?",
     "options": [
       "18",
       "14",
@@ -1791,7 +1825,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "15 men and 21 women, working together, can do a",
+    "question": "15 men and 21 women, working together, can do a job in 56 days, while 12 men and 24 women, working together, can do the same job in 64 days. In how many days can the same job be done by 18 men and 24 women, working together?",
     "options": [
       "4719 5",
       "4719 9",
@@ -1808,7 +1842,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "A man and a woman working together can do",
+    "question": "A man and a woman working together can do a work in 66 days. The ratio of their working efficiencies is 3:2. In how many days 6 man and 2 women working together can do the same work?",
     "options": [
       "18",
       "15",
@@ -1825,11 +1859,11 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Eighteen men can complete a work",
+    "question": "Eighteen men can complete a work in 14 days. Three women do as much work as two men. Five men and six women started the work and continued for 4 days. Subsequently 3 more men joined the group. In how many total days was the work completed?",
     "options": [
-      "213",
-      "14",
-      "18",
+      "1/213",
+      "1/14",
+      "3/18",
       "22"
     ],
     "correctAnswer": 3,
@@ -1842,7 +1876,7 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "3 men, 4 women and 6 children can complete",
+    "question": "3 men, 4 women and 6 children can complete a work in 7 days. A woman does double the work a man does and a child does half the work a man does. How many women alone can complete this work in 7 days ?",
     "options": [
       "6",
       "7",
@@ -1859,14 +1893,14 @@
     "chapter": "Time & Work",
     "sheetType": "ClassRoom",
     "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
-    "question": "Five men can complete a work",
+    "question": "Five men can complete a work in 20 days. Ten women can complete the same work in 15 days. Two men and six women started working together. After 5 days, three women left the work and a new man joined the work. The group continued working together till the end of the work. In how many days will they be able to do the remaining work?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14/1",
+      "19/2",
+      "18/3",
+      "16/3"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (14/1)"
   }
 ]

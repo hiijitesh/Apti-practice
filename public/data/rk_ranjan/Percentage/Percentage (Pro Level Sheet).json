@@ -17,6 +17,23 @@
     "explanation": "Correct Answer: Option B | (62) | Solution: (b) b a = 100 x  b (100 ) b = 100 100 x x   x² + 100x – 10000 = 0 –100 100² – 4 1 (–10000) = 2 x    –100 50000 2   x  –100 100 5 2  = – 50 + 50 5 = 62"
   },
   {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In a village, two contestants (A and B) are contesting in an election. 70% of the registered voters cast their votes in the election and A wins the election by 400 votes. If A had received 12.5% less votes, A’s votes would have been equal to B’s votes. How many registered voters are there in the village?",
+    "options": [
+      "4,500",
+      "4,200",
+      "4,000",
+      "4,800"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4,000) | Solution: (c) Total votes = 100 C NC 70 30 1"
+  },
+  {
     "id": "rkr_percentage_percentage_pro_level_sheet_q003",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -40,7 +57,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What reduced to keep the cost the same as that before the increase?",
     "options": [
       "20.7",
       "25.5",
@@ -76,13 +93,13 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "A number X is first increased by 35% and then decreased by 5.55%. The number, so obtained, is now 1 increased by 23 % . If the number, has increased 13 2 by 8806 than original number X, then find 14 % 7 of the number X?",
     "options": [
-      "2210",
+      "7/2210",
       "2079",
-      "2100",
-      "2590"
+      "(a) 2210/2100",
+      "(b) 2079/2590"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2210)"
+    "explanation": "Correct Answer: Option A | (7/2210)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q007",
@@ -91,7 +108,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Reliance Jio kept increasing its customer by the same percentage every year. Find the percentage if it is known that the company’s interaction with customers is doubled after two years.",
+    "question": "Reliance Jio kept increasing its customer by the same known that the company’s interaction with customers is doubled after two years.",
     "options": [
       "1002",
       "100(2+1)",
@@ -108,7 +125,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage",
+    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage decrease in the amount with him?",
     "options": [
       "22",
       "24",
@@ -144,13 +161,30 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "The price of item A is 40% more than the price of item B, and the price of item B is 25% less than the price of item C. The price of A is reduced by 20%, while the prices of B and C are increased by 24% and 33% respectively.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Neither I nor II",
+      "Both I and II",
+      "Only II/osQoy II",
+      "Only I/osQoy I"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (Neither I nor II)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election between two candidates A and B, 15% of the voters did not cast their votes, and 20% of the votes cast were declared invalid. The winning candidate got 8262 valid votes, which was 54% of the total valid votes.",
+    "options": [
+      "Neither I nor II",
+      "Only II/dsoy II",
+      "Only I/dsoy I",
+      "Both I and II"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Only I/dsoy I)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q012",
@@ -159,7 +193,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total",
+    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total cost (in Rs.) of 7 pens and 5 notebooks?",
     "options": [
       "375",
       "365",
@@ -193,7 +227,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Out of 85 children playing badminton or table tennis",
+    "question": "Out of 85 children playing badminton or table tennis or both, the total number of girls in the group is 70% of the total number of boys in the group. The number of boys playing only badminton is 50% of the number of boys and the total number of boys playing badminton is 60% of the total number of boys. The number of children playing only table tennis is 40% of the total number of children and a total of 12 children play badminton and table tennis both. The number of girls playing only badminton is.",
     "options": [
       "14",
       "16",
@@ -210,7 +244,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of",
+    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of wheat, resulting in a total expenditure of Rs.300 per month for rice and wheat combined. If the price of wheat is increased by 20%, what percentage reduction in rice consumption is needed to maintain the same expenditure of Rs.300? (Given that price of rice and consumption of wheat is constant.)",
     "options": [
       "40",
       "38",
@@ -227,7 +261,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice.",
+    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice. The accumulated rice was sold in the black market at double the price. He showed the government that he distributed 2700 kg of rice. When caught, he was made to pay a fine of 125% of what he earned in the black market. What was his fine amount?",
     "options": [
       "`36,000",
       "`45,000",
@@ -261,7 +295,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of males and females in the village is:",
     "options": [
       "1840",
       "1380",
@@ -278,15 +312,15 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x",
+    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x + 20)% of 180? (correct to nearest integer)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80",
+      "90",
+      "136",
+      "154"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (136)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q020",
@@ -295,7 +329,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "% of 180? (correct to nearest integer)",
+    "question": "Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
     "options": [
       "420",
       "400",
@@ -312,7 +346,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "A man started a business with a certain capital amount.",
+    "question": "A man started a business with a certain capital amount. In the first year, he earned 60% profit and donated 50% of the total capital (initial amount + profit), He followed the same procedure with the remaining capital after the second and the third year. If at the end of the three years, he is left with `15,360, what was the initial amount (in `) with which the man started his business?",
     "options": [
       "20,000",
       "30,000",
@@ -363,7 +397,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If",
+    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If the difference in total earnings of both Kavita and Kalyani is `7,600, then Kavita's total earning is:",
     "options": [
       "`19,200",
       "`21,600",
@@ -374,6 +408,23 @@
     "explanation": "Correct Answer: Option D | (`23,400)"
   },
   {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In a class of 50 students. 20 students play hockey, 15 students play cricket and 11 students play football. 7 students play both hockey and cricket, 4 students play cricket and football. 5 students play Hockey and football. If 18 students don't play any of these given sports. Find the ratio of student who play all of these 3 sports to who play exactly two of these sports?",
+    "options": [
+      "1 : 3",
+      "1 : 7",
+      "1 : 5",
+      "4 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 5)"
+  },
+  {
     "id": "rkr_percentage_percentage_pro_level_sheet_q026",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -382,13 +433,13 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "The price of sugar increased by 5%, then increased by 2% and again reduced by x%. So a family 1 increased their consumption by 19 % and their 21 1 expenditure on sugar is 122 % more than previous. Final the value of x?",
     "options": [
-      "1117",
-      "15",
-      "13",
-      "10"
+      "13/(1117 %)",
+      "5/(15 %)",
+      "2/(13 %)",
+      "10%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1117)"
+    "explanation": "Correct Answer: Option A | (13/(1117 %))"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q027",
@@ -406,6 +457,74 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (925925.93)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In the beginning of 2017, the population of three cities Bangalore, Chennai and Delhi was in the ratio of 4 : 5 : 6 respectively. During the year 2017, the population of the respective cities was increased by the percentage in the ratio of 7 : 5 : 9. In the beginning of 2018, the population of Delhi was 27000 more than that of the beginning of 2017 and in the beginning of the year 2018 the ratio of the population of Bangalore to Chennai was 108 : 125, then during the year 2017, what was the sum of the increase in the population of all the cities together?",
+    "options": [
+      "53,500",
+      "61,200",
+      "49,400",
+      "52,500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (53,500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an examination 50% students passed in physics, 37.5% students passed in chemistry and 12.5% students passed in both. If in that exam the no. of girls is equal to the no. of failed students and 25% of the failed students are girls, which is 20, then find what per cent of boys got fail?",
+    "options": [
+      "16",
+      "25",
+      "20",
+      "24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (25)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an examination,53% students passed in Mathematics, 61% passed in Physics, 60% passed in Chemistry, 24% passed in Mathe-matics and Physics, 35% in Physics and Chemistry, 27% in Mathematics and Chemistry and 5% in none. The ratio of percentage of passes in Mathematics and Chemistry but not in Physics in relation to the not in Mathematics is?",
+    "options": [
+      "7 : 5",
+      "5 : 7",
+      "4 : 5",
+      "5 : 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 : 7)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election between A and B, every fifth vote polled was marked as invalid by the machine. In the remaining votes, A wins the election with a margin of 2500 votes or 10% of the total votes polled, over B. If 90% of the invalid votes would have been in favour of B, then which of the following would have been the result of the election?",
+    "options": [
+      "B would have won by 8",
+      "B would have won by 3",
+      "A would have won by 3",
+      "A would have won by 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (B would have won by 8)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q032",
@@ -431,7 +550,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate",
+    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate in return as change along with the book. What is the amount left with Prabhat after he bought the book?",
     "options": [
       "`144",
       "`120",
@@ -448,7 +567,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest",
+    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest and hardworking. Then how many votes were cast in favor of candidate A, candidate B and NOTA respectively?",
     "options": [
       "19500, 13000 and 17500",
       "17000, 15500 and 17500",
@@ -465,7 +584,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20",
+    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The sum of the two savings (in `) is:",
     "options": [
       "2,11,680",
       "1,28,160",
@@ -482,12 +601,12 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question.",
+    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question. How much did Mr. X earn in the year 2000?",
     "options": [
       "Either 1 or 2 is sufficient to answer the question",
       "Both 1 and 2 are sufficient to answer the question",
       "1 alone is sufficient while 2 alone is not sufficient to answer the question",
-      "2 alone is sufficient while 1 alone is not sufficient to answer the questio"
+      "2 alone is sufficient while 1 alone is not sufficient"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Either 1 or 2 is sufficient to answer the question)"
@@ -499,7 +618,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money (in `) is spent on food?",
     "options": [
       "9600",
       "12000",
@@ -516,15 +635,32 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to",
+    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to the population of country B in the given year. What is the percentage decrease in 'x' from 2020 to 2021?",
     "options": [
-      "10/",
-      "0  p – q  100  p – q /100 – q  100 + p",
-      "10/10",
-      "0  p – q  100  p – q /0 – p 100 + q"
+      "(100  p – q )/( 100 – q )",
+      "(100  p – q )/(100 + p)",
+      "(100  p – q )/(100 – p)",
+      "(100  p – q )/(100 + q)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (10/)"
+    "explanation": "Correct Answer: Option A | ((100  p – q )/( 100 – q ))"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election, there were three candidates: A, B and C. 10% of the eligible voter did not vote. Out of those who voted, 45% voted for A, 35% voted for B and the remaining 20% voted for C. 30% of the votes polled for A and 20% of the votes polled for B were later deemed invalid, while all the votes polled for C were deemed valid. If A got 882 more valid votes than B did, how many valid votes did C receive?",
+    "options": [
+      "5020",
+      "5040",
+      "5050",
+      "5060"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5040) | Solution: In an election, there were three candidates: A, B and C. 10% of the eligible voter did not vote. Out of those who voted, 45% voted for A, 35% voted for B and the remaining 20% voted for C. 30% of the votes polled for A and 20% of the votes polled for"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q040",
@@ -541,6 +677,6 @@
       "135"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks tkrh 'ks\"k 35»] "
+    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks 'ks\"k 35»] S VkW"
   }
 ]

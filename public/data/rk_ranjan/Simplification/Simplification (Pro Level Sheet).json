@@ -42,10 +42,10 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Solve the following/fuEufyf[kr",
     "options": [
-      "9",
+      "3/9",
       "–55",
-      "112",
-      "15"
+      "1/112",
+      "1/15"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–55) | Solution: (b) 1 4 5 3 2 1 4 5 6 1 1 1 1 3 1 3 2 4 22 3 5 10 5                    = 13 2 5 3 4 3 13 1 3 111 3 2 3 5 10 5                   = 31 5 12 13 5 3 222 2 3 1 10                     = 31 5 12 65 "
@@ -57,7 +57,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "A sum of three fractions A, B and C, A> B> C, is . 60 9 When C is divided by B, the resulting fraction is 10 3 to which exceeds A by . What is the difference 20 between B and C ? Simplification (ljyhdj.k) 21",
+    "question": "A sum of three fractions A, B and C, A> B> C, is . 60 9 When C is divided by B, the resulting fraction is 10 3 to which exceeds A by . What is the difference 20 between B and C ? 21",
     "options": [
       "1/15",
       "2/15",
@@ -76,13 +76,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Solve/gy",
     "options": [
-      "30/60",
-      "2 301/0 600",
-      "30/60",
-      "7 299/0 600"
+      "302/600",
+      "301/600",
+      "307/600",
+      "299/600"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2 301/0 600)"
+    "explanation": "Correct Answer: Option B | (301/600)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q008",
@@ -110,13 +110,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Simplify the following:",
     "options": [
-      "244",
-      "219",
-      "275",
-      "299"
+      "1/244",
+      "1/219",
+      "4/275",
+      "4/299"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (299)"
+    "explanation": "Correct Answer: Option D | (4/299)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q011",
@@ -127,13 +127,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Which of the following statement is true?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only I / dsoy I",
+      "Both I and II",
+      "Only II / dsoy II",
+      "Neither I nor II / u I u II"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (Neither I nor II / u I u II)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q012",
@@ -181,7 +181,7 @@
       "–50",
       "–55",
       "–49",
-      "–60"
+      "–60 11 13 15 67"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (–50)"
@@ -195,13 +195,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of/99 + 99 + 99 + ...+ 99",
     "options": [
-      "94/33",
-      "220 96220/33",
-      "97/33",
-      "120 95120/33"
+      "94220/33",
+      "96220/33",
+      "97120/33",
+      "95120/33"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (120 95120/33)"
+    "explanation": "Correct Answer: Option D | (95120/33)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q016",
@@ -212,13 +212,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Simplify/fuEufyf[kr",
     "options": [
-      "261",
-      "725",
-      "445",
-      "596"
+      "(232) 2  (140) 2  (353) 2 –/261",
+      "(232  140 –140  353 – 353  232)/725",
+      "(a) 261/445",
+      "(b) 725/596"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (725)"
+    "explanation": "Correct Answer: Option B | ((232  140 –140  353 – 353  232)/725)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q017",
@@ -229,13 +229,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "If A = , B = , then the value of 46 2 – 37 2 56 2 – 15 2 1 20  is: B A 58 2 – 25 2 26 2 –15 2 1 20",
     "options": [
-      "2",
-      "1",
-      "0",
-      "– 1"
+      "(46 2 – 37 2)/2",
+      "(56 2 –15 2)/1",
+      "(a) 2/0",
+      "(b) 1/(– 1)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
+    "explanation": "Correct Answer: Option B | ((56 2 –15 2)/1)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q018",
@@ -278,7 +278,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "The value of 4.669  4.669 – 9  (0.777)² is (1 – k), where k = ? (4.669)²  (2.331)²  14(0.667)(2.331) 4.669  4.669 – 9  (0.777)²",
+    "question": "The value of 4.669  4.669 – 9  (0.777)²   is (1 – k), where k = ? (4.669)² (2.331)² 14(0.667)(2.331) 4.669  4.669 – 9  (0.777)²",
     "options": [
       "0.666",
       "0.647",
@@ -297,13 +297,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "What is difference between the largest and the 5 7 8 11 smallest fractions among , , and ? 9 11 15 17 5 7 8 11",
     "options": [
-      "29/25",
-      "8/5 99",
+      "29/255",
+      "8/99",
       "1/45",
       "17/165"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (29/25)"
+    "explanation": "Correct Answer: Option A | (29/255)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q024",
@@ -314,13 +314,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of is 5",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "3",
+      "6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (4)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q025",
@@ -329,15 +329,15 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "1  25.1 – 624.99  24.9  24.9 where the value of k is ____.  251  3   249  3",
+    "question": "If A = 0.312 , B = 0.415 and C = 0.309 , then what is the value of A + B + C?",
     "options": [
-      "12/11",
-      "11 1043/00 1100",
-      "10/11",
-      "97 1141/00 1100"
+      "1211/1100",
+      "1043/1100",
+      "1097/1100",
+      "1141/1100"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (97 1141/00 1100)"
+    "explanation": "Correct Answer: Option D | (1141/1100)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q026",
@@ -348,13 +348,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of 1  1 of ",
     "options": [
-      "110",
-      "215",
-      "3",
-      "2"
+      "7/110",
+      "4/215",
+      "1/3",
+      "11/2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2)"
+    "explanation": "Correct Answer: Option D | (11/2)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q027",
@@ -397,7 +397,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "Let x = , when y is added 3 1 3 4  5  5  3 4 4 5 15 7 to x, then result is . What is the value of y? 13 3 3 3 2 11 5 –  15  2  1 4 7 4 35 25",
+    "question": "Let x = 3 1 3 4 , when y is added  5  5  3 4 4 5 15 7 to x, then result is . What is the value of y? 13 3 3 3 2 11 5 –  15  2  1",
     "options": [
       "1/13",
       "2/13",
@@ -473,7 +473,7 @@
       "6/7"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6/7) | Solution: Which of the following fractions does not lie between 5 6 and 8 15 ? fuEufyf•r lk fHkUu 5 6 8 15 chp ugha (a) 2 3 (b) 3 4 (c) 4 5 (d) 6 7"
+    "explanation": "Correct Answer: Option D | (6/7) | Solution: Which of the following fractions does not lie between 5 6 and 8 15 ? fHkUu 5 6 8 15 chp ugha (a) 2 3 (b) 3 4 (c) 4 5 (d) 6 7"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q040",
@@ -482,12 +482,12 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "The value of 1  3  1   1 3 1    5 4    4 2  2 3 3                2   3   1   1  1  1    1  3  1  1 3 1    ",
+    "question": "The value of 1  3  1   1 3 1    5  4   4 2  2 3 3     2  3   1   1 1 1                  ",
     "options": [
       "1",
       "3",
       "2",
-      "0 KEY"
+      "0"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1) | Solution: The value of 2 3 1 1 1 1 1 3 1 1 3 1 5 4 4 2 2 3 3                                       2 3 1 1 1 1 1 3 1 1 3 1 5 4 4 2 2 3 3                                      (a) 1 (b) 3"

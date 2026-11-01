@@ -110,13 +110,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "is what percent of ? 3 3 1 2",
     "options": [
-      "10",
-      "20",
-      "50",
-      "200"
+      "3/10%",
+      "3/20%",
+      "50%",
+      "200%"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (200)"
+    "explanation": "Correct Answer: Option D | (200%)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q008",
@@ -161,9 +161,9 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "What percent of 3 day is 12 hours?",
     "options": [
-      "5",
+      "5%/2",
       "2",
-      "10",
+      "10%/3",
       "16"
     ],
     "correctAnswer": 3,
@@ -193,7 +193,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Mahesh's annual salary increased from `2,00,000",
+    "question": "Mahesh's annual salary increased from `2,00,000 to `2,40,000. Find the percentage increase in the salary.",
     "options": [
       "22",
       "20",
@@ -227,7 +227,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Shantanu’s income decreased from Rs 42,800 to",
+    "question": "Shantanu’s income decreased from Rs 42,800 to Rs.37,236. Find the percentage decrease in his income.",
     "options": [
       "13",
       "14",
@@ -244,7 +244,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The price of an electric bike was `1,25,000 last year. This year, its price got decreased by 30%.",
+    "question": "The price of an electric bike was `1,25,000 last year. This year, its price got decreased by 30%. What is the price (in `) of the electric bike this year?",
     "options": [
       "87,000",
       "86,000",
@@ -261,7 +261,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A quantity is changed to . How much 5 6 percentage change is given to the quantity? 4 5",
+    "question": "A quantity is changed to . How much 5 6 4 5",
     "options": [
       "4.73",
       "4.71",
@@ -433,13 +433,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "The value of 18% of 15% of of 3800 is: 9 25",
     "options": [
-      "285",
+      "9/285",
       "582",
-      "583",
-      "385"
+      "(a) 285/583",
+      "(b) 582/385"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (285)"
+    "explanation": "Correct Answer: Option A | (9/285)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q027",
@@ -450,13 +450,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "The fraction equivalent to % is: 5 1",
     "options": [
-      "1/12",
-      "1/5 500",
-      "1/20",
-      "1/0 40"
+      "1/125",
+      "1/500",
+      "1/200",
+      "1/40"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1/5 500) | Exam: SSC CPO 04/10/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (1/500) | Exam: SSC CPO 04/10/2023 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q028",
@@ -533,7 +533,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Ravi score 72% marks",
+    "question": "Ravi score 72% marks in examination. If these are 360 marks, then the maximum marks are :",
     "options": [
       "500",
       "350",
@@ -601,12 +601,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If 64 is added",
+    "question": "If 64 is added in a number then number 1 becomes 157 % of itself. Find the original 7 number.",
     "options": [
-      "113",
+      "7/113",
       "112",
-      "114",
-      "115"
+      "(a) 113/114",
+      "(b) 112/115"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (112)"
@@ -635,12 +635,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If 930 is added",
+    "question": "If 930 is added in a number then number 4 becomes 444 % of itself. Find the original 9 number.",
     "options": [
-      "280",
+      "9/280",
       "270",
-      "260",
-      "230"
+      "(a) 280/260",
+      "(b) 270/230"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (270)"
@@ -652,15 +652,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If 21 is added",
+    "question": "If 21 is added in a number then number 1 becomes 1372 % of itself. Find the original number.",
     "options": [
-      "57",
+      "2/57",
       "34",
-      "56",
-      "72"
+      "(a) 57/56",
+      "(b) 34/72"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (56)"
+    "explanation": "Correct Answer: Option C | ((a) 57/56)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q040",
@@ -737,7 +737,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A man multiply a number by instead of . 5 3",
+    "question": "A man multiply a number by instead of . 5 3 Find the percentage change in his result. 5 3",
     "options": [
       "65",
       "64",
@@ -754,7 +754,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A man multiplied a number by instead of 5 5",
+    "question": "A man multiplied a number by instead of 5 5 , what is the percentage error in the 8 calculation? 5 8",
     "options": [
       "124",
       "162",
@@ -788,7 +788,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Ankit was to get a 29% hike",
+    "question": "Ankit was to get a 29% hike in his salary but due to typing error. It is wrongly typed the figure 57% and printed the new slip. He received this revised salary for 3 months before the organization realized the mistake, if the excess paid to him in the previous months is to be deducted from his fourth month salary. If after deduction he gets Rs 9000 as fourth months salary then find his actual salary?",
     "options": [
       "Rs 28700",
       "Rs 25400",
@@ -807,9 +807,9 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "A's income is 25% more than income of B. Income of B is how much percent less than income of A?",
     "options": [
-      "10",
+      "10%/2",
       "20",
-      "40",
+      "40%/3",
       "16"
     ],
     "correctAnswer": 1,
@@ -824,13 +824,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "Mohan’s income is 40% more than Shyam's income. Shyam's income is what percentage less than Mohan's income?",
     "options": [
-      "28",
-      "28",
-      "28",
-      "28"
+      "5/(28 %)",
+      "3/(28 %)",
+      "4/(28 %)",
+      "2/(28 %)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (28) | Exam: SSC CHSL 11/08/2021 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (4/(28 %)) | Exam: SSC CHSL 11/08/2021 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q050",
@@ -839,7 +839,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Shyam’s income is 20% less than Ram’s. How",
+    "question": "Shyam’s income is 20% less than Ram’s. How much is Ram’s income more than Shyam’s in",
     "options": [
       "25",
       "20",
@@ -892,13 +892,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "By what percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
     "options": [
-      "33",
-      "37",
-      "41",
-      "31"
+      "1/(33 %)",
+      "1/(37 %)",
+      "3/41%",
+      "3/31%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (33) | Exam: SSC CHSL 11/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (1/(33 %)) | Exam: SSC CHSL 11/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q054",
@@ -907,15 +907,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what percentage less than that of Neha?",
+    "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what",
     "options": [
-      "4",
-      "4",
-      "4",
-      "4"
+      "13/(4 %)",
+      "16/(4 %)",
+      "11/(4 %)",
+      "5/(4 %)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option B | (16/(4 %)) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q055",
@@ -924,7 +924,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Due to fall",
+    "question": "Due to fall in manpower, the production in a company decrease by 35%. By what increased to restore the original production?",
     "options": [
       "58.35",
       "55.83",
@@ -941,15 +941,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "By what percent the new price of the article must be increased to restore its former value,",
+    "question": "By what percent the new price of the article must be increased to restore its former value, if the cost of the article is cut by 25% in the past?",
     "options": [
-      "34",
-      "33",
-      "33",
-      "34"
+      "1/(34 %)",
+      "1/(33 %)",
+      "4/33%",
+      "3/34%"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (33) | Exam: SSC CHSL 25/05/2022 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (1/(33 %)) | Exam: SSC CHSL 25/05/2022 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q057",
@@ -960,13 +960,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "If the price of an article is raised by 35%, by how much percent must a householder reduce his consumption of that article, so as not to increase his expenditure?",
     "options": [
-      "25",
-      "25",
-      "25",
-      "25"
+      "23/(25 %)",
+      "22/(25 %)",
+      "24/(25 %)",
+      "25/(25 %)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (25) | Exam: SSC CHSL 01/07/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (25/(25 %)) | Exam: SSC CHSL 01/07/2024 (Shift-03)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q058",
@@ -977,13 +977,13 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "If the price of tea is increased by 40%, by how what percentage must the consumption of tea be decreased so as not to increase the expenditure?",
     "options": [
-      "31",
-      "31",
-      "35",
-      "28"
+      "2/(31 %)",
+      "3/(31 %)",
+      "9/(35 %)",
+      "4/(28 %)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (31) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option B | (3/(31 %)) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q059",
@@ -992,7 +992,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If side of a square is increased by 10% then",
+    "question": "If side of a square is increased by 10% then find % increase in its perimeter & diagonal",
     "options": [
       "10%, 10",
       "10%, 21",
@@ -1009,7 +1009,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If radius of a circle is increased by 20% then",
+    "question": "If radius of a circle is increased by 20% then find % increase in its circumference.",
     "options": [
       "10",
       "20",
@@ -1026,7 +1026,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If the side of a square is increased by 5%, then",
+    "question": "If the side of a square is increased by 5%, then the percentage increase in its area will be:",
     "options": [
       "10.25",
       "11",
@@ -1060,7 +1060,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage",
+    "question": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage increase or decrease in its area?",
     "options": [
       "Decrease by 1.8",
       "Increase by 1.8",
@@ -1077,15 +1077,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Length and breadth of a rectangle are increased by 10% and 20% respectively. What",
+    "question": "Length and breadth of a rectangle are increased by 10% and 20% respectively. What will be the percentage increase in the area of rectangle?",
     "options": [
       "21% increase",
       "28% increase",
       "44% increase",
-      "32% increas"
+      "32% increase"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (32% increas)"
+    "explanation": "Correct Answer: Option D | (32% increase)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q065",
@@ -1099,7 +1099,7 @@
       "800% increase",
       "900% increase",
       "1500% increase",
-      "1600% increas"
+      "1600% increase"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (1500% increase)"
@@ -1113,9 +1113,9 @@
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
     "question": "The radius of a hemisphere is increased by 19 % then what will be effect on total surface area and lateral surface area.",
     "options": [
-      "41.61% decrease",
+      "(41.61% decrease)/5",
       "41.61% increase",
-      "45 % decrease",
+      "(45 % decrease)/6",
       "44% increase"
     ],
     "correctAnswer": 1,
@@ -1133,7 +1133,7 @@
       "32.96 percent",
       "41.72 percent",
       "45.28 percent",
-      "36.43 percen"
+      "36.43 percent"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (41.72 percent) | Exam: mains same?"
@@ -1162,15 +1162,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Base of a triangle is increased by 33 % and 3 2 its height is reduced by 16 % . Find the 3",
+    "question": "Base of a triangle is increased by 33 % and 3 2 its height is reduced by 16 % . Find the 3 1",
     "options": [
-      "20",
-      "None of these",
-      "16",
-      "11"
+      "20%/2",
+      "(None of these)/1",
+      "(16 %)/3",
+      "(11 %)/9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (11)"
+    "explanation": "Correct Answer: Option D | ((11 %)/9)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q070",
@@ -1179,12 +1179,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Base of a triangle is increased by 16 % and 3 1 its height is reduced by 33 % . Find the 3",
+    "question": "Base of a triangle is increased by 16 % and 3 1 its height is reduced by 33 % . Find the 3 2",
     "options": [
-      "20",
+      "2/20%",
       "22",
-      "16",
-      "11"
+      "2/(16 %)",
+      "1/(11 %)"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (22)"
@@ -1201,7 +1201,7 @@
       "20% decrease",
       "25% increase",
       "20% increase",
-      "25% decreas"
+      "25% decrease"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20% decrease)"
@@ -1235,7 +1235,7 @@
       "10% increase",
       "20% increase",
       "30% increase",
-      "40% increas"
+      "40% increase"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (20% increase)"
@@ -1247,12 +1247,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The area of square is increased by 32.25%.",
+    "question": "The area of square is increased by 32.25%. Find the percentage increase in each side of square.",
     "options": [
       "10% increase",
       "15% increase",
       "20% increase",
-      "25% increas"
+      "25% increase"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (15% increase)"
@@ -1286,7 +1286,7 @@
       "22% increase",
       "22% decrease",
       "11% increase",
-      "11% increas"
+      "11% increase"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (22% decrease)"
@@ -1315,15 +1315,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The length and breadth of a cuboid are increased by 10% and 20%, respectively, and its height",
+    "question": "The length and breadth of a cuboid are increased by 10% and 20%, respectively, and its height is decreased by 20%. The percentage increase in the volume of the cuboid is",
     "options": [
-      "5",
-      "5",
-      "5",
-      "5"
+      "4/(5 %)",
+      "1/(5 %)",
+      "2/5",
+      "3/(5 %)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (5) | Exam: SSC CHSL 14/10/2020 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (3/(5 %)) | Exam: SSC CHSL 14/10/2020 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q079",
@@ -1337,7 +1337,7 @@
       "14.56 percent",
       "24.72 percent",
       "20.28 percent",
-      "28.44 percen"
+      "28.44 percent"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (20.28 percent) | Exam: mains same?"
@@ -1400,7 +1400,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "When the price of a commodity increased by",
+    "question": "When the price of a commodity increased by 23%, a family reduced its consumption in such a way that the expenditure on it was only 5% more. By what percentage has the family reduced the consumption of the commodity (correct to one decimal place)?",
     "options": [
       "14.20",
       "15.8",
@@ -1434,7 +1434,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "When the price of an item was reduced by 20%, its sale increased by x%. If there is an",
+    "question": "When the price of an item was reduced by 20%, its sale increased by x%. If there is an increase of 25% in receipt of the revenue, then the value of x is:",
     "options": [
       "55.35",
       "57.75",
@@ -1451,7 +1451,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "When the price of a commodity is increased by",
+    "question": "When the price of a commodity is increased by 23%, a family reduced its consumption in such a way that the expenditure on it was only 5% more. By what percentage has the family reduced the consumption of the commodity (correct to one decimal place)?",
     "options": [
       "14.20",
       "15.8",
@@ -1468,12 +1468,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Price of pulse increases by 25%. A person initially purchase 60 kg pulse. How much kg of pulse he can",
+    "question": "Price of pulse increases by 25%. A person initially purchase 60 kg pulse. How much kg of pulse he can purchase now in same amount?",
     "options": [
       "32 kg",
       "60 kg",
       "48 kg",
-      "40 k"
+      "40 kg"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (48 kg)"
@@ -1485,7 +1485,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The reduction of 15",
+    "question": "The reduction of 15% in the price of salt enables a person to buy 2 kg more for 272. The reduced price of salt per kg (in Rs.) is:",
     "options": [
       "20.40",
       "22.16",
@@ -1502,7 +1502,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Due to a reduction of 7.5",
+    "question": "Due to a reduction of 7.5% in the price of sugar, a man is able to buy 2 kg more for Rs 925. What is the reduced rate of sugar (in) per kg?",
     "options": [
       "34.6875",
       "36.6275",
@@ -1524,7 +1524,7 @@
       "10% increase",
       "13% increase",
       "10% decrease",
-      "13% decreas"
+      "13% decrease"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10% increase) | Exam: SSC CGL 11/09/2024 (Shift-02)"
@@ -1536,12 +1536,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The price of redmi note 9 pro max decreased by 10 % and again reduced by 10 %. Find the",
+    "question": "The price of redmi note 9 pro max decreased by 10 % and again reduced by 10 %. Find the combined decrement in total price?",
     "options": [
       "19",
       "21",
       "20",
-      "CB"
+      "CBD"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (19)"
@@ -1553,7 +1553,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The price of savlon increased by 20 % and again increased by 10%. Find the combined",
+    "question": "The price of savlon increased by 20 % and again increased by 10%. Find the combined increment in total price?",
     "options": [
       "19",
       "21",
@@ -1575,7 +1575,7 @@
       "8% increase",
       "8% decrease",
       "32% increase",
-      "32% decreas"
+      "32% decrease"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (8% increase)"
@@ -1587,7 +1587,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "If the price of a movie ticket increased by 1 12 % and the sale of tickets also increased by 2 1",
+    "question": "If the price of a movie ticket increased by 1 12 % and the sale of tickets also increased by 2 1 8 % , then find % change in income. 2 1",
     "options": [
       "21.875",
       "22.6750",
@@ -1604,12 +1604,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Income of salman khan first increased by 8% and then it is decreased by 8%. What is change",
+    "question": "Income of salman khan first increased by 8% and then it is decreased by 8%. What is change in his income?",
     "options": [
       "0.64% Increase",
       "0.64% Decrease",
       "16% Increase",
-      "No Chang"
+      "No Change"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (0.64% Decrease)"
@@ -1638,12 +1638,12 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "X’s salary is increased by 20% and then",
+    "question": "X’s salary is increased by 20% and then decreased by 20%. What is the change in salary?",
     "options": [
       "4% Decrease",
       "4% Increase",
       "2% Decrease",
-      "2% Increas"
+      "2% Increase"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (4% Decrease) | Exam: SSC CHSL 26/05/2022 (Shift- 01)"
@@ -1672,15 +1672,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The price of Rafale first increased by 16 % and 3 1 there after decreased by 7 % . What was the 7",
+    "question": "The price of Rafale first increased by 16 % and 3 1 there after decreased by 7 % . What was the 7 change in total price. 2",
     "options": [
-      "8 % increase",
-      "8 % decrease",
-      "None of these",
-      "No Change"
+      "1/(8 % increase)",
+      "1/(8 % decrease)",
+      "3/(None of these)",
+      "3/(No Change)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (8 % increase)"
+    "explanation": "Correct Answer: Option A | (1/(8 % increase))"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q100",
@@ -1689,7 +1689,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A worker has an increase of 12",
+    "question": "A worker has an increase of 12 % in her 2 wages rate per hour but there is a drop of 10% in the number of hours worked per week. If her original weekly wages for a week of 40 hours is Rs 38,400, then the percentage increase in her total weekly wages is: 1",
     "options": [
       "1.25",
       "2",
@@ -1717,18 +1717,35 @@
     "explanation": "Correct Answer: Option B | (38) | Exam: SSC CGL TIER-II (13/09/2019)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q102",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In the expression xy the values of both variables x and y are decreased by 20% . By this, the percentage value of the expression xy is decreased by.",
+    "options": [
+      "36",
+      "44",
+      "40",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q103",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "When the price of a watch was reduced by 20%, the number of watches sold is increased",
+    "question": "When the price of a watch was reduced by 20%, the number of watches sold is increased by 40%. What was the effect on the sales in",
     "options": [
       "12% Increase",
       "30% Decrease",
       "12% Decrease",
-      "30% Increas"
+      "30% Increase"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (12% Increase) | Exam: SSC CHSL 30/05/2022 (Shift- 3)"
@@ -1740,15 +1757,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A number is first increased by 40% and then decreased by 25%, again increased by 15% and then decreased by 20%. What is the net",
+    "question": "A number is first increased by 40% and then decreased by 25%, again increased by 15% and then decreased by 20%. What is the net increase or decrease per cent in the number?",
     "options": [
       "7.2% increase",
       "3.4% increase",
       "6.4% increase",
-      "3.4% decreas"
+      "3.4% decrease"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3.4% decreas) | Exam: SSC CPO 2019 24/11/2020 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (3.4% decrease) | Exam: SSC CPO 2019 24/11/2020 (Shift-03)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q105",
@@ -1774,7 +1791,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A number is first increased by 12% and then increased by 23%. The number, so obtained, is now decreased by 34%. What is the net",
+    "question": "A number is first increased by 12% and then increased by 23%. The number, so obtained, is now decreased by 34%. What is the net increase or decrease percent in the original number (nearest to an integer)?",
     "options": [
       "10% increase",
       "9% decrease",
@@ -1796,7 +1813,7 @@
       "20% increase",
       "20% decrease",
       "25% increase",
-      "25% decreas"
+      "25% decrease"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (25% increase)"
@@ -1808,7 +1825,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "When the price of an item was reduced by 25%, then its sale was increased by x%. If",
+    "question": "When the price of an item was reduced by 25%, then its sale was increased by x%. If there is an increase of 20% in the receipt of the revenue, then the value of x will be:",
     "options": [
       "50",
       "60",
@@ -1830,7 +1847,7 @@
       "30250",
       "30000",
       "31250",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30250)"
@@ -1842,7 +1859,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Bike is purchased for Rs. 50,000. Its rate depreciates at 10% annually.",
+    "question": "Bike is purchased for Rs. 50,000. Its rate depreciates at 10% annually. In how many years will its value be Rs.36,450?",
     "options": [
       "3",
       "2",
@@ -1859,7 +1876,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The rate of annual growth of a city is 2%. If",
+    "question": "The rate of annual growth of a city is 2%. If its population in the year 2020 was 1,50,000, then what would be its population in 2023?",
     "options": [
       "1,59,000",
       "1,59,181",
@@ -1868,6 +1885,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1,59,181) | Exam: SSC CHSL TIER II 26/06/2023"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q112",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a city, the population is increased by 12%. Due to COVID like virus it decreases by 12%. If the population of the city at present is 295680, the initial population of the city is:",
+    "options": [
+      "313000",
+      "320000",
+      "280000",
+      "300000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (300000)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q113",
@@ -1881,7 +1915,7 @@
       "48000",
       "49000",
       "36000",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (49000)"
@@ -1893,15 +1927,32 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The price of a tablet is first increased by 10%, and then decreased by 2.5% due to reduction",
+    "question": "The price of a tablet is first increased by 10%, and then decreased by 2.5% due to reduction in sales. What is the net percentage change in the final price of the tablet?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Decrease by 8.75",
+      "Increase by 7.25",
+      "Increase by 6.35",
+      "Decrease by 5.5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CHSL 27/05/2022 (Shift- 2)"
+    "explanation": "Correct Answer: Option B | (Increase by 7.25) | Exam: SSC CHSL 27/05/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q115",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In April 2019 Dinesh purchased a new car for Rs.7,00,000 and sold it in April 2022 at its depreciated cost of depreciation in the first year is 20%, 15%inthe second year and 10% every year thereafter, what amount of money will Dinesh get as the selling price?",
+    "options": [
+      "Rs 4,28,400",
+      "Rs 4,28,600",
+      "Rs 4,68,400",
+      "Rs 5,28,400"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs 4,28,400) | Exam: SSC CHSL 03/08/2023 (Shift-01)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q116",
@@ -1910,7 +1961,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of a town is 80,000. It",
+    "question": "The population of a town is 80,000. It decreases by 8% in the first year and increases by 5% in the second year. What will be the population of the town at the end of 2 years?",
     "options": [
       "76150",
       "86140",
@@ -1927,15 +1978,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of a town is 15000. It increases 1 1",
+    "question": "The population of a town is 15000. It increases 1 1 by 12 % , 11 % , 20% in the first year, second 2 9 and third year. What is the population of the town at the end of 3rd year? 1",
     "options": [
       "15000",
       "30000",
       "45000",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (None of thes)"
+    "explanation": "Correct Answer: Option D | (None of these)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q118",
@@ -1961,7 +2012,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of a city increased 30",
+    "question": "The population of a city increased 30% in the first year and decreased by 15% in the next year. If the present population is 11,050 then the population 2 years ago was :",
     "options": [
       "10,000",
       "10,050",
@@ -1995,7 +2046,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The salary of A on 1-1-22 is `1,52,400 per",
+    "question": "The salary of A on 1-1-22 is `1,52,400 per month. It increased by 8% in March, reduced by 5% in August and again increased by 10% in November. What will be his salary (in `) after the third change? (rounded off to the nearest integer)",
     "options": [
       "171998.64",
       "171998.65",
@@ -2012,7 +2063,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A manufacturer sells an item to a wholesale dealer at a profit of 11%. The wholesaler sells the same to a retailer at a profit of 15%. The",
+    "question": "A manufacturer sells an item to a wholesale dealer at a profit of 11%. The wholesaler sells the same to a retailer at a profit of 15%. The retailer in turn sells it to a customer for Rs. 17,045, thereby earning a profit of 19%. The cost price of the manufacturer is (consider integral part only):",
     "options": [
       "Rs. 13,520",
       "15,020",
@@ -2029,7 +2080,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Price of a one gram gold coin decreased by 10% on its initial price on Monday and increased by 20% on Tuesday and again increased by 8% on Wednesday, and 5% increase on Thursday. If the final price on Thursday is Rs 5511.24, then the initial price",
+    "question": "Price of a one gram gold coin decreased by 10% on its initial price on Monday and increased by 20% on Tuesday and again increased by 8% on Wednesday, and 5% increase on Thursday. If the final price on Thursday is Rs 5511.24, then the initial price (in Rs) of one gram gold coin on Monday was?",
     "options": [
       "4500",
       "4250",
@@ -2063,7 +2114,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Meena scores 40",
+    "question": "Meena scores 40% in an examination and after review, even though her score is increased by 50% she fails by 35 marks, If her post-review score in increased by 20%, she will have 7 marks more than the passing score. The examination is",
     "options": [
       "70",
       "80",
@@ -2080,7 +2131,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of a city grew from 40 lakh to",
+    "question": "The population of a city grew from 40 lakh to 44 lakh in one year. The rate of growth per annum.",
     "options": [
       "10",
       "15",
@@ -2097,7 +2148,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of town",
+    "question": "The population of town in 2004 is 1000, in 2007 it grew to 1331. Then find rate of growth per annum if it increases at a constant rate every year.",
     "options": [
       "10",
       "20",
@@ -2114,7 +2165,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The income of a company increases by x% per",
+    "question": "The income of a company increases by x% per year. If its income is Rs 31,25,000 in the year 2019, and the income in 2017 was Rs 20,00,000, then what is the value of x ?",
     "options": [
       "20",
       "18",
@@ -2142,13 +2193,30 @@
     "explanation": "Correct Answer: Option D | (3000)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q130",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a library 20% of the books are in hindi, 50% of the remaining in English and 30% of the remaining are in French and rest 6300 books are in regional language. Then find the no. of books in library.",
+    "options": [
+      "16000",
+      "22500",
+      "10200",
+      "14400"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (22500)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q131",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Seema spends 5% of her total income",
+    "question": "Seema spends 5% of her total income in travelling and 20% of the rest spend in food and then she donate ` 120 and still she is left with ` 1400. Find her income.",
     "options": [
       "1500",
       "2000",
@@ -2165,7 +2233,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The population of a village was 9600.",
+    "question": "The population of a village was 9600. In a year with the increase in population of males by 8% and that of females by 5%, the population of the village becomes 10272. What was the number of males in the village before increase?",
     "options": [
       "3100",
       "3500",
@@ -2176,13 +2244,30 @@
     "explanation": "Correct Answer: Option C | (6400)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q133",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a certain year, the population of a city was 18000. If in the next year, the population of males increased by 5% and that of females increased by 7%, and the total population increased to 19200, then what was the ratio of the populations of males and females in that given year?",
+    "options": [
+      "2 : 5",
+      "1 : 5",
+      "4 : 3",
+      "3 : 5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1 : 5) | Exam: SSC CGL 20/07/2023 (Shift-01)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q134",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of males and females in the village is:",
     "options": [
       "1840",
       "1380",
@@ -2191,6 +2276,142 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1840) | Exam: SSC CGL 20/08/2021 (Shift-1)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q135",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination, 53% of the candidates failed in Science and 48% failed in mathematics. If 40% failed in both subjects, what percentage passed in both subject?",
+    "options": [
+      "51",
+      "39",
+      "49",
+      "43"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (39) | Exam: SSC CPO 13/03/2019 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q136",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination 35% of the students fail in economics, 45% fail in reasoning. If 20% students failed in both. How much percent of students passed in both the subjects?",
+    "options": [
+      "20",
+      "10",
+      "30",
+      "40"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (40)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q137",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an office, 55% persons like tea, 60% persons like coffee and 45% like both. Then what is the percentage of persons who like at least one drink?",
+    "options": [
+      "80",
+      "70",
+      "45",
+      "60"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (70)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q138",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination, 47% passed in science and 51% failed in mathematics. If 42% failed in both subjects, what percentage passed in both subjects?",
+    "options": [
+      "38",
+      "42",
+      "40",
+      "36"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (38) | Exam: SSC CPO 13/03/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q139",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an office 55% people like tea and 64% people like coffee. If 380 people like both tea and coffee then find total number of members?",
+    "options": [
+      "1000",
+      "1500",
+      "2000",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q140",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination 75% of the students passed in science, 60% passed in hindi and 25% failed in both. If 240 students passed both the examination. Find the total number of students who gave the examination?",
+    "options": [
+      "300",
+      "400",
+      "500",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (400)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q141",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, the one who gets 88% of the votes is elected by a majority of 684 votes. What is the total number of votes polled? (all polled votes are valid)",
+    "options": [
+      "900",
+      "800",
+      "850",
+      "750"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (900) | Exam: SSC CGL 18/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q142",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election two candidates participated. Winner got 80% votes and won by 4200 votes. Find the total number of votes.",
+    "options": [
+      "4000",
+      "3000",
+      "7000",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7000)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q143",
@@ -2216,7 +2437,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A total of 7,50,000 voters participated",
+    "question": "A total of 7,50,000 voters participated in an election. A candidate received 3,82,500 votes which was 60% of the total valid votes. What was the percentage of invalid votes in the election?",
     "options": [
       "15",
       "20",
@@ -2227,13 +2448,30 @@
     "explanation": "Correct Answer: Option A | (15) | Exam: SSC CHSL 04/08/2023 Shift-01"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q145",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, one candidate got 60% of the valid votes. If the total number of votes polled were 8850, and 10% of the votes were invalid, then find the number of valid votes that the other candidate got.",
+    "options": [
+      "3816",
+      "3186",
+      "3681",
+      "3618"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3186) | Exam: SSC PHASE XI 28/06/2023 (Shift-01)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q146",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Two candidates contested",
+    "question": "Two candidates contested in an election. 80% of the voters cast their votes, out of which 5% of the polled votes were invalid. The winning candidate got 70% of valid votes and won by a majority of 36,480 votes. Find the total number of voters.",
     "options": [
       "1,15,000",
       "1,20,000",
@@ -2244,13 +2482,64 @@
     "explanation": "Correct Answer: Option B | (1,20,000) | Exam: SSC CGL 17/09/2024 (Shift-02)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q147",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election, candidate X got 70% of the overall valid votes. If 20% of the overall votes were declared invalid and the total number of votes is 64000, then find the number of valid votes polled in favour of the candidate.",
+    "options": [
+      "35840",
+      "45000",
+      "40000",
+      "35800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (35840) | Exam: SSC CHSL 18/03/2020 (Shift-3)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q148",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, 12% of the voters in the voters list did not cast their votes and 5% of the votes polled were declared invalid. The winning candidate got 58% valid votes and won by a majority of 6,688 votes. The number of voters in the voters' list was:",
+    "options": [
+      "50,000",
+      "55,000",
+      "48,000",
+      "45,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (50,000) | Exam: ICAR Mains, 07/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q149",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, 3% did not cast their votes and 5% votes polled were declared invalid. The winning candidate got 54% of the valid votes and won by a majority of 11058 votes. Find the number of voters who did not cast their votes.",
+    "options": [
+      "5050",
+      "3750",
+      "4500",
+      "4125"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4500)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q150",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Two candidates participated",
+    "question": "Two candidates participated in an election. 20% voters did not cast their votes and 10% votes were declared invalid. Winner candidates got 40% of total votes enrolled in the voters list and got elected by 2400 votes. Find the total number of voters in voters list.",
     "options": [
       "20000",
       "24000",
@@ -2261,13 +2550,115 @@
     "explanation": "Correct Answer: Option D | (30000)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q151",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, 20% of the voters on the voters list did not cast their votes and 80 voters cast their ballot papers blank. The winner secured 45% of all the voters in the list and he got 280 votes more than his rival. The number of voters on the list was:",
+    "options": [
+      "2000",
+      "2800",
+      "2500",
+      "1500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2000) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q152",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election, 15% of the voters on the voters list did not cast their votes and 100 voters cast their ballot paper blank. There were only two candidates Ram and Shyam. The winner, Ram, was supported by 69% of all the voters in the list and he got 630 votes more than Shyam. Find the number of voters on the list.",
+    "options": [
+      "1200",
+      "1000",
+      "1100",
+      "1300"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1000) | Exam: SSC PHASE XI 30/06/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q153",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election between two candidates, 20% of the registered voters did not cast their votes and 40 votes were declared invalid. The winner received 42% of the registered votes and was declared the winner by 112 votes. What was the number of registered voters?",
+    "options": [
+      "1200",
+      "1500",
+      "1800",
+      "3800"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1800) | Exam: SSC CHSL TIER II 26/06/2023"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q154",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a village election between three candidates, 80% of the voter cast their votes, out of which 3% votes were declared invalid. The winning candidate got 42,680 votes which were 55% of the total valid votes. Find the number of valid votes received by the candidate who stood third, given that he received only 10% of the total valid votes.",
+    "options": [
+      "7760",
+      "7700",
+      "7670",
+      "7680"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7760) | Exam: SSC CHSL 03/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q155",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an election, there were four candidates and 95% of voters cast their votes. One candidate got 25% of the votes while the other three shared the remaining votes in the ratio of 6 : 7 : 2. The difference of votes secured by the candidate standing 3rd to the candidate standing 4th is equal to 69198. Find the votes secured by the winning candidate.",
+    "options": [
+      "(SSC CGL)/7.2",
+      "(09/09/2024 (Shift-01))/8.4",
+      "(a) 7.2/8",
+      "(b) 8.4/7.5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((a) 7.2/8)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q157",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination a student who got 20% marks, failed by 30 marks. But another student who got 32% marks got 42 marks more than the required marks to pass. Find the maximum number of digits.",
+    "options": [
+      "600",
+      "700",
+      "500",
+      "400"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (600) | Exam: SSC CHSL 04/08/2023 Shift-03"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q158",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "John got 20% marks",
+    "question": "John got 20% marks in an examination and failed by 10 marks. In the same examination, Jack got 35% marks which were 20 more than the minimum passing marks, Find the pass.",
     "options": [
       "30",
       "35",
@@ -2301,7 +2692,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A candidate fails by 21 marks from the minimum to pass an exam while another candidate scores 147 marks more than the",
+    "question": "A candidate fails by 21 marks from the minimum to pass an exam while another candidate scores 147 marks more than the minimum required. If the difference in 40%, what is the maximum marks that can be scored in the said exam?",
     "options": [
       "420",
       "360",
@@ -2323,7 +2714,7 @@
       "` 30000",
       "` 25000",
       "` 28000",
-      "` 29000"
+      "` 29000 1"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (` 25000)"
@@ -2369,7 +2760,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A marketing agent earns a commission of 2% on first ` 2,00,000, 1.5% on next ` 2,00,000 and 1% on the remaining amount of sales",
+    "question": "A marketing agent earns a commission of 2% on first ` 2,00,000, 1.5% on next ` 2,00,000 and 1% on the remaining amount of sales made in a month. If the sales achieved by the agent for the month of April 2018 are ` 5,68,000. The commission earned is:",
     "options": [
       "` 8680",
       "` 7730",
@@ -2386,7 +2777,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Two saleswomen, Kavitha and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavitha gets 3% and Kalyani gets 5% extra bonus on the sales over ` 20,000. If the",
+    "question": "Two saleswomen, Kavitha and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavitha gets 3% and Kalyani gets 5% extra bonus on the sales over ` 20,000. If the difference in total earnings of both Kavitha and Kalyani is ` 7,600, then Kavitha's total earning is:",
     "options": [
       "` 19,200",
       "` 21,600",
@@ -2403,7 +2794,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Geeta buys an apartment and pays EMI for the same. Her monthly income is Rs. 80,000. She spends 15% on her children's education, 40% on household chores, sends 10% to GPF, saves",
+    "question": "Geeta buys an apartment and pays EMI for the same. Her monthly income is Rs. 80,000. She spends 15% on her children's education, 40% on household chores, sends 10% to GPF, saves 15% in savings bank account and pays the remaining amount as EMI. What amount does she pay as EMI?",
     "options": [
       "Rs 14,000",
       "Rs.16,000",
@@ -2488,7 +2879,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "There are two types of animal",
+    "question": "There are two types of animal in a room some are cats and some are dogs. Each cat takes 7 biscuits and each dog takes 9 biscuits. If 355 biscuits are eaten by 45 animals. Find the number of cats and dogs.",
     "options": [
       "25, 20",
       "20, 25",
@@ -2505,7 +2896,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Anuja owns 66 % of a property. If 30% of the 3 property that she owns is worth",
+    "question": "Anuja owns 66 % of a property. If 30% of the 3 property that she owns is worth ` 1,25,000 then 45% of the value (in `) of the property is : 2",
     "options": [
       "` 2,70,000",
       "` 2,62,500",
@@ -2550,13 +2941,30 @@
     "explanation": "Correct Answer: Option D | (1/3) | Exam: SSC CHSL 24/05/2022 (Shift-03)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q175",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination, there are 800 boys and 600 girls. 40% boys and 60% girls passed the examination. The percentage (correct to two decimal places) of failed students from the total students is :",
+    "options": [
+      "52.34",
+      "50.36",
+      "51.43",
+      "53.57"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (51.43) | Exam: SSC MTS 14/08/2019 (Shift-03)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q176",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A certain number of students from school X",
+    "question": "A certain number of students from school X appeared in an examination and 30% students failed. 150% more students than those from school X, appeared in the same examination from school Y. If 80% of the total number of students who appeared from X and Y passed, then what is the percentage of students who failed from Y?",
     "options": [
       "18",
       "20",
@@ -2573,7 +2981,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A certain numbers of students from school X",
+    "question": "A certain numbers of students from school X appeared in an examination and 20% students failed. From schook Y, 130% more students than that from school X, appeared in the same examination. If 90% of the total number of students appeared from both the schools passed, then what is tha percentage of students from school Y who failed (correct to one decimal place)?",
     "options": [
       "8.3",
       "10",
@@ -2607,7 +3015,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A is 25% more than B, and B is 40% less than C. If C is 20% more than D, then A is what percentage less than D?",
+    "question": "A is 25% more than B, and B is 40% less than C. If C is 20% more than D, then A is what",
     "options": [
       "10",
       "12",
@@ -2635,13 +3043,30 @@
     "explanation": "Correct Answer: Option A | (6347) | Exam: SSC CGL 19/04/2022 (Shift-01)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q181",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an examination, B obtained 20% more marks than those obtained by A, and A obtained 10% less marks than those obtained by C. D obtained 20% more marks than those obtained by C. By what percentage are the marks obtained by D more than those obtained by A?",
+    "options": [
+      "1/(33 %)",
+      "1/(13 %)",
+      "1/(43 %)",
+      "1/(23 %)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1/(33 %)) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q182",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Bhushan's monthly income is Rs45,000 and his monthly expenditure is Rs 33,000. If his monthly income is increased by 22% while monthly expenditure is increased by 11%, then",
+    "question": "Bhushan's monthly income is Rs45,000 and his monthly expenditure is Rs 33,000. If his monthly income is increased by 22% while monthly expenditure is increased by 11%, then what is his new monthly saving (in Rs)?",
     "options": [
       "18,270",
       "18, 960",
@@ -2658,7 +3083,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Rumi used to save 20% of her income. If her income went up by 30%,while her expenditure went up by 40%, her nominal saving went down",
+    "question": "Rumi used to save 20% of her income. If her income went up by 30%,while her expenditure went up by 40%, her nominal saving went down by Rs750.Find Rumi's initial income(in Rs).",
     "options": [
       "36,000",
       "37,500",
@@ -2675,7 +3100,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Rupa's savings are 16% of her expenditure. If her savings increase by 25% and expenditure",
+    "question": "Rupa's savings are 16% of her expenditure. If her savings increase by 25% and expenditure increases by 10.5%, then the percentage in- crease in her income is:",
     "options": [
       "14.5",
       "14",
@@ -2692,7 +3117,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Raju saves 15% of his income. His salary was increased by 18% so he increased his savings by 20%. If his expenditure after an increase",
+    "question": "Raju saves 15% of his income. His salary was increased by 18% so he increased his savings by 20%. If his expenditure after an increase in salary was `1,32,500, find his savings (in `) before the increase in salary.",
     "options": [
       "26,500",
       "33,125",
@@ -2714,7 +3139,7 @@
       "Decrease by 18.9",
       "Increase by 20.3",
       "Decrease by 17.7",
-      "Increase by 21.5% 2"
+      "Increase by 21.5"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (Increase by 20.3) | Exam: SSC CGL 13/04/2022 (Shift-02)"
@@ -2754,6 +3179,74 @@
     "explanation": "Correct Answer: Option D | (35) | Exam: SSC CGL 17/09/2024 (Shift-03)"
   },
   {
+    "id": "rkr_percentage_percentage_classroom_sheet_q189",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In an institute, 35% are boys and the rest are girls. If 30% of the boys failed and 60% of the girls passed in an examination, then the examination is:",
+    "options": [
+      "35.5",
+      "36.5",
+      "35",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36.5) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q190",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a constituency, 55% of the total number of voters are males and the rest are females. If 40% of the males are illiterate and 40% of the females are literate, then by what percent is the number of literate males more than that of illiterate females?",
+    "options": [
+      "8/(22 %)",
+      "2/(18 %)",
+      "2/(22 %)",
+      "2/(18 %)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2/(22 %)) | Exam: SSC CGL TIER-II (16/11/2020)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q191",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a constituency, 40% of the Voters are senior citizens. 40% of the senior citizen voters are illiterates and 25% of the non-senior citizen voters are literates. By what percentage is the number of literate senior citizens voters less than that of illiterate non-senior citizen voters?",
+    "options": [
+      "1/40",
+      "48",
+      "2/50",
+      "46"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (46) | Exam: SSC CHSL 02 /07/2019 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q192",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a factory with 400 employees, the ratio of the number of male employees to that of female employees is 5:3. There are 87.5% regular employees in the factory. If 92% of male employees are regular employees, then what is the percentage of regular female employees?",
+    "options": [
+      "80",
+      "78",
+      "87.5",
+      "85"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (80) | Exam: SSC CGL 13/04/2022 (Shift-01)"
+  },
+  {
     "id": "rkr_percentage_percentage_classroom_sheet_q193",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -2777,7 +3270,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Three persons A, B and C donate 10%, 7% and 9% respectively of their monthly salaries to a charitable trust. Monthly salaries of A and B are equal and the difference between the donations of A and B is Rs 900. If the total donation by A and B is Rs 600 more than that of C, then",
+    "question": "Three persons A, B and C donate 10%, 7% and 9% respectively of their monthly salaries to a charitable trust. Monthly salaries of A and B are equal and the difference between the donations of A and B is Rs 900. If the total donation by A and B is Rs 600 more than that of C, then what is the monthly salary (in Rs) of C?",
     "options": [
       "60000",
       "50000",
@@ -2794,7 +3287,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money (in `) is spent on food?",
     "options": [
       "9600",
       "12000",
@@ -2811,7 +3304,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The monthly salary of a person was Rs.1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The",
+    "question": "The monthly salary of a person was Rs.1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The sum of the two savings (in Rs.) is:",
     "options": [
       "2,11,680",
       "1,28,160",
@@ -2820,6 +3313,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1,28,160) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q197",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In a manufacturing unit, it was noted that the price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+    "options": [
+      "20.7",
+      "30.2",
+      "24.6",
+      "25.5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24.6) | Exam: SSC CGL 11/04/2022 (Shift-03)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q198",
@@ -2845,7 +3355,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "A man started off a business with a certain capital amount.",
+    "question": "A man started off a business with a certain capital amount. In the first year, he earned 60% profit and donated 50% of the total capital (initial amount + profit), He followed the same procedure with the remaining capital after the second and the third year. If at the end of the three years, he is left with Rs15,360, what was the initial amount (in Rs) with which the man started his business?",
     "options": [
       "20,000",
       "30,000",
@@ -2862,7 +3372,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The monthly expenditure of a person is 40% more than his monthly savings. If his monthly income increases by 40% and monthly expenditure increases by 60%, then he saves Rs 2,070 more",
+    "question": "The monthly expenditure of a person is 40% more than his monthly savings. If his monthly income increases by 40% and monthly expenditure increases by 60%, then he saves Rs 2,070 more in a month. What is his initial monthly expenditure (in Rs)?",
     "options": [
       "20,250",
       "19,320",
@@ -2896,7 +3406,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The income of A is 40% less than that of B, and the income of C is 40% more than 30% of the combined income of A and B. By what percentage is C's income more than the income of A?",
+    "question": "The income of A is 40% less than that of B, and the income of C is 40% more than 30% of the combined income of A and B. By what income of A?",
     "options": [
       "12",
       "10.70",
@@ -2930,7 +3440,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The monthly expenses of a person are 2 66 % more than her monthly savings. If her 3 monthly income increases by 44% and her monthly expenses increases by 60%, then",
+    "question": "The monthly expenses of a person are 2 66 % more than her monthly savings. If her 3 monthly income increases by 44% and her monthly expenses increases by 60%, then there is an increase of Rs 1,040 in her monthly savings. What is the initial expenditure (in Rs)?",
     "options": [
       "9,000",
       "12,000",
@@ -2947,7 +3457,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "70% of students",
+    "question": "70% of students in a class are girls and 70% of the girls chosen soccer as their favourite sport. If 98 girls have chosen soccer as their favourite sport, what is the total number of students in the class?",
     "options": [
       "180",
       "225",
@@ -2956,6 +3466,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (200) | Exam: SSC CHSL 24/05/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q206",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "In 2020, the population of village A was 25% more than that of village B and the population of village C was 20% more than that of B. In 2021, the population of A increased by 20%, that of B decreased by 10% and that of C decreased by 5%. If the total population of A, B and C in 2021 was 56,640, then what was the population of C in 2020?",
+    "options": [
+      "19,200",
+      "20,000",
+      "16,000",
+      "24,800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (19,200) | Exam: ICAR Assistant 29/07/2022 (Shift- 03)"
   },
   {
     "id": "rkr_percentage_percentage_classroom_sheet_q207",
@@ -2981,7 +3508,7 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "The income of A is 45% more than the income of B and the income of C is 60% less than the sum of the incomes of A and B. The income of D is 20% more than that of C. If the difference between the incomes of B and D is Rs 13200, then the",
+    "question": "The income of A is 45% more than the income of B and the income of C is 60% less than the sum of the incomes of A and B. The income of D is 20% more than that of C. If the difference between the incomes of B and D is Rs 13200, then the income (in Rs) of C is:",
     "options": [
       "75,000",
       "73,500",
@@ -3049,15 +3576,15 @@
     "chapter": "Percentage",
     "sheetType": "ClassRoom",
     "sheetFile": "Percentage (ClassRoom Sheet).pdf",
-    "question": "Last year, Geeta's monthly salary was `12,000 and Seeta's monthly salary was `10,000. This year, Geeta's monthly salary is `14,400, while Seeta's monthly salary is `12,500. If the",
+    "question": "Last year, Geeta's monthly salary was `12,000 and Seeta's monthly salary was `10,000. This year, Geeta's monthly salary is `14,400, while Seeta's monthly salary is `12,500. If the this year over her monthly salary last year is denoted by x%, and the percentage increase in Geeta's monthly salary this year over her monthly salary last year is denoted by y%,  x – y  then what is the value of   100  %?  y ",
     "options": [
-      "3.(a) 4.",
-      "5.(b) 6.(c) 7.(d) 8.(b) 9.(c) 10.(d)",
-      "2.(a) 3.(a) 4.(b) 5.(b) 6.(c) 7.",
-      "8.(b) 9.(c) 10.(d)"
+      "24",
+      "20",
+      "22",
+      "25"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (8.(b) 9.(c) 10.(d)) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (25) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q001",
@@ -3075,6 +3602,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (62) | Solution: (b) b a = 100 x  b (100 ) b = 100 100 x x   x² + 100x – 10000 = 0 –100 100² – 4 1 (–10000) = 2 x    –100 50000 2   x  –100 100 5 2  = – 50 + 50 5 = 62"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In a village, two contestants (A and B) are contesting in an election. 70% of the registered voters cast their votes in the election and A wins the election by 400 votes. If A had received 12.5% less votes, A’s votes would have been equal to B’s votes. How many registered voters are there in the village?",
+    "options": [
+      "4,500",
+      "4,200",
+      "4,000",
+      "4,800"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4,000) | Solution: (c) Total votes = 100 C NC 70 30 1"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q003",
@@ -3100,7 +3644,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What reduced to keep the cost the same as that before the increase?",
     "options": [
       "20.7",
       "25.5",
@@ -3136,13 +3680,13 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "A number X is first increased by 35% and then decreased by 5.55%. The number, so obtained, is now 1 increased by 23 % . If the number, has increased 13 2 by 8806 than original number X, then find 14 % 7 of the number X?",
     "options": [
-      "2210",
+      "7/2210",
       "2079",
-      "2100",
-      "2590"
+      "(a) 2210/2100",
+      "(b) 2079/2590"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2210)"
+    "explanation": "Correct Answer: Option A | (7/2210)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q007",
@@ -3151,7 +3695,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Reliance Jio kept increasing its customer by the same percentage every year. Find the percentage if it is known that the company’s interaction with customers is doubled after two years.",
+    "question": "Reliance Jio kept increasing its customer by the same known that the company’s interaction with customers is doubled after two years.",
     "options": [
       "1002",
       "100(2+1)",
@@ -3168,7 +3712,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage",
+    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage decrease in the amount with him?",
     "options": [
       "22",
       "24",
@@ -3204,13 +3748,30 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "The price of item A is 40% more than the price of item B, and the price of item B is 25% less than the price of item C. The price of A is reduced by 20%, while the prices of B and C are increased by 24% and 33% respectively.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Neither I nor II",
+      "Both I and II",
+      "Only II/osQoy II",
+      "Only I/osQoy I"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (Neither I nor II)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election between two candidates A and B, 15% of the voters did not cast their votes, and 20% of the votes cast were declared invalid. The winning candidate got 8262 valid votes, which was 54% of the total valid votes.",
+    "options": [
+      "Neither I nor II",
+      "Only II/dsoy II",
+      "Only I/dsoy I",
+      "Both I and II"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Only I/dsoy I)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q012",
@@ -3219,7 +3780,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total",
+    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total cost (in Rs.) of 7 pens and 5 notebooks?",
     "options": [
       "375",
       "365",
@@ -3253,7 +3814,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Out of 85 children playing badminton or table tennis",
+    "question": "Out of 85 children playing badminton or table tennis or both, the total number of girls in the group is 70% of the total number of boys in the group. The number of boys playing only badminton is 50% of the number of boys and the total number of boys playing badminton is 60% of the total number of boys. The number of children playing only table tennis is 40% of the total number of children and a total of 12 children play badminton and table tennis both. The number of girls playing only badminton is.",
     "options": [
       "14",
       "16",
@@ -3270,7 +3831,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of",
+    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of wheat, resulting in a total expenditure of Rs.300 per month for rice and wheat combined. If the price of wheat is increased by 20%, what percentage reduction in rice consumption is needed to maintain the same expenditure of Rs.300? (Given that price of rice and consumption of wheat is constant.)",
     "options": [
       "40",
       "38",
@@ -3287,7 +3848,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice.",
+    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice. The accumulated rice was sold in the black market at double the price. He showed the government that he distributed 2700 kg of rice. When caught, he was made to pay a fine of 125% of what he earned in the black market. What was his fine amount?",
     "options": [
       "`36,000",
       "`45,000",
@@ -3321,7 +3882,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of males and females in the village is:",
     "options": [
       "1840",
       "1380",
@@ -3338,15 +3899,15 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x",
+    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x + 20)% of 180? (correct to nearest integer)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80",
+      "90",
+      "136",
+      "154"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (136)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q020",
@@ -3355,7 +3916,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "% of 180? (correct to nearest integer)",
+    "question": "Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
     "options": [
       "420",
       "400",
@@ -3372,7 +3933,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "A man started a business with a certain capital amount.",
+    "question": "A man started a business with a certain capital amount. In the first year, he earned 60% profit and donated 50% of the total capital (initial amount + profit), He followed the same procedure with the remaining capital after the second and the third year. If at the end of the three years, he is left with `15,360, what was the initial amount (in `) with which the man started his business?",
     "options": [
       "20,000",
       "30,000",
@@ -3423,7 +3984,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If",
+    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If the difference in total earnings of both Kavita and Kalyani is `7,600, then Kavita's total earning is:",
     "options": [
       "`19,200",
       "`21,600",
@@ -3434,6 +3995,23 @@
     "explanation": "Correct Answer: Option D | (`23,400)"
   },
   {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In a class of 50 students. 20 students play hockey, 15 students play cricket and 11 students play football. 7 students play both hockey and cricket, 4 students play cricket and football. 5 students play Hockey and football. If 18 students don't play any of these given sports. Find the ratio of student who play all of these 3 sports to who play exactly two of these sports?",
+    "options": [
+      "1 : 3",
+      "1 : 7",
+      "1 : 5",
+      "4 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 5)"
+  },
+  {
     "id": "rkr_percentage_percentage_pro_level_sheet_q026",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -3442,13 +4020,13 @@
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
     "question": "The price of sugar increased by 5%, then increased by 2% and again reduced by x%. So a family 1 increased their consumption by 19 % and their 21 1 expenditure on sugar is 122 % more than previous. Final the value of x?",
     "options": [
-      "1117",
-      "15",
-      "13",
-      "10"
+      "13/(1117 %)",
+      "5/(15 %)",
+      "2/(13 %)",
+      "10%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1117)"
+    "explanation": "Correct Answer: Option A | (13/(1117 %))"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q027",
@@ -3466,6 +4044,74 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (925925.93)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In the beginning of 2017, the population of three cities Bangalore, Chennai and Delhi was in the ratio of 4 : 5 : 6 respectively. During the year 2017, the population of the respective cities was increased by the percentage in the ratio of 7 : 5 : 9. In the beginning of 2018, the population of Delhi was 27000 more than that of the beginning of 2017 and in the beginning of the year 2018 the ratio of the population of Bangalore to Chennai was 108 : 125, then during the year 2017, what was the sum of the increase in the population of all the cities together?",
+    "options": [
+      "53,500",
+      "61,200",
+      "49,400",
+      "52,500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (53,500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an examination 50% students passed in physics, 37.5% students passed in chemistry and 12.5% students passed in both. If in that exam the no. of girls is equal to the no. of failed students and 25% of the failed students are girls, which is 20, then find what per cent of boys got fail?",
+    "options": [
+      "16",
+      "25",
+      "20",
+      "24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (25)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an examination,53% students passed in Mathematics, 61% passed in Physics, 60% passed in Chemistry, 24% passed in Mathe-matics and Physics, 35% in Physics and Chemistry, 27% in Mathematics and Chemistry and 5% in none. The ratio of percentage of passes in Mathematics and Chemistry but not in Physics in relation to the not in Mathematics is?",
+    "options": [
+      "7 : 5",
+      "5 : 7",
+      "4 : 5",
+      "5 : 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 : 7)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election between A and B, every fifth vote polled was marked as invalid by the machine. In the remaining votes, A wins the election with a margin of 2500 votes or 10% of the total votes polled, over B. If 90% of the invalid votes would have been in favour of B, then which of the following would have been the result of the election?",
+    "options": [
+      "B would have won by 8",
+      "B would have won by 3",
+      "A would have won by 3",
+      "A would have won by 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (B would have won by 8)"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q032",
@@ -3491,7 +4137,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate",
+    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate in return as change along with the book. What is the amount left with Prabhat after he bought the book?",
     "options": [
       "`144",
       "`120",
@@ -3508,7 +4154,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest",
+    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest and hardworking. Then how many votes were cast in favor of candidate A, candidate B and NOTA respectively?",
     "options": [
       "19500, 13000 and 17500",
       "17000, 15500 and 17500",
@@ -3525,7 +4171,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20",
+    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The sum of the two savings (in `) is:",
     "options": [
       "2,11,680",
       "1,28,160",
@@ -3542,12 +4188,12 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question.",
+    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question. How much did Mr. X earn in the year 2000?",
     "options": [
       "Either 1 or 2 is sufficient to answer the question",
       "Both 1 and 2 are sufficient to answer the question",
       "1 alone is sufficient while 2 alone is not sufficient to answer the question",
-      "2 alone is sufficient while 1 alone is not sufficient to answer the questio"
+      "2 alone is sufficient while 1 alone is not sufficient"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Either 1 or 2 is sufficient to answer the question)"
@@ -3559,7 +4205,7 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money (in `) is spent on food?",
     "options": [
       "9600",
       "12000",
@@ -3576,15 +4222,32 @@
     "chapter": "Percentage",
     "sheetType": "Pro Level",
     "sheetFile": "Percentage (Pro Level Sheet).pdf",
-    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to",
+    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to the population of country B in the given year. What is the percentage decrease in 'x' from 2020 to 2021?",
     "options": [
-      "10/",
-      "0  p – q  100  p – q /100 – q  100 + p",
-      "10/10",
-      "0  p – q  100  p – q /0 – p 100 + q"
+      "(100  p – q )/( 100 – q )",
+      "(100  p – q )/(100 + p)",
+      "(100  p – q )/(100 – p)",
+      "(100  p – q )/(100 + q)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (10/)"
+    "explanation": "Correct Answer: Option A | ((100  p – q )/( 100 – q ))"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "In an election, there were three candidates: A, B and C. 10% of the eligible voter did not vote. Out of those who voted, 45% voted for A, 35% voted for B and the remaining 20% voted for C. 30% of the votes polled for A and 20% of the votes polled for B were later deemed invalid, while all the votes polled for C were deemed valid. If A got 882 more valid votes than B did, how many valid votes did C receive?",
+    "options": [
+      "5020",
+      "5040",
+      "5050",
+      "5060"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5040) | Solution: In an election, there were three candidates: A, B and C. 10% of the eligible voter did not vote. Out of those who voted, 45% voted for A, 35% voted for B and the remaining 20% voted for C. 30% of the votes polled for A and 20% of the votes polled for"
   },
   {
     "id": "rkr_percentage_percentage_pro_level_sheet_q040",
@@ -3601,6 +4264,6 @@
       "135"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks tkrh 'ks\"k 35»] "
+    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks 'ks\"k 35»] S VkW"
   }
 ]

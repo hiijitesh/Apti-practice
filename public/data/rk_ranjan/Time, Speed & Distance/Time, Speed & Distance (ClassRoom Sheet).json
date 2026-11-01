@@ -6,7 +6,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "1 mile = 1.606 km or 1 km = 0.6214 mile of 5 mile = 8 k",
+    "question": "1 mile = 1.606 km or 1 km = 0.6214 mile of 5 mile = 8 km",
     "options": [
       "Option A",
       "Option B",
@@ -42,13 +42,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "a km/hr = a",
     "options": [
-      "13 km",
-      "5 km",
-      "15 km",
-      "11 km"
+      "(RRB Technician)/(13 km)",
+      "(G-III 30/12/2024 (Shift-02))/(5 km)",
+      "(a) 13/(15 km) km",
+      "(b) 5/(11 km) km"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (11 km) | Exam: SSC CHSL 09/08/2021 (Shift- 1)"
+    "explanation": "Correct Answer: Option D | ((b) 5/(11 km) km) | Exam: SSC CHSL 09/08/2021 (Shift- 1)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q006",
@@ -57,7 +57,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "To reach at a destination, D takes 45 minutes if he drives at a speed of 60 km/h. Due to some urgency, he is to reach the destination",
+    "question": "To reach at a destination, D takes 45 minutes if he drives at a speed of 60 km/h. Due to some urgency, he is to reach the destination in 30 minutes. What should be his speed in km/h?",
     "options": [
       "80",
       "75",
@@ -79,7 +79,7 @@
       "3 hours",
       "2 hours",
       "5 hours",
-      "4 hour"
+      "4 hours"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (3 hours) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -91,7 +91,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the",
+    "question": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
     "options": [
       "445",
       "450",
@@ -108,12 +108,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "The distance between two towns is covered",
+    "question": "The distance between two towns is covered in 7 hours and 30 minutes at the speed of 72 km/h. The time saved if the speed is increased by 25% is:",
     "options": [
       "1 hours 36 minutes",
       "1 hour 50 minutes",
       "1 hour 30 minutes",
-      "1 hour 20 minute"
+      "1 hour 20 minutes"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (1 hour 30 minutes) | Exam: SSC CGL 21/07/2023 (Shift-02)"
@@ -147,7 +147,7 @@
       "2 hours",
       "4 hours",
       "1.5 hours",
-      "3 hour"
+      "3 hours"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2 hours) | Exam: SSC CHSL 02/07/2024 (Shift-02)"
@@ -161,10 +161,10 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "Rajdhani Express leaves, Delhi station one and half hour late and increases its speed by 10% and reached Patna on Scheduled time. Find usual time taken by train to reach Patna from Delhi.",
     "options": [
+      "1/(16 hours)",
       "16 hours",
-      "16 hours",
-      "16 hours",
-      "12 hours"
+      "2/(16 hours)",
+      "1/(12 hours)"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (16 hours)"
@@ -178,13 +178,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "A train reduced its speed by of its usual 5 speed and reached certain destination 3 hours late. Find present time taken by train to reach destination. 2",
     "options": [
-      "7 hours",
-      "8 hours",
-      "6 hours",
-      "7 hours"
+      "7/1 hours",
+      "8/1 hours",
+      "6/2 hours",
+      "7/2 hours"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7 hours)"
+    "explanation": "Correct Answer: Option D | (7/2 hours)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q014",
@@ -198,7 +198,7 @@
       "560 minutes",
       "520 minutes",
       "540 minutes",
-      "420 minute"
+      "420 minutes"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (560 minutes)"
@@ -215,7 +215,7 @@
       "25 minutes",
       "35 minutes",
       "30 minutes",
-      "40 minute"
+      "40 minutes"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (30 minutes) | Exam: SSC CHSL 12/08/2021 (Shift- 3)"
@@ -227,7 +227,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Two cars run to a place at the speeds of 45 km/h and 55 km/h, respectively. If the second car takes 40 minutes less than the first for the journey, then what is the length",
+    "question": "Two cars run to a place at the speeds of 45 km/h and 55 km/h, respectively. If the second car takes 40 minutes less than the first for the journey, then what is the length of the journey (in km)?",
     "options": [
       "145",
       "165",
@@ -249,7 +249,7 @@
       "540.5 km",
       "535.5 km",
       "542.5 km",
-      "545.5 k"
+      "545.5 km"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (542.5 km)"
@@ -261,7 +261,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A certain distance is covered by a person at a certain speed. If another person covers 25% of",
+    "question": "A certain distance is covered by a person at a certain speed. If another person covers 25% of the distance in triple the time, the ratio of the speed of the first person to that of the second person is:",
     "options": [
       "1 : 6",
       "1 : 12",
@@ -278,7 +278,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "To cover a distance of 416 km, a train A takes 2 2 hours more than train B. If the speed of A 3 1 is doubled, It would take 1 hours less than B. 3",
+    "question": "To cover a distance of 416 km, a train A takes 2 2 hours more than train B. If the speed of A 3 1 is doubled, It would take 1 hours less than B. 3 What is the speed (in km/h) of train A?",
     "options": [
       "56",
       "54",
@@ -295,7 +295,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A takes 2 hours 30 minutes more than B to walk 40 km. If A doubles his speed, then he",
+    "question": "A takes 2 hours 30 minutes more than B to walk 40 km. If A doubles his speed, then he can make it in 1 hour less than B. How much time (in hours) does A require for walking a 40 km distance?",
     "options": [
       "7",
       "5",
@@ -329,7 +329,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A student goes to school at a speed of 5 km/ 2 h and returns at a speed of 4 km/h. If he takes 3 4 hours for the entire journey, then the total 4",
+    "question": "A student goes to school at a speed of 5 km/ 2 h and returns at a speed of 4 km/h. If he takes 3 4 hours for the entire journey, then the total 4 distance covered by the student (in km) is: 1",
     "options": [
       "11",
       "22",
@@ -351,10 +351,10 @@
       "3 km",
       "2.5 km",
       "2.75 km",
-      "2 k"
+      "2 km"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 k) | Exam: SSC CHSL 09/07/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (2 km) | Exam: SSC CHSL 09/07/2024 (Shift-03)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q024",
@@ -368,7 +368,7 @@
       "50 km",
       "55 km",
       "45 km",
-      "60 k"
+      "60 km"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (50 km) | Exam: SSC CHSL 24/05/2022 (Shift-01)"
@@ -380,7 +380,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "If Raman drives his bike at a speed of 24 km/ h, he reaches his office 5 minutes late. If he drives at a speed of 30 km/h, he reaches his",
+    "question": "If Raman drives his bike at a speed of 24 km/ h, he reaches his office 5 minutes late. If he drives at a speed of 30 km/h, he reaches his office 4 minutes early. How much time (in minutes) will he take to reach his office at a speed of 27 km/h?",
     "options": [
       "40",
       "55",
@@ -402,7 +402,7 @@
       "16 km/hr, 12 km",
       "18 km/hr, 12 km",
       "20 km/hr, 10 km",
-      "15 km/hr, 10 k"
+      "15 km/hr, 10 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (18 km/hr, 12 km)"
@@ -419,7 +419,7 @@
       "16 km/hr",
       "18 km/hr",
       "17 km/hr",
-      "20 km/h"
+      "20 km/hr"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (18 km/hr)"
@@ -436,7 +436,7 @@
       "300 km",
       "280 km",
       "320 km",
-      "350 k"
+      "350 km"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (300 km)"
@@ -453,7 +453,7 @@
       "420 km",
       "430 km",
       "410 km",
-      "425 k"
+      "425 km"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (420 km)"
@@ -484,13 +484,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "Distance between two stations P and Q is 500 km. A train covers the journey from P to Q at 60 km per hour and returns back to P with a uniform speed of 40 km per hour. Find the average speed of the train during the whole journey",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48 km per hour",
+      "55 km per hour",
+      "28 km per hour",
+      "60 km per hour"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (48 km per hour)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q032",
@@ -499,15 +499,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Rama walks to her office 5 km away from home.",
+    "question": "Rama walks to her office 5 km away from home. In the morning, she covers the distance in 1 hour whereas, while returning home in the everning, she takes 15 more minutes to cover the same distance. Find her average speed (in km/h) during the two-way journey.",
     "options": [
-      "3",
-      "4",
-      "3",
-      "4"
+      "3/3",
+      "4/4",
+      "1/3",
+      "2/4"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4) | Exam: RRB ALP Tier-01, 28/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (4/4) | Exam: RRB ALP Tier-01, 28/2024 (Shift-01)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q033",
@@ -533,12 +533,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A man travel from A to B at a speed of 29 km/",
+    "question": "A man travel from A to B at a speed of 29 km/ hr in 29 minutes and he travel from B to C with a speed of 39 km/hr in 29 minutes. Find the average speed of the whole journey?",
     "options": [
       "34 km/hr",
       "35 km/hr",
       "36 km/hr",
-      "37 km/h"
+      "37 km/hr"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (34 km/hr)"
@@ -550,7 +550,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A car travels with a speed of 21 m/sec",
+    "question": "A car travels with a speed of 21 m/sec in the first 10 minutes, 9.0 km in the next 10minutes and 10 km in the last 10 minutes of its journey. What is the average speed ofthe car in km/h during its entire journey?",
     "options": [
       "60.0 km/h",
       "63.2 km/h",
@@ -567,12 +567,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "John drives 250 km at 50 km/h and then he drives 350km at 70km/h. Find his average speed",
+    "question": "John drives 250 km at 50 km/h and then he drives 350km at 70km/h. Find his average speed for the whole journey in km/h.",
     "options": [
       "55 km/h",
       "60 km/h",
       "58 km/h",
-      "65 km/"
+      "65 km/h"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (60 km/h) | Exam: SSC CGL 08/12/2022 (Shift- 02)"
@@ -589,7 +589,7 @@
       "15.25 km/h",
       "16.38 km/h",
       "18.36 km/h",
-      "43.50 km/"
+      "43.50 km/h"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (16.38 km/h) | Exam: SSC CGL TIER-II 06/03/2023"
@@ -601,15 +601,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A person travels",
+    "question": "A person travels in a car at 40 km/h for 3 hours, on a bike at 30 km/h for 2 hours, and in a train at 80 km/h for 5 hours. What is the average speed at which he travelled?",
     "options": [
       "56 km/h",
       "60 km/h",
       "62 km/h",
-      "58 km/"
+      "58 km/h"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (58 km/) | Exam: SSC CGL 09/12/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option D | (58 km/h) | Exam: SSC CGL 09/12/2022 (Shift- 02)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q039",
@@ -618,15 +618,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A man travels for 4 hours at a speed of 75 km/h, for next 6 hours at a speed of 65.5 km/ h and for next 2 hours at a speed of 54 km/",
+    "question": "A man travels for 4 hours at a speed of 75 km/h, for next 6 hours at a speed of 65.5 km/ h and for next 2 hours at a speed of 54 km/ h. What is his average speed (in km/h) for the entire journey?",
     "options": [
-      "64",
-      "64",
-      "66",
-      "65"
+      "3/64",
+      "2/64",
+      "3/66",
+      "1/65"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (66) | Exam: ICAR Assistant 29/07/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | (3/66) | Exam: ICAR Assistant 29/07/2022 (Shift- 02)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q040",
@@ -635,15 +635,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A person covers of his journey at the speed 4 1 of 25 km/h, of the journey at 40km/h and 2 the remaining at the speed of 50 km/h. Find his average speed per hour for the whole",
+    "question": "A person covers of his journey at the speed 4 1 of 25 km/h, of the journey at 40km/h and 2 the remaining at the speed of 50 km/h. Find his average speed per hour for the whole journey (in km/h). 1",
     "options": [
-      "3611",
-      "3411",
-      "3611",
-      "3411"
+      "4/3611",
+      "6/3411",
+      "6/3611",
+      "4/3411"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3611) | Exam: SSC CHSL MAINS 02/11/2023 (Shift- 01)"
+    "explanation": "Correct Answer: Option A | (4/3611) | Exam: SSC CHSL MAINS 02/11/2023 (Shift- 01)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q041",
@@ -657,10 +657,27 @@
       "25 km/h",
       "28 km/h",
       "26 km/h",
-      "30 km/"
+      "30 km/h"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (25 km/h) | Exam: SSC CGL 03/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
+    "question": "In a journey of three unequal laps, a car covers a distance of 200 km in 4 h in the first lap, while another 162 km at the speed of 15 m/ s in the second lap. It covered the remaining distance of the final lap in 4 h such that the average speed of the car for entire journey was 50 km/h. What was the speed of the car in the third lap of the journey?",
+    "options": [
+      "47 km/h",
+      "52 km/h",
+      "42 km/h",
+      "45 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (47 km/h) | Exam: SSC CPO 10/11/2022 (Shift-02)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q043",
@@ -705,13 +722,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "Excluding stoppages, the speed of a bus is 152 km/hr. and including stoppages, it is 114 km/ hr. For how many minutes does the bus stop per hour?",
     "options": [
-      "10 minutes/feuV",
-      "15 minutes/feuV",
-      "14 minutes/feuV",
-      "9 minutes/feu"
+      "10 minutes",
+      "15 minutes",
+      "14 minutes",
+      "9 minutes"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (15 minutes/feuV)"
+    "explanation": "Correct Answer: Option B | (15 minutes)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q046",
@@ -737,12 +754,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Speed of a car without stoppage is 48 km/h and that of with stoppage is 36 km/h. If car stops each time for 5 min then find the number of",
+    "question": "Speed of a car without stoppage is 48 km/h and that of with stoppage is 36 km/h. If car stops each time for 5 min then find the number of stoppage in 1 hr 20 min.",
     "options": [
       "3 times",
       "4 times",
       "5 times",
-      "6 time"
+      "6 times"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (4 times)"
@@ -754,12 +771,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Speed of a train without stoppage is 80 km/ hr and that at with stoppage is 70 km/hr. If stoppage time is 3 min then find the number",
+    "question": "Speed of a train without stoppage is 80 km/ hr and that at with stoppage is 70 km/hr. If stoppage time is 3 min then find the number of stoppage in 2 hrs.",
     "options": [
       "5 times",
       "6 times",
       "8 times",
-      "4 time"
+      "4 times"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (5 times)"
@@ -773,13 +790,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "Excluding stoppages, the speed of a bus is 45 kmph and including stoppages, it is 27 kmph. For how many minutes does the bus stop per hour?",
     "options": [
-      " 1 =/1 2 S",
-      "2/T",
-      "(a) 40/D1 D2",
-      "min. (b) 36 min."
+      "40 min.",
+      "36 min.",
+      "20 min.",
+      "24 min."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (min. (b) 36 min.) | Exam: NTPC CBT-02 16/06/2022 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (24 min.) | Exam: NTPC CBT-02 16/06/2022 (Shift-03)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q050",
@@ -788,12 +805,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Shyam starts to walk from A towards B at 10 a.m. and Radha starts to walk from B towards A at 10 a.m. and after meeting at C they both",
+    "question": "Shyam starts to walk from A towards B at 10 a.m. and Radha starts to walk from B towards A at 10 a.m. and after meeting at C they both reach their destination in 24 and 54 minutes respectively. Find out the time they meet at C.",
     "options": [
       "10 : 30 a.m.",
       "10 : 36 a.m.",
       "11 : 00 a.m.",
-      "10 : 25 a.m"
+      "10 : 25 a.m."
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (10 : 36 a.m.)"
@@ -805,7 +822,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Two trains, A and B started travelling towards each other at the same time, from places P to Q and Q to P, respectively. After crossing each other, A and B took 9 hours and 16 hours to reach Q and P, respectively. If the speed of A was 56 km/h, then",
+    "question": "Two trains, A and B started travelling towards each other at the same time, from places P to Q and Q to P, respectively. After crossing each other, A and B took 9 hours and 16 hours to reach Q and P, respectively. If the speed of A was 56 km/h, then what was the speed (in km/h) of B?",
     "options": [
       "38",
       "42",
@@ -824,13 +841,13 @@
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
     "question": "Two trains starts from Mumbai to Delhi and from Delhi to Mumbai respectively. After they cross each other they take 16 hours and 9 hours respectively to reach their respective destinations. If the speed of the first train is 54 km/h, then find the speed of the second train.",
     "options": [
-      "80 km/h/fdeh-@?kaVk",
-      "75 km/h/fdeh-@?kaVk",
-      "72 km/h/fdeh-@?kaVk",
-      "60 km/h/fdeh-@?kaVk"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (72 km/h/fdeh-@?kaVk)"
+    "explanation": "Correct Answer: Option C"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q053",
@@ -839,12 +856,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Radha walks with the speed of 40 km/h from A to meet Shyam and Shyam Walks towards her from B. After meeting each other at C they",
+    "question": "Radha walks with the speed of 40 km/h from A to meet Shyam and Shyam Walks towards her from B. After meeting each other at C they reach at each other's home in 9 hours and 16 hours respectively. Find the distance between A and B and speed of Shyam.",
     "options": [
       "1120 km, 40 km/hr",
       "1120 km, 30 km/hr",
       "840 km, 30 km/hr",
-      "840 km, 40 km/h"
+      "840 km, 40 km/hr"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (840 km, 30 km/hr)"
@@ -873,7 +890,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Vinay and Mahesh are 250 metres apart from each other. They are moving towards each other with the speed of 36 km/hr and 54 km/ hr respectively.",
+    "question": "Vinay and Mahesh are 250 metres apart from each other. They are moving towards each other with the speed of 36 km/hr and 54 km/ hr respectively. In how much time will they meet each other?",
     "options": [
       "10 sec.",
       "12 sec.",
@@ -895,7 +912,7 @@
       "10 a.m.",
       "7 a.m.",
       "6 a.m.",
-      "8 a.m"
+      "8 a.m."
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (7 a.m.) | Exam: SSC MTS 10/05/2023 (Shift-02)"
@@ -907,15 +924,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Vivek starts moving at the speed of 70 km/hr",
+    "question": "Vivek starts moving at the speed of 70 km/hr at 8:00 a.m. Neeraj starts moving in the same direction after 4 hours of Vivek at the speed of 120 km/hr. Which of the following statement(s) is/are correct?",
     "options": [
       "Neither I nor II",
       "Only II",
       "Both I and II",
-      "Only"
+      "Only I"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Only) | Exam: SSC CHSL 10/03/2023 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (Only I) | Exam: SSC CHSL 10/03/2023 (Shift-03)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q058",
@@ -924,12 +941,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A runner starts running from a point at 5:00 am at the speed of 10 km/hr. Second runner",
+    "question": "A runner starts running from a point at 5:00 am at the speed of 10 km/hr. Second runner starts from the same point at 8:00 am in the same direction with a speed of 15 km/hr. At what time of the day will the second runner will overtake the first runner?",
     "options": [
       "2:00 pm",
       "12:30 pm",
       "12:00 pm",
-      "1:00 p"
+      "1:00 pm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2:00 pm) | Exam: SSC MTS 15/06/2023 (Shift-02)"
@@ -946,7 +963,7 @@
       "64 km",
       "96 km",
       "72 km",
-      "88 k"
+      "88 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (96 km) | Exam: SSC CGL 25/09/2024 (Shift-01)"
@@ -975,7 +992,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A train starts running at a uniform speed of 60 km/h from station P towards station Q. At the same time another train starts running from station Q towards station P. If the distance between the stations P and Q is 275 km and",
+    "question": "A train starts running at a uniform speed of 60 km/h from station P towards station Q. At the same time another train starts running from station Q towards station P. If the distance between the stations P and Q is 275 km and the trains meet in two and a half hours, then what is the speed of the train running towards station P in km/h?",
     "options": [
       "50",
       "40",
@@ -997,7 +1014,7 @@
       "300 km",
       "240 km",
       "260 km",
-      "280 k"
+      "280 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (240 km) | Exam: SSC CGL 03/12/2022 (Shift- 01)"
@@ -1014,7 +1031,7 @@
       "35 km",
       "60 km",
       "45 km",
-      "62 k"
+      "62 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (60 km) | Exam: SSC CGL 09/12/2022 (Shift- 02)"
@@ -1031,7 +1048,7 @@
       "115 km",
       "105 km",
       "95 km",
-      "140 k"
+      "140 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (105 km) | Exam: SSC MTS 05/07/2022 (Shift- 03)"
@@ -1043,7 +1060,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "The distance between two stations A and B is 200 km. A train runs from A to B at a speed of 75 km/h, while another train runs from B to A at a speed of 85 km/h. What will be the",
+    "question": "The distance between two stations A and B is 200 km. A train runs from A to B at a speed of 75 km/h, while another train runs from B to A at a speed of 85 km/h. What will be the distance between the two trains (in km) 3 minutes before they meet?",
     "options": [
       "5",
       "8",
@@ -1060,7 +1077,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A car and a bus were travelling",
+    "question": "A car and a bus were travelling in the same direction. At 7:30 am. the car travelling at a speed of 72 km/h was 4.2 km behind the bus. At 8:15 a.m. the car was 15.8 km ahead of the bus. What is the ratio of the speed of the car to the speed of the bus?",
     "options": [
       "27 : 17",
       "9 : 5",
@@ -1077,7 +1094,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "The driver of a car, which is travelling at a speed of 75 km/h, locates a bus 80 m ahead",
+    "question": "The driver of a car, which is travelling at a speed of 75 km/h, locates a bus 80 m ahead of him, travelling in the same direction. After 15 seconds, he finds that the bus is 40 m behind the car. What is the speed of the bus (in km/h)?",
     "options": [
       "44.2",
       "42.5",
@@ -1094,7 +1111,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "The distance between two places A and B is 140 km. Two cars x and y start simultaneously from",
+    "question": "The distance between two places A and B is 140 km. Two cars x and y start simultaneously from A and B, respectively. If they move in the same direction, they meet after 7 hours. If they move towards each other, they meet after one hour. What is the speed (in km/h) of car y if its speed is more than that of car x?",
     "options": [
       "60",
       "100",
@@ -1111,7 +1128,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Places A and B are 45 km apart from each other. A car starts from place A and another car starts",
+    "question": "Places A and B are 45 km apart from each other. A car starts from place A and another car starts from place B at the same time. If they move in the same direction, they meet in 4 and a half hour and if they move towards each other, they meet in 27 minutes. What is the speed (in km/ h) of the car which moves faster?",
     "options": [
       "50",
       "45",
@@ -1133,7 +1150,7 @@
       "4:37 pm",
       "4:13 pm",
       "4:23 pm",
-      "4:52 p"
+      "4:52 pm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (4:23 pm)"
@@ -1150,7 +1167,7 @@
       "9 : 38 am",
       "10 : 22 am",
       "10 : 08 am",
-      "9 : 52 a"
+      "9 : 52 am"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (10 : 08 am) | Exam: SSC CGL 16/08/2021(Shift- 02)"
@@ -1184,7 +1201,7 @@
       "1200 km",
       "2100 km",
       "345 km",
-      "400 k"
+      "400 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2100 km) | Exam: SSC CPO 10/11/2022 (Shift-01)"
@@ -1201,7 +1218,7 @@
       "11:38 am",
       "11:28 am",
       "11:43 am",
-      "11:33 a"
+      "11:33 am"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (11:38 am) | Exam: SSC CGL 21/07/2023 (Shift-04)"
@@ -1213,7 +1230,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A is chasing B",
+    "question": "A is chasing B in the same interval of time. A jumps 8 times, while B jumps 6 times. But the distance covered by A in 7 jumps is the same as that of B in 5 jumps. The ratio between the speeds of A and B is ________.",
     "options": [
       "32 : 24",
       "30 : 56",
@@ -1230,7 +1247,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A dog chases rabbit. The rabbit is 125 leaps ahead of itself jumps from dog. The rabbit can",
+    "question": "A dog chases rabbit. The rabbit is 125 leaps ahead of itself jumps from dog. The rabbit can jump 4 times in a time in which the dog can jump 3 times. The distances covered by the rabbit and the dog in one jump are 1.75 and 2.75 m respectively. In how many jumps the dog will catch the rabbit ?",
     "options": [
       "175",
       "350",
@@ -1252,7 +1269,7 @@
       "467th",
       "468th",
       "470th",
-      "475t"
+      "475th"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (468th)"
@@ -1286,7 +1303,7 @@
       "1020 m",
       "1050 m",
       "1090 m",
-      "1080"
+      "1080 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1050 m) | Exam: policeman from a"
@@ -1354,10 +1371,10 @@
       "15 km; 25 km/h",
       "14.4 km; 24 km/h",
       "10 km; 25 km/h",
-      "12 km; 24 km/"
+      "12 km; 24 km/h"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12 km; 24 km/) | Exam: policeman arrives at the spot"
+    "explanation": "Correct Answer: Option D | (12 km; 24 km/h) | Exam: policeman arrives at the spot"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q085",
@@ -1366,7 +1383,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Dipak goes to his office covering half of the distance by auto and rest by metro. Total time taken by him to cover complete distance is 50 min. If he covers complete distance by metro, it would take 35 minutes to reach the office. On a particular day he goes to his office and",
+    "question": "Dipak goes to his office covering half of the distance by auto and rest by metro. Total time taken by him to cover complete distance is 50 min. If he covers complete distance by metro, it would take 35 minutes to reach the office. On a particular day he goes to his office and returns by auto, find total time taken in complete journey.",
     "options": [
       "110 min",
       "120 min",
@@ -1388,7 +1405,7 @@
       "50 km/h",
       "60 km/h",
       "100 km/h",
-      "120 km/"
+      "120 km/h"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (60 km/h)"
@@ -1400,12 +1417,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A distance of 600 Km is to be covered",
+    "question": "A distance of 600 Km is to be covered in 2 parts. In 1st",
     "options": [
       "80 & 60 km/h",
       "90 & 60 km/h",
       "120 & 90 km/h",
-      "120 & 100 km/"
+      "120 & 100 km/h"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (80 & 60 km/h) | Exam: phase 120 Km is travelled by"
@@ -1417,7 +1434,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A man travels 400 kms",
+    "question": "A man travels 400 kms in 4 hours partly by air and partly by train if he had travelled all the 4 way by air he would have saved of the time 5 he was in the train and would have arrived his destination 2 hrs early. Find the distance he travelled by train.",
     "options": [
       "95 km",
       "85 km",
@@ -1439,7 +1456,7 @@
       "3 km/hr",
       "4 km/hr",
       "5 km/hr",
-      "7 km/h"
+      "7 km/hr"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (5 km/hr)"
@@ -1456,7 +1473,7 @@
       "15 km/h",
       "12 km/h",
       "20 km/h",
-      "10 km/"
+      "10 km/h"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (15 km/h)"
@@ -1485,15 +1502,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Two guns are fired at 13 minutes interval. But",
+    "question": "Two guns are fired at 13 minutes interval. But the passenger in the train hears the sound of second gun after 12 minute 30 seconds of the first. If the speed of sound is 330 m/s then the speed of train was",
     "options": [
-      "47 km/hr",
-      "45 km/hr",
-      "42 km/hr",
-      "44 km/hr"
+      "13/(47    km/hr)",
+      "13/(45    km/hr)",
+      "13/(42    km/hr)",
+      "25/(44    km/hr)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (47 km/hr)"
+    "explanation": "Correct Answer: Option A | (13/(47    km/hr))"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q093",
@@ -1502,7 +1519,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Two guns are fired from the same place at an interval of 9 minutes. A person coming to that place finds that 8 minutes 48 seconds have elapsed between hearing the sound of the two guns. If the velocity of sound is 330 m/s, then",
+    "question": "Two guns are fired from the same place at an interval of 9 minutes. A person coming to that place finds that 8 minutes 48 seconds have elapsed between hearing the sound of the two guns. If the velocity of sound is 330 m/s, then at what speed (in km/hr) was that person coming to that place?",
     "options": [
       "36",
       "27",
@@ -1519,15 +1536,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Vikash went to city from his village which is 48 km far by two mode of communi-cation. He covered some part of distance by cycle and rest part by bus. Average speed of cycle is 16 km/h while that of bus is 40 km/h and he",
+    "question": "Vikash went to city from his village which is 48 km far by two mode of communi-cation. He covered some part of distance by cycle and rest part by bus. Average speed of cycle is 16 km/h while that of bus is 40 km/h and he covered total distance in 2 hrs. Find distance covered by him going by cycle.",
     "options": [
-      "20 km",
-      "213 km",
-      "24 km",
-      "25 km"
+      "1/(20 km)",
+      "1/(213 km)",
+      "1/(24 km)",
+      "1/(25 km)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (213 km)"
+    "explanation": "Correct Answer: Option B | (1/(213 km))"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q095",
@@ -1541,10 +1558,10 @@
       "100 km",
       "105 km",
       "110 km",
-      "132 k"
+      "132 km"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (132 k)"
+    "explanation": "Correct Answer: Option D | (132 km)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q096",
@@ -1558,10 +1575,10 @@
       "17 hours 30 minutes",
       "16 hours 45 minutes",
       "15 hours 15 minutes",
-      "16 hours 30 minute"
+      "16 hours 30 minutes"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (16 hours 30 minute)"
+    "explanation": "Correct Answer: Option D | (16 hours 30 minutes)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_classroom_sheet_q097",
@@ -1570,7 +1587,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A man walks a certain distance by foot and rides",
+    "question": "A man walks a certain distance by foot and rides back on horse in 4 hr. 30 min. He could ride on horse both ways in 3hrs. The time required by the man to walk by foot both ways is :",
     "options": [
       "4 hrs 30 min",
       "4 hrs 45 min",
@@ -1587,12 +1604,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "A bus starts running with the initial speed of 6 km/hr and its speed increases every hour by certain amount. If it takes 14 hours to cover a distance of 630 km, then what will be",
+    "question": "A bus starts running with the initial speed of 6 km/hr and its speed increases every hour by certain amount. If it takes 14 hours to cover a distance of 630 km, then what will be hourly increment in the speed of bus?",
     "options": [
       "5 km/hr",
       "10 km/hr",
       "6 km/hr",
-      "5.2 km/h"
+      "5.2 km/hr"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (6 km/hr)"
@@ -1621,12 +1638,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Time, Speed & Distance (ClassRoom Sheet).pdf",
-    "question": "Anand covers a certain distance",
+    "question": "Anand covers a certain distance in the first lag of 5 hours at the speed of 50 km/h. In the second lag, he increased the speed by 20% due to which he covered 20% extra distance than that of the first lag. He covered the third lag at the average speed of the first two lags and covered 10% extra distance than that of the second lag distance. How much total time (in hours) did he take to complete all three lags?",
     "options": [
       "16",
       "15",
-      "5.",
-      "6. (c) 7. (a) 8. (d) 9. (c) 10. (a)"
+      "18",
+      "14"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (16) | Exam: SSC CGL 21/07/2023 (Shift-01)"

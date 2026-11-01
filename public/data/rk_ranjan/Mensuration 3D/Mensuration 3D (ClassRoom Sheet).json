@@ -23,7 +23,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Find the total surface area (",
+    "question": "Find the total surface area (in cm2) of a cuboid having dimensions 5 cm, 7 cm and 11 cm.",
     "options": [
       "385",
       "334",
@@ -57,7 +57,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Area of a cardboard (",
+    "question": "Area of a cardboard (in cm2) needed to",
     "options": [
       "960",
       "690",
@@ -74,7 +74,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "What is the length (",
+    "question": "What is the length (in cm) of the longest rod that can be fitted in box of dimensions",
     "options": [
       "36",
       "42",
@@ -96,7 +96,7 @@
       "480 cm²",
       "150 cm²",
       "240 cm²",
-      "120 cm"
+      "120 cm²"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (240 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -108,7 +108,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The breadth of a cuboidal box half its length and one-fifth its height. If the lateral surface area of the cuboid is 4320",
+    "question": "The breadth of a cuboidal box half its length and one-fifth its height. If the lateral surface area of the cuboid is 4320 cm2, then its volume (in cm2) is :",
     "options": [
       "17280",
       "18720",
@@ -125,7 +125,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given",
+    "question": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given as 1800 cm2. Find the volume (in cm3) of this cuboid.",
     "options": [
       "4650",
       "4500",
@@ -142,7 +142,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The length and breadth of a cuboidal store",
+    "question": "The length and breadth of a cuboidal store are in the ratio 2 : 1 and its height is 3.5 meters. If the area of its four walls (including doors) is 210 m2 then its volume is ......",
     "options": [
       "679 m³",
       "700 m³",
@@ -181,7 +181,7 @@
       "8 cu.units/?ku bdkbZ",
       "16 cu.units/?ku bdkbZ",
       "10 cu.units/?ku bdkbZ",
-      "4 cu.units/?ku bdkb"
+      "4 cu.units/?ku bdkbZ"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (8 cu.units/?ku bdkbZ) | Exam: CGL PRE, 14/07/2023 (Shift-2)"
@@ -193,15 +193,32 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The surface area of a cube i",
+    "question": "The surface area of a cube is 13.5 m². What is the length (in m) of its diagonal?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 3",
+      "1.5",
+      "2",
+      "1.5 3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (1.5 3) | Exam: SSC CGL 24/08/2021 (Shift 03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length of a cuboid is double of its breadth and its height is half of its breadth. If the height of the cuboid is 2 cm, then what will be the edge of a cube whose volume is the same as that of the cuboid mentioned above ?",
+    "options": [
+      "4 cm",
+      "6.4 cm",
+      "8 cm",
+      "7.2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 cm) | Exam: SSC MTS 5/08/2019 (Shift-02)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q014",
@@ -215,7 +232,7 @@
       "200 cm²",
       "100 cm²",
       "160 cm²",
-      "325 cm"
+      "325 cm²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (100 cm²) | Exam: SSC MTS 2/08/2019 (Shift-03)"
@@ -249,7 +266,7 @@
       "850 sq.cm",
       "825 sq.cm",
       "1200 sq.cm",
-      "800 sq.c"
+      "800 sq.cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (850 sq.cm)"
@@ -261,7 +278,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Four solid cubes, each of volume 1728 cm³,",
+    "question": "Four solid cubes, each of volume 1728 cm³, are kept in two rows having two cubes in each row. They form a rectangular solid with square base. The total surface area (in cm²) of the resulting solid is:",
     "options": [
       "576",
       "1152",
@@ -295,7 +312,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "If the area of three adjacent faces of a",
+    "question": "If the area of three adjacent faces of a rectangular box which meet in corner are 32 cm2, 24 cm2 and 48 cm2 respectively. Then the volume of the box is?",
     "options": [
       "192",
       "216",
@@ -363,7 +380,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A wooden box measures 20 cm by 12 cm by 10 cm. Thickness of wood is 1 cm. Volume",
+    "question": "A wooden box measures 20 cm by 12 cm by 10 cm. Thickness of wood is 1 cm. Volume of wood to make the box (in cubic cm) is",
     "options": [
       "960",
       "519",
@@ -380,11 +397,11 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The length, breadth and height of a wooden box with a lid are 10 cm, 9 cm and 7 cm, respectively. The total inner surface of the closed box is 262 cm2. The thickness of the",
+    "question": "The length, breadth and height of a wooden box with a lid are 10 cm, 9 cm and 7 cm, respectively. The total inner surface of the closed box is 262 cm2. The thickness of the wood (in cm.) is",
     "options": [
-      "2",
+      "2/2",
       "3",
-      "2/3",
+      "3",
       "1"
     ],
     "correctAnswer": 3,
@@ -397,7 +414,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A water tank has 8360 litres of capacity. It is made up of a material and the thickness of material for all four walls is 5",
+    "question": "A water tank has 8360 litres of capacity. It is made up of a material and the thickness of material for all four walls is 5 cm. Find the thickness of material in the bottom of that tank. The dimension of",
     "options": [
       "4.5 cm",
       "5.5 cm",
@@ -419,7 +436,7 @@
       "672 cm³",
       "372 cm³",
       "560 cm³",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (672 cm³)"
@@ -453,7 +470,7 @@
       "468 cm²",
       "396 cm²",
       "612 cm²",
-      "423 cm"
+      "423 cm²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (396 cm²)"
@@ -465,7 +482,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A room is",
+    "question": "A room is in the shape of a cuboid, with",
     "options": [
       "Rs. 15000",
       "Rs. 15600",
@@ -499,7 +516,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The internal measures of a cuboidal room are with length as 12 m, breadth as 8 m",
+    "question": "The internal measures of a cuboidal room are with length as 12 m, breadth as 8 m and height as 10 m. The total cost (in Rs.) of whitewashing all four walls of the room and also the ceiling of the room, if the cost of whitewashing is Rs. 25 per m2 is:",
     "options": [
       "12,400",
       "12,000",
@@ -516,12 +533,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A rectangular tank is 50 metres long and 29 metres deep. If 1000 cubic metres of water be drawn off the tank, the level of",
+    "question": "A rectangular tank is 50 metres long and 29 metres deep. If 1000 cubic metres of water be drawn off the tank, the level of the water in the tank goes down by 2 metres. How many cubic metres of water can the tank hold? And also find the breadth of the tank.",
     "options": [
       "14500 m³, 10m",
       "15500 m³, 12m",
       "15400 m³, 15m",
-      "10500 m³, 10"
+      "10500 m³, 10m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (14500 m³, 10m)"
@@ -538,7 +555,7 @@
       "1728 cm³",
       "1000 cm³",
       "512 cm³",
-      "216 cm"
+      "216 cm³"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1728 cm³)"
@@ -567,7 +584,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "If the rectangular faces of a brick have their",
+    "question": "If the rectangular faces of a brick have their diagonals in the ratio 3 : 23 : 15, then the ratio of the length of the shortest edge of the brick to that of its longest edge is",
     "options": [
       "2 : 5",
       "2 : 3",
@@ -589,7 +606,7 @@
       "6280 cm³",
       "5306 cm³",
       "6260 cm³",
-      "5280 cm"
+      "5280 cm³"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (6280 cm³) | Exam: SSC CGL TIER- II 07/03/2023"
@@ -601,7 +618,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The curved surface area of a solid cylinder of height 15 cm is 660 cm2. What is the",
+    "question": "The curved surface area of a solid cylinder of height 15 cm is 660 cm2. What is the volume (in cm3) of the cylinder? 22 (Take = ) 7",
     "options": [
       "2060",
       "3210",
@@ -623,7 +640,7 @@
       "5720 cm²",
       "5940 cm²",
       "6270 cm²",
-      "6360 cm"
+      "6360 cm²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (5940 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -674,7 +691,7 @@
       "3.5 cm",
       "3 cm",
       "7 cm",
-      "5 c"
+      "5 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (3.5 cm) | Exam: SSC CHSL 12/04/2021 (Shift- 3)"
@@ -691,7 +708,7 @@
       "2480 cm³",
       "2760 cm³",
       "3080 cm³",
-      "2060 cm"
+      "2060 cm³"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (3080 cm³) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -725,7 +742,7 @@
       "42 cm",
       "56 cm",
       "63 cm",
-      "34 c"
+      "34 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (42 cm) | Exam: SSC MTS 16/06/2023 (SHIFT-01)"
@@ -737,7 +754,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "What will be the total cost (",
+    "question": "What will be the total cost (in Rs.) of polishing the curved surface of a wooden cylinder at rate of 50 per m2, if its diameter is 70cm and height is 6 m?  22   Take π =   7 ",
     "options": [
       "612",
       "675",
@@ -754,12 +771,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The cost of painting the total surface area of a 30 m high solid right circular cylinder at the rate of 25 per m² is Rs. 18,425. What",
+    "question": "The cost of painting the total surface area of a 30 m high solid right circular cylinder at the rate of 25 per m² is Rs. 18,425. What is the volume (in m³) of this cylinder  22   Use  ?   7",
     "options": [
       "1210",
       "1155",
       "1145",
-      "1122 Mensuration-3D  Folding and revolving a rectangular sheet Rectangular sheet to be fold b l r h h = b r h 2  r = l l h = , 2 r = b r = b r = l  2 2 Folding along length Folding along Breadth Rectangular sheet to be revolve b l l l h = b b b r = l h = l , r = b Along length Along Breadt"
+      "1122"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1155) | Exam: SSC CPO 03/10/2023 (Shift-02)"
@@ -810,10 +827,10 @@
       "7 7",
       "4 3",
       "7 7",
-      "3 (ii) If curved surface area (c) and height (h) are given the volume of cylinder/ ;fn ik'oZ i`\"Bh; c 2 V  4 "
+      "3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3 (ii) If curved surface area (c) and height (h) are given the volume of cylinder/ ;fn ik'oZ i`\"Bh; c 2 V  4 )"
+    "explanation": "Correct Answer: Option D | (3)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q050",
@@ -873,7 +890,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A hollow iron pipe is 35 cm long and its external diameter is 14 cm and the thickness of the pipe is 1 cm and the iron used to make the pipe weight 10 g/cm³,",
+    "question": "A hollow iron pipe is 35 cm long and its external diameter is 14 cm and the thickness of the pipe is 1 cm and the iron used to make the pipe weight 10 g/cm³, then the weight of the pipe in kg is:  22   use    7 ",
     "options": [
       "13.4",
       "15.2",
@@ -890,7 +907,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A hollow cylinder is made up of metal. The difference between outer and inner curved surface area of this cylinder is 352 cm2. Height of the cylinder is 28cm. If the total surface area of this hollow cylinder is 2640 cm2, then what are the inner and outer",
+    "question": "A hollow cylinder is made up of metal. The difference between outer and inner curved surface area of this cylinder is 352 cm2. Height of the cylinder is 28cm. If the total surface area of this hollow cylinder is 2640 cm2, then what are the inner and outer radius (in cm)?",
     "options": [
       "4, 6",
       "10, 12",
@@ -907,7 +924,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A field roller,",
+    "question": "A field roller, in the shape of a cylinder, 1 has a diameter of 1 m and length of 1 4 m. If the speed at which the roller rolls is 14 revolutions per minute, then the maximum are (in ) that it m2 can roll in 1 hour is : (Take  = 22/7)",
     "options": [
       "3960",
       "3600",
@@ -929,7 +946,7 @@
       "851 cm",
       "828 cm",
       "1380 cm",
-      "925 cm The solid obtained by revolving a right- angled triangle about oneb of its sides (other than hypotenuse) is called a cone or right circular cone."
+      "925 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (851 cm)"
@@ -975,7 +992,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "If the ratio of the base radius to the height of a cone is 7 : 9, and the area of the base of the cone is 1386 cm2. then the volume",
+    "question": "If the ratio of the base radius to the height of a cone is 7 : 9, and the area of the base of the cone is 1386 cm2. then the volume of the cone (in cm3) is:",
     "options": [
       "12,474",
       "13,652",
@@ -992,15 +1009,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The height and the radius of the base of a",
+    "question": "The height and the radius of the base of a right circular cone are in the ratio of 12: 5. If its volume is 314 cm³, then what is the slant height of the cone? (Use  = 3.14)",
     "options": [
       "11 cm",
       "14 cm",
       "12 cm",
-      "13 c"
+      "13 cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (13 c) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (13 cm) | Exam: SSC CPO 05/10/2023 (Shift-01)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q061",
@@ -1009,7 +1026,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The circumference of the base of a right circular cone is 44 cm and its height is 24",
+    "question": "The circumference of the base of a right circular cone is 44 cm and its height is 24 cm. The curved surface area ( in cm2) of the cone is :",
     "options": [
       "572",
       "550",
@@ -1026,7 +1043,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A heap of wheat is",
+    "question": "A heap of wheat is in the form of a cone whose base diameter is 8.4 m and height is 1.75 m. The heap is to be covered by canvass. What is the area (in m²) of the canvas required? (Use =22/7)",
     "options": [
       "60.06",
       "115.05",
@@ -1043,7 +1060,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A conical shape vessel has a radius of 21 cm and has a slant height of 25 cm. If the curved part of the vessel is to be painted",
+    "question": "A conical shape vessel has a radius of 21 cm and has a slant height of 25 cm. If the curved part of the vessel is to be painted white, find the cost (in `) of painting at t he rat e of `1.5 per cm2.",
     "options": [
       "2475",
       "825",
@@ -1099,7 +1116,7 @@
       "255 m",
       "265 m",
       "275 m",
-      "225"
+      "225 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (275 m)"
@@ -1111,7 +1128,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The volume of a right circular cone is 308 cm³ and the radius of its base is 7 cm.",
+    "question": "The volume of a right circular cone is 308 cm³ and the radius of its base is 7 cm. What is the curved surface area (in cm²) of  22  the cone?  Take  =   7 ",
     "options": [
       "22 21",
       "44 21",
@@ -1133,7 +1150,7 @@
       "1000 cm³",
       "1200 cm³",
       "1600 cm³",
-      "800 cm"
+      "800 cm³"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (1600 cm³) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -1145,7 +1162,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The curved surface area of a right circular cone is 2310cm² and its radius is 21 cm. If its radius is increased by 100% and height is reduced by 50%, then its capacity",
+    "question": "The curved surface area of a right circular cone is 2310cm² and its radius is 21 cm. If its radius is increased by 100% and height is reduced by 50%, then its capacity (in litres) will be correct to one decimal  22  place)  Take  =   7 ",
     "options": [
       "27.8",
       "28.2",
@@ -1162,12 +1179,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The height of a cone is three times the radius of its base and its total surface area is 36   cm2. What is the volume 10  1 ",
+    "question": "The height of a cone is three times the radius of its base and its total surface area is 36  10  1  cm2. What is the volume  (in cm3) of the cone?",
     "options": [
       "288 ",
       "125 ",
       "216 ",
-      "144"
+      "144 "
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (216 ) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
@@ -1196,7 +1213,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The radii of the base of a cylinder and a",
+    "question": "The radii of the base of a cylinder and a cone are in the ratio 3 : 2 and their heights are in the ratio 2 : 3. Their volumes are in the ratio of",
     "options": [
       "3 : 2",
       "33 : 2",
@@ -1264,15 +1281,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A sector of radius 10.5 cm with the central angle 120º is formed to form a cone by joining the two bounding radii of the",
+    "question": "A sector of radius 10.5 cm with the central angle 120º is formed to form a cone by joining the two bounding radii of the sector. What is the volume (in cm3) of the cone so formed?",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "343 3/",
+      "343 3/",
+      "343 2/",
+      "343 2/"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ()"
+    "explanation": "Correct Answer: Option C | (343 2/)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q077",
@@ -1303,7 +1320,7 @@
       "1200, 1320",
       "1600, 1320",
       "1250, 1444",
-      "1000, 1260"
+      "1000, 1260 Frustum/fNUud If a cone is cut by a plane parallel to its base, the portion of solid between this plane and the base is known as frustum of the cone."
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1200, 1320)"
@@ -1320,7 +1337,7 @@
       "345.6 cm³",
       "359.3 cm³",
       "379.3 cm³",
-      "369.3 cm"
+      "369.3 cm³"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (359.3 cm³) | Exam: SSC CGL 12/12/2022 (Shift- 02)"
@@ -1337,7 +1354,7 @@
       "30 cm2",
       "48 cm2",
       "36 cm2",
-      "60 cm2"
+      "60 cm2  All triangles formed by cutting cone are similar to each other."
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (36 cm2)"
@@ -1405,7 +1422,7 @@
       "Reduced by of the former volume 8 1",
       "Increased by of the former volume 4 1",
       "Reduced by of the former volume 4 1",
-      "Increased by of the former volume 8"
+      "Increased by of the former volume"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Reduced by of the former volume 8 1) | Exam: SSC CPO 04/10/2023 (Shift-02)"
@@ -1436,13 +1453,13 @@
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
     "question": "The sum of radii of two spheres is 10 cm and the sum of their volumes is 880cm3. What will be the product of their radii ?",
     "options": [
-      "25 cm²",
-      "26 cm²",
-      "33 cm²",
-      "27 cm²"
+      "2/(25 cm²)",
+      "1/(26 cm²)",
+      "1/(33 cm²)",
+      "1/(27 cm²)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (26 cm²)"
+    "explanation": "Correct Answer: Option B | (1/(26 cm²))"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q087",
@@ -1451,7 +1468,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The cost of whitewashing the surface area of a sphere is ` 8,393 at the rate of ` 54.5/cm2.",
+    "question": "The cost of whitewashing the surface area of a sphere is ` 8,393 at the rate of ` 54.5/cm2. What is the volume of the sphere (in cm3)? (Round off your answer to the nearest 22 intege) [Use  = ] 7",
     "options": [
       "192",
       "180",
@@ -1470,13 +1487,13 @@
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
     "question": "When the radius of a sphere is increased by 5cm, its surface area increases by 704 cm2. The diameter of the original sphere is",
     "options": [
-      "8.2 cm",
+      "7/(8.2 cm)",
       "6.8 cm",
-      "5.2 cm",
-      "6.2 cm"
+      "(a) 8.2/(5.2 cm) cm",
+      "(b) 6.8/(6.2 cm) cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6.2 cm)"
+    "explanation": "Correct Answer: Option D | ((b) 6.8/(6.2 cm) cm)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q089",
@@ -1485,7 +1502,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "What is the volume (",
+    "question": "What is the volume (in cm³) of a spherical shell whose inner and outer radii are respectively 2 cm and 3 cm?",
     "options": [
       "3 106 ",
       "3 56 ",
@@ -1507,10 +1524,10 @@
       "398567 g",
       "324120 g",
       "440040 g",
-      "420420 g Hemisphere/v¼Zxksyk When a solid sphere is cut through its center into two equal (identical) piece, each piece is called a hemisphere."
+      "420420 g"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (420420 g Hemisphere/v¼Zxksyk When a solid sphere is cut through its center into two equal (identical) piece, each piece is called a hemisphere.) | Exam: SSC MTS 25/07/2022 (Shift- 3)"
+    "explanation": "Correct Answer: Option D | (420420 g) | Exam: SSC MTS 25/07/2022 (Shift- 3)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q091",
@@ -1519,7 +1536,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The total surface area of a solid hemisphere is 4158 cm2. Find its volume",
+    "question": "The total surface area of a solid hemisphere is 4158 cm2. Find its volume (in cm3).",
     "options": [
       "9702",
       "19404",
@@ -1570,15 +1587,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The diameter of a hemisphere is equal to the diagonal of a rectangle of length 4 cm and breadth 3 cm. Find the total surface",
+    "question": "The diameter of a hemisphere is equal to the diagonal of a rectangle of length 4 cm and breadth 3 cm. Find the total surface area (in cm2) of the hemisphere.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50/25",
+      "",
+      "25 ",
+      "75 "
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CPO 04/10/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option D | (75 ) | Exam: SSC CPO 04/10/2023 (Shift-3)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q095",
@@ -1604,12 +1621,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The internal diameter of a hollow hemispherical vessel is 24 cm. It is made of a steel sheet which is 0.5 cm thick.",
+    "question": "The internal diameter of a hollow hemispherical vessel is 24 cm. It is made of a steel sheet which is 0.5 cm thick. What is the total surface area (in cm2) of the vessel ?",
     "options": [
       "612.75 ",
       "468.75 ",
       "600.2 ",
-      "600.5"
+      "600.5 "
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (612.75 ) | Exam: SSC CGL TIER II (13/09/2019)"
@@ -1621,12 +1638,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively. What is the total",
+    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively. What is the total surface are (in) of the vessel cm2 ?",
     "options": [
       "183 ",
       "189 ",
       "177 ",
-      "174"
+      "174 "
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (183 ) | Exam: SSC CGL TIER II (11/09/2019)"
@@ -1638,12 +1655,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A metallic hemispherical bowl is made up",
+    "question": "A metallic hemispherical bowl is made up of steel. The total steel used in making the bowl is 342cm3. The bowl can hold 144 cm3 water. What is the thickness (in cm3) of bowl and the curved surface area (in cm2) of outer side?",
     "options": [
       "6162",
       "3162",
       "681",
-      "381"
+      "381"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (3162)"
@@ -1677,10 +1694,10 @@
       "5 mm",
       "3 mm",
       "2 mm",
-      "6 m"
+      "6 mm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6 m) | Exam: SSC CPO 04/10/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option D | (6 mm) | Exam: SSC CPO 04/10/2023 (Shift-3)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q101",
@@ -1706,7 +1723,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Three solid iron cubes of edges 4 cm, 5 cm and 6 cm are melted together to make a new cube. 62 cm3 of the melted material is lost due to improper handling. The area",
+    "question": "Three solid iron cubes of edges 4 cm, 5 cm and 6 cm are melted together to make a new cube. 62 cm3 of the melted material is lost due to improper handling. The area (in cm2) of the whole surface of the newly formed cube is",
     "options": [
       "294",
       "343",
@@ -1740,7 +1757,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A solid metallic cube of side 9 cm and a solid metallic cuboid having dimensions 5 cm, 13 cm, 31 cm are melted to form a",
+    "question": "A solid metallic cube of side 9 cm and a solid metallic cuboid having dimensions 5 cm, 13 cm, 31 cm are melted to form a single cube. How much (in Rs) is the cost to polish the new cube at a rate of Rs10 per cm²?",
     "options": [
       "8,650",
       "27,440",
@@ -1774,12 +1791,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The carved surface area of solid metallic cone is 260 cm2 and its slant height is 26 cm. It is melted and recast into a solid right circular cylinder of base radius 5 cm.",
+    "question": "The carved surface area of solid metallic cone is 260 cm2 and its slant height is 26 cm. It is melted and recast into a solid right circular cylinder of base radius 5 cm. What is the total surface area (in cm2) of the cylinder? Mensuration-3D",
     "options": [
       "370",
       "300",
       "350",
-      "320"
+      "320"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (370)"
@@ -1791,12 +1808,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base radius of a solid right circular cylinder is 15 cm and its total surface area is 770 cm2. It is melted and recast into another solid cylinder of height 24 cm.",
+    "question": "The base radius of a solid right circular cylinder is 15 cm and its total surface area is 770 cm2. It is melted and recast into another solid cylinder of height 24 cm. What is the curved surface area (in cm2) of the new cylinder so formed?",
     "options": [
       "240",
       "432",
       "480",
-      "384"
+      "384"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (480) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
@@ -1808,7 +1825,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A steel cylinder of radius 3.5 cm and height 7 cm is melted to form bearings of radius 1 cm. How many such bearings can be made, assuming that 9.5 cm³ of steel",
+    "question": "A steel cylinder of radius 3.5 cm and height 7 cm is melted to form bearings of radius 1 cm. How many such bearings can be made, assuming that 9.5 cm³ of steel goes waste in manufacturing?",
     "options": [
       "57",
       "62",
@@ -1876,7 +1893,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The radii of the ends of a frustum of a solid right-circular cone 45 cm high are 28 cm and 7 cm. If this frustum is melted and reconstructed into a solid right circular cylinder whose radius of base and height",
+    "question": "The radii of the ends of a frustum of a solid right-circular cone 45 cm high are 28 cm and 7 cm. If this frustum is melted and reconstructed into a solid right circular cylinder whose radius of base and height are in the ratio 3: 5, find the curved surface area (in cm²) of this cylinder.  22   Use    7 ",
     "options": [
       "4810",
       "4620",
@@ -1885,6 +1902,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (4620) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q113",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A well 20 m in diameter is dug 14 m deep and the earth taken out is spread all around it to a width of 5 m to form an embankment. The height of the embankment is:",
+    "options": [
+      "12.4 m",
+      "9.5 m",
+      "11.2 m",
+      "8.4 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11.2 m)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q114",
@@ -1898,7 +1932,7 @@
       "7.2 m",
       "7 m",
       "8 m",
-      "9.5"
+      "9.5 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (8 m)"
@@ -1915,10 +1949,10 @@
       "20 cm",
       "30 cm",
       "28 cm",
-      "25 c"
+      "25 cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (25 c)"
+    "explanation": "Correct Answer: Option D | (25 cm)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q116",
@@ -1932,7 +1966,7 @@
       "14 cm",
       "13 cm",
       "15 cm",
-      "12 c"
+      "12 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (15 cm) | Exam: SSC CPO 16/03/2019 (Shift -02)"
@@ -1944,7 +1978,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A field is",
+    "question": "A field is in the form of a rectangle of length 20m and width 14m. a pit 6m long, 3m wide and 2.5 m deep is dug in a corner of the field and the earth taken out of the pit is spread uniformly over the remaining part of field in order to raise the height of field by 30cm. How much more soil is required?",
     "options": [
       "29.8cm³",
       "31m³",
@@ -1995,7 +2029,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A hemispherical bowl of internal radius 18 cm is full of liquid. This liquid is to be filled",
+    "question": "A hemispherical bowl of internal radius 18 cm is full of liquid. This liquid is to be filled in cylindrical bottles each of radius 3 cm and height 6 cm. How many bottles are required to empty the bowl?",
     "options": [
       "72",
       "70",
@@ -2014,13 +2048,13 @@
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
     "question": "Water flows through a cylinderical pipe, whose radius is 7cm, at 5 metre per second. The time, it takes to fill an empty water tank, with height 1.54 metres and area of",
     "options": [
-      "5 min.",
-      "6 min.",
+      "/(5 min.)",
+      "(7 )/(6 min.)",
       "8 min.",
-      "4 min"
+      "4 min."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5 min.)"
+    "explanation": "Correct Answer: Option A | (/(5 min.))"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q122",
@@ -2029,12 +2063,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Water flows at the rate of 10 metres per",
+    "question": "Water flows at the rate of 10 metres per minute from a cylinderical pipe 5 mm in diameter. How long it take to fill up a conical vessel whose diameter at the base is 30 cm and depth 24cm?",
     "options": [
       "25 min 24 sec",
       "24 min 24 sec",
       "28 min 48 sec",
-      "30 min 36 se"
+      "30 min 36 sec"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (28 min 48 sec)"
@@ -2046,15 +2080,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Water is flowing at the rate of 3km/hr through a circular pipe of 20cm internal diameter into a circular cistern of diameter 10m and depth 2m.",
+    "question": "Water is flowing at the rate of 3km/hr through a circular pipe of 20cm internal diameter into a circular cistern of diameter 10m and depth 2m. In how much time will the cistern be filled?",
     "options": [
       "1 hour, 30 min.",
       "1 hour, 20 min.",
       "1 hour, 50 min.",
-      "1 hour, 40 min"
+      "1 hour, 40 min."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1 hour, 40 min)"
+    "explanation": "Correct Answer: Option D | (1 hour, 40 min.)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q124",
@@ -2068,10 +2102,10 @@
       "225 hours",
       "180 hours",
       "196 hours",
-      "200 hour"
+      "200 hours"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (200 hour)"
+    "explanation": "Correct Answer: Option D | (200 hours)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q125",
@@ -2091,13 +2125,30 @@
     "explanation": "Correct Answer: Option D | (200) | Exam: ICAR Mains, 10/07/2023 (Shift-2)"
   },
   {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q126",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water in a canal 40 decimetre wide and 16 decimetre deep is flowing with a velocity of 15 km/h. How much area (in m2) will it irrigate in 30 minutes if 12 cm of standing water is required for irrigation?",
+    "options": [
+      "2,40,000",
+      "3,20,000",
+      "4,80,000",
+      "4,00,000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4,00,000)"
+  },
+  {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q127",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Water flows out through a pipe with internal diameter 3 cm at the speed of 6.3 km/h into a cylindrical tank whose internal base radius is 1.5m.",
+    "question": "Water flows out through a pipe with internal diameter 3 cm at the speed of 6.3 km/h into a cylindrical tank whose internal base radius is 1.5m. In 30 minutes, the water level in the tank will rise by (assuming no overflow):",
     "options": [
       "32.5 cm",
       "28 cm",
@@ -2119,7 +2170,7 @@
       "1.48 m",
       "1.50 m",
       "1.25 m",
-      "2.25"
+      "2.25 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (1.25 m)"
@@ -2131,12 +2182,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Two irons sphere each of diameter 6cm are",
+    "question": "Two irons sphere each of diameter 6cm are immeresed in the water contained in a cylindrical vessel of radius 6cm. The level of the water in the vessel will be raised by.",
     "options": [
       "1 m",
       "2 m",
       "2.5 m",
-      "3"
+      "3 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2 m)"
@@ -2148,7 +2199,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A cylindrical vessel of diameter 32 cm is partially filled with water. A solid metallic sphere of radius 12 cm is dropped into it.",
+    "question": "A cylindrical vessel of diameter 32 cm is partially filled with water.",
     "options": [
       "9",
       "72",
@@ -2165,15 +2216,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A cylindrical tank of diameter 35 cm is full of water. If 11 litres of water is drawn of",
+    "question": "A cylindrical tank of diameter 35 cm is full of water. If 11 litres of water is drawn of the water level in the tank will drop by:  22   use  =   7 ",
     "options": [
-      "9 cm",
-      "10 cm",
-      "11 cm",
-      "12 cm"
+      "4/9 cm",
+      "2/10 cm",
+      "11/7 cm",
+      "12/7 cm"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11 cm)"
+    "explanation": "Correct Answer: Option C | (11/7 cm)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q132",
@@ -2187,7 +2238,7 @@
       "20 cm",
       "24 cm",
       "18 cm",
-      "22 c"
+      "22 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20 cm)"
@@ -2199,15 +2250,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base radius and slant height of a conical vessel is 3 cm and 6 cm respectively. Find the volume of sufficient",
+    "question": "The base radius and slant height of a conical vessel is 3 cm and 6 cm respectively. Find the volume of sufficient water in the vessel such that a sphere of radius 1 cm is placed into it water just immerse it?",
     "options": [
-      "4/3",
-      " 5 /3",
-      "7/3",
-      " 2 /3"
+      "(4 )/3",
+      "(5 )/3",
+      "(7 )/3",
+      "(2 )/3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 5 /3)"
+    "explanation": "Correct Answer: Option B | ((5 )/3)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q134",
@@ -2216,7 +2267,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A sphere of diameter 18 cm is dropped",
+    "question": "A sphere of diameter 18 cm is dropped in a right circular cylindrical vessel partly filled with water. The radius of the base of the cylindrical vessel is twice the radius of the sphere. If the sphere is completely submerged in water, by how much will the level of water rise in the cylindrical vessel?  22   use     7 ",
     "options": [
       "1 cm",
       "4 cm",
@@ -2233,7 +2284,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Some marbles each of diameter 4.2 cm, are dropped into a cylindrical beaker containing some water and are fully submerged. The diameter of the beaker is 28 cm. Find how",
+    "question": "Some marbles each of diameter 4.2 cm, are dropped into a cylindrical beaker containing some water and are fully submerged. The diameter of the beaker is 28 cm. Find how many marbles have been dropped in it if the water rises by 15.75 cm.",
     "options": [
       "225",
       "275",
@@ -2267,12 +2318,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A cuboid of size 50 cm x 40 cm x 30 cm is cut into 8 identical parts by 3 cuts. What is",
+    "question": "A cuboid of size 50 cm x 40 cm x 30 cm is cut into 8 identical parts by 3 cuts. What is the total surface area (in cm2) of all the 8 parts?",
     "options": [
       "18,800 cm²",
       "16,400 cm²",
       "20,800 cm²",
-      "21,600 cm"
+      "21,600 cm²"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (18,800 cm²)"
@@ -2284,15 +2335,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A solid cube has side 8 cm. It is cut along diagonals of top face to get 4 equal parts.",
+    "question": "A solid cube has side 8 cm. It is cut along diagonals of top face to get 4 equal parts. What is the total surface area (in cm2) of each part.",
     "options": [
       "80 + 642",
       "96 + 482",
       "80 + 482",
-      "96 + 642"
+      "96 + 642 Mensuration-3D"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (96 + 642)"
+    "explanation": "Correct Answer: Option D | (96 + 642 Mensuration-3D)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q139",
@@ -2318,12 +2369,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A solid cylinder having radius of base as 28 cm and height as 24 cm is bisected from its height to get two identical cylinders. What will be the percentage",
+    "question": "A solid cylinder having radius of base as 28 cm and height as 24 cm is bisected from its height to get two identical cylinders. What will be the percentage increase in the total surface area?",
     "options": [
       "61.72 percent",
       "41.92 percent",
       "53.85 percent",
-      "48.64 percen"
+      "48.64 percent"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (53.85 percent) | Exam: SSC MTS 17/05/2023 (Shift-01)"
@@ -2335,7 +2386,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A right circular cylinder has height as 18 cm and radius as 7 cm. The cylinder is cut",
+    "question": "A right circular cylinder has height as 18 cm and radius as 7 cm. The cylinder is cut in three equal parts (by 2 cuts parallel to base). What is the percentage increase in total surface area?",
     "options": [
       "62",
       "56",
@@ -2369,7 +2420,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A solid sphere of diameter 17.5cm is cut into two equal halves. What will be the",
+    "question": "A solid sphere of diameter 17.5cm is cut into two equal halves. What will be the increase (in cm²) in the total surface area?",
     "options": [
       "289",
       "481.25",
@@ -2386,7 +2437,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A spherical ball of diameter 8 cm is cut into two equal parts. The curved area of one such part has to be painted with green colour, while the other part has to be painted with red colour. The bases of both the hemispheres are to be painted with blue colour. The cost of painting with blue is Rs 2/cm², while the cost of painting the curved",
+    "question": "A spherical ball of diameter 8 cm is cut into two equal parts. The curved area of one such part has to be painted with green colour, while the other part has to be painted with red colour. The bases of both the hemispheres are to be painted with blue colour. The cost of painting with blue is Rs 2/cm², while the cost of painting the curved area is Rs 3/cm². What will be the cost (in Rs) of painting the hemispheres? Take  = 3.14",
     "options": [
       "Rs 451.92",
       "Rs 492.92",
@@ -2425,7 +2476,7 @@
       "3851cm³",
       "6858cm³",
       "4851cm³",
-      "5821cm"
+      "5821cm³"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (4851cm³) | Exam: SSC CGL TIER - II 02/03/2023"
@@ -2437,7 +2488,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "From the body of a solid cube of edge 7 cm. a solid sphere is removed. The volume of the remaining solid was found 1",
+    "question": "From the body of a solid cube of edge 7 cm. a solid sphere is removed. The volume of the remaining solid was found 1 to be 163 cm³. What is the diameter (in 3 cm) of the sphere?  22   Take     7 ",
     "options": [
       "10",
       "7",
@@ -2471,15 +2522,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A hemispherical depression of diameter 4 cm is cut out from each face of a cubical block of sides 10 cm. Find the surface area",
+    "question": "A hemispherical depression of diameter 4 cm is cut out from each face of a cubical block of sides 10 cm. Find the surface area of the remaining solid (in cm2). 22 (Use π = ) 7",
     "options": [
-      "900",
-      "700",
-      "675",
-      "112"
+      "4/900",
+      "1/700",
+      "3/675",
+      "4/112"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (675) | Exam: SSC CGL 18/04/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option C | (3/675) | Exam: SSC CGL 18/04/2022 (Shift- 01)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q150",
@@ -2539,7 +2590,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A right circular cylinder has height 28 cm and radius of base 14 cm. Two hemispheres of radius 7 cm each are cut from each of the two bases of the cylinder. What is the total",
+    "question": "A right circular cylinder has height 28 cm and radius of base 14 cm. Two hemispheres of radius 7 cm each are cut from each of the two bases of the cylinder. What is the total surface area (in cm²) of the remaining part?",
     "options": [
       "3842",
       "4312",
@@ -2556,12 +2607,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "From a solid cylinder wooden block of height 18 cm and radius 7.5 cm, a conical cavity of same radius and same height is",
+    "question": "From a solid cylinder wooden block of height 18 cm and radius 7.5 cm, a conical cavity of same radius and same height is taken out. What is total surface area (in cm2) of the remaining solid?",
     "options": [
       "326.25 ",
       "416.25 ",
       "472.5 ",
-      "270"
+      "270 "
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (472.5 ) | Exam: CGL MAINS 16/10/2020)"
@@ -2573,7 +2624,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "Aright circular cone is inscribed",
+    "question": "Aright circular cone is inscribed in a cube of side 9 cm occupying the maximum space possible. What is the ratio of the volume of the cube to the volume of the cone?",
     "options": [
       "22 : 81",
       "42 : 11",
@@ -2590,7 +2641,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A 22.5 m high tent is",
+    "question": "A 22.5 m high tent is in the shape of a frustum of a cone surmounted by a hemisphere. If the diameters of the upper and the lower circular ends of the frustum are 21 m and 39m, respectively, then find the area of the cloth (in m²) used to make the tent (ignoring the wastage).  22   Use    7   ",
     "options": [
       "7877 2",
       "2800 7 6",
@@ -2607,12 +2658,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A solid toy is",
+    "question": "A solid toy is in the shape which is a combination of a cylinder, cone and a hemispherical bow. The cylinder contributes to 50% of the total volume of the toy, the cone contributes to 20% of the volume. Find the ratio of the contribution (in terms of volume) of the cone, cylinder and hemisphere.",
     "options": [
       "2 : 3 : 5",
       "5 : 2 : 3",
       "2 : 5 : 3",
-      "4 : 5 : 3 Prism/fizTe  A prism is a solid that has two faces that are parallel and congruent and their faces (Polygon) join by vertex to vertex. A prism has a polygon as its base and vertical side perpendicular to the base. (a) Curved surface area of a prism = Perimeter (b) Total surface area of a prism = curved (i) Equilateral triangular prism: h a 3 4 3 Volume/vk;ru = a 2 h 4 (ii) Square Prism/oxkZdkj fizTEk h a Mensuration-3D Volume/vk;ru = a²h h a 6  3 Volume/vk;ru = a²h 4"
+      "4 : 5 : 3"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (2 : 5 : 3) | Exam: SSC CHSL 30/05/2022 (Shift- 2)"
@@ -2624,7 +2675,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a right prism is a triangle with sides 16 cm, 30 cm and 34 cm. Its height",
+    "question": "The base of a right prism is a triangle with sides 16 cm, 30 cm and 34 cm. Its height is 32 cm. The lateral surface area (in cm2) and the volume (in cm3) are, respectively:",
     "options": [
       "2688 and 7680",
       "2624 and 7040",
@@ -2646,10 +2697,10 @@
       "14 cm",
       "9 cm",
       "16 cm",
-      "12 c"
+      "12 cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12 c) | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option D | (12 cm) | Exam: SSC CGL MAINS (08/08/2022)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q160",
@@ -2658,7 +2709,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a right prism is a triangle with sides 20 cm, 21 cm and 29 cm. If its volume is 7560 cm3, then its lateral",
+    "question": "The base of a right prism is a triangle with sides 20 cm, 21 cm and 29 cm. If its volume is 7560 cm3, then its lateral surface area (in cm2 ) is :",
     "options": [
       "2484",
       "2556",
@@ -2680,7 +2731,7 @@
       "325 3 cm²",
       "350 3 cm²",
       "125 3 cm²",
-      "150 3 cm"
+      "150 3 cm²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (350 3 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -2692,7 +2743,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of right prism is a trapezium whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3 ,",
+    "question": "The base of right prism is a trapezium whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3 , then the height (in cm) of the prism will be :",
     "options": [
       "15.6",
       "15.2",
@@ -2709,12 +2760,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a solid prism of height 10 cm is a square and its volume is 160 cm3, What",
+    "question": "The base of a solid prism of height 10 cm is a square and its volume is 160 cm3, What is its total surface area of the prism (in cm2 ) ?",
     "options": [
       "200",
       "192",
       "180",
-      "176 Mensuration-3"
+      "176"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (192) | Exam: CGL MAINS 16/10/2020)"
@@ -2726,7 +2777,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a right prism is a regular hexagon of side 5 cm. If its height is",
+    "question": "The base of a right prism is a regular hexagon of side 5 cm. If its height is 12 3 cm, then its volume ( in cm3) is :",
     "options": [
       "900",
       "1800",
@@ -2748,7 +2799,7 @@
       "720 cm²",
       "810 cm²",
       "1260 cm²",
-      "2070 cm"
+      "2070 cm²"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (720 cm²)"
@@ -2765,10 +2816,10 @@
       "17 cm",
       "15 cm",
       "16 cm",
-      "18 c"
+      "18 cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (18 c)"
+    "explanation": "Correct Answer: Option D | (18 cm)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q167",
@@ -2777,7 +2828,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A prism has a square base whose side is 8cm. The height of prism is 80cm. The prism is cut into 10 identical parts by 9 cuts which are parallel to base of prism.",
+    "question": "A prism has a square base whose side is 8cm. The height of prism is 80cm. The prism is cut into 10 identical parts by 9 cuts which are parallel to base of prism. What is the total surface area (in cm²) of all the 10 parts together?",
     "options": [
       "4260",
       "2560",
@@ -2794,15 +2845,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of right pyramid is an equilateral triangle, each side of which is 20 cm. Each",
+    "question": "The base of right pyramid is an equilateral triangle, each side of which is 20 cm. Each slant edge is 30 cm. The vertical height (in cm) of the pyramid is:",
     "options": [
-      "5 3",
-      "10 3",
-      "5",
-      "10"
+      "5 3/23",
+      "10 3/23",
+      "5/3",
+      "10/3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10) | Exam: SSC CGL MAINS 29/01/2022"
+    "explanation": "Correct Answer: Option D | (10/3) | Exam: SSC CGL MAINS 29/01/2022"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q169",
@@ -2811,15 +2862,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a right pyramid is a square of side 8 2 cm and each of its slant edge is",
+    "question": "The base of a right pyramid is a square of side 8 2 cm and each of its slant edge is of length 10 cm. What is the volume (in cm³) of the pyramid?",
     "options": [
-      "256",
+      "256/2",
       "224",
-      "426",
-      "96 2"
+      "426/3",
+      "9 2/6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (256) | Exam: SSC CGL MAINS 03/2/2022"
+    "explanation": "Correct Answer: Option A | (256/2) | Exam: SSC CGL MAINS 03/2/2022"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q170",
@@ -2828,7 +2879,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The total surface area of a right pyramid, with base as a square of side 8 cm, is 208",
+    "question": "The total surface area of a right pyramid, with base as a square of side 8 cm, is 208 cm². What is the slant height (in cm) of the pyramid?",
     "options": [
       "7",
       "9",
@@ -2850,7 +2901,7 @@
       "169 cm²",
       "121 cm²",
       "144 cm²",
-      "184 cm"
+      "184 cm²"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (144 cm²) | Exam: SSC CGL TIER- II 03/03/2023"
@@ -2862,7 +2913,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a pyramid is a rectangle whose length and breadth are 16 cm and 12 cm, respectively. If the length of all the lateral edges passing through the vertex of the right rectangular pyramid is 26 cm, then",
+    "question": "The base of a pyramid is a rectangle whose length and breadth are 16 cm and 12 cm, respectively. If the length of all the lateral edges passing through the vertex of the right rectangular pyramid is 26 cm, then find the volume of the pyramid in cubic centimeter.",
     "options": [
       "1536",
       "1024",
@@ -2879,15 +2930,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a pyramid is an equilateral triangle whose each side is 8 cm. Is. Its (slant edge) is 24 cm. What is the total",
+    "question": "The base of a pyramid is an equilateral triangle whose each side is 8 cm. Is. Its (slant edge) is 24 cm. What is the total surface area (in cm²) of the pyramid?",
     "options": [
-      " 24 3  36 35 ",
-      " 16 3  48 35 ",
-      " 24 3  24 35 ",
-      " 12 3  24 35"
+      " 2 3/4  36 35 ",
+      " 1 3/6  48 35 ",
+      " 2 3/4  24 35 ",
+      " 1 3/2  24 35 "
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 16 3  48 35 ) | Exam: SSC CGL TIER- II 06/03/2023"
+    "explanation": "Correct Answer: Option B | ( 1 3/6  48 35 ) | Exam: SSC CGL TIER- II 06/03/2023"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q174",
@@ -2896,7 +2947,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The volume of a right pyramid is 45 3 and its base is an equilateral triangle with",
+    "question": "The volume of a right pyramid is 45 3 and its base is an equilateral triangle with side 6 cm. What is the height (in cm) of the pyramid ?",
     "options": [
       "15",
       "18",
@@ -2913,15 +2964,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2 , then its",
+    "question": "The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2 , then its height (in cm) is :",
     "options": [
-      "73/12",
-      "9 209/12",
-      "61/12",
-      "1 643/12"
+      "739/12",
+      "209/12",
+      "611/12",
+      "643/12"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (61/12) | Exam: SSC CGL TIER II (13/09/2019)"
+    "explanation": "Correct Answer: Option C | (611/12) | Exam: SSC CGL TIER II (13/09/2019)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q176",
@@ -2964,7 +3015,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "ClassRoom",
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
-    "question": "A pyramid has square base. The side of square is 12cm and height of pyramid is 21cm. The pyramid is cut into 3parts by 2 cuts parallel to its base. The cuts are at height of 7cm and 14cm respectively from the base. What is the",
+    "question": "A pyramid has square base. The side of square is 12cm and height of pyramid is 21cm. The pyramid is cut into 3parts by 2 cuts parallel to its base. The cuts are at height of 7cm and 14cm respectively from the base. What is the difference (in cm3) in the volume of top most and bottom most part?",
     "options": [
       "872",
       "944",
@@ -2984,9 +3035,9 @@
     "question": "If the side of a tetrahedron is8 3 cm then find the volume and its height.",
     "options": [
       "128 6,8 2",
-      "64 6,4 2",
-      "32 6,4 2",
-      "32 6,8 2"
+      "6 6/4,4 2",
+      "3 6/2,4 2",
+      "3 6/2,8 2"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (128 6,8 2)"
@@ -3000,12 +3051,12 @@
     "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
     "question": "The length of one side of a regular tetrahedron is 8 cm. What is the ratio of its surface area to its volume?",
     "options": [
-      "Answer Key",
-      "3.(d) 4.(c) 5.(d) 6.(c) 7.(a) 8.(b) 9.(b) 10.(b)",
-      "Answer Key",
-      "2.(b) 3.(d) 4.(c) 5.(d) 6.(c) 7.(a) 8.(b) 9.(b) 10.(b)"
+      "3 3 : 2 2",
+      "2 :12",
+      "3 : 8",
+      "1 : 1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Answer Key)"
+    "explanation": "Correct Answer: Option A | (3 3 : 2 2)"
   }
 ]

@@ -8,13 +8,13 @@
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
     "question": "Find the roots of   = 0 x x  1 x  2 6 2 1",
     "options": [
-      "and",
-      "and",
-      "and 3",
-      "and 3"
+      "4/and",
+      "3/and",
+      "4/(and 3)",
+      "4/(and 3)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (and 3) | Solution: (c) 6 2 1 – – 0 1 2    x x x           6 1 2 2 2 1 0 1 2           x x x x x x x x x    2 2 2 6 18 12 – 2 4 0 1 2          x x x x x x x x x    2 3 13 12 0 1 2       x x x x x 3x2 – 13x + 12 = 0 3x2"
+    "explanation": "Correct Answer: Option C | (4/(and 3)) | Solution: (c) 6 2 1 – – 0 1 2    x x x           6 1 2 2 2 1 0 1 2           x x x x x x x x x    2 2 2 6 18 12 – 2 4 0 1 2          x x x x x x x x x    2 3 13 12 0 1 2       x x x x x 3x2 – 13x + 12 = 0 3x2"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q002",
@@ -23,7 +23,7 @@
     "chapter": "Quadratic Equation",
     "sheetType": "Pro Level",
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
-    "question": "The two roots of a quadratic equation are given as x 2  1 = and x = .",
+    "question": "The two roots of a quadratic equation are given as x 2  1 = and x = . In what form can the equation be 3 2 written? 2  1 fdlh f}?",
     "options": [
       "(2x – 1) (3x - 2) = 0",
       "(2x - 1) (3x + 2) = 0",
@@ -79,10 +79,10 @@
       "–x2 + 5x + 1 = 0",
       "x2 + 2x + 5 = 0",
       "2x2 – x + 5 = 0",
-      "2x2 + 5x + 2 = 0 Quadratic Equatio"
+      "2x2 + 5x + 2 = 0"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2x2 + 5x + 2 = 0 Quadratic Equatio) | Solution: (d) 2x2 + 4x – 1 = 0 Sum of roots = – 4 2 2    b a Product of roots = 1 2   c a Standard quadratic equation  x2 – (sum of roots)x + (product of roots) = 0 x2 – (–2 + 1 2  )x + (–2 1 2  ) = 0 x2 – 5 2       x + 1 = 0  2x2 + 5x + 2"
+    "explanation": "Correct Answer: Option D | (2x2 + 5x + 2 = 0) | Solution: (d) 2x2 + 4x – 1 = 0 Sum of roots = – 4 2 2    b a Product of roots = 1 2   c a Standard quadratic equation  x2 – (sum of roots)x + (product of roots) = 0 x2 – (–2 + 1 2  )x + (–2 1 2  ) = 0 x2 – 5 2       x + 1 = 0  2x2 + 5x + 2"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q006",
@@ -96,7 +96,7 @@
       "Real and common roots",
       "imaginary roots",
       "real roots",
-      "Real and distinct root"
+      "Real and distinct roots"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (imaginary roots) | Solution: (b) Nature of roots D = b2 – 4ac = 4(p + q)2 – 4 2(p + q)2 = –4(p + q)2, here, D < 0 therefore, roots are imaginary"
@@ -108,7 +108,7 @@
     "chapter": "Quadratic Equation",
     "sheetType": "Pro Level",
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
-    "question": "If p and q are the roots of the equation x2 + 4x – 21 = 0,",
+    "question": "If p and q are the roots of the equation x2 + 4x – 21 = 0, and p < q then find the quadratic equation in terms of x whose roots will be (p – 1) and (q + 1).",
     "options": [
       "x2 + 6x + 16 = 0",
       "x2 + 6x – 16 = 0",
@@ -130,7 +130,7 @@
       "b < (a + 1) (a – 1)",
       "b < (2a + 1) (2a – 1)",
       "b > (2a + 1) (2a – 1)",
-      "b > (a + 1) (a – 1"
+      "b > (a + 1) (a – 1)"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (b > (2a + 1) (2a – 1)) | Solution: (c) For no real roots, b2 – 4ac < 0  (–4a)2 – 4 1 (b + 1) < 0 Divided both sides by 4.  16a2 – 4 (b + 1) < 0  (b + 1) > 4a2  b > 4a2 – 1  b > (2a + 1) (2a - 1)"
@@ -147,7 +147,7 @@
       "m, n",
       "a, n",
       "a + 1, b + 1",
-      "m,"
+      "m, b"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (m, n) | Solution: (a) (x – m) (x – n) = k x2 – x(m + n) + mn = k x2 – x(m + n) + (mn – k) = 0 sum of roots (a + b) = m + n product of roots (ab) = (mn – k) Now, (x – a) (x – b) = – k x2 – x(a + b) + ab = – k x2 – x(a + b) + ab + k = 0 ...... (i) Putting the va"
@@ -212,13 +212,13 @@
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
     "question": "If the roots of the equation a(b – c)x2 + b(c – a)x + c(a – b) = 0 are equal, then which of the following is true?",
     "options": [
-      "b ",
-      "     ",
-      "2b      ",
-      "abc = ab + bc + ca"
+      "( a  c )/(b )",
+      "(2  1   1 )/(     )",
+      "( 1 )/(2b      )",
+      "( 1 )/(abc = ab + bc + ca)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (     )"
+    "explanation": "Correct Answer: Option B | ((2  1   1 )/(     ))"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q014",
@@ -314,13 +314,13 @@
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
     "question": "The system of equations 2x + ky =11, 5x – 7y = 5 has no solution when k = _____.",
     "options": [
-      "/5",
-      "13  14/5",
-      "/5",
-      "16 13/5"
+      "( 13)/5",
+      "( 14)/5",
+      "( 16)/5",
+      "13/5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (13  14/5)"
+    "explanation": "Correct Answer: Option B | (( 14)/5)"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q020",
@@ -382,13 +382,13 @@
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
     "question": "A root of equation ax2 + bx + c = 0 (where a, b and c are rational numbers) is 5 + 3 3 . What is the value a 2  b 2  c 2 of . a  b  c",
     "options": [
-      "35/3",
-      "105/11",
-      "/3",
-      "7 105/13"
+      "35",
+      "105/(–)",
+      " 7",
+      "105"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (105/11)"
+    "explanation": "Correct Answer: Option B | (105/(–))"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q024",
@@ -399,13 +399,13 @@
     "sheetFile": "Quadratic Equations (Pro Level Sheet).pdf",
     "question": "If P and Q are the roots of the equation x2 – 2x + 4 = 0 P 3 Q 3 then what is the equation whose roots are 2 and ? Q P 2",
     "options": [
-      "x2 - 4x + 8 = 0",
-      "x2 – 32x + 4 = 0",
-      "x2 - 2x + 4 = 0",
-      "x2 – 16 + 4 = 0"
+      "Q/(x2 - 4x + 8 = 0)",
+      "(P 2)/(x2 – 32x + 4 = 0)",
+      "(a) x2 - 4x + 8 = 0/(x2 - 2x + 4 = 0)",
+      "(b) x2 – 32x + 4 = 0/(x2 – 16 + 4 = 0)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (x2 - 2x + 4 = 0)"
+    "explanation": "Correct Answer: Option C | ((a) x2 - 4x + 8 = 0/(x2 - 2x + 4 = 0))"
   },
   {
     "id": "rkr_quadratic_equation_quadratic_equations_pro_level_sheet_q025",

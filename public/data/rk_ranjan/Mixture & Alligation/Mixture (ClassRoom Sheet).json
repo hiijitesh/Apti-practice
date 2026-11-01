@@ -6,15 +6,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A canister holds 36 litres of mixture of",
+    "question": "A canister holds 36 litres of mixture of milk and water in the ratio 3 : 1. 15 litres of milk is added to the canister. The new ratio of the mixture is :",
     "options": [
       "12 : 5",
       "14 : 3",
       "7 : 4",
       "9 : 4"
     ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14 : 3)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In a mixture of 25 litres, the ratio of acid to water is 4 : 1. Another 3 litres of water is added to the mixture. The ratio of acid to water in the new mixture is",
+    "options": [
+      "5 : 2",
+      "2 : 5",
+      "3 : 5",
+      "5 : 3"
+    ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (12 : 5)"
+    "explanation": "Correct Answer: Option A | (5 : 2)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q003",
@@ -23,7 +40,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "There is a 32L mixture of milk and water.",
+    "question": "There is a 32L mixture of milk and water. The ratio of milk and water in this mixture is 5 : 3. How many litres of water should be added to this mixture so that the resultant mixture has 50% water in it?",
     "options": [
       "8",
       "6",
@@ -40,15 +57,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "If 49 litres of a milk solution has 63% milk",
+    "question": "If 49 litres of a milk solution has 63% milk in it, then how much milk should be added to make the concentration of milk 70% in the solution?",
     "options": [
-      "11 Litres",
-      "14 Litres",
-      "12 Litres",
-      "13 Litres"
+      "13/(11    Litres)",
+      "7/(14    Litres)",
+      "11/(12    Litres)",
+      "1/(13    Litres)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (11 Litres) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option A | (13/(11    Litres)) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q005",
@@ -57,15 +74,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture contains alcohol and water",
+    "question": "A mixture contains alcohol and water in the ratio of 12:5. On adding 14 liters of water, the ratio of alcohol to water becomes 4:3. The quantity of alcohol in the mixture is:",
     "options": [
       "18 L/yhVj",
       "28 L/yhVj",
       "30 L/yhVj",
-      "42 L/yhV"
+      "42 L/yhVj"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (42 L/yhV) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option D | (42 L/yhVj) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q006",
@@ -74,7 +91,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "An alloy contains copper, zinc and nickel",
+    "question": "An alloy contains copper, zinc and nickel in the ratio of 5 : 3 : 2. The quantity of nickel (in kg) that must be added to 100 kg of this alloy to have the new ratio 5 : 3 : 3 is :",
     "options": [
       "8",
       "10",
@@ -125,7 +142,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 18 litres mixture of milk",
+    "question": "A vessel contains 18 litres mixture of milk and water in the ratio 5: 1. If 3 litres of milk is added to the vessel, then how much water (in litres) should be added to the vessel to have milk and water in the ratio 9: 2?",
     "options": [
       "2",
       "1.5",
@@ -142,7 +159,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A beaker contains acid and water",
+    "question": "A beaker contains acid and water in the ratio 1 : x. When 50 ml of water is mixed in 300 ml of the mixture the ratio of acid to water becomes 2 : 5. What is the value of x?",
     "options": [
       "2",
       "1",
@@ -159,7 +176,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A jar contains a blend of a fruit juice and",
+    "question": "A jar contains a blend of a fruit juice and water in the ratio 5 : x. When 1 litre of water is added to 4 litres of the blend the ratio of fruit juice to water becomes 1 : 1. What is the value of x?",
     "options": [
       "3",
       "1",
@@ -176,7 +193,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains a 32 litre solution of acid",
+    "question": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12litres of the solution 1 are taken out and 7 litres of water are 2 added to it, then what is the ratio of acid and water in the resulting solution?",
     "options": [
       "4 : 7",
       "8 : 11",
@@ -193,7 +210,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel full of pure acid contains 10 litres of it, of which 2 litres are withdrawn. The vessel is then filled with water. Next 2 litres of the mixture are withdrawn, and again the vessel is filled up with water.",
+    "question": "A vessel full of pure acid contains 10 litres of it, of which 2 litres are withdrawn. The vessel is then filled with water. Next 2 litres of the mixture are withdrawn, and again the vessel is filled up with water. The ratio of the acid left in the vessel with that of the original quantity is :",
     "options": [
       "1 : 5",
       "4 : 5",
@@ -210,7 +227,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 20 litres of acid. 5 litres of acid is taken out of the vessel and replaced by the same quantity of water. Next 5 litres of the mixture are withdrawn, and again the vessel is filled with the same quantity of water. The ratio of acid left",
+    "question": "A vessel contains 20 litres of acid. 5 litres of acid is taken out of the vessel and replaced by the same quantity of water. Next 5 litres of the mixture are withdrawn, and again the vessel is filled with the same quantity of water. The ratio of acid left in the vessel with the quantity of acid initially in the vessel is :",
     "options": [
       "4 : 5",
       "4 : 25",
@@ -232,7 +249,7 @@
       "11.52 ltr",
       "46.08 ltr",
       "23.04 ltr",
-      "69.12 lt"
+      "69.12 ltr"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (46.08 ltr)"
@@ -244,12 +261,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk to water",
+    "question": "The ratio of milk to water in a 100 litres mixture is 2 : 3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in final mixture?",
     "options": [
       "56.26 percent",
       "58.21 percent",
       "51.24 percent",
-      "54.27 percen"
+      "54.27 percent"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (56.26 percent) | Exam: SSC CGL TIER - II 08/08/2022"
@@ -261,12 +278,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial",
+    "question": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial quantity of milk in the vessel.",
     "options": [
       "28 litre",
       "26 litre",
       "36 litre",
-      "46 litr"
+      "46 litre"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (26 litre)"
@@ -278,7 +295,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel is full of ethanol. 12L of ethanol is taken out & replaced by water. This process is repeated further two times. Find",
+    "question": "A vessel is full of ethanol. 12L of ethanol is taken out & replaced by water. This process is repeated further two times. Find the initial amount of ethanol in the vessel. If at the end the ratio of water and ethanol becomes 91:125?",
     "options": [
       "91 L",
       "28 L",
@@ -295,7 +312,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a mixture is 7 : 5. How much part of the mixture should be replaced by water so hat ratio of milk and water is 2 : 3?",
     "options": [
       "11/35",
       "11/25",
@@ -312,7 +329,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a mixture is 2 : 1. How much part of the mixture should be replaced by water so that ratio of milk and water is 5 : 3?",
     "options": [
       "1/14",
       "1/6",
@@ -329,7 +346,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A beaker is filled with a liquid, 3 parts of which are water and 7 parts some medicine. What part of the mixture should be replaced with water so that that the resultant mixture has water and medicine",
+    "question": "A beaker is filled with a liquid, 3 parts of which are water and 7 parts some medicine. What part of the mixture should be replaced with water so that that the resultant mixture has water and medicine in a ratio1:1?",
     "options": [
       "2/7",
       "1/7",
@@ -346,7 +363,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contained a solution of acid and",
+    "question": "A vessel contained a solution of acid and water, in which water was 64%. Four litres of the solution was taken out of the vessel and the same quantity of water was added. If the resulting solution contains 30% acid, the quantity (in litres) of the water in the solution, at the beginning in the vessel, was:",
     "options": [
       "11.36",
       "15.36",
@@ -363,7 +380,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A jar contained a mixture of two liquids",
+    "question": "A jar contained a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture was taken out and 10 litres of liquid B was poured into the jar, this ratio became 2 : 3. The quantity of liquid A contained in the jar initially was",
     "options": [
       "4 litres",
       "8 litres",
@@ -380,12 +397,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A container contains a mixture of two",
+    "question": "A container contains a mixture of two liquids, A and B, in the proportion 7 : 5. If 9 liters of the mixture is replaced by 9 liters of Liquid B, then the ratio of the two liquids becomes 7 : 9. How much of liquid A was there in the container initially?",
     "options": [
       "21 liters",
       "35 liters",
       "40 liters",
-      "19 liter"
+      "19 liters"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (21 liters) | Exam: SSC MTS 05/07/2022 (Shift- 03)"
@@ -397,15 +414,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a vessel is 13:11. If 48ltr of mixture is taken out and 81 ltr water is added then ratio of milk and water becomes 7:8. Find quantity of milk in initial mixture.",
     "options": [
       "301 ltr",
       "325 ltr",
       "295 ltr",
-      "299 lt"
+      "299 ltr"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (299 lt)"
+    "explanation": "Correct Answer: Option D | (299 ltr)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q026",
@@ -414,7 +431,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 64 liter of mixture of",
+    "question": "A vessel contains 64 liter of mixture of milk and water in the ratio 7 : 3 respectively. 8L of mixture is replaced by 12 liter milk. What is the ratio of milk and water in the resulting mixture?",
     "options": [
       "64 : 21",
       "35 : 22",
@@ -431,7 +448,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "75 L of a mixture contains milk and water",
+    "question": "75 L of a mixture contains milk and water in ratio 11 : 6. 15 L of mixture is taken out and replaced by 20 L of water. From current mixture 10 L of the current mixture is taken out and replaced by 40 L of water in the current mixture. Then what is the current ratio of milk and water in the mixture?",
     "options": [
       "21 : 47",
       "23 : 25",
@@ -448,7 +465,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two containers of equal capacity are full of mixture of milk and water.",
+    "question": "Two containers of equal capacity are full of mixture of milk and water. In the first, the ratio of milk to water is 3 : 7 and in the second it is 7 : 9. Now both the mixtures are mixed in a bigger container. What is the resulting ratio of milk to water?",
     "options": [
       "59 : 101",
       "57 : 107",
@@ -465,7 +482,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The compositions of two mixtures A and B are as follows: The ratio of copper and",
+    "question": "The compositions of two mixtures A and B are as follows: The ratio of copper and tin in mixture A is 1 : 2. The ratio of copper and tin in mixture B is 1 : 3. If mixture C is made by using equal quantities of mixture A and B, then find the ratio of copper and tin in mixture C.",
     "options": [
       "2 : 5",
       "7 : 17",
@@ -482,7 +499,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloys A and B contain copper and zinc",
+    "question": "Alloys A and B contain copper and zinc in the ratio 7 : 8 and 4 : 1, respectively. In what ratio should A and B be mixed to obtain a new alloy C containing copper and zinc in the ratio 2 : 1 ?",
     "options": [
       "2 : 3",
       "5 : 6",
@@ -499,7 +516,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two containers have mixtures of milk and",
+    "question": "Two containers have mixtures of milk and water, respectively, in the ratios 3 : 2 and 6 : 5. In what ratio should the contents be mixed so that the ratio of milk to water in the final mixture is 4 : 3?",
     "options": [
       "10 : 11",
       "6 : 13",
@@ -516,7 +533,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "An alloy contains a mixture of two metals",
+    "question": "An alloy contains a mixture of two metals X and Y in the ratio of 2 : 3. The second alloy contains a mixture of the same metals, X and Y, in the ratio 7 : 3. In what ratio should the first and the second alloys be mixed so as to make a new alloy containing 50% of metal X?",
     "options": [
       "3 : 4",
       "3 : 1",
@@ -533,7 +550,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A and B are two alloys of gold and copper",
+    "question": "A and B are two alloys of gold and copper prepared by mixing metals in ratios 7 : 2 and 7 : 11 respectively. If equal quantities of the alloys are melted to form a third alloy C, the ratio of gold and copper in C will be",
     "options": [
       "7 : 5",
       "5 : 9",
@@ -550,15 +567,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "One cup has juice and water",
+    "question": "One cup has juice and water in the ratio 5 : 2, while another cup of the same capacity has them in the ratio 7: 4, respectively. If contents of both the cups (when full) are poured in a vessel, then what will be the final ratio of water to juice in the vessel?",
     "options": [
       "52 : 25",
       "25 : 26",
       "26 : 25",
-      "25 : 52 Mixtur"
+      "25 : 52"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (25 : 52 Mixtur) | Exam: SSC CGL TIER - II 29/01/2022"
+    "explanation": "Correct Answer: Option D | (25 : 52) | Exam: SSC CGL TIER - II 29/01/2022"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In two types of brass, the ratios of Copper to Zinc are 8:3 and 15:7 respectively. If the two types of brass be melted and mixed in the ratio 5:2 a new type of brass is obtained. The ratio of Copper to Zinc in this new type of brass is",
+    "options": [
+      "3:2",
+      "2:3",
+      "3:4",
+      "5:2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5:2)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q036",
@@ -567,7 +601,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratios of copper to zinc",
+    "question": "The ratios of copper to zinc in alloys A and B are 3 : 4 and 5 : 9, respectively. A and B are taken in the ratio 2 : 3 and melted to form a new alloy C. What is the ratio of copper to zinc in C?",
     "options": [
       "27 : 43",
       "8 : 13",
@@ -578,21 +612,38 @@
     "explanation": "Correct Answer: Option A | (27 : 43)"
   },
   {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In vessels X and Y, the ratios of acid and water are 3 : 7 and 1 : 3, respectively. The contents of X and Y are mixed in the ratio of 1 : 2 to get a solution in which acid and water are in the ratio a : b. What is b  a the value of ? b – a",
+    "options": [
+      "15/7",
+      "11/7",
+      "13/7",
+      "12/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15/7) | Exam: SSC Phase IX 2022"
+  },
+  {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q038",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloy A contains metals x and y only",
+    "question": "Alloy A contains metals x and y only in the ratio 5 : 2, while alloy B contains them in the ratio 3 : 4 Alloy C is prepared by mixing alloys A and B in the ratio 4 : 5. The percentage of x in alloy C is:",
     "options": [
-      "55",
-      "55",
-      "55",
-      "55"
+      "2/55",
+      "1/55",
+      "4/55",
+      "5/55"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (55) | Exam: SSC CGL TIER - II 29/01/2022"
+    "explanation": "Correct Answer: Option D | (5/55) | Exam: SSC CGL TIER - II 29/01/2022"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q039",
@@ -601,7 +652,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Mixture A contains chocolate and milk",
+    "question": "Mixture A contains chocolate and milk in the ratio 4:3 and mixture B contains chocolate and milk in the ratio 5 : 2. A and B are taken in the ratio 5:6 and mixed to form a new mixture. The percentage of chocolate in the new mixture is closest to:",
     "options": [
       "35",
       "69",
@@ -618,15 +669,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloy A contain metals x and y",
+    "question": "Alloy A contain metals x and y in the ratio 5 : 2 and alloy B contains these metals in the ratio 3 : 4. Alloy C is prepared by mixing A and B in the ratio 4 : 5.The percentage of y in alloy C is:",
     "options": [
-      "44",
-      "33",
-      "66",
-      "55"
+      "4/(44    %)",
+      "4/(33 %)",
+      "4/(66 %)",
+      "5/(55 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (44) | Exam: SSC CGL 18/08/2021 (Shift 02)"
+    "explanation": "Correct Answer: Option A | (4/(44    %)) | Exam: SSC CGL 18/08/2021 (Shift 02)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q041",
@@ -635,7 +686,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The proportion of acid and water",
+    "question": "The proportion of acid and water in three samples is 2 : 1, 3 : 2 and 5 : 3. A mixture containing equal quantities of all three samples is made. The ratio of water and acid in the mixture is:",
     "options": [
       "120 : 133",
       "227 : 133",
@@ -652,7 +703,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A can have 25 litres of water and milk",
+    "question": "A can have 25 litres of water and milk mixed in the ratio of 1 : 4. If 3 litres of the mixture is emptied and 2 litres of milk are added and the same process is carried out one more time, what will be the final ratio of milk to water?",
     "options": [
       "49 : 11",
       "72 : 185",
@@ -669,7 +720,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Three utensils contain equal quantity of",
+    "question": "Three utensils contain equal quantity of mixtures of milk and water in the ratio 6 : 1, 5 : 2 and 3 : 1 respectively. If all the solutions are mixed together, the ratio of milk and water in the final mixture is :",
     "options": [
       "65 : 28",
       "65 : 19",
@@ -686,7 +737,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Three containers have their volumes",
+    "question": "Three containers have their volumes in the ratio 3 : 4 : 5. They are full of mixtures of milk and water. The mixtures contain milk and water in the ratio of (4 : 1), (3:1) and (5 : 2) respectively. The contents of all these three containers are poured into a fourth container. The ratio of milk and water in the fourth container is :",
     "options": [
       "4 : 1",
       "151 : 48",
@@ -703,7 +754,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "60 kg of an alloy A is mixed with 100 kg",
+    "question": "60 kg of an alloy A is mixed with 100 kg of alloy B. If alloy A has lead and tin in the ratio 3 : 2 and alloy B has tin and copper in the ratio 1 : 4, the amount of tin in the new alloy is",
     "options": [
       "53 kg",
       "44 kg",
@@ -712,6 +763,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (44 kg)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In two alloys A and B, the ratio of zinc to tin is 5 : 2 and 3 : 4 respectively. Seven kg of the alloy A and 21 kg of the alloy B are mixed together to form a new alloy. What will be the ratio of zinc and tin in the new alloy?",
+    "options": [
+      "2 : 1",
+      "1 : 2",
+      "2 : 3",
+      "1 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 1)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q047",
@@ -725,10 +793,27 @@
       "25 litres",
       "20 litres",
       "35 litres",
-      "30 litre"
+      "30 litres"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (30 litre)"
+    "explanation": "Correct Answer: Option D | (30 litres)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In a mixture of three varieties of tea, the ratio of their weights is 4 : 5 : 8. If 5 kg tea of the first variety, 10 kg tea of the second variety and some quantity of tea of the third variety are added to the mixture, the ratio of the weights of three varieties of tea becomes as 5 : 7 : 9. In the final mixture, the quantity (in kg) of the third variety of tea was",
+    "options": [
+      "42",
+      "45",
+      "48",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (45)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q049",
@@ -737,7 +822,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A solution of 45% alcohol is mixed with",
+    "question": "A solution of 45% alcohol is mixed with a solution of 60% alcohol in the ratio of 2 : 3. In what ratio should the resultant solution be mixed with a 72% alcohol solution to get a 66% alcohol solution?",
     "options": [
       "4 : 7",
       "1 : 3",
@@ -754,7 +839,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratios of alcohol to water",
+    "question": "The ratios of alcohol to water in solutions A and B are 3 : 5 and 9 : 7, respectively. A and B are mixed in the ratio 5 : 8. In 520 ml of the resulting solution, how much water (in ml) should be mixed so as to obtaina solution in which the ratio of alcohol to water is 3 : 4?",
     "options": [
       "85",
       "75",
@@ -771,7 +856,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of acid and water",
+    "question": "The ratio of acid and water in solution A is 5 : 4 and 7 : 11 in solution B. 10 litres of A is mixed with 8 litres of B. In 324 ml of the resulting solution, how much water (in ml) should be added to get a solution 1 containing 33 % acid? 3",
     "options": [
       "144",
       "154",
@@ -788,7 +873,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two vessels A and B, each with the capacity of 8 litres, are full of solutions of acid and",
+    "question": "Two vessels A and B, each with the capacity of 8 litres, are full of solutions of acid and water. The ratio of acid and water in Vessel A is 3 : 1 and that in case of Vessel Bis 5 : 3. Two litres of solution are taken out from B and added to A. After mixing thoroughly, 2 litres of solution are taken out from A and added to B. What is the ratio of acid and water in the final solution in B?",
     "options": [
       "11 : 8",
       "13 : 7",
@@ -805,7 +890,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A drink is made by mixing water and juice",
+    "question": "A drink is made by mixing water and juice in the ratio 9 : 7. If x litres of water and 2x litres of juice are mixed in 160 litres of drink, then the new ratio becomes 13 : 15. The quantity of drink (in litres) is:",
     "options": [
       "240",
       "280",
@@ -822,12 +907,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mango juice is made by mixing water and",
+    "question": "A mango juice is made by mixing water and mango concentrate in the ratio 9 : 7. If x litres of water and 3x litres of mango concentrate is mixed in 160 litres of mango juice, then the new ratio becomes 13 : 14. What is the quantity of the new mango juice (in litres)?",
     "options": [
       "197 litre",
       "212 litre",
       "206 litre",
-      "216 litr"
+      "216 litre"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (212 litre) | Exam: SSC CGL 23/09/2024 (Shift-02)"
@@ -856,7 +941,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The concentrations of three acids, A, B, and C, are specified as 20%, 30%, and 40%,",
+    "question": "The concentrations of three acids, A, B, and C, are specified as 20%, 30%, and 40%, respectively. They are blended in a ratio of 3 : 5 : a, yielding a solution with a concentration of 30%. What is the value of 'a'?",
     "options": [
       "3",
       "1",
@@ -873,7 +958,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "80 litres of a mixture of spirit and water",
+    "question": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
     "options": [
       "87 : 41",
       "131 : 77",
@@ -890,7 +975,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa",
+    "question": "A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16 : 9, then the ratio of cocoa in mixture P to that in mixture Q is.",
     "options": [
       "4 : 9",
       "1 : 3",
@@ -907,15 +992,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Anil mixes cocoa with sugar",
+    "question": "Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2: 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be.",
     "options": [
       "21",
       "16",
       "17",
       "24"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (21)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (17)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q060",
@@ -924,14 +1009,14 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture contains lemon juice and sugar",
+    "question": "A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is.",
     "options": [
       "1 : 6",
       "1 : 4",
       "1 : 7",
-      "1 : 5 KEY 6. 7. 8. 9. 10."
+      "1 : 5"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1 : 6)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 7)"
   }
 ]

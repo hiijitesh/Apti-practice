@@ -1,12 +1,29 @@
 [
   {
+    "id": "rkr_discount_discount_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Discount (ClassRoom Sheet).pdf",
+    "question": "In a clearance sale, a sari whose marked price was `10,490 is now sold for `9,441. What is the discount percentage on the sari?",
+    "options": [
+      "10",
+      "15",
+      "18",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10) | Exam: SSC CGL 09/09/2024 (Shift-03)"
+  },
+  {
     "id": "rkr_discount_discount_classroom_sheet_q002",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The marked price of an immersion rod",
+    "question": "The marked price of an immersion rod in an electronic store is `900. The store offers a can a customer buy it from the electronic store?",
     "options": [
       "787",
       "792",
@@ -23,7 +40,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "At a clearance sale, a shopkeeper gives 45% discount. If a customer paid `330 during the sale, then what is the marked price of that shirt ?",
+    "question": "At a clearance sale, a shopkeeper gives 45% then what is the marked price of that shirt ?",
     "options": [
       "`550",
       "`600",
@@ -40,7 +57,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The MP of an article was Rs.180 and it was",
+    "question": "The MP of an article was Rs.180 and it was sold at a discount of 15%, the discount in Rs. is:",
     "options": [
       "12",
       "15",
@@ -57,7 +74,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a discount of 26% on their total purchase. If Manish buys items worth Rs.2,050, how much",
+    "question": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a Manish buys items worth Rs.2,050, how much money (in) will he save through the scheme",
     "options": [
       "533",
       "544",
@@ -91,7 +108,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "An article was sold for Rs 716 after offering a discount of 10.5%. If a discount of 6.5% is given,",
+    "question": "An article was sold for Rs 716 after offering a then for how much (in Rs) should it be sold?",
     "options": [
       "748",
       "756",
@@ -125,15 +142,15 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "During a new-year sale, a shopkeeper offers a discount scheme to his customers, 'Buy 5 Sweaters, Get 2 Sweaters Free'. Find the effective percentage discount given by the shopkeeper.",
+    "question": "During a new-year sale, a shopkeeper offers a Sweaters, Get 2 Sweaters Free'. Find the effective percentage discount given by the shopkeeper.",
     "options": [
-      "28",
+      "4/(28 %)",
       "25",
-      "22",
-      "21"
+      "2/(22 %)",
+      "21%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (28)"
+    "explanation": "Correct Answer: Option A | (4/(28 %))"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q010",
@@ -147,7 +164,7 @@
       "A",
       "A does not give any discount",
       "A and B both have the same discount percentage",
-      "B TYPE - 3 Equivalent Discount of two Successive Discount"
+      "B"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (A) | Exam: SSC CGL 14/07/2023 (Shift-01)"
@@ -227,15 +244,15 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A shopkeeper sold an article at consequently 2 2 14 % & 16 % discount. Find overall 7 3 discount %. 2 2",
+    "question": "A shopkeeper sold an article at consequently 2 2 14 % & 16 % discount. Find overall 7 3 2 2",
     "options": [
-      "28",
-      "28",
-      "14",
-      "30"
+      "4/(28 %)",
+      "2/(28 %)",
+      "2/(14 %)",
+      "30%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (28)"
+    "explanation": "Correct Answer: Option A | (4/(28 %))"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q016",
@@ -244,7 +261,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Buy 11 get 3 free + 12.5% additional discount",
+    "question": "Buy 11 get 3 free + 12.5% additional discount will result in?",
     "options": [
       "25",
       "31.25",
@@ -314,8 +331,8 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "A shopkeeper offers 3 schemes of discounts to his customers. Which of the following schemes will fetch the minimum discount percentage?",
     "options": [
-      "A",
-      "C",
+      "(SSC CPO)/A",
+      "(27/06/2024 (Shift-01))/C",
       "Both A and C",
       "B"
     ],
@@ -365,13 +382,13 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "The marked price of an article is `50,000. From three shopkeepers, the first one allows two successive discounts of 25% and 15%. The second one allows two successive discounts 20% and 20%. The third shopkeeper allows two successive discounts of 30% and 10%. From which shopkeeper does the customer get more profit?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "First",
+      "Same for all the shopkeepers",
+      "Third/rhljs",
+      "Second"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 25/07/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (Third/rhljs) | Exam: SSC CGL 25/07/2023 (Shift-02)"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q024",
@@ -382,13 +399,13 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "The company offers the following four types of successive discounts on a computer which is listed at ` 6000.",
     "options": [
-      "(i) 25% and 15",
-      "(ii) 30% and 10",
-      "(iii) 35% and 5",
-      "(iv) 20% and 20% Which of these offers is best for a customer? SSC CHSL 08/08/2023 (Shift-01)"
+      "Fourth offer",
+      "First offer",
+      "Third offer",
+      "Second offer"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ((iii) 35% and 5)"
+    "explanation": "Correct Answer: Option C | (Third offer) | Exam: SSC CHSL 08/08/2023 (Shift-01)"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q025",
@@ -431,7 +448,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The single discount equivalent to a series discount of 60%, 70% and 80%.",
+    "question": "The single discount equivalent to a series",
     "options": [
       "97.6",
       "70",
@@ -533,7 +550,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Two successive discounts on the marked price of an article turns out to be equivalent to a single discount of 25%. If the rates of the first discount is 10%. what is the rate of second discount?",
+    "question": "Two successive discounts on the marked price of an article turns out to be equivalent to a single discount of 25%. If the rates of the first",
     "options": [
       "16.66",
       "37.5",
@@ -552,13 +569,13 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "Two successive discounts on the marked price of an article turns out to be equivalent to a 2 single discount of 22 % . If the rates of the 9 1 first discount is 12 % . what is the rate of 2 second discount? 2",
     "options": [
-      "16.66",
+      "16.66%/1",
       "37.5",
-      "11",
+      "(11 %)/9",
       "33.33"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11)"
+    "explanation": "Correct Answer: Option C | ((11 %)/9)"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q035",
@@ -567,7 +584,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "After getting two successive discounts, a calculator with a list price for Rs. 900 is available at Rs. 612. If the value of the second discount is 15%, what is the value of the first discount?",
+    "question": "After getting two successive discounts, a calculator with a list price for Rs. 900 is available at Rs. 612. If the value of the second",
     "options": [
       "20",
       "10",
@@ -620,9 +637,9 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "A shopkeeper sold two articles at two successive discount of x% and x%. If market price and selling price of article are ` 25 and ` 16. Find the value of x.",
     "options": [
-      "6.25",
+      "6.25%/1",
       "25",
-      "8",
+      "(8 %)/9",
       "20"
     ],
     "correctAnswer": 3,
@@ -635,7 +652,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "After giving two successive discounts, each of x%, on the market price of an article , the total discount is ` 259.20 . If the marked price of the article is ` 720 , then the value of x is :",
+    "question": "After giving two successive discounts, each of x%, on the market price of an article , the total the article is ` 720 , then the value of x is :",
     "options": [
       "18",
       "24",
@@ -720,7 +737,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The selling price of an article marked for ` 10000 after giving three discount 20%, 10% and k% is ` 6120. What will be selling price",
+    "question": "The selling price of an article marked for ` 10000 after giving three discount 20%, 10% and k% is ` 6120. What will be selling price (in `) of the same article if a single discount of (k + 20)% is allowed?",
     "options": [
       "8500",
       "6800",
@@ -737,7 +754,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The marked price of an article is Rs. 800. It is sold for Rs. 538.56, after offering three successive discounts of 10%, x % and 12%. If a single discount of 2x% is given on the",
+    "question": "The marked price of an article is Rs. 800. It is sold for Rs. 538.56, after offering three successive discounts of 10%, x % and 12%. If a single discount of 2x% is given on the marked price, then the selling price (in Rs.) of the article will be:",
     "options": [
       "576",
       "544",
@@ -759,7 +776,7 @@
       "`600",
       "`560",
       "`608",
-      "`520"
+      "`520 TYPE - 5"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (`600)"
@@ -805,7 +822,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A discount of 10% is offered on the price of an article if the payment is made online. An additional discount of 5% is given to credit card holders. A person wishes to buy a watch priced at Rs 60,000 by paying online through credit",
+    "question": "A discount of 10% is offered on the price of an article if the payment is made online. An additional discount of 5% is given to credit card holders. A person wishes to buy a watch priced at Rs 60,000 by paying online through credit card. How much does he need to pay (in Rs)?",
     "options": [
       "62,150",
       "51,300",
@@ -856,7 +873,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "The cost price of an article is `214. After allowing three successive discounts of 15%, 20% and 10% on its list price, it is sold for `153. If",
+    "question": "The cost price of an article is `214. After allowing three successive discounts of 15%, 20% and 10% on its list price, it is sold for `153. If it is sold at the list price, then the profit (in `) will be:",
     "options": [
       "49",
       "39",
@@ -873,7 +890,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A tractor manufacturing company sells each tractor for `5,00,000. Assuming that KISAN firm buys 50 tractors from them as a part of an annual contract, the company offers a trade discount of 10% to KISAN and an additional 2% discount if the payment is made within 30 days. What will be the amount payable by KISAN within 30 days for the consignment?",
+    "question": "A tractor manufacturing company sells each tractor for `5,00,000. Assuming that KISAN firm buys 50 tractors from them as a part of an annual contract, the company offers a trade days. What will be the amount payable by KISAN within 30 days for the consignment?",
     "options": [
       "`20,051,000",
       "`22,050,000",
@@ -890,7 +907,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Ramesh purchased some items from a dealer on 19 November 2019. The bill generated was for `5,480. He had also purchased some items on 10 November 2019 having the bill value of `9,800. He cleared both the bills this time and",
+    "question": "Ramesh purchased some items from a dealer on 19 November 2019. The bill generated was for `5,480. He had also purchased some items on 10 November 2019 having the bill value of `9,800. He cleared both the bills this time and paid the total amount in cash. If the dealer gives a scheme of 2% discount on the payments done within 10 days and 5% for the payments made in cash at the time of purchase, then find the amount paid by Ramesh on 19 November 2019?",
     "options": [
       "`14,850",
       "`14,810",
@@ -912,7 +929,7 @@
       "`2,760",
       "`2,915.50",
       "`2,775",
-      "`2,933"
+      "`2,933 TYPE - 6 Mumtaz Concept (eqerkt dkWUlsIV)"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (`2,915.50) | Exam: SSC CGL 12/12/2022 (Shift-04)"
@@ -1045,13 +1062,13 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "How much more price percentage than cost price a shopkeeper should mark on article so that after giving 30% discount, he gains 20% profit?",
     "options": [
-      "69",
-      "71",
-      "68",
-      "70"
+      "3/(69 %)",
+      "3/(71 %)",
+      "3/(68 %)",
+      "3/(70 %)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (71)"
+    "explanation": "Correct Answer: Option B | (3/(71 %))"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q064",
@@ -1077,15 +1094,15 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "When an article is sold at 5 percent discount, then there is a profit of 14 percent. If the discount is 11 percent, then what will be the profit?",
+    "question": "When an article is sold at 5 percent discount, then there is a profit of 14 percent. If the profit?",
     "options": [
       "7.6 percent",
       "8.4 percent",
       "7.2 percent",
-      "6.8 percent 1"
+      "6.8 percent"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6.8 percent 1) | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option D | (6.8 percent) | Exam: SSC CGL MAINS (08/08/2022)"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q066",
@@ -1096,9 +1113,9 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "When a shopkeeper gives a discount of 17 % on 2 the marked price of an item, his gain is 32%. If the gives d% discount on the same marked price, then his gain will be 36%. What is the value of d? 1",
     "options": [
-      "14",
+      "1/14",
       "16",
-      "12",
+      "1/12",
       "15"
     ],
     "correctAnswer": 3,
@@ -1111,7 +1128,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "If the price item is increased by 70% and then allows a scheme discount of 5% and 20% on",
+    "question": "If the price item is increased by 70% and then allows a scheme discount of 5% and 20% on this marked price. If price is paid in cash and additional discount of 20% is allowed then what is his gain percentage?",
     "options": [
       "2.25",
       "3.25",
@@ -1130,13 +1147,13 @@
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
     "question": "The cost price and the marked price of an item are ` 720 and ` 900 respectively. When it is 5 x sold at a discount of x%, the profit is % . 3 What is the value of x?",
     "options": [
-      "57",
-      "7",
-      "8",
-      "5"
+      "5/57",
+      "4/7",
+      "4/8",
+      "4/5"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (8) | Exam: SSC CGL 17/08/2021 (Shift- 03)"
+    "explanation": "Correct Answer: Option C | (4/8) | Exam: SSC CGL 17/08/2021 (Shift- 03)"
   },
   {
     "id": "rkr_discount_discount_classroom_sheet_q069",
@@ -1179,7 +1196,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A seller offers a discount of 12% if the total sale price of different products purchased by a single customer is below `3,000, and discount of 15% if the total sale value of all the products exceeds `3,000. A shirt costing `900 was sold to Anand after earning a margin of 9% and also a jacket costing `1,900 was sold to him after a margin of 6%. How much does",
+    "question": "A seller offers a discount of 12% if the total sale price of different products purchased by a single customer is below `3,000, and discount of 15% if the total sale value of all the products exceeds `3,000. A shirt costing `900 was sold to Anand after earning a margin of 9% and also a jacket costing `1,900 was sold to him after a margin of 6%. How much does Anand have to pay (in `) for the final settlement of the bill?",
     "options": [
       "2,953.60",
       "3.005.40",
@@ -1213,7 +1230,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A shopkeeper sells an item by giving 25% discount on its marked price and still gains 35%. If the cost price of the item decreases by 10%, and he sells it by allowing 37.5% discount on the same marked price, then his gain percentage will be _____.",
+    "question": "A shopkeeper sells an item by giving 25% 35%. If the cost price of the item decreases by 10%, and he sells it by allowing 37.5% discount on the same marked price, then his gain percentage will be _____.",
     "options": [
       "25",
       "20.5",
@@ -1264,7 +1281,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A retailer announces a discount of 30% for selling an air-conditioner marked at `92,000. The cost price of the air-conditioner is 70% below the marked price. He offers a further discount of 20% if the buyer presents his membership card of the retailer's store. The profit of the retailer with the membership card scheme is what percentage of the profit of the retailer without the membership card scheme?",
+    "question": "A retailer announces a discount of 30% for selling an air-conditioner marked at `92,000. The cost price of the air-conditioner is 70% below the marked price. He offers a further membership card of the retailer's store. The profit of the retailer with the membership card scheme is what percentage of the profit of the retailer without the membership card scheme?",
     "options": [
       "62",
       "65",
@@ -1281,7 +1298,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Rohan purchased an item for which there was a 13.5% discount offered on the part of the",
+    "question": "Rohan purchased an item for which there was a 13.5% discount offered on the part of the payment made in cash and a 6.25% surcharge on the part of the payment made through a credit card. If Rohan would have paid the entire amount in cash he would have paid Rs. y for the item. But he actually had to pay Rs. 40964 in all for the item, out of which Rs. 29064 was paid in cash. What is the value of y?",
     "options": [
       "35700",
       "38752",
@@ -1298,7 +1315,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "A shopkeeper buys three varieties of pulses at Rs 132, Rs 160 and Rs y per kg respectively",
+    "question": "A shopkeeper buys three varieties of pulses at Rs 132, Rs 160 and Rs y per kg respectively and mixes them in the ratio 9 : 2 : 1. The marked price per kg of the blended pulses is fixed at Rs 238, the shopkeeper gives a 1 6 still earns a profit of 40%. What is the value of y?",
     "options": [
       "192",
       "200",
@@ -1315,7 +1332,7 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Neeraj sells sarees for 3,944 each, after giving two successive discounts of 15% and 20% on its marked price. If he sells a saree giving no discount on its marked price, then he earns a profit of 45%. If he sells a saree for Rs.4,496, then his profit percentage will be ____.",
+    "question": "Neeraj sells sarees for 3,944 each, after giving two successive discounts of 15% and 20% on its marked price. If he sells a saree giving no profit of 45%. If he sells a saree for Rs.4,496, then his profit percentage will be ____.",
     "options": [
       "12",
       "15",
@@ -1332,14 +1349,14 @@
     "chapter": "Discount",
     "sheetType": "ClassRoom",
     "sheetFile": "Discount (ClassRoom Sheet).pdf",
-    "question": "Ramanna purchased raw materials for a certain price to manufacture a product. However, owing to shortage of labour, 22.5% of the raw materials could not be utilised and got wasted. 80% of the cost of raw materials used was added as the cost of manufacturing. If Ramanna could sell his product at a price to ANSWER",
+    "question": "Ramanna purchased raw materials for a certain price to manufacture a product. However, owing to shortage of labour, 22.5% of the raw materials could not be utilised and got wasted. 80% of the cost of raw materials used was added as the cost of manufacturing. If Ramanna could sell his product at a price to earn an overall profit of 20% after offering a cost of the raw materials purchased was the marked price of the product?",
     "options": [
       "2.44 times",
       "42 times",
-      "7. (a) 8.",
-      "9. (a) 10. (a)"
+      "2.43 times",
+      "2.40 times"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (7. (a) 8.)"
+    "explanation": "Correct Answer: Option C | (2.43 times) | Exam: SSC CPO 27/06/2024 (Shift-01)"
   }
 ]

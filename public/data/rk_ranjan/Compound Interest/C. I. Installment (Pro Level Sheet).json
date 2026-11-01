@@ -6,7 +6,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A man borrowed a certain sum and it by paying `4000 at the end of first at the end of second year. If the interest compounded annually is",
+    "question": "A man borrowed a certain sum and agrees to repay it by paying `4000 at the end of first year and `7700 at the end of second year. If the rate of compound interest compounded annually is 10% per annum, then find the sum (in `)",
     "options": [
       "11500",
       "11000",
@@ -23,7 +23,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Rajesh purchased a Television which on the terms that he is required down payment followed by Rs.2794 first year, Rs.6292 at the end of Rs.1331 at the end of third compounded at the rate of 10% per the cash down payment.",
+    "question": "Rajesh purchased a Television which costs Rs.13240 on the terms that he is required to pay some cash down payment followed by Rs.2794 at the end of first year, Rs.6292 at the end of second year and Rs.1331 at the end of third year. Interest is compounded at the rate of 10% per annum. Calculate the cash down payment.",
     "options": [
       "Rs.3000",
       "Rs.4500",
@@ -40,7 +40,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A computer is available for Rs.76800 down payment and three equal installments. If the interest charged compounded half yearly, then the",
+    "question": "A computer is available for Rs.76800 cash or Rs.23840 down payment and three equal half yearly - installments.",
     "options": [
       "Rs.10848",
       "Rs.10878",
@@ -57,7 +57,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A man borrow Rs.10,000 at 5% per interest. He repays 35% of the sum end of the first year and 42% of at the end of the second year. How pay at the end of the third year the debt?",
+    "question": "A man borrow Rs.10,000 at 5% per annum compound interest. He repays 35% of the sum borrowed at the end of the first year and 42% of the sum borrowed at the end of the second year. How much must be pay at the end of the third year in order to clear the debt?",
     "options": [
       "Rs.3,398.50",
       "Rs.3,371.50",
@@ -74,15 +74,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A person borrowed year and `7700 3 years, interest rate of compound of two years, he 10% per annum, 3rd year, he paid value of x?",
+    "question": "A person borrowed a sum of `30800 at 10% p.a. for 3 years, interest compounded annually. At the end of two years, he paid a sum of `13268. At the end of 3rd year, he paid `x to clear of the debt. What is the value of x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26200",
+      "26620",
+      "26400",
+      "26510"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Solution: (c) 110 110 110 –13268 100 100 100       – x = 0  [37268 – 13268] 11 10 = x  24000 11 10 = x  x = 26400"
+    "explanation": "Correct Answer: Option C | (26400) | Solution: (c) 110 110 110 –13268 100 100 100       – x = 0  [37268 – 13268] 11 10 = x  24000 11 10 = x  x = 26400"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q006",
@@ -91,15 +91,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Kusum borrowed to pay some cash quarterly installments at the end of of interest was second year and the total interest year. Interest is dqlqe us iSlk m/kj annum. Calculate",
+    "question": "Kusum borrowed money and returned it in 3 equal quarterly installments of Rs.4630.50 each. If the rate of interest was 20% p.a. compounded quarterly find the total interest charged.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1281.5",
+      "4238.42",
+      "4540.40",
+      "4732.41"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (a) Rate = 5% = 1 20 + Interest = 2563 Principal : Installment 1st year 20 : 21 2nd year 400 : 441 8000 9261 3rd year : 25220 27783    Given, that 9261 unit = 4630.5 then, 2563 unit = 4630.50 2563 9261  = Rs.1281.5"
+    "explanation": "Correct Answer: Option A | (1281.5) | Solution: (a) Rate = 5% = 1 20 + Interest = 2563 Principal : Installment 1st year 20 : 21 2nd year 400 : 441 8000 9261 3rd year : 25220 27783    Given, that 9261 unit = 4630.5 then, 2563 unit = 4630.50 2563 9261  = Rs.1281.5"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q007",
@@ -108,15 +108,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A mobile phone payment or by payment and the annual installments.",
+    "question": "A mobile phone is available for Rs.79,860 by cash payment or by paying cash of Rs.60,000 as down payment and the remaining amount in three equal annual installments. If the shopkeeper charges interest at the rate of 10% per annum compounded annually, then the amount of each installment (in) will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.7,986",
+      "Rs.6,789",
+      "Rs.65689",
+      "Rs.6,000"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (a) Amount to be paid installment = (79860 – 60000) = Rs.19860 Rate = 10%  1 10 + Principal : Installment 1st year 10 : 11 2nd year 100 : 121 1331 1000 3rd year : 3310    1331 Amount of each installment = 19860 3310 = Rs.7986"
+    "explanation": "Correct Answer: Option A | (Rs.7,986) | Solution: (a) Amount to be paid in installment = (79860 – 60000) = Rs.19860 Rate = 10%  1 10 + Principal : Installment 1st year 10 : 11 2nd year 100 : 121 1331 1000 3rd year : 3310    1331 Amount of each installment = 19860 3310 = Rs.7986"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q008",
@@ -125,15 +125,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Amit borrows a annum compound interest for 4 years. borrowed at the the first year and the sum borrowed year. To clear the much must be 4 years, interest",
+    "question": "Amit borrows a sum of `8,000 at 10% p.a. compound interest for 4 years. He repays `2,800 at the end of the first year and `2,600 at the end of the second year. To clear the loan, how much should he pay after 4 years, interest being compounded yearly?",
     "options": [
       "`4800",
-      "26620",
-      "`4840 Installment (C.I.) a sum of `30800 at 10% p.a. for compounded annually. At the end paid a sum of `13268. At the end of `x to clear of the debt. What is the",
-      "26510 of Rs.4630.50 each. If the rate 20% p.a. compounded quarterly find charged. (b) 4238.42 (d) 4732.41 is available for Rs.79,860 by cash paying cash of Rs.60,000 as down If the shopkeeper charges rate of 10% per annum compounded (b) Rs.6,789 (d) Rs.6,000 sum of `8,000 at 10% p.a. compound He repays `2,800 at the end of `2,600 at the end of the second loan, how much should he pay after being compounded yearly? (b) `4880 (d) `4780 gaS Selection fnyk,axs 1"
+      "`4880",
+      "`4840",
+      "`4780"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (`4840 Installment (C.I.) a sum of `30800 at 10% p.a. for compounded annually. At the end paid a sum of `13268. At the end of `x to clear of the debt. What is the) | Solution: (c) Given, Principle = Rs.8000 Amount left after Ist year = 8000 (1.1) – 2800 = 6000 Amount left after IInd year = 6000 (1.1) – 2600 = 4000 Amount paid at the end of 4th year = 11 11 4000 10 10   = 4840"
+    "explanation": "Correct Answer: Option C | (`4840) | Solution: (c) Given, Principle = Rs.8000 Amount left after Ist year = 8000 (1.1) – 2800 = 6000 Amount left after IInd year = 6000 (1.1) – 2600 = 4000 Amount paid at the end of 4th year = 11 11 4000 10 10   = 4840"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q009",
@@ -142,7 +142,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A person took a loan of Rs.6000 for 3 years, at 5% per annum compound interest. He repaid Rs.2100",
+    "question": "A person took a loan of Rs.6000 for 3 years, at 5% per annum compound interest. He repaid Rs.2100 in each of the first 2 years. The amount he should pay at the end of 3rd year to clear all his debts is:",
     "options": [
       "Rs.2425.50",
       "Rs.2552.50",
@@ -150,7 +150,7 @@
       "Rs.2745.50"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.2425.50) | Solution: (a) Given that, Principal = Rs.6000 ATQ, Amount to be paid 3rd year = 21 21 21 6000 – 2100 – 2100 20 20 20             =  21 21 6300 – 2100 – 2100 20 20       = 21 21 – 2100 20 20       = 21 2310 20       = Rs.2425.50"
+    "explanation": "Correct Answer: Option A | (Rs.2425.50) | Solution: (a) Given that, Principal = Rs.6000 ATQ, Amount to be paid in 3rd year = 21 21 21 6000 – 2100 – 2100 20 20 20             =  21 21 6300 – 2100 – 2100 20 20       = 21 21 – 2100 20 20       = 21 2310 20       = Rs.2425"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q010",
@@ -159,15 +159,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A Bluetooth speaker is sold for `3,500 cash, or",
+    "question": "A Bluetooth speaker is sold for `3,500 cash, or `1,000 cash down payment and the balance in 3 equal annual instalments. If rate of interest is 12.5% per annum and interest is compounding annually, then find the amount of each instalment. (correct to 2 decimal places)",
     "options": [
       "`1,019.83",
       "`1,249.83",
       "`1,049.83",
       "`1,149.83"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`1,019.83) | Solution: (c) Amount to be paid = 3500 – 1000 = Rs.2500"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`1,049.83) | Solution: (c) Amount to be paid = 3500 – 1000 = Rs.2500"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q011",
@@ -176,15 +176,15 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "A man borrows a certain money from a bank and",
+    "question": "A man borrows a certain money from a bank and promise to pay the amount in two equal annual installments at the rate of 12.5% per annum compounded annually. If the total interest paid by him was Rs.7020. Find the principal",
     "options": [
       "36270",
       "36720",
       "35260",
       "45265"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (36270) | Solution: (b) Rate = 12.5% = 1 8 + Principal : Installment 1st year 8 : 9 64 81 2nd year : 136 162   Interest = 26 Total Principal = 7020 26 136 = Rs.36720"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36720) | Solution: (b) Rate = 12.5% = 1 8 + Principal : Installment 1st year 8 : 9 64 81 2nd year : 136 162   Interest = 26 Total Principal = 7020 26 136 = Rs.36720"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_pro_level_sheet_q012",
@@ -193,7 +193,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Rajnish borrowed `1,500 from a bank and repaid the",
+    "question": "Rajnish borrowed `1,500 from a bank and repaid the entire amount with interest in two equal annual installments, the first installment being paid one year after Rajnish borrowed from the bank. If the rate of interest was 40% per annum, compounded annually, then what was the value (in `) of each installment paid by Rajnish?",
     "options": [
       "1125",
       "1470",
@@ -227,7 +227,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Raju borrowed a sum of 42,000 at 10% p.a. compound",
+    "question": "Raju borrowed a sum of 42,000 at 10% p.a. compound interest and initially planned to repay it in two equal installments (the installment being paid at the end of each year). He actually repaid it in three equal installments. What is the difference between each installment initially planned and each installment actually paid (round off to the nearest rupee)?",
     "options": [
       "Rs.6,226",
       "Rs.7,311",
@@ -244,7 +244,7 @@
     "chapter": "Compound Interest",
     "sheetType": "Pro Level",
     "sheetFile": "C. I. Installment (Pro Level Sheet).pdf",
-    "question": "Pankaj borrowed Rs.10815, which is to be paid back",
+    "question": "Pankaj borrowed Rs.10815, which is to be paid back in 3 equal half yearly installments. If the interest is 40 compounded half yearly at % per annum, how 3 much is each installment?",
     "options": [
       "2048",
       "3150",

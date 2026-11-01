@@ -1,5 +1,107 @@
 [
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, AD is the internal bisector of A, meeting the side BC at D. If BD = 5 cm, BC = 7.5 cm, then AB : AC is:",
+    "options": [
+      "1 : 2",
+      "1 : 3",
+      "3 : 1",
+      "2 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 1) | Exam: SSC CPO 27/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In DEF, the bisector of D intersects side EF at point N. If DE = 36 cm, DF = 40 cm and EF = 38 cm, then the length (in cm) of NF is ______.",
+    "options": [
+      "16",
+      "20",
+      "18",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20) | Exam: SSC CGL 12/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, the bisector of angle BAC meets BC at point D such that DC = 2BD. If AC – AB = 5 cm, then find the length of AB (in cm).",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5) | Exam: SSC CGL 19/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In triangle ABC, AD is the bisector of A. If AB = 5 cm, AC = 7.5 cm and BC = 10 cm, then what is the distance of D from the mid-point of BC (in cm) ?",
+    "options": [
+      "2",
+      "1.5",
+      "2.2",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1) | Exam: SSC CGL 23/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, AD is a median. The bisectors of ADB and ADC meet AB and AC at E and F respectively. If the ratio of AE : BE = 3 : 4, then find the ratio of EF : BC.",
+    "options": [
+      "3 : 4",
+      "4 : 3",
+      "7 : 3",
+      "3 : 7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 : 7)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A = 90°, AD is the bisector of A meeting BC at D, and DE  AC at E. If AB = 10 cm and AC = 15 cm then the length of DE, in cm, is:",
+    "options": [
+      "7.5",
+      "6.25",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q007",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -15,6 +117,108 @@
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (3 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, AB : AC = 5 : 2, BC = 9 cm. BA is produced to D, and the bisector of the CAD meets BC produced at E. What is the length (in cm) of CE?",
+    "options": [
+      "9",
+      "10",
+      "6",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6) | Exam: SSC CGL 13/08/2021 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A = 88°. If I is the incentre of the triangle, then measure of BIC is:",
+    "options": [
+      "112°",
+      "134°",
+      "56°",
+      "68°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (134°) | Exam: SSC CGL 12/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, the bisectors of ABC and ACB in- tersect each other at point O. If BOC is 125°, then the BAC is equal to:",
+    "options": [
+      "82°",
+      "78º",
+      "75°",
+      "70°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (70°) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In OPQ, O = 50°, P = 70°, and the bisectors of P and Q meet at R. Find PRQ.",
+    "options": [
+      "118°",
+      "125°",
+      "120°",
+      "115°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (115°) | Exam: SSC Phase XII 25/06/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, O is the point of intersection of the bisectors of B and A. If BOC = 108°, then BAO = ?",
+    "options": [
+      "40°",
+      "18°",
+      "36°",
+      "27°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18°) | Exam: SSC CGL MAINS 29/06/2022"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A = 66° and B = 50°. If the bisectors of B and C meet at P, then, BPC – PCA = ?",
+    "options": [
+      "93°",
+      "91°",
+      "81°",
+      "83° (iv) The angle between the external bisectors of two angles of a triangle is difference between right angle and half of the third angle."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (91°) | Exam: SSC CGL MAINS 29/01/2022"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q014",
@@ -45,10 +249,27 @@
       "55°",
       "65°",
       "54°",
-      "35°"
+      "35° (v) The ratio of area of triangle formed by incentre and two vertex are in ratio in their correspond- ing sides."
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (54°) | Exam: SSC CHSL 10/07/2024 (Shift-3)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, AD is angle bisector of A, AD = 6 cm, AC = 7 cm and DC = 8 cm. If I is the incentre, find the ratio AI to ID.",
+    "options": [
+      "6 : 7",
+      "7 : 8",
+      "2 : 3",
+      "1 : 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7 : 8)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q017",
@@ -68,13 +289,64 @@
     "explanation": "Correct Answer: Option D | (5 : 3) | Exam: SSC CHSL 11/07/2019 (Shift- 02)"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given figure, O is the incentre of ABC. If AO : OE = 7 : 5, CO : OD = 4 : 3 then find BO : OF?",
+    "options": [
+      "71/13",
+      "69/15",
+      "74/17",
+      "59/11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (71/13)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, perimeter is 24 cm and inradius is 7 cm. Find the area of ABC.",
+    "options": [
+      "60 cm²",
+      "96 cm²",
+      "84 cm²",
+      "108 cm²"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (84 cm²)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "Find in-radius of a triangle whose sides are 13 cm, 14 cm and 15 cm.",
+    "options": [
+      "4cm.",
+      "12cm.",
+      "8cm.",
+      "14cm."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4cm.)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q021",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
-    "question": "A circle inscribed",
+    "question": "A circle inscribed in a right-angled triangle. The lengths of the two sides containing the right angles are 15 cm and 8 cm. Find the radius of the incircle.",
     "options": [
       "4.5 cm",
       "3 cm",
@@ -91,15 +363,15 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
-    "question": "The hypotenuse of a right-angled triangle is 20 3 cm and one of its angles is 30°. Find the",
+    "question": "The hypotenuse of a right-angled triangle is 20 3 cm and one of its angles is 30°. Find the area (in sq.cm) of the largest circle that can be cut out from the triangle.",
     "options": [
       "180",
       "75  (4  2 3)",
       "300",
-      "75  (4 – 2 3)"
+      "75  (4 – 2 3) (iv) Inradius of an equilateral triangle"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (75  (4 – 2 3))"
+    "explanation": "Correct Answer: Option D | (75  (4 – 2 3) (iv) Inradius of an equilateral triangle)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q023",
@@ -170,6 +442,23 @@
     "explanation": "Correct Answer: Option A | (65º)"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given figure, S is the circumcenter of PRQ and X is the circumcenter of TRQ. If RTP = 46°, find XQP + RQS?",
+    "options": [
+      "3°",
+      "4°",
+      "1°",
+      "2°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2°)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q028",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -185,6 +474,57 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (121°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given ABC O is circumcenter of triangle ABC. BC = DC, ABD = 20° then ?",
+    "options": [
+      "55°",
+      "54°",
+      "42°",
+      "50° (iv) In a acute triangle, the circumcentre is always inside the triangle."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (55°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, AB = 17 cm, AC = 9 cm and AD = 3 cm, AD is perpendicular to side BC. Find the circumradius of the triangle.",
+    "options": [
+      "25.5 cm",
+      "17.5 cm",
+      "18.5 cm",
+      "24.5 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25.5 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, B = 45° and AC = 12 2 cm. Find the circum-radius of the triangle?",
+    "options": [
+      "12 cm",
+      "8 cm",
+      "6 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12 cm)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q032",
@@ -219,6 +559,40 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (7 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a right angled triangle, A is 90°. The perimeter of the triangle is 70cm and area of the triangle is 210 cm2. Find the circum-radius of the triangle?",
+    "options": [
+      "13.5 cm",
+      "12.5 cm",
+      "21.5 cm",
+      "14.5 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14.5 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a right angle triangle, the hypotenuse is 2.125 times of one of perpendicular sides of the triangle.The sum of inradius and that side is 44 cm. Find the circumradius of the triangle.",
+    "options": [
+      "34cm",
+      "17cm",
+      "51cm",
+      "25.5cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (34cm)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q036",
@@ -323,13 +697,183 @@
     "explanation": "Correct Answer: Option A | (BOC)"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an obtuse-angled triangle ABC, A is the obtuse angle and O is the orthocentre. If BOC = 54º, then BAC is :",
+    "options": [
+      "108º",
+      "116º",
+      "136º",
+      "126º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (126º)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A = 52º and O is the orthocentre of the triangle. (BO and CO meet AC and AB at E and F respectively when produced). If the bisectors of OBC and OCB meet at P, then the measure of BPC is :",
+    "options": [
+      "124º",
+      "132º",
+      "138º",
+      "154º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (154º) | Exam: SSC CGL TIER-II (11/09/2019)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, BE  AC, CD  AB and BE and CD intersect each other at O. The bisectors of OBC and OCB meet at P. If BPC = 148º, then what is the measure of A ?",
+    "options": [
+      "56º",
+      "28º",
+      "32º",
+      "64º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (64º) | Exam: SSC CGL TIER-II (13/09/2019)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, the perpendiculars drawn from A, B and C meet the opposite sides at points D, E and F, respectively. AD, BE and CF intersect at point P. If EPD = 110° and the bisectors of A and B meet a point Q. then AQB = ?",
+    "options": [
+      "135°",
+      "110°",
+      "125°",
+      "115°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (125°) | Exam: SSC CGL 21/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given triangle O, I and H are circum- centre, in-centre and orthocentre of ABC, BOC & BIC respectively. Find the BHC, if BAC = 40°.",
+    "options": [
+      "75°",
+      "45°",
+      "50°",
+      "60°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, H is the orthocenter, O is circumcenter. If BAH = 30 then find OAC?",
+    "options": [
+      "15°",
+      "45°",
+      "30°",
+      "60°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (30°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given triangle, H is the orthocentre and O is the circumcentre of the triangle. HAB= 18°, find OCA.",
+    "options": [
+      "36°",
+      "9°",
+      "18°",
+      "12°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the triangle ABC, BE and CF are the altitudes of the triangle meeting AC and AB at E and F and intersect each other at O. Find the FOE if A = 65°",
+    "options": [
+      "115°",
+      "125°",
+      "105°",
+      "95°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (115°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle PQR, PX, QY and RZ be altitudes intersecting at O. If PO=6cm, PX = 8cm and QO=4cm, then what is the value (in cm) of QY?",
+    "options": [
+      "6.3",
+      "5.8",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the triangle ABC, AD and BE are the altitude of the triangle meets at H such that AH = 12 cm, HD = 9 cm, and HE = 4 cm. Find BH?",
+    "options": [
+      "27 cm",
+      "18 cm",
+      "9cm",
+      "36 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (27 cm)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q052",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
-    "question": "D, E and F are the feet of the perpendiculars from the vertices A, B and C respectively of triangle ABC. If BED and BFE are 24° and",
+    "question": "D, E and F are the feet of the perpendiculars from the vertices A, B and C respectively of triangle ABC. If BED and BFE are 24° and 110° respectively, what is the measure (in degree) of EBF?",
     "options": [
       "46°",
       "44º",
@@ -346,15 +890,32 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
-    "question": "If AD, BE, CF are altitudes",
+    "question": "If AD, BE, CF are altitudes in given triangle and BED = 25°, BAC = 45°, then find DBE?",
     "options": [
       "20°",
       "25°",
       "22.5°",
-      "18°"
+      "18° Euler's Line"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20°)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle the distance between the centroid and ortho-centre is 12 cm. Find the distance between ortho-centre and circum-centre.",
+    "options": [
+      "18 cm",
+      "20 cm",
+      "14 cm",
+      "22 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18 cm)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q055",
@@ -374,6 +935,40 @@
     "explanation": "Correct Answer: Option B | (18 cm)"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an acute angle triangle ABC, O is the orthocenter. If AO = 10 unit, BC = 24 unit, then find the circum-radius of the triangle.",
+    "options": [
+      "12 unit",
+      "13 unit",
+      "16 unit",
+      "14 unit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13 unit)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the triangle ABC, H is the orthocentre, and O is the circumcentre. BD = DC and OD = 4 cm. Find AH.",
+    "options": [
+      "2 cm",
+      "6 cm",
+      "8 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 cm)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q058",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -389,6 +984,74 @@
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (18.5 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABD, C is the midpoint of BD. IF AB = 10 cm, AD = 12 cm and AC = 9 cm, then BD = ?",
+    "options": [
+      "2 41",
+      "2 10",
+      "41",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 41) | Exam: SSC CGL TIER-II (13/09/2019)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a PQR, A is any point on side QR such that PA is median. If PQ = 6 cm, PR = 8 cm and QR = 2 14 cm, then find the length of median PA.",
+    "options": [
+      "8 cm",
+      "6 cm",
+      "2 cm",
+      "10 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 cm)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, D is a median from A to BC, AB = 6 cm, AC = 8 cm and BC = 10 cm. The length of median AD (in cm) is",
+    "options": [
+      "3",
+      "4.5",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5) | Exam: SSC CPO 24/11/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, AC = BC, and the length of the base AB is 10 cm. If CG = 8 cm, where G is the centroid, then what is the length of AC?",
+    "options": [
+      "13 cm",
+      "15 cm",
+      "10 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13 cm) | Exam: SSC CHSL 12/08/2021 (Shift - 03)"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q063",
@@ -425,6 +1088,40 @@
     "explanation": "Correct Answer: Option B | (12.3 cm) | Exam: SSC CGL TIER-II 29/01/2022"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, two medians AD and BE intersect at G at right angles. If AD = 12 cm and BE = 9 cm, then the length of AB is equal to:",
+    "options": [
+      "14 cm",
+      "16 cm",
+      "12 cm",
+      "10 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10 cm) | Exam: SSC CGL 11/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, medians AD and BE are perpendicular to each other and have lengths of 12 cm and 16 cm respectively. What is the length of the third median CF?",
+    "options": [
+      "17",
+      "20",
+      "14",
+      "18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q067",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -459,6 +1156,23 @@
     "explanation": "Correct Answer: Option A | (AD + BE + CF < AB + BC + CA)"
   },
   {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the triangle ABC, the sum of square of all sides is 64 cm. Find the sum of square of all three medians.",
+    "options": [
+      "48 cm",
+      "80 cm",
+      "56 cm",
+      "128 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (48 cm)"
+  },
+  {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q070",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -467,13 +1181,13 @@
     "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
     "question": "G is the centroid of triangle ABC. If the length of sides of triangle ABC are 8 cm, 10 cm, and 12 cm, then find the AG2 + BG2 + CG2.",
     "options": [
-      "101 cm",
-      "102 cm",
-      "44 cm",
-      "55 cm"
+      "1/(101 cm)",
+      "2/(102 cm)",
+      "1/(44 cm)",
+      "1/(55 cm)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (102 cm)"
+    "explanation": "Correct Answer: Option B | (2/(102 cm))"
   },
   {
     "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q071",
@@ -491,5 +1205,39 @@
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (36 cm2) | Exam: SSC CHSL 17/03/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, there are three points P, Q and R on side BC, such that BP = PQ = QR = RC. If G is the centroid, then find the ratio of area of PGR to the area of ABC.",
+    "options": [
+      "1 : 6",
+      "1 : 5",
+      "1 : 4",
+      "1 : 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1 : 6)"
+  },
+  {
+    "id": "rkr_geometry_centers_of_triangle_classroom_sheet_q073",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Centers of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, AD is median and G is the point on AD such that AG : GD = 2 : 1, then Ar(ABG) : Ar(ABC) is equal to :",
+    "options": [
+      "1 : 5",
+      "1 : 4",
+      "1 : 6",
+      "1 : 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 3) | Exam: SSC CGL 10/06/2019 (Shift- 03)"
   }
 ]

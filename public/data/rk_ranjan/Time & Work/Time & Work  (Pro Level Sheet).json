@@ -6,15 +6,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "P and Q can do a piece of work",
+    "question": "P and Q can do a piece of work in 90 days, Q and R can do it in 112.5 days, while P and R can do it in 150 days. X is five times as efficient as P. Y is two- thirds as efficient as Q, and Z is 2.5 times as efficient as R. Find the number of days required to complete the work if X, Y and Z work together.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3/(3129 days)",
+      "1/(3129 days)",
+      "28/(30 days)",
+      "2/(3129 days)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, P + Q 90 days Q + R 225 2 P + R 150  5 4 3 450 Effi.  T.W  days days 2(P + Q + R) = 12 P + Q + R = 6 P = 2, Q = 3, R = 1 X Y Z"
+    "explanation": "Correct Answer: Option B | (1/(3129 days)) | Solution: (b) ATQ, P + Q 90 days Q + R 225 2 P + R 150  5 4 3 450 Effi.  T.W  days days 2(P + Q + R) = 12 P + Q + R = 6 P = 2, Q = 3, R = 1 X Y Z"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q002",
@@ -23,15 +23,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "5 times as efficient as R. Find the number of days required to complete the work if X, Y and Z work together.",
+    "question": "5 Men can do a piece of work in 6 days. 6 Women can do 40% of same work in 4 days and 3 Children can do 75% of same work in 6 days. If 2 Men, 3 Women and 1 Child start work alternately, then who will be the last to complete the work?",
     "options": [
-      "3129 days",
-      "3129 days",
-      "30 days",
-      "3129 days"
+      "Men",
+      "Women",
+      "Child",
+      "Can’t be determined"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3129 days) | Solution: Effi.  2 3 3  10 : 2 : 2.5 Required time = 450 10 2"
+    "explanation": "Correct Answer: Option A | (Men) | Solution: Effi.  2 3 3  10 : 2 : 2.5 Required time = 450 10 2"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q003",
@@ -40,15 +40,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A Completes the work alone",
+    "question": "A Completes the work alone in 20 days. Ratio of efficiency of A and B is 3:2. Ratio of time between B and C is 3:4. A started the work. After 2 days, B joined with him. After 2 days of work A left the work. B alone worked for 2 days, then C joined him. B and C worked for 4 days then B left the work. Now C increased its efficiency by 33.33% and finished the work. Find the total time taken to finish the work.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22 days",
+      "23 days",
+      "25 days",
+      "36 days"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, A B C 3 : 2 4 : 3 6 : 4 : 3 Effi. ratio  Total work = 6 20 = 120 units Total work done before C's efficiency increased = [2 6 + (6 + 4) 2 + 4 2 + (4 + 3) 4] = 12 + 20 + 8 + 28 = 68 unit Now, Remaining work = 120 – 68 = 52 Before After 3 : 4"
+    "explanation": "Correct Answer: Option B | (23 days) | Solution: (b) ATQ, A B C 3 : 2 4 : 3 6 : 4 : 3 Effi. ratio  Total work = 6 20 = 120 units Total work done before C's efficiency increased = [2 6 + (6 + 4) 2 + 4 2 + (4 + 3) 4] = 12 + 20 + 8 + 28 = 68 unit Now, Remaining work = 120 – 68 = 52 Before After 3 : 4"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q004",
@@ -57,7 +57,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A started the work. After 2 days, B joined with him. After 2 days of work A left the work. B alone worked for 2 days, then C joined him. B and C worked for 4 days then B left the work. Now C increased its efficiency by 33.33% and finished the work. Find the total time taken to finish the work.",
+    "question": "There are two team of workers I and II at a bridge construction site. Each team consists of W workers. On a particular day, one worker was transferred from Team I to Team II. Hence, if the ratio of the amount of work done by Team I in (W + 1) hours and by Team II in (W + 2) hours is 10:12 respectively, then W is equal to:",
     "options": [
       "24",
       "16",
@@ -74,15 +74,32 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Person A can complete the same work",
+    "question": "Person A can complete the same work in 10 days more than the time taken by person B. Person C takes as much time to do a piece of work as does person A and B together. C can complete the same work in 12 days. In how many days will persons A, B and C complete the same work, if persons A is accompanied by B and C on alternate days?",
     "options": [
       "20 days",
       "30 days",
       "10 days",
-      "5 day"
+      "5 days"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (10 days) | Solution: (c) ATQ, Let A can do the whole work  (x + 10) days. ATQ, 1 1 1 = 10 12   x x 2 2 10 1 12 10     x x x  24x + 120 = x² + 10x  x² – 14x – 120 = 0 ANSWER KEY"
+    "explanation": "Correct Answer: Option C | (10 days) | Solution: (c) ATQ, Let A can do the whole work in  (x + 10) days. ATQ, 1 1 1 = 10 12   x x 2 2 10 1 12 10     x x x  24x + 120 = x² + 10x  x² – 14x – 120 = 0 ANSWER KEY"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "In a village Under Mission Kalrntiya, 38 men working 6 hours a day can do a piece of work in 12 days. Find the number of days in which 57 men working in 8 hours a day can do twice the work. Assume that 2 men of the first group do as much work in 1 hours 1 as 3 men of the second group do in 12 hours.",
+    "options": [
+      "27 days",
+      "28 days",
+      "24 days",
+      "32 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (27 days)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q007",
@@ -91,7 +108,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "6 women can do a work",
+    "question": "6 women can do a work in one day is equal to the work done by 4 men in a day. If a manager assigned 60 men to complete a work in 40 days. But in 25th 1 day he realized only rd of the work was completed 3 and he decided to appoint additional men to complete the remaining work in given days. Find the number of women equivalent to the number of additional men appointed to complete the remaining work? 1",
     "options": [
       "180",
       "240",
@@ -108,12 +125,12 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Amal completes 75% of the work",
+    "question": "Amal completes 75% of the work in 45 days and Pavithra completes the work in 120 days. If Amal and Pavithra started the work together after 15 days both left and the remaining work is completed by Sheela and Divya in 45 days and then Divya alone completes 50% of the work in 72 days. In how many days Sheela alone completes the work?",
     "options": [
       "144 days",
       "288 days",
       "72 days",
-      "180 day"
+      "180 days"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (144 days)"
@@ -125,7 +142,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "P and Q can do a job",
+    "question": "P and Q can do a job in 24 days, Q and R can do it in 30 days, while P and R can do it in 40 days. X is four times as efficient as P, Y is half as efficient as Q, and Z is 2.5 times as efficient as R. Determine the number of days required to complete the same job if X, Y and Z work together.",
     "options": [
       "9",
       "12",
@@ -142,15 +159,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "The work done by a woman",
+    "question": "The work done by a woman in 6 h is equal to the work done by a man in 4 h and by a boy in 8h. Working 8 h per day, if 8 women can complete the work in 10 days, then in how many days can 10 women, 10 men and 10 boys together finish the same work working 8 h per day?",
     "options": [
-      "213 days",
-      "213 days",
-      "613 days",
-      "113 day"
+      "1/(213 days)",
+      "6/(213 days)",
+      "2/(613 days)",
+      "1/(113 days)"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (113 day)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6/(213 days))"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q011",
@@ -159,7 +176,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Each one of five men independently can complete a",
+    "question": "Each one of five men independently can complete a work in 20 days. The work is started by one person. Next day one more person joins and every next day one more person joins. From the fifth day, five persons continued working as a team. In how many days, will the work be completed?",
     "options": [
       "2",
       "6",
@@ -176,15 +193,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A can do a certain work",
+    "question": "A can do a certain work in 45 days. B is 50% more efficient than A and C is 3 times as fast as A. They started the work together but C left 7 days before completion of the work. In how many days was the entire work completed?",
     "options": [
       "15 days",
       "18 days",
       "10 days",
-      "12 day"
+      "12 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12 day)"
+    "explanation": "Correct Answer: Option D | (12 days)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q013",
@@ -193,7 +210,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 8 days while B alone can do it in 12 days. They work together for 4 days and the remaining work is completed by C alone in 2 days. They are paid ` 7,200 for the completion of the entire work. The earnings of A, B and C, respectively, are:",
     "options": [
       "` 2400, ` 2400 ` 2400",
       "` 4000, ` 2400 ` 800",
@@ -210,15 +227,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "The time taken by A and B together to complete a work is 9.6 hours and the time taken by B and C together to complete the work is ___ hours and the time taken by A and C together to complete the work 33 is 7 hours. C is 60% more efficient than B. Find 31",
+    "question": "The time taken by A and B together to complete a work is 9.6 hours and the time taken by B and C together to complete the work is ___ hours and the time taken by A and C together to complete the work 33 is 7 hours. C is 60% more efficient than B. Find 31 the value, which can be filled in the blank?",
     "options": [
-      "613 hours",
-      "1113 hours",
-      "1013 hours",
-      "913 hour"
+      "2/(613 hours)",
+      "8/(1113 hours)",
+      "10/(1013 hours)",
+      "3/(913 hours)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1113 hours)"
+    "explanation": "Correct Answer: Option B | (8/(1113 hours))"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q015",
@@ -227,7 +244,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A contractor undertakes to complete a work",
+    "question": "A contractor undertakes to complete a work in 250 days. He employs 300 workers for 50 days and they 1 complete of the work. He then reduces the number 2 of workers to 100, who work for 120 days, after which there are 20 days of holidays. How many workers must be employed after holidays for the remaining period to complete the work on time? 1",
     "options": [
       "74",
       "68",
@@ -244,7 +261,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A and B working together can complete a work",
+    "question": "A and B working together can complete a work in d days. Working alone, A takes (8 + d) days and B takes (18 + d) days to complete the same work. A works for 4 days . The remaining work is completed by B alone in:",
     "options": [
       "24",
       "18",
@@ -261,15 +278,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A can do of a piece of work",
+    "question": "A can do of a piece of work in 20 days, B can 5 do 30% of the same work in 36 days, while C can do 80% of the same work in 160 days. B and C together started and worked for x days. After x days B left the work, and A joined C and both completed the remaining work in (x – 41) days. If the ratio between the work done by (B + C) together to the work done by (A + C) together is 19 : 6, then what fraction of the same work can be completed by C alone in 2x days? 1",
     "options": [
-      "57/10",
-      "19/0 25",
+      "57/100",
+      "19/25",
       "13/25",
       "6/25"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (57/10)"
+    "explanation": "Correct Answer: Option A | (57/100)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q018",
@@ -278,7 +295,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "X and Y together can complete a piece of work",
+    "question": "X and Y together can complete a piece of work in 20 days, while Y and Z together can complete it in 24 days. After X worked on it for 10 days and Y for 18 days, Z alone completed the remaining work in another 13 days. X and Z together can complete 75% of the original in:",
     "options": [
       "12 days",
       "9 days",
@@ -295,15 +312,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A alone can do of a work",
+    "question": "A alone can do of a work in 12 days. B is 25% 5 more efficient than A. C alone can do the same work in 12 days less than B. D is 25% less efficient than C. If they all work together, then the work will be completed in how many days? 2",
     "options": [
-      "24/53",
-      "0 180/43",
-      "30/47",
-      "0 200/57"
+      "240/53",
+      "180/43",
+      "300/47",
+      "200/57"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (24/53)"
+    "explanation": "Correct Answer: Option A | (240/53)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q020",
@@ -312,7 +329,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Sonu and Monu together can build a wall",
+    "question": "Sonu and Monu together can build a wall in 6 days, while Monu and Mohan together can build the same wall in 12 days. Sonu and Monu work together for 5 days after which both of them fall ill. The remaining work is completed by Mohan in 10 days. The total payment for the work done is Rs.3.600 which is to be divided among three persons. What will be Sanu's share of the total payment?",
     "options": [
       "`1,500",
       "`1,200",
@@ -329,7 +346,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "4 women and 7 men earn a total of ` 11,480",
+    "question": "4 women and 7 men earn a total of ` 11,480 in 7 days, while 10 women and 17 men earn a total of ` 36,360 in 9 days. How much will 11 women and 9 men together earn (in `) in 13 days?",
     "options": [
       "`42770",
       "`42640",
@@ -346,15 +363,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Two persons X and Y can do a piece of work",
+    "question": "Two persons X and Y can do a piece of work in 84 days and 72 days respectively. Another person Z can 3 do the same work in 1713 more days as X and Y take together to complete the work. If on the first day X and Y work together and on the second day Y and Z work together alternatively, then find how many days the total work will be completed?",
     "options": [
-      "2417 days",
-      "3413 days",
-      "37 days",
-      "28 days"
+      "13/(2417 days)",
+      "11/(3413 days)",
+      "5/(37 days)",
+      "4/(28 days)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3413 days)"
+    "explanation": "Correct Answer: Option B | (11/(3413 days))"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q023",
@@ -363,12 +380,12 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "4 men and 16 women can complete piece of work",
+    "question": "4 men and 16 women can complete piece of work in 10 days. 10 children and 12 women can complete the same work in 12 days. 5 children and 6 men can complete the same work in 15 days. Then in how many days will thrice the work can be completed by 6 men, 8 women and 20 children?",
     "options": [
       "16 days",
       "20 days",
       "24 days",
-      "32 day"
+      "32 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (20 days)"
@@ -380,7 +397,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "If the ratio of the work done by (x + 2) workers",
+    "question": "If the ratio of the work done by (x + 2) workers in (x – 3) days to the work done by (x + 4) workers in (x - 2) days is 3 : 4, then what is the value of x ?",
     "options": [
       "8",
       "10",
@@ -399,9 +416,9 @@
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
     "question": "A question is given followed by two statements I and II. Consider the Question and the Statements and mark the correct option.",
     "options": [
-      "The Question can be answered by using one of the Statements alone, but cannot be answered using",
-      "The Question can be answered by using either",
-      "The Question can be answered by using both the Statements together, but cannot be answered using",
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone",
+      "The Question can be answered by using either Statement alone",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone",
       "The Question cannot be answered even by us-"
     ],
     "correctAnswer": 3,
@@ -414,15 +431,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Kiran, Vishal and Dinesh work",
+    "question": "Kiran, Vishal and Dinesh work in a juice factory. Kiran takes 2 hours to extract as much juice as Vishal can in 3 hours. Dinesh takes 5 hours to extract as much juice that Kiran extracts in 4 hours. A tank can be filled with juice in 48 hours, if all of them work together. How long will it take to fill the tank, if Dinesh alone is trying to fill the tank?",
     "options": [
       "140 hr.",
       "135 hr.",
       "132 hr.",
-      "148 hr"
+      "148 hr."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (148 hr)"
+    "explanation": "Correct Answer: Option D | (148 hr.)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q027",
@@ -431,7 +448,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A and B can complete a work together",
+    "question": "A and B can complete a work together in 35 days. If 5 A works alone and completes of the work and 7 then leaves the remaining for B, it will take a total of 90 days to complete the work. How many days would take A, who is more efficient among them to complete the entire work?",
     "options": [
       "40",
       "45",
@@ -448,15 +465,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "16 men can complete a work",
+    "question": "16 men can complete a work in 12 days. 12 women can complete the same work in 32 days. 16 men and 16 women worked together for 4 days, after which the women stopped working and 16 additional men joined the work. How much time will the men working in this position take to complete the remaining work?",
     "options": [
       "2 days",
       "5 days",
       "4 days",
-      "3 day"
+      "3 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3 day)"
+    "explanation": "Correct Answer: Option D | (3 days)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q029",
@@ -465,7 +482,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "60 men can complete a work",
+    "question": "60 men can complete a work in 40 days. They start work together but after every 10 day, 5 men leave the work. In how many days will the work be completed?",
     "options": [
       "47.5",
       "49.5",
@@ -482,12 +499,12 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Abha and Anuj working together completed a job",
+    "question": "Abha and Anuj working together completed a job in 40 days. If Abha had worked twice as efficiently as 9 1 she actually did and Anuj had worked of his actual 3 efficiency, then the work would have been completed 60 in days. Find the time Abha would take to 17 complete the work alone. 40",
     "options": [
       "10 days",
       "8 days",
       "12 days",
-      "6 day"
+      "6 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (8 days)"
@@ -499,15 +516,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A and B together can complete a work",
+    "question": "A and B together can complete a work in 15 days, While A alone can complete the work in 18.75 days. They start working together but A leaves work 12.5 days before the work is completed. How long did A and B work together?",
     "options": [
       "10 days",
       "13.75 days",
       "11.25 days",
-      "12.5 day"
+      "12.5 days"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12.5 day)"
+    "explanation": "Correct Answer: Option D | (12.5 days)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q032",
@@ -516,12 +533,12 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A book needs to be typed. A types it",
+    "question": "A book needs to be typed. A types it in 15 days. B types it in 12 days. C types it in 20 days D types it in 8 days. If A and D work together as team VENUS, B and C work as team MERCURY. And A and C work as team MARS, then which of these three team will finish typing the book first?",
     "options": [
       "MERCURY",
       "VENUS",
       "MARS",
-      "All teams will take equal time"
+      "All teams will take equal time."
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (VENUS)"
@@ -533,7 +550,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Four persons, P Q, R, S were engaged for doing a task, with the condition that P, Q, R, S work, respectively, on (Monday, Thursday), (Tuesday, Friday), (Wednesday, Saturday), (Sunday). The task was began on a Monday, and got completed on the 15th day, which was also a",
+    "question": "Four persons, P Q, R, S were engaged for doing a task, with the condition that P, Q, R, S work, respectively, on (Monday, Thursday), (Tuesday, Friday), (Wednesday, Saturday), (Sunday). The task was began on a Monday, and got completed on the 15th day, which was also a Monday. If the efficiencies of P Q, R, S in respect of doing this task were in the proportion 1 : 2 : 3 : 4, then in how many days could R complete the task, working alone without break?",
     "options": [
       "12 days",
       "13 days",
@@ -550,12 +567,12 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 120 days and B can do it in 150 days. They work together for 20 days. Then, B leaves and A alone continues the work. 12 days after that C joins A and the work is completed in 48 days more. In how many days can C do it, if he works alone?",
     "options": [
       "280 days",
       "320 days",
       "240 days",
-      "270 day"
+      "270 days"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (240 days)"
@@ -567,15 +584,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "Abhay and Bharat can complete a certain piece of work",
+    "question": "Abhay and Bharat can complete a certain piece of work in 17 and 10 days respectively. They started to work together and after 3 days, Bharat left. In how many days will Abhay complete the remaining work?",
     "options": [
-      "days",
-      "days",
-      "days",
-      "days"
+      "1513/days",
+      "1513/days",
+      "1511/days",
+      "1515/days"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (days)"
+    "explanation": "Correct Answer: Option B | (1513/days)"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q036",
@@ -584,7 +601,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A and B undertake a contract of a task for Rs.10,800.",
+    "question": "A and B undertake a contract of a task for Rs.10,800. A and B can complete the task in 45 days and 60 days, respectively. However, to finish the work early, they take C's help and complete the entire work in 20 days. What is the value (in `) of (a – b + 2c), where a, b and c are the shares of A, B and C respectively, for their contribution to complete the task?",
     "options": [
       "`6000",
       "`3000",
@@ -601,7 +618,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A can complete a certain work",
+    "question": "A can complete a certain work in 35 days. B is 40% more efficient than A, and C is 25% more efficient than B. B and C work together for 8 days. The remaining work is completed by A with the help of 1 D in 3 days. D alone can complete 72% of the 2 original work in?",
     "options": [
       "18 days",
       "14 days",
@@ -618,15 +635,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "A, B and C started working together and completed",
+    "question": "A, B and C started working together and completed a job in 10 days. However, C only worked for the first three days when 37% of the job was done. Also, the work done by A in 5 days is equal to the work done by B in 4 days. How many days would be required by the fastest worker to complete the entire work?",
     "options": [
       "20 days",
       "25 days",
       "30 days",
-      "40 day"
+      "40 days"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (20 days) | Solution: A, B and C started working together and completed a job 10 days. However, C only worked for the first three days when 37% of the job was done. Also, the work done by A 5 days is equal to the work done by B 4 days. How many days would be required by t"
+    "explanation": "Correct Answer: Option A | (20 days) | Solution: A, B and C started working together and completed a job in 10 days. However, C only worked for the first three days when 37% of the job was done. Also, the work done by A in 5 days is equal to the work done by B in 4 days. How many days would be requ"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q039",
@@ -635,15 +652,15 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "One man, three women and four children does a work",
+    "question": "One man, three women and four children does a work in 96 hours while two men and eight children can complete the same work in 80 hours. 2 men and 3 women can do it in 120 hrs. Find in how much time will 10 men and 5 women complete the work?",
     "options": [
       "39 hours",
       "42 hours",
       "36 hours",
-      "34 hour"
+      "34 hours"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (36 hours) | Solution: One man, three women and four children does a work 96 hours while two men and eight children can complete the same work 80 hours. 2 men and 3 women can do it 120 hrs. Find how much time will 10 men and 5 women complete the work? ,d vkneh] rhu vkSjrsa"
+    "explanation": "Correct Answer: Option C | (36 hours) | Solution: One man, three women and four children does a work in 96 hours while two men and eight children can complete the same work in 80 hours. 2 men and 3 women can do it in 120 hrs. Find in how much time will 10 men and 5 women complete the work? ,d vkneh]"
   },
   {
     "id": "rkr_time_work_time_work_pro_level_sheet_q040",
@@ -652,7 +669,7 @@
     "chapter": "Time & Work",
     "sheetType": "Pro Level",
     "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
-    "question": "5 women and 9 girls earn a total of 18720",
+    "question": "5 women and 9 girls earn a total of 18720 in 9 days, while 9 women and 16 girls earn a total of 52080 in 14 days. How much will 12 women and 7 girls together earn (in) in 13 days?",
     "options": [
       "42,510",
       "41,990",
@@ -660,6 +677,6 @@
       "42,120"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (42,120) | Solution: 5 women and 9 girls earn a total of 18720 9 days, while 9 women and 16 girls earn a total of 52080 14 days. How much will 12 women and 7 girls together earn 13 days? 5 efgyk,a 9 9 fnuksa 18]720 :i;s dekrh tcfd 9 efgyk,a 16 14 fnuksa 52]080 :i;s dekrh"
+    "explanation": "Correct Answer: Option D | (42,120) | Solution: 5 women and 9 girls earn a total of 18720 in 9 days, while 9 women and 16 girls earn a total of 52080 in 14 days. How much will 12 women and 7 girls together earn (in) in 13 days? 5 9 9 fnuksa 18]720 :i;s dekrh tcfd 9 16 14 fnuksa 52]080 :i;s dekrh g"
   }
 ]

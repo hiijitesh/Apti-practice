@@ -25,13 +25,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of cot 13° cot 27° cot 60° cot 63° cot 77° is:",
     "options": [
-      "1/3",
+      "1",
       "0",
-      "3",
+      "3/3",
       "1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/3) | Exam: SSC CHSL 02/08/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CHSL 02/08/2023 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q005",
@@ -42,13 +42,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "Find the value of – cos ec55  sin 65  sec 35  cos 25 ",
     "options": [
+      "0/1",
       "1",
-      "1",
-      "1/2",
+      "2",
       "2"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CGL 11/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (0/1) | Exam: SSC CGL 11/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q006",
@@ -74,15 +74,15 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
-    "question": "The value of tan13  tan 36  tan 45  tan 54  tan 77  is: 2 sec ²60º(sin ²60  –3 cos 60  2) tan13  tan 36  tan 45  tan 54  tan 77 ",
+    "question": "The value of tan13  tan 36  tan 45  tan 54  tan 77  2 sec ²60º(sin ²60 –3 cos 60 2) is:   tan13  tan 36  tan 45  tan 54  tan 77 ",
     "options": [
-      "1 1/4 1",
-      "0",
-      "1/10",
-      "1/4"
+      "1/(–)",
+      "1/(–)",
+      "1",
+      "1"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1/10) | Exam: SSC CGL 20/08/2021 (Shift- 03)"
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CGL 20/08/2021 (Shift- 03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q008",
@@ -91,7 +91,7 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
-    "question": "   +    sin18  cos 72   cot64   1– tan 30  tan15      = ______.",
+    "question": "   +     sin18  cos 72   cot64    1– tan 30  tan15    = ______.",
     "options": [
       "0",
       "–1",
@@ -113,7 +113,7 @@
       "18°",
       "40°",
       "15°",
-      "20"
+      "20°"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (18°) | Exam: SSC Phase-XII 24/06/2024 (Shift-03)"
@@ -147,10 +147,10 @@
       "18°",
       "36°",
       "30°",
-      "42"
+      "42°"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (42) | Exam: SSC CHSL 11/08/2023 (Shift-2)"
+    "explanation": "Correct Answer: Option D | (42°) | Exam: SSC CHSL 11/08/2023 (Shift-2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q012",
@@ -161,13 +161,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "If cos(2+ 54)º = sin, 0° < (2+ 54)° < 90°, 1 then what is the value of ?",
     "options": [
-      "3/2",
-      "1/3",
-      "3/3",
-      "2 3"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3/3) | Exam: SSC CGL 20/08/2021 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 20/08/2021 (Shift- 02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q013",
@@ -181,7 +181,7 @@
       "50°",
       "40°",
       "18°",
-      "16"
+      "16°"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (18°) | Exam: SSC CGL 18/07/2023 (Shift-03)"
@@ -198,7 +198,7 @@
       "16°",
       "18°",
       "15°",
-      "20"
+      "20°"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (16°) | Exam: SSC CHSL 10/08/2023 (Shift-2)"
@@ -229,9 +229,9 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "If sin(20 + x)° = cos60°, 0º (20 + x)º  90º, then find the value of 2sin²(3x + 15)° – cosec2 (2x + 10)°.",
     "options": [
-      "3",
+      "3/1",
       "–3",
-      "–2",
+      "(–2)/3",
       "–"
     ],
     "correctAnswer": 1,
@@ -246,13 +246,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "If sin3A = cos (A+10)º, where 3A is an acute angle then what is the value of 3A 3 2 cosec + 6tan2 3A – tan23A? 2 2",
     "options": [
-      "7/4",
-      "35/2",
-      "17/2",
-      "5"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (35/2) | Exam: SSC CGL 2019 Tier-II (15/10/2020)"
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 2019 Tier-II (15/10/2020)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q018",
@@ -263,13 +263,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "If cos = sin(2)  0, what is the value of cos4 + sin4 + cos3 + sin3 + sin2 + cos2 + sin + cos?",
     "options": [
-      "18/7",
-      "+ 8 3 8 + 7 3/18",
-      "7/8",
-      "+18 3 18 + 7 3/8"
+      "(18 + 8 3)/7",
+      "(8 + 7 3)/18",
+      "(7 +18 3)/8",
+      "(18 + 7 3)/8"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (+18 3 18 + 7 3/8) | Exam: SSC Phase X 05/08/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option D | ((18 + 7 3)/8) | Exam: SSC Phase X 05/08/2022 (Shift- 03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q019",
@@ -297,13 +297,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of sin215° + sin225° + sin235° + sin245° + sin255° + sin265° + sin275° is: sin215° + sin225° + sin235° + sin245° + sin255° +",
     "options": [
-      "7 7",
-      "7",
-      "7/2",
-      "7/3"
+      "4/7",
+      "7/7",
+      "2",
+      "3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (7/2) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (2) | Exam: SSC CPO 29/06/2024 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q021",
@@ -317,7 +317,7 @@
       "3",
       "– 2",
       "2",
-      "– 3"
+      "– 3 2 tan(60 –  )º tan(30  )º"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (– 2) | Exam: SSC CGL 20/04/2022 (Shift- 03)"
@@ -331,9 +331,9 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of : sin ²(45  )º sin ²(45 –  )º 2 tan(60 –  )º tan(30  )º",
     "options": [
-      "1/2",
       "1",
-      "2",
+      "1",
+      "2/2",
       "2"
     ],
     "correctAnswer": 3,
@@ -416,13 +416,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "If x = sec57º, then cot233º + sin257º + sin233º + cosec257ºcos233º + sec233º.sin257º is equal to :",
     "options": [
-      "1",
+      "(x2 + 2)/1",
       "2x2 + 1",
-      "1/x ² ",
-      "1"
+      "(x2 + 1)/(x ²)",
+      " 1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CGL TIER-II (16/10/2020)"
+    "explanation": "Correct Answer: Option A | ((x2 + 2)/1) | Exam: SSC CGL TIER-II (16/10/2020)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q028",
@@ -433,13 +433,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "Find the value of the following.",
     "options": [
-      "1/3",
-      "4/3",
-      "2/3",
-      "7"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/3) | Exam: SSC CHSL 27/05/2022 (Shift-03)"
+    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 27/05/2022 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q029",
@@ -450,13 +450,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of is: 4 cos 2 43º –5  4 cos 2 47º sin 2 52º  2  sin 2 38º",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "3 1",
+      "–",
+      "–3 3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CPO 24/11/2020 (Shift-2)"
+    "explanation": "Correct Answer: Option D | (–3 3) | Exam: SSC CPO 24/11/2020 (Shift-2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q030",
@@ -467,13 +467,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of 2sin 2 38ºsec 2 52º+cos64º sin26º+sin 2 64º 2 2 2 2 is : tan 23º+cot 23º – sec 67º – cosec 67º 2sin 2 38ºsec 2 52º+cos64º sin26º+sin 2 64º",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 2",
+      "2 3",
+      "2",
+      "– 2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CGL 2019 TIER-II (15/10/2020)"
+    "explanation": "Correct Answer: Option D | (– 2) | Exam: SSC CGL 2019 TIER-II (15/10/2020)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_02_q031",
@@ -518,12 +518,12 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-02).pdf",
     "question": "The value of/",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "4",
+      "2",
+      "0"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CGL 11/04/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CGL 11/04/2022 (Shift- 01)"
   }
 ]

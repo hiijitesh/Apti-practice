@@ -42,13 +42,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "Find the value of (cosec – sin ) (sec – cos)(tan + cot).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "2",
+      "1",
+      "–1"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 25/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CGL 25/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q004",
@@ -59,13 +59,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "The value of  sinA 1 – cosA   cot 2 A ",
     "options": [
-      "3/2",
-      "1/2",
-      "2 2",
-      "2"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CGL TIER-II 12/09/2019"
+    "explanation": "Correct Answer: Option D | Exam: SSC CGL TIER-II 12/09/2019"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q005",
@@ -76,9 +76,9 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "The value of sin A sin A – – 1 cot A  cosec A cot A – cosec A",
     "options": [
-      "1/2",
       "1",
-      "2",
+      "1",
+      "2/0",
       "2"
     ],
     "correctAnswer": 1,
@@ -113,7 +113,7 @@
       "seccosec",
       "sec + cosec",
       "sin + cos",
-      "sincos"
+      "sincos"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (seccosec) | Exam: SSC CGL TIER-II 29/01/2022"
@@ -142,15 +142,15 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
-    "question": "The expression  1  sin  cos   1  cos  sec 3 cosec 2      , 0   90 ,  sec   tan   tan   cot   is equal to",
+    "question": "The expression  1  sin   cos    1  cos   sec 3  cosec 2  , 0   90 ,  sec   tan   tan   cot   is equal to",
     "options": [
       "sin",
       "2cos",
       "cot",
-      "2tan"
+      "2tan"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2tan) | Exam: SSC CGL TIER-II 03/02/2022"
+    "explanation": "Correct Answer: Option D | (2tan) | Exam: SSC CGL TIER-II 03/02/2022"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q010",
@@ -164,7 +164,7 @@
       "cos²",
       "–sin²",
       "sec²",
-      "–sec²"
+      "–sec² cot P"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–sin²) | Exam: SSC CGL TIER-II 03/02/2022"
@@ -176,11 +176,11 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
-    "question": "If cot = , then find the value of Q P cos  – Q sin  P 2 – Q 2 – + 3. P cos   Q sin  P 2  Q 2",
+    "question": "If = , then find the value of Q P cos  – Q sin  P 2 – Q 2 – + 3. P cos   Q sin  P 2  Q 2",
     "options": [
-      "P P/P ",
-      "Q Q",
-      "2 2",
+      "2/(P  Q)",
+      "Q",
+      "0",
       "3"
     ],
     "correctAnswer": 3,
@@ -232,7 +232,7 @@
       "y(1 + x2) = 2x",
       "y – 2x = x2y",
       "y + 2x = x2y",
-      "y(1 – 2x2 ) ="
+      "y(1 – 2x2 ) = x"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (y + 2x = x2y) | Exam: SSC CPO 27/06/2024 (Shift-03)"
@@ -246,13 +246,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If cotA + cosA = p and cot A – cosA = q. then which of the following relation is correct.?",
     "options": [
-      "= p2 + q2",
-      "= p2 + q2",
-      "16pq  p 2  q 2",
-      "4pq = p2 + q2"
+      "1/(= p2 + q2)",
+      "1/(= p2 + q2)",
+      "16pq/(16pq  p 2  q 2)",
+      "4pq/(4pq = p2 + q2)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (16pq  p 2  q 2) | Exam: SSC CHSL 03/08/2023 (Shift-04)"
+    "explanation": "Correct Answer: Option C | (16pq/(16pq  p 2  q 2)) | Exam: SSC CHSL 03/08/2023 (Shift-04)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q016",
@@ -263,13 +263,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If tanA + sinA = x, tanA – sinA = y, what is the value of x² – y² ?",
     "options": [
-      "2",
-      "4",
+      "2/y",
+      "4/y",
       "x y",
-      "4 x"
+      "4 x y"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4 x) | Exam: SSC CHSL 11/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option D | (4 x y) | Exam: SSC CHSL 11/07/2024 (Shift-04)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q017",
@@ -280,13 +280,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If (sin x + sin y) = a and (cos x + cos y) = b, then find the value of (sin x sin y + cosx cos y).",
     "options": [
-      "a/2",
-      "2  b 2 – 1 a 2  b 2 – 1/2",
-      "a/2",
-      "2  b 2 – 2 a 2  b 2  2/2"
+      "(a 2  b 2 – 1)/2",
+      "(a 2  b 2 – 1)/2",
+      "(a 2  b 2 – 2)/2",
+      "(a 2  b 2  2)/2"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (a/2) | Exam: SSC CPO 27/06/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option C | ((a 2  b 2 – 2)/2) | Exam: SSC CPO 27/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q018",
@@ -300,7 +300,7 @@
       "0",
       "1",
       "a² – b²",
-      "a² + b"
+      "a² + b²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1) | Exam: SSC CGL 11/09/2024 (Shift-01)"
@@ -317,10 +317,10 @@
       "sec² ",
       "sec ",
       "cosec ",
-      "tan²"
+      "tan² "
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (tan²) | Exam: SSC Phase-X 02/08/2022 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (tan² ) | Exam: SSC Phase-X 02/08/2022 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q020",
@@ -334,10 +334,10 @@
       "2",
       "1",
       "0",
-      "–1"
+      "–1 cot³θ tan³θ"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (–1) | Exam: SSC CGL 12/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (–1 cot³θ tan³θ) | Exam: SSC CGL 12/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q021",
@@ -363,15 +363,15 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
-    "question": " , 0° < 90° sin  (1  cos  ) tan   cot ",
+    "question": "1  cos  – sin ²  sec ²   cos ec 2  , 0° < < 90°  sin  (1  cos  ) tan   cot ",
     "options": [
       "tan",
       "sec",
       "cosec",
-      "cot"
+      "cot"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (cot) | Exam: SSC CGL TIER-II 29/01/2022"
+    "explanation": "Correct Answer: Option D | (cot) | Exam: SSC CGL TIER-II 29/01/2022"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q023",
@@ -380,12 +380,12 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
-    "question": "The expression cos 4   sin 4   2 sin 2   3 0   90 , is  cosec   cot   1  cosec   cot   1   2 equal to",
+    "question": "The expression cos 4   sin 4   2 sin 2   3    0   90 , is cosec   cot   1 cosec   cot   1  2 equal to",
     "options": [
-      "sin ",
+      "1/(sin )",
       "2sin",
-      "sec",
-      "2cosec"
+      "2/sec",
+      "2cosec"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2sin) | Exam: SSC CGL TIER-II 03/02/2022"
@@ -416,13 +416,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If tanA = a tanB and sinA = b sinB, then the value of cos²A is:",
     "options": [
-      "b²/a²",
-      "– 1 a² – 1/– 1 b² – 1",
-      "b²/a²",
-      " 1 a²  1/ 1 b²  1"
+      "(b² – 1)/(a² – 1)",
+      "(a² – 1)/(b² – 1)",
+      "(b²  1)/(a²  1)",
+      "(a²  1)/(b²  1)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (b²/a²) | Exam: SSC CHSL 05/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option A | ((b² – 1)/(a² – 1)) | Exam: SSC CHSL 05/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q026",
@@ -433,13 +433,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "The value of the expression 1 – sin(2t) cos(t)  sin(t)  is: 1  sin(2t) cos(t) – sin(t)",
     "options": [
-      "1",
-      " 2tan(t) 1  tan(t)",
-      "1/1",
-      " 2tan(t) 1+ tan(t)/– 2tan(t) 1– tan(t"
+      "1  2tan(t)",
+      "1  tan(t)",
+      "(1  2tan(t))/(1 – 2tan(t))",
+      "(1+ tan(t))/(1– tan(t))"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 2tan(t) 1  tan(t)) | Exam: SSC CGL 19/09/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (1  tan(t)) | Exam: SSC CGL 19/09/2024 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q027",
@@ -450,13 +450,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "Using cosec(   ) sec   sec   cosec   cosec  = , sec   cosec   cosec   sec  find the value of cosec 75°.",
     "options": [
-      "6 /4 4",
-      "2 6  2",
-      "4 4",
-      "6  2"
+      "(6  2)/1",
+      "6  2",
+      "4/(6  2)",
+      "4/(6  2)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (4 4) | Exam: SSC CGL 25/07/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (4/(6  2)) | Exam: SSC CGL 25/07/2023 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q028",
@@ -504,7 +504,7 @@
       "1 + sinA – cosA",
       "1 – sinA.cosA",
       "1 + cosA – sinA",
-      "1 + sinA.cos"
+      "1 + sinA.cosA"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1 + sinA – cosA) | Exam: SSC CGL TIER-II 11/09/2019"
@@ -535,13 +535,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "The value of sec 6 θ – tan 6 θ - 3sec 2 θtan 2 θ +1 is: cos 4 θ – sin 4 θ + 2sin 2 θ + 2",
     "options": [
-      "2/3",
+      "2",
       "1",
-      "3/4",
-      "1/2"
+      "3",
+      "1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2/3) | Exam: SSC CGL 05/03/2020 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (2) | Exam: SSC CGL 05/03/2020 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q033",
@@ -569,13 +569,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If cot2 = 1 – e2, then the value of cosec  + cot3 sec is:",
     "options": [
-      "3",
-      "(1 – e2)",
-      "3",
-      "1"
+      "3/(2 – e",
+      "(1 – e2)/(2 ) 2)",
+      "3/(1 – e 2 ) 2",
+      "1/(2 – e 2 ) 2"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CPO 05/10/2023 (Shift-03)"
+    "explanation": "Correct Answer: Option A | (3/(2 – e) | Exam: SSC CPO 05/10/2023 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q035",
@@ -586,13 +586,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If tan² = 1 – a², then the value of sec + tan³ cosec is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3/( 2 – a  2)",
+      "3/( a 2 – 1  2)",
+      "3/( 2 – a 2  2)",
+      "3/(a 2)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 01/12/2022 (Shift-04)"
+    "explanation": "Correct Answer: Option C | (3/( 2 – a 2  2)) | Exam: SSC CGL 01/12/2022 (Shift-04)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_04_q036",
@@ -603,12 +603,12 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-04).pdf",
     "question": "If tan² = 3 + Q², then sec + tan³ cosec = ?",
     "options": [
-      "3",
-      "3",
-      "3",
-      "3"
+      "3/(3 + Q 2 ) 2",
+      "3/(7 + Q 2 ) 2",
+      "3/(5 – Q 2 ) 2",
+      "3/(4 + Q 2 ) 2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3) | Exam: SSC CGL 07/12/2022 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (3/(4 + Q 2 ) 2) | Exam: SSC CGL 07/12/2022 (Shift-01)"
   }
 ]

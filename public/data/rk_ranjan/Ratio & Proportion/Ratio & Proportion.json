@@ -115,8 +115,8 @@
       "3 : 4",
       "5 : 4"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3 : 2) | Exam: SSC CGL 02/12/2022 (Shift- 03)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5 : 4) | Exam: SSC CGL 02/12/2022 (Shift- 03)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q008",
@@ -127,13 +127,13 @@
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
     "question": "What is the fourth proportional of 1 1 1 , , ? 72 168 150 1 1 1",
     "options": [
-      "1/25",
-      "1/0 275",
-      "1/37",
-      "1/5 350"
+      "1/250",
+      "1/275",
+      "1/375",
+      "1/350"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1/5 350) | Exam: SSC Phase X 02/08/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option D | (1/350) | Exam: SSC Phase X 02/08/2022 (Shift- 02)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q009",
@@ -176,15 +176,32 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "Find the mean proportional o",
+    "question": "Find the mean proportional of 12.96 and 0.16.",
+    "options": [
+      "1.44",
+      "96",
+      "44",
+      "69"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.44) | Exam: SSC CGL 13/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Proportion (ClassRoom Sheet).pdf",
+    "question": "The mean proportional of 8a2 and , a 4 where a is a positive number, is _______. 18",
     "options": [
       "Option A",
       "Option B",
       "Option C",
       "Option D"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Exam: SSC CGL 09/09/2024 (Shift-03)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q013",
@@ -195,13 +212,13 @@
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
     "question": "Find the mean proportion of and a – b a 2 – b 2 . a 2 – ab + b 2 a 3 + b 3 a 2 – b 2",
     "options": [
-      "a +",
-      "b",
-      "a/a",
-      "+ b/–"
+      "1/a",
+      "(a + b)/(+ b)",
+      "a",
+      "(a + b)/(– b)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (b) | Exam: SSC CGL 06/12/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option B | ((a + b)/(+ b)) | Exam: SSC CGL 06/12/2022 (Shift- 03)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q014",
@@ -246,13 +263,13 @@
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
     "question": "What is the third proportion to 15 and 24?",
     "options": [
-      "38",
-      "37",
-      "38",
-      "37"
+      "4/38",
+      "2/37",
+      "2/38",
+      "4/37"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (38) | Exam: SSC CHSL 24/05/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option C | (2/38) | Exam: SSC CHSL 24/05/2022 (Shift- 01)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q017",
@@ -312,15 +329,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "The mean proportional of 4a2 and x is , 5a where a is a positive number, then the value of x is_________.",
+    "question": "The mean proportional of 4a2 and x is , 5a where a is a positive number, then the value of x is_________. 1",
     "options": [
-      "1/10",
-      "1/0a 4 100a 2",
-      "1/25",
-      "1/a 2 25a 4"
+      "1/(100a 4)",
+      "1/(100a 2)",
+      "1/(25a 2)",
+      "1/(25a 4)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/10) | Exam: SSC CGL 18/09/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1/(100a 4)) | Exam: SSC CGL 18/09/2024 (Shift-02)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q021",
@@ -399,13 +416,13 @@
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
     "question": "If 23 : 85.06 :: 8–4.06 : x, find the value of x.",
     "options": [
-      "1/2",
-      "3",
-      "2 3/Adi",
-      "tya Ranjan (Excise Inspector)"
+      "1",
+      "1",
+      "2/23",
+      "3/0"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (1) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q026",
@@ -414,15 +431,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "If four distinct positive numbers, a, b, c",
+    "question": "If four distinct positive numbers, a, b, c and d, in the order given are in proportion, then which of the following options is NOT correct?",
     "options": [
-      "proportion",
-      "proportion.",
-      "proportion.",
-      "proportion. PROPORTION AFTER ADDITION OR SUBTRACTIO"
+      "b, a, d and c, in the order given are in proportion",
+      "c, d, b and a, in the order given are in proportion.",
+      "d, c, b and a, in the order given are in proportion.",
+      "d, c, b and a, in the order given are in proportion."
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (proportion. PROPORTION AFTER ADDITION OR SUBTRACTIO) | Exam: SSC CPO 28/06/2024 (Shift-02)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (d, c, b and a, in the order given are in proportion.) | Exam: SSC CPO 28/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_classroom_sheet_q027",
@@ -431,7 +448,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "Which number should be added to 3, 11, 4",
+    "question": "Which number should be added to 3, 11, 4 and 14 to make them in proportion?",
     "options": [
       "2",
       "1",
@@ -448,7 +465,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so",
+    "question": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so obtained are in proportion. What is the mean proportional between the (x – 1) and (2x – 10)?",
     "options": [
       "68",
       "78",
@@ -499,7 +516,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "If x is subtracted from each of 24, 40, 33 and",
+    "question": "If x is subtracted from each of 24, 40, 33 and 57, the numbers, so obtained are in proportion. The ratio of (5x + 12) to (4x +15) is",
     "options": [
       "4 : 3",
       "14 : 13",
@@ -516,7 +533,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "When x is subtracted from each of the numbers 54, 49, 22 and 21, the numbers",
+    "question": "When x is subtracted from each of the numbers 54, 49, 22 and 21, the numbers so obtained are in proportion. The ratio of (8x – 25) to (7x – 26) is:",
     "options": [
       "29 : 24",
       "15 : 13",
@@ -533,7 +550,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "When x is added to each of 2, 3, 30 and",
+    "question": "When x is added to each of 2, 3, 30 and 35, then the numbers obtained in this order, are in proportion. What is the mean proportional between (x + 7) and (x – 2)?",
     "options": [
       "7",
       "4",
@@ -550,12 +567,12 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Proportion (ClassRoom Sheet).pdf",
-    "question": "What number must be added to each of the number 8, 13, 26 and 40 so that the",
+    "question": "What number must be added to each of the number 8, 13, 26 and 40 so that the number obtained in this order are in proportion?",
     "options": [
       "2",
       "3",
       "1",
-      "4 KEY 6. 7. 8. 9. 10."
+      "4"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2) | Exam: SSC CHSL 16/10/2020 (Shift- 02)"
@@ -574,8 +591,8 @@
       "Option C",
       "Option D"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (d) Given, P²  R  P² = k1R Q²  R  Q² = k2R and P  Q Consider, P² + Q² = k1R + k2R  R(k1 + k2) = Rk Hence, (P² + Q²)  R Consider, PQ 1 2 k R. k R  1 2 R k .k  = R.k  PQ  R Consider, P² – Q² = k1R – k2R  R(k1 – k2) = Rk  P² – Q² R Hence,"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Solution: (d) Given, P²  R  P² = k1R Q²  R  Q² = k2R and P  Q Consider, P² + Q² = k1R + k2R  R(k1 + k2) = Rk Hence, (P² + Q²)  R Consider, PQ 1 2 k R. k R  1 2 R k .k  = R.k  PQ  R Consider, P² – Q² = k1R – k2R  R(k1 – k2) = Rk  P² – Q² R Hence,"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q002",
@@ -591,8 +608,8 @@
       "Option C",
       "Option D"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (a) p q r² p = kq r² where, k = constant Now, q is increased by 20% and r is decreased by 20% Then, new p (let's say p')"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (a) p q r² p = kq r² where, k = constant Now, q is increased by 20% and r is decreased by 20% Then, new p (let's say p')"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q003",
@@ -603,13 +620,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "P² – Q² varies as R.",
     "options": [
-      "87.5",
-      "85",
-      "82.5",
-      "80"
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "1, 2 & 3 2. If p varies directly as q and inversely as square of r, what is the percentage increase in p due to an increase in q by 20% and a decrease in r by 20%?"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (82.5) | Solution: (c) Statement (I): ATQ, x  z and y  z x = kz and y = rz, where k & r are constants.  x² = k²z² and y² = r²z²  x² – y² = z² (k² – r²)  x² – y²  z² Hence, statement (I) is correct. Statement (II): ATQ,  1 z  x & 1 y z   xz = k & yz = r wher"
+    "explanation": "Correct Answer: Option C | (1 & 3 only) | Solution: (c) Statement (I): ATQ, x  z and y  z x = kz and y = rz, where k & r are constants.  x² = k²z² and y² = r²z²  x² – y² = z² (k² – r²)  x² – y²  z² Hence, statement (I) is correct. Statement (II): ATQ,  1 z  x & 1 y z   xz = k & yz = r wher"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q004",
@@ -637,13 +654,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "When a ball is allowed to fall, the time it takes to fall any distance varies as the square root of the distance and it takes 4 seconds to fall 78.40 m. How long would it take to fall 122.50 m?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 sec",
+      "5.5 sec",
+      "6 sec",
+      "6.5 sec"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (5 sec)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q006",
@@ -652,7 +669,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "5 sec 6. Find the fourth proportional of 1235, 312 and 412.",
+    "question": "Find the fourth proportional of 1235, 312 and 412.",
     "options": [
       "324",
       "12–23",
@@ -671,9 +688,9 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "If 2³ : 85.06 : : 8–4.06 : x, find the value of x.",
     "options": [
-      "1/2³",
       "1",
-      "2³",
+      "1",
+      "2³/2³",
       "0"
     ],
     "correctAnswer": 1,
@@ -691,7 +708,7 @@
       "(a + b) (a 2 – ab + b 2 )",
       "2 2 (a + ab + b ) (a 2 + ab + b 2 )",
       "(a – b) (a 2 + ab + b 2 )",
-      "2 2 (a – b"
+      "2 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2 2 (a + ab + b ) (a 2 + ab + b 2 ))"
@@ -727,8 +744,8 @@
       "0.0003",
       "0.033"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (0.033)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.003)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q011",
@@ -739,13 +756,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "Find the mean proportion of and a – b a 2 – ab + b 2 a 3 + b 3 a 2 – b 2",
     "options": [
-      "a ",
-      "b",
-      "a/a",
-      " b/–"
+      "1/a",
+      "(a + b)/( b)",
+      "a",
+      "(a  b)/(– b)"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ( b/–)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((a + b)/( b))"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q012",
@@ -754,7 +771,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "When x is added to each of the numbers 7, 11, 18",
+    "question": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so obtained are in proportion. What is the mean proportional between the (x – 1) and (2x – 10)?",
     "options": [
       "68",
       "78",
@@ -771,7 +788,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "When x is added to each of 2, 3, 30 and 35, then the",
+    "question": "When x is added to each of 2, 3, 30 and 35, then the numbers obtained in this order, are in proportion. What is the mean proportional between (x + 7) & (x – 2)?",
     "options": [
       "7",
       "4",
@@ -788,15 +805,32 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "If x is subtracted from each of 24, 40, 33 and 57, the",
+    "question": "If x is subtracted from each of 24, 40, 33 and 57, the numbers, so obtained are in proportion. The ratio of (5x + 12) to (4x + 15) is",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 : 3",
+      "14 : 13",
+      "7 : 4",
+      "7 : 5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (14 : 13)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "When x is subtracted from each of 24, 33, 20 and 26, the number so obtained in this order are in proportion. What is the mean proportional between (2x + 1) and (5x – 11)?",
+    "options": [
+      "30",
+      "35",
+      "20",
+      "428"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (35)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q016",
@@ -807,13 +841,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "A varies directly as the positive square root of B, and inversely as the cube of C. If A = 15, when B = 27 and C = 2, then find B when A = 9 and C = 2.",
     "options": [
-      "28/42",
-      "1 243/25",
-      "26/37",
-      "4 275/51"
+      "281/42",
+      "243/25",
+      "264/37",
+      "275/51"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (28/42)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (243/25)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q017",
@@ -824,13 +858,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "'x' varies directly with the cube of 'y', and inversely 1 with the square of 'z'. If x = when y = 2 and z = 3, 36 then what is the value of 800x when y = 3 and z = 5?",
     "options": [
-      "9/80",
-      "0",
-      "80/9",
-      "0"
+      "9",
+      "27",
+      "800",
+      "9"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0)"
+    "explanation": "Correct Answer: Option B | (27)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q018",
@@ -856,7 +890,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two",
+    "question": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two identical/similar discs have their thickness in the ratio of 16 : 9. What is the ratio of their radii if the weight of the first is four times that of the second?",
     "options": [
       "1 : 2",
       "2 : 3",
@@ -873,7 +907,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "Four distinct positive numbers, ‘a’, ‘b’, ‘c’ and ‘d’,",
+    "question": "Four distinct positive numbers, ‘a’, ‘b’, ‘c’ and ‘d’, in the order given, are in proportion. ‘b’ is 35 more than ‘a’ and ‘d’ is 60 more than ‘c’. The product of ‘a’ and ‘c’ is 5376. What is the sum of ‘a’, ‘b’, ‘c’ and ‘d’?",
     "options": [
       "400",
       "398",
@@ -890,7 +924,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The prices of a school bag and a school dress",
+    "question": "The prices of a school bag and a school dress are in the ratio of 8 : 7. The price of the school bag is `400 more than the price of the school dress. Find the price of the school dress.",
     "options": [
       "`3400",
       "`2800",
@@ -907,7 +941,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs.2002 is divided among A, B",
+    "question": "A sum of Rs.2002 is divided among A, B and C in the ratio 3 : 4 : 6. Find the share of B in that?",
     "options": [
       "Rs.616",
       "Rs.610",
@@ -1043,7 +1077,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of marks of A and B is 3 : 4 and the ratio of marks of B and C is 4 : 5. If",
+    "question": "The ratio of marks of A and B is 3 : 4 and the ratio of marks of B and C is 4 : 5. If the difference in the marks of C and A is 30, then how much marks does B get?",
     "options": [
       "52",
       "64",
@@ -1060,15 +1094,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A sum of money was divided between Cyrus, Rohan and Mishti. The ratio of the sums received by Cyrus and Rohan was 3 : 2, while the ratio of the sums received by Rohan and Mishti was 7",
+    "question": "A sum of money was divided between Cyrus, Rohan and Mishti. The ratio of the sums received by Cyrus and Rohan was 3 : 2, while the ratio of the sums received by Rohan and Mishti was 7: 12. If the sum received by Cyrus was `1,800 less than the sum received by Mishti, how many rupees did Rohan receive as his share?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "`7,560",
+      "`9,240",
+      "`6,300",
+      "`8,400 4 5 9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (`8,400 4 5 9) | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q012",
@@ -1077,7 +1111,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "If the sum received by Cyrus was `1,800 less than the sum received by Mishti, how many rupees did Rohan receive as his share?",
+    "question": "Three numbers are in the ratio : : 5 6 10 The difference between the smallest and the greatest numbers is 12. Find the number which is NEITHER the smallest NOR the greatest. 4 5 9",
     "options": [
       "96",
       "108",
@@ -1085,7 +1119,7 @@
       "104"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (100) | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (100) | Exam: SSC CGL 24/07/2023 (Shift-2)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q013",
@@ -1162,7 +1196,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The seats for Mathematics, English and",
+    "question": "The seats for Mathematics, English and Chemistry in a school are in the ratio of 6 : 4 : 7. If these seats are increased by 20%, 40% and 60%, respectively, the ratio of the increased seats is:",
     "options": [
       "9 : 7 : 8",
       "9 : 7 : 14",
@@ -1264,7 +1298,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs.2,310 is divided between A, B and C such that the ratio of the shares of B and C is 3 : 5 and the ratio of the shares of C and A is 4 : 9. What is the difference",
+    "question": "A sum of Rs.2,310 is divided between A, B and C such that the ratio of the shares of B and C is 3 : 5 and the ratio of the shares of C and A is 4 : 9. What is the difference (in Rs) between the shares of A and C?",
     "options": [
       "240",
       "750",
@@ -1281,7 +1315,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the shares of B and D is 8 : 9. If C receives",
+    "question": "A sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the shares of B and D is 8 : 9. If C receives Rs 1,560, then what is the difference (in Rs) between the shares of A and B ?",
     "options": [
       "180",
       "240",
@@ -1298,7 +1332,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 46,800 is divided among A,",
+    "question": "A sum of Rs 46,800 is divided among A, B, C and D in such a way that the ratio of the combined share of A and D to the combined share of B and C is 8 : 5. The ratio of the share of B to that of C is 5: 4. A receives Rs 18,400. If x is the difference between the shares of A and B and y is the difference between the shares of C and D, then what is the value of (x – y) (in Rs)?",
     "options": [
       "6500",
       "7000",
@@ -1332,7 +1366,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A, B and C divide an amount of Rs 10,500",
+    "question": "A, B and C divide an amount of Rs 10,500 amongst themselves in the ratio 5 : 7 : 9, respectively. If each one gets Rs 500 more, then what will be the ratio of the amounts with A, B and C?",
     "options": [
       "3 : 4 : 5",
       "5 : 6 : 7",
@@ -1354,10 +1388,10 @@
       "` 3200",
       "` 4800",
       "` 5600",
-      "` 4000"
+      "` 4000 p r t 2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (` 4000) | Exam: SSC CHSL 17/03/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (` 4000 p r t 2) | Exam: SSC CHSL 17/03/2023 (Shift-01)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q029",
@@ -1394,13 +1428,30 @@
     "explanation": "Correct Answer: Option A | (1 : 2)"
   },
   {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a wallet, there are coins of Rs 1, Rs 2 and Rs 5 in the ratio of 2 : 5 : 3 respectively. If there is Rs 54 in all, then how many Rs 5 coins are there?",
+    "options": [
+      "20",
+      "10",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6) | Exam: SSC MTS 09/05/2023 (Shift-02)"
+  },
+  {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q035",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Atul purchased Bread costing Rs.20 and gave a 100 rupee note to the shopkeeper.",
+    "question": "Atul purchased Bread costing Rs.20 and gave a 100 rupee note to the shopkeeper. Shopkeeper gave the balance money in coins of denomination Rs.2, Rs.5 and Rs.10. If these coins are in the ratio 5 : 4 : 1, then how many Rs 5 coins did the shopkeeper give?",
     "options": [
       "5",
       "6",
@@ -1411,13 +1462,30 @@
     "explanation": "Correct Answer: Option C | (8) | Exam: SSC CGL 13/08/2021(Shift 03)"
   },
   {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a bag there are coins of Rs.5, Rs.10 and Rs.20 denominations. The total number of coins in the bag is 240. If the number of coins of Rs.5, Rs.10 and Rs.20 denominations are in the ratio of 2 : 3 : 5, then what is the total amount of money in the bag?",
+    "options": [
+      "Rs.3540",
+      "Rs.4600",
+      "Rs.4620",
+      "Rs.3360"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.3360) | Exam: SSC MTS 12/07/2022 (Shift- 02)"
+  },
+  {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q037",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A bag contains Rs. 840",
+    "question": "A bag contains Rs. 840 in the form of 2 rupee, 5 rupee and 10 rupee coins. The number of coins of 2 rupee. 5 rupee and 10 rupee are in the ratio of 5 : 7 : 6. What is the total number of coins in the bag?",
     "options": [
       "158",
       "132",
@@ -1434,15 +1502,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Radhika requested the cashier of a bank to",
+    "question": "Radhika requested the cashier of a bank to get her coins in lieu of her cheque worth `1,845. Cashier gave her a packet containing `5, `10 and `20 coins in the ratio of 3 : 5 : 7. What is the total worth of the smallest coin received by her?",
     "options": [
       "`125",
       "`105",
       "`145",
-      "`135"
+      "`135 Questions Based on Addition or Subtraction"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (`135) | Exam: SSC CHSL 01/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (`135 Questions Based on Addition or Subtraction) | Exam: SSC CHSL 01/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q039",
@@ -1451,7 +1519,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio 9 : 16. If both numbers are increased by 40, then their ratio becomes 2 : 3. What is the difference between the two number's?",
     "options": [
       "64",
       "60",
@@ -1485,7 +1553,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio of 3 : 7. If 11 is subtracted from each, the ratio between the numbers becomes 7 : 20. Find the smaller number",
     "options": [
       "39",
       "21",
@@ -1502,7 +1570,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio 4 : 5. If 3 is added to the smaller and 7 is subtracted from the larger number, they are in the ratio 1 : 1. Find the numbers.",
     "options": [
       "60, 75",
       "20, 25",
@@ -1519,7 +1587,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio 4 : 5. If 17 is subtracted from each, the new numbers are in the ratio 11 : 14. If 20 is added to each of the original numbers, then the ratio becomes:",
     "options": [
       "241 : 275",
       "224 : 241",
@@ -1530,13 +1598,30 @@
     "explanation": "Correct Answer: Option C | (224 : 275) | Exam: SSC Phase XII 25/06/2024 (Shift-04)"
   },
   {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a school of 720 students, the ratio of boys to girls is 3 : 5. Find how many new boys may be allowed to the school if 18 new girls are admitted, so that the ratio of boys to girls changes to 2 : 3.",
+    "options": [
+      "42",
+      "50",
+      "44",
+      "38"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (42) | Exam: SSC CPO 05/10/2023 (Shift-03)"
+  },
+  {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q045",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of number of boys and girls",
+    "question": "The ratio of number of boys and girls in a college is 3 : 2. If 40 boys leave the college and 40 girls join the college, the their ratio will becomes 2 : 3. What is the initial number of boys in the college?",
     "options": [
       "120",
       "150",
@@ -1553,7 +1638,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "On a tree, there are some parrots and some",
+    "question": "On a tree, there are some parrots and some pigeons in the ratio of 7 : 9, respectively. After an hour, 8 parrots fly away, and 6 pigeons and 10 sparrows come and sit on the tree. The ratio of the parrots and the pigeons on the tree now is 1 : 4. What is the ratio of the parrots and the sparrows that are now on the tree?",
     "options": [
       "1 : 1",
       "1 : 2",
@@ -1570,7 +1655,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio 3 : 5. If 13 is subtracted from each, the new numbers are in the ratio 10 : 21. If 5 is added to each of the original numbers, then the ratio becomes:",
     "options": [
       "5 : 7",
       "23 : 33",
@@ -1581,13 +1666,30 @@
     "explanation": "Correct Answer: Option D | (19 : 30) | Exam: SSC CGL Tier II 2018"
   },
   {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a school library, the ratio of Science to English books is 10:13. If there are 400 Science books and due to increase demand of Science books, few Science books are added by school authority and the ratio becomes 25:26. What is the number of Science books added?",
+    "options": [
+      "1.50",
+      "100",
+      "120",
+      "80"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (100) | Exam: SSC MTS 09/05/2023 (Shift-02)"
+  },
+  {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q049",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Monthly salaries of Anil and Kumud are",
+    "question": "Monthly salaries of Anil and Kumud are in the ratio 19:17. If Anil and Kumud get salary hike of Rs. 2000 and Rs. 1000 respectively, then the ratio in their salaries become 8:7. What is the present salary of Kumud after increased (in Rs.)?",
     "options": [
       "38000",
       "18000",
@@ -1604,7 +1706,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The students",
+    "question": "The students in three classes are in a ratio of 3 : 7 : 8. If 6 students are increased in each class, the ratio changes to 11 : 23 : 26. Find the total number of students in the three classes before the increase.",
     "options": [
       "162",
       "112",
@@ -1621,7 +1723,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The students",
+    "question": "The students in three batches of a dance class are in the ratio of 2 : 3 : 5. If 20 students increase in each batch the ratio changes to 4 : 5 : 7. Find the total number of students in the three batches before the increase.",
     "options": [
       "120",
       "100",
@@ -1672,7 +1774,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The expenditure and savings of a person",
+    "question": "The expenditure and savings of a person are in ratio of 4 : 3. His savings increase by 1 of his income and income re",
     "options": [
       "12 : 17",
       "14 : 17",
@@ -1706,7 +1808,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of income of Jitendra, and Narendra is 4 : 7 and the ratio of their expenditure is 6 : 5 respectively. If Jitendra saves Rs. 400 out of Rs. 2,800 income, then find the savings of Narendra. Ratio",
+    "question": "The ratio of income of Jitendra, and Narendra is 4 : 7 and the ratio of their expenditure is 6 : 5 respectively. If Jitendra saves Rs. 400 out of Rs. 2,800 income, then find the savings of Narendra.",
     "options": [
       "` 2,900",
       "` 2,000",
@@ -1723,7 +1825,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The annual incomes of Anand and Bharath",
+    "question": "The annual incomes of Anand and Bharath are in the ratio 3 : 5 and their annual expenses are in the ratio 1 : 3. If each of them saves Rs.10,000 at the end of the year, then the annual income of Bharath is:",
     "options": [
       "Rs 25,000",
       "Rs 12,000",
@@ -1779,10 +1881,10 @@
       "Rs. 49,625",
       "Rs. 48,625",
       "Rs. 51,625",
-      "Rs. 50,625 2"
+      "Rs. 50,625"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs. 50,625 2) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option D | (Rs. 50,625) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q061",
@@ -1808,7 +1910,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of the incomes of A and B",
+    "question": "The ratio of the incomes of A and B in the last year was 4: 3. The ratios of their individual incomes in the last year and the present year are 3 : 4 and 5 : 6, respectively. If their total income in the present year is Rs 24.12 lakhs, then the sum of the income (in Rs lakhs) of A in the last year and that of B in the present year is:",
     "options": [
       "22.17",
       "21.28",
@@ -1825,7 +1927,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of the incomes of A and B",
+    "question": "The ratio of the incomes of A and B in 2020 was 5 : 4. The ratios of their individual incomes in 2020 and 2021 were 4 : 5 and 2: 3, respectively. If the total income of A and B in 2021 was 7,05,600, then what was the income (in Rs) of B in 2021?",
     "options": [
       "3,45,600",
       "2,79,700",
@@ -1859,7 +1961,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A , B and C spend 80% , 85% and 75% of their income respectively. If their savings",
+    "question": "A , B and C spend 80% , 85% and 75% of their income respectively. If their savings are in the ratio 8 : 9 : 20 and the difference between the incomes of A and C is Rs.18000, then the income of B is:",
     "options": [
       "Rs.24000",
       "Rs.27000",
@@ -1876,7 +1978,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The ratio of the number of employees",
+    "question": "The ratio of the number of employees (male and female) in offices A and B is 2 : 3. The ratio of the female employees in A and B is 1 : 2, and the ratio of the female employees in A to the total employees in A is 1:3. What is the ratio of the male employees in A and B?",
     "options": [
       "6 : 7",
       "5 : 6",
@@ -1893,7 +1995,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "On the whole surface of earth the ratio of land and water is 3 : 5. The land and",
+    "question": "On the whole surface of earth the ratio of land and water is 3 : 5. The land and water in northern hemisphere is 7 : 9. Then what is the ratio of land and water in southern hemisphere?",
     "options": [
       "6 : 7",
       "5 : 11",
@@ -1910,7 +2012,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The expenses of a family on wheat,",
+    "question": "The expenses of a family on wheat, vegetables and oil are in the ratio 12 : 8 : 5. The prices of these items increased by 50%, 25% and 40%, respectively. The total expenses of the family on these items increased by:",
     "options": [
       "40",
       "38",
@@ -1927,7 +2029,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Salaries of B, C, D and E are",
+    "question": "Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original salaries of B , C, D and E?",
     "options": [
       "Rs.1260",
       "Rs.1820",
@@ -1944,7 +2046,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The Price of a semi-precious stone weighing 48 g, is Rs 2,30,400. It is broken",
+    "question": "The Price of a semi-precious stone weighing 48 g, is Rs 2,30,400. It is broken into two pieces whose weights are in the ration of 5 : 7. If the price is proportional to the square of the weight, then the loss (in Rs) incurred, is:",
     "options": [
       "112000",
       "40000",
@@ -1961,7 +2063,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The value of a stone is proportional to the square of its weight. A stone worth Rs.",
+    "question": "The value of a stone is proportional to the square of its weight. A stone worth Rs. Rs.1,20,000 is broken into two pieces in the ratio of 2 : 3. What is the total price of the two small stones?",
     "options": [
       "Rs. 68,400",
       "Rs. 62,400",
@@ -1978,15 +2080,83 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The cost of a diamond is directly proportional to the square of its weight.The cost of a 14 gm diamond is Rs.2560. This diamond got broken down into two pieces",
+    "question": "The cost of a diamond is directly proportional to the square of its weight.The cost of a 14 gm diamond is Rs.2560. This diamond got broken down into two pieces in the ratio of 5 : 9. How much loss percent is incurred due to this breakage? (Correct to two decimal places)",
     "options": [
       "53.47 percent",
       "49.71 percent",
       "55.41 percent",
-      "45.92 percen"
+      "45.92 percent"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (45.92 percen) | Exam: SSC CGL Mains (08/08/2022)"
+    "explanation": "Correct Answer: Option D | (45.92 percent) | Exam: SSC CGL Mains (08/08/2022)"
+  },
+  {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q074",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In an examination, the success to failure ratio was 5 : 2. Had the number of failures been 14 more, then the success to failure ratio would have been 9 : 5. The total number of candidates who appeared for the examination was:",
+    "options": [
+      "121",
+      "196",
+      "126",
+      "128"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (196)"
+  },
+  {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q075",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In an examination, the number of students who passed and the number of students who failed were in the ratio 25: 4. If one more student had appeared and passed and the number of failed students was 3 less than earlier, the ratio of passed students to failed students would have become 22: 3. What is the difference between the number of students who, initially, passed the examination and the number of students who failed the examination?",
+    "options": [
+      "132",
+      "126",
+      "174",
+      "150"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (126) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q076",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In an election four candidates were there in the fray, out of which three were nominated from the three national parties and they got votes in a ratio of 2 : 3 : 4. The total votes polled were 1,89,000 and the fourth candidate got 18,000 votes. The votes obtained by the three candidates of the national parties are respectively: (assuming all votes valid)",
+    "options": [
+      "38,000, 57,000 and 76,000",
+      "34,000, 51,000 and 68,000",
+      "36,000, 54,000 and 72,000",
+      "40,000, 60,000 and 80,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (38,000, 57,000 and 76,000) | Exam: SSC CHSL 06/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q077",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a party hall, there are people in blue and red dresses. The ratio of number of men in blue to the number of women in red is 3: 7. The ratio of men in red to the number of women in blue is 2 : 1. If the ratio of number of people in blue to the number of people in red is 35: 76, then what is the ratio of number of men to the number of women?",
+    "options": [
+      "47 : 51",
+      "40 : 43",
+      "62 : 57",
+      "52 : 59"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (52 : 59) | Exam: SSC MTS 04/05/2023 (Shift-01)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q078",
@@ -1995,7 +2165,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "There are 160 multiple choice questions",
+    "question": "There are 160 multiple choice questions in a test. 4 marks are allotted for a correct answer and 1 mark is deducted for a wrong answer or un-attempted question from the total score of correct answers. If a candidate scored 400 marks in the test, how many questions did he answer correctly?",
     "options": [
       "110",
       "115",
@@ -2012,15 +2182,32 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A blended tea",
+    "question": "A blended tea in a barrel contains Assam, Darjeeling and Nilgiri Hills tea in the ratio 2 : 3 : 1. Another barrel contains Darjeeling. Nilgiri Hills and Kangra Valley tea in the ratio 5 : 4 : 3. If equal weights of both blended tea mix together to make a new brand, then the weight of Kangra valley per kilogram in the new brand is:",
     "options": [
       "500 gm",
       "100 gm",
       "250 gm",
-      "125 g"
+      "125 gm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (125 g) | Exam: SSC CHSL 10/08/2023 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (125 gm) | Exam: SSC CHSL 10/08/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_ratio_proportion_ratio_classroom_sheet_q080",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ratio (ClassRoom Sheet).pdf",
+    "question": "In a class, the ratio of the number of boys to that of girls is 3 : 5. The number of students who passed to that of who failed is 7 : 3. Among boys, the number of those who passed to those who failed is in the ratio 2 : 1. Among girls, what is the ratio of the number of girls who passed to those who failed?",
+    "options": [
+      "15 : 8",
+      "9 : 4",
+      "18 : 7",
+      "12 : 5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18 : 7)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q081",
@@ -2029,15 +2216,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three quantities",
+    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three quantities then they will be in the ratio of 17 : 9 : 10. If sum of these three numbers is 1484  A + B – C  then what will be the value of   ?  C – B ",
     "options": [
-      "32/23",
-      "1 315/13",
-      "18/15",
-      "3 225/17"
+      "321/23",
+      "315/13",
+      "183/15",
+      "225/17"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (32/23)"
+    "explanation": "Correct Answer: Option A | (321/23)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q082",
@@ -2046,7 +2233,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "A man ordered 4pairs of black socks and some pairs of brown socks. The price of a black pair is double to that of a brown pair. While preparing the bill, the clerk did a mistake and interchanged the number of black and brown pairs and this increased the bill by 50%. The ratio of the number",
+    "question": "A man ordered 4pairs of black socks and some pairs of brown socks. The price of a black pair is double to that of a brown pair. While preparing the bill, the clerk did a mistake and interchanged the number of black and brown pairs and this increased the bill by 50%. The ratio of the number of black and brown pairs of socks in the original order was?",
     "options": [
       "4 : 1",
       "2 : 1",
@@ -2063,7 +2250,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The total number of men, women and",
+    "question": "The total number of men, women and children working in a factory is 40. They earn `1343 in a day. If the total wages of men to that of women to that of children is in the ratio of 35 : 26 : 18 and if the wages of a man, a woman and a child are in the ratio of 7 : 13 : 6, then how much does a child earn in a day?",
     "options": [
       "`22.40",
       "`37.50",
@@ -2116,13 +2303,13 @@
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
     "question": "Find the compound ratio of the following 1 4 0.45 : 0.55 and : . 9 5 1 4 0.45 : 0.55 rFkk :",
     "options": [
-      "5 : 41",
-      "5 : 44",
-      "44 : 5",
-      "41 : 5"
+      "9/(5 : 41)",
+      "5/(5 : 44)",
+      "(a) 5 : 41/(44 : 5)",
+      "(b) 5 : 44/(41 : 5)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (5 : 44)"
+    "explanation": "Correct Answer: Option B | (5/(5 : 44))"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q087",
@@ -2184,13 +2371,13 @@
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
     "question": "Find the subduplicate ratio of 1 1 : . 0.225 0.256 1 1 :",
     "options": [
-      "16 : 15",
-      "15 : 16",
-      "225 : 256",
-      "256 : 225"
+      "0.225/(16 : 15)",
+      "0.256/(15 : 16)",
+      "(a) 16 : 15/(225 : 256)",
+      "(b) 15 : 16/(256 : 225)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (225 : 256)"
+    "explanation": "Correct Answer: Option C | ((a) 16 : 15/(225 : 256))"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q091",
@@ -2201,13 +2388,13 @@
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
     "question": "Find the triplicate ratio of 3 : 5.",
     "options": [
-      "27 : 125",
-      "9 : 25",
-      "3 3 : 5 3",
-      "125 : 27"
+      "(27 : 125)/1",
+      "(9 : 25)/1",
+      "(3 3 : 5 3)/1",
+      "(125 : 27)/1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (27 : 125)"
+    "explanation": "Correct Answer: Option A | ((27 : 125)/1)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q092",
@@ -2252,13 +2439,13 @@
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
     "question": "Find the subtriplicate ratio of 1 1 : . 0.343 0.512 1 1 :",
     "options": [
-      "7 : 8",
-      "8 : 7",
-      "6 : 7",
-      "7 : 6"
+      "0.343/(7 : 8)",
+      "0.512/(8 : 7)",
+      "(a) 7 : 8/(6 : 7)",
+      "(b) 8 : 7/(7 : 6)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (8 : 7)"
+    "explanation": "Correct Answer: Option B | (0.512/(8 : 7))"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q095",
@@ -2284,15 +2471,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "Find the inverse ratio of : . 64 512 Ratio 1 1 :",
+    "question": "Find the inverse ratio of : . 64 512 1 1 :",
     "options": [
-      "8 : 1",
-      "1 : 8",
-      "64 : 1",
-      "1 : 64"
+      "64/(8 : 1)",
+      "512/(1 : 8)",
+      "(a) 8 : 1/(64 : 1)",
+      "(b) 1 : 8/(1 : 64)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1 : 8)"
+    "explanation": "Correct Answer: Option B | (512/(1 : 8))"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q097",
@@ -2305,11 +2492,11 @@
     "options": [
       "PQ = constant 1",
       "P  R and Q  R P",
-      "Q 1",
-      "(P + Q) "
+      "= constant Q 1",
+      "(P + Q)  R"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((P + Q) )"
+    "explanation": "Correct Answer: Option D | ((P + Q)  R)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_classroom_sheet_q098",
@@ -2352,7 +2539,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "ClassRoom",
     "sheetFile": "Ratio (ClassRoom Sheet).pdf",
-    "question": "The age of a tree depends on the number",
+    "question": "The age of a tree depends on the number of rings in the trunk. The value of a such tree is proportional to its age. If a tree with 40 rings and 50 years of age has a value of `50,000, then a tree with 30 rings is ____ years of age and its value is `____.",
     "options": [
       "37.5, 57500",
       "37.5, 37500",
@@ -2386,7 +2573,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The monthly incomes of A & B are",
+    "question": "The monthly incomes of A & B are in the ratio 4 : 5. Their expenses are in the ratio 5 : 6. If 'A' saves Rs.25 per month, and 'B' saves Rs.50 per month, what are their respective incomes.",
     "options": [
       "400,500",
       "240,300",
@@ -2403,7 +2590,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A company make a profit of Rs.9,00,000, 20% of which is paid as taxes. If the rest is divided among 1",
+    "question": "A company make a profit of Rs.9,00,000, 20% of which is paid as taxes. If the rest is divided among 1 the partners P, Q and R in the ratio of 1 :1 : 2 , then 2 the shares of P, Q and R are respectively:",
     "options": [
       "2,40,000; 3,20,000; 1,60,000",
       "3,20,000; 2,40,000; 1,60,000",
@@ -2411,7 +2598,7 @@
       "1,60,000; 2,40,000; 3,20,000 9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1,60,000; 2,40,000; 3,20,000 9) | Solution: (d) Amount distributed P, Q and R  900000 80 100 = 720000  P : Q : R = 1 : 1 1 2 : 2 = 2 : 3 : 4 9 unit = 720000 1 unit = 80000 Share of P : Q : R 2 80000 : 3 80000 : 4 80,000 160000 : 240000 : 320000 Note:- Since P : R = 1 : 2 therefore only optio"
+    "explanation": "Correct Answer: Option D | (1,60,000; 2,40,000; 3,20,000 9) | Solution: (d) Amount distributed in P, Q and R  900000 80 100 = 720000  P : Q : R = 1 : 1 1 2 : 2 = 2 : 3 : 4 9 unit = 720000 1 unit = 80000 Share of P : Q : R 2 80000 : 3 80000 : 4 80,000 160000 : 240000 : 320000 Note:- Since P : R = 1 : 2 therefore only op"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q004",
@@ -2437,7 +2624,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The numbers of coins of 25 paisa, 50 paisa, ` 2 and `",
+    "question": "The numbers of coins of 25 paisa, 50 paisa, ` 2 and ` 5 are in the ratio 5 : 4 : 3 : 1 respectively. If the total amount of coins is ` 285, then what will be the difference between the number of 25 paisa and ` 5 coins?",
     "options": [
       "60",
       "30",
@@ -2454,7 +2641,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Certain sum is divided among A, B, C and D such that the ratio of the shares of A : B = 1 : 3 ; B : C = 2 : 5 ; C : D = 2 : 3. If the difference between the shares of B",
+    "question": "Certain sum is divided among A, B, C and D such that the ratio of the shares of A : B = 1 : 3 ; B : C = 2 : 5 ; C : D = 2 : 3. If the difference between the shares of B and D is `6,435, then the total sum (in `) is:",
     "options": [
       "15,477",
       "17,457",
@@ -2471,12 +2658,12 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Rice worth, `504 per kg and, `540 per kg are mixed",
+    "question": "Rice worth, `504 per kg and, `540 per kg are mixed with the third variety in the ratio 1 : 1 : 2. If the mixture is worth, `612 per kg. Find the price (per kg in 1) of the third variety.",
     "options": [
       "` 630",
       "` 702",
       "` 764",
-      "` 522"
+      "` 522 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (` 702) | Solution: (b) Let price of third variety rice = x Avg. price of variety  612 = 1 504 1 540 2 4     x  612 = 504 + 540 + 2 4 x  2448 = 1044 + 2x  2x = 2448 – 1044  2x = 1404  x = 702  Price of third variety rice = `702"
@@ -2512,8 +2699,8 @@
       "55",
       "80"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (76)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (74)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q010",
@@ -2522,7 +2709,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A bag contains a total of 180 coins",
+    "question": "A bag contains a total of 180 coins in the denominations of `5 and `1. Find the number of `5 coins in the bag, if the total value of the coins is `500.",
     "options": [
       "100",
       "60",
@@ -2556,7 +2743,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Three numbers are",
+    "question": "Three numbers are in the ratio : : . The 5 6 10 difference between the smallest and the greatest numbers is 12. Find the number which is neither the smallest nor the greatest. 4 5 9",
     "options": [
       "96",
       "108",
@@ -2592,13 +2779,13 @@
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
     "question": "If m = , then the value of  : p  q m – 2p m – 2q 4pq m  2p m  2q",
     "options": [
-      "2",
-      "4",
-      "",
+      "(p  q)/2",
+      "/4 m – 2p m – 2q",
+      "2mpq/(p  q)",
       "None of t hese"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2)"
+    "explanation": "Correct Answer: Option A | ((p  q)/2)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q015",
@@ -2607,7 +2794,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A student took five papers",
+    "question": "A student took five papers in an examination, where the full marks were the same for each paper. His marks in these papers were in the proportion of 6 : 7 : 8 : 9 : 10. in all papers together. The candidate obtained 60% of total marks. Then the number of papers in which he got more than 50% marks is:",
     "options": [
       "2",
       "3",
@@ -2641,15 +2828,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Ratanlal sells rasgullas (a favorite Indian sweets) at Rs.15 per kg. A rasgulla is madeup of flour and sugar",
+    "question": "Ratanlal sells rasgullas (a favorite Indian sweets) at Rs.15 per kg. A rasgulla is madeup of flour and sugar in the ratio of 5 : 3. The ratio of price of sugar and 2 flour is 7 : 3 (per kg). Thus he earns 66 % profit. 3 What is the cost price of sugar?",
     "options": [
       "Rs.10/kg.",
       "Rs.9/kg.",
       "Rs.18/kg.",
-      "Rs.14/kg"
+      "Rs.14/kg."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs.14/kg)"
+    "explanation": "Correct Answer: Option D | (Rs.14/kg.)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q018",
@@ -2658,7 +2845,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The cost of a piece of diamond varies with the square of its weight. A diamond of `6,084 value is cut into 3",
+    "question": "The cost of a piece of diamond varies with the square of its weight. A diamond of `6,084 value is cut into 3 pieces whose weights are in the ratio 3 : 2 : 1. Find the loss involved in the cutting.",
     "options": [
       "`3,768",
       "`3,718",
@@ -2675,7 +2862,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The price of a precious stone weighing 48 g, is `2,30,400. It is broken into two pieces whose weights",
+    "question": "The price of a precious stone weighing 48 g, is `2,30,400. It is broken into two pieces whose weights are in the ratio of 5 : 7. If the price is proportional to the square of the weight, then the loss (in `) incurred, is:",
     "options": [
       "112000",
       "40000",
@@ -2709,7 +2896,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the share of B and D is 8 : 9. If C receives",
+    "question": "Sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the share of B and D is 8 : 9. If C receives `1,560, then what is the difference (in `) between the share of A and B?",
     "options": [
       "180",
       "240",
@@ -2743,7 +2930,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the number of boys to the number of girls",
+    "question": "The ratio of the number of boys to the number of girls in a school of 1650 students is 6 : 5. If 124 new boys are admitted and few new girls are admitted, the ratio changes to 4 : 3. What is the ratio of the newly admitted girls to the newly admitted boys?",
     "options": [
       "4 : 3",
       "3 : 4",
@@ -2760,7 +2947,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "R pays `100 to P with `5, `2 and `1 coins. The total number of coins used for paying are 40. What is the",
+    "question": "R pays `100 to P with `5, `2 and `1 coins. The total number of coins used for paying are 40. What is the number of coins of denomination `5 in the payment?",
     "options": [
       "16",
       "17",
@@ -2777,7 +2964,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The incomes of P, Q and R are",
+    "question": "The incomes of P, Q and R are in the ratio 10 : 12 : 9 and their expenditures are in the ratio 12 : 15 : 8. If Q saves 25% of his income, then what is the ratio of the savings of P, Q and R?",
     "options": [
       "15 : 14 : 21",
       "14 : 15 : 21",
@@ -2794,7 +2981,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the incomes of A and B",
+    "question": "The ratio of the incomes of A and B in the last year was 4 : 3. The ratios of their individual incomes in the last year and the present year are 3 : 4 and 5 : 6, respectively. If their total income in the present year is ` 24.12 lakhs, then the sum of the income (in ` lakhs) of A in the last year and that of B in the present year is:",
     "options": [
       "22.17",
       "21.28",
@@ -2813,9 +3000,9 @@
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
     "question": "A question is given followed by two statements I and II. Consider the Question and the Statements and mark the correct option.",
     "options": [
-      "The Question can be answered by using one of the Statements alone, but cannot be answered using",
-      "The Question can be answered by using either",
-      "The Question can be answered by using both the Statements together, but cannot be answered using",
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone",
+      "The Question can be answered by using either Statement alone",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone",
       "The Question cannot be answered even by using"
     ],
     "correctAnswer": 3,
@@ -2828,15 +3015,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three",
+    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three quantities then they will be in the ratio of 17 : 9 : 10. If sum of these three numbers is 1484 then what will  A + B – C  be the value of   ?  C – B ",
     "options": [
-      "32/23",
-      "1 315/13",
-      "18/15",
-      "3 225/17"
+      "321/23",
+      "315/13",
+      "183/15",
+      "225/17"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (32/23)"
+    "explanation": "Correct Answer: Option A | (321/23)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q029",
@@ -2845,7 +3032,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the female and male employee",
+    "question": "The ratio of the female and male employee in an office is 3 : 5. There is an increase in the number of female employees and a decrease in the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the difference between the number of male and the number of female employees is 200. Find the total number of female and male employees before the increase of female employees.",
     "options": [
       "1000",
       "900",
@@ -2853,7 +3040,7 @@
       "850"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1600) | Solution: The ratio of the female and male employee an office is 3 : 5. There is an increase the number of female employees and a decrease the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the difference between"
+    "explanation": "Correct Answer: Option C | (1600) | Solution: The ratio of the female and male employee in an office is 3 : 5. There is an increase in the number of female employees and a decrease in the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the differenc"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q030",
@@ -2862,7 +3049,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Salaries of B, C, D and E are",
+    "question": "Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original salaries of B , C, D and E?",
     "options": [
       "`1260",
       "`1820",
@@ -2870,6 +3057,6 @@
       "`1400"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (`1400) | Solution: Salaries of B, C, D and E are the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original salari"
+    "explanation": "Correct Answer: Option D | (`1400) | Solution: Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original sal"
   }
 ]

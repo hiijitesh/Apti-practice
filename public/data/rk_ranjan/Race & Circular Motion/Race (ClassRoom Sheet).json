@@ -1,17 +1,204 @@
 [
   {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a linear race of 1000 m, A beats B by 50 m or 5 seconds. What is the difference between the speeds (in m/s) of A and B?",
+    "options": [
+      "10/119",
+      "10",
+      "9",
+      "9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10) | Exam: SSC CGL 06/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 1400 m race John reaches the finish point in 1 min 6 sec, while James reaches the finish point in 77 sec. By how much distance does John beat James?",
+    "options": [
+      "240 m",
+      "220 m",
+      "180 m",
+      "200 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200 m) | Exam: SSC Phase X 03/08/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 100-m race, A beats B by 20 m and B beats C by 20 m. By how much distance does A beat C.",
+    "options": [
+      "64 m",
+      "24 m",
+      "25 m",
+      "36 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (36 m) | Exam: SSC CGL 02/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 1500 m race, Anil beats Bakul by 150 m and in the same race Bakul beats Charles by 75 m. By what distance does Anil beat Charles?",
+    "options": [
+      "217.50 m",
+      "200.15 m",
+      "293.50 m",
+      "313.75 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (217.50 m) | Exam: SSC CGL 01/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a1500-m race, if A beats B by 100 m and B beats C by 150 m, then by what distance (in m) does A beat C?",
+    "options": [
+      "140",
+      "150",
+      "100",
+      "240"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (240) | Exam: SSC CHSL 03/06/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 1200 m race, bike A beats bike B by 100 m. Bike B beats bike C by 100 m in a 600 m race. If bike A beats bike C by 30 sec in a 720 m race, then what is the speed of bike C?",
+    "options": [
+      "17/(m / sec)",
+      "26/(m / sec)",
+      "17/(m / sec)",
+      "26/(m / sec)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (17/(m / sec)) | Exam: SSC CGL 03/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a linear race of 500 m, A can beat B by 50 m and in a race of 600 m, B can beat C by 60 m. By how many metres will A beat C in a race of 400 m?",
+    "options": [
+      "70",
+      "68",
+      "76",
+      "72"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (76) | Exam: SSC CGL 08/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In an 800 m race, the ratio of the speeds of two contestants Ankur and Neha is 5 : 6. If Ankur has a head-start of 200 m, then Ankur will win by______.",
+    "options": [
+      "89 m",
+      "80 m",
+      "76 m",
+      "69 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (80 m) | Exam: SSC CHSL 03/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 150-m race, if R gets a 5-metre head start, then he would beat S by 35 metres. If S gets a 25- metre head start in a 100 metre race, then _______ would win the race by ________ metres.",
+    "options": [
+      "R; 5.44",
+      "S; 5.44",
+      "S; 4.44",
+      "R; 4.44"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (R; 4.44) | Exam: SSC Phase XII 20/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a race of 400 m, Bhim gave Saral a head start by 20 m at the start of the race. Saral took 48 seconds to complete the race. What was the speed (in m/s) of Bhim if Saral defeated Bhim by a margin of 2 seconds?",
+    "options": [
+      "8",
+      "8.7",
+      "7.6",
+      "7.4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Exam: SSC Phase XII 26/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 1500 m race, if vehicle P gives vehicle Q a start of 200 m, then vehicle P wins the race by 8 sec. Alternatively, if vehicle P gives vehicle Q a start of 400 m, the race ends in a dead heat. How long does vehicle P take to run 1500 m?",
+    "options": [
+      "44 sec",
+      "45 sec",
+      "40 sec",
+      "60 sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (44 sec) | Exam: SSC CGL 07/12/2022 (Shift- 01)"
+  },
+  {
     "id": "rkr_race_circular_motion_race_classroom_sheet_q012",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Race & Circular Motion",
     "sheetType": "ClassRoom",
     "sheetFile": "Race (ClassRoom Sheet).pdf",
-    "question": "Geeta runs 5/2 times as fast as Babita.",
+    "question": "Geeta runs 5/2 times as fast as Babita. In a race, if Geeta gives a lead of 40 m toBabita, find the distance from the starting point where both of them will meet (correctup to two decimal places).",
     "options": [
       "66.67 m",
       "65 m",
       "65.33 m",
-      "66"
+      "66 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (66.67 m) | Exam: SSC CPO 10/11/2022 (Shift-01)"
@@ -28,10 +215,78 @@
       "2 min 25 sec",
       "2 min 50 sec",
       "3 min 20 sec",
-      "3 min 30 se"
+      "3 min 30 sec"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2 min 25 sec)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 100 m race, A runs at 6 km/hr. If A gives B a start of 8 m and still beats him by 9 seconds, what is the speed of B?",
+    "options": [
+      "4.6 km/hr",
+      "4.8 km/hr",
+      "5.2 km/hr",
+      "5.4 km/hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4.8 km/hr)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a race of 1000 m, A beats B by 150 m, while in another race of 3000 m, C beats D by 400 m. Speed of B is equal to that of D. (Assume that A, B, C and D runs with uniform speed in all the events). If A and C participate in a race of 600 m, then which one of the following is correct?",
+    "options": [
+      "A beats C by 250 m",
+      "C beats A by 250 m",
+      "A beats C by 115.38 m",
+      "C beats A by 115.38 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (A beats C by 115.38 m)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a race of 1000 m, A beats B by 100 m or 10 seconds. If they start a race of 1000 m simultaneously from the same point and if B gets injured after running 50 m less than half the race length and due to which his speed gets halved, then by how much time will A beat B?",
+    "options": [
+      "65 seconds",
+      "60 secones",
+      "50 seconds",
+      "45 seconds"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (65 seconds)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 300 m race A runs at a speed of 9 km/ hr. He gives a start of 30 m to B and still defeats him by 15 sec. What is the speed of B?",
+    "options": [
+      "6.3 km/hr",
+      "8.1 km/hr",
+      "7.2 km/hr",
+      "8 km/hr"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7.2 km/hr)"
   },
   {
     "id": "rkr_race_circular_motion_race_classroom_sheet_q018",
@@ -40,7 +295,7 @@
     "chapter": "Race & Circular Motion",
     "sheetType": "ClassRoom",
     "sheetFile": "Race (ClassRoom Sheet).pdf",
-    "question": "Priya can run 250 m",
+    "question": "Priya can run 250 m in 15 seconds and Payal in 20 seconds. How many meters start can Priya give to Payal in one km race so that the race may end in a dead-heat?",
     "options": [
       "100 m",
       "250 m",
@@ -51,13 +306,47 @@
     "explanation": "Correct Answer: Option B | (250 m)"
   },
   {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a race of senior citizens, Mr. A can give his friend Mr. B a start of 20 m and Mr. C a start of 39 m in a race of 100 m. How much start can Mr. B give Mr. C in a 100 m race?",
+    "options": [
+      "10 m",
+      "15 m",
+      "18 m",
+      "23.75 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (23.75 m)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "In a 1000 metres race Ravi gives Vinod a start of 40 m and beats him by 19 seconds. If Ravi gives a start of 30 seconds then Vinod beats Ravi by 40 m. What is the ratio of speed of Ravi to that of Vinod?",
+    "options": [
+      "4 : 5",
+      "6 : 5",
+      "3 : 8",
+      "5 : 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 : 5)"
+  },
+  {
     "id": "rkr_race_circular_motion_race_classroom_sheet_q021",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Race & Circular Motion",
     "sheetType": "ClassRoom",
     "sheetFile": "Race (ClassRoom Sheet).pdf",
-    "question": "Acan beat B ina 100-metre race by 10 metres.",
+    "question": "Acan beat B ina 100-metre race by 10 metres. B can beat C in a 100-metre race by 10 metres. What is the ratio (tA : tB : tC), which are the respective times taken by A, B and C to complete the race?",
     "options": [
       "100 : 90 : 81",
       "90 : 81 : 100",
@@ -74,14 +363,14 @@
     "chapter": "Race & Circular Motion",
     "sheetType": "ClassRoom",
     "sheetFile": "Race (ClassRoom Sheet).pdf",
-    "question": "Arun and Bhaskar run a race of 3 km. First, Arun gives Bhaskar a head start of 400 m and beats him by 30 seconds. While coming back, Arun gives Bhaskar a lead of 2.5 minutes and gets beaten by 500 m. What is the difference between the times",
+    "question": "Arun and Bhaskar run a race of 3 km. First, Arun gives Bhaskar a head start of 400 m and beats him by 30 seconds. While coming back, Arun gives Bhaskar a lead of 2.5 minutes and gets beaten by 500 m. What is the difference between the times in minutes in which Arun and Bhaskar can run the race for one side separately?",
     "options": [
-      "ANSWER KEY",
-      "(Race)",
-      "ANSWER KEY (Race)",
-      "3.(d) 4.(a) 5.(d) 6.(a) 7.(c) 8.(b) 9.(d) 10.(a)"
+      "3 min",
+      "1.5 min",
+      "2.5 min",
+      "2 min"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ((Race)) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (1.5 min) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
   }
 ]

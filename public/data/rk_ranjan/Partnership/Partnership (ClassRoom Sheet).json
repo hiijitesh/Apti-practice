@@ -28,7 +28,7 @@
       "2000, 3500",
       "2500,3500",
       "3500, 2500",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2000, 3500)"
@@ -40,7 +40,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B start a business jointly. The investment made by A is equal to seven times",
+    "question": "A and B start a business jointly. The investment made by A is equal to seven times the investment made by B. Find A's share (in `) in the annual profit of `2,75,000 is.",
     "options": [
       "2,41,225",
       "2,40,625",
@@ -57,7 +57,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "X, Y and Z invested Rs. 4,000, Rs. 6000 and",
+    "question": "X, Y and Z invested Rs. 4,000, Rs. 6000 and Rs. 8,000 respectively in a business. They invested the money for 3, 2 and 4 years respectively. If the total profit is Rs. 56,000 then what is the share of Y in the profit?",
     "options": [
       "` 18,000",
       "` 12,000",
@@ -74,7 +74,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Three partners P, Q and R invested a total",
+    "question": "Three partners P, Q and R invested a total of Rs 52,000 in a business. At the end of the year. P got Rs. 1430, Q got Rs. 1870 and R got Rs 2420 as the share of profit. How much amount did Q invest in the business?",
     "options": [
       "Rs. 17000",
       "Rs. 20400",
@@ -91,7 +91,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invested money",
+    "question": "A, B and C invested money in a business such that 2 times A's share, 4 times B's share and 6 times C's share are all equal. If they earned Rs.44,000, find the share of A.",
     "options": [
       "Rs.22,000",
       "Rs.12,000",
@@ -108,15 +108,15 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "The ratio of investment by A to that by B",
+    "question": "The ratio of investment by A to that by B in a business is 14 : 15 and the ratio of their respective profits at the end of a year is 2 : 5. If A invested the money for 3 months, then for how much time (in month) B invested his money?",
     "options": [
       "7",
       "6",
       "5",
       "9"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CGL TIER II, 11/09/2019"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7) | Exam: SSC CGL TIER II, 11/09/2019"
   },
   {
     "id": "rkr_partnership_partnership_classroom_sheet_q008",
@@ -125,7 +125,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Nikhil and Neha invested capital",
+    "question": "Nikhil and Neha invested capital in the ratio 5 : 4. The time Neha invested her money for was one year' more than that invested by Nikhil. The ratio of their profits is in the ratio 6 : 5. Find the time Neha invested the money for.",
     "options": [
       "26 years",
       "23 years",
@@ -142,7 +142,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invest ` 40000, ` 45,000 and",
+    "question": "A, B and C invest ` 40000, ` 45,000 and ` 60,000 respectively in a business. They invest for 5, 4 and 3 months respectively. How many percent of the total profit will be received by C?",
     "options": [
       "32",
       "36",
@@ -159,7 +159,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invested capitals",
+    "question": "A, B and C invested capitals in the ratio 3 : 4 : 8. At the end of the business period, they received profits in the ratio 2 : 3 : 5. What is the ratio of their time invested?",
     "options": [
       "16 : 18 : 15",
       "13 : 18 : 15",
@@ -176,7 +176,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invested capital",
+    "question": "A, B and C invested capital in ratio 5 : 7 : 4, then time of their investment being in the ratio x : y : z. If their profits are in the ratio 45 : 42 : 28, then x : y : z = ?",
     "options": [
       "9 : 6 : 7",
       "6 : 7 : 9",
@@ -193,7 +193,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Three partners shared the profit",
+    "question": "Three partners shared the profit in a business in the ratio 8 : 7 : 5. They invested their capitals for 7 months, 8 months and 14 months respectively. What was the ratio of their capitals?",
     "options": [
       "49 : 64 : 20",
       "20 : 64 : 49",
@@ -210,7 +210,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invested their capitals",
+    "question": "A, B and C invested their capitals in the ratio of 2 : 3 : 5. The ratio of months for which A, B and C invested is 4 : 2 : 3. If C gets a share of profit which is ` 1,47,000 more than that of A, then B’s share of profit is:",
     "options": [
       "` 1,26,000",
       "` 1,68,000",
@@ -261,7 +261,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invest",
+    "question": "A, B and C invest in a business. A invests 4 1 of the total capital for th time. B invests 4 1 1 th of the total capital for th time and 5 5 the remaining capital is invested by C for the whole time. If the total profit is ` 7,830, then what will be the profit of C?",
     "options": [
       "` 6,000",
       "` 6,600",
@@ -278,7 +278,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C are partners",
+    "question": "A, B and C are partners in a business. A whose money has been used for 4 months claims 1 of profit, B whose money has been used 8 1 for 6 months, claims of the profit. C had 3 invested ` 1560 for 8 months. What is the difference between investment of A and B.",
     "options": [
       "` 720",
       "` 560",
@@ -346,7 +346,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C started a business. Thrice the investment of A is equal to twice the investment of B and also equal to four times the investment of C. If C’s share out of the total profit is ` 4,863, then the",
+    "question": "A, B and C started a business. Thrice the investment of A is equal to twice the investment of B and also equal to four times the investment of C. If C’s share out of the total profit is ` 4,863, then the share of A in the profit is:",
     "options": [
       "` 7,272",
       "` 6,484",
@@ -380,7 +380,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B, C subscribe a sum of ` 75,500 for a business. A subscribes ` 3,500 more than B, and B subscribes ` 4,500 more than C. Out of a total profit of ` 45,300 how much",
+    "question": "A, B, C subscribe a sum of ` 75,500 for a business. A subscribes ` 3,500 more than B, and B subscribes ` 4,500 more than C. Out of a total profit of ` 45,300 how much (in `) does A receive?",
     "options": [
       "` 12,600",
       "` 15,000",
@@ -397,7 +397,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Two friends A and B started a business by investing `1,50,000 and `2,50,000, respectively. They agreed to distribute their",
+    "question": "Two friends A and B started a business by investing `1,50,000 and `2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was `6,00,000. Each of them added `50,000 to their respective profits and invested in a different project. If this project gave an yield of `4,20,000, then A’s share in theprofit is:",
     "options": [
       "1,97,000",
       "2,35,000",
@@ -414,7 +414,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Kapil starts some business with ` 50000 . After 3 months Monu joins him with ` 70000 . At the end of the year.",
+    "question": "Kapil starts some business with ` 50000 . After 3 months Monu joins him with ` 70000 . At the end of the year. In what ratio should they share the profit ?",
     "options": [
       "1 : 3",
       "1 : 5",
@@ -431,7 +431,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A starts a business with Rs. 75,000 and B joins the business 5 months later with an investment of Rs. 80,000. After 1 year, they earn a profit of Rs. 4,08,800. Find the share",
+    "question": "A starts a business with Rs. 75,000 and B joins the business 5 months later with an investment of Rs. 80,000. After 1 year, they earn a profit of Rs. 4,08,800. Find the share of A and B (in Rs.).",
     "options": [
       "2,52,000 and 1,56,800",
       "2,50,000 and 1,58,800",
@@ -448,7 +448,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Rahul and Raman started a business by investing Rs 16000 and Rs 12000 respectively. After 4 months, Rahul left the business and Mohan joined the business by investing Rs 20000. At the end of the year, there was a profit of Rs 46000. What will be",
+    "question": "Rahul and Raman started a business by investing Rs 16000 and Rs 12000 respectively. After 4 months, Rahul left the business and Mohan joined the business by investing Rs 20000. At the end of the year, there was a profit of Rs 46000. What will be the share of Mohan in the profit?",
     "options": [
       "Rs.28700",
       "Rs.20000",
@@ -470,10 +470,10 @@
       "4 months",
       "3 months",
       "8 months",
-      "6 month"
+      "6 months"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6 month) | Exam: SSC CHSL 14/03/2023 (SHIFT-01)"
+    "explanation": "Correct Answer: Option D | (6 months) | Exam: SSC CHSL 14/03/2023 (SHIFT-01)"
   },
   {
     "id": "rkr_partnership_partnership_classroom_sheet_q029",
@@ -482,7 +482,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A started a business with a capital of ` 54000 and admitted B and C after 4 months and 6 months respectively. At the",
+    "question": "A started a business with a capital of ` 54000 and admitted B and C after 4 months and 6 months respectively. At the end of the year, the profit was divided in the ratio 1 : 4 : 5. What is the difference between the capitals invested by B and C?",
     "options": [
       "` 1,08,000",
       "` 1,62,000",
@@ -516,7 +516,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Kapil initiated a business with an",
+    "question": "Kapil initiated a business with an investment of `30,00,000 in April 2022. After six months, his friend Kunal joined him with an investment of `25,00,000. In February 2023, Kapil's Ex-Class fellow Saloni also invested an amount equal to the total investment made by the earlier two partners. In what ratio the profit earned after 3 years from the date on which Kapil initiated the business, will be distributed?",
     "options": [
       "332 : 200 : 50",
       "108 : 75 : 143",
@@ -533,7 +533,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C started a business with initial investments of `20000, `25000 and `10000, respectively. After 5 months from start, A invested `4000 more. After 6 months from start, C invested `8000 more. After 4 months from start, B withdrew `8000. At the end of the year, they will receive a profit of `‘x’.",
+    "question": "A, B and C started a business with initial investments of `20000, `25000 and `10000, respectively. After 5 months from start, A invested `4000 more. After 6 months from start, C invested `8000 more. After 4 months from start, B withdrew `8000. At the end of the year, they will receive a profit of `‘x’. In what ratio they will share the profits?",
     "options": [
       "59 : 68 : 42",
       "71 : 59 : 42",
@@ -567,7 +567,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B enter into a partnership with",
+    "question": "A and B enter into a partnership with `25,000 and `50,000, respectively, in a company for a year. After 7 months, C gets into a partnership with them with `30,000 and A withdraws his contribution after 9 months. What would be C's share in the profit, assuming a total profit of `3,900 at the end of the year?",
     "options": [
       "Rs.1,200",
       "Rs.800",
@@ -584,7 +584,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Suresh, Dinesh and Ramesh became",
+    "question": "Suresh, Dinesh and Ramesh became partners in a business by investing money in the ratio of 3 : 6 : 8. If their investments is increased by 5%, 15% and 20%, respectively, then what will be the ratio of their profits for one year?",
     "options": [
       "7 : 46 : 64",
       "19 : 46 : 64",
@@ -601,7 +601,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "X and Y enter into a partnership with",
+    "question": "X and Y enter into a partnership with capital in ratio 3 : 5. After 5 months X adds 50% of his capital, while Y withdraws 60% of his capital. What is share (in ` Lakhs) of X in the annual profit of ` 6.84 lakhs?",
     "options": [
       "3.72",
       "4.2",
@@ -618,7 +618,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B enter into a partnership with",
+    "question": "A and B enter into a partnership with capital in the ratio 5 : 6. After 4 months, A 1 withdraws of his capital, while B 5 1 increases his capital by 33 % . What is 3 the share (in ` Lakhs) of B in the annual profit of ` 6.3 Lakhs?",
     "options": [
       "2.34",
       "2.61",
@@ -652,7 +652,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B entered into a partnership (at the beginning of the year) by investing their 2 3",
+    "question": "A and B entered into a partnership (at the beginning of the year) by investing their 2 3 capitals in the ratio : . After 4 months, 3 9 A reduced his capital by 25% and B increased his capital by 25%. What was B's share (in ` lakhs) in the annual profit of ` 57.2 lakhs? 2 3",
     "options": [
       "23.5",
       "29.4",
@@ -669,15 +669,32 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Mohit and Ravi started a business with 2 1",
+    "question": "Mohit and Ravi started a business with 2 1 their capitals in the ratio : . After 4 15 6 month, Mohit increased his capital by 25% and Ravi reduced his capital by one-fifth. At the end of a year, if Ravi share in the annual profit was ` 20.8 lakhs, then what was the annual profit (in ` lakhs)? 2 1",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "41.6",
+      "31.2",
+      "43.2",
+      "44.8"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: ICAR MAINS, 07/07/2023 (SHIFT-3)"
+    "explanation": "Correct Answer: Option C | (43.2) | Exam: ICAR MAINS, 07/07/2023 (SHIFT-3)"
+  },
+  {
+    "id": "rkr_partnership_partnership_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Partnership",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Partnership (ClassRoom Sheet).pdf",
+    "question": "A and B start a business and invest ` 10,000 and ` 15,000 respectively. After 3 months, A invests ` 2,000 more but B withdraw ` 5,000. After its 3 months, C joins the business with a capital ` 18,000. If the total profit is ` 38,100, after one year then find C's profit?",
+    "options": [
+      "` 9,800",
+      "` 10,800",
+      "` 11,000",
+      "` 12,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (` 10,800)"
   },
   {
     "id": "rkr_partnership_partnership_classroom_sheet_q042",
@@ -703,7 +720,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A, B and C invest",
+    "question": "A, B and C invest in the ratio 5 : 7 : 6. After 1 year, they increase their investment respectively 26%, 20%, 15%. What will be the ratio of their profit after 2 year?",
     "options": [
       "7 : 6 : 9",
       "71 : 53 : 63",
@@ -720,7 +737,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B invest",
+    "question": "A and B invest in a business in the ratio 3: 2. If 5% of the total profit goes to charity and A's share is Rs 855, the total profit is:",
     "options": [
       "1500",
       "1400",
@@ -737,7 +754,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B together start a business and",
+    "question": "A and B together start a business and invest in the ratio of 5 : 4 respectively. They deposit 10% of the total profit in a trust and distribute the rest amount according to their investment. If B's share is ` 1,200, then the total profit will be ?",
     "options": [
       "` 4,200",
       "` 3,600",
@@ -754,7 +771,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be shared among first,",
+    "question": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be shared among first, second and third partner in the ratio 1 : 2 : 2. The total profit received was `1,80,000. Find the share of the first partner.",
     "options": [
       "`31,800",
       "`29,600",
@@ -771,7 +788,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "The investments made by Ayan and Prince",
+    "question": "The investments made by Ayan and Prince are in the ratio 3 : 2. if 5% of total profit is donated and Ayan get ` 8,550 as his share of profit, then what is the amount of total profit?",
     "options": [
       "` 14,000",
       "` 15,000",
@@ -788,7 +805,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Three people, A, B and C, invest",
+    "question": "Three people, A, B and C, invest in a business in the ratio 2 : 3 : 5. It was decided that 9% of the profits will go to charity. If the total profit was `2,50,000, then find the share of C in the profit (in `).",
     "options": [
       "1,26,950",
       "1,11,650",
@@ -805,7 +822,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A & B invest ` 30,000 & ` 20,000 and 80% of total profit distribute equally among them. Rest profit distribute according to invest-ment ratio. The difference between the share of A & B is 4000. Find the total profit and find the share of A & B? Partnership",
+    "question": "A & B invest ` 30,000 & ` 20,000 and 80% of total profit distribute equally among them. Rest profit distribute according to invest-ment ratio. The difference between the share of A & B is 4000. Find the total profit and find the share of A & B?",
     "options": [
       "` 8000, ` 42000, ` 38000",
       "` 100000, ` 52000, ` 48000",
@@ -822,7 +839,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A & B start a business",
+    "question": "A & B start a business in partnership and invest ` 40,000 & ` 60,000. 60% of total profit is distributed among them equally and the rest profit distributed between them according to their investment ratio. The difference between their profit is ` 6,000. find the total profit amount?",
     "options": [
       "` 52,000",
       "` 60,000",
@@ -839,15 +856,15 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Two brother Yasir and Ankur invested",
+    "question": "Two brother Yasir and Ankur invested ` 50,000, and ` 70,000 respectively in a business and agreed that 70% of the profit should be divided equally between them and the remaining profit in the ratio of investment. If Ankur gets ` 90 more Yasir. Find the total profit made in the business.",
     "options": [
       "` 1200",
       "` 1400",
       "` 1600",
-      "` 1800"
+      "` 1800 MANAGEMENT"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (` 1800)"
+    "explanation": "Correct Answer: Option D | (` 1800 MANAGEMENT)"
   },
   {
     "id": "rkr_partnership_partnership_classroom_sheet_q052",
@@ -856,7 +873,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B entered into a partnership by 1 5",
+    "question": "A and B entered into a partnership by 1 5 investing their capitals in the ratio : 4 12 A received 4% of the annual profit for providing services to the business and the remaining annual profit is divided between them in proportion to their investments. If B's share in the annual profit is `30 lakhs. then what is A's share (in ` lakhs)? 1 5",
     "options": [
       "20",
       "24",
@@ -895,7 +912,7 @@
       "` 1900",
       "` 2100",
       "` 3200",
-      "Date incomplet"
+      "Date incomplete"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (` 1900)"
@@ -907,7 +924,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Bhagat, Harish and Rohit started a business by investing ` 24,000, ` 32,000 and ` 18,000 respectively. Bhagat and Harish are active partners and get 7% and 19% of total profit and remaining profit is to be distributed",
+    "question": "Bhagat, Harish and Rohit started a business by investing ` 24,000, ` 32,000 and ` 18,000 respectively. Bhagat and Harish are active partners and get 7% and 19% of total profit and remaining profit is to be distributed among them in the ratio of their investment. If Rohit got total ` 144000 as a profit, what was the total amount of profit?",
     "options": [
       "` 4,70,000",
       "` 8,00,000",
@@ -929,7 +946,7 @@
       "` 4000, ` 4000",
       "` 4000, ` 3000",
       "` 2000, ` 2500",
-      "` 2500, ` 2000"
+      "` 2500, ` 2000 MISCELLANEOUS QUESTIONS"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (` 4000, ` 4000)"
@@ -941,7 +958,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B invest respectively ` 20000 and",
+    "question": "A and B invest respectively ` 20000 and 30000 and start a business in partnership. A got ` 500 for a supervision. A and B both received premium on their investment 10% p.a. and the rest profit is distributed among them according to their investment. If total profit is ` 71000, then find the profit of A.",
     "options": [
       "` 46000",
       "` 45000",
@@ -958,7 +975,7 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "A and B invest respectively ` 80,000 and ` 60,000 to start a business into partnership. B got ` 250 per month for a supervision. A and B both receive the premium at the rate of 10% p.a. and the rest profit distribute between them according to their investment. If total profit distributed between them is ` 20500, then find the total profit amount received by B?",
+    "question": "A and B invest respectively ` 80,000 and ` 60,000 to start a business into supervision. A and B both receive the premium at the rate of 10% p.a. and the rest profit distribute between them according to their investment. If total profit distributed between them is ` 20500, then find the total profit amount received by B?",
     "options": [
       "` 10,500",
       "` 10,700",
@@ -975,10 +992,10 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "X contributes ` 1500 and Y, `900",
+    "question": "X contributes ` 1500 and Y, `900 in a business. X is a sleeping partner and Y gets 10% of the profit for management and the rest of the profit is divided in the proportion of their capital. If total profit is ` 800, what is the share of Y?",
     "options": [
-      "2.(a) 3.",
-      "4. (b) 5. (a)",
+      "` 375",
+      "` 360",
       "` 350",
       "` 450"
     ],
@@ -992,14 +1009,31 @@
     "chapter": "Partnership",
     "sheetType": "ClassRoom",
     "sheetFile": "Partnership (ClassRoom Sheet).pdf",
-    "question": "Anil is an active and Vimal is a sleeping",
+    "question": "Anil is an active and Vimal is a sleeping partner in a business. Anil invests ` 12000 and Vimal, invests ` 20000. Anil receives 10% profit for managing, the rest being divided in proportion to their capitals. Out of the total profit of ` 9000, the money received by Anil is :",
     "options": [
       "` 4500",
       "` 4800",
       "` 4600",
       "` 3937.5"
     ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 3937.5)"
+  },
+  {
+    "id": "rkr_partnership_partnership_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Partnership",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Partnership (ClassRoom Sheet).pdf",
+    "question": "A, B, C invest in a business in the ratio 4 : 5 : 7. C is a sleeping partner, so his share of profits will be half of what it would have been if he were a working partner. If they make ` 36,000 profit of which 25% is reinvested in the business, how much does B get (in `)?",
+    "options": [
+      "7560",
+      "10,800",
+      "8540",
+      "9200"
+    ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (` 4500)"
+    "explanation": "Correct Answer: Option A | (7560)"
   }
 ]

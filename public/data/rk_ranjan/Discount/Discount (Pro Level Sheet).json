@@ -6,7 +6,7 @@
     "chapter": "Discount",
     "sheetType": "Pro Level",
     "sheetFile": "Discount (Pro Level Sheet).pdf",
-    "question": "The marked price of an article is for Rs.317.90 after giving three successive of 15%, x% and 20% on its marked",
+    "question": "The marked price of an article is Rs.550. It is sold for Rs.317.90 after giving three successive discounts of 15%, x% and 20% on its marked price. What will be its selling price (in Rs.) if it is sold at a single",
     "options": [
       "484",
       "385",
@@ -23,7 +23,7 @@
     "chapter": "Discount",
     "sheetType": "Pro Level",
     "sheetFile": "Discount (Pro Level Sheet).pdf",
-    "question": "The marked price of an article is `1500. discounts, each of x %, on the marked a single discount of `587.40, then what price of the article if a single discount the marked price?",
+    "question": "The marked price of an article is `1500. If two successive discounts, each of x %, on the marked price is equal to a single discount of `587.40, then what will be the selling price of the article if a single discount of x% is given on the marked price?",
     "options": [
       "`1025",
       "`1155",
@@ -40,7 +40,7 @@
     "chapter": "Discount",
     "sheetType": "Pro Level",
     "sheetFile": "Discount (Pro Level Sheet).pdf",
-    "question": "A shopkeeper sells an article for two successive discounts of 20% marked price. If he had not given would have made a profit of 12%.",
+    "question": "A shopkeeper sells an article for Rs.571.20 by giving two successive discounts of 20% and 15% on its marked price. If he had not given any discount, he would have made a profit of 12%. Find the purchase price (in Rs) of the item?",
     "options": [
       "700",
       "720",
@@ -57,7 +57,7 @@
     "chapter": "Discount",
     "sheetType": "Pro Level",
     "sheetFile": "Discount (Pro Level Sheet).pdf",
-    "question": "On an item having a marked price discounts of Y% and Z% were offered. item was sold for `1056. Which of the be a set of values for Y and Z?",
+    "question": "On an item having a marked price of `1600. Successive discounts of Y% and Z% were offered. As a result, the item was sold for `1056. Which of the options below cannot be a set of values for Y and Z?",
     "options": [
       "Y = 22, Z = 15.5",
       "Y = 4, Z = 31.25",
@@ -74,14 +74,439 @@
     "chapter": "Discount",
     "sheetType": "Pro Level",
     "sheetFile": "Discount (Pro Level Sheet).pdf",
-    "question": "The cost price and the marked price and `900 respectively. When it is 5 x x%, then profit is % . What is the 3",
+    "question": "The cost price and the marked price of an item are `720 and `900 respectively. When it is sold at a discount of 5 x x%, then profit is % . What is the value of x? 3",
+    "options": [
+      "4/7",
+      "4/8",
+      "5/5",
+      "4/5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4/8)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of an article is 60% above its cost price and the cost price is `750. It is sold for `710.40, after giving two successive discounts of 20% and x%. If a single discount of 1.5x% is given on the same marked price, then his loss percentage will be:",
+    "options": [
+      "3.5",
+      "2.4",
+      "3",
+      "2.0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2.4)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A grocery store is offering a discount of 10% on the purchase of `500 and above. 5% off on purchases above `250 but less than `500. Additional 1% discount is given for cash down payment. If a customer buys 25 packets of biscuits at the rate of `30 a packet, how much will he have to pay in cash?",
+    "options": [
+      "`670.25",
+      "`668.25",
+      "`675",
+      "`667.05"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`668.25)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of a crockery was Rs.15400 and was offering a discount of 12%. Harsh bargained with the shopkeeper to get a successive discount and brought the crockery for Rs.10164. What was the second",
+    "options": [
+      "30",
+      "10",
+      "15",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "After getting two successive discounts, a calculator with a list price for Rs.900 is available at Rs.612. If the value of the second discount is 15%, what is the value of the first discount?",
+    "options": [
+      "20",
+      "10",
+      "12.5",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "Ramesh purchased some items from a dealer on 19 November 2019. The bill generated was for `5,480. He had also purchased some items on 10 November 2019 having the bill value of `9,800. He cleared both the bills this time and paid the total amount in cash. If the dealer gives a scheme of 2% 5% for the payments made in cash at the time of purchase, then find the amount paid by Ramesh on 19 November 2019?",
+    "options": [
+      "`14,850",
+      "`14,810",
+      "`14,890",
+      "`14,950"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`14,810)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "On an item, a shopkeeper offers a discount of 7.5% on the marked price and a cashback of Rs.10 per item. He still earns Rs.5 per item. If Rs. x is the marked price of each item, then, what is the cost price (in Rs.) of each item?",
+    "options": [
+      "0.915x – 5",
+      "0.925x – 5",
+      "0.925x – 15",
+      "0.915x – 15"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0.925x – 15)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "In March, a shopkeeper has launched a discount scheme for 20% discount on the purchase of jeans and 12% discount on a coat. Also, he is offering 5% jeans of marked price of Rs 1,200 and a coat of marked price of Rs.4,500. How much does he have to pay if he pays through an HDFC Bank card?",
+    "options": [
+      "`4,920",
+      "`4,560",
+      "`4,674",
+      "`5,016"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`4,920)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A retailer marked the price of his article so as to include a profit of 21%. If he allowed the discount of 12% on the marked price, what was his actual profit on that article?",
+    "options": [
+      "5.98",
+      "7.28",
+      "8.18",
+      "6.48"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6.48)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "An article is sold for Rs.747 after successive discounts of 17% and x%. If the marked price of the article is Rs.1,600, what is the value of x?",
+    "options": [
+      "32.26",
+      "43.75",
+      "22.12",
+      "40.28"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (43.75)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "Trader A offers a discount of 25% on the marked price for cash purchase. Trader B offers a trade same article marked at the same price as that of Trader A. If the discount given by Trader A is ` 360 more than the discount given by Trader B, then what is the marked price of the item (in rupees)?",
+    "options": [
+      "20,000",
+      "18,000",
+      "19,000",
+      "30,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20,000)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The list price of an article is Rs.15,000. A trader wants to buy it. He has to choose a series from two discount series- one series is 45%, 3% and 2% and the other series is 25%, 12% and 13% - on the list price. How much money can he save by choosing the right series?",
+    "options": [
+      "`770.55",
+      "`771.55",
+      "`773.55",
+      "`772.55"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`770.55)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "Ramanna purchased raw materials for a certain price to manufacture a product. However, owing to short- age of labour, 22.5% of the raw materials could not be utilised and got wasted. 80% of the cost of raw materials used was added as the cost of manufactur- ing. If Ramanna could sell his product at a price to earn an overall profit of 20% after offering a discount of 20%, how many times of the total cost of the raw materials purchased was the marked price of the product?",
+    "options": [
+      "2.44 times",
+      "42 times",
+      "2.43 times",
+      "2.40 times"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2.43 times)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A seller offers a discount of 12% if the total sale price of different products purchased by a single customer is below `3,000, and discount of 15% if the total sale value of all the products exceeds `3,000. A shirt costing `900 was sold to Anand after earning a margin of 9% and also a jacket costing `1,900 was sold to him after a margin of 6%. How much does Anand have to pay (in `) for the final settlement of the bill?",
+    "options": [
+      "2,953.60",
+      "3.005.40",
+      "2,645.60",
+      "2,635.60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2,635.60)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A manufactured item of cost Rs.12,500, sold at 10% profit. The supplier sold at a 5.5% profit to the shopkeeper. The shopkeeper marks it at Rs.2,393.75 higher than his cost price and allowed a 10% discount to the customer. Find the profit earned by the shopkeeper.",
+    "options": [
+      "653.75",
+      "693.75",
+      "703.75",
+      "600.75"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (703.75)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "Rohan purchased an item for which there was a 13.5% cash and a 6.25% surcharge on the part of the payment made through a credit card. If Rohan would have paid the entire amount in cash he would have paid `y for the item. But he actually had to pay `40964 in all for the item, out of which `29064 was paid in cash. What is the value of y?",
+    "options": [
+      "35700",
+      "38752",
+      "32988",
+      "38554"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (38752)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A shopkeeper gives 3 successive discounts on a washing machine priced at Rs.58,000, due to which its price reduces to Rs.42,000. If the respective discounts are 5%, 10% and x%, find the value of x.",
+    "options": [
+      "12",
+      "10",
+      "15.3",
+      "9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15.3)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A shopkeeper marks an article at `x and offers a charging VAT of 70% on the discounted price. What is the value of `x ?",
+    "options": [
+      "`400",
+      "`100",
+      "`250",
+      "`200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`250)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A shopkeeper offers a scheme on the purchase of shirts: ‘Buy two, get one free of the same kind’. The cost price of one shirt is `300. What should be the selling price (in `) of one shirt if he wants to earn 30% profit?",
+    "options": [
+      "585",
+      "535",
+      "485",
+      "435"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (585)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A shopkeeper offers a 40% discount on items. He offers a further discount of 10% on the reduced price for the first 100 customers. What does a customer under 100 has to pay for an item of `1,000?",
+    "options": [
+      "` 650",
+      "` 430",
+      "` 540",
+      "` 780"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 540)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "An article whose marked price is Rs 800 is sold at a profit of 50% when successive discounts of 20%, 10% and 5% are given by the shopkeeper. When the article is sold with the same cost price at a profit of 60%, find the selling price (rounded off to the nearest rupee).",
+    "options": [
+      "Rs.504",
+      "Rs.604",
+      "Rs.584",
+      "Rs.684"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rs.584)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A car dealer offers a 15% discount on a car marked at ` 5,00,000, while another dealer gives a discount of 12% on the first ` 3,00,000 and 6% on the next ` 2,00,000 on the same car along with accessories worth ` 6,000 as gift to his customers. What is the difference between the selling prices (in `) offered by the two car dealers?",
+    "options": [
+      "21,000",
+      "33,000",
+      "27,000",
+      "39,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (21,000)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of an article is Rs.800. It is sold for Rs.612.50, after two successive discounts each of x%. If a single discount of 2x% is given on the same marked price, then the selling price of the article will be:",
+    "options": [
+      "Rs.600",
+      "Rs.560",
+      "Rs.608",
+      "Rs.520"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.600)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "Victoria purchased items with a combined book value of $400,000. He was offered a discount of 10% on the portion of payment made in cash and a 2% surcharge on the portion of payment made through credit card. If Victoria paid a total of $378,000, how much did she pay via credit card including surcharges?",
+    "options": [
+      "$1,53,000",
+      "$1,58,100",
+      "$1,63,200",
+      "$1,47,900"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ($1,53,000) | Solution: Victoria purchased items with a combined book value of $400,000. He was offered a discount of 10% on the portion of payment made in cash and a 2% surcharge on the portion of payment made through credit card. If Victoria paid a total of $378,000, how "
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "An electronic shop is giving 20% discount on the purchase of any electronic device having price Rs.",
+    "options": [
+      "Rs.22,002",
+      "Rs.21,012",
+      "Rs.22,120",
+      "Rs.22,012"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.22,012) | Solution: An electronic shop is giving 20% discount on the purchase of any electronic device having price Rs. 80,000 or above, 16% discount on the items priced between Rs.50,000 and Rs.79,999, 10% discount on items ranging from Rs.20,000 to Rs.49,999, and 3% d"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of an article is Rs.20,000. The ar- ticle is sold after three successive discounts for Rs.10,166. The value of the second and third succes- sive discount is 35% and 15%, respectively. What is the value of the first rate?",
     "options": [
       "6",
       "9",
       "8",
       "15"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (9)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8) | Solution: The marked price of an article is Rs.20,000. The ar- ticle is sold after three successive discounts for Rs.10,166. The value of the second and third succes- sive discount is 35% and 15%, respectively. What is the value of the first rate? ,d oLrq 20]0"
   }
 ]

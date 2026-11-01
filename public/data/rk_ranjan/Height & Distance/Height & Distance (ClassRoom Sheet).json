@@ -9,12 +9,12 @@
     "question": "129 meter from the foot of a cliff on level of ground, the angle of elevation of the top of a cliff is 30º, the height of this cliff is :",
     "options": [
       "50 3 metre",
-      "45 3 metre",
-      "43 3 metre",
-      "47 3 metr"
+      "4 3/5 metre",
+      "4 3/3 metre",
+      "4 3/7 metre"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (43 3 metre)"
+    "explanation": "Correct Answer: Option C | (4 3/3 metre)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q002",
@@ -23,7 +23,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "From a point P on a level ground, the angle of elevation of the top of a tower is 30°. If the",
+    "question": "From a point P on a level ground, the angle of elevation of the top of a tower is 30°. If the tower is 110 3 m high, what is the distance (in m) of point P from the foot of the tower?",
     "options": [
       "330",
       "220",
@@ -45,7 +45,7 @@
       "70 3 m",
       "60 3 m",
       "50 3 m",
-      "70 2"
+      "70 2 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (70 3 m) | Exam: SSC CGL TIER- II 03/03/2023"
@@ -62,7 +62,7 @@
       "30º",
       "45º",
       "60º",
-      "75"
+      "75º"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (60º)"
@@ -74,7 +74,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A person standing at a distance looks at a building having a height of 1000 metres. The angle between the top of the building and the ground is 30°. At what approximate distance",
+    "question": "A person standing at a distance looks at a building having a height of 1000 metres. The angle between the top of the building and the ground is 30°. At what approximate distance (in metres) is the person standing away from the building.",
     "options": [
       "1000",
       "936",
@@ -96,7 +96,7 @@
       "45º",
       "30º",
       "60º",
-      "90"
+      "90º"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (30º)"
@@ -108,7 +108,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A kite is attached to a string. Find the length",
+    "question": "A kite is attached to a string. Find the length of the string (in m) when the height of the kite is 90 m and the string makes an angle of 30° with the ground.",
     "options": [
       "180",
       "90 3",
@@ -125,15 +125,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "From a point P ona level ground, the angle of elevation of the top of the tower is 30°. If the distance of point P from the foot of the tower is 510 m, then 50% of the height of the tower",
+    "question": "From a point P ona level ground, the angle of elevation of the top of the tower is 30°. If the distance of point P from the foot of the tower is 510 m, then 50% of the height of the tower (in m) is:",
     "options": [
-      "85/3",
+      "85/85",
       "3",
-      "3",
+      "3/(85 3)",
       "150 3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3) | Exam: SSC CGL 13/04/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | (3/(85 3)) | Exam: SSC CGL 13/04/2022 (Shift- 02)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q009",
@@ -147,7 +147,7 @@
       "4.42 m",
       "4.53 m",
       "4.68 m",
-      "4.63"
+      "4.63 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (4.68 m) | Exam: SSC CPO 16 /03/2019 (Shift-01)"
@@ -164,7 +164,7 @@
       "8.1 m",
       "9.9 m",
       "7.2 m",
-      "6.3"
+      "6.3 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (8.1 m) | Exam: SSC CPO 16 /03/2019 (Shift-01)"
@@ -198,7 +198,7 @@
       "20 m",
       "40 m",
       "17.3 m",
-      "34.6"
+      "34.6 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20 m) | Exam: SSC CPO 16 /03/2019 (Shift-01)"
@@ -210,7 +210,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The length of the shadow of a vertical pole on the ground is 36m. If the angle of elevation of 13 the sum at that time is , such that sec = 12,",
+    "question": "The length of the shadow of a vertical pole on the ground is 36m. If the angle of elevation of 13 the sum at that time is , such that sec = 12, then what is the height (in cm) of the pole?",
     "options": [
       "12",
       "18",
@@ -232,7 +232,7 @@
       "125 m",
       "75 m",
       "95 m",
-      "60"
+      "60 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (125 m)"
@@ -246,9 +246,9 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "The angle of depression of a point situated at a distance of 70 m from the base of a tower is 60º. The height of tower is :",
     "options": [
-      "35 3 m",
-      "70 m",
-      "m",
+      "35 3/70 m",
+      "70/3 m",
+      "/3 m",
       "70 3 m"
     ],
     "correctAnswer": 3,
@@ -280,13 +280,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "A telegraph post gets broken at a point against storm and its top touches the ground at a distance 20 m from the base of the post making an angle 30º with the ground. What is the height of the post?",
     "options": [
-      "m",
+      "40/m",
       "20 3 m",
-      "40 3 m",
-      "30"
+      "3/(40 3 m)",
+      "30 m"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (m)"
+    "explanation": "Correct Answer: Option A | (40/m)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q018",
@@ -295,15 +295,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A straight trees breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle 30º. The distance from the foot of the tree to the point, where the top touches the ground is 10 m. Find",
+    "question": "A straight trees breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle 30º. The distance from the foot of the tree to the point, where the top touches the ground is 10 m. Find the total height of the tree (in m)?",
     "options": [
-      "10",
-      "3 10 3 +1",
-      "  10/3",
-      "3"
+      "(i) If AB will be given, then CD is asked",
+      "(ii) If CD will be given, then AB is asked.",
+      "Part (3)",
+      "Part (4)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (10)"
+    "explanation": "Correct Answer: Option A | ((i) If AB will be given, then CD is asked)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q019",
@@ -314,13 +314,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "If the angle of elevation of the sun changes from 30º to 45º, the length of the shadow of a pillar decreases by 20 metres. The height of the pillar is :",
     "options": [
-      "  m",
-      "  m",
-      "  m",
-      "  m"
+      "(  )/(20 3 1) m",
+      "(    )/(20 3 +1) m",
+      "(  )/(10 3 1) m",
+      "(    )/(10 3 +1) m"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (  m)"
+    "explanation": "Correct Answer: Option D | ((    )/(10 3 +1) m)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q020",
@@ -329,12 +329,12 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A and B are two points on the same side of a ground, 50 metres apart. The angles of elevation of these points to the top of a tree are 60° and 30°, respectively. What is 40% of",
+    "question": "A and B are two points on the same side of a ground, 50 metres apart. The angles of elevation of these points to the top of a tree are 60° and 30°, respectively. What is 40% of the height of the tree (in m)?",
     "options": [
       "10 3",
-      "15 3",
+      "1 3/5",
       "5 3",
-      "25 3"
+      "2 3/5"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10 3) | Exam: SSC CGL 20/04/2022 (Shift- 02)"
@@ -351,7 +351,7 @@
       "80 m",
       "100 m",
       "160 m",
-      "200"
+      "200 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (80 m)"
@@ -363,7 +363,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The angle of elevation of the top of a tall building from the points M and N at the distances of 72 m and 128 m, respectively,",
+    "question": "The angle of elevation of the top of a tall building from the points M and N at the distances of 72 m and 128 m, respectively, from the base of the building and in the same straight line with it, are complementary. The height of the building (in m) is:",
     "options": [
       "84",
       "96",
@@ -380,15 +380,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The length of the shadow of a vertical tower on level ground increases by 8.4 cm when the altitude of the sun changes from 45° to 30°.",
+    "question": "The length of the shadow of a vertical tower on level ground increases by 8.4 cm when the altitude of the sun changes from 45° to 30°. What is the height of the tower (in m)?",
     "options": [
-      "4.2 3 – 1",
-      "8.4 3  3",
-      "4.2 3  3",
-      "4.2 3  1"
+      "(4.2 3 – 1)/(  )",
+      "(8.4 3 3)/(  )",
+      "4.2 3 3",
+      "4.2 3 1"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4.2 3  1) | Exam: SSC CGL 21/04/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option D | (4.2 3 1) | Exam: SSC CGL 21/04/2022 (Shift- 03)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q024",
@@ -419,7 +419,7 @@
       "240 m",
       "240 3 m",
       "180 3 m",
-      "180"
+      "180 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (240 m) | Exam: SSC CGL Tier-II (15/11/2019)"
@@ -433,13 +433,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "The length of the shadow of the vertical tower on level ground increases by 10m when the altitude of the sun changes from 45º to 30º. The height of the tower is :",
     "options": [
-      "  m",
-      "m",
-      "m",
-      "  m"
+      "(    )/(10 3 +1) m",
+      "/(10 3) m",
+      "/(5 3) m",
+      "(    )/(5 3 +1) m"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (  m) | Exam: SSC CGL Tier-II (18/11/2020)"
+    "explanation": "Correct Answer: Option D | ((    )/(5 3 +1) m) | Exam: SSC CGL Tier-II (18/11/2020)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q027",
@@ -448,7 +448,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The distance between two pillars of length 16 m and 9 m is x meters. If two angles of elevation of their respectively top from the bottom of the other are complementary to each",
+    "question": "The distance between two pillars of length 16 m and 9 m is x meters. If two angles of elevation of their respectively top from the bottom of the other are complementary to each other, the value of x (in m) is :",
     "options": [
       "15",
       "16",
@@ -482,12 +482,12 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "Two poles are such that angles of elevation of a pole of height 18 m from the bottom of the other pole is  and the angle of elevation of top of other pole of height 90 m is from the bottom of the pole is 3. What is the height of the point of intersection of the lines as",
+    "question": "Two poles are such that angles of elevation of a pole of height 18 m from the bottom of the other pole is  and the angle of elevation of top of other pole of height 90 m is from the bottom of the pole is 3. What is the height of the point of intersection of the lines as shown by dotted line in the given figure.",
     "options": [
-      "12 m",
+      "3/(12 m)",
       "15 m",
-      "9 m",
-      "8 m"
+      "(a) 12/(9 m) m",
+      "(b) 15/(8 m) m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (15 m)"
@@ -499,7 +499,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "Two pillars of equal height stand on either side",
+    "question": "Two pillars of equal height stand on either side of a roadway which is 150 m wide. At a point in the road between pillars, the elevations of the 2 pillars are x° and y° so that tan x° = , tan y° 5 3 = , then the height of each pillar is: 5",
     "options": [
       "39 m",
       "42 m",
@@ -516,7 +516,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A pole 23 m long reaches a window which is 3 5 m above the ground on one side of a street. Keeping its foot at the same point, the pole is turned to the other side of the street to reach a window 4 15 m high. What is the width",
+    "question": "A pole 23 m long reaches a window which is 3 5 m above the ground on one side of a street. Keeping its foot at the same point, the pole is turned to the other side of the street to reach a window 4 15 m high. What is the width (in m) of the street?",
     "options": [
       "17",
       "35",
@@ -533,7 +533,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house 30º and 60º. If the ships are 230 3 m apart, then find the height of the",
+    "question": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house 30º and 60º. If the ships are 230 3 m apart, then find the height of the light house (in m).",
     "options": [
       "175.4",
       "165.2",
@@ -555,7 +555,7 @@
       "327 m",
       "127 m",
       "277 m",
-      "177"
+      "177 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (277 m) | Exam: SSC CPO 14/03/2019 (Shift-01)"
@@ -584,15 +584,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The angle of elevation of the top of an unfinished tower at a point distant 78 m from its base is 30°. How much higher must the tower",
+    "question": "The angle of elevation of the top of an unfinished tower at a point distant 78 m from its base is 30°. How much higher must the tower be raised (in m) so that the angle of elevation of the top of the finished tower at the same point will be 60°?",
     "options": [
-      "78 3",
+      "7 3/8",
       "80",
-      "52 3",
-      "26 3"
+      "5 3/2",
+      "2 3/6"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (52 3) | Exam: SSC CGL 11/04/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option C | (5 3/2) | Exam: SSC CGL 11/04/2022 (Shift- 01)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q036",
@@ -601,15 +601,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A poster is on top of a building. A person is standing on the ground at a distance of 50 m from the building. The angles of elevation to the top of the poster and bottom of the poster are 45° and 30°, respectively. What is 200% of",
+    "question": "A poster is on top of a building. A person is standing on the ground at a distance of 50 m from the building. The angles of elevation to the top of the poster and bottom of the poster are 45° and 30°, respectively. What is 200% of the height (in m) of the poster?",
     "options": [
-      "3 – 3",
-      "3 – 3",
-      "3 – 3",
-      "3 – 3"
+      "(25 )/(3 – 3)",
+      "/(3 – 3)",
+      "(50 )/(3 – 3)",
+      "/(3 – 3)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3 – 3) | Exam: SSC CGL 18/04/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option D | (/(3 – 3)) | Exam: SSC CGL 18/04/2022 (Shift- 02)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q037",
@@ -618,7 +618,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "There are two vertical poles, one on each side of a road, just opposite to each other. One pole is 108 m high. From the top of this pole, the angles of depression of the top and the foot of the other poles are 30º and 60º respectively.",
+    "question": "There are two vertical poles, one on each side of a road, just opposite to each other. One pole is 108 m high. From the top of this pole, the angles of depression of the top and the foot of the other poles are 30º and 60º respectively. The height of the other pole (in m) is :",
     "options": [
       "36",
       "72",
@@ -637,13 +637,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "The angle of elevation of the top of a tower from the bottom of a building is 60º and from top of the building is 45º. If height of tht tower is 120 m, the height of the building is :",
     "options": [
-      "  m",
-      "  m",
-      "  m",
-      "m"
+      "(  )/(40 3 1) m",
+      "(  )/(40 3 3 1) m",
+      "(  )/(80 3 1) m",
+      "/(40 3) m"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (  m)"
+    "explanation": "Correct Answer: Option B | ((  )/(40 3 3 1) m)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q039",
@@ -652,11 +652,11 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "From the top of an upright pole 17.75 m high, the angle of elevation of the top of an upright tower was 60° . If the tower was 57.75 m tall, how far",
+    "question": "From the top of an upright pole 17.75 m high, the angle of elevation of the top of an upright tower was 60° . If the tower was 57.75 m tall, how far away (in m) from the foot of the pole was the foot of the tower?",
     "options": [
-      "151/6",
+      "151/(40 3)",
       "3",
-      "77/4 3",
+      "77/3",
       "40 3"
     ],
     "correctAnswer": 3,
@@ -669,15 +669,15 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "The angle of elevation of the top of an upright tower from the top of a straight pole 24 3 feet high is 60°. If the base of the pillar was at a distance of 60 feet from the base of the tower,",
+    "question": "The angle of elevation of the top of an upright tower from the top of a straight pole 24 3 feet high is 60°. If the base of the pillar was at a distance of 60 feet from the base of the tower, what was the height (in feet) of the tower?",
     "options": [
-      "44 3",
-      "36 3",
+      "4 3/4",
+      "3 3/6",
       "60 3",
-      "84 3"
+      "8 3/4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (84 3) | Exam: SSC CGL TIER- II 06/03/2023"
+    "explanation": "Correct Answer: Option D | (8 3/4) | Exam: SSC CGL TIER- II 06/03/2023"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q041",
@@ -686,10 +686,10 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A vertical pole and a vertical tower are on the",
+    "question": "A vertical pole and a vertical tower are on the same level of ground in such a way that from the top of the pole, the angle of elevation of the top of the tower is 60° and the angle of depression of the bottom of the tower is 30°. If the height of the tower is 76 m, then find the height (in m) of the pole.",
     "options": [
       "38",
-      "19 3",
+      "1 3/9",
       "19",
       "57"
     ],
@@ -708,7 +708,7 @@
       "72 m",
       "144 m",
       "108 m",
-      "72 3 m"
+      "7 3/2 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (144 m)"
@@ -720,7 +720,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A person was standing on a road near a mall. He was 1425 m away from the mall and able",
+    "question": "A person was standing on a road near a mall. He was 1425 m away from the mall and able to see the top of the mall from the road in such a way that the top of the tree, which is in between him and the mall, was exactly in the line of sight with the top of the mall. The tree heigvht is 10 m and it is 30 m away from him. How tall (in m) is the mall?",
     "options": [
       "475",
       "300",
@@ -737,7 +737,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "Each vertex of a square subtends an angle of 60º at the top of a tower h meter high",
+    "question": "Each vertex of a square subtends an angle of 60º at the top of a tower h meter high standing in the center of square. If a is the length of each side square then",
     "options": [
       "2h2 = a2",
       "2a2 = h2",
@@ -756,13 +756,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "A bird is sitting on the top a vertical pole 20 m high and its elevation from a point O on the ground is 45º. It flies off horizontally straight away from point O. After one second, the elevation of the bird from O is reduced to 30º. Then the speed (m/s) of the bird is :",
     "options": [
-      "40 2",
-      "– 1 40 3 – 2",
-      "40/20",
-      "2 – 1 40 3 – 2/2 20 3 – 1"
+      "(    )/(40 2 – 1)",
+      "(    )/(40 3 – 2)",
+      "20 2",
+      "(    )/(20 3 – 1)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 – 1 40 3 – 2/2 20 3 – 1)"
+    "explanation": "Correct Answer: Option D | ((    )/(20 3 – 1))"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q046",
@@ -790,13 +790,13 @@
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
     "question": "A navy captain going away from a light house at the speed of   m/s. He observes that 4 3 – 1 it takes him 1 min to change the angle of elevation of the top of lighthouse from 60º to 45º. What is height of lighthouse?",
     "options": [
-      "24",
-      "0 3 480 3 – 1",
       "240 3",
-      "480 3 – 1"
+      "(    )/(480 3 – 1)",
+      "360 3",
+      "280 2"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (24)"
+    "explanation": "Correct Answer: Option A | (240 3)"
   },
   {
     "id": "rkr_height_distance_height_distance_classroom_sheet_q048",
@@ -822,7 +822,7 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "A man looks at the reflection of the top of the lamp-post on the mirror that is 6.6 m away from the foot of the lamppost. The man's height is 1.25 m and he is standing 2 m away from the mirror. Assuming that the mirror is placed on the ground, facing the sky and the man, and that the mirror and the lamp-post are",
+    "question": "A man looks at the reflection of the top of the lamp-post on the mirror that is 6.6 m away from the foot of the lamppost. The man's height is 1.25 m and he is standing 2 m away from the mirror. Assuming that the mirror is placed on the ground, facing the sky and the man, and that the mirror and the lamp-post are in a same line, find the height of the lamp-post (in metres).",
     "options": [
       "4.28",
       "4.45",
@@ -839,14 +839,14 @@
     "chapter": "Height & Distance",
     "sheetType": "ClassRoom",
     "sheetFile": "Height & Distance (ClassRoom Sheet).pdf",
-    "question": "building are",
+    "question": "building are in such a dwelling posit ion (st anding) t hat t heir bases (feet ) are collinear on t he ground and t he t ree, is locat ed bet ween t he building and Suhas. The t ree is sit uat ed at a dist ance of 7.5 m from Suhas and t he building is sit uat ed at a dist ance of 45 m. Moreover, Suhas eyes, t he height of t he t ree and t he height of t he building are in t he same line, and Suhas eyes are 1.8 met ers above t he floor. Find t he height (in m) of t he building.",
     "options": [
-      "3.(a) 4.(c) 5.(c) 6.",
-      "7.(a) 8.(c) 9.(c) 10.(a)",
-      "10.25",
-      "10.75 ANSWER KEY"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3.(a) 4.(c) 5.(c) 6.) | Exam: SSC CHSL 14/08/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 14/08/2023 (Shift-02)"
   }
 ]

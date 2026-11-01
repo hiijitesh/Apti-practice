@@ -6,12 +6,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "Two ships are sailing",
+    "question": "Two ships are sailing in the sea on the two sides of a lighthouse. The angle of elevation of the top of the lighthouse is observed from the ships are 30° and 45° respectively. If the lighthouse is 100 m high, the distance between the two ships is:",
     "options": [
       "150 m",
       "200 m",
       "273 m",
-      "400"
+      "400 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (273 m) | Solution: (c) A B 30° 45° 45° 60° C D Let AD = h = 100 m. AD = CD = 1 unit  100 m. BD = 3 unit 100 3 m.  BD + CD = 100 3 100  = 100( 3 +1) = 100 (1.73 + 1) = 100 2.73 = 273 m."
@@ -28,7 +28,7 @@
       "21.6 m",
       "23.2 m",
       "24.72 m",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (21.6 m) | Solution: (a) Let AE = h CD = BE = 1.6 m. CB = DE = 20 3 m. DE = 3 unit 20 3 m.  AE = 1 unit  20 m. AB = 20 + 1.6 = 21.6 m."
@@ -40,7 +40,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house are 30º and 60º. If the ships are 230 3 m apart,",
+    "question": "Two ships are on the opposite of a light house such that all three of them are collinear. The angles of depression of the two ships from the top of the light house are 30º and 60º. If the ships are 230 3 m apart, then find the height of the light house (in m).",
     "options": [
       "175.4",
       "165.2",
@@ -62,7 +62,7 @@
       "1080 cm",
       "96 cm",
       "108 cm",
-      "118 c"
+      "118 cm"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (96 cm) | Solution: (b) At the same time, ratio of height and shadow are same. 16 h = 8 48 h = 16 6  h = 96 cm."
@@ -79,10 +79,10 @@
       "42.2 mts",
       "33.45 mts",
       "66.6 mts",
-      "58.78 mt"
+      "58.78 mts"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (66.6 mts) | Solution: (c) AED, AE = 1 unit ED = 3 unit ABC, BC = 1 unit AB = 3 unit  ED = BC = 3 unit  AB = 3 unit = 100 m  CD = EB = 2 unit = 200 3 = 66.66 m"
+    "explanation": "Correct Answer: Option C | (66.6 mts) | Solution: (c) In AED, AE = 1 unit ED = 3 unit In ABC, BC = 1 unit AB = 3 unit  ED = BC = 3 unit  AB = 3 unit = 100 m  CD = EB = 2 unit = 200 3 = 66.66 m"
   },
   {
     "id": "rkr_height_distance_height_distance_pro_level_sheet_q006",
@@ -91,15 +91,15 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angle of elevation of the top of an upright tower from the top of a straight pole 24 3 feet high is 60°. If the base of the pillar was at a distance of 60 feet",
+    "question": "The angle of elevation of the top of an upright tower from the top of a straight pole 24 3 feet high is 60°. If the base of the pillar was at a distance of 60 feet from the base of the tower, what was the height (in feet) of the tower?",
     "options": [
-      "44 3",
-      "36 3",
+      "4 3/4",
+      "3 3/6",
       "60 3",
-      "84 3"
+      "8 3/4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (84 3) | Solution: (d) 60 A B C E D 60° 24 3 AB AB tan60 = = CE 60  AB = 60 3 AC = 60 3 24 3  = 84 3 m Alternate Method: 60 A B C 1 E D 60° 24 3 30° 3 BD = CE = 60m ANSWER KEY"
+    "explanation": "Correct Answer: Option D | (8 3/4) | Solution: (d) 60 A B C E D 60° 24 3 AB AB tan60 = = CE 60  AB = 60 3 AC = 60 3 24 3  = 84 3 m Alternate Method: 60 A B C 1 E D 60° 24 3 30° 3 BD = CE = 60m ANSWER KEY"
   },
   {
     "id": "rkr_height_distance_height_distance_pro_level_sheet_q007",
@@ -108,15 +108,15 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "A tower is broken at a point P above the ground. The top of the tower makes an angle 60° with the ground at Q. From another point R on the opposite side of Q angle of elevation of point P is 30°. If QR = 180 m,",
+    "question": "A tower is broken at a point P above the ground. The top of the tower makes an angle 60° with the ground at Q. From another point R on the opposite side of Q angle of elevation of point P is 30°. If QR = 180 m, then what is the total height (in metres) of the tower?",
     "options": [
       "97",
       "603",
       "45(3+4)",
-      "45(3 + 2"
+      "45(3 + 2)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (45(3 + 2)"
+    "explanation": "Correct Answer: Option D | (45(3 + 2))"
   },
   {
     "id": "rkr_height_distance_height_distance_pro_level_sheet_q008",
@@ -130,7 +130,7 @@
       "6 m",
       "6.5 m",
       "6.9 m",
-      "7"
+      "7 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (6.5 m)"
@@ -142,7 +142,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The tops of two poles of height 60 metres and 35 metres are connected by a rope. If the rope makes 5 an angle with the horizontal whose tangent is 9",
+    "question": "The tops of two poles of height 60 metres and 35 metres are connected by a rope. If the rope makes 5 an angle with the horizontal whose tangent is 9 metres, then what is the distance (in metres) between the two poles?",
     "options": [
       "42",
       "49",
@@ -159,7 +159,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The height of a tower is 300 meters. When its top is seen from top of another tower,then the angle of depression is 60°. The horizontal distance between the bases of the two towers is 120 metres. What is",
+    "question": "The height of a tower is 300 meters. When its top is seen from top of another tower,then the angle of depression is 60°. The horizontal distance between the bases of the two towers is 120 metres. What is the height (in metres) of the small tower?",
     "options": [
       "88.24",
       "106.71",
@@ -176,7 +176,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angles of elevation of the top of a tree 220 meters high from two points lie on the same plane are 30°",
+    "question": "The angles of elevation of the top of a tree 220 meters high from two points lie on the same plane are 30° and 45°. What is the distance (in metres) between the two points?",
     "options": [
       "190.22",
       "140",
@@ -198,7 +198,7 @@
       "56 m",
       "63 m",
       "65m",
-      "75"
+      "75 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (63 m)"
@@ -215,7 +215,7 @@
       "17 m",
       "19 m",
       "15.5 m",
-      "Non"
+      "None"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (17 m)"
@@ -227,7 +227,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "Subhas and a 3.15 meter tall tree and a building are",
+    "question": "Subhas and a 3.15 meter tall tree and a building are in such a dwelling position (standing) that their bases (feet) are collinear on the ground and the tree, is located between the building and Subhas. The tree is situated at a distance of 7.5 m from Subhas and the building is situated at a distance of 45 m. Moreover, Subhas eyes, the height of the tree and the height of the building are in the same line, and Suhas eyes are 1.8 meters above the floor. Find the height (in m) of the building.",
     "options": [
       "11.25",
       "11.50",
@@ -244,7 +244,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "Two trees are standing along the opposite sides of a road. Distance between the two trees is 400 metres. There is a point on the road between the trees. The angle of depressions of the point from the top of the trees are 45º and 60º. If the height of the tree which makes 45º angle is 200 metres, then what will be",
+    "question": "Two trees are standing along the opposite sides of a road. Distance between the two trees is 400 metres. There is a point on the road between the trees. The angle of depressions of the point from the top of the trees are 45º and 60º. If the height of the tree which makes 45º angle is 200 metres, then what will be the height (in metres) of the other tree?",
     "options": [
       "200",
       "2003",
@@ -261,12 +261,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "A boat is moving away from an observation tower. It makes an angle of depression of 60° with an observer's eye when at a distance of 50 m from the tower. After 8 sec., the angle of depression becomes 30°. By",
+    "question": "A boat is moving away from an observation tower. It makes an angle of depression of 60° with an observer's eye when at a distance of 50 m from the tower. After 8 sec., the angle of depression becomes 30°. By assuming that it is running in still water, the approximate speed of the boat is",
     "options": [
       "37 km/hr",
       "39 km/hr",
       "45 km/hr",
-      "56 km/h"
+      "56 km/hr"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (45 km/hr)"
@@ -278,7 +278,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angle of elevation of the top of a tall building from the points M and N at the distances of 72 m and 128 m, respectively, from the base of the",
+    "question": "The angle of elevation of the top of a tall building from the points M and N at the distances of 72 m and 128 m, respectively, from the base of the building and in the same straight line with it, are complementary. The height of the building (in m) is:",
     "options": [
       "84",
       "96",
@@ -295,9 +295,9 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "A man observed the top of an electric pole from two different observation points P and Q at angles of elevation of 60° and 30° respectively. If the distance",
+    "question": "A man observed the top of an electric pole from two different observation points P and Q at angles of elevation of 60° and 30° respectively. If the distance between P and Q is 10m, find the height (in m) of the pole.",
     "options": [
-      "15 3",
+      "1 3/5",
       "15",
       "5 3",
       "5"
@@ -317,7 +317,7 @@
       "50 m",
       "60 m",
       "63 m",
-      "65"
+      "65 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (60 m)"
@@ -329,12 +329,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "From the top of a tower 60 metre high the angle of depression of the top and bottom of a pole are observed to be 45° and 60° respectively. If the pole and tower",
+    "question": "From the top of a tower 60 metre high the angle of depression of the top and bottom of a pole are observed to be 45° and 60° respectively. If the pole and tower stand on the same plane, the height of the pole in meters is:",
     "options": [
       "60(3 – 1)",
       "20(3 +3)",
       "603",
-      "20(3 + 1"
+      "20(3 + 1)"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (20(3 +3))"
@@ -346,12 +346,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angles of elevation of the top of a tower from two points at a distance of 9 m and 16 m from the base",
+    "question": "The angles of elevation of the top of a tower from two points at a distance of 9 m and 16 m from the base of the tower and in the same straight line with it are complementary. The height of the tower is.",
     "options": [
       "9 m",
       "11 m",
       "12 m",
-      "10"
+      "10 m"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (12 m)"
@@ -363,12 +363,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angle of elevation of an aeroplane as observed from a point 30 m above the transparent water-surface of a lake is 30° and the angle of depression of the",
+    "question": "The angle of elevation of an aeroplane as observed from a point 30 m above the transparent water-surface of a lake is 30° and the angle of depression of the image of the aeroplane in the water of the lake is 60°. The height of the aeroplane from the water-surface of the lake is",
     "options": [
       "60 m",
       "42 m",
       "65 m",
-      "75"
+      "75 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (60 m)"
@@ -380,7 +380,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angle of elevation of an aeroplane from a point on the ground is 60º. After flying for 40 seconds, the angle of elevation changes to 30º. If the aeroplane is flying at a height of 6000 m, then what is the speed",
+    "question": "The angle of elevation of an aeroplane from a point on the ground is 60º. After flying for 40 seconds, the angle of elevation changes to 30º. If the aeroplane is flying at a height of 6000 m, then what is the speed (in m/s) of aeroplane?",
     "options": [
       "503",
       "1003",
@@ -397,7 +397,7 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "The angle of elevation of a tower at a point 90 m  4  from it is cot–1   .Then the height of the tower is:  5  4 ",
+    "question": "The angle of elevation of a tower at a point 90 m  4  from it is cot–1    .Then the height of the tower is: 5  4 ",
     "options": [
       "45",
       "90",
@@ -436,7 +436,7 @@
       "60(1 + tan tan)",
       "60(1 + cottan)",
       "60(1 + tan cot)",
-      "60(1 – tancot"
+      "60(1 – tancot)"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (60(1 + tan cot))"
@@ -450,13 +450,13 @@
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
     "question": "An aeroplane, when 4000 m high from the ground, pass vertically above another aeroplane at an instance when the angles of elevation of the two aeroplanes from the same point on the ground are 60º and 30º respectively. Find the vertical distance between the two aero planes.",
     "options": [
-      "m",
-      "m",
-      "m",
+      "8000/m",
+      "7500/m",
+      "6600/m",
       "1200m"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (m)"
+    "explanation": "Correct Answer: Option A | (8000/m)"
   },
   {
     "id": "rkr_height_distance_height_distance_pro_level_sheet_q028",
@@ -470,10 +470,10 @@
       "6 min",
       "6.5 min",
       "7 min",
-      "7.5 mi"
+      "7.5 min"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7.5 mi)"
+    "explanation": "Correct Answer: Option D | (7.5 min)"
   },
   {
     "id": "rkr_height_distance_height_distance_pro_level_sheet_q029",
@@ -482,12 +482,12 @@
     "chapter": "Height & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
-    "question": "A man is watching from the top of a tower, a boat speeding away from the tower. The angle of depression from the top of the tower to the boat is 60º when the boat is 80 m from the tower. After 10 seconds, the angle of depression becomes 30º. What is the speed",
+    "question": "A man is watching from the top of a tower, a boat speeding away from the tower. The angle of depression from the top of the tower to the boat is 60º when the boat is 80 m from the tower. After 10 seconds, the angle of depression becomes 30º. What is the speed of the boat? (Assume that the boat is running in still water).",
     "options": [
       "20 m/sec",
       "10 m/sec",
       "16 m/sec",
-      "18 m/se"
+      "18 m/sec"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (16 m/sec)"
@@ -501,12 +501,12 @@
     "sheetFile": "Height & Distance (Pro Level Sheet).pdf",
     "question": "A balloon of radius 'r' makes an angle of º on the eyes of the viewer and angle of elevation of the center of the balloon is º then the height of the center of balloon from the ground?",
     "options": [
-      "r cosec sin ",
-      "r cosec sin ",
-      "r cos sin ",
+      "(r cosec sin )/2",
+      "(r cosec sin )/2",
+      "(r cos sin )/2",
       "None of these"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (r cosec sin )"
+    "explanation": "Correct Answer: Option A | ((r cosec sin )/2)"
   }
 ]

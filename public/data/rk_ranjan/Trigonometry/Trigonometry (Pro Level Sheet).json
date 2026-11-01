@@ -25,13 +25,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "What is the value of cos70° cos40° + sin70° sin40°?",
     "options": [
-      "1/2",
+      "1",
       "2",
-      "3/2",
+      "3",
       "3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3/2) | Solution: (c) cos70º cos40º + sin70º sin40º Formula:- cos(A – B) = cosA.cosB + sinA.sinB cos(70º – 40º) = cos30º = 3 2"
+    "explanation": "Correct Answer: Option C | (3) | Solution: (c) cos70º cos40º + sin70º sin40º Formula:- cos(A – B) = cosA.cosB + sinA.sinB cos(70º – 40º) = cos30º = 3 2"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q003",
@@ -42,10 +42,10 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If 0 <  < 90°, solve the following equations: 2 cos2 + sin – 2 = 0.",
     "options": [
-      " = 0",
+      "( = 0)/6",
       " =",
       " = 1",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | ( =) | Solution: (b) 2cos² + sin – 2 = 0 2(1 – sin²) + sin – 2 = 0 2 – 2sin² + sin – 2 = 0 2sin² – sin = 0 sin(2sin – 1) = 0 2sin – 1 = 0 sin = 1 2 So,  = 6 "
@@ -79,7 +79,7 @@
       "cos",
       "cos/2",
       "2 cos",
-      "2cos"
+      "2cosθ"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (2 cos) | Solution: (c) cos² 1+ sin 1 – sin 1 – sin 1 sin                 cos2 1+ sin 1 – sin 2 1 – sin              = 2 cos  = 2cos"
@@ -127,13 +127,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "The value of cos15° cos45° cos75° is:",
     "options": [
-      "1/3",
-      "1/2 4 2",
+      "1/(3 2)",
+      "1/(4 2)",
       "3/8",
       "1/8"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1/2 4 2) | Solution: (b) cos15° cos45º cos75º Formula :- 1 4 cos3 = cos.cos(60 – ).cos(60 + ) cos(60º – 15º) cos15º cos(60º + 15º) 1 4 cos(3 15°) = 1 1 1 4 2 4 2  "
+    "explanation": "Correct Answer: Option B | (1/(4 2)) | Solution: (b) cos15° cos45º cos75º Formula :- 1 4 cos3 = cos.cos(60 – ).cos(60 + ) cos(60º – 15º) cos15º cos(60º + 15º) 1 4 cos(3 15°) = 1 1 1 4 2 4 2  "
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q009",
@@ -147,7 +147,7 @@
       "cosA",
       "sin2A",
       "cos2A",
-      "sin"
+      "sinA"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (cos2A) | Solution: (c) cos(36º – A) cos(36º + A) + cos(54º – A) cos(54º + A) By Using, cos(A + B) cos(A – B) = cos²A – sin²B  cos²36º – sin²A + cos²54º – sin²A  cos²36º – sin²A + sin²36º – sin²A  1 – 2sin²A  cos2A"
@@ -215,7 +215,7 @@
       "30º",
       "45º",
       "60º",
-      "Non"
+      "None"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (60º)"
@@ -283,7 +283,7 @@
       "A = 2B",
       "A = – 2B",
       "2A = B",
-      "2A = –"
+      "2A = –B"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (2A = B)"
@@ -334,7 +334,7 @@
       "cosx",
       "sinx",
       "cos x",
-      "sin"
+      "sinx"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (sinx) | Solution: 2 4    3 1 3 3 2 4 2 16   "
@@ -351,7 +351,7 @@
       "x – y = 0",
       "x = 2y",
       "y = 2x",
-      "x – y = 1"
+      "x – y = 1°"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (x – y = 0)"
@@ -368,7 +368,7 @@
       "30°",
       "45°",
       "60°",
-      "90"
+      "90°"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30°)"
@@ -382,13 +382,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "Evaluate : cos2 45° – sin2 15°.",
     "options": [
-      "1/2",
-      "2/3",
-      "3/4",
-      "4"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3/4)"
+    "explanation": "Correct Answer: Option C"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q024",
@@ -433,13 +433,30 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If sin 21° = , then sec 21° – sin 69° is equal to y x",
     "options": [
-      "x/y",
-      "2 y 2/(y² – x ²) y (y² – x ²)",
-      "x/y",
-      "2 y 2/( x ² – y²) x ( x ² – y²"
+      "(x 2)/(y (y² – x ²))",
+      "(y 2)/(y (y² – x ²))",
+      "(x 2)/(y ( x ² – y²))",
+      "(y 2)/(x ( x ² – y²))"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (x/y)"
+    "explanation": "Correct Answer: Option A | ((x 2)/(y (y² – x ²)))"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "In ABC A, B, C are angles then evaluate: sin2A + sin2B + sin2C",
+    "options": [
+      "4sinA sinB sinC",
+      "4sinA cosB sinC",
+      "4sinA sinB cosC",
+      "4cosA cosB cosC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4sinA sinB sinC)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q028",
@@ -450,10 +467,10 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If sin = x² – 2x + 2, then the value of x is 2  x",
     "options": [
-      "0",
+      "2/0",
       "1",
-      "–1",
-      "None of thes"
+      "(a) 0/(–1)",
+      "(b) 1/(None of these)"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1)"
@@ -504,7 +521,7 @@
       "–sec",
       "–sec",
       "–cos",
-      "–sin cos"
+      "–sin cos"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (–cos)"
@@ -516,7 +533,7 @@
     "chapter": "Trigonometry",
     "sheetType": "Pro Level",
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
-    "question": "For all i {i = 1, 2, 3 ...... 20}, 0  90º. Given that sin1 + sin2 + ...... + sin20 = 20 Then value",
+    "question": "For all i {i = 1, 2, 3 ...... 20}, 0  90º. Given that sin1 + sin2 + ...... + sin20 = 20 Then value (in degree ) of (1 + 2 + 3 +....+ 20)",
     "options": [
       "1800º",
       "900º",
@@ -533,15 +550,15 @@
     "chapter": "Trigonometry",
     "sheetType": "Pro Level",
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
-    "question": "If ,  are acute angle and cos2 = then 3 – cos2  the value of tan cot is: 3cos2  –1",
+    "question": "If ,  are acute angle and cos2 =  then 3 – cos2 the value of tan cot is: 3cos2  –1",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "2 2",
+      "1",
+      "3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (3)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q034",
@@ -552,13 +569,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If sin = acos and cos = bsin then the value of (a² – 1) cot² + (1 – b²) cot² is equal to.",
     "options": [
-      "a/a",
-      "2 + b 2 a 2 – b 2/2 b 2",
-      "a/b",
-      "2 – b 2 a 2 – b 2/2 a 2"
+      "(a 2 + b 2)/2",
+      "(a 2 – b 2)/2",
+      "(a 2 – b 2)/2",
+      "(a 2 – b 2)/2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 – b 2 a 2 – b 2/2 a 2)"
+    "explanation": "Correct Answer: Option D | ((a 2 – b 2)/2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q035",
@@ -586,13 +603,30 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If x =  1+ cos  + sin   then the value of  1+ sin   is: 2sin  1 – cos  + sin ",
     "options": [
-      "x/1  1+",
-      "x ",
-      "1/x",
-      " 1+ x /x"
+      "( 1+ x )/1",
+      "x/( 1+ x )",
+      "x",
+      "x"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (x )"
+    "explanation": "Correct Answer: Option B | (x/( 1+ x ))"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "In ABC, If cosB = , then the triangle is 2sinC sinA",
+    "options": [
+      "Isosceles triangle",
+      "Equilateral triangle",
+      "Right angled triangle",
+      "Scalene triangle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Isosceles triangle)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q038",
@@ -603,13 +637,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If (a² – b²) sin + 2ab cos = a² + b² then tan = ?",
     "options": [
-      "2ab a 2 –/2ab",
-      "b 2",
-      "ab/a",
-      "a 2 – b 2/2 – b 2 a"
+      "2ab/( a 2 – b 2 )",
+      "a 2 – b 2",
+      "ab/(2 2)",
+      "a 2 – b 2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (b 2)"
+    "explanation": "Correct Answer: Option B | (a 2 – b 2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q039",
@@ -671,13 +705,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If tanx = a and tany = b. What is the value of (tanx + tany) (1 – cotxcoty) + (cotx + coty) (1 – tanx tany) equal to?",
     "options": [
-      "a/a",
-      "– b ab –1/ b ab",
-      "a ",
-      "b ab"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (a )"
+    "explanation": "Correct Answer: Option C"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q043",
@@ -688,13 +722,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "A rectangle is 48 cm long and 14 cm wide. If the diagonal makes an angle  with the longer side, then (sec + cosec) equal to?",
     "options": [
-      "77/16",
-      "5/8",
-      "77/10",
-      "1 770/7 107"
+      "775",
+      "2",
+      "771",
+      "770"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (77/16)"
+    "explanation": "Correct Answer: Option A | (775)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q044",
@@ -705,13 +739,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If cosec – sin = m and sec – cos = n, then what is 4 2 2 4 equal to? m 3 n 3  m 3 n 3",
     "options": [
-      "m 3/1 1",
-      "n 3  m 3 n 3",
-      "1/2",
-      "1/4"
+      "/0 m 3 n 3",
+      "/1 m 3 n 3",
+      "1",
+      "1"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (n 3  m 3 n 3)"
+    "explanation": "Correct Answer: Option B | (/1 m 3 n 3)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q045",
@@ -725,7 +759,7 @@
       "0",
       "1",
       "tan2",
-      "sin2"
+      "sin2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1)"
@@ -739,13 +773,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If  is an acute angle and sincos = 2cos3 – 1.5 cos, then what is sin equal to?",
     "options": [
+      "(5  1)/4",
+      "(1  5)/4",
       "5/4",
-      " 1 1  5/4",
-      "5/4",
-      " 1/4"
+      "( 1)/4"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5/4)"
+    "explanation": "Correct Answer: Option A | ((5  1)/4)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q047",
@@ -759,7 +793,7 @@
       "cosecx",
       "2cosecx",
       "2sinx",
-      "2cos"
+      "2cosx"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2cosecx)"
@@ -875,13 +909,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If cosec – sin = p3 and sec – cos = q3 then what is the value of tan?",
     "options": [
-      "p/q",
       "q",
-      "q",
+      "p",
+      "pq",
       "p2q2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (q)"
+    "explanation": "Correct Answer: Option B | (p)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q055",
@@ -892,13 +926,13 @@
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
     "question": "If sinx + cosx = C then sin6x + cos6x is equal to",
     "options": [
-      "1/16",
-      " 6c 2  3c 4 1  6c 2  3c 4/4",
-      "1/16",
-      " 6c 2  3c 4 1  6c 2  3c 4/4"
+      "(1  6c 2  3c 4)/16",
+      "(1  6c 2  3c 4)/4",
+      "(1  6c 2  3c 4)/16",
+      "(1  6c 2  3c 4)/4"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 6c 2  3c 4 1  6c 2  3c 4/4)"
+    "explanation": "Correct Answer: Option B | ((1  6c 2  3c 4)/4)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q056",
@@ -907,12 +941,12 @@
     "chapter": "Trigonometry",
     "sheetType": "Pro Level",
     "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
-    "question": "The difference of the two angles",
+    "question": "The difference of the two angles in degree measure is 1 and their sum in circular measure is also 1. What are the angles in circular measure?",
     "options": [
       " –  , +   2 360°  2 360°   1 90  1 90 ",
       " –  , +   2   2    1   1  ",
       " –  , +   2 180°  2 180° ",
-      "None of these 1  cosB 2tan"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | ( –  , +   2 360°  2 360°   1 90  1 90 )"
@@ -928,11 +962,11 @@
     "options": [
       "2",
       "2 tanB",
-      "2/1 ",
-      "2sin  cos"
+      "tanB/(1  2sin)",
+      "(4 tanB)/( cos )"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (2/1 )"
+    "explanation": "Correct Answer: Option C | (tanB/(1  2sin))"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q058",
@@ -946,10 +980,10 @@
       "sec",
       "1",
       "0",
-      "tan"
+      "tan"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (tan)"
+    "explanation": "Correct Answer: Option D | (tan)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q059",
@@ -963,7 +997,7 @@
       "p³ – 3p + q = 0",
       "q³ – 3q + 2p = 0",
       "p³ – 3p + 2q = 0",
-      "p³ + 3p + 2q = 0"
+      "p³ + 3p + 2q = 0 sec²  – tan "
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (p³ – 3p + 2q = 0)"
@@ -980,9 +1014,9 @@
       " x  3 3  1 ",
       "x  ,3   3  1",
       "– 3 < x < – 3 1",
-      " x  3 3 ANSWER KEY"
+      " x  3 3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ( x  3 3 ANSWER KEY)"
+    "explanation": "Correct Answer: Option D | ( x  3 3)"
   }
 ]

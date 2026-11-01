@@ -23,7 +23,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Find the simple interest (",
+    "question": "Find the simple interest (in `) on `9,900 at 9% per annum in 3 years",
     "options": [
       "2512",
       "2683",
@@ -57,7 +57,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a certain sum of money",
+    "question": "The simple interest on a certain sum of money is Rs.2275 at 13% per annum in 5 years. Find the sum of money.",
     "options": [
       "Rs.4000",
       "Rs.4200",
@@ -74,7 +74,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of simple interest at the rate of 5% per",
+    "question": "A sum of simple interest at the rate of 5% per annum amount Rs.4160 in 6 years. Find the sum.",
     "options": [
       "Rs.2800",
       "Rs.2900",
@@ -91,7 +91,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum becomes Rs.6,600",
+    "question": "A sum becomes Rs.6,600 in 4 years at simple interest at a yearly interest rate of 5% per annum. What is the sum?",
     "options": [
       "Rs.6,000",
       "Rs.4,400",
@@ -108,7 +108,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "What principal would amount to Rs.21,420",
+    "question": "What principal would amount to Rs.21,420 in 2 years at the rate of 9.5% p.a. simple interest?",
     "options": [
       "Rs.11,273",
       "Rs.12,000",
@@ -244,7 +244,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The difference between the simple interest on a 1 sum of money for 3 years at the rate of 12% 2 per annum and simple interest on the same sum 1 of money for 4 years at 10% per annum is 2",
+    "question": "The difference between the simple interest on a 1 sum of money for 3 years at the rate of 12% 2 per annum and simple interest on the same sum 1 of money for 4 years at 10% per annum is 2 `360. Find the sum (in `). 1",
     "options": [
       "16,000",
       "12,000",
@@ -261,7 +261,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If the simple interest on a certain sum of money for 20 months at the rate of 19.2% per annum exceeds the simple interest on the same sum for 15 months at the rate of 11.2% p.a. by",
+    "question": "If the simple interest on a certain sum of money for 20 months at the rate of 19.2% per annum exceeds the simple interest on the same sum for 15 months at the rate of 11.2% p.a. by `2,920, then what is the sum (in `, to the nearest hundreds)?",
     "options": [
       "16,620",
       "12,660",
@@ -295,7 +295,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A man invested a sum of Rs. 5,000 on simple interest for 5 years such that the rate of interest for the first 2 years is10% per annum, for the next 3 years it is 12% per annum How",
+    "question": "A man invested a sum of Rs. 5,000 on simple interest for 5 years such that the rate of interest for the first 2 years is10% per annum, for the next 3 years it is 12% per annum How much interest (in Rs), will he earn at the end of 5 years?",
     "options": [
       "2800",
       "2450",
@@ -312,7 +312,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "How much simple interest will Rs.6,700 earn",
+    "question": "How much simple interest will Rs.6,700 earn in 13 months at a 12% interest rate per annum?",
     "options": [
       "Rs.871",
       "Rs.889",
@@ -346,7 +346,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of `12,000 amounts to `15,000",
+    "question": "A sum of `12,000 amounts to `15,000 in 5 years at the rate of simple interest. What is the rate of interest per annum?",
     "options": [
       "8",
       "7",
@@ -355,6 +355,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (5) | Exam: SSC CHSL, 11/08/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will a sum of Rs.2,500 invested at 16% simple interest become Rs.4,100?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4) | Exam: SSC CHSL MAINS 10/01/2024 (Shift-01)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q023",
@@ -374,13 +391,30 @@
     "explanation": "Correct Answer: Option D | (6) | Exam: SSC CGL 11/09/2024 (Shift-02)"
   },
   {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In how much time will Rs.5,000 at 4% per annum simple interest produce the same 1 interest as Rs.8,000 in 2 years at 8% per 2 annum simple interest?",
+    "options": [
+      "8 years",
+      "5 years",
+      "4 years",
+      "2 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8 years) | Exam: SSC CGL 26/09/2024 (Shift-03)"
+  },
+  {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q025",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Find the simple interest (",
+    "question": "Find the simple interest (in Rs.) on Rs.2000 at 6.25% per annum rate of interest for the period from 11 February 2023 to 25 April 2023.",
     "options": [
       "26",
       "24",
@@ -397,7 +431,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest (",
+    "question": "The simple interest (in Rs. rounded off to the tens place) on Rs 12300 from 22 May 1993 to 2 August 1993 (both days are included) at the rate of 12% per annum is:",
     "options": [
       "300",
       "200",
@@ -414,7 +448,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Find the simple interest (",
+    "question": "Find the simple interest (in `) on `2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April 2023",
     "options": [
       "24",
       "27",
@@ -431,7 +465,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Archana took a loan of `78,000 from a bank 3 on 24th January 2012 at 8 % per annum 4 simple interest and paid it back on 18th June 2012. Find the total amount paid by Archana. (Approximated to nearest integer) 3",
+    "question": "Archana took a loan of `78,000 from a bank 3 on 24th January 2012 at 8 % per annum 4 2012. Find the total amount paid by Archana. (Approximated to nearest integer) 3",
     "options": [
       "`80,723",
       "`90,730",
@@ -467,13 +501,13 @@
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
     "question": "If the simple interest at the same interest rate on Rs.500 for 4 years and Rs.700 for 2 years, combined together, is Rs.280, then what is the rate of interest?",
     "options": [
-      "9",
-      "6",
-      "8",
-      "7"
+      "3/(9 %)",
+      "5/(6 %)",
+      "4/(8 %)",
+      "3/(7 %)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (8) | Exam: SSC CGL 14/07/2023 (Shift-2)"
+    "explanation": "Correct Answer: Option C | (4/(8 %)) | Exam: SSC CGL 14/07/2023 (Shift-2)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q031",
@@ -499,15 +533,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money becomes of itself",
+    "question": "A sum of money becomes of itself in 2 years 7 at a certain rate of simple interest. The rate per annum is:",
     "options": [
-      "6",
-      "8",
-      "7",
-      "7"
+      "3/(6 %)",
+      "1/(8 %)",
+      "1/(7 %)",
+      "3/(7 %)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (7) | Exam: SSC CGL 20/07/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (1/(7 %)) | Exam: SSC CGL 20/07/2023 (Shift-01)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q033",
@@ -518,13 +552,13 @@
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
     "question": "A person borrowed some money on simple 4 interest. After 3 years, he returned of the 3 money to the lender. What was the rate of interest?",
     "options": [
-      "11 % p.a",
-      "11 % p.a",
-      "11 % p.a",
-      "11 % p.a"
+      "2/(11 % p.a)",
+      "4/(11 % p.a)",
+      "3/(11 % p.a)",
+      "1/(11 % p.a)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (11 % p.a) | Exam: SSC CHSL MAINS 02/11/2023 (Shift- 01)"
+    "explanation": "Correct Answer: Option D | (1/(11 % p.a)) | Exam: SSC CHSL MAINS 02/11/2023 (Shift- 01)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q034",
@@ -538,7 +572,7 @@
       "20% p.a.",
       "18% p.a.",
       "17% p.a.",
-      "19% p.a"
+      "19% p.a."
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20% p.a.) | Exam: CGL 12/09/2024 (Shift-02)"
@@ -567,7 +601,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a certain sum is one- eighth of the sum when the number of years is equal to half of the rate percentage per",
+    "question": "The simple interest on a certain sum is one- eighth of the sum when the number of years is equal to half of the rate percentage per annum. Find the simple interest (in Rs.) on Rs.15,000 at the same rate of simple interest for 8 years.",
     "options": [
       "5800",
       "5000",
@@ -584,7 +618,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Simple interest on a certain sum is one-fourth of the sum and the interest rate per annum is four times the number of years. If the rate of interest increases by 2%, then how much will",
+    "question": "of the sum and the interest rate per annum is four times the number of years. If the rate of interest increases by 2%, then how much will the simple interest (in Rs) be on Rs 3600, for 6 years.",
     "options": [
       "2562",
       "2514",
@@ -601,15 +635,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to ` 12096 at 8% p.a. 1",
+    "question": "A certain sum amounts to ` 12096 at 8% p.a. 1 in 5 years at simple interest. What will be 2 the simple interest on the same sum at 10% p.a. in 8 years.",
     "options": [
       "` 6770",
       "` 6810",
       "` 6680",
-      "` 6720"
+      "` 6720 4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (` 6720) | Exam: SSC MTS 19/08/ 2019 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (` 6720 4) | Exam: SSC MTS 19/08/ 2019 (Shift-03)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q039",
@@ -618,7 +652,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 10,500 amounts to ` 13,825",
+    "question": "A sum of ` 10,500 amounts to ` 13,825 in 3 5 years at a certain rate percent per annum interest on the same sum for 5 years at double the earlier rate?",
     "options": [
       "` 8,470",
       "` 8,750",
@@ -635,7 +669,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 8,400 amounts to Rs 11,046 at",
+    "question": "A sum of Rs 8,400 amounts to Rs 11,046 at 8.75% p.a. simple interest in a certain time. What will be the simple interest (in Rs) on a sum of Rs 10,800 at the same rate for the same time?",
     "options": [
       "3402",
       "3204",
@@ -652,7 +686,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 8400 amounts to ` 11,046 at 8.75",
+    "question": "A sum of ` 8400 amounts to ` 11,046 at 8.75% p.a. simple interest in a certain time. What is the simple interest on the sum of ` 9600 at the same rate for the same time?",
     "options": [
       "` 2990",
       "` 3012",
@@ -669,7 +703,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If Rs.72 amounts to Rs.104.4",
+    "question": "If Rs.72 amounts to Rs.104.4 in 3 years, what will Rs.120 amount to in 5 years at the same rate percent per annum?",
     "options": [
       "Rs. 450",
       "Rs. 330",
@@ -686,7 +720,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "At simple interest a sum of Rs. 6400 becomes",
+    "question": "At simple interest a sum of Rs. 6400 becomes Rs. 8320 in 3 years. What amount will Rs. 7200 become in 5 years at the same rate ?",
     "options": [
       "Rs.10200",
       "Rs.10600",
@@ -703,15 +737,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A bank charges simple interest for Rs.K at the 1 rate of r 2 for n2 years. Another bank charges simple interest for Rs.L at the rate of 3 for r 2 n3 years and gives the same interest. The ratio between K and L is: 1",
+    "question": "A bank charges simple interest for Rs.K at the 1 rate of r 2 for n2 years. Another bank charges r 2 n3 years and gives the same interest. The ratio between K and L is: 1",
     "options": [
-      ":",
-      "rn:1",
+      "1/:",
+      "1/rn:1",
       "r2 : n2",
       "a 1 : 1"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (rn:1) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (1/rn:1) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q045",
@@ -720,7 +754,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Simple interest on a certain sum is one-fifth of the sum and the interest rate percent per annum is 5 times the number of years. If the rate of interest increases by 3%, then how",
+    "question": "of the sum and the interest rate percent per annum is 5 times the number of years. If the rate of interest increases by 3%, then how much will the simple interest (in Rs.) be on Rs.5,600 for 6 years?",
     "options": [
       "4668",
       "4168",
@@ -737,7 +771,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Simple interest on a certain sum is one-fourth of the sum and the interest rate percentage per annum is 4 times the number of years. If the rate of interest increases by 2%, then what will be the",
+    "question": "of the sum and the interest rate percentage per annum is 4 times the number of years. If the rate of interest increases by 2%, then what will be the",
     "options": [
       "300",
       "1500",
@@ -771,7 +805,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts Rs.3985.2 at 14% rate of  2  simple interest after 3   years. What is the  3  simple interest on same sum at 9% rate of interest after 16 months?  2 ",
+    "question": "A sum amounts Rs.3985.2 at 14% rate of  2   3  interest after 16 months?  2 ",
     "options": [
       "Rs. 272",
       "Rs. 324",
@@ -788,7 +822,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to Rs.4298.4 at 13.2% rate of simple interest after 7.5 years. What is the simple interest on same sum at 6.5 rate of interest after 2 years and 6 months?",
+    "question": "A sum amounts to Rs.4298.4 at 13.2% rate of interest after 2 years and 6 months?",
     "options": [
       "Rs. 351",
       "Rs. 297",
@@ -805,15 +839,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum becomes Rs. 11925 at 13% rate of  1 ",
+    "question": "A sum becomes Rs. 11925 at 13% rate of  1   2  11200 at _____% rate of simple interest in 4 years.  1 ",
     "options": [
-      "6  % ",
-      "5  % ",
-      "5  ",
-      "6  % "
+      "( 2 )/(6  % )",
+      "( 4 )/(5  % )",
+      "( 3 )/(5   %)",
+      "( 1 )/(6  % )"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6  % )"
+    "explanation": "Correct Answer: Option D | (( 1 )/(6  % ))"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q051",
@@ -822,7 +856,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The Simple interest at the end of 3 years on a sum of Rs 2000 is Rs 300. What will be the simple interest on Rs 6000 for the same period at the same rate ?",
+    "question": "The Simple interest at the end of 3 years on a sum of Rs 2000 is Rs 300. What will be the at the same rate ?",
     "options": [
       "Rs.600",
       "Rs.400",
@@ -839,7 +873,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The Simple interest at the end of 5.1 years on a sum of Rs 4500 is Rs 175. What will be the simple interest on Rs 9000 for the same period at the same rate ?",
+    "question": "The Simple interest at the end of 5.1 years on a sum of Rs 4500 is Rs 175. What will be the at the same rate ?",
     "options": [
       "Rs.650",
       "Rs.350",
@@ -873,7 +907,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The Simple interest",
+    "question": "The Simple interest in a certain time at 6.15% per annum on a sum of Rs 6000 is Rs 200 . What will be the simple interest on Rs 6000 for the same period at the triple rate ?",
     "options": [
       "Rs.100",
       "Rs.600",
@@ -890,7 +924,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "At a fixed simple interest rate, the amount of",
+    "question": "At a fixed simple interest rate, the amount of Rs 500 becomes Rs 600 in 2 years. If the rate of interest is halved, then what will be the amount of Rs 500 in 2 years",
     "options": [
       "Rs.500",
       "Rs.520",
@@ -958,15 +992,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The Simple interest at the end of t year at r% per annum on a sum of Rs P is R",
+    "question": "The Simple interest at the end of t year at r% per annum on a sum of Rs P is Rs 60 . What will be the simple interest on the same sum for 5t year at the r/3% rate ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.100",
+      "Rs.600",
+      "Rs.200",
+      "Rs.500"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (Rs.100)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q060",
@@ -975,7 +1009,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "What will be the simple interest on the same sum for 5t year at the r/3% rate ?",
+    "question": "The Simple interest at the end of t year at r% per annum on a sum of Rs P is Rs 80 . What will be the simple interest on double the sum for t/4 years at the 3r% rate ?",
     "options": [
       "Rs.160",
       "Rs.480",
@@ -997,10 +1031,61 @@
       "Rs.160",
       "Rs.480",
       "Rs.120",
-      "N.O."
+      "N.O.T"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (N.O.)"
+    "explanation": "Correct Answer: Option D | (N.O.T)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will the simple interest on a sum of money be equal to the principal at rate of 12.5 % p.a.?",
+    "options": [
+      "6",
+      "8",
+      "2",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will the simple interest on a sum of money be equal to the double of the principal at rate of 12.5 % p.a.?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will the simple interest on a sum of money be equal to the 5 time of principal at rate of 25 % p.a.?",
+    "options": [
+      "16",
+      "8",
+      "20",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q065",
@@ -1009,7 +1094,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If rate of interest increased by 14.28% and time decreased from 4.5 to 2.5 years then simple interest decreased by 920. Find the decreased S.I.",
+    "question": "If rate of interest increased by 14.28% and time decreased from 4.5 to 2.5 years then decreased S.I.",
     "options": [
       "Rs.1600",
       "Rs.1800",
@@ -1026,7 +1111,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs. 7700 amounts to Rs.9478 at",
+    "question": "A sum of Rs. 7700 amounts to Rs.9478 at (11.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,900 at the same rate for the same time?",
     "options": [
       "Rs.2286",
       "Rs.2686",
@@ -1043,7 +1128,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs.8,400 amounts to Rs.11,046 at",
+    "question": "A sum of Rs.8,400 amounts to Rs.11,046 at 8.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,600 at the same rate for the same time?",
     "options": [
       "Rs.3024",
       "Rs.2686",
@@ -1077,7 +1162,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "An amount becomes double",
+    "question": "An amount becomes double in 7 years on times in ____ years on the same rate of simple interest.",
     "options": [
       "14",
       "28",
@@ -1094,7 +1179,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum doubles",
+    "question": "A sum doubles in six years at simple interest. In how many years will the sum become ten times the original sum?",
     "options": [
       "27",
       "54",
@@ -1111,12 +1196,12 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum at simple interest becomes two times",
+    "question": "A sum at simple interest becomes two times in 8 years at a certain rate of interest p.a. The time in which the same sum will be 4 times at the same rate of interest at simple interest is :",
     "options": [
       "30 years",
       "25 years",
       "24 years",
-      "20 year"
+      "20 years"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (24 years) | Exam: SSC CHSL 21/10/ 2020 (Shift-02)"
@@ -1128,12 +1213,12 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money becomes three times",
+    "question": "A certain sum of money becomes three times of itself in 20 years at simple interest. In how many years does it become double of itself at the same rate of simple interest?",
     "options": [
       "8 years",
       "10 years",
       "12 years",
-      "14 year"
+      "14 years"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (10 years)"
@@ -1145,7 +1230,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money becomes 4 times",
+    "question": "A certain sum of money becomes 4 times in 12 years when invested at simple interest. In how many years will it become 10 times of itself at the same rate?",
     "options": [
       "60",
       "48",
@@ -1162,12 +1247,12 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "What is that rate of simple interest at which a sum of money becomes three times of itself",
+    "question": "What is that rate of simple interest at which a sum of money becomes three times of itself in 36 years?",
     "options": [
       "7.28 percent",
       "6.86 percent",
       "5.55 percent",
-      "6.28 percen"
+      "6.28 percent"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (5.55 percent) | Exam: SSC MTS 14/06/2023 (Shift-01)"
@@ -1179,7 +1264,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money becomes seven times itself when invested at a certain rate of simple",
+    "question": "A certain sum of money becomes seven times itself when invested at a certain rate of simple interest, in 14 years. How much time (in years, rounded off to 2 decimal places) will it take to become 18 times itself at the same rate?",
     "options": [
       "27.33",
       "39.67",
@@ -1196,7 +1281,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money becomes five times its",
+    "question": "A sum of money becomes five times its original value in 15 years when invested at a certain simple interest rate. If the sum was invested twice the time at the same rate of interest, what would be the final amount?",
     "options": [
       "The money becomes 7 times its original",
       "The money becomes 9 times its original",
@@ -1213,15 +1298,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If a sum of money at a certain rate of simple",
+    "question": "If a sum of money at a certain rate of simple interest per year doubles in 5 years and at a different rate of simple interest per year becomes three times in 12 years, the difference in the two rates of simple interest per years is:",
     "options": [
-      "2",
-      "3",
-      "3",
-      "4"
+      "2%/1",
+      "3%/1",
+      "(3 %)/3",
+      "(4 %)/3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
+    "explanation": "Correct Answer: Option C | ((3 %)/3)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q078",
@@ -1281,15 +1366,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If the ratio of principal and amount",
+    "question": "If the ratio of principal and amount in current year at simple interest is 9:17 and after 27.5 more years this ratio will become 15:43. Find the rate of simple interest?",
     "options": [
-      "3",
-      "4",
-      "3",
-      "3"
+      "5/(3 %)",
+      "4/(4 %)",
+      "1/(3 %)",
+      "3%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3)"
+    "explanation": "Correct Answer: Option A | (5/(3 %))"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q082",
@@ -1315,7 +1400,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money is given at a certain rate of simple interest for 6 years. Had it been given at 7% higher rate, it would have fetched",
+    "question": "A certain sum of money is given at a certain rate of simple interest for 6 years. Had it been given at 7% higher rate, it would have fetched Rs.1,512 more. Find the sum (in ?).",
     "options": [
       "Rs.3,200",
       "Rs.3,600",
@@ -1349,7 +1434,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If the annual rate of simple interest increase 1 from 11% to 17 % , a person's yearly 2 income increase by 1,071.20. The principal",
+    "question": "If the annual rate of simple interest increase 1 from 11% to 17 % , a person's yearly 2 income increase by 1,071.20. The principal amount invested (in `) is : 1",
     "options": [
       "` 17,250",
       "` 19,120",
@@ -1366,7 +1451,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If the annual rate of simple interest increase 1 from 11% to 17 % , a person's yearly income 2",
+    "question": "If the annual rate of simple interest increase 1 from 11% to 17 % , a person's yearly income 2 increase by 1,071.20. The simple interest (in `) on the sum at 10% for 5 years is : 1",
     "options": [
       "` 16,480",
       "` 9,120",
@@ -1383,7 +1468,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "` 8800 becomes `12000 at a certain rate of",
+    "question": "` 8800 becomes `12000 at a certain rate of interest in 4 years. If rate of interest would be 3% more, then find the amount at the end of 7 years.",
     "options": [
       "` 14,120",
       "` 15,456",
@@ -1400,7 +1485,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "` 1120 becomes ` 1792 at a certain rate of",
+    "question": "` 1120 becomes ` 1792 at a certain rate of would be 4 % less, then find the amount at the end of 10 years.",
     "options": [
       "` 1512",
       "` 1601.60",
@@ -1439,7 +1524,7 @@
       "` 1600",
       "` 1250",
       "` 2000",
-      "` 2400"
+      "` 2400 Munni Method"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (` 2000)"
@@ -1451,7 +1536,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money amounts to Rs.1,860 1",
+    "question": "A certain sum of money amounts to Rs.1,860 1 in 2 years and to Rs.2,130 in 3 years at 2 interest, respectively.",
     "options": [
       "Rs.1,500, 12",
       "Rs.1,200, 10",
@@ -1468,7 +1553,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum of money is lent out at simple",
+    "question": "A certain sum of money is lent out at simple interest. If that money becomes Rs.24,000 in 2 years and Rs.32,000 in 4 years, the annual rate of interest is:",
     "options": [
       "30",
       "16",
@@ -1485,15 +1570,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If a sum of money becomes Rs 6,000",
+    "question": "If a sum of money becomes Rs 6,000 in 3 years and Rs 10,500 in 7 years and 6 months at the same rate of simple interest, then what is the rate of interest?",
     "options": [
-      "33",
-      "25",
-      "45",
-      "66"
+      "1/(33 %)",
+      "1/(25 %)",
+      "2/(45 %)",
+      "1/(66 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (33) | Exam: SSC CHSL 07/08/2023 (Shift-04)"
+    "explanation": "Correct Answer: Option A | (1/(33 %)) | Exam: SSC CHSL 07/08/2023 (Shift-04)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q094",
@@ -1519,7 +1604,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money at a fixed rate of simple",
+    "question": "A sum of money at a fixed rate of simple interest amounts to `1,630 in 3 years and to `1,708 in 4 years. Find the sum (in `).",
     "options": [
       "1132",
       "1296",
@@ -1536,7 +1621,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to Rs.7,656",
+    "question": "A sum amounts to Rs.7,656 in 4 years and to Rs.8,120 in 5 years at a certain simple interest rate per cent per annum. The rate of interest is:",
     "options": [
       "4",
       "3",
@@ -1553,7 +1638,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money invested at a certain rate of simple interest per annum amounts to",
+    "question": "A sum of money invested at a certain rate of Rs.14,522 in seven years and to Rs.18,906 in eleven years. Find the sum invested (in Rs.).",
     "options": [
       "6850",
       "6900",
@@ -1570,7 +1655,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum at a certain rate of simple interest becomes Rs. 14880 after 3 years and Rs, 16800 after 5 years. Find the simple interest on the same sum at 10% per annum for 4",
+    "question": "A sum at a certain rate of simple interest becomes Rs. 14880 after 3 years and Rs, 16800 after 5 years. Find the simple interest on the same sum at 10% per annum for 4 years (in Rs.)",
     "options": [
       "4740",
       "4800",
@@ -1621,7 +1706,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "An amount of Rs.8,000 was invested for 2 years,",
+    "question": "An amount of Rs.8,000 was invested for 2 years, partly in scheme 1 at the rate of 5% simple interest per annum and the rest in scheme 2 at the rate of 4% simple interest per annum. The total interest received at the end was Rs.720. The amount of money invested in scheme 1 is:",
     "options": [
       "Rs.3,640",
       "Rs.7,200",
@@ -1638,7 +1723,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Rajesh invested `10,000 by dividing it into two different investment schemes, A and B, at simple interest rates of 8% and 10%,",
+    "question": "Rajesh invested `10,000 by dividing it into two different investment schemes, A and B, at simple interest rates of 8% and 10%, respectively. If the total interest earned in 2 years is `1,680, the amount invested in scheme A is:",
     "options": [
       "`4,000",
       "`2,000",
@@ -1655,7 +1740,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A man invests a total sum of Rs.10,000",
+    "question": "A man invests a total sum of Rs.10,000 in a company. A part of the sum was invested at 10% simple interest per annum and the remain- ing part at 15% simple interest per annum. If the total interest accrued to him in two years equals Rs.2,400, the sum invested at 15",
     "options": [
       "Rs.8,000",
       "Rs.4,000",
@@ -1672,7 +1757,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 15,600 is invested partly at 7% per annum and the remaining at 9% per annum simple interest. If the total interest at the end of 3 years is ` 3738, how much money was invested at 7% per annum?",
+    "question": "A sum of ` 15,600 is invested partly at 7% per annum and the remaining at 9% per annum of 3 years is ` 3738, how much money was invested at 7% per annum?",
     "options": [
       "` 7800",
       "` 7900",
@@ -1689,7 +1774,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A man has ` 10,000. He lent a part of it at 15% simple interest and the remaining at 10% simple interest. The total interest he received after 5 years amount to ` 6,500. The difference between the parts of the amounts he lent is :",
+    "question": "A man has ` 10,000. He lent a part of it at 15% simple interest and the remaining at 10% after 5 years amount to ` 6,500. The difference between the parts of the amounts he lent is :",
     "options": [
       "` 2,000",
       "` 2,500",
@@ -1706,7 +1791,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A man deposited ` 1850",
+    "question": "A man deposited ` 1850 in a bank at 7% per annum and ` 2150 in another bank at 9% per annum. Find the rate of interest for the whole sum:",
     "options": [
       "8.133",
       "8.075",
@@ -1791,7 +1876,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "The rate of simple interest for first two years is 8% p.a., for the next 4 years, it is 10% p.a. and for the period beyond 6 years, it is 12% p.a. If a person gets Rs 18358.60 as simple interest after 9 years, then how much money",
+    "question": "The rate of simple interest for first two years is 8% p.a., for the next 4 years, it is 10% p.a. and for the period beyond 6 years, it is 12% p.a. If a person gets Rs 18358.60 as simple interest after 9 years, then how much money (in Rs) did he invest?",
     "options": [
       "21075",
       "20087",
@@ -1808,7 +1893,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money earns a simple interest at 7.25% per annum for the first eight years, at 8.5% for the next six years, and at 6.5% for the final four years. If the total interest earned during these eighteen years was `35,100, what",
+    "question": "A sum of money earns a simple interest at 7.25% per annum for the first eight years, at 8.5% for the next six years, and at 6.5% for the final four years. If the total interest earned during these eighteen years was `35,100, what was the original sum invested (in `)?",
     "options": [
       "25,800",
       "25,500",
@@ -1825,15 +1910,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A person borrowed ` 1,200 at 8% p.a. and ` 1,800 at 10% p.a. as simple interest for the",
+    "question": "A person borrowed ` 1,200 at 8% p.a. and ` 1,800 at 10% p.a. as simple interest for the same period. He has to pay ` 1,380 in all as interest. Find the time period?",
     "options": [
       "4 years",
       "10 years",
       "6 years",
-      "5 year"
+      "5 years"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (5 year) | Exam: SSC CHSL 19/10/ 2020 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (5 years) | Exam: SSC CHSL 19/10/ 2020 (Shift-01)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q114",
@@ -1842,7 +1927,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A person deposits `500 for 2 years, `600 for 5 years and `1000 for 6 years at the same rate of simple interest. If he earns a simple interest of ` 1000, then what is the rate of interest per year?",
+    "question": "A person deposits `500 for 2 years, `600 for 5 years and `1000 for 6 years at the same rate of 1000, then what is the rate of interest per year?",
     "options": [
       "15",
       "5",
@@ -1859,7 +1944,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Ramesh has Rs.18,000. He deposited Rs.7,000",
+    "question": "Ramesh has Rs.18,000. He deposited Rs.7,000 in a bank at the rate of 5% per annum and Rs.6,000 in other bank at the rate of 6% per annum simple interest. If he received Rs.1,160 as simple interest at the end of one year, then the rate of interest per annum on rest of the capital is equal to:",
     "options": [
       "10",
       "11",
@@ -1876,12 +1961,12 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 10000 is invested",
+    "question": "A sum of ` 10000 is invested in three schemes of simple interest. The annual interest rates are respectively, 4%, 6% and 10%. ` 4000 were invested in the first scheme. If the total interest earned after five years is ` 2800, then how much money was invested in the third scheme?",
     "options": [
       "` 1500",
       "` 5000",
       "` 1000",
-      "` 3000"
+      "` 3000 Question Based on Concept of Average"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (` 1000) | Exam: SSC MTS 8/08/ 2019 (Shift-03)"
@@ -1910,12 +1995,12 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A person invested five-twelfth of total 2 principal at 9% per annum, part at 11% per 9 annum and remaining part at 16% per annum",
+    "question": "A person invested five-twelfth of total 2 principal at 9% per annum, part at 11% per 9 annum and remaining part at 16% per annum one year is ` 38790. Find the total investment. 5",
     "options": [
       "` 324000",
       "` 288000",
       "` 360000",
-      "` 252000"
+      "` 252000 1"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (` 324000)"
@@ -1927,7 +2012,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "of a certain sum is lent at 36 percent rate 6 1 of interest. of the remaining sum is lent at 5 42 percent rate of interest. The remaining sum is lent at 18 percent rate of interest. If the simple interest received on the total sum for 3 years is `1725, then what is the sum? 1",
+    "question": "of a certain sum is lent at 36 percent rate 6 1 of interest. of the remaining sum is lent at 5 42 percent rate of interest. The remaining sum is lent at 18 percent rate of interest. If the 3 years is `1725, then what is the sum? 1",
     "options": [
       "`2100",
       "`2400",
@@ -1995,7 +2080,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A person invested a total of ` 9,000",
+    "question": "A person invested a total of ` 9,000 in three parts at 3%, 4% and 6% per annum on simple interest. At the end of a year, he received equal interest in all three cases. The amount invested at 6% is",
     "options": [
       "` 2,000",
       "` 3,000",
@@ -2012,7 +2097,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of `27,000 is divided into two parts A and B Such that the simple interest at the rate of 15% per annum on A and B after two years and four years respectively, is equal. The total",
+    "question": "A sum of `27,000 is divided into two parts A and B Such that the simple interest at the rate of 15% per annum on A and B after two years and four years respectively, is equal. The total interest (in `) received together from A and B is.",
     "options": [
       "` 5,400",
       "` 9,600",
@@ -2046,7 +2131,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs.5,000 is divided into two parts such that the simple interest on the first part 1 2 for 4 years at 6 % p.a. is double the 5 3 3 simple interest on the second part for 2 4 years at 4% p.a. The ratio of the second part to the first part is:",
+    "question": "A sum of Rs.5,000 is divided into two parts such that the simple interest on the first part 1 2 for 4 years at 6 % p.a. is double the 5 3 3 4 years at 4% p.a. The ratio of the second part to the first part is:",
     "options": [
       "11 : 14",
       "11 : 13",
@@ -2063,7 +2148,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs.50,250 is divided into two parts such that the simple interest on the first part 1 1 5 for 7 years at 8 % p.a. is times the 2 3 2 1 simple interest on the second part for 5 4",
+    "question": "A sum of Rs.50,250 is divided into two parts such that the simple interest on the first part 1 1 5 for 7 years at 8 % p.a. is times the 2 3 2 1 4 years at 8% p.a. What is the difference (in Rs.) between the two parts?",
     "options": [
       "10,275",
       "12,750",
@@ -2085,7 +2170,7 @@
       "` 680",
       "` 600",
       "` 560",
-      "` 620"
+      "` 620 Concept of Equal Amount"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (` 600) | Exam: SSC CGL TIER-II 11/09/ 2019"
@@ -2097,7 +2182,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If the amount obtained by A by investing Rs 9,100 for three years at a rate of 10% p.a. on simple interest is equal to the amount obtained by B by investing a certain sum of money for five years at a rate of 8% p.a. on simple interest, then 90% of the sum invested",
+    "question": "If the amount obtained by A by investing Rs 9,100 for three years at a rate of 10% p.a. on obtained by B by investing a certain sum of money for five years at a rate of 8% p.a. on by B (in Rs) is:",
     "options": [
       "7,800",
       "7,605",
@@ -2114,7 +2199,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "` 21750 is invested by a person",
+    "question": "` 21750 is invested by a person in the bank account of his two sons whose ages are 9 years and 13 years in such a way that they will get equal amount at an age of 21 years at the rate of 4.5% per annum. Find the share of younger child.",
     "options": [
       "` 10,200",
       "` 11,550",
@@ -2136,7 +2221,7 @@
       "` 9,150",
       "` 8,280",
       "` 8,250",
-      "` 8,400"
+      "` 8,400 Miscellaneous Questions"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (` 8,280)"
@@ -2165,7 +2250,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "An amount of ` 12,000 was borrowed at a certain rate of simple interest. After four months, ` 6,000 more was borrowed and rate of interest on the total principal was doubled than that of the previous rate. At the end of the year, 2800 was paid as the interest. find",
+    "question": "An amount of ` 12,000 was borrowed at a certain rate of simple interest. After four months, ` 6,000 more was borrowed and rate of interest on the total principal was doubled than that of the previous rate. At the end of the year, 2800 was paid as the interest. find the rate that was applicable in the initial.",
     "options": [
       "14",
       "16",
@@ -2216,7 +2301,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to ` 14,395.20 at 9.25% p.a.",
+    "question": "A sum amounts to ` 14,395.20 at 9.25% p.a. in 4.5 years?",
     "options": [
       "` 3715.20",
       "` 3627",
@@ -2233,7 +2318,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A money-lender claims he lends money at a simple interest at rate of 8% per annum. But",
+    "question": "A money-lender claims he lends money at a he cleverly includes the interest amount in the pricipal when he calculates it every six months. The effective rate of interest becomes:",
     "options": [
       "8.16",
       "8.2",
@@ -2242,6 +2327,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (8.16) | Exam: SSC CHSL 09/08/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q138",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In what time will Rs.10,000 at 4% per annum, produce the same interest as Rs.8,000 does in 4 years at 5% simple interest?",
+    "options": [
+      "5 years",
+      "3 years",
+      "4 years",
+      "6 years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4 years) | Exam: SSC CGL 14/07/2023 (Shift-1)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q139",
@@ -2255,7 +2357,7 @@
       "11 years",
       "9 years",
       "12 years",
-      "10 year"
+      "10 years"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (11 years) | Exam: SSC CGL 24/07/2023 (Shift-2)"
@@ -2267,7 +2369,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "On simple interest, a certain sum becomes Rs.",
+    "question": "On simple interest, a certain sum becomes Rs. 59,200 in 6 years and Rs. 72,000 in 10 years. If the rate of interest had been. 2% more, then in how many years would the sum have become Rs. 76,000?",
     "options": [
       "10",
       "9",
@@ -2284,7 +2386,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum on simple interest becomes Rs.",
+    "question": "A certain sum on simple interest becomes Rs. 49,600 in 3 years and Rs. 56,000 in 5 years. If the rate of interest had been 2% more, then in how many years would the sum have doubled?",
     "options": [
       "10",
       "8",
@@ -2301,7 +2403,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Two equal sums were lent on simple interest at 6% and 10% per annum respectively. The first sum was recovered two years later than",
+    "question": "Two equal sums were lent on simple interest at 6% and 10% per annum respectively. The first sum was recovered two years later than the second sum and the amount in each case was Rs.1105. What was the sum (in Rs) lent in each scheme?",
     "options": [
       "900",
       "850",
@@ -2318,7 +2420,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money was lent",
+    "question": "A sum of money was lent in two parts in the ratio 4 : 5 for 4 years and 5 years respectively, both at the rate of 8% per annum simple interest. If the difference between the interests earned from the two parts is Rs 4680, then what was the total sum lent (in Rs ) ?",
     "options": [
       "58,500",
       "46,800",
@@ -2335,9 +2437,9 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to Rs 81840",
+    "question": "A certain sum amounts to Rs 81840 in 3 years and to Rs 92400 in 5 years at x% p.a. under (x+2)%, then in how many years will the same sum double itself ?",
     "options": [
-      "12 2",
+      "1 2/2",
       "8",
       "10",
       "20"
@@ -2352,7 +2454,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to Rs15,748",
+    "question": "A certain sum amounts to Rs15,748 in 3 years at r % p.a. simple interest. The same sum amounts to Rs 16,510 at (r + 2) % p.a. simple interest in the same time. What is the value of r?",
     "options": [
       "8",
       "9.5",
@@ -2369,15 +2471,32 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "If `32,000 is invested at a simple interest rate of 5% per annum and the interest is added to",
+    "question": "If `32,000 is invested at a simple interest rate of 5% per annum and the interest is added to the principal after 10 years. then in how many years will it amount to `64,000 at the same rate of interest?",
     "options": [
-      "18 years",
-      "16 years",
-      "16 years",
-      "18 years"
+      "2/(18 years)",
+      "1/(16 years)",
+      "2/(16 years)",
+      "1/(18 years)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (16 years) | Exam: SSC CHSL 14/08/2023 (Shift-1)"
+    "explanation": "Correct Answer: Option C | (2/(16 years)) | Exam: SSC CHSL 14/08/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_classroom_sheet_q147",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
+    "question": "In 't' years, the simple interest earned on a cer- tain amount at the rate of 10% per annum is 5 th of the principle amount. If the rate of 8 interest is made three-fourth of 10% and the",
+    "options": [
+      "It remains the same as 't'.",
+      "It becomes three-fourth of the time 't'. 1",
+      "It increases to 8 years. 3 1",
+      "It decreases to 5 years."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (It increases to 8 years. 3 1) | Exam: mains the same, which of the"
   },
   {
     "id": "rkr_simple_interest_simple_interest_classroom_sheet_q148",
@@ -2386,7 +2505,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "A borrows `20,000 from B and C. B lends him a certain sum of money at 25% simple interest per annum, while C lends him the remaining sum of money at 21% simple interest per",
+    "question": "A borrows `20,000 from B and C. B lends him a certain sum of money at 25% simple interest per annum, while C lends him the remaining sum of money at 21% simple interest per annum. The total interest paid by A in one year is `4,500. The sum (in `) borrowed from B is:",
     "options": [
       "12,500",
       "6,000",
@@ -2403,7 +2522,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "S borrowed some amount from R and promised to pay him 8% interest. Then S invested the",
+    "question": "S borrowed some amount from R and promised to pay him 8% interest. Then S invested the borrowed amount in a scheme, upon which he earned a profit of 5% after paying R, the principal amount with interest. How much percentage R would have gained, if he would have invested in the scheme directly?",
     "options": [
       "13.4",
       "13",
@@ -2420,7 +2539,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Mohan borrows a sum of Rs.4,22,092 at the rate of 20% per annum simple interest. At the end of the first year, he repays Rs.21,679 towards return of principal amount borrowed. If Mohan clears all pending dues at the end of the second year, including interest payment that accrued",
+    "question": "Mohan borrows a sum of Rs.4,22,092 at the rate of 20% per annum simple interest. At the end of the first year, he repays Rs.21,679 towards return of principal amount borrowed. If Mohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in Rs.) at the end of the second year?",
     "options": [
       "5,56,367",
       "5,58,380",
@@ -2437,7 +2556,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Sohan borrows a sum of Rs.1,41,545 at the rate of 11% per annum simple interest. At the end of the first year, he repays Rs.25,490 towards return of principal amount borrowed. If Sohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay",
+    "question": "Sohan borrows a sum of Rs.1,41,545 at the rate of 11% per annum simple interest. At the end of the first year, he repays Rs.25,490 towards return of principal amount borrowed. If Sohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in Rs.) at the end of the second year?",
     "options": [
       "1,44,391",
       "1,36,453",
@@ -2454,7 +2573,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Simple Interest (ClassRoom Sheet).pdf",
-    "question": "Mr. Ram invests an amount of Rs. 12200 at the rate of 2% per annum for 4 years to obtain a simple interest. Later he invests the principal amount as well as the amount obtained as simple interest for another 4 years at the same rate of interest. What amount of simple interest will he get at the end of the last 4 years?",
+    "question": "Mr. Ram invests an amount of Rs. 12200 at the rate of 2% per annum for 4 years to obtain a simple interest. Later he invests the principal amount as well as the amount obtained as simple interest for another 4 years at the same rate of interest. What amount of last 4 years?",
     "options": [
       "Rs. 1054.00",
       "Rs. 1056.07",
@@ -2478,7 +2597,7 @@
       "Rs.700",
       "Rs.650"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.600) | Exam: NTPC CBT-02 16/06/2022 (Shift-03)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.650) | Exam: NTPC CBT-02 16/06/2022 (Shift-03)"
   }
 ]

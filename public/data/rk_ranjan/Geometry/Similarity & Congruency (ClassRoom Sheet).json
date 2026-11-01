@@ -8,13 +8,30 @@
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
     "question": "Which of the following is not a criterion of congruent triangles?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Side–Angle–Side",
+      "Angle-Angle-Angle",
+      "Angle-Side-Angle",
+      "Side-Side-Side"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (Angle-Angle-Angle) | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC and DEF, A = 55º, AB = DE, AC = DF, E = 85º and F = 40º. By which property are ABC and DEF congruent?",
+    "options": [
+      "SAS property",
+      "ASA property",
+      "RHS property",
+      "SSS property"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (SAS property) | Exam: SSC CGL 08/12/2022 (Shift- 02)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q003",
@@ -28,10 +45,44 @@
       "These have two equal sides and the same perimeter.",
       "These have the same area and the same base.",
       "One side and one angle of both triangles are unequal.",
-      "These have the same base and the same height."
+      "These have the same base and the same"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (These have two equal sides and the same perimeter.) | Exam: SSC CGL 09/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC and PQR, AB = 7m, BC = 8 m, AC = 9 m, PQ = 7 m, QR = 8 m and PR = 9 m. Which of the following is true for these triangles?",
+    "options": [
+      "ABC  QRP",
+      "ABC  RQP",
+      "CBA  PQR",
+      "ABC  PQR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (ABC  PQR) | Exam: SSC Phase XII 21/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In a PQR and ABC, P = A and AC = PR. Which of the following conditions is true for triangle PQR and ABC to be congruent?",
+    "options": [
+      "AB = PQ by SAS",
+      "AB = PQ by SSS",
+      "BC = QR by ASS",
+      "Q = B by AAA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (AB = PQ by SAS) | Exam: SSC CPO 03/10/2023 (Shift-03)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q006",
@@ -57,7 +108,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "If ABC  PQR and ABC = (x + 60)º, PQR = (85 – 4x)º, and RPQ = (3x + 65)º, then the",
+    "question": "If ABC  PQR and ABC = (x + 60)º, PQR = (85 – 4x)º, and RPQ = (3x + 65)º, then the value of ABC in degree is:",
     "options": [
       "15",
       "5",
@@ -102,6 +153,23 @@
     "explanation": "Correct Answer: Option A | (35°) | Exam: SSC CHSL 09/07/2024 (Shift-3)"
   },
   {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In the given figure, if KI = IT and EK = ET, then TEI = ____.",
+    "options": [
+      "75º",
+      "125º",
+      "105º",
+      "150º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (105º) | Exam: SSC CGL 13/12/2022 (Shift-04)"
+  },
+  {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q011",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -117,6 +185,57 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1.5 cm)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and E are points on the sides AB and AC, respectively. If ABC =EDA, AD = 3 cm, EC = 3x cm, DB = 5 cm and AE = (2x – 1) cm, find the possible value of x.",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC the straight line parallel to the side BC meets AB and AC at the points P and Q, respectively. If AP = QC, the length of AB is 12 cm and the length of AQ is 2 cm, then the length (in cm) of CQ is:",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4) | Exam: SSC CHSL 02/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC",
+    "options": [
+      "5.2",
+      "4.0",
+      "4.5",
+      "4.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4.5) | Exam: SSC CHSL 11/07/2024 (Shift-4)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q015",
@@ -136,13 +255,64 @@
     "explanation": "Correct Answer: Option A | (3.67 cm) | Exam: SSC CPO 03/10/2023 (Shift-02)"
   },
   {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In a LMN, OP is a line segment drawn parallel to the side MN. OP intersects the sides LM and LN at O and P, respectively. If LM = 15 cm, OM = 4 cm, and PN = 5 cm, then what is the length (in cm) of the side LN?",
+    "options": [
+      "20.25",
+      "16.25",
+      "18.75",
+      "22.75"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18.75) | Exam: SSC CPO 04/10/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, a straight line parallel to the side BC meets AB and AC at the points P and Q, respectively. If AP = QC, the length of AB is 16 cm and the length of AQ is 4 cm, then the length of (in cm) CQ is:",
+    "options": [
+      "2 21  2",
+      "2 18  2",
+      "2 17  2",
+      "2 19  2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 17  2) | Exam: SSC CHSL 02/08/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, DE || BC, where D is a point on AB and E is a point on AC. If DE divides the area of ABC into two equal parts, then DB:AB is equal to:",
+    "options": [
+      "2 : 3",
+      "2 : 2  1",
+      "2  1 : 2",
+      "2 – 1 : 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 – 1 : 2) | Exam: SSC CGL 20/07/2023 (Shift-04)"
+  },
+  {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q019",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "If the areas of two similar triangles are",
+    "question": "If the areas of two similar triangles are in the ratio 196 : 625, what would be the ratio of the corresponding sides?",
     "options": [
       "14 : 25",
       "13 : 20",
@@ -193,7 +363,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "Two similar triangles are ABC and LMN. If the area of ABC = 25cm2, area of LMN = 36cm2 and BC = 2.5 cm, then the measure of",
+    "question": "Two similar triangles are ABC and LMN. If the area of ABC = 25cm2, area of LMN = 36cm2 and BC = 2.5 cm, then the measure of MN (in cm) is:",
     "options": [
       "1",
       "4",
@@ -210,7 +380,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "The areas of two similar triangles PQR and XYZ are 12.96 cm2 and 635.04 cm2 , respectively. If QR = 2.9 cm, then the length",
+    "question": "The areas of two similar triangles PQR and XYZ are 12.96 cm2 and 635.04 cm2 , respectively. If QR = 2.9 cm, then the length (in cm) of YZ equals:",
     "options": [
       "30.4",
       "20.3",
@@ -221,13 +391,98 @@
     "explanation": "Correct Answer: Option B | (20.3) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
   },
   {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In RST, M and N are two points on RS and RT such that MN is parallel to the base ST of 1 the RST. If RM  MS, and ST = 5.6 cm, 3 what is the ratio of Area of Triangle RMN ? Area of Trapezium MNTS",
+    "options": [
+      "14/15",
+      "15/16",
+      "1/15",
+      "1/16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1/15) | Exam: SSC CHSL 04/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, DE || AC, where D and E are the points on sides AB and BC, respectively. If BD = 8 cm and AD = 7 cm, then what is the ratio of the area of BDE to the trapezium ADEC?",
+    "options": [
+      "161 : 64",
+      "65 : 162",
+      "64 : 161",
+      "162 : 65"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (64 : 161) | Exam: RRB JE 18/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, MN||BC, the area of quadrilateral MBCN = 130 cm2. If AN : NC = 4 : 5, then the area of MAN is :",
+    "options": [
+      "40 cm2",
+      "45 cm2",
+      "65 cm2",
+      "32 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (32 cm2) | Exam: SSC CGL 03/03/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and E are the points on the side AB and BC respectively, such that AD : DB = 2 : 3 and DE || AC. If the area of ADE is equal to 18 square cm, then what is the area (in square cm) of ABC ?",
+    "options": [
+      "40.5",
+      "75",
+      "54",
+      "45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (75) | Exam: SSC CHSL 03/07/2019 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and E are mid-points of AB and AC respectively. If DE = 6 cm, find the BC – DE.",
+    "options": [
+      "2 cm",
+      "6 cm",
+      "3 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 cm)"
+  },
+  {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q029",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "The mid points of AB and AC and Y, respectively. If BC + XY the value of BC – XY is:",
+    "question": "The mid points of AB and AC of a ABC are X and Y, respectively. If BC + XY = 18 units, then the value of BC – XY is:",
     "options": [
       "12 cm",
       "6 cm",
@@ -235,7 +490,41 @@
       "4 cm"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (6 cm) | Exam: SSC CGL 19/07/2023"
+    "explanation": "Correct Answer: Option B | (6 cm) | Exam: SSC CGL 19/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In XYZ, L and M are the middle points of the sides XY and XZ, respectively. N is a point on the segment LM such that LN : NM = 1 : 2. If LN = 5 cm, then YZ is equal to:",
+    "options": [
+      "30 cm",
+      "24 cm",
+      "28 cm",
+      "26 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30 cm) | Exam: SSC CHSL 14/08/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, P and Q are the middle points of the sides AB and AC, respectively. R is a point on the segment PQ such that PR : RQ = 1 : 4. If PR = 5 cm, then BC = ?",
+    "options": [
+      "46 cm",
+      "50 cm",
+      "48 cm",
+      "44 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50 cm) | Exam: SSC Phase XI 27/06/2023 (Shift-03)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q032",
@@ -244,15 +533,32 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "D and E are mid-points of the AC of ABC respectively. If area cm2, the area of ABC is :",
+    "question": "D and E are mid-points of the sides AB and AC of ABC respectively. If area of ADE is 8 cm2, the area of ABC is :",
     "options": [
       "16 cm2",
-      "32",
+      "32 cm2",
       "24 cm2",
-      "64"
+      "64 cm2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (32)"
+    "explanation": "Correct Answer: Option B | (32 cm2)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC and DEF, we have   , DF DE EF then which of the following is true? AB BC AC",
+    "options": [
+      "DEF ~ BCA",
+      "BCA ~ DEF",
+      "CAB ~ DEF",
+      "DEF ~ BAC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (DEF ~ BCA) | Exam: SSC CGL 24/08/2021 (Shift-02)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q034",
@@ -289,6 +595,125 @@
     "explanation": "Correct Answer: Option A | (12 cm) | Exam: SSC CHSL 07/06/2022 (Shift 01)"
   },
   {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, AB = 20 cm, BC = 7 cm and CA = 15 cm. Side BC is produced to D such that DAB ~ DCA. DC is equal to:",
+    "options": [
+      "9 cm",
+      "8 cm",
+      "10 cm",
+      "7 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9 cm) | Exam: SSC CGL MAINS (03/02/2022)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and E are the points on the side AC and AB respectively such that ADE = B. If AE = 8 cm, CD = 3 cm, DE = 6 cm and BC = 9 cm, then AD is equal to :",
+    "options": [
+      "8 cm",
+      "6 cm",
+      "9 cm",
+      "7.5 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9 cm) | Exam: SSC CHSL 03/07/2019 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In PQR, Q = 85º and R = 65º. Points S and T are on the sides PQ and PR respectively such that STR = 95º, then the ratio of QR and ST is 9 : 5. If PQ = 21.6 cm, then the length of PT is :",
+    "options": [
+      "10.5 cm",
+      "9.6 cm",
+      "12 cm",
+      "9 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12 cm) | Exam: SSC CGL 04/03/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, B = 87° and C = 60°. Points D and E are on the sides AB and AC, respectively, such that DEC = 93° and DE : BC = 5 : 9. If AB = 14.4 cm, then the length of AE is:",
+    "options": [
+      "7.2 cm",
+      "9 cm",
+      "8 cm",
+      "8.4 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 cm) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D is point on side BC such that ADC = BAC. If CA = 12 cm, CD = 8 cm, then CB (in cm) = ?",
+    "options": [
+      "18",
+      "12",
+      "15",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18) | Exam: SSC CGL 13/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D is a points on side BC such that ADC = BAC. If CA = 12 cm and CB = 8 cm then CD is equal to :",
+    "options": [
+      "12 cm",
+      "15 cm",
+      "18 cm",
+      "16 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18 cm) | Exam: SSC CGL Tier-II (11//09/2019)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, AC = 8.4 cm, BC = 14 cm. P is a point on AB such that CP = 11.2 cm and ACP = B. What is the length (in cm) of BP?",
+    "options": [
+      "4.12",
+      "2.8",
+      "3.78",
+      "3.6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3.78) | Exam: SSC CGL 04/03/2020 (Shift- 03)"
+  },
+  {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q043",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -306,6 +731,40 @@
     "explanation": "Correct Answer: Option C | (19) | Exam: SSC CGL 2019 Tier-II (16/11/2020)"
   },
   {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, point D lies on AB, and points E and F lies on BC such that DF is parallel to AC and DE is parallel to AF. If BE = 4 cm, CF = 3 cm, then find the length (in cm) of EF.",
+    "options": [
+      "3",
+      "1.5",
+      "5",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CGL 16/08/2021 (Shift - 02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, a point D lies on AB and points E and F lie on BC such that DF is parallel to AC and DE is parallel to AF. If BE = 4 cm, EF = 6 cm, then find the length (in cm) of BC.",
+    "options": [
+      "25",
+      "30",
+      "15",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25) | Exam: SSC CGL 17/08/2021 (Shift- 01)"
+  },
+  {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q046",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -321,6 +780,74 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (70º)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, AD  BC and BE  AC, AD and BE intersect each other at F. If BF = AC, then the measure of ABC is :",
+    "options": [
+      "45º",
+      "60º",
+      "70º",
+      "50º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (45º) | Exam: SSC CGL 04/06/2019 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, AB = BC and ACB = 50º. D is a point on AC such that AD = BD. E is a point on BD such that BE = CD. Find EAD.",
+    "options": [
+      "30º",
+      "20º",
+      "50º",
+      "25º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20º)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and E are points on the sides BC and AB, respectively, such that ACB = DEB. If AB = 12 cm, BE = 5 cm and BD : CD = 1:2, then BC is equal to:",
+    "options": [
+      "8 3 cm",
+      "5 5 cm",
+      "6 5 cm",
+      "6 3 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6 5 cm) | Exam: SSC CGL MAINS (03/02/2022)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ACD, B and E are two points on side AC and AD respectively, such that BE is parallel to CD. CD = 9 cm, BE = 6 cm, AB = 5 cm and ED = 2 cm. What are the measures of the length (in cm) of AE and BC?",
+    "options": [
+      "4, 2.5",
+      "3, 4",
+      "4, 3",
+      "2.5, 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2.5, 4) | Exam: SSC CGL 11/04/2022 (Shift- 03)"
   },
   {
     "id": "rkr_geometry_similarity_congruency_classroom_sheet_q051",
@@ -346,7 +873,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "AD is perpendicular to the internal bisector of ABC of ABC. DE is drawn through D and parallel to BC to meet AC at E. If the length of",
+    "question": "AD is perpendicular to the internal bisector of ABC of ABC. DE is drawn through D and parallel to BC to meet AC at E. If the length of AC is 12 cm, then the length of AE (in cm) is :",
     "options": [
       "3",
       "6",
@@ -363,7 +890,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
-    "question": "O is a point",
+    "question": "O is a point in the interior of PQR such POQ = QOR = ROP, PQR = 60° and OP = 16 cm and OR = 12 cm. What is the length of OQ (in cm)?",
     "options": [
       "83",
       "86",
@@ -372,5 +899,124 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (86)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In PQR, PQ = QR and O is an interior point of PQR such that OPR = ORP.",
+    "options": [
+      "Only (i) and (ii)",
+      "Only (i) and (iii)",
+      "Only (ii) and (iii)",
+      "Only (ii)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Only (i) and (iii)) | Exam: SSC CGL TIER - II 02/03/2023"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D and F are the middle points of the sides AB and AC, respectively. E is a point on the segment DF such that DE: EF = 1 : 2. If DE = 4 cm, then BC is equal to:",
+    "options": [
+      "20 cm",
+      "26 cm",
+      "22 cm",
+      "24 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24 cm) | Exam: SSC PHASE XI 27/06/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In triangle ABC, P and Q are the mid points of AB and AC, respectively. R is a point on PQ such that PR : RQ = 3 : 5 and QR = 20 cm, then what is the length (in cm) of BC?",
+    "options": [
+      "24",
+      "40",
+      "64",
+      "66.66"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (64)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In triangle ABC, D is a point on the side BC such that BD : DC = 3 : 2 and E is a point on side AC such that CE : EA = 2 : 3. If BE intersects AD at O, then what is the AO : OD?",
+    "options": [
+      "3 : 4",
+      "5 : 2",
+      "3 : 5",
+      "3 : 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 : 2)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, E is mid-point of BC while F is mid point of AE and BF meets AC at D as shown. If area of ABC = 48, find area of AFD.",
+    "options": [
+      "16",
+      "12",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, if E divides AE in the ratio 3 : 1 and F divides BC in the ratio 3 : 2 then find the ratio of the area of BEF and ABC.",
+    "options": [
+      "1 : 9",
+      "9 : 4",
+      "4 : 9",
+      "3 : 20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 : 20)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "In ABC, D is the mid point of BC. E is a point on AC and F is a point on AB. Given, AE : EC = 2 : 1 and AF : FB = 3 : 1. Line segment AD and FE intersect at point O. What is the ratio of the area of DOF to the area of DOE.",
+    "options": [
+      "2 : 1",
+      "7 : 5",
+      "7 : 3",
+      "9 : 8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9 : 8)"
   }
 ]

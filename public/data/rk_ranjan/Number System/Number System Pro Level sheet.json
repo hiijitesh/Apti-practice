@@ -6,7 +6,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following",
+    "question": "Consider the following in respect of prime number p and composite number c.",
     "options": [
       "Option A",
       "Option B",
@@ -42,13 +42,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "pc can be odd./pc fo\"ke gks ldrk",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "2. The sum of three prime numbers is 90. If one of them exceeds another by 30, then one of the number is:"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (6) | Solution: An + 1 is always an even number. An + 1 ges'kk ,d le Which of the above statements is/are correct mi;qZDr dFku lgh (a) 1 only/dsoy 1 (b) 2 only/dsoy 2 (c) 3 only/dsoy 3 (d) 2 and 3 only/dsoy 2 3 SOLUTIONS"
+    "explanation": "Correct Answer: Option A | (1 and 2 only) | Solution: An + 1 is always an even number. An + 1 ges'kk ,d le Which of the above statements is/are correct mi;qZDr dFku lgh (a) 1 only/dsoy 1 (b) 2 only/dsoy 2 (c) 3 only/dsoy 3 (d) 2 and 3 only/dsoy 2 3 SOLUTIONS"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q004",
@@ -57,7 +57,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the number of fives used",
+    "question": "What is the number of fives used in numbering a 260- page book?",
     "options": [
       "55",
       "56",
@@ -113,7 +113,7 @@
       "I and II",
       "I and III",
       "II and III",
-      "I, II and II"
+      "I, II and III"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (I and II)"
@@ -142,7 +142,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the highest power of 4",
+    "question": "Find the highest power of 4 in 4",
     "options": [
       "32",
       "33",
@@ -244,11 +244,11 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Which one of the following is correct",
+    "question": "Which one of the following is correct in respect of the Statements given below?",
     "options": [
       "None of the three statements (1, 2, 3) given is true.",
-      "Statements 1 and 2 are true, but Statement 3 is",
-      "Statements 1 and 3 are true, but Statement 2 is",
+      "Statements 1 and 2 are true, but Statement 3 is false.",
+      "Statements 1 and 3 are true, but Statement 2 is false.",
       "All the three statements given above are true."
     ],
     "correctAnswer": 3,
@@ -278,7 +278,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements",
+    "question": "Consider the following statements in respect of all factors of 360:",
     "options": [
       "Option A",
       "Option B",
@@ -368,10 +368,10 @@
       "2 Only",
       "74 Only",
       "111 Only",
-      "All of thes"
+      "All of these"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (All of thes)"
+    "explanation": "Correct Answer: Option D | (All of these)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q023",
@@ -470,7 +470,7 @@
       "Only 1/dsoy 1",
       "Only 2/dsoy 2",
       "Both 1 and 2/1 dsoy 2 nksuksa",
-      "Neither 1 nor 2/u rks 1, u gh 2"
+      "Neither 1 nor 2"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Both 1 and 2/1 dsoy 2 nksuksa)"
@@ -482,7 +482,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "When 860, 1712 and 3203 are divided by a two-digit",
+    "question": "When 860, 1712 and 3203 are divided by a two-digit number x, then the remainder in each case is y. If",
     "options": [
       "12",
       "10",
@@ -635,7 +635,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let x be the least number of 5 digits, which when",
+    "question": "Let x be the least number of 5 digits, which when divided by 28, 40, 42 and 48, leaves remainder 6 in each case and x is divisible by 246. What is the sum of the digits of x?",
     "options": [
       "13",
       "12",
@@ -652,15 +652,15 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Calculate number of trailing zeros",
+    "question": "Calculate number of trailing zeros in the following 1010 + 1020 + 1030 + 1040 + 1050",
     "options": [
-      "50 zero",
-      "30 zero",
-      "20 zero",
-      "10 zer"
+      "(1010 + 1020 +)/(50 zero)",
+      "(1030 + 1040 + 1050)/(30 zero)",
+      "(a) 50 zero/(20 zero)",
+      "(b) 30 zero/(10 zero)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10 zer)"
+    "explanation": "Correct Answer: Option D | ((b) 30 zero/(10 zero))"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q040",
@@ -737,7 +737,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Calculate number of trailing zeros",
+    "question": "Calculate number of trailing zeros in the following",
     "options": [
       "1050",
       "1200",
@@ -759,7 +759,7 @@
       "y < x < z",
       "z < x < y",
       "z < y < z",
-      "x < y <"
+      "x < y < z"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (z < x < y)"
@@ -810,7 +810,7 @@
       "9,36,000",
       "9,360",
       "9,3600",
-      "No"
+      "Not"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (9,36,000)"
@@ -926,30 +926,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "If x is the remainder when 361284 is divided by 5 and y is the remainder when 496 is divided by 6. What is the value of (2x – y)?",
     "options": [
-      "–3",
-      "–2",
-      "0",
-      "2"
+      "1",
+      "2",
+      "2",
+      "6 58. What is the remainder when 2p – 1 is divided by p, where p > 5 is a prime number?"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (–2)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q056",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "The sum of all possible products taken two at a time out of the nubers ± 1, ± 2, ± 3, ± 4, ± 5 is",
-    "options": [
-      "0",
-      "–30",
-      "–55",
-      "55"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–55)"
+    "explanation": "Correct Answer: Option B | (2)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q057",
@@ -958,321 +941,15 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let p be the remainder when 784 is divided by 342 and q be the remainder when 784 is divided by 344. What is (p – q) equal to ?",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "6"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q058",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the remainder when 2p – 1 is divided by p, where p > 5 is a prime number?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q059",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If a 9-digit number 9834x97y4 is divisible by 88, then what is the maximum possible value of (3x + 2y)",
-    "options": [
-      "31",
-      "27",
-      "34",
-      "37"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (34)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q060",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the remainder when (37)47 is divided by 19?",
-    "options": [
-      "18",
-      "17",
-      "1",
-      "0"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (18)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q061",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "There are two natural numbers m and n (m > n). When m is divided by 12, it leaves a remainder 4. When n is divided by 12, it leaves a remainder 6.",
-    "options": [
-      "I only",
-      "II only",
-      "Both I and II",
-      "Neither I nor I"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Both I and II)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q062",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "The quotient when x4 – x2 + 7x + 5 is divided by (x + 2) is ax3 + bx² + cx + d. What are the values of a, b, c and d respectively?",
-    "options": [
-      "1, –2, 3, 1",
-      "–1, 2, 3, 1",
-      "1, –2, –3, –1",
-      "–1, 2, –3, –1"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1, –2, 3, 1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q063",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Given that N =  33 34  35 . What will be the remainder when N is divided by 7.",
-    "options": [
-      "2",
-      "4",
-      "0",
-      "1"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q064",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements:",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q065",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "A number when divided by a divisor, leaves a remainder of 29. Thrice the number, when divided by the same divisor, gives remainder 7. Find the divisor. If it is less than 50?",
-    "options": [
-      "60",
-      "40",
-      "80",
-      "20"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (40)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q066",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If I = a2 + b2 + c2, where a and b are consecutive integers and c = ab, then I is",
-    "options": [
-      "an even number and it is not a square of an integer",
-      "an odd number and it is not a square of an integer",
-      "square of an even integer",
-      "square of an odd integer"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (square of an odd integer)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q067",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the number of trailing zeroes",
-    "options": [
-      "18",
-      "21",
-      "22",
-      "17"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (18)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q068",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "How many pairs (A, B) are possible",
-    "options": [
-      "5",
-      "6",
-      "9",
-      "11"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q069",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find number of zeroes (832 – 831 – 830)(736 – 734 – 732)",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q070",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the number of factors of 243 – 163 – 83?",
-    "options": [
-      "33",
-      "30",
-      "28",
-      "24"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (33)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q071",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let a, b, c and d be four positive integers such that a + b + c + d = 200. If S = (–1)a + (–1)b + (–1)c + (–1)d, then what is the number of possible values of S?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q072",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If the 8-digit number 123456xy is divisible by 8, then the total possible pairs of (x,y) are:",
-    "options": [
-      "8",
-      "13",
-      "10",
-      "11"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (13)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q073",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements:",
-    "options": [
-      "1 and 2 only",
-      "2 and 3 only",
-      "1 and 3 only",
-      "1, 2 and 3"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1, 2 and 3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q074",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the unit digit of 1! + 2! + 3! + 4! +--26!.",
-    "options": [
-      "0",
-      "4",
-      "3",
-      "1"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q075",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Ram gives a six-digit number 468312 to Shyam to check the divisibility. Shyam tells Ram that the number is divisible by 57. Shyam asks Ram, \"If we",
+    "question": "Shyam asks Ram, \"If we rearrange the digits of this number in descending order, then by which number will it be always divisible?\"",
     "options": [
       "2",
       "17",
       "3",
       "19"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q076",
@@ -1300,13 +977,30 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "Which one is true?",
     "options": [
-      "(I) sum of even factors of 1800 is 5,642.",
-      "(II) sum of odd factors of 900 is 2,351. (a) Only II/dsoy II (c) Only I /dsoy I",
-      "Part (3)",
-      "Part (4)"
+      "Only II/dsoy II",
+      "I and II both",
+      "Only I /dsoy I",
+      "None of the above"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Part (3))"
+    "explanation": "Correct Answer: Option C | (Only I /dsoy I)"
+  },
+  {
+    "id": "rkr_number_system_number_system_pro_level_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "Pro Level",
+    "sheetFile": "Number System Pro Level sheet.pdf",
+    "question": "In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, then the dividend is:",
+    "options": [
+      "4,240",
+      "4,800",
+      "4,251",
+      "4,576"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4,251)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q079",
@@ -1332,7 +1026,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the number of zeroes",
+    "question": "Find the number of zeroes in (832 – 831 – 830)",
     "options": [
       "1",
       "2",
@@ -1419,13 +1113,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "Which of the following statements is/are correct?",
     "options": [
-      "(i) A number is divisible by 125, if the last three digits of the number form a number that is divisible by 53.",
-      "(ii) If a number is divisible by two numbers, then it is divisible by the product of the two numbers.",
-      "(iii) A number is divisible by 36, if the number is divisible by 4, 6 and 12. (a)",
-      "(ii) and"
+      "(ii) and (iii)",
+      "(i) and (ii)",
+      "(i) only/ dsoy (i)",
+      "(ii) only/dsoy (ii)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ((iii) A number is divisible by 36, if the number is divisible by 4, 6 and 12. (a))"
+    "explanation": "Correct Answer: Option C | ((i) only/ dsoy (i))"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q086",
@@ -1451,7 +1145,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let x be the least number of 5 digits, which when",
+    "question": "Let x be the least number of 5 digits, which when divided by 28, 40, 42 and 48, leaves remainder 6 in each case and x is divisible by 246. What is the sum of the digits of x?",
     "options": [
       "13",
       "12",
@@ -1502,7 +1196,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the sum of the digits of the least 5-digit number which when divided by 10, 14, 16 and 35,",
+    "question": "What is the sum of the digits of the least 5-digit number which when divided by 10, 14, 16 and 35, the remainder in each is 1 and the number is divisible by 19?",
     "options": [
       "14",
       "16",
@@ -1575,7 +1269,7 @@
       "2",
       "15",
       "16",
-      "CN"
+      "CND"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2)"
@@ -1662,8 +1356,8 @@
       "6, 8, 8, 7, 8, 6",
       "8, 6, 8, 8, 6, 7"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (6, 8, 8, 7, 8, 6) | Solution: Consider the multiplication 999 abc = def 132 decimal notation, where a, b, c, d, e and f are digits. What are the values of a, b, c, d, e and f respectively?/ n'keyo ladsr i¼fr xq.kuiQy 999 abc = def132 ij fopkj a, b, c, d, e f vad gSaA a, b, c, d, "
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8, 6, 8, 8, 6, 7) | Solution: Consider the multiplication 999 abc = def 132 in decimal notation, where a, b, c, d, e and f are digits. What are the values of a, b, c, d, e and f respectively?/ n'keyo ladsr i¼fr xq.kuiQy 999 abc = def132 ij fopkj a, b, c, d, e f gSaA a, b, c, d, e"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q100",
@@ -1677,9 +1371,9 @@
       "1 only/dsoy 1",
       "2 only/dsoy 2",
       "3 only/dsoy 3",
-      "KEY"
+      "2 and 3 only"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (KEY) | Solution: If An = Pn + 1, where Pn is the product of the first n prime numbers, then consider the following statements: ;fn An = Pn + 1, Pn igyh n vHkkT; la[;kvksa xq.kuiQy rks fuEufyf[kr dFkuksa ij fopkj fdft,% ANSWER KEY"
+    "explanation": "Correct Answer: Option D | (2 and 3 only) | Solution: If An = Pn + 1, where Pn is the product of the first n prime numbers, then consider the following statements: ;fn An = Pn + 1, Pn igyh n vHkkT; la[;kvksa xq.kuiQy fuEufyf[kr dFkuksa ij fopkj fdft,% ANSWER KEY"
   }
 ]

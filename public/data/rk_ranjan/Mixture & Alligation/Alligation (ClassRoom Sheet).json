@@ -6,15 +6,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Two vessels are full of milk with milk-water ratios 1 : 4 and 3 : 8, respectively. If both",
+    "question": "Two vessels are full of milk with milk-water ratios 1 : 4 and 3 : 8, respectively. If both are mixed in the ratio 3 : 2, what is the ratio of milk and water in the new mixture?",
     "options": [
       "4 : 15",
       "3 : 7",
       "63 : 212",
-      "N.O."
+      "N.O.T"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (63 : 212)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In two blends of mixed tea, the ratios of Darjeeling and Assam tea are 4 : 7 and 2 : 5. The ratio in which these two blends should be mixed to get the ratio of Darjeeling and Assam tea in the new mixture as 6 : 13 is",
+    "options": [
+      "22 : 35",
+      "26 : 35",
+      "35 : 78",
+      "13 : 22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (22 : 35)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q003",
@@ -23,7 +40,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Solution A contains 10% acid and solution B contains 30% acid.",
+    "question": "Solution A contains 10% acid and solution B contains 30% acid. In what ratio should solution A be mixed with Solution B to obtain a mixture with 25% acid?",
     "options": [
       "1 : 2",
       "3 : 1",
@@ -57,15 +74,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "40 litres of a mixture of milk and water contains 10% of water, the amount of water to be added, to make the water",
+    "question": "40 litres of a mixture of milk and water contains 10% of water, the amount of water to be added, to make the water content 20% in the new mixture is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 litre",
+      "6.5 litre",
+      "5.5 litre",
+      "5 litre"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (5 litre)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "An alloy contains copper and tin the ratio 3 : 2. If 250 gm of copper is added to this alloy then the copper in it becomes double the quantity of tin in it. What is the amount (in gms) of tin in the alloy?",
+    "options": [
+      "250",
+      "750",
+      "1000",
+      "500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (500)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q007",
@@ -79,10 +113,44 @@
       "15 kg",
       "21 kg",
       "30 kg",
-      "40 k"
+      "40 kg"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (21 kg) | Exam: SSC CGL 26/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In what ratio should coffee powder costing ` 2500/kg be mixed with coffee powder costing ` 1500/kg so that the cost of the mixture is ` 2250/kg?",
+    "options": [
+      "1 : 4",
+      "4 : 1",
+      "3 : 1",
+      "1 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 : 1)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In what ratio must the two types of tea at Rs.180/kg and Rs.280/kg respectively be mixed so that the obtained mixture sold at 320/kg earns a profit of 20% ?",
+    "options": [
+      "3 : 13",
+      "4 : 13",
+      "1 : 14",
+      "2 : 13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 13) | Exam: POLICE CONSTABLE 23/08/2024 (Shift-02)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q010",
@@ -108,7 +176,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A trader bought 640 kg of rice. He sold a part of the rice at 20% profit and the rest",
+    "question": "A trader bought 640 kg of rice. He sold a part of the rice at 20% profit and the rest at 5% loss. He earned a profit of 15% in the entire transaction. What is the ratio of the quantity of rice that he sold at a loss of 5% to that of the quantity that he sold at a profit of 20%?",
     "options": [
       "1 : 3",
       "4 : 1",
@@ -142,12 +210,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole.",
+    "question": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole. What is the quantity (in kg) of wheat sold by Arvind at 9% profit?",
     "options": [
       "260 kg",
       "390 kg",
       "195 kg",
-      "455 k"
+      "455 kg"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (260 kg) | Exam: SSC CPO 05/10/2023 (Shift-02)"
@@ -193,7 +261,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Harish is having ` 40,000 . He deposited",
+    "question": "Harish is having ` 40,000 . He deposited it in 2 banks. Interest given by 1st bank is 9.5% per annum and that of 2nd bank is 5.5% per annum. If at the end of a year Harish got ` 3200. Then find the difference of the balance amount deposited in both banks?",
     "options": [
       "` 36000",
       "` 30000",
@@ -210,7 +278,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A total of Rs.2,00,000 is divided into two",
+    "question": "A total of Rs.2,00,000 is divided into two parts for investing in different banks on simple interest. One yields 4% p.a. while the other yields 6% p.a. If the total interest at the end of one year is equivalent to 4.7% p.a. on the whole amount, the amount (in Rs.) invested in each bank is ________, respectively.",
     "options": [
       "1,30,000 and 70,000",
       "1,45,000 and 55,000",
@@ -249,7 +317,7 @@
       "` 2,000",
       "` 2,500",
       "` 1,500",
-      "` 1,750"
+      "` 1,750 TIME, SPEED AND DISTANCE BASED QUESTIONS"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (` 2,000)"
@@ -261,7 +329,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A person went to Delhi to Agra. He covered some distance by bus and remaining distance by train. He covered complete",
+    "question": "A person went to Delhi to Agra. He covered some distance by bus and remaining distance by train. He covered complete distance which is 360 km in 6 hours. Average speed of bus is 48 km/h and average speed of train is 120 km/h. Find distance covered by train.",
     "options": [
       "120",
       "240",
@@ -278,12 +346,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A man covered a distance of 60 km",
+    "question": "A man covered a distance of 60 km in 5 hour partly by train at 15 km/h and partly by foot at 10km/h. The distance covered by train is.",
     "options": [
       "45 km",
       "30 km",
       "20 km",
-      "40 k"
+      "40 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (30 km)"
@@ -295,12 +363,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A person travels 255 km",
+    "question": "A person travels 255 km in 7 hours in two stages. In the first part of journey, he travels by bus at the speed of In the second part of journey, he travels by train at the speed of How much distance he travel by bus?",
     "options": [
       "135 km",
       "145 km",
       "120 km",
-      "125 k"
+      "125 km"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (120 km)"
@@ -329,7 +397,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Population of a town is 1,20,000 . If number of male increases by 7% and females increases by 10%, then the population of town would increase by 9.5%. Find the difference between male to female",
+    "question": "Population of a town is 1,20,000 . If number of male increases by 7% and females increases by 10%, then the population of town would increase by 9.5%. Find the difference between male to female population living in that town?",
     "options": [
       "25000",
       "80000",
@@ -346,7 +414,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Population of town is 15,000. If number of male decreases by 10% and number of female increases by 5% then the population of town would increase by 600.",
+    "question": "Population of town is 15,000. If number of male decreases by 10% and number of female increases by 5% then the population of town would increase by 600. Find the number of male in the town.",
     "options": [
       "1500",
       "1000",
@@ -380,7 +448,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A womam spends of her income. If her 3 income increase by 18% and the expenditure increase by 24%, then the",
+    "question": "A womam spends of her income. If her 3 income increase by 18% and the expenditure increase by 24%, then the percentage increase in her saving will be: 2",
     "options": [
       "6",
       "3",
@@ -397,7 +465,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 2 types coins",
+    "question": "There are 2 types coins in a box 25p and 50p. The total money in box is ‘ 42 and the total number of coins is 120. Find the number of 25p coins.",
     "options": [
       "72",
       "48",
@@ -414,7 +482,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A company has undergraduate and graduate employee. The average salary of each graduate employee is ` 16550 and undergraduate employee is ` 11950,",
+    "question": "A company has undergraduate and graduate employee. The average salary of each graduate employee is ` 16550 and undergraduate employee is ` 11950, average salary of workers in company is ` 14750 if there are total 575 worker in company then find out total number of graduate employee in company?",
     "options": [
       "280",
       "350",
@@ -431,7 +499,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The income of A is 50% more than that of B. If the income of A is increased by 40% and the income of B is increased by 90%,",
+    "question": "The income of A is 50% more than that of B. If the income of A is increased by 40% and the income of B is increased by 90%, then the percentage increase in their combined income will be :",
     "options": [
       "64",
       "55",
@@ -482,7 +550,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A student answered rd of total questions. 3 60% right. How much percent he should answer rest questions right so that he may",
+    "question": "A student answered rd of total questions. 3 60% right. How much percent he should answer rest questions right so that he may get 70% marks in examination. 2",
     "options": [
       "25",
       "60",
@@ -516,7 +584,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average score of a batsman",
+    "question": "The average score of a batsman in twenty matches is 15 and in twenty-five other matches is 24. Find the average score in all the forty-five matches.",
     "options": [
       "21",
       "20",
@@ -527,13 +595,47 @@
     "explanation": "Correct Answer: Option B | (20) | Exam: SSC CGL 19/09/2024 (Shift-02)"
   },
   {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a company with 600 employees, the average age of male employees is 42 years and that of female employees is 41 years. If the average age of all the employees in the company is 41 years and 9 months, then the number of female employees is :",
+    "options": [
+      "150",
+      "250",
+      "450",
+      "350"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (150)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class of 80 students, 60% participate in games and the rest do not. The average weight of the former group is 5% more than that of the latter. If the average 1 weight of all the students is 512 kg, then what is the average weight (in kg) of the former group?",
+    "options": [
+      "57.6",
+      "54.5",
+      "60",
+      "52.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (52.5)"
+  },
+  {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q038",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average age of 120 students",
+    "question": "The average age of 120 students in a group is 13.56 years, 35% of the number of students are girls and the rest are boys. If the ratio of the average age of boys and girls is 6.5, then what is the average age (in years) of the girls?",
     "options": [
       "12",
       "11.6",
@@ -544,13 +646,47 @@
     "explanation": "Correct Answer: Option B | (11.6)"
   },
   {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class of 80 students, the ratio of the urban to the rural is 5 : 3. In a test, the average score of the rural students is 40% more than that of the urban students. If the average score of all the students is 69, then what is the average score of the rural students?",
+    "options": [
+      "80",
+      "76",
+      "92",
+      "84"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (84)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class, there are 60 students. The average weight of the entire class is 42 kg. If there are 36 boys in the class and the average weight of all the boys is 50 kg, then what is the average weight (in kg) of all the girls?",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "34"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30) | Exam: SSC CPO 28/06/2024 (Shift-02)"
+  },
+  {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q041",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average score",
+    "question": "The average score in Mathematics of 90 students of section A and B of class IX was 63. The number of students in A were 10 more than those in B. The average score of students in A was 30% more than that of students in B. The average score of students in B is :",
     "options": [
       "60",
       "54",
@@ -567,7 +703,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 96 students",
+    "question": "There are 96 students in a class, out of which the number of girls is 40% more than that of the boys. the average score in mathematics of the boys is 40% more than the average score of girls. If the average score in mathematics of all the students is 63, then what is the average score of the girls in mathematics?",
     "options": [
       "51",
       "54",
@@ -584,7 +720,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 75 students",
+    "question": "There are 75 students in the hostel. Due to new admissions, 15 new students join the mess, and the daily expenses of the mess increased by ` 240, while the average expenditure per head diminished by 5. What was the original expenditure (in `) of the mess?",
     "options": [
       "4,530",
       "3,450",
@@ -601,7 +737,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Average run per wicket of a bowler is 11.5.",
+    "question": "Average run per wicket of a bowler is 11.5. In his next inning bowler took 5 wickets and conceded 40 run, thereby he reduced his bowling average by 0.5. Find the total number of wickets.",
     "options": [
       "25",
       "35",
@@ -686,15 +822,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Two types of sugar worth ` 42 per kg and ` 46 per kg are mixed together with a 3rd",
+    "question": "Two types of sugar worth ` 42 per kg and ` 46 per kg are mixed together with a 3rd variety of sugar in the ratio 3 : 3 : 9. If the mixture is worth ` 47 per kg ,then the price of 3rd variety sugar per kg?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "49",
+      "44",
+      "50"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (49)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q050",
@@ -705,12 +841,12 @@
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
     "question": "Rewa has some hens and some goats. If the total number of animal heads is 100 and the total number of animal feet is 348, then what is the total number of goats with Rewa?",
     "options": [
-      "(c)",
-      "55 (d) 80",
-      "KEY",
-      "7. (b) 8. (c) 9. (d) 10. (c)"
+      "76",
+      "74",
+      "55",
+      "80"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (55 (d) 80) | Exam: SSC CGL TIER- II 03/03/2023"
+    "explanation": "Correct Answer: Option B | (74) | Exam: SSC CGL TIER- II 03/03/2023"
   }
 ]

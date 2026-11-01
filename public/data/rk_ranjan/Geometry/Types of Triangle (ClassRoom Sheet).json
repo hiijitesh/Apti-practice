@@ -1,5 +1,22 @@
 [
   {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, BAC = 30° and BCA = 60°. If AC = 13 cm and AB = 12 cm, then BC equal to:",
+    "options": [
+      "6 cm/lsaeh",
+      "5 cm/lsaeh",
+      "4 cm/lsaeh",
+      "7 cm/lsaeh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 cm/lsaeh) | Exam: SSC CPO 27/06/2024 (Shift-03)"
+  },
+  {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q002",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -13,8 +30,8 @@
       "3 cm, 2 3 cm",
       "2 cm, 2 3 cm"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9 cm, 4 3 cm) | Exam: SSC CHSL 04/08/2023 (Shift-03)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 cm, 2 3 cm) | Exam: SSC CHSL 04/08/2023 (Shift-03)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q003",
@@ -23,7 +40,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "The angles of a triangle are",
+    "question": "The angles of a triangle are in the ratio 1 : 2 : 3, then find the ratio of the corresponding sides.",
     "options": [
       "1 : 2 : 3",
       "1 : 2 : 3",
@@ -40,7 +57,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "The hypotenuse of a right triangle is 6m more than twice the shortest side. If the third side is 2 m less than the hypotenuse, find the",
+    "question": "The hypotenuse of a right triangle is 6m more than twice the shortest side. If the third side is 2 m less than the hypotenuse, find the area(in m2) of the triangle.",
     "options": [
       "130",
       "100",
@@ -74,7 +91,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "Triangle ABC is right angled at B and D is a point of BC such that BD = 5 cm, AD = 13 cm and AC = 37 cm, then find the length of BC",
+    "question": "Triangle ABC is right angled at B and D is a point of BC such that BD = 5 cm, AD = 13 cm and AC = 37 cm, then find the length of BC in cm.",
     "options": [
       "35",
       "25",
@@ -93,13 +110,115 @@
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
     "question": "ABC is a right angle triangle and angle ABC = 90 degrees. BD is a perpendicular on the side AC. What is the value of BD2?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "AD",
+      "BC",
+      "BC",
+      "AD"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CGL MAINS (08/08/2022)"
+    "explanation": "Correct Answer: Option D | (AD) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a right angle triangle with sides 12 cm and 16 cm and hypotenuse 20 cm, the length of altitude drawn on the hypotenuse from the opposite vertex is K. Find the value of K.",
+    "options": [
+      "6.9 cm",
+      "9.6 cm",
+      "6.8 cm",
+      "8.6 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9.6 cm) | Exam: SSC CHSL 09/07/2024 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In XYZ, Y = 90º and YN is perpendicular to XZ. If XY = 30 cm and XZ = 34 cm. then what is the value of YN ?",
+    "options": [
+      "280/cm",
+      "210/cm",
+      "220/cm",
+      "240/cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (240/cm) | Exam: SSC CHSL 09/03/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A = 90º, M is the mid-point of BC and D is a point on BC such that AD  BC. If AB = 7 cm and AC = 24 cm, then AD : AM is equal to :",
+    "options": [
+      "168 : 275",
+      "24 : 25",
+      "32 : 43",
+      "336 : 625"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (336 : 625) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given figure find AB² – BC²?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given figure, AB² – BC² = 5 & AD = 4, then find DC?",
+    "options": [
+      "10",
+      "2.5",
+      "11",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a right-angled triangle ABC such that BAC = 90° and AD is perpendicular to BC. If the area of ABC is 63 cm², area of ACD = 7 cm², and AC = 5 cm, then the length of BC is equal to:",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "18 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15 cm) | Exam: SSC CHSL 03/07/2024 (Shift- 02)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q014",
@@ -108,7 +227,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "Points P and Q are on the sides AB and BC respectively of a triangle ABC, right angled at B. If AQ = 11 cm, PC = 8 cm, and AC = 13 cm,",
+    "question": "Points P and Q are on the sides AB and BC respectively of a triangle ABC, right angled at B. If AQ = 11 cm, PC = 8 cm, and AC = 13 cm, then find the length (in cm) of PQ.",
     "options": [
       "4 7",
       "15",
@@ -125,7 +244,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "Points M and N are on the sides PQ and QR respectively of a triangle PQR, right angled at Q. If PN = 9 cm, MR = 7 cm, and MN = 3 cm,",
+    "question": "Points M and N are on the sides PQ and QR respectively of a triangle PQR, right angled at Q. If PN = 9 cm, MR = 7 cm, and MN = 3 cm, then find the length of PR (in cm).",
     "options": [
       "13",
       "11",
@@ -136,6 +255,40 @@
     "explanation": "Correct Answer: Option B | (11)"
   },
   {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, A = 90º, if BM and CN are two BM 2 + CN 2 medians, is equal to : BC 2",
+    "options": [
+      "3/5",
+      "4/5",
+      "5/4",
+      "3/4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5/4) | Exam: SSC CHSL 21/10/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, C = 90º, point P and Q are on side AC and BC respectively, such that AQ 2 + BP 2 AP : PC = BQ : QC = 1: 2, then is AB 2 equal to :",
+    "options": [
+      "4/9",
+      "4/3",
+      "13/9",
+      "8/3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13/9) | Exam: SSC CGL 2019 Tier-II (15/11/2020)"
+  },
+  {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q018",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -144,13 +297,30 @@
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
     "question": "If the medians of two sides of a triangle meet at right angles, the lengths of these two sides are of a and b units. The length of third side of triangle is",
     "options": [
-      "2(/5",
-      "a²  b²) 2(a²  b²)/3",
-      "a²/5",
-      " b² a²  b²/ab"
+      "(2(a²  b²))/5",
+      "(2(a²  b²))/3",
+      "5",
+      "ab"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (a²/5)"
+    "explanation": "Correct Answer: Option C | (5)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "If in a ABC, BE and CF are two medians perpendicular to each other and if AB = 19 cm and AC = 22 cm then the length of BC is:",
+    "options": [
+      "26 cm",
+      "19.5 cm",
+      "13 cm",
+      "20.5 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13 cm)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q020",
@@ -159,7 +329,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "Consider ABC the medians AD & CF intersect at right angles at G. if BC = 3 cm and AB =",
+    "question": "Consider ABC the medians AD & CF intersect at right angles at G. if BC = 3 cm and AB = 4cm, then the length of AC is (in cm):",
     "options": [
       "12",
       "3.5",
@@ -176,7 +346,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "Which one of the following cannot be the ratio",
+    "question": "Which one of the following cannot be the ratio of angles in acute-angled triangle?",
     "options": [
       "2 : 5 : 8",
       "4 : 1 : 4",
@@ -272,6 +442,23 @@
     "explanation": "Correct Answer: Option B | (1)"
   },
   {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an acute-angled triangle ABC, sides are of lengths 8 cm, 15 cm and x cm. If x is an integer, then how many such x exists?",
+    "options": [
+      "5",
+      "10",
+      "4",
+      "60"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q028",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -312,7 +499,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "The sides of a triangle are",
+    "question": "The sides of a triangle are in the ratio 4 : 6 : 8. The triangle is a/an:",
     "options": [
       "Isosceles triangle",
       "Obtuse-angled",
@@ -321,6 +508,40 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (Obtuse-angled) | Exam: SSC CGL 02/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC C is obtuse and length of side BC and AC are respectively 9 cm and 7 cm. The minimum possible length of AB is : (where length of AB is an integer)",
+    "options": [
+      "12 cm",
+      "10 cm",
+      "11 cm",
+      "14 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12 cm)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an obtuse angle triangle PQR, angle Q is obtuse angle if side PQ=11cm, QR=15cm then find minimum possible integer length of side PR?",
+    "options": [
+      "18 cm",
+      "19 cm",
+      "23 cm",
+      "22 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19 cm)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q033",
@@ -340,13 +561,30 @@
     "explanation": "Correct Answer: Option B | (6)"
   },
   {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an obtuse-angled triangle ABC, the length of its longest side AB is 50 cm and one of the other two sides is 42 cm. If the area of the triangle is 294 cm2, what is the length (in cm) of its third side?",
+    "options": [
+      "835",
+      "1521",
+      "258",
+      "1243 Scalene Triangle/fo\"keckgq f=kHkqt If all of the three sides of a triangle are of different lengths then the triangles is called a scalene triangle."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (258) | Exam: SSC CHSL 11/07/2024 (Shift- 04)"
+  },
+  {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q035",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "The sides of the scalene triangle ABC are",
+    "question": "The sides of the scalene triangle ABC are in the ratio 3 : 5 : 6 and the semi-perimeter is 42 cm, what is the difference of the largest and the smallest sides of the triangle?",
     "options": [
       "6 cm",
       "12 cm",
@@ -380,7 +618,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "One angle of an isosceles obtuse triangle is 1",
+    "question": "One angle of an isosceles obtuse triangle is 1 28 °. Find the measure of its obtuse angle in 2 degrees. 1",
     "options": [
       "132°",
       "112°",
@@ -389,6 +627,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (123°) | Exam: SSC CHSL 07/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an isosceles LMN, LM = LN, and MLN = 37° Find MNL.",
+    "options": [
+      "60.5°",
+      "70.0°",
+      "65.0°",
+      "71.5°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (71.5°) | Exam: SSC Phase XII 26/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q039",
@@ -493,6 +748,23 @@
     "explanation": "Correct Answer: Option C | (420)"
   },
   {
+    "id": "rkr_geometry_types_of_triangle_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
+    "question": "In an isosceles right-angled triangle, whose perimeter is 2p cm then find the area of triangle?",
+    "options": [
+      "(3 + 22)p cm²",
+      "(3 – 22)p² cm²",
+      "(2 –2)p cm²",
+      "(2 +2)p2 cm²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((3 – 22)p² cm²)"
+  },
+  {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q046",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -501,13 +773,13 @@
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
     "question": "An isosceles ABC is right angled at B. O is a point inside the ABC. P and Q are the feet of the perpendiculars drawn from O on the side AB and AC respectively of ABC. If AP = a cm, AQ = b cm and BAO = 15º, sin 75º = ?",
     "options": [
-      "2/3",
-      "b a/a 2 b",
-      "3/2",
-      "a 2 a/b 3 b"
+      "(2 b)/(3 a)",
+      "a/(2 b)",
+      "(3 a)/(2 b)",
+      "(2 a)/(3 b)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3/2)"
+    "explanation": "Correct Answer: Option C | ((3 a)/(2 b))"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q047",
@@ -521,10 +793,10 @@
       "80°",
       "60°",
       "100°",
-      "20°"
+      "20° Equilateral Triangle/leckgq f=kHkqt If all the three sides of a triangle are equal in length, then the triangle is called an equilateral triangle."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (20°) | Exam: SSC CHSL 03/08/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (20° Equilateral Triangle/leckgq f=kHkqt If all the three sides of a triangle are equal in length, then the triangle is called an equilateral triangle.) | Exam: SSC CHSL 03/08/2023 (Shift-01)"
   },
   {
     "id": "rkr_geometry_types_of_triangle_classroom_sheet_q048",
@@ -533,7 +805,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "'O' is a point",
+    "question": "'O' is a point in the interior of an equilateral triangle. The perpendicular distance from 'O' to the sides are 3 cm, 23 cm, 53 cm. The perimeter of the triangle is:",
     "options": [
       "48 cm",
       "32 cm",
@@ -567,12 +839,12 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
-    "question": "ABC is an equilateral triangle and AD  BC,",
+    "question": "ABC is an equilateral triangle and AD  BC, where D lies in BC. If AD = 4 3 cm, then what is the perimeter (in cm) of ABC?",
     "options": [
       "27",
       "24",
-      "3.",
-      "4. (c) 5. (d)"
+      "30",
+      "21"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (24) | Exam: SSC CGL 03/03/2020 (Shift- 02)"
@@ -586,10 +858,10 @@
     "sheetFile": "Types of Triangle (ClassRoom Sheet).pdf",
     "question": "If the area of an equilateral triangle is 36 3 cm2, then the perimeter of the triangle is :",
     "options": [
-      "7. (d) 8.",
-      "9. (d) 10. (d)",
+      "12 cm",
+      "1 3/8 cm",
       "36 cm",
-      "36 3 cm"
+      "3 3/6 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (36 cm) | Exam: SSC CGL 06/03/2020 (Shift - 01)"

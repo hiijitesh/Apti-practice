@@ -17,6 +17,40 @@
     "explanation": "Correct Answer: Option C | (92°) | Exam: SSC CGL 19/09/2024 (Shift-01)"
   },
   {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In PQR, if 4P = 5Q = 20R, then the value of Q is:",
+    "options": [
+      "72°",
+      "36°",
+      "90°",
+      "45°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72°) | Exam: SSC CGL 23/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle, values of all the angles are integers. Which one of the following cannot be the proportion of their measures?",
+    "options": [
+      "1 : 2 : 3",
+      "3 : 4 : 5",
+      "5 : 6 : 7",
+      "6 : 7 : 8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6 : 7 : 8)"
+  },
+  {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q004",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -25,13 +59,47 @@
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
     "question": "By decreasing 17° from each angle of a triangle, the ratio of their angles is 3 : 4 : 7. The radian measure of the greatest angle is:",
     "options": [
-      "15/36",
-      "3  167 /0 180",
-      "16/36",
-      "3  163 /0 180"
+      "(153 )/360",
+      "(167 )/180",
+      "(163 )/360",
+      "(163 )/180"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (16/36) | Exam: SSC CHSL 09/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option C | ((163 )/360) | Exam: SSC CHSL 09/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a ABC, AB = AC and A = 80°, then find B.",
+    "options": [
+      "50°",
+      "80°",
+      "40°",
+      "45°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (50°) | Exam: SSC CGL 11/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In PQR, Q = 90º, PQ = 8 cm and PRQ = 45º. Find the length of QR.",
+    "options": [
+      "6 cm",
+      "3 cm",
+      "5 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8 cm) | Exam: SSC CGL 13/12/2022 (Shift-01)"
   },
   {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q007",
@@ -51,6 +119,40 @@
     "explanation": "Correct Answer: Option B | (PQ > RP > QR)"
   },
   {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, A + B = 145º and C + 2B = 180º. State which one of the following relation is true?",
+    "options": [
+      "CA = AB",
+      "BC < AB",
+      "CA > AB",
+      "CA < AB Property-4 If a side of triangle is produced, then the exterior angle so formed is equal to the sum of the two interior opposite angles."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (CA > AB)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "19. In ABC, D is a point on BC such that ADB = 2DAC, BAC = 70° and B = 56°. What is the measure of ADC?",
+    "options": [
+      "72º",
+      "54º",
+      "74º",
+      "81º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72º) | Exam: SSC CGL Tier-II (03/02/2022)"
+  },
+  {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q010",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -62,7 +164,7 @@
       "245°",
       "235°",
       "225°",
-      "230°"
+      "230° Triangle (Sheet-01)"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (245°) | Exam: SSC CGL 26/09/2024 (Shift-02)"
@@ -79,10 +181,44 @@
       "94°",
       "54°",
       "43°",
-      "86°"
+      "86° Property-5 In a triangle the angle between internal bisector of a base angle and external bisector of the other base angle is half of the remaining vertex angle.  A According to this property BEC = . 2"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (43°) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, B is 72° and C = 44°. Side BC is produced to D. Then bisectors of B and ACD meet at E. What is the measure of BEC?",
+    "options": [
+      "58°",
+      "46°",
+      "32°",
+      "36°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (32°) | Exam: SSC CGL 13/06/2019 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the given figure AF is angle bisector of angle BAC and CD is exterior biscetor of angle BCA then what will be value of ?",
+    "options": [
+      "40°",
+      "45°",
+      "48°",
+      "30° Property-6 In ABC, the side BC produced to D and angle bisector of A meets BC at E then ABC + ACD/2 = AEC."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (40°)"
   },
   {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q014",
@@ -91,15 +227,49 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
-    "question": "The side QR of PQR is produced to a point",
+    "question": "The side QR of PQR is produced to a point S. The bisector of P meets side QR in T. If PQR = 30° and PTR = 60°, find PRS.",
     "options": [
       "55°",
       "75°",
       "90°",
-      "60°"
+      "60° Property-7 The angle between perpendicular drawn by a vertex to opposite side and angle bisector of the vertex angle is half of difference between other two remaining vertex angles."
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (90°)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, M and N are the points on the side BC such that AM  BC, AN is the bisector of A and M lies between B and N, If B = 68º, C = 26º, then the measure of MAN is ?",
+    "options": [
+      "24º",
+      "22º",
+      "28º",
+      "21º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21º) | Exam: SSC CGL Tier-II (16/11/2020)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, B = 78°, AD is a bisector of A meeting BC at D, and AE BC at E. If DAE = 24°, then the measure of ACB is:",
+    "options": [
+      "38°",
+      "30°",
+      "32°",
+      "42° Property-8 (i) Sum of any two sides of a triangle is always greater than the third side, i.e."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30°) | Exam: SSC CGL MAINS 29/01/2022"
   },
   {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q017",
@@ -110,8 +280,8 @@
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
     "question": "Select the correct statement about the properties of a triangle.",
     "options": [
-      "The sum of two sides may be equal to",
-      "The sum of two sides is always equal to",
+      "The sum of two sides may be equal to the third side.",
+      "The sum of two sides is always equal to the third side.",
       "The sum of two sides is always greater",
       "The sum of two sides is always less"
     ],
@@ -176,7 +346,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
-    "question": "A scalene triangle ABC has two sides whose measures are 3.8 cm and 6 cm, respectively. Which of the following",
+    "question": "A scalene triangle ABC has two sides whose measures are 3.8 cm and 6 cm, respectively. Which of the following CANNOT be the measure (in cm) of its third side?",
     "options": [
       "3.0",
       "2.7",
@@ -272,6 +442,23 @@
     "explanation": "Correct Answer: Option D | (6)"
   },
   {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the diagram below of triangle PQR, S is a point on PQ, PR = 8cm, PS = 3cm and QR = 15cm. Then the length of SQ could be.",
+    "options": [
+      "P/4cm",
+      "(3 S)/13cm",
+      "(a) 4cm/20cm",
+      "(b) 13cm/24cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((3 S)/13cm)"
+  },
+  {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q028",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -340,13 +527,30 @@
     "explanation": "Correct Answer: Option D | (24) | Exam: SSC CHSL 13/04/2021 (Shift- 03)"
   },
   {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In the triangle ABC, AB = 12cm and AC = 10cm, and BAC = 60º What is the value of the length of the side BC?",
+    "options": [
+      "10 cm",
+      "7.13 cm",
+      "13.20 cm",
+      "11.13 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11.13 cm) | Exam: SSC CGL 01/12/2022 (Shift- 01)"
+  },
+  {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q033",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
-    "question": "If the measure of the angles of triangle are",
+    "question": "If the measure of the angles of triangle are in the ratio, 1 : 2 : 3 and if the length of the smallest side of the triangle is 10 cm, then the length of the longest side is :",
     "options": [
       "20 cm",
       "25 cm",
@@ -357,6 +561,40 @@
     "explanation": "Correct Answer: Option A | (20 cm)"
   },
   {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In ABC, AB = AC and D is a point on BC. If BD = 5 cm, AB = 12 cm and AD = 8 cm, then the length of CD is :",
+    "options": [
+      "14.8 cm",
+      "16.2 cm",
+      "16 cm",
+      "14 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16 cm) | Exam: SSC CGL Tier-II (12/09/2019)"
+  },
+  {
+    "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
+    "question": "In a triangle ABC, B = 30º and C = 45º. If BC = 50cm then find the length of AB/",
+    "options": [
+      "50",
+      "50( 3 – 1)",
+      "100",
+      "100( 3 – 1)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50( 3 – 1))"
+  },
+  {
     "id": "rkr_geometry_fundamental_properties_of_triangle_classroom_sheet_q036",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -365,12 +603,12 @@
     "sheetFile": "Fundamental Properties of Triangle (ClassRoom Sheet).pdf",
     "question": "ABC is a triangle with BAC = 60º. A point P lies on one-third of the way from B to C and AP bisects BAC. Find APC.",
     "options": [
-      "KEY",
-      "8. (c) 9. (a) 10. (a)",
-      "KEY",
-      "7. (b) 8. (c) 9. (a) 10. (a)"
+      "30º",
+      "120º",
+      "60º",
+      "90º"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (KEY)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120º)"
   }
 ]

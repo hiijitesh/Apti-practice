@@ -23,7 +23,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The monthly incomes of A & B are",
+    "question": "The monthly incomes of A & B are in the ratio 4 : 5. Their expenses are in the ratio 5 : 6. If 'A' saves Rs.25 per month, and 'B' saves Rs.50 per month, what are their respective incomes.",
     "options": [
       "400,500",
       "240,300",
@@ -40,7 +40,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A company make a profit of Rs.9,00,000, 20% of which is paid as taxes. If the rest is divided among 1",
+    "question": "A company make a profit of Rs.9,00,000, 20% of which is paid as taxes. If the rest is divided among 1 the partners P, Q and R in the ratio of 1 :1 : 2 , then 2 the shares of P, Q and R are respectively:",
     "options": [
       "2,40,000; 3,20,000; 1,60,000",
       "3,20,000; 2,40,000; 1,60,000",
@@ -48,7 +48,7 @@
       "1,60,000; 2,40,000; 3,20,000 9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1,60,000; 2,40,000; 3,20,000 9) | Solution: (d) Amount distributed P, Q and R  900000 80 100 = 720000  P : Q : R = 1 : 1 1 2 : 2 = 2 : 3 : 4 9 unit = 720000 1 unit = 80000 Share of P : Q : R 2 80000 : 3 80000 : 4 80,000 160000 : 240000 : 320000 Note:- Since P : R = 1 : 2 therefore only optio"
+    "explanation": "Correct Answer: Option D | (1,60,000; 2,40,000; 3,20,000 9) | Solution: (d) Amount distributed in P, Q and R  900000 80 100 = 720000  P : Q : R = 1 : 1 1 2 : 2 = 2 : 3 : 4 9 unit = 720000 1 unit = 80000 Share of P : Q : R 2 80000 : 3 80000 : 4 80,000 160000 : 240000 : 320000 Note:- Since P : R = 1 : 2 therefore only op"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q004",
@@ -74,7 +74,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The numbers of coins of 25 paisa, 50 paisa, ` 2 and `",
+    "question": "The numbers of coins of 25 paisa, 50 paisa, ` 2 and ` 5 are in the ratio 5 : 4 : 3 : 1 respectively. If the total amount of coins is ` 285, then what will be the difference between the number of 25 paisa and ` 5 coins?",
     "options": [
       "60",
       "30",
@@ -91,7 +91,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Certain sum is divided among A, B, C and D such that the ratio of the shares of A : B = 1 : 3 ; B : C = 2 : 5 ; C : D = 2 : 3. If the difference between the shares of B",
+    "question": "Certain sum is divided among A, B, C and D such that the ratio of the shares of A : B = 1 : 3 ; B : C = 2 : 5 ; C : D = 2 : 3. If the difference between the shares of B and D is `6,435, then the total sum (in `) is:",
     "options": [
       "15,477",
       "17,457",
@@ -108,12 +108,12 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Rice worth, `504 per kg and, `540 per kg are mixed",
+    "question": "Rice worth, `504 per kg and, `540 per kg are mixed with the third variety in the ratio 1 : 1 : 2. If the mixture is worth, `612 per kg. Find the price (per kg in 1) of the third variety.",
     "options": [
       "` 630",
       "` 702",
       "` 764",
-      "` 522"
+      "` 522 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (` 702) | Solution: (b) Let price of third variety rice = x Avg. price of variety  612 = 1 504 1 540 2 4     x  612 = 504 + 540 + 2 4 x  2448 = 1044 + 2x  2x = 2448 – 1044  2x = 1404  x = 702  Price of third variety rice = `702"
@@ -149,8 +149,8 @@
       "55",
       "80"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (76)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (74)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q010",
@@ -159,7 +159,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A bag contains a total of 180 coins",
+    "question": "A bag contains a total of 180 coins in the denominations of `5 and `1. Find the number of `5 coins in the bag, if the total value of the coins is `500.",
     "options": [
       "100",
       "60",
@@ -193,7 +193,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Three numbers are",
+    "question": "Three numbers are in the ratio : : . The 5 6 10 difference between the smallest and the greatest numbers is 12. Find the number which is neither the smallest nor the greatest. 4 5 9",
     "options": [
       "96",
       "108",
@@ -229,13 +229,13 @@
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
     "question": "If m = , then the value of  : p  q m – 2p m – 2q 4pq m  2p m  2q",
     "options": [
-      "2",
-      "4",
-      "",
+      "(p  q)/2",
+      "/4 m – 2p m – 2q",
+      "2mpq/(p  q)",
       "None of t hese"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2)"
+    "explanation": "Correct Answer: Option A | ((p  q)/2)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q015",
@@ -244,7 +244,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "A student took five papers",
+    "question": "A student took five papers in an examination, where the full marks were the same for each paper. His marks in these papers were in the proportion of 6 : 7 : 8 : 9 : 10. in all papers together. The candidate obtained 60% of total marks. Then the number of papers in which he got more than 50% marks is:",
     "options": [
       "2",
       "3",
@@ -278,15 +278,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Ratanlal sells rasgullas (a favorite Indian sweets) at Rs.15 per kg. A rasgulla is madeup of flour and sugar",
+    "question": "Ratanlal sells rasgullas (a favorite Indian sweets) at Rs.15 per kg. A rasgulla is madeup of flour and sugar in the ratio of 5 : 3. The ratio of price of sugar and 2 flour is 7 : 3 (per kg). Thus he earns 66 % profit. 3 What is the cost price of sugar?",
     "options": [
       "Rs.10/kg.",
       "Rs.9/kg.",
       "Rs.18/kg.",
-      "Rs.14/kg"
+      "Rs.14/kg."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs.14/kg)"
+    "explanation": "Correct Answer: Option D | (Rs.14/kg.)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q018",
@@ -295,7 +295,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The cost of a piece of diamond varies with the square of its weight. A diamond of `6,084 value is cut into 3",
+    "question": "The cost of a piece of diamond varies with the square of its weight. A diamond of `6,084 value is cut into 3 pieces whose weights are in the ratio 3 : 2 : 1. Find the loss involved in the cutting.",
     "options": [
       "`3,768",
       "`3,718",
@@ -312,7 +312,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The price of a precious stone weighing 48 g, is `2,30,400. It is broken into two pieces whose weights",
+    "question": "The price of a precious stone weighing 48 g, is `2,30,400. It is broken into two pieces whose weights are in the ratio of 5 : 7. If the price is proportional to the square of the weight, then the loss (in `) incurred, is:",
     "options": [
       "112000",
       "40000",
@@ -346,7 +346,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the share of B and D is 8 : 9. If C receives",
+    "question": "Sum of 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the share of B and D is 8 : 9. If C receives `1,560, then what is the difference (in `) between the share of A and B?",
     "options": [
       "180",
       "240",
@@ -380,7 +380,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the number of boys to the number of girls",
+    "question": "The ratio of the number of boys to the number of girls in a school of 1650 students is 6 : 5. If 124 new boys are admitted and few new girls are admitted, the ratio changes to 4 : 3. What is the ratio of the newly admitted girls to the newly admitted boys?",
     "options": [
       "4 : 3",
       "3 : 4",
@@ -397,7 +397,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "R pays `100 to P with `5, `2 and `1 coins. The total number of coins used for paying are 40. What is the",
+    "question": "R pays `100 to P with `5, `2 and `1 coins. The total number of coins used for paying are 40. What is the number of coins of denomination `5 in the payment?",
     "options": [
       "16",
       "17",
@@ -414,7 +414,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The incomes of P, Q and R are",
+    "question": "The incomes of P, Q and R are in the ratio 10 : 12 : 9 and their expenditures are in the ratio 12 : 15 : 8. If Q saves 25% of his income, then what is the ratio of the savings of P, Q and R?",
     "options": [
       "15 : 14 : 21",
       "14 : 15 : 21",
@@ -431,7 +431,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the incomes of A and B",
+    "question": "The ratio of the incomes of A and B in the last year was 4 : 3. The ratios of their individual incomes in the last year and the present year are 3 : 4 and 5 : 6, respectively. If their total income in the present year is ` 24.12 lakhs, then the sum of the income (in ` lakhs) of A in the last year and that of B in the present year is:",
     "options": [
       "22.17",
       "21.28",
@@ -450,9 +450,9 @@
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
     "question": "A question is given followed by two statements I and II. Consider the Question and the Statements and mark the correct option.",
     "options": [
-      "The Question can be answered by using one of the Statements alone, but cannot be answered using",
-      "The Question can be answered by using either",
-      "The Question can be answered by using both the Statements together, but cannot be answered using",
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone",
+      "The Question can be answered by using either Statement alone",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone",
       "The Question cannot be answered even by using"
     ],
     "correctAnswer": 3,
@@ -465,15 +465,15 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three",
+    "question": "There are 3 numbers A, B & C. It is observed that if 8, 15 and 21 is subtracted respectively from these three quantities then they will be in the ratio of 17 : 9 : 10. If sum of these three numbers is 1484 then what will  A + B – C  be the value of   ?  C – B ",
     "options": [
-      "32/23",
-      "1 315/13",
-      "18/15",
-      "3 225/17"
+      "321/23",
+      "315/13",
+      "183/15",
+      "225/17"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (32/23)"
+    "explanation": "Correct Answer: Option A | (321/23)"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q029",
@@ -482,7 +482,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "The ratio of the female and male employee",
+    "question": "The ratio of the female and male employee in an office is 3 : 5. There is an increase in the number of female employees and a decrease in the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the difference between the number of male and the number of female employees is 200. Find the total number of female and male employees before the increase of female employees.",
     "options": [
       "1000",
       "900",
@@ -490,7 +490,7 @@
       "850"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1600) | Solution: The ratio of the female and male employee an office is 3 : 5. There is an increase the number of female employees and a decrease the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the difference between"
+    "explanation": "Correct Answer: Option C | (1600) | Solution: The ratio of the female and male employee in an office is 3 : 5. There is an increase in the number of female employees and a decrease in the number of male employees by the same number then their ratio becomes 7 : 9. After the increase the differenc"
   },
   {
     "id": "rkr_ratio_proportion_ratio_pro_level_sheet_q030",
@@ -499,7 +499,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Ratio (Pro Level Sheet).pdf",
-    "question": "Salaries of B, C, D and E are",
+    "question": "Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original salaries of B , C, D and E?",
     "options": [
       "`1260",
       "`1820",
@@ -507,6 +507,6 @@
       "`1400"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (`1400) | Solution: Salaries of B, C, D and E are the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original salari"
+    "explanation": "Correct Answer: Option D | (`1400) | Solution: Salaries of B, C, D and E are in the ratio of 2 : 3 : 4 : 5 respectively. Their salaries are increased by 20 percent, 30 percent, 40 percent and 50 percent respectively. If the increased salary of D is Rs.560, then what is the sum of the original sal"
   }
 ]

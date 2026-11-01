@@ -6,12 +6,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "2 pipes A and B can fill a tank",
+    "question": "2 pipes A and B can fill a tank in 40 minutes and 30 minutes respectively. An outlet pipe C is draining the water at the rate of 12 gallons/minute. All the pipe together can fill tank in 24 minutes. Find the capacity of the tank.",
     "options": [
       "600 gallons",
       "720 gallons",
       "840 gallons",
-      "960 gallon"
+      "960 gallons"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (720 gallons) | Solution: (b) A 40 h  B 30 h  24 h  120 unit 3 4 5 Capacity Eff. A + B – C Efficiency of C = A + B – C = 7 – 5 = 2 Time taken by C = 120 2 = 60 min Draining rate of C = 120 gallons/min  capacity of tank = 120 60 = 720 gallons 2 (a) Time A 52  min. B 60  "
@@ -23,15 +23,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "A cistern can be filled by one of two pipes",
+    "question": "A cistern can be filled by one of two pipes in 52 minutes and by the other pipe in 60 minutes. Both pipes are opened together for a certain time but being 13 particularly clogged only of the full quantity of 20 3 water flows through the first pipe and only of the 4 full quantity of water flows through the second pipe. The obstructions, however, were suddenly removed in both the pipes after some time and the cistern got 3 filled in 15 minutes from that moment. For how 5 many minutes did the pipes remain clogged?",
     "options": [
-      "17 min.",
-      "17 min.",
-      "17 min.",
-      "17 min."
+      "3/(17 min.)",
+      "2/(17 min.)",
+      "4/(17 min.)",
+      "1/(17 min.)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (17 min.)"
+    "explanation": "Correct Answer: Option A | (3/(17 min.))"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q003",
@@ -40,15 +40,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipes A and B can fill a tank",
+    "question": "Pipes A and B can fill a tank in 10 and 18 hours. Pipe C is a drain pipe. When all the pipes are opened 4 together for 3 hours, then part of the tank can be 15 filled up. Pipe C alone can empty one-third of the tank in:",
     "options": [
       "3 hours",
       "6 hours",
       "5 hours",
-      "8 hour"
+      "8 hours"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5 hours) | Solution: (c) Given, A 10  B 18  90 units 9 5 Eff. Capacity 4 15 90 = 24 units filled 3 hrs. Let, efficiency of drain pipe be x unit/hr ATQ, 24 3 = 9 + 5 + x  x = – 6 1 3 rd of capacity of tank is drain by C = 90 3 (–6)  = 5 hrs."
+    "explanation": "Correct Answer: Option C | (5 hours) | Solution: (c) Given, A 10  B 18  90 units 9 5 Eff. Capacity 4 15 90 = 24 units filled in 3 hrs. Let, efficiency of drain pipe be x unit/hr ATQ, 24 3 = 9 + 5 + x  x = – 6 1 3 rd of capacity of tank is drain by C = 90 3 (–6)  = 5 hrs."
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q004",
@@ -57,7 +57,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Two pipes A and B can fill a tank",
+    "question": "Two pipes A and B can fill a tank in 45 minutes and 75 minutes, respectively. A drain pipe C can empty the two-third filled tank in 20 minutes. If all three pipes are opened together, in how much time (in hours) can three-fifth part of the tank be filled?",
     "options": [
       "5",
       "4.5",
@@ -74,12 +74,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Two pipes can fill a cistern",
+    "question": "Two pipes can fill a cistern in 21 hours and 24 hours, respectively. The pipes are opened simultaneously and it is found that due to leakage in the bottom It took 48 minutes more to fill the cistern. When the cistern is full, in what time will the leak empty half of the cistern?",
     "options": [
       "84 hours",
       "78 hours",
       "90 hours",
-      "96 hour"
+      "96 hours"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (84 hours) | Solution: (a) Given, A 21 h  B 24 h  168 units 8 7 Eff. (Capacity) Time taken by A and B = 168 (8"
@@ -91,15 +91,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Three taps A, B and C can fill a tank",
+    "question": "Three taps A, B and C can fill a tank in 12, 15 and 20 hours respectively. If A is open all the time and B and C are open for one hour each alternatively. The tank will be full in –",
     "options": [
+      "1/(6 Hours)",
       "6 Hours",
-      "6 Hours",
-      "7 Hours",
+      "1/(7 Hours)",
       "7 Hours"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (7 Hours) | Solution: (c) A 12 h  5 3 60 4 B 15 h  C 20 h  Eff. (Capacity) units"
+    "explanation": "Correct Answer: Option C | (1/(7 Hours)) | Solution: (c) A 12 h  5 3 60 4 B 15 h  C 20 h  Eff. (Capacity) units"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q007",
@@ -108,15 +108,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Three pipes can separately fill a tank",
+    "question": "Three pipes can separately fill a tank in 30 hrs, 36 hrs and 45 hrs respectively. All three pipes are opened 2 th to fill the tank but when the tank is full, a leak 5 1 th develops at the bottom and of the water supply 6 leaks out per hour. What is the total time taken to fill the tank? 2",
     "options": [
-      "17 hr 13 min",
+      "6/(17 hr 13 min)",
       "14 hr 11.2 min",
-      "13 hr 26.4 min",
-      "15 hr 14.6 mi"
+      "(a) 17 hr 13/(13 hr 26.4 min) min",
+      "(b) 14 hr 11.2/(15 hr 14.6 min) min"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (13 hr 26.4 min) | Solution:  60 = 672 min Time taken with leakage = 672 + 48 = 720 min  Efficiency of C = 168 60 720  = 8 + 7 + x  15 + x = 14  x = – 1  Time taken by C to empty half tank = 168 2(–1) = 84 hr."
+    "explanation": "Correct Answer: Option C | ((a) 17 hr 13/(13 hr 26.4 min) min) | Solution:  60 = 672 min Time taken with leakage = 672 + 48 = 720 min  Efficiency of C = 168 60 720  = 8 + 7 + x  15 + x = 14  x = – 1  Time taken by C to empty half tank = 168 2(–1) = 84 hr."
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q008",
@@ -125,12 +125,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe A can fill a tank",
+    "question": "Pipe A can fill a tank in 8 hours, while pipe B can fill it in 12 hours working separately. Pipe C can empty whole the tank in 8 hours. He opened the pipe A and B simultaneously to fill the empty tank. He wanted to adjust his alarm so that he could open the pipe C when it was half-filled, but he mistakenly adjusted his alarm at a time when his tank would 3 th be filled. What is the time difference between 4 both the cases, to fill the tank fully:",
     "options": [
       "2 hours 48 minutes",
       "1 hour 48 minutes",
       "1 hour 30 minutes",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (1 hour 48 minutes)"
@@ -142,12 +142,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe A can fill a tank",
+    "question": "Pipe A can fill a tank in 12 hours. Pipe B can fill 1 33 % part of the same tank in 6 hours, where as 3 pipe C alone can empty full tank in x hours. When 13 all the three pipes are opened together, part 15 of the tank is filled in 12 hours. How much time (in hours) will A and C together take to fill 40 % part of the tank?",
     "options": [
       "32 hr.",
       "24 hr.",
       "28 hr.",
-      "20 hr"
+      "20 hr."
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (24 hr.)"
@@ -159,15 +159,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipes P and Q alone can fill a tank",
+    "question": "Pipes P and Q alone can fill a tank in 15 hours and 20 hours respectively. An inlet pipe R is 25% more efficient than pipe P and an outlet pipe S is 2 16 % less efficient than pipe Q. Pipe P and pipe 3 S are opened together. If after 1 hour pipe Q is opened and after 1 more hour pipe R is opened: then in what time the tank will be filled?",
     "options": [
-      "8 hrs.",
-      "7 Hrs.",
-      "6 hrs.",
-      "5 hrs."
+      "13/(8 hrs.)",
+      "13/(7 Hrs.)",
+      "13/(6 hrs.)",
+      "13/(5 hrs.)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (7 Hrs.)"
+    "explanation": "Correct Answer: Option B | (13/(7 Hrs.))"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q011",
@@ -176,7 +176,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Three pipes fill a swimming pool, and working",
+    "question": "Three pipes fill a swimming pool, and working simultaneously first two pipes can fill the pool in same time as the third pipe takes working alone. Second pipe alone take 5 hours less than first pipe and 4 hours more than third pipe. How much time the second and third take to fill the pool together?",
     "options": [
       "3",
       "3.5",
@@ -193,15 +193,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "A pipe can fill a tank",
+    "question": "A pipe can fill a tank in x hours and another can 1 empty it in y hours. If the tank is th full, then 5 the number of hours in which they will together fill it in -",
     "options": [
-      "4/5(",
-      "x y 5 x y/y – x ) 4(y – x )",
-      "4/(y",
-      "x y 5 x y/– x ) (y – x )"
+      "(4 x y)/(5(y – x ))",
+      "(5 x y)/(4(y – x ))",
+      "(4 x y)/(y – x )",
+      "(5 x y)/(y – x )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (4/5()"
+    "explanation": "Correct Answer: Option A | ((4 x y)/(5(y – x )))"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q013",
@@ -210,7 +210,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe P can fill of a tank",
+    "question": "Pipe P can fill of a tank in 28 hours, and pipe Q 9 3 can fill of the same tank in 27 hours. Both pipes 5 P and Q are opened for 3 hours, then both are closed. After that, only pipe R is opened, which empties the tank in 8 hours. If pipes P, Q, and R are opened together, how long will it take to fill the empty tank? 4",
     "options": [
       "51 hours",
       "57 hours",
@@ -227,7 +227,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "One of the two inlet pipes works twice as efficiently as the other. The two, working alongside a drain",
+    "question": "One of the two inlet pipes works twice as efficiently as the other. The two, working alongside a drain pipe that can empty a cistern all by itself in 8 hours, can fill the empty cistern in 8 hours. How many hours will the less efficient inlet pipe take to fill the empty cistern by itself?",
     "options": [
       "8",
       "6",
@@ -244,15 +244,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe A can fill a liquid tank",
+    "question": "Pipe A can fill a liquid tank in 18 hours, while pipe B can empty a full tank in 30 hours. When the tank is empty, pipe A is turned on for one hour and then closed. Now pipe B was run to drain water from the tank for one hour and then closed. The pipes were turned on one after the other for an hour each time until the tank was filled. How much time did it take to fill the tank?",
     "options": [
       "45 hrs",
       "86 hrs 40 min",
       "90 hrs",
-      "86 hrs 48 mi"
+      "86 hrs 48 min"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (86 hrs 48 mi)"
+    "explanation": "Correct Answer: Option D | (86 hrs 48 min)"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q016",
@@ -261,15 +261,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipes P and Q can completely fill a water tank",
+    "question": "Pipes P and Q can completely fill a water tank in 10 hours and 15 hours, respectively. A pipe R can empty a tank filled completely with water in 12 hours. Initially, the tank is empty and only pipes P and Q are opened at 6 a.m. and pipe R is also opened at 9 a.m. By what time will the tank be completely filled?",
     "options": [
       "1 p.m",
       "2 p.m",
       "11 p.m",
-      "3 p."
+      "3 p.m"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3 p.)"
+    "explanation": "Correct Answer: Option D | (3 p.m)"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q017",
@@ -278,15 +278,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Two pipes can separately fill a tank",
+    "question": "Two pipes can separately fill a tank in 25 hours and 35 hours respectively. Both the pipes are opened to 2 fill the tank but when the tank is full a leak 5 5 develops in the tank through which of the water 12 supplied by both the pipes leak out. What is the total time taken to fill the tank?",
     "options": [
       "20 hours 10 minutes",
       "20 hours 20 minutes",
       "20 hours 40 minutes",
-      "20 hours 50 minute"
+      "20 hours 50 minutes"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (20 hours 50 minute)"
+    "explanation": "Correct Answer: Option D | (20 hours 50 minutes)"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q018",
@@ -295,7 +295,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipes M, N and S can fill a tank",
+    "question": "Pipes M, N and S can fill a tank in 25, 50 and 100 minutes, respectively. Initially, pipes N and S are kept open for 10 minutes, and then pipe N is shut while pipe M is opened. Pipe S is closed 15 minutes before the tank overflows. How much time (in minutes) will it take to fill the tank if the three pipes work in this pattern?",
     "options": [
       "30",
       "33",
@@ -312,12 +312,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe A can fill a tank",
+    "question": "Pipe A can fill a tank in 10 hours. Pipe B can fill the same tank in 12 hours. Pipe C can empty a full tank in 16 hours. All the pipes are opened at 8:00 a.m. and pipe A and B are closed at 10:00 a.m. After how much time from starting will the tank be empty?",
     "options": [
       "5 hours 52 minutes",
       "5 hours 24 minutes",
       "4 hours 30 minutes",
-      "4 hours 8 minute"
+      "4 hours 8 minutes"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (5 hours 52 minutes)"
@@ -329,15 +329,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Two inlet pipes A and B and one outlet pipe C are connected to a tank. Pipes A and C together can fill",
+    "question": "Two inlet pipes A and B and one outlet pipe C are connected to a tank. Pipes A and C together can fill a tank in 22.5 minutes, while pipes B and C together can fill the same tank in 90 minutes and ratio of efficiency of pipe A to B is 2 : 1 respectively. If pipes A and B works with 125% and 1 of their 83 % 3 efficiencies respectively, then in what time pipes A and B together will fill the tank?",
     "options": [
       "12 min",
       "6 min",
       "15 min",
-      "9 mi"
+      "9 min"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9 mi)"
+    "explanation": "Correct Answer: Option D | (9 min)"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q021",
@@ -346,15 +346,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Two pipes can fill a tank",
+    "question": "Two pipes can fill a tank in 32 minutes and 28 minutes respectively. Due to some wastage in pipes, 5 3 only water can flow through first pipe and 7 4 water can flow through second pipe. After clearing that pipes, the tank was filed in 12 minutes. How long would that wastage be in pipes?",
     "options": [
       "8 minutes",
       "6 minutes",
       "5 minutes",
-      "4 minute"
+      "4 minutes"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4 minute)"
+    "explanation": "Correct Answer: Option D | (4 minutes)"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q022",
@@ -363,12 +363,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "There are two inlets and one outlet pipe connected to a tank, whose diameters are 4 cm, 5 cm and 6 cm respectively. Efficiency of pipe is directly proportional to square of its diameter and least",
+    "question": "There are two inlets and one outlet pipe connected to a tank, whose diameters are 4 cm, 5 cm and 6 cm respectively. Efficiency of pipe is directly proportional to square of its diameter and least efficient pipe can fill tank in 1 hour. If all pipes are opened together then in how many minutes 12.5% of tank will be full?",
     "options": [
       "24 minutes",
       "32 minutes",
       "40 minutes",
-      "Cannot be determine"
+      "Cannot be determined"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (24 minutes)"
@@ -380,7 +380,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipe A can fill a tank",
+    "question": "Pipe A can fill a tank in 12 hours and pipe B takes 18 hours to fill it. Both pipes were opened together and a leak was spotted which increased the filling-up time by 48 minutes. Find how many hours will it take for the leak to empty a full tank.",
     "options": [
       "60",
       "68",
@@ -397,7 +397,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Pipes A and B can fill a tank",
+    "question": "Pipes A and B can fill a tank in 15 hours and 20 hours, respectively. Pipe C is an emptying pipe. A and B are opened together for 4 hours, and then 1 only A is closed and C opened. It took 19 hours 5 more to fill the tank. Pipe C alone can empty the full tank in:",
     "options": [
       "42 hours",
       "48 hours",
@@ -414,7 +414,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "There are 3 taps A, B and C",
+    "question": "There are 3 taps A, B and C in a tank. These can fill the tank in 10 h, 20 h and 25 h, respectively. At first, all three taps are opened simultaneously. After 2 h, tap C is closed and tap A and B keep running. After 4 h, tap B is also closed. The remaining tank is filled by tap A alone. Find the percentage of done by tap A itself.",
     "options": [
       "75",
       "52",
@@ -431,7 +431,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "There are 15 pipes, some are inlets and some are",
+    "question": "There are 15 pipes, some are inlets and some are outlets. An inlet pipe can fill the tank in 16 hours and an outlet pipe can empty the tank in 20 hours. If all pipes opened simultaneously, the tank was filled in 26 hours 40 minutes. Find the number of outlet pipes.",
     "options": [
       "6",
       "7",
@@ -448,12 +448,12 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "A pipe can fill a tank",
+    "question": "A pipe can fill a tank in 20 minutes and another pipe can fill in 30 minutes, He opened the both pipe and left. After returning a man noticed that the tank was not full due to a leakage. If he repaired that leakage then the tank was filled in 4 minutes. In how much time will that leakage be emptied that tank?",
     "options": [
       "12 minutes",
       "24 minutes",
       "36 minutes",
-      "48 minute"
+      "48 minutes"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (36 minutes)"
@@ -465,7 +465,7 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "(T + 4) Type 'A' types of pipes can fill a tank",
+    "question": "(T + 4) Type 'A' types of pipes can fill a tank in 2T hours while (T + 12) type 'B' types of pipes can fill the same tank in (T + 8) hours. If ratio of efficiency of type 'A' of type 'B' pipe is 5 : 4 then find in how many hours 12 type 'A' and 15 type 'B' pipes together can fill the same tank ?",
     "options": [
       "18 hours",
       "20 hours",
@@ -482,15 +482,15 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern,",
+    "question": "Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern, then find in low many minutes pipe B alone can fill the same cistern?",
     "options": [
       "180 min",
       "144 min",
       "112 min",
-      "108 mi"
+      "108 min"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (112 min) | Solution: Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern, then find low many minutes pipe B alone can fill the same cistern? ikbi A {kerk ikbi B {kerk"
+    "explanation": "Correct Answer: Option C | (112 min) | Solution: Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern, then find in low many minutes pipe B alone can fill the same cistern? ikbi A {kerk ikbi B {k"
   },
   {
     "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q030",
@@ -499,14 +499,14 @@
     "chapter": "Pipe & Cistern",
     "sheetType": "Pro Level",
     "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
-    "question": "A swimming pool is fitted with 3 pipes, the 1st two",
+    "question": "A swimming pool is fitted with 3 pipes, the 1st two pipes working simultaneously fill the pool in the same time as the 3rd pipe alone, the 2nd pipe alone fills the pool 7 hrs faster than the 1st pipe & 9 hrs slower than 3rd pipe. In what time 2nd and 3rd pipe together fill the pool.",
     "options": [
-      "3.",
-      "2.",
-      "4. (b) 5. (a) 82 (a) hrs. 11 84 (b) hrs. 11 88 (c) hrs. 11",
-      "None of these KEY 6. (c) 7. (c) 8. (b) 9. (b) 10. (b)"
+      "hrs. 11 84",
+      "hrs. 11 88",
+      "hrs. 11",
+      "None of these"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2.) | Solution: (b) ANSWER KEY"
+    "explanation": "Correct Answer: Option B | (hrs. 11 88) | Solution: (b) ANSWER KEY"
   }
 ]

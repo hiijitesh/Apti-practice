@@ -6,12 +6,12 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The weights of five tests",
+    "question": "The weights of five tests in a class and Ritu's scores on those tests are as follows. What is the weighted average of the percentages she obtained on the five tests?",
     "options": [
-      "65.4",
+      "20/65.4%",
       "73.7",
-      "82.4",
-      "77.6"
+      "82.4%",
+      "77.6%"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (73.7) | Solution: (b) Weighted average = Score Important Maximum           % 12 16 40 8 14 15 12 30 10 33 % 20 20 50 10 20                 = [9 + 9.6 + 24 + 8 + 23.1]% = 73.7"
@@ -23,7 +23,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of some students is 35.5 kg. Twelve students, whose is 37 kg, leave the section, and five weighing 40 kg, 39.5 kg, 38.5 kg, kg, join the section, increasing by 300 grams. What was the",
+    "question": "The average weight of some students in a section is 35.5 kg. Twelve students, whose average weight is 37 kg, leave the section, and five more students, weighing 40 kg, 39.5 kg, 38.5 kg, 42 kg, and 47.5 kg, join the section, increasing the average weight by 300 grams. What was the initial number of students in the section?",
     "options": [
       "47",
       "53",
@@ -40,12 +40,12 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A large joint family consists of 4 parents, and 8 cousins. The grandparents is 74 years, the parents the cousins 22 years. What is the family members?",
+    "question": "A large joint family consists of 4 grandparents, 4 parents, and 8 cousins. The average age of the grandparents is 74 years, the parents 58 years, and the cousins 22 years. What is the average age of the family members?",
     "options": [
       "65 years",
-      "20",
+      "20 years",
       "44 years",
-      "32"
+      "32 years"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (44 years) | Solution: (c) 4 4 8 74 58 22 +16 –36 Grand- parents Parents Cousin Number Average Let average = 58 Total deviation = 4 16 – 8 36 = –224  Family average = 58 – 224 16 = 44 years"
@@ -57,15 +57,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of some children kg. When 10 children with an average kg leave the group or 15 children weight of 50 kg join the group, the the children re",
+    "question": "The average weight of some children in a group is 45 kg. When 10 children with an average weight of 40 kg leave the group or 15 children with an average weight of 50 kg join the group, the average weight of the children re",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45 and 55",
+      "55 and 65",
+      "65 and 75",
+      "35 and 45"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: mains the same in | Solution: (b) Given, Case-(I) 45kg –10 40kg Number Average   x Deviation the first cause  5 10 Case-(II) 45kg 15 50kg Number Average   x Deviation the second cause  5 15 ATQ, 5 10 5 15 45 45 – 10 15       x x"
+    "explanation": "Correct Answer: Option B | (55 and 65) | Exam: mains the same in both cases. Initially, | Solution: (b) Given, Case-(I) 45kg –10 40kg Number Average   x Deviation in the first cause  5 10 Case-(II) 45kg 15 50kg Number Average   x Deviation in the second cause  5 15 ATQ, 5 10 5 15 45 45 – 10 15       x x"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q005",
@@ -74,15 +74,49 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of the first 5 numbers next 4 numbers less than the 11th 12th number, then 11th and 12th number?",
+    "question": "The average of 12 numbers is 47. The average of the first 5 numbers is 45 and the average of the next 4 numbers is 52. If the 10th number is 10 less than the 11th number and is 5 more than the 12th number, then what is the average value of the 11th and 12th number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44.5",
+      "47.5",
+      "42.5",
+      "46.5"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution:        x x = 35.8 "
+    "explanation": "Correct Answer: Option A | (44.5) | Solution:        x x = 35.8 "
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In a class with a certain number of students, if one student weighing 30 kg is added, then the average weight of the class increases by 1 kg. If one more student weighing 30 kg is added, then the average weight of the class increases by 1.5 kg over the original average. What is the original average weight (in kg) of the class?",
+    "options": [
+      "27",
+      "26.5",
+      "25.5",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (27)"
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In an exhibition in the month of December starting with Thursday, the average number of visitors on Saturday is 254. The average number of visitors on Sunday is 625 and an average number of a visitors on other days of the month is x. If the average number of visitors, per day, for the whole month is 238, then what is the value of x?",
+    "options": [
+      "163",
+      "166",
+      "165",
+      "164"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (164)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q008",
@@ -91,7 +125,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight with an average 48.5 kg. Ten of average weight of leave the class both cases. Initially, weight is 46.5 was between average increases who were there Average (vkSlr)",
+    "question": "The average weight of certain students in a class is 48.5 kg. Ten of them, whose average weight is 45 kg. leave the class and eight students, whose average weight is 46.5 kg, join the class. Thereby, the new who were there originally was:",
     "options": [
       "42",
       "50",
@@ -108,15 +142,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of seven consecutive with ‘K’ is m. What is the average integers starting with (K + 2)?",
+    "question": "The average of seven consecutive integers starting with ‘K’ is m. What is the average of 8 consecutive integers starting with (K + 2)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(m + 2)",
+      "(m + 5)",
+      "(2m + 5)",
+      "m + 3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | ((2m + 5))"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q010",
@@ -125,7 +159,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "There are 3 groups of persons - children. There are 20 males and females and children taken together that of the males. The average 54 kg, that of females is 49 kg and is 30 kg. If the average weight of is 48.25 kg, then what is the the number of females and the number",
+    "question": "There are 3 groups of persons - male, female and children. There are 20 males and the number of females and children taken together is 4 more than that of the males. The average weight of males is 54 kg, that of females is 49 kg and that of children is 30 kg. If the average weight of the whole group is 48.25 kg, then what is the difference between the number of females and the number of children?",
     "options": [
       "17",
       "14",
@@ -142,7 +176,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A shopkeeper has three types of average quantity of three types of x oil is 20 litres more than type litres more than type y oil. If the and z oil are `12 per litre, `30 per litre respectively, then find the average types of oil? (Correct to two decimal",
+    "question": "A shopkeeper has three types of oil x, y and z. The x oil is 20 litres more than type z oil, which is 14 litres more than type y oil. If the costs of type x, y and z oil are `12 per litre, `30 per litre and `24 per litre respectively, then find the average cost of three types of oil? (Correct to two decimal places)",
     "options": [
       "`17.85/lt",
       "`16.83/lt",
@@ -159,15 +193,32 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A painter is paid x rupees for metres of a wall and y rupees for metre. During a week, he painted Monday, 13 metres on Tuesday, Wednesday, 11 metres on Thursday on Friday. What is the average rupees for the five days?",
+    "question": "A painter is paid x rupees for painting every 10 metres of a wall and y rupees for painting every extra metre. During a week, he painted 10 metres on Monday, 13 metres on Tuesday, 12 metres on Wednesday, 11 metres on Thursday and 12 metres on Friday. What is the average daily earning in rupees for the five days?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8/(x + y)",
+      "9y/(5 x +)",
+      "8/(10 x +)",
+      "x/(5x + 8y)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (8/(x + y))"
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In a team, the average age of 30 boys is 12 years 6 months. After the admission of five new boys, the Out of the 5 new boys, the age of youngest boy is ten years and one month. Find the average age of the remaining 4 new boys?",
+    "options": [
+      "16 years 9 months",
+      "16 years 3 months",
+      "15 years 3 months",
+      "13 years 9 months"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16 years 9 months)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q014",
@@ -176,15 +227,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average age that of children total strength of the whole group is increased by difference between the class is increased of children? of class was 40",
+    "question": "The average age of students in a class is 45% of the total strength of the class. When strength of the class is increased by 50% the average age of students of the class is increased by 6 months. If initial strength of class was 40 then find the average age of newly admitted student.",
     "options": [
-      "19 years 6",
+      "19 years 6 months",
       "20 years",
-      "19 years oil x, y and z. The",
-      "20 years 6 oil is 72 litres. Typ"
+      "19 years",
+      "20 years 6 months"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (19 years 6)"
+    "explanation": "Correct Answer: Option A | (19 years 6 months)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q015",
@@ -193,15 +244,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight z oil, which is 14 6 more apples",
+    "question": "The average weight of apples in a basket is 50 kg. 6 more apples with the average weight of 60 kg are added in the basket. If the average weight of the basket is increased by 5 kg, then find the number of apples in the basket originally.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "6",
+      "2",
+      "8"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (6)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q016",
@@ -210,15 +261,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Virat has played scored with a he scores 50 run and if he then his average painting every 10 original average",
+    "question": "Virat has played certain cricket matches and had scored with a certain average, if in the next match he scores 50 then his average will increase by 1 run and if he scores 50 again in the next match then his average will increase by 1.5 runs over the original average what is his original average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50",
+      "49",
+      "48",
+      "47"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (47)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q017",
@@ -227,15 +278,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The ages of Viplav, progression (A.P)",
+    "question": "The ages of Viplav, Sachin and Ritu are in arithmetic progression (A.P) and the average of their ages is 24 years. If the sum of squares of Viplav’s and Ritu’s age before 10 years is 400 then find the ratio of",
     "options": [
-      "21 : 23 or 23 : 21 (b) 23 : 25 or 25 : 23",
-      "5 x + 5",
-      "25 : 27 or 27 : 25 (d) 27 : 29 or 29 : 27",
-      "5x + 8y average age of 30 boys is 12 years 6 the admission of five new boys, the team becomes 12 years 11 months. boys, the age of youngest boy is one month. Find the average age of 4 new boys? months months months months the class. When strength of the class 50% the average age of students of by 6 months. If initial strength then find the average age of newly months months with the average weight of 60 kg are If the average weight of the by 5 kg, then find the number basket originally. (b) 6 (d) 8 certain cricket matches and had then his average will increase by 1 will increase by 1.5 runs over the what is his original average? (b) 49 (d) 47 and the average of their ages is sum of squares of Viplav’s and Ritu’s years is 400 then find the ratio of and Sachin’s present age to the and Ritu’s present age. gaS Selection fnyk,axs 2"
+      "21 : 23 or 23 : 21",
+      "23 : 25 or 25 : 23",
+      "25 : 27 or 27 : 25",
+      "27 : 29 or 29 : 27"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (5 x + 5)"
+    "explanation": "Correct Answer: Option B | (23 : 25 or 25 : 23)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q018",
@@ -244,7 +295,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "First ten multiples of 1, 2, …. 10 is average of all these 100 numbers?",
+    "question": "First ten multiples of 1, 2, …. 10 are taken. What is average of all these 100 numbers?",
     "options": [
       "25.25",
       "30.25",
@@ -261,7 +312,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A is the average marks of a group a class and A + 8 is the average students which includes the group as given. The total marks obtained 10 students is X and the total the group of 15 students is Y. If the value of A + X + Y is _______.",
+    "question": "A is the average marks of a group of 10 students in a class and A + 8 is the average of a group of 15 students which includes the group of 10 students as given. The total marks obtained by the group of 10 students is X and the total marks obtained by the group of 15 students is Y. If X : Y = 3 : 5, then the value of A + X + Y is _______.",
     "options": [
       "1964",
       "1845",
@@ -278,7 +329,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of students having 25 students each is respectively. Three students of average weight of 90 were shifted two students of section B were shifted making the average weight of equal. What is the average weight who were shifted from section B",
+    "question": "The average weight of students of section A and B having 25 students each is 38.4 and 33.6 respectively. Three students of section A having two students of section B were shifted to section A making the average weight of both the sections equal. What is the average weight of the students who were shifted from section B to A?",
     "options": [
       "87.5",
       "105",
@@ -295,15 +346,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of a group of If 2 girls R and S replace P and weight becomes 46 kg. The weight of Q. The weight of R = the weight",
+    "question": "The average weight of a group of 12 girls is 48 kg. If 2 girls R and S replace P and Q, the new average weight becomes 46 kg. The weight of P = weight of Q. The weight of R = the weight of S. Another girl T, is included in the group and the new average weight becomes 46 kg. The weight of T = the weight of R. What is the weight of P (in kg)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "56",
+      "58",
+      "54",
+      "50"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (58)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q022",
@@ -312,15 +363,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Average of the",
+    "question": "the average of the numbers a and b, b and c, c and d are 8, 5 and 4 respectively. If e = a + d + 1, then what is the average of the numbers d and e?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "8",
+      "8.5",
+      "7"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: 5 (b) 30 (c)"
+    "explanation": "Correct Answer: Option B | (8) | Solution: 5 (b) 30 (c)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q023",
@@ -329,15 +380,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average score average score",
+    "question": "The average score of a class in a test was 56, the and the average score of the Dullest 35% student was 30. If the ratio of the boys and the girls in the remaining 40% of the student was 2 : 3 and the was 60 what was the approximate average score of the girls in the remaining 40%?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66.25",
+      "60.20",
+      "62.40",
+      "68.75"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (66.25)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q024",
@@ -346,15 +397,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A study centre",
+    "question": "A study centre has five classes with 50, 60, 25, 40, and 70 students. The passing percentages for these five classes are 20%, 25%, 20%, 10%, and 30%, respectively. Find the average number of students passing per class at the centre.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10",
+      "12",
+      "11",
+      "55"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (11)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q025",
@@ -363,15 +414,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of to A? 12, 22, 32, 42, 52,",
+    "question": "The average of 12, 22, 32, 42, 52, 62, 72, 82 and 92 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/33",
+      "1/32",
+      "2/313",
+      "2/34"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (2/313)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q026",
@@ -380,15 +431,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Average marks comprising 30 comprising 35 marks (approximately) 12 girls is 48 kg. detected later that Q, the new average made as 74? of P = weight",
+    "question": "comprising 30 students is 65 and that of Section B comprising 35 students is 70. What are the average marks (approximately) of both the sections if it was detected later that an entry of 47 marks was wrongly made as 74?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "67.28",
+      "67.58",
+      "68.11",
+      "68.63"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (67.28)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q027",
@@ -397,7 +448,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A person purchases T each of the four",
+    "question": "A person purchases one kg of tea powder from each of the four places A, B, C, D at the rate of Rs.1000 per 1 kg, 2 kg, 4 kg, 5 kg. If on an average he purchased x kg of tea powder per Rs.1000, then what is the approximate value of x?",
     "options": [
       "1.95",
       "2.00",
@@ -422,7 +473,7 @@
       "66"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (55) | Solution: Consider two-digit numbers which remain the same when the digits interchange their positions. What is the average of such two-digit numbers? nks vadksa okyh ,slh la[;kvksa ij fopkj tks vadksa LFkku cny nsus ij Hkh] oSlh gh cuh jgrh gSaA bl nks vadksa"
+    "explanation": "Correct Answer: Option C | (55) | Solution: Consider two-digit numbers which remain the same when the digits interchange their positions. What is the average of such two-digit numbers? nks vadksa okyh ,slh la[;kvksa ij fopkj tks vadksa LFkku cny ij Hkh] oSlh gh cuh jgrh gSaA bl nks vadksa la[;"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q029",
@@ -431,7 +482,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased",
+    "question": "The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers in the group before, the new player joined?",
     "options": [
       "3",
       "5",
@@ -439,7 +490,7 @@
       "4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4) | Solution: The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers the group before, the new player joined? ,d lewg "
+    "explanation": "Correct Answer: Option D | (4) | Solution: The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers in the group before, the new player joined? ,d le"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q030",
@@ -448,31 +499,14 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average marks obtained by a group of 25 students wa",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks"
-  },
-  {
-    "id": "rkr_average_average_pro_level_sheet_q036",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Average",
-    "sheetType": "Pro Level",
-    "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks dropped to 37.2. Find the average marks of the students who left and the student who joined the group.",
+    "question": "The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the marks of the students who left and the student who joined the group.",
     "options": [
       "22.5",
       "30",
       "37.5",
       "15"
     ],
-    "correctAnswer": 0,
-    "explanation": ""
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15) | Solution: The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks"
   }
 ]

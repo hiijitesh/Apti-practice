@@ -13,8 +13,8 @@
       "Option C",
       "Option D"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (d) Given, P²  R  P² = k1R Q²  R  Q² = k2R and P  Q Consider, P² + Q² = k1R + k2R  R(k1 + k2) = Rk Hence, (P² + Q²)  R Consider, PQ 1 2 k R. k R  1 2 R k .k  = R.k  PQ  R Consider, P² – Q² = k1R – k2R  R(k1 – k2) = Rk  P² – Q² R Hence,"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Solution: (d) Given, P²  R  P² = k1R Q²  R  Q² = k2R and P  Q Consider, P² + Q² = k1R + k2R  R(k1 + k2) = Rk Hence, (P² + Q²)  R Consider, PQ 1 2 k R. k R  1 2 R k .k  = R.k  PQ  R Consider, P² – Q² = k1R – k2R  R(k1 – k2) = Rk  P² – Q² R Hence,"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q002",
@@ -30,8 +30,8 @@
       "Option C",
       "Option D"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (a) p q r² p = kq r² where, k = constant Now, q is increased by 20% and r is decreased by 20% Then, new p (let's say p')"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (a) p q r² p = kq r² where, k = constant Now, q is increased by 20% and r is decreased by 20% Then, new p (let's say p')"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q003",
@@ -42,13 +42,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "P² – Q² varies as R.",
     "options": [
-      "87.5",
-      "85",
-      "82.5",
-      "80"
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "1, 2 & 3 2. If p varies directly as q and inversely as square of r, what is the percentage increase in p due to an increase in q by 20% and a decrease in r by 20%?"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (82.5) | Solution: (c) Statement (I): ATQ, x  z and y  z x = kz and y = rz, where k & r are constants.  x² = k²z² and y² = r²z²  x² – y² = z² (k² – r²)  x² – y²  z² Hence, statement (I) is correct. Statement (II): ATQ,  1 z  x & 1 y z   xz = k & yz = r wher"
+    "explanation": "Correct Answer: Option C | (1 & 3 only) | Solution: (c) Statement (I): ATQ, x  z and y  z x = kz and y = rz, where k & r are constants.  x² = k²z² and y² = r²z²  x² – y² = z² (k² – r²)  x² – y²  z² Hence, statement (I) is correct. Statement (II): ATQ,  1 z  x & 1 y z   xz = k & yz = r wher"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q004",
@@ -76,13 +76,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "When a ball is allowed to fall, the time it takes to fall any distance varies as the square root of the distance and it takes 4 seconds to fall 78.40 m. How long would it take to fall 122.50 m?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 sec",
+      "5.5 sec",
+      "6 sec",
+      "6.5 sec"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (5 sec)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q006",
@@ -91,7 +91,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "5 sec 6. Find the fourth proportional of 1235, 312 and 412.",
+    "question": "Find the fourth proportional of 1235, 312 and 412.",
     "options": [
       "324",
       "12–23",
@@ -110,9 +110,9 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "If 2³ : 85.06 : : 8–4.06 : x, find the value of x.",
     "options": [
-      "1/2³",
       "1",
-      "2³",
+      "1",
+      "2³/2³",
       "0"
     ],
     "correctAnswer": 1,
@@ -130,7 +130,7 @@
       "(a + b) (a 2 – ab + b 2 )",
       "2 2 (a + ab + b ) (a 2 + ab + b 2 )",
       "(a – b) (a 2 + ab + b 2 )",
-      "2 2 (a – b"
+      "2 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2 2 (a + ab + b ) (a 2 + ab + b 2 ))"
@@ -166,8 +166,8 @@
       "0.0003",
       "0.033"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (0.033)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.003)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q011",
@@ -178,13 +178,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "Find the mean proportion of and a – b a 2 – ab + b 2 a 3 + b 3 a 2 – b 2",
     "options": [
-      "a ",
-      "b",
-      "a/a",
-      " b/–"
+      "1/a",
+      "(a + b)/( b)",
+      "a",
+      "(a  b)/(– b)"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ( b/–)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((a + b)/( b))"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q012",
@@ -193,7 +193,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "When x is added to each of the numbers 7, 11, 18",
+    "question": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so obtained are in proportion. What is the mean proportional between the (x – 1) and (2x – 10)?",
     "options": [
       "68",
       "78",
@@ -210,7 +210,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "When x is added to each of 2, 3, 30 and 35, then the",
+    "question": "When x is added to each of 2, 3, 30 and 35, then the numbers obtained in this order, are in proportion. What is the mean proportional between (x + 7) & (x – 2)?",
     "options": [
       "7",
       "4",
@@ -227,15 +227,32 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "If x is subtracted from each of 24, 40, 33 and 57, the",
+    "question": "If x is subtracted from each of 24, 40, 33 and 57, the numbers, so obtained are in proportion. The ratio of (5x + 12) to (4x + 15) is",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 : 3",
+      "14 : 13",
+      "7 : 4",
+      "7 : 5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (14 : 13)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "When x is subtracted from each of 24, 33, 20 and 26, the number so obtained in this order are in proportion. What is the mean proportional between (2x + 1) and (5x – 11)?",
+    "options": [
+      "30",
+      "35",
+      "20",
+      "428"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (35)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q016",
@@ -246,13 +263,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "A varies directly as the positive square root of B, and inversely as the cube of C. If A = 15, when B = 27 and C = 2, then find B when A = 9 and C = 2.",
     "options": [
-      "28/42",
-      "1 243/25",
-      "26/37",
-      "4 275/51"
+      "281/42",
+      "243/25",
+      "264/37",
+      "275/51"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (28/42)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (243/25)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q017",
@@ -263,13 +280,13 @@
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
     "question": "'x' varies directly with the cube of 'y', and inversely 1 with the square of 'z'. If x = when y = 2 and z = 3, 36 then what is the value of 800x when y = 3 and z = 5?",
     "options": [
-      "9/80",
-      "0",
-      "80/9",
-      "0"
+      "9",
+      "27",
+      "800",
+      "9"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0)"
+    "explanation": "Correct Answer: Option B | (27)"
   },
   {
     "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q018",
@@ -295,7 +312,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two",
+    "question": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two identical/similar discs have their thickness in the ratio of 16 : 9. What is the ratio of their radii if the weight of the first is four times that of the second?",
     "options": [
       "1 : 2",
       "2 : 3",
@@ -312,7 +329,7 @@
     "chapter": "Ratio & Proportion",
     "sheetType": "Pro Level",
     "sheetFile": "Proportion (Pro Level Sheet).pdf",
-    "question": "Four distinct positive numbers, ‘a’, ‘b’, ‘c’ and ‘d’,",
+    "question": "Four distinct positive numbers, ‘a’, ‘b’, ‘c’ and ‘d’, in the order given, are in proportion. ‘b’ is 35 more than ‘a’ and ‘d’ is 60 more than ‘c’. The product of ‘a’ and ‘c’ is 5376. What is the sum of ‘a’, ‘b’, ‘c’ and ‘d’?",
     "options": [
       "400",
       "398",

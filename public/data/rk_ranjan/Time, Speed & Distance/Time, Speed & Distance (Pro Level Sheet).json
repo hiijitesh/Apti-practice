@@ -8,13 +8,13 @@
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
     "question": "While travelling from A to B, Raghav travels a quarter of the distance at 10 km/h, the next quarter of the distance at 15 km/h, the third quarter of the distance at 20 km/h, and the final quarter of the distance at 30 km/h. While travelling on exactly the same route, Manish travels for a quarter of the total time taken for his journey at 10 km/h, the next quarter of the total time taken for his journey at 15 km/h, the third quarter of the total time taken for his journey at 20 km/h, and the final quarter of the total time taken for his journey at 30 km/h. If the overall average speed of Raghav during his journey is given as y km/ h, and that of Manish is given as z km/h, find the value of (z – y).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.5",
+      "2.75",
+      "0",
+      "1.5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: (b) When distance is same then: Time 6 4 3 Speed 10 15 20 30 2 Distance 60  Average speed of Raghav = y = 4 60 15  = 16 km/h When time is same then: Speed Distance Time 10 10 1 15 15 1 20 20 1 30 30 1  Average speed of Manish = z = 10 15 20 30 4 "
+    "explanation": "Correct Answer: Option B | (2.75) | Solution: (b) When distance is same then: Time 6 4 3 Speed 10 15 20 30 2 Distance 60  Average speed of Raghav = y = 4 60 15  = 16 km/h When time is same then: Speed Distance Time 10 10 1 15 15 1 20 20 1 30 30 1  Average speed of Manish = z = 10 15 20 30 4 "
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q003",
@@ -23,15 +23,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A car travels at 60 km/h for the first 40 minutes, at 75 km/h for the next 80 minutes and at 80 km/h for the next 12 minutes. What is the average speed",
+    "question": "A car travels at 60 km/h for the first 40 minutes, at 75 km/h for the next 80 minutes and at 80 km/h for the next 12 minutes. What is the average speed (in km/h) of the car?",
     "options": [
-      "6111",
-      "7011",
-      "713",
-      "713"
+      "9/6111",
+      "10/7011",
+      "2/713",
+      "1/713"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (7011) | Solution: (b) Distance travelled 40 minutes = 60 40 40km 60   Distance travelled 80 minutes = 75 80 100km 60   Distance travelled 12 minutes = 80 12 16km 60    Average speed =   40 100 16 40 80 12     km/min 132  10 = 70 km/h 11"
+    "explanation": "Correct Answer: Option B | (10/7011) | Solution: (b) Distance travelled in 40 minutes = 60 40 40km 60   Distance travelled in 80 minutes = 75 80 100km 60   Distance travelled in 12 minutes = 80 12 16km 60    Average speed =   40 100 16 40 80 12     km/min 132  10 = 70 km/h 11"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q004",
@@ -40,15 +40,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A car travels for 40 minutes at a speed of 40 km/h, for another 50 minutes at a speed of 45 km/h and for next 90 minutes at a speed of 60 km/h. What is",
+    "question": "A car travels for 40 minutes at a speed of 40 km/h, for another 50 minutes at a speed of 45 km/h and for next 90 minutes at a speed of 60 km/h. What is the average speed (in km/h) of the car for the entire journey?",
     "options": [
-      "49",
-      "50",
-      "5118",
-      "5018"
+      "1/49",
+      "5/50",
+      "7/5118",
+      "5/5018"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5118) | Solution: (c) Distance 40 minutes = 40 160 40 km 60 6   Distance 50 minutes = 45 225 50 km 60 6   Distance 90 minutes = 60 540 90 km 60 6    Average speed =   160 225 540 + + km 6 6 6 40+50+90 minutes = 925 60 km 6 180 h   = 7 km 5118 h 5 (b) Z C P "
+    "explanation": "Correct Answer: Option C | (7/5118) | Solution: (c) Distance in 40 minutes = 40 160 40 km 60 6   Distance in 50 minutes = 45 225 50 km 60 6   Distance in 90 minutes = 60 540 90 km 60 6    Average speed =   160 225 540 + + km 6 6 6 40+50+90 minutes = 925 60 km 6 180 h   = 7 km 5118 h 5 ("
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q005",
@@ -57,12 +57,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "Ram travelled from a place Z to P at an average speed of 130 km/h. He travelled the first 75% of the",
+    "question": "Ram travelled from a place Z to P at an average speed of 130 km/h. He travelled the first 75% of the distance in two-third of the time and the rest at an x average speed of x km/h. The value of is: 2",
     "options": [
-      "51",
+      "2/51",
       "48.75",
-      "97.5",
-      "19.25"
+      "(a) 51/97.5",
+      "(b) 48.75/19.25"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (48.75)"
@@ -79,7 +79,7 @@
       "12 km/h",
       "10 km/h",
       "8 km/h",
-      "6 km/"
+      "6 km/h"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (8 km/h) | Solution: 5 6 unit 630  13 unit 1365 ~ 1.4 km  19 13 Speed "
@@ -96,7 +96,7 @@
       "Only I",
       "Only II",
       "Neither I nor II",
-      "Both I and I"
+      "Both I and II"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Neither I nor II)"
@@ -108,7 +108,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "The distance between the places H and O is D units.",
+    "question": "The distance between the places H and O is D units. The average speed that gets a person from H to O in a stipulated time is S units. He takes 20 minutes more time than usual if he travels at 60 km/h, and reaches 44 minutes early if he travels 75 km/h. The sum of the numerical values of D and S is:",
     "options": [
       "358",
       "384",
@@ -130,7 +130,7 @@
       "39.2 km/h",
       "63 km/h",
       "42 km/h",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (42 km/h)"
@@ -147,7 +147,7 @@
       "7 km/h",
       "7.8 km/h",
       "7.2 km/h",
-      "10 km/"
+      "10 km/h"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (7.2 km/h)"
@@ -159,7 +159,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "45 pillars are standing",
+    "question": "45 pillars are standing in a line such that distance between any two consecutive pillars is same. A car travelling with uniform speed of 72 km/h takes 18 seconds to reach from 1st pole to 10th pole. What is the distance between 10th and 31st pole (in metres)?",
     "options": [
       "800",
       "820",
@@ -181,7 +181,7 @@
       "250 km",
       "300 km",
       "279.166 km",
-      "475 k"
+      "475 km"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (279.166 km)"
@@ -198,7 +198,7 @@
       "35 km/h",
       "30 km/h",
       "25 km/h",
-      "20 km/"
+      "20 km/h"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (25 km/h)"
@@ -210,11 +210,11 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "X and Y start their journey at the same time from place A to B, respectively.After meeting each other on 4",
+    "question": "X and Y start their journey at the same time from place A to B, respectively.After meeting each other on 4 the way, X and Y complete their journey in 5 hours 9 4 and 'p' hours respectively. If the speed of X is 28 % 7 more than that of Y, then what is the value of 'p'?",
     "options": [
-      "4",
+      "1/4",
       "9",
-      "8",
+      "2/8",
       "6"
     ],
     "correctAnswer": 1,
@@ -229,13 +229,13 @@
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
     "question": "If a man travels at km/h on a journey and x 1 returns at km/h, then his average speed for the x 2 journey is: 1",
     "options": [
-      "x/x",
-      " 1 2/2 x + x",
-      "1 2/x +",
-      "x 2/x x + 1"
+      "(x  1)/2",
+      "2/(x + x 2)",
+      "1/(x + x 2)",
+      "2 x 2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 1 2/2 x + x)"
+    "explanation": "Correct Answer: Option B | (2/(x + x 2))"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q016",
@@ -244,15 +244,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A man travels from point A to B at 40 km/h, further from B to C at 50 km/h, and then further from C to D at 60 km/h. The ratio between the distances AB, BC and CD is 1 : 2 : 3. He returns from D to A at x km/h. If his average speed for the entire journey 480 is km/h, then what is the value of 'x' ? 13",
+    "question": "A man travels from point A to B at 40 km/h, further from B to C at 50 km/h, and then further from C to D at 60 km/h. The ratio between the distances AB, BC and CD is 1 : 2 : 3. He returns from D to A at x km/h. If his average speed for the entire journey 480 is km/h, then what is the value of 'x' ? 13 480",
     "options": [
-      "25",
-      "34",
-      "32",
-      "28"
+      "5/25",
+      "2/34",
+      "6/32",
+      "4/28"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (28)"
+    "explanation": "Correct Answer: Option D | (4/28)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q017",
@@ -261,15 +261,15 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A boy starts from his home at a certain time with a certain speed to pick up his girlfriend from office at 5:00 pm. One day his girlfriend left the office at 3:00 pm and start walking to home with a speed of 40 km/",
+    "question": "A boy starts from his home at a certain time with a certain speed to pick up his girlfriend from office at 5:00 pm. One day his girlfriend left the office at 3:00 pm and start walking to home with a speed of 40 km/ hr and meet the boy in the way who left his home at his usual time. They reached home 40 min earlier than their usual time. Find the speed of boy.",
     "options": [
       "80 km/h",
       "120 km/h",
       "160 km/h",
-      "200 km/"
+      "200 km/h"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (200 km/)"
+    "explanation": "Correct Answer: Option D | (200 km/h)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q018",
@@ -295,12 +295,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "Two rifles are fired from the same place at a difference of 11 minutes 45 seconds. But a man who is coming",
+    "question": "Two rifles are fired from the same place at a difference of 11 minutes 45 seconds. But a man who is coming towards the place in a train hears the second sound after 11 minutes. If speed of rifle is 330 m/s then find the speed of the train.",
     "options": [
       "72 km/h",
       "36 km/h",
       "81 km/h",
-      "108 km/"
+      "108 km/h"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (81 km/h)"
@@ -317,7 +317,7 @@
       "11:38 am",
       "11:28 am",
       "11:43 am",
-      "11:33 a"
+      "11:33 am"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (11:38 am)"
@@ -346,7 +346,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A and B are travelling towards each other from the points P and Q respectively. After crossing each 1 other, A and B take 6 hours and 8 hours 8 respectively, to reach their destinations Q and P respectively. If the speed of B is 16.8 km/hr, then",
+    "question": "A and B are travelling towards each other from the points P and Q respectively. After crossing each 1 other, A and B take 6 hours and 8 hours 8 respectively, to reach their destinations Q and P respectively. If the speed of B is 16.8 km/hr, then the speed (in km/hr ) of A is:",
     "options": [
       "20.8",
       "19.8",
@@ -385,10 +385,10 @@
       "15 km; 25 km/h",
       "14.4 km; 24 km/h",
       "10 km; 25 km/h",
-      "12 km; 24 km/"
+      "12 km; 24 km/h"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12 km; 24 km/) | Exam: policeman arrives at the spot of the crime"
+    "explanation": "Correct Answer: Option D | (12 km; 24 km/h) | Exam: policeman arrives at the spot of the crime"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q025",
@@ -397,7 +397,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "Two places A and B are 60 km apart from each other on a highway. A car starts from A and another car",
+    "question": "Two places A and B are 60 km apart from each other on a highway. A car starts from A and another car from B at the same time. If they move in the same direction, they meet each other in 6 hours. If they move in the opposite direction towards each other, they meet in 1 hour 30 minutes. Find the speeds of the cars (in km/h).",
     "options": [
       "15, 20",
       "25, 20",
@@ -414,7 +414,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "The distance between two places A and B is 140 km. Two cars x and y start simultaneously from",
+    "question": "The distance between two places A and B is 140 km. Two cars x and y start simultaneously from A and B, respectively. If they move in the same direction, they meet after 7 hours. If they move towards each other, they meet after one hour. What is the speed (in km/h) of car y if its speed is more than that of car x?",
     "options": [
       "60",
       "100",
@@ -436,7 +436,7 @@
       "10 : 00 am",
       "12 : 00 pm",
       "1 : 00 pm",
-      "11 : 00 a"
+      "11 : 00 am"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (12 : 00 pm)"
@@ -448,7 +448,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A bus starts running with the initial speed of 6 km/hr and its speed increases every hour by certain amount. If it takes 14 hours to cover a distance of 630 km, then",
+    "question": "A bus starts running with the initial speed of 6 km/hr and its speed increases every hour by certain amount. If it takes 14 hours to cover a distance of 630 km, then what will be hourly increment in the speed of bus?",
     "options": [
       "5 km/hr",
       "10 km/hr",
@@ -465,7 +465,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "Bhuvanesh can travel a certain distance",
+    "question": "Bhuvanesh can travel a certain distance in 1 hour 4 30 minutes by travelling (four-seventh) of the 7 distance at 8 km/h and the rest at 6 km/h. What is the distance (in km) travelled by Bhuvanesh? 4",
     "options": [
       "11.5",
       "10.5",
@@ -487,7 +487,7 @@
       "54 km",
       "48.4 km",
       "54.6 km",
-      "63. k"
+      "63. km"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (54.6 km)"
@@ -499,12 +499,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A plane left 30 minutes later than the schedule time",
+    "question": "A plane left 30 minutes later than the schedule time and in order to reach its destination 1500 km away in time it has to increase its speed by 250 km/hr from its usual speed. Find usual speed.",
     "options": [
       "600 km/hr",
       "500 km/hr",
       "750 km/hr",
-      "N.O.T"
+      "N.O.T."
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (750 km/hr)"
@@ -516,12 +516,12 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A small aeroplane can travel at 320 km/h",
+    "question": "A small aeroplane can travel at 320 km/h in still air. The wind is blowing at a constant speed of 40 km/ hr. The total time for a journey against the wind is 135 min. What will be the time in minutes for the return journey with the wind? (ignore take-off and landing time for the aeroplane)",
     "options": [
       "97.5 min",
       "105 min",
       "120 min",
-      "127.5 mi"
+      "127.5 min"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (105 min)"
@@ -538,10 +538,10 @@
       "28 km/h",
       "24 km/h",
       "36 km/h",
-      "32 km/"
+      "32 km/h"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (32 km/)"
+    "explanation": "Correct Answer: Option D | (32 km/h)"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q034",
@@ -557,8 +557,8 @@
       "10",
       "11"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (12) | Solution: A car starts running at an initial speed of 60km/h, with its speed increasing every hour by 10km/h. How many hours will it take to cover a distance of 1210km? ,d dkj 60 fdeh@?kaVk pyuk 'kq: djrh bldh gj ?kaVs 10 fdeh@?kaVk o`f¼ gksrh 1210 fdeh r; dju"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11) | Solution: A car starts running at an initial speed of 60km/h, with its speed increasing every hour by 10km/h. How many hours will it take to cover a distance of 1210km? ,d dkj 60 pyuk 'kq: djrh bldh gj ?kaVs 10 o`f¼ gksrh 1210 r; djus mls ?kaVs"
   },
   {
     "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q035",
@@ -567,7 +567,7 @@
     "chapter": "Time, Speed & Distance",
     "sheetType": "Pro Level",
     "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
-    "question": "A girl cycles from A to B, a distance of 25 km",
+    "question": "A girl cycles from A to B, a distance of 25 km in 2 hours 20 minutes. The road from A is a levelled road for 15 km and then it slopes down to B. The average speed of the girl on the levelled road is 10 km/h. Her average downhill speed (in km/h) is:",
     "options": [
       "18",
       "12",

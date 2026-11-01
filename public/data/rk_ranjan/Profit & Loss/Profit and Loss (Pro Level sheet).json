@@ -25,13 +25,13 @@
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
     "question": "A shopkeeper increases the selling price of an article 7 by , then the loss changes to profit and the value 8 3 of percent profit is equal to of the value of loss 4 percentage. Find the profit percentage. 7",
     "options": [
-      "15",
+      "4/15%",
       "33.33",
-      "25",
-      "19"
+      "25%",
+      "19%"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (25) | Solution: (c) Let 2 1 SP SP 80 150 Loss percentage = x Profit = 3 4 x 80 150 = (100 – ) 3 100 + 100 4 100       x x  3 100 + 4       x = 150 (100 – x)  8000 + 60x = 15000 – 150x  210x = 7000  x = 100 3 Profit = 3 100 4 3 = 25% Alternate Method:"
+    "explanation": "Correct Answer: Option C | (25%) | Solution: (c) Let 2 1 SP SP 80 150 Loss percentage = x Profit = 3 4 x 80 150 = (100 – ) 3 100 + 100 4 100       x x  3 100 + 4       x = 150 (100 – x)  8000 + 60x = 15000 – 150x  210x = 7000  x = 100 3 Profit = 3 100 4 3 = 25% Alternate Method:"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q003",
@@ -40,15 +40,15 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A company made 3600 strips of tablets at a cost of `5400. The company gave away 1200 strips of tablets to doctors as free samples. A discount of 25% was allowed on the printed price. Find the ratio of profits (New profit/old profit) if the price is raised from `3.25 to",
+    "question": "A company made 3600 strips of tablets at a cost of `5400. The company gave away 1200 strips of tablets to doctors as free samples. A discount of 25% was allowed on the printed price. Find the ratio of profits (New profit/old profit) if the price is raised from `3.25 to `4.25 per strip and if at the latter price, samples to doctors were done away with.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13.5",
+      "6.5",
+      "7.5",
+      "19.25"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (a) Total sales revenue (old) = 2400 3.25 3 4 = Rs.5850  Profit (old) = 5850 – 5400 = 450 Total sales revenue (New) = 3600 4.25 3 4 = 11,475  Profit (New) = 11,475 – 5400 = 6075  New Profit Old frofit = 6075 450 = 13.5"
+    "explanation": "Correct Answer: Option A | (13.5) | Solution: (a) Total sales revenue (old) = 2400 3.25 3 4 = Rs.5850  Profit (old) = 5850 – 5400 = 450 Total sales revenue (New) = 3600 4.25 3 4 = 11,475  Profit (New) = 11,475 – 5400 = 6075  New Profit Old frofit = 6075 450 = 13.5"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q004",
@@ -57,12 +57,12 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "25 per strip and if at the latter price, samples to doctors were done away with.",
+    "question": "Raju bought 25 washing machines and microwave ovens for `2,03,000. He sold 80% of the washing machines and 12 microwave ovens for a profit of `50,000. Each washing machine was marked up by 20% over cost and each microwave oven was sold at a profit of `3,000. The remaining washing machines and 3 microwave ovens could not be sold. What is Raju's overall profit/loss?",
     "options": [
       "`5600 profit",
       "`10500 loss",
       "`9400 profit",
-      "Non"
+      "None"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (`9400 profit) | Solution: (c) Total CP of 25 w.m and microwovens = 203,000 Total number of ovens bought = 12 + 3 = 15  Percentage of oven sold = 12 100 15  = 80% Total CP of 80% of w.m and 80% of microwovens = 80% of 203000 = 162400  Total amount Recovered = 162400 + 50000"
@@ -74,7 +74,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Mahesh sold A piece of earphone and a keypad phone at a total selling price of ` 5304 for both. He sold a piece of earphone at 8% profit and keypad phone at y% profit. Cost price of a piece of earphone and",
+    "question": "Mahesh sold A piece of earphone and a keypad phone at a total selling price of ` 5304 for both. He sold a piece of earphone at 8% profit and keypad phone at y% profit. Cost price of a piece of earphone and keypad phone are in the ratio of 9:14 respectively. If the person had sold the keypad phone at the profit percent equal to the profit percent incurred on selling a piece of earphone, then its selling price would have been ` 3024 Find the value of y %.",
     "options": [
       "15",
       "18",
@@ -119,6 +119,23 @@
     "explanation": "Correct Answer: Option B | (280)"
   },
   {
+    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "sheetType": "Pro Level",
+    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
+    "question": "In shop, 3 articles A, B and C have the same CP and the same SP. By mistake, salesmen sell A and B at 3 2 th and rd of their actual SP respectively. If there 4 3 is loss of 19% on Selling A, at what profit % should C be sold to gain 10% percent on the whole? 3 2",
+    "options": [
+      "71",
+      "75",
+      "77",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (77)"
+  },
+  {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q009",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -144,13 +161,13 @@
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
     "question": "A and B purchase two different articles at same price, later on C purchase both articles at same price of 240 each from A and B. But profit % of A was P% while profit of B was Q% since B calculate his profit on SP. If C sells one of article to D at P% profit. What is cost 2 price for D if Q = 41 % P? 3",
     "options": [
-      "500",
+      "3/500",
       "520",
-      "576",
-      "625"
+      "(a) 500/576",
+      "(b) 520/625"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (576)"
+    "explanation": "Correct Answer: Option C | ((a) 500/576)"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q011",
@@ -187,13 +204,30 @@
     "explanation": "Correct Answer: Option C | (`16712)"
   },
   {
+    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "sheetType": "Pro Level",
+    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
+    "question": "In a game show, each participation costs `150. The 1st person to play wins ` 10, the second person wins ` 50, the 3rd person wins ` 100 and the 4th person wins ` 250. This cycle is repeated with 5th person winning ` 10. After 83 people have played, how much profit has the game show made for itself?",
+    "options": [
+      "4090",
+      "3990",
+      "3900",
+      "8180"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4090)"
+  },
+  {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q014",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "The cost of 5 pens and 8 pencils is ` 131. If the cost of a pen is increased by ` 2.50 and that of a pencil is decreased by 50 paise, then the cost of 6 pens and 7 pencils becomes `157. What is the original",
+    "question": "The cost of 5 pens and 8 pencils is ` 131. If the cost of a pen is increased by ` 2.50 and that of a pencil is decreased by 50 paise, then the cost of 6 pens and 7 pencils becomes `157. What is the original cost (in `) of 7 pens and 2 pencils?",
     "options": [
       "130",
       "142",
@@ -215,7 +249,7 @@
       "75 cm",
       "31 cm",
       "76 cm",
-      "93 c"
+      "93 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (75 cm)"
@@ -244,66 +278,15 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A person bought two shirts",
+    "question": "A person bought two shirts in Rs.2000. If he sells one shirt at a profit of 20% and the other at a profit of 80%, then the selling price of both the shirts is equal. But if he sells the first shirt at a profit of 30% and the second shirt at a profit of 25%, then what is the sum of the selling prices of both the shirts?",
     "options": [
-      "` 2720",
-      "` 2560",
-      "` 2440",
-      "` 2840"
+      "`12600",
+      "`14400",
+      "`13200",
+      "`11800 22. A shopkeeper buys 60 oranges at 10 for Rs.72, and an equal number at 12 for Rs.90. He spends Rs.118 on the transaction and sells all the oranges that he buys. If there is a profit of 26% in the entire transaction, then what is the selling price of 32 oranges?"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (` 2560)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q018",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Oil equal to 20% of the weight of ground nut is",
-    "options": [
-      "250",
-      "150",
-      "200",
-      "100"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (100)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q019",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A manufacturer undertakes to supply 2000 pieces of a particular component at `25 per piece. According to his estimates, even if 5% fail to pass the quality tests, then he will make a profit of 25%. However as it turned out, 50% of the component were rejected. What is the loss to the manufacturer?",
-    "options": [
-      "`12,000",
-      "`13,000",
-      "`14,000",
-      "`15,000"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (`13,000)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q020",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A man makes 500 articles at `5 per article. He fixes the selling price such that if only 400 articles are sold, he would have made a profit of 20% on the outlay. However, 80 articles get spoilt and he was able to sell 420 articles at this price. find his actual profit %?",
-    "options": [
-      "25",
-      "26",
-      "24",
-      "33.33"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (26)"
+    "explanation": "Correct Answer: Option B | (`14400)"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q021",
@@ -312,202 +295,15 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Manas purchased an item A for ‘P’ and sold it at 20% profit. With 75% of the received amount he bought item B and sold it at 25% loss. With the remaining amount he purchased item C and sold it at 125% profit. If the total profit amount earned by Manas is ` 4200, then at what price he sold the item A?",
-    "options": [
-      "`12600",
-      "`14400",
-      "`13200",
-      "`11800"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (`14400)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q022",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A shopkeeper buys 60 oranges at 10 for Rs.72, and an equal number at 12 for Rs.90. He spends Rs.118 on the transaction and sells all the oranges that he",
-    "options": [
-      "`1890",
-      "`1740",
-      "`1800",
-      "`1860"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`1890)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q024",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A trader bought some apples at 15 for ` 8 and sold all at X for ` 2. Thereby he gains 25%. Find the value of X?",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q025",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Ajit bought mangoes at the rate of 8 for Rs.34 and sold them at the rate of 12 for Rs.56. How many mangoes be sold to earn a net profit of Rs.35?",
-    "options": [
-      "84",
-      "86",
-      "89",
-      "96"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (84)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q026",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "By selling 3 dozen oranges for Rs.405, a trader loses 25% How many oranges should he sell for 288 if he",
-    "options": [
-      "16",
-      "15",
-      "18",
-      "12"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (16)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q027",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Arvind sold one article at an 8% profit and the other at a 12% profit. He received a total profit of Rs.264. If he had interchanged the profit percentages, he would have received Rs.8 less as profit. What are the cost prices of both articles?",
-    "options": [
-      "Rs.1400, Rs.1200",
-      "Rs.1200, Rs.1000",
-      "Rs.1400, Rs.1600",
-      "Rs.1000, Rs.1600"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.1400, Rs.1200)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q028",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A man sold an LED TV at an 8% profit and a fridge at a 15% profit. If he had sold the LED TV at a 15% profit and the fridge at an 8% profit, he would have gained Rs.350 less. Find the cost prices of the LED TV and the fridge, given that he purchased both for a total of Rs.30,000.",
-    "options": [
-      "Rs.12000 and Rs.18000",
-      "Rs.12500 and Rs.17500",
-      "Rs.11500 and Rs.18500",
-      "Rs.15000 and Rs.15000"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Rs.12500 and Rs.17500)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q029",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A student sold his phone at Rs.5312, loss incurred 6 will be 42 % to the profit incurred when article is 7 sold at Rs.5902. At what price he should sell his",
-    "options": [
-      "Rs.5732",
-      "Rs.5843",
-      "Rs.5840",
-      "Rs.5863"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Rs.5843)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q030",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "By selling an article for Rs.390, a shopkeeper suffers some loss. Had he sold it for Rs.444, he would have 1",
-    "options": [
-      "20",
-      "15",
-      "12.5",
-      "18.5"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (20)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q031",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A shopkeeper bought articles A and B for a total of Rs.2,540. He sold A at a profit of 15% and B at a loss of 25%. The selling price of A was Rs.109 more than the selling price of B. Find his percentage profit or",
-    "options": [
-      "8.5",
-      "8.3",
-      "8.5",
-      "8.3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (8.3)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q032",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "Four articles X, Y, Z and W were sold at 14.28% 5 loss, 12.5% profit, 15 % profit and 9.09% loss 13 respectively. Selling price is same for all the four",
-    "options": [
-      "Rs.200",
-      "Rs.300",
-      "Rs.400",
-      "Rs.600"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Rs.300)"
-  },
-  {
-    "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q033",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Profit & Loss",
-    "sheetType": "Pro Level",
-    "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "The numerical value of the profit percent is equal to the cost price of an item on selling it at Rs.54.21. Find",
+    "question": "Find the profit (in Rs.), if cost price of some other item is Rs.625, if profit percent is same.",
     "options": [
       "Rs.233.65",
       "Rs.281.95",
       "Rs.252.11",
       "Rs.243.75"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs.243.75)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.281.95)"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q034",
@@ -550,15 +346,15 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "By selling an article for Rs.370, a shopkeeper suffers some loss. Had he sold it for Rs.538, he would have earned a profit equal to one-fifth of the loss he had",
+    "question": "By selling an article for Rs.370, a shopkeeper suffers some loss. Had he sold it for Rs.538, he would have earned a profit equal to one-fifth of the loss he had in the earlier case. If he sells it for Rs.732, what will be his profit percentage?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "43.52",
+      "44.71",
+      "41.39",
+      "37.59"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (43.52)"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q037",
@@ -567,7 +363,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "59% 37. A smartphone of Samsung company is sold for Rs.K",
+    "question": "A smartphone of Samsung company is sold for Rs.K in Delhi. A retailer, Akshay from Delhi went to South Korea and bought it for 11.76% less (when compared to the price in Delhi). He spends Rs.1,150 on trans- port to bring it from South Korea to Delhi. He sold it in Delhi for Rs. K making a profit of 5.26%. Find the value of K (in Rs.).",
     "options": [
       "Rs.17,375",
       "Rs.17,280",
@@ -618,7 +414,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A contractor thinks by doing a work he will earn Rs.1,05,395.",
+    "question": "A contractor thinks by doing a work he will earn Rs.1,05,395. In the earning, there is 7% profit, labouring and raw material are included. The ratio be- tween raw material and labouring is 3 : 2. When he starts working, he finds that the cost of raw material and labouring is increased by 6% and 4% respectively. Find his profit percent.",
     "options": [
       "1.71",
       "4.4",
@@ -640,7 +436,7 @@
       "7.0% profit",
       "8.58% loss",
       "7.5% profit",
-      "6.01% los"
+      "6.01% loss"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (8.58% loss)"
@@ -652,7 +448,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A dealer bought some toys for Rs. 1600. He sold 37.5% of them at a loss of 14%, 33.33% of them at a profit of 19% and the 20% of the remaining at a profit of 11%. At what profit percentage (rounded off to an",
+    "question": "A dealer bought some toys for Rs. 1600. He sold 37.5% of them at a loss of 14%, 33.33% of them at a profit of 19% and the 20% of the remaining at a profit of 11%. At what profit percentage (rounded off to an integer) should he sell the remaining toys in order to gain overall profit of 6%?",
     "options": [
       "18.0",
       "14.07",
@@ -686,7 +482,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "The cost price of two articles A and B is the same. Article A is sold at a loss of 24% and article B is sold for `270 more than the selling price of A. If the net profit by selling both the articles is 12%, then what is",
+    "question": "The cost price of two articles A and B is the same. Article A is sold at a loss of 24% and article B is sold for `270 more than the selling price of A. If the net profit by selling both the articles is 12%, then what is the selling price (in `) of article B?",
     "options": [
       "645",
       "555",
@@ -720,12 +516,12 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "A Shopkeeper purchased an article for Rs.10500 and sold it for a loss of 10%. From that money he purchased another article and sold it for a gain of 10 %. What is the overall gain or loss ? (Rs.",
+    "question": "A Shopkeeper purchased an article for Rs.10500 and sold it for a loss of 10%. From that money he purchased another article and sold it for a gain of 10 %. What is the overall gain or loss ? (Rs. In)",
     "options": [
       "107 Gain/107 ykHk",
       "101 Loss/101 gkfu",
       "105 Loss/105 gkfu",
-      "103 Gain/103 ykH"
+      "103 Gain/103 ykHk"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (105 Loss/105 gkfu)"
@@ -754,15 +550,15 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "John buy four old tractors for Rs.2 lacs. He spent",
+    "question": "John buy four old tractors for Rs.2 lacs. He spent total of Rs. 2 lacs in maintenance and repairing. If among the four tractors, he had sold one tractor at Rs. 1 lacs at first, then in order to learn total 40% profit, what will be the average selling price of the Rest 3 tractors?",
     "options": [
       "Rs.1.5 lakh",
       "Rs.1.2 lakh",
       "Rs.2 lakh",
-      "Rs.2.3 lak"
+      "Rs.2.3 lakh"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.1.5 lakh) | Solution: John buy four old tractors for Rs.2 lacs. He spent total of Rs. 2 lacs maintenance and repairing. If among the four tractors, he had sold one tractor at Rs. 1 lacs at first, then order to learn total 40% profit, what will be the average selling price"
+    "explanation": "Correct Answer: Option A | (Rs.1.5 lakh) | Solution: John buy four old tractors for Rs.2 lacs. He spent total of Rs. 2 lacs in maintenance and repairing. If among the four tractors, he had sold one tractor at Rs. 1 lacs at first, then in order to learn total 40% profit, what will be the average selling"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q049",
@@ -771,7 +567,7 @@
     "chapter": "Profit & Loss",
     "sheetType": "Pro Level",
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
-    "question": "The cost price of articles X and Y is the same. Article X is sold at 20% profit and article Y is sold for `126 less than the selling price of X. If the net profit by selling",
+    "question": "The cost price of articles X and Y is the same. Article X is sold at 20% profit and article Y is sold for `126 less than the selling price of X. If the net profit by selling both the articles is 14%, then what is the cost price (in `) of each article?",
     "options": [
       "1,260",
       "840",
@@ -779,7 +575,7 @@
       "1,0808"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1,050) | Solution: The cost price of articles X and Y is the same. Article X is sold at 20% profit and article Y is sold for `126 less than the selling price of X. If the net profit by selling both the articles is 14%, then what is the cost price `) of each article? oL"
+    "explanation": "Correct Answer: Option C | (1,050) | Solution: The cost price of articles X and Y is the same. Article X is sold at 20% profit and article Y is sold for `126 less than the selling price of X. If the net profit by selling both the articles is 14%, then what is the cost price (in `) of each article"
   },
   {
     "id": "rkr_profit_loss_profit_and_loss_pro_level_sheet_q050",
@@ -790,12 +586,12 @@
     "sheetFile": "Profit and Loss (Pro Level sheet).pdf",
     "question": "The cost price of two articles is equal. One article is sold at a profit of 12% and the other article for `3,600 more 27 than the first. If the net profit is 15 % , then what is 51 the cost price of each article?",
     "options": [
-      "`50,000",
+      "51/`50,000",
       "`51,000",
-      "9.",
-      "10. (c)"
+      "(a) `50,000/`50,990",
+      "(b) `51,000/`52,150"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (`51,000) | Solution: The cost price of two articles is equal. One article is sold at a profit of 12% and the other article for `3,600 more than the first. If the net profit is 27 15 % 51 , then what is the cost price of each article? nks oLrqvksa ewY; ,d oLrq 12» osQ ykH"
+    "explanation": "Correct Answer: Option B | (`51,000) | Solution: The cost price of two articles is equal. One article is sold at a profit of 12% and the other article for `3,600 more than the first. If the net profit is 27 15 % 51 , then what is the cost price of each article? nks oLrqvksa ,d oLrq 12» osQ ykHk ij "
   }
 ]

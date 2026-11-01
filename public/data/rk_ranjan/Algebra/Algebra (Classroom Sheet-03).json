@@ -6,7 +6,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If xy + yz + zx = 1, then    = ?",
+    "question": "If xy + yz + zx = 1, then      = ?",
     "options": [
       "0",
       "1",
@@ -23,7 +23,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If x² + y² + z² = xy + yz + zx, then the value of  17 x 4 + 9y 4 +16z 4    is: 8 x 2 y 2 + 6y 2 z 2 +10z 2 x 2  ",
+    "question": "If x² + y² + z² = xy + yz + zx, then the value of  17 x 4 + 9y 4 +16z 4   2 2 2 2 2 2  is:  8 x y + 6y z +10z x ",
     "options": [
       "1.75",
       "3.25",
@@ -45,7 +45,7 @@
       "0",
       "2",
       "1",
-      "–1"
+      "–1 4 x – 3 4 y – 3 4 z – 3"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2)"
@@ -79,10 +79,10 @@
       "2",
       "1 1",
       "0",
-      "2 x  a 2  2 c 2 x  b 2  2 a 2 x  c 2  2 b 2"
+      "2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 x  a 2  2 c 2 x  b 2  2 a 2 x  c 2  2 b 2)"
+    "explanation": "Correct Answer: Option D | (2)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q006",
@@ -96,7 +96,7 @@
       "a2 + b2 + c2",
       "–(a2 + b2 + c2)",
       "a2 + 2b2 + c2",
-      "–(a2 + 2b2 + c2)"
+      "–(a2 + 2b2 + c2) x – a 2 x – b 2 x – c 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–(a2 + b2 + c2))"
@@ -127,13 +127,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If bc + ca + ab = abc then b  c c  a a  b   = ?",
     "options": [
-      "0",
-      "1",
-      "2",
-      "3"
+      "(bc  a –1  ca )/0",
+      "(b –1  ab  c –1 )/1",
+      "(a) 0/2",
+      "(b) 1/3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
+    "explanation": "Correct Answer: Option B | ((b –1  ab  c –1 )/1)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q009",
@@ -144,13 +144,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If a2 = b + c, b2 = c + a, c2 = a + b, then 1 1 1 + +",
     "options": [
-      "0",
-      "1",
-      "2",
-      "3"
+      "(1  a 1)/0",
+      "( b 1  c)/1",
+      "(a) 0/2",
+      "(b) 1/3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
+    "explanation": "Correct Answer: Option B | (( b 1  c)/1)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q010",
@@ -195,13 +195,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If a + b + c = 0, then the value of a 2  b 2  c 2",
     "options": [
-      "0",
-      "1",
-      "2",
-      "3"
+      "(a 2)/0",
+      "(– bc)/1",
+      "(a) 0/2",
+      "(b) 1/3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (2)"
+    "explanation": "Correct Answer: Option C | ((a) 0/2)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q013",
@@ -297,13 +297,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If r   16 , then the value of r 4  is. r r 3",
     "options": [
-      "4096",
+      "1/4096",
       "512",
-      "512",
+      "1/512",
       "4096"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (4096) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option A | (1/4096) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q019",
@@ -314,13 +314,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If a –  1 , a > 0, find a2 + ?",
     "options": [
-      "15",
-      "19",
-      "17",
-      "11"
+      "a/15",
+      "(a 2)/19",
+      "(a) 15/17",
+      "(b) 19/11"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (17)"
+    "explanation": "Correct Answer: Option C | ((a) 15/17)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q020",
@@ -450,13 +450,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If a + b – c = 0, then what is the value of ( b – c ) 2 ( c – a ) 2 ( a  b ) 2 ? 4 bc 4 ca 4 ab",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3/(–)",
+      "3",
+      "1",
+      "1/(–)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 06/08/2021 (Shift- 01)"
+    "explanation": "Correct Answer: Option A | (3/(–)) | Exam: SSC CHSL 06/08/2021 (Shift- 01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q028",
@@ -467,13 +467,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If x + y + z = 0, then what will be the value  x 2   y 2   z 2  of         ?  yz   zx   xy       ",
     "options": [
-      "3(/xy",
-      "x 2  y 2  z 2 )/z",
-      "x/x",
-      "2 y 2 z 2"
+      "3(x 2  y",
+      "(2  z 2 ))/(x2 + y2 + z2)",
+      "x 2 y",
+      "(2 z 2)/3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 y 2 z 2) | Exam: SSC CHSL 24/05/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option D | ((2 z 2)/3) | Exam: SSC CHSL 24/05/2022 (Shift- 01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q029",
@@ -516,7 +516,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If a3b = abc = 180, a, b, c are positive",
+    "question": "If a3b = abc = 180, a, b, c are positive in- tegers, then the value of c is :",
     "options": [
       "110",
       "1",
@@ -533,15 +533,15 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If x = a  and y = a – then a a x 4  y 4 – 2 x 2 y 2 is equal to : (a) 16a2 (b) 8 8 (c) (d) 4 a 2",
+    "question": "If x = a  and y = a – then a a x 4  y 4 – 2 x 2 y 2 is equal to :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16a2/8",
+      "8",
+      "a",
+      "4/2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (4/2)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q033",
@@ -671,13 +671,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If a4 + b4 + a²b² = 273 and a² + b² – ab =  1 1  21, then one of the values of     is:   a b",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9/(–)",
+      "3/(–)",
+      "9",
+      "3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 24/08/2021 (Shift- 01)"
+    "explanation": "Correct Answer: Option B | (3/(–)) | Exam: SSC CGL 24/08/2021 (Shift- 01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q041",
@@ -742,10 +742,10 @@
       "– 3",
       "2 3",
       "5",
-      "– 2 2   x +1  2 7( x 1) – 17 x"
+      "– 2 7( x 2  1) – 17 x  x +1  2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (– 2 2   x +1  2 7( x 1) – 17 x) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
+    "explanation": "Correct Answer: Option D | (– 2 7( x 2  1) – 17 x  x +1  2) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q045",
@@ -756,13 +756,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If = 2, then   = ?",
     "options": [
-      "6.45",
-      "6.53",
-      "6.86",
-      "6.31"
+      "(7 x)/6.45",
+      "( x )/6.53",
+      "(a) 6.45/6.86",
+      "(b) 6.53/6.31"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (6.45)"
+    "explanation": "Correct Answer: Option A | ((7 x)/6.45)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q046",
@@ -773,13 +773,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If = 7 + then x x 2",
     "options": [
-      "12",
-      "12 2",
-      "12 3",
-      "24"
+      "( 23 x 64 )/12",
+      "(42 x 12  163 )/(12 2)",
+      "(a) 12/(12 3)",
+      "(b) 12 2/24"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (12)"
+    "explanation": "Correct Answer: Option A | (( 23 x 64 )/12)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q047",
@@ -790,13 +790,13 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "If 8k6 + 15k3 – 2 = 0, then the positive value  1  of  k +  is:  k ",
     "options": [
-      "2",
-      "2",
-      "8",
-      "8"
+      "1/2",
+      "1/2",
+      "1/8",
+      "1/8"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2) | Exam: SSC CGL 12/04/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option A | (1/2) | Exam: SSC CGL 12/04/2022 (Shift- 03)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_03_q048",
@@ -805,7 +805,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If (ab + bc + ca) = 0, then what is the value  1 1 1  of      ?  a 2 – bc b 2 – ca c 2 – ab ",
+    "question": "If (ab + bc + ca) = 0, then what is the value  1 1 1  of      ?   a 2 – bc b 2 – ca c 2 – ab",
     "options": [
       "2",
       "0",
@@ -839,7 +839,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "What is the value of the following expression?  a  (a  b)  b  (b  c)  c  (a  c) x x x 2 2    3 2    6 –2    x b   x c   x a       ",
+    "question": "What is the value of the following expression?  x a  (a  b)  x b  (b  c)  x c  (a  c) 2 2    3 2    6 –2    x b   x c   x a       ",
     "options": [
       "1",
       "0",
@@ -893,8 +893,8 @@
     "question": "If x2 – 5x + 25 = 0 then x5 – 5x4 – 3100 ?",
     "options": [
       "25",
-      "25 2",
-      "25 3",
+      "2 2/5",
+      "2 3/5",
       "None"
     ],
     "correctAnswer": 0,
@@ -924,12 +924,12 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If ax + by = 8, ay – bx = 6, a2 + b2 + x2 + y2 = 29 a 2 + b 2 Find ; a2 + b2 > x2 + y2 ? ( x 2 + y 2 )",
+    "question": "If ax + by = 8, ay – bx = 6, a2 + b2 + x2 + y2 = 29 a 2 + b 2 Find 2 2 ; a2 + b2 > x2 + y2 ? ( x + y )",
     "options": [
       "4 27",
       "4 23",
       "4 29",
-      "4 a 2  b 2  c 2 – 1024"
+      "4"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (4 27)"
@@ -963,7 +963,7 @@
       "156",
       "240",
       "202",
-      "260 2 1"
+      "260"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (202)"
@@ -994,8 +994,8 @@
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
     "question": "Select the option that is true regarding the following labelled Assertion",
     "options": [
-      "and Reason (R). Assertion (A): The value of   3.9  3  9  1.3  4.29  11.7   1.1  2  1.331     1.23  1.23  0.77  0.77  0.6  4.1     is 31.25. Reason (R): Using (a + b)3 = a3 + b3 + 3ab (a + b) and (x + y)2 = x2 + y2 + 2xy IB ACIO GRADE II 18/01/2024 (Shift-01) ANSWER 1.",
-      "Algebra (Sheet-03) (a) A is true and R is false. (b) Both A and R are true but R is not a correct explanation of A.",
+      "and Reason (R). Assertion (A): The value of   3.9  3  9  1.3  4.29  11.7   1.1  2  1.331      1.23  1.23  0.77  0.77  0.6  4.1    is 31.25. Reason (R): Using (a + b)3 = a3 + b3 + 3ab (a + b) and (x + y)2 = x2 + y2 + 2xy IB ACIO GRADE II 18/01/2024 (Shift-01) Algebra (Sheet-03) (a) A is true and R is false.",
+      "Both A and R are true but R is not a correct explanation of A.",
       "Both A and R are true and R is a correct explanation of A.",
       "A is false and R is true."
     ],

@@ -6,7 +6,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "For which value of k; the series 2, 3 + k",
+    "question": "For which value of k; the series 2, 3 + k and 6 are in A.P.?",
     "options": [
       "4",
       "3",
@@ -119,13 +119,30 @@
     "explanation": "Correct Answer: Option D | (47)"
   },
   {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "In a certain A.P., 5 times of 5th term is equal to 8 times the 8th term, then find its 13th term.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q009",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "How many terms are there",
+    "question": "How many terms are there in the A.P. 3, 7, 11, ....., 407?",
     "options": [
       "96",
       "102",
@@ -144,13 +161,13 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "Find the tn for an arithmetic progression where t3 = 22, t17 = – 20.",
     "options": [
-      "3n – 32",
-      "3n – 31",
-      "–3n + 31",
-      "–3n + 32"
+      "(t17 =)/(3n – 32)",
+      "(– 20)/(3n – 31)",
+      "(a) 3n – 32/(–3n + 31)",
+      "(b) 3n – 31/(–3n + 32)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–3n + 31)"
+    "explanation": "Correct Answer: Option C | ((a) 3n – 32/(–3n + 31))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q012",
@@ -164,10 +181,10 @@
       "p – q + r",
       "p + q + r",
       "p – q – r",
-      "p + q – r"
+      "p + q – r Note-03 Common terms of two APs with common differences d1 and d2, are also in AP with common difference = LCM {d1, d2}"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (p + q – r)"
+    "explanation": "Correct Answer: Option D | (p + q – r Note-03 Common terms of two APs with common differences d1 and d2, are also in AP with common difference = LCM {d1, d2})"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q013",
@@ -176,7 +193,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "Find 10th common term",
+    "question": "Find 10th common term in: 3, 7, 11, 15, 19, .... & 1, 6, 11, 16, 21, ....",
     "options": [
       "191",
       "180",
@@ -227,12 +244,12 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "The sum of three numbers",
+    "question": "The sum of three numbers in A.P. is – 3 and their product is 8. Find the numbers.",
     "options": [
       "2, –1, –4",
       "2, 1, 4",
       "–2, –1, –4",
-      "2, 1, –4"
+      "2, 1, –4 Sum of an A.P."
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2, –1, –4)"
@@ -246,13 +263,13 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "Find sum of first n odd numbers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3n²/(n 2)",
+      "n²/(3n 2)",
+      "2",
+      "2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (n²/(3n 2))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q018",
@@ -397,7 +414,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "A man saves ` 1550",
+    "question": "A man saves ` 1550 in January 2020 and increases his saving by ` 75 every month over the previous month. What is the annual saving of the man for the year 2020? (in `)",
     "options": [
       "23250",
       "23350",
@@ -467,12 +484,12 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "If sum of first 2n terms of the AP 2, 5, 8, ... is equal to the sum of first n terms of 57, 59, 61, ..... Then find n",
     "options": [
-      "9.",
-      "10.(c)",
-      "7.",
-      "8.(a) 9.(b) 10.(c)"
+      "10",
+      "12",
+      "11",
+      "13"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (10.(c))"
+    "explanation": "Correct Answer: Option B | (12)"
   }
 ]

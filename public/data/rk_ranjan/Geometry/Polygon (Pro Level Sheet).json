@@ -1,5 +1,22 @@
 [
   {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "In a polygon five interior angles are 172º each and all remaining interior angles are 160° each. Find the no. of sides & no. of diagonal.",
+    "options": [
+      "16, 162",
+      "15, 189",
+      "21, 189",
+      "18, 162"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (21, 189) | Solution: (c) Sum = (x – 2) = 5 172 + (x – 5) 160  20x = 360 + 5(172 – 160) 20x = 360 + 5 12 x = 21 No. of diagonals = ("
+  },
+  {
     "id": "rkr_geometry_polygon_pro_level_sheet_q002",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -8,10 +25,10 @@
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
     "question": "If a regular polygon has each of its interior angles 3 equal to times of two right angles, then the 5 number of sides is:",
     "options": [
-      "3",
+      "5/3",
       "5",
-      "6",
-      "8"
+      "(a) 3/6",
+      "(b) 5/8"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (5) | Solution: (b) Each interior angle = 180° 3 5 = 108° Each exterior angle = 180° – 108° = 72°  No. of sides = 360 5 72   Alternate Method:- ATQ, Each Interior angle = ("
@@ -40,7 +57,7 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
-    "question": "The interior angle of a regular polygon 36° more than 5 times of its one exterior angle. Find the number of",
+    "question": "The interior angle of a regular polygon 36° more than 5 times of its one exterior angle. Find the number of diagonals in this polygon?",
     "options": [
       "77",
       "119",
@@ -76,13 +93,13 @@
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
     "question": "What is the ratio of the interior angle to the exterior angle of a regular polygon with n sides?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "( n)/N",
+      "–1 ",
+      " n –2 ",
+      "2  n –2 "
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | ( n –2 )"
   },
   {
     "id": "rkr_geometry_polygon_pro_level_sheet_q007",
@@ -110,9 +127,9 @@
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
     "question": "ABCDEF is a regular hexagon with side 12cm. P, Q and R are the midpoints of AF, ED and BC respectively, find the area of PQR?",
     "options": [
-      "72 3 cm 2",
+      "7 3/2 cm 2",
       "81 3 cm 2",
-      "54 3 cm 2",
+      "5 3/4 cm 2",
       "90 3 cm 2"
     ],
     "correctAnswer": 1,
@@ -125,7 +142,7 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
-    "question": "Area of regular octagon is 2 1 . Find the side of octagon.   ",
+    "question": "Area of regular octagon is 18 2  1  . Find the side of octagon.  2  1 ",
     "options": [
       "3",
       "2",
@@ -193,15 +210,15 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
-    "question": "ABCDEF is a regular hexagon of side 2 feet. The area",
+    "question": "ABCDEF is a regular hexagon of side 2 feet. The area (in square feet) of the rectangle BCEF is :",
     "options": [
       "8",
       "4  4 3",
       "4",
-      "4 3 ANSWER (c) 2. (b) 3. (b) 4. (d) 5. (d) (cgqHkqt)"
+      "4 3"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (8) | Solution: ABCDEF is a regular hexagon of side 2 feet. The area square feet) of the rectangle BCEF is : ABCDEF 2 iQhV Hkqtk okyk ,d fu;fer \"kV~Hkqt vk;r BCEF {ks=kiQy (oxZ iQqV (a) 8 (b) 4 4 3  (c) 4 (d) 4 3"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4 3) | Solution: ABCDEF is a regular hexagon of side 2 feet. The area (in square feet) of the rectangle BCEF is : ABCDEF 2 iQhV okyk ,d fu;fer \"kV~Hkqt vk;r BCEF {ks=kiQy iQqV (a) 8 (b) 4 4 3  (c) 4 (d) 4 3"
   },
   {
     "id": "rkr_geometry_polygon_pro_level_sheet_q014",
@@ -210,7 +227,7 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
-    "question": "If the interier angles of a polygon are",
+    "question": "If the interier angles of a polygon are in A.P. with common difference 5º and the smallest angle 120º, then the number of sides of the polygon is:",
     "options": [
       "9 or 16",
       "9",
@@ -218,7 +235,7 @@
       "3 or 16"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9 or 16) | Solution: If the interier angles of a polygon are A.P. with common difference 5º and the smallest angle 120º, then the number of sides of the polygon is: ;fn fdlh cgqHkqt vkarfjd lkoZ 5º 120º lkaekUrj rks cgqHkqt Hkqtkvksa (a) 9 or 16 (b) 9 (c) 13 (d) 3 or 16"
+    "explanation": "Correct Answer: Option A | (9 or 16) | Solution: If the interier angles of a polygon are in A.P. with common difference 5º and the smallest angle 120º, then the number of sides of the polygon is: ;fn fdlh cgqHkqt vkarfjd lkoZ 5º 120º lkaekUrj cgqHkqt Hkqtkvksa (a) 9 or 16 (b) 9 (c) 13 (d) 3 or 16"
   },
   {
     "id": "rkr_geometry_polygon_pro_level_sheet_q015",
@@ -227,14 +244,14 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Polygon (Pro Level Sheet).pdf",
-    "question": "ABCDE is a regular pentagon. The bisector of A of",
+    "question": "ABCDE is a regular pentagon. The bisector of A of the pentagon meets the side CD in M. Find AMC.",
     "options": [
       "80°",
       "90°",
       "75°",
-      "60° KEY 6. (c) 7. (d) 8. (b) 9. (a) 10. (b)"
+      "60°"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (80°) | Solution: ABCDE is a regular pentagon. The bisector of A of the pentagon meets the side CD M. Find AMC. ABCDE ,d fu;fer iapHkqt iapHkqt A lef}Hkktd M ij Hkqtk CD feyrk AMC (a) 80° (b) 90° (c) 75° (d) 60°"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (90°) | Solution: ABCDE is a regular pentagon. The bisector of A of the pentagon meets the side CD in M. Find AMC. ABCDE ,d fu;fer iapHkqt iapHkqt A lef}Hkktd M ij CD feyrk AMC (a) 80° (b) 90° (c) 75° (d) 60°"
   }
 ]

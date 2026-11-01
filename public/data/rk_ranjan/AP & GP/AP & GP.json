@@ -40,7 +40,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "Divide 69 into 3 parts",
+    "question": "Divide 69 into 3 parts in such a way that they become an AP and the product of their smallest parts is 483. Find the series.",
     "options": [
       "19, 23, 27",
       "17, 23, 29",
@@ -49,6 +49,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (21, 23, 25) | Solution: (d) Let, the AP be a – d, a, a + d ATQ, 3a = 69  a = 23 a2 - ad = 483  529 - 23d = 483  46 = 23d  d = 2 Required AP are 21, 23, 25"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "In a certain AP, 5 times of 5th term is equal to 8 times the 8th term, then find its 13th term.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0) | Solution: (a) ATQ, 5 (a + 4d) = 8 (a + 7d)  5a + 20d = 8a + 56d  3a + 36d = 0  a + 12d = 0  We can say 13th term is '0'"
   },
   {
     "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q005",
@@ -108,7 +125,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "How many terms are there",
+    "question": "How many terms are there in G.P. 6, 18, 54, ........, 39366?",
     "options": [
       "7",
       "11",
@@ -125,7 +142,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "Three positive numbers form an increasing GP. If the",
+    "question": "Three positive numbers form an increasing GP. If the middle term in this GP is doubled, then new numbers are in AP, then common ratio of GP is:",
     "options": [
       "2  3",
       "3  2",
@@ -133,7 +150,7 @@
       "2  3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2  3) | Solution: (d) Let GP are a r , a, ar If middle no doubled then, a r , 2a, ar are AP 4a = a r + ar = a 1 r r         1 r r  = 4  r2 - 4r + 1 = 0  r = 4 16 4 2    = 2 3  GP is increasing & Positive  2+ 3 is common ratio."
+    "explanation": "Correct Answer: Option D | (2  3) | Solution: (d) Let GP are a r , a, ar If middle no doubled then, a r , 2a, ar are in AP 4a = a r + ar = a 1 r r         1 r r  = 4  r2 - 4r + 1 = 0  r = 4 16 4 2    = 2 3  GP is increasing & Positive  2+ 3 is common ratio."
   },
   {
     "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q011",
@@ -161,13 +178,13 @@
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
     "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25",
+      "20",
+      "3/11",
+      "14.4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (14.4)"
   },
   {
     "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q013",
@@ -210,7 +227,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "A man saves `1550",
+    "question": "A man saves `1550 in January 2020 and increases his savings by 75 every month as compared to the previous month. How much annual savings did the man make in the year 2020? (in `)",
     "options": [
       "23250",
       "23350",
@@ -227,7 +244,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "The sum of first 123 terms of a Geometric Series (G.P.) is equal to the sum of first 121 terms of the same Geometric Series (G.P.). When the first term is 1235,",
+    "question": "The sum of first 123 terms of a Geometric Series (G.P.) is equal to the sum of first 121 terms of the same Geometric Series (G.P.). When the first term is 1235, what is the 99th term in the same Geometric Series?",
     "options": [
       "1435",
       "1235",
@@ -331,13 +348,13 @@
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
     "question": "Find the sum of the following geometric series (G.P.).",
     "options": [
-      " 1  ",
-      " 1  ",
-      " 1  ",
-      " 1  "
+      "(9  1 )/( 1  )",
+      "(9  1 )/( 1  )",
+      "(4  1 )/( 1  )",
+      "(2  1 )/( 1  )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( 1  )"
+    "explanation": "Correct Answer: Option A | ((9  1 )/( 1  ))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q023",
@@ -346,7 +363,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "The sum of the first 13 terms of a geometric series (G.P.) is equal to the sum of the first 11 terms of the same geometric series (G.P.) Sum of first 15 term",
+    "question": "The sum of the first 13 terms of a geometric series (G.P.) is equal to the sum of the first 11 terms of the same geometric series (G.P.) Sum of first 15 term is 1200. what is the 21st term in the same (G.P.)",
     "options": [
       "1300",
       "1400",
@@ -380,7 +397,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "The sum of 3 numbers",
+    "question": "The sum of 3 numbers in an AP is 3 and their product is 8. Find the numbers.",
     "options": [
       "2, –1, –4",
       "2, 1, 4",
@@ -416,13 +433,13 @@
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
     "question": "Find the sum of the given geometric series (G.P.).",
     "options": [
-      " 1    ",
-      " 1    ",
-      " 1    ",
-      " 1    "
+      "(7   1  )/( 1    )",
+      "(2   1  )/( 1    )",
+      "(10   1  )/( 1    )",
+      "(3   1  )/( 1    )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( 1    )"
+    "explanation": "Correct Answer: Option A | ((7   1  )/( 1    ))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q028",
@@ -448,7 +465,7 @@
     "chapter": "AP & GP",
     "sheetType": "Pro Level",
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
-    "question": "Terms a, 1, b, are",
+    "question": "Terms a, 1, b, are in AP and terms 1, a, b are in GP. Find a and b, given a  b.",
     "options": [
       "2, 4",
       "–2, 1",
@@ -467,13 +484,13 @@
     "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
     "question": "If the GM of series 32, 4, 8, n is 8. Find value of n.",
     "options": [
-      "4",
-      "2",
-      "8",
-      "16"
+      "(16. (b) 17. (a) 18.)/28.",
+      "(a) 19. (a) 20. (c)/(29. (d) 30. (a))",
+      "(16. (b) 17. (a) 18.)/(27. (a) 28. (b) 29.)",
+      "(a) 19. (a) 20. (c)/(30. (a))"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (4)"
+    "explanation": "Correct Answer: Option A | ((16. (b) 17. (a) 18.)/28.)"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q001",
@@ -482,7 +499,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "For which value of k; the series 2, 3 + k",
+    "question": "For which value of k; the series 2, 3 + k and 6 are in A.P.?",
     "options": [
       "4",
       "3",
@@ -595,13 +612,30 @@
     "explanation": "Correct Answer: Option D | (47)"
   },
   {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "In a certain A.P., 5 times of 5th term is equal to 8 times the 8th term, then find its 13th term.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q009",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "How many terms are there",
+    "question": "How many terms are there in the A.P. 3, 7, 11, ....., 407?",
     "options": [
       "96",
       "102",
@@ -620,13 +654,13 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "Find the tn for an arithmetic progression where t3 = 22, t17 = – 20.",
     "options": [
-      "3n – 32",
-      "3n – 31",
-      "–3n + 31",
-      "–3n + 32"
+      "(t17 =)/(3n – 32)",
+      "(– 20)/(3n – 31)",
+      "(a) 3n – 32/(–3n + 31)",
+      "(b) 3n – 31/(–3n + 32)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–3n + 31)"
+    "explanation": "Correct Answer: Option C | ((a) 3n – 32/(–3n + 31))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q012",
@@ -640,10 +674,10 @@
       "p – q + r",
       "p + q + r",
       "p – q – r",
-      "p + q – r"
+      "p + q – r Note-03 Common terms of two APs with common differences d1 and d2, are also in AP with common difference = LCM {d1, d2}"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (p + q – r)"
+    "explanation": "Correct Answer: Option D | (p + q – r Note-03 Common terms of two APs with common differences d1 and d2, are also in AP with common difference = LCM {d1, d2})"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q013",
@@ -652,7 +686,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "Find 10th common term",
+    "question": "Find 10th common term in: 3, 7, 11, 15, 19, .... & 1, 6, 11, 16, 21, ....",
     "options": [
       "191",
       "180",
@@ -703,12 +737,12 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "The sum of three numbers",
+    "question": "The sum of three numbers in A.P. is – 3 and their product is 8. Find the numbers.",
     "options": [
       "2, –1, –4",
       "2, 1, 4",
       "–2, –1, –4",
-      "2, 1, –4"
+      "2, 1, –4 Sum of an A.P."
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2, –1, –4)"
@@ -722,13 +756,13 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "Find sum of first n odd numbers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3n²/(n 2)",
+      "n²/(3n 2)",
+      "2",
+      "2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (n²/(3n 2))"
   },
   {
     "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q018",
@@ -873,7 +907,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
-    "question": "A man saves ` 1550",
+    "question": "A man saves ` 1550 in January 2020 and increases his saving by ` 75 every month over the previous month. What is the annual saving of the man for the year 2020? (in `)",
     "options": [
       "23250",
       "23350",
@@ -943,13 +977,13 @@
     "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
     "question": "If sum of first 2n terms of the AP 2, 5, 8, ... is equal to the sum of first n terms of 57, 59, 61, ..... Then find n",
     "options": [
-      "9.",
-      "10.(c)",
-      "7.",
-      "8.(a) 9.(b) 10.(c)"
+      "10",
+      "12",
+      "11",
+      "13"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (10.(c))"
+    "explanation": "Correct Answer: Option B | (12)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q001",
@@ -975,7 +1009,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Find the 11th term",
+    "question": "Find the 11th term in the series.",
     "options": [
       "6812",
       "6720",
@@ -992,7 +1026,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "How many terms are there",
+    "question": "How many terms are there in G.P. 6, 18, 54, ........, 39366?",
     "options": [
       "7",
       "11",
@@ -1011,13 +1045,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "Which term of the G.P. 2, 1, , ,... is ? 2 4 128 1 1 1",
     "options": [
-      "8",
-      "9",
-      "7",
-      "10"
+      "2 4/8",
+      "128/9",
+      "(a) 8/7",
+      "(b) 9/10"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (9)"
+    "explanation": "Correct Answer: Option B | (128/9)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q005",
@@ -1028,13 +1062,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "If x, 2x + 2, 3x + 3 are first three terms of a GP then find its 4th term.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "–27",
+      "–27",
+      "2/27",
+      "None"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (–27)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q006",
@@ -1043,7 +1077,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Three positive numbers form an increasing",
+    "question": "Three positive numbers form an increasing GP. If the middle term in this GP is doubled, then new numbers are in AP, then common ratio of GP is:",
     "options": [
       "2  3",
       "3  2",
@@ -1113,13 +1147,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "Find the sum of the G.P.",
     "options": [
-      " 1 –   ",
-      " 1 –   ",
-      " 1 –   ",
-      " 1 –   "
+      "(1   1  n )/( 1 –   )",
+      "(2   1  n )/( 1 –   )",
+      "(4   1  n )/( 1 –   )",
+      "(5   1  n )/( 1 –   )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( 1 –   )"
+    "explanation": "Correct Answer: Option A | ((1   1  n )/( 1 –   ))"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q011",
@@ -1148,12 +1182,12 @@
     "question": "Find the sum up to n terms of the sequence:",
     "options": [
       "7n–1 7",
-      " 9n – 1  10 –n    81 7n",
+      "  9n – 1  10 –n   81 7n",
       "81 7n  1",
-      "10n Note: (a) 3 terms (b) 4 terms (c) 5 terms"
+      "10n"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 9n – 1  10 –n    81 7n)"
+    "explanation": "Correct Answer: Option B | (  9n – 1  10 –n   81 7n)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q014",
@@ -1196,7 +1230,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "After striking the floor, a ball rebounds to 4 th of the height from which it has 5 fallen. Find the total distance that it travels coming to rest if it has been gently dropped from a height of 120 meters.",
+    "question": "After striking the floor, a ball rebounds to 4 th of the height from which it has 5 fallen. Find the total distance that it travels coming to rest if it has been gently dropped from a height of 120 meters. 4",
     "options": [
       "540 mtrs",
       "960 mtrs",
@@ -1213,7 +1247,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "A square is drawn by joining the mid points of the sides of a square. A third square is drawn inside the second square",
+    "question": "A square is drawn by joining the mid points of the sides of a square. A third square is drawn inside the second square in the same way and the process is continued infinitely. If the side of the sqaure is 10 cm, then the sum of areas of all the squares so formed is",
     "options": [
       "100 cm2",
       "200 cm2",
@@ -1230,11 +1264,11 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "An equilateral triangle by joining the midpoints of a given equilateral triangle of side 18cm. A thord triangle is drawn inside",
+    "question": "An equilateral triangle by joining the midpoints of a given equilateral triangle of side 18cm. A thord triangle is drawn inside the second in the same way. The process is constructed indefinitely. The sum of the areas of all such triangle in cm2 is",
     "options": [
       "324 3",
       "108 3",
-      "54 3",
+      "5 3/4",
       "200 3"
     ],
     "correctAnswer": 1,
@@ -1264,7 +1298,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Sum of first 63 terms of a G.P. is equal to",
+    "question": "Sum of first 63 terms of a G.P. is equal to the sum of the first 61 terms in the same G.P. When second term is –653, what is the sum of 50 terms in the G.P.?",
     "options": [
       "0",
       "4",
@@ -1281,7 +1315,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Sum of first 13 items of a G.P. is equal",
+    "question": "Sum of first 13 items of a G.P. is equal to the sum of the first 11 terms in the same G.P. Sum of the first 15 terms is 1200, what is the 21st term in the same G.P.?",
     "options": [
       "1300",
       "1400",
@@ -1317,13 +1351,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25",
+      "20",
+      "3/11",
+      "14.4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (14.4)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q024",
@@ -1334,13 +1368,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "For two observations, the sum is S and product is P. What is the harmonic mean of these two observations?",
     "options": [
-      "Answer/Geometric Progression",
-      "5.(a)",
-      "Answe/Geome",
-      "r/tric Progression"
+      "P",
+      "(2P)",
+      "(2 P)/S",
+      "P/(2S)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Answe/Geome)"
+    "explanation": "Correct Answer: Option C | ((2 P)/S)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q025",
@@ -1351,12 +1385,12 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "If arithmetic ad geometric mean of x and y is 8 and 3 7 respectively, then the value of x³ + y³ is?",
     "options": [
-      "Key",
-      "8.(c) 9.(c) 10.(a)",
-      "Key",
-      "7.(b) 8.(c) 9.(c) 10.(a)"
+      "1072",
+      "945",
+      "559",
+      "855"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Key) | Exam: phase IX 01/08/2022 (Shift-04)"
+    "explanation": "Correct Answer: Option A | (1072) | Exam: phase IX 01/08/2022 (Shift-04)"
   }
 ]

@@ -11,10 +11,10 @@
       "Rational/ifjes",
       "Irrational/vifjes",
       "Integers/iw.kk±d",
-      "Complex/lfEe"
+      "Complex/lfEeJ"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Complex/lfEe) | Exam: SSC CPO 11/12/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (Complex/lfEeJ) | Exam: SSC CPO 11/12/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q002",
@@ -25,13 +25,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The set of real numbers includes which of the following?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only rational numbers",
+      "Only irratioal numbers",
+      "Both rational and irrational numbers",
+      "Only whole numbers"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (Both rational and irrational numbers) | Exam: SSC CGL 23/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q003",
@@ -45,7 +45,7 @@
       "Rational (ifjes;)",
       "Whole (iw.kZ)",
       "Irrational (vifjes;)",
-      "Integer (iw.kk±d"
+      "Integer (iw.kk±d)"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Irrational (vifjes;)) | Exam: SSC CPO 09/12/2025 (Shift-01)"
@@ -59,13 +59,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these is a number that is real but NOT rational?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "Square root of 7",
+      "– 2"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 21/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Square root of 7) | Exam: SSC CGL 21/09/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q005",
@@ -76,13 +76,30 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these number is neither rational nor integer?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 4",
+      "1.5",
+      "Square root of 2",
+      "7"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Square root of 2) | Exam: SSC CGL 23/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "In a quiz, a student was asked to find a number that is:",
+    "options": [
+      "5",
+      "3  1",
+      "2.5",
+      "4.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3  1) | Exam: SSC CHSL 25/11/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q007",
@@ -93,13 +110,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Rational number + Irrational number = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational number",
+      "Irrational number",
+      "Either Rational number or Irrational number.",
+      "Integer/iw.kk±d"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CPO 10/12/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (Irrational number) | Exam: SSC CPO 10/12/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q008",
@@ -112,11 +129,11 @@
     "options": [
       "Always irrational/ges'kk vifjes",
       "Always rational/ges'kk ifjes",
-      "Rational if x =– y/ifjes; vxj x = –y",
-      "Never rational/dHkh ifjes; ugh"
+      "Rational if x =– y",
+      "Never rational/dHkh ifjes; ugha"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Rational if x =– y/ifjes; vxj x = –y) | Exam: SSC CHSL 18/11/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Rational if x =– y) | Exam: SSC CHSL 18/11/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q009",
@@ -130,10 +147,10 @@
       "Always rational/lnSo ifjes",
       "Always irrational/lnSo vifjes",
       "Always integer/lnSo iw.kkZad",
-      "Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes"
+      "Sometimes rational, sometimes irrational"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes) | Exam: SSC CGL 20/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (Sometimes rational, sometimes irrational) | Exam: SSC CGL 20/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q010",
@@ -144,13 +161,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The product of two rational numbers is always:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational/ifjes",
+      "Irrational/vifjes",
+      "Natural",
+      "Integer/iw.kk±d Difference between a Rational & an Irrational Number."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 24/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (Rational/ifjes) | Exam: SSC CHSL 24/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q011",
@@ -161,13 +178,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The decimal expansion of a rational number is:",
     "options": [
-      "Non-terminating and non-repeating/vuolkuh",
-      "Terminating or repeating/lkar ;k vkorhZ",
+      "Non-terminating and non-repeating",
+      "Terminating or repeating/lkar",
       "Terminating only/dsoy lkar",
-      "Repeating only/dsoy vkorh"
+      "Repeating only/dsoy vkorhZ"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Terminating or repeating/lkar ;k vkorhZ) | Exam: SSC CHSL 15/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (Terminating or repeating/lkar) | Exam: SSC CHSL 15/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q012",
@@ -178,13 +195,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which one of the following is TRUE about repeating decimals?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Always irrational/ges'kk vifjes",
+      "Never rational/dHkh ifjes; ugha",
+      "Always rational/ges'kk ifjes",
+      "Always whole numbers"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 28/11/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (Always rational/ges'kk ifjes) | Exam: SSC CHSL 28/11/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q013",
@@ -198,7 +215,7 @@
       "Terminating decimal/lkar n'keyo",
       "Repeating decimal/vkorhZ n'keyo",
       "Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo",
-      "Can be either terminating or repeating decimal/;g ;k rks lkar ;k vkorhZ n'keyo gks"
+      "Can be either terminating or repeating"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo) | Exam: SSC CHSL 22/11/2025 (Shift-01)"
@@ -212,13 +229,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "A number is said to be pure recurring if:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only one digit repeats",
+      "Decimal terminates",
+      "Repeating digits start immediately after decimal",
+      "Has non-repeating part then repeating part"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 30/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (Repeating digits start immediately after decimal) | Exam: SSC CHSL 30/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q015",
@@ -295,7 +312,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
-    "question": "Which of these fractions results",
+    "question": "Which of these fractions results in a non-terminating repeating decimal?",
     "options": [
       "1/4",
       "1/17",
@@ -314,13 +331,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following number is a terminating decimal?",
     "options": [
-      "69/42",
-      "37 5896/75",
-      "58/12",
-      "73 6917/8 42"
+      "6937/42",
+      "5896/75",
+      "5873/128",
+      "6917/42"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (58/12)"
+    "explanation": "Correct Answer: Option C | (5873/128)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q021",
@@ -331,13 +348,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following statement is TRUE for whole numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "They include fractions.",
+      "They include negative numbers.",
+      "They include zero and positive integers.",
+      "They start form 1"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 24/09/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (They include zero and positive integers.) | Exam: SSC CGL 24/09/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q022",
@@ -348,13 +365,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which set includes numbers like –5, 0 and 6?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Natural number",
+      "Integers/iw.kkZad",
+      "Irrational numbers",
+      "Whole numbers"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (Integers/iw.kkZad) | Exam: SSC CGL 25/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q023",
@@ -365,13 +382,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which set does NOT contain negative numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Integers/iw.kk±d",
+      "Natural numbers",
+      "Rational numbers",
+      "Real numbers"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (Natural numbers) | Exam: SSC CGL 25/09/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q024",
@@ -382,13 +399,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these is both an integer and a whole number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 4",
+      "0 1",
+      "3.5",
+      "2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 20/09/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (0 1) | Exam: SSC CGL 20/09/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q025",
@@ -487,7 +504,7 @@
       "Only one",
       "Only two",
       "All three",
-      "Non"
+      "None"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Only one)"
@@ -640,10 +657,10 @@
       "(156, 126)",
       "(23, 92)",
       "(24, 351)",
-      "(18, 35"
+      "(18, 35)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((18, 35)"
+    "explanation": "Correct Answer: Option D | ((18, 35))"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q040",
@@ -657,7 +674,7 @@
       "(198, 175)",
       "(7, 35)",
       "(217, 651)",
-      "(32, 62"
+      "(32, 62)"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | ((198, 175)) | Exam: CONSTABLE 14/11/2023 (Shift- 01)"
@@ -695,6 +712,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (81, 16) | Exam: RRB Technician G-III, 26/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "In which of the pairs of the following numbers is none of the two numbers a prime number, but the two numbers are co-primes?",
+    "options": [
+      "(21, 35)",
+      "(11, 17)",
+      "(19, 27)",
+      "(8, 25)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((8, 25)) | Exam: RRB Technician G-III, 28/12/2024 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q044",
@@ -737,7 +771,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
-    "question": "Four Prime numbers are taken",
+    "question": "Four Prime numbers are taken in ascending order. The product of first three is 385 and of last three is 1001. Find the smallest prime no.",
     "options": [
       "5",
       "7",
@@ -776,7 +810,7 @@
       "b is prime",
       "a and b are co-prime",
       "a is prime",
-      "a and b are not co-prime Composite It has more than two factors. Ex. 4, 6, 8, 9,10,12,14,15 etc.  9 Note: (i) 1 is neither prime nor composite number. (ii) If a and b are any two odd primes then a2 + b2 and a2 – b2 is composite numbers."
+      "a and b are not co-prime"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (a and b are co-prime) | Exam: CONSTABLE 16/11/2023 (Shift- 03)"
@@ -807,13 +841,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which one of the following is not correct?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1 is neither prime nor composite.",
+      "0 is neither positive nor negative.",
+      "If p",
+      "2 is an irrational number"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (If p)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q051",
@@ -824,13 +858,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following numbers is a Perfect Number?",
     "options": [
-      "KEY",
-      "7. (b) 8. (c) 9. (d) 10. (a)",
-      "KEY",
-      "10. (a)"
+      "12",
+      "6",
+      "28",
+      "Both (b) & (c)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10. (a))"
+    "explanation": "Correct Answer: Option D | (Both (b) & (c))"
   },
   {
     "id": "rkr_number_system_divisivility_classroom_sheet_q001",
@@ -841,13 +875,13 @@
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
     "question": "What is the condition for a number to be divisible by 3?",
     "options": [
-      "The difference between the sum of the odd and even digits of that number is divisible",
-      "The last two digits of that number are foHkkT; gksa",
-      "The sum of the digits of that number is foHkkT; gks",
-      "The last digit of that number is either 0 or"
+      "The difference between the sum of the odd and even digits of that number is divisible by 3",
+      "The last two digits of that number are divisible by 3",
+      "The sum of the digits of that number is divisible by 3",
+      "The last digit of that number is either 0 or any even number"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (The sum of the digits of that number is foHkkT; gks) | Exam: SSC CHSL TIER-II 26/06/2023"
+    "explanation": "Correct Answer: Option C | (The sum of the digits of that number is divisible by 3) | Exam: SSC CHSL TIER-II 26/06/2023"
   },
   {
     "id": "rkr_number_system_divisivility_classroom_sheet_q002",
@@ -907,15 +941,32 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
-    "question": "Find the value of k such that the number k53206k is divisible b",
+    "question": "Find the value of k such that the number k53206k is divisible by 6.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "1",
+      "2",
+      "7"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC CGL 19/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the number 87m6203m is divisible by 6, then find the sum of all possible values of ‘m’.",
+    "options": [
+      "10",
+      "15",
+      "16",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10) | Exam: SSC CHSL 05/08/2021 (Shift- 3)"
   },
   {
     "id": "rkr_number_system_divisivility_classroom_sheet_q007",
@@ -1298,7 +1349,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
-    "question": "Which digits should come",
+    "question": "Which digits should come in the place of x and y, respectively, if the number 62684xy is divisible by both 8 and 5?",
     "options": [
       "5 and 0",
       "4 and 0",
@@ -1830,7 +1881,7 @@
       "ABC",
       "CBA",
       "BCA",
-      "AA"
+      "AAB"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (ABC) | Exam: Constable 28/01/2019 (Shift-02)"
@@ -1876,7 +1927,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
-    "question": "What is the value of x",
+    "question": "What is the value of x in the number 3426x if the number is divisible by 6 but not divisible by 5?",
     "options": [
       "3",
       "4",
@@ -1898,7 +1949,7 @@
       "7",
       "6",
       "5",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (7)"
@@ -1932,7 +1983,7 @@
       "120",
       "121",
       "119",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (121)"
@@ -1966,7 +2017,7 @@
       "120",
       "121",
       "119",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (119)"
@@ -1983,7 +2034,7 @@
       "499",
       "500",
       "501",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (500)"
@@ -2000,7 +2051,7 @@
       "483",
       "484",
       "485",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (484)"
@@ -2034,7 +2085,7 @@
       "49",
       "50",
       "51",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (50)"
@@ -2068,7 +2119,7 @@
       "56",
       "57",
       "58",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (58)"
@@ -2136,7 +2187,7 @@
       "9",
       "11",
       "10",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (10)"
@@ -2369,7 +2420,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
-    "question": "How many numbers are divisible by 3 or 5",
+    "question": "How many numbers are divisible by 3 or 5 in range 1 to 45.",
     "options": [
       "20",
       "21",
@@ -2386,7 +2437,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
-    "question": "How many numbers are divisible by 3 or 5",
+    "question": "How many numbers are divisible by 3 or 5 in range 1 to 60.",
     "options": [
       "26",
       "28",
@@ -2493,7 +2544,7 @@
       "53",
       "54",
       "55",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (53)"
@@ -2510,7 +2561,7 @@
       "144",
       "143",
       "146",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (144) | Exam: SSC CGL 04/03/ 2020 (Shift- 03)"
@@ -2677,13 +2728,13 @@
     "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
     "question": "How many natural number less than 1000 are divisible by 5 or 7 but NOT by 35?",
     "options": [
-      "5. (a) 6. (a) 7. (a) 8.",
-      "9. (b) 10. (a)",
-      "2.",
-      "3. (d) 4. (a) 5. (a) 6. (a) 7. (a) 8. (b) 9. (b) 10. (a)"
+      "285",
+      "313",
+      "341",
+      "243"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5. (a) 6. (a) 7. (a) 8.) | Exam: SSC CPO 11/12/2019 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (285) | Exam: SSC CPO 11/12/2019 (Shift-01)"
   },
   {
     "id": "rkr_number_system_factor_classroom_sheet_q001",
@@ -2884,7 +2935,7 @@
       "5428",
       "54777",
       "33667",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (54777)"
@@ -2896,7 +2947,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "Consider the following statements",
+    "question": "Consider the following statements in respect of all factors of 360:",
     "options": [
       "1 only",
       "2 only",
@@ -2983,8 +3034,8 @@
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
     "question": "Find the product of all factors of 544?",
     "options": [
-      "12",
-      "544 2",
+      "12/544",
+      "3/2",
       "558",
       "5446"
     ],
@@ -3015,7 +3066,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "Find the number of prime factors",
+    "question": "Find the number of prime factors in the",
     "options": [
       "45",
       "35",
@@ -3032,7 +3083,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "The numbers are",
+    "question": "The numbers are in 323",
     "options": [
       "No prime factors/dksbZ vHkkT; xq.ku•aM ugha",
       "Four prime factors/pkj vHkkT; xq.ku•aM",
@@ -3170,13 +3221,13 @@
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
     "question": "Find the ways to express 11025 as product of two factors.",
     "options": [
-      "ANSWER",
-      "KEY",
-      "ANSWER KEY",
-      "9. (b) 10. (c)"
+      "13",
+      "14",
+      "27",
+      "30"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (KEY)"
+    "explanation": "Correct Answer: Option B | (14)"
   },
   {
     "id": "rkr_number_system_no_of_zeros_classroom_sheet_q001",
@@ -3236,7 +3287,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "Find the number of trailing zeros",
+    "question": "Find the number of trailing zeros in 475!",
     "options": [
       "137",
       "127",
@@ -3253,7 +3304,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "Find the number of trailing zeros",
+    "question": "Find the number of trailing zeros in 15245!",
     "options": [
       "3707",
       "3507",
@@ -3270,7 +3321,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "How many zeros are there",
+    "question": "How many zeros are there in the product 150",
     "options": [
       "262",
       "261",
@@ -3321,12 +3372,12 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What is the highest power of 4",
+    "question": "What is the highest power of 4 in 100! ?",
     "options": [
       "32",
       "48",
       "49",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (48)"
@@ -3338,7 +3389,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What is the highest power of 72",
+    "question": "What is the highest power of 72 in 100! ?",
     "options": [
       "20",
       "21",
@@ -3423,12 +3474,12 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What are the last three digits",
+    "question": "What are the last three digits in the multiplication of",
     "options": [
       "1, 0, 5",
       "2, 0, 5",
       "2, 1, 5",
-      "3, 0, 0 ANSWER 1. (b"
+      "3, 0, 0"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2, 0, 5)"
@@ -3474,7 +3525,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "How many numbers are there from 400 to 700",
+    "question": "How many numbers are there from 400 to 700 in which the digit 6 occurs exactly twice?",
     "options": [
       "19",
       "21",
@@ -3525,7 +3576,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following",
+    "question": "Consider the following in respect of prime number p and composite number c.",
     "options": [
       "Option A",
       "Option B",
@@ -3561,13 +3612,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "pc can be odd./pc fo\"ke gks ldrk",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "2. The sum of three prime numbers is 90. If one of them exceeds another by 30, then one of the number is:"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (6) | Solution: An + 1 is always an even number. An + 1 ges'kk ,d le Which of the above statements is/are correct mi;qZDr dFku lgh (a) 1 only/dsoy 1 (b) 2 only/dsoy 2 (c) 3 only/dsoy 3 (d) 2 and 3 only/dsoy 2 3 SOLUTIONS"
+    "explanation": "Correct Answer: Option A | (1 and 2 only) | Solution: An + 1 is always an even number. An + 1 ges'kk ,d le Which of the above statements is/are correct mi;qZDr dFku lgh (a) 1 only/dsoy 1 (b) 2 only/dsoy 2 (c) 3 only/dsoy 3 (d) 2 and 3 only/dsoy 2 3 SOLUTIONS"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q004",
@@ -3576,7 +3627,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the number of fives used",
+    "question": "What is the number of fives used in numbering a 260- page book?",
     "options": [
       "55",
       "56",
@@ -3632,7 +3683,7 @@
       "I and II",
       "I and III",
       "II and III",
-      "I, II and II"
+      "I, II and III"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (I and II)"
@@ -3661,7 +3712,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the highest power of 4",
+    "question": "Find the highest power of 4 in 4",
     "options": [
       "32",
       "33",
@@ -3763,11 +3814,11 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Which one of the following is correct",
+    "question": "Which one of the following is correct in respect of the Statements given below?",
     "options": [
       "None of the three statements (1, 2, 3) given is true.",
-      "Statements 1 and 2 are true, but Statement 3 is",
-      "Statements 1 and 3 are true, but Statement 2 is",
+      "Statements 1 and 2 are true, but Statement 3 is false.",
+      "Statements 1 and 3 are true, but Statement 2 is false.",
       "All the three statements given above are true."
     ],
     "correctAnswer": 3,
@@ -3797,7 +3848,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements",
+    "question": "Consider the following statements in respect of all factors of 360:",
     "options": [
       "Option A",
       "Option B",
@@ -3887,10 +3938,10 @@
       "2 Only",
       "74 Only",
       "111 Only",
-      "All of thes"
+      "All of these"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (All of thes)"
+    "explanation": "Correct Answer: Option D | (All of these)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q023",
@@ -3989,7 +4040,7 @@
       "Only 1/dsoy 1",
       "Only 2/dsoy 2",
       "Both 1 and 2/1 dsoy 2 nksuksa",
-      "Neither 1 nor 2/u rks 1, u gh 2"
+      "Neither 1 nor 2"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Both 1 and 2/1 dsoy 2 nksuksa)"
@@ -4001,7 +4052,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "When 860, 1712 and 3203 are divided by a two-digit",
+    "question": "When 860, 1712 and 3203 are divided by a two-digit number x, then the remainder in each case is y. If",
     "options": [
       "12",
       "10",
@@ -4154,7 +4205,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let x be the least number of 5 digits, which when",
+    "question": "Let x be the least number of 5 digits, which when divided by 28, 40, 42 and 48, leaves remainder 6 in each case and x is divisible by 246. What is the sum of the digits of x?",
     "options": [
       "13",
       "12",
@@ -4171,15 +4222,15 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Calculate number of trailing zeros",
+    "question": "Calculate number of trailing zeros in the following 1010 + 1020 + 1030 + 1040 + 1050",
     "options": [
-      "50 zero",
-      "30 zero",
-      "20 zero",
-      "10 zer"
+      "(1010 + 1020 +)/(50 zero)",
+      "(1030 + 1040 + 1050)/(30 zero)",
+      "(a) 50 zero/(20 zero)",
+      "(b) 30 zero/(10 zero)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10 zer)"
+    "explanation": "Correct Answer: Option D | ((b) 30 zero/(10 zero))"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q040",
@@ -4256,7 +4307,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Calculate number of trailing zeros",
+    "question": "Calculate number of trailing zeros in the following",
     "options": [
       "1050",
       "1200",
@@ -4278,7 +4329,7 @@
       "y < x < z",
       "z < x < y",
       "z < y < z",
-      "x < y <"
+      "x < y < z"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (z < x < y)"
@@ -4329,7 +4380,7 @@
       "9,36,000",
       "9,360",
       "9,3600",
-      "No"
+      "Not"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (9,36,000)"
@@ -4445,30 +4496,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "If x is the remainder when 361284 is divided by 5 and y is the remainder when 496 is divided by 6. What is the value of (2x – y)?",
     "options": [
-      "–3",
-      "–2",
-      "0",
-      "2"
+      "1",
+      "2",
+      "2",
+      "6 58. What is the remainder when 2p – 1 is divided by p, where p > 5 is a prime number?"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (–2)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q056",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "The sum of all possible products taken two at a time out of the nubers ± 1, ± 2, ± 3, ± 4, ± 5 is",
-    "options": [
-      "0",
-      "–30",
-      "–55",
-      "55"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–55)"
+    "explanation": "Correct Answer: Option B | (2)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q057",
@@ -4477,321 +4511,15 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let p be the remainder when 784 is divided by 342 and q be the remainder when 784 is divided by 344. What is (p – q) equal to ?",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "6"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q058",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the remainder when 2p – 1 is divided by p, where p > 5 is a prime number?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q059",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If a 9-digit number 9834x97y4 is divisible by 88, then what is the maximum possible value of (3x + 2y)",
-    "options": [
-      "31",
-      "27",
-      "34",
-      "37"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (34)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q060",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the remainder when (37)47 is divided by 19?",
-    "options": [
-      "18",
-      "17",
-      "1",
-      "0"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (18)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q061",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "There are two natural numbers m and n (m > n). When m is divided by 12, it leaves a remainder 4. When n is divided by 12, it leaves a remainder 6.",
-    "options": [
-      "I only",
-      "II only",
-      "Both I and II",
-      "Neither I nor I"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Both I and II)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q062",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "The quotient when x4 – x2 + 7x + 5 is divided by (x + 2) is ax3 + bx² + cx + d. What are the values of a, b, c and d respectively?",
-    "options": [
-      "1, –2, 3, 1",
-      "–1, 2, 3, 1",
-      "1, –2, –3, –1",
-      "–1, 2, –3, –1"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1, –2, 3, 1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q063",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Given that N =  33 34  35 . What will be the remainder when N is divided by 7.",
-    "options": [
-      "2",
-      "4",
-      "0",
-      "1"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q064",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements:",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q065",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "A number when divided by a divisor, leaves a remainder of 29. Thrice the number, when divided by the same divisor, gives remainder 7. Find the divisor. If it is less than 50?",
-    "options": [
-      "60",
-      "40",
-      "80",
-      "20"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (40)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q066",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If I = a2 + b2 + c2, where a and b are consecutive integers and c = ab, then I is",
-    "options": [
-      "an even number and it is not a square of an integer",
-      "an odd number and it is not a square of an integer",
-      "square of an even integer",
-      "square of an odd integer"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (square of an odd integer)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q067",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the number of trailing zeroes",
-    "options": [
-      "18",
-      "21",
-      "22",
-      "17"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (18)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q068",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "How many pairs (A, B) are possible",
-    "options": [
-      "5",
-      "6",
-      "9",
-      "11"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q069",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find number of zeroes (832 – 831 – 830)(736 – 734 – 732)",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q070",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the number of factors of 243 – 163 – 83?",
-    "options": [
-      "33",
-      "30",
-      "28",
-      "24"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (33)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q071",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let a, b, c and d be four positive integers such that a + b + c + d = 200. If S = (–1)a + (–1)b + (–1)c + (–1)d, then what is the number of possible values of S?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q072",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "If the 8-digit number 123456xy is divisible by 8, then the total possible pairs of (x,y) are:",
-    "options": [
-      "8",
-      "13",
-      "10",
-      "11"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (13)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q073",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Consider the following statements:",
-    "options": [
-      "1 and 2 only",
-      "2 and 3 only",
-      "1 and 3 only",
-      "1, 2 and 3"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1, 2 and 3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q074",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the unit digit of 1! + 2! + 3! + 4! +--26!.",
-    "options": [
-      "0",
-      "4",
-      "3",
-      "1"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
-  },
-  {
-    "id": "rkr_number_system_number_system_pro_level_sheet_q075",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Number System",
-    "sheetType": "Pro Level",
-    "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Ram gives a six-digit number 468312 to Shyam to check the divisibility. Shyam tells Ram that the number is divisible by 57. Shyam asks Ram, \"If we",
+    "question": "Shyam asks Ram, \"If we rearrange the digits of this number in descending order, then by which number will it be always divisible?\"",
     "options": [
       "2",
       "17",
       "3",
       "19"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3)"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q076",
@@ -4819,13 +4547,30 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "Which one is true?",
     "options": [
-      "(I) sum of even factors of 1800 is 5,642.",
-      "(II) sum of odd factors of 900 is 2,351. (a) Only II/dsoy II (c) Only I /dsoy I",
-      "Part (3)",
-      "Part (4)"
+      "Only II/dsoy II",
+      "I and II both",
+      "Only I /dsoy I",
+      "None of the above"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Part (3))"
+    "explanation": "Correct Answer: Option C | (Only I /dsoy I)"
+  },
+  {
+    "id": "rkr_number_system_number_system_pro_level_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "Pro Level",
+    "sheetFile": "Number System Pro Level sheet.pdf",
+    "question": "In a division sum, the divisor is 13 times the quotient and 6 times the remainder. If the remainder is 39, then the dividend is:",
+    "options": [
+      "4,240",
+      "4,800",
+      "4,251",
+      "4,576"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4,251)"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q079",
@@ -4851,7 +4596,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Find the number of zeroes",
+    "question": "Find the number of zeroes in (832 – 831 – 830)",
     "options": [
       "1",
       "2",
@@ -4938,13 +4683,13 @@
     "sheetFile": "Number System Pro Level sheet.pdf",
     "question": "Which of the following statements is/are correct?",
     "options": [
-      "(i) A number is divisible by 125, if the last three digits of the number form a number that is divisible by 53.",
-      "(ii) If a number is divisible by two numbers, then it is divisible by the product of the two numbers.",
-      "(iii) A number is divisible by 36, if the number is divisible by 4, 6 and 12. (a)",
-      "(ii) and"
+      "(ii) and (iii)",
+      "(i) and (ii)",
+      "(i) only/ dsoy (i)",
+      "(ii) only/dsoy (ii)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ((iii) A number is divisible by 36, if the number is divisible by 4, 6 and 12. (a))"
+    "explanation": "Correct Answer: Option C | ((i) only/ dsoy (i))"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q086",
@@ -4970,7 +4715,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "Let x be the least number of 5 digits, which when",
+    "question": "Let x be the least number of 5 digits, which when divided by 28, 40, 42 and 48, leaves remainder 6 in each case and x is divisible by 246. What is the sum of the digits of x?",
     "options": [
       "13",
       "12",
@@ -5021,7 +4766,7 @@
     "chapter": "Number System",
     "sheetType": "Pro Level",
     "sheetFile": "Number System Pro Level sheet.pdf",
-    "question": "What is the sum of the digits of the least 5-digit number which when divided by 10, 14, 16 and 35,",
+    "question": "What is the sum of the digits of the least 5-digit number which when divided by 10, 14, 16 and 35, the remainder in each is 1 and the number is divisible by 19?",
     "options": [
       "14",
       "16",
@@ -5094,7 +4839,7 @@
       "2",
       "15",
       "16",
-      "CN"
+      "CND"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2)"
@@ -5181,8 +4926,8 @@
       "6, 8, 8, 7, 8, 6",
       "8, 6, 8, 8, 6, 7"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (6, 8, 8, 7, 8, 6) | Solution: Consider the multiplication 999 abc = def 132 decimal notation, where a, b, c, d, e and f are digits. What are the values of a, b, c, d, e and f respectively?/ n'keyo ladsr i¼fr xq.kuiQy 999 abc = def132 ij fopkj a, b, c, d, e f vad gSaA a, b, c, d, "
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8, 6, 8, 8, 6, 7) | Solution: Consider the multiplication 999 abc = def 132 in decimal notation, where a, b, c, d, e and f are digits. What are the values of a, b, c, d, e and f respectively?/ n'keyo ladsr i¼fr xq.kuiQy 999 abc = def132 ij fopkj a, b, c, d, e f gSaA a, b, c, d, e"
   },
   {
     "id": "rkr_number_system_number_system_pro_level_sheet_q100",
@@ -5196,10 +4941,10 @@
       "1 only/dsoy 1",
       "2 only/dsoy 2",
       "3 only/dsoy 3",
-      "KEY"
+      "2 and 3 only"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (KEY) | Solution: If An = Pn + 1, where Pn is the product of the first n prime numbers, then consider the following statements: ;fn An = Pn + 1, Pn igyh n vHkkT; la[;kvksa xq.kuiQy rks fuEufyf[kr dFkuksa ij fopkj fdft,% ANSWER KEY"
+    "explanation": "Correct Answer: Option D | (2 and 3 only) | Solution: If An = Pn + 1, where Pn is the product of the first n prime numbers, then consider the following statements: ;fn An = Pn + 1, Pn igyh n vHkkT; la[;kvksa xq.kuiQy fuEufyf[kr dFkuksa ij fopkj fdft,% ANSWER KEY"
   },
   {
     "id": "rkr_number_system_remainder_classroom_sheet_q001",
@@ -5236,6 +4981,23 @@
     "explanation": "Correct Answer: Option B | (258) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
   },
   {
+    "id": "rkr_number_system_remainder_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "In a division question, the divisor is 4 times the quotient and 3 times the remainder. If the remainder is 20, find the dividend?",
+    "options": [
+      "940",
+      "920",
+      "960",
+      "980"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (920)"
+  },
+  {
     "id": "rkr_number_system_remainder_classroom_sheet_q004",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -5266,8 +5028,8 @@
       "2325",
       "2425"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2375) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2425) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
   },
   {
     "id": "rkr_number_system_remainder_classroom_sheet_q006",
@@ -5633,7 +5395,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
-    "question": "What is the greatest number by which when 156, 181 and 331 are divided, the remainder",
+    "question": "What is the greatest number by which when 156, 181 and 331 are divided, the remainder is 6 in each case?",
     "options": [
       "26",
       "17",
@@ -5910,7 +5672,7 @@
       "4",
       "– 4",
       "– 1",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (4)"
@@ -6160,7 +5922,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
-    "question": "If 243 gives a remainder of 4 when divided by a certain natural number n, what will be the remainder when 482 is divided by 2n",
+    "question": "If 243 gives a remainder of 4 when divided by a certain natural number n, what will be the remainder when 482 is divided by 2n assuming that the quotient in both cases is the same?",
     "options": [
       "1",
       "4",
@@ -6298,8 +6060,8 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "If N = (243 + 253 + 263 + 273), then N divided by 102 leaves a remainder of:",
     "options": [
-      "2.",
-      "3. (b) 4. (c) 5. (d",
+      "12",
+      "1",
       "0",
       "18"
     ],
@@ -6349,13 +6111,13 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "Find the remainder when we divide 3x4 – 2x² +4x – 1 by 2x – 1.",
     "options": [
-      "11",
-      "15",
-      "11/16",
-      "15/16"
+      "4/11",
+      "3/15",
+      "16",
+      "16"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11/16) | Exam: SSC CGL 07/12/2022 (Shift-04)"
+    "explanation": "Correct Answer: Option C | (16) | Exam: SSC CGL 07/12/2022 (Shift-04)"
   },
   {
     "id": "rkr_number_system_remainder_classroom_sheet_q070",
@@ -6366,8 +6128,8 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "If the polynomial (2x3 + ax2 + 3x – 5) and (x3 + x2 – 2x + a) leave the same remainder when divided by (x – 2), find the remainder.",
     "options": [
-      "7.",
-      "8. (a) 9. (c) 10. (b)",
+      "4",
+      "3",
       "2",
       "5"
     ],
@@ -6381,7 +6143,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "The digit",
+    "question": "The digit in unit's place of the product",
     "options": [
       "0",
       "7",
@@ -6398,7 +6160,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "The unit digit",
+    "question": "The unit digit in 3",
     "options": [
       "4",
       "2",
@@ -6466,7 +6228,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "Find the unit digit",
+    "question": "Find the unit digit in given factor of",
     "options": [
       "6",
       "4",
@@ -6483,7 +6245,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "The digit",
+    "question": "The digit in unit place of the number",
     "options": [
       "1",
       "2",
@@ -6534,7 +6296,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "What is the unit digit",
+    "question": "What is the unit digit in the Expansion of 6732?",
     "options": [
       "1",
       "3",
@@ -6551,7 +6313,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "What is the digit",
+    "question": "What is the digit in the unit place of 399 ?",
     "options": [
       "1",
       "3",
@@ -6568,7 +6330,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "What is the unit place digit",
+    "question": "What is the unit place digit in the expansion of 773?",
     "options": [
       "1",
       "3",
@@ -6590,7 +6352,7 @@
       "1, 2 and 3",
       "1 and 2 only",
       "2 and 3 only",
-      "1 and 3 onl"
+      "1 and 3 only"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (2 and 3 only)"
@@ -6636,7 +6398,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "What is the digit",
+    "question": "What is the digit in the unit's place of the number represented by 398 – 389?",
     "options": [
       "3",
       "6",
@@ -6655,13 +6417,13 @@
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
     "question": "Find the unit digit of the sum:",
     "options": [
-      "0",
-      "2",
-      "4",
-      "6"
+      "3 11/0",
+      "16 18/2",
+      "(a) 0/4",
+      "(b) 2/6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0)"
+    "explanation": "Correct Answer: Option A | (3 11/0)"
   },
   {
     "id": "rkr_number_system_unit_digit_classroom_sheet_q018",
@@ -6721,15 +6483,15 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "The digit",
+    "question": "The digit in the unit's place of",
     "options": [
-      "1",
-      "4",
-      "5",
-      "6"
+      "([(251)98 + (21)29 – (106)100 +)/1",
+      "(705)35 – 164 + 259] is/4",
+      "(a) 1/5",
+      "(b) 4/6"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4)"
+    "explanation": "Correct Answer: Option B | ((705)35 – 164 + 259] is/4)"
   },
   {
     "id": "rkr_number_system_unit_digit_classroom_sheet_q022",
@@ -6738,7 +6500,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "The unit digit",
+    "question": "The unit digit in the product",
     "options": [
       "1",
       "2",
@@ -6806,7 +6568,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "Find the unit digit of/bdkbZ vad",
+    "question": "Find the unit digit of/bdkbZ",
     "options": [
       "0",
       "5",
@@ -6944,13 +6706,13 @@
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
     "question": "Find the unit digit of the expression :",
     "options": [
-      "0",
-      "2",
-      "5",
-      "9"
+      "(2222 2222 +(4444) 4444 +)/0",
+      "(8888) 8888 + (9999) 9999/2",
+      "(a) 0/5",
+      "(b) 2/9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9)"
+    "explanation": "Correct Answer: Option D | ((b) 2/9)"
   },
   {
     "id": "rkr_number_system_unit_digit_classroom_sheet_q035",
@@ -6978,13 +6740,13 @@
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
     "question": "The last digit of the following expression is :",
     "options": [
-      "0",
-      "5",
-      "7",
-      "9"
+      "( 1 1 +  2 2 +  3)/0",
+      "(3 +  4  4 +...........  10  10)/5",
+      "(a) 0/7",
+      "(b) 5/9"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (7)"
+    "explanation": "Correct Answer: Option C | ((a) 0/7)"
   },
   {
     "id": "rkr_number_system_unit_digit_classroom_sheet_q037",
@@ -7133,8 +6895,8 @@
     "options": [
       "0",
       "5",
-      "7.",
-      "8. (d) 9. (d) 10. (a)"
+      "2",
+      "1"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (0)"

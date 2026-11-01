@@ -212,13 +212,13 @@
     "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
     "question": "Find maximum and minimum value of sin140.cos140",
     "options": [
-      "Max. /Min.0 2 140 1",
+      "Max. 140 /Min.0 2 1",
       "Min. – /Max.0 3 140",
       "Min.0/Max.1 1",
       "Min. – /Max.140 2 140"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Max. /Min.0 2 140 1) | Solution: (a) sin140.cos140 when n is even then, Max. value = n 1 2 Min. value = 0 Max. value = 140 1 2 and Min. value = 0"
+    "explanation": "Correct Answer: Option A | (Max. 140 /Min.0 2 1) | Solution: (a) sin140.cos140 when n is even then, Max. value = n 1 2 Min. value = 0 Max. value = 140 1 2 and Min. value = 0"
   },
   {
     "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q014",
@@ -297,13 +297,13 @@
     "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
     "question": "Find the maximum and minimum value of sin5 .cos5",
     "options": [
-      "Max. /Min. – 32 32 1 1",
-      "Max. /Min. – 25 32 1 1",
-      "Max. /Min. – 25 5 1 1",
-      "Max. /Min. – 25 32 ANSWER"
+      "Max. /Min. – 32 3 1/2 1",
+      "Max. /Min. – 25 3 1/2 1",
+      "Max. /Min. – 2 5/5 1 1",
+      "Max. /Min. – 25 32"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Max. /Min. – 32 32 1 1) | Solution: Find the maximum and minimum value of sin5 .cos5 sin5 vf/dre U;wure (a) Max. 1 32 /Min. – 1 32 (b) Max. 1 25 /Min. – 1 32 (c) Max. 1 25 /Min. – 1 5 (d) Max. 1 25 /Min. – 1 32"
+    "explanation": "Correct Answer: Option A | (Max. /Min. – 32 3 1/2 1) | Solution: Find the maximum and minimum value of sin5 .cos5 sin5 vf/dre U;wure (a) Max. 1 32 /Min. – 1 32 (b) Max. 1 25 /Min. – 1 32 (c) Max. 1 25 /Min. – 1 5 (d) Max. 1 25 /Min. – 1 32"
   },
   {
     "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q019",

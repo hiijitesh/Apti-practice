@@ -198,7 +198,7 @@
       "5428",
       "54777",
       "33667",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (54777)"
@@ -210,7 +210,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "Consider the following statements",
+    "question": "Consider the following statements in respect of all factors of 360:",
     "options": [
       "1 only",
       "2 only",
@@ -297,8 +297,8 @@
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
     "question": "Find the product of all factors of 544?",
     "options": [
-      "12",
-      "544 2",
+      "12/544",
+      "3/2",
       "558",
       "5446"
     ],
@@ -329,7 +329,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "Find the number of prime factors",
+    "question": "Find the number of prime factors in the",
     "options": [
       "45",
       "35",
@@ -346,7 +346,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
-    "question": "The numbers are",
+    "question": "The numbers are in 323",
     "options": [
       "No prime factors/dksbZ vHkkT; xq.ku•aM ugha",
       "Four prime factors/pkj vHkkT; xq.ku•aM",
@@ -484,12 +484,12 @@
     "sheetFile": "Factor (ClassRoom Sheet).pdf",
     "question": "Find the ways to express 11025 as product of two factors.",
     "options": [
-      "ANSWER",
-      "KEY",
-      "ANSWER KEY",
-      "9. (b) 10. (c)"
+      "13",
+      "14",
+      "27",
+      "30"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (KEY)"
+    "explanation": "Correct Answer: Option B | (14)"
   }
 ]

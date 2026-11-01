@@ -6,15 +6,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Two vessels are full of milk with milk-water ratios 1 : 4 and 3 : 8, respectively. If both",
+    "question": "Two vessels are full of milk with milk-water ratios 1 : 4 and 3 : 8, respectively. If both are mixed in the ratio 3 : 2, what is the ratio of milk and water in the new mixture?",
     "options": [
       "4 : 15",
       "3 : 7",
       "63 : 212",
-      "N.O."
+      "N.O.T"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (63 : 212)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In two blends of mixed tea, the ratios of Darjeeling and Assam tea are 4 : 7 and 2 : 5. The ratio in which these two blends should be mixed to get the ratio of Darjeeling and Assam tea in the new mixture as 6 : 13 is",
+    "options": [
+      "22 : 35",
+      "26 : 35",
+      "35 : 78",
+      "13 : 22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (22 : 35)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q003",
@@ -23,7 +40,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Solution A contains 10% acid and solution B contains 30% acid.",
+    "question": "Solution A contains 10% acid and solution B contains 30% acid. In what ratio should solution A be mixed with Solution B to obtain a mixture with 25% acid?",
     "options": [
       "1 : 2",
       "3 : 1",
@@ -57,15 +74,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "40 litres of a mixture of milk and water contains 10% of water, the amount of water to be added, to make the water",
+    "question": "40 litres of a mixture of milk and water contains 10% of water, the amount of water to be added, to make the water content 20% in the new mixture is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 litre",
+      "6.5 litre",
+      "5.5 litre",
+      "5 litre"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (5 litre)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "An alloy contains copper and tin the ratio 3 : 2. If 250 gm of copper is added to this alloy then the copper in it becomes double the quantity of tin in it. What is the amount (in gms) of tin in the alloy?",
+    "options": [
+      "250",
+      "750",
+      "1000",
+      "500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (500)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q007",
@@ -79,10 +113,44 @@
       "15 kg",
       "21 kg",
       "30 kg",
-      "40 k"
+      "40 kg"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (21 kg) | Exam: SSC CGL 26/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In what ratio should coffee powder costing ` 2500/kg be mixed with coffee powder costing ` 1500/kg so that the cost of the mixture is ` 2250/kg?",
+    "options": [
+      "1 : 4",
+      "4 : 1",
+      "3 : 1",
+      "1 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 : 1)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In what ratio must the two types of tea at Rs.180/kg and Rs.280/kg respectively be mixed so that the obtained mixture sold at 320/kg earns a profit of 20% ?",
+    "options": [
+      "3 : 13",
+      "4 : 13",
+      "1 : 14",
+      "2 : 13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 13) | Exam: POLICE CONSTABLE 23/08/2024 (Shift-02)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q010",
@@ -108,7 +176,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A trader bought 640 kg of rice. He sold a part of the rice at 20% profit and the rest",
+    "question": "A trader bought 640 kg of rice. He sold a part of the rice at 20% profit and the rest at 5% loss. He earned a profit of 15% in the entire transaction. What is the ratio of the quantity of rice that he sold at a loss of 5% to that of the quantity that he sold at a profit of 20%?",
     "options": [
       "1 : 3",
       "4 : 1",
@@ -142,12 +210,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole.",
+    "question": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole. What is the quantity (in kg) of wheat sold by Arvind at 9% profit?",
     "options": [
       "260 kg",
       "390 kg",
       "195 kg",
-      "455 k"
+      "455 kg"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (260 kg) | Exam: SSC CPO 05/10/2023 (Shift-02)"
@@ -193,7 +261,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Harish is having ` 40,000 . He deposited",
+    "question": "Harish is having ` 40,000 . He deposited it in 2 banks. Interest given by 1st bank is 9.5% per annum and that of 2nd bank is 5.5% per annum. If at the end of a year Harish got ` 3200. Then find the difference of the balance amount deposited in both banks?",
     "options": [
       "` 36000",
       "` 30000",
@@ -210,7 +278,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A total of Rs.2,00,000 is divided into two",
+    "question": "A total of Rs.2,00,000 is divided into two parts for investing in different banks on simple interest. One yields 4% p.a. while the other yields 6% p.a. If the total interest at the end of one year is equivalent to 4.7% p.a. on the whole amount, the amount (in Rs.) invested in each bank is ________, respectively.",
     "options": [
       "1,30,000 and 70,000",
       "1,45,000 and 55,000",
@@ -249,7 +317,7 @@
       "` 2,000",
       "` 2,500",
       "` 1,500",
-      "` 1,750"
+      "` 1,750 TIME, SPEED AND DISTANCE BASED QUESTIONS"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (` 2,000)"
@@ -261,7 +329,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A person went to Delhi to Agra. He covered some distance by bus and remaining distance by train. He covered complete",
+    "question": "A person went to Delhi to Agra. He covered some distance by bus and remaining distance by train. He covered complete distance which is 360 km in 6 hours. Average speed of bus is 48 km/h and average speed of train is 120 km/h. Find distance covered by train.",
     "options": [
       "120",
       "240",
@@ -278,12 +346,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A man covered a distance of 60 km",
+    "question": "A man covered a distance of 60 km in 5 hour partly by train at 15 km/h and partly by foot at 10km/h. The distance covered by train is.",
     "options": [
       "45 km",
       "30 km",
       "20 km",
-      "40 k"
+      "40 km"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (30 km)"
@@ -295,12 +363,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A person travels 255 km",
+    "question": "A person travels 255 km in 7 hours in two stages. In the first part of journey, he travels by bus at the speed of In the second part of journey, he travels by train at the speed of How much distance he travel by bus?",
     "options": [
       "135 km",
       "145 km",
       "120 km",
-      "125 k"
+      "125 km"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (120 km)"
@@ -329,7 +397,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Population of a town is 1,20,000 . If number of male increases by 7% and females increases by 10%, then the population of town would increase by 9.5%. Find the difference between male to female",
+    "question": "Population of a town is 1,20,000 . If number of male increases by 7% and females increases by 10%, then the population of town would increase by 9.5%. Find the difference between male to female population living in that town?",
     "options": [
       "25000",
       "80000",
@@ -346,7 +414,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Population of town is 15,000. If number of male decreases by 10% and number of female increases by 5% then the population of town would increase by 600.",
+    "question": "Population of town is 15,000. If number of male decreases by 10% and number of female increases by 5% then the population of town would increase by 600. Find the number of male in the town.",
     "options": [
       "1500",
       "1000",
@@ -380,7 +448,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A womam spends of her income. If her 3 income increase by 18% and the expenditure increase by 24%, then the",
+    "question": "A womam spends of her income. If her 3 income increase by 18% and the expenditure increase by 24%, then the percentage increase in her saving will be: 2",
     "options": [
       "6",
       "3",
@@ -397,7 +465,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 2 types coins",
+    "question": "There are 2 types coins in a box 25p and 50p. The total money in box is ‘ 42 and the total number of coins is 120. Find the number of 25p coins.",
     "options": [
       "72",
       "48",
@@ -414,7 +482,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A company has undergraduate and graduate employee. The average salary of each graduate employee is ` 16550 and undergraduate employee is ` 11950,",
+    "question": "A company has undergraduate and graduate employee. The average salary of each graduate employee is ` 16550 and undergraduate employee is ` 11950, average salary of workers in company is ` 14750 if there are total 575 worker in company then find out total number of graduate employee in company?",
     "options": [
       "280",
       "350",
@@ -431,7 +499,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The income of A is 50% more than that of B. If the income of A is increased by 40% and the income of B is increased by 90%,",
+    "question": "The income of A is 50% more than that of B. If the income of A is increased by 40% and the income of B is increased by 90%, then the percentage increase in their combined income will be :",
     "options": [
       "64",
       "55",
@@ -482,7 +550,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "A student answered rd of total questions. 3 60% right. How much percent he should answer rest questions right so that he may",
+    "question": "A student answered rd of total questions. 3 60% right. How much percent he should answer rest questions right so that he may get 70% marks in examination. 2",
     "options": [
       "25",
       "60",
@@ -516,7 +584,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average score of a batsman",
+    "question": "The average score of a batsman in twenty matches is 15 and in twenty-five other matches is 24. Find the average score in all the forty-five matches.",
     "options": [
       "21",
       "20",
@@ -527,13 +595,47 @@
     "explanation": "Correct Answer: Option B | (20) | Exam: SSC CGL 19/09/2024 (Shift-02)"
   },
   {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a company with 600 employees, the average age of male employees is 42 years and that of female employees is 41 years. If the average age of all the employees in the company is 41 years and 9 months, then the number of female employees is :",
+    "options": [
+      "150",
+      "250",
+      "450",
+      "350"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (150)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class of 80 students, 60% participate in games and the rest do not. The average weight of the former group is 5% more than that of the latter. If the average 1 weight of all the students is 512 kg, then what is the average weight (in kg) of the former group?",
+    "options": [
+      "57.6",
+      "54.5",
+      "60",
+      "52.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (52.5)"
+  },
+  {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q038",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average age of 120 students",
+    "question": "The average age of 120 students in a group is 13.56 years, 35% of the number of students are girls and the rest are boys. If the ratio of the average age of boys and girls is 6.5, then what is the average age (in years) of the girls?",
     "options": [
       "12",
       "11.6",
@@ -544,13 +646,47 @@
     "explanation": "Correct Answer: Option B | (11.6)"
   },
   {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class of 80 students, the ratio of the urban to the rural is 5 : 3. In a test, the average score of the rural students is 40% more than that of the urban students. If the average score of all the students is 69, then what is the average score of the rural students?",
+    "options": [
+      "80",
+      "76",
+      "92",
+      "84"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (84)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Alligation (ClassRoom Sheet).pdf",
+    "question": "In a class, there are 60 students. The average weight of the entire class is 42 kg. If there are 36 boys in the class and the average weight of all the boys is 50 kg, then what is the average weight (in kg) of all the girls?",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "34"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30) | Exam: SSC CPO 28/06/2024 (Shift-02)"
+  },
+  {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q041",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "The average score",
+    "question": "The average score in Mathematics of 90 students of section A and B of class IX was 63. The number of students in A were 10 more than those in B. The average score of students in A was 30% more than that of students in B. The average score of students in B is :",
     "options": [
       "60",
       "54",
@@ -567,7 +703,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 96 students",
+    "question": "There are 96 students in a class, out of which the number of girls is 40% more than that of the boys. the average score in mathematics of the boys is 40% more than the average score of girls. If the average score in mathematics of all the students is 63, then what is the average score of the girls in mathematics?",
     "options": [
       "51",
       "54",
@@ -584,7 +720,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "There are 75 students",
+    "question": "There are 75 students in the hostel. Due to new admissions, 15 new students join the mess, and the daily expenses of the mess increased by ` 240, while the average expenditure per head diminished by 5. What was the original expenditure (in `) of the mess?",
     "options": [
       "4,530",
       "3,450",
@@ -601,7 +737,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Average run per wicket of a bowler is 11.5.",
+    "question": "Average run per wicket of a bowler is 11.5. In his next inning bowler took 5 wickets and conceded 40 run, thereby he reduced his bowling average by 0.5. Find the total number of wickets.",
     "options": [
       "25",
       "35",
@@ -686,15 +822,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
-    "question": "Two types of sugar worth ` 42 per kg and ` 46 per kg are mixed together with a 3rd",
+    "question": "Two types of sugar worth ` 42 per kg and ` 46 per kg are mixed together with a 3rd variety of sugar in the ratio 3 : 3 : 9. If the mixture is worth ` 47 per kg ,then the price of 3rd variety sugar per kg?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "49",
+      "44",
+      "50"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (49)"
   },
   {
     "id": "rkr_mixture_alligation_alligation_classroom_sheet_q050",
@@ -705,13 +841,13 @@
     "sheetFile": "Alligation (ClassRoom Sheet).pdf",
     "question": "Rewa has some hens and some goats. If the total number of animal heads is 100 and the total number of animal feet is 348, then what is the total number of goats with Rewa?",
     "options": [
-      "(c)",
-      "55 (d) 80",
-      "KEY",
-      "7. (b) 8. (c) 9. (d) 10. (c)"
+      "76",
+      "74",
+      "55",
+      "80"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (55 (d) 80) | Exam: SSC CGL TIER- II 03/03/2023"
+    "explanation": "Correct Answer: Option B | (74) | Exam: SSC CGL TIER- II 03/03/2023"
   },
   {
     "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q001",
@@ -739,10 +875,10 @@
     "sheetFile": "Alligation (Pro Level Sheet).pdf",
     "question": "The cost price of two articles is equal. One article is sold at a profit of 12% and the other article for `3,600 27 more than the first. If the net profit is 15 % , then 51 what is the cost price of each article?",
     "options": [
-      "`50,000",
+      "51/`50,000",
       "`51,000",
-      "`50,990",
-      "`52,150"
+      "(a) `50,000/`50,990",
+      "(b) `51,000/`52,150"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (`51,000) | Solution: (b) CP  ratio Ist IInd 12% x % 27 15 % 51 27 –15 % 51 x       27 3 % 51 Prof it  ratio As it is given, the CP of article is same, then CP ratio will also equal. So, x% – 27 15 % 51 = 3 27 51 %  x = 54 18 51 = 3 19 % 51 Now,  3 19 51 – 12% "
@@ -759,7 +895,7 @@
       "2.25 % profit",
       "2.25 % loss",
       "0.909 % profit",
-      "0.909 % los"
+      "0.909 % loss"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (0.909 % profit) | Solution: (c) By alligation: I x +10 10 – x II 10 –10 x 12 10 : % % % ATQ, 10 10   x x = 12 6 10 5   5x + 50 = 60 – 6x  11x = 10 x = 10 11 = 0.909% Since, it is positive, therefore profit is 0.909% I 12000 6 +10% II 10000 5 –10% : : 60% –50% = 11 = 10% "
@@ -773,13 +909,438 @@
     "sheetFile": "Alligation (Pro Level Sheet).pdf",
     "question": "A bought a bag and a bottle for a total of `900. He sold the bottle at a profit of 12% and the bag at a profit of 20%. If he earned a total profit of `160.80, then calculate the cost price of the bottle.",
     "options": [
-      "2.",
-      "3. (c) 4. (d",
+      "`320",
+      "`300",
+      "`200",
+      "`240 5 A person buys 5 tables and 9 chairs for `15,400. He sells the tables at 10% profit and chairs at 20% profit. If his total profit on selling all the tables and chairs is `2,080, what is the cost price of 3 chairs?"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`240 5 A person buys 5 tables and 9 chairs for `15,400. He sells the tables at 10% profit and chairs at 20% profit. If his total profit on selling all the tables and chairs is `2,080, what is the cost price of 3 chairs?) | Solution: (d) Overall P% = 160.80 900 100 536 30  % By alligation: Bag = 600 Bottle = 360 536 30 = 536 176 164 11 : 4 Hence, CP of bottle 4 900 15   = `240 5 (c) Over all profit % = 2080 100 15400  =1040 77 % T C (770)10% 1040 77 20% (1540) 500 270 % 50 27"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A man invests a total sum of `10,000 in a company. A part of the sum was invested at 10% simple interest per annum and the remaining part at 15% simple interest per annum. If the total interest accrued to him in two years equals `2,400, the sum invested at 15% simple interest per annum is:",
+    "options": [
+      "`8,000",
+      "`4,000",
+      "`6,000",
+      "`5,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`4,000) | Solution: (b) Overall interest in one year = 1 2400 2 10,000  100% = 12% Sum 1 Sum 2 10% 15% 3 2 5  12% : 10000 Rs.4000"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A money lender lent `30,000 in two parts, one at the rate of 8% and the other at 9%. If the total annual simple interest on the amount is `2,650, then what is the amount of money lent at the rate of 8%?",
+    "options": [
+      "`6,600",
+      "`5,000",
+      "`4,500",
+      "`5,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`5,000)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "The cost of two varieties of tea is `300 and `375 respectively. If both the varieties of tea are mixed together in the ratio 3 : 2, then what should be the price of mixed variety of tea per kg?",
+    "options": [
+      "`340",
+      "`330",
+      "`350",
+      "`360"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`330)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A school has two sections of a class. Section A has 30 students and Section B has 20 students. The average score of the students in Section A is 85, and the average score of the students in Section B is 70. What is the overall average score of the class?",
+    "options": [
+      "78",
+      "81",
+      "79",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (79)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "Class X has 45 students scoring average marks of 30 and class Y has 35 students scoring average marks of 18. Find the average marks of the students of both classes together.",
+    "options": [
+      "25",
+      "24.75",
+      "28.50",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24.75)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "In a class, there are 29 boys and 21 girls. The average score of boys in Maths is 89, whereas the average score of girls in maths is 91. What is the average of the whole class in maths?",
+    "options": [
+      "91",
+      "89",
+      "91.84",
+      "89.84"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (89.84)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "The university has 750 faculty (male and female only) out of which the females are 60%. The average height of females is 162 cm and that of males is 168 cm. What is the average height of the faculty (in cm) of the university?",
+    "options": [
+      "164.4",
+      "166.4",
+      "163.4",
+      "161.4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (164.4)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "The expenditure of Sudha is 200% more than her savings. If her expenditure decreases by 4% and savings increase by 28%, then by what percent does her income increase?",
+    "options": [
+      "9",
+      "7",
+      "4",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "To pass an exam, 50% of the marks is required. The exam consists of two papers, a student secured 40% marks in the first paper of 200 marks. What is the minimum percentage of marks he must obtain in the second paper of 150 marks to pass the examination?",
+    "options": [
+      "68",
+      "64",
+      "65",
+      "60"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (64)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "Rama bought two watches at a total cost of `1200. She sells one watch at 20% less than its cost price and another at 50% above its cost price. If during the whole transaction she makes a profit of `40, then find the difference between the cost price of both the watches.",
+    "options": [
+      "`300",
+      "`320",
+      "`400",
+      "`250"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`400)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A sum of `5000 was lent partly at 5% per annum simple interest and partly at 10% p.a. simple interest. The total amount received as interest after 5 years was `1750. Find the sum lent at 10% per annum simple interest.",
+    "options": [
+      "`2000",
+      "`3000",
+      "`3500",
+      "`2500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`2000)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A sum of `9200 was lent partly at 5% p.a. and the rest at 8% p.a., both at simple interest. Total interest received after 3 years was `1812. The sum (in `) lent at 5% p.a. was.",
+    "options": [
+      "5200",
+      "4600",
+      "4400",
+      "4200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4400)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "In a college entrance test, the average marks obtained by all 30 boys of the class is 5 less than the average marks obtained by all 20 girls of the class. If the average marks of the whole class are 25, then find the ratio of average marks of boys to that of girls.",
+    "options": [
+      "41 : 32",
+      "23 : 28",
+      "32 : 41",
+      "28 : 23"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (23 : 28)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "Manish's average earning per month in the first three months of a year was `8784. In April, his earning was 25% more than the average earning in the first three months. If his average earning per month for the whole year is `99085. then what will be Manish's average earning (in `) per month from May to December?",
+    "options": [
+      "143962",
+      "143958",
+      "143960",
+      "143961"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (143961)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A salt and water mixture, of which 7.5% is salt, costs `22.50 per litre. Another salt and water mixture, of which 17.5% is salt, costs `z per litre. If the cost of 12 litres of a salt and water mixture, of which 22.5% is salt, is `450, find the value of z.",
+    "options": [
+      "31.50",
+      "32.50",
+      "30.60",
+      "34.50"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (32.50)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A salt and water mixture, of which 12.5% is salt, costs `22 per litre. Another salt and water mixture, of which 27.5% is salt, costs `38.50 per litre. How many litres of a salt and water mixture, of which 30% is salt, can be bought for `165?",
+    "options": [
+      "4.5",
+      "3.5",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "Two bowls P and Q contain acid and water mixed in the ratio 9 : 8 and 5 : 2 respectively. The ratio in which these two mixtures be mixed to get a new 3 mixture containing 41 % acid is– 17",
+    "options": [
+      "17/(7 : 18)",
+      "18 : 7",
+      "(a) 7 : 18/(4 : 7)",
+      "(b) 18 : 7/(2 : 7)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 : 7)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "In 80 ml of a syrup, chloroquine and hydroxyl chloroquine are in ratio of 2 : 3. This syrup is mixed with 120 ml of another syrup of chloroquine and hydroxyl chloroquine. In the resultant syrup, chloroquine is 38.5% then find the ratio of chloroquine and hydroxyl chloroquine in 120 ml syrup.",
+    "options": [
+      "4 : 7",
+      "2 : 3",
+      "3 : 5",
+      "5 : 9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 : 5)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio:",
+    "options": [
+      "229 : 141",
+      "239 : 161",
+      "220 : 149",
+      "251 : 163"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (239 : 161)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "There are 2 alloys consisting Tin, copper and Antimony. The 1st alloy contains 30% copper and the 2nd alloy contain 40% tin. The % of antimony in the 1st alloy is thrice that in the 2nd alloy. 300kg of the 1st alloy and 500 kg of the 2nd are melted together. The new alloy contains 35% antimony. How many kg of tin are there in the new alloy?",
+    "options": [
+      "230 kg",
+      "270 kg",
+      "165 kg",
+      "142 kg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (230 kg)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "In a test paper, three marks are awarded for the correct answer and there is a penalty of one mark for each wrong answer. A student who attempts 76 questions gets 144 marks. How many questions did the student answer correctly?",
+    "options": [
+      "53",
+      "60",
+      "58",
+      "55"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (55)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "Two varieties of rice, A and B, costing Rs.210 and Rs.280 per kg respectively are mixed in the ratio of 3 : 4 The mixed variety is sold at Rs.260 per kg. What is the profit percentage?",
+    "options": [
+      "6",
+      "5",
+      "32",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "A milk vendor bought 28 litres of milk at the rate of ` 8.50 per litre. After adding some water he sold the mixture at the same price. If his gain is 12.5%, how much water did he add?",
+    "options": [
+      "4.5 litres",
+      "4 litres",
+      "3.5 litres",
+      "3 litres"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3.5 litres)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "There are two containers A and B. In container A, the ratio of milk and water is 1 : 3 and in container B, the ratio of milk and water is m : n. If the mixture in the containers A and B are mixed in the ratio 2 : 3 to get 20 litres of a mixture having milk and water in the m ratio 3 : 7, then what is the value of ? n",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1/2)"
+  },
+  {
+    "id": "rkr_mixture_alligation_alligation_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Alligation (Pro Level Sheet).pdf",
+    "question": "In a pharma company, a scientist is mixing the purified form of Acetone and Toluene to invent some medicine. The cost of the solution obtained after mixing Acetone and Toluene is `16 per litre. Acetone costs `14 per litre to the scientist. Due to storage issue, Toluene’s cost is expensive than Acetone to the scientist. The ratio of Toluene to Acetone in the solution is 4 : 1. What is the cost of Toluene per litre (in `) to the scientist?",
+    "options": [
+      "21",
+      "18.5",
       "16.5",
       "20"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (20) | Solution: (d) Overall P% = 160.80 900 100 536 30  % By alligation: Bag = 600 Bottle = 360 536 30 = 536 176 164 11 : 4 Hence, CP of bottle 4 900 15   = `240 5 (c) Over all profit % = 2080 100 15400  =1040 77 % T C (770)10% 1040 77 20% (1540) 500 270 % 50 27"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16.5) | Solution: (c) ANSWER KEY SOLUTIONS"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q001",
@@ -788,15 +1349,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A canister holds 36 litres of mixture of",
+    "question": "A canister holds 36 litres of mixture of milk and water in the ratio 3 : 1. 15 litres of milk is added to the canister. The new ratio of the mixture is :",
     "options": [
       "12 : 5",
       "14 : 3",
       "7 : 4",
       "9 : 4"
     ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14 : 3)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In a mixture of 25 litres, the ratio of acid to water is 4 : 1. Another 3 litres of water is added to the mixture. The ratio of acid to water in the new mixture is",
+    "options": [
+      "5 : 2",
+      "2 : 5",
+      "3 : 5",
+      "5 : 3"
+    ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (12 : 5)"
+    "explanation": "Correct Answer: Option A | (5 : 2)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q003",
@@ -805,7 +1383,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "There is a 32L mixture of milk and water.",
+    "question": "There is a 32L mixture of milk and water. The ratio of milk and water in this mixture is 5 : 3. How many litres of water should be added to this mixture so that the resultant mixture has 50% water in it?",
     "options": [
       "8",
       "6",
@@ -822,15 +1400,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "If 49 litres of a milk solution has 63% milk",
+    "question": "If 49 litres of a milk solution has 63% milk in it, then how much milk should be added to make the concentration of milk 70% in the solution?",
     "options": [
-      "11 Litres",
-      "14 Litres",
-      "12 Litres",
-      "13 Litres"
+      "13/(11    Litres)",
+      "7/(14    Litres)",
+      "11/(12    Litres)",
+      "1/(13    Litres)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (11 Litres) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option A | (13/(11    Litres)) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q005",
@@ -839,15 +1417,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture contains alcohol and water",
+    "question": "A mixture contains alcohol and water in the ratio of 12:5. On adding 14 liters of water, the ratio of alcohol to water becomes 4:3. The quantity of alcohol in the mixture is:",
     "options": [
       "18 L/yhVj",
       "28 L/yhVj",
       "30 L/yhVj",
-      "42 L/yhV"
+      "42 L/yhVj"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (42 L/yhV) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+    "explanation": "Correct Answer: Option D | (42 L/yhVj) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q006",
@@ -856,7 +1434,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "An alloy contains copper, zinc and nickel",
+    "question": "An alloy contains copper, zinc and nickel in the ratio of 5 : 3 : 2. The quantity of nickel (in kg) that must be added to 100 kg of this alloy to have the new ratio 5 : 3 : 3 is :",
     "options": [
       "8",
       "10",
@@ -907,7 +1485,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 18 litres mixture of milk",
+    "question": "A vessel contains 18 litres mixture of milk and water in the ratio 5: 1. If 3 litres of milk is added to the vessel, then how much water (in litres) should be added to the vessel to have milk and water in the ratio 9: 2?",
     "options": [
       "2",
       "1.5",
@@ -924,7 +1502,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A beaker contains acid and water",
+    "question": "A beaker contains acid and water in the ratio 1 : x. When 50 ml of water is mixed in 300 ml of the mixture the ratio of acid to water becomes 2 : 5. What is the value of x?",
     "options": [
       "2",
       "1",
@@ -941,7 +1519,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A jar contains a blend of a fruit juice and",
+    "question": "A jar contains a blend of a fruit juice and water in the ratio 5 : x. When 1 litre of water is added to 4 litres of the blend the ratio of fruit juice to water becomes 1 : 1. What is the value of x?",
     "options": [
       "3",
       "1",
@@ -958,7 +1536,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains a 32 litre solution of acid",
+    "question": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12litres of the solution 1 are taken out and 7 litres of water are 2 added to it, then what is the ratio of acid and water in the resulting solution?",
     "options": [
       "4 : 7",
       "8 : 11",
@@ -975,7 +1553,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel full of pure acid contains 10 litres of it, of which 2 litres are withdrawn. The vessel is then filled with water. Next 2 litres of the mixture are withdrawn, and again the vessel is filled up with water.",
+    "question": "A vessel full of pure acid contains 10 litres of it, of which 2 litres are withdrawn. The vessel is then filled with water. Next 2 litres of the mixture are withdrawn, and again the vessel is filled up with water. The ratio of the acid left in the vessel with that of the original quantity is :",
     "options": [
       "1 : 5",
       "4 : 5",
@@ -992,7 +1570,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 20 litres of acid. 5 litres of acid is taken out of the vessel and replaced by the same quantity of water. Next 5 litres of the mixture are withdrawn, and again the vessel is filled with the same quantity of water. The ratio of acid left",
+    "question": "A vessel contains 20 litres of acid. 5 litres of acid is taken out of the vessel and replaced by the same quantity of water. Next 5 litres of the mixture are withdrawn, and again the vessel is filled with the same quantity of water. The ratio of acid left in the vessel with the quantity of acid initially in the vessel is :",
     "options": [
       "4 : 5",
       "4 : 25",
@@ -1014,7 +1592,7 @@
       "11.52 ltr",
       "46.08 ltr",
       "23.04 ltr",
-      "69.12 lt"
+      "69.12 ltr"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (46.08 ltr)"
@@ -1026,12 +1604,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk to water",
+    "question": "The ratio of milk to water in a 100 litres mixture is 2 : 3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in final mixture?",
     "options": [
       "56.26 percent",
       "58.21 percent",
       "51.24 percent",
-      "54.27 percen"
+      "54.27 percent"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (56.26 percent) | Exam: SSC CGL TIER - II 08/08/2022"
@@ -1043,12 +1621,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial",
+    "question": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial quantity of milk in the vessel.",
     "options": [
       "28 litre",
       "26 litre",
       "36 litre",
-      "46 litr"
+      "46 litre"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (26 litre)"
@@ -1060,7 +1638,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel is full of ethanol. 12L of ethanol is taken out & replaced by water. This process is repeated further two times. Find",
+    "question": "A vessel is full of ethanol. 12L of ethanol is taken out & replaced by water. This process is repeated further two times. Find the initial amount of ethanol in the vessel. If at the end the ratio of water and ethanol becomes 91:125?",
     "options": [
       "91 L",
       "28 L",
@@ -1077,7 +1655,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a mixture is 7 : 5. How much part of the mixture should be replaced by water so hat ratio of milk and water is 2 : 3?",
     "options": [
       "11/35",
       "11/25",
@@ -1094,7 +1672,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a mixture is 2 : 1. How much part of the mixture should be replaced by water so that ratio of milk and water is 5 : 3?",
     "options": [
       "1/14",
       "1/6",
@@ -1111,7 +1689,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A beaker is filled with a liquid, 3 parts of which are water and 7 parts some medicine. What part of the mixture should be replaced with water so that that the resultant mixture has water and medicine",
+    "question": "A beaker is filled with a liquid, 3 parts of which are water and 7 parts some medicine. What part of the mixture should be replaced with water so that that the resultant mixture has water and medicine in a ratio1:1?",
     "options": [
       "2/7",
       "1/7",
@@ -1128,7 +1706,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contained a solution of acid and",
+    "question": "A vessel contained a solution of acid and water, in which water was 64%. Four litres of the solution was taken out of the vessel and the same quantity of water was added. If the resulting solution contains 30% acid, the quantity (in litres) of the water in the solution, at the beginning in the vessel, was:",
     "options": [
       "11.36",
       "15.36",
@@ -1145,7 +1723,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A jar contained a mixture of two liquids",
+    "question": "A jar contained a mixture of two liquids A and B in the ratio 4 : 1. When 10 litres of the mixture was taken out and 10 litres of liquid B was poured into the jar, this ratio became 2 : 3. The quantity of liquid A contained in the jar initially was",
     "options": [
       "4 litres",
       "8 litres",
@@ -1162,12 +1740,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A container contains a mixture of two",
+    "question": "A container contains a mixture of two liquids, A and B, in the proportion 7 : 5. If 9 liters of the mixture is replaced by 9 liters of Liquid B, then the ratio of the two liquids becomes 7 : 9. How much of liquid A was there in the container initially?",
     "options": [
       "21 liters",
       "35 liters",
       "40 liters",
-      "19 liter"
+      "19 liters"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (21 liters) | Exam: SSC MTS 05/07/2022 (Shift- 03)"
@@ -1179,15 +1757,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a vessel is 13:11. If 48ltr of mixture is taken out and 81 ltr water is added then ratio of milk and water becomes 7:8. Find quantity of milk in initial mixture.",
     "options": [
       "301 ltr",
       "325 ltr",
       "295 ltr",
-      "299 lt"
+      "299 ltr"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (299 lt)"
+    "explanation": "Correct Answer: Option D | (299 ltr)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q026",
@@ -1196,7 +1774,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A vessel contains 64 liter of mixture of",
+    "question": "A vessel contains 64 liter of mixture of milk and water in the ratio 7 : 3 respectively. 8L of mixture is replaced by 12 liter milk. What is the ratio of milk and water in the resulting mixture?",
     "options": [
       "64 : 21",
       "35 : 22",
@@ -1213,7 +1791,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "75 L of a mixture contains milk and water",
+    "question": "75 L of a mixture contains milk and water in ratio 11 : 6. 15 L of mixture is taken out and replaced by 20 L of water. From current mixture 10 L of the current mixture is taken out and replaced by 40 L of water in the current mixture. Then what is the current ratio of milk and water in the mixture?",
     "options": [
       "21 : 47",
       "23 : 25",
@@ -1230,7 +1808,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two containers of equal capacity are full of mixture of milk and water.",
+    "question": "Two containers of equal capacity are full of mixture of milk and water. In the first, the ratio of milk to water is 3 : 7 and in the second it is 7 : 9. Now both the mixtures are mixed in a bigger container. What is the resulting ratio of milk to water?",
     "options": [
       "59 : 101",
       "57 : 107",
@@ -1247,7 +1825,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The compositions of two mixtures A and B are as follows: The ratio of copper and",
+    "question": "The compositions of two mixtures A and B are as follows: The ratio of copper and tin in mixture A is 1 : 2. The ratio of copper and tin in mixture B is 1 : 3. If mixture C is made by using equal quantities of mixture A and B, then find the ratio of copper and tin in mixture C.",
     "options": [
       "2 : 5",
       "7 : 17",
@@ -1264,7 +1842,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloys A and B contain copper and zinc",
+    "question": "Alloys A and B contain copper and zinc in the ratio 7 : 8 and 4 : 1, respectively. In what ratio should A and B be mixed to obtain a new alloy C containing copper and zinc in the ratio 2 : 1 ?",
     "options": [
       "2 : 3",
       "5 : 6",
@@ -1281,7 +1859,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two containers have mixtures of milk and",
+    "question": "Two containers have mixtures of milk and water, respectively, in the ratios 3 : 2 and 6 : 5. In what ratio should the contents be mixed so that the ratio of milk to water in the final mixture is 4 : 3?",
     "options": [
       "10 : 11",
       "6 : 13",
@@ -1298,7 +1876,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "An alloy contains a mixture of two metals",
+    "question": "An alloy contains a mixture of two metals X and Y in the ratio of 2 : 3. The second alloy contains a mixture of the same metals, X and Y, in the ratio 7 : 3. In what ratio should the first and the second alloys be mixed so as to make a new alloy containing 50% of metal X?",
     "options": [
       "3 : 4",
       "3 : 1",
@@ -1315,7 +1893,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A and B are two alloys of gold and copper",
+    "question": "A and B are two alloys of gold and copper prepared by mixing metals in ratios 7 : 2 and 7 : 11 respectively. If equal quantities of the alloys are melted to form a third alloy C, the ratio of gold and copper in C will be",
     "options": [
       "7 : 5",
       "5 : 9",
@@ -1332,15 +1910,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "One cup has juice and water",
+    "question": "One cup has juice and water in the ratio 5 : 2, while another cup of the same capacity has them in the ratio 7: 4, respectively. If contents of both the cups (when full) are poured in a vessel, then what will be the final ratio of water to juice in the vessel?",
     "options": [
       "52 : 25",
       "25 : 26",
       "26 : 25",
-      "25 : 52 Mixtur"
+      "25 : 52"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (25 : 52 Mixtur) | Exam: SSC CGL TIER - II 29/01/2022"
+    "explanation": "Correct Answer: Option D | (25 : 52) | Exam: SSC CGL TIER - II 29/01/2022"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In two types of brass, the ratios of Copper to Zinc are 8:3 and 15:7 respectively. If the two types of brass be melted and mixed in the ratio 5:2 a new type of brass is obtained. The ratio of Copper to Zinc in this new type of brass is",
+    "options": [
+      "3:2",
+      "2:3",
+      "3:4",
+      "5:2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5:2)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q036",
@@ -1349,7 +1944,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratios of copper to zinc",
+    "question": "The ratios of copper to zinc in alloys A and B are 3 : 4 and 5 : 9, respectively. A and B are taken in the ratio 2 : 3 and melted to form a new alloy C. What is the ratio of copper to zinc in C?",
     "options": [
       "27 : 43",
       "8 : 13",
@@ -1360,21 +1955,38 @@
     "explanation": "Correct Answer: Option A | (27 : 43)"
   },
   {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In vessels X and Y, the ratios of acid and water are 3 : 7 and 1 : 3, respectively. The contents of X and Y are mixed in the ratio of 1 : 2 to get a solution in which acid and water are in the ratio a : b. What is b  a the value of ? b – a",
+    "options": [
+      "15/7",
+      "11/7",
+      "13/7",
+      "12/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15/7) | Exam: SSC Phase IX 2022"
+  },
+  {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q038",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloy A contains metals x and y only",
+    "question": "Alloy A contains metals x and y only in the ratio 5 : 2, while alloy B contains them in the ratio 3 : 4 Alloy C is prepared by mixing alloys A and B in the ratio 4 : 5. The percentage of x in alloy C is:",
     "options": [
-      "55",
-      "55",
-      "55",
-      "55"
+      "2/55",
+      "1/55",
+      "4/55",
+      "5/55"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (55) | Exam: SSC CGL TIER - II 29/01/2022"
+    "explanation": "Correct Answer: Option D | (5/55) | Exam: SSC CGL TIER - II 29/01/2022"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q039",
@@ -1383,7 +1995,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Mixture A contains chocolate and milk",
+    "question": "Mixture A contains chocolate and milk in the ratio 4:3 and mixture B contains chocolate and milk in the ratio 5 : 2. A and B are taken in the ratio 5:6 and mixed to form a new mixture. The percentage of chocolate in the new mixture is closest to:",
     "options": [
       "35",
       "69",
@@ -1400,15 +2012,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Alloy A contain metals x and y",
+    "question": "Alloy A contain metals x and y in the ratio 5 : 2 and alloy B contains these metals in the ratio 3 : 4. Alloy C is prepared by mixing A and B in the ratio 4 : 5.The percentage of y in alloy C is:",
     "options": [
-      "44",
-      "33",
-      "66",
-      "55"
+      "4/(44    %)",
+      "4/(33 %)",
+      "4/(66 %)",
+      "5/(55 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (44) | Exam: SSC CGL 18/08/2021 (Shift 02)"
+    "explanation": "Correct Answer: Option A | (4/(44    %)) | Exam: SSC CGL 18/08/2021 (Shift 02)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q041",
@@ -1417,7 +2029,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The proportion of acid and water",
+    "question": "The proportion of acid and water in three samples is 2 : 1, 3 : 2 and 5 : 3. A mixture containing equal quantities of all three samples is made. The ratio of water and acid in the mixture is:",
     "options": [
       "120 : 133",
       "227 : 133",
@@ -1434,7 +2046,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A can have 25 litres of water and milk",
+    "question": "A can have 25 litres of water and milk mixed in the ratio of 1 : 4. If 3 litres of the mixture is emptied and 2 litres of milk are added and the same process is carried out one more time, what will be the final ratio of milk to water?",
     "options": [
       "49 : 11",
       "72 : 185",
@@ -1451,7 +2063,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Three utensils contain equal quantity of",
+    "question": "Three utensils contain equal quantity of mixtures of milk and water in the ratio 6 : 1, 5 : 2 and 3 : 1 respectively. If all the solutions are mixed together, the ratio of milk and water in the final mixture is :",
     "options": [
       "65 : 28",
       "65 : 19",
@@ -1468,7 +2080,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Three containers have their volumes",
+    "question": "Three containers have their volumes in the ratio 3 : 4 : 5. They are full of mixtures of milk and water. The mixtures contain milk and water in the ratio of (4 : 1), (3:1) and (5 : 2) respectively. The contents of all these three containers are poured into a fourth container. The ratio of milk and water in the fourth container is :",
     "options": [
       "4 : 1",
       "151 : 48",
@@ -1485,7 +2097,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "60 kg of an alloy A is mixed with 100 kg",
+    "question": "60 kg of an alloy A is mixed with 100 kg of alloy B. If alloy A has lead and tin in the ratio 3 : 2 and alloy B has tin and copper in the ratio 1 : 4, the amount of tin in the new alloy is",
     "options": [
       "53 kg",
       "44 kg",
@@ -1494,6 +2106,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (44 kg)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In two alloys A and B, the ratio of zinc to tin is 5 : 2 and 3 : 4 respectively. Seven kg of the alloy A and 21 kg of the alloy B are mixed together to form a new alloy. What will be the ratio of zinc and tin in the new alloy?",
+    "options": [
+      "2 : 1",
+      "1 : 2",
+      "2 : 3",
+      "1 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 1)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q047",
@@ -1507,10 +2136,27 @@
       "25 litres",
       "20 litres",
       "35 litres",
-      "30 litre"
+      "30 litres"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (30 litre)"
+    "explanation": "Correct Answer: Option D | (30 litres)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mixture (ClassRoom Sheet).pdf",
+    "question": "In a mixture of three varieties of tea, the ratio of their weights is 4 : 5 : 8. If 5 kg tea of the first variety, 10 kg tea of the second variety and some quantity of tea of the third variety are added to the mixture, the ratio of the weights of three varieties of tea becomes as 5 : 7 : 9. In the final mixture, the quantity (in kg) of the third variety of tea was",
+    "options": [
+      "42",
+      "45",
+      "48",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (45)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q049",
@@ -1519,7 +2165,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A solution of 45% alcohol is mixed with",
+    "question": "A solution of 45% alcohol is mixed with a solution of 60% alcohol in the ratio of 2 : 3. In what ratio should the resultant solution be mixed with a 72% alcohol solution to get a 66% alcohol solution?",
     "options": [
       "4 : 7",
       "1 : 3",
@@ -1536,7 +2182,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratios of alcohol to water",
+    "question": "The ratios of alcohol to water in solutions A and B are 3 : 5 and 9 : 7, respectively. A and B are mixed in the ratio 5 : 8. In 520 ml of the resulting solution, how much water (in ml) should be mixed so as to obtaina solution in which the ratio of alcohol to water is 3 : 4?",
     "options": [
       "85",
       "75",
@@ -1553,7 +2199,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The ratio of acid and water",
+    "question": "The ratio of acid and water in solution A is 5 : 4 and 7 : 11 in solution B. 10 litres of A is mixed with 8 litres of B. In 324 ml of the resulting solution, how much water (in ml) should be added to get a solution 1 containing 33 % acid? 3",
     "options": [
       "144",
       "154",
@@ -1570,7 +2216,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Two vessels A and B, each with the capacity of 8 litres, are full of solutions of acid and",
+    "question": "Two vessels A and B, each with the capacity of 8 litres, are full of solutions of acid and water. The ratio of acid and water in Vessel A is 3 : 1 and that in case of Vessel Bis 5 : 3. Two litres of solution are taken out from B and added to A. After mixing thoroughly, 2 litres of solution are taken out from A and added to B. What is the ratio of acid and water in the final solution in B?",
     "options": [
       "11 : 8",
       "13 : 7",
@@ -1587,7 +2233,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A drink is made by mixing water and juice",
+    "question": "A drink is made by mixing water and juice in the ratio 9 : 7. If x litres of water and 2x litres of juice are mixed in 160 litres of drink, then the new ratio becomes 13 : 15. The quantity of drink (in litres) is:",
     "options": [
       "240",
       "280",
@@ -1604,12 +2250,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mango juice is made by mixing water and",
+    "question": "A mango juice is made by mixing water and mango concentrate in the ratio 9 : 7. If x litres of water and 3x litres of mango concentrate is mixed in 160 litres of mango juice, then the new ratio becomes 13 : 14. What is the quantity of the new mango juice (in litres)?",
     "options": [
       "197 litre",
       "212 litre",
       "206 litre",
-      "216 litr"
+      "216 litre"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (212 litre) | Exam: SSC CGL 23/09/2024 (Shift-02)"
@@ -1638,7 +2284,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "The concentrations of three acids, A, B, and C, are specified as 20%, 30%, and 40%,",
+    "question": "The concentrations of three acids, A, B, and C, are specified as 20%, 30%, and 40%, respectively. They are blended in a ratio of 3 : 5 : a, yielding a solution with a concentration of 30%. What is the value of 'a'?",
     "options": [
       "3",
       "1",
@@ -1655,7 +2301,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "80 litres of a mixture of spirit and water",
+    "question": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
     "options": [
       "87 : 41",
       "131 : 77",
@@ -1672,7 +2318,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa",
+    "question": "A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16 : 9, then the ratio of cocoa in mixture P to that in mixture Q is.",
     "options": [
       "4 : 9",
       "1 : 3",
@@ -1689,15 +2335,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "Anil mixes cocoa with sugar",
+    "question": "Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2: 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be.",
     "options": [
       "21",
       "16",
       "17",
       "24"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (21)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (17)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_classroom_sheet_q060",
@@ -1706,15 +2352,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "ClassRoom",
     "sheetFile": "Mixture (ClassRoom Sheet).pdf",
-    "question": "A mixture contains lemon juice and sugar",
+    "question": "A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is.",
     "options": [
       "1 : 6",
       "1 : 4",
       "1 : 7",
-      "1 : 5 KEY 6. 7. 8. 9. 10."
+      "1 : 5"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1 : 6)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 7)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q001",
@@ -1723,12 +2369,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "8 liters are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine",
+    "question": "8 liters are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally?",
     "options": [
       "18 liters",
       "24 liters",
       "32 liters",
-      "42 liter"
+      "42 liters"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (24 liters) | Solution: (b) 4 8 1 – 16 16 65 x x x         4 4 8 16 2 1 – = = 81 3 x             8 2 1 – 3 x  8 1 3 x  x = 24 litres"
@@ -1740,7 +2386,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A can contains a mixture of two liquids a and b",
+    "question": "A can contains a mixture of two liquids a and b in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with b, the ratio of a and b becomes 7 : 9. How many liters of liquid a was contained by the can initially?",
     "options": [
       "10",
       "20",
@@ -1757,12 +2403,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "4 kg of a metal contains copper and rest",
+    "question": "4 kg of a metal contains copper and rest in 5 1 Zinc. Another 5 kg of metal contains copper 6 and rest in Zinc. The ratio of Copper and Zinc into the mixture of these two metals: 1",
     "options": [
       "49 : 221",
       "39 : 231",
       "94 : 181",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (49 : 221) | Solution: (a) C Z 1 5 4 5 = 4kg 1 6 5 6 = 5 kg Copper = 1 1 4 5 49 4 5 5 6 5 6 30       Zinc = 4 5 16 25 221 4 5 5 6 5 6 30       C : Z = 49 : 221"
@@ -1774,15 +2420,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "From a container of wine, a thief has stolen 15 liters of wine and replaced it with same quantity of water.",
+    "question": "From a container of wine, a thief has stolen 15 liters of wine and replaced it with same quantity of water. He again repeated the same process. Thus, in three attempts the ratio of wine and water became 343 : 169. The initial amount of wine in the container was:",
     "options": [
       "75 liters",
       "100 liters",
       "150 liters",
-      "120 liter"
+      "120 liters"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (120 liter) | Solution: (d) 3 15 1 – 343 512 x x x        3 3 15 7 1 – 8 x              15 7 1 – 8 x   1 15 8 x   x = 120"
+    "explanation": "Correct Answer: Option D | (120 liters) | Solution: (d) 3 15 1 – 343 512 x x x        3 3 15 7 1 – 8 x              15 7 1 – 8 x   1 15 8 x   x = 120"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a colored picture of blue and yellow color, is used in the ratio of 4:3 respectively. If in upper half, Blue : yellow is 2:3, then in the lower half blue:yellow is",
+    "options": [
+      "1 : 1",
+      "2 : 1",
+      "29 : 9",
+      "26 : 9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (26 : 9) | Solution: (d) B : Y (4 : 3 = 7)  5 2 (2 : 3 = 5)  7 40 : 30 14 : 21 2 6 : 9 Total U.F L.F   "
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q006",
@@ -1796,10 +2459,10 @@
       "25 liters",
       "20 liters",
       "35 liters",
-      "30 liter"
+      "30 liters"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (30 liter) | Solution: (d) S W 2 : 3 2 5 10     4 6 3 : 4 3 7 21     9 12 7 : 5 12 12x     x 7x 5x 13 + 7x = 18 + 5x 2x = 5 12x = 30"
+    "explanation": "Correct Answer: Option D | (30 liters) | Solution: (d) S W 2 : 3 2 5 10     4 6 3 : 4 3 7 21     9 12 7 : 5 12 12x     x 7x 5x 13 + 7x = 18 + 5x 2x = 5 12x = 30"
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q007",
@@ -1808,7 +2471,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "What would be the ratio of milk and water",
+    "question": "What would be the ratio of milk and water in a final mixture formed by mixing milk and water that are present in three vessels of capacity 1l, 2l, and 3l respectively and in the ratios 5:1, 3:2 and 4:3 respectively?",
     "options": [
       "747:443",
       "787:1260",
@@ -1825,7 +2488,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Two blends of a commodity costing Rs.35 and Rs.40",
+    "question": "Two blends of a commodity costing Rs.35 and Rs.40 per kg respectively are mixed in the ratio 2:3 by weight. If one-fifth of the mixture is sold at Rs 46 per kg and the remaining at the rate Rs.55 per kg, the profit percent is.",
     "options": [
       "50",
       "20",
@@ -1842,12 +2505,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A container contains x liters of wine. 10 liters are drawn from this container and is then filled with water. This Operation is performed 2 more times.",
+    "question": "A container contains x liters of wine. 10 liters are drawn from this container and is then filled with water. This Operation is performed 2 more times. The ratio of quantity of the wine now left in container to that of capacity of container is 27 : 64. How much wine did the container hold originally.",
     "options": [
       "22 liters",
       "40 liters",
       "24 liters",
-      "28 liter"
+      "28 liters"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (40 liters)"
@@ -1859,7 +2522,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A can contains 50 litres of a solution of spirit and",
+    "question": "A can contains 50 litres of a solution of spirit and water with 40% spirit in it. 5 litres of the solution is removed and 5 litres of spirit is added. The same process is done two more times. Find the percentage of water in the solution at the end (rounded off to the nearest integer).",
     "options": [
       "40",
       "44",
@@ -1876,7 +2539,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A solution of 60 litres is made of dye and water",
+    "question": "A solution of 60 litres is made of dye and water in the ratio 2 : 3. Water is added to the solution so as to make the ratio of dye to water as 3 : 5. One fourth of the solution is to be removed, and dye is to be added to make dye and water in the ratio 2 : 3 in the final solution. Find how many litres of dye is to be added.",
     "options": [
       "2",
       "6",
@@ -1893,7 +2556,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratios of alcohol and water",
+    "question": "The ratios of alcohol and water in solutions A and B are 7 : 8 and 3 : 2, respectively. If 9 litres of A is mixed with 6 litres of B and then 1 litre of alcohol and 2 litres of water are added to the resulting mixture, what is the percentage of alcohol in the final mixture so obtained (correct to one decimal place)?",
     "options": [
       "46.7",
       "47.8",
@@ -1910,12 +2573,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A bucket contains a mixture of milk and water",
+    "question": "A bucket contains a mixture of milk and water in the proportion of 7 : 5. If 9 litres of milk is replaced by water, then the ratio becomes 7 : 9. How much milk was there in the bucket initially?",
     "options": [
       "36 litres",
       "35 litres",
       "30 litres",
-      "25 litre"
+      "25 litres"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (36 litres)"
@@ -1927,7 +2590,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "From a cask filled with wine, 108.75 litres are first drawn and replaced with water. From this mixture 87 litres are drawn and replaced with water. The ratio",
+    "question": "From a cask filled with wine, 108.75 litres are first drawn and replaced with water. From this mixture 87 litres are drawn and replaced with water. The ratio of wine to water in the cask is now 3 : 2. How many litres of wine did the cask initially hold?",
     "options": [
       "522",
       "348",
@@ -1944,7 +2607,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A vessel contains a solution of acid and water",
+    "question": "A vessel contains a solution of acid and water in the ratio 5: 7. When 9 litres of the solution are taken out and the vessel is filled with equal quantity of acid, the ratio of acid and water in the vessel become 9 : 7. How many litres of solution was there in the vessel, initially?",
     "options": [
       "36",
       "30",
@@ -1961,7 +2624,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of alcohol and water",
+    "question": "The ratio of alcohol and water in solutions A and B is 3 : 5 and 5 : 7, respectively. Two litres of A is mixed with 5 litres of B and 3 litres of alcohol is also added to it to get a new solution C. In 1.5 litres of solution C, how much alcohol (in ml) should be mixed so that the ratio of alcohol and water in the final solution becomes 2 : 1?",
     "options": [
       "405",
       "385",
@@ -1978,7 +2641,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of milk to water",
+    "question": "The ratio of milk to water in a 100 litres mixture is 2 : 3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in final mixture?",
     "options": [
       "56.26",
       "58.21",
@@ -2012,7 +2675,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A drink is made by mixing water and juice",
+    "question": "A drink is made by mixing water and juice in the ratio 9 : 7. If x litres of water and 2x litres of juice are mixed in 160 litres of drink, then the new ratio becomes 13 : 15. The quantity of drink (in litres) is:",
     "options": [
       "240",
       "280",
@@ -2029,15 +2692,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A mango juice is made by mixing water and mango",
+    "question": "A mango juice is made by mixing water and mango concentrate in the ratio 9 : 7. If x litres of water and 3x litres of mango concentrate is mixed in 160 litres of mango juice, then the new ratio becomes 13 : 14. What is the quantity of the new mango juice (in litres)?",
     "options": [
       "197 litre",
       "212 litre",
       "206 litre",
-      "216 litr"
+      "216 litre"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (216 litr)"
+    "explanation": "Correct Answer: Option D | (216 litre)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q021",
@@ -2046,7 +2709,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A vessel contains a 32 litre solution of acid and water",
+    "question": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12 1 litres of the solution are taken out and 7 litres of 2 water are added to it, then what is the ratio of acid and water in the resulting solution?",
     "options": [
       "4 : 7",
       "5 : 6",
@@ -2063,7 +2726,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Tea leaves worth `108 per kg and `120 per kg are",
+    "question": "Tea leaves worth `108 per kg and `120 per kg are mixed with a third variety in the ratio 2 : 3 : 5. If the mixture is worth `125 per kg, the price (in, rounded off to the nearest integer) of the third variety of tea leaves per kg will be:",
     "options": [
       "128",
       "133",
@@ -2080,7 +2743,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Two vessels contain mixture of milk and water.",
+    "question": "Two vessels contain mixture of milk and water. In 1st mixture milk is 31.25% less than water and in 2nd mixture the difference between quantity of milk and water is 11.11% of total mixture. If 10.5 liter of 1st mixture and 17.5 liter of 2nd mixture is. Find the ratio of milk and water in new mixture.",
     "options": [
       "1 : 2",
       "2 : 1",
@@ -2097,7 +2760,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "There are 3 mixture contain milk and water.",
+    "question": "There are 3 mixture contain milk and water. In 1st mixture milk is 37.5% of mixture and in 2nd mixture milk is 28.56% less than water, in 3rd mixture the ratio of milk and water is 5:4. If 12.4liter of 1st mixture, 15.5 liter of 2nd mixture and 9.3liter of 3rd mixture are mixed together then find the ratio of milk and water in new mixture?",
     "options": [
       "7:6",
       "7:9",
@@ -2108,13 +2771,30 @@
     "explanation": "Correct Answer: Option B | (7:9)"
   },
   {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a vessel milk is 60% less than water. When x liter milk is added to mixture then ratio of milk and water becomes 3:5. Now y liter water is extracted from mixture then this ratio becomes 7:10. Now 30 liter milk is added again then new ratio of milk and water becomes 4:5. Find the value of (x + y)?",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "144"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120)"
+  },
+  {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q026",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a vessel is 19:7. When a litre milk is added this ratio becomes 3:1. Again b litre water is subtracted and new ratio is 7:2. Now 7.5 litre milk is added to mixture and 2.5 ltr water is extracted, then ratio of milk and water becomes 45:11. Find the value of a³ – b³?",
     "options": [
       "875",
       "189",
@@ -2131,7 +2811,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Vessel contains a mixture of milk and water",
+    "question": "Vessel contains a mixture of milk and water in ratio 14:3. 25.5 litres of mixture is taken out from the vessel and 2.5 litres of pure water and 5 litres of pure milk is added to the mixture. If resultant mixture contains 20% water. What was the initial quantity of mixture in the vessel before the replacement in litres:",
     "options": [
       "68",
       "70.14",
@@ -2165,14 +2845,31 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A mixture comprise water, liquids A and B. The 1 volume of water is rd of the total mixture and the 3",
+    "question": "A mixture comprise water, liquids A and B. The 1 volume of water is rd of the total mixture and the 3 volume of liquids A and B are in the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the water and partially absorbs liquid A. Altogether this porous medium absorbs 200 ml of the initial mixture. If the ratio of volume of liquids A and B in the residual concentrated mixture becomes 7:9, then find the volume of water absorbed by the porous medium?",
     "options": [
       "60 ml",
       "100 ml",
       "80 ml",
-      "120 m"
+      "120 ml"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (60 ml) | Solution: A mixture comprise water, liquids A and B. The volume of water is 1 3 rd of the total mixture and the volume of liquids A and B are the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the water a"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120 ml) | Solution: A mixture comprise water, liquids A and B. The volume of water is 1 3 rd of the total mixture and the volume of liquids A and B are in the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the wate"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a vessel ratio of milk and water is 7 : 3. When x litre milk is added then ratio of milk and water becomes 17 : 6 now in this mixture 3 : 5 litre milk and 3 litre water is added then ratio of milk and water becomes 5 : 2. Find the value of x.",
+    "options": [
+      "4 litre",
+      "6 litre",
+      "8 litre",
+      "2 litre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 litre) | Solution: In a vessel ratio of milk and water is 7 : 3. When x litre milk is added then ratio of milk and water becomes 17 : 6 now in this mixture 3 : 5 litre milk and 3 litre water is added then ratio of milk and water becomes 5 : 2. Find the value of x. ,d c"
   }
 ]

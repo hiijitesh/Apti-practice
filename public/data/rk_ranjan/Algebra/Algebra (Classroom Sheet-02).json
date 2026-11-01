@@ -295,15 +295,15 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-02).pdf",
-    "question": "What is the value of    3   3   3  2.247  1.730  1.023     –3  2.247  1.730  1.023      2 2   2  2.247  (1.730)  1.023 – 2.247  1.730  ",
+    "question": "What is the value of   2.247  3  1.730  3  1.023  3        –3  2.247  1.730  1.023     2.247  2 (1.730) 2  1.023  2 – 2.247 1.730      ",
     "options": [
-      "1.730",
-      "4",
-      "5",
-      "5.247"
+      "(  –1.730  1.023 – 2.247  1.023)/1.730",
+      "( )/4",
+      "(a) 1.730/5",
+      "(b) 4/5.247"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5)"
+    "explanation": "Correct Answer: Option C | ((a) 1.730/5)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_02_q019",
@@ -742,7 +742,7 @@
       "– 1",
       "– 2 1",
       "1",
-      "2 Algebra (Sheet-02)"
+      "2"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (– 1)"
@@ -907,7 +907,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-02).pdf",
-    "question": "I f 5 5 x  2 2 y = A x  2 y (Bx2+2y2+ Cxy), then the value of (A2 + B2 – C2) is",
+    "question": "I f 5 5 x 2 2 y = A x 2 y (Bx2+2y2+ Cxy), then the value of (A2 + B2 – C2) is",
     "options": [
       "15",
       "20",
@@ -926,12 +926,12 @@
     "sheetFile": "Algebra (Classroom Sheet-02).pdf",
     "question": "If 27(x + y)3 – 8(x – y)3 = (x + 5y)(Ax2 + By2 + Cxy), then what is the value of (A + B – C)?",
     "options": [
-      "7.(a) 8.",
-      "9.(b) 10.(c)",
+      "13",
+      "16",
       "18",
       "11"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (9.(b) 10.(c)) | Exam: CGL 2019 Tier II (15/11/2020)"
+    "explanation": "Correct Answer: Option B | (16) | Exam: CGL 2019 Tier II (15/11/2020)"
   }
 ]

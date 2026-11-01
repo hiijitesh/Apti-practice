@@ -6,12 +6,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "8 liters are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine",
+    "question": "8 liters are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally?",
     "options": [
       "18 liters",
       "24 liters",
       "32 liters",
-      "42 liter"
+      "42 liters"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (24 liters) | Solution: (b) 4 8 1 – 16 16 65 x x x         4 4 8 16 2 1 – = = 81 3 x             8 2 1 – 3 x  8 1 3 x  x = 24 litres"
@@ -23,7 +23,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A can contains a mixture of two liquids a and b",
+    "question": "A can contains a mixture of two liquids a and b in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with b, the ratio of a and b becomes 7 : 9. How many liters of liquid a was contained by the can initially?",
     "options": [
       "10",
       "20",
@@ -40,12 +40,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "4 kg of a metal contains copper and rest",
+    "question": "4 kg of a metal contains copper and rest in 5 1 Zinc. Another 5 kg of metal contains copper 6 and rest in Zinc. The ratio of Copper and Zinc into the mixture of these two metals: 1",
     "options": [
       "49 : 221",
       "39 : 231",
       "94 : 181",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (49 : 221) | Solution: (a) C Z 1 5 4 5 = 4kg 1 6 5 6 = 5 kg Copper = 1 1 4 5 49 4 5 5 6 5 6 30       Zinc = 4 5 16 25 221 4 5 5 6 5 6 30       C : Z = 49 : 221"
@@ -57,15 +57,32 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "From a container of wine, a thief has stolen 15 liters of wine and replaced it with same quantity of water.",
+    "question": "From a container of wine, a thief has stolen 15 liters of wine and replaced it with same quantity of water. He again repeated the same process. Thus, in three attempts the ratio of wine and water became 343 : 169. The initial amount of wine in the container was:",
     "options": [
       "75 liters",
       "100 liters",
       "150 liters",
-      "120 liter"
+      "120 liters"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (120 liter) | Solution: (d) 3 15 1 – 343 512 x x x        3 3 15 7 1 – 8 x              15 7 1 – 8 x   1 15 8 x   x = 120"
+    "explanation": "Correct Answer: Option D | (120 liters) | Solution: (d) 3 15 1 – 343 512 x x x        3 3 15 7 1 – 8 x              15 7 1 – 8 x   1 15 8 x   x = 120"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a colored picture of blue and yellow color, is used in the ratio of 4:3 respectively. If in upper half, Blue : yellow is 2:3, then in the lower half blue:yellow is",
+    "options": [
+      "1 : 1",
+      "2 : 1",
+      "29 : 9",
+      "26 : 9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (26 : 9) | Solution: (d) B : Y (4 : 3 = 7)  5 2 (2 : 3 = 5)  7 40 : 30 14 : 21 2 6 : 9 Total U.F L.F   "
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q006",
@@ -79,10 +96,10 @@
       "25 liters",
       "20 liters",
       "35 liters",
-      "30 liter"
+      "30 liters"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (30 liter) | Solution: (d) S W 2 : 3 2 5 10     4 6 3 : 4 3 7 21     9 12 7 : 5 12 12x     x 7x 5x 13 + 7x = 18 + 5x 2x = 5 12x = 30"
+    "explanation": "Correct Answer: Option D | (30 liters) | Solution: (d) S W 2 : 3 2 5 10     4 6 3 : 4 3 7 21     9 12 7 : 5 12 12x     x 7x 5x 13 + 7x = 18 + 5x 2x = 5 12x = 30"
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q007",
@@ -91,7 +108,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "What would be the ratio of milk and water",
+    "question": "What would be the ratio of milk and water in a final mixture formed by mixing milk and water that are present in three vessels of capacity 1l, 2l, and 3l respectively and in the ratios 5:1, 3:2 and 4:3 respectively?",
     "options": [
       "747:443",
       "787:1260",
@@ -108,7 +125,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Two blends of a commodity costing Rs.35 and Rs.40",
+    "question": "Two blends of a commodity costing Rs.35 and Rs.40 per kg respectively are mixed in the ratio 2:3 by weight. If one-fifth of the mixture is sold at Rs 46 per kg and the remaining at the rate Rs.55 per kg, the profit percent is.",
     "options": [
       "50",
       "20",
@@ -125,12 +142,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A container contains x liters of wine. 10 liters are drawn from this container and is then filled with water. This Operation is performed 2 more times.",
+    "question": "A container contains x liters of wine. 10 liters are drawn from this container and is then filled with water. This Operation is performed 2 more times. The ratio of quantity of the wine now left in container to that of capacity of container is 27 : 64. How much wine did the container hold originally.",
     "options": [
       "22 liters",
       "40 liters",
       "24 liters",
-      "28 liter"
+      "28 liters"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (40 liters)"
@@ -142,7 +159,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A can contains 50 litres of a solution of spirit and",
+    "question": "A can contains 50 litres of a solution of spirit and water with 40% spirit in it. 5 litres of the solution is removed and 5 litres of spirit is added. The same process is done two more times. Find the percentage of water in the solution at the end (rounded off to the nearest integer).",
     "options": [
       "40",
       "44",
@@ -159,7 +176,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A solution of 60 litres is made of dye and water",
+    "question": "A solution of 60 litres is made of dye and water in the ratio 2 : 3. Water is added to the solution so as to make the ratio of dye to water as 3 : 5. One fourth of the solution is to be removed, and dye is to be added to make dye and water in the ratio 2 : 3 in the final solution. Find how many litres of dye is to be added.",
     "options": [
       "2",
       "6",
@@ -176,7 +193,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratios of alcohol and water",
+    "question": "The ratios of alcohol and water in solutions A and B are 7 : 8 and 3 : 2, respectively. If 9 litres of A is mixed with 6 litres of B and then 1 litre of alcohol and 2 litres of water are added to the resulting mixture, what is the percentage of alcohol in the final mixture so obtained (correct to one decimal place)?",
     "options": [
       "46.7",
       "47.8",
@@ -193,12 +210,12 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A bucket contains a mixture of milk and water",
+    "question": "A bucket contains a mixture of milk and water in the proportion of 7 : 5. If 9 litres of milk is replaced by water, then the ratio becomes 7 : 9. How much milk was there in the bucket initially?",
     "options": [
       "36 litres",
       "35 litres",
       "30 litres",
-      "25 litre"
+      "25 litres"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (36 litres)"
@@ -210,7 +227,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "From a cask filled with wine, 108.75 litres are first drawn and replaced with water. From this mixture 87 litres are drawn and replaced with water. The ratio",
+    "question": "From a cask filled with wine, 108.75 litres are first drawn and replaced with water. From this mixture 87 litres are drawn and replaced with water. The ratio of wine to water in the cask is now 3 : 2. How many litres of wine did the cask initially hold?",
     "options": [
       "522",
       "348",
@@ -227,7 +244,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A vessel contains a solution of acid and water",
+    "question": "A vessel contains a solution of acid and water in the ratio 5: 7. When 9 litres of the solution are taken out and the vessel is filled with equal quantity of acid, the ratio of acid and water in the vessel become 9 : 7. How many litres of solution was there in the vessel, initially?",
     "options": [
       "36",
       "30",
@@ -244,7 +261,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of alcohol and water",
+    "question": "The ratio of alcohol and water in solutions A and B is 3 : 5 and 5 : 7, respectively. Two litres of A is mixed with 5 litres of B and 3 litres of alcohol is also added to it to get a new solution C. In 1.5 litres of solution C, how much alcohol (in ml) should be mixed so that the ratio of alcohol and water in the final solution becomes 2 : 1?",
     "options": [
       "405",
       "385",
@@ -261,7 +278,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of milk to water",
+    "question": "The ratio of milk to water in a 100 litres mixture is 2 : 3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in final mixture?",
     "options": [
       "56.26",
       "58.21",
@@ -295,7 +312,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A drink is made by mixing water and juice",
+    "question": "A drink is made by mixing water and juice in the ratio 9 : 7. If x litres of water and 2x litres of juice are mixed in 160 litres of drink, then the new ratio becomes 13 : 15. The quantity of drink (in litres) is:",
     "options": [
       "240",
       "280",
@@ -312,15 +329,15 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A mango juice is made by mixing water and mango",
+    "question": "A mango juice is made by mixing water and mango concentrate in the ratio 9 : 7. If x litres of water and 3x litres of mango concentrate is mixed in 160 litres of mango juice, then the new ratio becomes 13 : 14. What is the quantity of the new mango juice (in litres)?",
     "options": [
       "197 litre",
       "212 litre",
       "206 litre",
-      "216 litr"
+      "216 litre"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (216 litr)"
+    "explanation": "Correct Answer: Option D | (216 litre)"
   },
   {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q021",
@@ -329,7 +346,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A vessel contains a 32 litre solution of acid and water",
+    "question": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12 1 litres of the solution are taken out and 7 litres of 2 water are added to it, then what is the ratio of acid and water in the resulting solution?",
     "options": [
       "4 : 7",
       "5 : 6",
@@ -346,7 +363,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Tea leaves worth `108 per kg and `120 per kg are",
+    "question": "Tea leaves worth `108 per kg and `120 per kg are mixed with a third variety in the ratio 2 : 3 : 5. If the mixture is worth `125 per kg, the price (in, rounded off to the nearest integer) of the third variety of tea leaves per kg will be:",
     "options": [
       "128",
       "133",
@@ -363,7 +380,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Two vessels contain mixture of milk and water.",
+    "question": "Two vessels contain mixture of milk and water. In 1st mixture milk is 31.25% less than water and in 2nd mixture the difference between quantity of milk and water is 11.11% of total mixture. If 10.5 liter of 1st mixture and 17.5 liter of 2nd mixture is. Find the ratio of milk and water in new mixture.",
     "options": [
       "1 : 2",
       "2 : 1",
@@ -380,7 +397,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "There are 3 mixture contain milk and water.",
+    "question": "There are 3 mixture contain milk and water. In 1st mixture milk is 37.5% of mixture and in 2nd mixture milk is 28.56% less than water, in 3rd mixture the ratio of milk and water is 5:4. If 12.4liter of 1st mixture, 15.5 liter of 2nd mixture and 9.3liter of 3rd mixture are mixed together then find the ratio of milk and water in new mixture?",
     "options": [
       "7:6",
       "7:9",
@@ -391,13 +408,30 @@
     "explanation": "Correct Answer: Option B | (7:9)"
   },
   {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a vessel milk is 60% less than water. When x liter milk is added to mixture then ratio of milk and water becomes 3:5. Now y liter water is extracted from mixture then this ratio becomes 7:10. Now 30 liter milk is added again then new ratio of milk and water becomes 4:5. Find the value of (x + y)?",
+    "options": [
+      "60",
+      "120",
+      "180",
+      "144"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120)"
+  },
+  {
     "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q026",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "The ratio of milk and water",
+    "question": "The ratio of milk and water in a vessel is 19:7. When a litre milk is added this ratio becomes 3:1. Again b litre water is subtracted and new ratio is 7:2. Now 7.5 litre milk is added to mixture and 2.5 ltr water is extracted, then ratio of milk and water becomes 45:11. Find the value of a³ – b³?",
     "options": [
       "875",
       "189",
@@ -414,7 +448,7 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "Vessel contains a mixture of milk and water",
+    "question": "Vessel contains a mixture of milk and water in ratio 14:3. 25.5 litres of mixture is taken out from the vessel and 2.5 litres of pure water and 5 litres of pure milk is added to the mixture. If resultant mixture contains 20% water. What was the initial quantity of mixture in the vessel before the replacement in litres:",
     "options": [
       "68",
       "70.14",
@@ -448,14 +482,31 @@
     "chapter": "Mixture & Alligation",
     "sheetType": "Pro Level",
     "sheetFile": "Mixture (Pro Level Sheet).pdf",
-    "question": "A mixture comprise water, liquids A and B. The 1 volume of water is rd of the total mixture and the 3",
+    "question": "A mixture comprise water, liquids A and B. The 1 volume of water is rd of the total mixture and the 3 volume of liquids A and B are in the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the water and partially absorbs liquid A. Altogether this porous medium absorbs 200 ml of the initial mixture. If the ratio of volume of liquids A and B in the residual concentrated mixture becomes 7:9, then find the volume of water absorbed by the porous medium?",
     "options": [
       "60 ml",
       "100 ml",
       "80 ml",
-      "120 m"
+      "120 ml"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (60 ml) | Solution: A mixture comprise water, liquids A and B. The volume of water is 1 3 rd of the total mixture and the volume of liquids A and B are the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the water a"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120 ml) | Solution: A mixture comprise water, liquids A and B. The volume of water is 1 3 rd of the total mixture and the volume of liquids A and B are in the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the wate"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "In a vessel ratio of milk and water is 7 : 3. When x litre milk is added then ratio of milk and water becomes 17 : 6 now in this mixture 3 : 5 litre milk and 3 litre water is added then ratio of milk and water becomes 5 : 2. Find the value of x.",
+    "options": [
+      "4 litre",
+      "6 litre",
+      "8 litre",
+      "2 litre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 litre) | Solution: In a vessel ratio of milk and water is 7 : 3. When x litre milk is added then ratio of milk and water becomes 17 : 6 now in this mixture 3 : 5 litre milk and 3 litre water is added then ratio of milk and water becomes 5 : 2. Find the value of x. ,d c"
   }
 ]

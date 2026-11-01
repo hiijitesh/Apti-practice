@@ -6,7 +6,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Father is aged three times more After 8 years, he would be two and Ronit's age. After further 8 years, would he be of Ronit's age?",
+    "question": "Father is aged three times more than his son Ronit. After 8 years, he would be two and a half times of Ronit's age. After further 8 years, how many times would he be of Ronit's age?",
     "options": [
       "2 times",
       "3 times",
@@ -23,12 +23,12 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Sum of ages of 5 children born at years each is 50 years. What is the child?",
+    "question": "Sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?",
     "options": [
       "4 years",
       "8 years",
       "10 years",
-      "None"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (4 years) | Solution: (a) Let 'a' be the age of youngest child. We know, Sn =   n 2a + n -1 d 2     50 = 5 2 [2a + 4 3]  a = 4 years."
@@ -40,7 +40,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "5 times the present age of Sujatha than 2 times the present age of Vanita. 3 times the age of Vanita will be times the age of Sujatha. The age more than that of Sujatha. What",
+    "question": "5 times the present age of Sujatha is 5 years more than 2 times the present age of Vanita. After 4 years, 3 times the age of Vanita will be 8 years less than 5 times the age of Sujatha. The age of Vanita is k years more than that of Sujatha. What is the value of k?",
     "options": [
       "2",
       "3",
@@ -57,7 +57,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Ayesha's father was 38 years of born while her mother was 36 years brother four years younger to her the difference between the ages of",
+    "question": "Ayesha's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?",
     "options": [
       "2 years",
       "4 years",
@@ -74,15 +74,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "The age of father 10 years ago was his son. Ten years hence, father's that of his son. The ratio of their",
+    "question": "The age of father 10 years ago was thrice the age of his son. Ten years hence, father's age will be twice that of his son. The ratio of their present ages is:",
     "options": [
       "5 : 2",
-      "7 :",
+      "7 : 3",
       "9 : 2",
-      "13"
+      "13 : 4"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (7 :) | Solution: (b) 10 years ago After 10 years F : S (3 :"
+    "explanation": "Correct Answer: Option B | (7 : 3) | Solution: (b) 10 years ago After 10 years F : S (3 :"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q006",
@@ -91,15 +91,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Divya is twice as old as Shruti. What",
+    "question": "Divya is twice as old as Shruti. What is the difference in their ages?",
     "options": [
-      "II alone sufficient answer",
-      "Either I or ;k rks I ;k II",
-      "Both I and the intervals of 3",
-      "Both I and age of the youngest"
+      "II alone sufficient while I alone not sufficient to answer",
+      "Either I or II alone sufficient to answer",
+      "Both I and II are not sufficient to answer",
+      "Both I and II are necessary to answer"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Either I or ;k rks I ;k II) | Solution: (b) Present age 5 years ago D : S (2 :"
+    "explanation": "Correct Answer: Option B | (Either I or II alone sufficient to answer) | Solution: (b) Present age 5 years ago D : S (2 :"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q007",
@@ -108,15 +108,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "If 6 years are subtracted and the remainder age of his grandson years younger to of these is the age of Arun?",
+    "question": "If 6 years are subtracted from the present age of Arun and the remainder is divided by 18, then the present age of his grandson Gokul is obtained. If Gokul is 2 years younger to Madan whose age is 5 years, then what is the age of Arun?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "72 years",
+      "54 years",
+      "60 years",
+      "47 years"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (c) ATQ, A 6 18  = G  A – 6 = 18 G  A = 18G + 6 ...(1) also, G = 5 – 2 = 3 ...(2) Put (2) (1) A = 54 + 6 = 60 years."
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (60 years) | Solution: (c) ATQ, A 6 18  = G  A – 6 = 18 G  A = 18G + 6 ...(1) also, G = 5 – 2 = 3 ...(2) Put (2) in (1) A = 54 + 6 = 60 years."
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q008",
@@ -125,15 +125,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Seven times the",
+    "question": "Seven times the present age of P exceeds the present age of Q by 46 years. After 8 years, six times Q's age will be 24 years less than six times P's age at that time. What is the present age (in years) of Q?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11",
+      "12",
+      "5",
+      "3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (d) ATQ, 7P – Q = 46 .....(i) 6(P + 8) – 6(Q + 8) = 24 P + 8 – Q – 8 = 4 P – Q = 4 .....(ii) From equation (i) – (ii) 7 7P – Q = 46 7P – 7Q = 28 6Q = 18 – + – Q = 3 then,"
+    "explanation": "Correct Answer: Option D | (3) | Solution: (d) ATQ, 7P – Q = 46 .....(i) 6(P + 8) – 6(Q + 8) = 24 P + 8 – Q – 8 = 4 P – Q = 4 .....(ii) From equation (i) – (ii) 7 7P – Q = 46 7P – 7Q = 28 6Q = 18 – + – Q = 3 then,"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q009",
@@ -142,15 +142,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Raju got married times his age at was 10 years younger thrice the age of The present age age will be twice",
+    "question": "Raju got married 8years ago. His present age is 5 times his age at the time of his marriage Raju's sister was 10 years younger to him at the time of his marriage. The present age of Raju's sister is?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "32",
+      "38",
+      "None"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Solution: (c) –8 years now Raju  5 6 1 unit  8 5 unit  40 present age of Raju = 6 8 = 48 Also, R – S = 10  S = 38 years."
+    "explanation": "Correct Answer: Option C | (38) | Solution: (c) –8 years now Raju  5 6 1 unit  8 5 unit  40 present age of Raju = 6 8 = 48 Also, R – S = 10  S = 38 years."
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q010",
@@ -159,15 +159,15 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "Six years ago Anita",
+    "question": "Six years ago Anita was P times as old as Ben was. If Anita is now 17 years old, how old is Ben now in terms of P ?",
     "options": [
-      "11/P",
-      "P/+ 6 11+ 6",
-      "17/6",
-      "– P 11+ 6P/11"
+      "11/(P + 6)",
+      "P/(11+ 6)",
+      "(17 – P)/6",
+      "(11+ 6P)/11"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (– P 11+ 6P/11) | Solution: (d) Anita Ben 6 years ago  Px x (Px + 6) (x + 6) Px + 6 = 17  x = 11 P Age of Ben = 11 + 6 P       = 11+6P P"
+    "explanation": "Correct Answer: Option D | ((11+ 6P)/11) | Solution: (d) Anita Ben 6 years ago  Px x (Px + 6) (x + 6) Px + 6 = 17  x = 11 P Age of Ben = 11 + 6 P       = 11+6P P"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q011",
@@ -218,7 +218,7 @@
       "5 years"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2 years) | Solution: (a) ATQ, H 5 W 5 2    = 24  H + W = 58 ...(1) Also, H W C 3   = 20 H + W + C = 60 ...(2) Put (1) (2) C = 2 years"
+    "explanation": "Correct Answer: Option A | (2 years) | Solution: (a) ATQ, H 5 W 5 2    = 24  H + W = 58 ...(1) Also, H W C 3   = 20 H + W + C = 60 ...(2) Put (1) in (2) C = 2 years"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q014",
@@ -234,8 +234,8 @@
       "42",
       "54"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (45)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (54)"
   },
   {
     "id": "rkr_ages_age_pro_level_sheet_q015",
@@ -244,7 +244,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "If 3 times the mother's age is 26 years more than 5 times her daughter's age, and 2 times the daughter's age is 2 years less than the mother's age, then what",
+    "question": "If 3 times the mother's age is 26 years more than 5 times her daughter's age, and 2 times the daughter's age is 2 years less than the mother's age, then what is the difference (in years) between the ages of the mother and the daughter?",
     "options": [
       "25",
       "20",
@@ -295,7 +295,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "The persent age (",
+    "question": "The persent age (in years) of Arun is one year less then two times the present age (in years) of Varun. After 5 years from now, Varun's age will be equal to 2 of the present age of Arun. What is the sum of 3 the ages (in years) of Arun and Varun after 2 years from now?",
     "options": [
       "54",
       "50",
@@ -312,7 +312,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "The present ages of two cousins are",
+    "question": "The present ages of two cousins are in the ratio of 4 : 7. After 5 years, their ages are in the ratio of 37 : 61. The ratio of their ages after 8 years is:",
     "options": [
       "8 : 5",
       "5 : 9",
@@ -329,7 +329,7 @@
     "chapter": "Ages",
     "sheetType": "Pro Level",
     "sheetFile": "Age (Pro Level Sheet).pdf",
-    "question": "5 year ago, the ratio of the ages of A, B and C was 4 : 5 : 7. The sum of their present ages is 135 year.",
+    "question": "5 year ago, the ratio of the ages of A, B and C was 4 : 5 : 7. The sum of their present ages is 135 year. After 3 years from now, what will be the sum (in years) of the ages of B and C?",
     "options": [
       "100",
       "112",
@@ -346,7 +346,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times",
+    "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times as old as Savita. What is the present age (in years) of Rahim?",
     "options": [
       "45",
       "35",
@@ -380,7 +380,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of present ages of A and B is 7 : 8. After 6 years from now, the ratio of their ages will be 8 : 9. If C's present age is 10 years more than the present age of A, then",
+    "question": "The ratio of present ages of A and B is 7 : 8. After 6 years from now, the ratio of their years more than the present age of A, then the present age (in years) of C is:",
     "options": [
       "56",
       "52",
@@ -414,7 +414,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Ghanshyam is thrice as old as Akash. 10 years ago, Ghanshyam was four times as old as Akash. What is the difference between their",
+    "question": "Ghanshyam is thrice as old as Akash. 10 years ago, Ghanshyam was four times as old as Akash. What is the difference between their current ages (in years)?",
     "options": [
       "65",
       "50",
@@ -431,7 +431,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Eight year ago, the ratio of ages of A and B was 5 : 4. The ratio of their present ages",
+    "question": "Eight year ago, the ratio of ages of A and B was 5 : 4. The ratio of their present ages is 6 : 5. What will be the sum (in years) of the ages of A and B after 7 years from now?",
     "options": [
       "80",
       "122",
@@ -448,7 +448,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Seven years ago, Prachi was four times as old as her daughter was at that time. Four years from now, Prachi will be two-and-a- half times as old as her daughter would then be. Find the sum of the present ages",
+    "question": "Seven years ago, Prachi was four times as old as her daughter was at that time. Four years from now, Prachi will be two-and-a- half times as old as her daughter would then be. Find the sum of the present ages (in years) of Prachi and her daughter.",
     "options": [
       "69",
       "77",
@@ -482,7 +482,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "10 years ago the father's age was three times the age of his son. After ten years, the father's age will be twice the age of his son. What is the ratio of their present ages?",
+    "question": "10 years ago the father's age was three times the age of his son. After ten years, the father's age will be twice the age of his son. What is the ratio of their present",
     "options": [
       "7 : 3",
       "5 : 2",
@@ -535,13 +535,13 @@
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
     "question": "Amit's father is aged five times more than Amit. After 6 years, he would be three and a half times of Amit's age. After further 9 years, how many times of Amit's age would he be?",
     "options": [
-      "2 times",
-      "2 times",
-      "3 times",
-      "2 times"
+      "3/(2 times)",
+      "1/(2 times)",
+      "2/(3 times)",
+      "3/(2 times)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 times) | Exam: SSC CGL 24/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (3/(2 times)) | Exam: SSC CGL 24/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_ages_ages_classroom_sheet_q013",
@@ -584,7 +584,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The sum of the ages of a son and father is 52 years; After four years the father's age will be four times the son's age. What is the",
+    "question": "The sum of the ages of a son and father is 52 years; After four years the father's age will be four times the son's age. What is the present age (in years) of the son?",
     "options": [
       "9 years",
       "12 years",
@@ -618,7 +618,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the ages of all four of them is 36 years. The present age of Shyam is:",
+    "question": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the present age of Shyam is:",
     "options": [
       "35 years",
       "32 years",
@@ -635,7 +635,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of ages of A and B, 8 years ago, was 2:3. Four years ago, the ratio of their ages was 5:7. What will be the ratio of their ages 8 years from now?",
+    "question": "The ratio of ages of A and B, 8 years ago, was 2:3. Four years ago, the ratio of their",
     "options": [
       "7:8",
       "4:5",
@@ -669,7 +669,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ages of two friends, Ram and Ravi, differ by 7 years. Ram's mother Mayadevi is three times as old as Ram, and Ravi is four times as old as his brother Soham. The ages of Mayadevi and Soham differ by 65",
+    "question": "The ages of two friends, Ram and Ravi, differ by 7 years. Ram's mother Mayadevi is three times as old as Ram, and Ravi is four times as old as his brother Soham. The years. Find the age of Mayadevi (in years).",
     "options": [
       "69",
       "36",
@@ -686,7 +686,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "One year ago, the ratio of the age (",
+    "question": "One year ago, the ratio of the age (in years) of A to that of B was 4:3. The ratio of their respective ages, 3 years from now, will be 6:5. What will be the ratio of respective",
     "options": [
       "7 : 6",
       "10 : 9",
@@ -703,7 +703,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The present age of a husband and wife is",
+    "question": "The present age of a husband and wife is in the ratio 5 : 4. After 6 years their ages will be in the ratio 6 : 5. At the time of their marriage the ratio of their ages was 4 : 3. How many years ago they were married?",
     "options": [
       "8 yrs",
       "10 yrs",
@@ -720,7 +720,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of the ages of A and B, 3 years ago, was 5 : 7. The ratio of their ages, 13 years from now, will be 9 : 11. If the present age of C is 11 years less than that of B, then",
+    "question": "The ratio of the ages of A and B, 3 years ago, was 5 : 7. The ratio of their ages, 13 years from now, will be 9 : 11. If the present age of C is 11 years less than that of B, then the present age of C, in years, is:",
     "options": [
       "23",
       "36",
@@ -737,7 +737,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of the ages of A and B, 8 years ago, was 5 : 7. The ratio of their ages, 8 years from now, will be 9 : 11. If the present age of C is 13 years less than that of B, and the present age of D is 8 years less than that of the age of A, then the sum of the",
+    "question": "The ratio of the ages of A and B, 8 years ago, was 5 : 7. The ratio of their ages, 8 years from now, will be 9 : 11. If the present age of C is 13 years less than that of B, and the present age of D is 8 years less than that of the age of A, then the sum of the present ages of C and D, in years, is:",
     "options": [
       "47",
       "55",
@@ -773,13 +773,30 @@
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
     "question": "P got married 15 years ago. Today her age 3 is 1 times her age at the time of her 5 1 marriage. At present her son's age is of 5 her age. What was her son's age 4 years ago as a fraction of P's age at that time?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/9",
+      "1/8",
+      "5/9",
+      "1/10"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 10/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1/9) | Exam: SSC CHSL 10/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "In a family, the combined age of husband, wife and a son is 90 years. The husband is the oldest. The difference in the ages of the 1 husband and wife is rd the age of 3 their 3 son. After 10 years, the age of the son would be half the age of his father. What is the present age of his mother (in years)?",
+    "options": [
+      "40",
+      "45",
+      "35",
+      "30"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (35) | Exam: SSC CGL 19/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_ages_ages_classroom_sheet_q028",
@@ -793,9 +810,9 @@
       "2 : 3",
       "1 : 4",
       "4 : 7",
-      "1 : 5 KEY 6. (d) 7. (a) 8. (c) 9. (a) 10. (a)"
+      "1 : 5"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2 : 3) | Exam: SSC CGL 09/09/2024 (Shift-02)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 5) | Exam: SSC CGL 09/09/2024 (Shift-02)"
   }
 ]

@@ -6,15 +6,15 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "If sin = , then cos and tan are 25 repsectively _________ .",
+    "question": "If sin = , then cos and tan are 25 repsectively _________ . (where  is in the first quadrant) 7",
     "options": [
-      "and",
-      "and",
-      "and",
-      "and"
+      "25/and",
+      "24/and",
+      "24/and",
+      "24/and"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (and) | Exam: SSC CHSL 09/07/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (24/and) | Exam: SSC CHSL 09/07/2024 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q002",
@@ -25,13 +25,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "What is the value of sec(t), if tan(t) = ? 3 1",
     "options": [
-      "2/3",
-      "2 10/9",
+      "2 2/3",
+      "10/9",
       "10/3",
       "3/3"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2/3) | Exam: SSC CGL 09/09/2024 (Shift-02)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10/3) | Exam: SSC CGL 09/09/2024 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q003",
@@ -47,8 +47,8 @@
       "2/5",
       "9/25"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3/5) | Exam: SSC CPO 03/10/2023 (Shift-3)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4/25) | Exam: SSC CPO 03/10/2023 (Shift-3)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q004",
@@ -59,13 +59,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If cotA = , then find the value of 12 sec A – cos ecA 17 – . sec A  cos ecA 7 5 sec A – cos ecA 17",
     "options": [
-      "24/11",
-      "9",
-      "10/119",
-      "10/119"
+      "24",
+      "0",
+      "10/(–)",
+      "10"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (10/119) | Exam: SSC CHSL 08/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (10/(–)) | Exam: SSC CHSL 08/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q005",
@@ -76,13 +76,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If cos θ= , then tan2 cos2 = ? 2 3",
     "options": [
-      "1/3",
-      "1/4",
-      "1/2",
-      "3"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1/4) | Exam: SSC CGL 14/07/2023 (Shift-1)"
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 14/07/2023 (Shift-1)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q006",
@@ -176,7 +176,7 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "If 7 tan = 3, then is: 7 sin  – 2cos  7 sin   5cos ",
+    "question": "If 7 tan = 3, then   is: 7 sin – 2cos 7 sin   5cos ",
     "options": [
       "7",
       "5",
@@ -214,8 +214,8 @@
     "options": [
       "25/78",
       "35/234",
-      "35/10",
-      "25/8 156"
+      "35/108",
+      "25/156"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (35/234) | Exam: SSC CGL MAINS 03/02/2022"
@@ -246,13 +246,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If = , then the value of 9sinθ – 2cos θ 4 tan 2 θ+5 2 is: tan θ – 5 7 sinθ  4 cos θ 5 tan 2 θ  5",
     "options": [
-      "21/76",
-      "21 2121/9 769",
-      "76/21",
-      "9 769/21 2121"
+      "2121",
+      "2121/(–)",
+      "769",
+      "769/(–)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (21 2121/9 769) | Exam: SSC CGL 09/09/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (2121/(–)) | Exam: SSC CGL 09/09/2024 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q016",
@@ -263,13 +263,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sin = , 0º <  < 90°, then 13 sin 2  – cos 2  1   __________. 2 sin  .cos  tan 2  12",
     "options": [
-      "29/34",
-      "5 290/56 3542",
-      "69/35",
-      "5 595/42 3456"
+      "295/3456",
+      "290/3542",
+      "695/3542",
+      "595/3456"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (5 595/42 3456) | Exam: SSC CHSL 08/06/2022 (Shift- 2)"
+    "explanation": "Correct Answer: Option D | (595/3456) | Exam: SSC CHSL 08/06/2022 (Shift- 2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q017",
@@ -297,13 +297,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sin  = , then the value of tan is: x 2 + y 2 2 x y",
     "options": [
-      "2 x/x –",
-      "y x 2 + y 2/y x – y",
-      "x/2",
-      "2 – y 2 x 2 – y 2/x y x + y"
+      "(2 x y)/(2 2)",
+      "(x 2 + y 2)/(2 2)",
+      "x 2 – y 2",
+      "(x 2 – y 2)/(2 2)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2 x/x –) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | ((2 x y)/(2 2)) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q019",
@@ -314,13 +314,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sec = , b  0, then = ? b 2 - sin 2 θ a 1- tan 2 θ",
     "options": [
-      "a/b",
-      "2b + a/2  a 2 - b 2  b 2  a 2 + b 2 ",
-      "a 2/b 2",
-      " 2b 2 - a 2  a 2  2b 2 - a 2 /a 2 + b 2 a 2 a 2 + b 2"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (a 2/b 2) | Exam: SSC CGL MAINS (15/10/2020)"
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL MAINS (15/10/2020)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q020",
@@ -348,13 +348,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If =7, then the value of cosec  – cot 4sin 2  – 1 is: 4sin 2  + 5 cosec  cot  4sin 2  – 1",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "1/(–)",
+      "1/(–)",
+      "1"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CGL 16/08/2021 (Shift- 01)"
+    "explanation": "Correct Answer: Option D | (1) | Exam: SSC CGL 16/08/2021 (Shift- 01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q022",
@@ -368,7 +368,7 @@
       "2",
       "–14",
       "14",
-      "–2"
+      "–2 sec  + tan  1"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–14) | Exam: SSC CGL 23/08/2021 (Shift- 02)"
@@ -380,7 +380,7 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "If = ,  lies",
+    "question": "If = ,  lies in first quadrant, sec  + tan  7 cosec  + cot ²  then the value of is: cosec  – cot ²  sec  + tan  1",
     "options": [
       "19/5",
       "22/3",
@@ -389,6 +389,57 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (19/5) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
+    "question": "In a ABC, right angled at B, if tanA  , then 3 sinA. cosC + cosA. sinC = ______. 1",
+    "options": [
+      "0",
+      "2",
+      "– 1",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1) | Exam: SSC CHSL 26/05/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
+    "question": "In ABC, right angled at B, if tanA = , then 2 sinA(cosC + cosA) the value of is : cosC(sinC - sinA) 1",
+    "options": [
+      "2 5",
+      "3",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3) | Exam: SSC CGL TIER-II (16/10/2020)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
+    "question": "In  ABC, B = 90° and AB : BC = 1 : 2. The value of cos A + tan C is:",
+    "options": [
+      "(1  5)/(2 5)",
+      "2 5/2  5",
+      "(5  5)/(2 5)",
+      "(2  5)/(2 5)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((2  5)/(2 5)) | Exam: SSC CPO 04/10/2023 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q027",
@@ -416,13 +467,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sin23° = , then the value of sec23° – sin67° b is ______. a",
     "options": [
-      "a/b",
-      "2 b 2 – a 2/2 – a 2 ab",
-      "a/b",
-      "2 a 2/b 2  a 2 b b 2 – a 2"
+      "(a 2)/(b 2 – a 2)",
+      "(b 2 – a 2)/ab",
+      "(a 2)/(b b 2  a 2)",
+      "(a 2)/(b b 2 – a 2)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 a 2/b 2  a 2 b b 2 – a 2) | Exam: SSC CGL 14/07/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option D | ((a 2)/(b b 2 – a 2)) | Exam: SSC CGL 14/07/2023 (Shift-3)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q029",
@@ -433,13 +484,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sin31° = , then the value of cot59° is:",
     "options": [
-      "1/2",
-      "–  2 / 1 –  2",
-      "1/",
-      "  2 /1   2"
+      "(1 –  2)/(2 )",
+      "/(1 –  2)",
+      "(1   2)/",
+      "/(1   2)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (–  2 / 1 –  2) | Exam: SSC CGL 13/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (/(1 –  2)) | Exam: SSC CGL 13/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q030",
@@ -450,13 +501,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If cos 24° = , then the value of (cosec24° – n cos 66°) is: m",
     "options": [
-      "m²/n",
-      "n²/m² – n² n m² – n²",
-      "n²/m",
-      "m²/n² – m² n n² – m²"
+      "n m² – n²",
+      "n m² – n²",
+      "m n² – m²",
+      "n n² – m²"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (m²/n² – m² n n² – m²) | Exam: SSC CGL 17/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (n n² – m²) | Exam: SSC CGL 17/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q031",
@@ -484,13 +535,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If 0º < A, B < 45º, cos (A+B) = and 25 15 sin (A–B) = , then tan2A = ?",
     "options": [
-      "416",
-      "213",
-      "41/87",
-      "6 213/4"
+      "0/416",
+      "1/213",
+      "87",
+      "4"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (41/87) | Exam: SSC CGL 06/03/2020 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | (87) | Exam: SSC CGL 06/03/2020 (Shift- 02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q033",
@@ -518,13 +569,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "What is the value of sin30° + cos30° + tan30°",
     "options": [
-      "5/2",
-      " 3 5 – 3/3 2 3",
-      "5/3",
-      "– 3 5 – 3/3"
+      "(5  3)/(2 3)",
+      "(5 – 3)/(2 3)",
+      "(5 – 3)/3",
+      "(5 – 3)/3"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5/2) | Exam: SSC CGL 14/07/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option A | ((5  3)/(2 3)) | Exam: SSC CGL 14/07/2023 (Shift-3)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q035",
@@ -533,7 +584,7 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "The value of at = 45° is: 2cos 4 θ  cos 2 θ sin 2 θ – 2 sin 4 θ",
+    "question": "The value of 4 2 at = 45° is: 2cos θ  cos θ sin 2 θ – 2 sin 4 θ",
     "options": [
       "1",
       "0",
@@ -569,10 +620,10 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If 2ksin 30°cos30°cot60° cot²30°sec60°tan45° = , then find the value of k.",
     "options": [
-      "3/2",
       "3",
-      "2/Adi",
-      "tya Ranjan (Excise Inspector"
+      "3",
+      "2/1",
+      "6"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (3) | Exam: SSC CGL 12/04/2022 (Shift- 03)"
@@ -586,13 +637,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If A = 10°, what is the value of 12sin 3A + 5cos (5A – 5)° 9A 9sin – 4cos (5A +10)° 2 12sin 3A + 5cos (5A – 5)°",
     "options": [
-      "6/(9",
-      "2 + 5 6 2 – 5/+ 2 2) (9 – 2 2)",
-      "6/(9",
-      "2 + 5/– 2 2) 6 2 +5"
+      "(6 2 + 5)/(9 + 2 2)",
+      "(6 2 – 5)/(9 – 2 2)",
+      "6 2/(9 – 2 2)",
+      "(+ 5)/(6 2 +5)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (6/(9) | Exam: SSC CGL 18/04/2022 (Shift- 03)"
+    "explanation": "Correct Answer: Option C | (6 2/(9 – 2 2)) | Exam: SSC CGL 18/04/2022 (Shift- 03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q039",
@@ -620,13 +671,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If 4 sin²(2x – 10)° = 3,0º  (2x–10)  90º, then sin 4 (x– 5)  cos 4 (x– 5)  find the value of . 1 – 2 sin ²(3 x– 15)  cos ²(3 x– 15)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "8 5",
+      "–",
+      "–1 8"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 17/08/2021 (Shift- 03)"
+    "explanation": "Correct Answer: Option B | (8 5) | Exam: SSC CGL 17/08/2021 (Shift- 03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q041",
@@ -637,13 +688,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If 2sin(3x – 15)º = 1, 0° < (3x – 15) < 90°, then find the value of cos² (2x + 15)° + cot² (x + 15)°.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2 7 7",
+      "–",
+      "2 2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC CGL 16/08/2021 (Shift- 02)"
+    "explanation": "Correct Answer: Option D | (2 2) | Exam: SSC CGL 16/08/2021 (Shift- 02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q042",
@@ -657,10 +708,10 @@
       "90°",
       "45°",
       "30°",
-      "60°"
+      "60° 3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (60°) | Exam: SSC CGL 21/04/2022 (Shift- 01)"
+    "explanation": "Correct Answer: Option D | (60° 3) | Exam: SSC CGL 21/04/2022 (Shift- 01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q043",
@@ -674,10 +725,10 @@
       "60º",
       "15º",
       "45º",
-      "30"
+      "30º"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (30) | Exam: SSC CHSL 26/10/2020 (Shift- 02)"
+    "explanation": "Correct Answer: Option D | (30º) | Exam: SSC CHSL 26/10/2020 (Shift- 02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q044",
@@ -705,13 +756,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If = 3, 0° <  < 90°, then cot 2  sin 2  – 1 the value of (tan + cosec) is: cos 2 ",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5/(2 3)",
+      "3",
+      "4/(3 3)",
+      "3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 13/08/2021 (Shift- 01)"
+    "explanation": "Correct Answer: Option B | (3) | Exam: SSC CGL 13/08/2021 (Shift- 01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q046",
@@ -725,7 +776,7 @@
       "60°",
       "0°",
       "30°",
-      "90°"
+      "90°  2A  B   2A – B  3 2A  B"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (30°) | Exam: SSC CGL 11/04/2022 (Shift- 02)"
@@ -756,13 +807,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If triangle ABC is a right isosceles triangle, right angled at B, then find the value of sin  A  C   sin  A  C   2 sin B . cot A  cot B  cot C",
     "options": [
-      "1/2",
-      "1/2",
-      "3/2",
+      "1",
+      "1/",
+      "3",
       "0"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1/2) | Exam: NTPC CBT-1 08/04/2021 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (1/) | Exam: NTPC CBT-1 08/04/2021 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q049",
@@ -793,7 +844,7 @@
       "20°",
       "30°",
       "60°",
-      "45"
+      "45°"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (30°) | Exam: SSC CGL 13/08/2021 (Shift- 03)"
@@ -824,13 +875,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "What is the value of tan 570°",
     "options": [
-      "1/3",
+      "1/(–)",
       "– 3",
-      "1/3",
+      "1",
       "3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1/3) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q055",
@@ -843,11 +894,11 @@
     "options": [
       "5/2",
       "1/2",
-      "–1/2",
-      "–1/2"
+      "(–1)/2",
+      "(–1)/2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (–1/2) | Exam: SSC SSC 20/07/2023 (Shift-03)"
+    "explanation": "Correct Answer: Option D | ((–1)/2) | Exam: SSC SSC 20/07/2023 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q056",
@@ -858,13 +909,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "Find the value of tan(–1125°).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "–1",
+      "0"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 25/07/2023 (Shift-2)"
+    "explanation": "Correct Answer: Option C | (–1) | Exam: SSC CGL 25/07/2023 (Shift-2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q057",
@@ -963,7 +1014,7 @@
       "tan",
       "0",
       "– 1",
-      "2sincos"
+      "2sincos"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (– 1)"
@@ -975,12 +1026,12 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "The following expression is equal to/uhps fn;k",
+    "question": "The following expression is equal to/uhps fn",
     "options": [
       "tan85º + sin75º",
       "tan85º – sin75º",
       "tan5º + sin15º",
-      "tan5º – sin15"
+      "tan5º – sin15º"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (tan5º + sin15º) | Exam: SSC CGL 20/07/2023 (Shift- 02)"
@@ -997,7 +1048,7 @@
       "sin 13°",
       "cos 13°",
       "cos 18°",
-      "sin 18°"
+      "sin 18° 3"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (sin 13°) | Exam: SSC CHSL 10/06/2022 (Shift- 3)"
@@ -1011,13 +1062,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "Find , if cos  = – 2 3",
     "options": [
-      "3/2",
-      " 5 /2",
-      "5/6",
-      " 4 /3"
+      "(3 )/2",
+      "(5 )/2",
+      "(5 )/6",
+      "(4 )/3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5/6) | Exam: SSC CHSL 02/06/2022 (Shift- 2)"
+    "explanation": "Correct Answer: Option C | ((5 )/6) | Exam: SSC CHSL 02/06/2022 (Shift- 2)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q066",
@@ -1028,13 +1079,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "The value of sin² + cos² tan² is: 3 6 4 2  5  3 ",
     "options": [
-      "1/2",
-      "1/4",
-      "2 4/1 c",
-      "os (π + x)cos(–x"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/2) | Exam: SSC Phase X 03/08/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option A | Exam: SSC Phase X 03/08/2022 (Shift- 02)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q067",
@@ -1079,13 +1130,13 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "Find x if cosx = – ,   x   2  2 ",
     "options": [
-      "3/2",
-      " 2 /3",
-      "ANSWE/1",
-      "R"
+      "(3 )/2",
+      "(2 )/3",
+      "(5 )/6",
+      "(4 )/3"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 2 /3) | Exam: SSC CHSL 15/10/2020 (Shift-03)"
+    "explanation": "Correct Answer: Option B | ((2 )/3) | Exam: SSC CHSL 15/10/2020 (Shift-03)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q070",
@@ -1094,7 +1145,7 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "If cos x  , x lies",
+    "question": "If cos x  , x lies in third quadrant, then tanx = ? 2 1",
     "options": [
       "Option A",
       "Option B",
@@ -1111,15 +1162,15 @@
     "chapter": "Trigonometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
-    "question": "Find the value of the following?    cos2(270º – ) – sin2(180º – ) + sin2   sin2(270º – ).  2",
+    "question": "Find the value of the following?    cos2(270º – ) – sin2(180º – ) + sin2    sin2(270º – ). 2",
     "options": [
-      "cos2",
-      "sin2  ",
+      "cos2/",
+      "(sin2  )/(2 )",
       "sin2() – 1",
-      "sin2("
+      "sin2()"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (cos2) | Exam: RRB NTPC 08/01/2021 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (cos2/) | Exam: RRB NTPC 08/01/2021 (Shift-01)"
   },
   {
     "id": "rkr_trigonometry_trigonometry_classroom_sheet_01_q072",
@@ -1147,12 +1198,12 @@
     "sheetFile": "Trigonometry  (ClassRoom Sheet-01).pdf",
     "question": "If sec + tan = 2 + 5 , then the value of sin + cos is :",
     "options": [
-      "KEY",
-      "8.(a) 9.(b) 10.(b)",
-      "7/5",
-      "1/5"
+      "3",
+      "5",
+      "7",
+      "1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (KEY)"
+    "explanation": "Correct Answer: Option A | (3)"
   }
 ]

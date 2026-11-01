@@ -6,15 +6,15 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train completely overtakes two persons, walking",
+    "question": "A train completely overtakes two persons, walking in the same direction with speeds 3 km/hr and 4 km/hr 75 in 9 seconds and seconds respectively. What is 8 the length of the train?",
     "options": [
       "60 m",
       "67.5 m",
       "55 m",
-      "62.5"
+      "62.5 m"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (62.5) | Solution: (d) T T A B Relative (S – 3) (S – 4) speed 75 Time 9 8   Since, Length of train is constant (ST – 3) 9 = (ST – 4) 75 8 ST = 28 km/hr Length = (28 – 3) 5 18 9 = 125 2 = 62.5m"
+    "explanation": "Correct Answer: Option D | (62.5 m) | Solution: (d) T T A B Relative (S – 3) (S – 4) speed 75 Time 9 8   Since, Length of train is constant (ST – 3) 9 = (ST – 4) 75 8 ST = 28 km/hr Length = (28 – 3) 5 18 9 = 125 2 = 62.5m"
   },
   {
     "id": "rkr_train_train_pro_level_sheet_q002",
@@ -28,7 +28,7 @@
       "30 km/h",
       "60 km/h",
       "50 km/h",
-      "40 km/"
+      "40 km/h"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30 km/h) | Solution: (a) 30 km P Speed  5 : 4 Q X 180 min 4 : 5 1 unit 45 min  Time  30 km P 5 : 4 Q X Y 144 min 4 : 5 36 min 18 km 1 unit 36 min  Speed  Time  Original speed of train = 18 180 144  60 = 18 36 60 = 30 km/hr"
@@ -40,7 +40,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Train A running at 81 km/h takes 72 sec to overtake",
+    "question": "direction, but it takes 36 sec to cross each other if the trains are running in the opposite direction. If the length of train B is 600 metres, then find the length of train A. (in metres)",
     "options": [
       "600",
       "480",
@@ -48,7 +48,7 @@
       "900"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (480) | Solution: (b) Since both trains running the same direction (A – 72 = LA + 600  5 18 (81 – 72 = LA + 600 .....(i) Also, 5 18 (A + B) 36 = LA + 600 ....(ii) From (i) and (ii)  5 18 (81 – B)72 = (81 + B) 36 5 18  81 2 – 2B = 81 + B  3B = 81  81 B = = 27"
+    "explanation": "Correct Answer: Option B | (480) | Solution: (b) Since both trains running in the same direction (A – 72 = LA + 600  5 18 (81 – 72 = LA + 600 .....(i) Also, 5 18 (A + B) 36 = LA + 600 ....(ii) From (i) and (ii)  5 18 (81 – B)72 = (81 + B) 36 5 18  81 2 – 2B = 81 + B  3B = 81  81 B = ="
   },
   {
     "id": "rkr_train_train_pro_level_sheet_q004",
@@ -57,7 +57,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "The length of train A is 100 m more than the length of a platform. What is the time taken by train A to",
+    "question": "The length of train A is 100 m more than the length of a platform. What is the time taken by train A to cross train B travelling in the opposite direction if the speed of train B is 70 km/h and the speed of train A is 90 km/h and the time taken by train A and B to cross the same platform is 24 seconds and 36 seconds, respectively?",
     "options": [
       "15 sec",
       "18 sec",
@@ -74,12 +74,12 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A 240m long train X passes a pole",
+    "question": "A 240m long train X passes a pole in 18 seconds and completely crosses another train Y running at a speed of 72 km/h in the opposite direction in 21 seconds. How much time (in seconds) will train Y take to completely cross a 140m long train Z running at a speed of 42 km/h in the same direction?",
     "options": [
       "68 sec",
       "65 sec",
       "72 sec",
-      "70 se"
+      "70 sec"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (72 sec)"
@@ -91,12 +91,12 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Train A overtakes train B which is going",
+    "question": "direction in 54 seconds which is twice the length of A and running at half the speed of train A. Train A crosses another train C going in opposite direction in 20 seconds whose speed is twice that of train A. If the speed of train A is 60 km/h, then what is the length of train C?",
     "options": [
       "650 m",
       "550 m",
       "250 m",
-      "450"
+      "450 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (550 m)"
@@ -108,12 +108,12 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Two trains are moving",
+    "question": "Two trains are moving in the same direction at the speed of 36 km/hr and 48 km/hr. The time taken by faster train to cross a man sitting in the slower faster train?",
     "options": [
       "770 metres",
       "90 metres",
       "110 metres",
-      "180 metre"
+      "180 metres"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (110 metres)"
@@ -125,7 +125,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train travelling at the speed of x km/h crossed a 300",
+    "question": "A train travelling at the speed of x km/h crossed a 300 m long platform in 30 seconds, and overtake a man walking in the same direction at 6 km/h in 20 seconds. What is the value of x?",
     "options": [
       "60",
       "96",
@@ -147,7 +147,7 @@
       "420 km, 12 hr",
       "840 km, 8 hr",
       "840 km, 12 hr",
-      "can't be determin"
+      "can't be determind"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (840 km, 12 hr)"
@@ -159,11 +159,11 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train 75 meters long overtook a person who was",
+    "question": "A train 75 meters long overtook a person who was walking at 6 km/hr in the opposite direction and 1 passed him in 7 seconds. Subsequently it overtook 2 a second person, walking in the same directions as 3 the 1st person and passed him in 6 seconds. At 4 what rate was the second person travelling ?",
     "options": [
-      "114 km/hr",
+      "3/(114 km/hr)",
       "10 km/hr",
-      "8 km/hr",
+      "1/(8 km/hr)",
       "4 km/hr"
     ],
     "correctAnswer": 1,
@@ -176,7 +176,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Train ‘A’ requires 15 seconds to cross train ‘B’ of",
+    "question": "length 300 m moving in the opposite direction at a speed of 36 km/h. Further, train ‘A’ requires 30 seconds to cross a 500 m long stationary train ‘C’. Find the length (in m) of train ‘A’.",
     "options": [
       "275",
       "200",
@@ -193,7 +193,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Two guns were fired from the same place at an interval of 10 minutes and 30 seconds but a person",
+    "question": "Two guns were fired from the same place at an interval of 10 minutes and 30 seconds but a person in the train approaching the place hears the second shot 10 minutes after the first. Find the speed of the metres per second.",
     "options": [
       "56",
       "59.4",
@@ -210,7 +210,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to overtake",
+    "question": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to overtake the other, when travelling in same direction. The trains take 12 seconds to cross each other, when travelling in opposite directions. What is the speed (in km/h) of the faster train?",
     "options": [
       "108",
       "126",
@@ -227,12 +227,12 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train A of length 100 meters less than that of train B and speed 25 km/h more than that of train B can",
+    "question": "A train A of length 100 meters less than that of train B and speed 25 km/h more than that of train B can cross train B running in the opposite direction in 24 seconds. If train A can cross a bridge of length 300 meters in 36 seconds, then what is the time taken by",
     "options": [
       "72 sec",
       "86.4 sec",
       "78.6 sec",
-      "90 se"
+      "90 sec"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (86.4 sec)"
@@ -244,7 +244,7 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A cave whose length is 2 km. A train enters the cave from one end and other train enters from the other end and they both meet after 1.5 minutes. At the time of meeting, the first train had covered a distance of 400 m more than the second train. And they cross",
+    "question": "A cave whose length is 2 km. A train enters the cave from one end and other train enters from the other end and they both meet after 1.5 minutes. At the time of meeting, the first train had covered a distance of 400 m more than the second train. And they cross each other in 4.5 seconds. After 57 seconds, the first length of both trains?",
     "options": [
       "78 m, 16 m",
       "68 m, 15 m",
@@ -261,12 +261,12 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train travelling at 48 km/h crosses another train,",
+    "question": "A train travelling at 48 km/h crosses another train, having half its length and travelling in opposite direction at 42 km/h, in 12 seconds. It also passes a railway platform in 45 seconds. The length of the railway platform is:",
     "options": [
       "455 m",
       "400 m",
       "420 m",
-      "450"
+      "450 m"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (400 m)"
@@ -278,15 +278,15 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "A train A can cross a platform of length 70 m",
+    "question": "A train A can cross a platform of length 70 m in 6 seconds and it can cross another train B moving in opposite direction in 5 seconds. If the length of train B is 50% more than the length of train A and the speed of train B is 10 m/second more than that of A then find the time taken by train A to cross a boy who is running in the same direction with a speed of 15 m/second.",
     "options": [
-      "sec",
-      "sec",
-      "sec",
-      "sec"
+      "20/sec",
+      "10/sec",
+      "17/sec",
+      "19/sec"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (sec)"
+    "explanation": "Correct Answer: Option A | (20/sec)"
   },
   {
     "id": "rkr_train_train_pro_level_sheet_q018",
@@ -300,10 +300,10 @@
       "5 hours 15 minutes",
       "5 hours",
       "6 hours",
-      "5 hours 25 minute"
+      "5 hours 25 minutes"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5 hours 15 minutes) | Solution: A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed? ,d js"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6 hours) | Solution: A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed? ,d js"
   },
   {
     "id": "rkr_train_train_pro_level_sheet_q019",
@@ -312,15 +312,15 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he 1 takes 12 hour more than train B to cover 80 km. To",
+    "question": "distance of 40 km. If train A doubles its speed, he 1 takes 12 hour more than train B to cover 80 km. To cover a distance of 120 km, how much time (in hours) will train B take travelling at its same speed?",
     "options": [
-      "13",
-      "13",
-      "14",
-      "12"
+      "1/13",
+      "2/13",
+      "1/14",
+      "1/12"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (12) | Solution: Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he takes 1 12 hour more than train B to cover 80 km. To cover a distance of 120 km, how much time hours) will train B take travelling at its same spee"
+    "explanation": "Correct Answer: Option D | (1/12) | Solution: Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he takes 1 12 hour more than train B to cover 80 km. To cover a distance of 120 km, how much time (in hours) will train B take travelling at its same "
   },
   {
     "id": "rkr_train_train_pro_level_sheet_q020",
@@ -329,14 +329,14 @@
     "chapter": "Train",
     "sheetType": "Pro Level",
     "sheetFile": "Train (Pro Level Sheet).pdf",
-    "question": "Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure",
+    "question": "Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure in Delhi at 6 pm on the same day. If the difference between their speeds be 10 km/hr, what is the average speed of both the trains over the entire route?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40/km/hr",
+      "4/(44 km/hr)",
+      "3/(42 km/hr)",
+      "44 km/hr"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure Delhi at 6 pm on the same day. If the difference between their speeds be 10 km/hr, what is the average sp"
+    "explanation": "Correct Answer: Option B | (4/(44 km/hr)) | Solution: Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure in Delhi at 6 pm on the same day. If the difference between their speeds be 10 km/hr, what is the average"
   }
 ]

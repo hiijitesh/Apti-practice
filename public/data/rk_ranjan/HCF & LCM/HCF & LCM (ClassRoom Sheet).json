@@ -59,13 +59,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "Find LCM of 48, 50, 98, 54 and 72.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24",
+      "23",
+      "24",
+      "23"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (24)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q005",
@@ -110,13 +110,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "Find the LCM of 34",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3²",
+      "34",
+      "34",
+      "3 1/2 SHEET)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: Constable 20/10/2022 (Shift - 03)"
+    "explanation": "Correct Answer: Option B | (34) | Exam: Constable 20/10/2022 (Shift - 03)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q008",
@@ -144,13 +144,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "Find the HCF of , , , , 2 4 6 8 10 1 3 5 7 9",
     "options": [
-      "1/12",
-      "1/0 7",
+      "1/120",
+      "1/7",
       "1/32",
       "1/40"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/12)"
+    "explanation": "Correct Answer: Option A | (1/120)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q010",
@@ -163,11 +163,11 @@
     "options": [
       "7/64",
       "147/32",
-      "14/8",
-      "7 7/32"
+      "147/8",
+      "7/32"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7 7/32) | Exam: SSC MTS 06/08/2019 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (7/32) | Exam: SSC MTS 06/08/2019 (Shift-01)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q011",
@@ -178,13 +178,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "The LCM of , , , and is: 6 27 9 15 3 1 7 5 4 8",
     "options": [
-      "28/3",
-      "0 3/280",
-      "28/15",
-      "0 15/280"
+      "280/3",
+      "3/280",
+      "280/15",
+      "15/280"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (28/3) | Exam: Constable 14/10/2022 (Shift - 03)"
+    "explanation": "Correct Answer: Option A | (280/3) | Exam: Constable 14/10/2022 (Shift - 03)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q012",
@@ -215,10 +215,10 @@
       "y = 90x",
       "y = 180x",
       "y = 270x",
-      "y = 360x"
+      "y = 360x 3 81 9"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (y = 360x)"
+    "explanation": "Correct Answer: Option D | (y = 360x 3 81 9)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q014",
@@ -229,8 +229,8 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "Find the LCM of , and 2 16 8 3 81 9",
     "options": [
-      "11/2",
-      "1 91/2",
+      "111/2",
+      "91/2",
       "81/2",
       "101/2"
     ],
@@ -283,7 +283,7 @@
       "45 + 1",
       "49 + 1",
       "47 + 1",
-      "49 – 1"
+      "49 – 1 2"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (49 + 1)"
@@ -431,7 +431,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio of 5 : 7. The product of their LCM and HCF is 12635. then the sum of the numbers will be.",
     "options": [
       "252",
       "228",
@@ -589,7 +589,7 @@
       "27",
       "35",
       "45",
-      "Cannot be determined due insufficient tk ldrk"
+      "Cannot be determined due insufficient"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (45)"
@@ -671,13 +671,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "LCM of two numbers is 22 times their HCF. If one of the numbers is 132 and the sum of LCM and HCF is 276, then what is the other number?",
     "options": [
-      "30",
+      "4/30",
       "20",
-      "24",
-      "25"
+      "(a) 30/24",
+      "(b) 20/25"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (24) | Exam: SSC CGL 18/04/2022 (Shift-03)"
+    "explanation": "Correct Answer: Option C | ((a) 30/24) | Exam: SSC CGL 18/04/2022 (Shift-03)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q041",
@@ -705,13 +705,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "The HCF and the LCM of two numbers are 5 and 120, respectively. If the sum of the two numbers is 55, then the sum of the reciprocals of these two numbers is equal to:",
     "options": [
-      "55/60",
-      "11/1 120",
-      "12/11",
-      "0 601/55"
+      "55/601",
+      "11/120",
+      "120/11",
+      "601/55"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (11/1 120) | Exam: SSC MTS 05/07/2022 (Shift- 3)"
+    "explanation": "Correct Answer: Option B | (11/120) | Exam: SSC MTS 05/07/2022 (Shift- 3)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q043",
@@ -722,13 +722,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "The sum of two numbers is 1215 and their HCF is 81. If the numbers lie between 500 and 700, then the sum of the reciprocals of the numbers is .....",
     "options": [
-      "5/70",
-      "5/2 378",
-      "5/15",
-      "5/12 1188"
+      "5/702",
+      "5/378",
+      "5/1512",
+      "5/1188"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5/15)"
+    "explanation": "Correct Answer: Option C | (5/1512)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q044",
@@ -737,7 +737,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Two numbers are",
+    "question": "Two numbers are in the ratio 7 : 11. If their HCF is 28, then the sum of the two numbers is:",
     "options": [
       "196",
       "504",
@@ -754,7 +754,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Three numbers are",
+    "question": "Three numbers are in the ratio : : . 2 3 4 If the difference between the greatest number and the smallest number is 33, then HCF of the three numbers is: 1 2 3",
     "options": [
       "9",
       "5",
@@ -839,7 +839,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Three numbers are",
+    "question": "Three numbers are in the proportion of 3 : 8 : 15 and their LCM is 8280. What is their HCF? 5",
     "options": [
       "60",
       "69",
@@ -856,7 +856,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Three numbers are",
+    "question": "Three numbers are in the ratio of 3 : 4 : 5 and their HCF is 18. What is the sum of these numbers?",
     "options": [
       "216",
       "198",
@@ -907,7 +907,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Let x be the greatest number which when",
+    "question": "Let x be the greatest number which when divides 955, 1027, 1075, the remainder in each case is the same. Which of the following is NOT a factor of x?",
     "options": [
       "6",
       "16",
@@ -924,7 +924,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "When 7897, 8110 and 8536 are divided by the greatest number, then the remainder",
+    "question": "When 7897, 8110 and 8536 are divided by the greatest number, then the remainder in each case is the same. The sum of the digits of x is:",
     "options": [
       "6",
       "9",
@@ -941,7 +941,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "When 2388, 4309 and 8151 are divided by",
+    "question": "When 2388, 4309 and 8151 are divided by a certain 3-digit number, the remainder in each case is the same. The remainder is:",
     "options": [
       "15",
       "19",
@@ -958,7 +958,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "When 1062, 1134 and 1182 are divided by",
+    "question": "When 1062, 1134 and 1182 are divided by the greatest number x, the reminder in case is y. What is the value of (x-y)?",
     "options": [
       "19",
       "17",
@@ -992,7 +992,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "When 4546, 5398 and 6889 are divided by",
+    "question": "When 4546, 5398 and 6889 are divided by the greatest number m, the remainder in each case is n. What is the value of (2m - 3n)?",
     "options": [
       "189",
       "140",
@@ -1009,7 +1009,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Let the least number which when divided",
+    "question": "Let the least number which when divided by 4, 6, 10, 15 leaves in each case same remainder 2 be N. the sum of digits in N is.",
     "options": [
       "3",
       "5",
@@ -1026,15 +1026,15 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "The least multiple of 13, when divided by",
+    "question": "The least multiple of 13, when divided by 4, 5, 6, 7 and 8 leaves remainder 2 in each case?",
     "options": [
-      "2520",
+      "6/2520",
       "842",
-      "2522",
-      "840"
+      "(a) 2520/2522",
+      "(b) 842/840"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (840)"
+    "explanation": "Correct Answer: Option D | ((b) 842/840)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q062",
@@ -1060,7 +1060,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "When the smallest number x is divided by",
+    "question": "When the smallest number x is divided by 5,6,8,9 and 12, it gives remainder 1 in each case. But x is divisible by 13. What will be the remainder when x will be divided by 31 ?",
     "options": [
       "1",
       "5",
@@ -1077,7 +1077,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Let x be the least number which when divided by 16, 24, 30, 36 and 45, the",
+    "question": "Let x be the least number which when divided by 16, 24, 30, 36 and 45, the remainder in each case is 4, and x is divisible by 28. If the HCF of x and 3193 is y, then what is the sum of the digits of y?",
     "options": [
       "4",
       "9",
@@ -1094,7 +1094,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Let x be the least number which when divided by 12, 18, 20, 27 and 30, the",
+    "question": "Let x be the least number which when divided by 12, 18, 20, 27 and 30, the remainder in each case is 2 and x is divisible by 47. If the HCF of x and 1932 is y, then the sum of the digits of y is?",
     "options": [
       "7",
       "10",
@@ -1162,7 +1162,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "There are four bells which ring at an interval of 15 minutes, 25 minutes, 35 minutes and 45 minutes respectively. If all of them ring at 9 A.M., how many more",
+    "question": "There are four bells which ring at an interval of 15 minutes, 25 minutes, 35 minutes and 45 minutes respectively. If all of them ring at 9 A.M., how many more times will they ring together in the next 72 hours?",
     "options": [
       "0",
       "1",
@@ -1196,7 +1196,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "What is the least number of soldiers that",
+    "question": "What is the least number of soldiers that can be drawn up in troops of 10, 12, 15, 18 and 20 soldiers, and also in form of a solid square?",
     "options": [
       "400",
       "625",
@@ -1213,7 +1213,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "A fruit vendor brings 1092 apples and 3432",
+    "question": "A fruit vendor brings 1092 apples and 3432 oranges to a market. He arranges them in heaps of equal number of oranges as well as apples such that every heap consists of the maximum possible number of the fruits. What is this number?",
     "options": [
       "78",
       "312",
@@ -1247,7 +1247,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "A gardener had some plants for planting.",
+    "question": "A gardener had some plants for planting. He tried planting them in rows of 7, 8, 9 and 12. But he always had one plant left. When he tried to plant 11 in a row, he had none left. Find the minimum number of plants with the gardener.",
     "options": [
       "4631",
       "1804",
@@ -1281,7 +1281,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Three runners running around a circular",
+    "question": "Three runners running around a circular track, can complete one revolution in 2, 6 and 6.5 hours respectively when they will meet at the starting point?",
     "options": [
       "36",
       "39",
@@ -1298,7 +1298,7 @@
     "chapter": "HCF & LCM",
     "sheetType": "ClassRoom",
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
-    "question": "Swapnil, Aakash and Vinay begin to jog around a circular stadium. They complete",
+    "question": "Swapnil, Aakash and Vinay begin to jog around a circular stadium. They complete their revolutions in 36 seconds 48 seconds and 42 seconds respectively. After how many seconds will they be together at the starting point?",
     "options": [
       "504 seconds",
       "940 seconds",
@@ -1334,13 +1334,13 @@
     "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
     "question": "The dimensions of the floor of a",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "180",
+      "180",
+      "120",
+      "90"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (180)"
   },
   {
     "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q080",
@@ -1392,5 +1392,39 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2) | Exam: SSC CGL 13/04/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q083",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "ClassRoom",
+    "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
+    "question": "In finding the HCF of two numbers by division method four successive quotient are 4, 3, 6 and 5 respectively and final divisor is 12. What are two numbers?",
+    "options": [
+      "1226, 5376",
+      "1116, 4836",
+      "1056, 4596",
+      "1176, 5076"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1176, 5076)"
+  },
+  {
+    "id": "rkr_hcf_lcm_hcf_lcm_classroom_sheet_q084",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "ClassRoom",
+    "sheetFile": "HCF & LCM (ClassRoom Sheet).pdf",
+    "question": "In finding the HCF of two numbers by the division method, the last divisor is 28 and the quotient are 1, 30, 1 and 3 respectively. What is the sum of the two numbers?",
+    "options": [
+      "7000",
+      "6944",
+      "6860",
+      "7140"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7000)"
   }
 ]

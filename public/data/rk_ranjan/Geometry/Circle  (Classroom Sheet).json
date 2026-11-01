@@ -23,15 +23,15 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "Which of the following",
+    "question": "Which of the following in NOT true regarding a circle ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "The largest chord in a circle has a length twice its radius",
+      "Given any three points in a plane, there is always a circle passing through these points",
+      "The ratio of the perimeter and radius of a circle is always constant",
+      "A triangle with vertices on a circle and one"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CHSL 11/07/2024 (Shift-2)"
+    "explanation": "Correct Answer: Option B | (Given any three points in a plane, there is always a circle passing through these points) | Exam: SSC CHSL 11/07/2024 (Shift-2)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q003",
@@ -51,13 +51,47 @@
     "explanation": "Correct Answer: Option B | (5 cm)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a circle with centre at O and radius 8 cm, AB is a chord of length 14 cm. If OM is perpendicular to AB, then the length of OM is:",
+    "options": [
+      "10 cm",
+      "5 cm",
+      "12 cm",
+      "15 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15 cm) | Exam: SSC CHSL 27/05/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a given circle, the chord PQ is of length 18 cm. AB is the perpendicular bisector of PQ at M. If MB = 3 cm, then the length of AB = ?",
+    "options": [
+      "30 cm",
+      "24 cm",
+      "27 cm",
+      "36 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30 cm)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q006",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "PQ is a diameter of a circle and PS is a chord. If PQ is 82 cm and PS is 80 cm, the distance",
+    "question": "PQ is a diameter of a circle and PS is a chord. If PQ is 82 cm and PS is 80 cm, the distance (in cm) of PS from the center of the circle is:",
     "options": [
       "39",
       "18",
@@ -79,7 +113,7 @@
       "30 cm",
       "24 cm",
       "27 cm",
-      "36 cm Property- 02  Equal chords of a circle subtend equal angles at the centre and, conversely, if the angles subtended by the chords at the centre (of a circle) are equal, the chords are equal."
+      "36 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30 cm)"
@@ -142,7 +176,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "Two parallel chords are drawn",
+    "question": "Two parallel chords are drawn in a circle of radius 25 cm. The distance between the two chords is 27 cm. If the length of one chord is 48 cm, then length of the other chord is equal to:",
     "options": [
       "42 cm",
       "36 cm",
@@ -204,13 +238,30 @@
     "explanation": "Correct Answer: Option B | (5 cm)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, O is the centre and AB is a chord. If P be any point, such that AOB = 140º, then APB is :",
+    "options": [
+      "70º",
+      "40º",
+      "80º",
+      "20º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (70º)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q016",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "If O be the centre, then the value of the x",
+    "question": "If O be the centre, then the value of the x in the given figure is :",
     "options": [
       "70º",
       "55º",
@@ -227,7 +278,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "The length of a chord of a circle is equal to the radius of the circle. The angle which this",
+    "question": "The length of a chord of a circle is equal to the radius of the circle. The angle which this chord subtends in the major segment of the circle is equal to :",
     "options": [
       "30º",
       "45º",
@@ -236,6 +287,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (30º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure BC is the chord of a circle with the centre O. A is any point on major arc BC as shown in the figure. What is the value of BAC + OBC ?",
+    "options": [
+      "120º",
+      "180º",
+      "90º",
+      "60º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (90º)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q019",
@@ -255,13 +323,47 @@
     "explanation": "Correct Answer: Option C | (74º)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, AB is a chord and P and Q are two points on the circle such that AQB = 54º, then APB is :",
+    "options": [
+      "36º",
+      "46º",
+      "54º",
+      "27º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (54º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, what is BYX equal to :",
+    "options": [
+      "45º",
+      "50º",
+      "85º",
+      "90º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (85º)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q022",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "ABC is an equilateral triangle inscribed",
+    "question": "ABC is an equilateral triangle inscribed in a circle. D is any point on the arc BC. What is ADB equal to ?",
     "options": [
       "90º",
       "45º",
@@ -278,7 +380,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "AB is the diameter of a circle with centre O. C and D are two points on the circle on same side of AB, such that CAB = 52° and ABD",
+    "question": "AB is the diameter of a circle with centre O. C and D are two points on the circle on same side of AB, such that CAB = 52° and ABD = 47°. What is the difference (in degrees) between the measures of CAD and CBD?",
     "options": [
       "10",
       "20",
@@ -287,6 +389,40 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10) | Exam: SSC CGL 21/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, the centre of the circle lies on AB and P is any point on the circle and ABP = 35º, then PAB is :",
+    "options": [
+      "65º",
+      "55º",
+      "35º",
+      "90º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (55º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, O is the centre of the circle, AE is the diameter and AOC = 100°.",
+    "options": [
+      "90°",
+      "80°",
+      "60°",
+      "100°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (90°) | Exam: SSC CHSL 04/07/2024 (Shift-01)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q026",
@@ -306,6 +442,23 @@
     "explanation": "Correct Answer: Option A | (220º)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, ONY = 50º and OMY = 15º, then the value of the MON is :",
+    "options": [
+      "30º",
+      "40º",
+      "20º",
+      "70º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (70º)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q028",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -317,7 +470,7 @@
       "30°",
       "25°",
       "20°",
-      "15°"
+      "15° A. Two chords AB and CD of a circle with centre O, intersect each other at P. If AOD = xº. and BOC = yº. Then the value of APC is:"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (25°)"
@@ -351,10 +504,44 @@
       "60°",
       "40°",
       "45°",
-      "75°"
+      "75° C. Chords are intersecting at an external point."
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (45°)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a circle with centre O, AB is the diameter and CD is a chord such that ABCD is a trapezium. If BAC = 40º, then CAD is equal to :",
+    "options": [
+      "15º",
+      "20º",
+      "50º",
+      "10º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10º) | Exam: SSC CGL 10/06/2019 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a circle with centre O, AC and BD are two chords. AC and BD meet at E when produced. If AB is the diameter and AEB = 68º, then the measure of DOC is :",
+    "options": [
+      "32º",
+      "30º",
+      "22º",
+      "44º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (44º) | Exam: SSC CGL TIER II (12/09/2019)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q033",
@@ -414,7 +601,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "Consider two concentric circles having radii 17",
+    "question": "Consider two concentric circles having radii 17 cm and 15 cm. What is the length (in cm) of the chord, of the bigger circle, which is a tangent to the smaller circle?",
     "options": [
       "16",
       "10",
@@ -448,7 +635,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "A circle is inscribed",
+    "question": "A circle is inscribed in ABC, touching AB at P, BC at Q and AC at R. If AR = 5 cm, RC = 6 cm and AB = 12 cm, then perimeter of ABC is :",
     "options": [
       "40 cm",
       "32 cm",
@@ -465,7 +652,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "A circle is inscribed inside a triangle ABC. It touches sides AB, BC and AC at the points P, Q and R respectively. If BP = 6.5 cm, CQ = 4.5 cm and AR = 5.5 cm, then the perimeter",
+    "question": "A circle is inscribed inside a triangle ABC. It touches sides AB, BC and AC at the points P, Q and R respectively. If BP = 6.5 cm, CQ = 4.5 cm and AR = 5.5 cm, then the perimeter (in cm) of the triangle ABC is",
     "options": [
       "16.5",
       "66",
@@ -493,6 +680,40 @@
     "explanation": "Correct Answer: Option B | (48 cm) | Exam: SSC CHSL 20/10/2020 (Shift -01)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, circle with centre O have two tangents PA, PB. CD is also tangents, then",
+    "options": [
+      "PC + PD = CD",
+      "3PB = PD + DC + PC",
+      "4PA = PD + DC + PC",
+      "2PB = PD + DC + PC"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2PB = PD + DC + PC)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, from a point T, 13 cm away from the center O of a circle of radius 5 cm, the two tangents PT and QT are drawn. What is the length of AB?",
+    "options": [
+      "19/cm",
+      "40/cm",
+      "22/cm",
+      "20/cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20/cm)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q043",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -516,15 +737,15 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "A circular ring with centre O is kept",
+    "question": "A circular ring with centre O is kept in the vertical position by two weighless thin string TP and TQ attached to the ring at P and Q. The line OT meets the ring at E whereas a tangential string at E meets TP and TQ at A and B, respectively. If the radius of the ring is 5cm. and OT = 13cm., then what is the length of AB?",
     "options": [
-      "cm",
-      "cm",
-      "10cm",
+      "10/cm",
+      "20/cm",
+      "40/10cm",
       "cm"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (cm)"
+    "explanation": "Correct Answer: Option B | (20/cm)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q045",
@@ -542,6 +763,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (5 cm) | Exam: SSC CGL 09/03/2020 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a circle with center O and radius 10 cm, PQ and RS are two parallel chords of length x cm and 12 cm respectively and both the chords are on the opposite sides of O. If the distance between PQ and RS is 14 cm, the value of x is :",
+    "options": [
+      "16",
+      "20",
+      "15",
+      "18"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16) | Exam: SSC CGL 06/06/2019 (Shift -03)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q047",
@@ -623,10 +861,10 @@
       "110°",
       "100°",
       "60°",
-      "80°"
+      "80°  The angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segments joining the points of contact at the centre."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (80°) | Exam: SSC CPO 27/06/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (80°  The angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segments joining the points of contact at the centre.) | Exam: SSC CPO 27/06/2024 (Shift-01)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q052",
@@ -635,7 +873,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "The tangents at two points A and B on the",
+    "question": "The tangents at two points A and B on the circle with the centre O intersects at P. If in quadrilateral PAOB, AOB : APB = 5 : 1, the measure of APB is :",
     "options": [
       "30º",
       "15º",
@@ -661,6 +899,57 @@
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (66º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a circle with centre O, PAX and PBY are the tangents to the circle at points A and B, from an external point P. Q is any point on the circle such that QAX = 59° and QBY = 72°. What is the measure of AQB?",
+    "options": [
+      "31º",
+      "72º",
+      "59º",
+      "49º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (49º) | Exam: SSC CGL 17/08/2021 (Shift - 01)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, O is the center of the circle and PT is the tangent at P. If RPT = 40º, then RTP is :",
+    "options": [
+      "40º",
+      "10º",
+      "20º",
+      "30º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure PKQ is tangent. LN is the diameter of the circle. If KLN = 30º, find PKL.",
+    "options": [
+      "45º",
+      "60º",
+      "30º",
+      "90º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (60º)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q057",
@@ -697,13 +986,30 @@
     "explanation": "Correct Answer: Option A | (14 cm) | Exam: SSC CHSL 11/07/2024 (Shift-2)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, diameter AB and chord CD of a circle meet at P. PT is a tangent to the circle at T. If CD = 8 cm, PD = 10 cm and PB = 8 cm, Find AB.",
+    "options": [
+      "14.5 cm",
+      "22.5 cm",
+      "12 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14.5 cm) | Exam: SSC CGL 21/07/2023 (Shift-01)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q060",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "JKLM is a cyclic quadrilateral",
+    "question": "JKLM is a cyclic quadrilateral in which K is opposite to M. When JK and ML are produced, meet at point Z. JK = 10 cm, KZ = 12 cm and MZ = 33 cm. What is the length of LZ ?",
     "options": [
       "9 cm",
       "8 cm",
@@ -712,6 +1018,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (8 cm) | Exam: SSC CHSL 14/03/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, PA = 4 cm, PB = 9 cm, PC = x cm and CD = 6x – 3, then the value of x is :",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q062",
@@ -756,13 +1079,13 @@
     "sheetFile": "Circle  (Classroom Sheet).pdf",
     "question": "Let the radius of a circle is 7 cm. Find the area of the minor sector which makes an angle  22  of 60º.   =   7 ",
     "options": [
-      "5 cm2",
-      "25 cm2",
-      "25 cm2",
-      "10 cm2"
+      "2/(5 cm2)",
+      "2/(25 cm2)",
+      "4/(25 cm2)",
+      "4/(10 cm2)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (25 cm2)"
+    "explanation": "Correct Answer: Option B | (2/(25 cm2))"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q065",
@@ -824,13 +1147,13 @@
     "sheetFile": "Circle  (Classroom Sheet).pdf",
     "question": "What is the area of the minor segment of a circle of radius 10.5 cm formed by a chord which makes an angle 30º at the centre?",
     "options": [
-      "cm2",
-      "cm2",
-      "cm2",
-      "cm2"
+      "21/cm2",
+      "21/cm2",
+      "21/cm2",
+      "63/cm2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (cm2)"
+    "explanation": "Correct Answer: Option B | (21/cm2)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q069",
@@ -841,13 +1164,30 @@
     "sheetFile": "Circle  (Classroom Sheet).pdf",
     "question": "What is the area of the larger segment of a circle formed by a chord of length 5 cm subtending an angle of 90º at the centre?",
     "options": [
-      " +1  cm2",
-      " – 1  cm2",
-      " – 1  cm2",
-      "None of these"
+      "(25   )/( +1  cm2)",
+      "(25   )/( – 1  cm2)",
+      "(25 )/( – 1  cm2)",
+      "( )/(None of these)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (None of these)"
+    "explanation": "Correct Answer: Option D | (( )/(None of these))"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, two circles with centres A and B and of radii 5 cm and 3 cm touch each other internally. If the perpendicular bisector of segment AB meets the bigger circle in P and Q, find the length of PQ.",
+    "options": [
+      "26",
+      "46",
+      "25",
+      "45  If two circles whose centres are O and O' intersect at P and through P, a line parallel to OO' intersecting the circles at A and B is drawn, then AB = 2.OO'."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (46)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q071",
@@ -924,7 +1264,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "Two circles having radii 12 cm and 8 cm, respectively, touch each other externally. A common tangent is drawn to these circles which touch the circles at M and N,",
+    "question": "Two circles having radii 12 cm and 8 cm, respectively, touch each other externally. A common tangent is drawn to these circles which touch the circles at M and N, respectively. What is the length (in cm) of MN?",
     "options": [
       "8 8",
       "8 6",
@@ -992,7 +1332,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "The distance between the centres of two circles of radii 4 cm and 2 cm is 10 cm. The length",
+    "question": "The distance between the centres of two circles of radii 4 cm and 2 cm is 10 cm. The length (in cm) of a transverse common tangent is",
     "options": [
       "13",
       "11",
@@ -1031,7 +1371,7 @@
       "2 : 3",
       "7 : 3",
       "37 : 2",
-      "2 : 7"
+      "2 : 7 (iii) Common Chord"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (2 : 3) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
@@ -1043,7 +1383,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "The length of the common chord of two intersecting circles is 24 cm. If the diameters of the circles are 30 cm and 26 cm, the",
+    "question": "The length of the common chord of two intersecting circles is 24 cm. If the diameters of the circles are 30 cm and 26 cm, the distance between the centres (in cm) is :",
     "options": [
       "13",
       "16",
@@ -1082,10 +1422,10 @@
       "10 cm",
       "8 cm",
       "611 cm",
-      "211 cm"
+      "211 cm (d) When radii of both the circles are equal and the both the circles pass through the centres of the other circle, i.e. R = r"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (211 cm) | Exam: SSC CGL 19/07/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (211 cm (d) When radii of both the circles are equal and the both the circles pass through the centres of the other circle, i.e. R = r) | Exam: SSC CGL 19/07/2023 (Shift-01)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q085",
@@ -1111,7 +1451,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "The length of the common chord of two intersecting circles is 24 cm. If the diameter of the circles 30 cm and 26 cm, then the",
+    "question": "The length of the common chord of two intersecting circles is 24 cm. If the diameter of the circles 30 cm and 26 cm, then the distance between the centre (in cm) is :",
     "options": [
       "13 cm",
       "14 cm",
@@ -1184,7 +1524,7 @@
       "d = r1 or r2",
       "d = r1 + r2",
       "d = r1 – r2",
-      "d = r r"
+      "d = r r 1 2"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (d = r1 – r2)"
@@ -1275,13 +1615,47 @@
     "explanation": "Correct Answer: Option C | (50º)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q096",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a cyclic quadrilateral ABCD, AB = 8 cm, BC = 9 cm, CD = 6 cm and DA = 4 cm. If the value of BD is 7 cm, the value fo AC is :",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "14 cm",
+      "16 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q097",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a cyclic quadrilateral ABCD, diagonal AC bisects the diagonal BD. If AB = 16.5 cm, CD = 19.8 cm and AD = 11 cm. Find BC.",
+    "options": [
+      "15.2 cm",
+      "17.2 cm",
+      "11.2 cm",
+      "13.2 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (13.2 cm)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q098",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "PQRS is a cycle quadrilateral",
+    "question": "PQRS is a cycle quadrilateral in which PQ = 14.4 cm, QR = 12.8 cm and SR = 9.6 cm. If PR bisects QS, what is the length of PS?",
     "options": [
       "15.8 cm",
       "16.4 cm",
@@ -1290,6 +1664,23 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (19.2 cm) | Exam: SSC CGL TIER II (11/09/2019)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q099",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In a cyclic quadrilateral PQRS, diagonal QS bisects PR at point O. If PQ = 8 cm, PO = 4 cm and OS = 6 cm, then what is the value of RS?",
+    "options": [
+      "12/16 cm",
+      "18/9 cm",
+      "/3 cm",
+      "/2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12/16 cm)"
   },
   {
     "id": "rkr_geometry_circle_classroom_sheet_q100",
@@ -1315,7 +1706,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Circle  (Classroom Sheet).pdf",
-    "question": "If ABCD is a cyclic quadrilateral",
+    "question": "If ABCD is a cyclic quadrilateral in which A = 4xº, B = 7xº, C = 5yº, D = yº, then x : y is:",
     "options": [
       "3 : 4",
       "4 : 3",
@@ -1377,6 +1768,57 @@
     "explanation": "Correct Answer: Option C | (210 cm2)"
   },
   {
+    "id": "rkr_geometry_circle_classroom_sheet_q105",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, if PAQ = 59°, APD = 40° then what is AQB?",
+    "options": [
+      "19º",
+      "20º",
+      "22º",
+      "27º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (22º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q106",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the figure given below, what is CBA?",
+    "options": [
+      "30º",
+      "45º",
+      "50º",
+      "60º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50º)"
+  },
+  {
+    "id": "rkr_geometry_circle_classroom_sheet_q107",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Circle  (Classroom Sheet).pdf",
+    "question": "In the given figure, if = = , where 3a 4a 5a DCQ = x, BPC = y and DQC = z, then what are the values of x, y and z respectively? x y z",
+    "options": [
+      "30°, 44º and 55º",
+      "36º, 48º and 60º",
+      "39º, 52º and 65º",
+      "42º, 56º and 70º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36º, 48º and 60º)"
+  },
+  {
     "id": "rkr_geometry_circle_classroom_sheet_q108",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -1386,11 +1828,11 @@
     "question": "Which of the following is a correct statement?",
     "options": [
       "The sum of the angles of a cyclic quadri- lateral is always 180°",
-      "Equal chords are equidistant form the cen- tre of the circle but not always subtend equal angle at the centre of circle ANSWER 1.(b) 2.(b) 3.(b) 4.",
-      "If two circles touch each other, the point of contact lies on the line joining the two centes. KEY 6.(c) 7.(a) 8.(a) 9.(d) 10.(d)",
-      "5.(a) varfjr ugha djrh gSaA"
+      "Equal chords are equidistant form the cen- tre of the circle but not always subtend equal angle at the centre of circle",
+      "If two circles touch each other, the point of contact lies on the line joining the two centes.",
+      "Angles subtended by the arc in the same"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (If two circles touch each other, the point of contact lies on the line joining the two centes. KEY 6.(c) 7.(a) 8.(a) 9.(d) 10.(d)) | Exam: SSC CHSL 01/07/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (If two circles touch each other, the point of contact lies on the line joining the two centes.) | Exam: SSC CHSL 01/07/2024 (Shift-01)"
   }
 ]

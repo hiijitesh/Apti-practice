@@ -96,7 +96,7 @@
       "–7776",
       "–6726",
       "–6730",
-      "–6732"
+      "–6732 Algebra (Sheet-01)  1 "
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–6726) | Exam: SSC CGL 17/07/2023 (Shift-03)"
@@ -159,7 +159,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If 3y – = 5, find the value of y 2  .    2   y  y",
+    "question": "If  3y – =  5, find the value of  y 2  .   y  y 2",
     "options": [
       "47/9",
       "49/9",
@@ -215,7 +215,7 @@
       "– 8898",
       "– 8896",
       "– 8886",
-      "– 8892"
+      "– 8892  1   1 "
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (– 8886) | Exam: SSC CGL 18/07/2023 (Shift-02)"
@@ -227,7 +227,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If  y    4, find the value of y 6  .  y   6   y ",
+    "question": "If  y    4, find the value of  y 6   .  y   y 6 ",
     "options": [
       "5774",
       "4096",
@@ -348,13 +348,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If  x –  = 0.4, and x>0, what is the value  x   1  of  x 2 –  ?  x 2 ",
     "options": [
-      "26",
-      "29",
-      "26",
-      "29"
+      "4/26",
+      "2/29",
+      "7/26",
+      "3/29"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (26) | Exam: SSC CHSL 07/08/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (4/26) | Exam: SSC CHSL 07/08/2023 (Shift-02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q022",
@@ -382,13 +382,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If  x 2 +  = 6 and 0 < x < 1, what is the  x 2  1 value of x 4 – ? x 4",
     "options": [
-      "24 2",
-      " 24 2",
+      "2 2/4",
+      " 2 2/4",
       " 12 10",
       "12 10"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (24 2) | Exam: SSC CGL 26/07/2023 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (2 2/4) | Exam: SSC CGL 26/07/2023 (Shift-01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q024",
@@ -399,13 +399,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x 2 – = 4 2 , what is the value of x 2 1 x 4 – ? x 4",
     "options": [
-      "16 2",
+      "1 2/6",
       "8 2",
-      "24 2",
-      "32 2"
+      "2 2/4",
+      "3 2/2"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (24 2) | Exam: SSC CGL 27/07/2023 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (2 2/4) | Exam: SSC CGL 27/07/2023 (Shift-02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q025",
@@ -467,13 +467,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x + = 15, then the value of x 7 x 2 – 9 x  7 2 is: x – x  1",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48/(–)",
+      "22/(–)",
+      "48",
+      "22"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 12/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (48) | Exam: SSC CGL 12/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q029",
@@ -603,13 +603,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x² – 3x + 1 = 0, then the value of 1 x 4  x 2 is: x 2  5 x  1",
     "options": [
-      "9/4",
-      "27/8",
-      "5/2",
-      "2"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9/4) | Exam: SSC CGL MAINS 03/02/2022"
+    "explanation": "Correct Answer: Option A | Exam: SSC CGL MAINS 03/02/2022"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q037",
@@ -620,13 +620,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If for a non-zero x, 7x² + 5x + 7 = 0, then 1 the x³ + is ____. x ³",
     "options": [
-      "42/34",
-      "0 610/3 420",
-      "61/34",
-      "0 343/3 610"
+      "420/343",
+      "610/420",
+      "610/343",
+      "343/610"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (61/34) | Exam: SSC Phase-XII 24/06/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (610/343) | Exam: SSC Phase-XII 24/06/2024 (Shift-02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q038",
@@ -638,12 +638,12 @@
     "question": "If x2 + 7x + 8 = 0, then find the value of 4 x x 2 – 5 x  8",
     "options": [
       "1/2",
-      "–1/4",
-      "–1/3",
+      "(–1)/4",
+      "(–1)/3",
       "1/6"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–1/3) | Exam: SSC CGL 25/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option C | ((–1)/3) | Exam: SSC CGL 25/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q039",
@@ -654,13 +654,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x 2 – 3x – 1 = 0, then the value of (x 2 + 8x –1) (x3 + x –1)–1 is :",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "8",
+      "8/1",
+      "3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 07/06/2019 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | (8/1) | Exam: SSC CGL 07/06/2019 (Shift- 02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q040",
@@ -688,13 +688,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If 5 x + = 5, find the value of 9 x 2 +",
     "options": [
-      "0",
-      "5",
-      "4",
-      "7.8"
+      "(3 x)/0",
+      "(25 x 2)/5",
+      "(a) 0/4",
+      "(b) 5/7.8"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7.8)"
+    "explanation": "Correct Answer: Option D | ((b) 5/7.8)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q042",
@@ -705,13 +705,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If 3x + = 5 then find 8 x 3 + 2x 27 x 3",
     "options": [
-      "1182",
-      "3027",
-      "0",
-      "1"
+      "1/1182",
+      "10/3027",
+      "(a) 1182/0",
+      "(b) 3027/1"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3027)"
+    "explanation": "Correct Answer: Option B | (10/3027)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q043",
@@ -739,13 +739,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If 5x + = 4, then the value of 3x 1 9 x 2 + is : 25 x 2",
     "options": [
-      "17/12",
-      "4 144/5 125",
-      "11/25",
-      "4 119/25"
+      "174/125",
+      "144/125",
+      "114/25",
+      "119/25"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11/25) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
+    "explanation": "Correct Answer: Option C | (114/25) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q045",
@@ -756,13 +756,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If 20x2 – 30x + 1 = 0, then what is the value 1 of 25 x 2 +16 is : x 2",
     "options": [
-      "532",
-      "582",
-      "534",
-      "58"
+      "1/532",
+      "1/582",
+      "3/534",
+      "3/58"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (534) | Exam: SSC CGL 05/03/2020 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (3/534) | Exam: SSC CGL 05/03/2020 (Shift-02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q046",
@@ -824,13 +824,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If  4 x 2 +  = 2,than what is the value of  4 x 2   1   8 x 3 +  ?",
     "options": [
-      "+2",
-      "–2",
-      "+4",
-      "–4"
+      "/(+2)",
+      "(8 x 3 )/(–2)",
+      "(a) +2/(+4)",
+      "(b) –2/(–4)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (–4)"
+    "explanation": "Correct Answer: Option D | ((b) –2/(–4))"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q050",
@@ -839,7 +839,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If  0.4x   = 5, what is the value of  x   1  0.064x 3   ?   x 3",
+    "question": "If  0.4x   = 5, what is the value of  x   1   0.064x 3  ?   x 3",
     "options": [
       "119",
       "125",
@@ -994,13 +994,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x4 + = 322, find x 3 –",
     "options": [
-      " 76",
-      "76",
-      "–76",
-      "95"
+      "(x 4)/( 76)",
+      "(x 3)/76",
+      "(a)  76/(–76)",
+      "(b) 76/95"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( 76)"
+    "explanation": "Correct Answer: Option A | ((x 4)/( 76))"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q060",
@@ -1026,7 +1026,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If x + = 2, then find the value of x  4   4  x 4  x 3 – .  4   3   x   x ",
+    "question": "If x + = 2, then find the value of x  4   4   x 4    x 3 –  .  x 4   x 3 ",
     "options": [
       "–15",
       "15",
@@ -1043,12 +1043,12 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If x + = 2, then find the value of x  1  x 2723  .  3356   x ",
+    "question": "If x + = 2, then find the value of x  1   x 2723   .  x 3356 ",
     "options": [
       "1",
       "2",
       "0",
-      "–1"
+      "–1 1"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2) | Exam: SSC CGL 18/09/2024 (Shift-02)"
@@ -1099,7 +1099,7 @@
       "6",
       "2",
       "–2",
-      "–6"
+      "–6 Algebra (Sheet-01) 1"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (–2) | Exam: SSC CGL MAINS (08/08/2022)"
@@ -1130,8 +1130,8 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x + = – 3 then x67 + x53 + x43 + x29 + x",
     "options": [
-      "3",
-      "0",
+      "(x24 + x12 +)/3",
+      "(x6 + 3 is)/0",
       "2 2 + 3",
       "2 2 – 3"
     ],
@@ -1179,7 +1179,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If x = 7 – 4 3 , then find the value of  1  x 2   2  .  x ",
+    "question": "If x = 7 – 4 3 , then find the value of  1   x 2   .  x 2 ",
     "options": [
       "188",
       "194",
@@ -1213,7 +1213,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If x = 1 + , then the value of x +   2   x is:",
+    "question": "If x = 1 + 2 , then the value of x +    x  is:",
     "options": [
       "2.1014",
       "2.1973",
@@ -1249,13 +1249,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If P = 7 + 43 and PQ = 1, then what is  1 1  the value of   =  ?",
     "options": [
-      "148",
-      "189",
-      "194",
-      "204"
+      "( P)/148",
+      "(2 Q 2)/189",
+      "(a) 148/194",
+      "(b) 189/204"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (194)"
+    "explanation": "Correct Answer: Option C | ((a) 148/194)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q076",
@@ -1266,13 +1266,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x = and y = then the 5 + 4 5 – 4 x 2 – x y + y 2 value of = ? x 2 + x y + y 2",
     "options": [
-      "36/36",
-      "1 341/3 343",
-      "38/38",
-      "4 321/7 323"
+      "361/363",
+      "341/343",
+      "384/387",
+      "321/323"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4 321/7 323) | Exam: SSC CGL 08/12/2022 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (321/323) | Exam: SSC CGL 08/12/2022 (Shift-02)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q077",
@@ -1283,13 +1283,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If m  = 5, then (m – 3) 8 + m – 3 1 8 =?",
     "options": [
-      "2",
-      "0",
-      "–2",
-      "15"
+      "(/2 m",
+      "(– 3))/0",
+      "(a) 2/(–2)",
+      "(b) 0/15"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2)"
+    "explanation": "Correct Answer: Option A | ((/2 m)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q078",
@@ -1300,13 +1300,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x  = 11, then (x – 11) 12 + x – 9 1 13 =?",
     "options": [
-      "0",
-      "2",
-      "–2",
-      "1"
+      "( x/0",
+      "(– 11))/2",
+      "(a) 0/(–2)",
+      "(b) 2/1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0)"
+    "explanation": "Correct Answer: Option A | (( x/0)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q079",
@@ -1317,13 +1317,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If a  = 6, then (a – 3)7 + =? a – 4 (a – 7) 3",
     "options": [
-      "63",
-      "255",
-      "127",
+      "7/63",
+      "1/255",
+      "7/127",
       "216"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (127)"
+    "explanation": "Correct Answer: Option C | (7/127)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q080",
@@ -1334,13 +1334,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x² –22x + 111 = 0, then what is the value 1 of (x – 8)² – 2 = ?",
     "options": [
-      "1210",
-      "85",
-      "83",
-      "18"
+      "(x/1210",
+      "(– 8))/85",
+      "(a) 1210/83",
+      "(b) 85/18"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1210)"
+    "explanation": "Correct Answer: Option A | ((x/1210)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q081",
@@ -1366,15 +1366,15 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If x² – 12x + 33 = 0, then what is the value 1 of (x – 4)4 + = ?",
+    "question": "If x² – 12x + 33 = 0, then what is the value 1 of (x – 4)4 + 4 = ?",
     "options": [
-      "227",
-      "326",
-      "167",
-      "194"
+      "(x/227",
+      "(– 4))/326",
+      "(a) 227/167",
+      "(b) 326/194"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (194)"
+    "explanation": "Correct Answer: Option D | ((b) 326/194)"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q083",
@@ -1383,7 +1383,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
-    "question": "If (x – a)(x – b) = 1 and a – b + 5 = 0, then 1 (x – a)3 – =?",
+    "question": "If (x – a)(x – b) = 1 and a – b + 5 = 0, then 1 (x – a)3 – 3 =?",
     "options": [
       "110",
       "1",
@@ -1402,13 +1402,13 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If x 5 –  7 , then find x 35 – =?",
     "options": [
-      "791 7",
-      "789 7",
-      "790 7",
-      "792 7"
+      "(x 5)/(791 7)",
+      "(x 35)/(789 7)",
+      "(a) 791 7/(790 7)",
+      "(b) 789 7/(792 7)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (791 7)"
+    "explanation": "Correct Answer: Option A | ((x 5)/(791 7))"
   },
   {
     "id": "rkr_algebra_algebra_classroom_sheet_01_q085",
@@ -1419,12 +1419,12 @@
     "sheetFile": "Algebra (ClassRoom Sheet-01).pdf",
     "question": "If 3 x  = 3, x > 0 then find x²(18x² – 7)? 2 x",
     "options": [
-      "–",
-      "–",
-      "–",
-      "–"
+      "1/(–)",
+      "2/(–)",
+      "1/(–)",
+      "8/(–)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–)"
+    "explanation": "Correct Answer: Option C | (1/(–))"
   }
 ]

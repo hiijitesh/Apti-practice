@@ -6,7 +6,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "P and Q can do a work",
+    "question": "P and Q can do a work in 12 days and 9 days, respectively. They both worked together and earned `63,000. The share of P (in) is:",
     "options": [
       "36,000",
       "21,000",
@@ -23,7 +23,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Mohit and Rohit undertook a work for ` 4400.",
+    "question": "Mohit and Rohit undertook a work for ` 4400. Mohit alone can do that work in 10 days and Rohit alone can do the same work in 15 days. If they work together, then what will be the difference in the amount they receive?",
     "options": [
       "` 800",
       "` 1050",
@@ -40,15 +40,15 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A can complete a task",
+    "question": "A can complete a task in 24 days and B can complete the same task in 36 days. They start working together but A works only for 4 days. The remaining work is completed by B. If the contract to complete the work is for ` 4,800, then what is B’s share (in `)?",
     "options": [
       "3,600",
       "4,400",
       "2,400",
       "4,000"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4,000)"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3,600)"
   },
   {
     "id": "rkr_work_wages_work_wages_classroom_sheet_q004",
@@ -57,7 +57,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A and B worked together and received a total",
+    "question": "A and B worked together and received a total of Rs 18,000 for 15 days. A's efficiency in the work was 5 times that of B's. The daily wage of A (in Rs) was:",
     "options": [
       "800",
       "600",
@@ -74,15 +74,15 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "P and Q completed a work together and were paid Rs.1,080 and Rs.1,440, respectively. If",
+    "question": "P and Q completed a work together and were paid Rs.1,080 and Rs.1,440, respectively. If P can do the entire work in 20 days, how many days did they take to complete the work together?",
     "options": [
-      "8",
-      "8",
-      "6",
-      "6"
+      "3/8",
+      "4/8",
+      "3/6",
+      "4/6"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (8) | Exam: SSC CGL 20/04/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option B | (4/8) | Exam: SSC CGL 20/04/2022 (Shift- 02)"
   },
   {
     "id": "rkr_work_wages_work_wages_classroom_sheet_q006",
@@ -91,7 +91,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Sachin alone can complete a piece of work for 1",
+    "question": "Sachin alone can complete a piece of work for 1 Rs.8500 in 8 days. But with the help of 2 Vishnu, the work is completed in 6 days. The share to be paid to Vishnu is: 1",
     "options": [
       "Rs. 2500",
       "Rs. 2400",
@@ -108,7 +108,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "X, Y and Z can do a piece of work",
+    "question": "X, Y and Z can do a piece of work in 4 days, 5 days and 7 days, respectively. They get `415 for completing the work. If X,Y and Z have worked together to complete the work, what is X's share?",
     "options": [
       "` 275",
       "` 175",
@@ -125,7 +125,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A, B and C can do a work",
+    "question": "A, B and C can do a work in 10 days, 15 days, and 20 days, respectively. They finished that work together and got `2,600 as wages. Find C's wage.",
     "options": [
       "`550",
       "`600",
@@ -142,7 +142,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Rani can do a work",
+    "question": "Rani can do a work in 10 days, Priya can do the same work in 15 days and Guddu can do the same work in 12 days. If they do that work together and they are paid ` 9000, then what is the share of Priya?",
     "options": [
       "` 2400",
       "` 3000",
@@ -159,7 +159,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Mohan, Shyam and Ramesh do a work for `800.",
+    "question": "Mohan, Shyam and Ramesh do a work for `800. Mohan can complete it alone in 6 days while Shyam can complete it alone in 8 days. With the help of Ramesh, they complete the work in 3 days. Find Shyam's share.",
     "options": [
       "`375",
       "`300",
@@ -176,7 +176,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Arin alone can do a piece of work",
+    "question": "Arin alone can do a piece of work in 6 days and Selvi alone can do the same in 8 days. Arin and Selvi undertook to do it for ` 7,200. With the help of Kevin, they completed the work in 3 days. How much is to be paid to Kevin?",
     "options": [
       "`700",
       "`800",
@@ -193,7 +193,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A and B undertake a contract of a task for Rs. 7,500. A can do complete the task all alone",
+    "question": "A and B undertake a contract of a task for Rs. 7,500. A can do complete the task all alone in 50 days and B can complete the same task all by himself in 60 days. However, to finish the work early, they take C’s help and complete the entire work in 20 days. What is the difference (in Rs.) between B’s and C’s share for their contribution in completing the task?",
     "options": [
       "2,000",
       "250",
@@ -210,7 +210,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Samir and Puneet can complete the same work",
+    "question": "Samir and Puneet can complete the same work in 10 days and 15 days respectively. The work was assigned for Rs. 4500. After working together for 3 days Samir and Puneet involved Ashok. The work was completed in total 5 days. What amount (in Rs.) was paid to Ashok?",
     "options": [
       "750",
       "1500",
@@ -227,7 +227,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 8 days while B alone can do it in 12 days. They work together for 4 days and the remaining work is completed by C alone in 2 days. They are paid Rs 7,200 for the completion of the entire work. The earnings of A, B and C, respectively, are:",
     "options": [
       "Rs 2400, Rs 2400 Rs 2400",
       "Rs 4000, Rs 2400 Rs 800",
@@ -244,7 +244,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A and B undertake a project worth `36,000. A alone",
+    "question": "A and B undertake a project worth `36,000. A alone can do the work in 25 days. They worked together for 5 days. For the next five days, B worked alone. After that, A substituted B and completed the remaining work in 5 days. The share of A in the earnings is:",
     "options": [
       "`21,600",
       "`14,400",
@@ -261,7 +261,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A alone can finish a task",
+    "question": "A alone can finish a task in 20 days. While B alone can finish it in 15 days. They together work for 5 days and stop then the rest of the work in finished by C alone in 2 day. If they get paid Rs. 2,400 for finishing the whole task, then find the difference between the daily wages of C and A.",
     "options": [
       "Rs.380",
       "Rs.350",
@@ -278,7 +278,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "X, Y and Z have undertaken to complete a piece of work for ` 4,800. All the three together can 3",
+    "question": "X, Y and Z have undertaken to complete a piece of work for ` 4,800. All the three together can 3 complete the work in 8 days. Y and Z 4 5 together can complete the work in 15 days. 9 X and Z together can complete the work in 8 12 days. Find the difference between the shares 11 of X and Z.",
     "options": [
       "Rs.1200",
       "Rs.1500",
@@ -295,7 +295,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "An expert, an average and a lazy labour work for 7, 8 and 10 days respectively and they together get Rs.369 as labor charge. If the ratio 1 1 1",
+    "question": "An expert, an average and a lazy labour work for 7, 8 and 10 days respectively and they together get Rs.369 as labor charge. If the ratio 1 1 1 of their work done in one day is : : then 3 4 6 how much the expert labor gets?",
     "options": [
       "Rs.120",
       "Rs.102.50",
@@ -329,7 +329,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "Three labours A, B, C were given a contract of Rs.750 for doing a certain piece of work.",
+    "question": "Three labours A, B, C were given a contract of Rs.750 for doing a certain piece of work. All the three together can finish the work in 8 days. A and C together can do it in 12 days, 1 while A and B together can do it in 13 days. 3 The money will be divided in the ratio",
     "options": [
       "4 : 5 : 6",
       "4 : 7 : 5",
@@ -346,7 +346,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "4 women and 7 men earn a total of Rs. 11,480",
+    "question": "4 women and 7 men earn a total of Rs. 11,480 in 7 days, while 10 women and 17 men earn a total of Rs. 36,360 in 9 days. How much will 11 women and 9 men together earn (in Rs.) in 13 days?",
     "options": [
       "42770",
       "42640",
@@ -363,7 +363,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "5 men and 3 boys can complete a work",
+    "question": "5 men and 3 boys can complete a work in 7 days while 9 men and 5 boys can do the work in 4 days. If total amount of `6000 is given to 6 men and 4 boys for doing work in 6 days. Then how much a boy has been paid in one day?",
     "options": [
       "` 100",
       "` 300",
@@ -380,15 +380,15 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 60 days, B in 40 days and C in 12 days. They work for a day each in turn, that is, first day A does it alone, second day B does it alone, and third day C does it alone. After that. the cycle is repeated till the work is finished. They get ` 270 for this job. If the wages are divided in proportion to the work each had done, find the amount A will get.",
     "options": [
       "` 14",
       "` 36",
       "` 24",
       "` 27"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (` 14)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (` 36)"
   },
   {
     "id": "rkr_work_wages_work_wages_classroom_sheet_q024",
@@ -397,7 +397,7 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 90 days, B in 40 days and C in 12 days. They work for a day each in turn i.e., first day A does it alone, B does it the second day and C they third day. After that A does it for another day, and so on, after finishing the work they get Rs. 240. If the wages are divided in proportion to the work done by them, find what each will get.",
     "options": [
       "A Rs.24, B Rs.54 and C Rs.162",
       "A Rs.22, B Rs.50 and C Rs.132",
@@ -414,10 +414,10 @@
     "chapter": "Work & Wages",
     "sheetType": "ClassRoom",
     "sheetFile": "Work & Wages  (ClassRoom Sheet).pdf",
-    "question": "S, T and U can complete a work",
+    "question": "S, T and U can complete a work in 40, 48 and 60 days respectively. They received Rs. 10800 to complete the work. They begin the work together but T left 2 days before the completion of the work and U left 5 days before the completion of the work. S has completed the remaining work alone. What is the share of S (in Rs.) from total money?",
     "options": [
-      "7.",
-      "8. (b) 9. (a) 10. (b)",
+      "4000",
+      "4320",
       "4500",
       "4860"
     ],
@@ -431,7 +431,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "5 women and 9 girls earn a total of Rs.18,720",
+    "question": "5 women and 9 girls earn a total of Rs.18,720 in 9 days, while 9 women and 16 girls earn a total of Rs.52,080 in 14 days. How much will 12 women and 7 girls together earn (in Rs.) in 13 days?",
     "options": [
       "42510",
       "41990",
@@ -448,7 +448,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "4 women and 7 men earn a total of Rs.11,480",
+    "question": "4 women and 7 men earn a total of Rs.11,480 in 7 days, while 10 women and 17 men earn a total of Rs.36,360 in 9 days. How much will 11 women and 9 men together earn (in Rs.) in 13 days?",
     "options": [
       "42770",
       "42640",
@@ -465,7 +465,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A alone can complete the project",
+    "question": "A alone can complete the project in 10 days; B alone can complete it in 20 days while C alone can complete it in 30 days. They together earn ` 1,100 for the project. By how much do the total earnings of A and C exceed the earnings of B ?",
     "options": [
       "Rs.600",
       "Rs.900",
@@ -473,7 +473,7 @@
       "Rs.500"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs.500) | Solution: (d) A 10  60 unit 6 2 3 B 20  C 30  eff. total work   Amount distribute their efficiency 11 unit = 1100 1 unit = 100 (A + C) – B = (6 + 2) – 3 = 5 5 unit = Rs.500"
+    "explanation": "Correct Answer: Option D | (Rs.500) | Solution: (d) A 10  60 unit 6 2 3 B 20  C 30  eff. total work   Amount distribute in their efficiency 11 unit = 1100 1 unit = 100 (A + C) – B = (6 + 2) – 3 = 5 5 unit = Rs.500"
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q004",
@@ -482,7 +482,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "X can do a piece of work alone",
+    "question": "X can do a piece of work alone in 15 days while Y alone can do it in 10 days. They worked together for 3 days and remaining work is finished by Z in 1 day. If they get paid Rs.4000 for the entire work, then what is the share of Z?",
     "options": [
       "Rs.2000",
       "Rs.1000",
@@ -490,7 +490,7 @@
       "Rs.800"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.2000) | Solution: (a) X 15 Y 10 30 unit 2 3 eff.  total work  Work done by (x + y) 3 days = (3 + 2) 3 = 15 Remaining work = 30 – 15 = 15 Z's effi. = 15 15 1  Z's share = 4000 15 Rs.2000 30  "
+    "explanation": "Correct Answer: Option A | (Rs.2000) | Solution: (a) X 15 Y 10 30 unit 2 3 eff.  total work  Work done by (x + y) in 3 days = (3 + 2) 3 = 15 Remaining work = 30 – 15 = 15 Z's effi. = 15 15 1  Z's share = 4000 15 Rs.2000 30  "
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q005",
@@ -499,7 +499,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "The daily wages of A and B respectively are Rs.3.50 and 2.50. When A finishes a certain work, he gets a total wage of Rs.63. When B does the same work, he gets a total wage Rs.75. If both of them do it together what is the cost of the work? Work and Wages",
+    "question": "The daily wages of A and B respectively are Rs.3.50 and 2.50. When A finishes a certain work, he gets a total wage of Rs.63. When B does the same work, he gets a total wage Rs.75. If both of them do it together what is the cost of the work?",
     "options": [
       "Option A",
       "Option B",
@@ -516,7 +516,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A, B and C can independently do a work",
+    "question": "A, B and C can independently do a work in 15 days, 20 days and 30 days, respectively. They work together for some time after which C leaves. A total of Rs.18000 is paid for the work and B gets Rs.6000 more than C. For how many days did A work?",
     "options": [
       "Option A",
       "Option B",
@@ -533,7 +533,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "S, T and U can complete a work",
+    "question": "S, T and U can complete a work in 40, 48 and 60 days respectively. They received Rs.10800 to complete the work. They begin the work together but T left 2 days before the completion of the work and U left 5 days before the completion of the work. S has completed the remaining work alone. What is the share of S (in Rs.) from total money?",
     "options": [
       "Option A",
       "Option B",
@@ -550,7 +550,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "The income of A, B, and C together",
+    "question": "The income of A, B, and C together in one day is Rs.1275 to do a piece of work. Efficiency of A and B is 17 : 21 respectively. If A earns more than C which is the same as B earns more than A, then, find the amount of money earned by A and C together in 7 days to do the same piece of work.",
     "options": [
       "Rs.5020",
       "Rs.3582",
@@ -558,7 +558,7 @@
       "Rs.5250"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Rs.5250) | Solution: (d) A – C = B – A 2A = B + C Given that A + B + C = 1275 3A = 1275 A = 425 A : B : C 17 : 21 : 13 425 525 325 25 25 25 Effi.  Money recieved by A & C 7 days = 30 7 25 = Rs.5250"
+    "explanation": "Correct Answer: Option D | (Rs.5250) | Solution: (d) A – C = B – A 2A = B + C Given that A + B + C = 1275 3A = 1275 A = 425 A : B : C 17 : 21 : 13 425 525 325 25 25 25 Effi.  Money recieved by A & C in 7 days = 30 7 25 = Rs.5250"
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q009",
@@ -567,7 +567,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "P, Q and R can do a piece of work",
+    "question": "P, Q and R can do a piece of work in 16 days, 24 days and 12 days respectively. They worked together for 2 days, and then P left the work. After that, Q and R worked for 1 day and then Q left the work. And the remaining work was done by R. If they got Rs.3420 for the whole work, then find the share of R.",
     "options": [
       "Rs.2565",
       "Rs.2385",
@@ -584,7 +584,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "If M had worked alone, he would have taken 32 hours to do the task. What is M’s share, if M and N worked",
+    "question": "If M had worked alone, he would have taken 32 hours to do the task. What is M’s share, if M and N worked together on a task and finished it in 18 hours and they get paid of Rs.2976 for it?",
     "options": [
       "Rs.1590",
       "Rs.1654",
@@ -601,7 +601,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A alone complete the work",
+    "question": "A alone complete the work in 30 days and the efficiency of A is 300% more than the efficiency of B. If A, B and C together can complete the work in 16 days and they are get the total wages of Rs.27000, then what is the wages of C?",
     "options": [
       "Rs.9000",
       "Rs.12000",
@@ -618,7 +618,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A can complete 60% of the work",
+    "question": "A can complete 60% of the work in 9 days and A and B together can complete half of the work in 4.5 days. If A, B and C together can complete 40% of the work in 3 days and they gets the total wages is 1200, then what is the wage of B?",
     "options": [
       "Rs.200",
       "Rs.360",
@@ -635,7 +635,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A can complete a piece of work",
+    "question": "A can complete a piece of work in 18 days , B is 25% less efficient than A. B started the work and worked for 6 days and left and remaining part of the work is completed by A. What is the share of B if the total wages is Rs.3000?",
     "options": [
       "Rs.2250",
       "Rs.750",
@@ -652,7 +652,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A can do the piece of work",
+    "question": "A can do the piece of work in 15 days and the ratio of the efficiency of A and B is 4 : 1. A, B and C together can complete the half of the work in 4 days. If they get the total wages is Rs.5400, then what is the wage of C?",
     "options": [
       "Rs.1200",
       "Rs.1500",
@@ -669,7 +669,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A and B undertake a project worth Rs.54000. A alone",
+    "question": "A and B undertake a project worth Rs.54000. A alone can do the work in 10 days. They work together for 3 days. After 3 days, B works alone for 3 days and A completes the remaining work in 3 more days. What is the share of B in the earnings?",
     "options": [
       "Rs.21600",
       "Rs.33400",
@@ -720,7 +720,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A can complete a piece of work",
+    "question": "A can complete a piece of work in 10 days, and B in 15. They both work for 5 days. C completes the remaining work in 2 days. If they receive Rs.1500 for the entire work, the sum of B's and C's daily wages is:",
     "options": [
       "`150",
       "`225",
@@ -737,7 +737,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "(A + B) can do a work",
+    "question": "(A + B) can do a work in 30 days, (B + C) can do this work in 24 days, (C + A) can complete this work in 20 days. Three of them start the work together but (B + C) left the work after 10 days and rest of the work was completed by A. If they received Rs.1200 as total wages. Find out share of A.",
     "options": [
       "700",
       "500",
@@ -754,12 +754,12 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "(B + C) takes 50% time more than (A + B + C). If all three takes Rs.450 to complete a work then the share of B is Rs.120.",
+    "question": "(B + C) takes 50% time more than (A + B + C). If all three takes Rs.450 to complete a work then the share of B is Rs.120. In how many days will (A + B 8 + C) complete this work if (A + B) takes days 3 more than (A + B + C).",
     "options": [
-      "5",
+      "3/5",
       "4",
-      "10",
-      "6"
+      "(a) 5/10",
+      "(b) 4/6"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (4)"
@@ -771,15 +771,15 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A, B and C can finish a piece of work",
+    "question": "A, B and C can finish a piece of work in 20, 25 and 100 days respectively. They started working together, but B left the work 4 days before scheduled completion of the work and A left 4 days before actual completion of the work. If they get Rs.15000 for the entire work, then the share of C is in Rs.?",
     "options": [
       "Rs.8000",
       "Rs.3500",
       "Rs.7000",
       "Rs.2400"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.8000)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.2400)"
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q022",
@@ -788,7 +788,7 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A can do a piece of work",
+    "question": "A can do a piece of work in 90 days, B in 40 days, and C in 12 days. They each work for one day. On the first day, A works alone. On the second day, B works alone, and on the third day, C works alone. This cycle is repeated until the work is completed. They receive Rs.240 for the work. If the wages are divided in proportion to their work, find the amount each will receive.",
     "options": [
       "A `24, B `54 and C `162",
       "A `22, B `50 and C `132",
@@ -805,15 +805,15 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A skilled, a half skilled and an unskilled labourer work for 7, 8 and 10 days respectively and they work together get `369 for their work. if the ratio of their 1 1 1 each day work is : : , then how much does the 3 4 6",
+    "question": "A skilled, a half skilled and an unskilled labourer work for 7, 8 and 10 days respectively and they work together get `369 for their work. if the ratio of their 1 1 1 each day work is : : , then how much does the 3 4 6 trained labourer get (in Rs.)?",
     "options": [
       "164",
       "102.5",
       "201.5",
       "143.5"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (164)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (143.5)"
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q024",
@@ -822,15 +822,15 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A , B and C alone complete a piece of work respectively",
+    "question": "A , B and C alone complete a piece of work respectively in 40, 50 and 60 days. They together start the work, after 5 days A left the work. B left 3 days before completion of the work. They get Rs.48000 for whole work, find share of C.",
     "options": [
       "Rs.21000",
       "Rs.20000",
       "Rs.18000",
       "Rs.20400"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.21000)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.20400)"
   },
   {
     "id": "rkr_work_wages_work_wages_pro_level_sheet_q025",
@@ -839,14 +839,14 @@
     "chapter": "Work & Wages",
     "sheetType": "Pro Level",
     "sheetFile": "Work & Wages (Pro Level Sheet).pdf",
-    "question": "A, B and C alone can finish a certain work",
+    "question": "A, B and C alone can finish a certain work in 15, 20 and 30 days respectively. They start working together and after some days C left the work. At the completion of work, they were paid total of Rs.27000, and B received an amount Rs.9000 more than C. Find the number of days for which B worked.",
     "options": [
       "6",
       "7",
       "8",
       "9"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (6)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8)"
   }
 ]

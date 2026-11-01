@@ -6,7 +6,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "Find the area (",
+    "question": "Find the area (in cm²) of the sector whose perimeter 64 22 is cm and central angle is 60°. (Use  = ) 3 7",
     "options": [
       "47/3",
       "77/3",
@@ -23,15 +23,32 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "What is the perimeter (",
+    "question": "What is the perimeter (in cm, rounded off to one decimal place) of the sector of a circle with a radius of 10 cm and of angle 30°? (Use  = 3.14)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20.4",
+      "35.7",
+      "82.8",
+      "25.2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (d) Perimeter of sector = 360  2r + 2r = 30 360   2r + 2r = 1 6 r + 2r = 1 6 3.14 10 + 20 ="
+    "explanation": "Correct Answer: Option D | (25.2) | Solution: (d) Perimeter of sector = 360  2r + 2r = 30 360   2r + 2r = 1 6 r + 2r = 1 6 3.14 10 + 20 ="
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "What is the central angle of a sector of a circle whose area and perimeter are, respectively, equal to 209 cm2 and 63 cm if it is given that its radius is a non- negative integer (roundup to one decimal place)?",
+    "options": [
+      "55.5°",
+      "53.5°",
+      "49.5°",
+      "51.5°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (49.5°) | Solution: (c) Area of sector = 1 2 length of arc radius of circle  209 = 1 2 lr = 418  l r = 19 22 Perimeter = l + 2r  63 = l + 2r By Hit and trial method, l = 19 and r = 22 Length of arc (l ) = 360  2r  19 = 360  2 22 7 22   = 360 19 7 44 22   "
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q004",
@@ -40,12 +57,12 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The inner and outer radii of a circular track are 28",
+    "question": "The inner and outer radii of a circular track are 28 m and 25 m, respectively. The cost (in Rs.) of levelling the track at Rs.28 per m² is: 22 [Use  = ] 7",
     "options": [
-      "15,421",
+      "7/15,421",
       "13,992",
-      "11,229",
-      "17,355"
+      "(a) 15,421/11,229",
+      "(b) 13,992/17,355"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (13,992) | Solution: (b) 25 28 Area of track =  2 2 1 2 (r r )  = (282 – 252) = (784 – 625) = 22 7 159  Cost of levelling the track = 22 7 159 28 = Rs.13992 Note: It can be done with the help of unit digit."
@@ -74,12 +91,12 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "One-quarter of a circular pizza of radius 21 cm was removed from the whole pizza. What is the perimeter 22",
+    "question": "One-quarter of a circular pizza of radius 21 cm was removed from the whole pizza. What is the perimeter 22 (in cm) of the remaining pizza? (Use  = ) 7",
     "options": [
-      "99",
+      "7/99",
       "141",
-      "128",
-      "131"
+      "(a) 99/128",
+      "(b) 141/131"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (141) | Solution: (b) 21 21 O Circumference of circle = 2r  Perimeter of remaining pizza = 2r 3 4 + 2r = 2r 3 1 4        = 2 21 3 22 1 4 7        = 42 47 14 = 141 cm"
@@ -91,15 +108,15 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "What is the difference",
+    "question": "What is the difference in area (in cm²) of ABC having sides of 10 cm, 20 cm and 20 cm, and a right angled PQR with hypotenuse of 13 cm and one of the perpendiculars of 12 cm?",
     "options": [
-      "70.05",
-      "36.57",
-      "66.75",
-      "53.58"
+      "(3.61, 15 =)/70.05",
+      "(3.87, 21 = 4.58)/36.57",
+      "(a) 70.05/66.75",
+      "(b) 36.57/53.58"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (66.75) | Solution: (c) Area of isosceles ABC = 2 2 b b a – 2 4 = 2 2 10 10 20 – 2 4 = 5 375 = 25 15 = 25 3.87 = 96.75 cm2 P Q R 13 5 12 Area of right angle PQR = 1 2 base perpendicular = 1 2 12 5 = 30 cm2 Difference = 96.75 – 30 = 66.75 cm2"
+    "explanation": "Correct Answer: Option C | ((a) 70.05/66.75) | Solution: (c) Area of isosceles ABC = 2 2 b b a – 2 4 = 2 2 10 10 20 – 2 4 = 5 375 = 25 15 = 25 3.87 = 96.75 cm2 P Q R 13 5 12 Area of right angle PQR = 1 2 base perpendicular = 1 2 12 5 = 30 cm2 Difference = 96.75 – 30 = 66.75 cm2"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q008",
@@ -113,7 +130,7 @@
       "25 cm, 15 cm",
       "28 cm, 12 cm",
       "30 cm, 10 cm",
-      "35 cm, 15 c"
+      "35 cm, 15 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (30 cm, 10 cm) | Solution: (c) ATQ, 2 (l + b) = 80  l + b = 40 ....(1) & 4 a = 80 a = 20 ATQ, a² – l b = 100 lb = – 100 + 400 = 300 ...(2) Only option (c) gives sum as 40 and product as 300  l = 30 cm, b = 10 cm"
@@ -130,7 +147,7 @@
       "20 cm",
       "10 cm",
       "16 cm",
-      "Data insufficien"
+      "Data insufficient"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (10 cm)"
@@ -144,10 +161,10 @@
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
     "question": "A parallelogram has sides 30 cm and 20 cm and one of its diagonal is 40 cm long. Then its area is:",
     "options": [
-      "75 5 cm²",
+      "7 5/5 cm²",
       "245 cm²",
       "150 15 cm²",
-      "300 cm"
+      "300 cm²"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (150 15 cm²)"
@@ -170,6 +187,57 @@
     "explanation": "Correct Answer: Option B | (3/11)"
   },
   {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In the adjoining figure ABC is an equilateral triangle and C is the center of the circle, A and B lie on the circle. What is the area of the shaded region, if the diameter of the circle is 28 cm?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In the given figure there are 3 semicircles, the radii of each smaller circle is equal. If the radius of the larger circle be 22 cm, then the area of the shaded region is:",
+    "options": [
+      "363/",
+      "121",
+      "4/236.5",
+      "363"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (121)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In the adjoining figure ACB is a quadrant with radius 'a'. A semicircle is drawn outside the quadrant taking AB as a diameter. Find the area of shaded region:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q015",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -181,7 +249,7 @@
       "216 cm²",
       "56 cm²",
       "36 cm²",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (216 cm²)"
@@ -244,7 +312,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The diameter of the wheel of a bus is 140 cm. How many revolution, per minute must the wheel make",
+    "question": "The diameter of the wheel of a bus is 140 cm. How many revolution, per minute must the wheel make in order to keep a speed of 66 km/h?",
     "options": [
       "550",
       "250",
@@ -253,6 +321,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (250)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In the given figure, PQRS is a square whose side is 8 cm. PQS and QPR are two quadrants. A circle is placed touching both the quadrants and the square as shown in the figure. What is the area (in sq.cm) of the circle?",
+    "options": [
+      "13/17",
+      "11/14",
+      "19/31",
+      "15/19"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (11/14)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q021",
@@ -266,7 +351,7 @@
       "42 sq.cm",
       "35 sq.cm",
       "48 sq.cm",
-      "84 sq.c"
+      "84 sq.cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (42 sq.cm)"
@@ -283,10 +368,27 @@
       "49 sq.cm",
       "45 sq.cm",
       "25 sq.cm",
-      "21 sq.c"
+      "21 sq.cm"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (45 sq.cm)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In the given figure, a square ABCD is inscribed in a quadrant APCQ. If AB = 16 cm, find the area of the shaded region (take  = 3.14) correct to two places of decimal.",
+    "options": [
+      "16/(155.98 cm²)",
+      "B/(179.68 cm²)",
+      "(a) 155.98 cm²/(163.85 cm²)",
+      "(b) 179.68 cm²/(146.29 cm²)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((b) 179.68 cm²/(146.29 cm²))"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q024",
@@ -295,12 +397,12 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "If the length of certain rectangle is decreased by 4 cm and breadth is increased by 2 cm, it would result",
+    "question": "If the length of certain rectangle is decreased by 4 cm and breadth is increased by 2 cm, it would result in a square of the same area. What is the perimeter of the original rectangle?",
     "options": [
       "15 cm",
       "24 cm",
       "20 cm",
-      "10 c"
+      "10 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (20 cm)"
@@ -317,7 +419,7 @@
       "363 cm²",
       "253 cm²",
       "493 cm²",
-      "323 cm"
+      "323 cm²"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (493 cm²)"
@@ -334,7 +436,7 @@
       "250 metres",
       "300 metres",
       "200 metres",
-      "210 metre"
+      "210 metres"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (200 metres)"
@@ -346,7 +448,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The difference between the lengths of two parallel sides of a trapezium is 12 cm. The perpendicular distance between these two parallel sides is 60 cm. If the area of the trapezium is 1380 cm², then find the",
+    "question": "The difference between the lengths of two parallel sides of a trapezium is 12 cm. The perpendicular distance between these two parallel sides is 60 cm. If the area of the trapezium is 1380 cm², then find the length (in cm) of each parallel side.",
     "options": [
       "31, 19",
       "24, 12",
@@ -357,13 +459,30 @@
     "explanation": "Correct Answer: Option D | (29, 17)"
   },
   {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In a trapezium ABCD, AB and DC are parallel to each other with a perpendicular distance of 8 m between them. Also, (AD) = (BC) = 10 m, and (AB) = 15 m < (DC). What is the perimeter (in m) of the trapezium ABCD?",
+    "options": [
+      "50",
+      "66",
+      "62",
+      "58"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (62)"
+  },
+  {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q029",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The sides of a triangular field are 360 m, 480 m and 600 m. Its area is equal to the area of a square field.",
+    "question": "The sides of a triangular field are 360 m, 480 m and 600 m. Its area is equal to the area of a square field. What is the side (in m) of the square field?",
     "options": [
       "1206",
       "1606",
@@ -385,7 +504,7 @@
       "51 units",
       "53 units",
       "56 units",
-      "59 unit"
+      "59 units"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (56 units)"
@@ -401,8 +520,8 @@
     "options": [
       "9 3 cm",
       "18 cm",
-      "18 3 cm",
-      "27 c"
+      "1 3/8 cm",
+      "27 cm"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (9 3 cm)"
@@ -423,6 +542,40 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (5/3)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In ABC, AB = 21 cm, BC = 20 cm and CA = 13 cm, A perpendicular CD is drawn upon the longest side. What is the area of the BCD?",
+    "options": [
+      "96 cm2",
+      "84 cm2",
+      "80 cm2",
+      "72 cm2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (96 cm2)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In a right angled triangle ABC, AB = 15 cm, BC = 20 cm and AC = 25 cm. Further, BP is the perpendicular on AC. What is the difference in the area of triangles PAB and PCB?",
+    "options": [
+      "40 cm2",
+      "42 cm2",
+      "45 cm2",
+      "48 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (42 cm2)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q035",
@@ -450,13 +603,13 @@
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
     "question": "If l is the length of the median of an equilateral triangle, then what is its area?",
     "options": [
-      "3/3",
-      "l 2 3 l 2/2",
-      "3 2",
-      "2l2"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3/3)"
+    "explanation": "Correct Answer: Option A"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q037",
@@ -465,7 +618,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The area of a field",
+    "question": "The area of a field in the shape of a Regular hexagon is 19443m². What will be the cost (in `) of fencing it at the rate of `11.50 per meter?",
     "options": [
       "2,256",
       "3,200",
@@ -482,15 +635,32 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The ratio of the length of each equal side and the third side of an isosceles triangle is 3 : 5. If the area of the triangle is 30 11 cm² then the length of the third side",
+    "question": "The ratio of the length of each equal side and the third side of an isosceles triangle is 3 : 5. If the area of the triangle is 30 11 cm² then the length of the third side (in cm) is:",
     "options": [
       "10 6",
       "5 6",
-      "13 6",
+      "1 6/3",
       "11 6"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (10 6)"
+  },
+  {
+    "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 2D",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
+    "question": "In an isosceles right triangle, the perimeter is 30 m. Find its area (in m2). (Rounded off to the nearest integral value)",
+    "options": [
+      "41",
+      "36",
+      "39",
+      "34"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (39)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q040",
@@ -504,10 +674,10 @@
       "20.36m",
       "22.32m",
       "24.36m",
-      "26.32"
+      "26.32m"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (26.32)"
+    "explanation": "Correct Answer: Option D | (26.32m)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q041",
@@ -516,15 +686,15 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The sides of a triangle are 24 cm, 26 cm and 10 cm. At each of its vertices, circles of radius 4.2 cm are",
+    "question": "The sides of a triangle are 24 cm, 26 cm and 10 cm. At each of its vertices, circles of radius 4.2 cm are drawn. What is the area (in cm2) of the triangle, excluding the portion covered by the sectors of the circles? [Take  = 22/7]",
     "options": [
-      "27.72",
-      "120",
-      "105.86",
-      "92.28"
+      "/27.72",
+      "7/120",
+      "(a) 27.72/105.86",
+      "(b) 120/92.28"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (92.28)"
+    "explanation": "Correct Answer: Option D | ((b) 120/92.28)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q042",
@@ -533,7 +703,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The difference between the areas of two concentric circles is 88 cm2. If the radius of the inner circle is 6",
+    "question": "The difference between the areas of two concentric circles is 88 cm2. If the radius of the inner circle is 6 cm, then the area (in cm2) of the larger circle is closest to: [Take  = 22/7]",
     "options": [
       "197 cm2",
       "198 cm2",
@@ -550,15 +720,15 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The area of circular park is 12474 m². There is 3.5",
+    "question": "The area of circular park is 12474 m². There is 3.5 m wide path around the park. What is the area (in 22 m²) of the path? [Take  = ] 7",
     "options": [
-      "1424.5",
+      "7/1424.5",
       "1435.5",
-      "1380.5",
-      "1440.5"
+      "(a) 1424.5/1380.5",
+      "(b) 1435.5/1440.5"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1424.5)"
+    "explanation": "Correct Answer: Option A | (7/1424.5)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q044",
@@ -567,7 +737,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The sum of the radii of two circles is 286 cm and the area between the concentric circles is 50336 cm².",
+    "question": "The sum of the radii of two circles is 286 cm and the area between the concentric circles is 50336 cm². What are the radii (in cm) of the two circles? [Take 22  = ] 7",
     "options": [
       "91 and 84",
       "171 and 84",
@@ -584,15 +754,15 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "Akshay places three identical rings of diameter 21 cm",
+    "question": "Akshay places three identical rings of diameter 21 cm in such a manner that each one touches the other two rings. He observes that there is a space enclosed by the circles. What is the area (in cm²) of this portion? 22 (Take  = ) 7 Note:- Rounded off to nearest 2 decimal places and 3 = 1.732",
     "options": [
-      "18.25",
-      "24.12",
-      "17.70",
-      "20.65"
+      "3/18.25",
+      "( 1.732)/24.12",
+      "(a) 18.25/17.70",
+      "(b) 24.12/20.65"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (17.70)"
+    "explanation": "Correct Answer: Option C | ((a) 18.25/17.70)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q046",
@@ -606,7 +776,7 @@
       "24 m",
       "20 m",
       "27 m",
-      "30"
+      "30 m"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (24 m)"
@@ -618,7 +788,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "If the semi-perimeter and area of a rectangular field whose length and breadth are 'x' and 'y' is 12 cm and 28 cm², respectively, then find the value of x4 + x²y² + y4. Mensuration 2D (f}foeh; {ks=kfefr)",
+    "question": "If the semi-perimeter and area of a rectangular field whose length and breadth are 'x' and 'y' is 12 cm and 28 cm², respectively, then find the value of x4 + x²y² + y4.",
     "options": [
       "6990",
       "6609",
@@ -652,7 +822,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "A rectangular lawn whose length is twice of its breadth is extended by having four semi-circular portions on",
+    "question": "A rectangular lawn whose length is twice of its breadth is extended by having four semi-circular portions on its sides. What is the total area (in m2) of the lawn if the smaller side of the rectangle is 12 m? (Take  = 3.14)",
     "options": [
       "548.32",
       "444",
@@ -669,7 +839,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The diagonal of a square A is (a + b) units. What will",
+    "question": "The diagonal of a square A is (a + b) units. What will be the area (in square units) of the square drawn on the diagonal of square B, whose area is twice the area of square A?",
     "options": [
       "(a + b)2",
       "2(a + b)2",
@@ -686,7 +856,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The area of the rhombus (",
+    "question": "The area of the rhombus (in cm²) having each side equal to 13 cm and one of its diagonals equal to 24 cm is:",
     "options": [
       "120",
       "60",
@@ -720,7 +890,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The base of a triangle is equal to the perimeter of a square whose diagonal is 7 2 cm and its height is equal to the side of a square whose area is 169 m2.",
+    "question": "The base of a triangle is equal to the perimeter of a square whose diagonal is 7 2 cm and its height is equal to the side of a square whose area is 169 m2. The area (in cm2) of the triangle is:",
     "options": [
       "156",
       "175",
@@ -737,15 +907,15 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "A farmer's land is",
+    "question": "A farmer's land is in the shape of a trapezium which has its parallel sides measuring 6.32 yards and 7.68 yards and the distance between the parallel sides is 5.50 yards. The cost of ploughing the land is Rs.1200 per square yard. What amount have to be spent in order to plough the entire land?",
     "options": [
       "`36600",
       "`32500",
       "`55400",
       "`46200"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`36600)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`46200)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q055",
@@ -778,8 +948,8 @@
       "`4082.40",
       "`3668.80"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`3642.60)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`4082.40)"
   },
   {
     "id": "rkr_mensuration_2d_mensuration_2d_pro_level_sheet_q057",
@@ -788,7 +958,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The area of a quadrilateral ABCD is 324 cm2. The lengths of the perpendiculars from the vertices B and D to the diagonal AC are 12 cm and 15 cm,",
+    "question": "The area of a quadrilateral ABCD is 324 cm2. The lengths of the perpendiculars from the vertices B and D to the diagonal AC are 12 cm and 15 cm, respectively. Determine the length (in cm) of the diagonal AC.",
     "options": [
       "24",
       "19",
@@ -810,7 +980,7 @@
       "20 cm",
       "32 cm",
       "28 cm",
-      "24 c"
+      "24 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (28 cm)"
@@ -822,7 +992,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The area of a rectangle increases by 8m2 if its length is increased by 5m and breadth is decreased by 7m. If the length is decreased by 5m and breadth is increased by 8m, then its area increases by 33m2.",
+    "question": "The area of a rectangle increases by 8m2 if its length is increased by 5m and breadth is decreased by 7m. If the length is decreased by 5m and breadth is increased by 8m, then its area increases by 33m2. What is the perimeter of the original rectangle (in m)?",
     "options": [
       "575",
       "576",
@@ -839,7 +1009,7 @@
     "chapter": "Mensuration 2D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 2D (Pro Level Sheet).pdf",
-    "question": "The diagonals of a rhombus are",
+    "question": "The diagonals of a rhombus are in the ratio 8 : 15 and the perimeter is 102 cm. Find the area (in cm2) of the rhombus.",
     "options": [
       "540",
       "533",

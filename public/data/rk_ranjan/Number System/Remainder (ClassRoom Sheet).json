@@ -34,6 +34,23 @@
     "explanation": "Correct Answer: Option B | (258) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
   },
   {
+    "id": "rkr_number_system_remainder_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "In a division question, the divisor is 4 times the quotient and 3 times the remainder. If the remainder is 20, find the dividend?",
+    "options": [
+      "940",
+      "920",
+      "960",
+      "980"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (920)"
+  },
+  {
     "id": "rkr_number_system_remainder_classroom_sheet_q004",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -64,8 +81,8 @@
       "2325",
       "2425"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2375) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2425) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
   },
   {
     "id": "rkr_number_system_remainder_classroom_sheet_q006",
@@ -431,7 +448,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
-    "question": "What is the greatest number by which when 156, 181 and 331 are divided, the remainder",
+    "question": "What is the greatest number by which when 156, 181 and 331 are divided, the remainder is 6 in each case?",
     "options": [
       "26",
       "17",
@@ -708,7 +725,7 @@
       "4",
       "– 4",
       "– 1",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (4)"
@@ -958,7 +975,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
-    "question": "If 243 gives a remainder of 4 when divided by a certain natural number n, what will be the remainder when 482 is divided by 2n",
+    "question": "If 243 gives a remainder of 4 when divided by a certain natural number n, what will be the remainder when 482 is divided by 2n assuming that the quotient in both cases is the same?",
     "options": [
       "1",
       "4",
@@ -1096,8 +1113,8 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "If N = (243 + 253 + 263 + 273), then N divided by 102 leaves a remainder of:",
     "options": [
-      "2.",
-      "3. (b) 4. (c) 5. (d",
+      "12",
+      "1",
       "0",
       "18"
     ],
@@ -1147,13 +1164,13 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "Find the remainder when we divide 3x4 – 2x² +4x – 1 by 2x – 1.",
     "options": [
-      "11",
-      "15",
-      "11/16",
-      "15/16"
+      "4/11",
+      "3/15",
+      "16",
+      "16"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11/16) | Exam: SSC CGL 07/12/2022 (Shift-04)"
+    "explanation": "Correct Answer: Option C | (16) | Exam: SSC CGL 07/12/2022 (Shift-04)"
   },
   {
     "id": "rkr_number_system_remainder_classroom_sheet_q070",
@@ -1164,8 +1181,8 @@
     "sheetFile": "Remainder (ClassRoom Sheet).pdf",
     "question": "If the polynomial (2x3 + ax2 + 3x – 5) and (x3 + x2 – 2x + a) leave the same remainder when divided by (x – 2), find the remainder.",
     "options": [
-      "7.",
-      "8. (a) 9. (c) 10. (b)",
+      "4",
+      "3",
       "2",
       "5"
     ],

@@ -23,7 +23,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Find the 11th term",
+    "question": "Find the 11th term in the series.",
     "options": [
       "6812",
       "6720",
@@ -40,7 +40,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "How many terms are there",
+    "question": "How many terms are there in G.P. 6, 18, 54, ........, 39366?",
     "options": [
       "7",
       "11",
@@ -59,13 +59,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "Which term of the G.P. 2, 1, , ,... is ? 2 4 128 1 1 1",
     "options": [
-      "8",
-      "9",
-      "7",
-      "10"
+      "2 4/8",
+      "128/9",
+      "(a) 8/7",
+      "(b) 9/10"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (9)"
+    "explanation": "Correct Answer: Option B | (128/9)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q005",
@@ -76,13 +76,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "If x, 2x + 2, 3x + 3 are first three terms of a GP then find its 4th term.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "–27",
+      "–27",
+      "2/27",
+      "None"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (–27)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q006",
@@ -91,7 +91,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Three positive numbers form an increasing",
+    "question": "Three positive numbers form an increasing GP. If the middle term in this GP is doubled, then new numbers are in AP, then common ratio of GP is:",
     "options": [
       "2  3",
       "3  2",
@@ -161,13 +161,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "Find the sum of the G.P.",
     "options": [
-      " 1 –   ",
-      " 1 –   ",
-      " 1 –   ",
-      " 1 –   "
+      "(1   1  n )/( 1 –   )",
+      "(2   1  n )/( 1 –   )",
+      "(4   1  n )/( 1 –   )",
+      "(5   1  n )/( 1 –   )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( 1 –   )"
+    "explanation": "Correct Answer: Option A | ((1   1  n )/( 1 –   ))"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q011",
@@ -196,12 +196,12 @@
     "question": "Find the sum up to n terms of the sequence:",
     "options": [
       "7n–1 7",
-      " 9n – 1  10 –n    81 7n",
+      "  9n – 1  10 –n   81 7n",
       "81 7n  1",
-      "10n Note: (a) 3 terms (b) 4 terms (c) 5 terms"
+      "10n"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | ( 9n – 1  10 –n    81 7n)"
+    "explanation": "Correct Answer: Option B | (  9n – 1  10 –n   81 7n)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q014",
@@ -244,7 +244,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "After striking the floor, a ball rebounds to 4 th of the height from which it has 5 fallen. Find the total distance that it travels coming to rest if it has been gently dropped from a height of 120 meters.",
+    "question": "After striking the floor, a ball rebounds to 4 th of the height from which it has 5 fallen. Find the total distance that it travels coming to rest if it has been gently dropped from a height of 120 meters. 4",
     "options": [
       "540 mtrs",
       "960 mtrs",
@@ -261,7 +261,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "A square is drawn by joining the mid points of the sides of a square. A third square is drawn inside the second square",
+    "question": "A square is drawn by joining the mid points of the sides of a square. A third square is drawn inside the second square in the same way and the process is continued infinitely. If the side of the sqaure is 10 cm, then the sum of areas of all the squares so formed is",
     "options": [
       "100 cm2",
       "200 cm2",
@@ -278,11 +278,11 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "An equilateral triangle by joining the midpoints of a given equilateral triangle of side 18cm. A thord triangle is drawn inside",
+    "question": "An equilateral triangle by joining the midpoints of a given equilateral triangle of side 18cm. A thord triangle is drawn inside the second in the same way. The process is constructed indefinitely. The sum of the areas of all such triangle in cm2 is",
     "options": [
       "324 3",
       "108 3",
-      "54 3",
+      "5 3/4",
       "200 3"
     ],
     "correctAnswer": 1,
@@ -312,7 +312,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Sum of first 63 terms of a G.P. is equal to",
+    "question": "Sum of first 63 terms of a G.P. is equal to the sum of the first 61 terms in the same G.P. When second term is –653, what is the sum of 50 terms in the G.P.?",
     "options": [
       "0",
       "4",
@@ -329,7 +329,7 @@
     "chapter": "AP & GP",
     "sheetType": "ClassRoom",
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
-    "question": "Sum of first 13 items of a G.P. is equal",
+    "question": "Sum of first 13 items of a G.P. is equal to the sum of the first 11 terms in the same G.P. Sum of the first 15 terms is 1200, what is the 21st term in the same G.P.?",
     "options": [
       "1300",
       "1400",
@@ -365,13 +365,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25",
+      "20",
+      "3/11",
+      "14.4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (14.4)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q024",
@@ -382,13 +382,13 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "For two observations, the sum is S and product is P. What is the harmonic mean of these two observations?",
     "options": [
-      "Answer/Geometric Progression",
-      "5.(a)",
-      "Answe/Geome",
-      "r/tric Progression"
+      "P",
+      "(2P)",
+      "(2 P)/S",
+      "P/(2S)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Answe/Geome)"
+    "explanation": "Correct Answer: Option C | ((2 P)/S)"
   },
   {
     "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q025",
@@ -399,12 +399,12 @@
     "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
     "question": "If arithmetic ad geometric mean of x and y is 8 and 3 7 respectively, then the value of x³ + y³ is?",
     "options": [
-      "Key",
-      "8.(c) 9.(c) 10.(a)",
-      "Key",
-      "7.(b) 8.(c) 9.(c) 10.(a)"
+      "1072",
+      "945",
+      "559",
+      "855"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Key) | Exam: phase IX 01/08/2022 (Shift-04)"
+    "explanation": "Correct Answer: Option A | (1072) | Exam: phase IX 01/08/2022 (Shift-04)"
   }
 ]

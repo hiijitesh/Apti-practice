@@ -6,7 +6,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs. 100 is invested at 10% per annum compound interest (compounded annually) for two years. How much interest will be received after two years",
+    "question": "A sum of Rs. 100 is invested at 10% per annum two years. How much interest will be received after two years",
     "options": [
       "Rs. 42",
       "Rs. 21",
@@ -57,7 +57,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest (compounded annually) on a sum of money invested for two years is `",
+    "question": "The compound interest (compounded annually) on a sum of money invested for two years is ` 10125. If the rate of interest in 25% per annum, then what is the amount after these two years?",
     "options": [
       "` 28125",
       "` 32275",
@@ -74,7 +74,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 3000 is invested at 20% p.a. compound interest (compounded annually). What is the compound interest for two years?",
+    "question": "A sum of ` 3000 is invested at 20% p.a. What is the compound interest for two years?",
     "options": [
       "` 1360",
       "` 1200",
@@ -108,7 +108,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Find the compound interest on Rs 12,000",
+    "question": "Find the compound interest on Rs 12,000 in 3 year at a rate of 10% per annum, compounded annually.",
     "options": [
       "` 9,872",
       "` 3,672",
@@ -159,7 +159,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "How much will a principal of ` 5000 invested on compound interest (compounded annually)",
+    "question": "How much will a principal of ` 5000 invested on compound interest (compounded annually) amount to, in three years at a rate of 50% per annum?",
     "options": [
       "` 16,375",
       "` 11,250",
@@ -176,7 +176,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the present value of ` 14,739 payable",
+    "question": "What is the present value of ` 14,739 payable in 3 years at the rate of 6.25% yearly",
     "options": [
       "` 12184",
       "` 12288",
@@ -210,7 +210,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What sum will be at rate 2 % become `9,826 2",
+    "question": "What sum will be at rate 2 % become `9,826 2 in 18 months if the ratio of interest is per annum and the interest is compound half yearly. 1",
     "options": [
       "`9,392.00",
       "`9,444.00",
@@ -227,7 +227,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum invested on compound interest",
+    "question": "A certain sum invested on compound interest (compounded annually) grows to ` 5040 in three years. If the rate of interest is 20% for the first year, 40% for the second years and 50% for the third years, then what is the sum?",
     "options": [
       "` 1210",
       "` 2566",
@@ -244,7 +244,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Find the compound interest (",
+    "question": "Find the compound interest (in Rs) on a sum of Rs 7,500 for 4 years if the rate of interest is 20% per annum for the first two years and 10% per annum for the next two years. (The interest is compounded annually.)",
     "options": [
       "6,558",
       "5,658",
@@ -261,7 +261,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs. 200 is invested at 10% per annum compound interest (compounded annually) for 1.5 years. How much interest will be received after 1.5 years",
+    "question": "A sum of Rs. 200 is invested at 10% per annum 1.5 years. How much interest will be received after 1.5 years",
     "options": [
       "Rs. 31",
       "Rs. 21",
@@ -295,7 +295,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a certain sum",
+    "question": "The compound interest on a certain sum in 1 2 years at 10% p.a., interest compounded 2 yearly, is ` 1,623. The sum is:",
     "options": [
       "` 5,000",
       "` 6,000",
@@ -312,7 +312,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the compound interest (",
+    "question": "What is the compound interest (in Rs) on a sum 2 of Rs 25,000 for 3 years at 10% p.a., if the 5 interest is compounded annually? 2",
     "options": [
       "9,606",
       "8,275",
@@ -331,13 +331,13 @@
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
     "question": "Find the ratio of principal to amount. If the rate 2 of interest is 16 % per annum compounded 3 1 annually for 1 years. 4",
     "options": [
-      "144:175",
-      "144:169",
-      "125:144",
-      "175:144"
+      "3/144:175",
+      "4/144:169",
+      "(a) 144:175/125:144",
+      "(b) 144:169/175:144"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (144:175)"
+    "explanation": "Correct Answer: Option A | (3/144:175)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q021",
@@ -348,10 +348,10 @@
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
     "question": "Find the ratio of principal to amount. If the 1 rate of interest is 12 % per annum 2 compounded annually for 1 year and 2 months.",
     "options": [
-      "441:625",
+      "2/441:625",
       "128:147",
-      "400:441",
-      "441:400"
+      "(a) 441:625/400:441",
+      "(b) 128:147/441:400"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (128:147)"
@@ -414,7 +414,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the compound interest (",
+    "question": "What is the compound interest (in Rs) on a 1 sum of Rs 8192 for 1 years at 15% per 4 annum, if interest is compounded 5 monthly?",
     "options": [
       "1,640",
       "1,740",
@@ -465,7 +465,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Radha deposited Rs 1,60,000 at a 10% rate of compound interest per annum for two years. If the interest is compounded semi-annually,",
+    "question": "Radha deposited Rs 1,60,000 at a 10% rate of the interest is compounded semi-annually, then what is compound interest (in Rs)",
     "options": [
       "16,400",
       "34,481",
@@ -482,7 +482,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum becomes Rs. 13650 at 15% p.a. simple interest after 2 years. What will be the",
+    "question": "A certain sum becomes Rs. 13650 at 15% p.a. simple interest after 2 years. What will be the amount (in Rs.) of the same sum after 1 year at the same of interest, if the interest is compound half yearly? (nearest to a Rs.)",
     "options": [
       "13625",
       "11000",
@@ -584,7 +584,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest (",
+    "question": "The compound interest (in Rs, to the nearest integer) on Rs 8,950 for 2 years at the rate of 9% per annum, compounded annually, is:",
     "options": [
       "1523",
       "1683",
@@ -601,7 +601,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Kalyan invested a sum of Rs 12,000 for two years at the rate of 5% and 10% respectively.",
+    "question": "Kalyan invested a sum of Rs 12,000 for two years at the rate of 5% and 10% respectively. What is the compound interest (in Rs) at the end of two years?",
     "options": [
       "1920",
       "1860",
@@ -652,7 +652,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Pradnya invests `2,00,000",
+    "question": "Pradnya invests `2,00,000 in the name of her daughter, who is 16 years old, in a scheme that pays compound interest at a rate of 8% per annum, compounded annually. What will be the total amount due to the daughter when she becomes 18 years old?",
     "options": [
       "`2,51,250",
       "`2,52,150",
@@ -669,7 +669,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest for two years at 12% per annum is ` 477. What is the principal",
+    "question": "The compound interest for two years at 12% per annum is ` 477. What is the principal amount (in `) invested?",
     "options": [
       "1875",
       "1500",
@@ -686,7 +686,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Akhilesh invested a certain sum which",
+    "question": "Akhilesh invested a certain sum which amounted to Rs82,000 in 2 years at 6% per annum compound interest ,compounded annually.What was the sum invested (in Rs) by Akhilesh?(round off to the nearest integer)",
     "options": [
       "73,980",
       "72680",
@@ -737,7 +737,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a certain sum of money at 11% for 2 years is ` 6963. Its simple",
+    "question": "The compound interest on a certain sum of money at 11% for 2 years is ` 6963. Its simple interest (in `) at the same rate and for the same period is :",
     "options": [
       "` 6500",
       "` 6600",
@@ -754,7 +754,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a certain sum of money at 21% for 2 years is ` 9,282. Its simple",
+    "question": "The compound interest on a certain sum of money at 21% for 2 years is ` 9,282. Its simple interest (in `) at the same rate and for the same period is :",
     "options": [
       "` 8750",
       "` 8400",
@@ -805,7 +805,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to Rs 14,641",
+    "question": "A certain sum amounts to Rs 14,641 in 4 years at 10% p.a. when interest is compounded annually. What will be the amount of the same 2 sum (in Rs) in 3 years at the same rate at 5 simple interest?",
     "options": [
       "14,000",
       "13,600",
@@ -822,7 +822,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a sum of money at 10% per annum for 4 years is Rs 3,200. What will",
+    "question": "The simple interest on a sum of money at 10% per annum for 4 years is Rs 3,200. What will be the amount (in Rs) of the same sum for the same period at the same rate of interest when the interest is compounded annually?",
     "options": [
       "11,172.80",
       "11,712.80",
@@ -839,7 +839,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at",
+    "question": "A certain sum is deposited for 4 years at a rate of 10% per annum on compound interest compounded annually. The difference between the interest at the end of 2 years and that at the end of 4 year is Rs. 5082. Find the sum (in Rs.)",
     "options": [
       "20000",
       "25500",
@@ -907,7 +907,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The interest on ` 24,000",
+    "question": "The interest on ` 24,000 in year compounded annually when the rate are 8% p.a. and 10% p.a. for two successive years is :",
     "options": [
       "` 3994",
       "` 4512",
@@ -924,7 +924,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a certain sum at 20% p.a. for two years is ` 250. What is the compound interest (compounded annually) on the same sum at the same rate for the same period?",
+    "question": "The simple interest on a certain sum at 20% p.a. for two years is ` 250. What is the the same sum at the same rate for the same period?",
     "options": [
       "` 275",
       "` 900",
@@ -941,7 +941,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a certain sum at the end of three year at 5% p.a. is ` 1200. The compound interest on the same sum for the same period at the same rate is (interest compounded yearly) :",
+    "question": "The simple interest on a certain sum at the end of three year at 5% p.a. is ` 1200. The same period at the same rate is (interest compounded yearly) :",
     "options": [
       "` 1800",
       "` 1260",
@@ -958,7 +958,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum invested at 10% compound interest per",
+    "question": "A sum invested at 10% compound interest per annum becomes ` 19,965 in 3 years. The same 2 sum will become ` x in 2 years. If the 5 interest is compounded annually in both the cases, then find the value of x?",
     "options": [
       "` 18,855",
       "` 18,768",
@@ -975,7 +975,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the difference (",
+    "question": "What is the difference (in Rs) between the simple interest and the compound interest on 2 a sum of Rs 8000 for 2 years at the rate of 5 10% p.a., when the interest is compounded yearly? 2",
     "options": [
       "152.80",
       "150",
@@ -1009,7 +1009,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the compound interest (",
+    "question": "What is the compound interest (in Rs) at the rate of 10%, compounded annually, for 3 years on the principal which in 8 years at the rate of 12% per annum gives Rs 4,800 as simple interest?",
     "options": [
       "1,505",
       "1,655",
@@ -1026,7 +1026,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What sum of money is compound interest will",
+    "question": "What sum of money is compound interest will amount to ` 4630.08 in three years if the rate of interest is 4% for the first year, 5% for the second year and 6% for the third year?",
     "options": [
       "` 4500",
       "` 4800",
@@ -1043,7 +1043,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a sum of money at 10% per annum for 2 years is ` 8,100. What would",
+    "question": "The simple interest on a sum of money at 10% per annum for 2 years is ` 8,100. What would be the compound interest (in `) on the same sum for the period at 15% p.a. When the interest is compounded yearly?",
     "options": [
       "13,061",
       "8,100",
@@ -1060,7 +1060,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If the difference between the compound interest and simple interest at 17% on a sum of money for 2 years (compounded annually is",
+    "question": "If the difference between the compound interest and simple interest at 17% on a sum of money for 2 years (compounded annually is ` 433.50 then the compound interest (in `) is :",
     "options": [
       "5,533.50",
       "2,735.50",
@@ -1077,7 +1077,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A deposited `1,56,250 at 8% simple interest for",
+    "question": "A deposited `1,56,250 at 8% simple interest for 2 years. How much more money will A have in his account at the end of two years, if at the same rate of interest the sum is invested in",
     "options": [
       "`1,740.90",
       "`1,000",
@@ -1094,7 +1094,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A moneylender borrows money at 4% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest, compounded half-yearly, and receives the interest at the end of the year.",
+    "question": "A moneylender borrows money at 4% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest, compounded half-yearly, and receives the interest at the end of the year. In this way, he gains Rs 166.4 a year. Find the amount of money he borrows.",
     "options": [
       "Rs 6,500",
       "Rs 4,000",
@@ -1111,7 +1111,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The difference between compound interest compounded annually and simple interest on a certain sum at a rate of 15% per annum for 2 years is Rs 1,944. Find the compound",
+    "question": "The difference between compound interest compounded annually and simple interest on a certain sum at a rate of 15% per annum for 2 years is Rs 1,944. Find the compound interest compounded annually (in Rs) on the same sum for the same period at a rate of 10% per annum.",
     "options": [
       "18,060",
       "27,216",
@@ -1162,7 +1162,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to ` 4205.55 at 15% 2 p.a.",
+    "question": "A certain sum amounts to ` 4205.55 at 15% 2 p.a. In 2 years interest compounded yearly. 5 The sum is : 2",
     "options": [
       "` 3,200",
       "` 3,500",
@@ -1196,7 +1196,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amount to ` 29,282",
+    "question": "A certain sum amount to ` 29,282 in 4 years at 10% per annum when the interest is compounded annually. What is the simple interest on the same sum for same time at the same rate?",
     "options": [
       "` 8500",
       "` 8000",
@@ -1213,7 +1213,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A principal increases 21% with compound",
+    "question": "A principal increases 21% with compound interest in two years. Calculate the simple interest for 4 years on ` 1000 at the same rate of interest?",
     "options": [
       "` 320",
       "` 400",
@@ -1230,7 +1230,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a certain sum for 3 years at 15% p.a. interest compounded yearly is ` 4,167. What is the simple interest on the 4",
+    "question": "The compound interest on a certain sum for 3 years at 15% p.a. interest compounded yearly is ` 4,167. What is the simple interest on the 4 same sum in 4 years at the same rate? 5",
     "options": [
       "` 6,144",
       "` 6,000",
@@ -1247,7 +1247,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a certain sum of money at 21% for 2 years is ` 11,602.5. Its",
+    "question": "The compound interest on a certain sum of money at 21% for 2 years is ` 11,602.5. Its simple interest (in `) at the same rate and for the same period is :",
     "options": [
       "` 10,750",
       "` 16,000",
@@ -1298,7 +1298,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What will be the compound interest on a sum of ` 31,250 at 12% compound interest 2",
+    "question": "What will be the compound interest on a sum of ` 31,250 at 12% compound interest 2 (interest compounded yearly) in 2 years? 3 2",
     "options": [
       "` 11,048",
       "` 11,096",
@@ -1468,7 +1468,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the difference between the compound",
+    "question": "What is the difference between the compound interest (in Rs) compounded yearly and compounded half yearly for 18 months at 20% per annum on a sum Rs 12,000?",
     "options": [
       "145",
       "165",
@@ -1485,7 +1485,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The difference",
+    "question": "The difference in the compound interest on a certain sum at 10% p.a. for one year, when the interest is compounded half yearly and yearly, is ` 88.80. What is the simple interest on this 2 same sum for 13 years at the same rate?",
     "options": [
       "` 5,916",
       "` 5,986",
@@ -1502,7 +1502,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What will be the difference",
+    "question": "What will be the difference in compound interest on a sum of ` 7,800 at 8% for 1 year, when the interest is paid yearly and half yearly?",
     "options": [
       "` 24.72",
       "` 12.48",
@@ -1519,7 +1519,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to ` 15,500",
+    "question": "A certain sum amounts to ` 15,500 in 2 years at 12% p.a. simple interest. The same sum will 1 amount to what in 12 years at 10% p.a., if the interest is compounded half yearly (nearest to ` 1)?",
     "options": [
       "` 14,470",
       "` 13,460",
@@ -1621,7 +1621,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum is invested on compound interest at 18% per annum for 1 year 4 months, the interest being compounded 8 monthly. If the compound interest is Rs 3816,",
+    "question": "A certain sum is invested on compound interest at 18% per annum for 1 year 4 months, the interest being compounded 8 monthly. If the compound interest is Rs 3816, then find the sum (in Rs.).",
     "options": [
       "15,000",
       "14,800",
@@ -1638,7 +1638,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The principal amount of Rs.100 becomes equal",
+    "question": "The principal amount of Rs.100 becomes equal to Rs. 121 in 2 years at a certain rate of interest rate.",
     "options": [
       "10",
       "5",
@@ -1655,7 +1655,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs. 6,400 invested on the basis of yearly compounding of interest, grows to Rs.",
+    "question": "A sum of Rs. 6,400 invested on the basis of yearly compounding of interest, grows to Rs. 7,056 in two years. What is the percentage rate of interest?",
     "options": [
       "4",
       "7.5",
@@ -1672,7 +1672,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum invested at compound interest amounts to",
+    "question": "A sum invested at compound interest amounts to Rs. 7,800 in 3 years and Rs. 11,232 in 5 years. What is the rate per cent?",
     "options": [
       "26",
       "20",
@@ -1706,7 +1706,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "At what rate percentage per annum will Rs",
+    "question": "At what rate percentage per annum will Rs 14,400 amount to Rs 15,876 in one year, if interest is compounded half-yearly?",
     "options": [
       "15",
       "12",
@@ -1723,7 +1723,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 9500 amounts to Rs 11495",
+    "question": "A sum of Rs 9500 amounts to Rs 11495 in 2 years at a certain rate percent per annum, interest compounded yearly. What is the simple interest (in Rs) on the same sum for the same time and double the rate?",
     "options": [
       "3420",
       "3990",
@@ -1740,7 +1740,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The principal amount of Rs.1000 becomes",
+    "question": "The principal amount of Rs.1000 becomes equal to Rs. 1331 in 3 years at a certain rate of compound interest per annum. Find the interest rate.",
     "options": [
       "5",
       "10",
@@ -1757,15 +1757,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The principal amount of Rs. 2160 becomes",
+    "question": "The principal amount of Rs. 2160 becomes equal to Rs. 3430 in 3 years at a certain rate of compound interest per annum. Find the interest rate.",
     "options": [
-      "8",
+      "1/(8 %)",
       "15",
-      "12",
-      "16"
+      "1/(12 %)",
+      "2/(16 %)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (16)"
+    "explanation": "Correct Answer: Option D | (2/(16 %))"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q105",
@@ -1774,7 +1774,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 9,500 becomes Rs 11,704.95",
+    "question": "A sum of Rs 9,500 becomes Rs 11,704.95 in 2 years at compound interest. What is the rate of interest?",
     "options": [
       "9",
       "7",
@@ -1791,7 +1791,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a sum of Rs 8,000",
+    "question": "The compound interest on a sum of Rs 8,000 becomes Rs 9,261 in 18 months. Find the rate of interest if interest is compounded half- yearly.",
     "options": [
       "8",
       "10",
@@ -1808,15 +1808,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 3600 invested on compound",
+    "question": "A sum of ` 3600 invested on compound interest becomes ` 4900 in 2 years. (interest is compounded annually) What is the rate of interest per annum?",
     "options": [
-      "18",
-      "17",
-      "15",
-      "` 16"
+      "1/(18 %)",
+      "1/(17 %)",
+      "2/(15 %)",
+      "2/(` 16 %)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (` 16) | Exam: SSC MTS 19/08/2019 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (2/(` 16 %)) | Exam: SSC MTS 19/08/2019 (Shift-02)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q108",
@@ -1825,7 +1825,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "At what rate percent per annum will a sum of",
+    "question": "At what rate percent per annum will a sum of ` 15,625 amount to `21,952 in three years. If the interest is compounded annually?",
     "options": [
       "12",
       "8",
@@ -1859,15 +1859,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "What is the rate of compound interest if a sum 1331",
+    "question": "What is the rate of compound interest if a sum 1331 becomes times of itself in 3 years? 729 1331",
     "options": [
-      "22",
-      "33",
-      "21",
-      "11"
+      "2/(22 %)",
+      "1/(33 %)",
+      "7/(21 %)",
+      "7/(11 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (22) | Exam: CONSTABLE 03/12/2023 (Shift- 01)"
+    "explanation": "Correct Answer: Option A | (2/(22 %)) | Exam: CONSTABLE 03/12/2023 (Shift- 01)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q111",
@@ -1876,7 +1876,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 12,000 amounts to ` 20,736",
+    "question": "A sum of ` 12,000 amounts to ` 20,736 in 3 years at a certain rate percent per annum, interest compounded annually. What will the amount of the same sum be in 2 years at the same rate on compound interest?",
     "options": [
       "` 15,640",
       "` 17,820",
@@ -1910,7 +1910,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money on compound interest",
+    "question": "A sum of money on compound interest becomes double of itself in 3 years. How many years will it take for the amount to become eight times of itself at the same rate of interest.?",
     "options": [
       "8",
       "9",
@@ -1927,7 +1927,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If a sum of money doubles itself",
+    "question": "If a sum of money doubles itself in 10 years on compound interest, then in how many more years will it become 16 times of itself at the same rate of interest?",
     "options": [
       "10",
       "20",
@@ -1944,7 +1944,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "An amount becomes 27 times of itself on",
+    "question": "An amount becomes 27 times of itself on 15 years. In how many years at the same rate on compound interest (compounding annually) it will become 81 times of itself?",
     "options": [
       "15",
       "30",
@@ -1961,7 +1961,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money doubles itself at a certain rate",
+    "question": "A sum of money doubles itself at a certain rate of compound interest in 12 years when the interest is compounded annually. In how many more years will it become eight times of itself?",
     "options": [
       "24",
       "48",
@@ -1978,7 +1978,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "An amount becomes 125 times of itself on",
+    "question": "An amount becomes 125 times of itself on 30 years. In how many years at the same rate on compound interest (compounding annually) it will become 625 times of itself?",
     "options": [
       "30",
       "60",
@@ -1995,7 +1995,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "An amount becomes 125 times of itself on",
+    "question": "An amount becomes 125 times of itself on 30 years. In how many years at the same rate on compound interest (compounding annually) it will become 5 times of itself?",
     "options": [
       "10",
       "15",
@@ -2012,7 +2012,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money becomes 3 times",
+    "question": "A sum of money becomes 3 times in 10 years at the rate of compound interest (compounded annually), In how many years will it become 243 times?",
     "options": [
       "40 years",
       "50 years",
@@ -2029,7 +2029,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If the difference between simple and compound interest on a sum of money for 2",
+    "question": "If the difference between simple and years at 5% p.a. is ` 125, the sum (in `) is :",
     "options": [
       "` 50000",
       "` 5000",
@@ -2046,7 +2046,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum was invested at the rate of 10% for a period of 2 years at compound interest and compounded annually. The same sum was invested for the same period and same rate of interest atsimple interest. if the difference of compound interest and simple interest was Rs200, find the sum.",
+    "question": "A certain sum was invested at the rate of 10% for a period of 2 years at compound interest and compounded annually. The same sum was invested for the same period and same rate of interest atsimple interest. if the difference of Rs200, find the sum.",
     "options": [
       "Rs 30,000",
       "Rs 25,000",
@@ -2082,13 +2082,13 @@
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
     "question": "The difference between the compound interest and the simple interest on 80,000 at the same rate of interest per annum for 2 years is 98. What is the rate of interest per annum?",
     "options": [
-      "3",
-      "5",
-      "2",
-      "7"
+      "1/(3 %)",
+      "1/(5 %)",
+      "1/(2 %)",
+      "1/(7 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (3) | Exam: CONSTABLE 16/11/2023 (Shift- 03)"
+    "explanation": "Correct Answer: Option A | (1/(3 %)) | Exam: CONSTABLE 16/11/2023 (Shift- 03)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q124",
@@ -2148,7 +2148,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to ` 8,028",
+    "question": "A sum amounts to ` 8,028 in 3 years and to `12,042 in 6 years at a certain rate percent per annum, when the interest is compounded yearly. The sum is:",
     "options": [
       "` 5,352",
       "` 5,235",
@@ -2182,7 +2182,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money becomes Rs 11,880 after 4 years and Rs 17,820 after 6 years on compound interest, the interest is compounded annually.",
+    "question": "A sum of money becomes Rs 11,880 after 4 years and Rs 17,820 after 6 years on compound interest, the interest is compounded annually. What is the half of the sum (in Rs) ?",
     "options": [
       "2,750",
       "2,530",
@@ -2199,7 +2199,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amount to Rs 6,120",
+    "question": "A sum amount to Rs 6,120 in 2 years and Rs 7,340 in 3 years at compound interest. The sum (in Rs) is (rounded off to 2 decimal places):",
     "options": [
       "4,050.13",
       "4,254.63",
@@ -2233,15 +2233,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money, on compound interest,",
+    "question": "A sum of money, on compound interest, amounts to `578.40 in 2 years and to `614.55 in 3 years. The rate of interest per annum, in case of annual compounding, is:",
     "options": [
-      "8",
-      "6",
-      "4",
-      "5"
+      "1/(8 %)",
+      "1/(6 %)",
+      "3/4%",
+      "4/5%"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (6) | Exam: RRB ALP Tier-01, 28/11/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (1/(6 %)) | Exam: RRB ALP Tier-01, 28/11/2024 (Shift-03)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q133",
@@ -2250,7 +2250,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If a sum amounts to ` 2,190",
+    "question": "If a sum amounts to ` 2,190 in four years and `2,409 in five years at compound interest, when the interest is compounded yearly, then the annual rate of interest is:",
     "options": [
       "8",
       "10",
@@ -2267,7 +2267,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of money amounts to Rs.1,200",
+    "question": "A sum of money amounts to Rs.1,200 in 2 years and becomes Rs.1,260 in 3 years at compounded annually. What is the rate of",
     "options": [
       "6",
       "3",
@@ -2284,7 +2284,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain amount of money at compounded",
+    "question": "A certain amount of money at compounded interest grows to ` 66,550 in 3 years and ` 73,205 in 4 years. The rate percent per annum is :",
     "options": [
       "10",
       "5",
@@ -2301,7 +2301,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to ` 7,562",
+    "question": "A sum amounts to ` 7,562 in 4 years and to ` 8,469.44 in 5 years at a certain rate percent per annum. When the interest is compounded annually, the rate of interest is:",
     "options": [
       "8",
       "12",
@@ -2318,7 +2318,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum lent out at compound interest amount",
+    "question": "A sum lent out at compound interest amount to ` 1,250 in one year and to ` 1,458 in 3 years at a certain rate percentage p.a. What is the 2 simple interest on the same sum for 5 years 5 at the same rate of interest?",
     "options": [
       "` 600",
       "` 520",
@@ -2335,7 +2335,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum amounts to ` 7,562",
+    "question": "A sum amounts to ` 7,562 in 4 years and to ` 8,469.44 in 5 years, at a certain rate percent per annum when the interest is compounded yearly. If ` 10,000 at the same rate of interest borrowed for two years, then what will be the",
     "options": [
       "1,736",
       "1,965",
@@ -2352,7 +2352,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple interest on a sum of money for 2 years at certain rate of interest is ` 320. The compound interest, compounded annually on the same sum for the same duration and at the",
+    "question": "The simple interest on a sum of money for 2 years at certain rate of interest is ` 320. The same sum for the same duration and at the same rate of interest is ` 384. The sum (in `) is:",
     "options": [
       "400",
       "250",
@@ -2386,7 +2386,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple and compound interests on a certain sum of money are Rs. 400 and Rs. 420",
+    "question": "The simple and compound interests on a certain sum of money are Rs. 400 and Rs. 420 in 2 years. Calculate the rate of interest.",
     "options": [
       "20",
       "10",
@@ -2403,7 +2403,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple and compound interests on a certain sum of money are Rs. 600 and Rs. 660",
+    "question": "The simple and compound interests on a certain sum of money are Rs. 600 and Rs. 660 in 2 years. Calculate the rate of interest.",
     "options": [
       "20",
       "10",
@@ -2420,7 +2420,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The simple and compound interests on a certain sum of money are Rs. 200 and Rs. 214",
+    "question": "The simple and compound interests on a certain sum of money are Rs. 200 and Rs. 214 in 2 years. Calculate the rate of interest.",
     "options": [
       "12",
       "14",
@@ -2448,13 +2448,64 @@
     "explanation": "Correct Answer: Option C | (Rs 93750 and 4) | Exam: SSC PHASE IX 2022"
   },
   {
+    "id": "rkr_compound_interest_compound_interest_classroom_sheet_q145",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will a sum of `12,000 become `14,520 at a rate of 10% per annum on compound interest, compounded annually?",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2) | Exam: RRB Technician G-III, 29/12/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_classroom_sheet_q146",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
+    "question": "In how many years will Rs 40000 amounts to Rs 46656 at the rate of 8% compound interest per annum?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2) | Exam: SSC CHSL 02/08/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_classroom_sheet_q147",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
+    "question": "In what time will `3,20,000 amount to `4,05,000 if compounded at 12.5% per annum?",
+    "options": [
+      "1 year",
+      "2 year",
+      "3 year",
+      "4 year"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2 year) | Exam: SSC CHSL, 10/08/2023 (Shift-4)"
+  },
+  {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q148",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Basanthi deposited Rs 50,000",
+    "question": "Basanthi deposited Rs 50,000 in a co-operative bank which is giving compound interest at the rate of 10% per annum. What will be her interest in the 3rd year?",
     "options": [
       "Rs 66,550",
       "Rs 6,050",
@@ -2471,7 +2522,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Mukesh invested Rs. 100000",
+    "question": "Mukesh invested Rs. 100000 in a company. He would be paid interest at 7% per annum com- pounded annually. Find the interest for the 3rd year.",
     "options": [
       "Rs.8200.33",
       "Rs.7550.53",
@@ -2488,7 +2539,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 100 is lent at 10% p.a. compound interest. What is the difference between the compound interest for the second year and the third year?",
+    "question": "A sum of Rs 100 is lent at 10% p.a. compound interest. What is the difference between the third year?",
     "options": [
       "Rs. 1",
       "Rs. 1.1",
@@ -2522,7 +2573,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of `15,000 is lent at 16% p.a. compound interest. What is the difference between the compound interest for the second year and the third year?",
+    "question": "A sum of `15,000 is lent at 16% p.a. compound interest. What is the difference between the third year?",
     "options": [
       "` 544",
       "` 445.44",
@@ -2539,7 +2590,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 2500 is lent at 4% p.a. compound interest. What is the difference between the compound interest for the 4th year and the second year?",
+    "question": "A sum of Rs 2500 is lent at 4% p.a. compound interest. What is the difference between the second year?",
     "options": [
       "Rs. 12.64",
       "Rs. 17.65",
@@ -2556,7 +2607,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 100 is lent at 10% p.a. compound interest. What is the difference between the compound interest for the 5th year and the 3rd year?",
+    "question": "A sum of Rs 100 is lent at 10% p.a. compound interest. What is the difference between the 3rd year?",
     "options": [
       "Rs. 4.62",
       "Rs. 2.541",
@@ -2573,7 +2624,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If the compound interest",
+    "question": "If the compound interest in the third year at 8% p.a. on a certain sum is ` 3600, then what is the difference between the compound interest in the 4th and 5th year? (nearest to an integer in `)",
     "options": [
       "` 304",
       "` 335",
@@ -2624,7 +2675,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If the rate of interest is 20% per annum, compounded yearly and the interest on a",
+    "question": "If the rate of interest is 20% per annum, compounded yearly and the interest on a certain sum in the second year is ` 250, then what will be the interest on the same sum in the fifth year?",
     "options": [
       "` 518",
       "` 400",
@@ -2641,7 +2692,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "If the rate of interest is 20% per annum, compounded yearly and the interest on a",
+    "question": "If the rate of interest is 20% per annum, compounded yearly and the interest on a certain sum in the 5th year is Rs. 432, then what will be the interest on the same sum in the 2nd year?",
     "options": [
       "Rs. 300",
       "Rs. 250",
@@ -2658,7 +2709,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A sum of ` 10,500 amounts to ` 13,650",
+    "question": "A sum of ` 10,500 amounts to ` 13,650 in 2 years at a certain rate per cent per annum simple interest. The same sum will amount to what in 1 year at the same rate, if the interest is compounded half yearly (nearest to ` 1)?",
     "options": [
       "` 12,134",
       "` 12,314",
@@ -2692,7 +2743,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Rahul invested equal sums of money at compound interest under two schemes A and B. Under scheme A, the interest rate was 10% per annum and under scheme B, the interest rate was 12% p.a. The compound interest after",
+    "question": "Rahul invested equal sums of money at B. Under scheme A, the interest rate was 10% per annum and under scheme B, the interest rate was 12% p.a. The compound interest after two years on the sum invested in scheme A was ` 1,050. How much is the interest earned under scheme B after two years, if the interest is compounded annually in both scheme?",
     "options": [
       "` 1270",
       "` 1372",
@@ -2709,7 +2760,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Peter invested a certain sum of money",
+    "question": "Peter invested a certain sum of money in a scheme paying 10% simple interest per annum, while Rachel invested half of the sum that Peter invested in a scheme paying 10% interest per annum compounded annually. Also, while Peter invested for 2 years, Rachel invested for 3 years. If the difference in the interest earned by Peter and Rachel was `897, what was the sum that Rachel had invested?",
     "options": [
       "`12,900",
       "`13,000",
@@ -2726,7 +2777,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Divide Rs.66,300 between A and B",
+    "question": "Divide Rs.66,300 between A and B in such a way that the amount that A receives after 8 years is equal to the amount that B receives after 10 years; with compound interest being compounded annually at a rate of 10% per annum.",
     "options": [
       "A = Rs.35,200, Rs.B = 31,100",
       "A = Rs.36,300, Rs.B = 30,000",
@@ -2743,7 +2794,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Joseph deposited a total of Rs.52,500",
+    "question": "Joseph deposited a total of Rs.52,500 in a bank in the names of his two daughters aged 15 years and 16 years in such a way that they would get equal amounts when they become 18 years old. If the bank gives 10% compound interest compounded annually, then what is the amount (in Rs.) that Joseph had deposited in the name of his younger daughter ?",
     "options": [
       "25,500",
       "26,000",
@@ -2760,7 +2811,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A and B together borrowed a sum of ` 51,750 at an interest rate of 7% p.a. compounded",
+    "question": "A and B together borrowed a sum of ` 51,750 at an interest rate of 7% p.a. compounded interest in such a way that to settle the loan. A paid as much amount after three years as paid by B after 4 years from the day of borrowing. The sum (in `) borrowed by A was :",
     "options": [
       "` 25,000",
       "` 25,650",
@@ -2777,15 +2828,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Amit borrowed a sum of ` 25,000 on simple interest. Bhola borrowed the same amount on compound interest (interest compounded yearly). At the end of 2 years, Bhola had to pay ` 160 more interest than Amit. The rate of interest charged per annum is:",
+    "question": "Amit borrowed a sum of ` 25,000 on simple interest. Bhola borrowed the same amount on yearly). At the end of 2 years, Bhola had to pay ` 160 more interest than Amit. The rate of interest charged per annum is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/(3 %)",
+      "16/%",
+      "8/8%",
+      "%"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 06/03/2020 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (8/8%) | Exam: SSC CGL 06/03/2020 (Shift-02)"
   },
   {
     "id": "rkr_compound_interest_compound_interest_classroom_sheet_q168",
@@ -2794,7 +2845,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "A certain sum amounts to Rs 11,520",
+    "question": "A certain sum amounts to Rs 11,520 in 4 years at the rate of 15% p.a. simple interest. What will be the amount of the same sum in 2 years at the same rate, if the interest is compounded 8-monthly (nearest to a Rs)?",
     "options": [
       "Rs 9,853",
       "Rs 9,338",
@@ -2811,7 +2862,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The difference between the compound 1 interests on a certain sum for 1 years at a 2 rate of 20% p.a. is Rs.1,716 when the interest is compounded half yearly and compounded",
+    "question": "The difference between the compound 1 interests on a certain sum for 1 years at a 2 rate of 20% p.a. is Rs.1,716 when the interest is compounded half yearly and compounded annually. The sum (in Rs.) is:",
     "options": [
       "1,32,000",
       "1,43,000",
@@ -2828,7 +2879,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "Nidhi invested her savings",
+    "question": "Nidhi invested her savings in schemes A and 1 B in the ratio 2 : 3, respectively, for 1 years. 2 Scheme A offers interest at 20% p.a. compounded half yearly, while Scheme B offers interest at 10% p.a. compounded yearly. If the total interest received by her from both the schemes is Rs.13,524, then the amount (in Rs.) invested by her in Scheme A is:",
     "options": [
       "36,000",
       "24,000",
@@ -2845,7 +2896,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The compound interest on a sum of Rs. 12,000 1 at a rate of x % p.a. for 1 years is Rs. 3,840, 2 compounded yearly. What will be the compound interest on the same sum at the same rate and for the same period if the interest is compounded half-yearly?",
+    "question": "The compound interest on a sum of Rs. 12,000 1 at a rate of x % p.a. for 1 years is Rs. 3,840, 2 compounded yearly. What will be the same rate and for the same period if the interest is compounded half-yearly?",
     "options": [
       "Rs. 3,972",
       "Rs. 3,876",
@@ -2862,12 +2913,12 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "Compound Interest (ClassRoom Sheet).pdf",
-    "question": "The amount of a certain sum",
+    "question": "The amount of a certain sum in 2 years at 20% p.a. is Rs. 7776, interest compounded yearly. What will be the amount of the same 1 sum in 1 years at the same rate of interest, 2 compounded half yearly? (Nearest to a Rs.)",
     "options": [
       "Rs. 7,187",
       "Rs. 7,178",
       "Rs. 7,285",
-      "Rs. 7,085 ANSWER KEY 1. (b) 2. (a) 3. (b) 4. (a) 5. (c) 6. (a) 7. (d) 8. (d) 9. (c) 10. (c)"
+      "Rs. 7,085"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Rs. 7,187) | Exam: ICAR 29/07/2022 (Shift- 04)"

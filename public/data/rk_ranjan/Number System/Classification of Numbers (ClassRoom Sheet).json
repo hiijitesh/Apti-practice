@@ -11,10 +11,10 @@
       "Rational/ifjes",
       "Irrational/vifjes",
       "Integers/iw.kk±d",
-      "Complex/lfEe"
+      "Complex/lfEeJ"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Complex/lfEe) | Exam: SSC CPO 11/12/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (Complex/lfEeJ) | Exam: SSC CPO 11/12/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q002",
@@ -25,13 +25,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The set of real numbers includes which of the following?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only rational numbers",
+      "Only irratioal numbers",
+      "Both rational and irrational numbers",
+      "Only whole numbers"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (Both rational and irrational numbers) | Exam: SSC CGL 23/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q003",
@@ -45,7 +45,7 @@
       "Rational (ifjes;)",
       "Whole (iw.kZ)",
       "Irrational (vifjes;)",
-      "Integer (iw.kk±d"
+      "Integer (iw.kk±d)"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Irrational (vifjes;)) | Exam: SSC CPO 09/12/2025 (Shift-01)"
@@ -59,13 +59,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these is a number that is real but NOT rational?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "Square root of 7",
+      "– 2"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 21/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Square root of 7) | Exam: SSC CGL 21/09/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q005",
@@ -76,13 +76,30 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these number is neither rational nor integer?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 4",
+      "1.5",
+      "Square root of 2",
+      "7"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Square root of 2) | Exam: SSC CGL 23/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "In a quiz, a student was asked to find a number that is:",
+    "options": [
+      "5",
+      "3  1",
+      "2.5",
+      "4.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3  1) | Exam: SSC CHSL 25/11/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q007",
@@ -93,13 +110,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Rational number + Irrational number = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational number",
+      "Irrational number",
+      "Either Rational number or Irrational number.",
+      "Integer/iw.kk±d"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CPO 10/12/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (Irrational number) | Exam: SSC CPO 10/12/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q008",
@@ -112,11 +129,11 @@
     "options": [
       "Always irrational/ges'kk vifjes",
       "Always rational/ges'kk ifjes",
-      "Rational if x =– y/ifjes; vxj x = –y",
-      "Never rational/dHkh ifjes; ugh"
+      "Rational if x =– y",
+      "Never rational/dHkh ifjes; ugha"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Rational if x =– y/ifjes; vxj x = –y) | Exam: SSC CHSL 18/11/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (Rational if x =– y) | Exam: SSC CHSL 18/11/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q009",
@@ -130,10 +147,10 @@
       "Always rational/lnSo ifjes",
       "Always irrational/lnSo vifjes",
       "Always integer/lnSo iw.kkZad",
-      "Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes"
+      "Sometimes rational, sometimes irrational"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes) | Exam: SSC CGL 20/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (Sometimes rational, sometimes irrational) | Exam: SSC CGL 20/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q010",
@@ -144,13 +161,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The product of two rational numbers is always:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational/ifjes",
+      "Irrational/vifjes",
+      "Natural",
+      "Integer/iw.kk±d Difference between a Rational & an Irrational Number."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 24/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option A | (Rational/ifjes) | Exam: SSC CHSL 24/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q011",
@@ -161,13 +178,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "The decimal expansion of a rational number is:",
     "options": [
-      "Non-terminating and non-repeating/vuolkuh",
-      "Terminating or repeating/lkar ;k vkorhZ",
+      "Non-terminating and non-repeating",
+      "Terminating or repeating/lkar",
       "Terminating only/dsoy lkar",
-      "Repeating only/dsoy vkorh"
+      "Repeating only/dsoy vkorhZ"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Terminating or repeating/lkar ;k vkorhZ) | Exam: SSC CHSL 15/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (Terminating or repeating/lkar) | Exam: SSC CHSL 15/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q012",
@@ -178,13 +195,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which one of the following is TRUE about repeating decimals?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Always irrational/ges'kk vifjes",
+      "Never rational/dHkh ifjes; ugha",
+      "Always rational/ges'kk ifjes",
+      "Always whole numbers"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 28/11/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (Always rational/ges'kk ifjes) | Exam: SSC CHSL 28/11/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q013",
@@ -198,7 +215,7 @@
       "Terminating decimal/lkar n'keyo",
       "Repeating decimal/vkorhZ n'keyo",
       "Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo",
-      "Can be either terminating or repeating decimal/;g ;k rks lkar ;k vkorhZ n'keyo gks"
+      "Can be either terminating or repeating"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo) | Exam: SSC CHSL 22/11/2025 (Shift-01)"
@@ -212,13 +229,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "A number is said to be pure recurring if:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only one digit repeats",
+      "Decimal terminates",
+      "Repeating digits start immediately after decimal",
+      "Has non-repeating part then repeating part"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 30/11/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (Repeating digits start immediately after decimal) | Exam: SSC CHSL 30/11/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q015",
@@ -295,7 +312,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
-    "question": "Which of these fractions results",
+    "question": "Which of these fractions results in a non-terminating repeating decimal?",
     "options": [
       "1/4",
       "1/17",
@@ -314,13 +331,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following number is a terminating decimal?",
     "options": [
-      "69/42",
-      "37 5896/75",
-      "58/12",
-      "73 6917/8 42"
+      "6937/42",
+      "5896/75",
+      "5873/128",
+      "6917/42"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (58/12)"
+    "explanation": "Correct Answer: Option C | (5873/128)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q021",
@@ -331,13 +348,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following statement is TRUE for whole numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "They include fractions.",
+      "They include negative numbers.",
+      "They include zero and positive integers.",
+      "They start form 1"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL 24/09/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option C | (They include zero and positive integers.) | Exam: SSC CGL 24/09/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q022",
@@ -348,13 +365,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which set includes numbers like –5, 0 and 6?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Natural number",
+      "Integers/iw.kkZad",
+      "Irrational numbers",
+      "Whole numbers"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-01)"
+    "explanation": "Correct Answer: Option B | (Integers/iw.kkZad) | Exam: SSC CGL 25/09/2025 (Shift-01)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q023",
@@ -365,13 +382,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which set does NOT contain negative numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Integers/iw.kk±d",
+      "Natural numbers",
+      "Rational numbers",
+      "Real numbers"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (Natural numbers) | Exam: SSC CGL 25/09/2025 (Shift-03)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q024",
@@ -382,13 +399,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of these is both an integer and a whole number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 4",
+      "0 1",
+      "3.5",
+      "2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: SSC CGL 20/09/2025 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (0 1) | Exam: SSC CGL 20/09/2025 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q025",
@@ -487,7 +504,7 @@
       "Only one",
       "Only two",
       "All three",
-      "Non"
+      "None"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (Only one)"
@@ -640,10 +657,10 @@
       "(156, 126)",
       "(23, 92)",
       "(24, 351)",
-      "(18, 35"
+      "(18, 35)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((18, 35)"
+    "explanation": "Correct Answer: Option D | ((18, 35))"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q040",
@@ -657,7 +674,7 @@
       "(198, 175)",
       "(7, 35)",
       "(217, 651)",
-      "(32, 62"
+      "(32, 62)"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | ((198, 175)) | Exam: CONSTABLE 14/11/2023 (Shift- 01)"
@@ -695,6 +712,23 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (81, 16) | Exam: RRB Technician G-III, 26/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "In which of the pairs of the following numbers is none of the two numbers a prime number, but the two numbers are co-primes?",
+    "options": [
+      "(21, 35)",
+      "(11, 17)",
+      "(19, 27)",
+      "(8, 25)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((8, 25)) | Exam: RRB Technician G-III, 28/12/2024 (Shift-02)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q044",
@@ -737,7 +771,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
-    "question": "Four Prime numbers are taken",
+    "question": "Four Prime numbers are taken in ascending order. The product of first three is 385 and of last three is 1001. Find the smallest prime no.",
     "options": [
       "5",
       "7",
@@ -776,7 +810,7 @@
       "b is prime",
       "a and b are co-prime",
       "a is prime",
-      "a and b are not co-prime Composite It has more than two factors. Ex. 4, 6, 8, 9,10,12,14,15 etc.  9 Note: (i) 1 is neither prime nor composite number. (ii) If a and b are any two odd primes then a2 + b2 and a2 – b2 is composite numbers."
+      "a and b are not co-prime"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (a and b are co-prime) | Exam: CONSTABLE 16/11/2023 (Shift- 03)"
@@ -807,13 +841,13 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which one of the following is not correct?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1 is neither prime nor composite.",
+      "0 is neither positive nor negative.",
+      "If p",
+      "2 is an irrational number"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (If p)"
   },
   {
     "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q051",
@@ -824,12 +858,12 @@
     "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
     "question": "Which of the following numbers is a Perfect Number?",
     "options": [
-      "KEY",
-      "7. (b) 8. (c) 9. (d) 10. (a)",
-      "KEY",
-      "10. (a)"
+      "12",
+      "6",
+      "28",
+      "Both (b) & (c)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10. (a))"
+    "explanation": "Correct Answer: Option D | (Both (b) & (c))"
   }
 ]

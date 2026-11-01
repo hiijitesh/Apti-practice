@@ -6,7 +6,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times",
+    "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times as old as Savita. What is the present age (in years) of Rahim?",
     "options": [
       "45",
       "35",
@@ -40,7 +40,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of present ages of A and B is 7 : 8. After 6 years from now, the ratio of their ages will be 8 : 9. If C's present age is 10 years more than the present age of A, then",
+    "question": "The ratio of present ages of A and B is 7 : 8. After 6 years from now, the ratio of their years more than the present age of A, then the present age (in years) of C is:",
     "options": [
       "56",
       "52",
@@ -74,7 +74,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Ghanshyam is thrice as old as Akash. 10 years ago, Ghanshyam was four times as old as Akash. What is the difference between their",
+    "question": "Ghanshyam is thrice as old as Akash. 10 years ago, Ghanshyam was four times as old as Akash. What is the difference between their current ages (in years)?",
     "options": [
       "65",
       "50",
@@ -91,7 +91,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Eight year ago, the ratio of ages of A and B was 5 : 4. The ratio of their present ages",
+    "question": "Eight year ago, the ratio of ages of A and B was 5 : 4. The ratio of their present ages is 6 : 5. What will be the sum (in years) of the ages of A and B after 7 years from now?",
     "options": [
       "80",
       "122",
@@ -108,7 +108,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Seven years ago, Prachi was four times as old as her daughter was at that time. Four years from now, Prachi will be two-and-a- half times as old as her daughter would then be. Find the sum of the present ages",
+    "question": "Seven years ago, Prachi was four times as old as her daughter was at that time. Four years from now, Prachi will be two-and-a- half times as old as her daughter would then be. Find the sum of the present ages (in years) of Prachi and her daughter.",
     "options": [
       "69",
       "77",
@@ -142,7 +142,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "10 years ago the father's age was three times the age of his son. After ten years, the father's age will be twice the age of his son. What is the ratio of their present ages?",
+    "question": "10 years ago the father's age was three times the age of his son. After ten years, the father's age will be twice the age of his son. What is the ratio of their present",
     "options": [
       "7 : 3",
       "5 : 2",
@@ -195,13 +195,13 @@
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
     "question": "Amit's father is aged five times more than Amit. After 6 years, he would be three and a half times of Amit's age. After further 9 years, how many times of Amit's age would he be?",
     "options": [
-      "2 times",
-      "2 times",
-      "3 times",
-      "2 times"
+      "3/(2 times)",
+      "1/(2 times)",
+      "2/(3 times)",
+      "3/(2 times)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2 times) | Exam: SSC CGL 24/09/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (3/(2 times)) | Exam: SSC CGL 24/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_ages_ages_classroom_sheet_q013",
@@ -244,7 +244,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The sum of the ages of a son and father is 52 years; After four years the father's age will be four times the son's age. What is the",
+    "question": "The sum of the ages of a son and father is 52 years; After four years the father's age will be four times the son's age. What is the present age (in years) of the son?",
     "options": [
       "9 years",
       "12 years",
@@ -278,7 +278,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the ages of all four of them is 36 years. The present age of Shyam is:",
+    "question": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the present age of Shyam is:",
     "options": [
       "35 years",
       "32 years",
@@ -295,7 +295,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of ages of A and B, 8 years ago, was 2:3. Four years ago, the ratio of their ages was 5:7. What will be the ratio of their ages 8 years from now?",
+    "question": "The ratio of ages of A and B, 8 years ago, was 2:3. Four years ago, the ratio of their",
     "options": [
       "7:8",
       "4:5",
@@ -329,7 +329,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ages of two friends, Ram and Ravi, differ by 7 years. Ram's mother Mayadevi is three times as old as Ram, and Ravi is four times as old as his brother Soham. The ages of Mayadevi and Soham differ by 65",
+    "question": "The ages of two friends, Ram and Ravi, differ by 7 years. Ram's mother Mayadevi is three times as old as Ram, and Ravi is four times as old as his brother Soham. The years. Find the age of Mayadevi (in years).",
     "options": [
       "69",
       "36",
@@ -346,7 +346,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "One year ago, the ratio of the age (",
+    "question": "One year ago, the ratio of the age (in years) of A to that of B was 4:3. The ratio of their respective ages, 3 years from now, will be 6:5. What will be the ratio of respective",
     "options": [
       "7 : 6",
       "10 : 9",
@@ -363,7 +363,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The present age of a husband and wife is",
+    "question": "The present age of a husband and wife is in the ratio 5 : 4. After 6 years their ages will be in the ratio 6 : 5. At the time of their marriage the ratio of their ages was 4 : 3. How many years ago they were married?",
     "options": [
       "8 yrs",
       "10 yrs",
@@ -380,7 +380,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of the ages of A and B, 3 years ago, was 5 : 7. The ratio of their ages, 13 years from now, will be 9 : 11. If the present age of C is 11 years less than that of B, then",
+    "question": "The ratio of the ages of A and B, 3 years ago, was 5 : 7. The ratio of their ages, 13 years from now, will be 9 : 11. If the present age of C is 11 years less than that of B, then the present age of C, in years, is:",
     "options": [
       "23",
       "36",
@@ -397,7 +397,7 @@
     "chapter": "Ages",
     "sheetType": "ClassRoom",
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
-    "question": "The ratio of the ages of A and B, 8 years ago, was 5 : 7. The ratio of their ages, 8 years from now, will be 9 : 11. If the present age of C is 13 years less than that of B, and the present age of D is 8 years less than that of the age of A, then the sum of the",
+    "question": "The ratio of the ages of A and B, 8 years ago, was 5 : 7. The ratio of their ages, 8 years from now, will be 9 : 11. If the present age of C is 13 years less than that of B, and the present age of D is 8 years less than that of the age of A, then the sum of the present ages of C and D, in years, is:",
     "options": [
       "47",
       "55",
@@ -433,13 +433,30 @@
     "sheetFile": "Ages (ClassRoom Sheet).pdf",
     "question": "P got married 15 years ago. Today her age 3 is 1 times her age at the time of her 5 1 marriage. At present her son's age is of 5 her age. What was her son's age 4 years ago as a fraction of P's age at that time?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/9",
+      "1/8",
+      "5/9",
+      "1/10"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 10/07/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (1/9) | Exam: SSC CHSL 10/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "In a family, the combined age of husband, wife and a son is 90 years. The husband is the oldest. The difference in the ages of the 1 husband and wife is rd the age of 3 their 3 son. After 10 years, the age of the son would be half the age of his father. What is the present age of his mother (in years)?",
+    "options": [
+      "40",
+      "45",
+      "35",
+      "30"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (35) | Exam: SSC CGL 19/09/2024 (Shift-01)"
   },
   {
     "id": "rkr_ages_ages_classroom_sheet_q028",
@@ -453,9 +470,9 @@
       "2 : 3",
       "1 : 4",
       "4 : 7",
-      "1 : 5 KEY 6. (d) 7. (a) 8. (c) 9. (a) 10. (a)"
+      "1 : 5"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2 : 3) | Exam: SSC CGL 09/09/2024 (Shift-02)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 5) | Exam: SSC CGL 09/09/2024 (Shift-02)"
   }
 ]

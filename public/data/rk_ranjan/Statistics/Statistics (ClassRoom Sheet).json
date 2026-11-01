@@ -8,13 +8,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The arithmetic mean of the following data is _________. 12, 34, 45, 50, 24",
     "options": [
-      "30",
-      "36",
-      "33",
-      "25"
+      "(12, 34,)/30",
+      "(45, 50, 24)/36",
+      "(a) 30/33",
+      "(b) 36/25"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (33)"
+    "explanation": "Correct Answer: Option C | ((a) 30/33)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q002",
@@ -76,13 +76,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the mean of the following distribution:",
     "options": [
-      "9",
-      "10",
-      "12",
-      "8"
+      "(f)/9",
+      "5/10",
+      "(a) 9/12",
+      "(b) 10/8"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9)"
+    "explanation": "Correct Answer: Option A | ((f)/9)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q006",
@@ -91,7 +91,7 @@
     "chapter": "Statistics",
     "sheetType": "ClassRoom",
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
-    "question": "The following table shows the number of",
+    "question": "The following table shows the number of commercial clerks at 100 stations in a electric department:",
     "options": [
       "2.50",
       "2.73",
@@ -110,13 +110,47 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the mean of the following distribution:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(f)/8.325",
+      "4/9.125",
+      "(a) 8.325/7.025",
+      "(b) 9.125/5.225"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | ((a) 8.325/7.025)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the mean of the following distribution is 6, find the value of p.",
+    "options": [
+      "(f)/7",
+      "3/8",
+      "(a) 7/9",
+      "(b) 8/10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((f)/7)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the mean of the following data is 15, then find the value of k.",
+    "options": [
+      "(f)/7",
+      "6/8",
+      "(a) 7/6",
+      "(b) 8/10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6/8)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q010",
@@ -210,15 +244,15 @@
     "chapter": "Statistics",
     "sheetType": "ClassRoom",
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
-    "question": "The following are the marks of 9 students",
+    "question": "The following are the marks of 9 students in a class. Find the median.",
     "options": [
-      "24",
-      "32",
-      "38",
-      "21"
+      "(34, 32, 48, 38,)/24",
+      "(24, 30, 27, 21, 35)/32",
+      "(a) 24/38",
+      "(b) 32/21"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (32)"
+    "explanation": "Correct Answer: Option B | ((24, 30, 27, 21, 35)/32)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q016",
@@ -229,13 +263,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the median of the daily wages of ten workers from the following data:",
     "options": [
-      "16",
-      "18",
-      "20",
-      "22"
+      "(Rs. 20, 25, 17, 18,)/16",
+      "(8, 15, 22, 11, 9, 14)/18",
+      "(a) 16/20",
+      "(b) 18/22"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (16)"
+    "explanation": "Correct Answer: Option A | ((Rs. 20, 25, 17, 18,)/16)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q017",
@@ -261,7 +295,7 @@
     "chapter": "Statistics",
     "sheetType": "ClassRoom",
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
-    "question": "The median of a set of observations 15, 16, 18,",
+    "question": "The median of a set of observations 15, 16, 18, 22, x + 2 , x + 3 , 26, 27, 30 arranged in ascending order is 24, then find the value of x.",
     "options": [
       "26",
       "25",
@@ -280,13 +314,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The median of observations k – , k + 2, 2 1 1 k –1, k + 4, k + , k – 3, k + 4 is _____. 2 2 3 1",
     "options": [
-      "k –",
-      "k +",
-      "k – 1",
-      "k + 2"
+      "3/(k –)",
+      "1/(k +)",
+      "2/(k – 1)",
+      "2/(k + 2)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (k +) | Exam: NTPC 01/04/2021 (Shift-03)"
+    "explanation": "Correct Answer: Option B | (1/(k +)) | Exam: NTPC 01/04/2021 (Shift-03)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q020",
@@ -297,13 +331,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "What is the difference between mean and medain of the given data.",
     "options": [
-      "4",
-      "2",
-      "11",
-      "1.5"
+      "(6, 8, 5, 7,)/4",
+      "(12, 16, 6, 8, 13)/2",
+      "(a) 4/11",
+      "(b) 2/1.5"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (11)"
+    "explanation": "Correct Answer: Option C | ((a) 4/11)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q021",
@@ -314,13 +348,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The median of a set of 11 distinct observations is 73.2. If each of the largest five observations of the set is increased by 3, then the median of the new set:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Is 3 times that of the original set",
+      "Is increased by 3",
+      "Remains the same as that of the original set",
+      "Is decreased by 3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: SSC CGL TIER- II 07/03/2023"
+    "explanation": "Correct Answer: Option C | (Remains the same as that of the original set) | Exam: SSC CGL TIER- II 07/03/2023"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q022",
@@ -331,13 +365,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The median of a set of 7 distinct observation is 21.5. If each of the largest 3 observations of the set is increased by 4, then the median of the new sets:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Will decrease by 4",
+      "Will be four times the original median",
+      "Will remain the same as that of the original set",
+      "Will increase by 4/4 c<+sxh MEDIAN OF DISCRETE FREQUENCY DISTRIBUTION"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (Will remain the same as that of the original set)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q023",
@@ -348,13 +382,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Obtain the median for the following frequency distribution:",
     "options": [
-      "3",
-      "5",
-      "7",
-      "10"
+      "(f 8 10 11 16)/3",
+      "(20 25 15 9 6)/5",
+      "(a) 3/7",
+      "(b) 5/10"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (5)"
+    "explanation": "Correct Answer: Option B | ((20 25 15 9 6)/5)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q024",
@@ -399,13 +433,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the median of the following data.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "29",
+      "25.1",
+      "22.5",
+      "27.35"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (29)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q027",
@@ -414,15 +448,15 @@
     "chapter": "Statistics",
     "sheetType": "ClassRoom",
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
-    "question": "35 27. Find the median of the following data.",
+    "question": "Find the median of the following data.",
     "options": [
-      "38",
-      "40",
-      "35",
-      "41.5"
+      "(90-100)/38",
+      "4/40",
+      "(a) 38/35",
+      "(b) 40/41.5"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (41.5)"
+    "explanation": "Correct Answer: Option D | ((b) 40/41.5)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q028",
@@ -433,13 +467,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the mode of the following data:",
     "options": [
-      "16",
-      "19",
-      "20",
-      "22"
+      "(19, 16, 22, 16,)/16",
+      "(18, 20, 16, 19)/19",
+      "(a) 16/20",
+      "(b) 19/22"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (19)"
+    "explanation": "Correct Answer: Option B | ((18, 20, 16, 19)/19)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q029",
@@ -552,13 +586,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Given below is the data of the age of the various children.",
     "options": [
-      "2.6",
-      "2.5",
-      "3.5",
-      "3.6"
+      "6/2.6",
+      "3/2.5",
+      "(a) 2.6/3.5",
+      "(b) 2.5/3.6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2.6)"
+    "explanation": "Correct Answer: Option A | (6/2.6)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q036",
@@ -603,13 +637,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The mode for the above grouped frequency distribution is-",
     "options": [
-      "25",
-      "26",
-      "24",
-      "29"
+      "(40-50)/25",
+      "2/26",
+      "(a) 25/24",
+      "(b) 26/29"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (24)"
+    "explanation": "Correct Answer: Option C | ((a) 25/24)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q039",
@@ -618,7 +652,7 @@
     "chapter": "Statistics",
     "sheetType": "ClassRoom",
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
-    "question": "Given below is the distribution of 48 students",
+    "question": "Given below is the distribution of 48 students present in the class on the basis of their attendance (days):",
     "options": [
       "15.29",
       "15.33",
@@ -671,13 +705,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Calculate the range for the given frequency distribution.",
     "options": [
-      "50",
-      "70",
-      "60",
-      "55"
+      "(70–80)/50",
+      "2/70",
+      "(a) 50/60",
+      "(b) 70/55"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (70)"
+    "explanation": "Correct Answer: Option B | (2/70)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q043",
@@ -739,13 +773,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "The variance of 20 observations is 5. If each observation is multiplied by 2, then the variance of the resulting observation will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "2",
+      "22",
+      "2 Standard Deviation/ekud fopyu If  ² is the variance, then  , is called the"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Exam: NTPC 10/02/2021 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (22) | Exam: NTPC 10/02/2021 (Shift-03)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q047",
@@ -858,13 +892,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the mean deviation of the given data about their mean.",
     "options": [
-      "1",
-      "3",
-      "3",
-      "4"
+      "({4, 6, 7,)/1",
+      "(3, 5, 5})/3",
+      "(a) 1/3",
+      "(b) 3/4"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1)"
+    "explanation": "Correct Answer: Option A | (({4, 6, 7,)/1)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q054",
@@ -875,13 +909,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Find the coefficient of mean deviation from the following data:",
     "options": [
-      "0.4",
-      "0.5",
-      "0.3",
-      "0.6"
+      "(3, 8, 7,)/0.4",
+      "(6, 5, 1)/0.5",
+      "(a) 0.4/0.3",
+      "(b) 0.5/0.6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0.4)"
+    "explanation": "Correct Answer: Option A | ((3, 8, 7,)/0.4)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q055",
@@ -943,13 +977,13 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "Compute Coefficient of M.D. from median for following series.",
     "options": [
-      "0.226",
-      "0.336",
-      "0.356",
-      "0.426"
+      "(3, 7, 12,)/0.226",
+      "(14, 15, 18, 22)/0.336",
+      "(a) 0.226/0.356",
+      "(b) 0.336/0.426"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0.336)"
+    "explanation": "Correct Answer: Option B | ((14, 15, 18, 22)/0.336)"
   },
   {
     "id": "rkr_statistics_statistics_classroom_sheet_q059",
@@ -1011,12 +1045,12 @@
     "sheetFile": "Statistics (ClassRoom Sheet).pdf",
     "question": "If the standared deviation of a set of numbers is 3 and the arithmetic mean of these numbers is 6, what is the coefficient of variation of these numbers?",
     "options": [
-      "KEY",
-      "7.(c) 8.(a) 9.(b) 10.(a)",
-      "(a)/KEY",
-      "125 (b) 75"
+      "125",
+      "75",
+      "50",
+      "100"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ((a)/KEY) | Exam: NTPC 08/04/2021 (Shift-01)"
+    "explanation": "Correct Answer: Option C | (50) | Exam: NTPC 08/04/2021 (Shift-01)"
   }
 ]

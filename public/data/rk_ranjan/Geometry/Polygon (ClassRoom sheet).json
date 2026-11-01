@@ -23,11 +23,11 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "If a regular polygon has 16 sides, then what",
+    "question": "If a regular polygon has 16 sides, then what is the measure (in degrees) of its each interior angle?",
     "options": [
-      "155",
+      "1/155",
       "157",
-      "159",
+      "1/159",
       "154"
     ],
     "correctAnswer": 1,
@@ -40,7 +40,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "ABCDE is a regular pentagon. Its sides are",
+    "question": "ABCDE is a regular pentagon. Its sides are extended as shown in the figure. The value of  ABC + 2  EGD + 3  BAJ is : 6",
     "options": [
       "45º",
       "30º",
@@ -57,7 +57,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "How many diagonals are there",
+    "question": "How many diagonals are there in a 12 sided polygon.",
     "options": [
       "48",
       "54",
@@ -74,7 +74,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "A polygon has 35 diagonals. The number of",
+    "question": "A polygon has 35 diagonals. The number of sides in the polygon is :",
     "options": [
       "6",
       "9",
@@ -108,7 +108,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "If the external angle of a regular polygon is",
+    "question": "If the external angle of a regular polygon is 18°, then the number of diagonals in this polygon is:",
     "options": [
       "180",
       "150",
@@ -168,6 +168,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (20) | Exam: SSC CGL MAINS 07/03/2023"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "In a polygon, the interior and exterior angles are in the ratio 4 : 1. The number of sides of the polygon is :",
+    "options": [
+      "8",
+      "10",
+      "9",
+      "15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10)"
   },
   {
     "id": "rkr_geometry_polygon_classroom_sheet_q013",
@@ -261,7 +278,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "Number of sides of 2 polygons are",
+    "question": "Number of sides of 2 polygons are in the ratio 5 : 2 and difference between the interior angles is 27°. Find the number of sides in the 2 polygons.",
     "options": [
       "20, 8",
       "15, 6",
@@ -329,7 +346,7 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Polygon (ClassRoom sheet).pdf",
-    "question": "If one of the interior angles of a regular polygon 7 is equal to times one of the interior angles 6 of a regular hexagon, then what is the number of sides of the polygon? ANSWER",
+    "question": "If one of the interior angles of a regular polygon 7 is equal to times one of the interior angles 6 of a regular hexagon, then what is the number of sides of the polygon?",
     "options": [
       "7",
       "8",
@@ -351,7 +368,7 @@
       "22",
       "24",
       "18",
-      "11 KEY 6.(c) 7.(c) 8.(c) 9.(c) 10.(d)"
+      "11"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (24)"

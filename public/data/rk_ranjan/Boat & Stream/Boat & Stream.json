@@ -40,7 +40,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "Speed of boat",
+    "question": "Speed of boat in still water",
     "options": [
       "Option A",
       "Option B",
@@ -59,13 +59,13 @@
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
     "question": "Speed of the stream//kjk",
     "options": [
-      "8 km/h",
-      "9 km/h",
-      "11 km/h",
-      "7 km/h"
+      "(SSC CGL)/(8 km/h)",
+      "(23/09/2024 (Shift-03))/(9 km/h)",
+      "(a) 8/(11 km/h) km/h",
+      "(b) 9/(7 km/h) km/h"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (8 km/h)"
+    "explanation": "Correct Answer: Option A | ((SSC CGL)/(8 km/h))"
   },
   {
     "id": "rkr_boat_stream_boat_stream_classroom_sheet_q005",
@@ -74,11 +74,11 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A man wishes to cover 1 km distance",
+    "question": "A man wishes to cover 1 km distance in river water. In still water he takes 12 minutes to cover it, but in the flowing river he takes 13 minutes. The speed of the flowing water of the river is:",
     "options": [
-      "25 km/h",
+      "5/(25 km/h)",
       "km/h",
-      "22 km/h",
+      "7/(22 km/h)",
       "km/h"
     ],
     "correctAnswer": 1,
@@ -91,7 +91,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A swimmer walks 30 km along the flow of river",
+    "question": "A swimmer walks 30 km along the flow of river in 3 hours 45 minutes and walks 15 km against the flow in 2 hours 30 minutes find the speed of boat in still water and the speed of flow (in km/hr).",
     "options": [
       "8 and 1",
       "7 and 8",
@@ -108,11 +108,11 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat moves downstream at the rate of 1 km",
+    "question": "A boat moves downstream at the rate of 1 km in 7½ minutes and upstream at the rate of 5 km an hour. What is the speed of the boat in the still water?",
     "options": [
-      "2 km/hr",
+      "1/(2 km/hr)",
       "6 km/hr",
-      "4 km/hr",
+      "1/(4 km/hr)",
       "3 km/hr"
     ],
     "correctAnswer": 1,
@@ -125,7 +125,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat goes downstream",
+    "question": "A boat goes downstream in one third the time it takes to go upstream. Then, the ratio between the speed of boat in still water and that of the stream is :",
     "options": [
       "3 : 1",
       "1 : 3",
@@ -142,15 +142,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in still water is 5 km/h. 3 It is found that the boat takes thrice as much time to row up than it does to row down the same distance in the river stream. Find the speed of the river stream. 1",
     "options": [
-      "m/sec",
-      "m/sec",
-      "m/sec",
-      "m/sec"
+      "23/m/sec",
+      "22/m/sec",
+      "20/m/sec",
+      "19/m/sec"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (m/sec) | Exam: SSC CGL 05/12/2022 (Shift- 02)"
+    "explanation": "Correct Answer: Option C | (20/m/sec) | Exam: SSC CGL 05/12/2022 (Shift- 02)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_classroom_sheet_q010",
@@ -159,11 +159,11 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A diver rowing at the speed of 3 km/h",
+    "question": "A diver rowing at the speed of 3 km/h in still water takes double the time going 50 km upstream compared to going 50 km downstream. The speed of the diver against the stream is:",
     "options": [
-      "km/h",
+      "4/km/h",
       "1 km/h",
-      "km/h",
+      "7/km/h",
       "2 km/h"
     ],
     "correctAnswer": 3,
@@ -176,7 +176,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A man can row 18km/h",
+    "question": "A man can row 18km/h in still water. It takes him two times as long to row up as to row down the river. Find the rate of the stream.",
     "options": [
       "12 km/h",
       "6 km/h",
@@ -193,7 +193,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat travels 3 km upstream",
+    "question": "A boat travels 3 km upstream in 1 h and 1 km downstream in 12 min. How much time will it take for the boat to go 6 km in still water?",
     "options": [
       "1 h 30 min",
       "1 h 25 min",
@@ -210,15 +210,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A swimmer can swim 2 km",
+    "question": "A swimmer can swim 2 km in 15 minute in a lake in still water and he can swim 4 km along the flow of river in 20 minutes. if a paper boat is put into river, then how far will it float 1 in 2 hours? 2",
     "options": [
-      "18 km",
+      "2/(18 km)",
       "12 km",
-      "8 km",
-      "10 km"
+      "(a) 18/(8 km) km",
+      "(b) 12/(10 km) km"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (10 km)"
+    "explanation": "Correct Answer: Option D | ((b) 12/(10 km) km)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_classroom_sheet_q014",
@@ -227,7 +227,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boatman rows to a place 30 km distance and",
+    "question": "A boatman rows to a place 30 km distance and back in 14 hours. He finds that he can row 10 km with the stream at the same time as 4 km against the stream. Find the speed (in km/h) of the stream.",
     "options": [
       "9/2",
       "9/4",
@@ -244,12 +244,12 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A man can row a distance of 6 km",
+    "question": "A man can row a distance of 6 km in 1 hour in still water. He can row the same distance in 45 minutes with the current. Find the total time taken by him to row a distance of 16 km with the current and to return to the starting point.",
     "options": [
       "4 h. & 40 m.",
       "6 h.",
       "4 h.",
-      "6 h. & 40 m."
+      "6 h. & 40 m. B T  T  1 2 S T – T 2 1"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (6 h.) | Exam: SSC CGL 18/09/2024 (Shift-03)"
@@ -261,7 +261,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat covers a certain distance downstream 1",
+    "question": "A boat covers a certain distance downstream 1 in 2 hours, while it comes back in 2 hours. 2 If the speed of the stream is 3 km/h, then what is the speed of the boat in still water ?",
     "options": [
       "29 km/h",
       "25 km/h",
@@ -278,7 +278,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A motorboat takes 18 hours to go downstream, and it takes 36 hours to return the same distance. Find the ratio of the speed of the",
+    "question": "A motorboat takes 18 hours to go downstream, and it takes 36 hours to return the same distance. Find the ratio of the speed of the boat in still water to the speed of the stream.",
     "options": [
       "3 : 1",
       "2 : 3",
@@ -295,7 +295,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat takes 11 hours to travel a distance upstream and takes 5 hours to travel the same distance downs-tream. if the speed of the boat 2",
+    "question": "A boat takes 11 hours to travel a distance upstream and takes 5 hours to travel the same distance downs-tream. if the speed of the boat 2 in still water is 2 m/sec, then the speed of 9 the stream (in km/h) is:",
     "options": [
       "2",
       "3",
@@ -312,15 +312,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along",
+    "question": "The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along with the current in 5 hours 10 minutes. What will be the time taken by the boat to come back?",
     "options": [
-      "5 hours 15 minutes 58 seconds 5 ?kaVs 15 feuV 58 lsdaM",
-      "6 hours 45 minutes 10 seconds 6 ?kaVs 45 feuV 10 lsdaM",
-      "8 hours 13 minutes 48 seconds 8 ?kaVs 13 feuV 48 lsdaM",
-      "9 hours 30 minutes 49 seconds 9 ?kaVs 30 feuV 49 lsdaM"
+      "5 hours 15 minutes 58 seconds",
+      "6 hours 45 minutes 10 seconds",
+      "8 hours 13 minutes 48 seconds",
+      "9 hours 30 minutes 49 seconds"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (8 hours 13 minutes 48 seconds 8 ?kaVs 13 feuV 48 lsdaM) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option C | (8 hours 13 minutes 48 seconds) | Exam: SSC CPO 29/06/2024 (Shift-03)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_classroom_sheet_q020",
@@ -329,7 +329,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The ratio of the speed of a motorboat to that of the current of water is 31:6. The motorboat starts from a point and covers a certain",
+    "question": "The ratio of the speed of a motorboat to that of the current of water is 31:6. The motorboat starts from a point and covers a certain distance along the current in 4 h 10 min. Find the time taken by the motorboat to come back to its initial point.",
     "options": [
       "4 h 10 min",
       "5 h 10 min",
@@ -346,7 +346,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in still water is thrice the speed of the stream. If the boat takes 15.5 sec to go to a certain place downstream, then find the additional time required to cover the same distance travelling upstream.",
     "options": [
       "15.5 sec",
       "29 sec",
@@ -363,7 +363,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in still water is 18 km/h and the speed of the stream is 3 km/h. How much time (in hours) will it take to cover a distance of 105 km in downstream and in coming back?",
     "options": [
       "12",
       "10",
@@ -380,7 +380,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in still water is 12 km/h, and the speed of the stream is 3 km/h. A man goes to a place by boat, 45 km and comes back to the starting point. Find the total time taken by him.",
     "options": [
       "6 hours",
       "7 hours",
@@ -397,7 +397,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in a still river is 15 km/h and the speed of the current is 5 km/h. In what time (in hours) will the boat cover a distance of 60 kilometers downstream and the same distance upstream?",
     "options": [
       "12",
       "9",
@@ -414,7 +414,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat",
+    "question": "The speed of a boat in still water is 20 km/h, while the river is flowing at a speed of 8 km/ h and the time taken to cover a certain distance upstream is 6 h more than the time taken to cover the same distance downstream. Find the distance.",
     "options": [
       "126 km",
       "125 km",
@@ -431,7 +431,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A motorboat whose speed is 20 km/h",
+    "question": "A motorboat whose speed is 20 km/h in still water takes 30 minutes more to go 24 km upstream than to cover the same distance downstream. If the speed of the boat in still water is increased by 2 km/h, then how much time will it take to go 39 km downstream and 30 km upstream?",
     "options": [
       "2 h 40 min",
       "3 h 10 min",
@@ -448,7 +448,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat sails downstream from a point P to point Q. Which is 24 km away from P, and then returns to P. If the actual speed of the boat",
+    "question": "A boat sails downstream from a point P to point Q. Which is 24 km away from P, and then returns to P. If the actual speed of the boat (in still water) is 6 km/h. The entire trip from P to Q taken 3 hours less than what from Q to P. What should be the actual speed (in km/ h) of the boat to sail from P to Q in 2 hours?",
     "options": [
       "12",
       "15",
@@ -465,7 +465,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can go 40 km downstream and 25 km",
+    "question": "A boat can go 40 km downstream and 25 km upstream in 7 hours 30 minutes. It can go 48 km down-stream and 36 km upstream in 10 hours. What is the speed (in km/h) of the boat in still water?",
     "options": [
       "6",
       "12",
@@ -482,7 +482,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A motorboat travelling at a certain speed can cover a distance of 24 km upstream and 40",
+    "question": "A motorboat travelling at a certain speed can cover a distance of 24 km upstream and 40 km downstream in 17 hours. At the same speed it can travel 32 km downstream and 12 km upstream in 10 hours. What is the speed of the current?",
     "options": [
       "5 km/h",
       "4 km/h",
@@ -499,7 +499,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can go 15 km downstream and 8 km",
+    "question": "A boat can go 15 km downstream and 8 km upstream in 2h. It can go 20 km downstream and 12 km upstream in 2h 50 min . What is the speed (in km/h) of the boat while going downstream?",
     "options": [
       "20",
       "18",
@@ -516,7 +516,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can go 5 km upstream and 7 km 2",
+    "question": "A boat can go 5 km upstream and 7 km 2 downstream in 45 minutes. It can also go 5 km downstream and 2.5 km upstream in 25 minute. How much time (in minutes) will it take to go 6 km downstream?",
     "options": [
       "20",
       "10",
@@ -533,7 +533,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat goes 27 km upstream and 33 km",
+    "question": "A boat goes 27 km upstream and 33 km downstream in 6 hours. In the same time it can go 36 km upstream and 22 km downstream. How much time will it take to go 36 km upstream and 44 km downstream?",
     "options": [
       "8h",
       "8h 10 m",
@@ -550,7 +550,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can travel with a speed of 19 km/h",
+    "question": "A boat can travel with a speed of 19 km/h in still water. If the speed of the stream is 3 km/h, then what will be the total time (in hours) taken by the boat to go 88 km downstream and 24 km upsteam ?",
     "options": [
       "4.5",
       "5",
@@ -567,7 +567,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "Ravi can row a boat",
+    "question": "Ravi can row a boat in still water in the speed of 14 km/h. If a river is flowing at the speed of 2 km/h and Ravi takes 3 hours to cover a certain distance upstraim, then how much time will he take to cover the same distance downstream ?",
     "options": [
       "2 hr 20 min",
       "2 hr",
@@ -584,12 +584,12 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can travel 60 km downstream",
+    "question": "A boat can travel 60 km downstream in 4 hours. If the speed of the boat in still water is 13 km/h, then in what time will it cover 30 km upstream?",
     "options": [
       "211 hours 4",
       "3 hours 7 4",
       "2 hours 7 5",
-      "3 hours 7"
+      "3 hours"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (211 hours 4) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
@@ -601,7 +601,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80 km downstream and 50 km upstream is 8.2 hours, then what is",
+    "question": "The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80 km downstream and 50 km upstream is 8.2 hours, then what is speed (in km/h) of the boat downstream ?",
     "options": [
       "16",
       "30",
@@ -618,7 +618,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A person rows upstream a distance of 55 km",
+    "question": "A person rows upstream a distance of 55 km in 5 hours and rows downstream a distance of 75 km in 3 hours. How much time will he take to travel a distance of 96 km in still water ?",
     "options": [
       "4 hours 40 min",
       "5 hours 20 min",
@@ -635,7 +635,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "X, Y are two points",
+    "question": "X, Y are two points in a river. Points P and Q divide the straight line XY into three equal parts. The river flows along XY and the time taken by a boat to row from X to Q and from Y to Q are in the ratio 4 : 5. The ratio of the speed of the boat downstream that of the river current is equal to:",
     "options": [
       "3 : 10",
       "3 : 4",
@@ -652,7 +652,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat covers a certain distance against the",
+    "question": "A boat covers a certain distance against the stream in 9 hours 36 min and it covers the same distance along the stream in 6 hours. What is the ratio of the speed of the boat in still water to that of the stream?",
     "options": [
       "13 : 3",
       "9 : 2",
@@ -669,7 +669,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat covers a round trip journey between",
+    "question": "A boat covers a round trip journey between two points A and B in a river in T hours. If its speed in still water becomes 2 times, it 80 would take T hours for the same journey. 161 Find the ratio of its speed in still water to the speed of the river",
     "options": [
       "11 : 1",
       "161 : 40",
@@ -686,7 +686,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat takes 20 hours for travelling downstream from point A to point B and comes back to a midpoint C between A and B. The speed of the stream is 5 km/h and",
+    "question": "A boat takes 20 hours for travelling downstream from point A to point B and comes back to a midpoint C between A and B. The speed of the stream is 5 km/h and the speed of the boat in still water is 10 km/ h. Find the distance between A and B (in km).",
     "options": [
       "100",
       "150",
@@ -703,7 +703,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A swimmer swims from a point P against the current for 6 min and then swims back along the current for next 6 min and reaches at a point Q. If the distance between P and Q is 120",
+    "question": "A swimmer swims from a point P against the current for 6 min and then swims back along the current for next 6 min and reaches at a point Q. If the distance between P and Q is 120 m then the speed of the current (in km/h) is:",
     "options": [
       "0.4",
       "0.2",
@@ -720,7 +720,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat can go 2.4 km upstream",
+    "question": "A boat can go 2.4 km upstream in 16 minutes. The ratio of the speed of the boat in still water to the speed of the stream is 8 : 3. How much time (in hours) will the boat take to go 21.6 km in still water and 33 km downstream?",
     "options": [
       "5/2",
       "19/6",
@@ -737,7 +737,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat covers a certain distance upstream",
+    "question": "A boat covers a certain distance upstream in 45 hours. It covers the same distance downstream in 36 hours. If the speed of boat is 36 km/hr. Find the difference between speed of boat in still water and the speed of stream?",
     "options": [
       "30 km/hr",
       "32 km/hr",
@@ -754,7 +754,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A man rows to a place 35 km",
+    "question": "A man rows to a place 35 km in distance and comes back in 10 hours ”30 minutes. He found that he could row 5 km with the stream in the same time as he can row 4 km against the stream. Find the rate of flow of the stream.",
     "options": [
       "1 km/hrs",
       "0.5 km/hrs",
@@ -771,7 +771,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat has to travel a distance of 12 km starting from point P to point Q. It covers 8",
+    "question": "A boat has to travel a distance of 12 km starting from point P to point Q. It covers 8 km downstream from point P in 20 min and remaining 4 km upstream to reach the point Q. If the downstream speed was twice the upstream speed, what is the average speed of boat throughout the journey?",
     "options": [
       "16 km/hrs",
       "15 km/hrs",
@@ -788,7 +788,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A person rowing a boat goes from J to K (upstream) and returns from K to J (downstream)",
+    "question": "A person rowing a boat goes from J to K (upstream) and returns from K to J (downstream) in a total time of 15 hours. The distance between J and K is 300 AU. The time taken by a man to row a boat a distance of 9 km downstream is equal to the time taken by him to row a boat a distance of 3 km upstream. What is the approximate speed of the boat in still water?",
     "options": [
       "51.33",
       "47.67",
@@ -805,7 +805,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "X, Y are two points",
+    "question": "X, Y are two points in a river. Point P and Q divide the straight line XY into three equal parts. The river flows along XY and the time taken by a boat to row from X to Q and from Y to Q are in the ratio 4 : 5. The ratio of the speed of the boat downstream to that of the river current is equal to:",
     "options": [
       "3 : 10",
       "3 : 4",
@@ -822,7 +822,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat takes 27 minutes to go 37.2 km upstream. The ratio of the speed of the boat",
+    "question": "A boat takes 27 minutes to go 37.2 km upstream. The ratio of the speed of the boat in still water to that of the stream is 8 : 5. How much total time (in hours) will the boat take to go 79.4 km upstream and 85.8 km downstream?",
     "options": [
       "4.2",
       "1.2",
@@ -839,12 +839,12 @@
     "chapter": "Boat & Stream",
     "sheetType": "ClassRoom",
     "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
-    "question": "A boat takes 76 minutes to go 32.2 km upstream. The ratio of the speed of the boat",
+    "question": "A boat takes 76 minutes to go 32.2 km upstream. The ratio of the speed of the boat in still water to that of the stream is 9 : 8. How much approximate total time (in hours) will the boat take to go 44.9 km upstream and 57.8 km downstream?",
     "options": [
       "1.9",
       "4.3",
       "0.2",
-      "2.2 ANSWER KEY 1. (b) 2. (b) 3. (a) 4. (a) 5. (b) 6. (c) 7. (b) 8. (d) 9. (c) 10. (d)"
+      "2.2"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1.9) | Exam: RRB NTPC GL CBT-I 17/06/2025 (Shift-01)"
@@ -856,15 +856,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A boat covers a round trip journey",
+    "question": "A boat covers a round trip journey between two points A and B in a river in T hours. If its speed 80 in still water becomes 2 times, it would take T 161 hours for the same journey. Find the ratio of its speed in still water to the speed of the river.",
     "options": [
       "11 : 1",
-      "161",
+      "161 : 40",
       "1 : 11",
-      "2 :"
+      "2 : 1"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (11 : 1) | Solution: (a) Let speed of boat = x km/h Speed of current = y km/h ATQ, d d T     x y x y .....(i) d d 80 T 2 2 161     x y x y ....(ii) Put eqn (i) (ii)  d d 80 d d 2 2 161                 x y x y x y x y  2 2 2 4 80 2 4 ² 161   "
+    "explanation": "Correct Answer: Option A | (11 : 1) | Solution: (a) Let speed of boat = x km/h Speed of current = y km/h ATQ, d d T     x y x y .....(i) d d 80 T 2 2 161     x y x y ....(ii) Put eqn (i) in (ii)  d d 80 d d 2 2 161                 x y x y x y x y  2 2 2 4 80 2 4 ² 161  "
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q002",
@@ -873,7 +873,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A boat sails downstream from a Which is 24 km away from P, and P. If the actual speed of the boat 6 km/h. The entire trip from P to less than what from Q to P. What",
+    "question": "A boat sails downstream from a point P to point Q. Which is 24 km away from P, and then returns to P. If the actual speed of the boat (in still water) is 6 km/h. The entire trip from P to Q taken 3 hours less than what from Q to P. What should be the actual speed (in km/h) of the boat to sail from P to Q in 2 hours?",
     "options": [
       "12",
       "15",
@@ -890,7 +890,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "Mahesh rows to the place 80 km",
+    "question": "Mahesh rows to the place 80 km away and back in 20 hours. He finds that he can row 8 km downstream in the same time as 4 km upstream. The speed of the boat in still water is.",
     "options": [
       "9 km/h",
       "7 km/h",
@@ -907,15 +907,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The speed of a boat downstream 30 km/h and 18 km/h respectively. travel a distance of (x + 40) km downstream upstream is 42 hours and time (x + 40) km upstream and (y + 38 hours. Find the time taken by x  y a distance km upstream 2 more than the normal stream speed?",
+    "question": "The speed of a boat downstream and upstream is 30 km/h and 18 km/h respectively. Time taken to travel a distance of (x + 40) km downstream and (y + 60) upstream is 42 hours and time taken to travel (x + 40) km upstream and (y + 60) downstream is 38 hours. Find the time taken by the boat to travel x  y 100 a distance km upstream with speed % 2 3 more than the normal stream speed?",
     "options": [
       "16 hours",
-      "21 hours : 40",
-      "25 hours 1",
-      "None of these point P to point Q"
+      "21 hours",
+      "25 hours",
+      "None of these"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (25 hours 1)"
+    "explanation": "Correct Answer: Option C | (25 hours)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q005",
@@ -924,15 +924,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A boat covers",
+    "question": "A boat covers 24 km upstream and 36 km downstream in 10 hours, and 36 km upstream and 24 km down-stream in 12 hours. The speed of the current is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26/km/h",
+      "33/km/h",
+      "25/km/h",
+      "24/km/h"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (25/km/h)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q006",
@@ -941,15 +941,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A man can row him two times the river.",
+    "question": "A man can row 18 km/h in still water. It takes him two times as long to row up as to row down the river. Find the rate of the stream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 km/h",
+      "6 km/h",
+      "24 km/h",
+      "9 km/h"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (6 km/h)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q007",
@@ -958,15 +958,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A motorboat, whose",
+    "question": "A motorboat, whose speed in 15 km/h in still water goes 50 km down-stream and comes back in a total of 7 hours 30 minutes. The speed of the stream (in km/h) is?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9 km/h",
+      "5 km/h",
+      "11 km/h",
+      "7 km/h"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (5 km/h)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q008",
@@ -975,66 +975,32 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The speed of a 100 speed of the stream with speed % 3 to point B and hours 40 min. Find",
-    "options": [
-      "7.5 km",
-      "7 km",
-      "8 km",
-      "8.5"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (7.5 km)"
-  },
-  {
-    "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q009",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Boat & Stream",
-    "sheetType": "Pro Level",
-    "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "Time taken by boat to cover a distance upstream is 3 hrs more than the",
-    "options": [
-      "Neither I nor II",
-      "Only",
-      "Only I",
-      "Both"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Only I)"
-  },
-  {
-    "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q010",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Boat & Stream",
-    "sheetType": "Pro Level",
-    "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The ratio of the speed of a motorboat current of water is 31:6. The motorboat point and covers a certain distance",
-    "options": [
-      "4 h 10 min",
-      "5 h",
-      "5 h 50 min",
-      "6 h"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6 h)"
-  },
-  {
-    "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q011",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Boat & Stream",
-    "sheetType": "Pro Level",
-    "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A boat covers 4 km upstream and",
+    "question": "The speed of a boat in still water is 6 km/h and the speed of the stream is 1.5 km/h. In going from point A to point B and returning to A, the boatman takes 2 hours 40 min. Find the distance between points A and B.",
     "options": [
       "1 km/hr",
       "2 km/hr",
       "2.5 km/hr",
-      "1.5"
+      "1.5 km/hr"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2 km/hr)"
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1 km/hr)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "Pro Level",
+    "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
+    "question": "In a stream running at 3 km/h, a motorboat goes 12 km upstream and back to the starting point in 60 min. Find the speed of the motorboat in still water, (in km/h)",
+    "options": [
+      "2  2  17 ",
+      "2  4  15 ",
+      "3  4  17 ",
+      "3  2  17 "
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3  4  17 )"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q013",
@@ -1043,15 +1009,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "15 hours is taken",
+    "question": "15 hours is taken by a boat to reach its destination in still water and return to its starting point from there. The same journey requires 16 hours if the river flows. The difference between the speed of boat and the river is 15 km/hr. Find the speed of the flow of river.)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10 km/hrs",
+      "6 km/hrs",
+      "4 km/hrs",
+      "5 km/hrs"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (5 km/hrs)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q014",
@@ -1060,15 +1026,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The speed of a",
+    "question": "The speed of a boat downstream is 2.5 times the speed of the boat upstream. If the time taken by the boat for going 30 km downstream and the same distance upstream is 7 hours, then what is the speed (in km/h) of the boat downstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "12.5",
+      "15",
+      "7.5"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (15)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q015",
@@ -1077,15 +1043,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The speed of a the speed of stream",
+    "question": "The speed of a sailor in still water is x km/hr and the speed of stream is y km/hr. If a person moves a certain distance opposite the stream, and then returns the same distance in the direction of the stream, find his average speed during the journey.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(x 2  y 2)/(x y)",
+      "(x 2 – y 2)/(2 x y)",
+      "(x 2  y 2)/x",
+      "(x 2 – y 2)/x"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | ((x 2 – y 2)/x)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q016",
@@ -1094,15 +1060,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A pilot of steamer 10 min speed. Suddenly river and turns 10 min hours of journey 15 km downstream at distance of 8 upstream and 35 between the points is the speed of the reaching at bank speed with which",
+    "question": "A pilot of steamer is going in downstream with certain speed. Suddenly he saw some people at the bank of river and turns steamer to 90° towards them. After 2 hours of journey he reached at bank of river but was at distance of 8 km from them. The shortest distance between the points of turning in the river to point of reaching at bank of river is 17 km. Find the downstream speed with which boat was moving earlier.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11.5 km/h.",
+      "7.5 km/h.",
+      "15.5 km/h.",
+      "8 km/h."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (11.5 km/h.)"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q017",
@@ -1111,7 +1077,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "Two boats P and eksVjcksV 12 fdeh /kjk form points A and",
+    "question": "Two boats P and Q are traveling towards each other form points A and B, respectively in a river in which water flows from A to B at a speed of 4 km/h. The speed of boat P in still water is 10 km/h less than the speed of boat Q in still water and the distance between point A and point B is 259 km. Both start at the same time and the boat Q meets boat P 133 km away from point B. Find the time taken by both boats to meet each other",
     "options": [
       "3.5 hrs",
       "4.2 hrs",
@@ -1128,7 +1094,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "The distance between A & B is 211 km. One boat",
+    "question": "The distance between A & B is 211 km. One boat starts moving from point A towards B in downstream at 7:45 am. After one hour, another boat starts from the point B towards A. At 12:45 pm both boats will meet. If speed of boat first and second is 26 km/ hr. and 18 km/hr. respectively in still water. Then find the speed of current.",
     "options": [
       "9 km/hr",
       "6 km/hr",
@@ -1136,7 +1102,7 @@
       "12 km/hr"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (9 km/hr) | Solution: The distance between A & B is 211 km. One boat starts moving from point A towards B downstream at 7:45 am. After one hour, another boat starts from the point B towards A. At 12:45 pm both boats will meet. If speed of boat first and second is 26 km/ h"
+    "explanation": "Correct Answer: Option A | (9 km/hr) | Solution: The distance between A & B is 211 km. One boat starts moving from point A towards B in downstream at 7:45 am. After one hour, another boat starts from the point B towards A. At 12:45 pm both boats will meet. If speed of boat first and second is 26 km"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q019",
@@ -1145,15 +1111,15 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "A ship is 77 km far away from the shore, springs a 1 1",
+    "question": "A ship is 77 km far away from the shore, springs a 1 1 leak which admits 2 ton of water in every 5 min. 4 2 An outlet tank can throw out 12 tons of water per hour. Find at what speed it should move such that when it begins to sink a rescue ship moves with 6 km/hr escapes the passengers of the ship if 69 ton of water is enough to sink?",
     "options": [
       "6 km/hr",
       "8 km/hr",
       "10 km/hr",
       "12 km/hr"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (6 km/hr) | Solution: A ship is 77 km far away from the shore, springs a leak which admits 1 2 4 ton of water every 1 5 2 min. An outlet tank can throw out 12 tons of water per hour. Find at what speed it should move such that when it begins to sink a rescue ship moves wi"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8 km/hr) | Solution: A ship is 77 km far away from the shore, springs a leak which admits 1 2 4 ton of water in every 1 5 2 min. An outlet tank can throw out 12 tons of water per hour. Find at what speed it should move such that when it begins to sink a rescue ship moves"
   },
   {
     "id": "rkr_boat_stream_boat_stream_pro_level_sheet_q020",
@@ -1162,7 +1128,7 @@
     "chapter": "Boat & Stream",
     "sheetType": "Pro Level",
     "sheetFile": "Boat & Stream (Pro Level Sheet).pdf",
-    "question": "Two boats go downstream from point X to Y. The faster boat covers the distance 1.5 times as fast as the slower boat. It is known that doing so, every hour the slower boat lags behind the faster boat by 8 km. However, if they go upstream, then the faster boat",
+    "question": "Two boats go downstream from point X to Y. The faster boat covers the distance 1.5 times as fast as the slower boat. It is known that doing so, every hour the slower boat lags behind the faster boat by 8 km. However, if they go upstream, then the faster boat covers the distance from Y to X in half the time as the slower boat. Find the speed of the faster boat in still water ?",
     "options": [
       "24 km/h",
       "28 km/h",

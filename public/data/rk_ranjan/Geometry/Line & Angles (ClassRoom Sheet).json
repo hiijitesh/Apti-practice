@@ -23,15 +23,15 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
-    "question": "Lines: A line is made up of a infinite number of points and it has only length i.e., it does not has any thickness (or width). A line is",
+    "question": "Lines: A line is made up of a infinite number of points and it has only length i.e., it does not has any thickness (or width). A line is endless so, it can be extended in both directions.",
     "options": [
-      "(i) Intersecting Lines: If two or more lines intersect each other, then they are AB and CD are intersecting lines. gSaA C B A D",
-      "(ii) Concurrent Lines : If three or more lines pass through a point, then they are called concurrent lines and the point through which these all lines pass is called point of concurrent. leorhZ fcUnq dgrs gSaA E B C D A F",
-      "(iii) Parallel Lines : Two straight lines are parallel intersect even if they produced infinitely. Perpendicular distances between two parallel lines are always same at all places. A B C D Symbol for parallel lines is ||. Hence, AB || CD.",
-      "(iv) Perpendicular Lines : If two lines intersect at right angles, then two lines are called AB and CD are perpendicular lines. C A B D Lines and Angles Symbolically it is represented as AB  CD or we can also say that CD  AB."
+      "(i) Intersecting Lines: If two or more lines intersect each other, then they are called intersecting lines. In the figure AB and CD are intersecting lines.",
+      "(ii) Concurrent Lines : If three or more lines pass through a point, then they are called concurrent lines and the point through which these all lines pass is called point of concurrent.",
+      "(iii) Parallel Lines : Two straight lines are parallel if they lie in the same plane and do not intersect even if they produced infinitely. Perpendicular distances between two parallel lines are always same at all places.",
+      "(iv) Perpendicular Lines : If two lines intersect at right angles, then two lines are called perpendicular lines. In the following figure AB and CD are perpendicular lines."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ((i) Intersecting Lines: If two or more lines intersect each other, then they are AB and CD are intersecting lines. gSaA C B A D)"
+    "explanation": "Correct Answer: Option A | ((i) Intersecting Lines: If two or more lines intersect each other, then they are called intersecting lines. In the figure AB and CD are intersecting lines.)"
   },
   {
     "id": "rkr_geometry_line_angles_classroom_sheet_q003",
@@ -42,13 +42,30 @@
     "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
     "question": "Angles : An angle is the union of two non- collinear rays with a common initial point. The two rays forming an angle are called arms of the angle and the common initial point is called the vertex of the angle.",
     "options": [
-      "105°",
-      "115°",
-      "120°",
-      "110°"
+      "(i) Adjacent Angles: Two angles are called adjacent angles if:",
+      "55°",
+      "43°",
+      "53° (iv) Linear Pair of Angles: Two adjacent angles are said to form a linear pair of angles, if their noncommon arms are two opposite rays."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (105°)"
+    "explanation": "Correct Answer: Option A | ((i) Adjacent Angles: Two angles are called adjacent angles if:)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure l, m, n are parallel to each other and b : c = 2 : 3. What is the value of a ?",
+    "options": [
+      "90º",
+      "95º",
+      "105º",
+      "108º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (108º)"
   },
   {
     "id": "rkr_geometry_line_angles_classroom_sheet_q005",
@@ -68,6 +85,57 @@
     "explanation": "Correct Answer: Option D | (70°) | Exam: SSC CHSL MAINS 10/01/2024"
   },
   {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure find x.",
+    "options": [
+      "60º",
+      "50º",
+      "45º",
+      "30º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure AB||CD and AC||BD and if EAC = 40º, FDG = 55º, HAB = x, then the value of x is :",
+    "options": [
+      "95º",
+      "70º",
+      "35º",
+      "85º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (85º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure AB||CD. Find the value of x?",
+    "options": [
+      "C/5º",
+      "6x/10º",
+      "(a) 5º/20º",
+      "(b) 10º/12º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6x/10º)"
+  },
+  {
     "id": "rkr_geometry_line_angles_classroom_sheet_q009",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -83,6 +151,23 @@
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (80º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure below AB||CD, find x.",
+    "options": [
+      "A/45º",
+      "35º/40º",
+      "(a) 45º/35º",
+      "(b) 40º/67.5º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (A/45º)"
   },
   {
     "id": "rkr_geometry_line_angles_classroom_sheet_q011",
@@ -102,6 +187,23 @@
     "explanation": "Correct Answer: Option C | (360º)"
   },
   {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure find x.",
+    "options": [
+      "60°",
+      "50°",
+      "45°",
+      "30°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60°) | Exam: SSC Phase-XII 25/06/2024 (Shift-02)"
+  },
+  {
     "id": "rkr_geometry_line_angles_classroom_sheet_q013",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -110,13 +212,64 @@
     "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
     "question": "Find the values of x?",
     "options": [
-      "79º",
-      "81º",
-      "89º",
-      "84º"
+      "A/79º",
+      "143º/81º",
+      "(a) 79º/89º",
+      "(b) 81º/84º"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (84º)"
+    "explanation": "Correct Answer: Option D | ((b) 81º/84º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the figure given below PQ||RS||TU ||VW, PR = 21 cm, RT= 27 cm, TV = 51 cm, QW = 121 cm, then find SU?",
+    "options": [
+      "42 cm",
+      "38 cm",
+      "36 cm",
+      "33 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (33 cm)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the given figure below AB||CD||EF, if 5 AB = 36 cm, EF = 50 cm, AC = CE then 9 find CD = ?",
+    "options": [
+      "40/199",
+      "45",
+      "7",
+      "41"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (41)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "In the figure, QS = QT and RU = RT, QPR = 36º. Find STU.",
+    "options": [
+      "96º",
+      "84º",
+      "72º",
+      "60º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72º)"
   },
   {
     "id": "rkr_geometry_line_angles_classroom_sheet_q017",
@@ -127,13 +280,13 @@
     "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
     "question": "The complement angle of 70º is :",
     "options": [
-      "radian",
-      "radian",
-      "radian",
-      "radian"
+      "18/radian",
+      "(5 )/radian",
+      "/radian",
+      "9/radian"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (radian)"
+    "explanation": "Correct Answer: Option C | (/radian)"
   },
   {
     "id": "rkr_geometry_line_angles_classroom_sheet_q018",
@@ -176,14 +329,14 @@
     "chapter": "Geometry",
     "sheetType": "ClassRoom",
     "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
-    "question": "The measure of half of supplement of P is 19º more than thrice of half of measure of",
+    "question": "The measure of half of supplement of P is 19º more than thrice of half of measure of complement of angle P. What is sum in radians, of the measure of twice of supplement and half of complement of P.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(49 )/36",
+      "(36 )/49",
+      "(3 )/4",
+      "(33 )/43"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | ((49 )/36)"
   }
 ]

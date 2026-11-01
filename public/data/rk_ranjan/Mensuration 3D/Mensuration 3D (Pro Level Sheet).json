@@ -57,15 +57,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The surface areas of two spheres are",
+    "question": "The surface areas of two spheres are in the ratio 25 : 36. What is the ratio of their volumes?",
     "options": [
-      "36/12",
-      "25/5 36",
-      "36/11",
-      "125/5 216"
+      "36/125",
+      "25/36",
+      "36/115",
+      "125/216"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (125/5 216) | Solution: (d) Surface area of sphere = 4r2  2 1 2 2 4πr 4πr = 25 36  1 2 r r = 5 6 Volume of sphere = 4 3 r3  3 1 3 2 4πr 3 4πr 3 = 125 216 Alternate Method: Surface area of sphere = 4r2 Volume of sphere = 4 3 r3       2D Area 25 : 36 1D r 5 : "
+    "explanation": "Correct Answer: Option D | (125/216) | Solution: (d) Surface area of sphere = 4r2  2 1 2 2 4πr 4πr = 25 36  1 2 r r = 5 6 Volume of sphere = 4 3 r3  3 1 3 2 4πr 3 4πr 3 = 125 216 Alternate Method: Surface area of sphere = 4r2 Volume of sphere = 4 3 r3       2D Area 25 : 36 1D r 5 : "
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q005",
@@ -108,7 +108,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The cost of painting the total surface area of a 30 m high solid right circular cylinder at the rate of `25 per",
+    "question": "The cost of painting the total surface area of a 30 m high solid right circular cylinder at the rate of `25 per m² is `18,425. What is the volume (in m³) of this cylinder 22 [Take  = ] ? 7",
     "options": [
       "1210",
       "1155",
@@ -125,7 +125,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A conical shape vessel has a radius of 21 cm and has a slant height of 25 cm. If the curved part of",
+    "question": "A conical shape vessel has a radius of 21 cm and has a slant height of 25 cm. If the curved part of the vessel is to be painted white, find the cost (in `) of painting at the rate of ` 1.5 per cm2.",
     "options": [
       "2475",
       "825",
@@ -142,15 +142,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The height and the radius of the base of a right",
+    "question": "The height and the radius of the base of a right circular cone are in the ratio of 12 : 5. If its volume is 314 cm³, then what is the slant height of the cone? (Use  = 3.14)",
     "options": [
       "11 cm",
       "14 cm",
       "12 cm",
-      "13 c"
+      "13 cm"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (13 c)"
+    "explanation": "Correct Answer: Option D | (13 cm)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q010",
@@ -193,12 +193,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A goldsmith uses 110 cm³ of gold to make a wire 1",
+    "question": "A goldsmith uses 110 cm³ of gold to make a wire 1 mm in diameter. He will use this wire to make gold chains of equal lengths. If each chain requires 56 cm length of wire, then how many gold chains can he 22 make? [Take  = ] 7 22",
     "options": [
-      "320",
+      "7/320",
       "250",
-      "160",
-      "210"
+      "(a) 320/160",
+      "(b) 250/210"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (250)"
@@ -210,15 +210,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "What is the difference",
+    "question": "What is the difference in the volume (in cm³) of a sphere of radius 7cm and that of a cone of radius 7 22 cm and height 10 cm? [Take  = ] 7",
     "options": [
-      "205",
+      "7/205",
       "704",
-      "924",
-      "1078"
+      "(a) 205/924",
+      "(b) 704/1078"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (924)"
+    "explanation": "Correct Answer: Option C | ((a) 205/924)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q014",
@@ -227,7 +227,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The area of three adjacent faces of a cuboidal solid block of wax are 216 cm², 96 cm² and 144 cm². It is melted and 8 cubes of the same size are formed from",
+    "question": "The area of three adjacent faces of a cuboidal solid block of wax are 216 cm², 96 cm² and 144 cm². It is melted and 8 cubes of the same size are formed from it. What is the lateral surface area (in cm2) of 3 such cubes?",
     "options": [
       "648",
       "432",
@@ -244,12 +244,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The curved surface area of a cylinder is 462 cm² and",
+    "question": "The curved surface area of a cylinder is 462 cm² and its base area is 346.5 cm². What is the volume (in cm³) 22 of the cylinder? [Take  = ] 7",
     "options": [
-      "4800",
+      "7/4800",
       "2425.5",
-      "4850",
-      "2400"
+      "(a) 4800/4850",
+      "(b) 2425.5/2400"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2425.5) | Solution: 6 (b) 15.2 (c)"
@@ -266,7 +266,7 @@
       "7 cm",
       "10 cm",
       "10.5 cm",
-      "7.5 c"
+      "7.5 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (10.5 cm)"
@@ -278,12 +278,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "From a solid cylindrical wooden block of height 18 cm and radius 7.5 cm, a conical cavity of same radius and same height is taken out. What is total surface area",
+    "question": "From a solid cylindrical wooden block of height 18 cm and radius 7.5 cm, a conical cavity of same radius and same height is taken out. What is total surface area (in cm2) of the remaining solid?",
     "options": [
       "326.25",
       "416.25",
       "472.5",
-      "270"
+      "270"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (472.5)"
@@ -295,12 +295,12 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively.",
+    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively. What is the total surface area (in cm2 ) of the vessel?",
     "options": [
       "183",
       "189",
       "177",
-      "174"
+      "174"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (183)"
@@ -312,7 +312,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The base of right prism is a trapezoid whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6",
+    "question": "The base of right prism is a trapezoid whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3, then the height (in cm) of the prism will be :",
     "options": [
       "15.6",
       "15.2",
@@ -380,7 +380,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The length and breadth of a cuboid are 70 cm and 96 cm, respectively. If its surface area is 1488 cm2,",
+    "question": "The length and breadth of a cuboid are 70 cm and 96 cm, respectively. If its surface area is 1488 cm2, then what is the length (in cm) of its diagonal?",
     "options": [
       "15420",
       "15408",
@@ -399,13 +399,13 @@
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
     "question": "The radius of the base of a closed right circular cylinder is 3.5 cm, and its total surface area is 269.5 cm2. Find the ratio of its height and diameter. 22 (Use  ) 7",
     "options": [
-      "5 : 7",
+      "7/(5 : 7)",
       "7 : 5",
-      "5 : 4",
-      "4 : 5"
+      "(a) 5 : 7/(5 : 4)",
+      "(b) 7 : 5/(4 : 5)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5 : 4)"
+    "explanation": "Correct Answer: Option C | ((a) 5 : 7/(5 : 4))"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q025",
@@ -414,7 +414,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "There are 24 cylindrical pillars",
+    "question": "There are 24 cylindrical pillars in a building. The radius of each pillar is 28 cm and height is 4 m. Find the cost of painting the curved surface area of all those pillars at the rate of Rs.8 per m2.",
     "options": [
       "`1,352.98",
       "`1,354.78",
@@ -431,7 +431,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The volume of a right circular cylinder is 4851 cm3 and its curved surface area is 462 cm2. If this cylinder is generated by rotating a rectangle about its length",
+    "question": "The volume of a right circular cylinder is 4851 cm3 and its curved surface area is 462 cm2. If this cylinder is generated by rotating a rectangle about its length by 360°, what will be the perimeter (in cm) of this rectangle? 22 use  7",
     "options": [
       "53",
       "49",
@@ -467,13 +467,13 @@
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
     "question": "Find the cost of painting all surfaces of a 10 m long hollow steel pipe whose internal and external diameters measure 15 cm and 17 cm respectively, if the cost of painting 1 cm2 of the surface is Rs.0.15. 22 (Use  = ) 7",
     "options": [
-      "`15100.80",
+      "7/`15100.80",
       "`15000.80",
-      "`15200.80",
-      "`15160.80"
+      "(a) `15100.80/`15200.80",
+      "(b) `15000.80/`15160.80"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`15100.80)"
+    "explanation": "Correct Answer: Option A | (7/`15100.80)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q029",
@@ -482,15 +482,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A conical vessel has base radius 31 cm and height 2 45 cm. Water is poured into the vessel until it is 3",
+    "question": "A conical vessel has base radius 31 cm and height 2 45 cm. Water is poured into the vessel until it is 3 full. Find the volume (in cm³) of water in the vessel.",
     "options": [
       "9611",
       "9606",
       "9614",
-      "9610"
+      "9610"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9610)"
+    "explanation": "Correct Answer: Option D | (9610)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q030",
@@ -499,15 +499,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The base area of a conical tomb is 616 square meters and the height is 48 meters. What is the cost of plastering its curved surface at the rate of Rs 150 22 per square meter? (take  ) 7 Mensuration 3D ({ks=kfefr)",
+    "question": "The base area of a conical tomb is 616 square meters and the height is 48 meters. What is the cost of plastering its curved surface at the rate of Rs 150 22 per square meter? (take  ) 7",
     "options": [
-      "Rs.300000",
-      "Rs.330000",
-      "Rs.315000",
-      "Rs.360000"
+      "( 7)/Rs.300000",
+      "/Rs.330000",
+      "(a) Rs.300000/Rs.315000",
+      "(b) Rs.330000/Rs.360000"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Rs.330000)"
+    "explanation": "Correct Answer: Option B | (/Rs.330000)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q031",
@@ -572,7 +572,7 @@
       "8 cm",
       "9 2 cm",
       "12 cm",
-      "8 2 c"
+      "8 2 cm"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (12 cm)"
@@ -584,7 +584,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A hollow spherical shell is made of a metal of density 21g/cm3. Its internal and external radii are",
+    "question": "A hollow spherical shell is made of a metal of density 21g/cm3. Its internal and external radii are 8 cm and 9 cm, respectively. What is the weight (in kg) of the shell?",
     "options": [
       "21.03",
       "19.096",
@@ -623,7 +623,7 @@
       "6.5 cm",
       "2 3 30 cm",
       "2 3 40 cm",
-      "8 3 30 c"
+      "8 3 30 cm"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2 3 30 cm)"
@@ -640,7 +640,7 @@
       "4.5 cm",
       "4 cm",
       "6 cm",
-      "8 c"
+      "8 cm"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (4 cm)"
@@ -654,13 +654,13 @@
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
     "question": "A well is drilled, whose diameter is 3 meters and depth is 14 meters. Soil is taken out from it and spread around the well. To build an embankment, a circular enclosure 4 meters wide is made. What will be the height of the embankment?",
     "options": [
-      "m",
-      "m",
-      "m",
-      "m"
+      "1/m",
+      "7/m",
+      "9/m",
+      "3/m"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (m)"
+    "explanation": "Correct Answer: Option C | (9/m)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q040",
@@ -669,7 +669,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A hemispherical bowl of internal radius 12 cm",
+    "question": "A hemispherical bowl of internal radius 12 cm contains a liquid. This liquid is to be filled in conical shaped small bottles of base diameter 3 cm and height 4 cm. How many bottles of the same type will be required to make the bowl?",
     "options": [
       "520",
       "384",
@@ -686,15 +686,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A cylindrical cavity of radius 3 cm and depth 2 cm is made at one end of another solid cylinder of radius",
+    "question": "A cylindrical cavity of radius 3 cm and depth 2 cm is made at one end of another solid cylinder of radius 5 cm and height 7 cm. Find the total surface area (in cm²) of the resulting solid.",
     "options": [
       "126",
       "107",
       "82",
-      "132"
+      "132"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (132)"
+    "explanation": "Correct Answer: Option D | (132)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q042",
@@ -703,15 +703,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A ball of radius 10 cm is taken and a cylindrical hole of radius 1 cm is drilled through the centre. Which of",
+    "question": "A ball of radius 10 cm is taken and a cylindrical hole of radius 1 cm is drilled through the centre. Which of the options listed below is the closest in value to the ratio of the total surface area of the hollowed out ball to the surface area of the original ball ?",
     "options": [
-      "21/20",
-      "9 1/0 10",
-      "22/22",
-      "1 11/0 5"
+      "219/200",
+      "1/10",
+      "221/220",
+      "11/5"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (21/20)"
+    "explanation": "Correct Answer: Option A | (219/200)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q043",
@@ -720,7 +720,7 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A pyramid is placed on top of a cube of side 10 cm",
+    "question": "A pyramid is placed on top of a cube of side 10 cm in such a way that the surface of the base of the pyramid is completely covered. The height of the pyramid is three times the side of the cube. Find the volume of this complete body.",
     "options": [
       "2000 cm3",
       "2250 cm3",
@@ -737,15 +737,15 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "A 22.5 m high tent is",
+    "question": "A 22.5 m high tent is in the shape of a frustum of a cone surmounted by a hemisphere. If the diameters of the upper and the lower circular ends of the frustum are 21 m and 39m, respectively, then find the area of the cloth (in m²) used to make the tent (ignoring the wastage). [Take  = 22/7]",
     "options": [
-      "787",
-      "2800",
-      "1635",
-      "2107"
+      "2/787",
+      "2/2800",
+      "6/1635",
+      "2/2107"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2107)"
+    "explanation": "Correct Answer: Option D | (2/2107)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q045",
@@ -759,7 +759,7 @@
       "345.6 cm³",
       "359.3 cm³",
       "379.3 cm³",
-      "369.3 cm"
+      "369.3 cm³"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (359.3 cm³)"
@@ -776,7 +776,7 @@
       "3253 cm²",
       "3503 cm²",
       "1253 cm²",
-      "1503 cm"
+      "1503 cm²"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (3503 cm²)"
@@ -790,47 +790,13 @@
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
     "question": "Let ABCDEF is prism whose base is a right triangle whose perpendicular sides are 9cm and 12 cm, if cost of painting the prism is `151.20 at the rate of 20 paise/cm² then find the height of the prism?",
     "options": [
-      "17 cm",
-      "15 cm",
-      "16 cm",
-      "18 c"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (18 c)"
-  },
-  {
-    "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q048",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Mensuration 3D",
-    "sheetType": "Pro Level",
-    "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The base of right prism is a trapezium whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3,",
-    "options": [
-      "15.6",
-      "15.2",
-      "14.8",
-      "14.2"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (14.8) | Solution: The base of right prism is a trapezium whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3, then the height cm) of the prism will be : ,d yEc fizTe vk/kj leyac ftldh lekukarj Hkqtk,a "
-  },
-  {
-    "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q049",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Mensuration 3D",
-    "sheetType": "Pro Level",
-    "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The base of a right prism is a regular hexagon of side 5",
-    "options": [
       "900",
       "1800",
       "1350",
       "675"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1350) | Solution: The base of a right prism is a regular hexagon of side 5 cm. If its height is 12 3 cm, then its volume ( cm3) is: ,d vk/kj 5 lseh ,d fu;fer \"kV~Hkqt ;fn bldh 12 3 lseh rks bldh vk;ru (?ku lseh (a) 900 (b) 1800 (c) 1350 (d) 675"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (675)"
   },
   {
     "id": "rkr_mensuration_3d_mensuration_3d_pro_level_sheet_q050",
@@ -839,14 +805,14 @@
     "chapter": "Mensuration 3D",
     "sheetType": "Pro Level",
     "sheetFile": "Mensuration 3D (Pro Level Sheet).pdf",
-    "question": "The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral",
+    "question": "The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2, then its height (in cm) is:",
     "options": [
-      "73/12",
-      "9 209/12",
-      "61/12",
-      "1 643/12"
+      "739/12",
+      "209/12",
+      "611/12",
+      "643/12"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (61/12) | Solution: The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2, then its height cm) is: ,d yEc fijkfeM vk/kj ,d leckgq f=kHkqt ftldk {ks=kiQy 16 3 oxZ lseh ;fn blosQ ,d ik'oZ iQyd {ks=kiQy"
+    "explanation": "Correct Answer: Option C | (611/12) | Solution: The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2, then its height (in cm) is: ,d yEc fijkfeM vk/kj ,d leckgq f=kHkqt ftldk {ks=kiQy 16 3 lseh ;fn blosQ ,d ik'oZ {ks=kiQy 30 l"
   }
 ]

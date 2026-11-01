@@ -6,15 +6,15 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be",
+    "question": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be shared among first, second and third partner in the ratio 1 : 2 : 2. The total profit received was `1,80,000. Find the share of the first partner.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "`31,800",
+      "`29,600",
+      "`33,200",
+      "`32,400"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (d) Distributed profit = 1,80,000 90 100 = 1,62,000 Partners  Share  1st 2nd 3rd : 1 2 2 : Total = Rs.1,62,000 Rs.32,400 5 Pro Tip :- Check the multiple of 9."
+    "explanation": "Correct Answer: Option D | (`32,400) | Solution: (d) Distributed profit = 1,80,000 90 100 = 1,62,000 Partners  Share  1st 2nd 3rd : 1 2 2 : Total = Rs.1,62,000 Rs.32,400 5 Pro Tip :- Check the multiple of 9."
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q002",
@@ -23,7 +23,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "The total profit received was `1,80,000. Find the share of the first partner.",
+    "question": "Keshav, Surjeet and Thomas started a business with investments in the ratio 2 : 3 : 4. The ratio of their period of investments is 5 : 6 : 9. Twenty percent of the profit was spent on rent and maintenance of the office. Remaining profit was distributed among themselves. If the difference in the shares of profit of Keshav and Surjeet is `7264, then how much is the total profit (in `)?",
     "options": [
       "51060",
       "58112",
@@ -31,7 +31,7 @@
       "72640"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (72640) | Solution: (d) Profit = investment time K S T 2 : 3 : 4 5 : 6 : 9 5 : 9 : 18 Investment ® Time ® Profit ® 80% of profit distributed their respected ratio of profit. Difference between profit of keshav and surjeet = (9 – 5) 80 100  = 3.2 units"
+    "explanation": "Correct Answer: Option D | (72640) | Solution: (d) Profit = investment time K S T 2 : 3 : 4 5 : 6 : 9 5 : 9 : 18 Investment ® Time ® Profit ® 80% of profit distributed in their respected ratio of profit. Difference between profit of keshav and surjeet = (9 – 5) 80 100  = 3.2 units"
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q003",
@@ -40,7 +40,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Two friends A and B started a business by investing `1,50,000 and `2,50,000, respectively. They agreed",
+    "question": "Two friends A and B started a business by investing `1,50,000 and `2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was `6,00,000. Each of them added `50,000 to their respective profits and invested in a different project. If this project gave an yield of `4,20,000, then A’s share in the profit is:",
     "options": [
       "`1,97,000",
       "`2,35,000",
@@ -57,7 +57,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Three partners X, Y and Z started their business by investing `40,000, `38,000 and `30,000, respectively. After 6 months, X and Z made additional investments of `20,000 and `15,000 respectively, whereas Y",
+    "question": "Three partners X, Y and Z started their business by investing `40,000, `38,000 and `30,000, respectively. After 6 months, X and Z made additional investments of `20,000 and `15,000 respectively, whereas Y withdrew `8,000. Find the share of Y (in `) in the total profit of `38,880 made at the end of the year.",
     "options": [
       "10,950",
       "10,200",
@@ -74,7 +74,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A and B invested money",
+    "question": "A and B invested money in a business in the ratio of 7 : 5. If 15% of the total profit goes for charity, and A's share in the profit is `5,950, then what is the total profit?",
     "options": [
       "`12,500",
       "`12,000",
@@ -91,7 +91,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C started a business with initial investments of `20000, `25000 and `10000, respectively. After 5 months from start, A invested `4000 more. After 6 months from start, C invested `8000 more. After 4 months from start, B withdrew `8000. At the end of the year, they will receive a profit of `‘x’.",
+    "question": "A, B and C started a business with initial investments of `20000, `25000 and `10000, respectively. After 5 months from start, A invested `4000 more. After 6 months from start, C invested `8000 more. After 4 months from start, B withdrew `8000. At the end of the year, they will receive a profit of `‘x’. In what ratio they will share the profits?",
     "options": [
       "59 : 68 : 42",
       "71 : 59 : 42",
@@ -108,7 +108,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C start a business. A invests 33 % of the 3 total capital, B invest 25% of the remaining and C invests the rest. If the total profit at the end of a year",
+    "question": "A, B and C start a business. A invests 33 % of the 3 total capital, B invest 25% of the remaining and C invests the rest. If the total profit at the end of a year is `162,000, then A's share in profit is: 1",
     "options": [
       "`81000",
       "`60000",
@@ -116,7 +116,7 @@
       "`90000"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (`54000) | Solution: 5 Investment ® Profit ® [Considering 50,000 as 1 unit] 6,00,000 12 50,000        Since 50,000 = 1 unit A : B New Profit ® 5.5 : 8.5 Share of A = 5.5 420000 14  = `165000 Note:- Check multiple of 11 the given option only option (c) satisfy."
+    "explanation": "Correct Answer: Option C | (`54000) | Solution: 5 Investment ® Profit ® [Considering 50,000 as 1 unit] 6,00,000 12 50,000        Since 50,000 = 1 unit A : B New Profit ® 5.5 : 8.5 Share of A = 5.5 420000 14  = `165000 Note:- Check multiple of 11 in the given option only option (c) satisfy."
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q008",
@@ -125,7 +125,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Arvind, Bilal and Carmen invest `49,000",
+    "question": "Arvind, Bilal and Carmen invest `49,000 in a business. Arvind invested `5,000 more than Bilal and Bilal invests `4,000 more than Carmen out of a total profit of `98,000, how much does Bilal receive?",
     "options": [
       "`30,500",
       "`34,400",
@@ -142,7 +142,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Three partners shared the profit",
+    "question": "Three partners shared the profit in a business in the ratio 8 : 7 : 5. They invested their capitals for 7 months, 8 months and 14 months, respectively. What was the ratio of their capitals?",
     "options": [
       "49 : 64 : 20",
       "20 : 49 : 64",
@@ -159,7 +159,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C invested `40,000, ` 48,000 and `80,000, respectively, for a business at the start of a year. After 6 months, for the remaining time of the year, A added ` 4,000, B added ` 4,000 while C withdrew ` 4,000 every month. If the total profit is `6,72,000,",
+    "question": "A, B and C invested `40,000, ` 48,000 and `80,000, respectively, for a business at the start of a year. After 6 months, for the remaining time of the year, A added ` 4,000, B added ` 4,000 while C withdrew ` 4,000 every month. If the total profit is `6,72,000, then what is C’s share (in `)?",
     "options": [
       "`196750",
       "`180480",
@@ -176,7 +176,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C jointly started a business",
+    "question": "A, B and C jointly started a business in which A invested `7,000 for 12 months, B invested `8,000 for 10 months and C invested Rs.12,000 for 6 months. A was the working member for which he received 20% of the profits as his remuneration. The total profit earned at the end of one year was `14,750. What is C's share (in `) in the profit?",
     "options": [
       "2950",
       "3600",
@@ -193,7 +193,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Suresh, Dinesh and Ramesh became partners",
+    "question": "Suresh, Dinesh and Ramesh became partners in a business by investing money in the ratio of 3 : 6 : 8. If their investments is increased by 5%, 15% and 20%, respectively, then what will be the ratio of their profits for one year?",
     "options": [
       "7 : 46 : 64",
       "19 : 46 : 64",
@@ -210,7 +210,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Ashish, Lalita and Pranav started a business",
+    "question": "Ashish, Lalita and Pranav started a business in respectively. At the end of the year, they earned a profit of `84,700, which is 28% of their total investment. How much did Lalita invest (in `)?",
     "options": [
       "54,352",
       "54,498",
@@ -227,7 +227,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Alok, Gita, and Suresh invest `56,000, `52,000, and `69,000 respectively to start a business. At the end of the year, the total profit earned is `76,700. 31% of the total profit earned is given to charity and the rest",
+    "question": "Alok, Gita, and Suresh invest `56,000, `52,000, and `69,000 respectively to start a business. At the end of the year, the total profit earned is `76,700. 31% of the total profit earned is given to charity and the rest is divided among them in the ratio of their investment. What will be the share of Suresh (in `)?",
     "options": [
       "20,631",
       "20,693",
@@ -244,7 +244,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Pankaj, Meera, and Ashok invest `41,000, `39,000, and `84,000 respectively to start a business. At the end of the year, the total profit earned is `49,200. 29% of the total profit earned is given to charity and",
+    "question": "Pankaj, Meera, and Ashok invest `41,000, `39,000, and `84,000 respectively to start a business. At the end of the year, the total profit earned is `49,200. 29% of the total profit earned is given to charity and the rest is divided among them in the ratio of their investments. What will be the share of Ashok (in `)?",
     "options": [
       "17,754",
       "17,670",
@@ -261,7 +261,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "Three persons P, Q, and R started a business with",
+    "question": "Three persons P, Q, and R started a business with their shares in the ratio 11 : 8 : 20. After 9 months, Q withdrew his 35% share, while R withdrew his 14% share 7 months prior to completion of the year. If the total profit at the end of the year is `40,700, find the share of R (in `) in the profit.",
     "options": [
       "20,387",
       "20,606",
@@ -278,7 +278,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C stared a business with their capitals",
+    "question": "A, B and C stared a business with their capitals in the ratio 1 : 4 : 4. At the end of every 3 months, A double his capital, B halves his capital and C leaves his capital unchanged. At the end of the year. If B's share in the profit was Rs.4,50,000, then the total profit (in Rs. lakhs) was-",
     "options": [
       "23.1",
       "32.4",
@@ -295,7 +295,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C are partners",
+    "question": "A, B and C are partners in a business, A, whose 1 capital has been used for 5 months, claims of the 7 profit, B whose capital has been used for 7 months, 1 claims of the profit C has invested Rs.4,600 for 9 5 months. How much capital did A contribute?",
     "options": [
       "Rs.1,800",
       "Rs.1,600",
@@ -312,7 +312,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.3170 is divided among X, Y and Z such that if Rs.13, Rs.12 and Rs.18 will be diminished from the shares of X, Y and Z respectively, then their shares",
+    "question": "A sum of Rs.3170 is divided among X, Y and Z such that if Rs.13, Rs.12 and Rs.18 will be diminished from the shares of X, Y and Z respectively, then their shares will be in the ratio 20 : 18 : 21. What is the initial share (in Rs) of Z?",
     "options": [
       "1131",
       "1530",
@@ -329,15 +329,15 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A and B start a business jointly. The investment made by A is equal to seven times the investment made by B.",
+    "question": "A and B start a business jointly. The investment made by A is equal to seven times the investment made by B. Find A's share (in `) in the annual profit of `2,75,000 is.",
     "options": [
       "2,41,225",
       "2,40,625",
       "2,42,365",
       "2,45,625"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (2,41,225)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2,40,625)"
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q021",
@@ -346,15 +346,15 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A and B entered",
+    "question": "A and B entered in a business by making investment of Rs.4000 & Rs.5500 respectively. After six months A & B withdrew Rs.1000 and Rs.1500 respectively and C joined them with capital of Rs.4x. If after one year and three months C received Rs.2250 as profit share out of total profit of Rs.12250, then find investment of C?",
     "options": [
       "Rs.3600",
       "Rs.3200",
       "Rs.4400",
       "Rs.3000"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.3600)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.3000)"
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q022",
@@ -363,15 +363,15 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A and B start a business, with A investing the total capital of Rs.50000, on the condition that B pays A interest 10% per annum on his half of the capital. A is a working partner and receives Rs.1500 per month from the total profit and any profit remaining is equally Partnership (lk>snkjh)",
+    "question": "A and B start a business, with A investing the total capital of Rs.50000, on the condition that B pays A interest 10% per annum on his half of the capital. A is a working partner and receives Rs.1500 per month from the total profit and any profit remaining is equally shared by both of them. At the end of the year, it was found that the income of A is twice that of B. Find the total profit for the year?",
     "options": [
       "Rs.39000",
       "Rs.49000",
       "Rs.59000",
       "Rs.69000"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.39000)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rs.59000)"
   },
   {
     "id": "rkr_partnership_partnership_pro_level_sheet_q023",
@@ -380,7 +380,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A is a working and B is sleeping partners",
+    "question": "A is a working and B is sleeping partners in a business. A puts in Rs.5000 and B puts in Rs.6000. A receives 12.5% of the profit for managing the business and the rest is divided in proportion to their capital. What does each get out of a profit of Rs.880?",
     "options": [
       "460, 420",
       "480, 400",
@@ -397,7 +397,7 @@
     "chapter": "Partnership",
     "sheetType": "Pro Level",
     "sheetFile": "Partnership (Pro Level Sheet).pdf",
-    "question": "A, B and C started a business. A's capital is 7 times the capital of C and B's capital is 2 times the capital of A. If the profit is `7,920, then find the",
+    "question": "A, B and C started a business. A's capital is 7 times the capital of C and B's capital is 2 times the capital of A. If the profit is `7,920, then find the share of C (in `).",
     "options": [
       "360",
       "355",

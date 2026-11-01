@@ -23,15 +23,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "What annual installment will discharge a debt of",
+    "question": "What annual installment will discharge a debt of `26,160 due in 4 years at 6% simple interest p.a.?",
     "options": [
       "` 4,500",
       "` 5,500",
       "` 6,000",
       "` 5,800"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (` 4,500) | Exam: SSC CGL 10/09/2024 (Shift-02)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 6,000) | Exam: SSC CGL 10/09/2024 (Shift-02)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q003",
@@ -40,7 +40,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "What annual installment (",
+    "question": "What annual installment (in `) will discharge a debt of ` 9,429 due in three years at 12.25% Note: Installments will be paid at the end of Year 1, Year 2 and Year 3.",
     "options": [
       "2800",
       "2700",
@@ -57,7 +57,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Find the total amount of debt that will be discharged by 5 equal instalments of `200",
+    "question": "Find the total amount of debt that will be discharged by 5 equal instalments of `200 each, if the debt is due in 5 years at 5% p.a. at simple interest.",
     "options": [
       "` 1400",
       "` 1100",
@@ -74,7 +74,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "What half yearly payment will discharge a debt",
+    "question": "What half yearly payment will discharge a debt of ` 4200 in one year at 20% per annum",
     "options": [
       "` 3600",
       "` 2200",
@@ -91,7 +91,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "What quarterly payment will discharge a debt",
+    "question": "What quarterly payment will discharge a debt of ` 2120 in one year at 16% per annum",
     "options": [
       "` 510",
       "` 450",
@@ -108,7 +108,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "What five monthly payment will discharge a 1",
+    "question": "What five monthly payment will discharge a 1 debt of ` 94500 in 1 year at 12% per annum 4 1",
     "options": [
       "` 30,000",
       "` 31,000",
@@ -125,7 +125,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "` 3400 is payable after 3 years. If it is to be",
+    "question": "` 3400 is payable after 3 years. If it is to be paid in 3 installments each year. First 1 1 installments is of the second and of the 3 4 third installment. Find each install-ment if rate of interest is 10% per annum.",
     "options": [
       "` 400, ` 1200, ` 1600",
       "` 300, ` 900, ` 1200",
@@ -142,7 +142,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "` X is payable after 4 years. If it is to be paid",
+    "question": "` X is payable after 4 years. If it is to be paid in 4 installments each year. The ratio of installments are 1 : 2 : 3 : 5. Find the value of X if First installment is of ` 50 and rate of interest is 10% per annum.",
     "options": [
       "600",
       "1100",
@@ -159,7 +159,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Amount of ` 25,600 is to be paid",
+    "question": "Amount of ` 25,600 is to be paid in three years and three annual installments. If amount of 1st installment is half of the amount of 2nd 1 and rd of the 3rd. If the rate of simple 3 interest is 10% p.a. Find amount of 1st installment?",
     "options": [
       "` 8,000",
       "` 6,000",
@@ -176,7 +176,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A took a loan from B of ` 480 at 6% simple interest on a condition that he would pay it",
+    "question": "A took a loan from B of ` 480 at 6% simple interest on a condition that he would pay it in 4 yearly installments. Out of which first 3 1 installment would be of the principal and 4 the rest amount would be paid in last installment. Find the amount paid by A in the last installment.",
     "options": [
       "` 192",
       "` 165",
@@ -193,15 +193,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A sum of `10 is lent by a child to his friend to be",
+    "question": "A sum of `10 is lent by a child to his friend to be returned in 11 monthly installments of `1 each, the interest being simple. The rate of interest is:",
     "options": [
-      "11",
-      "21",
-      "10",
-      "9"
+      "9/(11 %)",
+      "9/(21 %)",
+      "2/(10 %)",
+      "1/(9 %)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (21) | Exam: SSC CGL 13/12/2022 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (9/(21 %)) | Exam: SSC CGL 13/12/2022 (Shift-02)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q013",
@@ -210,15 +210,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Ajay lend ` 19 to Atul on condition that the",
+    "question": "Ajay lend ` 19 to Atul on condition that the amount is payable in 20 months by 20 equal installments of ` 1 every month. What is the rate of simple interest?",
     "options": [
-      "11",
-      "6",
-      "30",
-      "10"
+      "1/(11 %)",
+      "6/(6    %)",
+      "9/30%",
+      "19/10%"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (6)"
+    "explanation": "Correct Answer: Option B | (6/(6    %))"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q014",
@@ -227,15 +227,15 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "` 2070 is to be paid",
+    "question": "` 2070 is to be paid in 10 monthly installment. Find rate of interest if each installment is of ` 230.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80/%",
+      "83/%",
+      "3/18%",
+      "3/57%"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (80/%)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q015",
@@ -244,15 +244,32 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "An annual installment of `3,500 will discharge",
+    "question": "An annual installment of `3,500 will discharge a debt of `16,310 due in 4 years at y% simple interest per annum. What is the value of y? [Note: Installments will be paid at the end of Year 1, Year 2, Year 3 and Year 4.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.5",
+      "16.5",
+      "11.5",
+      "11"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Exam: SSC Phase XII 24/06/2024 (Shift-01)"
+    "explanation": "Correct Answer: Option D | (11) | Exam: SSC Phase XII 24/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A computer is available for Rs.39,000 on cash payment or Rs.19,000 as cash payment followed by five monthly installments of Rs.4,200 each. What is the rate of interest per annum under the installment plan?",
+    "options": [
+      "19/(20 %)",
+      "17/(20 %)",
+      "20/(20 %)",
+      "18/(20 %)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20/(20 %)) | Exam: SSC CHSL 02/08/2023 (Shift- 02)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q017",
@@ -261,7 +278,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "If the price of an article is ` 9000, If this article is purchased on the cash down payment",
+    "question": "If the price of an article is ` 9000, If this article is purchased on the cash down payment of ` 2200 and rest can be paid in five equal monthly installment of ` 1400 for next five months. Find the rate of simple interest annually.",
     "options": [
       "10",
       "11",
@@ -312,7 +329,7 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A scooty can be bought for `30000",
+    "question": "A scooty can be bought for `30000 in cash or `9400 in cash advance payment followed by 4 monthly installments.",
     "options": [
       "Rs. 5298",
       "Rs. 5565",
@@ -382,13 +399,13 @@
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
     "question": "Rahna decided to buy a scooty that costs Rs.40,000. The shopkeeper agreed to sell the scooty under the condition of Rs.25,000 cash down payment of Rs.4,000 each month for four months. Find the rate of interest at which the shopkeeper sold the scooty under the installment scheme.",
     "options": [
-      "33",
+      "1/33%",
       "10",
-      "18",
-      "16"
+      "1/(18 %)",
+      "1/(16 %)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (33) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
+    "explanation": "Correct Answer: Option A | (1/33%) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q025",
@@ -442,6 +459,23 @@
     "explanation": "Correct Answer: Option B | (Rs. 6600) | Exam: NTPC CBT-2 15/06/2022 (Shift- 02)"
   },
   {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "In a store, Arun has two options to buy a mobile phone, either he can pay the full amount of `2,500 or he may buy at an instalment scheme, i.e. `520 in down payment and four equal installments, rate of interest being charged at 25% p.a. simple interest. Arun buys a mobile phone on the installment scheme. What is the monthly installment for Arun?",
+    "options": [
+      "510",
+      "530",
+      "550",
+      "520"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (520) | Exam: SSC CPO 05/10/2023 (Shift-03)"
+  },
+  {
     "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q029",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
@@ -465,14 +499,14 @@
     "chapter": "Simple Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple interest of approx mate 10% is",
+    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple interest of approx mate 10% is charged in lump sum and the money is to be paid in 20 equal annual installments of `25,000. How much is the down payment?",
     "options": [
       "`1,55,945",
       "`1,95,455",
       "`1,94,555",
       "`1,45,955"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`1,55,945) | Exam: SSC CGL 06/12/2022 (Shift-02)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`1,95,455) | Exam: SSC CGL 06/12/2022 (Shift-02)"
   }
 ]

@@ -25,13 +25,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Simplify the following:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18.23",
+      "24.12",
+      "26.32",
+      "22.76"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (22.76) | Exam: SSC CGL 09/09/2024 (Shift-02)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q005",
@@ -249,7 +249,7 @@
       "–450000",
       "45000",
       "450000",
-      "–45000"
+      "–45000 (0.83) 3 – (0.1) 3"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (–450000) | Exam: SSC CPO 29/06/2024 (Shift-02)"
@@ -261,7 +261,7 @@
     "chapter": "Simplification",
     "sheetType": "ClassRoom",
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
-    "question": "Simplify: = ? (0.83) 2  0.083  0.01 (0.83) 3 – (0.1) 3 lehdj.k = ? (0.83) 2  0.083  0.01",
+    "question": "Simplify: 2 = ? (0.83)  0.083  0.01 (0.83) 3 – (0.1) 3 lehdj.k 2 = ? (0.83)  0.083  0.01",
     "options": [
       "0.98",
       "0.27",
@@ -365,13 +365,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Simplify the following.",
     "options": [
-      " 10 3",
-      " 10  3",
-      " 10 3",
-      " 10  3"
+      "13/( 10 3)",
+      "13/( 10  3)",
+      "13/( 10 3)",
+      "13/( 10  3)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ( 10  3) | Exam: SSC CGL 24/07/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option D | (13/( 10  3)) | Exam: SSC CGL 24/07/2023 (Shift-3)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q032",
@@ -401,8 +401,8 @@
     "options": [
       "53/99",
       "53/49",
-      "53/10",
-      "53/0 59"
+      "53/100",
+      "53/59"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (53/99)"
@@ -416,13 +416,30 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Convert it into vulgar fraction 0.587 CISF HCM 30/10/2023 Shift-01",
     "options": [
-      "93/16",
-      "97/7 165",
-      "95/16",
-      "91/7 165"
+      "93/167",
+      "97/165",
+      "95/167",
+      "91/165"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (97/7 165)"
+    "explanation": "Correct Answer: Option B | (97/165)"
+  },
+  {
+    "id": "rkr_simplification_simplification_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simplification",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Simplification (ClassRoom Sheet).pdf",
+    "question": "Simplify 8.46 in the fractional form.",
+    "options": [
+      "838/99",
+      "83/99",
+      "846/99",
+      "84/99"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (838/99) | Exam: RRB Technician G-III, 26/12/2024 (Shift-01)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q036",
@@ -433,13 +450,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Correct expression of 0.0654 . (the bar indicates repeating decimal)",
     "options": [
-      "65/10",
-      "4 654/00 10000",
-      "18/27",
-      "18/5 277"
+      "654/1000",
+      "654/10000",
+      "18/275",
+      "18/277"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (18/27) | Exam: NTPC CBT-2 19/01/2017 (Shift-1)"
+    "explanation": "Correct Answer: Option C | (18/275) | Exam: NTPC CBT-2 19/01/2017 (Shift-1)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q037",
@@ -450,13 +467,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Correct expression of 1.427 . (the bar indicates repeating decimal)",
     "options": [
-      "14/10",
-      "27 157/00 110",
-      "14/10",
-      "27 157/000 111"
+      "1427/1000",
+      "157/110",
+      "1427/10000",
+      "157/111"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (27 157/00 110) | Exam: NTPC CBT-2 17/01/2017 (Shift-3)"
+    "explanation": "Correct Answer: Option B | (157/110) | Exam: NTPC CBT-2 17/01/2017 (Shift-3)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q039",
@@ -467,13 +484,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the Value of x/x",
     "options": [
-      "3",
-      "5",
-      "2",
-      "8"
+      "(0.3  0.4 )/3",
+      "(0.5  0.6 x)/5",
+      "(a) 3/2",
+      "(b) 5/8"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (2)"
+    "explanation": "Correct Answer: Option C | ((a) 3/2)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q040",
@@ -518,13 +535,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Express the following into vulgar fraction.",
     "options": [
-      "56/11",
-      "8 569/00 1100",
-      "57/11",
-      "8 579/00 1100"
+      "568/1100",
+      "569/1100",
+      "578/1100",
+      "579/1100"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (8 569/00 1100)"
+    "explanation": "Correct Answer: Option B | (569/1100)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q043",
@@ -535,13 +552,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the value of 2.3 8  0.5 4 .",
     "options": [
-      "4",
-      "3",
-      "5",
-      "6"
+      "19/4",
+      "17/3",
+      "26/5",
+      "29/6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (4) | Exam: RRB JE 18/12/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option A | (19/4) | Exam: RRB JE 18/12/2024 (Shift-02)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q044",
@@ -552,13 +569,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the value of/",
     "options": [
-      "0.77",
-      "0.82",
-      "0.86",
-      "0.87"
+      "(0.2 )/0.77",
+      "(0.3  0.32)/0.82",
+      "(a) 0.77/0.86",
+      "(b) 0.82/0.87"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (0.87)"
+    "explanation": "Correct Answer: Option D | ((b) 0.82/0.87)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q045",
@@ -569,13 +586,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the value of/",
     "options": [
-      "314.59345",
-      "314.59445",
-      "314.59345",
-      "314.59445"
+      "324.786/314.59345",
+      "(– 10.193)/314.59445",
+      "(a) 314.59345/314.59345",
+      "(b) 314.59445/314.59445"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (314.59345)"
+    "explanation": "Correct Answer: Option C | ((a) 314.59345/314.59345)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q046",
@@ -586,13 +603,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "If A = 0.312 , B = 0.415 and C = 0.309 , then what is the value of A + B + C?",
     "options": [
-      "12/11",
-      "11 1043/00 1100",
-      "10/11",
-      "97 1141/00 1100"
+      "1211/1100",
+      "1043/1100",
+      "1097/1100",
+      "1141/1100"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (97 1141/00 1100)"
+    "explanation": "Correct Answer: Option D | (1141/1100)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q047",
@@ -688,13 +705,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "If 0.ab  0. ba  , find the value of a + b. 9 5",
     "options": [
-      "5",
+      "9/5",
       "6",
-      "7",
-      "8"
+      "(a) 5/7",
+      "(b) 6/8"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5)"
+    "explanation": "Correct Answer: Option A | (9/5)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q055",
@@ -790,13 +807,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "What is difference between the largest and the 5 7 8 11 smallest fractions among , , and ? 9 11 15 17 5 7 8 11",
     "options": [
-      "29/25",
-      "8/5 99",
+      "29/255",
+      "8/99",
       "1/45",
       "17/165"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (29/25)"
+    "explanation": "Correct Answer: Option A | (29/255)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q061",
@@ -830,7 +847,7 @@
       "8/5"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (34/21)"
+    "explanation": "Correct Answer: Option C | (34/21) | Solution: The value of 1 1+ 1 1+ 1 1+ 1 1+ 2 1+ 3 (a) 21 13 (b) 17 2 (c) 34 21 (d) 8 5"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q064",
@@ -839,15 +856,15 @@
     "chapter": "Simplification",
     "sheetType": "ClassRoom",
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
-    "question": "Find the value of x",
+    "question": "Find the value of x in the following equation:",
     "options": [
-      "1 2",
-      "1",
+      "2/1",
       "1/2",
-      "2/3"
+      "2",
+      "3"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1 2) | Exam: NTPC CBT-2 17/06/2022 (Shift-3)"
+    "explanation": "Correct Answer: Option A | (2/1) | Exam: NTPC CBT-2 17/06/2022 (Shift-3) | Solution: Find the value of x in the following equation: lehdj.k x 1 6 1 1 = 1 11 2 1 1 1 5                     x NTPC CBT-2 17/06/2022 (Shift-3) (a) 2 (b) 1 (c) 1 2 (d) 2 3"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q065",
@@ -864,7 +881,7 @@
       "4"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2)"
+    "explanation": "Correct Answer: Option B | (2) | Solution: If 1 1 1+ 1 1+ 1 1+ x = 5 8 , then what is the value of x? ;fn 1 1 1+ 1 1+ 1 1+ x = 5 8 , gks] x (a) 1 (b) 2 (c) 3 (d) 4"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q066",
@@ -875,13 +892,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the value of 1 – 1 1 – 1 1 – 2 1 – 3",
     "options": [
-      "2/3",
-      "1/3",
-      "1/3",
-      "2/3"
+      "2",
+      "1/",
+      "1",
+      "2/"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1/3)"
+    "explanation": "Correct Answer: Option C | (1) | Solution: Find the value of 1 1 – 1 1 – 1 1 – 2 1 – 3 (a) 2 3 (b) 1 3  (c) 1 3 (d) 2 3 "
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q067",
@@ -898,7 +915,7 @@
       "–1"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0) | Exam: SSC CPO 27/06/2024 (Shift-02)"
+    "explanation": "Correct Answer: Option B | (0) | Exam: SSC CPO 27/06/2024 (Shift-02) | Solution: The value of the following is: fuEufyf[kr 1 – 7 1 1 – 7 1 1 – 7  SSC CPO 27/06/2024 (Shift-02) (a) 2 (b) 0 (c) 1 (d) –1"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q068",
@@ -915,7 +932,7 @@
       "31/71"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (31/71) | Exam: NTPC CBT-1, 03/02/2021 (Shift-02)"
+    "explanation": "Correct Answer: Option D | (31/71) | Exam: NTPC CBT-1, 03/02/2021 (Shift-02) | Solution: What will the value after simplifying this continued fraction?"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q069",
@@ -943,13 +960,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Simplify: 15 + 1 6 + 1 8 + 10 CRPF HCM 01/03/2023 (Shift - 02)",
     "options": [
-      "15",
-      "15186",
-      "15",
-      "15"
+      "81/15",
+      "71/15186",
+      "81/15",
+      "31/15"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (15)"
+    "explanation": "Correct Answer: Option A | (81/15)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q071",
@@ -960,13 +977,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "2 + =? 1 2 – 1 3 – 1 4 – 4 CRPF HCM 28/02/2023 (Shift - 01)",
     "options": [
-      "41/67",
-      "15/41",
-      "41/67",
-      "15/41"
+      "41",
+      "15/2",
+      "41/2",
+      "15"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (41/67)"
+    "explanation": "Correct Answer: Option C | (41/2)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q072",
@@ -1043,7 +1060,7 @@
     "chapter": "Simplification",
     "sheetType": "ClassRoom",
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
-    "question": "If  , where x, y and y are 1 79 x  2 y  1 z  4 natural numbers, then the value (2x + 3y – z) is:",
+    "question": "If 1 29 , where x, y and y are  1 79 x  2 y  1 z  4 natural numbers, then the value (2x + 3y – z) is:",
     "options": [
       "1",
       "4",
@@ -1062,13 +1079,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "The sum of 1 1 1 1 + + +..... + is: 2 6 12 n  n +1  1 1 1 1",
     "options": [
-      " n/ n",
-      " 1  n  1/ 2n",
-      "n/2",
-      " n  1  n/n  1"
+      "( n  1 )/(      )",
+      "n  1",
+      "n  n  1 ",
+      "n"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ( n  1  n/n  1) | Exam: NTPC CBT-1, 02/03/2021 (Shift-03)"
+    "explanation": "Correct Answer: Option D | (n) | Exam: NTPC CBT-1, 02/03/2021 (Shift-03)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q089",
@@ -1082,10 +1099,10 @@
       "Only I",
       "Both I and II",
       "Only II",
-      "Neither I nor II 1 1 1 1"
+      "Neither I nor II"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Neither I nor II 1 1 1 1) | Exam: SSC CHSL 13/03/2023 (Shift-04)"
+    "explanation": "Correct Answer: Option D | (Neither I nor II) | Exam: SSC CHSL 13/03/2023 (Shift-04)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q090",
@@ -1094,15 +1111,15 @@
     "chapter": "Simplification",
     "sheetType": "ClassRoom",
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
-    "question": "If x = + + ......+ , y = 12.13 13.14 14.15 23.24 1 1 1 1 x + + .......+ then is 36.37 37.38 38.39 71.72 y equal to:",
+    "question": "If x = + + ......+ , y = 12.13 13.14 14.15 23.24 1 1 1 1 x + + .......+ then is 36.37 37.38 38.39 71.72 y equal to: 1 1 (a) (b) 3 24 1 (c) (d) 3 72 1 1 1",
     "options": [
-      "1/3",
-      "1/24",
-      "1/72",
-      "3"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (3)"
+    "explanation": "Correct Answer: Option D"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q096",
@@ -1111,15 +1128,15 @@
     "chapter": "Simplification",
     "sheetType": "ClassRoom",
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
-    "question": "+ + + + + 2 2 .3 2 3 2 .4 2 4 2 .5 2 5 2 .6 2 6 2 .7 2 15 17 19 + + is equal to. 7 2 .8 2 8 2 .9 2 9 2 .10 2",
+    "question": "+ + + + + 2 2 .3 2 3 2 .4 2 4 2 .5 2 5 2 .6 2 6 2 .7 2 15 17 19 + + is equal to. 7 2 .8 2 8 2 .9 2 9 2 .10 2 1 6 (a) (b) 100 25 101 (c) (d) 1 100 4 6 8 10 12",
     "options": [
-      "1/10",
-      "6/0 25",
-      "10/10",
-      "1/0"
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (6/0 25)"
+    "explanation": "Correct Answer: Option B"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q098",
@@ -1130,13 +1147,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "   + + 1  3  5 1  4 3  5  7 4  7 5  7  9 1 +.....+ upto 20 terms 7  10",
     "options": [
-      "61/15",
-      "79 6070/275 14973",
-      "71/15",
-      "91 5183/174 16423"
+      "6179/15275",
+      "6070/14973",
+      "7191/15174",
+      "5183/16423"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (79 6070/275 14973)"
+    "explanation": "Correct Answer: Option B | (6070/14973)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q102",
@@ -1147,13 +1164,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "The value of 99  99 is",
     "options": [
-      "9798",
+      "99/9798",
       "9997",
-      "9898",
-      "9896"
+      "(a) 9798/9898",
+      "(b) 9997/9896"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (9896)"
+    "explanation": "Correct Answer: Option D | ((b) 9997/9896)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q103",
@@ -1164,13 +1181,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "999  99 is equal to:",
     "options": [
-      "98999",
+      "99/98999",
       "99899",
-      "99989",
-      "99998"
+      "(a) 98999/99989",
+      "(b) 99899/99998"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (98999)"
+    "explanation": "Correct Answer: Option A | (99/98999)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q106",
@@ -1181,13 +1198,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "Find the value of  999  99",
     "options": [
-      "90000",
-      "99000",
-      "90900",
-      "99990"
+      "5/90000",
+      "495/99000",
+      "(a) 90000/90900",
+      "(b) 99000/99990"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (99000)"
+    "explanation": "Correct Answer: Option B | (495/99000)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q107",
@@ -1198,13 +1215,13 @@
     "sheetFile": "Simplification (ClassRoom Sheet).pdf",
     "question": "  999   99 is equal to:",
     "options": [
-      "1",
-      "99000",
-      "99800",
-      "99900"
+      "(7 )/1",
+      "(693 )/99000",
+      "(a) 1/99800",
+      "(b) 99000/99900"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (99000)"
+    "explanation": "Correct Answer: Option B | ((693 )/99000)"
   },
   {
     "id": "rkr_simplification_simplification_classroom_sheet_q109",
@@ -1317,10 +1334,10 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Solve the following/fuEufyf[kr",
     "options": [
-      "9",
+      "3/9",
       "–55",
-      "112",
-      "15"
+      "1/112",
+      "1/15"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (–55) | Solution: (b) 1 4 5 3 2 1 4 5 6 1 1 1 1 3 1 3 2 4 22 3 5 10 5                    = 13 2 5 3 4 3 13 1 3 111 3 2 3 5 10 5                   = 31 5 12 13 5 3 222 2 3 1 10                     = 31 5 12 65 "
@@ -1332,7 +1349,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "A sum of three fractions A, B and C, A> B> C, is . 60 9 When C is divided by B, the resulting fraction is 10 3 to which exceeds A by . What is the difference 20 between B and C ? Simplification (ljyhdj.k) 21",
+    "question": "A sum of three fractions A, B and C, A> B> C, is . 60 9 When C is divided by B, the resulting fraction is 10 3 to which exceeds A by . What is the difference 20 between B and C ? 21",
     "options": [
       "1/15",
       "2/15",
@@ -1351,13 +1368,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Solve/gy",
     "options": [
-      "30/60",
-      "2 301/0 600",
-      "30/60",
-      "7 299/0 600"
+      "302/600",
+      "301/600",
+      "307/600",
+      "299/600"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2 301/0 600)"
+    "explanation": "Correct Answer: Option B | (301/600)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q008",
@@ -1385,13 +1402,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Simplify the following:",
     "options": [
-      "244",
-      "219",
-      "275",
-      "299"
+      "1/244",
+      "1/219",
+      "4/275",
+      "4/299"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (299)"
+    "explanation": "Correct Answer: Option D | (4/299)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q011",
@@ -1402,13 +1419,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Which of the following statement is true?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only I / dsoy I",
+      "Both I and II",
+      "Only II / dsoy II",
+      "Neither I nor II / u I u II"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (Neither I nor II / u I u II)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q012",
@@ -1456,7 +1473,7 @@
       "–50",
       "–55",
       "–49",
-      "–60"
+      "–60 11 13 15 67"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (–50)"
@@ -1470,13 +1487,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of/99 + 99 + 99 + ...+ 99",
     "options": [
-      "94/33",
-      "220 96220/33",
-      "97/33",
-      "120 95120/33"
+      "94220/33",
+      "96220/33",
+      "97120/33",
+      "95120/33"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (120 95120/33)"
+    "explanation": "Correct Answer: Option D | (95120/33)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q016",
@@ -1487,13 +1504,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "Simplify/fuEufyf[kr",
     "options": [
-      "261",
-      "725",
-      "445",
-      "596"
+      "(232) 2  (140) 2  (353) 2 –/261",
+      "(232  140 –140  353 – 353  232)/725",
+      "(a) 261/445",
+      "(b) 725/596"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (725)"
+    "explanation": "Correct Answer: Option B | ((232  140 –140  353 – 353  232)/725)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q017",
@@ -1504,13 +1521,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "If A = , B = , then the value of 46 2 – 37 2 56 2 – 15 2 1 20  is: B A 58 2 – 25 2 26 2 –15 2 1 20",
     "options": [
-      "2",
-      "1",
-      "0",
-      "– 1"
+      "(46 2 – 37 2)/2",
+      "(56 2 –15 2)/1",
+      "(a) 2/0",
+      "(b) 1/(– 1)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1)"
+    "explanation": "Correct Answer: Option B | ((56 2 –15 2)/1)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q018",
@@ -1553,7 +1570,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "The value of 4.669  4.669 – 9  (0.777)² is (1 – k), where k = ? (4.669)²  (2.331)²  14(0.667)(2.331) 4.669  4.669 – 9  (0.777)²",
+    "question": "The value of 4.669  4.669 – 9  (0.777)²   is (1 – k), where k = ? (4.669)² (2.331)² 14(0.667)(2.331) 4.669  4.669 – 9  (0.777)²",
     "options": [
       "0.666",
       "0.647",
@@ -1572,13 +1589,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "What is difference between the largest and the 5 7 8 11 smallest fractions among , , and ? 9 11 15 17 5 7 8 11",
     "options": [
-      "29/25",
-      "8/5 99",
+      "29/255",
+      "8/99",
       "1/45",
       "17/165"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (29/25)"
+    "explanation": "Correct Answer: Option A | (29/255)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q024",
@@ -1589,13 +1606,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of is 5",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "3",
+      "6"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (4)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q025",
@@ -1604,15 +1621,15 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "1  25.1 – 624.99  24.9  24.9 where the value of k is ____.  251  3   249  3",
+    "question": "If A = 0.312 , B = 0.415 and C = 0.309 , then what is the value of A + B + C?",
     "options": [
-      "12/11",
-      "11 1043/00 1100",
-      "10/11",
-      "97 1141/00 1100"
+      "1211/1100",
+      "1043/1100",
+      "1097/1100",
+      "1141/1100"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (97 1141/00 1100)"
+    "explanation": "Correct Answer: Option D | (1141/1100)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q026",
@@ -1623,13 +1640,13 @@
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
     "question": "The value of 1  1 of ",
     "options": [
-      "110",
-      "215",
-      "3",
-      "2"
+      "7/110",
+      "4/215",
+      "1/3",
+      "11/2"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2)"
+    "explanation": "Correct Answer: Option D | (11/2)"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q027",
@@ -1672,7 +1689,7 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "Let x = , when y is added 3 1 3 4  5  5  3 4 4 5 15 7 to x, then result is . What is the value of y? 13 3 3 3 2 11 5 –  15  2  1 4 7 4 35 25",
+    "question": "Let x = 3 1 3 4 , when y is added  5  5  3 4 4 5 15 7 to x, then result is . What is the value of y? 13 3 3 3 2 11 5 –  15  2  1",
     "options": [
       "1/13",
       "2/13",
@@ -1748,7 +1765,7 @@
       "6/7"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (6/7) | Solution: Which of the following fractions does not lie between 5 6 and 8 15 ? fuEufyf•r lk fHkUu 5 6 8 15 chp ugha (a) 2 3 (b) 3 4 (c) 4 5 (d) 6 7"
+    "explanation": "Correct Answer: Option D | (6/7) | Solution: Which of the following fractions does not lie between 5 6 and 8 15 ? fHkUu 5 6 8 15 chp ugha (a) 2 3 (b) 3 4 (c) 4 5 (d) 6 7"
   },
   {
     "id": "rkr_simplification_simplification_pro_level_sheet_q040",
@@ -1757,12 +1774,12 @@
     "chapter": "Simplification",
     "sheetType": "Pro Level",
     "sheetFile": "Simplification (Pro Level Sheet).pdf",
-    "question": "The value of 1  3  1   1 3 1    5 4    4 2  2 3 3                2   3   1   1  1  1    1  3  1  1 3 1    ",
+    "question": "The value of 1  3  1   1 3 1    5  4   4 2  2 3 3     2  3   1   1 1 1                  ",
     "options": [
       "1",
       "3",
       "2",
-      "0 KEY"
+      "0"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (1) | Solution: The value of 2 3 1 1 1 1 1 3 1 1 3 1 5 4 4 2 2 3 3                                       2 3 1 1 1 1 1 3 1 1 3 1 5 4 4 2 2 3 3                                      (a) 1 (b) 3"

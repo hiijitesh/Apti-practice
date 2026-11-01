@@ -6,7 +6,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The ordinate and abscissa of the equal, The value of k is ?",
+    "question": "The ordinate and abscissa of the point (k, 2k – 1) be equal, The value of k is ?",
     "options": [
       "0",
       "–1",
@@ -23,15 +23,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "Find the coordinates of the point line segment joining the points (2, the ratio 1 : 2 internally.",
+    "question": "Find the coordinates of the point which divides the line segment joining the points (2, –3) and (–4, 6) in the ratio 1 : 2 internally.",
     "options": [
       "(8, 0)",
-      "(0,",
+      "(0, 0)",
       "(3, –5)",
-      "(4,"
+      "(4, 3)"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((4,) | Solution: (b) Given, (x1, y1) = (2, – 3), (x2, y2) = (–4, 6) and ratio, m : n = 1 : 2 We know, x = 2 1 2 1 m +n my ny ,y = m+ n m+n x x  x = 2 2 1 (–4) 3    = 0 y = 2 (–3) 1 6 3    = 0 (x, y) = (0, 0)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((3, –5)) | Solution: (b) Given, (x1, y1) = (2, – 3), (x2, y2) = (–4, 6) and ratio, m : n = 1 : 2 We know, x = 2 1 2 1 m +n my ny ,y = m+ n m+n x x  x = 2 2 1 (–4) 3    = 0 y = 2 (–3) 1 6 3    = 0 (x, y) = (0, 0)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q003",
@@ -40,7 +40,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The length of the portion of the straight = 60 intercepted between the axes",
+    "question": "The length of the portion of the straight line 5x + 12y = 60 intercepted between the axes is:",
     "options": [
       "5",
       "13",
@@ -57,15 +57,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If the graph of the equation 20x + coordinate axes at P and Q, then",
+    "question": "If the graph of the equation 20x + 21y = 420 cuts the coordinate axes at P and Q, then what is the measure of the length (in unit) of PQ?",
     "options": [
       "25",
       "29",
       "40",
       "35"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (25) | Solution: (b)20x + 21y = 420 Put x = 0 y = 20 Put y = 0 x = 21 (0, 20) (21, 0) Q P  Length of PQ = 29 (Triplet of 20, 21, 29)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (29) | Solution: (b)20x + 21y = 420 Put x = 0 y = 20 Put y = 0 x = 21 (0, 20) (21, 0) Q P  Length of PQ = 29 (Triplet of 20, 21, 29)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q005",
@@ -74,15 +74,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If the intersection point of the equations = 0 and – 2p + q – 13 = 0 on the the value of (3p + q) is equal to:",
+    "question": "If the intersection point of the equations 3p – 2q + 23 = 0 and – 2p + q – 13 = 0 on the graph is (p, q), then the value of (3p + q) is equal to:",
     "options": [
       "2",
       "1",
       "–2",
       "–1"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (–2) | Solution: (c) 3p – 2q + 23 = 0 ......(i) –2p + q – 13 = 0 ......(ii) Multiple (ii) by 2 and add it from (i), p = –3  q = 7  3p + q = 3 –3 + 7 = – 2"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1) | Solution: (c) 3p – 2q + 23 = 0 ......(i) –2p + q – 13 = 0 ......(ii) Multiple (ii) by 2 and add it from (i), p = –3  q = 7  3p + q = 3 –3 + 7 = – 2"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q006",
@@ -91,7 +91,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If the point of intersection of lines y = 1 lies on y = Kx + 5, what is the",
+    "question": "If the point of intersection of lines x + y = 2 and 2x – y = 1 lies on y = Kx + 5, what is the value of K?",
     "options": [
       "3",
       "–4",
@@ -108,12 +108,12 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If equation of line p is x + y = 5 and – y = 3, what are the coordinates to both the lines?",
+    "question": "If equation of line p is x + y = 5 and that of line q is x – y = 3, what are the coordinates of the point common to both the lines?",
     "options": [
       "(2, 1)",
-      "(1,",
+      "(1, 4)",
       "(2, 3)",
-      "(4,"
+      "(4, 1)"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | ((2, 3)) | Solution: (c)ATQ, x + y = 5 .....(i) x – y = 3 .....(ii) On solving equation (i) & (ii) x = 4, and y = 1  The co-ordinates of the common point = (4, 1)"
@@ -125,15 +125,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The perpendicular length from the + 8y – 48 = 0 is:",
+    "question": "The perpendicular length from the origin to the line 6x + 8y – 48 = 0 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.6 unit",
+      "4.8 unit",
+      "8.3 unit",
+      "5.2 unit"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Solution: (b) (0, 6) (0, 0) (8, 0) If point of origin (0, 0) then perpendicular distance of a line = 2 2 C a b  = 2 2 –48 6 8  = 4.8 unit Alternate Method: Perpendicular distance of a line ax + by + c = 0 from a point (x, y) = 1 1 2 2 ax by c a b    = 2 2"
+    "explanation": "Correct Answer: Option C | (8.3 unit) | Solution: (b) (0, 6) (0, 0) (8, 0) If point of origin (0, 0) then perpendicular distance of a line = 2 2 C a b  = 2 2 –48 6 8  = 4.8 unit Alternate Method: Perpendicular distance of a line ax + by + c = 0 from a point (x, y) = 1 1 2 2 ax by c a b    = 2 2"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q009",
@@ -142,15 +142,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "What is the area linear equations by these lines and which divides the nks jSf•d lehdj.k",
+    "question": "What is the area of the region created by the two linear equations 2x + y = 6 and 2x – y = –2 bounded by these lines and the x-axis?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 unit2",
+      "8 unit2",
+      "3 unit2",
+      "6 unit2"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: (b) (0,6) (3,0) (0,2) (–1,0) 2 y 6 2 – y – 2 2y 8 y 4      x x Area of bounded region = 1 2 4 4 = 8 unit2"
+    "explanation": "Correct Answer: Option B | (8 unit2) | Solution: (b) (0,6) (3,0) (0,2) (–1,0) 2 y 6 2 – y – 2 2y 8 y 4      x x Area of bounded region = 1 2 4 4 = 8 unit2"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q010",
@@ -159,15 +159,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If a circle whose 3) 3y - 7 = 0, then",
+    "question": "If a circle whose centre is (2, 3) touches the line 4x + 3y - 7 = 0, then the radius of the circle is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 unit",
+      "1 unit",
+      "2 unit",
+      "3 unit"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | Solution: (c) 4x + 3y – 7 = 0 (2, 3) Radius of circle = 1 1 2 2 a by c a b    x = 2 2 4 2 3 3 – 7 4 3   = 10 5 = 2 unit"
+    "explanation": "Correct Answer: Option C | (2 unit) | Solution: (c) 4x + 3y – 7 = 0 (2, 3) Radius of circle = 1 1 2 2 a by c a b    x = 2 2 4 2 3 3 – 7 4 3   = 10 5 = 2 unit"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q011",
@@ -176,15 +176,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The equation of cm is :",
+    "question": "The equation of circle with centre (1, 2) and radius 4 cm is :",
     "options": [
-      "x2 + y2 + 2x",
-      "x2 + y2 – 2x",
-      "x2 + y2 + 2x",
-      "x2 + y2 – 2x"
+      "x2 + y2 + 2x – 4y = 16",
+      "x2 + y2 – 2x + 4y = 16",
+      "x2 + y2 + 2x – 4y = 11",
+      "x2 + y2 – 2x – 4y = 11"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (x2 + y2 – 2x) | Solution: (d) C(1, 2), r = 4 cm equation of circle = (x – h)² + (y – k)² = r² (x – 1)² + (y – 2)² = 16 x² + y² – 2x – 4y + 5 = 16 x² + y² – 2x – 4y = 11"
+    "explanation": "Correct Answer: Option D | (x2 + y2 – 2x – 4y = 11) | Solution: (d) C(1, 2), r = 4 cm equation of circle = (x – h)² + (y – k)² = r² (x – 1)² + (y – 2)² = 16 x² + y² – 2x – 4y + 5 = 16 x² + y² – 2x – 4y = 11"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q012",
@@ -193,15 +193,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The relation between of linear equations 3p – 2q + 23 represents coincident",
+    "question": "The relation between K1 and K2 for which the system of linear equations K1x + 3y = 8 and 4x + K2y = 16 represents coincident lines, is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "K2 = 3K1",
+      "K2 + 3K1 = 0",
+      "K2 = K1",
+      "K1 + K2 = 0"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution: (a)K1x + 3y = 8 ......(i) 4x + K2y = 16 ......(ii) Note:- For coincident lines 1 1 1 2 2 2 a b c = = a b c On comparing equation 1 K 4 = 2 3 K = 8 16 So, 2 3 K = 8 16 , then 1 K 4 = 8 16  K2 = 6, K1 = 2. So, we can say K2 = 3K1"
+    "explanation": "Correct Answer: Option A | (K2 = 3K1) | Solution: (a)K1x + 3y = 8 ......(i) 4x + K2y = 16 ......(ii) Note:- For coincident lines 1 1 1 2 2 2 a b c = = a b c On comparing equation 1 K 4 = 2 3 K = 8 16 So, 2 3 K = 8 16 , then 1 K 4 = 8 16  K2 = 6, K1 = 2. So, we can say K2 = 3K1"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q013",
@@ -210,15 +210,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "Given a linear equation x + y = 2 and 2x – = 0, which of the value of K? the given equation, y = having no solution?",
+    "question": "Given a linear equation in two variables: 5x + 7y – 8 = 0, which of the following linear equations, along with the given equation, forms a system of linear equations having no solution?",
     "options": [
-      "5x + 7y – 16",
-      "7x + 5y – 8",
-      "5x – 7y – 8",
-      "10x + 14y – 4"
+      "5x + 7y – 16 = 0",
+      "7x + 5y – 8 = 0",
+      "5x – 7y – 8 = 0",
+      "10x + 14y – 16 = 0"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5x + 7y – 16) | Solution: (a)Given, 5x + 7y – 8 = 0 If equation have no solution- Then,"
+    "explanation": "Correct Answer: Option A | (5x + 7y – 16 = 0) | Solution: (a)Given, 5x + 7y – 8 = 0 If equation have no solution- Then,"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q014",
@@ -227,15 +227,15 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "If the equations 1) 5 = 0 (k > 0) are origin to the line 6x ;fn lehdj.k 4x + = 0, (k > 0) lekarj",
+    "question": "If the equations 4x + (k – 2)y + 3 = 0 and (k – 2)x + 9y – 5 = 0 (k > 0) are parallel, then find the value of k2 + 6.",
     "options": [
       "68",
-      "4.8 unit",
-      "72 Co-ordinate Geometry (funsZ'kkad T;kfefr)",
-      "5.2 unit of the region created by the two 2x + y = 6 and 2x – y = –2 bounded the x-axis? (b) 8 unit2 (d) 6 unit2 centre is (2, 3) touches the line 4x + the radius of the circle is: (b) 1 unit (d) 3 unit circle with centre (1, 2) and radius 4 – 4y = 16 + 4y = 16 – 4y = 11 – 4y = 11 K1 and K2 for which the system K1x + 3y = 8 and 4x + K2y = 16 lines, is: laca/ ftlds fy, jSf•d lehdj.kksa K1x + 3y (b) K2 + 3K1 = 0 (d) K1 + K2 = 0 following linear equations, along with forms a system of linear equations = 0 = 0 = 0 16 = 0 4x + (k – 2)y + 3 = 0 and (k – 2)x + 9y – parallel, then find the value of k2 + 6. (b) 70 (d) 64"
+      "70",
+      "72",
+      "64"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (4.8 unit)"
+    "explanation": "Correct Answer: Option B | (70)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q015",
@@ -263,13 +263,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "Solve the given set of three equations to get the value of the unknowns:",
     "options": [
-      "x = 0, y = –1, z = 2",
-      "x = –1, y = 0, z = 2",
-      "x = –1, y = 2, z = 0",
-      "x = 2, y = 0, z = –1"
+      "(3x –)/(x = 0, y = –1, z = 2)",
+      "(5z = –13)/(x = –1, y = 0, z = 2)",
+      "(a) x = 0, y = –1, z = 2/(x = –1, y = 2, z = 0)",
+      "(b) x = –1, y = 0, z = 2/(x = 2, y = 0, z = –1)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (x = –1, y = 0, z = 2)"
+    "explanation": "Correct Answer: Option B | ((5z = –13)/(x = –1, y = 0, z = 2))"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q017",
@@ -295,7 +295,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "Find the coordinates of the point which divides the line segment joining the points (2, 1) and (3, 5)",
+    "question": "Find the coordinates of the point which divides the line segment joining the points (2, 1) and (3, 5) externally in the ratio 2 : 3.",
     "options": [
       "(0, –6)",
       "(0, 0)",
@@ -314,13 +314,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "For the following equations, what are the values of a and b to have infinitely many solutions?",
     "options": [
-      "a = – 1, b = – 1",
-      "a = – 1, b = 1",
-      "a = 1, b = – 1",
-      "a = 1, b = 1"
+      "(3x – (5)/(a = – 1, b = – 1)",
+      "(– 2a)y = 6)/(a = – 1, b = 1)",
+      "(a) a = – 1, b = – 1/(a = 1, b = – 1)",
+      "(b) a = – 1, b = 1/(a = 1, b = 1)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (a = 1, b = – 1)"
+    "explanation": "Correct Answer: Option C | ((a) a = – 1, b = – 1/(a = 1, b = – 1))"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q020",
@@ -346,7 +346,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The lines x + y = 10 and –3x + y = 2 have a unique",
+    "question": "The lines x + y = 10 and –3x + y = 2 have a unique solution. What is the distance (in units) between the unique solution and the point of intersection of the line x + y = 10 and the x-axis?",
     "options": [
       "8 2",
       "8",
@@ -365,13 +365,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "The graphs of two linear equations, x + 2y = 15 and 4x + 8y = 13 will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Parallel/lekukarj",
+      "Coincident",
+      "Intersecting at one point",
+      "Intersecting at two points"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (Parallel/lekukarj)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q023",
@@ -467,13 +467,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "The coordinates of the centroid of the triangle ABC whose vertices are A(–5, 7), B(–4, –5) and C(4, 5), is",
     "options": [
-      " – , ",
-      " – , ",
-      "  ",
-      "   "
+      "( 5 7 )/( – , )",
+      "( 7 5 )/( – , )",
+      "(  4 7 )/(  – ,  )",
+      "( 5 7 )/( – ,– )"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ( – , )"
+    "explanation": "Correct Answer: Option A | (( 5 7 )/( – , ))"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q029",
@@ -499,7 +499,7 @@
     "chapter": "Co-ordinate Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
-    "question": "The area of a quadrilateral whose vertices are (3, 0),",
+    "question": "The area of a quadrilateral whose vertices are (3, 0), (4, 5), (–1, 4) and (–2, –1) taken in order, is:",
     "options": [
       "48 sq. units",
       "30 sq. units",
@@ -518,13 +518,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "The pair of equations 3x –5y = 7 and 6 x + 10y = 7 have:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "A unique solution/,d vf}rh; gy",
+      "Infinitely many solutions",
+      "No solution/dksbZ gy ugha",
+      "Two solutions/nks gy"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (No solution/dksbZ gy ugha)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q032",
@@ -535,13 +535,13 @@
     "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
     "question": "If a pair of linear equations is consistent, then the lines will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Intersecting or coincident",
+      "Always intersecting",
+      "always coincident/ges'kk lekikrh",
+      "parallel/lekukarj"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (Intersecting or coincident)"
   },
   {
     "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q033",

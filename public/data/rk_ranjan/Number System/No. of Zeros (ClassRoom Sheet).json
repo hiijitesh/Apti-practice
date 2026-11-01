@@ -57,7 +57,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "Find the number of trailing zeros",
+    "question": "Find the number of trailing zeros in 475!",
     "options": [
       "137",
       "127",
@@ -74,7 +74,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "Find the number of trailing zeros",
+    "question": "Find the number of trailing zeros in 15245!",
     "options": [
       "3707",
       "3507",
@@ -91,7 +91,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "How many zeros are there",
+    "question": "How many zeros are there in the product 150",
     "options": [
       "262",
       "261",
@@ -142,12 +142,12 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What is the highest power of 4",
+    "question": "What is the highest power of 4 in 100! ?",
     "options": [
       "32",
       "48",
       "49",
-      "None of thes"
+      "None of these"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (48)"
@@ -159,7 +159,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What is the highest power of 72",
+    "question": "What is the highest power of 72 in 100! ?",
     "options": [
       "20",
       "21",
@@ -244,12 +244,12 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "What are the last three digits",
+    "question": "What are the last three digits in the multiplication of",
     "options": [
       "1, 0, 5",
       "2, 0, 5",
       "2, 1, 5",
-      "3, 0, 0 ANSWER 1. (b"
+      "3, 0, 0"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (2, 0, 5)"
@@ -295,7 +295,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "No. of Zeros (ClassRoom Sheet).pdf",
-    "question": "How many numbers are there from 400 to 700",
+    "question": "How many numbers are there from 400 to 700 in which the digit 6 occurs exactly twice?",
     "options": [
       "19",
       "21",

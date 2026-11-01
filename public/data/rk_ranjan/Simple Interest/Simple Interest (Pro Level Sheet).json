@@ -6,7 +6,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.x amounts to Rs.9,246",
+    "question": "A sum of Rs.x amounts to Rs.9,246 in 4 years and 1 to Rs.11,298.75 in 7 years, at y% p.a. simple 2 interest. The values of x and y are, respectively:",
     "options": [
       "6900 and 8.5",
       "6800 and 8.5",
@@ -57,7 +57,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A certain sum amounts to Rs.15,748",
+    "question": "A certain sum amounts to Rs.15,748 in 3 years at r % p.a. simple interest. The same sum amounts to Rs.16,510 at (r + 2) % p.a. simple interest in the same time. What is the value of r?",
     "options": [
       "8",
       "9.5",
@@ -65,7 +65,7 @@
       "8.5"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (8) | Solution: (a) ATQ, 3(r + 2)% – 3r% = 16510 – 15748 6% = 762 1% = 127 Principle = 100% = 12700 If sum becomes 15748 3 years at r% rate. S.I. = 15748 – 12700 = Rs.3048 3048 = r 3 100 r = 8"
+    "explanation": "Correct Answer: Option A | (8) | Solution: (a) ATQ, 3(r + 2)% – 3r% = 16510 – 15748 6% = 762 1% = 127 Principle = 100% = 12700 If sum becomes 15748 in 3 years at r% rate. S.I. = 15748 – 12700 = Rs.3048 3048 = r 3 100 r = 8"
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q005",
@@ -74,7 +74,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "Two equal sums are lent at 10% and 8% p.a. on simple interest for ‘t’ years and (t+2) years",
+    "question": "Two equal sums are lent at 10% and 8% p.a. on respectively. If amount received in each case is Rs.36,900. Each sum is:",
     "options": [
       "Rs.20,200",
       "Rs.20,500",
@@ -108,15 +108,15 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A father left a will of Rs.35 lakhs between his two daughters age",
+    "question": "A father left a will of Rs.35 lakhs between his two daughters aged 8.5 year and 16 year such that they may get equal amounts when each of them reach the age of 21 years. The original amount of Rs.35 lakh has been instructed to be invested at 10% p.a simple interest. How much did the elder daughter get at the time of the will?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.17.5 Lakh",
+      "Rs.21 Lakh",
+      "Rs.15 Lakh",
+      "Rs.20 Lakh"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: 5 yrs SI of 3.5 years = 2052.75 SI of 1 years = 586.5 SI of 4 years = 2346 Principal = 9246 – 2346 = 6900 Rate ="
+    "explanation": "Correct Answer: Option B | (Rs.21 Lakh) | Solution: 5 yrs SI of 3.5 years = 2052.75 SI of 1 years = 586.5 SI of 4 years = 2346 Principal = 9246 – 2346 = 6900 Rate ="
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q008",
@@ -125,7 +125,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "5 year and 16 year such that they may get equal amounts when each of them reach the age of 21 years. The original amount of Rs.35 lakh has been instructed to be invested at 10% p.a simple interest. How much did the elder daughter get at the time of the will?",
+    "question": "A sum of Rs.10,000 is divided into two parts such 2 that the simple interest on first part for 8 years 5 2 at 6 % p.a is double the simple interest on the 3 3 second part for 2 years at 8% p.a. what is the 4 difference between the two parts?",
     "options": [
       "Rs.1200",
       "Rs.600",
@@ -142,7 +142,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "The amount obtained on a certain sum of money at 1 8% per annum for 3 years at simple interest is 2 Rs.2,944 less than the simple interest on the same sum for 10 years at double the rate of interest. The",
+    "question": "The amount obtained on a certain sum of money at 1 8% per annum for 3 years at simple interest is 2 Rs.2,944 less than the simple interest on the same sum for 10 years at double the rate of interest. The sum (in Rs.) is 1",
     "options": [
       "9,800",
       "9,200",
@@ -176,7 +176,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.4,000 amounts to Rs.5,008",
+    "question": "A sum of Rs.4,000 amounts to Rs.5,008 in three years at simple interest at the rate of x% per annum. If the interest rate becomes (x + 2.6)%, then the revised maturity amount will be:",
     "options": [
       "Rs.5,320",
       "Rs.5,330",
@@ -193,7 +193,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum is deposited",
+    "question": "A sum is deposited in a bank which gives simple interest. The sum becomes 1.25 times in 3 years. If there is a requirement of Rs.7,60,000 after seven years, how much amount (in Rs.) should one deposit to fulfil the requirement?",
     "options": [
       "5,20,000",
       "5,70,000",
@@ -210,7 +210,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "The simple interest on a certain sum for 3 years at 8% p.a is Rs.90 more than simple interest at 9% p.a",
+    "question": "The simple interest on a certain sum for 3 years at 8% p.a is Rs.90 more than simple interest at 9% p.a for 2 years on the same sum. The sum is (in rupees):",
     "options": [
       "Rs.1900",
       "Rs.2250",
@@ -229,13 +229,13 @@
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
     "question": "A bank charges simple interest for `K at the rate of 1 for n2 years. Another bank charges simple interest r 2 for `L at the rate of 3 for n3 years and gives the same r 2 interest. The ratio between K and L is:",
     "options": [
-      ":",
-      "rn : 1",
-      "r2 : n2",
-      "r 2 : n 2"
+      "1/:",
+      "1/(rn : 1)",
+      "1/(r2 : n2)",
+      "1/(r 2 : n 2)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (rn : 1)"
+    "explanation": "Correct Answer: Option B | (1/(rn : 1))"
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q015",
@@ -244,7 +244,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A person deposited Rs.15,600",
+    "question": "A person deposited Rs.15,600 in a fixed deposit at 10% per annum simple interest. After every second year he adds his interest earned to the principal. The interest at the end of 4 years is:",
     "options": [
       "Rs.6,655",
       "Rs.6,864",
@@ -261,15 +261,15 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "If a, b, c are three sum of money such that b is the simple interest on a and c is the simple interest on b for the same time and at the same rate of interest, then what is the relation between a, b, c?",
+    "question": "If a, b, c are three sum of money such that b is the b for the same time and at the same rate of interest, then what is the relation between a, b, c?",
     "options": [
       "abc = 1",
       "a² = bc",
       "c² = ac",
-      "b² = a"
+      "b² = ac"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (b² = a)"
+    "explanation": "Correct Answer: Option D | (b² = ac)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q017",
@@ -278,7 +278,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.12,000 was borrowed at a rate of simple interest. After four months, Rs. 6000 more was borrowed and rate of interest on the total principle was doubled that of the previous rate. At the end of the year, 2800 was paid as the interest. Find the rate",
+    "question": "A sum of Rs.12,000 was borrowed at a rate of simple interest. After four months, Rs. 6000 more was borrowed and rate of interest on the total principle was doubled that of the previous rate. At the end of the year, 2800 was paid as the interest. Find the rate that was applicable in the initial.",
     "options": [
       "12",
       "16",
@@ -295,7 +295,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.9200 was lent partly at 5% p.a. and the rest at 8% p.a., both at simple interest. Total interest",
+    "question": "A sum of Rs.9200 was lent partly at 5% p.a. and the rest at 8% p.a., both at simple interest. Total interest received after 3 years was Rs.1812. The sum (in Rs.) lent at 5% p.a. was.",
     "options": [
       "5200",
       "4600",
@@ -346,7 +346,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A portion of Rs.48,500 is invested at 15% simple interest per annum. After 2 years of the first investment, the remaining amount is invested at 10% simple interest per annum. After 5 years from the time of investing the first amount, the ratio of interest is",
+    "question": "A portion of Rs.48,500 is invested at 15% simple interest per annum. After 2 years of the first investment, the remaining amount is invested at 10% of investing the first amount, the ratio of interest is 5 : 3. What is the value (in Rs) of the second portion invested at 10% simple interest?",
     "options": [
       "20,940",
       "29,100",
@@ -380,7 +380,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A man takes a loan of some amount at some rate of simple interest. After three years, the loan amount is doubled and the rate of interest is decreased by 2%. After 5 years, if the total interest paid on the whole is Rs.13,600, which is equal to the same when the 1 first amount was taken for 113 years, then the loan taken initially is:",
+    "question": "A man takes a loan of some amount at some rate of doubled and the rate of interest is decreased by 2%. After 5 years, if the total interest paid on the whole is Rs.13,600, which is equal to the same when the 1 first amount was taken for 113 years, then the loan taken initially is:",
     "options": [
       "Rs.10,000",
       "Rs.12,500",
@@ -397,7 +397,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A sum of ` 10000 is invested",
+    "question": "A sum of ` 10000 is invested in three schemes of simple interest. The annual interest rates are respectively, 4%, 6% and 10%. ` 4000 were invested in the first scheme. If the total interest earned after five years is ` 2800, then how much money was invested in the third scheme?",
     "options": [
       "`1500",
       "`5000",
@@ -416,13 +416,13 @@
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
     "question": "A certain sum amounts to Rs.4,600 after 5 years and to Rs.6,000 after 8 years at the same rate of simple interest per annum. What will be the simple interest 1 on a sum of Rs.8,500 for 6 years at the same rate? 2",
     "options": [
-      "Rs.11,375",
+      "2/Rs.11,375",
       "Rs.11,460",
-      "Rs.10,215",
-      "Rs.10,515"
+      "(a) Rs.11,375/Rs.10,215",
+      "(b) Rs.11,460/Rs.10,515"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Rs.11,375)"
+    "explanation": "Correct Answer: Option A | (2/Rs.11,375)"
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q026",
@@ -448,7 +448,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "The difference between the simple interest on a sum of 1 money for 3 years at the rate of 12% per annum and 2 1 simple interest on the same sum of money for 4 years at 2",
+    "question": "The difference between the simple interest on a sum of 1 money for 3 years at the rate of 12% per annum and 2 1 2 10% per annum is `360. Find the sum (in `). 1",
     "options": [
       "16,000",
       "12,000",
@@ -465,7 +465,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "A person invests Rs.90000",
+    "question": "A person invests Rs.90000 in certain schemes A, B and C at the rate of 16%, 19% and 31% per annum respectively. The amount invested in scheme C is 50% more than the amount invested in scheme A. If at the end of three years, the total amount becomes Rs.150300, then find total amount invested in scheme B.",
     "options": [
       "30000",
       "40000",
@@ -482,15 +482,15 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
-    "question": "`18210 is invested",
+    "question": "`18210 is invested in three Schemes-A, B and C for 5 years, 8 years and 4 years respectively. If these three Schemes give a simple interest of 12%, 10% and 12.5% respectively. After completion of each scheme a person gets amount in the ratio 3:7:4 from these schemes. Then find the sum of money invested in Scheme C?",
     "options": [
-      "2.",
-      "3. (b) 4. (a) 5. (b)",
+      "`4320",
+      "`5760",
       "`5880",
       "`5120"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3. (b) 4. (a) 5. (b)) | Solution: `18210 is invested three Schemes-A, B and C for 5 years, 8 years and 4 years respectively. If these three Schemes give a simple interest of 12%, 10% and 12.5% respectively. After completion of each scheme a person gets amount the ratio 3:7:4 from the"
+    "explanation": "Correct Answer: Option B | (`5760) | Solution: `18210 is invested in three Schemes-A, B and C for 5 years, 8 years and 4 years respectively. If these three Schemes give a simple interest of 12%, 10% and 12.5% respectively. After completion of each scheme a person gets amount in the ratio 3:7:4 fr"
   },
   {
     "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q030",
@@ -504,7 +504,7 @@
       "`640",
       "`560",
       "`420",
-      "`480 KEY 6. (b) 7. (b) 8. (a) 9. (b) 10. (a)"
+      "`480"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (`560) | Solution: The amount on a certain sum for two years on simple interest is `2560 less than twice the sum. If the sum of rate of interest and difference of rate of interest for the first years and the second years are 20% and 4% respectively then find the simple"

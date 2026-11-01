@@ -6,7 +6,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "Find the annual installment that will discharge a debt",
+    "question": "Find the annual installment that will discharge a debt of `12900 due in 4 years at 5% per annum simple interest?",
     "options": [
       "`9000",
       "`3000",
@@ -23,7 +23,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "Anil promised to pay Rs.9,048 to Ramesh",
+    "question": "Anil promised to pay Rs.9,048 to Ramesh in 5 annual installments at the rate of 8% per annum simple interest, then calculate the annual installment paid by Anil?",
     "options": [
       "Rs.1,560",
       "Rs.1,300",
@@ -40,15 +40,15 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A person borrows Rs.10 and return",
+    "question": "A person borrows Rs.10 and return in 11 monthly installment of Rs.1 for next 11 months. Find the rate of simple interest annually.",
     "options": [
-      "20",
-      "21",
-      "19",
-      "22"
+      "9/(20 %)",
+      "9/(21 %)",
+      "9/(19 %)",
+      "9/(22 %)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (21) | Solution: (b) R (10 9 8"
+    "explanation": "Correct Answer: Option B | (9/(21 %)) | Solution: (b) R (10 9 8"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q004",
@@ -74,7 +74,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "What five monthly payment will discharge a debt of 1",
+    "question": "What five monthly payment will discharge a debt of 1 ` 94500 in 14 year at 12% per annum simple interest? 1",
     "options": [
       "`30,000",
       "`31,000",
@@ -91,7 +91,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "An amount of Rs.16000 which was borrowed 3 years",
+    "question": "An amount of Rs.16000 which was borrowed 3 years ago is fully repaid in 3 annual installment first 1 installment is of the 2nd installment and 2nd 2 2 installment is of third installment. If the simple 3 interest is 10% per annum. Find the value of the second installment.",
     "options": [
       "Rs.7000",
       "Rs.6000",
@@ -108,7 +108,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A Sonata watch is sold of Rs.440 cash or for Rs.200 cash down payment together with Rs.244 to be paid after one month. Find the rate of interest charged",
+    "question": "A Sonata watch is sold of Rs.440 cash or for Rs.200 cash down payment together with Rs.244 to be paid after one month.",
     "options": [
       "10",
       "15",
@@ -125,7 +125,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A sum of Rs.400 borrowed is to be returned",
+    "question": "A sum of Rs.400 borrowed is to be returned in 9 equal monthly installments of Rs.50 each, then find the annual rate of interest.",
     "options": [
       "25.4",
       "32.33",
@@ -142,15 +142,49 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "An annual installment of `3,500 will discharge a debt",
+    "question": "An annual installment of `3,500 will discharge a debt of `16,310 due in 4 years at y% simple interest per annum. What is the value of y? [Note: Installments will be paid at the end of Year 1, Year 2, Year 3 and Year 4.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.5",
+      "16.5",
+      "11.5",
+      "11"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: (d) 3500 4 = Rs.14000 Interest = (16310 – 14000) = Rs.2310 Let, y = rate of interest IV  3y III  2y II  y I  0 6y% 3500 = Rs.2310 y = 2310 100 3500 6   y = 11% Alternate Method: Annual installment = Rs.3500 Debt = Rs.16310 Time= 4 years Sim"
+    "explanation": "Correct Answer: Option D | (11) | Solution: (d) 3500 4 = Rs.14000 Interest = (16310 – 14000) = Rs.2310 Let, y = rate of interest IV  3y III  2y II  y I  0 6y% 3500 = Rs.2310 y = 2310 100 3500 6   y = 11% Alternate Method: Annual installment = Rs.3500 Debt = Rs.16310 Time= 4 years Sim"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.140 borrowed is to be returned in 2 equal monthly installments of Rs.72 each, then find the annual rate of interest.",
+    "options": [
+      "250/%",
+      "300/%",
+      "329/%",
+      "20%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (300/%) | Solution: (b) ATQ, Debt = Rs.140 Installment = 2 72 = Rs.144 Interest = 144 – 140 = Rs.4 4 = 140 1 R 68 1 R 12 100 12 100      4 = R 1200 208"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A clock is sold for Rs.550 cash or in the installment scheme, for Rs.250 cash down payment and Rs.310 after one month. Find the rate of interest charged in the installment scheme.",
+    "options": [
+      "40",
+      "20",
+      "35",
+      "45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (40)"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q012",
@@ -159,7 +193,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple",
+    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple interest of approximate 10% is charged in lump sum and the money is to be paid in 20 equal annual installments of `25,000. How much is the down payment?",
     "options": [
       "`1,55,945",
       "`1,95,455",
@@ -170,21 +204,38 @@
     "explanation": "Correct Answer: Option B | (`1,95,455)"
   },
   {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "In a store, Arun has two options to buy a mobile phone, either he can pay the full amount of `2,500 or he may buy at an installment scheme, i.e. `520 in down payment and four equal installments, rate of interest being charged at 25% p.a. simple interest. Arun buys a mobile phone on the installment scheme. What is the monthly installment for Arun?",
+    "options": [
+      "510",
+      "530",
+      "550",
+      "520"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (520)"
+  },
+  {
     "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q014",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A bicycle can be purchased on cash payment of rupees 1500. But the same cycle can also be purchased on the cash down payment of rupees 350 and rest",
+    "question": "A bicycle can be purchased on cash payment of rupees 1500. But the same cycle can also be purchased on the cash down payment of rupees 350 and rest can be paid in three equal monthly installments of rupees 400 for next three months. Find the rate of simple interest?",
     "options": [
-      "16",
-      "18",
-      "26",
-      "22"
+      "2/(16 %)",
+      "3/(18 %)",
+      "2/(26 %)",
+      "1/(22 %)"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (26)"
+    "explanation": "Correct Answer: Option C | (2/(26 %))"
   },
   {
     "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q015",
@@ -193,12 +244,12 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A person sells an electric heater for Rs.1100. Rs.500 is to be paid down payment and Rs.620 after one month. The same electric heater is sold to another person for Rs.600 down payment and Rs.540 after one month. Find the ratio of the simple interest rate",
+    "question": "A person sells an electric heater for Rs.1100. Rs.500 is to be paid down payment and Rs.620 after one month. The same electric heater is sold to another person for Rs.600 down payment and Rs.540 after one month. Find the ratio of the simple interest rate charged under installment plan in the first case to the second case.",
     "options": [
       "5 : 12",
       "1 : 2",
       "2 : 3",
-      "None of these S.I. Installmen"
+      "None of these"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A | (5 : 12)"
@@ -210,7 +261,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "A man wants to purchase a T.V. of Rs.9000. He paid Rs.2200 at the time of purchasing and rest amount",
+    "question": "A man wants to purchase a T.V. of Rs.9000. He paid Rs.2200 at the time of purchasing and rest amount will be paid in 5 monthly installment of Rs.1400. Find Rate of interest?",
     "options": [
       "12",
       "6",
@@ -244,7 +295,7 @@
     "chapter": "Simple Interest",
     "sheetType": "Pro Level",
     "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
-    "question": "Pranav borrows a sum of Rs.6,23,305 at the rate of 10% per annum simple interest. At the end of the first year, he repays Rs.16,390 towards return of principal amount borrowed. If Pranav clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much",
+    "question": "Pranav borrows a sum of Rs.6,23,305 at the rate of 10% per annum simple interest. At the end of the first year, he repays Rs.16,390 towards return of principal amount borrowed. If Pranav clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in Rs) at the end of the second year?",
     "options": [
       "7,25,903",
       "7,29,025",

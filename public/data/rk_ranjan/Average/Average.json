@@ -6,7 +6,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The weights (",
+    "question": "The weights (in kg) of five girls of a class are 49, 42, 61, 55 and 58. What is the average weight (in kg) of these five girls?",
     "options": [
       "53",
       "54",
@@ -23,7 +23,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The daily earnings of a taxi driver during a week are: ` 350, ` 470, ` 510, ` 550, ` 560, ` 580 and ` 620. What is his average daily",
+    "question": "The daily earnings of a taxi driver during a week are: ` 350, ` 470, ` 510, ` 550, ` 560, ` 580 and ` 620. What is his average daily earning (in `) for the week?",
     "options": [
       "490",
       "520",
@@ -40,7 +40,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The salaries of T",
+    "question": "The salaries of T in twelve months of a year are: `12,000, `12,000, `12,000, `15,000, `15,000, `15,000, `21,000, `21,000, `21,000, `30,000, `30,000, `30,000. The average salary of T per month in ` is _______.",
     "options": [
       "18000",
       "19500",
@@ -74,7 +74,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "At a courier shop, the weights of 8 parcels were found to be 1.5 kg, 1.25 kg, 1.35 kg, 750 gm, 950 gm, 0.7 kg, 0.4 kg, and 0.5 kg. Find their average weight.",
+    "question": "At a courier shop, the weights of 8 parcels were found to be 1.5 kg, 1.25 kg, 1.35 kg, 750 gm, 950 gm, 0.7 kg, 0.4 kg, and 0.5 kg. Find their",
     "options": [
       "925gm",
       "700gm",
@@ -142,7 +142,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A family spends Rs.4,600 Rs.5,600 Rs.4,800,",
+    "question": "A family spends Rs.4,600 Rs.5,600 Rs.4,800, Rs.3,800 and Rs.6,000 on groceries in the first 5 months of the year. How much should the family spend in the sixth month to make the for 6 months to Rs.4,500?",
     "options": [
       "Rs.2,200",
       "Rs.4,500",
@@ -193,7 +193,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of 50 numbers is 23. If each number is multiplied by 13, then the new average is:",
+    "question": "The average of 50 numbers is 23. If each number is multiplied by 13, then the new",
     "options": [
       "299",
       "88",
@@ -261,7 +261,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 8 values is 36. If 4 is subtracted from",
+    "question": "each of the first three values and 5 is added in the each of dhe next five values, then what will be the new average?",
     "options": [
       "34.325",
       "36.350",
@@ -312,7 +312,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A class of 30 students appeared",
+    "question": "A class of 30 students appeared in a test. The the rest is 74. What is the average score of the class?",
     "options": [
       "70.2",
       "69.2",
@@ -321,6 +321,74 @@
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (69.2) | Exam: SSC CGL 11/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In the 8th class, consisting of 30 students, a Mathematics test was taken. 10 students had an average score of 90. The other students had an average score of 75. What is the average score of the whole class?",
+    "options": [
+      "78",
+      "80",
+      "76",
+      "74"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (80) | Exam: SSC CGL 25/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In an examination of 7 papers of 100 marks each, there were 3 mathematics papers, 2 English papers and 2 Hindi papers. D gets mathematics, English and Hindi, respectively. What are the average marks per paper?",
+    "options": [
+      "56.5",
+      "52.1",
+      "55.6",
+      "54.1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (52.1) | Exam: SSC CGL 26/07/2023 (Shift-4)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In a Hindi test of 100 marks, 11 students got 78 marks, 7 students got 80 marks, 5 students got 82 marks and 2 students got 86 marks. What was the average marks in Hindi?",
+    "options": [
+      "84",
+      "80",
+      "82",
+      "86"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (80) | Exam: SSC Phase X 04/08/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In a college in B.Tech. first year there are three sections A, B and C. If number of students in section A, B and C are 95, 209 and 171 respectively and the average marks of section A, B and C in an exam are 83, 78 and 85 respectively. What is the average marks of first year?",
+    "options": [
+      "80.66",
+      "81.52",
+      "81.48",
+      "82.16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (81.52)"
   },
   {
     "id": "rkr_average_average_classroom_sheet_q024",
@@ -380,7 +448,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average weight of 20 persons is 60 kg. A new person joins the group and average weight of 21 persons becomes 59 kg. What will be the weight of new person?",
+    "question": "person joins the group and average weight of 21 persons becomes 59 kg. What will be the weight of new person?",
     "options": [
       "41 kg",
       "29 kg",
@@ -397,7 +465,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Ram has an average score of 65 runs",
+    "question": "Ram has an average score of 65 runs in 19 innings in cricket matches. Find out how many runs are to be scored by him in the 20th innings to raise the average score to 67.",
     "options": [
       "135",
       "105",
@@ -414,7 +482,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of the ages of a group of 65 men",
+    "question": "The average of the ages of a group of 65 men in 32 years. If 5 men join the group, the the average of the ages of those 5 men joined later (in years) is :",
     "options": [
       "50",
       "55",
@@ -448,15 +516,15 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average height of 8 students of division A is x. If 4 students of average height 156 cm join, the average height of division A increases 2",
+    "question": "The average height of 8 students of division A is x. If 4 students of average height 156 cm join, the average height of division A increases 2 by cm. Find the average height (in cm) of the 3 first 8 students in division A.",
     "options": [
-      "153",
-      "154",
-      "154",
-      "153"
+      "2/153",
+      "1/154",
+      "3/154",
+      "3/153"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (154)"
+    "explanation": "Correct Answer: Option C | (3/154)"
   },
   {
     "id": "rkr_average_average_classroom_sheet_q032",
@@ -482,7 +550,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 15 numbers is 53. A number is removed and the average of 14 numbers now becomes 55. which number was removed ?",
+    "question": "removed and the average of 14 numbers now becomes 55. which number was removed ?",
     "options": [
       "26",
       "23",
@@ -516,7 +584,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "There are 15 students",
+    "question": "There are 15 students in a class. Their average weight is 40 kg. When one student leaves the class, the average weight is 39.5 kg. What is the weight of the student who left the class (where kg means kilogram)?",
     "options": [
       "47 kg",
       "42 kg",
@@ -527,13 +595,30 @@
     "explanation": "Correct Answer: Option C | (52 kg) | Exam: SSC CGL 21/07/2023 (Shift-03)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In a hotel, there are 120 staff members. Their staff members leaves the hotel, the average weight is reduced by 250 g. Find the weight of the staff member who left the hotel.",
+    "options": [
+      "64.25 kg",
+      "78.75 kg",
+      "90.50 kg",
+      "92.25 kg"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (92.25 kg) | Exam: SSC CGL 09/12/2022 (Shift- 01)"
+  },
+  {
     "id": "rkr_average_average_classroom_sheet_q037",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average score",
+    "question": "The average score in Mathematics of a class of 36 students is 60. If the top two scores are excluded, the average goes down by 2. If the second highest score of the class is 90, find the highest score of the class.",
     "options": [
       "96",
       "99",
@@ -601,7 +686,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Out of 10 teachers of a school, one teacher",
+    "question": "Out of 10 teachers of a school, one teacher retires and in place of him a new teacher who is 25 yeas old joins. As a result average age of the teachers reduces by 3 years. Age of the retired teacher (in yrs.) is :",
     "options": [
       "55",
       "65",
@@ -635,7 +720,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average age of a group is increased by 4 years when a person of whose age is 32 years was replaced by a person whose age is 56. Find the",
+    "question": "The average age of a group is increased by 4 years when a person of whose age is 32 years was replaced by a person whose age is 56. Find the number of people in the group",
     "options": [
       "6",
       "7",
@@ -652,7 +737,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A group of students has an average weight of 42 kg. One student of weight 48 kg leaves the group and another student of weight 44 kg joins the group. If the new average weight becomes 41.6 kg, then how many students are",
+    "question": "A group of students has an average weight of 42 kg. One student of weight 48 kg leaves the group and another student of weight 44 kg joins the group. If the new average weight becomes 41.6 kg, then how many students are there in the group?",
     "options": [
       "15",
       "10",
@@ -720,7 +805,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of the marks of 25 students",
+    "question": "The average of the marks of 25 students in a class, in an examination was calculated to be 19. Later, the teacher realized that the marks of two students were taken as 18 and 19 respectively, instead of 14 and 15. Find the new actual average marks of the class.",
     "options": [
       "17.43",
       "16.56",
@@ -737,7 +822,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A student finds the average of ten 2-digit numbers. While copying numbers by mistake, he writes one number with its digits interchanged. As a result his answer is 2.7 less than the correct answer. The difference of the",
+    "question": "A student finds the average of ten 2-digit numbers. While copying numbers by mistake, he writes one number with its digits interchanged. As a result his answer is 2.7 less than the correct answer. The difference of the digits of the number, in which he made mistake, is :",
     "options": [
       "3",
       "5",
@@ -754,7 +839,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average marks of 25 students is 40. One student got 20 marks instead of 60 and other",
+    "question": "student got 20 marks instead of 60 and other student got 90 marks in place of 80. The number of student wrongly read as 25 instead 20. Find the true average.",
     "options": [
       "51.5",
       "52",
@@ -771,7 +856,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Abhishek's marks",
+    "question": "Abhishek's marks in Mathematics were incorrectly entered as 93 instead of 63. Due to this, the average marks of the class in Mathematics got increased by 0.5. How many students were there in the class?",
     "options": [
       "45",
       "55",
@@ -782,13 +867,30 @@
     "explanation": "Correct Answer: Option C | (60) | Exam: SSC CHSL 05/07/2024 (Shift-01)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In an exam, the average marks was found to be 50. After deducing computational errors the marks of the 100 candidates had to be changed from 90 to 60 each and the average came down to 45 marks. The total number of candidates who took the exam, were :",
+    "options": [
+      "300",
+      "600",
+      "200",
+      "150"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (600)"
+  },
+  {
     "id": "rkr_average_average_classroom_sheet_q053",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Several students have taken an exam. There",
+    "question": "Several students have taken an exam. There was an error in the answer key which affected the marks of 48 students, and their average marks reduced from 78 to 66. The average of remaining students increased by 3.5 marks. This resulted the reduction of the average of the all students by 4.5 marks. The number of students that attended the exam is :",
     "options": [
       "96",
       "84",
@@ -805,7 +907,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "While finding the average marks of a class,",
+    "question": "While finding the average marks of a class, Vikas’s marks were wrongly entered as 98 in place of 89. Due to this error, the average marks of the class were 0.25 more than the actual average. What is the number of students in the class?",
     "options": [
       "32",
       "38",
@@ -822,7 +924,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A student‘s marks were wrongly entered as 65 instead of 45. Due to this, the average marks 1 for the class got increased by . The number 3",
+    "question": "A student‘s marks were wrongly entered as 65 instead of 45. Due to this, the average marks 1 for the class got increased by . The number 3 of students in the class is:",
     "options": [
       "40",
       "20",
@@ -994,13 +1096,13 @@
     "sheetFile": "Average (ClassRoom Sheet).pdf",
     "question": "What is the average of the first six prime numbers?",
     "options": [
-      "6",
-      "6 3 6 1 61",
-      "6",
-      "6 3"
+      "2/6",
+      "5/6",
+      "1/6",
+      "61"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (6 3 6 1 61) | Exam: SSC CPO 05/10/2023 (Shift-3)"
+    "explanation": "Correct Answer: Option B | (5/6) | Exam: SSC CPO 05/10/2023 (Shift-3)"
   },
   {
     "id": "rkr_average_average_classroom_sheet_q066",
@@ -1077,7 +1179,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of a set of 18 consecutive integers",
+    "question": "The average of a set of 18 consecutive integers is 22.5. What is the largest integer in the set?",
     "options": [
       "13",
       "17",
@@ -1094,7 +1196,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 17 consecutive natural numbers is 41. What is the smallest number among these numbers?",
+    "question": "41. What is the smallest number among these numbers?",
     "options": [
       "27",
       "29",
@@ -1145,7 +1247,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 17 consecutive natural numbers is 41. What is the smallest number among these numbers?",
+    "question": "41. What is the smallest number among these numbers?",
     "options": [
       "27",
       "29",
@@ -1230,7 +1332,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "10 Consecutive numbers are given. If the",
+    "question": "10 Consecutive numbers are given. If the is 13.5, then what is the sum of the first 6 numbers?",
     "options": [
       "58",
       "55",
@@ -1300,13 +1402,13 @@
     "sheetFile": "Average (ClassRoom Sheet).pdf",
     "question": "The average of nine consecutive numbers is n. If the next two numbers are also included the new average will",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Increase by 2",
+      "Remain the same/leku jgsxk",
+      "Increase by 1.5",
+      "Increase by 1"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (Increase by 1)"
   },
   {
     "id": "rkr_average_average_classroom_sheet_q084",
@@ -1315,7 +1417,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of 5 consecutive natural numbers is M. If the next three natural numbers are also included, How much more than M will the average of these 8 numbers be ?",
+    "question": "The average of 5 consecutive natural numbers is M. If the next three natural numbers are also included, How much more than M will the",
     "options": [
       "2",
       "1",
@@ -1332,7 +1434,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of eleven consecutive positive",
+    "question": "The average of eleven consecutive positive integers in increasing order is 251. If the next four odd numbers are included, then what is the average of all the numbers?",
     "options": [
       "253",
       "253.4",
@@ -1451,7 +1553,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "10 Consecutive numbers are given. If the",
+    "question": "10 Consecutive numbers are given. If the is 13.5, then what is the sum of the first 6 numbers?",
     "options": [
       "58",
       "55",
@@ -1502,7 +1604,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 9 consecutive odd numbers is 27. If the previous and next odd number to these 9 odd numbers are also included, then what will be me new average?",
+    "question": "the previous and next odd number to these 9 odd numbers are also included, then what will be me new average?",
     "options": [
       "32",
       "28",
@@ -1536,7 +1638,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of 7 even consecutive natural number is N. Dropping the first 2 even Numbers and including the next 2 even numbers the average is changed to M. If the value of M2 – N2 = 160. Then Find M and N?",
+    "question": "The average of 7 even consecutive natural number is N. Dropping the first 2 even Numbers and including the next 2 even numbers the = 160. Then Find M and N?",
     "options": [
       "22, 18",
       "20, 30",
@@ -1553,7 +1655,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of the marks of 132 students of a college is 50. If the average of the marks of the passed students is 55 and the average of the marks of the failed students is 35, then what will be the respective ratio of the total marks of passed students and the total marks of failed students?",
+    "question": "college is 50. If the average of the marks of the passed students is 55 and the average of the marks of the failed students is 35, then what will be the respective ratio of the total marks of passed students and the total marks of failed students?",
     "options": [
       "1 : 3",
       "11 : 7",
@@ -1570,7 +1672,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Rakesh runs a coaching institute having 50 faculty members. The average monthly salary of 35 faculty members is Rs. 37,500. What will",
+    "question": "Rakesh runs a coaching institute having 50 faculty members. The average monthly salary of 35 faculty members is Rs. 37,500. What will be the average monthly salary (in Rs.) of the other 15 faculty members, if the average monthly salary of all the 50 faculty members is found to be Rs.30,000?",
     "options": [
       "12,000",
       "13,000",
@@ -1581,13 +1683,30 @@
     "explanation": "Correct Answer: Option C | (12,500) | Exam: SSC CPO 05/10/2023 (Shift-3)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q100",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In a class of 60 students, 20 are girls. The kg, while that of all the girls is 35 kg. What is the average weight (in kg) of the entire class (correct to two decimal places)?",
+    "options": [
+      "36.67",
+      "38.33",
+      "33.33",
+      "40.67"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (38.33) | Exam: SSC CGL 24/07/2023 (Shift-2)"
+  },
+  {
     "id": "rkr_average_average_classroom_sheet_q101",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average marks obtained by 80 students",
+    "question": "The average marks obtained by 80 students in an examination is 50. If the average marks of passed students is 55 and the number of students who failed the examination are 30, then what is the average marks of students who failed the examination?",
     "options": [
       "41.66",
       "46.66",
@@ -1604,7 +1723,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Sunidhi earned an average of Rs.6250 per month during the part 12 months. During the first 10 months her average earnings per month was Rs.5800. What was Sunidhi's average earnings per month during the last two months of the period?",
+    "question": "Sunidhi earned an average of Rs.6250 per month during the part 12 months. During the first 10 months her average earnings per month was Rs.5800. What was Sunidhi's two months of the period?",
     "options": [
       "Rs.8500",
       "Rs.7750",
@@ -1621,7 +1740,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average height of girls",
+    "question": "The average height of girls in a group is 154 cm and the average height of boys in the group is 3 cm more than the average height of all the boys and girls in the group. if the number of girls is 25% less than the number of boys, then what is the average height (in cm) of the boys?",
     "options": [
       "159",
       "158",
@@ -1638,7 +1757,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Out of 72 students",
+    "question": "Out of 72 students in a class, the number of boys is 40% more than the number of girls. The average score of all the students in a test is 63. If the average score of the girls is 30% more than that of the boys, then what is the",
     "options": [
       "71.5",
       "74.1",
@@ -1655,7 +1774,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "5 years ago, the average age of A, B, C and D was 45 years. When X is added then the average of all five becomes 49 years. What is the present age of X?",
+    "question": "5 years ago, the average age of A, B, C and D was 45 years. When X is added then the is the present age of X?",
     "options": [
       "64 years",
       "48 years",
@@ -1689,7 +1808,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The current average age of a family of five members is 24. If the present age of the",
+    "question": "The current average age of a family of five members is 24. If the present age of the youngest member in the family is 8 years, what was the average age of the family members just before the birth of this youngest member?",
     "options": [
       "24 years",
       "20 years",
@@ -1740,7 +1859,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average age of 5 children of a family is 15 years. Average age of children together with their father and mother is 25 years. If the father is older than the mother by 4 years, then find",
+    "question": "The average age of 5 children of a family is 15 years. Average age of children together with their father and mother is 25 years. If the father is older than the mother by 4 years, then find the age of mother (in years).",
     "options": [
       "44",
       "48",
@@ -1757,7 +1876,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "6 years ago, the average age of the four members of a family was 15 years.",
+    "question": "6 years ago, the average age of the four members of a family was 15 years. In the meantime, two children were born in that family. However, the present average age of the members of that family is still the same as it was 6 years ago. If there is a difference of 2 years in the ages of the children, then what is the age of the elder child?",
     "options": [
       "5 years",
       "2 years",
@@ -1774,7 +1893,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A student finds the average of ten 2-digit numbers. While copying numbers by mistake, he writes one number with its digits interchanged. As a result his answer is 2.7 less than the correct answer. The difference of the",
+    "question": "A student finds the average of ten 2-digit numbers. While copying numbers by mistake, he writes one number with its digits interchanged. As a result his answer is 2.7 less than the correct answer. The difference of the digits of the number, in which he made mistake, is :",
     "options": [
       "3",
       "5",
@@ -1791,7 +1910,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A cricket batsman had a certain average of runs for his 11 innings.",
+    "question": "A cricket batsman had a certain average of runs for his 11 innings. In the 12th innings, he made a score of 90 runs after that his",
     "options": [
       "155",
       "150",
@@ -1808,7 +1927,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "A batsman made certain average of runs",
+    "question": "A batsman made certain average of runs in 16 innings. He made 85 runs in his 17th innings there after his average runs is increased by 3 runs. Find the average runs after 17th innings.",
     "options": [
       "37",
       "34",
@@ -1825,7 +1944,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 64 innings of a player is 62 runs, difference between his maximum and minimum score is 180 runs. If these two innings are excluded then the average of remaining innings is 60 runs. Then his maximum score is :",
+    "question": "difference between his maximum and minimum score is 180 runs. If these two innings are excluded then the average of remaining innings is 60 runs. Then his maximum score is :",
     "options": [
       "180",
       "209",
@@ -1842,7 +1961,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The bowling average of cricketer is 12.4. He improves his bowling average by 0.2 points",
+    "question": "The bowling average of cricketer is 12.4. He improves his bowling average by 0.2 points when he takes 5 wickets for 26 runs in his last match. The number of wickets taken by him before the last match is :",
     "options": [
       "125",
       "150",
@@ -1944,7 +2063,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 6 natural number is 50. If the average of first 3 natural number is 40 and the 4th number is 10 less than the 5th number and 20 less than 6th number. Then find the 4th number?",
+    "question": "the 4th number is 10 less than the 5th number and 20 less than 6th number. Then find the 4th number?",
     "options": [
       "60",
       "50",
@@ -1961,7 +2080,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of 8 numbers is 44. The average of first three numbers is 50 and the average of next two numbers is 52. If the sixth number is 6 and 8 less than seventh and eighth number respectively, then what is the value of eighth number?",
+    "question": "first three numbers is 50 and the average of next two numbers is 52. If the sixth number is 6 and 8 less than seventh and eighth number respectively, then what is the value of eighth number?",
     "options": [
       "36",
       "32",
@@ -1978,7 +2097,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of thirteen numbers is 47. The average of the first three number is 39 and that of the next seven number is 49. The 11th num- ber is two times the 12th number and 12th number is 3 less than the 13th number. What is the average of 11th and 13th number?",
+    "question": "The average of thirteen numbers is 47. The of the next seven number is 49. The 11th num- ber is two times the 12th number and 12th number is 3 less than the 13th number. What is the average of 11th and 13th number?",
     "options": [
       "54.5",
       "57",
@@ -1995,7 +2114,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average age of 7 students of a class is 28 years. Average age of first three students is 30 years. Age of fourth student is 4 years less than the age of fifth student. Ages of last two students is same and is 5 more than the average age of first three students. What is the average age of fourth and fifth student?",
+    "question": "years. Average age of first three students is 30 years. Age of fourth student is 4 years less than the age of fifth student. Ages of last two students is same and is 5 more than the the average age of fourth and fifth student?",
     "options": [
       "20 years",
       "18 years",
@@ -2046,7 +2165,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average of 25 numbers is 64. The averages of the first 13 numbers and that of the last 13 numbers are 62.8 and 72.2, respectively. If the 12th number is 61, and if the 12th and 13th numbers are excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+    "question": "The average of 25 numbers is 64. The averages of the first 13 numbers and that of the last 13 numbers are 62.8 and 72.2, respectively. If the 12th number is 61, and if the 12th and 13th numbers are excluded, then what is the one decimal place)?",
     "options": [
       "59.2",
       "62.2",
@@ -2097,7 +2216,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "If A is of C, and B is twice of A, and the 6 average of A, B and C is 30, then the difference between A and C is: 1",
+    "question": "If A is of C, and B is twice of A, and the 6 between A and C is: 1",
     "options": [
       "60",
       "40",
@@ -2106,6 +2225,40 @@
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | (50) | Exam: SSC CPO 23/11/2020 (Shift-2)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q132",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In an examination the average score of a student was 20 in four subjects. If he would have got 10 more marks in maths, 20 more marks in english, 10 marks in reasoning and x more marks in G.S. then this average score would have been 30. What is value of x?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_average_average_classroom_sheet_q133",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In an examintion, the average score of a student was 67.6. If he would have got 27 more marks in Mathematics, 10 more marks in Computer Science,18 more marks in History and retained the same marks in other subjects, then his average score would have been 72.6. How many paper were there in the examination?",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (11)"
   },
   {
     "id": "rkr_average_average_classroom_sheet_q134",
@@ -2131,7 +2284,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "If numbers 2 , 3 , 4 and 5 occur (2 + 5k), (5k – 7), (2k – 3) and (k + 2) times, respectively. The average of the numbers is 2.85. Later on, the",
+    "question": "If numbers 2 , 3 , 4 and 5 occur (2 + 5k), (5k – 7), (2k – 3) and (k + 2) times, respectively. The number 2 was rerplaced by 6 in all the places. What is the average of the new numbers?",
     "options": [
       "2.4",
       "3.84",
@@ -2148,7 +2301,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Average of the numbers a, b, c and d is 2d + 4. Also, the average of the numbers a and b, b and c, c and d are 8, 5 and 4 respectively. If e = a + d – 1, then what is the average of the numbers d and e?",
+    "question": "4. Also, the average of the numbers a and b, b and c, c and d are 8, 5 and 4 respectively. If e = a + d – 1, then what is the average of the numbers d and e?",
     "options": [
       "3",
       "8",
@@ -2199,7 +2352,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "There are four natural numbers. The average",
+    "question": "There are four natural numbers. The average of any three numbers is added in the fourth number and in this way, the numbers 29, 23, 21 and 17 are obtained. One of the numbers is:",
     "options": [
       "11",
       "24",
@@ -2216,7 +2369,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Eleven friends spent Rs 18 each on a tour and the twelfth friend spent Rs 11 less than the average expenditure of all twelve of them. What is the total money spent by twelve friends?",
+    "question": "Eleven friends spent Rs 18 each on a tour and the twelfth friend spent Rs 11 less than the What is the total money spent by twelve friends?",
     "options": [
       "Rs.204",
       "Rs.215",
@@ -2250,7 +2403,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "There were 70 students",
+    "question": "There were 70 students in a hostel. After admission of 14 new students, the expenses of mess increases by Rs. 28 per day while the What was the orginial expenditure of the mess?",
     "options": [
       "Rs.550",
       "Rs.560",
@@ -2267,7 +2420,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "There were 54 students",
+    "question": "There were 54 students in a hostel. Due to the admission of 9 new students, the expenses of the mess were increased by ` 540 per day while the average expenditure per head diminished by ` 3. What was the original expenditure (in `) of the mess?",
     "options": [
       "4374",
       "4419",
@@ -2284,7 +2437,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average weight of students of section A and B having 40 students each is 45.5 kg and 44.2 kg respectively. Two students of section A having average weight 48.75 kg were shifted B and 2 students of section B were shifted to section A, marking the average weight of both the section equal. What is the",
+    "question": "The average weight of students of section A and B having 40 students each is 45.5 kg and 44.2 kg respectively. Two students of section A having average weight 48.75 kg were shifted B and 2 students of section B were shifted to section A, marking the average weight of both the section equal. What is the were shifted from section B to section A?",
     "options": [
       "34.5",
       "35",
@@ -2301,7 +2454,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The batting average for 27 innings of a cricket",
+    "question": "The batting average for 27 innings of a cricket player is 47 runs. His highest score in an innings exceeds his lowest score by 157 runs. If these two innings are excluded, the average score of the remaining 25 innings is 42 runs. Find his highest score in an innings.",
     "options": [
       "176",
       "188",
@@ -2318,7 +2471,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average expenditure of a man for the first five months is ` 7,200 and for the next seven months is ` 7,600. If he saves ` 36,800 during the year, then his average income per month",
+    "question": "The average expenditure of a man for the first five months is ` 7,200 and for the next seven months is ` 7,600. If he saves ` 36,800 during the year, then his average income per month (in `) is:",
     "options": [
       "11,000",
       "12,000",
@@ -2335,7 +2488,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average monthly expenditure of a family was Rs 18,600 during the first three months, Rs 21,750 during the next four months and Rs 22,840 during the last five months of a year. If the total savings during the year was Rs 1,43,020, then the average monthly income",
+    "question": "The average monthly expenditure of a family was Rs 18,600 during the first three months, Rs 21,750 during the next four months and Rs 22,840 during the last five months of a year. If the total savings during the year was Rs 1,43,020, then the average monthly income (in Rs) of the family was:",
     "options": [
       "32,225",
       "34,115",
@@ -2369,7 +2522,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "The average sale of cars per day by a dealer",
+    "question": "The average sale of cars per day by a dealer in the month of April is 28. The average sale of cars on Saturday is 30 and the average sale of cars on Fridays is 37. What is the average sale of cars on the other days of the month if the month starts on a Tuesday?",
     "options": [
       "25",
       "29",
@@ -2380,13 +2533,30 @@
     "explanation": "Correct Answer: Option D | (26) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q150",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In an exhibition in the month of December starting with Thursday, the average number of visitors on saturday is 254. The average number of visitors on Sunday is 625 and an the month is x. If the average number of visitors, per day, for the whole month is 238, then what is the value of x ?",
+    "options": [
+      "163",
+      "166",
+      "165",
+      "164"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (164) | Exam: ICAR Mains, 07/07/2023 (Shift-3)"
+  },
+  {
     "id": "rkr_average_average_classroom_sheet_q151",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister does not agree with Raghav and she thinks that his weight is more than 60 kg but less than 69 kg. His mother's view is that his weight cannot be more than 68 kg. His father's view is that his weight cannot be more than 67 kg. If all are",
+    "question": "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister does not agree with Raghav and she thinks that his weight is more than 60 kg but less than 69 kg. His mother's view is that his weight cannot be more than 68 kg. His father's view is that his weight cannot be more than 67 kg. If all are them are correct in their estimation, then what is the average of different probable weights of Raghav measured (in kg)?",
     "options": [
       "66",
       "67",
@@ -2397,13 +2567,30 @@
     "explanation": "Correct Answer: Option B | (67) | Exam: SSC CGL 18/07/2023 (Shift-03)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q152",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In Shiva’s opinion, his weight is greater than 65 kg but less than 72 kg. His sister does not agree with Shiva, and she thinks that Shiva’s weight is greater than 60 kg but less than 70 kg. His father’s view is that his weight cannot be greater than 68 kg. If all of them are correct in their estimation, then the average of the different probable weights (in kg) of Shiva is:",
+    "options": [
+      "67",
+      "68",
+      "66",
+      "69"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (67)"
+  },
+  {
     "id": "rkr_average_average_classroom_sheet_q153",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "One page is torn from a booklet whose pages",
+    "question": "One page is torn from a booklet whose pages are numbered in the usual manner starting from the first page as 1. The sum of the numbers on the remaining pages is 195. The torn page contains which of the following numbers?",
     "options": [
       "5, 6",
       "7, 8",
@@ -2420,7 +2607,7 @@
     "chapter": "Average",
     "sheetType": "ClassRoom",
     "sheetFile": "Average (ClassRoom Sheet).pdf",
-    "question": "Ram, Shyam, Rohan, Reeta and Mukesh are five members of a family who are weighed consecutively and their average weight is calculated after each member is weighed. If the average weight increases by 2 kg each time, how much heavier is Mukesh than Ram?",
+    "question": "Ram, Shyam, Rohan, Reeta and Mukesh are five members of a family who are weighed consecutively and their average weight is calculated after each member is weighed. If the much heavier is Mukesh than Ram?",
     "options": [
       "14 kg",
       "18 kg",
@@ -2431,18 +2618,35 @@
     "explanation": "Correct Answer: Option C | (16 kg)"
   },
   {
+    "id": "rkr_average_average_classroom_sheet_q155",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Average (ClassRoom Sheet).pdf",
+    "question": "In a class with a certain number of students, if one student weighing 30 kg is added, then the If one more student weighing 30 kg is added, then the average weight of the class increases by 1.5 kg over the original average. What is the original average weight (in kg) of the class?",
+    "options": [
+      "27",
+      "26.5",
+      "25.5",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (27) | Exam: SSC CHSL 09/07/2024 (Shift-04)"
+  },
+  {
     "id": "rkr_average_average_pro_level_sheet_q001",
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The weights of five tests",
+    "question": "The weights of five tests in a class and Ritu's scores on those tests are as follows. What is the weighted average of the percentages she obtained on the five tests?",
     "options": [
-      "65.4",
+      "20/65.4%",
       "73.7",
-      "82.4",
-      "77.6"
+      "82.4%",
+      "77.6%"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B | (73.7) | Solution: (b) Weighted average = Score Important Maximum           % 12 16 40 8 14 15 12 30 10 33 % 20 20 50 10 20                 = [9 + 9.6 + 24 + 8 + 23.1]% = 73.7"
@@ -2454,7 +2658,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of some students is 35.5 kg. Twelve students, whose is 37 kg, leave the section, and five weighing 40 kg, 39.5 kg, 38.5 kg, kg, join the section, increasing by 300 grams. What was the",
+    "question": "The average weight of some students in a section is 35.5 kg. Twelve students, whose average weight is 37 kg, leave the section, and five more students, weighing 40 kg, 39.5 kg, 38.5 kg, 42 kg, and 47.5 kg, join the section, increasing the average weight by 300 grams. What was the initial number of students in the section?",
     "options": [
       "47",
       "53",
@@ -2471,12 +2675,12 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A large joint family consists of 4 parents, and 8 cousins. The grandparents is 74 years, the parents the cousins 22 years. What is the family members?",
+    "question": "A large joint family consists of 4 grandparents, 4 parents, and 8 cousins. The average age of the grandparents is 74 years, the parents 58 years, and the cousins 22 years. What is the average age of the family members?",
     "options": [
       "65 years",
-      "20",
+      "20 years",
       "44 years",
-      "32"
+      "32 years"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (44 years) | Solution: (c) 4 4 8 74 58 22 +16 –36 Grand- parents Parents Cousin Number Average Let average = 58 Total deviation = 4 16 – 8 36 = –224  Family average = 58 – 224 16 = 44 years"
@@ -2488,15 +2692,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of some children kg. When 10 children with an average kg leave the group or 15 children weight of 50 kg join the group, the the children re",
+    "question": "The average weight of some children in a group is 45 kg. When 10 children with an average weight of 40 kg leave the group or 15 children with an average weight of 50 kg join the group, the average weight of the children re",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45 and 55",
+      "55 and 65",
+      "65 and 75",
+      "35 and 45"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Exam: mains the same in | Solution: (b) Given, Case-(I) 45kg –10 40kg Number Average   x Deviation the first cause  5 10 Case-(II) 45kg 15 50kg Number Average   x Deviation the second cause  5 15 ATQ, 5 10 5 15 45 45 – 10 15       x x"
+    "explanation": "Correct Answer: Option B | (55 and 65) | Exam: mains the same in both cases. Initially, | Solution: (b) Given, Case-(I) 45kg –10 40kg Number Average   x Deviation in the first cause  5 10 Case-(II) 45kg 15 50kg Number Average   x Deviation in the second cause  5 15 ATQ, 5 10 5 15 45 45 – 10 15       x x"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q005",
@@ -2505,15 +2709,49 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of the first 5 numbers next 4 numbers less than the 11th 12th number, then 11th and 12th number?",
+    "question": "The average of 12 numbers is 47. The average of the first 5 numbers is 45 and the average of the next 4 numbers is 52. If the 10th number is 10 less than the 11th number and is 5 more than the 12th number, then what is the average value of the 11th and 12th number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44.5",
+      "47.5",
+      "42.5",
+      "46.5"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | Solution:        x x = 35.8 "
+    "explanation": "Correct Answer: Option A | (44.5) | Solution:        x x = 35.8 "
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In a class with a certain number of students, if one student weighing 30 kg is added, then the average weight of the class increases by 1 kg. If one more student weighing 30 kg is added, then the average weight of the class increases by 1.5 kg over the original average. What is the original average weight (in kg) of the class?",
+    "options": [
+      "27",
+      "26.5",
+      "25.5",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (27)"
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In an exhibition in the month of December starting with Thursday, the average number of visitors on Saturday is 254. The average number of visitors on Sunday is 625 and an average number of a visitors on other days of the month is x. If the average number of visitors, per day, for the whole month is 238, then what is the value of x?",
+    "options": [
+      "163",
+      "166",
+      "165",
+      "164"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (164)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q008",
@@ -2522,7 +2760,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight with an average 48.5 kg. Ten of average weight of leave the class both cases. Initially, weight is 46.5 was between average increases who were there Average (vkSlr)",
+    "question": "The average weight of certain students in a class is 48.5 kg. Ten of them, whose average weight is 45 kg. leave the class and eight students, whose average weight is 46.5 kg, join the class. Thereby, the new who were there originally was:",
     "options": [
       "42",
       "50",
@@ -2539,15 +2777,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of seven consecutive with ‘K’ is m. What is the average integers starting with (K + 2)?",
+    "question": "The average of seven consecutive integers starting with ‘K’ is m. What is the average of 8 consecutive integers starting with (K + 2)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(m + 2)",
+      "(m + 5)",
+      "(2m + 5)",
+      "m + 3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | ((2m + 5))"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q010",
@@ -2556,7 +2794,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "There are 3 groups of persons - children. There are 20 males and females and children taken together that of the males. The average 54 kg, that of females is 49 kg and is 30 kg. If the average weight of is 48.25 kg, then what is the the number of females and the number",
+    "question": "There are 3 groups of persons - male, female and children. There are 20 males and the number of females and children taken together is 4 more than that of the males. The average weight of males is 54 kg, that of females is 49 kg and that of children is 30 kg. If the average weight of the whole group is 48.25 kg, then what is the difference between the number of females and the number of children?",
     "options": [
       "17",
       "14",
@@ -2573,7 +2811,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A shopkeeper has three types of average quantity of three types of x oil is 20 litres more than type litres more than type y oil. If the and z oil are `12 per litre, `30 per litre respectively, then find the average types of oil? (Correct to two decimal",
+    "question": "A shopkeeper has three types of oil x, y and z. The x oil is 20 litres more than type z oil, which is 14 litres more than type y oil. If the costs of type x, y and z oil are `12 per litre, `30 per litre and `24 per litre respectively, then find the average cost of three types of oil? (Correct to two decimal places)",
     "options": [
       "`17.85/lt",
       "`16.83/lt",
@@ -2590,15 +2828,32 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A painter is paid x rupees for metres of a wall and y rupees for metre. During a week, he painted Monday, 13 metres on Tuesday, Wednesday, 11 metres on Thursday on Friday. What is the average rupees for the five days?",
+    "question": "A painter is paid x rupees for painting every 10 metres of a wall and y rupees for painting every extra metre. During a week, he painted 10 metres on Monday, 13 metres on Tuesday, 12 metres on Wednesday, 11 metres on Thursday and 12 metres on Friday. What is the average daily earning in rupees for the five days?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8/(x + y)",
+      "9y/(5 x +)",
+      "8/(10 x +)",
+      "x/(5x + 8y)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (8/(x + y))"
+  },
+  {
+    "id": "rkr_average_average_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Average",
+    "sheetType": "Pro Level",
+    "sheetFile": "Average (Pro Level Sheet).pdf",
+    "question": "In a team, the average age of 30 boys is 12 years 6 months. After the admission of five new boys, the Out of the 5 new boys, the age of youngest boy is ten years and one month. Find the average age of the remaining 4 new boys?",
+    "options": [
+      "16 years 9 months",
+      "16 years 3 months",
+      "15 years 3 months",
+      "13 years 9 months"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16 years 9 months)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q014",
@@ -2607,15 +2862,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average age that of children total strength of the whole group is increased by difference between the class is increased of children? of class was 40",
+    "question": "The average age of students in a class is 45% of the total strength of the class. When strength of the class is increased by 50% the average age of students of the class is increased by 6 months. If initial strength of class was 40 then find the average age of newly admitted student.",
     "options": [
-      "19 years 6",
+      "19 years 6 months",
       "20 years",
-      "19 years oil x, y and z. The",
-      "20 years 6 oil is 72 litres. Typ"
+      "19 years",
+      "20 years 6 months"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (19 years 6)"
+    "explanation": "Correct Answer: Option A | (19 years 6 months)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q015",
@@ -2624,15 +2879,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight z oil, which is 14 6 more apples",
+    "question": "The average weight of apples in a basket is 50 kg. 6 more apples with the average weight of 60 kg are added in the basket. If the average weight of the basket is increased by 5 kg, then find the number of apples in the basket originally.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "6",
+      "2",
+      "8"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (6)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q016",
@@ -2641,15 +2896,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Virat has played scored with a he scores 50 run and if he then his average painting every 10 original average",
+    "question": "Virat has played certain cricket matches and had scored with a certain average, if in the next match he scores 50 then his average will increase by 1 run and if he scores 50 again in the next match then his average will increase by 1.5 runs over the original average what is his original average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50",
+      "49",
+      "48",
+      "47"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D"
+    "explanation": "Correct Answer: Option D | (47)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q017",
@@ -2658,15 +2913,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The ages of Viplav, progression (A.P)",
+    "question": "The ages of Viplav, Sachin and Ritu are in arithmetic progression (A.P) and the average of their ages is 24 years. If the sum of squares of Viplav’s and Ritu’s age before 10 years is 400 then find the ratio of",
     "options": [
-      "21 : 23 or 23 : 21 (b) 23 : 25 or 25 : 23",
-      "5 x + 5",
-      "25 : 27 or 27 : 25 (d) 27 : 29 or 29 : 27",
-      "5x + 8y average age of 30 boys is 12 years 6 the admission of five new boys, the team becomes 12 years 11 months. boys, the age of youngest boy is one month. Find the average age of 4 new boys? months months months months the class. When strength of the class 50% the average age of students of by 6 months. If initial strength then find the average age of newly months months with the average weight of 60 kg are If the average weight of the by 5 kg, then find the number basket originally. (b) 6 (d) 8 certain cricket matches and had then his average will increase by 1 will increase by 1.5 runs over the what is his original average? (b) 49 (d) 47 and the average of their ages is sum of squares of Viplav’s and Ritu’s years is 400 then find the ratio of and Sachin’s present age to the and Ritu’s present age. gaS Selection fnyk,axs 2"
+      "21 : 23 or 23 : 21",
+      "23 : 25 or 25 : 23",
+      "25 : 27 or 27 : 25",
+      "27 : 29 or 29 : 27"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (5 x + 5)"
+    "explanation": "Correct Answer: Option B | (23 : 25 or 25 : 23)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q018",
@@ -2675,7 +2930,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "First ten multiples of 1, 2, …. 10 is average of all these 100 numbers?",
+    "question": "First ten multiples of 1, 2, …. 10 are taken. What is average of all these 100 numbers?",
     "options": [
       "25.25",
       "30.25",
@@ -2692,7 +2947,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A is the average marks of a group a class and A + 8 is the average students which includes the group as given. The total marks obtained 10 students is X and the total the group of 15 students is Y. If the value of A + X + Y is _______.",
+    "question": "A is the average marks of a group of 10 students in a class and A + 8 is the average of a group of 15 students which includes the group of 10 students as given. The total marks obtained by the group of 10 students is X and the total marks obtained by the group of 15 students is Y. If X : Y = 3 : 5, then the value of A + X + Y is _______.",
     "options": [
       "1964",
       "1845",
@@ -2709,7 +2964,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of students having 25 students each is respectively. Three students of average weight of 90 were shifted two students of section B were shifted making the average weight of equal. What is the average weight who were shifted from section B",
+    "question": "The average weight of students of section A and B having 25 students each is 38.4 and 33.6 respectively. Three students of section A having two students of section B were shifted to section A making the average weight of both the sections equal. What is the average weight of the students who were shifted from section B to A?",
     "options": [
       "87.5",
       "105",
@@ -2726,15 +2981,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average weight of a group of If 2 girls R and S replace P and weight becomes 46 kg. The weight of Q. The weight of R = the weight",
+    "question": "The average weight of a group of 12 girls is 48 kg. If 2 girls R and S replace P and Q, the new average weight becomes 46 kg. The weight of P = weight of Q. The weight of R = the weight of S. Another girl T, is included in the group and the new average weight becomes 46 kg. The weight of T = the weight of R. What is the weight of P (in kg)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "56",
+      "58",
+      "54",
+      "50"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B"
+    "explanation": "Correct Answer: Option B | (58)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q022",
@@ -2743,15 +2998,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Average of the",
+    "question": "the average of the numbers a and b, b and c, c and d are 8, 5 and 4 respectively. If e = a + d + 1, then what is the average of the numbers d and e?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "8",
+      "8.5",
+      "7"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | Solution: 5 (b) 30 (c)"
+    "explanation": "Correct Answer: Option B | (8) | Solution: 5 (b) 30 (c)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q023",
@@ -2760,15 +3015,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average score average score",
+    "question": "The average score of a class in a test was 56, the and the average score of the Dullest 35% student was 30. If the ratio of the boys and the girls in the remaining 40% of the student was 2 : 3 and the was 60 what was the approximate average score of the girls in the remaining 40%?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66.25",
+      "60.20",
+      "62.40",
+      "68.75"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (66.25)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q024",
@@ -2777,15 +3032,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A study centre",
+    "question": "A study centre has five classes with 50, 60, 25, 40, and 70 students. The passing percentages for these five classes are 20%, 25%, 20%, 10%, and 30%, respectively. Find the average number of students passing per class at the centre.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10",
+      "12",
+      "11",
+      "55"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (11)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q025",
@@ -2794,15 +3049,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average of to A? 12, 22, 32, 42, 52,",
+    "question": "The average of 12, 22, 32, 42, 52, 62, 72, 82 and 92 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/33",
+      "1/32",
+      "2/313",
+      "2/34"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C"
+    "explanation": "Correct Answer: Option C | (2/313)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q026",
@@ -2811,15 +3066,15 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "Average marks comprising 30 comprising 35 marks (approximately) 12 girls is 48 kg. detected later that Q, the new average made as 74? of P = weight",
+    "question": "comprising 30 students is 65 and that of Section B comprising 35 students is 70. What are the average marks (approximately) of both the sections if it was detected later that an entry of 47 marks was wrongly made as 74?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "67.28",
+      "67.58",
+      "68.11",
+      "68.63"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A"
+    "explanation": "Correct Answer: Option A | (67.28)"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q027",
@@ -2828,7 +3083,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "A person purchases T each of the four",
+    "question": "A person purchases one kg of tea powder from each of the four places A, B, C, D at the rate of Rs.1000 per 1 kg, 2 kg, 4 kg, 5 kg. If on an average he purchased x kg of tea powder per Rs.1000, then what is the approximate value of x?",
     "options": [
       "1.95",
       "2.00",
@@ -2853,7 +3108,7 @@
       "66"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (55) | Solution: Consider two-digit numbers which remain the same when the digits interchange their positions. What is the average of such two-digit numbers? nks vadksa okyh ,slh la[;kvksa ij fopkj tks vadksa LFkku cny nsus ij Hkh] oSlh gh cuh jgrh gSaA bl nks vadksa"
+    "explanation": "Correct Answer: Option C | (55) | Solution: Consider two-digit numbers which remain the same when the digits interchange their positions. What is the average of such two-digit numbers? nks vadksa okyh ,slh la[;kvksa ij fopkj tks vadksa LFkku cny ij Hkh] oSlh gh cuh jgrh gSaA bl nks vadksa la[;"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q029",
@@ -2862,7 +3117,7 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased",
+    "question": "The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers in the group before, the new player joined?",
     "options": [
       "3",
       "5",
@@ -2870,7 +3125,7 @@
       "4"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (4) | Solution: The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers the group before, the new player joined? ,d lewg "
+    "explanation": "Correct Answer: Option D | (4) | Solution: The average score of a group of cricketers was 42. A new player joins and score 250% of the average of the group. As a result the overall average is increased by 30%. What was the number of cricketers in the group before, the new player joined? ,d le"
   },
   {
     "id": "rkr_average_average_pro_level_sheet_q030",
@@ -2879,31 +3134,14 @@
     "chapter": "Average",
     "sheetType": "Pro Level",
     "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "The average marks obtained by a group of 25 students wa",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | Solution: The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks"
-  },
-  {
-    "id": "rkr_average_average_pro_level_sheet_q036",
-    "subject": "Quantitative Aptitude",
-    "subSubject": "Quantitative Aptitude",
-    "chapter": "Average",
-    "sheetType": "Pro Level",
-    "sheetFile": "Average (Pro Level Sheet).pdf",
-    "question": "One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks dropped to 37.2. Find the average marks of the students who left and the student who joined the group.",
+    "question": "The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the marks of the students who left and the student who joined the group.",
     "options": [
       "22.5",
       "30",
       "37.5",
       "15"
     ],
-    "correctAnswer": 0,
-    "explanation": ""
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15) | Solution: The average marks obtained by a group of 25 students was 36. One student left the group, as a result of which the average of the remaining students rose to 37.5. Soon after another student joined the same group, as a result of which the average marks"
   }
 ]

@@ -6,15 +6,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A loan of `2,550 is to be paid back",
+    "question": "A loan of `2,550 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half- yearly at 8% p.a.?",
     "options": [
       "`1250",
       "`1352",
       "`1745",
       "`1457"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`1250) | Exam: SSC Phase-XII 24/06/2024 (Shift-01)"
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`1352) | Exam: SSC Phase-XII 24/06/2024 (Shift-01)"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_classroom_sheet_q002",
@@ -23,15 +23,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A doctor borrows Rs.3,825 and repays the",
+    "question": "A doctor borrows Rs.3,825 and repays the money in two equal annual installments. If the rate is 4%, then find the value of each installment.",
     "options": [
       "`2,377",
       "`1,783",
       "`2,028",
       "`2,275"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (`2,377) | Exam: Constable 30/08/2024 (Shift-01)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`2,028) | Exam: Constable 30/08/2024 (Shift-01)"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_classroom_sheet_q003",
@@ -40,7 +40,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Rajnish borrowed Rs. 1,500 from a bank and",
+    "question": "Rajnish borrowed Rs. 1,500 from a bank and repaid the entire amount with interest in two equal annual installments, the first installment being paid a year after Rajnish borrowed from the bank. If the rate of interest was 40% per annum, compounded annually, then what was the value (in Rs.) of each installment paid by Rajnish?",
     "options": [
       "1125",
       "1470",
@@ -57,7 +57,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "An amount is paid",
+    "question": "An amount is paid in two equal annual installments of Rs.1,764, with an annual amount borrowed?",
     "options": [
       "`3280",
       "`3220",
@@ -74,7 +74,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Loan is to be repaid",
+    "question": "Loan is to be repaid in two equal yearly instalments. If the rate of interest is 10% per annum, compounded annually, and each installment is Rs. 6,897, then find the total interest charged.",
     "options": [
       "Rs. 1,644",
       "Rs. 1,824",
@@ -91,7 +91,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A loan is to be returned",
+    "question": "A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a., compounded annually and each installment is Rs 6534, then the total interest charged (in Rs) is:",
     "options": [
       "1728",
       "1867",
@@ -108,7 +108,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A man borrowed money and paid back",
+    "question": "A man borrowed money and paid back in two equal annual installments of Rs 1,089 each at 10% compound interest compounded annually for 2 years. What was the sum (in Rs.) borrowed?",
     "options": [
       "1890",
       "2178",
@@ -125,7 +125,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A sum of money was borrowed and paid back",
+    "question": "A sum of money was borrowed and paid back in two equal annual installments of Rs. 980 each allowing 4% compound interest. The sum (in Rs. to the nearest tens) borrowed was:",
     "options": [
       "1850",
       "1960",
@@ -142,7 +142,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs. x was borrowed and paid back",
+    "question": "A sum of Rs. x was borrowed and paid back in two equal yearly installments, each of Rs.35,280. If the rate of interest was 5%, compounded annually, then the value of x is:",
     "options": [
       "64,400",
       "65,600",
@@ -159,7 +159,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Neeraj took Rs. 6800 as a loan which along",
+    "question": "Neeraj took Rs. 6800 as a loan which along with interest is to be repaid in two equal annual installments. If the rate of interest is 1 122 % compounded annually, then the value of each installment is :",
     "options": [
       "Rs. 8100",
       "Rs. 4150",
@@ -176,7 +176,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Surekha borrowed a sum of money and",
+    "question": "Surekha borrowed a sum of money and returned it in two equal annual intallments of Rs. 5547 each. If the rate of interest was 1 7 % p.a. compounded yearly, the the total 2 interest paid by her was:",
     "options": [
       "Rs. 1,144",
       "Rs. 1,134",
@@ -193,7 +193,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A sum of Rs 5,19,500 was borrowed at 7 % 5 per annum compound interest and paid back",
+    "question": "A sum of Rs 5,19,500 was borrowed at 7 % 5 per annum compound interest and paid back in 2 years in two equal annual installments. What is the installment? 4",
     "options": [
       "Rs 2,90,521",
       "Rs 2,70,521",
@@ -210,7 +210,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A loan of Rs. 8,925 is to be paid back",
+    "question": "A loan of Rs. 8,925 is to be paid back in two equal half-yearly installments. How much is each installment if the interest is compounded half-yearly at 8% per annum?",
     "options": [
       "Rs. 4,372",
       "Rs. 4,732",
@@ -227,7 +227,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A loan is to be returned",
+    "question": "A loan is to be returned in two equal yearly installments. If the rate of interest is 10% p.a. compounded annually and each installment is Rs 5,808, then 60% of the total interest (nearest to a Rs) charged in this scheme is:",
     "options": [
       "917",
       "911",
@@ -244,7 +244,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A woman borrows Rs.25,220 and repays the",
+    "question": "A woman borrows Rs.25,220 and repays the money in three equal installments after one, two, and three years. If the rate of compound interest is 5%, then find the value of each installment.",
     "options": [
       "`8,000",
       "`9,261",
@@ -261,7 +261,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A man borrows Rs. 2,196 and agrees to return it with compound interest at the rate of 25",
+    "question": "A man borrows Rs. 2,196 and agrees to return it with compound interest at the rate of 25% in three equal annual installments at the end of the first, second and the third year. The amount of installment (Rs in) is:",
     "options": [
       "984",
       "1,125",
@@ -295,7 +295,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A sum is to be paid back",
+    "question": "A sum is to be paid back in 3 equal annual installments. The interest is compounded annually at 30% per annum. If each installment be Rs. 21970 then what is the sum ?",
     "options": [
       "Rs. 39800",
       "Rs. 39900",
@@ -312,7 +312,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A man borrowed a certain sum and agrees to repay it by paying Rs. 4000 at the end of first year and Rs. 7700 at the end of second year. If the rate of compound interest compounded annually is 10% per annum, then find the sum",
+    "question": "A man borrowed a certain sum and agrees to repay it by paying Rs. 4000 at the end of first year and Rs. 7700 at the end of second year. If the rate of compound interest compounded annually is 10% per annum, then find the sum (in Rs.)",
     "options": [
       "11500",
       "11000",
@@ -329,7 +329,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "Atul borrowed a sum of Rs12000 and agreed to repay it by paying Rs 4800 at the end of first year and Rs 9240 at the end of second year. What is the rate of compound interest compounded annually? Installment (C.I.)",
+    "question": "Atul borrowed a sum of Rs12000 and agreed to repay it by paying Rs 4800 at the end of first year and Rs 9240 at the end of second year. What is the rate of compound interest compounded annually?",
     "options": [
       "10",
       "12",
@@ -363,7 +363,7 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A person takes a loan of Rs.4,000 for 3 years at 8% per annum compound interest. He repaid",
+    "question": "A person takes a loan of Rs.4,000 for 3 years at 8% per annum compound interest. He repaid Rs 2,000 in each of the first and second years. The amount he should pay at the end of the third year to clear all his debt is:",
     "options": [
       "Rs 567.12",
       "Rs 525.34",
@@ -414,15 +414,15 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A mobile phone is available for Rs 39,300 cash payment, or for Rs 7,450 cash down payment and three equal yearly installments. If the shopkeeper charges interest at the rate of 20% per annum, compounded annually, what is the",
+    "question": "A mobile phone is available for Rs 39,300 cash payment, or for Rs 7,450 cash down payment and three equal yearly installments. If the shopkeeper charges interest at the rate of 20% per annum, compounded annually, what is the amount of installment (in Rs)?",
     "options": [
       "16240",
       "14060",
       "15000",
       "15120"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (16240)"
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15120) | Exam: CONSTABLE 22/11/2023 (Shift- 02)"
   },
   {
     "id": "rkr_compound_interest_c_i_installment_classroom_sheet_q026",
@@ -431,14 +431,14 @@
     "chapter": "Compound Interest",
     "sheetType": "ClassRoom",
     "sheetFile": "C. I. Installment (ClassRoom Sheet).pdf",
-    "question": "A music player is sold for Rs 4,510 cash, or Rs 1,200 cash down payment and the balance",
+    "question": "A music player is sold for Rs 4,510 cash, or Rs 1,200 cash down payment and the balance in three equal easy installments.",
     "options": [
-      "7.(a) 8.(a) 9.",
-      "10.(c)",
+      "Rs 1,330",
+      "Rs 1,332",
       "Rs 1,331",
       "Rs 1,333"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (7.(a) 8.(a) 9.) | Exam: CONSTABLE 23/11/2023 (Shift- 01)"
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rs 1,331) | Exam: CONSTABLE 23/11/2023 (Shift- 01)"
   }
 ]
