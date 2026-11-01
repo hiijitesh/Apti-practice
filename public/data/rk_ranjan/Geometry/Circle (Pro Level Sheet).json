@@ -1,0 +1,682 @@
+[
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles having equal radius such that each passes through the Sum of diameter of these two circles the length of the common chord?",
+    "options": [
+      "21 3 cm",
+      "14",
+      "28 3 cm",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (21 3 cm) | Solution: (a) A r B r r O O r r (AB) = chord When two circle have equal radius Common chord (AB) = 3r Sum of diameter of two circle = 84cm (given) Radius are equal = R1 = 21, R2 = 21 Common chord = 3r = 21 3"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "JKLM is a cyclic quadrilateral",
+    "options": [
+      "9 cm",
+      "8",
+      "10 cm",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 cm) | Solution: (b) M L Z K J 12 x 33 10 JZ KZ = MZ LZ (10 + 12) 12 = 33 x 22 12 = 33 x x = 8 cm"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Three circles of radius 7 cm are placed that all circle touches the each other. area of the portion enclosed by these",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Exam: SSCHSL032023 (Shift-03) | Solution: (a) a b c 60 60 60 r r r r r r ABC is an equilateral triangle so each angle is 60º Area of shaded region = 2 3 60 3 (2r) – 4 360   r² = r² r² 3 – 2  = 22 49 49 3 – 7 2  =   49 3 – 77 cm²"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles intersect each other such through the centre of other, Radius are equal. If the Length of common then what will be the sum of circumferences two circles ?",
+    "options": [
+      "88 cm",
+      "352",
+      "176 cm",
+      "188"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (176 cm) | Solution: (c) r r o 1 o r If two circle of same radius interest each other such that each passes through the centre of other Then, common chord = r3 So, r3 = 143 r = 14 cm Circumference of two circles = 2 2r = 4 22 7 14 = 176 cm 5 (a) Y     X M Z  XM"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two identical circles touch each point Y. XZ is a direct common tangent, the circles at X and Z respectively.",
+    "options": [
+      "90°",
+      "80°",
+      "95°",
+      "85°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (90°)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles of radius of 6 cm each. other such that each passes through other. What is the length of the common Circle",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "The radii of two cm. PQ is a diameter 3 cm tangent to the cm bigger circle at 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "AB and CD are and AD is the diameter.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "AB is a chord of the tangent at If BAQ = 70°,",
+    "options": [
+      "125°",
+      "145°",
+      "70°",
+      "110°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (110°)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "PQRS is a cyclic quadrilateral",
+    "options": [
+      "18",
+      "21",
+      "28",
+      "24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (21)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "AB is a diameter of a circle. C and the opposite sides of the diameter ACD = 25°. E is a point on the",
+    "options": [
+      "115",
+      "105",
+      "130",
+      "125"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (115)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles of radii 18 cm and 16 other and the length of their common",
+    "options": [
+      "4 14 + 2 39",
+      "4 10 + 2 39",
+      "4 14 – 2 39",
+      "4 10 – 2 39"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 14 + 2 39)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles of radii 20 cm and 5 cm each other externally at the point common tangent of these two circles S, respectively. The length of AB is",
+    "options": [
+      "15 cm",
+      "5 cm",
+      "10 cm",
+      "20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two circles of radii 8 cm and 6 cm externally. The length of the direct",
+    "options": [
+      "13.86",
+      "20",
+      "24",
+      "10.12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13.86)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A secant PAB is drawn from an the circle with centre O, intersecting OP = 17 cm, PA = 12 cm and PB radius of the circle is:",
+    "options": [
+      "19 cm",
+      "17",
+      "3 2 cm",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (19 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A and B are two is a tangent such OA, such that BN which PQ = x cm, OM of the NOB = 25.2 cm and PR",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Points A and B AB, such that and PBN are tangents minor arc BD. Find respectively from is on the major",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "PA and PB are tangents",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A circle is inscribed AB, BC, CD and respectively, touch respectively and P, AB is the direct cm and DR = 6 of centres R and of the circle? equal to :",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A circle touches ABCD whose sides",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "PRT is a tangent",
+    "options": [
+      "29º",
+      "34º",
+      "62º",
+      "32º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (34º)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "The radii of two concentric circles with centre O are 26 cm and 16 cm. Chord AB of the larger circle is tangent to the smaller circle at C and AD is a diameter. What is the length of CD?",
+    "options": [
+      "42 cm",
+      "36 cm",
+      "35 cm",
+      "38 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (38 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Two chords AB and CD of a circle with centre O intersect each other at P. If APC = 95º and AOD = 110º, then what BOC is :",
+    "options": [
+      "65º",
+      "70º",
+      "60º",
+      "55º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (60º)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "PQ and RS are two parallel chords of a circle of length 10 cm and 24 cm, respectively, and lie on the same side of the centre O. If the distance between the",
+    "options": [
+      "11",
+      "9",
+      "13",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A, B and C are three points on a circle such that the angles subtended by the chord AB and AC at the centre O are 110º and 130º respectively. Then the value of BAC is :",
+    "options": [
+      "70º",
+      "75º",
+      "60º",
+      "65º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (60º)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Four circle are placed as shown",
+    "options": [
+      "276",
+      "263",
+      "452",
+      "366"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (276)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A circle with centre O, tangents PA and PB are drawn from an external point P touching the circle 1 1 1 at A and B respectively, given that + = . AO 2 PA 2 25 Find the length of chord AB?",
+    "options": [
+      "5 cm",
+      "8 cm",
+      "12 cm",
+      "10 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "PQR is an isosceles right angled triangle. If r is its inradius and R is its circumradius, then the value R of is- r",
+    "options": [
+      "1 – 2",
+      "2",
+      "2 + 1",
+      "2 + 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 + 1)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Three circles each of units radius intersects each other at P, Q and R. P, Q and R are the centres of the three circles. What is the sum of length of the arcs PQ, QR and PR?",
+    "options": [
+      "3",
+      "2 2",
+      "",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ()"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "The radius of a circle is 20 cm. The radii (",
+    "options": [
+      "20 3, 20 2, 20 10 3 10 2 10",
+      ", , 3 3 3",
+      "10 3, 10 2, 10",
+      "17, 4, 9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 3, 10 2, 10)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "Chords AB and CD of a circle, when produced, meet at the point P. If AB = 6.3 cm, BP = 4.5 cm, and",
+    "options": [
+      "4.8 cm",
+      "3.5 cm",
+      "3.1 cm",
+      "5.4 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5.4 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A and B are centres of two circles with radii 2 cm and 1 cm respectively, where AB = 5 cm. C is the centre of another circle of radius r cm, which touches each of the above two circles externally. If ACB = 90°, then the value of r is:",
+    "options": [
+      "5 cm",
+      "2 cm",
+      "3 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "What is AB + BC equal to?",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "13 cm",
+      "14 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "What is the radius of the circle with centre at O1 ?",
+    "options": [
+      "2 – 5",
+      "1 + 5",
+      "2 + 5",
+      "3 – 5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 – 5)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A right-angled triangle ABC is inscribed",
+    "options": [
+      "60",
+      "80",
+      "120",
+      "160"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A road curve is to be laid out on a circle. What radius should be used if the track is to change direction by",
+    "options": [
+      "60 m",
+      "66 m",
+      "75 m",
+      "80 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60 m)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "A circle of diameter 8 cm is placed",
+    "options": [
+      "4(3 – 2 ) cm",
+      "4(3 – 2 2 ) cm",
+      "8(3 – 2 ) cm",
+      "8(3 – 2 2 ) cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4(3 – 2 ) cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "The chord of a circle is 3 times its radius. The angle subtended by this chord at the minor arc is k times the angle subtended at the major arc. What is the value of k?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "What is the length of QC ?",
+    "options": [
+      "4.4 cm",
+      "4.2 cm",
+      "3.6 cm",
+      "3.2 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3.2 cm)"
+  },
+  {
+    "id": "rkr_geometry_circle_pro_level_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Circle (Pro Level Sheet).pdf",
+    "question": "The length of a chord located 1 unit from the center    is equal to k2 sin     and the radius of the circle 4    is (– k ) sin     . What is the value of k, k an integer? 3",
+    "options": [
+      "4",
+      "2",
+      "– 2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (– 2)"
+  }
+]

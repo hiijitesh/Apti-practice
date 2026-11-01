@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "If the probability of winning a game is 0.3, what is the probability of losing it?",
+    "options": [
+      "0.9",
+      "0.7",
+      "0.8",
+      "0.6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: If the probability of winning a game is 0.3, what is the probability of losing it? ;fn fdlh [ksy thrus izkf;drk 0-3 rks mlesa gkjus izkf;drk D;k (a) 0.9 (b) 0.7 (c) 0.8 (d) 0.6 Sol: P (W) + P ( W ) = 1"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "What is the probability of a prime number, if we select a number from first 20 natural numbers?",
+    "options": [
+      "1/2",
+      "4/5",
+      "2/5",
+      "1/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: What is the probability of a prime number, if we select a number from first 20 natural numbers? ;fn ge izFke 20 la[;kvksa ,d p;u djrs rks ml vHkkT; gksus izkf;drk D;k (a) 1 2 (b) 4 5 (c) 2 5 (d) 1 4"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "........... 20 Prime number = 2, 3, 5, 7, 11, 13, 17, 19 8 2 Probability =  20 5",
+    "options": [
+      "1/4",
+      "1/7",
+      "4/7",
+      "3/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: There are 3 white and 4 black balls an urn. A ball is selected randomly. What is the probability to be white – ,d 3 4 ,d ;kn`fPNd :i pquk tkrk blds gksus D;k (a) 1 4 (b) 1 7 (c) 4 7 (d) 3 7 Sol: Total number of balls = 3 + 4 = 7 Probability = 3 7"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains cards which are numbered from 2 to 90. A card is drawn at random from the bag. Find the probability that the card number is a perfect square.",
+    "options": [
+      "4/45",
+      "7/89",
+      "8/89",
+      "1/10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains cards which are numbered from 2 to 90. A card is drawn at random from the bag. Find the probability that the card number is a perfect square. ,d FkSys dkMZ ftu ij 2 90 rd Fksys ,d dkMZ ;kn`fPNd :i fudkyk tkrk izkf;drk fd dkMZ ,d iw.kZ "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A jar contains 54 marbles each of which is blue, green or white. The probability of selecting a blue marble at random from the jar 1 is , and the probability of selecting a green 3 4 marble at random is . How many white 9 marbles does the jar contain? Probability",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A jar contains 54 marbles each of which is blue, green or white. The probability of selecting a blue marble at random from the jar is 1 3 , and the probability of selecting a green marble at random is 4"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "random from first hundred natural numbers is a multiple of 3 or 5?",
+    "options": [
+      "53/10",
+      "47/0 100",
+      "3/50",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Find the probability that a number selected at random from first hundred natural numbers is a multiple of 3 or 5? fd igyh lkS la[;kvksa ;kn`fPNd :i pquh xbZ 3 ;k 5 xq.kt (a) 53 100 (b) 47 100 (c) 3 50 (d) None of these Sol: Multiple of 3 = 99 3 = 33 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "How many words of three letters can be created using only consonants of the English alphabet?",
+    "options": [
+      "7980",
+      "15600",
+      "6000",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: How many words of three letters can be created using only consonants of the English alphabet? vaxszth o.kZekyk dsoy O;atuksa ,d gh ckj djrs gq, rhu v{kj 'kCn cuk;s tk ldrs (a) 7980 (b) 15600 (c) 6000 (d) None of these Sol: Number of ways = 21P3= 21! "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "If there are 10 pairs of socks and you choose 2 pairs out of them, then",
+    "options": [
+      "(i) Number of permutation, If repetition is not allowed",
+      "(ii) Number of permutation, If repetition is allowed 10! 10! 10  9  8!",
+      "Part (3)",
+      "Part (4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: If there are 10 pairs of socks and you choose 2 pairs out of them, then (i) Number of permutation, If repetition is not allowed ;fn vuqefr u gks (ii) Number of permutation, If repetition is allowed ;fn vuqefr gks Sol: (i) 10 2 10! 10! 10 9 8! P (10 –"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "How many 3 letter words with or without meaning can be formed out of the letters of the word SWING when repetition of letters is not allowed?",
+    "options": [
+      "60",
+      "72",
+      "90",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: How many 3 letter words with or without meaning can be formed out of the letters of the word SWING when repetition of letters is not allowed? tc v{kjksa vuqefr ugha rks SWING 'kCn v{kjksa vFkZ lfgr ;k fcuk vFkZ okys rhu v{kj okys 'kCn cuk, tk ldrs (a"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "How many 3 letter words with or without meaning can be formed out of the letters of the word SMOKE when repetition of words is allowed? Probability",
+    "options": [
+      "125",
+      "150",
+      "160",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: How many 3 letter words with or without meaning can be formed out of the letters of the word SMOKE when repetition of words is allowed? tc 'kCnksa vuqefr gks rks SMOKE 'kCn v{kjksa vFkZ lfgr ;k fcuk vFkZ okys rhu v{kj okys 'kCn cuk, tk ldrs (a) 125 ("
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Amit has 5 blue, 4 red and 3 green socks",
+    "options": [
+      "245",
+      "120",
+      "495",
+      "60"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Amit has 5 blue, 4 red and 3 green socks his cupboard. Out of this he has to choose 4 socks. how many ways can he do this? vfer vyekjh 5 4 3 gSaA blesa mls 4 pquus gSaA og izdkj ,slk dj ldrk (a) 245 (b) 120 (c) 495 (d) 60 Sol: Number of ways = 12C4 ="
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A school team has eight volleyball players. A eight players. How many different selections can be made?",
+    "options": [
+      "224",
+      "112",
+      "56",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A school team has eight volleyball players. A five member team will be selected out of these eight players. How many different selections can be made? ,d Ldwy Vhe vkB okWyhcky f[kykM+h gSaA bu vkB f[kykfM+;ksa ikap lnL;h; Vhe pquh tk,xhA vyx&vyx pquk"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A group of 3 lawn tennis players S, T, U. A team consisting of 2 players is to be formed.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A group of 3 lawn tennis players S, T, U. A team consisting of 2 players is to be formed. how many ways can we do so? 3 ykWu Vsful f•ykfM+;ksa S, T, U ,d lewgA 2 f•ykfM+;ksa ,d Vhe cukbZ tkuh ge ,slk rjhdksa dj ldrs (a) 3 (b) 4 (c) 5 (d) 6 Sol: Numbe"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two unbiased coins are tossed up simultaneously. Find the probability of getting",
+    "options": [
+      "(i) Two tails/nks iV",
+      "(ii) One head/,d fpr",
+      "Part (iii)",
+      "Part (iv)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two unbiased coins are tossed up simultaneously. Find the probability of getting nks fu\"i{k ,d lkFk tkrk fuEu ifj.kke djus izkf;drk (i) Two tails/nks iV (ii) One head/,d fpr (iii)At least one tail/de de ,d iV (iv) At most one tail/vf/d vf/d ,d iV (v)"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "If two coins are tossed aimultaneously, what is the probaility that one coin will get head and the other coin will get tail?",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: If two coins are tossed aimultaneously, what is the probaility that one coin will get head and the other coin will get tail? ;fn nks ,d lkFk tkrk rks bldh D;k izkf;drk fd ,d ij gsM vk,xk nwljs ij Vsy (a) 1 2 (b) 1 3 (c) 2 3 (d) 3 4 Sol: Sample space "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Three unbiased coins are tossed up together. Find the probability of getting.",
+    "options": [
+      "(i) all heads/lHkh fpr",
+      "Part (ii)",
+      "(iii) exactly 2 heads/fcYdqy nks fpr",
+      "Part (4)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Three unbiased coins are tossed up together. Find the probability of getting. rhu vufHkur ,d lkFk tkrk fuEu ifj.kke djus izkf;drk (i) all heads/lHkh fpr (ii) at least one tail/de de ,d iV (iii)exactly 2 heads/fcYdqy nks fpr Sol: Sample Space = {(HHH)"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Three coins are tossed, what is the probability that neither 3 heads nor 3 tails are obtained?",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Three coins are tossed, what is the probability that neither 3 heads nor 3 tails are obtained? rhu mNkys tkrs rks bl ckr izkf;drk fd u rks 3 gsM u gh 3 Vsy (a) 1 2 (b) 1 3 (c) 2 3 (d) 3 4 Sol: Probability = 6 8 = 3 4"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Four coins are tossed simultaneously, what is the probability that at least three coins get heads or tails?",
+    "options": [
+      "5/8",
+      "5/11",
+      "7/64",
+      "1/8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Four coins are tossed simultaneously, what is the probability that at least three coins get heads or tails? pkj ,d lkFk tkrk fd bldh D;k izkf;drk fd de de rhu ij gsM ;k Vsy (a) 5 8 (b) 5 11 (c) 7 64 (d) 1 8 Sol: Probability = 10 16 = 5 8"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A coin is tossed 5 times, what is a probability of getting exactly 2 heads?",
+    "options": [
+      "8/20",
+      "6/45",
+      "5/16",
+      "4/51"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A coin is tossed 5 times, what is a probability of getting exactly 2 heads? ,d 5 ckj tkrk Bhd 2 fpr vkus izkf;drk D;k (a) 8 20 (b) 6 45 (c) 5 16 (d) 4 51 Sol: Total cases = 25 = 32 No. of favourable cases = 5C2 = 5! 2! 3!  ="
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A coin is tossed 8 times, what is a probability of getting exactly 6 tails?",
+    "options": [
+      "7/20",
+      "7/12",
+      "7/13",
+      "7/64"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A coin is tossed 8 times, what is a probability of getting exactly 6 tails? ,d 8 ckj tkrk Bhd 6 iV vkus izkf;drk D;k (a) 7 20 (b) 7 12 (c) 7 13 (d) 7 64 Sol: Total cases = 28 = 256 No. of favorable cases = 8C6 = 8! 2! 6!  ="
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A coin is tossed 9 times. Find the probability of atmost 2 tails.",
+    "options": [
+      "23/25",
+      "25/0 256",
+      "23/25",
+      "27/6 250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A coin is tossed 9 times. Find the probability of atmost 2 tails. ,d 9 ckj tkrk vf/dre 2 iV vkus izkf;drk (a) 23 250 (b) 25 256 (c) 23 256 (d) 27 250 Sol: Total cases = 29 = 512 0 tail  9C0 = 9! 9! 0!  =1 1 tail  9C1 = 9! 8! 1!  = 9 2 tail  9C2 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A coin is tossed 7 times. Find the probability of atleast 2 tails.",
+    "options": [
+      "14/15",
+      "16/54",
+      "18/11",
+      "15/16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A coin is tossed 7 times. Find the probability of atleast 2 tails. ,d 7 ckj tkrk de de 2 iV vkus izkf;drk (a) 14 15 (b) 16 54 (c) 18 11 (d) 15 16 Sol: Total cases = 27 = 128 0T  7C0 = 1 1T  7C1 = 7 2T  3T  4T  5T  6T  7T  Favourable cases = 1"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A dice is thrown, find the probability of:",
+    "options": [
+      "1/5",
+      "2/3",
+      "5/8",
+      "1/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A dice is thrown, find the probability of: ,d iklk iQsadk tkrk fuEu ifj.kke djus izkf;drk (i) a prime number/,d vHkkT; (a) 1 3 (b) 1 2 (c) 2 3 (d) 1 4 (ii) a multiple of 2 or 3 /2 ;k 3 xq.kd (a) 3 4 (b) 2 3 (c) 4 5 (d) 5 8 (iii)a number greater than "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A dice is thrown, find the probability of:",
+    "options": [
+      "Part (i)",
+      "Part (ii)",
+      "(iii) Getting a natural number less than 7",
+      "(iv) Getting a natural number greater than 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A dice is thrown, find the probability of: ,d ikls iQsadk tkrk fuEu ifj.kke djus izkf;drk (i) Getting an even number/le (ii) Getting an odd number/fo\"ke (iii)Getting a natural number less than 7 7 NksVh (iv) Getting a natural number greater than 6 6 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A dice is thrown twice, what is the probability of getting a sum of 7 when thrown twice?",
+    "options": [
+      "5/18",
+      "1/18",
+      "1/9",
+      "1/6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A dice is thrown twice, what is the probability of getting a sum of 7 when thrown twice? ,d iklk nks ckj iQsadk tkrk nks ckj iQsad tkus 7 ;ksx vkus laHkkouk (a) 5 18 (b) 1 18 (c) 1 9 (d) 1 6 Sol: Sum = 7 Probability = (13 – 7) 1 36 6 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two Dice are thrown simultaneously. Find the probability of",
+    "options": [
+      "15/40",
+      "11/50",
+      "11/36",
+      "15/63"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two Dice are thrown simultaneously. Find the probability of nks ikls ,d lkFk iQsads tkrs gSaA izkf;drk (i) Sum as 8/;ksx 8 gks (a) 5 36 (b) 5 18 (c) 1 6 (d) 11 36 (ii) Atleast a sum of ;ksxiQy de de 9 gks (a) 3 24 (b) 8 20 (c) 5 18 (d) 6 20 (iii) A d"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two Dice are thrown Simultaneously. Find the probability that the number on the first dice is more than the number on the 2nd dice?",
+    "options": [
+      "1/2",
+      "7/12",
+      "5/12",
+      "5/6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two Dice are thrown Simultaneously. Find the probability that the number on the first dice is more than the number on the 2nd dice? nks ikls ,d lkFk isaQds tkrs gSaA ikls ij nwljs ikls ij vf/d gksus izkf;drk (a) 1 2 (b) 7 12 (c) 5 12 (d) 5 6 Sol: No."
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two fair dice are thrown. Find the probability of getting a number whose sum is divisible by 2 or 4?",
+    "options": [
+      "1/2",
+      "3/4",
+      "1/3",
+      "2/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two fair dice are thrown. Find the probability of getting a number whose sum is divisible by 2 or 4? nks fu\"i{k ikls iQsads tkrs gSaA og ftldk ;ksx 2 ;k 4 foHkkT; gks] rks ,slh vkus izkf;drk (a) 1 2 (b) 3 4 (c) 1 3 (d) 2 3 Sol: Sum is divisible by 2 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two fair dice are thrown. Find the probability of getting a number whose sum is divisible by 2 and 4 ?",
+    "options": [
+      "1/3",
+      "1/4",
+      "3/4",
+      "5/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two fair dice are thrown. Find the probability of getting a number whose sum is divisible by 2 and 4 ? nks fu\"i{k ikls iQsads tkrs gSaA og ftldk le 2 4 foHkkT; gks] rks ,slh vkus izkf;drk (a) 1 3 (b) 1 4 (c) 3 4 (d) 5 7 Sol: Sum is divisible by 2 and"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "One card is drawn from a pack of 52 cards. What is the probability that the card drawn is.",
+    "options": [
+      "1/30",
+      "5/40",
+      "8/55",
+      "1/26"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: One card is drawn from a pack of 52 cards. What is the probability that the card drawn is. 52 ,d xM~Mh eas ,d fudkyk tkrk gSaA dkMZ ij fuEu ifj.kke djus izkf;drk D;k (i) An ace/,d bDdk (a) 4 15 (b) 2 26 (c) 1 13 (d) 5 18 (ii) “10” of a Red jax 10 (a)"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "One card is drawn from a pack of 52 cards. What is the probability that the card drawn is?",
+    "options": [
+      "2/13",
+      "1/26",
+      "1/52",
+      "4/13"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: One card is drawn from a pack of 52 cards. What is the probability that the card drawn is? 52 ,d xM~Mh ,d fudkyk tkrk dkMZ ij fuEu ifj.kke djus izkf;drk D;k (i) a jack, queen or a king/,d tsd] jkuh ;k jktk (a) 5 15 (b) 8 11 (c) 9 18 (d) 3 13 (ii) Nei"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Jacks, Queens, Kings and Aces of red color are removed. From the remaining cards a card is drawn at random. Find the probability, that the card drawn is a black queen?",
+    "options": [
+      "1/20",
+      "1/15",
+      "1/22",
+      "1/30"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Jacks, Queens, Kings and Aces of red color are removed. From the remaining cards a card is drawn at random. Find the probability, that the card drawn is a black queen? jax xqyke] csxe] bDdk gVk fn, tkrs gSaA 'ks\"k ,d ;kn`fPNd :i fudkyk x;k csxe izkf;"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 13 white and 7 black balls. Two balls are drawn at random. Waht is the probability that they are of this same colour?",
+    "options": [
+      "41/19",
+      "21/0 190",
+      "59/15",
+      "99/9 190"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 13 white and 7 black balls. Two balls are drawn at random. Waht is the probability that they are of this same colour? ,d cSax eas 13 7 dkys xasan gSaA ;kn`fPNd :i nks fudkys tkrs gSaA budsa ,d gh jax gkus laHkkouk D;k (a) 41 190 (b) 21"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A card is drawn at random from a deck of 52 cards. then find the subsequent probability that this card is a king or a queen?",
+    "options": [
+      "3/13",
+      "2/13",
+      "7/52",
+      "1/69"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A card is drawn at random from a deck of 52 cards. then find the subsequent probability that this card is a king or a queen? 52 ,d xM~Mh ;kn`fPNd :i ,d fudkyk tkrk rks bl izkf;drk fd ;g ,d jktk ;k jkuh (a) 3 13 (b) 2 13 (c) 7 52 (d) 1 69 Sol: Probabi"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Three cards are drawn at random from 52 cards. Find the probability of these cards being a king, a queen and jack. Probability",
+    "options": [
+      "16/55",
+      "1/25 13 3",
+      "1/14",
+      "1/3 15 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Three cards are drawn at random from 52 cards. Find the probability of these cards being a king, a queen and jack. 52 rhu ;kn`fPNd vk/kj ij [khaps tkrs gSaA bu ,d jktk] ,d jkuh ,d xqyke gksus izkf;drk (a) 16 5525 (b) 3 1 13 (c) 3 1 14 (d) 3 1 15 Sol:"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Find the probability that when a hand of 3 cards are drawn from a well shuffled deck. What is the probability that it has:",
+    "options": [
+      "12/55",
+      "01 1300/25 5225",
+      "14/15",
+      "00 1155/15 1122"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Find the probability that when a hand of 3 cards are drawn from a well shuffled deck. What is the probability that it has: bl ckr izkf;drk fd tc ,d vPNh rjg iQsVh xbZ rk'k xM~Mh 3 fudkyk tkrk bldh D;k izkf;drk fd% (i) all faces cards/lHkh iQSl dkMZ ("
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A person draws 3 cards from a pack of 52 cards. Find the probability of getting exactly two red cards?",
+    "options": [
+      "15/34",
+      "18/30",
+      "20/14",
+      "13/34"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A person draws 3 cards from a pack of 52 cards. Find the probability of getting exactly two red cards? ,d O;fDr 52 ,d xM~Mh 3 fudkyrk Bhd nks vkus izkf;drk (a) 15 34 (b) 18 30 (c) 20 14 (d) 13 34"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A person draws 3 cards from a pack of 52 cards (with replacement). Find the probability of getting :",
+    "options": [
+      "17/21",
+      "28 1755/97 1457",
+      "21/45",
+      "74 4185/46 5246"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A person draws 3 cards from a pack of 52 cards (with replacement). Find the probability of getting : ,d O;fDr 52 (izfrLFkkiu lkFk) ,d rk'k xM~Mh 3 dkMZ [khaprk fuEu ifj.kke djus izkf;drk (i) all three red cards/rhuksa dkMZ (a) 1 10 (b) 2 7 (c) 1 8 (d"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A glass jar contains 6 white, 8 black, 4 red and 3 blue marbles. If a single marble is chosen at random from the jar, what is the probability that it is black or blue?",
+    "options": [
+      "8/21",
+      "11/21",
+      "5/21",
+      "1/7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exam: SSC CGL TIER - II 02/03/2023 | Solution: A glass jar contains 6 white, 8 black, 4 red and 3 blue marbles. If a single marble is chosen at random from the jar, what is the probability that it is black or blue? ,d dkap ik=k 6 8 dkys ] 4 3 daps gSaA ;fn ik=k ,d dapk ;kn`fPNd :i pquk tkrk rks b"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 6 white and 4 black balls. 2 balls are drawn at random. Find the probability that they are of same color.",
+    "options": [
+      "1/2",
+      "7/15",
+      "8/15",
+      "1/9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 6 white and 4 black balls. 2 balls are drawn at random. Find the probability that they are of same color. ,d FkSys 6 4 gSaA 2 xsanksa ;kn`fPNd :i fudkyk tkrk izkf;drk fd os ,d jax gSaA (a) 1 2 (b) 7 15 (c) 8 15 (d) 1 9 Sol: P(Both whit"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "There are 2 bags. First Bag contains 3 Red & 4 Blue balls and the second bag contains 5 Red & 2 Blue balls. One ball is picked from each of the bags. Find the probability that both balls are of :",
+    "options": [
+      "28/26",
+      "49/55",
+      "26/88",
+      "26/49"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: There are 2 bags. First Bag contains 3 Red & 4 Blue balls and the second bag contains 5 Red & 2 Blue balls. One ball is picked from each of the bags. Find the probability that both balls are of : 2 cSx gSaA cSx 3 4 uhyh xsansa nwljs cSx 5 2 uhyh xsan"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 6 red balls, 5 yellow balls and 3 pink balls. Two balls are drawn at random. What is the probaibility that none of the balls are red?",
+    "options": [
+      "8/13",
+      "4/13",
+      "6/13",
+      "5/13"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 6 red balls, 5 yellow balls and 3 pink balls. Two balls are drawn at random. What is the probaibility that none of the balls are red? ,d FkSys 6 xsansa] 5 ihyh ,oa 3 xqykch nks ;kn`fPNd fudkyh tkrh gSaA fdlh Hkh jax ugha gkus D;k izkf;"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue? ,d FkSys 2 3 gjh 2 uhyh xsansa gSaA nks xsanksa vfu;fer :i fudkyk tkrk bldh D;k izkf;drk fd fudkyh xbZ dksbZ "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 3 red balls, 5 yellow balls and 7 pink balls. If 1 ball is drawn at random from the bag, what is the Probability that it is pink",
+    "options": [
+      "1/3",
+      "2/3",
+      "1/4",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 3 red balls, 5 yellow balls and 7 pink balls. If 1 ball is drawn at random from the bag, what is the Probability that it is pink or red colour? ,d FkSays 3 5 ihyh xsansa ,oa 7 xykch gSaA ;fn FkSys 1 ;kn`fPNd fudkyh tkrh gks] rks blds x"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 6 red balls, 4 green balls and 8 yellow balls. Three balls are drawn at random from the bag. What is the probability that two balls are red and one ball is green?",
+    "options": [
+      "5/68",
+      "3/68",
+      "7/68",
+      "9/68"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 6 red balls, 4 green balls and 8 yellow balls. Three balls are drawn at random from the bag. What is the probability that two balls are red and one ball is green? ,d FkSys 6 xsansa] 4 gjh xsanas 8 ihyh xsana gSaA FkSys ;kn`fPNd rhu xsa"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 4 white, 4 red and 2 green balls. Two balls are drawn at random. What is the probability that at least one balls is green?",
+    "options": [
+      "16/45",
+      "12/45",
+      "21/35",
+      "17/45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: 51.50 1105 C"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A bag contains 3 red, 6 white and 7 black balls. Three balls are drawn at random, then find the probability that all the three balls are black?",
+    "options": [
+      "1/8",
+      "7/40",
+      "1/16",
+      "13/40"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A bag contains 3 red, 6 white and 7 black balls. Three balls are drawn at random, then find the probability that all the three balls are black? ,d cSax 3 6 7 xsansa rhu ;kn`fPNr vk/kj ij fudkyh tkrh rks bl ckj izkf;drk fd rhuksa xsansa (a) 1 8 (b) 7 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A basket contains three blue and four red balls. If three balls are drawn at random from the basket, what is the probability that all three are either blue or red?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A basket contains three blue and four red balls. If three balls are drawn at random from the basket, what is the probability that all three are either blue or red? ,d Vksdjh rhu uhyh pkj gSaA ;fn csrjrhc <ax Vksdjh rhu xsansa fudkyh tk,] rks rhuksa ;"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A box contains 5 green , 4 yellow and 3 white marbles. Three marbles are drawn at random. What is the probability that they are of the same color ?",
+    "options": [
+      "41/40",
+      "52/55",
+      "3/55",
+      "3/44"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A box contains 5 green , 4 yellow and 3 white marbles. Three marbles are drawn at random. What is the probability that they are of the same color ? ,d ckWDl 5 gjsa] 4 ihys 3 daps gSaA rhu daps ;kn`fPNd :i fudkys tkrs gSaA D;k laHkkouk fd os ,d gh jax"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A basket contains 10 apples and 20 oranges out of which 3 apples and 5 oranges are defective. If we choose two fruits at random, what is the probability that either both are oranges or both are non defective?",
+    "options": [
+      "13/34",
+      "6 17/5 87",
+      "31/43",
+      "6 158/5 435"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A basket contains 10 apples and 20 oranges out of which 3 apples and 5 oranges are defective. If we choose two fruits at random, what is the probability that either both are oranges or both are non defective? ,d Vksdjh 10 lsc 20 larjs ftuesa 3 lsc 5 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "The probability of A and B clearing an exam 2 3 is and respectively. What is the 3 4 probability that atleast one of them clears the exam ?",
+    "options": [
+      "1/12",
+      "1/4",
+      "11/12",
+      "1/2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: The probability of A and B clearing an exam is 2 3 and 3 4 respectively. What is the probability that atleast one of them clears the exam ? fdlh ijh{kk eas A B gksus izkf;drk 2 3 3 4 muesa de de ,d ijh{kk djus izkf;drk D;k (a) 1 12 (b) 1 4 (c) 11 12 "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A problem is given to three students whose 1 1 1 chances of solving it are , and 2 3 4 respectively. What is the probability that the problem will be solved?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "7/12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A problem is given to three students whose chances of solving it are 1 1 , 2 3 and 1 4 respectively. What is the probability that the problem will be solved? rhu Nk=kksa ,d leL;k nh tkrh ftlds gy djus laHkkouk 1 1 , 2 3 1 4 D;k laHkkouk fd leL;k gy g"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "The probability that three students A, B and 3 5 1 C solve a problem are , and 7 9 5 respectively. What is the probability that the problem is solved?",
+    "options": [
+      "64/31",
+      "32/5 315",
+      "25/31",
+      "1 155/5 315"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exam: SSC CGL TIER- II 06/03/2023 | Solution: The probability that three students A, B and C solve a problem are 3 5 , 7 9 and 1 5 respectively. What is the probability that the problem is solved? rhu Nk=kksa A, B C }kjk ,d leL;k gy djus izkf;drk 3 5 , 7 9 1 5 leL;k gy gksus izkf;drk D;k SSC CGL"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A man and his wife appear",
+    "options": [
+      "2/7",
+      "1/7",
+      "3/4",
+      "4/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A man and his wife appear an interview for two vacancies the same post. The probability of husband’s selection is 1 7         and the probability of wife’s selection is 1 5        . What is the probability that only one of them is sel"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A brother and a sister appear for an interview",
+    "options": [
+      "1/5",
+      "3/4",
+      "2/5",
+      "3/5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A brother and a sister appear for an interview against two vacant posts an office. The probability of the brother’s selection is 1 5 and that of the sister’s selection is 1"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A speaks truth",
+    "options": [
+      "3/10",
+      "7/20",
+      "9/20",
+      "1/2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A speaks truth 75% of cases and B 80% of cases. What is the probability that they likely to contradict each other, narrating the same incident. A, 75» ekeyksa lp cksyrk B, 80» ekeyksa lp cksyrk bldh D;k izkf;drk fd os ,d gh ?kVuk o.kZu djrs gq, ,d&nw"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A speaks the truth",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A speaks the truth 60% cases while B speaks the truth 40% of the cases. What is the probability that they will contradict each other a case ? A 60» ekeyksa lp cksyrk B 40» ekeyksa lp cksyrk bldh D;k izkf;drk fd os ,d ekeys ,d nwljs [kaMu djsaxsA (a) "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A speaks the truth 5 out of 7 times and B speaks truth 8 out of 9 times. What is the",
+    "options": [
+      "1/7",
+      "1/9",
+      "1/4",
+      "1/3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exam: SSC CGL TIER- II 03/03/2023 | Solution: A speaks the truth 5 out of 7 times and B speaks truth 8 out of 9 times. What is the probability that they contradict each other stating the same fact? A, 7 5 ckj lp cksyrk B, 9 8 ckj lp cksyrk bldh D;k izkf;drk fd os ,d gh rF; dgus ,d nwljs [kaMu SS"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Out of 17 applicants 8 boys and 9 girls. Two persons will be a girl.",
+    "options": [
+      "19/34",
+      "5/4",
+      "20/34",
+      "27/34"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Out of 17 applicants 8 boys and 9 girls. Two persons are to be selected for the job. Find the probability that at least one of the selected persons will be a girl. 17 vkosndksa 8 9 gSaA ukSdjh fy, nks p;u fd;k tkuk fd pqus x, de de ,d gksxhA (a) 19 3"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two friend Himanshu and Naman appeared",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two friend Himanshu and Naman appeared an exam. The probability that Himanshu will qualify the exam is 1 20 and Naman will qualify the exam is 1"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Two letters are chosen from English Alphabet. What is the probability that both are vowels.",
+    "options": [
+      "1/65",
+      "2/65",
+      "3/65",
+      "4/65"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Two letters are chosen from English Alphabet. What is the probability that both are vowels. vaxszth o.kZekyk nks v{kj pqus x, gSaA D;k izkf;drk fd nksuksa Loj gSaA (a) 1 65 (b) 2 65 (c) 3 65 (d) 4 65 Sol: Probability = 5 2 26 2 C"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A word consists of 9 letters; 5 consonants and 4 vowels. Three letters are chosen at random. What is the probability that more than one",
+    "options": [
+      "13/42",
+      "17/42",
+      "27/42",
+      "37/42"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A word consists of 9 letters; 5 consonants and 4 vowels. Three letters are chosen at random. What is the probability that more than one vowel will be selected ? ,d 'kCn 9 v{kj gSa_ 5 O;atu 4 LojA ;kn`fPNd :i rhu v{kj pqus tkrs gSaA ,d vf/d Loj pqus t"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A letter is taken out at random from ‘ASSISTANT’ and another is taken out from ‘STATISTICS’. The probability that they are the same letter is :",
+    "options": [
+      "35/96",
+      "19/90",
+      "19/96",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: A letter is taken out at random from ‘ASSISTANT’ and another is taken out from ‘STATISTICS’. The probability that they are the same letter is : ,d v{kj ‘ASSISTANT’ ;kn`fPNd :i fudkyk tkrk nwljk ‘STATISTICS’ fudkyk tkrk laHkkouk fd os ,d gh v{kj (a) 3"
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "Find the probability that a leap year will have:",
+    "options": [
+      "8/7",
+      "4/5",
+      "2/7",
+      "5/8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Solution: Find the probability that a leap year will have: ,d yhi fuEu ifj.kke djus izkf;drk (i) atleast 52 Sundays/de de 52 jfookj (a) 4 (b) 5 (c) 1 (d) 3 (ii) exactly 52 Sundays/fcYdqy 52 jfookj (a) 8 7 (b) 5 7 (c) 5 8 (d) 8 5 (iii)exactly 53 Sundays/fcYdqy "
+  },
+  {
+    "id": "rkr_probability_probability_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Probability (ClassRoom Sheet).pdf",
+    "question": "A person can hit a target 5 times out of 8 shots. If he fires 10 shots, what is the probability that he will hit the target twice?",
+    "options": [
+      "11/8",
+      "35  3 8 1165  3 8/10 8 10",
+      "11/8",
+      "75  3 8 1125  3 8/10 8 10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exam: SSC CGL TIER- II 07/03/2023 | Solution: A person can hit a target 5 times out of 8 shots. If he fires 10 shots, what is the probability that he will hit the target twice? ,d O;fDr 8 'kkWV 5 ckj fu'kkuk yxk ldrk ;fn og 10 'kkWV iQk;j djrk rks bldh D;k fd og nksckjk fu'kkuk yxk SSC CGL TIER-"
+  }
+]

@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The arithmetic mean of the following data is _________. 12, 34, 45, 50, 24",
+    "options": [
+      "30",
+      "36",
+      "33",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (33)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The arithmetic mean of the following data is _________. 23, 17,20,19,21",
+    "options": [
+      "20",
+      "19",
+      "23",
+      "21"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20) | Exam: SSC CGL TIER - II 02/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the mean of six observations 5, 7, 9, , 11 and 12 is 9 then the value of  is :",
+    "options": [
+      "10",
+      "15",
+      "22",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the mean of the data 28, 26, 22, 11, 13, x is 20, then find the value of 'x'.",
+    "options": [
+      "20",
+      "30",
+      "25",
+      "28"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mean of the following distribution:",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The following table shows the number of",
+    "options": [
+      "2.50",
+      "2.73",
+      "2.33",
+      "2.58"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2.73)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mean of the following distribution:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mean of the following frequency distribution:",
+    "options": [
+      "25.8",
+      "24.8",
+      "25.9",
+      "24.9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25.8)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Arithmetic Mean (AM) of the following data is-",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "18"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The mean of the following distribution is 26, then what is the value of k?",
+    "options": [
+      "8",
+      "1",
+      "4",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the arithmetic mean of the following frequency distribution by the assumed mean method:",
+    "options": [
+      "290",
+      "296",
+      "285",
+      "250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (290)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the arithmetic mean of the following frequency distribution by the assumed mean method:",
+    "options": [
+      "Rs. 891.2",
+      "Rs. 890.2",
+      "Rs. 895.6",
+      "Rs. 898.6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs. 890.2)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The following are the marks of 9 students",
+    "options": [
+      "24",
+      "32",
+      "38",
+      "21"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (32)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the median of the daily wages of ten workers from the following data:",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The median of the following data will be _________. 32, 25,33,27, 35, 29 and 30",
+    "options": [
+      "32",
+      "27",
+      "30",
+      "29"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (30) | Exam: SSC CGL TIER- II 03/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The median of a set of observations 15, 16, 18,",
+    "options": [
+      "26",
+      "25",
+      "20",
+      "22"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The median of observations k – , k + 2, 2 1 1 k –1, k + 4, k + , k – 3, k + 4 is _____. 2 2 3 1",
+    "options": [
+      "k –",
+      "k +",
+      "k – 1",
+      "k + 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (k +) | Exam: NTPC 01/04/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "What is the difference between mean and medain of the given data.",
+    "options": [
+      "4",
+      "2",
+      "11",
+      "1.5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The median of a set of 11 distinct observations is 73.2. If each of the largest five observations of the set is increased by 3, then the median of the new set:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL TIER- II 07/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The median of a set of 7 distinct observation is 21.5. If each of the largest 3 observations of the set is increased by 4, then the median of the new sets:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Obtain the median for the following frequency distribution:",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the medain of the following data.",
+    "options": [
+      "15",
+      "12",
+      "10.5",
+      "11"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the median from the following distribution:",
+    "options": [
+      "17.4",
+      "18.4",
+      "14.2",
+      "19.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (19.5)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the median of the following data.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "35 27. Find the median of the following data.",
+    "options": [
+      "38",
+      "40",
+      "35",
+      "41.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (41.5)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mode of the following data:",
+    "options": [
+      "16",
+      "19",
+      "20",
+      "22"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "What will be the mode of the following data?",
+    "options": [
+      "28",
+      "31",
+      "30",
+      "27"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (27) | Exam: SSC CGL TIER- II 06/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "What is the mode of the given data?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7) | Exam: SSC CGL TIER- II 07/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mode and median of 8, 7, 3, 7, 9, 4, 5, 9, 7, 6, 5.",
+    "options": [
+      "9, 8",
+      "7, 7",
+      "8, 6",
+      "7, 8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7, 7)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the sum of the mean, median and mode of the given data.",
+    "options": [
+      "50",
+      "47",
+      "75",
+      "72"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (72) | Exam: NTPC 30/01/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Mean of a sample data = 60 and median = 48. Find the mode of this distribution.",
+    "options": [
+      "36",
+      "18",
+      "24",
+      "48"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24) | Exam: SSC CGL TIER- II 06/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mode if mean and median are 4 and 5 respectively.",
+    "options": [
+      "9",
+      "7",
+      "11",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7) | Exam: NTPC 05/02/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Given below is the data of the age of the various children.",
+    "options": [
+      "2.6",
+      "2.5",
+      "3.5",
+      "3.6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2.6)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "For the following grouped frequency distribution, find the mode:",
+    "options": [
+      "13.6",
+      "15.6",
+      "15.4",
+      "14.6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14.6)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mode for the given distribution (rounded off to two decimal places).",
+    "options": [
+      "35.25",
+      "40.25",
+      "30.33",
+      "28.33"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (28.33) | Exam: SSC CGL TIER - II 02/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The mode for the above grouped frequency distribution is-",
+    "options": [
+      "25",
+      "26",
+      "24",
+      "29"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Given below is the distribution of 48 students",
+    "options": [
+      "15.29",
+      "15.33",
+      "15.60",
+      "16.50"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15.33)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "What is the range of the following data?",
+    "options": [
+      "44",
+      "45",
+      "38",
+      "40"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (40)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the range of 12, 22, 7, 1, 5, 27, 30, 43.",
+    "options": [
+      "28",
+      "48",
+      "35",
+      "42"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the range for the given frequency distribution.",
+    "options": [
+      "50",
+      "70",
+      "60",
+      "55"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (70)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the variance from the following data.",
+    "options": [
+      "3",
+      "2",
+      "2.2",
+      "2.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2) | Exam: NTPC 02/03/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the variance for the following data:",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6) | Exam: NTPC 19/03/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The variance of the seven observations 6, 7, 10, 12, 13, 8, 14 is:",
+    "options": [
+      "9",
+      "9.25",
+      "8.50",
+      "8.29"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8.29) | Exam: NTPC 19/03/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The variance of 20 observations is 5. If each observation is multiplied by 2, then the variance of the resulting observation will be:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: NTPC 10/02/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the variance of 5 value is 0.81, then what is its standard deviation?",
+    "options": [
+      "0.09",
+      "0.9",
+      "2.7",
+      "0.27"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.9) | Exam: SSC MTS 26/10/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the standad deviation for the following data.",
+    "options": [
+      "6",
+      "3",
+      "2",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2) | Exam: NTPC 14/03/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the standared deviation of the following data (rounded off to two decimal places).",
+    "options": [
+      "1.48",
+      "3.21",
+      "4.12",
+      "2.45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.48) | Exam: SSC CGL TIER-II 03/03/2023"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Calculate the standard deviation for the following data.",
+    "options": [
+      "2.733",
+      "3.133",
+      "3.533",
+      "3.633"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3.633) | Exam: NTPC 12/03/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The standard deviation of 12 values is 3. If each value is increased by 4, then find the variance of the new set of values.",
+    "options": [
+      "7",
+      "16",
+      "25",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9) | Exam: NTPC 29/01/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Determine the mean deviation for the data values 5, 3, 7, 8, 4, 9.",
+    "options": [
+      "1",
+      "2",
+      "2",
+      "2.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mean deviation of the given data about their mean.",
+    "options": [
+      "1",
+      "3",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the coefficient of mean deviation from the following data:",
+    "options": [
+      "0.4",
+      "0.5",
+      "0.3",
+      "0.6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0.4)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "What is the mean deviation of first 10 even natural numbers?",
+    "options": [
+      "5",
+      "5.5",
+      "10",
+      "10.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Find the mean deviation about the median for the following data:",
+    "options": [
+      "3.28",
+      "0",
+      "0",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3.28)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The mean deviation about median for the given data:",
+    "options": [
+      "9",
+      "7",
+      "3",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9) | Exam: SSC CGL Tier-II (JSO) 14/09/2019"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "Compute Coefficient of M.D. from median for following series.",
+    "options": [
+      "0.226",
+      "0.336",
+      "0.356",
+      "0.426"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.336)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The mean deviation about mode for the given data:",
+    "options": [
+      "2.36",
+      "2.56",
+      "2.16",
+      "3.56"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2.56)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "The mean deviation about mode for the given data:",
+    "options": [
+      "1.142",
+      "1.243",
+      "1.213",
+      "1.321"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.142)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the mean is 25 and the standard deviation is 5 then the coefficient of variation is:",
+    "options": [
+      "20",
+      "48",
+      "60",
+      "27"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20) | Exam: NTPC 07/01/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_statistics_statistics_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Statistics",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Statistics (ClassRoom Sheet).pdf",
+    "question": "If the standared deviation of a set of numbers is 3 and the arithmetic mean of these numbers is 6, what is the coefficient of variation of these numbers?",
+    "options": [
+      "KEY",
+      "7.(c) 8.(a) 9.(b) 10.(a)",
+      "(a)/KEY",
+      "125 (b) 75"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((a)/KEY) | Exam: NTPC 08/04/2021 (Shift-01)"
+  }
+]

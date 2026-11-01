@@ -1,0 +1,87 @@
+[
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of an article is for Rs.317.90 after giving three successive of 15%, x% and 20% on its marked",
+    "options": [
+      "484",
+      "385",
+      "495",
+      "440"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (385) | Solution: (b) 3 1 15% , 20% 20 5   – – 15% & 20% after discount CP = 550 4 5 17 20 = Rs.374 Ratio  374 : 317.9 x% Discount = 374 – 317.9 374 100% = 5610 374 % = 15% Discount % = 2x = 30% SP = 550 70 100 = Rs.385"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The marked price of an article is `1500. discounts, each of x %, on the marked a single discount of `587.40, then what price of the article if a single discount the marked price?",
+    "options": [
+      "`1025",
+      "`1155",
+      "`1170",
+      "`1200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`1170) | Solution: (c) MP = 1500 SP after giving two successive discount of x % = 1500 – 587.40 = 912.60"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "A shopkeeper sells an article for two successive discounts of 20% marked price. If he had not given would have made a profit of 12%.",
+    "options": [
+      "700",
+      "720",
+      "750",
+      "780"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (750) | Solution: (c) 5 : 4 20 : 17 100 : 68 –20%  –15%  MP SP SP of article = 68 unit = 571.20 1 unit = 8.4 MP of article = 100 unit = Rs.840 CP of article = 100 112 840 = Rs.750 SOLUTIONS"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "On an item having a marked price discounts of Y% and Z% were offered. item was sold for `1056. Which of the be a set of values for Y and Z?",
+    "options": [
+      "Y = 22, Z = 15.5",
+      "Y = 4, Z = 31.25",
+      "Y = 20, Z = 17.5",
+      "Y = 12, Z = 25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Y = 22, Z = 15.5)"
+  },
+  {
+    "id": "rkr_discount_discount_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Discount",
+    "sheetType": "Pro Level",
+    "sheetFile": "Discount (Pro Level Sheet).pdf",
+    "question": "The cost price and the marked price and `900 respectively. When it is 5 x x%, then profit is % . What is the 3",
+    "options": [
+      "6",
+      "9",
+      "8",
+      "15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9)"
+  }
+]

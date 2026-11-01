@@ -1,0 +1,87 @@
+[
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "Geeta runs 5/2 times as fast as Babita.",
+    "options": [
+      "66.67 m",
+      "65 m",
+      "65.33 m",
+      "66"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (66.67 m) | Exam: SSC CPO 10/11/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "A and B run 1 km and A wins by 25 second. A and C run 1 km and A wins by 275 metre. When B and C run the same distance, B wins by 30 sdeconds. The time taken by A to run 1 km is :",
+    "options": [
+      "2 min 25 sec",
+      "2 min 50 sec",
+      "3 min 20 sec",
+      "3 min 30 se"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 min 25 sec)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "Priya can run 250 m",
+    "options": [
+      "100 m",
+      "250 m",
+      "150 m",
+      "50 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (250 m)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "Acan beat B ina 100-metre race by 10 metres.",
+    "options": [
+      "100 : 90 : 81",
+      "90 : 81 : 100",
+      "100 : 81 : 90",
+      "81 : 90 : 100"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (81 : 90 : 100) | Exam: SSC MTS 07/07/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_race_circular_motion_race_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Race & Circular Motion",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Race (ClassRoom Sheet).pdf",
+    "question": "Arun and Bhaskar run a race of 3 km. First, Arun gives Bhaskar a head start of 400 m and beats him by 30 seconds. While coming back, Arun gives Bhaskar a lead of 2.5 minutes and gets beaten by 500 m. What is the difference between the times",
+    "options": [
+      "ANSWER KEY",
+      "(Race)",
+      "ANSWER KEY (Race)",
+      "3.(d) 4.(a) 5.(d) 6.(a) 7.(c) 8.(b) 9.(d) 10.(a)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((Race)) | Exam: SSC CHSL 04/07/2024 (Shift-02)"
+  }
+]

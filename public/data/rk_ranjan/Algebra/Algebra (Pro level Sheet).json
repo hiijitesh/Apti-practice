@@ -1,0 +1,835 @@
+[
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x 4  =1154 , x > 0, find (2x – 42)2?",
+    "options": [
+      "25",
+      "36",
+      "16",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36) | Solution: (b) x4 + 4 1 x = 1154, x > 0  x² + 1 ² x = 1154 2  = 34  x + 1 x = 34 2  = 36 = 6 .......(i)  x – 1 x = 36 – 4 = 32 = 4"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x > 0, and x 4 + = 2207, what is the value of x 4 1 x 7 + ? x 7 1 1",
+    "options": [
+      "710649",
+      "710647",
+      "710654",
+      "710661"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (710647) | Solution: ......(ii) Eqn (i) + (ii) 2x = 6 + 4 2 2x – 4 2 = 6  (2x – 4"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If , & x >1, what is the value of  x 6 –  .  x –  = 2 2 x 6  x     1   1 ",
+    "options": [
+      "372 6",
+      "384 6",
+      "396 6",
+      "420 6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (396 6) | Solution: (c) Given, 1 – 2 2       x x  3 3 1  x x =   3 2 2 3 2 2 22 2    1  x x =   2 2 2 4  = 2 3  3 3 1  x x =   3 2 3 3 2 3   = 24 3 6 3  = 18 3  6 6 1  x x = 3 3 3 3 1 1                x x x x = 22 2 18 3 396 6"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x = , find x11 + x7 – 2525x6 – 527 x3 2 5 + 21",
+    "options": [
+      "5",
+      "–5",
+      "5",
+      "–5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (–5) | Solution: (b) 5 21 2 x   = 5 21 2 2  1 5 21 2 2 x    1 x x  = 5 SOLUTIONS"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If = 7 + then  23 x 64 + 42 x 12 +163  x x 2 7  2 2 – x  14",
+    "options": [
+      "12",
+      "12 2",
+      "12 3",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x2 – 3 7x + 13 = 0, then x – 7 –   6 x – 7   6 1 ;fn x2 – 3 7x + 13 = 0, rks x – 7 –   6",
+    "options": [
+      "80 77",
+      "–80 77",
+      "77",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (80 77)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x = and y = Find the value of 3 –1 x 1 x 3 + + 8 x y x 3 . x 3 – y 3 1 x 3 + + 8 x y 3 +1 1 x 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a + b + c = 4 and a² + b² + c² = 14, + + =1, a b c find the value of abc. 1 1 1",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x + y + z = – 7, x2 + y2 + z2 = 133 & xz = y2 then z – x = ? (x < z < y)",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If (a + b + c) = 17, and (a2 + b2 + c2) = 101, find the value of (a – b)2 + (b – c)2 + (c – a)2.",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x2 – 11x + 1 = 0, what is the value of x8 – 14159x4 + 11?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If  –  a  where a and b are x  2 2 x  4 2 x 2  4 x x integers, then the value of ab = ____. 2 x 1 12 – x b",
+    "options": [
+      "3",
+      "– 6",
+      "6",
+      "– 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (– 6)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If  = 1 &  = 1, then the value of  is: L B M C A N A M B N L C",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "What is equal to?  2   2 x  4 3 x  12 x – 2 3 x 6 – 24 x 4  144 x 2",
+    "options": [
+      "x2",
+      "x2 – 2",
+      "x ²  2 3",
+      "x ² – 2 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (x2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If p= then what is the value of 3q + 2 – 3q – 2 p2 – 3pq + 2? 3q + 2 + 3q – 2",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a 4 + = 50, a > 0 then the value of a 3 + . a 4 a 3 1 1",
+    "options": [
+      "2  1+ 13  –1+ 2 13 ",
+      "2  1 – 13  –1+ 2 13 ",
+      "2  1+ 13  –1 – 2 13 ",
+      "2  1+ 13  + –1+ 2 13  6 x 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2  1+ 13  –1+ 2 13 )"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If = 1, x > 0, then the value of x 3 + is: 2 x 2 +5 x – 2 x 3 6 x 1",
+    "options": [
+      "17",
+      "17",
+      "17",
+      "17"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (17)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x   6 and x > 1, what is the value of    x  1 x 8 – ? x 8  1  1",
+    "options": [
+      "120 3",
+      "128 3",
+      "112 3",
+      "108 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (112 3)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "Which of the following statement is correct? I. The value of 100² – 99² + 98² – 97² + 96² – 95² + 94² – 93² + ..... + 22² – 21² is 4840.  1   1   1  II. The value of k 2 + k – k 4 +  2     4   k   k   k   1   1  1 k + k 4 – is 16    4  k –  k   k k 16",
+    "options": [
+      "Neither I nor II",
+      "Only II",
+      "Only I",
+      "Both I and II"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Only I)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If 3a + 2b = 27 and 27a³ + 8b³ = 1458, then find 2ab.",
+    "options": [
+      "72",
+      "70",
+      "77",
+      "75"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (75)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If 2a – b = 3 and 8a3 – b3 = 999, then the value of 4a2 – b2.",
+    "options": [
+      "63",
+      "65",
+      "61",
+      "67"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (63)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If (4x+2y)³ + (4x-2y)³ = 16 (Ax³ + Bxy²), then what is 1   the value of A² + B² ? 2",
+    "options": [
+      "8",
+      "3",
+      "5",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If (a + b + c) = 20, and a2 + b2 + c2 = 152, find the value of a3 + b3 + c3 – 3abc.",
+    "options": [
+      "560",
+      "640",
+      "480",
+      "720"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (560)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x = 1+ – 1 – , then the value of will 2 2 2 + x be closest to: 3 3 2 – x",
+    "options": [
+      "0.17",
+      "0.12",
+      "1.4",
+      "1.2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0.17)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If =a +b 5 then what is the value of b? 3 5 +5 3 5 –5",
+    "options": [
+      "7/2",
+      "3 5/2",
+      "3/2",
+      "3/2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3/2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "Simplify the given expression.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a3 – b3 = 625, a2 – b2 = 25 and a + b = 5 then find the value of a2 + ab + b2?",
+    "options": [
+      "125",
+      "25",
+      "5",
+      "150"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (125)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If 3a = 4b = 6c and a + b + c = 27 29 , then what is the value of a 2 +b 2 +c 2 ?",
+    "options": [
+      "3 81",
+      "81",
+      "85",
+      "87"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (87)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If 2 is one root of equation x2 – px + 6 = 0 and quadratic equation x2 + 2px + q = 0 has equal roots then what is the value of q?",
+    "options": [
+      "25",
+      "36",
+      "12",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a + b + c = 6 and ab + bc + ca = 5, then a³+b³ + c³ – 3abc is equal to:",
+    "options": [
+      "116",
+      "126",
+      "98",
+      "108"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (126)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If  b + c = 99 – bc  Where, a, b, c are positive no. find  c + a = 3 – ca    7c – 15a + b = ?  a + b = 48 – ab   ",
+    "options": [
+      "38",
+      "41",
+      "43",
+      "35"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (41)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If ab + bc + ca = 8 and a2 + b2 + c2 = 20 , then a possible 1 value of (a + b + c)[ (a - b)2 + (b - c)2 + (c - a)2] is: 2 1",
+    "options": [
+      "72",
+      "56",
+      "84",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If 1 – p 2 1 – q 2 = , then what is the value of 2 2p 2 + 2q 2 + 2pq + 2p 2 + 2q 2 – 2pq    3",
+    "options": [
+      "2",
+      "2",
+      "1",
+      "none of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a2 + b2 +  = 4, a  0, b  0, then the value a 2 b 2 of a4 + b4 is: 1 1",
+    "options": [
+      "32",
+      "256",
+      "64",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "Which of the following statement is correct?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "What is the value of/",
+    "options": [
+      "k/1",
+      "64 k 32/1",
+      "k/1",
+      "32 k 64"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (k/1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x4 + x2y2 + y4 = and x2 +xy + y2 = , then 256 16 2(x2 + y2) = ? 21 3",
+    "options": [
+      "5/16",
+      "5/8",
+      "3/8",
+      "3/4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5/8)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If a + b = and ab = , them the value of a4 + b4 4 8 + ab3 + ba3 is: 3 1",
+    "options": [
+      "27/12",
+      "/8 256",
+      "27/25",
+      "9/6 64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (27/25)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x – y = and   10 , then what is the value 9 x y 2 of (x3 – y3)? 7 1 1 1",
+    "options": [
+      "26/81",
+      "217/729",
+      "45/72",
+      "5 8/9 27"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (217/729)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x = 7  3 5 , then find the value of x2 + . x 2   1",
+    "options": [
+      "58/8",
+      "0  315 5 799  328 5/8",
+      "79/12",
+      "9  315 5 799  315 5/8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9  315 5 799  315 5/8)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x – y = 4 and x3 – y3 = 316, y > 0 then the value of x4 – y4 is:",
+    "options": [
+      "2482",
+      "2320",
+      "2500",
+      "2401"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2320)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x = 10  11 , y = 10  11 , then the value of 7x2 – 50xy + 7y2 = ?",
+    "options": [
+      "344",
+      "704",
+      "1360",
+      "386"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (344)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If x + = 3, find x x93 + x91 + x87 + x85 + x83 + x89 = ? 1",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "–1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If + = 34, then x – x ² –1 x + x ² –1 find the value of x (where x < 0) x + x ² –1 x – x ² –1",
+    "options": [
+      "±1",
+      "±2",
+      "±3",
+      "±4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (±3)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "Simplify the following expression.",
+    "options": [
+      "(a³ + b³)(b³ + c³)(c³ + a³) 2 5",
+      "(a³ + b³)(b³ – c³)(c³ – a³) 2 5",
+      "(a³ – b³)(b³ + c³)(c³ + a³) 2 5",
+      "(a³ – b³)(b³ – c³)(c³ + a³) 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((a³ + b³)(b³ + c³)(c³ + a³) 2 5)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If p + q + r = 0, then what is the simplified value of the expression  p 2 q 2 r 2       p 2  qr q 2  pr r 2  pq   p 2 q 2 r 2 ",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "– 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If  +  +  = 0, then =? 2  2 –  3  2 +  2 +  2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "Which of the following statement is correct?",
+    "options": [
+      "Neither I nor II",
+      "Only I",
+      "Both I and II",
+      "Only II ANSWER Algebra (chtxf.kr) a 8 b"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Neither I nor II) | Solution: Which of the following statement is correct? fuEufyf[kr lk dFku lgh I. If x = 12, y = –2 and z = –10, then x³ + y³ + z³ = 360. ;fn x = 12, y = –2 z = –10, rc x³ + y³ + z³ = 360. II. If x + y = 48 and 4xy = 128, then 4x² + 4y² = 4480. ;fn x + y = 48 4"
+  },
+  {
+    "id": "rkr_algebra_algebra_pro_level_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "Pro Level",
+    "sheetFile": "Algebra (Pro level Sheet).pdf",
+    "question": "If   and a  b  10 , then the value of ab is : b 3 a a 8 b",
+    "options": [
+      "32 7 3",
+      "32 7 4",
+      "32 7 2",
+      "32 7 KEY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (32 7 3) | Solution: If a 8 b b 3 a   and a b 10   , then the value of ab is : ;fn a 8 b = – b 3 a a – b= 10 rks ab (a) 1 32 7 (b) 3 32 7 (c) 4 32 7 (d) 2 32 7"
+  }
+]

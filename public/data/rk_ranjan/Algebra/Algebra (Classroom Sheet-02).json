@@ -1,0 +1,937 @@
+[
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a – 3)2 + (b – 4)2 + (c – 9)2 = 0, then a + b + c = ?",
+    "options": [
+      "–4",
+      "4",
+      "±4",
+      "±2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a – 1)2 + (b + 2)2 + (c + 1)2 = 0, then find",
+    "options": [
+      "12",
+      "–11",
+      "3",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a – 4)2 + (b – 5)2 + (c – 3)2 = 0, a + b then the value of is:",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "–3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (x + y – z)2 + (y + z – x)2 + (z + x – y)2 = 0, then x + y + z = ?",
+    "options": [
+      "3",
+      "3 3",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a2 + b2 + c2 = 2 (a – b – c) – 3, then the value of 4a – 3b + 5c is –",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a² + b² + 49c² + 18 = 2 (b–28c–a) then the value of (a+b – 7c) is:",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC CGL 12/04/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a2 +b2 + 49c2 + 18 = 2 (b – 28c – a), then the value of (a – b – 7c) is:",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2) | Exam: SSC CGL 18/04/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a² + b² + 49c² + 18 = 2 (b + 28c –a), then the value of (2a – b + 7c) is:",
+    "options": [
+      "– 3",
+      "1",
+      "– 4",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1) | Exam: SSC CGL 19/04/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a2 + b2 + c2 = 2(a + c – 1), then the value of a3 + b3 + c3 = ?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2) | Exam: SSC CGL 12/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (x + y + z) = 23 and x2 + y2 + z2 = 179 then find the value of (xy + yz + zx).",
+    "options": [
+      "225",
+      "280",
+      "175",
+      "350"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (175) | Exam: SSC Phase-XII 25/06/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b – c = 5 and ab – bc – ac = 10, then find the value of a2 + b2 +c2.",
+    "options": [
+      "15",
+      "45",
+      "5",
+      "40"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CGL 18/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a² + b² + c² = 6.25 and (ab+bc+ca) = 0.52, what is the value of (a+b+c), if (a+b+c)<0?",
+    "options": [
+      "± 2.7",
+      "– 2.7",
+      "– 2.8",
+      "± 2.8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (– 2.7) | Exam: SSC CGL 11/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x + y + z = 13, x² + y² + z² = 91 and xz = y², then the difference between z and x is:",
+    "options": [
+      "3",
+      "8",
+      "5",
+      "9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8) | Exam: SSC CHSL 05/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b + c = 3, a² + b² + c² = 6 and + + = 1, a b c Here, a, b & c are non-negative, then abc = ?",
+    "options": [
+      "2/3",
+      "3/2",
+      "1/2",
+      "1/3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3/2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b + c = 6, a² + b² + c² = 14 and ab + bc + ca = 11, then what is the value of a³ + b³ + c³ –3abc ?",
+    "options": [
+      "31",
+      "12",
+      "18",
+      "42"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18) | Exam: SSC CGL 02/12/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b + c = 5, a³ + b³ + c³ = 85 and abc = 25, then find the value of a² + b² + c² –",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "Factorize the given algebraic expression. x³ + 27y³ + 64z³ – 36xyz",
+    "options": [
+      "(x + 3y + 4z) (x² + 9y² + 16z² + 3xy + 12yz + 4xz)",
+      "(x + 3y + 4z) (x² + 9y² + 16z² – 12xy² – 3yz – 4xz)",
+      "(x – 3y – 4z) (x² + 9y² + 16z² – 3xy – 12yz – 4xz)",
+      "(x + 3y + 4z) (x² + 9y² + 16z² – 3xy – 12yz – 4xz)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((x + 3y + 4z) (x² + 9y² + 16z² – 3xy – 12yz – 4xz))"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "What is the value of    3   3   3  2.247  1.730  1.023     –3  2.247  1.730  1.023      2 2   2  2.247  (1.730)  1.023 – 2.247  1.730  ",
+    "options": [
+      "1.730",
+      "4",
+      "5",
+      "5.247"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b + c = 15 and ab + bc + ca = 35, then find the value of a³ + b³ + c³ – 3abc.",
+    "options": [
+      "2100",
+      "1500",
+      "1200",
+      "1800"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1800) | Exam: SSC CPO 29/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a + b + c) = 14, and (a3 + b3 + c³ – 3abc) = 98, find the value of (ab + bc + ca).",
+    "options": [
+      "60",
+      "64",
+      "65",
+      "63"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (63) | Exam: SSC CGL 26/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a + b + c) = 12, and (a2 + b2 + c2) = 50, find the value of (a3 + b3 + c3 – 3abc).",
+    "options": [
+      "36",
+      "24",
+      "42",
+      "48"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36) | Exam: SSC CGL 19/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x + y + z = 2, x³ + y³ + z³ – 3xyz = 74, then (x² + y2 + z²) is equal to :",
+    "options": [
+      "22",
+      "29",
+      "26",
+      "24"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (26) | Exam: SSC CGL 23/08/2021 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x + y + z = 13, x2 + y2 + z2 = 133 and x3 + y3 + z3 = 847, then the value of 2 xyz is:",
+    "options": [
+      "8",
+      "7",
+      "–9",
+      "–6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–6) | Exam: SSC CPO 24/11/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x = 110, y = 111, z = 112, then find the value of x3 + y3 + z3 – 3xyz.",
+    "options": [
+      "999",
+      "991",
+      "997",
+      "995"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (999) | Exam: SSC CPO 28/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x = 222, y = 223 and z = 224, then find the value of x³ + y³ + z³ – 3xyz.",
+    "options": [
+      "2007",
+      "2004",
+      "2006",
+      "2005"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2007) | Exam: SSC CGL 12/12/2022 (Shift-04)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "Find a 3 + b 3 + c3 – 3abc if a = 1001, b = 1004 and c = 1007.",
+    "options": [
+      "80235",
+      "81234",
+      "79356",
+      "81324"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (81324)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x = z = 225, and y = 226 then x3 + y3 + z3 – 3xyz = ?",
+    "options": [
+      "765",
+      "676",
+      "576",
+      "674"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (676)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a = 2022, b = 2021 and c = 2020, then value of a2 + b2 + c2 – ab – bc – ca is:",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: SSC CHSL 26/05/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If p = 106, q = 105 and r = 104, then value of p² + q2 + r2 –pq – qr – rp is:",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3) | Exam: SSC Phase-XII 25/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a = 101, b = 102 and c = 103, then a² + b² + c² – ab – bc – ca",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: SSC CGL 24/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If x = 32, y = 33 and z = 35, then evaluate the expression x3 + y3 + z3 – 3xyz.",
+    "options": [
+      "1120",
+      "1000",
+      "900",
+      "700"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (700) | Exam: SSC CHSL 01/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If ab + bc + ca = 8 and a2 + b2 + c2 = 20, 1 then possible value of (a + b + c)[(a – b)2 2",
+    "options": [
+      "72",
+      "56",
+      "84",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a + b + c) = 19, and (a2 + b2 + c2) = 155, find the value of (a – b)2 + (b – c)2 + (c – a)2.",
+    "options": [
+      "104",
+      "108",
+      "100",
+      "98"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (104) | Exam: SSC CGL 18/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a3 + b3 + c3 – 3abc) = 405, and (a + b + c) = 15, find the value of (a – b)2 + (b – c)2 + (c – a)2.",
+    "options": [
+      "27",
+      "54",
+      "18",
+      "45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (54) | Exam: SSC CGL 20/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a3 + b3 + c3 – 3abc) = 405, and (a – b)2 + (b – c)² + (c – a)² = 54, find the value of (a + b + c).",
+    "options": [
+      "15",
+      "45",
+      "9",
+      "27"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15) | Exam: SSC CGL 26/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "Simplify the following expression. (59  59  59)  (54  54  54)  (57  57  57) –3(59) (54) (57) (59  54  57)",
+    "options": [
+      "38",
+      "76",
+      "170",
+      "19"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (19) | Exam: SSC CHSL 27/05/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a = 25, b = 15, c = –10, then a 3 + b 3 + c 3 – 3 abc   2   2   2 = ?",
+    "options": [
+      "30",
+      "–15",
+      "–30",
+      "15"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a3 – b3 – c3 – 3abc = 0, then",
+    "options": [
+      "a = b = c",
+      "a + b + c = 0",
+      "a + c = b",
+      "a = b + c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (a = b + c)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + 2b + 3c = 0, then what is the value of (a3 + 8b3 + 27c3)?",
+    "options": [
+      "18 abc",
+      "12 abc",
+      "0",
+      "6 abc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18 abc) | Exam: SSC CPO 28/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b = c, then the expression a³ + b³ – c³ + 3abc will be equal to:",
+    "options": [
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0) | Exam: SSC CGL 24/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If 8a3 + b3 + 27c³ = 18 abc, then the relation among a, b and c is:",
+    "options": [
+      "b + 3c = 2a",
+      "2a + b = 3c",
+      "2a + 3c = b",
+      "b + 3c = –2a"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (b + 3c = –2a) | Exam: SSC CGL 17/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "Simplify the following expression.  x – y  3 +  y – z  3 +  z – x  3  x – y  y – z  z – x ",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CGL 13/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "Find the value of (1.6)3 – (0.9)3 – (0.7)3.",
+    "options": [
+      "3.24",
+      "–3.24",
+      "3.024",
+      "–3.024"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3.024)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (3x + 1)3 + (x – 3)3 + (4 – 2x)3 + 6 (3x + 1) (x – 3)(x – 2) = 0, then what is the value of x?",
+    "options": [
+      "– 1",
+      "– 2 1",
+      "1",
+      "2 Algebra (Sheet-02)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (– 1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (4x – 5)³ + (x – 2)³ + 27 (2x – 5)³ = 9 (4x –5)(x – 2) (2x – 5), then the value of  3   x   will be:  2 ",
+    "options": [
+      "1/2",
+      "5/2",
+      "3/2",
+      "7/2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7/2) | Exam: SSC CHSL 05/08/2021 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (5x + 1) 3 + (x – 3) 3 + 8(3x – 4) 3 = 6(5x + 1)(x – 3)(3x – 4), then x is equal to:",
+    "options": [
+      "5/6",
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5/6)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a3 – b3 = 216 and a – b = 6, then (a + b)2 – ab is equal to :",
+    "options": [
+      "38",
+      "42",
+      "52",
+      "36"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (36)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a – b = 5 and ab = 25, then the value of a³ – b³ is:",
+    "options": [
+      "525",
+      "500",
+      "450",
+      "400"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (500) | Exam: SSC Phase-XII 25/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If (a – b) = 9, and (a3 – b3) = 4410, find the value of ab.",
+    "options": [
+      "190",
+      "112",
+      "162",
+      "136"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (136) | Exam: SSC CHSL 02/08/2023 Shift-02"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If a + b = 10 and ab = 6, then the value of a3 + b3 is:",
+    "options": [
+      "860",
+      "820",
+      "800",
+      "840"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (820) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If 3a + 2b = 27 and 27a³ + 8b³ = 1458, then find 2ab.",
+    "options": [
+      "72",
+      "70",
+      "77",
+      "75"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (75) | Exam: SSC CGL 18/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If  = 1 and x + y = 2, then the value y x of x3 + y3 is:",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If 2 2 x – 3 3 y = 2 x – 3 y (Ax2 + By2+ Cxy), then the value of A2 + B2 – C2 is :",
+    "options": [
+      "11",
+      "7",
+      "19",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "I f 5 5 x  2 2 y = A x  2 y (Bx2+2y2+ Cxy), then the value of (A2 + B2 – C2) is",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_02_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-02).pdf",
+    "question": "If 27(x + y)3 – 8(x – y)3 = (x + 5y)(Ax2 + By2 + Cxy), then what is the value of (A + B – C)?",
+    "options": [
+      "7.(a) 8.",
+      "9.(b) 10.(c)",
+      "18",
+      "11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9.(b) 10.(c)) | Exam: CGL 2019 Tier II (15/11/2020)"
+  }
+]

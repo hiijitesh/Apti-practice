@@ -1,0 +1,835 @@
+[
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of these number sets is NOT a subset of the Real Numbers?",
+    "options": [
+      "Rational/ifjes",
+      "Irrational/vifjes",
+      "Integers/iw.kk±d",
+      "Complex/lfEe"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Complex/lfEe) | Exam: SSC CPO 11/12/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The set of real numbers includes which of the following?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The square root of any prime number is:",
+    "options": [
+      "Rational (ifjes;)",
+      "Whole (iw.kZ)",
+      "Irrational (vifjes;)",
+      "Integer (iw.kk±d"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Irrational (vifjes;)) | Exam: SSC CPO 09/12/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of these is a number that is real but NOT rational?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 21/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of these number is neither rational nor integer?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 23/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Rational number + Irrational number = ?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CPO 10/12/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "If x is irrational and y is irrational, then x + y is:",
+    "options": [
+      "Always irrational/ges'kk vifjes",
+      "Always rational/ges'kk ifjes",
+      "Rational if x =– y/ifjes; vxj x = –y",
+      "Never rational/dHkh ifjes; ugh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rational if x =– y/ifjes; vxj x = –y) | Exam: SSC CHSL 18/11/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "What type of number is the result of multiplying a rational number with an irrational number?",
+    "options": [
+      "Always rational/lnSo ifjes",
+      "Always irrational/lnSo vifjes",
+      "Always integer/lnSo iw.kkZad",
+      "Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Sometimes rational, sometimes irrational dHkh ifjes;] dHkh vifjes) | Exam: SSC CGL 20/09/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The product of two rational numbers is always:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 24/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The decimal expansion of a rational number is:",
+    "options": [
+      "Non-terminating and non-repeating/vuolkuh",
+      "Terminating or repeating/lkar ;k vkorhZ",
+      "Terminating only/dsoy lkar",
+      "Repeating only/dsoy vkorh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Terminating or repeating/lkar ;k vkorhZ) | Exam: SSC CHSL 15/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which one of the following is TRUE about repeating decimals?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 28/11/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The decimal expansion of an irrational number is:",
+    "options": [
+      "Terminating decimal/lkar n'keyo",
+      "Repeating decimal/vkorhZ n'keyo",
+      "Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo",
+      "Can be either terminating or repeating decimal/;g ;k rks lkar ;k vkorhZ n'keyo gks"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Non-terminating, non-repeating decimal vuolkuh] vukorhZ n'keyo) | Exam: SSC CHSL 22/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "A number is said to be pure recurring if:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CHSL 30/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which is a mixed recurring decimal?",
+    "options": [
+      "0.25",
+      "0.6666...",
+      "0.123123...",
+      "1.436363..."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1.436363...) | Exam: SSC CHSL 19/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is a terminating decimal?",
+    "options": [
+      "7/20",
+      "11/30",
+      "13/45",
+      "8/33"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7/20) | Exam: SSC CPO 11/12/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is both a rational number and a terminating decimal?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 22/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers has a terminating decimal representation?",
+    "options": [
+      "3/8",
+      "1/6",
+      "2/7",
+      "4/9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3/8) | Exam: SSC CGL 22/09/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of these fractions results",
+    "options": [
+      "1/4",
+      "1/17",
+      "1/10",
+      "1/8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/17) | Exam: SSC CHSL 21/11/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following number is a terminating decimal?",
+    "options": [
+      "69/42",
+      "37 5896/75",
+      "58/12",
+      "73 6917/8 42"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (58/12)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following statement is TRUE for whole numbers?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 24/09/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which set includes numbers like –5, 0 and 6?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which set does NOT contain negative numbers?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 25/09/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of these is both an integer and a whole number?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 20/09/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is a non-zero number that belongs to every set: Whole, Integer, Rational, and Real?",
+    "options": [
+      "1",
+      "0",
+      "– 1",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CGL 21/09/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The largest 3-digit prime number is:",
+    "options": [
+      "983",
+      "991",
+      "987",
+      "997"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (997) | Exam: CONSTABLE 22/11/2023 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The sum of the smallest three-digit prime number and the largest three-digit prime number is:",
+    "options": [
+      "1104",
+      "1098",
+      "1100",
+      "1093"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1098) | Exam: CONSTABLE 03/12/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The total count of prime numbers less than 50 is:",
+    "options": [
+      "17",
+      "15",
+      "14",
+      "13"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15) | Exam: RRB ALP TIER-I 25/11/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The sum of all the prime numbers between 51 and 100 is:",
+    "options": [
+      "724",
+      "732",
+      "683",
+      "687"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (732) | Exam: RRB Technician G-III 27/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Consider the following numbers:",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "Non"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Only one)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is a prime number?",
+    "options": [
+      "437",
+      "161",
+      "221",
+      "373"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (373) | Exam: RRB Technician G-III, 24/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is NOT a prime number?",
+    "options": [
+      "1271",
+      "1171",
+      "1471",
+      "1571"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1271) | Exam: CONSTABLE 20/11/2023 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "If (k2 + 3) and (k3 + 5) are prime numbers then what will be the value of k?",
+    "options": [
+      "2",
+      "4",
+      "7",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2) | Exam: CONSTABLE 14/11/2023 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The number of prime numbers lying between 400 and 430 is:",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: RRB Technician G-III 29 /12/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Find the prime number of numbers falling between 466 and 476, including these two numbers.",
+    "options": [
+      "2",
+      "1",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1) | Exam: RRB NTPC UG CBT-I 11/08/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "The sum of 3 prime numbers is 100. One number is greater than another number by 36. Find the largest number.",
+    "options": [
+      "61",
+      "67",
+      "59",
+      "71"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (67)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "x, y and z are distinct prime numbers where x < y < z. If x + y + z = 70, then what is the value of z?",
+    "options": [
+      "31",
+      "29",
+      "43",
+      "37"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (37) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "x, y and z are prime numbers such that x + y + z = 38. What is the maximum value of x?",
+    "options": [
+      "19",
+      "23",
+      "31",
+      "29"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (31)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following pairs is co-prime?",
+    "options": [
+      "(156, 126)",
+      "(23, 92)",
+      "(24, 351)",
+      "(18, 35"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((18, 35)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is a pair of co-primes?",
+    "options": [
+      "(198, 175)",
+      "(7, 35)",
+      "(217, 651)",
+      "(32, 62"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((198, 175)) | Exam: CONSTABLE 14/11/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following pairs of numbers are relatively prime to each other?",
+    "options": [
+      "(103, 113)",
+      "(51, 119)",
+      "(27, 51)",
+      "(98, 567)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((103, 113)) | Exam: CONSTABLE 23/11/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is a pair of co-prime numbers?",
+    "options": [
+      "455, 49",
+      "81, 16",
+      "363, 77",
+      "52, 24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (81, 16) | Exam: RRB Technician G-III, 26/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Twin prime numbers are the prime numbers whose difference is always equal to 2. The number of twin primes between 35 and 100 is:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3) | Exam: CONSTABLE 16/11/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Three numbers which are co-prime to each other are such that the product of the first two is 391 and that of the last two is 943. Find the middle number.",
+    "options": [
+      "19",
+      "41",
+      "17",
+      "23"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (23) | Exam: CONSTABLE 16/11/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Four Prime numbers are taken",
+    "options": [
+      "5",
+      "7",
+      "11",
+      "17"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Three numbers which are co-prime to one another are such that the product of the first two is 551 and that of the last two is 1073. The sum of the three numbers is?",
+    "options": [
+      "75",
+      "81",
+      "85",
+      "89"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (85)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Let a and b be two numbers such that a and (b – a) are co-primes and b and (b + a) are co-primes, respectively. Which of the followings is true?",
+    "options": [
+      "b is prime",
+      "a and b are co-prime",
+      "a is prime",
+      "a and b are not co-prime Composite It has more than two factors. Ex. 4, 6, 8, 9,10,12,14,15 etc.  9 Note: (i) 1 is neither prime nor composite number. (ii) If a and b are any two odd primes then a2 + b2 and a2 – b2 is composite numbers."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (a and b are co-prime) | Exam: CONSTABLE 16/11/2023 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following is the smallest composite number?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4) | Exam: NTPC CBT-I 05/09/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which one of the following is not correct?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_number_system_classification_of_numbers_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Classification of Numbers (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is a Perfect Number?",
+    "options": [
+      "KEY",
+      "7. (b) 8. (c) 9. (d) 10. (a)",
+      "KEY",
+      "10. (a)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10. (a))"
+  }
+]

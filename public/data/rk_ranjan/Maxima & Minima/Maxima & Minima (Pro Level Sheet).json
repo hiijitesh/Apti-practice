@@ -1,0 +1,342 @@
+[
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "The maximum value of (2sin + 3cos)",
+    "options": [
+      "17",
+      "11",
+      "9",
+      "13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (13) | Solution: (d) Max value of (asin+ bcos) = 2 2 a b  Here, a = 2, b = 3  Max value of (2sin + 3cos) = 4 9  = 13"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum and minimum value of 1  sin 2 7 + cos 2 7 3 7",
+    "options": [
+      "Max.8/Min.5",
+      "Max.4/Min.5",
+      "Max.8/Min.–6",
+      "Max.6/Min.–6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Max.8/Min.–6) | Solution: (c) Max. value = 2 2 7 3 7 2 2 1              = 1 + 7 4 2       = (1 + 7) = 8 Min. value = 2 2 7 3 7 2 2 1–             = (1 – 7) = – 6"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum and minimum value of sin( + 30°) + cos( + 60°).",
+    "options": [
+      "1, – 1",
+      "2, – 1",
+      "1, – 2",
+      "1, 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1, – 1) | Solution: (a) sin(90° – (60° – ) + cos( + 60°) = cos(60° – ) + cos(60° + ) = 2cos60°coscos(a – b) + cos(a + b) = 2cosa.cosbcos Max value = + 1 Min value = – 1"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the maximum value of (19sin + 6cotsin)",
+    "options": [
+      "397",
+      "197",
+      "297",
+      "497"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (397) | Solution: (a) 19sin+ 6cotsin = 19sin6 cos sin  sin= 19sin6 cos Max value = 2 2 19 6   397"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of 81sin2 + 64cosec2",
+    "options": [
+      "140",
+      "144",
+      "81",
+      "145"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (144) | Solution: (b)  a b  min. value= 2 ab ³ Minimum value = 2 ab = 2 81 64  = 144"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of 16cos225sec2",
+    "options": [
+      "51",
+      "25",
+      "16",
+      "41"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (41) | Solution: (d)  a b  min. value= a + b³ Minimum value = (a + b) = (16 + 25) = 41"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of (sin + cosec)2 + (cos + sec)2.",
+    "options": [
+      "0",
+      "2",
+      "7",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9) | Solution: (d) ATQ, sin2 + cosec2 + 2 + cos2 + sec2 + 2 = 1 + 4 + cosec2 + sec2 = 5 + 1sec2 + 1cosec2 Minimum value = 5 +   2 1 1  = 5 + 4 = 9"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of 4tan2 + 9cosec2",
+    "options": [
+      "21",
+      "31",
+      "–15",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (21) | Solution: (a) 4tan2 + 9cosec2 4tan2 + 9 (cot2+ 1) 4 tan2 + 9 cot2 + 9 Min. value = 2 ab 2 4 9 9    = 12 + 9 = 21"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of sin2 + cos2 + sec2 + tan2+ cot2+ cosec2.",
+    "options": [
+      "0",
+      "2",
+      "7",
+      "9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7) | Solution: (c) ATQ, 1 + cosec2 + sec2+ tan2 + cot2 Minimum value = 1 +   2 1 1  + 2 1 1  = 7"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum value of 16",
+    "options": [
+      "43",
+      "45",
+      "47",
+      "44"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (47) | Solution: (c) 42 43sin 44cos Maximum value of 4(2 + 3sin + 4cos) =   2 2 2 3 4 4   = 42+5 = 47"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of 32sec2 + 72cosec2",
+    "options": [
+      "104",
+      "72",
+      "96",
+      "200"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200) | Solution: (d) 32sec2 + 72cosec2  32 (1 + tan2) + 72 (1 + cot2)  32 + 32tan2 + 72 + 72cot2  32tan2 + 72cot2 + 104  Min. value = 2 ab 104   2 32 72  + 104  (2 4 12 + 104)  (96 + 104) = 200"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum and minimum value of 5 + 2sin – 3cos",
+    "options": [
+      "Max.8/Min.–6",
+      "Max. 4  13 /Min. 4 – 13",
+      "Max.1/Min.0",
+      "Max.5  13 /Min.5 – 13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Max.5  13 /Min.5 – 13) | Solution: (d) Max. value = 5 +    2 2 2 –3  = 5 4 9   = 5 13  Min. value = 5 – 13"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum and minimum value of sin140.cos140",
+    "options": [
+      "Max. /Min.0 2 140 1",
+      "Min. – /Max.0 3 140",
+      "Min.0/Max.1 1",
+      "Min. – /Max.140 2 140"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Max. /Min.0 2 140 1) | Solution: (a) sin140.cos140 when n is even then, Max. value = n 1 2 Min. value = 0 Max. value = 140 1 2 and Min. value = 0"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find maximum value of 27 sin 2 ",
+    "options": [
+      "33",
+      "35",
+      "37",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (35) | Solution: (b) ATQ, = 2 2 3sin 5cos 3  = 2 2 3sin +5cos 3   Max = 35 [asin2 + bcos2then, max value = a or b,whichever is greater]"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the maximum and minimum value of 12sin2 + 15cos2",
+    "options": [
+      "15, 13",
+      "14, 12",
+      "13, 15",
+      "15, 12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15, 12) | Solution: (d) Given that, 12sin2 + 15cos2 then,  12sin2 + 12cos2 + 3cos2 12(sin2 + cos2) + 3cos2 12 + 3cos2 Maximum value = 12 + 3 = 15 and Minimum value = 12 + 0 = 12"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minumum value of 16tan2 + 25cot2 + 11",
+    "options": [
+      "51",
+      "67",
+      "15",
+      "11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (51)"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the maximum and minimum value of 2.5 cos    + 5cos    + 5  3      ",
+    "options": [
+      "5   , 5    2   3       7  2   2  7 ",
+      "5   , 5    2   2       7  2   2 – 7 ",
+      "5   , 5    2   2       7 – 2   2 – 7 ",
+      "5   , 5    2   7     "
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5   , 5    2   2       7 – 2   2 – 7 )"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the maximum and minimum value of sin5 .cos5",
+    "options": [
+      "Max. /Min. – 32 32 1 1",
+      "Max. /Min. – 25 32 1 1",
+      "Max. /Min. – 25 5 1 1",
+      "Max. /Min. – 25 32 ANSWER"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Max. /Min. – 32 32 1 1) | Solution: Find the maximum and minimum value of sin5 .cos5 sin5 vf/dre U;wure (a) Max. 1 32 /Min. – 1 32 (b) Max. 1 25 /Min. – 1 32 (c) Max. 1 25 /Min. – 1 5 (d) Max. 1 25 /Min. – 1 32"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the maximum value of sin2A + cosA",
+    "options": [
+      "3/4",
+      "1/4",
+      "4/5",
+      "5/4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5/4) | Solution: Find the maximum value of sin2A + cosA sin2A + cosA vf/dre (a) 3 4 (b) 1 4 (c) 4 5 (d) 5 4"
+  },
+  {
+    "id": "rkr_maxima_minima_maxima_minima_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Maxima & Minima",
+    "sheetType": "Pro Level",
+    "sheetFile": "Maxima & Minima (Pro Level Sheet).pdf",
+    "question": "Find the minimum value of 18tan2 + 8cot2",
+    "options": [
+      "2",
+      "1",
+      "24",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24) | Solution: Find the minimum value of 18tan2 + 8cot2 18tan2 + U;wure (a) 2 (b) 1 (c) 24 (d) 6 ANSWER KEY"
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "8 liters are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine",
+    "options": [
+      "18 liters",
+      "24 liters",
+      "32 liters",
+      "42 liter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24 liters) | Solution: (b) 4 8 1 – 16 16 65 x x x         4 4 8 16 2 1 – = = 81 3 x             8 2 1 – 3 x  8 1 3 x  x = 24 litres"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A can contains a mixture of two liquids a and b",
+    "options": [
+      "10",
+      "20",
+      "21",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (21) | Solution: (c) a : b 7 : 7 : 5 = 16 + 9 9 7 – 9 5 4 unit = 9 16 unit = 36 36 a = 7 12 = 21 litre"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "4 kg of a metal contains copper and rest",
+    "options": [
+      "49 : 221",
+      "39 : 231",
+      "94 : 181",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (49 : 221) | Solution: (a) C Z 1 5 4 5 = 4kg 1 6 5 6 = 5 kg Copper = 1 1 4 5 49 4 5 5 6 5 6 30       Zinc = 4 5 16 25 221 4 5 5 6 5 6 30       C : Z = 49 : 221"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "From a container of wine, a thief has stolen 15 liters of wine and replaced it with same quantity of water.",
+    "options": [
+      "75 liters",
+      "100 liters",
+      "150 liters",
+      "120 liter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120 liter) | Solution: (d) 3 15 1 – 343 512 x x x        3 3 15 7 1 – 8 x              15 7 1 – 8 x   1 15 8 x   x = 120"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "There are three bottles of mixture of syrup and water of ratios 2:3, 3:4 and 7:5. 10 liters of first and 21 Liters of second bottles are taken. How much quantity from third bottle is to be taken so that final mixture from three bottles will be of ratios 1:1.",
+    "options": [
+      "25 liters",
+      "20 liters",
+      "35 liters",
+      "30 liter"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30 liter) | Solution: (d) S W 2 : 3 2 5 10     4 6 3 : 4 3 7 21     9 12 7 : 5 12 12x     x 7x 5x 13 + 7x = 18 + 5x 2x = 5 12x = 30"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "What would be the ratio of milk and water",
+    "options": [
+      "747:443",
+      "787:1260",
+      "787:473",
+      "747:473"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (787:473)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "Two blends of a commodity costing Rs.35 and Rs.40",
+    "options": [
+      "50",
+      "20",
+      "40",
+      "30"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (40)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A container contains x liters of wine. 10 liters are drawn from this container and is then filled with water. This Operation is performed 2 more times.",
+    "options": [
+      "22 liters",
+      "40 liters",
+      "24 liters",
+      "28 liter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40 liters)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A can contains 50 litres of a solution of spirit and",
+    "options": [
+      "40",
+      "44",
+      "54",
+      "48"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (44)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A solution of 60 litres is made of dye and water",
+    "options": [
+      "2",
+      "6",
+      "8",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "The ratios of alcohol and water",
+    "options": [
+      "46.7",
+      "47.8",
+      "47.4",
+      "48.9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (48.9)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A bucket contains a mixture of milk and water",
+    "options": [
+      "36 litres",
+      "35 litres",
+      "30 litres",
+      "25 litre"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36 litres)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "From a cask filled with wine, 108.75 litres are first drawn and replaced with water. From this mixture 87 litres are drawn and replaced with water. The ratio",
+    "options": [
+      "522",
+      "348",
+      "470",
+      "435"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (435)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A vessel contains a solution of acid and water",
+    "options": [
+      "36",
+      "30",
+      "24",
+      "42"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "The ratio of alcohol and water",
+    "options": [
+      "405",
+      "385",
+      "395",
+      "375"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (375)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "The ratio of milk to water",
+    "options": [
+      "56.26",
+      "58.21",
+      "51.24",
+      "54.27"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (56.26)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A mixture is composed of 11 parts of milk & 3 parts of water. If 30 litres of water was added to the mixture, the quantity of both becomes same. What will be the ratio of milk & water if 3 litres of milk is further added?",
+    "options": [
+      "55 : 59",
+      "4 : 1",
+      "1 : 1",
+      "59 : 55"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (59 : 55)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A drink is made by mixing water and juice",
+    "options": [
+      "240",
+      "280",
+      "300",
+      "260"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (280)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A mango juice is made by mixing water and mango",
+    "options": [
+      "197 litre",
+      "212 litre",
+      "206 litre",
+      "216 litr"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (216 litr)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A vessel contains a 32 litre solution of acid and water",
+    "options": [
+      "4 : 7",
+      "5 : 6",
+      "4 : 9",
+      "8 : 11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 : 6)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "Tea leaves worth `108 per kg and `120 per kg are",
+    "options": [
+      "128",
+      "133",
+      "135",
+      "130"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (135)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "Two vessels contain mixture of milk and water.",
+    "options": [
+      "1 : 2",
+      "2 : 1",
+      "1 : 1",
+      "3 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 1)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "There are 3 mixture contain milk and water.",
+    "options": [
+      "7:6",
+      "7:9",
+      "9:7",
+      "11:5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7:9)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "The ratio of milk and water",
+    "options": [
+      "875",
+      "189",
+      "504",
+      "1701"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (875)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "Vessel contains a mixture of milk and water",
+    "options": [
+      "68",
+      "70.14",
+      "67.21",
+      "63.78"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (68)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A container contains 71.2L of pure milk. 20% of the milk (sol) is taken out and replaced with water. This process is repeated 'n' number of times. Find the min value of 'n' for which the milk concentration becomes less than 46.8%?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_mixture_alligation_mixture_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "sheetType": "Pro Level",
+    "sheetFile": "Mixture (Pro Level Sheet).pdf",
+    "question": "A mixture comprise water, liquids A and B. The 1 volume of water is rd of the total mixture and the 3",
+    "options": [
+      "60 ml",
+      "100 ml",
+      "80 ml",
+      "120 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60 ml) | Solution: A mixture comprise water, liquids A and B. The volume of water is 1 3 rd of the total mixture and the volume of liquids A and B are the ratio 5:3. To remove the water, the mixture is passed through A porous medium which completely absorbs the water a"
+  }
+]

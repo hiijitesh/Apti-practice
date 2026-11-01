@@ -1,0 +1,512 @@
+[
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The product of two numbers is 2160 and their HCF is 12. If the sum of the squares of the two numbers is 4896, then what is the mean of the two numbers?",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "96"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (48) | Solution: (c) Let the number be x and y. Given, x y = 2160 and x2 + y2 = 4896 we know, (x + y)2 = x2 + y2 + 2xy  x + y = 4896 4320   x + y = 9216 = 96  Mean = y 2  x = 96 2 = 48 Alternate Method: Let the number be 12a and 12b ATQ, 12a 12b = 2160 144ab = 2"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of x2 – 8x + 15 & x2 – 5x + 6 is:",
+    "options": [
+      "(x + 5) (x + 2) (x + 3)",
+      "(x – 5) (x – 2) (x – 3)",
+      "(x + 5) (x – 2) (x – 3)",
+      "(x – 2) (x – 3)2 (x – 5)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ((x – 5) (x – 2) (x – 3)) | Solution: (b) x2 – 8x + 15 = x2 – 3x – 5x + 15 = x(x – 3) – 5(x – 3) = (x – 5) (x – 3) x2 – 5x + 6 = x2 – 3x – 2x + 6 = x(x – 3) – 2 (x – 3) = (x – 2) (x – 3)  LCM = (x – 3) (x – 2) (x – 5)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Find the HCF of 0.7, 0.35, 1.05.",
+    "options": [
+      "0.07",
+      "0.35",
+      "0.105",
+      "0.7"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.35) | Solution: (b) HCF (0.7, 0.35, 1.05) HCF of (0.70, 0.35, 1.05) HCF 70 35 105 , , 100 100 100         = HCF (70,35,105) 35"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of two numbers x and y is 204 times their HCF. If their HCF is 12 and the difference between the number is 60, then x + y = ?",
+    "options": [
+      "660",
+      "426",
+      "852",
+      "348"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (348) | Solution: (d) HCF = 12 LCM = 12 204 A : B = a : a + 60 We know that, HCF LCM = A B 12 12 204 = a (a + 60) 144 204 = a (a + 60) Then, a = 144 and a + 60 = 204 A + B = 204 + 144 = 348"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If HCF of 768 and x6y2 is 32xy for natural numbers x  2, y  2, then what is the value of (x + y)?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The least number of square tiles required to pave the ceiling of a room, 12m 95cm long and 3m 85 cm broad, is:",
+    "options": [
+      "417",
+      "517",
+      "407",
+      "507"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (407)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If the HCF of x and 221 is expressible",
+    "options": [
+      "68",
+      "62",
+      "57",
+      "51"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (68)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The highest common factor of 108, 72 and 5a is a. What can be the least common multiple of 108, 72 and a?",
+    "options": [
+      "432",
+      "324",
+      "108",
+      "216"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (216)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "What is the LCM of x4 + x2y2 + y4, x3 + y3, x3 – y3?",
+    "options": [
+      "(x2 – y2) (x4 + x2y2 + y4)2",
+      "(x2 – y2) (x4 + 2x2y2 + y4)",
+      "(x6 – y6)",
+      "(x6 + y6)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((x6 – y6))"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If the LCM of two numbers, 1728 and k is 5184. Then how many values of k are possible.",
+    "options": [
+      "11",
+      "8",
+      "7",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "An oil merchant has 3 varieties of oil of volumes 432, 594 and 702 litres respectively. The number of cans of equal size that would be required to fill the oil separately is :",
+    "options": [
+      "13, 15, 17",
+      "8, 11, 13",
+      "8, 13, 15",
+      "6, 9, 11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8, 11, 13)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of two numbers is 23142 while their HCF is 42. If one of the numbers is 798, then the other number is",
+    "options": [
+      "1218",
+      "1298",
+      "1518",
+      "1208"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1218)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "How many pairs of positive integers x,y exist such that HCF of x, y = 35 and sum of x and y = 1085?",
+    "options": [
+      "15",
+      "8",
+      "12",
+      "30"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of two numbers is 495 If the sum of the numbers is difference is –",
+    "options": [
+      "10",
+      "23",
+      "46",
+      "17"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The sum of two numbers is 1215 81. If the numbers lie between the sum of the reciprocals of the",
+    "options": [
+      "5/70",
+      "5/2 378",
+      "5/15",
+      "12 1188"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5/15)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of the two numbers is The sum of their LCM and HCF the two numbers is divided by and the remainder is 6. The sum of two given numbers is:",
+    "options": [
+      "12",
+      "15",
+      "13",
+      "14"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Let x be the largest 4-digit number by 7, 8 and 11 leaves remainders respectively. When x is divided by the remainder will be :",
+    "options": [
+      "23",
+      "25",
+      "21",
+      "19"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (25)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "When product of two numbers, is then we get 5775, but when it we get 25. If one number is 525, number?",
+    "options": [
+      "275",
+      "325",
+      "405",
+      "210"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (275)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Four ropes of lengths 102m, 119m, are to be cut into parts of equal length. be long as possible. What is the maximum pieces that can be cut? 102 ehVj] 119 eh]",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Four people, A, circular track of h, 3.5 km/h, 4 all start running and their HCF is",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If A is the smallest 6, the quotient is 7 6 and 7 and B is of digits of the sum by both 6 and 7,",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Suppose p and of two positive 1134 then what which when divided numbers? 4, 5 and 8",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "The LCM of x² –",
+    "options": [
+      "(x – 2) (x – 3) is divided by LCM, what is the second",
+      "(x – 6)² (x +",
+      "(x – 6) (x + 1)",
+      "(x + 6) (x + 1)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((x – 2) (x – 3) is divided by LCM, what is the second)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "LCM of two numbers",
+    "options": [
+      "420 number of",
+      "36",
+      "820",
+      "34 B, C and D, start running around a length 6 km. Their speeds are 3 km/ km/h and 4.5 km/h, respectively. If from the same point at the same time when they meet for the first point, how many rounds would (b) 9 (d) 12 three digit number divisible by both the largest four digit number divisible then what is the value of B – A? (b) 9870 (d) 9954 q are the LCM and HCF respectively numbers. If p : q = 14 : 1 and pq = is the difference between the two (b) 35 (d) CND 8x + 15 and x² – 5x + 6 is: (x – 5) 1) (x – 3) (x – 3) (x – 3) is 28 times their HCF. The sum the LCM is 1740. If one of these then what is the other number? (b) 640 (d) 1040"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (420 number of)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If the HCF of x and y is 15, then the HCF of 36x² – 81y² and 81x² – 9y² is divisible by _________?",
+    "options": [
+      "135",
+      "120",
+      "90",
+      "180"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (135) | Solution: If the HCF of x and y is 15, then the HCF of 36x² – 81y² and 81x² – 9y² is divisible by _________? ;fn x y e-l-i 15 rks 36x² – 81y² 81x² – 9y² e-l-i _________ foHkkT; (a) 135 (b) 120 (c) 90 (d) 180"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If (x + k) is the HCF of x2 + 5x + 6 and x2 + 8x + 15 then what is the value of k?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3) | Solution: If (x + k) is the HCF of x2 + 5x + 6 and x2 + 8x + 15 then what is the value of k? ;fn x2 + 5x + 6 x2 + 8x + 15 HCF (x + k) rks D;k (a) 5 (b) 3 (c) 2 (d) 1"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If the sum of least common multiple and greatest common factor of two numbers is 1050 and if their greatest common factor is 630 less than their least common multiple, then find the product of those two numbers.",
+    "options": [
+      "661500",
+      "63000",
+      "10500",
+      "176400 ANSWER 1. (c) 2. (b) 3. (b) 4. (d) 5. (a) 3 6 9 27"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (176400 ANSWER 1. (c) 2. (b) 3. (b) 4. (d) 5. (a) 3 6 9 27) | Solution: If the sum of least common multiple and greatest common factor of two numbers is 1050 and if their greatest common factor is 630 less than their least common multiple, then find the product of those two numbers. ;fn nks la[;kvksa lekioR;Z lekiorZd ;k"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If x is the HCF and y is the LCM of , , , 5 25 20 50 then, which one of the following is correct? 3 6 9 27",
+    "options": [
+      "y = 90",
+      "y = 108x",
+      "y = 270x",
+      "y = 360x"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (y = 360x) | Solution: If x is the HCF and y is the LCM of 3 6 9 27 , , , 5 25 20 50 then, which one of the following is correct? ;fn 3 6 9 27 , , , 5 25 20 50 HCF, x LCM, y rks fuEufyf[kr lgh (a) y = 90 (b) y = 108x (c) y = 270x (d) y = 360x"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "Find the HCF of 4.08 and 6.63.",
+    "options": [
+      "0.50",
+      "0.52",
+      "0.51",
+      "0.53"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0.51) | Solution: Find the HCF of 4.08 and 6.63. 4-08 6-63 e-l-i (a) 0.50 (b) 0.52 (c)"
+  },
+  {
+    "id": "rkr_hcf_lcm_lcm_hcf_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "HCF & LCM",
+    "sheetType": "Pro Level",
+    "sheetFile": "LCM & HCF  (Pro Level Sheet).pdf",
+    "question": "If the LCM of x",
+    "options": [
+      "413",
+      "812",
+      "7. (a) 8.",
+      "9. (c) 10. (c)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (413) | Solution: (a) ANSWER KEY"
+  }
+]

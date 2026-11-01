@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If 2(cos2 – sin2) = 1 (is a positive acute angle), then cotis equal to : 1 (a) – 3 (b) 3 (c) 1 (d) 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of  3  2 2cos   cos     1 ,   45 is: sin   2 si n 3   ",
+    "options": [
+      "sin2",
+      "sec2",
+      "cosec2",
+      "cot2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (sin2) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Simplify the following expression sin   2 sin 3  2 cos 3   cos ",
+    "options": [
+      "tan ",
+      "sin ",
+      "sec ",
+      "cos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (tan ) | Exam: SSC CGL 21/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Evaluate the following: 2  2  2  2cos8 ",
+    "options": [
+      "2cos",
+      "2cos2",
+      "sin2",
+      "cos2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2cos) | Exam: SSC CGL 27/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If 4tan– 3 = 0, then the value is? 1  cos 2 ",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Exam: SSC CGL 23/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If cos4 – sin4= ,then find the value of sin4. 5",
+    "options": [
+      "24/25",
+      "21/25",
+      "16/25",
+      "18/25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24/25) | Exam: SSC CHSL 08/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of is: (1 – cos 4 )",
+    "options": [
+      "cot ",
+      "cot 2",
+      "tan ",
+      "tan 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (cot 2) | Exam: SSC CHSL 01/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of cos²15º?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 06/12/2022 (Shift- 04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of cosec15º sec15º",
+    "options": [
+      "0.5",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4) | Exam: SSC CGL 13/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of the expression 100(sin 15° cos 15°)?",
+    "options": [
+      "50",
+      "75",
+      "100",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25) | Exam: SSC CHSL 03/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of 2 is : 1 º 1+ tan 2 22 2",
+    "options": [
+      "3/2",
+      "1/2",
+      "1/2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of 3sin15° – 4sin315°.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 25/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of 1  sin3 ",
+    "options": [
+      "sec3 – tan3",
+      "(sec3 – tan3)2",
+      "(sec3 – tan3)3",
+      "sec3 + tan3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (sec3 – tan3) | Exam: SSC CGL TIER I 21/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of (4sin3x – 3sinx + sin3x)?",
+    "options": [
+      "1",
+      "0",
+      "4",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0) | Exam: SSC CHSL 31/05/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If sin  , and  is an acute angle, find 2 the value of cos3.",
+    "options": [
+      "1/2",
+      "1",
+      "2/1",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2/1) | Exam: SSC CHSL 10/06/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If sin  = , then the value of (3cos – 4cos³) is: 2",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "–1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0) | Exam: SSC CGL 06/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What will be the value of sin10º – sin³ 10º? 3",
+    "options": [
+      "1/3",
+      "1/3 6",
+      "1/2",
+      "3/3 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/3 6) | Exam: SSC CGL 06/12/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Which of the following options gives an expression equivalent to sin(A + B)?",
+    "options": [
+      "cosAcosB – sinAsinB",
+      "sinAcosB + cosAsinB",
+      "cosAcoSB + sinAsinB",
+      "sinAcosB-cosAsinB 4 15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (sinAcosB + cosAsinB) | Exam: SSC CGL 24/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If sinA = and sin B = , what is the value 5 17 of sin(A – B)?",
+    "options": [
+      "32/45",
+      "13/85",
+      "13/85",
+      "32/45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13/85) | Exam: SSC CGL 02/12/2022 (Shift- 04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of cos45º sin15º?",
+    "options": [
+      "3/2",
+      "– 1 3 – 1/4",
+      "2 4",
+      "23 – 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (– 1 3 – 1/4) | Exam: SSC CGL 07/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of sin75º + sin15º?",
+    "options": [
+      "1/2",
+      "3/2",
+      "3/2",
+      "3/2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3/2) | Exam: SSC CGL 09/12/2022 (Shift- 04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Evaluate the following sin25° sin65° – cos25° cos65°.",
+    "options": [
+      "40",
+      "4",
+      "0",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0) | Exam: SSC CGL 14/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Using cos (A + B) = cosA cosB – sin A sin B, find the value of cos75°",
+    "options": [
+      "5/4",
+      " 1 5  1/4",
+      "6/4",
+      " 2 6  2/4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6/4) | Exam: SSC CGL 17/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of cos (x + y)–sin (x – y) + tan (2z)?",
+    "options": [
+      "cos x. cos y – sin x. sin y – sin x. cos y – cos 2 tan z x . sin y + 1 – tan 2 z",
+      "cos x. cos y – sin x. sin y – sin x. cos y + 2 tan z cos x. sin y + 2 1– tan z",
+      "cos x. cos y – sin x. sin y – sin x. cos y + tan z cos x. sin y + z 1– tan z 2 tan z",
+      "sin x. sin y + z 1– tan z tan A  tan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (cos x. cos y – sin x. sin y – sin x. cos y + 2 tan z cos x. sin y + 2 1– tan z) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Using tan (A – B) = , find the 1  tan A tan B value of tan 15°.",
+    "options": [
+      "3  1",
+      "3 – 1",
+      "2 – 3",
+      "2  3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 – 3) | Exam: SSC CGL 18/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What will be the value of ? 1+ tan45º tan15º",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Exam: SSC CGL 07/12/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of tan 72° – tan 27° – tan 72° tan 27°.",
+    "options": [
+      "–1",
+      "1",
+      "–2",
+      "0 cos13  sin13"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1) | Exam: SSC CGL 25/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Simplify: cos13º  sin13 ",
+    "options": [
+      "cot 58°",
+      "tan 32°",
+      "tan 58°",
+      "cos 26"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (tan 58°) | Exam: SSC CPO 28/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If tan( + ) = a, tan( – ) = b, then the value of tan2 is:",
+    "options": [
+      "a/1",
+      "+ b a + b/– ab 1+ ab",
+      "a/1+",
+      "– b a – b/ab 1 – ab"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (a/1) | Exam: SSC CGL 13/12/2022 (Shift-04)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Using cot (A – B) = , find the cot B  cot A value of cot15°.",
+    "options": [
+      "2  3",
+      "2 – 3",
+      "3  1",
+      "3  1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2  3) | Exam: SSC CGL 19/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If sin(A + B) = cos(A + B), what is the value of tanA?",
+    "options": [
+      "1+",
+      "tanB 1 – tanB",
+      "1+/1",
+      "secB 1 – cosecB/– secB 1+ cosecB"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1+) | Exam: SSC CGL 02/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If sinC + sinD = x, then the value of x is :",
+    "options": [
+      "2sin   sin    2   2   C - D   C + D ",
+      "2sin   cos    2   2   C + D   C - D ",
+      "2cos   cos    2   2   C + D   C - D ",
+      "2sin   cos    2   2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2sin   cos    2   2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is sin – sin ?",
+    "options": [
+      "2cos sin 2 2  +   – ",
+      "2 sin sin 2 2  –   + ",
+      "2cos sin 2 2  +   – ",
+      "2cos cos 2 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2cos sin 2 2  +   – ) | Exam: SSC CGL 01/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If cosC – cosD = y, then the value of y is :",
+    "options": [
+      "2sin   sin    2   2   C + D   C - D ",
+      "2cos   cos    2   2   C + D   C - D ",
+      "–2sin   sin    2   2   C + D   C - D ",
+      "–2cos   cos    2   2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (–2sin   sin    2   2   C + D   C - D )"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of: (sin 75° + sin 15°).",
+    "options": [
+      "6/2",
+      "6",
+      "3/2",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6/2) | Exam: SSC Phase-XII 21/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find = ? sin7x - sin5x",
+    "options": [
+      "cot2x",
+      "cot3x",
+      "cotx",
+      "cot6x"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (cotx)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find = ? cos5x - cosx",
+    "options": [
+      "tan4x",
+      "tan3x",
+      "tan2x",
+      "tan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (tan)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of  (sinx + siny)(sinx - siny)    is : (cosx + cosy)(cosx - cosy)",
+    "options": [
+      "0",
+      "1",
+      "– 1",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (– 1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of sin75º + sin15º ? 2 (a) 3 (b) 3 3 3 (c) (d) 2 2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Simplify the following: sin 2x + 2sin4x + sin 6x",
+    "options": [
+      "4 cos2x sin 4x",
+      "4 cos2x sinx",
+      "2 cos2x sin 4x",
+      "4 sin2x sin 4x"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 cos2x sin 4x) | Exam: SSC CGL 18/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Using 2cosA cosB = cos(A + B) + cos(A – B), find the value of cos75°cos15°.",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/2",
+      "3/4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/4) | Exam: SSC CHSL 01/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What will be value of 2cos45º. sin15º",
+    "options": [
+      "3/2",
+      " 1 3 – 2/2",
+      "3/2",
+      "– 1 2/3  1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3/2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Simplify: cos 2  cos  – sin3  sin 4 ",
+    "options": [
+      "cot",
+      "cot2",
+      "tan",
+      "tan2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (tan2) | Exam: SSC CPO 09/11/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Evaluate the following: cos(36° + A).cos(36° – A) + cos(54° + A).cos(54° – A)",
+    "options": [
+      "sin 2A",
+      "cos A",
+      "sin A",
+      "cos 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (cos 2) | Exam: SSC CGL 14/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If A + B = C, then tanA tanB tanC = ?",
+    "options": [
+      "tanC + tanA – tanB",
+      "tanC + tanA + tanB",
+      "tanA – tanB – tanC",
+      "tanC – tanA – tan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (tanC – tanA – tan) | Exam: SSC CGL 08/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "What is the value of the expression cos2A cos2B + sin²(A – B) – sin²(A + B)?",
+    "options": [
+      "sin (2A – 2B)",
+      "sin (2A + 2B)",
+      "cos (2A + 2B)",
+      "cos (2A – 2B"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (cos (2A + 2B)) | Exam: SSC CGL 12/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "If cot 75° = 2 – 3 . Find the value of cot15°.",
+    "options": [
+      "2 – 3",
+      "2  3",
+      "3  1",
+      "3 – 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2  3) | Exam: SSC CHSL 24/05/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of (1 + tan 10°) (1 + tan 35°) is:",
+    "options": [
+      "2 3",
+      "4",
+      "1",
+      "2   1 o    1 o "
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2   1 o    1 o ) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": " 1  tan  22  x – y   1  tan  22  y – x  ",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find the value of (1 + tan11º) (1 + tan 21º) (1 + tan 24º) (1 + tan 34º) (1 + tan 45º)",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find sin20º.sin40º.sin60º.sin80º.",
+    "options": [
+      "1/16",
+      "5/16",
+      "3/16",
+      "1/8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3/16)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of (tan20º.tan40º.tan80º) is :",
+    "options": [
+      "1",
+      "0",
+      "3",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find 1 – sin10º.sin50º.sin70º.",
+    "options": [
+      "5/8",
+      "7/8",
+      "3/8",
+      "1/8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7/8)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "sin6º sin42º sin66º sin78º = ?",
+    "options": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "1/16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1/16)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "Find sin12º.sin48º.sin54º.",
+    "options": [
+      "5/8",
+      "7/8",
+      "3/8",
+      "1/8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1/8)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of (cos15º.cos45º.cos75º) is :",
+    "options": [
+      "1/3",
+      "1/2 4 2",
+      "1/8",
+      "3/8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/2 4 2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "cos10º.cos30º.cos50º.cos70º =?",
+    "options": [
+      "1/16",
+      "3/16",
+      "5/16",
+      "1/8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5/16)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "cos42º. cos78º. cos36º =?",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1/8)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_classroom_sheet_05_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Trigonometry  (ClassRoom Sheet-05).pdf",
+    "question": "The value of tan6º.tan42º.tan66º.tan78º",
+    "options": [
+      "1 1",
+      "2 1",
+      "4 1",
+      "8 KEY 6. (d) 7. (a) 8. (b) 9. (b) 10. (b)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1 1)"
+  }
+]

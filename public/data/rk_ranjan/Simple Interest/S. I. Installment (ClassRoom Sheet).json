@@ -1,0 +1,478 @@
+[
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "`1,380 has to be paid after 4 years. If four equal installments are required with a simple interest of 10% on each installment, then what is the value of each installment?",
+    "options": [
+      "` 500",
+      "` 200",
+      "` 400",
+      "` 300"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 300) | Exam: SSC Phase XII 20/06/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "What annual installment will discharge a debt of",
+    "options": [
+      "` 4,500",
+      "` 5,500",
+      "` 6,000",
+      "` 5,800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 4,500) | Exam: SSC CGL 10/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "What annual installment (",
+    "options": [
+      "2800",
+      "2700",
+      "2840",
+      "2760"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2800) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Find the total amount of debt that will be discharged by 5 equal instalments of `200",
+    "options": [
+      "` 1400",
+      "` 1100",
+      "` 1200",
+      "` 1255"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (` 1100) | Exam: SSC CHSL 02/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "What half yearly payment will discharge a debt",
+    "options": [
+      "` 3600",
+      "` 2200",
+      "` 2000",
+      "` 2100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 2000)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "What quarterly payment will discharge a debt",
+    "options": [
+      "` 510",
+      "` 450",
+      "` 470",
+      "` 500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 500)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "What five monthly payment will discharge a 1",
+    "options": [
+      "` 30,000",
+      "` 31,000",
+      "` 20,000",
+      "` 33,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 30,000)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "` 3400 is payable after 3 years. If it is to be",
+    "options": [
+      "` 400, ` 1200, ` 1600",
+      "` 300, ` 900, ` 1200",
+      "` 100, ` 300, ` 400",
+      "` 240, ` 720, ` 960"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 400, ` 1200, ` 1600)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "` X is payable after 4 years. If it is to be paid",
+    "options": [
+      "600",
+      "1100",
+      "400",
+      "900"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (600)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Amount of ` 25,600 is to be paid",
+    "options": [
+      "` 8,000",
+      "` 6,000",
+      "` 4,000",
+      "` 10,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 4,000)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A took a loan from B of ` 480 at 6% simple interest on a condition that he would pay it",
+    "options": [
+      "` 192",
+      "` 165",
+      "` 127",
+      "` 263"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 192)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A sum of `10 is lent by a child to his friend to be",
+    "options": [
+      "11",
+      "21",
+      "10",
+      "9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (21) | Exam: SSC CGL 13/12/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Ajay lend ` 19 to Atul on condition that the",
+    "options": [
+      "11",
+      "6",
+      "30",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "` 2070 is to be paid",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "An annual installment of `3,500 will discharge",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Exam: SSC Phase XII 24/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "If the price of an article is ` 9000, If this article is purchased on the cash down payment",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "An article is sold for ` 500 cash or ` 150 cash down payments followed by 5 equal monthly installments. If the rate of interest charged is 18% per annum, calculate the monthly installment.",
+    "options": [
+      "` 63.07",
+      "` 72.02",
+      "` 75.06",
+      "` 73.06"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 73.06)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A device is available for `8,000 cash or ` 500 down payment followed by four equal monthly installments. If the rate of simple interest charged is 25% per annum, then find the installment, to the nearest rupee.",
+    "options": [
+      "Rs 1,977",
+      "Rs 1,790",
+      "Rs 1,790",
+      "Rs 1,987"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rs 1,790) | Exam: CONSTABLE 20/11/2023 (Shift- 02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A scooty can be bought for `30000",
+    "options": [
+      "Rs. 5298",
+      "Rs. 5565",
+      "Rs. 5406",
+      "Rs. 5308"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs. 5308)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "An electric bike is available for `1 lakh. A customer has to pay `20,800 down payment, followed by 4 equal installments. If the rate of interest charged is 25% per annum simple interest, calculate the 4 yearly installments.",
+    "options": [
+      "Rs 28,800",
+      "Rs 21,210",
+      "Rs 22,110",
+      "Rs 21,120"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs 28,800) | Exam: CONSTABLE 03/12/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A cell phone is available for `600 or for `300 cash down payment together with `360 to be paid after two months. Find the rate of interest charged under this scheme.",
+    "options": [
+      "60",
+      "120",
+      "20",
+      "50"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (50) | Exam: SSC CGL 24/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A man borrowed a sum of Rs. 7000 from bank at simple interest. After 3 years he paid Rs. 3000 to the bank and the end of 5 years he paid Rs. 5450 and clear all his dues. Find the rate of interest.",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Rahna decided to buy a scooty that costs Rs.40,000. The shopkeeper agreed to sell the scooty under the condition of Rs.25,000 cash down payment of Rs.4,000 each month for four months. Find the rate of interest at which the shopkeeper sold the scooty under the installment scheme.",
+    "options": [
+      "33",
+      "10",
+      "18",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (33) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Ankit borrowed `15,000 from bank and returned `6500 after 6 years. After 10 years from starting he returned `13,460 and settle his account. What was the rate of interest?",
+    "options": [
+      "4",
+      "3",
+      "4.5",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A man borrowed a sum of ` 10,000 from bank at S.I. After 2 years he paid ` 3,000 and at the end of 5th year he paid ` 2,500 and at the end of 7th years, he paid ` 6,720 and clear all his dues. Find the rate of simple interest per annum.",
+    "options": [
+      "4.4",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4.4)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "Rachel borrowed Rs. 10,000 at 10% simple interest per annum. She paid back Rs.3,000 after year 1, Rs.2,800 after year 2, and the remaining amount due after year 3. If interest was charged on reducing balance, what was the amount Rachel paid as the final installment?",
+    "options": [
+      "Rs. 7200",
+      "Rs. 6600",
+      "Rs. 4620",
+      "Rs. 5850"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs. 6600) | Exam: NTPC CBT-2 15/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "P borrows a sum of `5,00,000 from a bank which charges simple interest at the rate of 18% per annum at the beginning of the year. He pays 11 equal monthly installments of `40,000 and mortgages his bike at the end of the year to pay the remaining amount. What is the value of the mortgages bike?",
+    "options": [
+      "1,50,000",
+      "1,75,000",
+      "1,25,000",
+      "1,10,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1,50,000) | Exam: SSC Phase XI 27/06/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "ClassRoom",
+    "sheetFile": "S. I. Installment (ClassRoom Sheet).pdf",
+    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple interest of approx mate 10% is",
+    "options": [
+      "`1,55,945",
+      "`1,95,455",
+      "`1,94,555",
+      "`1,45,955"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`1,55,945) | Exam: SSC CGL 06/12/2022 (Shift-02)"
+  }
+]

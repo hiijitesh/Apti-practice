@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "rkr_train_train_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "When a train crosses a man (stationary), crosses a man walking @ 2km/hr or crosses a man walking @ 10 km/hr.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Distance covered by the train when the train crosses an object:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train 1 crosses Train 2 D = L1 + L2 S = S1 – S2 (Same Direction) S1 + S2 (Opposite Direction",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train 1 Train 2 L1 L2 S1 S2",
+    "options": [
+      "78 km/h",
+      "72 km/h",
+      "56 km/h",
+      "64 km/"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (72 km/h)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 240 m long train crosses a 360 m long",
+    "options": [
+      "60",
+      "28.8",
+      "72",
+      "43.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72) | Exam: SSC CGL 21/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 255-m long train is running at a speed of 72 km/h.",
+    "options": [
+      "53 seconds",
+      "40 seconds",
+      "50 seconds",
+      "51 second"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50 seconds) | Exam: SSC CPO 27/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Rajdhani Express train of length 108 m is running at the speed of 128 km/h. Another train of length 148 m is standing at the station.",
+    "options": [
+      "8 seconds",
+      "7.5 seconds",
+      "9 seconds",
+      "7.2 second"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7.2 second) | Exam: SSC CGL 26/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train 348 m long is running at a speed of 36 km/hr.",
+    "options": [
+      "152 m",
+      "146 m",
+      "176 m",
+      "103"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (152 m)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train crosses a 400 m-long platform",
+    "options": [
+      "600 m; 72 km/h",
+      "550 m; 75 km/h",
+      "500 m; 70 km/h",
+      "650 m; 74 km/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (600 m; 72 km/h) | Exam: SSC CHSL 31/05/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train passes a man standing on a platform",
+    "options": [
+      "188",
+      "176",
+      "175",
+      "96"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (176)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 750 metres long train crosses a stationary",
+    "options": [
+      "1000 m",
+      "750 m",
+      "1250 m",
+      "500 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (500 m) | Exam: SSC MTS 25/07/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train running at 40 km/h takes 24 second to 2",
+    "options": [
+      "56",
+      "52",
+      "60",
+      "64"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (64) | Exam: SSC CGL 13/08/2021(Shift 03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains 230 m and 270 m long are running",
+    "options": [
+      "30 seconds/lsoaQM",
+      "22 seconds/lsoaQM",
+      "20 seconds/lsoaQM",
+      "25 seconds/lsoaQ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20 seconds/lsoaQM) | Exam: SSC CPO 28/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains 135 m and 155 m",
+    "options": [
+      "7.5 sec",
+      "6.8 sec",
+      "6.5 sec",
+      "7.2 se"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7.2 se) | Exam: RRB Tech. G-III 23/12/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains having lengths of 230 m and 240 m are 130 m apart. They start moving towards each other on parallel tracks, at speeds of 160 km/h and 200 km/h, respectively.",
+    "options": [
+      "5 Sec",
+      "6 Sec",
+      "8 Sec",
+      "7 Se"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 Sec) | Exam: SSC CHSL 08/06/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train of 220 m",
+    "options": [
+      "108",
+      "120",
+      "90",
+      "126"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (108) | Exam: ICAR Mains, 08/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 320 m long train completely crosses a 240 m long",
+    "options": [
+      "21",
+      "18",
+      "20",
+      "22"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20) | Exam: SSC CPO 29/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains having the same speed are running",
+    "options": [
+      "60",
+      "45",
+      "50",
+      "54"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (54) | Exam: SSC MTS 12/09/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains each 200m long are moving",
+    "options": [
+      "90 km/h",
+      "45 km/h",
+      "54 km/h",
+      "36 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (54 km/h) | Exam: SSC CHSL 25/05/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 250 m long train running at a speed of 100 km/h crosses another train, coming from the",
+    "options": [
+      "200 m",
+      "240 m",
+      "230 m",
+      "270"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (200 m) | Exam: RRB ALP TIER-I 29/11/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train x running at 74 km/h crosses another",
+    "options": [
+      "168",
+      "252",
+      "210",
+      "200"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (252) | Exam: SSC CPO 23/11/2020 (Shift-1)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "The ratio of lengths of Train A and Train B is 2 : 3. The speed of A is 36 km/h and that ofB is 54",
+    "options": [
+      "60",
+      "45",
+      "40",
+      "50"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (40) | Exam: ICAR Assistant 29/07/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "The length of Train A is of the length of 5 Train B. The speeds of A and B are 63 km/h and 45 km/h, respectively. Trains A and B take 15 seconds to cross each other",
+    "options": [
+      "42",
+      "50",
+      "45",
+      "48"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (48) | Exam: ICAR Assistant 29/07/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train takes 18 seconds to pass through a tunnel of length 240 m long and 12 seconds to cross another train of length 270 m long which is",
+    "options": [
+      "160",
+      "220",
+      "210",
+      "180"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (210) | Exam: ICAR Mains, 08/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train of length 360 metres crosses an electric",
+    "options": [
+      "12 m/s",
+      "36 m/s",
+      "24 m/s",
+      "60 m/"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36 m/s) | Exam: SSC CHSL 16/03/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains, 140 m and 120 m",
+    "options": [
+      "52 seconds",
+      "58 seconds",
+      "48 seconds",
+      "65 second"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (52 seconds) | Exam: SSC CPO 29/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains P and Q of lengths 320 meter and",
+    "options": [
+      "86 s",
+      "54 s",
+      "32 s",
+      "68"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (86 s) | Exam: SSC CGL 18/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains travelling",
+    "options": [
+      "175 m",
+      "185 m",
+      "150 m",
+      "125"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (175 m) | Exam: RRB ALP TIER-I 29/11/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train traveling at 70 km/h crosses another",
+    "options": [
+      "225",
+      "250",
+      "325",
+      "500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (250) | Exam: SSC CGL 18/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of equal length are running on",
+    "options": [
+      "210 meters",
+      "209 meters",
+      "208 meters",
+      "202 meters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (210 meters) | Exam: Constable 12/03/2025 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains are running on parallel tracks",
+    "options": [
+      "270",
+      "300",
+      "250",
+      "230"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (270) | Exam: SSC CGL 21/04/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train X of Length 350 m long crosses an 850 meter 1",
+    "options": [
+      "4",
+      "3",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of equal length crosses each other",
+    "options": [
+      "60, 72",
+      "60, 54",
+      "54, 48",
+      "Cannot be determine"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Cannot be determine)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of lengths 150 m and 250 m run",
+    "options": [
+      "150 km/h and 105 km/h",
+      "150 km/h and 250 km/h",
+      "180 km/h and 108 km/h",
+      "160 km/h and 106 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (180 km/h and 108 km/h) | Exam: SSC CGL 19/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train A running at 81 km/h takes 72 sec to overtake train B, when both the trains are",
+    "options": [
+      "600",
+      "480",
+      "590",
+      "900"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (480) | Exam: SSC CGL 13/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to",
+    "options": [
+      "108",
+      "126",
+      "144",
+      "90"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (144) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of lengths 250 metres and 200 metres run on parallel tracks. When running",
+    "options": [
+      "3 : 2",
+      "5 : 4",
+      "4 : 3",
+      "6 : 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3 : 2) | Exam: ICAR Mains, 10/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of equal length cross a pole",
+    "options": [
+      "35 sec",
+      "30 sec",
+      "20 sec",
+      "32 se"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (35 sec)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains of length 160 m and 180 m",
+    "options": [
+      "150 sec",
+      "160 sec",
+      "170 sec",
+      "180 se"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (170 sec)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains having same length cross an",
+    "options": [
+      "22.6 sec",
+      "25.4 sec",
+      "28.2 sec",
+      "30.8 se"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (25.4 sec)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains cross a man standing on a platform",
+    "options": [
+      "2 : 1",
+      "1 : 3",
+      "3 : 5",
+      "3 : 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 : 2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains cross a man standing",
+    "options": [
+      "3 : 2",
+      "4 : 3",
+      "2 : 1",
+      "3 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 : 1)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "If a train 130 m long takes 6 seconds to cross 2",
+    "options": [
+      "84",
+      "64",
+      "48",
+      "74"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (84) | Exam: SSC CHSL 04/08/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 252 m long train is running at a speed of",
+    "options": [
+      "7.6",
+      "8",
+      "8.4",
+      "6.4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8.4) | Exam: SSC CGL 27/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train travelling at the speed of x km/h crossed",
+    "options": [
+      "60",
+      "96",
+      "48",
+      "102"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (96) | Exam: SSC CPO 24/11/2020 (Shift-2)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 234 m long train passes a person running at 9",
+    "options": [
+      "8",
+      "7.8",
+      "7.2",
+      "8.4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7.2) | Exam: SSC CPO 29/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains are moving",
+    "options": [
+      "185 m",
+      "180 m",
+      "195 m",
+      "175"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (180 m) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 50 m long train crosses a man sitting",
+    "options": [
+      "18 km/hr",
+      "20 km/hr",
+      "21 km/hr",
+      "22 km/h"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22 km/h)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train A which was travelling at 50 km/h crosses",
+    "options": [
+      "150",
+      "112.5",
+      "210",
+      "124.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (112.5) | Exam: SSC CGL TIER II (12/09/2019)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 250 m long train overtakes a man moving at a",
+    "options": [
+      "17",
+      "30",
+      "21",
+      "31"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (21) | Exam: Constable 02/03/2025 (Shift-01)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 150 m long train crosses a man sitting",
+    "options": [
+      "20 sec",
+      "25 sec",
+      "30 sec",
+      "35 se"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (30 sec)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Two trains are moving",
+    "options": [
+      "185 m",
+      "180 m",
+      "195 m",
+      "175"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (180 m) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Renu was sitting inside train A, which was travelling at 50 km/h. Another train, B whose length was three times the length of A crossed",
+    "options": [
+      "210",
+      "180",
+      "160",
+      "150"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (150) | Exam: SSC CGL TIER II (12/09/2019)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Trains P and Q are running",
+    "options": [
+      "65",
+      "60",
+      "68",
+      "63"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (63) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train crosses two cyclists",
+    "options": [
+      "40 m",
+      "45 m",
+      "50 m",
+      "55"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50 m)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train passes two persons walking with speed",
+    "options": [
+      "125 m",
+      "150 m",
+      "160 m",
+      "170"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (150 m)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train overtakes two persons walking along a railway track. The first one walks at 7.2 km/ h. The other one walks at 12.6 km/h. The train needs 6.6 and 13.2 seconds respectively to overtake them. What is the speed of the",
+    "options": [
+      "27 km/h",
+      "18 km/h",
+      "20 km/h",
+      "26 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 km/h) | Exam: Constable 18/03/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train passes two persons walking",
+    "options": [
+      "28 km/hr",
+      "27 km/hr",
+      "25 km/hr",
+      "24 km/h"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train crosses two persons travelling at 4 km/",
+    "options": [
+      "18 km/h",
+      "26 km/h",
+      "20 km/h",
+      "24 km/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18 km/h) | Exam: SSC CPO 11/09/2022 (Shift - 02)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train running at 48 km/h crosses a man",
+    "options": [
+      "8",
+      "9",
+      "6",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6) | Exam: SSC CGL 23/08/2021(Shift 03)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A 240m long train X passes a pole",
+    "options": [
+      "68",
+      "65",
+      "72",
+      "70"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72) | Exam: ICAR Mains, 07/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "Train A, running at a speed of 48 km/h, passes a",
+    "options": [
+      "2",
+      "1",
+      "1",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Exam: ICAR Mains, 07/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "The speeds of two trains are",
+    "options": [
+      "3 sec.",
+      "4 sec.",
+      "5 sec.",
+      "6 sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3 sec.)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "The speeds of two trains are",
+    "options": [
+      "4 sec.",
+      "4 sec.",
+      "5 sec.",
+      "5 sec."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5 sec.)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A man could see 400 m during fog when he was moving with 4 Km/hr, he saw a train",
+    "options": [
+      "20 km/hr",
+      "24 km/hr",
+      "30 km/hr",
+      "40 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train crosses a man going along the railway track at 6 Km/hr. The man could see the train upto 2 minute and find the speed of the train if at the time of disappearance the distance between train to man was 1200 metre & length of train is 300 metre ?",
+    "options": [
+      "39 km/hr",
+      "45 km/hr",
+      "51 km/hr",
+      "57 km/h"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (51 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train is travelling with a speed of 54 kmph",
+    "options": [
+      "11.54",
+      "12.94",
+      "10.96",
+      "10.24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12.94)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train met with an accident 120 km from station A. It completed the remaining journey 5 at of its previous speed and reached 2 hours 6 late at station B. Had the accident taken place 300 km further, it would have been only 1 hour late. What is the speed of the train?",
+    "options": [
+      "100 km/h",
+      "120 km/h",
+      "60 km/h",
+      "50 km/h"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (60 km/h)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train meets with an accident after travelling 4 30 kms, after which it moves with of its 5 original speed and arrives at the destination 45 minute late. Had the accident occurred 18 kms farther, it would have reached 9 minute earlier. Find the distance of the journey and original speed of the train.",
+    "options": [
+      "120 km, 25 km/hr",
+      "125 km, 25 km/hr",
+      "130 km, 30 km/hr",
+      "120 km, 30 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (120 km, 25 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A train starts from Delhi at 8:00 am. After 6",
+    "options": [
+      "2800 km",
+      "3600 km",
+      "4400 km",
+      "5200 k"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2800 km)"
+  },
+  {
+    "id": "rkr_train_train_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Train (ClassRoom Sheet).pdf",
+    "question": "A man starts from his home to his office with a certain speed but after 1 hr. meets with an accident & resumes his journey after 1 Hr and becomes 1 hr 36 min late due to reducing his 5 speed to . If the accident had occurred after 6 50 Km then he will be late by 1 Hr 20 min. Find the distance from home to office?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train completely overtakes two persons, walking",
+    "options": [
+      "60 m",
+      "67.5 m",
+      "55 m",
+      "62.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (62.5) | Solution: (d) T T A B Relative (S – 3) (S – 4) speed 75 Time 9 8   Since, Length of train is constant (ST – 3) 9 = (ST – 4) 75 8 ST = 28 km/hr Length = (28 – 3) 5 18 9 = 125 2 = 62.5m"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train service got disrupted due to an accident after a travel of 30 km. The speed was reduced to four-fifth of the original speed. This caused it a delay of 45 min. If the accident had happened 18 km farther, it would have been running late for 36 min. What was the original speed of the train?",
+    "options": [
+      "30 km/h",
+      "60 km/h",
+      "50 km/h",
+      "40 km/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30 km/h) | Solution: (a) 30 km P Speed  5 : 4 Q X 180 min 4 : 5 1 unit 45 min  Time  30 km P 5 : 4 Q X Y 144 min 4 : 5 36 min 18 km 1 unit 36 min  Speed  Time  Original speed of train = 18 180 144  60 = 18 36 60 = 30 km/hr"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A running at 81 km/h takes 72 sec to overtake",
+    "options": [
+      "600",
+      "480",
+      "590",
+      "900"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (480) | Solution: (b) Since both trains running the same direction (A – 72 = LA + 600  5 18 (81 – 72 = LA + 600 .....(i) Also, 5 18 (A + B) 36 = LA + 600 ....(ii) From (i) and (ii)  5 18 (81 – B)72 = (81 + B) 36 5 18  81 2 – 2B = 81 + B  3B = 81  81 B = = 27"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "The length of train A is 100 m more than the length of a platform. What is the time taken by train A to",
+    "options": [
+      "15 sec",
+      "18 sec",
+      "14 sec",
+      "16 sec"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 sec) | Solution: (b) Let, length of platform = x (x + x + 100) = 90 24 5 18 (2x + 100) = 600 x = 250  Length of A = 100 + 250 = 350 m (250 + lB) = 70 5 18 36 lB = 700 – 250 SOLUTIONS"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A 240m long train X passes a pole",
+    "options": [
+      "68 sec",
+      "65 sec",
+      "72 sec",
+      "70 se"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72 sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A overtakes train B which is going",
+    "options": [
+      "650 m",
+      "550 m",
+      "250 m",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (550 m)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Two trains are moving",
+    "options": [
+      "770 metres",
+      "90 metres",
+      "110 metres",
+      "180 metre"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (110 metres)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travelling at the speed of x km/h crossed a 300",
+    "options": [
+      "60",
+      "96",
+      "48",
+      "102"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (96)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travels a certain distance with the uniform speed. If the speed of train is 14 km/h more, then the time taken to travel the same distance is 2 hour less. If the speed of train is 10 km/hr less, then time will be 2 hour more. Find the distance and the time taken to travel the distance.",
+    "options": [
+      "420 km, 12 hr",
+      "840 km, 8 hr",
+      "840 km, 12 hr",
+      "can't be determin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (840 km, 12 hr)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train 75 meters long overtook a person who was",
+    "options": [
+      "114 km/hr",
+      "10 km/hr",
+      "8 km/hr",
+      "4 km/hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train ‘A’ requires 15 seconds to cross train ‘B’ of",
+    "options": [
+      "275",
+      "200",
+      "250",
+      "300"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (200)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Two guns were fired from the same place at an interval of 10 minutes and 30 seconds but a person",
+    "options": [
+      "56",
+      "59.4",
+      "52.8",
+      "55.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (59.4)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to overtake",
+    "options": [
+      "108",
+      "126",
+      "144",
+      "90"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (144)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train A of length 100 meters less than that of train B and speed 25 km/h more than that of train B can",
+    "options": [
+      "72 sec",
+      "86.4 sec",
+      "78.6 sec",
+      "90 se"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (86.4 sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A cave whose length is 2 km. A train enters the cave from one end and other train enters from the other end and they both meet after 1.5 minutes. At the time of meeting, the first train had covered a distance of 400 m more than the second train. And they cross",
+    "options": [
+      "78 m, 16 m",
+      "68 m, 15 m",
+      "85, 20 m",
+      "80 m, 20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (80 m, 20)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travelling at 48 km/h crosses another train,",
+    "options": [
+      "455 m",
+      "400 m",
+      "420 m",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (400 m)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train A can cross a platform of length 70 m",
+    "options": [
+      "sec",
+      "sec",
+      "sec",
+      "sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed?",
+    "options": [
+      "5 hours 15 minutes",
+      "5 hours",
+      "6 hours",
+      "5 hours 25 minute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 hours 15 minutes) | Solution: A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed? ,d js"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he 1 takes 12 hour more than train B to cover 80 km. To",
+    "options": [
+      "13",
+      "13",
+      "14",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Solution: Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he takes 1 12 hour more than train B to cover 80 km. To cover a distance of 120 km, how much time hours) will train B take travelling at its same spee"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure Delhi at 6 pm on the same day. If the difference between their speeds be 10 km/hr, what is the average sp"
+  }
+]

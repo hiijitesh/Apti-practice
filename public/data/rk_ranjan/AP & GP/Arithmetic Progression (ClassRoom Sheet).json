@@ -1,0 +1,478 @@
+[
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "For which value of k; the series 2, 3 + k",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Twentieth term of an A.P. is 101 and first term is 6. What will be the common difference?",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: Constable 23/02/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "What is the first term of an AP series having total 25 terms whose last term is 314 and the common difference is 12?",
+    "options": [
+      "28",
+      "26",
+      "24",
+      "24"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (26) | Exam: Constable 21/02/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If 5th term of an arithmetic progression (AP) series is 16 and 9th term is 22, then find the seventh (7th) term of the series.",
+    "options": [
+      "25",
+      "22",
+      "19",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (19)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find the nth term of /",
+    "options": [
+      "5 – 2n",
+      "8 – 3n",
+      "7 – 3n",
+      "4 – n"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8 – 3n)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "What is the 11th term for the given arithmetic progression?",
+    "options": [
+      "38",
+      "44",
+      "42",
+      "46"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (42)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "What will be the 10th term of the arithmetic progression 2, 7, 12, ____ ?",
+    "options": [
+      "45",
+      "43",
+      "97",
+      "47"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (47)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "How many terms are there",
+    "options": [
+      "96",
+      "102",
+      "100",
+      "108"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (102)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find the tn for an arithmetic progression where t3 = 22, t17 = – 20.",
+    "options": [
+      "3n – 32",
+      "3n – 31",
+      "–3n + 31",
+      "–3n + 32"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (–3n + 31)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If the pth term of an A.P. is q and the qth term is p, then find its rth term.",
+    "options": [
+      "p – q + r",
+      "p + q + r",
+      "p – q – r",
+      "p + q – r"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (p + q – r)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find 10th common term",
+    "options": [
+      "191",
+      "180",
+      "195",
+      "201"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (191)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find sum of first 6 terms of an AP if 3rd and 4th terms are 5 & 8.",
+    "options": [
+      "36",
+      "38",
+      "39",
+      "45"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (39)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find sum of first five terms of an AP if 3rd term is 4.",
+    "options": [
+      "24",
+      "16",
+      "20",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "The sum of three numbers",
+    "options": [
+      "2, –1, –4",
+      "2, 1, 4",
+      "–2, –1, –4",
+      "2, 1, –4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2, –1, –4)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find sum of first n odd numbers.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find the sum of 23 terms of the A.P. 5, 9, 13, 17 .......",
+    "options": [
+      "1172",
+      "1127",
+      "1217",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1127)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find the sum upto 151 term of the sequence 243, 256, 269, ...",
+    "options": [
+      "183916",
+      "183917",
+      "183918",
+      "183915"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (183918)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "What is the sum of first 200 terms of the given series?",
+    "options": [
+      "49400",
+      "48300",
+      "50100",
+      "49600"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50100) | Exam: SSC CHSL 10/03/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "How many terms of series – 9, – 6, – 3, ... must be taken so that the sum of all the terms is 45?",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10) | Exam: SSC CHSL 10/03/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If 1st term of an A.P. is 5, the last term is 45 & sum is 400 then find number of terms.",
+    "options": [
+      "15",
+      "14",
+      "18",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find sum of natural numbers between 100 & 1000 which are multiples of 5.",
+    "options": [
+      "94540",
+      "98450",
+      "95320",
+      "96430"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (98450)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find sum of natural numbers between 100 and 1000 are multiples of 5 and 7 simultaneously.",
+    "options": [
+      "15204",
+      "13102",
+      "11105",
+      "14105"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14105)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "Find the sum of the first 157 terms of an A.P. whose first term and third term are 160 and 170 respectively.",
+    "options": [
+      "84350",
+      "85350",
+      "83350",
+      "86350"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (86350)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "A man saves ` 1550",
+    "options": [
+      "23250",
+      "23350",
+      "23550",
+      "23450"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (23550)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "How many positive integers less than 100 have a remainder of 3 when divided by 7?",
+    "options": [
+      "13",
+      "15",
+      "12",
+      "14"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If the ratio of the sum to n terms of two A.P.'s is (5n + 3) : (3n + 4), then the ratio of their 17th terms is",
+    "options": [
+      "172 : 99",
+      "168 : 103",
+      "175 : 99",
+      "171 : 103"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (168 : 103)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If the 10th term of an AP is 21 and 17 term is 8 more than the 13th term, then find the AP.",
+    "options": [
+      "7, 10, 13, 16 ....",
+      "3, 8, 11, 14 ....",
+      "5, 7, 9, 11 ....",
+      "3, 5, 7, 9 ...."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3, 5, 7, 9 ....)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_progression_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Arithmetic Progression (ClassRoom Sheet).pdf",
+    "question": "If sum of first 2n terms of the AP 2, 5, 8, ... is equal to the sum of first n terms of 57, 59, 61, ..... Then find n",
+    "options": [
+      "9.",
+      "10.(c)",
+      "7.",
+      "8.(a) 9.(b) 10.(c)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10.(c))"
+  }
+]

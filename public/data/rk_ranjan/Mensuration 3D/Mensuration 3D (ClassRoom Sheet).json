@@ -1,0 +1,3011 @@
+[
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid has 12 vertices and 30edges. How many faces does it have?",
+    "options": [
+      "22",
+      "24",
+      "18",
+      "20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Find the total surface area (",
+    "options": [
+      "385",
+      "334",
+      "343",
+      "167"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (334) | Exam: SSC CGL TIER I 20/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length of a cuboid is 4 cm. If the breadth of the cuboid is four times of its length and height of the cuboid is twice of its length, then what is the lateral surface area of the cuboid?",
+    "options": [
+      "380 cm2",
+      "440 cm2",
+      "260 cm2",
+      "320 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (320 cm2) | Exam: SSC MTS 15/06/2023 (SHIFT-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Area of a cardboard (",
+    "options": [
+      "960",
+      "690",
+      "880",
+      "750"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (880) | Exam: SSC CGL 18/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What is the length (",
+    "options": [
+      "36",
+      "42",
+      "25",
+      "30"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30) | Exam: SSC CHSL 15/04/2021 (Shift- 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Volume of a cuboid is 4800 cm3, If the height of this cuboid is 20 cm, then what will be the area of the base of cuboid?",
+    "options": [
+      "480 cm²",
+      "150 cm²",
+      "240 cm²",
+      "120 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (240 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The breadth of a cuboidal box half its length and one-fifth its height. If the lateral surface area of the cuboid is 4320",
+    "options": [
+      "17280",
+      "18720",
+      "16704",
+      "15840"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (17280) | Exam: ICAR Mains, 08/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given",
+    "options": [
+      "4650",
+      "4500",
+      "4200",
+      "4800"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4500) | Exam: SSC CGL TIER II 26/10/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length and breadth of a cuboidal store",
+    "options": [
+      "679 m³",
+      "700 m³",
+      "567 m³",
+      "1050 m3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (700 m³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the side of a cubical box is 12 cm, then find its total surface area.",
+    "options": [
+      "952 cm2",
+      "864 cm2",
+      "664 cm2",
+      "792 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (864 cm2) | Exam: SSC CGL (PRE) 26/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the total surface area of a cube is 24 sq.units, then what is the volume of the cube?",
+    "options": [
+      "8 cu.units/?ku bdkbZ",
+      "16 cu.units/?ku bdkbZ",
+      "10 cu.units/?ku bdkbZ",
+      "4 cu.units/?ku bdkb"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8 cu.units/?ku bdkbZ) | Exam: CGL PRE, 14/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The surface area of a cube i",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The side of a cube is 15 cm. What is the base area of a cuboid whose volume is 175 cm3 less than that of the cube and whose height is 32 cm?",
+    "options": [
+      "200 cm²",
+      "100 cm²",
+      "160 cm²",
+      "325 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (100 cm²) | Exam: SSC MTS 2/08/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "2 cubes each of volumes 125 cm3 are joined end to end. The surface area of the resulting cuboid is:",
+    "options": [
+      "325 cm2",
+      "350 cm2",
+      "125 cm2",
+      "250 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (250 cm2) | Exam: SSC MTS 18/05/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "8 cubes, each of edge 5 cm, are joined end to end. What is the total surface area of the resulting cuboid?",
+    "options": [
+      "850 sq.cm",
+      "825 sq.cm",
+      "1200 sq.cm",
+      "800 sq.c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (850 sq.cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Four solid cubes, each of volume 1728 cm³,",
+    "options": [
+      "576",
+      "1152",
+      "2304",
+      "1440"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2304) | Exam: SSC MTS 18/10/2021"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the areas of three adjacent faces of a cuboidal box are 729 cm2, 529 cm2 and 289 cm2, respectively, then find the volume of the box.",
+    "options": [
+      "10557 cm3",
+      "10560 cm3",
+      "10555 cm3",
+      "10551 cm3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10557 cm3) | Exam: SSC CHSL 03/06/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the area of three adjacent faces of a",
+    "options": [
+      "192",
+      "216",
+      "144",
+      "256"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (192)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of length, breadth and height of a cuboid is 20 cm. If the length of the diagonal is 12 cm, then find the total surface area of the cuboid.",
+    "options": [
+      "264 cm2",
+      "364 cm2",
+      "356 cm2",
+      "256 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (256 cm2) | Exam: CGL MAINS 18/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of the length, breadth and depth of a cuboid is 23 cm, and its diagonal is 5 7 cm . Its surface area is:",
+    "options": [
+      "288 cm2",
+      "354 cm2",
+      "372 cm2",
+      "222 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (354 cm2) | Exam: SSC CHSL 31/05/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of length breadth and height of a cuboid is 14 cm and its total surface area is 96 cm2 then find maximum length of a stick that can placed inside the box?",
+    "options": [
+      "15 cm",
+      "12 cm",
+      "10 cm",
+      "20 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A wooden box measures 20 cm by 12 cm by 10 cm. Thickness of wood is 1 cm. Volume",
+    "options": [
+      "960",
+      "519",
+      "2400",
+      "1120"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (960)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length, breadth and height of a wooden box with a lid are 10 cm, 9 cm and 7 cm, respectively. The total inner surface of the closed box is 262 cm2. The thickness of the",
+    "options": [
+      "2",
+      "3",
+      "2/3",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A water tank has 8360 litres of capacity. It is made up of a material and the thickness of material for all four walls is 5",
+    "options": [
+      "4.5 cm",
+      "5.5 cm",
+      "6.5 cm",
+      "7.5 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5.5 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "From the four corners of a rectangular sheet",
+    "options": [
+      "672 cm³",
+      "372 cm³",
+      "560 cm³",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (672 cm³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A rectangular sheet of metal is 40cm by 15cm. Equal squares of side 4 cm are cut off at the corners and the remainder is folded up to form an open rectangular box. The volume of the box is:",
+    "options": [
+      "896 cm³",
+      "986 cm³",
+      "600 cm³",
+      "916 cm³"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (896 cm³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A square of side 3 cm is cut off from each corner of a rectangular sheet of length 24 cm and breadth 18 cm and the remaining sheet is folded to form an open rectangular box. The surface area of the box is",
+    "options": [
+      "468 cm²",
+      "396 cm²",
+      "612 cm²",
+      "423 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (396 cm²)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A room is",
+    "options": [
+      "Rs. 15000",
+      "Rs. 15600",
+      "Rs. 6600",
+      "Rs. 7500"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Rs. 6600) | Exam: SSC MTS 7/08/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length, breadth, and height of a room are 10 m, 8 m and 6 m respectively. Find the cost of white washing the walls of the room and the ceiling at the rate of Rs. 7.50 per m².",
+    "options": [
+      "Rs. 2,220",
+      "Rs. 1,850",
+      "Rs. 2,150",
+      "Rs. 2,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs. 2,220)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The internal measures of a cuboidal room are with length as 12 m, breadth as 8 m",
+    "options": [
+      "12,400",
+      "12,000",
+      "18,000",
+      "13,600"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12,400)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A rectangular tank is 50 metres long and 29 metres deep. If 1000 cubic metres of water be drawn off the tank, the level of",
+    "options": [
+      "14500 m³, 10m",
+      "15500 m³, 12m",
+      "15400 m³, 15m",
+      "10500 m³, 10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14500 m³, 10m)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "There is a cuboid of dimension 6 cm by 4 cm by 3 cm. the minimum such cuboids are arranged to make a cube. Find the volume of the cube.",
+    "options": [
+      "1728 cm³",
+      "1000 cm³",
+      "512 cm³",
+      "216 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1728 cm³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A rectangular block of length 20 cm, breadth 15 cm and height 10 cm is cut up into exact number of equal cubes. The least possible number of cubes will be",
+    "options": [
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the rectangular faces of a brick have their",
+    "options": [
+      "2 : 5",
+      "2 : 3",
+      "1 : 3",
+      "3 : 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What is the volume of a cylinder if the ra- dius of the cylinder is 10 cm and height is 20 cm? (Take  = 3.14)",
+    "options": [
+      "6280 cm³",
+      "5306 cm³",
+      "6260 cm³",
+      "5280 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6280 cm³) | Exam: SSC CGL TIER- II 07/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The curved surface area of a solid cylinder of height 15 cm is 660 cm2. What is the",
+    "options": [
+      "2060",
+      "3210",
+      "2540",
+      "2310"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2310) | Exam: SSC CPO 05.10.2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The height of a cylinder is 45 cm. If circumference of its base is 132 cm, then what is the curved surface of this cylinder?  22   Use   66   7",
+    "options": [
+      "5720 cm²",
+      "5940 cm²",
+      "6270 cm²",
+      "6360 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5940 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Find the ratio of the curved surface area to the total surface are of a cylinder with diameter of base 14 cm and height 10 cm.",
+    "options": [
+      "10/17",
+      "5/17",
+      "13/17",
+      "11/17"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10/17) | Exam: SSC Phase X 05/08/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The curved surface area of a cylinder is five times the area of a base. Find the ratio of radius and height of the cylinder.",
+    "options": [
+      "2 : 5",
+      "2 : 3",
+      "3 : 4",
+      "3 : 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 : 5) | Exam: CGL MAINS 18/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of the radius of the base and the height of a closed solid cylinder is 12.5 cm. If the total surface area of the cylinder is 275 m2, then its radius is:  22   Take  =   7 ",
+    "options": [
+      "3.5 cm",
+      "3 cm",
+      "7 cm",
+      "5 c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3.5 cm) | Exam: SSC CHSL 12/04/2021 (Shift- 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of the curved surface area and total surface area of a solid cylinder is 2068 cm2. If radius of its base is 7 cm, then what  22  is the volume of this cylinder?  Use     7 ",
+    "options": [
+      "2480 cm³",
+      "2760 cm³",
+      "3080 cm³",
+      "2060 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3080 cm³) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The ratio of TSA and CSA of cylinder is 7:4 and its volume is 4851cm3 then what is the sum of area of two bases of this cylinder?",
+    "options": [
+      "462 cm2",
+      "693 cm2",
+      "616 cm2",
+      "308 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (693 cm2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The ratio of the volume of two cylinders is 27: 25 and the ratio of their heights is 3 : 4 If the area of the base of the second cylinder is 3850 cm2, then what will be the radius of the first cylinder?",
+    "options": [
+      "42 cm",
+      "56 cm",
+      "63 cm",
+      "34 c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (42 cm) | Exam: SSC MTS 16/06/2023 (SHIFT-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What will be the total cost (",
+    "options": [
+      "612",
+      "675",
+      "660",
+      "624"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (660) | Exam: SSC CGL 13/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The cost of painting the total surface area of a 30 m high solid right circular cylinder at the rate of 25 per m² is Rs. 18,425. What",
+    "options": [
+      "1210",
+      "1155",
+      "1145",
+      "1122 Mensuration-3D  Folding and revolving a rectangular sheet Rectangular sheet to be fold b l r h h = b r h 2  r = l l h = , 2 r = b r = b r = l  2 2 Folding along length Folding along Breadth Rectangular sheet to be revolve b l l l h = b b b r = l h = l , r = b Along length Along Breadt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1155) | Exam: SSC CPO 03/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A rectangular piece of paper is 52 cm long and 22 cm wide. A cylinder is formed by rolling the paper along its breadth. Find the volume of the cylinder. (Take  = 22/7)",
+    "options": [
+      "1870 cm3",
+      "2002 cm3",
+      "1030 cm3",
+      "1290 cm3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2002 cm3) | Exam: SSC CHSL 09/06/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Two rectangle sheets of paper each 30cm X 18cm are made into two right circular cylinders, one by rolling the paper along its length and the other along the breadth. The ratio of the volumes of the two cylinders thus formed is",
+    "options": [
+      "2 : 1",
+      "3 : 5",
+      "4 : 3",
+      "5 : 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5 : 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The curved area of a cylindrical pillar is 264 m2 and its volume is 924 m3. Find the ratio   2  of its diameter to its height.  Take     7 ",
+    "options": [
+      "7 7",
+      "4 3",
+      "7 7",
+      "3 (ii) If curved surface area (c) and height (h) are given the volume of cylinder/ ;fn ik'oZ i`\"Bh; c 2 V  4 "
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 (ii) If curved surface area (c) and height (h) are given the volume of cylinder/ ;fn ik'oZ i`\"Bh; c 2 V  4 )"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A right circular cylinder of height 16 cm is covered by a rectangular tin foil of size",
+    "options": [
+      "432 cm³",
+      "524 cm³",
+      "616 cm³",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (616 cm³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hollow cylindrical tube made of plastic is 3 cm thick. If the external diameter is 20 cm and length of the tube is 49 cm, find the volume of the plastic.",
+    "options": [
+      "7644 cm2",
+      "7238 cm3",
+      "7854 cm3",
+      "7546 cm3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7854 cm3) | Exam: SSC CPO 05.10.2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The volume of a metallic cylindrical pipe is 3564 cm3. If its external radius is 12 cm and thickness is 3 cm, then the length of  22  the pipe will be:  Take  =   7 ",
+    "options": [
+      "18 cm",
+      "16 cm",
+      "22 cm",
+      "20 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18 cm) | Exam: SSC CHSL 04/08/2021 (Shift- 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hollow iron pipe is 35 cm long and its external diameter is 14 cm and the thickness of the pipe is 1 cm and the iron used to make the pipe weight 10 g/cm³,",
+    "options": [
+      "13.4",
+      "15.2",
+      "12.6",
+      "14.3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14.3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hollow cylinder is made up of metal. The difference between outer and inner curved surface area of this cylinder is 352 cm2. Height of the cylinder is 28cm. If the total surface area of this hollow cylinder is 2640 cm2, then what are the inner and outer",
+    "options": [
+      "4, 6",
+      "10, 12",
+      "8, 10",
+      "6, 8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10, 12)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A field roller,",
+    "options": [
+      "3960",
+      "3600",
+      "3300",
+      "3560"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3300) | Exam: SSC CGL TIER II (12/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Perimeter of a base of circular cylinder is 35cm and CSA is 9660 cm2, a thread is wound on a cylinder such that it makes exactly 23 turns around the cylinder then find length of string?",
+    "options": [
+      "851 cm",
+      "828 cm",
+      "1380 cm",
+      "925 cm The solid obtained by revolving a right- angled triangle about oneb of its sides (other than hypotenuse) is called a cone or right circular cone."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (851 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the height of a cone is 7 cm and the diameter of the circular base is 12 cm, then its volume is (nearest to integer):",
+    "options": [
+      "264 cm3",
+      "284 cm3",
+      "274 cm3",
+      "254 cm3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (264 cm3) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the slant height of a cone is 29 cm and its height is 20 cm, find the ratio between the magnitudes of total surface area and the volume.",
+    "options": [
+      "3 : 7",
+      "3 : 14",
+      "5 : 14",
+      "7 : 15"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5 : 14) | Exam: SSC CPO 05/10/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the ratio of the base radius to the height of a cone is 7 : 9, and the area of the base of the cone is 1386 cm2. then the volume",
+    "options": [
+      "12,474",
+      "13,652",
+      "12,768",
+      "13,125"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12,474) | Exam: ICAR Mains, 10/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The height and the radius of the base of a",
+    "options": [
+      "11 cm",
+      "14 cm",
+      "12 cm",
+      "13 c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (13 c) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The circumference of the base of a right circular cone is 44 cm and its height is 24",
+    "options": [
+      "572",
+      "550",
+      "528",
+      "440"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (550) | Exam: CGL MAINS 16/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A heap of wheat is",
+    "options": [
+      "60.06",
+      "115.05",
+      "60.6",
+      "115.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60.06) | Exam: SSC CGL 16/08/2021 (Shift 02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A conical shape vessel has a radius of 21 cm and has a slant height of 25 cm. If the curved part of the vessel is to be painted",
+    "options": [
+      "2475",
+      "825",
+      "1680",
+      "1250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2475) | Exam: SSC CPO 03/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radius of the base of a conical tent is 8 m and its height is 15 m, what is the cost of the material needed to make it if it costs Rs 54 per  m2?",
+    "options": [
+      "Rs.6454",
+      "Rs.7344",
+      "Rs.8678",
+      "Rs.7454"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.7344) | Exam: SSC MTS 08/05/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "How many metres of 2-m-wide cloth will be required to make a conical tent with the diameter of the base as 14 m and slant height as 9 m ignore wastage?",
+    "options": [
+      "66 m",
+      "88 m",
+      "99 m",
+      "77 m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (99 m) | Exam: SSC CGL 12/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The volume of conical tent is 1232cm3 and area of base is 154cm2. Find the length of canvas required to build the tent whose width is 2 m?",
+    "options": [
+      "255 m",
+      "265 m",
+      "275 m",
+      "225"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (275 m)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The volume of a right circular cone is 308 cm³ and the radius of its base is 7 cm.",
+    "options": [
+      "22 21",
+      "44 21",
+      "22 85",
+      "11 85"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (22 85) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Volume of a cone whose radius of base and height are r and h respectively, is 400 cm3. What will be the volume of a cone whose radius of base and height are 2r cm and h cm respectively?",
+    "options": [
+      "1000 cm³",
+      "1200 cm³",
+      "1600 cm³",
+      "800 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1600 cm³) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The curved surface area of a right circular cone is 2310cm² and its radius is 21 cm. If its radius is increased by 100% and height is reduced by 50%, then its capacity",
+    "options": [
+      "27.8",
+      "28.2",
+      "26.7",
+      "25.9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25.9) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The height of a cone is three times the radius of its base and its total surface area is 36   cm2. What is the volume 10  1 ",
+    "options": [
+      "288 ",
+      "125 ",
+      "216 ",
+      "144"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (216 ) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A semi-vertical angle of a right circular cone is 60º, and its slant height is 3 cm. Find the ratio of the height of cone and radius of the base of cone?",
+    "options": [
+      "3 : 1",
+      "1 : 3",
+      "2 : 3",
+      "3 : 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1 : 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radii of the base of a cylinder and a",
+    "options": [
+      "3 : 2",
+      "33 : 2",
+      "3 : 22",
+      "2 : 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (33 : 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q073",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the radius of the base of a cone is doubled, and the volume of the new cone is three times the volume of the original cone, then what will be the ratio of the height of the original cone to that of the new cone?",
+    "options": [
+      "9 : 4",
+      "4 : 3",
+      "2 : 9",
+      "1 : 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4 : 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q074",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The numerical values of the volume and the area of the lateral surface of a right circular cone are equal. If the height of the cone be h and radius be r, the value of 1 1  h 2 r 2",
+    "options": [
+      "4/15",
+      "3/1",
+      "1/6",
+      "1/9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1/9)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q075",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A semicircular sheet of diameter 32cm is bent into a conical cup. Find the depth of cup?",
+    "options": [
+      "85",
+      "83",
+      "162",
+      "123"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (83)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q076",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sector of radius 10.5 cm with the central angle 120º is formed to form a cone by joining the two bounding radii of the",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ()"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q077",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "From a circular sheet of paper of radius 25cm, a sector area 60% is removed. If the remaining part is wood to make a conical cup. Then find the ratio of height and radius of cone?",
+    "options": [
+      "19 : 6",
+      "24 : 7",
+      "4 : 3",
+      "21 : 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21 : 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A right angle triangle whose sides are 15cm and 20cm (other than hypotenuse) is made to revolve about its hypotenuse. Find the volume and surface area of double cone so formed?",
+    "options": [
+      "1200, 1320",
+      "1600, 1320",
+      "1250, 1444",
+      "1000, 1260"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1200, 1320)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q079",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radii of the ends of a frustum of a cone 7 cm height are 5 cm and 3 cm. Find its volume correct to one decimal place.  22   Use  =   7   ",
+    "options": [
+      "345.6 cm³",
+      "359.3 cm³",
+      "379.3 cm³",
+      "369.3 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (359.3 cm³) | Exam: SSC CGL 12/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q080",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The lateral surface area of frustum of a right circular cone, if the area of its base is 16 cm2 and the diameter of circular upper surface is 4 cm and slant height 6 cm, will be",
+    "options": [
+      "30 cm2",
+      "48 cm2",
+      "36 cm2",
+      "60 cm2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (36 cm2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q081",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The height of a cone is 40 cm. If a small cone is cut off at the top by a plane parallel to the base of the cone, the volume of the 1 smaller con is the volume of the larger 64 cone. Find the height of the frustum.",
+    "options": [
+      "5",
+      "15",
+      "10",
+      "30"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q082",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If a right circular cone is separated into solids of volumes V1, V2, V3 by two planes parallel to the base which also trisect the altitude, then V1 : V2 : V3 is-",
+    "options": [
+      "1 : 2 : 3",
+      "1 : 4 : 6",
+      "1 : 6 : 9",
+      "1 : 7 : 19"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 7 : 19)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q083",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the volume of a sphere is 38808 cm3, then its surface area is:",
+    "options": [
+      "5564 cm2",
+      "5544 cm2",
+      "5554 cm2",
+      "5574 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5544 cm2) | Exam: SSC CPO 04/10/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q084",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the diameter of a sphere is reduced to its half, then the volume would be:",
+    "options": [
+      "Reduced by of the former volume 8 1",
+      "Increased by of the former volume 4 1",
+      "Reduced by of the former volume 4 1",
+      "Increased by of the former volume 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Reduced by of the former volume 8 1) | Exam: SSC CPO 04/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q085",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of the radii of spheres A and B is 14 cm, the radius of A being larger than that of B. The difference between their surface area is 112 . What is the ratio of volumes of A and B?",
+    "options": [
+      "64 : 27",
+      "8 : 1",
+      "125 : 64",
+      "27 : 8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (64 : 27) | Exam: CGL MAINS 15/10/2020"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q086",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The sum of radii of two spheres is 10 cm and the sum of their volumes is 880cm3. What will be the product of their radii ?",
+    "options": [
+      "25 cm²",
+      "26 cm²",
+      "33 cm²",
+      "27 cm²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (26 cm²)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q087",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The cost of whitewashing the surface area of a sphere is ` 8,393 at the rate of ` 54.5/cm2.",
+    "options": [
+      "192",
+      "180",
+      "185",
+      "174"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (180) | Exam: ICAR Mains, 08/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q088",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "When the radius of a sphere is increased by 5cm, its surface area increases by 704 cm2. The diameter of the original sphere is",
+    "options": [
+      "8.2 cm",
+      "6.8 cm",
+      "5.2 cm",
+      "6.2 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6.2 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q089",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What is the volume (",
+    "options": [
+      "3 106 ",
+      "3 56 ",
+      "3 86 ",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3 106 )"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q090",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hollow spherical shell is made of a metal of density 2.5 g/cm3.",
+    "options": [
+      "398567 g",
+      "324120 g",
+      "440040 g",
+      "420420 g Hemisphere/v¼Zxksyk When a solid sphere is cut through its center into two equal (identical) piece, each piece is called a hemisphere."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (420420 g Hemisphere/v¼Zxksyk When a solid sphere is cut through its center into two equal (identical) piece, each piece is called a hemisphere.) | Exam: SSC MTS 25/07/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q091",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The total surface area of a solid hemisphere is 4158 cm2. Find its volume",
+    "options": [
+      "9702",
+      "19404",
+      "1848",
+      "462"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19404) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q092",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radius of hemisphere is 14cm. What is the cost of painting the outer curved surface of the hemisphere at the rate of Rs. 45 per  22  sq.cm?   =   7 ",
+    "options": [
+      "Rs. 53160",
+      "Rs. 55440",
+      "Rs. 56820",
+      "Rs. 58280"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs. 55440) | Exam: SSC MTS 8/08/ 2019 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q093",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hemispherical bowl made of iron has inner diameter 84 cm. Find the cost of tin plating it on the inside at the rate of  22  Rs.21 per 100 cm²  take  =  correct  7    to two places of decimal. Mensuration-3D",
+    "options": [
+      "Rs.2,328.48",
+      "Rs.2,425.48",
+      "Rs.2,425.60",
+      "Rs.2,355.48"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.2,328.48) | Exam: SSC CGL 02/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q094",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The diameter of a hemisphere is equal to the diagonal of a rectangle of length 4 cm and breadth 3 cm. Find the total surface",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Exam: SSC CPO 04/10/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q095",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the radius of a hemispherical balloon increases from 4 cm to 7 cm as air is pumped into it, find the ratio of the surface area of the new balloon to its original.",
+    "options": [
+      "20 : 49",
+      "16 : 21",
+      "49 : 16",
+      "21 : 12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (49 : 16) | Exam: SSC CPO 04/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q096",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The internal diameter of a hollow hemispherical vessel is 24 cm. It is made of a steel sheet which is 0.5 cm thick.",
+    "options": [
+      "612.75 ",
+      "468.75 ",
+      "600.2 ",
+      "600.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (612.75 ) | Exam: SSC CGL TIER II (13/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q097",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively. What is the total",
+    "options": [
+      "183 ",
+      "189 ",
+      "177 ",
+      "174"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (183 ) | Exam: SSC CGL TIER II (11/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q098",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A metallic hemispherical bowl is made up",
+    "options": [
+      "6162",
+      "3162",
+      "681",
+      "381"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3162)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q099",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sphere and another solid hemisphere have the same surface area. The ratio of their volumes is:",
+    "options": [
+      "2 3 : 8",
+      "3 3 : 8",
+      "3 : 4",
+      "3 3 : 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 3 : 4) | Exam: SSC CPO 05/10/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q100",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cylindrical metallic rod of diameter 2 cm and length 45 cm is melted and converted into wire of uniform thickness and length 5 m. The diameter of the wire is: O;kl 2 lseh",
+    "options": [
+      "5 mm",
+      "3 mm",
+      "2 mm",
+      "6 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6 m) | Exam: SSC CPO 04/10/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q101",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid sphere made of wax of radius 12 cm is melted and cast into solid hemispheres of radius 4 cm each. Find the number of such solid hemispheres.",
+    "options": [
+      "14",
+      "54",
+      "28",
+      "27"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (54) | Exam: SSC CPO 03/10/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q102",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Three solid iron cubes of edges 4 cm, 5 cm and 6 cm are melted together to make a new cube. 62 cm3 of the melted material is lost due to improper handling. The area",
+    "options": [
+      "294",
+      "343",
+      "125",
+      "216"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (294)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q103",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If a cuboid of dimensions 32 cm",
+    "options": [
+      "65:72",
+      "37:48",
+      "24:35",
+      "32:39"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (65:72) | Exam: SSC CGL TIER II (11 /09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q104",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid metallic cube of side 9 cm and a solid metallic cuboid having dimensions 5 cm, 13 cm, 31 cm are melted to form a",
+    "options": [
+      "8,650",
+      "27,440",
+      "13,620",
+      "11,760"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11,760)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q105",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Two solid metallic right circular cones each of base radius 4.5 cm and heights 10 cm and 8 cm, are melted and recast into a solid sphere. What is the cost of polishing the surface area of the sphere at the rate of ` 3.50 per 10 cm2? (nearest to a `)?",
+    "options": [
+      "` 90",
+      "` 88",
+      "` 92",
+      "` 89"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 89) | Exam: ICAR Mains, 07/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q106",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The carved surface area of solid metallic cone is 260 cm2 and its slant height is 26 cm. It is melted and recast into a solid right circular cylinder of base radius 5 cm.",
+    "options": [
+      "370",
+      "300",
+      "350",
+      "320"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (370)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q107",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base radius of a solid right circular cylinder is 15 cm and its total surface area is 770 cm2. It is melted and recast into another solid cylinder of height 24 cm.",
+    "options": [
+      "240",
+      "432",
+      "480",
+      "384"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (480) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q108",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A steel cylinder of radius 3.5 cm and height 7 cm is melted to form bearings of radius 1 cm. How many such bearings can be made, assuming that 9.5 cm³ of steel",
+    "options": [
+      "57",
+      "62",
+      "65",
+      "64"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (62)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q109",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid cylinder of diameter 12cm and height 15cm is melted and recast into toys with the shape of a right circular cone mounted on a hemisphere of radius 3cm. If the height of the toy is 12cm find the number of toys so formed.",
+    "options": [
+      "15",
+      "16",
+      "18",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q110",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid metallic sphere of radius 15 cm is melted and recast into spherical balls of radius 3 cm each. What is the ratio of the surface area of the original sphere and the sum of the surface areas of all the balls?",
+    "options": [
+      "1 : 5",
+      "1 : 10",
+      "5 : 27",
+      "3 : 40"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1 : 5)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q111",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radius of base of solid cylinder is 7 cm and its height is 21 cm. It melted and converted into small bullets. Each bullet is of same size. Each bullet consisted of two parts viz. a cylinder and a hemisphere on one of its base. The total height of bullet is 3.5 cm and radius of base is 2.1 cm. Approximately how many complete bullets can be obtained?",
+    "options": [
+      "83",
+      "89",
+      "74",
+      "79"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (83)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q112",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The radii of the ends of a frustum of a solid right-circular cone 45 cm high are 28 cm and 7 cm. If this frustum is melted and reconstructed into a solid right circular cylinder whose radius of base and height",
+    "options": [
+      "4810",
+      "4620",
+      "4840",
+      "4580"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4620) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q114",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cylindrical tank of radius 5.6 m and depth of 'h' m is built by digging out earth. The sand taken out is spread all around the tank to form a circular embankment to a width of 7 m. What is the depth of the tank. If the height of the embankment is 1.96m?",
+    "options": [
+      "7.2 m",
+      "7 m",
+      "8 m",
+      "9.5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 m)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q115",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A field is 125m long and 15m wide. A tank",
+    "options": [
+      "20 cm",
+      "30 cm",
+      "28 cm",
+      "25 c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25 c)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q116",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A field is 119m",
+    "options": [
+      "14 cm",
+      "13 cm",
+      "15 cm",
+      "12 c"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15 cm) | Exam: SSC CPO 16/03/2019 (Shift -02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q117",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A field is",
+    "options": [
+      "29.8cm³",
+      "31m³",
+      "30.2m³",
+      "33.6m³"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (33.6m³)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q118",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hemishphere bowl of internal radius 15cm contains a liquid. The liquid is to be filted into cylinderical shaped bottles of diameter 5 cm and height 6cm The number of bottles required to empty the bowl is:",
+    "options": [
+      "72",
+      "54",
+      "66",
+      "60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (60)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q119",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The diameter of the base of cylindrical drum is 35dm. and the height is 24 dm. It is full of kerosane. How many tins each of size 25",
+    "options": [
+      "900",
+      "1000",
+      "1280",
+      "1200"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1200)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q120",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hemispherical bowl of internal radius 18 cm is full of liquid. This liquid is to be filled",
+    "options": [
+      "72",
+      "70",
+      "68",
+      "66"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72) | Exam: SSC CGL TIER- II 03/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q121",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water flows through a cylinderical pipe, whose radius is 7cm, at 5 metre per second. The time, it takes to fill an empty water tank, with height 1.54 metres and area of",
+    "options": [
+      "5 min.",
+      "6 min.",
+      "8 min.",
+      "4 min"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 min.)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q122",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water flows at the rate of 10 metres per",
+    "options": [
+      "25 min 24 sec",
+      "24 min 24 sec",
+      "28 min 48 sec",
+      "30 min 36 se"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (28 min 48 sec)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q123",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water is flowing at the rate of 3km/hr through a circular pipe of 20cm internal diameter into a circular cistern of diameter 10m and depth 2m.",
+    "options": [
+      "1 hour, 30 min.",
+      "1 hour, 20 min.",
+      "1 hour, 50 min.",
+      "1 hour, 40 min"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 hour, 40 min)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q124",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water flows into a tank which is 200m long and 150m wide, through a pipe of cross-",
+    "options": [
+      "225 hours",
+      "180 hours",
+      "196 hours",
+      "200 hour"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200 hour)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q125",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water flows into a rank 200m",
+    "options": [
+      "160",
+      "150",
+      "180",
+      "200"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200) | Exam: ICAR Mains, 10/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q127",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Water flows out through a pipe with internal diameter 3 cm at the speed of 6.3 km/h into a cylindrical tank whose internal base radius is 1.5m.",
+    "options": [
+      "32.5 cm",
+      "28 cm",
+      "32 cm",
+      "31.5 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (31.5 cm) | Exam: ICAR Mains, 07/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q128",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cylindrical vessel of base radius 14 cm is filled with water to some height. If a",
+    "options": [
+      "1.48 m",
+      "1.50 m",
+      "1.25 m",
+      "2.25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1.25 m)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q129",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Two irons sphere each of diameter 6cm are",
+    "options": [
+      "1 m",
+      "2 m",
+      "2.5 m",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2 m)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q130",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cylindrical vessel of diameter 32 cm is partially filled with water. A solid metallic sphere of radius 12 cm is dropped into it.",
+    "options": [
+      "9",
+      "72",
+      "27",
+      "2.25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9) | Exam: SSC CGL 13/04/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q131",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cylindrical tank of diameter 35 cm is full of water. If 11 litres of water is drawn of",
+    "options": [
+      "9 cm",
+      "10 cm",
+      "11 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q132",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A rectangular tank whose length and breadth are 2.5 m and 1.5 m, respectively is half fill of water. If 750 L more L more warter is poured into the tank, then what is the height through which water level further goes up?",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "18 cm",
+      "22 c"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q133",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base radius and slant height of a conical vessel is 3 cm and 6 cm respectively. Find the volume of sufficient",
+    "options": [
+      "4/3",
+      " 5 /3",
+      "7/3",
+      " 2 /3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( 5 /3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q134",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sphere of diameter 18 cm is dropped",
+    "options": [
+      "1 cm",
+      "4 cm",
+      "3 cm",
+      "2 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q135",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Some marbles each of diameter 4.2 cm, are dropped into a cylindrical beaker containing some water and are fully submerged. The diameter of the beaker is 28 cm. Find how",
+    "options": [
+      "225",
+      "275",
+      "250",
+      "290"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (250) | Exam: ICAR Mains, 08/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q136",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sphere is cut into hemisphere. One of them is used as bowl. It takes 8 bowlfuls of this to fill a conical vessel of height 12cm and radius 6cm. The radius of the cylinder is:",
+    "options": [
+      "3 cm",
+      "4 cm",
+      "2 cm",
+      "3.5 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3 cm)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q137",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A cuboid of size 50 cm x 40 cm x 30 cm is cut into 8 identical parts by 3 cuts. What is",
+    "options": [
+      "18,800 cm²",
+      "16,400 cm²",
+      "20,800 cm²",
+      "21,600 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18,800 cm²)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q138",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid cube has side 8 cm. It is cut along diagonals of top face to get 4 equal parts.",
+    "options": [
+      "80 + 642",
+      "96 + 482",
+      "80 + 482",
+      "96 + 642"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (96 + 642)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q139",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid cube of volume 13824 cm3 is cut into 8 cubes of equal volumes. The ratio of the surface area of the original cube to the sum of the surface areas of three of the smaller cubes is :",
+    "options": [
+      "2 : 3",
+      "4 : 3",
+      "8 : 3",
+      "2 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4 : 3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q140",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid cylinder having radius of base as 28 cm and height as 24 cm is bisected from its height to get two identical cylinders. What will be the percentage",
+    "options": [
+      "61.72 percent",
+      "41.92 percent",
+      "53.85 percent",
+      "48.64 percen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (53.85 percent) | Exam: SSC MTS 17/05/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q141",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A right circular cylinder has height as 18 cm and radius as 7 cm. The cylinder is cut",
+    "options": [
+      "62",
+      "56",
+      "48",
+      "52"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (56)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q142",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid sphere has a surface area of 616 cm². This sphere is now cut into two hemispheres. What is the total surface area of one of the hemispheres?",
+    "options": [
+      "440 cm²",
+      "462 cm²",
+      "452 cm²",
+      "390 cm²"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (462 cm²) | Exam: SSC PHASE XI 28/06/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q143",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid sphere of diameter 17.5cm is cut into two equal halves. What will be the",
+    "options": [
+      "289",
+      "481.25",
+      "361.5",
+      "962.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (481.25)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q144",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A spherical ball of diameter 8 cm is cut into two equal parts. The curved area of one such part has to be painted with green colour, while the other part has to be painted with red colour. The bases of both the hemispheres are to be painted with blue colour. The cost of painting with blue is Rs 2/cm², while the cost of painting the curved",
+    "options": [
+      "Rs 451.92",
+      "Rs 492.92",
+      "Rs 803.84",
+      "Rs 401.92"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs 401.92) | Exam: SSC PHASE XI 27/06/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q145",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A right circular cylinder of maximum volume is cut out from a solid wooden cube. The material left is what percent of the volume (nearest to an integer) of the original cube ?",
+    "options": [
+      "19",
+      "28",
+      "23",
+      "21"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21) | Exam: SSC CGL TIER II (11/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q146",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What is the volume of the largest sphere that can be carved out of a wooden cube of  22  sides 21 cm?   =   7   ",
+    "options": [
+      "3851cm³",
+      "6858cm³",
+      "4851cm³",
+      "5821cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4851cm³) | Exam: SSC CGL TIER - II 02/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q147",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "From the body of a solid cube of edge 7 cm. a solid sphere is removed. The volume of the remaining solid was found 1",
+    "options": [
+      "10",
+      "7",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7) | Exam: SSC CGL 19/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q148",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid cone of height 42 cm with diameter of its base 42 cm is cut out from a wooden solid sphere of radius 24 cm. Find the percentage of wood wasted correct to two places of decimal.",
+    "options": [
+      "75.56",
+      "56.65",
+      "66.50",
+      "67.50"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (66.50) | Exam: SSC CGL 09/12/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q149",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A hemispherical depression of diameter 4 cm is cut out from each face of a cubical block of sides 10 cm. Find the surface area",
+    "options": [
+      "900",
+      "700",
+      "675",
+      "112"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (675) | Exam: SSC CGL 18/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q150",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sphere of maximum volume is cut out from a solid hemisphere. What is the ratio of the volume of the sphere to that of the remaining solid ?",
+    "options": [
+      "1 : 4",
+      "1 : 2",
+      "1 : 3",
+      "1 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1 : 3) | Exam: SSC CGL TIER II (13/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q151",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A sphere of maximum volume is cut out from a solid hemisphere of radius r. The ratio of the volume of the hemisphere to that of the cut out sphere is :",
+    "options": [
+      "3:2",
+      "4:1",
+      "4:3",
+      "7:4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4:1)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q152",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Radius of base of a hollow cone is 8 cm and its height is 15 cm. A sphere of largest radius is put inside the cone. What is the ratio of radius of base of cone to the radius of sphere?",
+    "options": [
+      "5:3",
+      "4:1",
+      "2:1",
+      "7:3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5:3)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q153",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A right circular cylinder has height 28 cm and radius of base 14 cm. Two hemispheres of radius 7 cm each are cut from each of the two bases of the cylinder. What is the total",
+    "options": [
+      "3842",
+      "4312",
+      "3296",
+      "4436"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4312)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q154",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "From a solid cylinder wooden block of height 18 cm and radius 7.5 cm, a conical cavity of same radius and same height is",
+    "options": [
+      "326.25 ",
+      "416.25 ",
+      "472.5 ",
+      "270"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (472.5 ) | Exam: CGL MAINS 16/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q155",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Aright circular cone is inscribed",
+    "options": [
+      "22 : 81",
+      "42 : 11",
+      "11 : 42",
+      "81 : 22"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (42 : 11) | Exam: SSC MTS 18 /10/ 2021"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q156",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A 22.5 m high tent is",
+    "options": [
+      "7877 2",
+      "2800 7 6",
+      "1635 7 2",
+      "21077"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21077) | Exam: SSC CGL 21/04/2022 (Shift -03)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q157",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A solid toy is",
+    "options": [
+      "2 : 3 : 5",
+      "5 : 2 : 3",
+      "2 : 5 : 3",
+      "4 : 5 : 3 Prism/fizTe  A prism is a solid that has two faces that are parallel and congruent and their faces (Polygon) join by vertex to vertex. A prism has a polygon as its base and vertical side perpendicular to the base. (a) Curved surface area of a prism = Perimeter (b) Total surface area of a prism = curved (i) Equilateral triangular prism: h a 3 4 3 Volume/vk;ru = a 2 h 4 (ii) Square Prism/oxkZdkj fizTEk h a Mensuration-3D Volume/vk;ru = a²h h a 6  3 Volume/vk;ru = a²h 4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 : 5 : 3) | Exam: SSC CHSL 30/05/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q158",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right prism is a triangle with sides 16 cm, 30 cm and 34 cm. Its height",
+    "options": [
+      "2688 and 7680",
+      "2624 and 7040",
+      "2560 and 6400",
+      "2560 and 7680"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2560 and 7680) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q159",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a prism is a right angle triangle whose sides are 9 cm, 12 cm and 15 cm. Volume of this prism is 648 cm³. What will be the height of prism?",
+    "options": [
+      "14 cm",
+      "9 cm",
+      "16 cm",
+      "12 c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12 c) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q160",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right prism is a triangle with sides 20 cm, 21 cm and 29 cm. If its volume is 7560 cm3, then its lateral",
+    "options": [
+      "2484",
+      "2556",
+      "2520",
+      "2448"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2520) | Exam: SSC CGL TIER II (12/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q161",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right prism is an equilateral triangle whose side is 10 cm. If height of this prism is 10 3 cm, then what is the total surface area of prism?",
+    "options": [
+      "325 3 cm²",
+      "350 3 cm²",
+      "125 3 cm²",
+      "150 3 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (350 3 cm²) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q162",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of right prism is a trapezium whose parallel sides are 11cm and 15cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm3 ,",
+    "options": [
+      "15.6",
+      "15.2",
+      "14.8",
+      "14.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14.8) | Exam: SSC CGL TIER II (11/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q163",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a solid prism of height 10 cm is a square and its volume is 160 cm3, What",
+    "options": [
+      "200",
+      "192",
+      "180",
+      "176 Mensuration-3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (192) | Exam: CGL MAINS 16/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q164",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right prism is a regular hexagon of side 5 cm. If its height is",
+    "options": [
+      "900",
+      "1800",
+      "1350",
+      "675"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1350) | Exam: CGL MAINS 15/10/2020)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q165",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right prism is a quadrilateral ABCD, given that AB = 9cm, BC = 14 cm, CD = 13 cm, DA = 12 cm and DAB = 90°. If the volume of the prism is 2070 cm³, then the area of the lateral surface is ?",
+    "options": [
+      "720 cm²",
+      "810 cm²",
+      "1260 cm²",
+      "2070 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (720 cm²)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q166",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "Let ABCDEF is prism whose base is a right triangle whose perpendicular sides are 9cm and 12 cm, if cost of painting the prism is Rs.151.20 at the rate of 20 paise/cm², then find the height of the prism?",
+    "options": [
+      "17 cm",
+      "15 cm",
+      "16 cm",
+      "18 c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (18 c)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q167",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A prism has a square base whose side is 8cm. The height of prism is 80cm. The prism is cut into 10 identical parts by 9 cuts which are parallel to base of prism.",
+    "options": [
+      "4260",
+      "2560",
+      "3840",
+      "3220"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3840)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q168",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of right pyramid is an equilateral triangle, each side of which is 20 cm. Each",
+    "options": [
+      "5 3",
+      "10 3",
+      "5",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q169",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right pyramid is a square of side 8 2 cm and each of its slant edge is",
+    "options": [
+      "256",
+      "224",
+      "426",
+      "96 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (256) | Exam: SSC CGL MAINS 03/2/2022"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q170",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The total surface area of a right pyramid, with base as a square of side 8 cm, is 208",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9) | Exam: SSC CGL 20/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q171",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "What is the total surface area of a pyramid whose base is a square with side 8 cm and height of the pyramid is 3 cm?",
+    "options": [
+      "169 cm²",
+      "121 cm²",
+      "144 cm²",
+      "184 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (144 cm²) | Exam: SSC CGL TIER- II 03/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q172",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a pyramid is a rectangle whose length and breadth are 16 cm and 12 cm, respectively. If the length of all the lateral edges passing through the vertex of the right rectangular pyramid is 26 cm, then",
+    "options": [
+      "1536",
+      "1024",
+      "718",
+      "2072"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1536)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q173",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a pyramid is an equilateral triangle whose each side is 8 cm. Is. Its (slant edge) is 24 cm. What is the total",
+    "options": [
+      " 24 3  36 35 ",
+      " 16 3  48 35 ",
+      " 24 3  24 35 ",
+      " 12 3  24 35"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( 16 3  48 35 ) | Exam: SSC CGL TIER- II 06/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q174",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The volume of a right pyramid is 45 3 and its base is an equilateral triangle with",
+    "options": [
+      "15",
+      "18",
+      "12",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15) | Exam: SSC CGL TIER II (11/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q175",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a right pyramid is an equilateral triangle with area 16 3 cm2. If the area of one of its lateral faces is 30 cm2 , then its",
+    "options": [
+      "73/12",
+      "9 209/12",
+      "61/12",
+      "1 643/12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (61/12) | Exam: SSC CGL TIER II (13/09/2019)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q176",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A prism and a pyramid have the same base and the same height. Find the ratio of the volumes of the prism and the pyramid.",
+    "options": [
+      "2 : 3",
+      "3 : 1",
+      "1 : 3",
+      "3 : 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3 : 1) | Exam: SSC CGL TIER- II 07/03/2023"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q177",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The base of a pyramid is a regular polygon, whose total surface area is 340 cm2, and area of base is 100 cm2, if area of each lateral surface is 30 cm2, then find no. of lateral surfaces of pyramid?",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q178",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "A pyramid has square base. The side of square is 12cm and height of pyramid is 21cm. The pyramid is cut into 3parts by 2 cuts parallel to its base. The cuts are at height of 7cm and 14cm respectively from the base. What is the",
+    "options": [
+      "872",
+      "944",
+      "672",
+      "918"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (672)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q179",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "If the side of a tetrahedron is8 3 cm then find the volume and its height.",
+    "options": [
+      "128 6,8 2",
+      "64 6,4 2",
+      "32 6,4 2",
+      "32 6,8 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (128 6,8 2)"
+  },
+  {
+    "id": "rkr_mensuration_3d_mensuration_3d_classroom_sheet_q180",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Mensuration 3D",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Mensuration 3D (ClassRoom Sheet).pdf",
+    "question": "The length of one side of a regular tetrahedron is 8 cm. What is the ratio of its surface area to its volume?",
+    "options": [
+      "Answer Key",
+      "3.(d) 4.(c) 5.(d) 6.(c) 7.(a) 8.(b) 9.(b) 10.(b)",
+      "Answer Key",
+      "2.(b) 3.(d) 4.(c) 5.(d) 6.(c) 7.(a) 8.(b) 9.(b) 10.(b)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Answer Key)"
+  }
+]

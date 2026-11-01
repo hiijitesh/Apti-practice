@@ -1,0 +1,665 @@
+[
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "P and Q can do a piece of work",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, P + Q 90 days Q + R 225 2 P + R 150  5 4 3 450 Effi.  T.W  days days 2(P + Q + R) = 12 P + Q + R = 6 P = 2, Q = 3, R = 1 X Y Z"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "5 times as efficient as R. Find the number of days required to complete the work if X, Y and Z work together.",
+    "options": [
+      "3129 days",
+      "3129 days",
+      "30 days",
+      "3129 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3129 days) | Solution: Effi.  2 3 3  10 : 2 : 2.5 Required time = 450 10 2"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A Completes the work alone",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, A B C 3 : 2 4 : 3 6 : 4 : 3 Effi. ratio  Total work = 6 20 = 120 units Total work done before C's efficiency increased = [2 6 + (6 + 4) 2 + 4 2 + (4 + 3) 4] = 12 + 20 + 8 + 28 = 68 unit Now, Remaining work = 120 – 68 = 52 Before After 3 : 4"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A started the work. After 2 days, B joined with him. After 2 days of work A left the work. B alone worked for 2 days, then C joined him. B and C worked for 4 days then B left the work. Now C increased its efficiency by 33.33% and finished the work. Find the total time taken to finish the work.",
+    "options": [
+      "24",
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16) | Solution: (b) ATQ, (W – 1) (W + 1) Work Team-I Team-II ATQ, (W –1)(W"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Person A can complete the same work",
+    "options": [
+      "20 days",
+      "30 days",
+      "10 days",
+      "5 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 days) | Solution: (c) ATQ, Let A can do the whole work  (x + 10) days. ATQ, 1 1 1 = 10 12   x x 2 2 10 1 12 10     x x x  24x + 120 = x² + 10x  x² – 14x – 120 = 0 ANSWER KEY"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "6 women can do a work",
+    "options": [
+      "180",
+      "240",
+      "200",
+      "210"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (210)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Amal completes 75% of the work",
+    "options": [
+      "144 days",
+      "288 days",
+      "72 days",
+      "180 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (144 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "P and Q can do a job",
+    "options": [
+      "9",
+      "12",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "The work done by a woman",
+    "options": [
+      "213 days",
+      "213 days",
+      "613 days",
+      "113 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (113 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Each one of five men independently can complete a",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a certain work",
+    "options": [
+      "15 days",
+      "18 days",
+      "10 days",
+      "12 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a piece of work",
+    "options": [
+      "` 2400, ` 2400 ` 2400",
+      "` 4000, ` 2400 ` 800",
+      "` 3600, ` 2400 ` 1200",
+      "` 3000, ` 3000 ` 1200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 3600, ` 2400 ` 1200)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "The time taken by A and B together to complete a work is 9.6 hours and the time taken by B and C together to complete the work is ___ hours and the time taken by A and C together to complete the work 33 is 7 hours. C is 60% more efficient than B. Find 31",
+    "options": [
+      "613 hours",
+      "1113 hours",
+      "1013 hours",
+      "913 hour"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1113 hours)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A contractor undertakes to complete a work",
+    "options": [
+      "74",
+      "68",
+      "50",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B working together can complete a work",
+    "options": [
+      "24",
+      "18",
+      "16",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do of a piece of work",
+    "options": [
+      "57/10",
+      "19/0 25",
+      "13/25",
+      "6/25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (57/10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "X and Y together can complete a piece of work",
+    "options": [
+      "12 days",
+      "9 days",
+      "10 days",
+      "8 days"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A alone can do of a work",
+    "options": [
+      "24/53",
+      "0 180/43",
+      "30/47",
+      "0 200/57"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24/53)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Sonu and Monu together can build a wall",
+    "options": [
+      "`1,500",
+      "`1,200",
+      "`1,600",
+      "`1,800"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`1,800)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "4 women and 7 men earn a total of ` 11,480",
+    "options": [
+      "`42770",
+      "`42640",
+      "`42510",
+      "`42900"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`42640)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Two persons X and Y can do a piece of work",
+    "options": [
+      "2417 days",
+      "3413 days",
+      "37 days",
+      "28 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3413 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "4 men and 16 women can complete piece of work",
+    "options": [
+      "16 days",
+      "20 days",
+      "24 days",
+      "32 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "If the ratio of the work done by (x + 2) workers",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A question is given followed by two statements I and II. Consider the Question and the Statements and mark the correct option.",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using",
+      "The Question can be answered by using either",
+      "The Question can be answered by using both the Statements together, but cannot be answered using",
+      "The Question cannot be answered even by us-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (The Question cannot be answered even by us-)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Kiran, Vishal and Dinesh work",
+    "options": [
+      "140 hr.",
+      "135 hr.",
+      "132 hr.",
+      "148 hr"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (148 hr)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B can complete a work together",
+    "options": [
+      "40",
+      "45",
+      "48",
+      "42"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "16 men can complete a work",
+    "options": [
+      "2 days",
+      "5 days",
+      "4 days",
+      "3 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "60 men can complete a work",
+    "options": [
+      "47.5",
+      "49.5",
+      "42.5",
+      "45.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (47.5)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Abha and Anuj working together completed a job",
+    "options": [
+      "10 days",
+      "8 days",
+      "12 days",
+      "6 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B together can complete a work",
+    "options": [
+      "10 days",
+      "13.75 days",
+      "11.25 days",
+      "12.5 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12.5 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A book needs to be typed. A types it",
+    "options": [
+      "MERCURY",
+      "VENUS",
+      "MARS",
+      "All teams will take equal time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (VENUS)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Four persons, P Q, R, S were engaged for doing a task, with the condition that P, Q, R, S work, respectively, on (Monday, Thursday), (Tuesday, Friday), (Wednesday, Saturday), (Sunday). The task was began on a Monday, and got completed on the 15th day, which was also a",
+    "options": [
+      "12 days",
+      "13 days",
+      "10 days",
+      "11 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a piece of work",
+    "options": [
+      "280 days",
+      "320 days",
+      "240 days",
+      "270 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (240 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Abhay and Bharat can complete a certain piece of work",
+    "options": [
+      "days",
+      "days",
+      "days",
+      "days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B undertake a contract of a task for Rs.10,800.",
+    "options": [
+      "`6000",
+      "`3000",
+      "`8000",
+      "`4000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`6000)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can complete a certain work",
+    "options": [
+      "18 days",
+      "14 days",
+      "15 days",
+      "12 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A, B and C started working together and completed",
+    "options": [
+      "20 days",
+      "25 days",
+      "30 days",
+      "40 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20 days) | Solution: A, B and C started working together and completed a job 10 days. However, C only worked for the first three days when 37% of the job was done. Also, the work done by A 5 days is equal to the work done by B 4 days. How many days would be required by t"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "One man, three women and four children does a work",
+    "options": [
+      "39 hours",
+      "42 hours",
+      "36 hours",
+      "34 hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (36 hours) | Solution: One man, three women and four children does a work 96 hours while two men and eight children can complete the same work 80 hours. 2 men and 3 women can do it 120 hrs. Find how much time will 10 men and 5 women complete the work? ,d vkneh] rhu vkSjrsa"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "5 women and 9 girls earn a total of 18720",
+    "options": [
+      "42,510",
+      "41,990",
+      "42,380",
+      "42,120"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42,120) | Solution: 5 women and 9 girls earn a total of 18720 9 days, while 9 women and 16 girls earn a total of 52080 14 days. How much will 12 women and 7 girls together earn 13 days? 5 efgyk,a 9 9 fnuksa 18]720 :i;s dekrh tcfd 9 efgyk,a 16 14 fnuksa 52]080 :i;s dekrh"
+  }
+]

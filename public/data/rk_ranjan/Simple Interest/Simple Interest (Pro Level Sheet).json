@@ -1,0 +1,512 @@
+[
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.x amounts to Rs.9,246",
+    "options": [
+      "6900 and 8.5",
+      "6800 and 8.5",
+      "6500 and 8",
+      "7200 and 7.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6900 and 8.5) | Solution: (a) 4 yrs P 9246 11298.75"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person invested one-fourth of the sum of Rs.25,000 at a certain rate of simple interest and the rest at 4% pa higher rate. If the total interest received for 2 years is Rs.4,125. What is the rate at which the second sum was invested?",
+    "options": [
+      "9.5",
+      "9.25",
+      "9.255",
+      "7.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9.25) | Solution: (b) 1 3 R % (R+4)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "At 5% simple interest per annum a certain sum yields 1 a total amount of 2,790 at the end of 3 years. The 4 sum invested was: 1",
+    "options": [
+      "Rs.2350",
+      "Rs.2400",
+      "Rs.2600",
+      "Rs.2550"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.2400) | Solution: (b) SI = P R T 100   = P 5 13 100 4    = 65P 400 ATQ, P + 65P 400 = 2790 465P 2790 400   2790 400 P = 465   P = 6 400 P = Rs.2400 Hence the amount invested = Rs.2400"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A certain sum amounts to Rs.15,748",
+    "options": [
+      "8",
+      "9.5",
+      "9",
+      "8.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Solution: (a) ATQ, 3(r + 2)% – 3r% = 16510 – 15748 6% = 762 1% = 127 Principle = 100% = 12700 If sum becomes 15748 3 years at r% rate. S.I. = 15748 – 12700 = Rs.3048 3048 = r 3 100 r = 8"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "Two equal sums are lent at 10% and 8% p.a. on simple interest for ‘t’ years and (t+2) years",
+    "options": [
+      "Rs.20,200",
+      "Rs.20,500",
+      "Rs.18,100",
+      "Rs.21,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.20,500) | Solution: (b) ATQ, (t + 2) 8 = t 10 8t + 16 = 10t 2t = 16 t = 8 Given that amount is also equal. Let principle = 100% Then, 100% + 8 10% = 36900 180% = 36900 100% = 20500 Sum = Rs.20500"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "Veeru invested Rs.10,000 at 5% Simple annual interest, and exactly after two years, Jay invested Rs. 8000 at 10% simple annual interest. How many years after Veeru’s investment, will their balances, i.e., principle plus accumulated interest, be equal?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12) | Solution: (b) Let after n years both the sums amount to equal amounts. 10000 100  = 8000+ 100 2000 = 800n – 500n – 1000 3000 = 300n n = 10 Hence, 12 years after Veeru invested their balance will be equal."
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A father left a will of Rs.35 lakhs between his two daughters age",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: 5 yrs SI of 3.5 years = 2052.75 SI of 1 years = 586.5 SI of 4 years = 2346 Principal = 9246 – 2346 = 6900 Rate ="
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "5 year and 16 year such that they may get equal amounts when each of them reach the age of 21 years. The original amount of Rs.35 lakh has been instructed to be invested at 10% p.a simple interest. How much did the elder daughter get at the time of the will?",
+    "options": [
+      "Rs.1200",
+      "Rs.600",
+      "Rs.800",
+      "Rs.620"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.1200) | Solution: 25% Overall Rate% = 4125 100% 2 25000   = 8.25% 1R + 3R +12 = 8.25 4 4R + 12 = 33 4R = 21 R = 5.25% Second rate = 9.25"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "The amount obtained on a certain sum of money at 1 8% per annum for 3 years at simple interest is 2 Rs.2,944 less than the simple interest on the same sum for 10 years at double the rate of interest. The",
+    "options": [
+      "9,800",
+      "9,200",
+      "9,000",
+      "9,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9,200)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "Archana took a loan of `78,000 from a bank on 3 24th January 2012 at 8 % per annum simple 4 interest and paid it back on 18th June 2012. Find the total amount paid by Archana. (Approximated to nearest integer) 3",
+    "options": [
+      "`80,723",
+      "`90,730",
+      "`85,733",
+      "`88,730"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`80,723)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.4,000 amounts to Rs.5,008",
+    "options": [
+      "Rs.5,320",
+      "Rs.5,330",
+      "Rs.5,420",
+      "Rs.5,200"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.5,320)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum is deposited",
+    "options": [
+      "5,20,000",
+      "5,70,000",
+      "4,80,000",
+      "6,00,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4,80,000)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "The simple interest on a certain sum for 3 years at 8% p.a is Rs.90 more than simple interest at 9% p.a",
+    "options": [
+      "Rs.1900",
+      "Rs.2250",
+      "Rs.1850",
+      "Rs.1500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.1500)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A bank charges simple interest for `K at the rate of 1 for n2 years. Another bank charges simple interest r 2 for `L at the rate of 3 for n3 years and gives the same r 2 interest. The ratio between K and L is:",
+    "options": [
+      ":",
+      "rn : 1",
+      "r2 : n2",
+      "r 2 : n 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (rn : 1)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person deposited Rs.15,600",
+    "options": [
+      "Rs.6,655",
+      "Rs.6,864",
+      "Rs.3,975",
+      "Rs.3,744"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.6,864)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "If a, b, c are three sum of money such that b is the simple interest on a and c is the simple interest on b for the same time and at the same rate of interest, then what is the relation between a, b, c?",
+    "options": [
+      "abc = 1",
+      "a² = bc",
+      "c² = ac",
+      "b² = a"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (b² = a)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.12,000 was borrowed at a rate of simple interest. After four months, Rs. 6000 more was borrowed and rate of interest on the total principle was doubled that of the previous rate. At the end of the year, 2800 was paid as the interest. Find the rate",
+    "options": [
+      "12",
+      "16",
+      "10",
+      "14"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.9200 was lent partly at 5% p.a. and the rest at 8% p.a., both at simple interest. Total interest",
+    "options": [
+      "5200",
+      "4600",
+      "4400",
+      "4200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4400)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person invested a sum of Rs.6,500 at x% per annum at simple interest and a sum of Rs.7,500 at (x-2)% per annum at simple interest. If the total interest earned on both the investments for 3 years is Rs.3,750. Then the rate of interest on the first investment is:",
+    "options": [
+      "14",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person invested a sum of Rs.18,600 at x% p.a. and another sum that is twice the former at (x + 2)% p.a., both at a simple interest. If the total 1 interest earned on both investments after 3 years 2 is Rs.23,110.50, then the rate of interest p.a. on the second investment is:",
+    "options": [
+      "13",
+      "10.5",
+      "12.5",
+      "11"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12.5)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A portion of Rs.48,500 is invested at 15% simple interest per annum. After 2 years of the first investment, the remaining amount is invested at 10% simple interest per annum. After 5 years from the time of investing the first amount, the ratio of interest is",
+    "options": [
+      "20,940",
+      "29,100",
+      "24,900",
+      "19,400"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (29,100)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person invested some amount at the rate of 12% per annum simple interest and another amount at the rate of 10% per annum simple interest. He received yearly interest of Rs.125 from both the investments. But if he had interchanged the amounts invested, he would have received Rs.3 more as interest. How much did he invest at 10% per annum simple interest originally?",
+    "options": [
+      "Rs.650",
+      "Rs.500",
+      "Rs.700",
+      "Rs.600"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.650)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A man takes a loan of some amount at some rate of simple interest. After three years, the loan amount is doubled and the rate of interest is decreased by 2%. After 5 years, if the total interest paid on the whole is Rs.13,600, which is equal to the same when the 1 first amount was taken for 113 years, then the loan taken initially is:",
+    "options": [
+      "Rs.10,000",
+      "Rs.12,500",
+      "Rs.12,000",
+      "Rs.13,600"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.10,000)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A sum of ` 10000 is invested",
+    "options": [
+      "`1500",
+      "`5000",
+      "`1000",
+      "`3000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`1000)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A certain sum amounts to Rs.4,600 after 5 years and to Rs.6,000 after 8 years at the same rate of simple interest per annum. What will be the simple interest 1 on a sum of Rs.8,500 for 6 years at the same rate? 2",
+    "options": [
+      "Rs.11,375",
+      "Rs.11,460",
+      "Rs.10,215",
+      "Rs.10,515"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.11,375)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "The simple interest on a sum of money is of the sum. 45 If the number of years is numerically 5 times of rate per cent per annum, then find the rate per cent per annum. 9",
+    "options": [
+      "5",
+      "2",
+      "7",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "The difference between the simple interest on a sum of 1 money for 3 years at the rate of 12% per annum and 2 1 simple interest on the same sum of money for 4 years at 2",
+    "options": [
+      "16,000",
+      "12,000",
+      "14,000",
+      "10,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12,000)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "A person invests Rs.90000",
+    "options": [
+      "30000",
+      "40000",
+      "50000",
+      "35000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40000)"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "`18210 is invested",
+    "options": [
+      "2.",
+      "3. (b) 4. (a) 5. (b)",
+      "`5880",
+      "`5120"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3. (b) 4. (a) 5. (b)) | Solution: `18210 is invested three Schemes-A, B and C for 5 years, 8 years and 4 years respectively. If these three Schemes give a simple interest of 12%, 10% and 12.5% respectively. After completion of each scheme a person gets amount the ratio 3:7:4 from the"
+  },
+  {
+    "id": "rkr_simple_interest_simple_interest_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Simple Interest (Pro Level Sheet).pdf",
+    "question": "The amount on a certain sum for two years on simple interest is `2560 less than twice the sum. If the sum of rate of interest and difference of rate of interest for the first years and the second years are 20% and 4% respectively then find the simple interest on the same sum at the rate of 8.75% for 2 years.",
+    "options": [
+      "`640",
+      "`560",
+      "`420",
+      "`480 KEY 6. (b) 7. (b) 8. (a) 9. (b) 10. (a)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`560) | Solution: The amount on a certain sum for two years on simple interest is `2560 less than twice the sum. If the sum of rate of interest and difference of rate of interest for the first years and the second years are 20% and 4% respectively then find the simple"
+  }
+]

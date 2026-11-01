@@ -1,0 +1,376 @@
+[
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Which of the following is not a criterion of congruent triangles?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Which of the following statements is sufficient to conclude that two triangles are congruent?",
+    "options": [
+      "These have two equal sides and the same perimeter.",
+      "These have the same area and the same base.",
+      "One side and one angle of both triangles are unequal.",
+      "These have the same base and the same height."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (These have two equal sides and the same perimeter.) | Exam: SSC CGL 09/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "ABC and DEF are two triangles such that ABC FDE. If AB = 17 cm, B = 52° and A = 95°, then which of the following options is true?",
+    "options": [
+      "DE = 17 cm, F = 33°",
+      "DF = 17 cm, E = 33°",
+      "DE = 17 cm, E = 33°",
+      "DF = 17 cm, D = 33°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (DF = 17 cm, E = 33°) | Exam: SSC CGL 19/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "If ABC  PQR and ABC = (x + 60)º, PQR = (85 – 4x)º, and RPQ = (3x + 65)º, then the",
+    "options": [
+      "15",
+      "5",
+      "45",
+      "65"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (65) | Exam: SSC CGL 13/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "ABC and PQR are respectively congruent. If AB = 8 =PQ, BC = 10 = QR and B = 35°, then what is the value of P + C?",
+    "options": [
+      "145°",
+      "130°",
+      "160°",
+      "120°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (145°) | Exam: SSC CGL 24/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "The sides ST and TR and the median SU of the  STR are equal to the sides MN and NJ and the median MV of the  MNJ, respectively. If TSU = 46°, NMJ = 79° and MVN = 88°, what 7 is the degree measure of SRT? 11",
+    "options": [
+      "35°",
+      "55°",
+      "56°",
+      "47°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (35°) | Exam: SSC CHSL 09/07/2024 (Shift-3)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "If an a ABC, D and E are on the sides AB and AD 3 AC such that DE is parallel to BC and = . BD 5 If AC = 4 cm, then AE is:",
+    "options": [
+      "1.5 cm",
+      "1.8 cm",
+      "2.4 cm",
+      "2.0 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.5 cm)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "For a ABC, D and E are two points on AB 1 1 and AC such that AD = AB, AE = AC. If 6 6 BC = 22cm then DE is (Consider up to two decimals)",
+    "options": [
+      "3.67 cm",
+      "1.67 cm",
+      "1.33 cm",
+      "3.33 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3.67 cm) | Exam: SSC CPO 03/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "If the areas of two similar triangles are",
+    "options": [
+      "14 : 25",
+      "13 : 20",
+      "14 : 20",
+      "13 : 25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14 : 25) | Exam: SSC CGL TIER- II 03/03/2023"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "XYZ and PQR are similar. XY : PQ = 6 : 1. The area of PQR is 6 cm2. What is the area of XYZ?",
+    "options": [
+      "216 cm²",
+      "261 cm²",
+      "36 cm²",
+      "6 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (216 cm²) | Exam: SSC CHSL TIER II 26/06/2023"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Two similar triangles are XYZ and LMN. If area of (XYZ) = 16 cm², area of (LMN) = 25 cm² and YZ = 2.4 cm, then the measure of MN is:",
+    "options": [
+      "1 cm",
+      "3 cm",
+      "2 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3 cm) | Exam: SSC CPO 27/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Two similar triangles are ABC and LMN. If the area of ABC = 25cm2, area of LMN = 36cm2 and BC = 2.5 cm, then the measure of",
+    "options": [
+      "1",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: RRB Tech. G-I 20/12/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "The areas of two similar triangles PQR and XYZ are 12.96 cm2 and 635.04 cm2 , respectively. If QR = 2.9 cm, then the length",
+    "options": [
+      "30.4",
+      "20.3",
+      "23.2",
+      "25.2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20.3) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "The mid points of AB and AC and Y, respectively. If BC + XY the value of BC – XY is:",
+    "options": [
+      "12 cm",
+      "6 cm",
+      "8 cm",
+      "4 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 cm) | Exam: SSC CGL 19/07/2023"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "D and E are mid-points of the AC of ABC respectively. If area cm2, the area of ABC is :",
+    "options": [
+      "16 cm2",
+      "32",
+      "24 cm2",
+      "64"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (32)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "If the corresponding angles of two triangles are PX ZX PZ equal and satisfy   , then: ER RF EF",
+    "options": [
+      "PXZ is similar to EFR",
+      "PXZ is similar to ERF",
+      "XPZ is similar to ERF",
+      "PXZ is similar to REF"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (PXZ is similar to ERF) | Exam: SSC CHSL 06/06/2022 (Shift 02)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Two triangles ABC and DEF are similar. If AB = 6 cm, BC = 8 cm and DE = 9 cm, find EF.",
+    "options": [
+      "12 cm",
+      "9 cm",
+      "10 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12 cm) | Exam: SSC CHSL 07/06/2022 (Shift 01)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "Let D and E be two points on the side BC of ABC such that AD = AE and BAD = EAC. If AB = (3x +1) cm, BD = 9 cm, AC = 34 cm and EC = (y + 1) cm, then the value of (x + y) is :",
+    "options": [
+      "17",
+      "20",
+      "19",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (19) | Exam: SSC CGL 2019 Tier-II (16/11/2020)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "If ABC is similar to DEF such that A = 47º and E = 63º, then C is equal to :",
+    "options": [
+      "40º",
+      "70º",
+      "65º",
+      "37º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (70º)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "ABC is a triangle, AD is a median of ABC, F is a point on side AC, BF meets AD at E and E is mid point of AD find AF : FC.",
+    "options": [
+      "1 : 3",
+      "1 : 2",
+      "2 : 1",
+      "1 : 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1 : 2)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "AD is perpendicular to the internal bisector of ABC of ABC. DE is drawn through D and parallel to BC to meet AC at E. If the length of",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6)"
+  },
+  {
+    "id": "rkr_geometry_similarity_congruency_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Similarity & Congruency (ClassRoom Sheet).pdf",
+    "question": "O is a point",
+    "options": [
+      "83",
+      "86",
+      "66",
+      "93"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (86)"
+  }
+]

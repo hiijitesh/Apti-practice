@@ -1,0 +1,359 @@
+[
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "Each interior angle of a regular polygon is 144º. The number of sides of the polygon is :",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If a regular polygon has 16 sides, then what",
+    "options": [
+      "155",
+      "157",
+      "159",
+      "154"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (157) | Exam: SSC CGL MAINS 16/11/2020"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "ABCDE is a regular pentagon. Its sides are",
+    "options": [
+      "45º",
+      "30º",
+      "75º",
+      "66º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (66º) | Exam: SSC CHSL 14/10/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "How many diagonals are there",
+    "options": [
+      "48",
+      "54",
+      "60",
+      "72"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (54)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "A polygon has 35 diagonals. The number of",
+    "options": [
+      "6",
+      "9",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If each interior angle of a regular polygon is 135o, then the number of diagonals of the polygon is equal to :",
+    "options": [
+      "54",
+      "48",
+      "20",
+      "18"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If the external angle of a regular polygon is",
+    "options": [
+      "180",
+      "150",
+      "170",
+      "140"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (170) | Exam: SSC CGL MAINS 03/03/2023"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "Find the number of diagonals of a regular polygon whose interior angles sum to 2700°.",
+    "options": [
+      "127",
+      "121",
+      "119",
+      "117"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (119) | Exam: SSC CGL MAINS 06/03/2023"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If each interior angle of a regular polygon is º  4   128  , then what is the sum of the  7  number of its diagonal and the number of its sides?",
+    "options": [
+      "15",
+      "19",
+      "17",
+      "21"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21) | Exam: SSC CGL MAINS 11/09/2019"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If one of the interior angles of a regular 15 polygon is times of one of the interior 16 angles of a regular decagon, then find the number of diagonals of the polygon.",
+    "options": [
+      "20",
+      "14",
+      "2",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20) | Exam: SSC CGL MAINS 07/03/2023"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "The difference between the interior angle and the exterior angle at a vertex of a regular polygon is 150º. The number of sides of the polygon is :",
+    "options": [
+      "10",
+      "15",
+      "24",
+      "30"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "The sum of the interior angles of a regular polygon A is 1260 degrees and each interior 4 angle of a regular polygon B is 128 degrees. 7 The sum of the number of sides of polygons A and B is:",
+    "options": [
+      "18",
+      "16",
+      "19",
+      "17"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "A1 and A2 are two regular polygons. The sum of all the interior angles of A1 is 1080°. Each interior angle of A2 exceeds its exterior angle by 132°. The sum of the number of sides A1 and A2 is:",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (23) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "The sum of the interior angles of a regular polygon is 1260º. What is the difference between an exterior angle and an interior angle of the polygon?",
+    "options": [
+      "105º",
+      "100º",
+      "120º",
+      "90º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (100º) | Exam: SSC CGL MAINS 12/09/2019"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If the measure of each exterior angle of a º  3  regular polygon is  51  , then the ratio of  7 the number of its diagonals to the number of its sides is :",
+    "options": [
+      "5 : 2",
+      "13 : 6",
+      "3 : 1",
+      "2 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 1) | Exam: SSC CGL MAINS 13/09/2019"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "Number of sides of 2 polygons are",
+    "options": [
+      "20, 8",
+      "15, 6",
+      "10, 4",
+      "25, 10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20, 8)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "The ratio of sides of two regular polygon is 1 : 2 and ratio of their internal angles is 2 : 3, what is the number of sides of polygon having more sides?",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "The side BA and DE of a regular pentagon are produced to meet at F. What is the measure of EFA?",
+    "options": [
+      "72º",
+      "36º",
+      "60º",
+      "54º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (36º) | Exam: CGL 2019 MAINS 15/11/2020"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If one of the interior angles of a regular polygon is found to be equal to (9/8) times of the interior angles of a regular hexagon, then the number of sides of the polygon is:",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If one of the interior angles of a regular polygon 7 is equal to times one of the interior angles 6 of a regular hexagon, then what is the number of sides of the polygon? ANSWER",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9)"
+  },
+  {
+    "id": "rkr_geometry_polygon_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Polygon (ClassRoom sheet).pdf",
+    "question": "If each interior angle of a regular polygon is 11 times its exterior angle, the number of sides of the polygon is.",
+    "options": [
+      "22",
+      "24",
+      "18",
+      "11 KEY 6.(c) 7.(c) 8.(c) 9.(c) 10.(d)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24)"
+  }
+]

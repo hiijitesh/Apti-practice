@@ -1,0 +1,2535 @@
+[
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "P and Q can do a piece of work",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, P + Q 90 days Q + R 225 2 P + R 150  5 4 3 450 Effi.  T.W  days days 2(P + Q + R) = 12 P + Q + R = 6 P = 2, Q = 3, R = 1 X Y Z"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "5 times as efficient as R. Find the number of days required to complete the work if X, Y and Z work together.",
+    "options": [
+      "3129 days",
+      "3129 days",
+      "30 days",
+      "3129 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3129 days) | Solution: Effi.  2 3 3  10 : 2 : 2.5 Required time = 450 10 2"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A Completes the work alone",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) ATQ, A B C 3 : 2 4 : 3 6 : 4 : 3 Effi. ratio  Total work = 6 20 = 120 units Total work done before C's efficiency increased = [2 6 + (6 + 4) 2 + 4 2 + (4 + 3) 4] = 12 + 20 + 8 + 28 = 68 unit Now, Remaining work = 120 – 68 = 52 Before After 3 : 4"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A started the work. After 2 days, B joined with him. After 2 days of work A left the work. B alone worked for 2 days, then C joined him. B and C worked for 4 days then B left the work. Now C increased its efficiency by 33.33% and finished the work. Find the total time taken to finish the work.",
+    "options": [
+      "24",
+      "16",
+      "18",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16) | Solution: (b) ATQ, (W – 1) (W + 1) Work Team-I Team-II ATQ, (W –1)(W"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Person A can complete the same work",
+    "options": [
+      "20 days",
+      "30 days",
+      "10 days",
+      "5 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 days) | Solution: (c) ATQ, Let A can do the whole work  (x + 10) days. ATQ, 1 1 1 = 10 12   x x 2 2 10 1 12 10     x x x  24x + 120 = x² + 10x  x² – 14x – 120 = 0 ANSWER KEY"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "6 women can do a work",
+    "options": [
+      "180",
+      "240",
+      "200",
+      "210"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (210)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Amal completes 75% of the work",
+    "options": [
+      "144 days",
+      "288 days",
+      "72 days",
+      "180 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (144 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "P and Q can do a job",
+    "options": [
+      "9",
+      "12",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "The work done by a woman",
+    "options": [
+      "213 days",
+      "213 days",
+      "613 days",
+      "113 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (113 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Each one of five men independently can complete a",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a certain work",
+    "options": [
+      "15 days",
+      "18 days",
+      "10 days",
+      "12 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a piece of work",
+    "options": [
+      "` 2400, ` 2400 ` 2400",
+      "` 4000, ` 2400 ` 800",
+      "` 3600, ` 2400 ` 1200",
+      "` 3000, ` 3000 ` 1200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 3600, ` 2400 ` 1200)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "The time taken by A and B together to complete a work is 9.6 hours and the time taken by B and C together to complete the work is ___ hours and the time taken by A and C together to complete the work 33 is 7 hours. C is 60% more efficient than B. Find 31",
+    "options": [
+      "613 hours",
+      "1113 hours",
+      "1013 hours",
+      "913 hour"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1113 hours)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A contractor undertakes to complete a work",
+    "options": [
+      "74",
+      "68",
+      "50",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B working together can complete a work",
+    "options": [
+      "24",
+      "18",
+      "16",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do of a piece of work",
+    "options": [
+      "57/10",
+      "19/0 25",
+      "13/25",
+      "6/25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (57/10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "X and Y together can complete a piece of work",
+    "options": [
+      "12 days",
+      "9 days",
+      "10 days",
+      "8 days"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A alone can do of a work",
+    "options": [
+      "24/53",
+      "0 180/43",
+      "30/47",
+      "0 200/57"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24/53)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Sonu and Monu together can build a wall",
+    "options": [
+      "`1,500",
+      "`1,200",
+      "`1,600",
+      "`1,800"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`1,800)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "4 women and 7 men earn a total of ` 11,480",
+    "options": [
+      "`42770",
+      "`42640",
+      "`42510",
+      "`42900"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`42640)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Two persons X and Y can do a piece of work",
+    "options": [
+      "2417 days",
+      "3413 days",
+      "37 days",
+      "28 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3413 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "4 men and 16 women can complete piece of work",
+    "options": [
+      "16 days",
+      "20 days",
+      "24 days",
+      "32 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "If the ratio of the work done by (x + 2) workers",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A question is given followed by two statements I and II. Consider the Question and the Statements and mark the correct option.",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using",
+      "The Question can be answered by using either",
+      "The Question can be answered by using both the Statements together, but cannot be answered using",
+      "The Question cannot be answered even by us-"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (The Question cannot be answered even by us-)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Kiran, Vishal and Dinesh work",
+    "options": [
+      "140 hr.",
+      "135 hr.",
+      "132 hr.",
+      "148 hr"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (148 hr)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B can complete a work together",
+    "options": [
+      "40",
+      "45",
+      "48",
+      "42"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "16 men can complete a work",
+    "options": [
+      "2 days",
+      "5 days",
+      "4 days",
+      "3 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "60 men can complete a work",
+    "options": [
+      "47.5",
+      "49.5",
+      "42.5",
+      "45.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (47.5)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Abha and Anuj working together completed a job",
+    "options": [
+      "10 days",
+      "8 days",
+      "12 days",
+      "6 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B together can complete a work",
+    "options": [
+      "10 days",
+      "13.75 days",
+      "11.25 days",
+      "12.5 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12.5 day)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A book needs to be typed. A types it",
+    "options": [
+      "MERCURY",
+      "VENUS",
+      "MARS",
+      "All teams will take equal time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (VENUS)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Four persons, P Q, R, S were engaged for doing a task, with the condition that P, Q, R, S work, respectively, on (Monday, Thursday), (Tuesday, Friday), (Wednesday, Saturday), (Sunday). The task was began on a Monday, and got completed on the 15th day, which was also a",
+    "options": [
+      "12 days",
+      "13 days",
+      "10 days",
+      "11 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can do a piece of work",
+    "options": [
+      "280 days",
+      "320 days",
+      "240 days",
+      "270 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (240 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "Abhay and Bharat can complete a certain piece of work",
+    "options": [
+      "days",
+      "days",
+      "days",
+      "days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A and B undertake a contract of a task for Rs.10,800.",
+    "options": [
+      "`6000",
+      "`3000",
+      "`8000",
+      "`4000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`6000)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A can complete a certain work",
+    "options": [
+      "18 days",
+      "14 days",
+      "15 days",
+      "12 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "A, B and C started working together and completed",
+    "options": [
+      "20 days",
+      "25 days",
+      "30 days",
+      "40 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20 days) | Solution: A, B and C started working together and completed a job 10 days. However, C only worked for the first three days when 37% of the job was done. Also, the work done by A 5 days is equal to the work done by B 4 days. How many days would be required by t"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "One man, three women and four children does a work",
+    "options": [
+      "39 hours",
+      "42 hours",
+      "36 hours",
+      "34 hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (36 hours) | Solution: One man, three women and four children does a work 96 hours while two men and eight children can complete the same work 80 hours. 2 men and 3 women can do it 120 hrs. Find how much time will 10 men and 5 women complete the work? ,d vkneh] rhu vkSjrsa"
+  },
+  {
+    "id": "rkr_time_work_time_work_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time & Work  (Pro Level Sheet).pdf",
+    "question": "5 women and 9 girls earn a total of 18720",
+    "options": [
+      "42,510",
+      "41,990",
+      "42,380",
+      "42,120"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42,120) | Solution: 5 women and 9 girls earn a total of 18720 9 days, while 9 women and 16 girls earn a total of 52080 14 days. How much will 12 women and 7 girls together earn 13 days? 5 efgyk,a 9 9 fnuksa 18]720 :i;s dekrh tcfd 9 efgyk,a 16 14 fnuksa 52]080 :i;s dekrh"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Akhil can complete a piece of work",
+    "options": [
+      "6 days",
+      "8 days",
+      "10 days",
+      "12 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8 days) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Jason can do a piece of work alone",
+    "options": [
+      "14.750",
+      "14.625",
+      "14.875",
+      "14.375"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (14.625) | Exam: SSC CHSL 14/08/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P can complete of a work",
+    "options": [
+      "26",
+      "25",
+      "22",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (26) | Exam: SSC MTS 13/09/2023 (Shift- 03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete of a work",
+    "options": [
+      "12",
+      "11",
+      "13",
+      "15"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13) | Exam: SSC CGL 25/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Sumit and Rajiv, working together, can do a",
+    "options": [
+      "70",
+      "90",
+      "80",
+      "100"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (100) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do 20% of a work",
+    "options": [
+      "38",
+      "52",
+      "56",
+      "45"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (45) | Exam: SSC CGL 17/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do 87.5% of the work",
+    "options": [
+      "1/19",
+      "7/120",
+      "19/36",
+      "1/0 20"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (19/36) | Exam: NTPC CBT-02 15/06/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A alone can finish a work",
+    "options": [
+      "90/8",
+      "80/7",
+      "80/9",
+      "70/8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (80/9) | Exam: SSC CGL 18/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Raju and Akber take 4 hours and 6 hours to type 32 pages and 48 pages, respectively, on a computer. They are given an assignment of typing 256 pages. If they work together, typing on two different computers, starting at the same time, how much time will they take to complete",
+    "options": [
+      "16",
+      "14",
+      "18",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16) | Exam: SSC CHSL 17/08/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Vipin can do a piece of work",
+    "options": [
+      "3",
+      "5",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CPO 05/10/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A, B and C can complete a work",
+    "options": [
+      "5 days",
+      "4 days",
+      "6 days",
+      "3 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 days) | Exam: SSC CHSL 02/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "M, N and O alone can complete a piece of work",
+    "options": [
+      "days",
+      "days",
+      "days",
+      "days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (days) | Exam: SSC GD 01/03/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Ali, Avtar Singh and Ashok working together",
+    "options": [
+      "30",
+      "28",
+      "26",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30) | Exam: SSC CHSL 03/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B together can do a piece of work",
+    "options": [
+      "150 days",
+      "120 days",
+      "96 days",
+      "90 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120 days) | Exam: NTPC CBT-02 16/06/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete a piece of work",
+    "options": [
+      "22 hours",
+      "20 hours",
+      "21 hours",
+      "24 hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (21 hours) | Exam: SSC GD 21/02/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do 20% of a work",
+    "options": [
+      "12 days",
+      "9 days",
+      "11 days",
+      "10 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10 days) | Exam: SSC CGL 21/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do of a work",
+    "options": [
+      "24 days",
+      "18 days",
+      "20 days",
+      "16 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20 days) | Exam: SSC CGL TIER-II (13/09/2019)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Ram can complete a piece of work",
+    "options": [
+      "10 days",
+      "8 days",
+      "12 days",
+      "7 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10 days) | Exam: SSC CGL 27/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a piece of work",
+    "options": [
+      "6",
+      "10",
+      "8",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8) | Exam: SSC Phase XII 25/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a project",
+    "options": [
+      "9",
+      "8",
+      "11",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8) | Exam: SSC CGL 20/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can complete a work",
+    "options": [
+      "11",
+      "14",
+      "12",
+      "13"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12) | Exam: SSC CHSL MAINS 02/11/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B together can complete a piece of work",
+    "options": [
+      "225",
+      "210",
+      "200",
+      "180"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (200) | Exam: SSC CPO 28/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can complete a job together",
+    "options": [
+      "9",
+      "9",
+      "9",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9) | Exam: SSC CGL TIER-II 26/10/2023"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A + B, B + C can do a work",
+    "options": [
+      "20 days",
+      "22 days",
+      "24 days",
+      "26 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A + B can do a work",
+    "options": [
+      "25 days",
+      "27 days",
+      "32 days",
+      "30 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a work",
+    "options": [
+      "17",
+      "16",
+      "13",
+      "14"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (17) | Exam: SSC CPO 27/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Rani and Adya, working separately, can finish",
+    "options": [
+      "12 days",
+      "13 days",
+      "13 days",
+      "12 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13 days) | Exam: SSC CGL TIER-II (18/01/2025)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Supraja and Kausalya can complete a work",
+    "options": [
+      "28",
+      "24",
+      "20",
+      "18"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (18) | Exam: SSC CGL 20/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Keshav and Madhav decide to take up a",
+    "options": [
+      "70",
+      "6221",
+      "66",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (66)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A, B and C can complete a work",
+    "options": [
+      "13",
+      "14",
+      "13",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13) | Exam: SSC MTS 04/09/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Tushar, Megha, Punam and Richa can complete",
+    "options": [
+      "12",
+      "10",
+      "13",
+      "14"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13) | Exam: SSC MTS 05/09/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do a piece of work",
+    "options": [
+      "42",
+      "45",
+      "48",
+      "44"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (45) | Exam: SSC CHSL 25/05/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete a piece of work alone",
+    "options": [
+      "100",
+      "99",
+      "100",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (99) | Exam: SSC CPO 27/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P, Q and R can finish a work",
+    "options": [
+      "2 9",
+      "2 7",
+      "2 5",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 5) | Exam: SSC CGL TIER- II 07/03/2023"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A alone can do a work",
+    "options": [
+      "12 days",
+      "3 days",
+      "6 days",
+      "9 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9 day) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B complete a work",
+    "options": [
+      "24th day",
+      "27th day",
+      "30th day",
+      "21th da"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (27th day) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B are equally efficient and each can",
+    "options": [
+      "19 July 2021",
+      "20 July 2021",
+      "22 July 2021",
+      "21 July 2021"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21 July 2021) | Exam: SSC CPO 05/10/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B are equally efficient and each could",
+    "options": [
+      "19 August 2022",
+      "18 August 2022",
+      "16 August 2022",
+      "17 August 2022"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 August 2022) | Exam: SSC CGL 18/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Two men A and B, each working alone by working 12 hours per day, can complete a work",
+    "options": [
+      "(34, 4)",
+      "(33, 4)",
+      "(33, 2)",
+      "(34, 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((34, 2) | Exam: SSC MTS 05/10/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A man and woman working on alternate days",
+    "options": [
+      "22",
+      "15",
+      "21",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (22) | Exam: SSC MTS 08/09/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "To do a certain work, Ajay and Bharat work on alternate days, with Bharat starting the work on the first day. Ajay can finish the work alone",
+    "options": [
+      "28/8",
+      "4",
+      "32/7",
+      "32"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (32) | Exam: SSC CGL 14/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "To do a certain work, A and B work on alternate days with B beginning the work on the first day.",
+    "options": [
+      "5 days",
+      "4 days",
+      "4 days",
+      "6 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6 days) | Exam: SSC CGL 13/08/2021(Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Aman and Rajan are working at a construction site.",
+    "options": [
+      "57",
+      "117",
+      "113",
+      "120"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (113) | Exam: SSC Phase XII 21/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "There are two robots A and B, which can construct a duplicate of the great China wall",
+    "options": [
+      "More than 51.4 years",
+      "Less than 17.3 years",
+      "51.2 years",
+      "49.5 year"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (49.5 year)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P can do a piece of work",
+    "options": [
+      "23 days/fnu",
+      "28 days/fnu",
+      "30 days/fnu",
+      "7 days/fnu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (23 days/fnu) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a work",
+    "options": [
+      "21 days",
+      "28 days",
+      "24 days",
+      "32 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (21 days) | Exam: SSC Phase XII 20/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a piece of work",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Exam: SSC CGL 18/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "X takes 4 days to complete one-third of a job, Y takes 3 days to complete one-sixth of the same work and Z takes 5 days to complete half the job. If all of them work together for 3 days and X and Z quit, how long will it take for Y to complete the remaining work done?",
+    "options": [
+      "6 days",
+      "8.1 days",
+      "5.1 days",
+      "7 day"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5.1 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A man can alone finish a piece of work",
+    "options": [
+      "5 : 3",
+      "4 : 3",
+      "2 : 3",
+      "3 : 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 : 3)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P and Q can do a certain work together",
+    "options": [
+      "12 days",
+      "16 days",
+      "20 days",
+      "24 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete a piece of work",
+    "options": [
+      "24",
+      "5",
+      "5",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24) | Exam: SSC CGL 14/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can do a piece of work",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9) | Exam: SSC CHSL 02/08/2023 Shift-03"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can individually complete a piece of",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5) | Exam: SSC CGL 20/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Benny can do a piece of work",
+    "options": [
+      "16",
+      "20",
+      "18",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16) | Exam: SSC CGL 27/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P, Q and R, when working individually, can",
+    "options": [
+      "30",
+      "24",
+      "27",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (27) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A alone can do a work",
+    "options": [
+      "days",
+      "days",
+      "days",
+      "days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (days) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A , B and C can do a work",
+    "options": [
+      "68/11",
+      "67/11",
+      "58/13",
+      "58/11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (68/11)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A , B and C can do a work",
+    "options": [
+      "27/5",
+      "26/5",
+      "21/5",
+      "23/5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (26/5)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do 1/5 of a piece of work",
+    "options": [
+      "57/10",
+      "19/0 25",
+      "13/25",
+      "6/25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (57/10) | Exam: SSC CPO 05/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Virat can complete a work",
+    "options": [
+      "16 days",
+      "18 days",
+      "19 days",
+      "17 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 days) | Exam: SSC CGL 14/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Tarun is twice as good as Tripti",
+    "options": [
+      "24",
+      "48",
+      "25",
+      "50"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (48) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A works 3.5 times as fast as B, and A takes 45 days less than B to complete a job when each works alone. Calculate the number of days taken to complete the same job if A and B work together.",
+    "options": [
+      "10.5",
+      "17.5",
+      "21",
+      "14"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14) | Exam: SSC CGL 21/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "P takes twice as long as Q or three times as long as R to complete a task. If they work together,",
+    "options": [
+      "8 days",
+      "6 days",
+      "5 days",
+      "7 day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 days) | Exam: SSC CGL 24/07/2023 (Shift-1)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Ramesh does half as much work as Parul",
+    "options": [
+      "37 days",
+      "38 days",
+      "41 days",
+      "39 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (39 day) | Exam: SSC CPO 03/10/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Amita can build a room",
+    "options": [
+      "152 days",
+      "175 days",
+      "165 days",
+      "180 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (175 days) | Exam: SSC CPO 29/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A's efficiency is twice that of B's. A can work only for 8 hours a day while B can work for 12",
+    "options": [
+      "8",
+      "10",
+      "16",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16) | Exam: SSC CGL 14/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A, B, and C together can complete a work",
+    "options": [
+      "12, 12, 18 days",
+      "15, 60, 30 days",
+      "15, 30, 60 days",
+      "10, 24, 40 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10, 24, 40 day) | Exam: MAINS EXAM (21/06/2023)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can do a certain piece of work",
+    "options": [
+      "42",
+      "54",
+      "48",
+      "45"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (45) | Exam: SSC CPO 05/10/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "To do a certain work, the ratio of efficiencies of X and Y is 5 : 7. Working together, X and",
+    "options": [
+      "90 days",
+      "96 days",
+      "80 days",
+      "72 days"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (90 days) | Exam: SSC CGL 23/08/2021(Shift- 03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B together can finish a task",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q073",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "To do a certain work, A is 40% more efficient than B. Working together, they can do the same",
+    "options": [
+      "36 days",
+      "21 days",
+      "30 days",
+      "24 day"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24 day) | Exam: SSC Phase IX 8/02/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q074",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B together can finish a certain work",
+    "options": [
+      "96",
+      "108",
+      "102",
+      "90"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (108) | Exam: ICAR MAINS 08/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q075",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Raja and Rocky together can complete",
+    "options": [
+      "12 days/fnu",
+      "15 days/fnu",
+      "20 days/fnu",
+      "10 days/fnu"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20 days/fnu) | Exam: SSC CGL 18/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q076",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B together can complete a task",
+    "options": [
+      "18",
+      "22",
+      "20",
+      "15"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q077",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A alone can do 2/5 of a work",
+    "options": [
+      "24/53",
+      "0 180/43",
+      "30/47",
+      "0 200/57"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24/53) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "x and y together can complete a certain work",
+    "options": [
+      "20 days",
+      "16 days",
+      "18 days",
+      "15 days"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16 days)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q079",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B can finish a work",
+    "options": [
+      "15",
+      "18",
+      "12",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q080",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete a certain work",
+    "options": [
+      "9",
+      "15",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Exam: ICAR Mains, 07/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q081",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "When they work alone, B needs 25% more time to finish a job than A does. They two",
+    "options": [
+      "16",
+      "20",
+      "22",
+      "18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q082",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A alone would take 27 hours more to complete a work than A and B work together. B takes 3 hours more to complete a work alone than A and B work together.",
+    "options": [
+      "36",
+      "18",
+      "12",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q083",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A and B working together can complete a work",
+    "options": [
+      "24",
+      "18",
+      "16",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24) | Exam: SSC CGL 04/03/2020"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q084",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A can complete a work",
+    "options": [
+      "24",
+      "15",
+      "18",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q085",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A does a work",
+    "options": [
+      "10",
+      "14",
+      "12",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q086",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A group of 25 tourists consume 5 containers",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4) | Exam: SSC Phase XII 24/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q087",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "36 persons can do a work",
+    "options": [
+      "4",
+      "10",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10) | Exam: SSC Phase XII 25/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q088",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A hostel had food provision for 300 students for a month. After 20 days, 50 students left the hostel. How long would the remaining food last? (1 month = 30 days)",
+    "options": [
+      "10 days/fnu",
+      "14 days/fnu",
+      "12 days/fnu",
+      "16 days/fn"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12 days/fnu) | Exam: SSC CPO 29/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q089",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "18 workers can complete a piece of work",
+    "options": [
+      "69",
+      "71",
+      "72",
+      "70"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (71) | Exam: SSC CPO 27/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q090",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "(N + 15) persons, each working for 9 hours a",
+    "options": [
+      "55",
+      "52",
+      "64",
+      "50"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (55) | Exam: SSC CGL 19/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q091",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A work has to be completed",
+    "options": [
+      "90",
+      "75",
+      "80",
+      "70"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (80)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q092",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A man undertakes to do a certain work",
+    "options": [
+      "75",
+      "85",
+      "100",
+      "120"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (100)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q093",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A contractor undertook to complete a project",
+    "options": [
+      "40",
+      "20",
+      "30",
+      "15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q094",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "64 men working 8 hours a day plan to complete",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q095",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A contractor employees 245 men who finish 7",
+    "options": [
+      "121",
+      "128",
+      "123",
+      "130"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (128)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q096",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Each one of five men independently can",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6) | Exam: SSC CGL 17/08/2021 (Shift- 03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q097",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "150 workers were engaged to finish a piece",
+    "options": [
+      "30",
+      "25",
+      "38",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (25)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q098",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Few men can do a piece of work",
+    "options": [
+      "175",
+      "165",
+      "185",
+      "195"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (165)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q099",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "If 3 goats or 5 sheep can graze a field",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "15"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15) | Exam: SSC CPO 03/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q100",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "4 women or 6 men can finish a work",
+    "options": [
+      "4",
+      "10",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8) | Exam: SSC CGL 14/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q101",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "If 8 men or 16 women or 32 boys can do a piece",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9) | Exam: SSC Phase XII 20/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q102",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "15 men and 25 women can complete a piece of",
+    "options": [
+      "22.50",
+      "20.25",
+      "19.20",
+      "21.60"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20.25) | Exam: SSC CGL 17/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q103",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "3 men can finish a work",
+    "options": [
+      "30/19",
+      "45/17",
+      "60/19",
+      "60/17"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (60/17) | Exam: SSC Phase XII 21/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q104",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "The one-day work of 2 men is equal to the one-day work of 4 women or the one-day work of 8 qualified workers. 10 qualified workers",
+    "options": [
+      "20/6",
+      "3 135/4",
+      "13/4",
+      "1 166/5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3 135/4) | Exam: SSC Phase XII 24/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q105",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A man and a woman can finish a work together",
+    "options": [
+      "2",
+      "2.14",
+      "2.5",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2.14) | Exam: SSC CGL 18/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q106",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "4 men and 5 women can complete a work",
+    "options": [
+      "14",
+      "15",
+      "11",
+      "13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (13) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q107",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "2 men and 7 women can complete a work",
+    "options": [
+      "18",
+      "14",
+      "22",
+      "20"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (22) | Exam: SSC CGL TIER-II 2019"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q108",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "15 men and 21 women, working together, can do a",
+    "options": [
+      "4719 5",
+      "4719 9",
+      "4719 3",
+      "4719"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4719) | Exam: SSC CGL 17/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q109",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "A man and a woman working together can do",
+    "options": [
+      "18",
+      "15",
+      "14",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15) | Exam: SSC CGL 13/08/2021 (Shift- 03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q110",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Eighteen men can complete a work",
+    "options": [
+      "213",
+      "14",
+      "18",
+      "22"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22) | Exam: SSC CGL 24/08/2021 (Shift- 02)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q111",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "3 men, 4 women and 6 children can complete",
+    "options": [
+      "6",
+      "7",
+      "9",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7) | Exam: SSC CPO 16/03/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_time_work_time_work_classroom_sheet_q112",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time & Work",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Time & Work (ClassRoom Sheet).pdf",
+    "question": "Five men can complete a work",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  }
+]

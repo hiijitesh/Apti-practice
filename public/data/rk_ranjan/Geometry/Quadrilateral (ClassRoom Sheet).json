@@ -1,0 +1,699 @@
+[
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Find the value of x",
+    "options": [
+      "42º",
+      "40º",
+      "38º",
+      "44º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (38º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Find the value of x.",
+    "options": [
+      "165º",
+      "115º",
+      "45º",
+      "75º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (165º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "What is the area of a quadrilateral ABCD,",
+    "options": [
+      "75 cm2",
+      "78 cm2",
+      "82 cm2",
+      "80 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (78 cm2) | Exam: SSC CHSL 11/07/2024 (Shift-1)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The area of quadrilateral is 336 m2 and the perpendiculars drawn to one diagonal from the opposite vertices are 16 m and 12 m long. Find the length of this diagonal.",
+    "options": [
+      "28 cm",
+      "26 cm",
+      "21 cm",
+      "24 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24 cm) | Exam: SSC CHSL 10/06/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Find the value of x",
+    "options": [
+      "10º",
+      "20º",
+      "30º",
+      "50º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (50º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "What is the area of the quadrilateral PQRS, which is formed by joining the mid-points of the adjacent sides of a quadrilateral ABCD as",
+    "options": [
+      "88 cm2",
+      "44 cm2",
+      "22 cm2",
+      "30 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (44 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Diagonals AC and BD of quadrilateral ABCD intersect at a point O. If the ABO = 40 cm², BOC = 60 cm² and COD = 48 cm², then the area of the quadrilateral ABCD is",
+    "options": [
+      "220 cm²",
+      "200 cm2",
+      "196 cm²",
+      "180 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (180 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "As shown",
+    "options": [
+      "18 cm",
+      "24 cm",
+      "25 cm",
+      "36 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The perimeter of a square is 32 3 cm, then its area is :",
+    "options": [
+      "96 cm2",
+      "48 cm2",
+      "64 cm2",
+      "192 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (192 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The length of the diagonal of a square is 6 2 cm, the perimeter of the square is :",
+    "options": [
+      "24 cm",
+      "48 cm",
+      "24 2 cm",
+      "12 2 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Inside a square ABCD, BEC is an equilateral triangle. If CE and BD intersect at O, then BOC is equal to :",
+    "options": [
+      "60º",
+      "75º",
+      "90º",
+      "120º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (75º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "There is a point P",
+    "options": [
+      "55",
+      "73",
+      "37",
+      "67"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (73)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Q is a point",
+    "options": [
+      "2 2",
+      "5 2",
+      "34",
+      "41"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "If the ratio of the length and the perimeter of a rectangle is 2 : 7 and one of the diagonals is 20 cm, the area of the rectangle is :",
+    "options": [
+      "200 cm2",
+      "192 cm2",
+      "400 cm2",
+      "288 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (192 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The diagonals AC and BD of a parallelogram ABCD cut each other at a point O. If DAC = 30º and AOB = 80º, then DBC = ?",
+    "options": [
+      "150º",
+      "50º",
+      "120º",
+      "100º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a parallelogram, AB = 14 cm, BC = 18 cm and AC = 16 cm. Find the length of the other diagonal.",
+    "options": [
+      "32 cm",
+      "28 cm",
+      "26 cm",
+      "30 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (28 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "BO and CO are the angle bisectors of angles B and C respectively. If B = 78º, then value of BOC is :",
+    "options": [
+      "102º",
+      "51º",
+      "90º",
+      "78º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (90º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "An obtuse angle made by a side of a parallelogram PQRS with other pair of parallel sides of 150º. If the perpendicular distance between these parallel sides (PQ and SR) is 20 cm, what is the length of the side RQ?",
+    "options": [
+      "40 cm",
+      "50 cm",
+      "60 cm",
+      "70 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (40 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The length of the diagonal BD of the parallelogram ABCD is 18 cm. If P and Q are the centroid of the ABC and ADC respectively then the length of the line segment PQ is :",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "8 cm",
+      "12 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The adjacent sides of a parallelogram are 12 cm and 8 cm and its one diagonal is 10 cm then other diagonal is :",
+    "options": [
+      "7.68 cm",
+      "10 cm",
+      "2 79 cm",
+      "13 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 79 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Diagonals of a parallelogram are 10 cm and 24 cm respectively. If one of side is 13 cm, then the area of parallelogram is :",
+    "options": [
+      "60 cm2",
+      "120 cm2",
+      "130 cm2",
+      "240 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The side AB of a parallelogram ABCD is",
+    "options": [
+      "1 : 2",
+      "1 : 1",
+      "2 : 3",
+      "2 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 1)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is parallelogram P and Q are the mid- points of sides BC and CD respectively. If the area of ABC is 12 cm2, then the area of APQ is :",
+    "options": [
+      "12 cm2",
+      "8 cm2",
+      "9 cm2",
+      "10 cm2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "One of the diagonal of a parallelogram is 17 cm and an angle of the parallelogram is 45°. If height of the parallelogram is 8 cm then area of the parallelogram is :",
+    "options": [
+      "184 cm2",
+      "88 cm2",
+      "92 cm2",
+      "104 cm2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (184 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The base of a parallelogram is twice as long as its corrosponding height. If the area of the parallelogram is 144 cm2, find the mentioned height.",
+    "options": [
+      "2 2 cm",
+      "6 2 cm",
+      "3 2 cm",
+      "8 2 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 2 cm) | Exam: SSC CHSL 10/06/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a parallelogram",
+    "options": [
+      "4 cm",
+      "2 cm",
+      "6 cm",
+      "8 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a rhombus with diagonals AC and BD. Which one among the following is correct?",
+    "options": [
+      "AC and BD bisect each other but not necessarily perpendicular to each other.",
+      "AC and BD perpendicular to each other but not necessarily bisect each other",
+      "AC and BD bisect each other and perpendicular to each other.",
+      "AC and BD neither bisect each other nor perpendicular to each other."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (AC and BD bisect each other and perpendicular to each other.)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "If PQRS is a rhombus and SPQ = 50º, then RSQ is :",
+    "options": [
+      "55º",
+      "65º",
+      "45º",
+      "75º"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (65º)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a rhombus. If AB = 3x – 2 and BC = 10 – x, then DA is :",
+    "options": [
+      "5",
+      "3",
+      "11",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "If ABCD be a rhombus. AC is its smallest diagonal and ABC = 60º. Find the length of one side of the rhombus when AC = 6 cm.",
+    "options": [
+      "6 cm",
+      "3 cm",
+      "6 2 cm",
+      "3 3 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The diagonals of a rhombus are 24 cm and 10",
+    "options": [
+      "68",
+      "65",
+      "54",
+      "52"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (54)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "If the perimeter of rhombus is 150 cm and length of one diagonal is 50 cm. Then find the length of second diagonal and area of rhombus.",
+    "options": [
+      "6255 cm²",
+      "4253 cm²",
+      "7204 cm²",
+      "5254 cm²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6255 cm²)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "A diagonal of rhombus/leprqHkZqt",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The quadrilateral formed by joining the mid points of a rhombus is a :",
+    "options": [
+      "parallelogram",
+      "square",
+      "rectangle",
+      "rhombus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (rectangle)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "PQ is parallel to SR",
+    "options": [
+      "15",
+      "11",
+      "19",
+      "13"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (11) | Exam: SSC CHSL 03/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a quadrilateral",
+    "options": [
+      "8 cm",
+      "6 cm",
+      "12 cm",
+      "9 cm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 cm) | Exam: SSC CGL MAINS 29 Jan 2022"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a trapzeium where AD||BC. The diagonals AC and BD intersect each other at point O. If BAD = 40 cm2 and AOD is 15 cm2, the DOC is :",
+    "options": [
+      "15 cm2",
+      "20 cm2",
+      "25 cm2",
+      "27.5 cm2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Find the area of a trapezium ABCD, if AB||DC, AB = 12 cm, CD = 8 cm and the distance between AB and CD is 5 cm.",
+    "options": [
+      "25 cm2",
+      "24 cm2",
+      "48 cm2",
+      "50 cm2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (50 cm2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "The lengths of a pair of parallel sides of a trapezium are 20 cm and 25 cm, respectively, and the perpendicular distance between these",
+    "options": [
+      "512",
+      "250",
+      "300",
+      "315"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (315) | Exam: SSC CHSL 02/06/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "ABCD is a isosceles trapezium",
+    "options": [
+      "29 cm",
+      "5 cm",
+      "6 cm",
+      "21 cm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (29 cm)"
+  },
+  {
+    "id": "rkr_geometry_quadrilateral_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadrilateral (ClassRoom Sheet).pdf",
+    "question": "Find the area of a trapezium ABCD",
+    "options": [
+      "3.",
+      "4.(d) 5.(d) 6.(a) 7.(b) 8.(d) 9.(b) 10.(d)",
+      "2.(a) 3.(b) 4.",
+      "5.(d) 6.(a) 7.(b) 8.(d) 9.(b) 10.(d)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4.(d) 5.(d) 6.(a) 7.(b) 8.(d) 9.(b) 10.(d))"
+  }
+]

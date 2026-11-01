@@ -1,0 +1,342 @@
+[
+  {
+    "id": "rkr_train_train_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train completely overtakes two persons, walking",
+    "options": [
+      "60 m",
+      "67.5 m",
+      "55 m",
+      "62.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (62.5) | Solution: (d) T T A B Relative (S – 3) (S – 4) speed 75 Time 9 8   Since, Length of train is constant (ST – 3) 9 = (ST – 4) 75 8 ST = 28 km/hr Length = (28 – 3) 5 18 9 = 125 2 = 62.5m"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train service got disrupted due to an accident after a travel of 30 km. The speed was reduced to four-fifth of the original speed. This caused it a delay of 45 min. If the accident had happened 18 km farther, it would have been running late for 36 min. What was the original speed of the train?",
+    "options": [
+      "30 km/h",
+      "60 km/h",
+      "50 km/h",
+      "40 km/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30 km/h) | Solution: (a) 30 km P Speed  5 : 4 Q X 180 min 4 : 5 1 unit 45 min  Time  30 km P 5 : 4 Q X Y 144 min 4 : 5 36 min 18 km 1 unit 36 min  Speed  Time  Original speed of train = 18 180 144  60 = 18 36 60 = 30 km/hr"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A running at 81 km/h takes 72 sec to overtake",
+    "options": [
+      "600",
+      "480",
+      "590",
+      "900"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (480) | Solution: (b) Since both trains running the same direction (A – 72 = LA + 600  5 18 (81 – 72 = LA + 600 .....(i) Also, 5 18 (A + B) 36 = LA + 600 ....(ii) From (i) and (ii)  5 18 (81 – B)72 = (81 + B) 36 5 18  81 2 – 2B = 81 + B  3B = 81  81 B = = 27"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "The length of train A is 100 m more than the length of a platform. What is the time taken by train A to",
+    "options": [
+      "15 sec",
+      "18 sec",
+      "14 sec",
+      "16 sec"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18 sec) | Solution: (b) Let, length of platform = x (x + x + 100) = 90 24 5 18 (2x + 100) = 600 x = 250  Length of A = 100 + 250 = 350 m (250 + lB) = 70 5 18 36 lB = 700 – 250 SOLUTIONS"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A 240m long train X passes a pole",
+    "options": [
+      "68 sec",
+      "65 sec",
+      "72 sec",
+      "70 se"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72 sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A overtakes train B which is going",
+    "options": [
+      "650 m",
+      "550 m",
+      "250 m",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (550 m)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Two trains are moving",
+    "options": [
+      "770 metres",
+      "90 metres",
+      "110 metres",
+      "180 metre"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (110 metres)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travelling at the speed of x km/h crossed a 300",
+    "options": [
+      "60",
+      "96",
+      "48",
+      "102"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (96)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travels a certain distance with the uniform speed. If the speed of train is 14 km/h more, then the time taken to travel the same distance is 2 hour less. If the speed of train is 10 km/hr less, then time will be 2 hour more. Find the distance and the time taken to travel the distance.",
+    "options": [
+      "420 km, 12 hr",
+      "840 km, 8 hr",
+      "840 km, 12 hr",
+      "can't be determin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (840 km, 12 hr)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train 75 meters long overtook a person who was",
+    "options": [
+      "114 km/hr",
+      "10 km/hr",
+      "8 km/hr",
+      "4 km/hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10 km/hr)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train ‘A’ requires 15 seconds to cross train ‘B’ of",
+    "options": [
+      "275",
+      "200",
+      "250",
+      "300"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (200)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Two guns were fired from the same place at an interval of 10 minutes and 30 seconds but a person",
+    "options": [
+      "56",
+      "59.4",
+      "52.8",
+      "55.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (59.4)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "The lengths of two trains are 380 m and 220 m. The faster of these two trains takes 20 seconds to overtake",
+    "options": [
+      "108",
+      "126",
+      "144",
+      "90"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (144)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train A of length 100 meters less than that of train B and speed 25 km/h more than that of train B can",
+    "options": [
+      "72 sec",
+      "86.4 sec",
+      "78.6 sec",
+      "90 se"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (86.4 sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A cave whose length is 2 km. A train enters the cave from one end and other train enters from the other end and they both meet after 1.5 minutes. At the time of meeting, the first train had covered a distance of 400 m more than the second train. And they cross",
+    "options": [
+      "78 m, 16 m",
+      "68 m, 15 m",
+      "85, 20 m",
+      "80 m, 20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (80 m, 20)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train travelling at 48 km/h crosses another train,",
+    "options": [
+      "455 m",
+      "400 m",
+      "420 m",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (400 m)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train A can cross a platform of length 70 m",
+    "options": [
+      "sec",
+      "sec",
+      "sec",
+      "sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (sec)"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed?",
+    "options": [
+      "5 hours 15 minutes",
+      "5 hours",
+      "6 hours",
+      "5 hours 25 minute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 hours 15 minutes) | Solution: A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed? ,d js"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he 1 takes 12 hour more than train B to cover 80 km. To",
+    "options": [
+      "13",
+      "13",
+      "14",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Solution: Train A takes 2 hours more than train B to cover a distance of 40 km. If train A doubles its speed, he takes 1 12 hour more than train B to cover 80 km. To cover a distance of 120 km, how much time hours) will train B take travelling at its same spee"
+  },
+  {
+    "id": "rkr_train_train_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Train",
+    "sheetType": "Pro Level",
+    "sheetFile": "Train (Pro Level Sheet).pdf",
+    "question": "Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: Lucknow express train leaves Lucknow at 8 am and two hours later another Rajdhani express train leaves Lucknow but both the trains are departure Delhi at 6 pm on the same day. If the difference between their speeds be 10 km/hr, what is the average sp"
+  }
+]

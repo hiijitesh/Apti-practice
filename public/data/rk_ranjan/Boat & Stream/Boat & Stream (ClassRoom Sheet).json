@@ -1,0 +1,852 @@
+[
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "Downstream Speed of boat = (B + S)",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "Upstream Speed of boat = (B – S)",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "Speed of boat",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "Speed of the stream//kjk",
+    "options": [
+      "8 km/h",
+      "9 km/h",
+      "11 km/h",
+      "7 km/h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8 km/h)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A man wishes to cover 1 km distance",
+    "options": [
+      "25 km/h",
+      "km/h",
+      "22 km/h",
+      "km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (km/h) | Exam: SSC CPO 27/06/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A swimmer walks 30 km along the flow of river",
+    "options": [
+      "8 and 1",
+      "7 and 8",
+      "7 and 1",
+      "9 and 10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7 and 1)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat moves downstream at the rate of 1 km",
+    "options": [
+      "2 km/hr",
+      "6 km/hr",
+      "4 km/hr",
+      "3 km/hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 km/hr)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat goes downstream",
+    "options": [
+      "3 : 1",
+      "1 : 3",
+      "1 : 2",
+      "2 : 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 : 1)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "m/sec",
+      "m/sec",
+      "m/sec",
+      "m/sec"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (m/sec) | Exam: SSC CGL 05/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A diver rowing at the speed of 3 km/h",
+    "options": [
+      "km/h",
+      "1 km/h",
+      "km/h",
+      "2 km/h"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 km/h) | Exam: RRB ALP TIER-I 29/11/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A man can row 18km/h",
+    "options": [
+      "12 km/h",
+      "6 km/h",
+      "24 km/h",
+      "9 km/h"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 km/h) | Exam: SSC CHSL 01/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat travels 3 km upstream",
+    "options": [
+      "1 h 30 min",
+      "1 h 25 min",
+      "1 h 20 min",
+      "1 h 15 min"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1 h 30 min) | Exam: SSC CHSL TIER-II 10/01/2024"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A swimmer can swim 2 km",
+    "options": [
+      "18 km",
+      "12 km",
+      "8 km",
+      "10 km"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10 km)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boatman rows to a place 30 km distance and",
+    "options": [
+      "9/2",
+      "9/4",
+      "2/9",
+      "4/9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9/4) | Exam: SSC CGL 13/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A man can row a distance of 6 km",
+    "options": [
+      "4 h. & 40 m.",
+      "6 h.",
+      "4 h.",
+      "6 h. & 40 m."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6 h.) | Exam: SSC CGL 18/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat covers a certain distance downstream 1",
+    "options": [
+      "29 km/h",
+      "25 km/h",
+      "20 km/h",
+      "27 km/h"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (27 km/h) | Exam: SSC Phase XII 24/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A motorboat takes 18 hours to go downstream, and it takes 36 hours to return the same distance. Find the ratio of the speed of the",
+    "options": [
+      "3 : 1",
+      "2 : 3",
+      "2 : 1",
+      "3 : 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3 : 1) | Exam: SSC CGL 17/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat takes 11 hours to travel a distance upstream and takes 5 hours to travel the same distance downs-tream. if the speed of the boat 2",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3) | Exam: SSC CHSL 04/08/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along",
+    "options": [
+      "5 hours 15 minutes 58 seconds 5 ?kaVs 15 feuV 58 lsdaM",
+      "6 hours 45 minutes 10 seconds 6 ?kaVs 45 feuV 10 lsdaM",
+      "8 hours 13 minutes 48 seconds 8 ?kaVs 13 feuV 48 lsdaM",
+      "9 hours 30 minutes 49 seconds 9 ?kaVs 30 feuV 49 lsdaM"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 hours 13 minutes 48 seconds 8 ?kaVs 13 feuV 48 lsdaM) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The ratio of the speed of a motorboat to that of the current of water is 31:6. The motorboat starts from a point and covers a certain",
+    "options": [
+      "4 h 10 min",
+      "5 h 10 min",
+      "5 h 50 min",
+      "6 h 10 min"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6 h 10 min) | Exam: SSC CGL 20/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "15.5 sec",
+      "29 sec",
+      "31 sec",
+      "35 sec"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15.5 sec) | Exam: SSC CPO 11/11/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "12",
+      "10",
+      "15",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12) | Exam: SSC CGL 10/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "6 hours",
+      "7 hours",
+      "9 hours",
+      "8 hours"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8 hours) | Exam: SSC CHSL 08/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "12",
+      "9",
+      "10",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9) | Exam: SSC CPO 25/11/2020 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat",
+    "options": [
+      "126 km",
+      "125 km",
+      "120 km",
+      "336 km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (126 km) | Exam: SSC CPO 03/10/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A motorboat whose speed is 20 km/h",
+    "options": [
+      "2 h 40 min",
+      "3 h 10 min",
+      "3 h 40 min",
+      "2 h 50 min"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3 h 10 min) | Exam: SSC CGL 13/12/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat sails downstream from a point P to point Q. Which is 24 km away from P, and then returns to P. If the actual speed of the boat",
+    "options": [
+      "12",
+      "15",
+      "10",
+      "22"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10) | Exam: SSC MTS 08/10/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can go 40 km downstream and 25 km",
+    "options": [
+      "6",
+      "12",
+      "9",
+      "15"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9) | Exam: SSC CPO 09/11/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A motorboat travelling at a certain speed can cover a distance of 24 km upstream and 40",
+    "options": [
+      "5 km/h",
+      "4 km/h",
+      "2 km/h",
+      "3 km/h"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 km/h) | Exam: SSC CGL 18/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can go 15 km downstream and 8 km",
+    "options": [
+      "20",
+      "18",
+      "15",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15) | Exam: SSC CHSL 12/08/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can go 5 km upstream and 7 km 2",
+    "options": [
+      "20",
+      "10",
+      "15",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Exam: SSC CGL 20/08/2021 (Shift- 02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat goes 27 km upstream and 33 km",
+    "options": [
+      "8h",
+      "8h 10 m",
+      "7h 50m",
+      "8h 30 m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8h) | Exam: SSC CGL 16/08/2021 (Shift- 03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can travel with a speed of 19 km/h",
+    "options": [
+      "4.5",
+      "5",
+      "4",
+      "5.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5.5) | Exam: SSC CHSL 04/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "Ravi can row a boat",
+    "options": [
+      "2 hr 20 min",
+      "2 hr",
+      "2 hr 15 min",
+      "2 hr 30 min"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 hr 15 min) | Exam: SSC CHSL 06/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can travel 60 km downstream",
+    "options": [
+      "211 hours 4",
+      "3 hours 7 4",
+      "2 hours 7 5",
+      "3 hours 7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (211 hours 4) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80 km downstream and 50 km upstream is 8.2 hours, then what is",
+    "options": [
+      "16",
+      "30",
+      "24",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25) | Exam: SSC CHSL 12/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A person rows upstream a distance of 55 km",
+    "options": [
+      "4 hours 40 min",
+      "5 hours 20 min",
+      "6 hours 10 min",
+      "5 hours 45 min."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5 hours 20 min) | Exam: SSC CHSL 16/04/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "X, Y are two points",
+    "options": [
+      "3 : 10",
+      "3 : 4",
+      "10 : 3",
+      "4 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 : 3) | Exam: SSC CGL 13/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat covers a certain distance against the",
+    "options": [
+      "13 : 3",
+      "9 : 2",
+      "11 : 6",
+      "8 : 5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13 : 3) | Exam: SSC CGL 12/12/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat covers a round trip journey between",
+    "options": [
+      "11 : 1",
+      "161 : 40",
+      "1 : 11",
+      "2 : 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (11 : 1) | Exam: SSC CGL 23/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat takes 20 hours for travelling downstream from point A to point B and comes back to a midpoint C between A and B. The speed of the stream is 5 km/h and",
+    "options": [
+      "100",
+      "150",
+      "75",
+      "120"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120) | Exam: SSC MTS 01/09/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A swimmer swims from a point P against the current for 6 min and then swims back along the current for next 6 min and reaches at a point Q. If the distance between P and Q is 120",
+    "options": [
+      "0.4",
+      "0.2",
+      "1",
+      "0.6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0.6) | Exam: SSC CGL 01/12/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat can go 2.4 km upstream",
+    "options": [
+      "5/2",
+      "19/6",
+      "17/6",
+      "13/6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19/6) | Exam: ICAR Assistant 29/07/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat covers a certain distance upstream",
+    "options": [
+      "30 km/hr",
+      "32 km/hr",
+      "36 km/hr",
+      "48 km/hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (32 km/hr)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A man rows to a place 35 km",
+    "options": [
+      "1 km/hrs",
+      "0.5 km/hrs",
+      "0.75 km/hrs",
+      "1.5 km/hrs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0.75 km/hrs)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat has to travel a distance of 12 km starting from point P to point Q. It covers 8",
+    "options": [
+      "16 km/hrs",
+      "15 km/hrs",
+      "18 km/hrs",
+      "20 km/hrs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (18 km/hrs)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A person rowing a boat goes from J to K (upstream) and returns from K to J (downstream)",
+    "options": [
+      "51.33",
+      "47.67",
+      "53.33",
+      "43.67"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (53.33) | Exam: SSC MTS 12/07/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "X, Y are two points",
+    "options": [
+      "3 : 10",
+      "3 : 4",
+      "10 : 3",
+      "4 : 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10 : 3) | Exam: SSC CGL 13/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat takes 27 minutes to go 37.2 km upstream. The ratio of the speed of the boat",
+    "options": [
+      "4.2",
+      "1.2",
+      "3.9",
+      "2.6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1.2) | Exam: RRB NTPC GL CBT-I 23/06/2025 (Shift-02)"
+  },
+  {
+    "id": "rkr_boat_stream_boat_stream_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Boat & Stream",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Boat & Stream (ClassRoom Sheet).pdf",
+    "question": "A boat takes 76 minutes to go 32.2 km upstream. The ratio of the speed of the boat",
+    "options": [
+      "1.9",
+      "4.3",
+      "0.2",
+      "2.2 ANSWER KEY 1. (b) 2. (b) 3. (a) 4. (a) 5. (b) 6. (c) 7. (b) 8. (d) 9. (c) 10. (d)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.9) | Exam: RRB NTPC GL CBT-I 17/06/2025 (Shift-01)"
+  }
+]

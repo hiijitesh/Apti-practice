@@ -1,0 +1,631 @@
+[
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "AB||CD.ABO = 118°, BOD = 152°, find ODC:",
+    "options": [
+      "70°",
+      "80°",
+      "34°",
+      "90°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (90°) | Solution: (d) P N Q A M C B O D ABO = 118°  MOB = 180° – 118° = 62° MOD = 152° – 62° = 90° ODC = 180° – 90° = 90°"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "AB|| CD, shown",
+    "options": [
+      "100°",
+      "90°",
+      "110°",
+      "140°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (100°) | Solution: (a) 30° 80° 80° 100° 30° x + 10° = 80° + 30° x = 100°"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Two parallel lines AB and CD are intersected by a transversal EF at M and N respectively. The lines MP and NP are the bisectors of interior angle BMN and DNM on the same side of the transversal Then MPN is equal to:",
+    "options": [
+      "60°",
+      "90°",
+      "45°",
+      "120°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (90°) | Solution: (b) Let, BMN = 2x and DNM = 2y  2x + 2y = 180° A C E M B D N F P x + y = 90° MPN = 180° – 90° = 90°"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The measure of sides of a triangle is (x2 – 1), (x2 + 1) and 2x then find the triangle.",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Right angled triangle",
+      "Acute angled triangle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Right angled triangle) | Solution: (c) Sides are (x² – 1), (x² + 1), 2x Let, x = 2 So, sides are 3, 4, 5  It is right angled triangle"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Let ABC be an equilateral triangle and AD perpendicular to BC then AB2 + BC2 + CA2 = ?",
+    "options": [
+      "2AD2",
+      "3AD3",
+      "4AD2",
+      "5AD3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4AD2) | Solution: (c) B D C A BD = DC = AB AC BC 2 2 2   Using Pythagoras theorem, 3 3 3 AD AB BC CA 2 2 2    AB = BC = AC = 2 3 AD AB2 + BC2 + AC2 = AD2 4 4 4 3 3 3         = 4AD2"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "If AD, BE, CF are the medians of a ABC then the correct relation between the sum of the squares of sides to the sum of the squares of medians is.",
+    "options": [
+      "2(AB² + BC² + AC²) = 3(AD² + BE² + CF²)",
+      "4(AB² + BC² + AC²) = 3(AD² + BE² + CF²)",
+      "3(AB² + BC² + AC²) = 4(AD² + BE² + CF²)",
+      "None of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3(AB² + BC² + AC²) = 4(AD² + BE² + CF²)) | Solution: (c) B D C A F E then 3(AB2 + BC2 + AC2) = 4(AD2 + BE2 + CF2)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "PQR is an isosceles triangle such that PQ = QR = 10 cm and PQR = 90°. What is the length of the perpendicular drawn from Q on PR?",
+    "options": [
+      "4 2 cm",
+      "7 2 cm",
+      "6 2 cm",
+      "5 2 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5 2 cm) | Solution: (d) Q R P 10cm 10cm X PR = 100 100  =10 2 cm Then, 10 10 QX = 10 2  10 2 = = 5 2 cm 2 2 "
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC and DEF are two triangles such that ABC FDE. If AB = 5 cm, B = 40° and A = 80°, then which of the following option is true?",
+    "options": [
+      "DE = 5 cm, E = 60°",
+      "DE = 5 cm, F = 60°",
+      "DE = 5 cm, D = 60°",
+      "DF = 5 cm, E = 60°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (DF = 5 cm, E = 60°) | Solution: (d) Given, A 80º, B 40º     and ABC FDE    A F, B D and C E          C 180 – A B       C 180 –120      C 60     C E 60     and AB = FD = 5 cm Hence, Option (d) is correct."
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "If ABC is an obtuse-angled triangle, the ratio of the angles A, B and C can be:",
+    "options": [
+      "4 : 9 : 3",
+      "11 : 14 : 21",
+      "1 : 2 : 3",
+      "5 : 8 : 12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 : 9 : 3)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The sides of a scalene acute angle triangle are 14,22 and x. x is an integer and 22 is the largest side of triangle, what will be the average of minimum and maximum value of x?",
+    "options": [
+      "18",
+      "19",
+      "21",
+      "20.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "If two sides of an obtuse angle triangle are 8 cm and 15 cm respectively. How many triangles are possible",
+    "options": [
+      "6",
+      "10",
+      "9",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is an equilateral triangle and CD is the internal bisector of C. If DC is produced to E such that AC = CE, then CAE is equal to:",
+    "options": [
+      "45°",
+      "75°",
+      "30°",
+      "15°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (15°)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Which one of the following is correct?",
+    "options": [
+      "2(p + q + r) = (a + b + c)",
+      "2(p + q + r) > 3(a + b + c)",
+      "2(p + q + r) < 3(a + b + c)",
+      "11(p + q + r) > 10(a + b + c)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2(p + q + r) < 3(a + b + c))"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Which one of the following is correct?",
+    "options": [
+      "(a + b + c) > (p + q + r)",
+      "3(a + b + c) < 4(p + q + r)",
+      "2(a + b + c) > 3(p + q + r)",
+      "3(a + b + c) > 4(p + q + r)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3(a + b + c) < 4(p + q + r))"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Consider the following statements/fuEufyf[kr dFkuksa ij",
+    "options": [
+      "1 and 2",
+      "1 and 4",
+      "2 and 3",
+      "2 and 4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 and 3)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is a triangle right angled at C with BC = a and AC = b. If p is the length of the perpendicular from C on AB, then which one of the following is correct?",
+    "options": [
+      "a²b² = p²(a² + b²)",
+      "a²b² = p²(a² – a²)",
+      "2a²b² = p²(a² + b²)",
+      "a²b² = 2p²(a² + b²)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (a²b² = p²(a² + b²))"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "AD is the median of the ABC. If P is any point on AD, then which one of the following is correct?",
+    "options": [
+      "Area of PAB is greater than the area of PAC",
+      "Area of PAB is equal to area of PAC",
+      "Area of PAB is one-fourth of the area of PAC",
+      "Area of PAB is half of the area of PAC"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Area of PAB is equal to area of PAC)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is a right angled triangle at C. Let p be the length of the perpendicular drawn from C on AB. If BC = 6 cm and CA = 8 cm, then what is the value of p?",
+    "options": [
+      "5.4 cm",
+      "5 cm",
+      "4.8 cm",
+      "4.2 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4.8 cm)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is a right-angled triangle, right angled at A",
+    "options": [
+      "12( 2 + 2)cm",
+      "12( 2 – 2)cm",
+      "12( 2 – 1)cm",
+      "12( 2 + 1)cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12( 2 – 1)cm)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "A circle of radius 4 cm is drawn inscribed",
+    "options": [
+      "8 cm",
+      "12 cm",
+      "20 cm",
+      "16 cm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16 cm)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The length of a side of an equilateral triangle is 18",
+    "options": [
+      "254",
+      "254",
+      "254",
+      "254"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (254)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is an isosceles right angle triangle. and AB = 12 cm. What is the ratio",
+    "options": [
+      "6 – 32 : 62",
+      "2 –",
+      "6 – 2 : 32",
+      "6 –"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2 –)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "An isosceles MNP is inscribed MN = MP = 16 5 cm , and NP =",
+    "options": [
+      "20 5",
+      "18",
+      "18 5",
+      "20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "XYZ is an isosceles triangle such given that YS  XZ and ZT  XY. between YS and ZT?",
+    "options": [
+      "YS = ZT",
+      "YS",
+      "YS < ZT",
+      "YS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (YS = ZT)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is a right angled at A and AD BC. If AB = 7 cm and AC = 24 cm. AD is to AM if M is the mid-point",
+    "options": [
+      "25 : 41",
+      "32 : 41",
+      "336 : 625",
+      "625 : 336"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (336 : 625)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The hypotenuse cm 2 one of the sides, half the hypotenuse.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The lengths of three cm and 5 cm. What",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "Select the correct statement about a triangle.",
+    "options": [
+      "The sum of two sides may be equal",
+      "The sum of two sides is always equal",
+      "The sum of two sides is always greater",
+      "The sum of two sides is always less"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (The sum of two sides is always greater)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "If the sides of a triangle are 7, 12 integer, then find the number of possible",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "A triangle ABC, if sides AB = 6 3 , then the angles B are equal to:",
+    "options": [
+      "120°",
+      "60°",
+      "90°",
+      "45°"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (90°)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The lengths of",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The lengths of",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The perpendicular",
+    "options": [
+      "2(AB + AC)(AB",
+      "3(AB + AC)(AB",
+      "4(AB + AC)(AB",
+      "5(AB + AC)(AB"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2(AB + AC)(AB)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is a triangle two points on AB cm, BC = 18 cm, Q be two points diagonal BD = x, QN and QN is parallel is (PM + QN) equal Triangle (f=kHkqt) AB = 6 lseh] BC = 18 lseh] CD = 6 lseh",
+    "options": [
+      "10 cm",
+      "11 cm",
+      "12 cm",
+      "13 cm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12 cm)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "The midpoints of sides BC, CA, AB of ABC are points D, E, F respectively. If the area of ABC is 20 square cm, then what will be the area of trapezium FBCE?",
+    "options": [
+      "10 cm2",
+      "5 cm2",
+      "15 cm2",
+      "12 cm2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15 cm2)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "O is a point",
+    "options": [
+      "6 3",
+      "4 6",
+      "4 3",
+      "6 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6 3)"
+  },
+  {
+    "id": "rkr_geometry_all_triangle_pro_level_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
+    "question": "ABC is similar to PQR. AB = 4 cm, BC = 8 cm and AC = 10 cm. If QR = 16 cm, then what is the area of PQR?",
+    "options": [
+      "2 231 cm2",
+      "4 231 cm2",
+      "4 462 cm2",
+      "8 462 cm2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4 231 cm2)"
+  }
+]

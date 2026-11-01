@@ -1,0 +1,580 @@
+[
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "While travelling from A to B, Raghav travels a quarter of the distance at 10 km/h, the next quarter of the distance at 15 km/h, the third quarter of the distance at 20 km/h, and the final quarter of the distance at 30 km/h. While travelling on exactly the same route, Manish travels for a quarter of the total time taken for his journey at 10 km/h, the next quarter of the total time taken for his journey at 15 km/h, the third quarter of the total time taken for his journey at 20 km/h, and the final quarter of the total time taken for his journey at 30 km/h. If the overall average speed of Raghav during his journey is given as y km/ h, and that of Manish is given as z km/h, find the value of (z – y).",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) When distance is same then: Time 6 4 3 Speed 10 15 20 30 2 Distance 60  Average speed of Raghav = y = 4 60 15  = 16 km/h When time is same then: Speed Distance Time 10 10 1 15 15 1 20 20 1 30 30 1  Average speed of Manish = z = 10 15 20 30 4 "
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A car travels at 60 km/h for the first 40 minutes, at 75 km/h for the next 80 minutes and at 80 km/h for the next 12 minutes. What is the average speed",
+    "options": [
+      "6111",
+      "7011",
+      "713",
+      "713"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7011) | Solution: (b) Distance travelled 40 minutes = 60 40 40km 60   Distance travelled 80 minutes = 75 80 100km 60   Distance travelled 12 minutes = 80 12 16km 60    Average speed =   40 100 16 40 80 12     km/min 132  10 = 70 km/h 11"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A car travels for 40 minutes at a speed of 40 km/h, for another 50 minutes at a speed of 45 km/h and for next 90 minutes at a speed of 60 km/h. What is",
+    "options": [
+      "49",
+      "50",
+      "5118",
+      "5018"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5118) | Solution: (c) Distance 40 minutes = 40 160 40 km 60 6   Distance 50 minutes = 45 225 50 km 60 6   Distance 90 minutes = 60 540 90 km 60 6    Average speed =   160 225 540 + + km 6 6 6 40+50+90 minutes = 925 60 km 6 180 h   = 7 km 5118 h 5 (b) Z C P "
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Ram travelled from a place Z to P at an average speed of 130 km/h. He travelled the first 75% of the",
+    "options": [
+      "51",
+      "48.75",
+      "97.5",
+      "19.25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (48.75)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Ravi and Ajay start simultaneously from a place A towards B, 60 km apart. Ravi’s speed is 4 km/hr less than that of Ajay. Ajay, after reaching B turns back and meets Ravi at a place 12km away from B. Ravi’s speed is :",
+    "options": [
+      "12 km/h",
+      "10 km/h",
+      "8 km/h",
+      "6 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 km/h) | Solution: 5 6 unit 630  13 unit 1365 ~ 1.4 km  19 13 Speed "
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Two places B1 and B2 are 500 km apart from each other. Sonit and Robin start moving from B1 towards B2 at the same time. After reaching B2, they return back to B1. Speed of Sonit is 80 km/hr more than the Robin. If they meet after 6 hours, then which of the following statements is /are correct? I. Distance covered by Sonit is 600 km. 120 II. Speed of Robin is km/hr. 3",
+    "options": [
+      "Only I",
+      "Only II",
+      "Neither I nor II",
+      "Both I and I"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Neither I nor II)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "The distance between the places H and O is D units.",
+    "options": [
+      "358",
+      "384",
+      "376",
+      "344"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (384)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Shyam went from Delhi to Shimla via Chandigarh 3 by car. The distance from Delhi to Chandigarh is 4 times the distance from Chandigarh to Shimla. The 1 average speed from Delhi to Chandigarh is 12 times of the average speed from Chandigarh to Shimla. If the average speed for the entire journey was 49 kmph. What was the average speed from Chandigarh to Shimla?",
+    "options": [
+      "39.2 km/h",
+      "63 km/h",
+      "42 km/h",
+      "None of thes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (42 km/h)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A student goes for interview at centre from his home, which is 12 km apart. His speed is 6 km/h. After 10 min he feels that he left his important documents at home. He returns at home and now he travels with fast speed. Find his increased speed?",
+    "options": [
+      "7 km/h",
+      "7.8 km/h",
+      "7.2 km/h",
+      "10 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7.2 km/h)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "45 pillars are standing",
+    "options": [
+      "800",
+      "820",
+      "840",
+      "910"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (840)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Lonavala and Khandala are two stations 600 km apart. A train starts from Lonavala and moves towards Khandala at the rate of 25 km/h. After two hours, another train starts from Khandala at the rate of 35 km/h. How far from Lonavala will they will cross each other?",
+    "options": [
+      "250 km",
+      "300 km",
+      "279.166 km",
+      "475 k"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (279.166 km)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "The difference between the times taken by two buses to travel a distance of 350 km is 2 hours 20 minutes. If the difference between their speeds is 5 kmph, find the slower speed.",
+    "options": [
+      "35 km/h",
+      "30 km/h",
+      "25 km/h",
+      "20 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25 km/h)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "X and Y start their journey at the same time from place A to B, respectively.After meeting each other on 4",
+    "options": [
+      "4",
+      "9",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "If a man travels at km/h on a journey and x 1 returns at km/h, then his average speed for the x 2 journey is: 1",
+    "options": [
+      "x/x",
+      " 1 2/2 x + x",
+      "1 2/x +",
+      "x 2/x x + 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( 1 2/2 x + x)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A man travels from point A to B at 40 km/h, further from B to C at 50 km/h, and then further from C to D at 60 km/h. The ratio between the distances AB, BC and CD is 1 : 2 : 3. He returns from D to A at x km/h. If his average speed for the entire journey 480 is km/h, then what is the value of 'x' ? 13",
+    "options": [
+      "25",
+      "34",
+      "32",
+      "28"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (28)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A boy starts from his home at a certain time with a certain speed to pick up his girlfriend from office at 5:00 pm. One day his girlfriend left the office at 3:00 pm and start walking to home with a speed of 40 km/",
+    "options": [
+      "80 km/h",
+      "120 km/h",
+      "160 km/h",
+      "200 km/"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200 km/)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "The distance between the two towns is 250 km. Two motorists travel towards each other simultaneously. The speed of one of them is 5 km/h faster than the other, and the distance between them after 1.5 hours of start is 31 km. Find the average of their speeds.",
+    "options": [
+      "75",
+      "71",
+      "70",
+      "73"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (73)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Two rifles are fired from the same place at a difference of 11 minutes 45 seconds. But a man who is coming",
+    "options": [
+      "72 km/h",
+      "36 km/h",
+      "81 km/h",
+      "108 km/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (81 km/h)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Anil and Tirath drove between two points A and B 192 km apart. Anil started the journey from point A at 8:20 a.m drove at a speed of 64 km/h reached point B and Immediately returned to A with the same speed. Tirath started the journey from point A at 9:50 a.m. drove at a speed of 96 km/h reached point B and immediately returned to point A at the same speed. At what time did Anil and Tirath first meet each other?",
+    "options": [
+      "11:38 am",
+      "11:28 am",
+      "11:43 am",
+      "11:33 a"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (11:38 am)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "The ratio of the distance between two places A and B to the distance between places B and C is 3 : 5. A man travels from A to B at a speed of x km/h and from B to C at a speed of 50 km/h. If his average speed for the entire journey is 40 km/h, then what is the value of (x – 10) : (x + 1)?",
+    "options": [
+      "20 : 31",
+      "31 : 20",
+      "11 : 10",
+      "10 : 11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20 : 31)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A and B are travelling towards each other from the points P and Q respectively. After crossing each 1 other, A and B take 6 hours and 8 hours 8 respectively, to reach their destinations Q and P respectively. If the speed of B is 16.8 km/hr, then",
+    "options": [
+      "20.8",
+      "19.8",
+      "19.2",
+      "20.4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (19.2)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A thief steals an item and escapes, running at 13.5 km/ h. A",
+    "options": [
+      "10.4 km, 16",
+      "10.8 km,16.2",
+      "12.96 km,16.2",
+      "11.2 km,16.4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10.8 km,16.2) | Exam: policeman arrives at the spot of the crime after"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A thief steals an item and escapes, running at 20 km/h. A",
+    "options": [
+      "15 km; 25 km/h",
+      "14.4 km; 24 km/h",
+      "10 km; 25 km/h",
+      "12 km; 24 km/"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12 km; 24 km/) | Exam: policeman arrives at the spot of the crime"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Two places A and B are 60 km apart from each other on a highway. A car starts from A and another car",
+    "options": [
+      "15, 20",
+      "25, 20",
+      "15, 18",
+      "25, 15"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25, 15)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "The distance between two places A and B is 140 km. Two cars x and y start simultaneously from",
+    "options": [
+      "60",
+      "100",
+      "80",
+      "90"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (80)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Two stations T1 and T2 are 300 km apart. A car starts from station T1 at 8 am and moves towards station T2 at a speed of 45km/hr. and at 10 am another car starts from station T2 towards T1 at a speed of 60 km/hr. Then the cars will meet at:",
+    "options": [
+      "10 : 00 am",
+      "12 : 00 pm",
+      "1 : 00 pm",
+      "11 : 00 a"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12 : 00 pm)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A bus starts running with the initial speed of 6 km/hr and its speed increases every hour by certain amount. If it takes 14 hours to cover a distance of 630 km, then",
+    "options": [
+      "5 km/hr",
+      "10 km/hr",
+      "6 km/hr",
+      "5.2 km/hr"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6 km/hr)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Bhuvanesh can travel a certain distance",
+    "options": [
+      "11.5",
+      "10.5",
+      "12.5",
+      "13.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10.5)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "One day, at 7 a.m. Rohan started on his bike at the speed of 36 km/h to meet his relatives. After he had travelled some distance, his bike went out of order and had to stop. After resting for 35 minutes, he returned home on foot at a speed of 14 km/h and reached home at 1 p.m. Find the distance from his house at which bike broke down.",
+    "options": [
+      "54 km",
+      "48.4 km",
+      "54.6 km",
+      "63. k"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (54.6 km)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A plane left 30 minutes later than the schedule time",
+    "options": [
+      "600 km/hr",
+      "500 km/hr",
+      "750 km/hr",
+      "N.O.T"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (750 km/hr)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A small aeroplane can travel at 320 km/h",
+    "options": [
+      "97.5 min",
+      "105 min",
+      "120 min",
+      "127.5 mi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (105 min)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "Two cars are initially 64 km apart and speed of cars is 48 km/h and ‘x’ km/h. Distance between them will be 4 km after travelling for ‘t1’ minute when travelling towards each other and distance between them will be 84 km after ‘t2’ minute when travelling away from each other. If ‘t1 – t2’ = 30, then find the speed of second car. nks dkjsa 'kq:",
+    "options": [
+      "28 km/h",
+      "24 km/h",
+      "36 km/h",
+      "32 km/"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (32 km/)"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A car starts running at an initial speed of 60km/h, with its speed increasing every hour by 10km/h. How many hours will it take to cover a distance of 1210km?",
+    "options": [
+      "12",
+      "8",
+      "10",
+      "11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12) | Solution: A car starts running at an initial speed of 60km/h, with its speed increasing every hour by 10km/h. How many hours will it take to cover a distance of 1210km? ,d dkj 60 fdeh@?kaVk pyuk 'kq: djrh bldh gj ?kaVs 10 fdeh@?kaVk o`f¼ gksrh 1210 fdeh r; dju"
+  },
+  {
+    "id": "rkr_time_speed_distance_time_speed_distance_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Time, Speed & Distance",
+    "sheetType": "Pro Level",
+    "sheetFile": "Time, Speed & Distance (Pro Level Sheet).pdf",
+    "question": "A girl cycles from A to B, a distance of 25 km",
+    "options": [
+      "18",
+      "12",
+      "15",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12) | Solution: (b) ANSWER KEY"
+  }
+]

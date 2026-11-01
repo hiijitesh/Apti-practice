@@ -1,0 +1,3606 @@
+[
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 35% of x is 140, then find the value of x.",
+    "options": [
+      "300",
+      "335",
+      "400",
+      "450"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (400) | Exam: NTPC CBT-1 05/01/2021 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "What is 80% of 50% of 90?",
+    "options": [
+      "36",
+      "30",
+      "34",
+      "32"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (36) | Exam: RRB ALP & TECH 23/01/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 10% of 24% of x is 240,then x = ?",
+    "options": [
+      "10000",
+      "100",
+      "1000",
+      "100000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10000) | Exam: SSC CHSL 11/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "30% of 50% of 85% of a sum is equal to 51. Find the amount.",
+    "options": [
+      "350",
+      "400",
+      "250",
+      "300"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (400) | Exam: NTPC CBT-1 01/03/2021 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 20% of 35% of a number is 240.8, then 18% of that number (rounded off to 1 decimal place) is:",
+    "options": [
+      "621.2",
+      "619.2",
+      "623.2",
+      "618.2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (619.2) | Exam: SSC CHSL 09/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 40% of A is equal to 64% of B, then what will be A : B?",
+    "options": [
+      "7 : 5",
+      "5 : 6",
+      "8 : 5",
+      "8 : 7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8 : 5) | Exam: SSC MTS 09/10/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "is what percent of ? 3 3 1 2",
+    "options": [
+      "10",
+      "20",
+      "50",
+      "200"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "0.002 is what percent of 0.12?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: NTPC CBT-1 28/12/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "80 meter is what percent of 5 km?",
+    "options": [
+      "1",
+      "2",
+      "1.6",
+      "3.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1.6)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "What percent of 3 day is 12 hours?",
+    "options": [
+      "5",
+      "2",
+      "10",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "8% of 5 litre is :",
+    "options": [
+      "0.4 ml",
+      "400 ml",
+      "40 ml",
+      "4 ml"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (400 ml) | Exam: SSC CPO 15 /03/ 2019 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Mahesh's annual salary increased from `2,00,000",
+    "options": [
+      "22",
+      "20",
+      "24",
+      "18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20) | Exam: SSC CHSL 02/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The cost price of an item increased from `2,500 to `3,000. Find the increase percentage.",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20) | Exam: SSC CHSL 01/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Shantanu’s income decreased from Rs 42,800 to",
+    "options": [
+      "13",
+      "14",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13) | Exam: SSC CHSL 11/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of an electric bike was `1,25,000 last year. This year, its price got decreased by 30%.",
+    "options": [
+      "87,000",
+      "86,000",
+      "87,500",
+      "86,500"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (87,500) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A quantity is changed to . How much 5 6 percentage change is given to the quantity? 4 5",
+    "options": [
+      "4.73",
+      "4.71",
+      "4.17",
+      "4.37"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4.17) | Exam: SSC CHSL 05/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A number increased by 20% gives 240. Find the number.",
+    "options": [
+      "200",
+      "280",
+      "240",
+      "250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (200) | Exam: SSC CHSL 11/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "On increasing a number by 50%, we get 3600. This number is ----------.",
+    "options": [
+      "1200",
+      "7200",
+      "2400",
+      "4800"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2400)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "On increasing a number by 50%, we get 3930. This number is ----------.",
+    "options": [
+      "7860",
+      "2620",
+      "5240",
+      "1310"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2620)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "After reducing the price by 24%, the price of an item is Rs.988. What is the original price of the item?",
+    "options": [
+      "Rs.1300",
+      "Rs.1440",
+      "Rs.1100",
+      "Rs.1200"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.1300) | Exam: RRB ALP 27/11/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "How much is 50% of 60 more than 30% of 40?",
+    "options": [
+      "15",
+      "20",
+      "13",
+      "18"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (18) | Exam: RRB ALP 29/11/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "20% of a number is 180 more than 20% of 530. Find the number.",
+    "options": [
+      "1530",
+      "1480",
+      "1280",
+      "1430"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1430)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "What is the number which needs to be added to 20% of 460 to have the sum as 70% of 920?",
+    "options": [
+      "335",
+      "762",
+      "926",
+      "552"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (552) | Exam: SSC CHSL 02/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Which of the following is the least ?",
+    "options": [
+      "12% of 625",
+      "15 % of 555",
+      "10% of 720",
+      "9% of 845"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10% of 720) | Exam: SSC CGL 26/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The value of 17 % of 3 % of 33 % of 2 4 3 7200 is: 1 1 1",
+    "options": [
+      "7.65",
+      "11.68",
+      "13.65",
+      "9.65"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13.65) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The value of 18% of 15% of of 3800 is: 9 25",
+    "options": [
+      "285",
+      "582",
+      "583",
+      "385"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (285)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The fraction equivalent to % is: 5 1",
+    "options": [
+      "1/12",
+      "1/5 500",
+      "1/20",
+      "1/0 40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/5 500) | Exam: SSC CPO 04/10/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Two numbers are, respectively, 17% and 50% more than a third number. The ratio of the two numbers is:",
+    "options": [
+      "27 : 25",
+      "39 : 50",
+      "19 : 11",
+      "29 : 25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (39 : 50) | Exam: SSC CGL 19/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If x% of 280 = 15% of 240 + 20% of 310, then the value of x is:",
+    "options": [
+      "38",
+      "35",
+      "30",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (35) | Exam: SSC CGL 17/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 25% of 400 + 35% of 1260 + 27% of 1800 = 1020 + x, then the value of x lies between:",
+    "options": [
+      "6 to 10",
+      "0 to 5",
+      "11 to 15",
+      "16 to 20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6 to 10)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 66 % of 75% of of a certain number is 3 8 1 179, then 33 % of three- fourth of that 3 number is: 1 2",
+    "options": [
+      "537",
+      "716",
+      "787.6",
+      "859.2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (716)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Ravi score 72% marks",
+    "options": [
+      "500",
+      "350",
+      "450",
+      "400"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (500) | Exam: SSC CGL 9/03/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A number increased by 12 % given 99 as 2 result. The number is? 1",
+    "options": [
+      "88",
+      "70",
+      "90",
+      "100"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (88)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 37.5% of a number is added with itself then result becomes 1320. Find the original number.",
+    "options": [
+      "940",
+      "980",
+      "960",
+      "950"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (960)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 62.5% of a number is subtracted from itself then result becomes 6321. Find the original number.",
+    "options": [
+      "16865",
+      "16856",
+      "16685",
+      "16756"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16856)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 64 is added",
+    "options": [
+      "113",
+      "112",
+      "114",
+      "115"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (112)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 85% of a number is added to 75, then the result is the number itself. The number is",
+    "options": [
+      "500",
+      "200",
+      "300",
+      "100"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (500) | Exam: SSC CGL 13/06/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 930 is added",
+    "options": [
+      "280",
+      "270",
+      "260",
+      "230"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (270)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If 21 is added",
+    "options": [
+      "57",
+      "34",
+      "56",
+      "72"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (56)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the sum of 40% of a number and 30% of the same number is 70, then the number is:",
+    "options": [
+      "150",
+      "200",
+      "100",
+      "125"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (100) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "P’s salary is 30% of Q’s salary and Q’s salary is 20% of R’s salary. What percentage of R’s salary is P’s salary?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6) | Exam: Constable 20/10/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the numerator of a fraction is increased by 140% and the denominator of the fraction is decreased by 20%, the resultant fraction is 12/7. Find the original fraction.",
+    "options": [
+      "4/9",
+      "4/7",
+      "7/6",
+      "8/9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4/7) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, 16 then the resultant fraction is . The original 63 fraction is :",
+    "options": [
+      "5/9",
+      "2/11",
+      "4/9",
+      "2/9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2/9)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A man multiply a number by instead of . 5 3",
+    "options": [
+      "65",
+      "64",
+      "68",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (64)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A man multiplied a number by instead of 5 5",
+    "options": [
+      "124",
+      "162",
+      "156",
+      "100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (156) | Exam: SSC MTS 13/06/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "During a division, Pranjal mistakenly took as the dividend a number that was 10% more than the original dividend. He also mistakenly took as the divisor a number that was 25% more than the original divisor. If the correct quotient of the original division problem was 25 and the remainder was 0, what was the quotient that Pranjal obtained, assuming his calculations had no error?",
+    "options": [
+      "21.75",
+      "21.25",
+      "28.75",
+      "22"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22) | Exam: SSC CGL 17/07/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Ankit was to get a 29% hike",
+    "options": [
+      "Rs 28700",
+      "Rs 25400",
+      "Rs 21400",
+      "Rs 25800"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs 25800)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A's income is 25% more than income of B. Income of B is how much percent less than income of A?",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Mohan’s income is 40% more than Shyam's income. Shyam's income is what percentage less than Mohan's income?",
+    "options": [
+      "28",
+      "28",
+      "28",
+      "28"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (28) | Exam: SSC CHSL 11/08/2021 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Shyam’s income is 20% less than Ram’s. How",
+    "options": [
+      "25",
+      "20",
+      "80",
+      "30"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25) | Exam: SSC CHSL 11/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If marks of Kejriwal is 33.33% less than Yogi then marks of yogi is how much percent more than that of Kejriwal?",
+    "options": [
+      "80",
+      "120",
+      "50",
+      "175"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (50)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Age of Radhema is 20 year If age of karim is 25% greater than that of Radhema. Then how much percent Radhema's age is less than that of karim?",
+    "options": [
+      "20",
+      "40",
+      "10",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "By what percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
+    "options": [
+      "33",
+      "37",
+      "41",
+      "31"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (33) | Exam: SSC CHSL 11/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the income of Neha is 5% more than that of Monica, then the income of Monica is what percentage less than that of Neha?",
+    "options": [
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Due to fall",
+    "options": [
+      "58.35",
+      "55.83",
+      "53.85",
+      "55.38"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (53.85) | Exam: SSC CPO 11/11/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "By what percent the new price of the article must be increased to restore its former value,",
+    "options": [
+      "34",
+      "33",
+      "33",
+      "34"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (33) | Exam: SSC CHSL 25/05/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the price of an article is raised by 35%, by how much percent must a householder reduce his consumption of that article, so as not to increase his expenditure?",
+    "options": [
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25) | Exam: SSC CHSL 01/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the price of tea is increased by 40%, by how what percentage must the consumption of tea be decreased so as not to increase the expenditure?",
+    "options": [
+      "31",
+      "31",
+      "35",
+      "28"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (31) | Exam: SSC CHSL 04/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If side of a square is increased by 10% then",
+    "options": [
+      "10%, 10",
+      "10%, 21",
+      "20%, 21",
+      "20%, 20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10%, 10)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If radius of a circle is increased by 20% then",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the side of a square is increased by 5%, then",
+    "options": [
+      "10.25",
+      "11",
+      "10",
+      "10.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10.25) | Exam: SSC CHSL 02/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the length of a rectangle is increased by 12% and the breadth is decreased by 8%, the net effect on the area is :",
+    "options": [
+      "Increase by 3.04",
+      "Increase by 2.6",
+      "Decrease by 3.04",
+      "Decrease by 2.6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Increase by 3.04) | Exam: SSC CHSL 18/3/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage",
+    "options": [
+      "Decrease by 1.8",
+      "Increase by 1.8",
+      "Increase by 2.8",
+      "Decrease by 2.8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Decrease by 2.8) | Exam: SSC CGL 11/04/2022 (Shift-2)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Length and breadth of a rectangle are increased by 10% and 20% respectively. What",
+    "options": [
+      "21% increase",
+      "28% increase",
+      "44% increase",
+      "32% increas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (32% increas)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The radius of a circle is increased by 300 %. Then its area will increase by what percent.",
+    "options": [
+      "800% increase",
+      "900% increase",
+      "1500% increase",
+      "1600% increas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1500% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The radius of a hemisphere is increased by 19 % then what will be effect on total surface area and lateral surface area.",
+    "options": [
+      "41.61% decrease",
+      "41.61% increase",
+      "45 % decrease",
+      "44% increase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (41.61% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the radius of a cylinder is decreased by 16 percent, then by how much percent its height must be increased, so that the volume of the cylinder re",
+    "options": [
+      "32.96 percent",
+      "41.72 percent",
+      "45.28 percent",
+      "36.43 percen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (41.72 percent) | Exam: mains same?"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
+    "options": [
+      "15.54",
+      "20.01",
+      "14.29",
+      "18.62"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14.29) | Exam: SSC CGL 13/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Base of a triangle is increased by 33 % and 3 2 its height is reduced by 16 % . Find the 3",
+    "options": [
+      "20",
+      "None of these",
+      "16",
+      "11"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (11)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Base of a triangle is increased by 16 % and 3 1 its height is reduced by 33 % . Find the 3",
+    "options": [
+      "20",
+      "22",
+      "16",
+      "11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (22)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Length of rectangle is increased by 50%. Then its area is increased by 20%. Find effect on breadth of the rectangle.",
+    "options": [
+      "20% decrease",
+      "25% increase",
+      "20% increase",
+      "25% decreas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20% decrease)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The area of a circle is increased by 69% then its radius will increase by what percent.",
+    "options": [
+      "10% increase",
+      "20% increase",
+      "30% increase",
+      "40% increase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (30% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q073",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The area of a circle is increased by 44% then its radius will increase by what percent.",
+    "options": [
+      "10% increase",
+      "20% increase",
+      "30% increase",
+      "40% increas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q074",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The area of square is increased by 32.25%.",
+    "options": [
+      "10% increase",
+      "15% increase",
+      "20% increase",
+      "25% increas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (15% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q075",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by :",
+    "options": [
+      "15",
+      "10",
+      "5",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (10) | Exam: SSC CPO 2019 24/11/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q076",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Length of cuboid is increased by 20%, breadth is increase by 30% and height is decreased by 50%. Find effect on volume.",
+    "options": [
+      "22% increase",
+      "22% decrease",
+      "11% increase",
+      "11% increas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (22% decrease)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q077",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If length and breadth of a cuboid are increased by 7% and 6%, respectively, then the",
+    "options": [
+      "11.20",
+      "13.42",
+      "18.12",
+      "15.25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13.42) | Exam: SSC CHSL 04/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The length and breadth of a cuboid are increased by 10% and 20%, respectively, and its height",
+    "options": [
+      "5",
+      "5",
+      "5",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5) | Exam: SSC CHSL 14/10/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q079",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If both length and breadth of a cuboid is increased by 12 percent, then by how much percent its height should be reduced so that the volume of the cuboid re",
+    "options": [
+      "14.56 percent",
+      "24.72 percent",
+      "20.28 percent",
+      "28.44 percen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (20.28 percent) | Exam: mains same?"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q080",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the price of petrol increases by 19% and Sunitha intends to spend only an additional 12% on petrol, by what percent should she reduce the quantity of petrol purchased (nearest to an integer) ?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6) | Exam: SSC CGL TIER-II (11/08/2019)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q081",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of sugar has increased by 18%. A person wants to increase the expenditure by 12% only. By what percent (correct to one decimal place) should he decrease his consumption?",
+    "options": [
+      "6",
+      "5.1",
+      "5.3",
+      "5.6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5.1) | Exam: SSC CGL 10/06/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q082",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of sugar has increased by 17%. A person wants to increase his expenditure by 5% only. By approximately what percent should he decrease his consumption?",
+    "options": [
+      "10.3",
+      "10.7",
+      "10.9",
+      "9.9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10.3) | Exam: SSC CGL 13/06/2019 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q083",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of a commodity increased by",
+    "options": [
+      "14.20",
+      "15.8",
+      "14.6",
+      "15.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14.6) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q084",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of rice increases by 25%, a person increases his expenditure on rice only by 15%. By what percentage should he reduce his consumption of rice so as to be able to maintain the same level of expenditure?",
+    "options": [
+      "8",
+      "5",
+      "9",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q085",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of an item was reduced by 20%, its sale increased by x%. If there is an",
+    "options": [
+      "55.35",
+      "57.75",
+      "56.25",
+      "54.35"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (56.25) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q086",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of a commodity is increased by",
+    "options": [
+      "14.20",
+      "15.8",
+      "14.6",
+      "15.2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14.6) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q087",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Price of pulse increases by 25%. A person initially purchase 60 kg pulse. How much kg of pulse he can",
+    "options": [
+      "32 kg",
+      "60 kg",
+      "48 kg",
+      "40 k"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (48 kg)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q088",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The reduction of 15",
+    "options": [
+      "20.40",
+      "22.16",
+      "24.25",
+      "25.00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (20.40) | Exam: SSC CGL 11/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q089",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Due to a reduction of 7.5",
+    "options": [
+      "34.6875",
+      "36.6275",
+      "35.5215",
+      "34.7125"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (34.6875) | Exam: ICAR MAINS EXAM 10/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q090",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The salary of a worker is first increased by 25%, then it is decreased by 12%. The",
+    "options": [
+      "10% increase",
+      "13% increase",
+      "10% decrease",
+      "13% decreas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10% increase) | Exam: SSC CGL 11/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q091",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of redmi note 9 pro max decreased by 10 % and again reduced by 10 %. Find the",
+    "options": [
+      "19",
+      "21",
+      "20",
+      "CB"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (19)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q092",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of savlon increased by 20 % and again increased by 10%. Find the combined",
+    "options": [
+      "19",
+      "21",
+      "32",
+      "CBD"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (32)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q093",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of beer shampoo increased by 20% and then decreased by 10%. Find the",
+    "options": [
+      "8% increase",
+      "8% decrease",
+      "32% increase",
+      "32% decreas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q094",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the price of a movie ticket increased by 1 12 % and the sale of tickets also increased by 2 1",
+    "options": [
+      "21.875",
+      "22.6750",
+      "20.675",
+      "22.0625"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22.0625) | Exam: SSC CHSL 02/08/2023 Shift-02"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q095",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Income of salman khan first increased by 8% and then it is decreased by 8%. What is change",
+    "options": [
+      "0.64% Increase",
+      "0.64% Decrease",
+      "16% Increase",
+      "No Chang"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0.64% Decrease)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q096",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A person’s salary was decreased by 50% and subsequently increased by 50%. By what much per cent does his salary increase or decrease?",
+    "options": [
+      "Decrease 18",
+      "Increase 15",
+      "Increase 20",
+      "Decrease 25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Decrease 25) | Exam: SSC CGL 21/04/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q097",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "X’s salary is increased by 20% and then",
+    "options": [
+      "4% Decrease",
+      "4% Increase",
+      "2% Decrease",
+      "2% Increas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4% Decrease) | Exam: SSC CHSL 26/05/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q098",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A number is first decreased by 28% and then increased by 28%. The number so obtained is 784 less than the original number. Find the value of the original number.",
+    "options": [
+      "15000",
+      "1500",
+      "10000",
+      "1000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10000) | Exam: SSC CPO 04/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q099",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of Rafale first increased by 16 % and 3 1 there after decreased by 7 % . What was the 7",
+    "options": [
+      "8 % increase",
+      "8 % decrease",
+      "None of these",
+      "No Change"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8 % increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q100",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A worker has an increase of 12",
+    "options": [
+      "1.25",
+      "2",
+      "2.25",
+      "1.15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.25) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q101",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Basir's working hours per day were increased by 15% and his wages per hour were increased by 20%. By how much percent did his daily earning increase?",
+    "options": [
+      "40",
+      "38",
+      "35",
+      "36"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (38) | Exam: SSC CGL TIER-II (13/09/2019)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q103",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of a watch was reduced by 20%, the number of watches sold is increased",
+    "options": [
+      "12% Increase",
+      "30% Decrease",
+      "12% Decrease",
+      "30% Increas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12% Increase) | Exam: SSC CHSL 30/05/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q104",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A number is first increased by 40% and then decreased by 25%, again increased by 15% and then decreased by 20%. What is the net",
+    "options": [
+      "7.2% increase",
+      "3.4% increase",
+      "6.4% increase",
+      "3.4% decreas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3.4% decreas) | Exam: SSC CPO 2019 24/11/2020 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q105",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A person’s salary was decreased by 50% and subsequently increased by 50% and then again increased by 100%. How much percentage does he lose or gain?",
+    "options": [
+      "Loss of 40",
+      "Gain of 50",
+      "Gain of 25",
+      "Loss of 10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Gain of 50) | Exam: SSC CGL 12/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q106",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A number is first increased by 12% and then increased by 23%. The number, so obtained, is now decreased by 34%. What is the net",
+    "options": [
+      "10% increase",
+      "9% decrease",
+      "10% decrease",
+      "9% increase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9% decrease) | Exam: SSC CGL 09/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q107",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Consumption of Wheat increases by 20% and expenditure increases by 50%. What will be the effect on price?",
+    "options": [
+      "20% increase",
+      "20% decrease",
+      "25% increase",
+      "25% decreas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25% increase)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q108",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "When the price of an item was reduced by 25%, then its sale was increased by x%. If",
+    "options": [
+      "50",
+      "60",
+      "45",
+      "75"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (60) | Exam: SSC CGL TIER-II (11/09/2019)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q109",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a city is 25000. If it is increasing at the rate of 10% every year. Then population of city after two year is?",
+    "options": [
+      "30250",
+      "30000",
+      "31250",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30250)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q110",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Bike is purchased for Rs. 50,000. Its rate depreciates at 10% annually.",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CHSL 25/05/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q111",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The rate of annual growth of a city is 2%. If",
+    "options": [
+      "1,59,000",
+      "1,59,181",
+      "1,58,413",
+      "1,58,765"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1,59,181) | Exam: SSC CHSL TIER II 26/06/2023"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q113",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a town is 36000. If it is 2 increasing at the rate of 16 % per annum, 3 then what will be its population two year hence. 2",
+    "options": [
+      "48000",
+      "49000",
+      "36000",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (49000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q114",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of a tablet is first increased by 10%, and then decreased by 2.5% due to reduction",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CHSL 27/05/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q116",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a town is 80,000. It",
+    "options": [
+      "76150",
+      "86140",
+      "77280",
+      "82540"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (77280) | Exam: SSC CHSL 26/05/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q117",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a town is 15000. It increases 1 1",
+    "options": [
+      "15000",
+      "30000",
+      "45000",
+      "None of thes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (None of thes)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q118",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "One year ago the population of a village was 72,000. Due to migration it decreases by 8% every year. Find the current population of the village.",
+    "options": [
+      "68138",
+      "60940",
+      "66240",
+      "61908"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (66240) | Exam: SSC MTS 20/08/2019 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q119",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a city increased 30",
+    "options": [
+      "10,000",
+      "10,050",
+      "99,000",
+      "99,500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10,000) | Exam: SSC CGL 6/03/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q120",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a town has increased by 5% at the end of the first year and decreased by 4% at the end of second year. If the population at the end of second year was 55,12,248, then the population at the begining of first year was :",
+    "options": [
+      "55,72,950",
+      "56,23,012",
+      "54,68,500",
+      "53,00,420"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (54,68,500) | Exam: SSC CPO 14/03/2019 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q121",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The salary of A on 1-1-22 is `1,52,400 per",
+    "options": [
+      "171998.64",
+      "171998.65",
+      "181978.66",
+      "171988.62"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (171998.64)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q122",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A manufacturer sells an item to a wholesale dealer at a profit of 11%. The wholesaler sells the same to a retailer at a profit of 15%. The",
+    "options": [
+      "Rs. 13,520",
+      "15,020",
+      "Rs. 10,200",
+      "Rs. 11,220"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs. 11,220) | Exam: SSC CHSL 26/05/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q123",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Price of a one gram gold coin decreased by 10% on its initial price on Monday and increased by 20% on Tuesday and again increased by 8% on Wednesday, and 5% increase on Thursday. If the final price on Thursday is Rs 5511.24, then the initial price",
+    "options": [
+      "4500",
+      "4250",
+      "4000",
+      "5000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4500) | Exam: SSC CGL 20/08/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q124",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The price of an item increases successively by 25% and 18% and then the resulting price is decreased by 40%. If the final price of the item is ` 141.60, then 35% of the original price of the item is:",
+    "options": [
+      "` 81",
+      "` 72",
+      "` 63",
+      "` 56"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 56) | Exam: ICAR MAINS, 07/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q125",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Meena scores 40",
+    "options": [
+      "70",
+      "80",
+      "75",
+      "60"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (70)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q126",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a city grew from 40 lakh to",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q127",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of town",
+    "options": [
+      "10",
+      "20",
+      "16.66",
+      "33.33"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q128",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The income of a company increases by x% per",
+    "options": [
+      "20",
+      "18",
+      "15",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (25) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q129",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A shopkeeper has certain length of wire. 10% of wire is stolen and 70% of the remaining was sold out. Find the original length of the wire if 810 meter is still left?",
+    "options": [
+      "1000",
+      "2000",
+      "1500",
+      "3000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q131",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Seema spends 5% of her total income",
+    "options": [
+      "1500",
+      "2000",
+      "2500",
+      "3000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q132",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The population of a village was 9600.",
+    "options": [
+      "3100",
+      "3500",
+      "6400",
+      "3200"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6400)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q134",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of",
+    "options": [
+      "1840",
+      "1380",
+      "920",
+      "2760"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1840) | Exam: SSC CGL 20/08/2021 (Shift-1)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q143",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "At an election there were two candidates. A candidate got 38% of votes and lost by 7200 votes. The total number of valid votes is __________.",
+    "options": [
+      "27360",
+      "30000",
+      "273600",
+      "3600"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30000) | Exam: SSC CHSL 30/05/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q144",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A total of 7,50,000 voters participated",
+    "options": [
+      "15",
+      "20",
+      "12",
+      "18"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15) | Exam: SSC CHSL 04/08/2023 Shift-01"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q146",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Two candidates contested",
+    "options": [
+      "1,15,000",
+      "1,20,000",
+      "1,25,000",
+      "1,18,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1,20,000) | Exam: SSC CGL 17/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q150",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Two candidates participated",
+    "options": [
+      "20000",
+      "24000",
+      "27500",
+      "30000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q158",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "John got 20% marks",
+    "options": [
+      "30",
+      "35",
+      "25",
+      "20"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25) | Exam: SSC CGL 21/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q159",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A student scores 20% marks and fails by 40 marks while another student who scores 32% marks, gets 47 marks more than the minimum required pass marks. What are the maximum marks for the examination?",
+    "options": [
+      "600",
+      "750",
+      "650",
+      "725"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (725)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q160",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A candidate fails by 21 marks from the minimum to pass an exam while another candidate scores 147 marks more than the",
+    "options": [
+      "420",
+      "360",
+      "400",
+      "380"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (420)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q161",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A company give 10% commission to his salesman on total sales and 2.5% bonus on the sales over ` 10,000, If the salesman earns ` 2875. Find total sales.",
+    "options": [
+      "` 30000",
+      "` 25000",
+      "` 28000",
+      "` 29000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (` 25000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q162",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A company give 52 % commission to his salesman on total sales and 0.5% bonus on the sales over `10,000. If the salesman earns `1990. Find total sales. 1",
+    "options": [
+      "` 37000",
+      "` 35000",
+      "` 36000",
+      "` 34000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 34000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q163",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A company give 12% commission to his salesman on total sales and 1% bonus on the sales over ` 15000. If the salesman deposit ` 52,350 after deducting his commission from total sales. Find total sales.",
+    "options": [
+      "` 72000",
+      "` 70000",
+      "` 48000",
+      "` 60000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 60000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q164",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A marketing agent earns a commission of 2% on first ` 2,00,000, 1.5% on next ` 2,00,000 and 1% on the remaining amount of sales",
+    "options": [
+      "` 8680",
+      "` 7730",
+      "` 8240",
+      "` 7105"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 8680) | Exam: SSC CPO 15/03/2019 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q165",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Two saleswomen, Kavitha and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavitha gets 3% and Kalyani gets 5% extra bonus on the sales over ` 20,000. If the",
+    "options": [
+      "` 19,200",
+      "` 21,600",
+      "` 17,800",
+      "` 23,400"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (` 23,400) | Exam: ICAR Mains, 08/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q166",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Geeta buys an apartment and pays EMI for the same. Her monthly income is Rs. 80,000. She spends 15% on her children's education, 40% on household chores, sends 10% to GPF, saves",
+    "options": [
+      "Rs 14,000",
+      "Rs.16,000",
+      "Rs 20,000",
+      "Rs 18,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.16,000) | Exam: SSC CHSL TIER II 26/06/2023"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q167",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A man spent 30% of his monthly income on rent .He spent 15% of the remaining amount on food. 35% of the amount now left was used for all other expenses .If Rs1,62,435 was left with him , then his monthly income was :",
+    "options": [
+      "Rs4,80,000",
+      "Rs4,20,000",
+      "Rs3,60,000",
+      "Rs5,40,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs4,20,000) | Exam: SSC CHSL 04/08/2023 Shift-04"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q168",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Fresh fruit contains 60% water and dry fruits contains 20% water. How much dry fruit can be obtained from 100 kgs of fresh fruits?",
+    "options": [
+      "32",
+      "50",
+      "52",
+      "80"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q169",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Fresh fruit contains 50% water and dry fruits contains 10% water. How much dry fruit can be obtained from 180 kgs of fresh fruits?",
+    "options": [
+      "110",
+      "100",
+      "180",
+      "150"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (100)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q170",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Mohan saves 14% of his salary while Sohan saves 22%. If both get the same salary and Sohan saves ` 1540, What is the savings of Mohan?",
+    "options": [
+      "960",
+      "980",
+      "1040",
+      "1000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (980)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q171",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "There are two types of animal",
+    "options": [
+      "25, 20",
+      "20, 25",
+      "10, 35",
+      "5, 40"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25, 20)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q172",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Anuja owns 66 % of a property. If 30% of the 3 property that she owns is worth",
+    "options": [
+      "` 2,70,000",
+      "` 2,62,500",
+      "` 2,81,250",
+      "` 2,25,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (` 2,81,250) | Exam: SSC CHSL 13/10/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q173",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, 16 then the resultant fraction is . The original 63 fraction is :",
+    "options": [
+      "5/9",
+      "2/11",
+      "4/9",
+      "2/9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2/9) | Exam: SSC CHSL 13/10/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q174",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "If the Numerator of a fraction be increased by 50% and its denominator be diminished by 25 28%, the value of the fraction . Find the 36 original fraction.",
+    "options": [
+      "1/5",
+      "2/3",
+      "2/5",
+      "1/3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1/3) | Exam: SSC CHSL 24/05/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q176",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A certain number of students from school X",
+    "options": [
+      "18",
+      "20",
+      "16",
+      "24"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q177",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A certain numbers of students from school X",
+    "options": [
+      "8.3",
+      "10",
+      "6.4",
+      "5.7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5.7)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q178",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A vendor sells 60% of apples he had and throws away 15% of the remainder. Next day he sells 50% of the remainder and throws away the rest. What % of his apples does the vendor throw?",
+    "options": [
+      "17",
+      "21",
+      "23",
+      "29"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (23)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q179",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A is 25% more than B, and B is 40% less than C. If C is 20% more than D, then A is what percentage less than D?",
+    "options": [
+      "10",
+      "12",
+      "9",
+      "11"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10) | Exam: SSC CGL 20/04/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q180",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A invested 30% more than B, B invested 40% less than C, who invested Rs. 8,000. The average of the total amount invested by all of them together (to the nearest Rs.) is:",
+    "options": [
+      "6347",
+      "6215",
+      "6417",
+      "6143"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6347) | Exam: SSC CGL 19/04/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q182",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Bhushan's monthly income is Rs45,000 and his monthly expenditure is Rs 33,000. If his monthly income is increased by 22% while monthly expenditure is increased by 11%, then",
+    "options": [
+      "18,270",
+      "18, 960",
+      "18,000",
+      "19,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18,270) | Exam: SSC CHSL 02/08/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q183",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Rumi used to save 20% of her income. If her income went up by 30%,while her expenditure went up by 40%, her nominal saving went down",
+    "options": [
+      "36,000",
+      "37,500",
+      "35,000",
+      "38,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (37,500) | Exam: SSC CHSL 07/08/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q184",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Rupa's savings are 16% of her expenditure. If her savings increase by 25% and expenditure",
+    "options": [
+      "14.5",
+      "14",
+      "12",
+      "12.5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12.5)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q185",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Raju saves 15% of his income. His salary was increased by 18% so he increased his savings by 20%. If his expenditure after an increase",
+    "options": [
+      "26,500",
+      "33,125",
+      "23,850",
+      "19,875"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (19,875)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q186",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A spends 65%, of his income. His income is increased by 20.1% and the expenditure is increased by 20%. By what percent (correct to one decimal place) does his saving increase or decrease?",
+    "options": [
+      "Decrease by 18.9",
+      "Increase by 20.3",
+      "Decrease by 17.7",
+      "Increase by 21.5% 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Increase by 20.3) | Exam: SSC CGL 13/04/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q187",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Z spends 66 % of her income. If her income 3 increases by x% and the expenditure increases by 10%, then her savings increases by 25%. What is the value of x? 2",
+    "options": [
+      "10",
+      "14",
+      "15",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q188",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Ajay spends 66 % of his income on different 3 household items. If his income increases by 25% and expenditure increase by 20%, then the effect on his savings will be: 2",
+    "options": [
+      "28",
+      "61",
+      "49",
+      "35"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (35) | Exam: SSC CGL 17/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q193",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A, B and C donate 8%, 7% and 9%, of their salaries respectively to a charitable trust. The salaries of A and B are the same and the difference between their donations is ` 259. The total donation of A and B is ` 1,185 more than that of C. The total donation of A and C is what percentage of the total salaries of A, B and C? (Correct to one decimal place)",
+    "options": [
+      "6.2",
+      "5.8",
+      "6.4",
+      "7.1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5.8) | Exam: SSC CGL 4/03/2020 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q194",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Three persons A, B and C donate 10%, 7% and 9% respectively of their monthly salaries to a charitable trust. Monthly salaries of A and B are equal and the difference between the donations of A and B is Rs 900. If the total donation by A and B is Rs 600 more than that of C, then",
+    "options": [
+      "60000",
+      "50000",
+      "45000",
+      "55000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50000) | Exam: SSC CGL 23/08/2021(Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q195",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the",
+    "options": [
+      "9600",
+      "12000",
+      "15000",
+      "10800"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12000) | Exam: SSC CPO 03/10/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q196",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The monthly salary of a person was Rs.1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The",
+    "options": [
+      "2,11,680",
+      "1,28,160",
+      "1,18,620",
+      "1,62,810"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1,28,160) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q198",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "of a number A is 22% of a number B. The 5 number B is equal to 2.5% of a third number C. If the value of C is 5500, then the sum of 80% of A and 40% of B is: 11",
+    "options": [
+      "88",
+      "75",
+      "48",
+      "66"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (66) | Exam: SSC CGL 12/04/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q199",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "A man started off a business with a certain capital amount.",
+    "options": [
+      "20,000",
+      "30,000",
+      "25,000",
+      "32,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30,000) | Exam: SSC CGL 19/04/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q200",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The monthly expenditure of a person is 40% more than his monthly savings. If his monthly income increases by 40% and monthly expenditure increases by 60%, then he saves Rs 2,070 more",
+    "options": [
+      "20,250",
+      "19,320",
+      "24,150",
+      "22,425"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (24,150) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q201",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The income of X is 42% more than that of Y and the income of Z is 45% less than the sum of the incomes of X and Y. By what per cent is the income of Z less than the income of X (correct to one decimal place)?",
+    "options": [
+      "5.6",
+      "6.3",
+      "5.9",
+      "6.7"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (6.3) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q202",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The income of A is 40% less than that of B, and the income of C is 40% more than 30% of the combined income of A and B. By what percentage is C's income more than the income of A?",
+    "options": [
+      "12",
+      "10.70",
+      "12.4",
+      "15"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q203",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The income of A is 80% of B's income and the expenditure of A is 60% of B's expenditure. If the income of A is equal to 90% of B's expenditure, then by what percentage are the savings of A more than B's savings?",
+    "options": [
+      "100",
+      "140",
+      "125",
+      "150"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (140) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q204",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The monthly expenses of a person are 2 66 % more than her monthly savings. If her 3 monthly income increases by 44% and her monthly expenses increases by 60%, then",
+    "options": [
+      "9,000",
+      "12,000",
+      "10,000",
+      "13,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10,000) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q205",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "70% of students",
+    "options": [
+      "180",
+      "225",
+      "175",
+      "200"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (200) | Exam: SSC CHSL 24/05/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q207",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Ravi initially had a certain number of chocolates, while Bhanu initially had 80% of the number of chocolates that Ravi initially had. Ravi gave 10% of his chocolates to his sister while Bhanu received from his uncle another 35% of the number of chocolates he initially had. If Bhanu finally had 54 chocolates, how many chocolates did Ravi give to his sister?",
+    "options": [
+      "3",
+      "6",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CHSL 09/08/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q208",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The income of A is 45% more than the income of B and the income of C is 60% less than the sum of the incomes of A and B. The income of D is 20% more than that of C. If the difference between the incomes of B and D is Rs 13200, then the",
+    "options": [
+      "75,000",
+      "73,500",
+      "72,500",
+      "72,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (73,500) | Exam: SSC CGL 13/08/2021(Shift 01)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q209",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Chamanlal, Arshad and Jagjit Singh contested an election. All the votes polled were valid. Arshad got 35% of the total votes. For every 35 votes Chamanlal got 14 votes. The winner got 4950 more votes than the person who received the least number of votes. Find the total number of votes polled.",
+    "options": [
+      "13378",
+      "38000",
+      "99000",
+      "33000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (33000) | Exam: SSC CGL 16/08/2021(Shift 02)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q210",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "The total cost of 3 mangoes and 4 apples is ` 160. If the cost of a mango increases by 20% and that of an apple decreases by 20%, then the total cost of 5 mangoes and 7 apples is ` 260. What is the original total cost of 1 mango and 2 apples?",
+    "options": [
+      "` 70",
+      "` 75",
+      "` 72",
+      "` 65"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (` 70) | Exam: ICAR MAINS 07/07/2023 (Shift-3)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q211",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
+    "options": [
+      "20",
+      "10",
+      "500",
+      "100"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (100) | Exam: SSC CHSL 02/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_percentage_percentage_classroom_sheet_q212",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Percentage (ClassRoom Sheet).pdf",
+    "question": "Last year, Geeta's monthly salary was `12,000 and Seeta's monthly salary was `10,000. This year, Geeta's monthly salary is `14,400, while Seeta's monthly salary is `12,500. If the",
+    "options": [
+      "3.(a) 4.",
+      "5.(b) 6.(c) 7.(d) 8.(b) 9.(c) 10.(d)",
+      "2.(a) 3.(a) 4.(b) 5.(b) 6.(c) 7.",
+      "8.(b) 9.(c) 10.(d)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8.(b) 9.(c) 10.(d)) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "a is x % of b, b is x% more than a. Find x.",
+    "options": [
+      "50",
+      "62",
+      "75",
+      "37"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (62) | Solution: (b) b a = 100 x  b (100 ) b = 100 100 x x   x² + 100x – 10000 = 0 –100 100² – 4 1 (–10000) = 2 x    –100 50000 2   x  –100 100 5 2  = – 50 + 50 5 = 62"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Ram saves y% of his income. If his income increase by 28% and the expenditure increase by 20% then his savings increase by 40%.What is the value of y?",
+    "options": [
+      "35",
+      "40",
+      "50",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40) | Solution: (b) Old New Income 100 128 7 Saving y 5 Exp. 100 – y y (128 – ) 7 5 y    ATQ, (100 – y) : 7 128 – y 5       = 5 : 6 600 – 6y = 640 – 7y  y = 40 SOLUTIONS ANSWER KEY"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+    "options": [
+      "20.7",
+      "25.5",
+      "30.2",
+      "24.6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24.6)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A fruit seller sells 45% of the oranges that he has along with one more orange to a customer. Then he sells 20% of the remaining oranges and 2 more oranges to a second customer. Then he sells 90% of the now remaining oranges to a third customer and is still left with 5 oranges. How many oranges did the fruit seller have initially?",
+    "options": [
+      "100",
+      "111",
+      "121",
+      "120"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A number X is first increased by 35% and then decreased by 5.55%. The number, so obtained, is now 1 increased by 23 % . If the number, has increased 13 2 by 8806 than original number X, then find 14 % 7 of the number X?",
+    "options": [
+      "2210",
+      "2079",
+      "2100",
+      "2590"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2210)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Reliance Jio kept increasing its customer by the same percentage every year. Find the percentage if it is known that the company’s interaction with customers is doubled after two years.",
+    "options": [
+      "1002",
+      "100(2+1)",
+      "100(2–1)",
+      "100(3–1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (100(2–1))"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage",
+    "options": [
+      "22",
+      "24",
+      "18",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (22)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Bobby’s income’s p% is equal to Ron’s income’s q%. If Bobby’s income were y rupees less than his present income and Ron’s income were z rupees more than his income, then the ratio of Bobby’s income to Ron’s income would be m : n. The total actual combined income of both is x rupees. From the above question, and the statements given below, which one is correct?",
+    "options": [
+      "Only Statement 1 is possible.",
+      "Neither of the two statements is possible.",
+      "Only Statement 2 is possible.",
+      "Both statements are possible."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Both statements are possible.)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of item A is 40% more than the price of item B, and the price of item B is 25% less than the price of item C. The price of A is reduced by 20%, while the prices of B and C are increased by 24% and 33% respectively.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total",
+    "options": [
+      "375",
+      "365",
+      "355",
+      "385"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (375) | Solution: 5% = 8 Let A got 8k votes then B got (70 – 8k) ATQ, 8k – k = (70 – 8k) + k 7k = 70 – 7k 14k = 70 k = 5 A  8k = 8 5 = 40 B  70 – 40 = 30 40 – 30 = 10 unit  400 1 unit  40 100 unit  4,000 Alternate Method:- Let, the vote of A = 8 –12.5% = 7 8 8 = "
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Every day a fruit shopkeeper sells half of his stock, 20% of the stock gets spoiled overnight. If 1092 fruits rotted over 3 nights, then how many did he start with on the first day?",
+    "options": [
+      "5000",
+      "12000",
+      "7000",
+      "9000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Out of 85 children playing badminton or table tennis",
+    "options": [
+      "14",
+      "16",
+      "17",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of",
+    "options": [
+      "40",
+      "38",
+      "24",
+      "22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (40)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice.",
+    "options": [
+      "`36,000",
+      "`45,000",
+      "`28,000",
+      "`54,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`45,000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
+    "options": [
+      "20",
+      "10",
+      "500",
+      "100"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (100)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present",
+    "options": [
+      "1840",
+      "1380",
+      "920",
+      "2760"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1840)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "% of 180? (correct to nearest integer)",
+    "options": [
+      "420",
+      "400",
+      "500",
+      "350"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A man started a business with a certain capital amount.",
+    "options": [
+      "20,000",
+      "30,000",
+      "25,000",
+      "32,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30,000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of an article increases by 20% every year. If the difference between the price of the article at the end of the third year and at the end of the fourth year is `324, what is the price of the article at the end of the second year?",
+    "options": [
+      "`1350",
+      "`1250",
+      "`1260",
+      "`1180"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`1350)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Income of a person decreases by `3000 and rate of income tax increased from 15% to 18%. The ratio of paid tax is 3 : 2. If 29% income is tax free. Find initial income.",
+    "options": [
+      "`6750",
+      "`5550",
+      "`7750",
+      "`6250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`6750)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If",
+    "options": [
+      "`19,200",
+      "`21,600",
+      "`17,800",
+      "`23,400"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`23,400)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of sugar increased by 5%, then increased by 2% and again reduced by x%. So a family 1 increased their consumption by 19 % and their 21 1 expenditure on sugar is 122 % more than previous. Final the value of x?",
+    "options": [
+      "1117",
+      "15",
+      "13",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1117)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The population of a town increases annually by 20%. If the present population is 80 lakh, then what is the difference between the population three years ago and 2 years ago?",
+    "options": [
+      "75592.6",
+      "85592.6",
+      "65592.6",
+      "925925.93"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (925925.93)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "of voters promise to vote for A and the rest promise 7 to vote for B. Of these, on the last day 12% of the voters went back on their promise to vote for A and 20% of voters went back on their promise to vote for B, and A Lost by 234 votes. The total number of voters was: 3",
+    "options": [
+      "13,650",
+      "14,555",
+      "15,550",
+      "12,525"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13,650)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate",
+    "options": [
+      "`144",
+      "`120",
+      "`112",
+      "`168"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`144)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest",
+    "options": [
+      "19500, 13000 and 17500",
+      "17000, 15500 and 17500",
+      "17875, 14625 and 17500",
+      "19000, 13500 and 17500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (19500, 13000 and 17500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20",
+    "options": [
+      "2,11,680",
+      "1,28,160",
+      "1,18,620",
+      "1,62,810"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1,28,160)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question.",
+    "options": [
+      "Either 1 or 2 is sufficient to answer the question",
+      "Both 1 and 2 are sufficient to answer the question",
+      "1 alone is sufficient while 2 alone is not sufficient to answer the question",
+      "2 alone is sufficient while 1 alone is not sufficient to answer the questio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Either 1 or 2 is sufficient to answer the question)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money",
+    "options": [
+      "9600",
+      "12000",
+      "15000",
+      "10800"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to",
+    "options": [
+      "10/",
+      "0  p – q  100  p – q /100 – q  100 + p",
+      "10/10",
+      "0  p – q  100  p – q /0 – p 100 + q"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10/)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Out of the total toffees, are wasted. 35% of the rest 10 1 are given to S and of the total are given to N. If the 8 toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? 1",
+    "options": [
+      "126",
+      "150",
+      "110",
+      "135"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks tkrh 'ks\"k 35»] "
+  }
+]

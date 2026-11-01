@@ -1,0 +1,478 @@
+[
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "What will be the 50th term of AP 3,8,13, 18, 23,...?",
+    "options": [
+      "345",
+      "150",
+      "267",
+      "248"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (248) | Solution: (d) an = a + (n – 1) d a50 = a + 49d = 3 + 49 5 = 3 + 245 = 248."
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The sum of the first 2007 terms of the series 1, 2, 3, 4, 1, 2, 3, 4.... will be: 1, 2, 3, 4, 1, 2, 3, 4....",
+    "options": [
+      "5016",
+      "5107",
+      "5020",
+      "5013"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5016) | Solution: (a) 1 + 2 + 3 + 4 = 10 2007 4  Quotient = 501, Remainder = 3 Sum = 501 10 + (1 + 2 + 3) = 5010 + 6 = 5016"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Divide 69 into 3 parts",
+    "options": [
+      "19, 23, 27",
+      "17, 23, 29",
+      "15, 23, 31",
+      "21, 23, 25"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (21, 23, 25) | Solution: (d) Let, the AP be a – d, a, a + d ATQ, 3a = 69  a = 23 a2 - ad = 483  529 - 23d = 483  46 = 23d  d = 2 Required AP are 21, 23, 25"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the pth term of an AP is q and the qth term is p, then find its rth term.",
+    "options": [
+      "p – q + r",
+      "p + q + r",
+      "p – q – r",
+      "p + q – r"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (p + q – r) | Solution: (d) ATQ, a + (p – 1)d = q ......(i) and a + (q – 1)d = p ......(ii) on subtracting equation (ii) from (i) (q – 1)d – (p – 1)d = p – q (q – p)d = p – q  d = –1 Put d = –1 a = q – (p – 1) (– 1) a = p + q – 1 rth term = a + (r – 1)d = (p + q – 1) + (r "
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the ratio of the sum to n terms of two A.P.'s is (5n + 3) : (3n + 4), then the ratio of their 17th terms is",
+    "options": [
+      "172 : 99",
+      "168 : 103",
+      "175 : 99",
+      "171 : 103"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (168 : 103) | Solution: (b)     n 2a (n"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the sum of the first 1743 terms of a GP is 500 and first 3486 terms is 900, then sum of first 5229 terms of GP is:",
+    "options": [
+      "1200",
+      "1300",
+      "1220",
+      "1420"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1220) | Solution: (c) First 1743 terms 500  Next 1743 terms 400  Next 1743 terms 320   Sum of first 5229 terms = 1220"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "How many terms are there",
+    "options": [
+      "7",
+      "11",
+      "13",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9) | Solution: (d) 6, 18, 54, ......... 39366 First term (a) = 6 common ratio (r) = nd st 2 term 1 term = 18 6 = 3 Last term (Tn) = 39366 Tn = arn–1 = 39366 6 3n–1 = 39366 3n–1 = 6561 3n–1 = (3)8 n – 1 = 8 (comparing powers) n = 9"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Three positive numbers form an increasing GP. If the",
+    "options": [
+      "2  3",
+      "3  2",
+      "2 – 3",
+      "2  3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2  3) | Solution: (d) Let GP are a r , a, ar If middle no doubled then, a r , 2a, ar are AP 4a = a r + ar = a 1 r r         1 r r  = 4  r2 - 4r + 1 = 0  r = 4 16 4 2    = 2 3  GP is increasing & Positive  2+ 3 is common ratio."
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The mid points of an equilateral triangle are joined. Forming a second triangle, a third triangle is formed joining the midpoints of the second and the process continued infinitely. If the area of the first triangle is 24 units, then find the sum of areas of all triangles.",
+    "options": [
+      "26",
+      "28",
+      "32",
+      "36"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (32) | Solution: (c) Joining the mid-points of an equilateral triangle forms a new equilateral triangle of area 1 4 of original triangle Area of 1st triangle = 24 unit2 ANSWER KEY"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The geometric mean of two numbers is 8 and their harmonic mean is 6.4, the numbers are.",
+    "options": [
+      "2, 8",
+      "4, 16",
+      "6, 16",
+      "8, 16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4, 16)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "How many terms are there between 15, 20, 25,_____,135?",
+    "options": [
+      "26",
+      "24",
+      "25",
+      "23"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "A man saves `1550",
+    "options": [
+      "23250",
+      "23350",
+      "23550",
+      "23450"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (23550)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The sum of first 123 terms of a Geometric Series (G.P.) is equal to the sum of first 121 terms of the same Geometric Series (G.P.). When the first term is 1235,",
+    "options": [
+      "1435",
+      "1235",
+      "1335",
+      "1135"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1235)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Find the sum of the sequence 249, 260, 271, ____ up to 153 term.",
+    "options": [
+      "166005",
+      "136005",
+      "146005",
+      "156005"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (166005)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "What will be the sum of the first 15 terms of the arithmetic progression (A.P.) whose 10th and 6th terms have values 9.25 and 1.25 respectively?",
+    "options": [
+      "78.75",
+      "66.5",
+      "75.5",
+      "64.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (78.75)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "What is the sum of the first 16 terms of an AP whose 9th and 5th terms are 17.25 and 13.25 respectively?",
+    "options": [
+      "268",
+      "275",
+      "266",
+      "445"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (268)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the first term is 125 and the common ratio is , 5 then what will be the fourth term of the Geometric Series (G.P.)? 2",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the first term of a Geometric Series (G.P.) is 15 and the common ratio is 4, then find the sum of its 4 terms.",
+    "options": [
+      "1276",
+      "1275",
+      "1277",
+      "1274"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1275)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Find the sum of the following geometric series (G.P.).",
+    "options": [
+      " 1  ",
+      " 1  ",
+      " 1  ",
+      " 1  "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ( 1  )"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The sum of the first 13 terms of a geometric series (G.P.) is equal to the sum of the first 11 terms of the same geometric series (G.P.) Sum of first 15 term",
+    "options": [
+      "1300",
+      "1400",
+      "1200",
+      "1100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1200)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the 10th term of an arithmetic progression is 21 and the 17th term is 8 more than the 13th term, then find the arithmetic progression.",
+    "options": [
+      "7, 10, 13, 16 ....",
+      "3, 8, 11, 14 ....",
+      "5, 7, 9, 11 ....",
+      "3, 5, 7, 9 ...."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3, 5, 7, 9 ....)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "The sum of 3 numbers",
+    "options": [
+      "2, –1, –4",
+      "2, 1, 4",
+      "–2, –1, –4",
+      "2, 1, –4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2, –1, –4)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the fourth and fifth terms of a geometric progression are 2 and 8 respectively, then the product of the first 8 terms is",
+    "options": [
+      "88",
+      "168",
+      "48",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (48)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Find the sum of the given geometric series (G.P.).",
+    "options": [
+      " 1    ",
+      " 1    ",
+      " 1    ",
+      " 1    "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ( 1    )"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Find the difference between two numbers whose AM is 25 and GM is 20.",
+    "options": [
+      "20",
+      "30",
+      "25",
+      "35"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "Terms a, 1, b, are",
+    "options": [
+      "2, 4",
+      "–2, 1",
+      "4, 1",
+      "–2, 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–2, 4)"
+  },
+  {
+    "id": "rkr_ap_gp_arithmetic_geometric_progression_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "Pro Level",
+    "sheetFile": "Arithmetic & Geometric Progression (Pro Level Sheet).pdf",
+    "question": "If the GM of series 32, 4, 8, n is 8. Find value of n.",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4)"
+  }
+]

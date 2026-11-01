@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If xy + yz + zx = 1, then    = ?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x² + y² + z² = xy + yz + zx, then the value of  17 x 4 + 9y 4 +16z 4    is: 8 x 2 y 2 + 6y 2 z 2 +10z 2 x 2  ",
+    "options": [
+      "1.75",
+      "3.25",
+      "2.00",
+      "2.50"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1.75) | Exam: SSC Phase-XII 24/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a2 + b2 + c2 = ab + bc + ca then is",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "–1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If + + = 0 then x y z 1 1 1   is",
+    "options": [
+      "9",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If + + = 4 then the value a b c  ab  bc  ca  of is abc",
+    "options": [
+      "2",
+      "1 1",
+      "0",
+      "2 x  a 2  2 c 2 x  b 2  2 a 2 x  c 2  2 b 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 x  a 2  2 c 2 x  b 2  2 a 2 x  c 2  2 b 2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If + + b  c c  a a  b = 0, find x",
+    "options": [
+      "a2 + b2 + c2",
+      "–(a2 + b2 + c2)",
+      "a2 + 2b2 + c2",
+      "–(a2 + 2b2 + c2)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (–(a2 + b2 + c2))"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If + + = 3, find the b 2  c 2 c 2  a 2 b 2  a 2 value of x.",
+    "options": [
+      "a2 + b2 – c2",
+      "a2 + b2 + c2",
+      "a2 – b2 – c2",
+      "a2 + b2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (a2 + b2 + c2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If bc + ca + ab = abc then b  c c  a a  b   = ?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a2 = b + c, b2 = c + a, c2 = a + b, then 1 1 1 + +",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a, b, c are non zero, a  = 1 & b  b c 1 = 1 then (i) abc is (ii) c + is",
+    "options": [
+      "–1, 1",
+      "3, –1",
+      "–3, 1",
+      "1, 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (–1, 1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If ax = (x + y + z)y, ay = (x + y + z)z and az = (x + y + z)x, then x + y + z = ? (a  0)",
+    "options": [
+      "0",
+      "1",
+      "a3",
+      "a"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (a)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 0, then the value of a 2  b 2  c 2",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 0 then the value of b 2 – ca",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 0 then the value of is:",
+    "options": [
+      "2",
+      "–2",
+      "0",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (–2)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x + y = 1, then what is the value of x³ + 3xy + y3?",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "–1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b = 6 and ab = 5, then what is the value of a3 + b3?",
+    "options": [
+      "136",
+      "126",
+      "116",
+      "106"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (126) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a3 + b3 = 217 and a + b = 7, then the value of ab is:",
+    "options": [
+      "–6",
+      "–1",
+      "7",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6) | Exam: SSC CPO 24/11/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If r   16 , then the value of r 4  is. r r 3",
+    "options": [
+      "4096",
+      "512",
+      "512",
+      "4096"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4096) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a –  1 , a > 0, find a2 + ?",
+    "options": [
+      "15",
+      "19",
+      "17",
+      "11"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (17)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If (x+6y) = 8, and xy = 2, where x > 0, what is the value of (x³ + 216 y³) ?",
+    "options": [
+      "288",
+      "224",
+      "368",
+      "476"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (224) | Exam: SSC CGL 11/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a2 + b2 = 65 and ab = 8, a > b > 0, then find the value of a2 – b2.",
+    "options": [
+      "65",
+      "60",
+      "72",
+      "63"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (63) | Exam: SSC CGL 21/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x2 + 9y2 = 40 and xy = 4, where x > 0, y > 0, then what is the value of (x3 + 27y3)?",
+    "options": [
+      "224",
+      "416",
+      "440",
+      "800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (224) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If xy = – 6 and x³ + y³ = 19 (x and y are integers), then what is the value of 1 1  ? x –1 y –1",
+    "options": [
+      "–2",
+      "2",
+      "–1",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1) | Exam: SSC CGL MAINS (08/08/2022)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If 2a + 2b + c = 0, then find the value of 4a 2  4b 2  4c 2 . 5c 2  8ab",
+    "options": [
+      "–1",
+      "–2 3",
+      "1",
+      "2 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC CPO 29/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x – y + z = 0, then find the value of y² x ² z² – – . 2 x z 2yz 2 x y",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Exam: SSC CGL 12/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 0, then what is the value of (b  c) 2 (c  a) 2 (a  b) 2   ? bc ca ab",
+    "options": [
+      "1",
+      "–3",
+      "–1",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3) | Exam: SSC CGL 18/08/2021 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b – c = 0, then what is the value of ( b – c ) 2 ( c – a ) 2 ( a  b ) 2 ? 4 bc 4 ca 4 ab",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 06/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x + y + z = 0, then what will be the value  x 2   y 2   z 2  of         ?  yz   zx   xy       ",
+    "options": [
+      "3(/xy",
+      "x 2  y 2  z 2 )/z",
+      "x/x",
+      "2 y 2 z 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 y 2 z 2) | Exam: SSC CHSL 24/05/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 0, then  a  b b  c c  a   a b c          is :",
+    "options": [
+      "8",
+      "9",
+      "– 3",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x = + , y = + , z = + , b a c b a c then what is the value of xyz – x2 – y2 – z2",
+    "options": [
+      "–4",
+      "–2",
+      "–1",
+      "–6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (–4)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a3b = abc = 180, a, b, c are positive",
+    "options": [
+      "110",
+      "1",
+      "4",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x = a  and y = a – then a a x 4  y 4 – 2 x 2 y 2 is equal to : (a) 16a2 (b) 8 8 (c) (d) 4 a 2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x = 2 – p, then x3 + + 6xp + p3 is equal to",
+    "options": [
+      "12",
+      "6",
+      "8",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "Find the product of (a + b + 2c)(a2 + b2 + 4c2 – ab – 2bc – 2ca).",
+    "options": [
+      "a3 + b3 + 8c3 – 6abc",
+      "a3 + b3 + 6c3 – 6abc",
+      "a3 + b3 + 8c3 – 2abc",
+      "a3 + b3 + 8c3 – abc"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (a3 + b3 + 8c3 – 6abc) | Exam: SSC CGL 07/03/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b – c = 5 and ab – bc – ac = 10, then find the value of a2 + b2 +c2.",
+    "options": [
+      "15",
+      "45",
+      "5",
+      "40"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CGL 18/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a + b + c = 11 and ab + bc + ca = 28, then find the value of a³ + b³ + c³ – 3abc.",
+    "options": [
+      "407",
+      "1639",
+      "2255",
+      "1093"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (407) | Exam: SSC CGL 19/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If p = 11, then the value of p(p2 + 3p + 3) is:",
+    "options": [
+      "1629",
+      "1225",
+      "1727",
+      "1111"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1727) | Exam: SSC CHSL 25/05/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If p = 38, then the value of p(p2 + 3p + 3) is _________.",
+    "options": [
+      "39313",
+      "59319",
+      "39318",
+      "59318"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (59318) | Exam: SSC CHSL 06/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x = 11, then the value of (x5 – 12x4 + 12x3 – 12x2 + 12x – 1) is:",
+    "options": [
+      "10",
+      "8",
+      "9",
+      "14"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a4 + b4 + a²b² = 273 and a² + b² – ab =  1 1  21, then one of the values of     is:   a b",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Exam: SSC CGL 24/08/2021 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x4 + y4 + x2y2 = 1716 and x² – xy + y² 1 = 5 , then one of the values of (x – y) is: 4",
+    "options": [
+      "5/2",
+      "3/4",
+      "5/4",
+      "3/2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5/2) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "ab(a – b) + bc(b – c) + ca(c – a) is equal to :",
+    "options": [
+      "(a + b)(b – c)(c – a)",
+      "(a – b)(b + c)(c – a)",
+      "(a – b)(b – c)(c – a)",
+      "(b – a)(b – c)(c – a)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((b – a)(b – c)(c – a))"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x4 + x2y2 + y4 = 273 and x2 – xy + y2 = 13, then the value of xy is :",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC CGL 05/03/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If 16a4 + 36a2b2 + 81b4 = 91 and 4a2 + 9b2 – 6ab = 13, then what is the value of 3ab?",
+    "options": [
+      "– 3",
+      "2 3",
+      "5",
+      "– 2 2   x +1  2 7( x 1) – 17 x"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (– 2 2   x +1  2 7( x 1) – 17 x) | Exam: SSC CGL 04/03/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If = 2, then   = ?",
+    "options": [
+      "6.45",
+      "6.53",
+      "6.86",
+      "6.31"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6.45)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If = 7 + then x x 2",
+    "options": [
+      "12",
+      "12 2",
+      "12 3",
+      "24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If 8k6 + 15k3 – 2 = 0, then the positive value  1  of  k +  is:  k ",
+    "options": [
+      "2",
+      "2",
+      "8",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2) | Exam: SSC CGL 12/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If (ab + bc + ca) = 0, then what is the value  1 1 1  of      ?  a 2 – bc b 2 – ca c 2 – ab ",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "a + b + c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0) | Exam: SSC CHSL 09/06/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If px3 + x2 + 3x + q is exactly divisible by (x + 2) and (x – 2), then the values of p and q are:",
+    "options": [
+      "p  – and q  4 4 3",
+      "p  and q  4 4 3",
+      "p  and q  – 4 4 3",
+      "p  – and q  – 4 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (p  – and q  – 4 4) | Exam: SSC CHSL 08/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "What is the value of the following expression?  a  (a  b)  b  (b  c)  c  (a  c) x x x 2 2    3 2    6 –2    x b   x c   x a       ",
+    "options": [
+      "1",
+      "0",
+      "4",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CHSL 08/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "Simplify the following expression. 5(a 6 – b 6 ) 3  5(b 6 – c 6 ) 3  5(c 6 – a 6 ) 3 2(a 3 – b 3 ) 3  2(b 3 – c 3 ) 3  2(c 3 – a 3 ) 3",
+    "options": [
+      "(a³ + b³)(b³ + c³)(c³ + a³) 2 5",
+      "(a³ + b³)(b³ – c³)(c³ – a³) 2 5",
+      "(a³ – b³)(b³ + c³)(c³ + a³) 2 5",
+      "(a³ – b³)(b³ – c³)(c³ + a³) 2 Algebra (Sheet-03)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((a³ + b³)(b³ + c³)(c³ + a³) 2 5) | Exam: SSC CGL 24/08/2021 (Shift- 02)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x3 + 4x = 8, find x7 + 64 x2 ?",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (128)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x2 – 5x + 25 = 0 then x5 – 5x4 – 3100 ?",
+    "options": [
+      "25",
+      "25 2",
+      "25 3",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If (x + 5) (x + 6) + = 0, Find 3x2 + x ( x – 1)",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If ax + by = 8, ay – bx = 6, a2 + b2 + x2 + y2 = 29 a 2 + b 2 Find ; a2 + b2 > x2 + y2 ? ( x 2 + y 2 )",
+    "options": [
+      "4 27",
+      "4 23",
+      "4 29",
+      "4 a 2  b 2  c 2 – 1024"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 27)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If = – 2 and a + b = 5c, ab – bc – ca where c > 0, then the value of c is _____.",
+    "options": [
+      "8",
+      "4",
+      "12",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If a3 – b3 = 602 and a – b = 2, then find the value of (a2 + b2). IB ACIO GRADE II 17/01/2024 (Shift-01)",
+    "options": [
+      "156",
+      "240",
+      "202",
+      "260 2 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (202)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x  7  7 3  7 3 , then which of the options below is correct. IB ACIO GRADE II 17/01/2024 (Shift-02)",
+    "options": [
+      "x3 + 21x2 – 126x – 252 = 0",
+      "x3 + 21x2 – 126x + 252 = 0",
+      "x3 – 21x2 – 126x + 252 = 0",
+      "x3 – 21x2 + 126x – 252 = 0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (x3 – 21x2 + 126x – 252 = 0)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "Select the option that is true regarding the following labelled Assertion",
+    "options": [
+      "and Reason (R). Assertion (A): The value of   3.9  3  9  1.3  4.29  11.7   1.1  2  1.331     1.23  1.23  0.77  0.77  0.6  4.1     is 31.25. Reason (R): Using (a + b)3 = a3 + b3 + 3ab (a + b) and (x + y)2 = x2 + y2 + 2xy IB ACIO GRADE II 18/01/2024 (Shift-01) ANSWER 1.",
+      "Algebra (Sheet-03) (a) A is true and R is false. (b) Both A and R are true but R is not a correct explanation of A.",
+      "Both A and R are true and R is a correct explanation of A.",
+      "A is false and R is true."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Both A and R are true and R is a correct explanation of A.)"
+  },
+  {
+    "id": "rkr_algebra_algebra_classroom_sheet_03_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Algebra (Classroom Sheet-03).pdf",
+    "question": "If x, y and z are positive numbers and x + y + 1 1 1 z = 1, then the least value of + + is: x y z",
+    "options": [
+      "7",
+      "5",
+      "9",
+      "11"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9) | Exam: SSC CGL 09/09/2024 (Shift-03)"
+  }
+]

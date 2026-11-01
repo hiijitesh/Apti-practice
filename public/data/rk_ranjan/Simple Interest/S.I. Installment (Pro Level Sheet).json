@@ -1,0 +1,291 @@
+[
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "Find the annual installment that will discharge a debt",
+    "options": [
+      "`9000",
+      "`3000",
+      "`7000",
+      "`5000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`3000) | Solution: (b) Amount due = Rs. 12900 Let the value of each installment be = 100 unit Amount due = 100 + 105 + 110 + 115 = 430 unit  Value of each installment = 12900 430 100 = Rs.3000 Alternate Method: Amount due = Rs.12900 R = 5% yearly Total number of insta"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "Anil promised to pay Rs.9,048 to Ramesh",
+    "options": [
+      "Rs.1,560",
+      "Rs.1,300",
+      "Rs.1,415",
+      "Rs.1,610"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Rs.1,560) | Solution: (a) Due debt = Rs.9048 Let the value of each installment = 100 unit Due debt = 100 + 108 + 116 + 124 + 132 = 580 unit  Each installment = 9048 580 100 = Rs.1560"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A person borrows Rs.10 and return",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (21) | Solution: (b) R (10 9 8"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A cell phone is available for Rs.600 or for Rs.300 cash down payment together with Rs.360 to be paid after two months. Find the rate of interest charged under this scheme.",
+    "options": [
+      "60",
+      "120",
+      "20",
+      "50"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (120) | Solution: (b) Given P = 600 – 300 = Rs.300 S.I = 300 r 2 12 100    60 = 300 r 2 12 100    r = 120"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "What five monthly payment will discharge a debt of 1",
+    "options": [
+      "`30,000",
+      "`31,000",
+      "`20,000",
+      "`33,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`30,000) | Solution: (a) r = 12 5 5% 12   , t = 15 5 = 3 times Due debt = 100 + 105 + 110 = 315 unit  Installment = 94500 100 315  = Rs.30,000"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "An amount of Rs.16000 which was borrowed 3 years",
+    "options": [
+      "Rs.7000",
+      "Rs.6000",
+      "Rs.7500",
+      "Rs.6500"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Rs.6500) | Solution: (d) 100 I 200 II 1yr,10% 300 III 220  120 2yr,10% Installment 1 2 2 3 300 + 220 + 120 = 640 unit SOLUTIONS 640 unit  16000 100 30 100  Then 2nd installment = 200 unit  Rs.6500"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A Sonata watch is sold of Rs.440 cash or for Rs.200 cash down payment together with Rs.244 to be paid after one month. Find the rate of interest charged",
+    "options": [
+      "10",
+      "15",
+      "25",
+      "20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20) | Solution: (d) Cash payment = Rs.440 Down payment = Rs.200 Remaining = 440 – 200 = Rs.240 Paid = Rs.244 Interest = 244 – 240 = Rs.4 One month principal = Rs.240 SI = 100 4 = R = 20"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.400 borrowed is to be returned",
+    "options": [
+      "25.4",
+      "32.33",
+      "36.36",
+      "33.33"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (33.33) | Solution: (d) Debt = Rs.400 installment = 50 9 = Rs.450 interest = 450 – 400 = Rs.50 50 = (400 + 350 + 300 + 250 + 200 + 150 + 100 + 50) R 1 100 12  50 = 1800 R 1200  R = 33.33"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "An annual installment of `3,500 will discharge a debt",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Solution: (d) 3500 4 = Rs.14000 Interest = (16310 – 14000) = Rs.2310 Let, y = rate of interest IV  3y III  2y II  y I  0 6y% 3500 = Rs.2310 y = 2310 100 3500 6   y = 11% Alternate Method: Annual installment = Rs.3500 Debt = Rs.16310 Time= 4 years Sim"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple",
+    "options": [
+      "`1,55,945",
+      "`1,95,455",
+      "`1,94,555",
+      "`1,45,955"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`1,95,455)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A bicycle can be purchased on cash payment of rupees 1500. But the same cycle can also be purchased on the cash down payment of rupees 350 and rest",
+    "options": [
+      "16",
+      "18",
+      "26",
+      "22"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (26)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A person sells an electric heater for Rs.1100. Rs.500 is to be paid down payment and Rs.620 after one month. The same electric heater is sold to another person for Rs.600 down payment and Rs.540 after one month. Find the ratio of the simple interest rate",
+    "options": [
+      "5 : 12",
+      "1 : 2",
+      "2 : 3",
+      "None of these S.I. Installmen"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 : 12)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A man wants to purchase a T.V. of Rs.9000. He paid Rs.2200 at the time of purchasing and rest amount",
+    "options": [
+      "12",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (12)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "A mobile phone is available for Rs.25,000 or Rs.5,200 down payment, followed by 4 equal monthly installments. If the rate of interest is 25% p.a. simple interest, calculate the amount of each installment.",
+    "options": [
+      "Rs.5,020",
+      "Rs.5,200",
+      "Rs.5,362",
+      "Rs.5,355"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.5,200)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "Pranav borrows a sum of Rs.6,23,305 at the rate of 10% per annum simple interest. At the end of the first year, he repays Rs.16,390 towards return of principal amount borrowed. If Pranav clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much",
+    "options": [
+      "7,25,903",
+      "7,29,025",
+      "7,38,700",
+      "7,29,937"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7,29,937)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "P borrows a sum of `5,00,000 from a bank which charges simple interest at the rate of 18% per annum at the beginning of the year. He pays 11 equal monthly installments of `40,000 and mortgages his bike at the end of the year to pay the remaining amount. What is the value of the mortgages bike?",
+    "options": [
+      "`1,50,000",
+      "`1,75,000",
+      "`1,25,000",
+      "`1,10,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`1,50,000)"
+  },
+  {
+    "id": "rkr_simple_interest_s_i_installment_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "S.I. Installment (Pro Level Sheet).pdf",
+    "question": "Rachel borrowed Rs.10,000 at 10% simple interest per annum. She paid back Rs.3,000 after 1 Year, Rs.2,800 after 2 Year, and the remaining amount due after 3 Year. If interest was charged on reducing balance, what was the amount Rachel paid as the final installment?",
+    "options": [
+      "Rs.7,200",
+      "Rs.6,600",
+      "Rs.4,620",
+      "Rs.5,850"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Rs.6,600)"
+  }
+]

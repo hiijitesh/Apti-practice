@@ -1,0 +1,546 @@
+[
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "a is x % of b, b is x% more than a. Find x.",
+    "options": [
+      "50",
+      "62",
+      "75",
+      "37"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (62) | Solution: (b) b a = 100 x  b (100 ) b = 100 100 x x   x² + 100x – 10000 = 0 –100 100² – 4 1 (–10000) = 2 x    –100 50000 2   x  –100 100 5 2  = – 50 + 50 5 = 62"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Ram saves y% of his income. If his income increase by 28% and the expenditure increase by 20% then his savings increase by 40%.What is the value of y?",
+    "options": [
+      "35",
+      "40",
+      "50",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40) | Solution: (b) Old New Income 100 128 7 Saving y 5 Exp. 100 – y y (128 – ) 7 5 y    ATQ, (100 – y) : 7 128 – y 5       = 5 : 6 600 – 6y = 640 – 7y  y = 40 SOLUTIONS ANSWER KEY"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+    "options": [
+      "20.7",
+      "25.5",
+      "30.2",
+      "24.6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (24.6)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A fruit seller sells 45% of the oranges that he has along with one more orange to a customer. Then he sells 20% of the remaining oranges and 2 more oranges to a second customer. Then he sells 90% of the now remaining oranges to a third customer and is still left with 5 oranges. How many oranges did the fruit seller have initially?",
+    "options": [
+      "100",
+      "111",
+      "121",
+      "120"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (120)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A number X is first increased by 35% and then decreased by 5.55%. The number, so obtained, is now 1 increased by 23 % . If the number, has increased 13 2 by 8806 than original number X, then find 14 % 7 of the number X?",
+    "options": [
+      "2210",
+      "2079",
+      "2100",
+      "2590"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2210)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Reliance Jio kept increasing its customer by the same percentage every year. Find the percentage if it is known that the company’s interaction with customers is doubled after two years.",
+    "options": [
+      "1002",
+      "100(2+1)",
+      "100(2–1)",
+      "100(3–1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (100(2–1))"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Raghu took a bag which contains a total of 600 coins and was assumed to value Rs.250. Some of the coins were of 25 paisa denominations & rest were 50 paisa denomination. If he gave 10% of 25 paisa coins & 25% of 50 paise coins to his friend what is the percentage",
+    "options": [
+      "22",
+      "24",
+      "18",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (22)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Bobby’s income’s p% is equal to Ron’s income’s q%. If Bobby’s income were y rupees less than his present income and Ron’s income were z rupees more than his income, then the ratio of Bobby’s income to Ron’s income would be m : n. The total actual combined income of both is x rupees. From the above question, and the statements given below, which one is correct?",
+    "options": [
+      "Only Statement 1 is possible.",
+      "Neither of the two statements is possible.",
+      "Only Statement 2 is possible.",
+      "Both statements are possible."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Both statements are possible.)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of item A is 40% more than the price of item B, and the price of item B is 25% less than the price of item C. The price of A is reduced by 20%, while the prices of B and C are increased by 24% and 33% respectively.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The total cost of 3 pens and 4 notebooks is Rs.235. If the price of a pen is reduced by 20% and the price of a notebook is increased by 10%, then the total cost of 2 pens and 3 notebooks will be Rs.172. What is the total",
+    "options": [
+      "375",
+      "365",
+      "355",
+      "385"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (375) | Solution: 5% = 8 Let A got 8k votes then B got (70 – 8k) ATQ, 8k – k = (70 – 8k) + k 7k = 70 – 7k 14k = 70 k = 5 A  8k = 8 5 = 40 B  70 – 40 = 30 40 – 30 = 10 unit  400 1 unit  40 100 unit  4,000 Alternate Method:- Let, the vote of A = 8 –12.5% = 7 8 8 = "
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Every day a fruit shopkeeper sells half of his stock, 20% of the stock gets spoiled overnight. If 1092 fruits rotted over 3 nights, then how many did he start with on the first day?",
+    "options": [
+      "5000",
+      "12000",
+      "7000",
+      "9000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Out of 85 children playing badminton or table tennis",
+    "options": [
+      "14",
+      "16",
+      "17",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Every month, a man consumes 20 kg of rice and 8 kg of wheat. The price of rice is 20% of the price of",
+    "options": [
+      "40",
+      "38",
+      "24",
+      "22"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (40)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "During the lockdown, a state government gives 4.5 kg of rice to each person of a family at a cost price of `40 per kg. But the distributor uses false weight of 3.75 kg instead of 4.5 kg and distributes the rice.",
+    "options": [
+      "`36,000",
+      "`45,000",
+      "`28,000",
+      "`54,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`45,000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
+    "options": [
+      "20",
+      "10",
+      "500",
+      "100"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (100)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present",
+    "options": [
+      "1840",
+      "1380",
+      "920",
+      "2760"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1840)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "If decreasing 110 by x% gives the same result as increasing 50 by x%, then x% of 650 is what percentage more than (x",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "% of 180? (correct to nearest integer)",
+    "options": [
+      "420",
+      "400",
+      "500",
+      "350"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "A man started a business with a certain capital amount.",
+    "options": [
+      "20,000",
+      "30,000",
+      "25,000",
+      "32,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30,000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of an article increases by 20% every year. If the difference between the price of the article at the end of the third year and at the end of the fourth year is `324, what is the price of the article at the end of the second year?",
+    "options": [
+      "`1350",
+      "`1250",
+      "`1260",
+      "`1180"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`1350)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Income of a person decreases by `3000 and rate of income tax increased from 15% to 18%. The ratio of paid tax is 3 : 2. If 29% income is tax free. Find initial income.",
+    "options": [
+      "`6750",
+      "`5550",
+      "`7750",
+      "`6250"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`6750)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Two saleswomen, Kavita and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavita gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If",
+    "options": [
+      "`19,200",
+      "`21,600",
+      "`17,800",
+      "`23,400"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`23,400)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The price of sugar increased by 5%, then increased by 2% and again reduced by x%. So a family 1 increased their consumption by 19 % and their 21 1 expenditure on sugar is 122 % more than previous. Final the value of x?",
+    "options": [
+      "1117",
+      "15",
+      "13",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1117)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The population of a town increases annually by 20%. If the present population is 80 lakh, then what is the difference between the population three years ago and 2 years ago?",
+    "options": [
+      "75592.6",
+      "85592.6",
+      "65592.6",
+      "925925.93"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (925925.93)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "of voters promise to vote for A and the rest promise 7 to vote for B. Of these, on the last day 12% of the voters went back on their promise to vote for A and 20% of voters went back on their promise to vote for B, and A Lost by 234 votes. The total number of voters was: 3",
+    "options": [
+      "13,650",
+      "14,555",
+      "15,550",
+      "12,525"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13,650)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Prabhat was buying a book to gift to his friend, he first paid the shopkeeper 60% of the money that he had with him. However, he immendiately realized that the amount he paid was only 80% of the price of the book. So, he further offered 55% of the money remaining with him to shopkeeper and received `56 chocolate",
+    "options": [
+      "`144",
+      "`120",
+      "`112",
+      "`168"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`144)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "XYZ district has 50000 voters. 20% of them are urban voters and 80% are rural voters. For an election, 25% of the rural voters migrated to the city. 60% of the voters, both rural and urban, are honest, 70% are hardworking, 35% are honest as well as hardworking. Two candidates, A and B, contested the election. Candidate B got the overall urban vote, while candidate A got the support of rural voters. Those voters cast their vote on NOTA, which is both honest",
+    "options": [
+      "19500, 13000 and 17500",
+      "17000, 15500 and 17500",
+      "17875, 14625 and 17500",
+      "19000, 13500 and 17500"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (19500, 13000 and 17500)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The monthly salary of a person was `1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20",
+    "options": [
+      "2,11,680",
+      "1,28,160",
+      "1,18,620",
+      "1,62,810"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1,28,160)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Consider the given question and decide which of the following statements is sufficient to answer the question.",
+    "options": [
+      "Either 1 or 2 is sufficient to answer the question",
+      "Both 1 and 2 are sufficient to answer the question",
+      "1 alone is sufficient while 2 alone is not sufficient to answer the question",
+      "2 alone is sufficient while 1 alone is not sufficient to answer the questio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Either 1 or 2 is sufficient to answer the question)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money",
+    "options": [
+      "9600",
+      "12000",
+      "15000",
+      "10800"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12000)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than ‘q’. Let 'x' be the ratio of the population of country A to",
+    "options": [
+      "10/",
+      "0  p – q  100  p – q /100 – q  100 + p",
+      "10/10",
+      "0  p – q  100  p – q /0 – p 100 + q"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (10/)"
+  },
+  {
+    "id": "rkr_percentage_percentage_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "sheetType": "Pro Level",
+    "sheetFile": "Percentage (Pro Level Sheet).pdf",
+    "question": "Out of the total toffees, are wasted. 35% of the rest 10 1 are given to S and of the total are given to N. If the 8 toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? 1",
+    "options": [
+      "126",
+      "150",
+      "110",
+      "135"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (126) | Solution: Out of the total toffees, 1 10 are wasted. 35% of the rest are given to S and 1 8 of the total are given to N. If the toffees with N are 10 more than the wasted toffees, then how many toffees were given to S? VkWfiQ;ksa 1 10 •jkc gks tkrh 'ks\"k 35»] "
+  }
+]

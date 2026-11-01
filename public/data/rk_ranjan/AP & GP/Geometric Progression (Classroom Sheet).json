@@ -1,0 +1,410 @@
+[
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "If the first term is 216 and the common 5 ratio is , what will be the 4th term of 6 the G.P.? 5",
+    "options": [
+      "129",
+      "123",
+      "127",
+      "125"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (125)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find the 11th term",
+    "options": [
+      "6812",
+      "6720",
+      "6144",
+      "6446"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6144)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "How many terms are there",
+    "options": [
+      "7",
+      "11",
+      "13",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Which term of the G.P. 2, 1, , ,... is ? 2 4 128 1 1 1",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (9)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "If x, 2x + 2, 3x + 3 are first three terms of a GP then find its 4th term.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Three positive numbers form an increasing",
+    "options": [
+      "2  3",
+      "3  2",
+      "2 – 3",
+      "2  3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2  3)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find product of first 5 terms of a GP if a3 = 2",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (32)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "If 4th and 5th term of a G.P. are 2 and 8 respectively, then the product of the first 8 terms is",
+    "options": [
+      "88",
+      "168",
+      "48",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (48)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find the sum of 3 + 32 + 33 + ... + 38.",
+    "options": [
+      "6561",
+      "6560",
+      "9840",
+      "3280"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9840)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find the sum of the G.P.",
+    "options": [
+      " 1 –   ",
+      " 1 –   ",
+      " 1 –   ",
+      " 1 –   "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ( 1 –   )"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find the sum of the following series:",
+    "options": [
+      "18/25",
+      "19/24",
+      "18/23",
+      "18/25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (19/24)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Find the sum up to n terms of the sequence:",
+    "options": [
+      "7n–1 7",
+      " 9n – 1  10 –n    81 7n",
+      "81 7n  1",
+      "10n Note: (a) 3 terms (b) 4 terms (c) 5 terms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( 9n – 1  10 –n    81 7n)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Sum of first three terms of a GP is 19 & their product is 216. Find the three numbers.",
+    "options": [
+      "6, 8, 12",
+      "6, 9, 12",
+      "2, 4, 6",
+      "4, 6, 9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4, 6, 9)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Ram gives his son Rs. 100 on one day, Rs. 50 on the second day. Rs 25 on third day and so on,. What will be total amount given by Ram to his son starting from the first day, if he lives forever?",
+    "options": [
+      "200",
+      "120",
+      "250",
+      "100"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (200)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "After striking the floor, a ball rebounds to 4 th of the height from which it has 5 fallen. Find the total distance that it travels coming to rest if it has been gently dropped from a height of 120 meters.",
+    "options": [
+      "540 mtrs",
+      "960 mtrs",
+      "1080 mtrs",
+      "1120 mtrs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1080 mtrs)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "A square is drawn by joining the mid points of the sides of a square. A third square is drawn inside the second square",
+    "options": [
+      "100 cm2",
+      "200 cm2",
+      "250 cm2",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (200 cm2)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "An equilateral triangle by joining the midpoints of a given equilateral triangle of side 18cm. A thord triangle is drawn inside",
+    "options": [
+      "324 3",
+      "108 3",
+      "54 3",
+      "200 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (108 3)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "The mid points of an equilateral triangle are joined. Forming a second triangle, a third triangle is formed joining the midpoints of the second and the process continued infinitely. If the area of the first traingle is 24 units, then find the sum of areas of all triangles.",
+    "options": [
+      "26",
+      "28",
+      "32",
+      "36"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (32)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Sum of first 63 terms of a G.P. is equal to",
+    "options": [
+      "0",
+      "4",
+      "2",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "Sum of first 13 items of a G.P. is equal",
+    "options": [
+      "1300",
+      "1400",
+      "1200",
+      "1100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1200)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "The geometric mean of two numbers is 8 and their harmonic mean is 6.4, the numbers are",
+    "options": [
+      "2, 8",
+      "4, 16",
+      "6, 16",
+      "8, 16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4, 16)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "For two observations, the sum is S and product is P. What is the harmonic mean of these two observations?",
+    "options": [
+      "Answer/Geometric Progression",
+      "5.(a)",
+      "Answe/Geome",
+      "r/tric Progression"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Answe/Geome)"
+  },
+  {
+    "id": "rkr_ap_gp_geometric_progression_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "AP & GP",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Geometric Progression (Classroom Sheet).pdf",
+    "question": "If arithmetic ad geometric mean of x and y is 8 and 3 7 respectively, then the value of x³ + y³ is?",
+    "options": [
+      "Key",
+      "8.(c) 9.(c) 10.(a)",
+      "Key",
+      "7.(b) 8.(c) 9.(c) 10.(a)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Key) | Exam: phase IX 01/08/2022 (Shift-04)"
+  }
+]

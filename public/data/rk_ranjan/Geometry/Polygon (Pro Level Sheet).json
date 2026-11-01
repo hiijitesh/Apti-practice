@@ -1,0 +1,240 @@
+[
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "If a regular polygon has each of its interior angles 3 equal to times of two right angles, then the 5 number of sides is:",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5) | Solution: (b) Each interior angle = 180° 3 5 = 108° Each exterior angle = 180° – 108° = 72°  No. of sides = 360 5 72   Alternate Method:- ATQ, Each Interior angle = ("
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "The difference between an exterior angle of (n-1) sided regular polygon and an exterior angle of (n+2) sided regular polygon is 6°, then the value of n is:",
+    "options": [
+      "14",
+      "13",
+      "15",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13) | Solution: 2 x x  = 21 18 2  = 189 Alternate Method:  no. of sides (x) = 5 + 16 = 21 No. of diagonal = ("
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "The interior angle of a regular polygon 36° more than 5 times of its one exterior angle. Find the number of",
+    "options": [
+      "77",
+      "119",
+      "104",
+      "90"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (90) | Solution: (d) ATQ, I + E = 180° 36° + 5E + E = 180° 6E = 144° E = 24° No of sides = 360 24 = 15 Now, No. of diagonals = n (n"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "Two regular polygons are such that the ratio between their number of sides is 1:2 and the ratio of measures of their interior angles is 3:4. Then the number of sides of each polygon are:",
+    "options": [
+      "10,20",
+      "4,8",
+      "3,6",
+      "5,10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5,10) | Solution: (d) ATQ, 1 2 I I = 1 1 2 2 (n"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "What is the ratio of the interior angle to the exterior angle of a regular polygon with n sides?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "The length of each side of a regular hexagon is 10 cm. What is the area of the hexagon?",
+    "options": [
+      "156 3 cm 2",
+      "144 3 cm 2",
+      "148 3 cm 2",
+      "150 3 cm 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (150 3 cm 2)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "ABCDEF is a regular hexagon with side 12cm. P, Q and R are the midpoints of AF, ED and BC respectively, find the area of PQR?",
+    "options": [
+      "72 3 cm 2",
+      "81 3 cm 2",
+      "54 3 cm 2",
+      "90 3 cm 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (81 3 cm 2)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "Area of regular octagon is 2 1 . Find the side of octagon.   ",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "What is the diameter of a circle inscribe regular polygon of 15 side with side length unity?",
+    "options": [
+      "0.5 cot 12°",
+      "cot 12°",
+      "0.5 tan 12°",
+      "tan 12°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (cot 12°)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "The ratio between the number of sides of two regular polygon 1 : 2 and the ratio between their interior angle is 2 : 3. The number of sides of these polygons are respectively.",
+    "options": [
+      "3, 6",
+      "5, 10",
+      "6, 9",
+      "4, 8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4, 8)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "If one of the interior angles of a regular polygon is 3 equal to times of one of the interior angles of a 4 regular hexagon, then the number of sides of the polygon is:",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4)"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "ABCDEF is a regular hexagon of side 2 feet. The area",
+    "options": [
+      "8",
+      "4  4 3",
+      "4",
+      "4 3 ANSWER (c) 2. (b) 3. (b) 4. (d) 5. (d) (cgqHkqt)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Solution: ABCDEF is a regular hexagon of side 2 feet. The area square feet) of the rectangle BCEF is : ABCDEF 2 iQhV Hkqtk okyk ,d fu;fer \"kV~Hkqt vk;r BCEF {ks=kiQy (oxZ iQqV (a) 8 (b) 4 4 3  (c) 4 (d) 4 3"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "If the interier angles of a polygon are",
+    "options": [
+      "9 or 16",
+      "9",
+      "13",
+      "3 or 16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9 or 16) | Solution: If the interier angles of a polygon are A.P. with common difference 5º and the smallest angle 120º, then the number of sides of the polygon is: ;fn fdlh cgqHkqt vkarfjd lkoZ 5º 120º lkaekUrj rks cgqHkqt Hkqtkvksa (a) 9 or 16 (b) 9 (c) 13 (d) 3 or 16"
+  },
+  {
+    "id": "rkr_geometry_polygon_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Polygon (Pro Level Sheet).pdf",
+    "question": "ABCDE is a regular pentagon. The bisector of A of",
+    "options": [
+      "80°",
+      "90°",
+      "75°",
+      "60° KEY 6. (c) 7. (d) 8. (b) 9. (a) 10. (b)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (80°) | Solution: ABCDE is a regular pentagon. The bisector of A of the pentagon meets the side CD M. Find AMC. ABCDE ,d fu;fer iapHkqt iapHkqt A lef}Hkktd M ij Hkqtk CD feyrk AMC (a) 80° (b) 90° (c) 75° (d) 60°"
+  }
+]

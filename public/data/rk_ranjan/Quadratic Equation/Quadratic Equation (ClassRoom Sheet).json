@@ -1,0 +1,342 @@
+[
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If  and  are the roots of 4x2 + 3x + 7 = 0, 1 1 then the value of + is:  ",
+    "options": [
+      "4/7",
+      "–3/7",
+      "3/7",
+      "–3/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4/7)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If  and  are roots of the equation x2 – x + 1 = 0, then write the value of 2 + 2.",
+    "options": [
+      "1",
+      "–1",
+      "0",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If the equation 2x2 – 7x + 12 = 0 has two  roots a & b, then the value of . ",
+    "options": [
+      "97/24",
+      "7/2",
+      "1/24",
+      "7/24"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (97/24)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "One root of quadratic equation x² – kx + 27 = 0 is 3, then find the value of 'k'. f}?",
+    "options": [
+      "10",
+      "12",
+      "–12",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "Find the value of k if one root of the equation: x2 – 9x + k = 0 is twice the other root.",
+    "options": [
+      "18",
+      "16",
+      "12",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "Find the value of k so that the sum of the roots of equation 3x2 + (2k + 1) x – k – 5 = 0 is equal to the product of the roots :",
+    "options": [
+      "4",
+      "–4",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If sum of the roots of a quadratic equation is 1 and product of the roots is -20.",
+    "options": [
+      "x² – x – 20 = 0",
+      "x² + x + 20 = 0",
+      "x² + x – 20 = 0",
+      "x² – x + 20 = 0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (x² – x + 20 = 0)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "Which of the following quadratic equation has roots –3 and –5.",
+    "options": [
+      "x² – 8x + 15 = 0",
+      "x² – 8x – 15 = 0",
+      "x² + 8x + 15 = 0",
+      "x² + 8x – 15 = 0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (x² + 8x + 15 = 0)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If ,  are roots of the equations x2 – 5x + 6 = 0 then find the quadratic equation whose 1 1 roots are ,  ",
+    "options": [
+      "6x2 – 5x + 1 = 0",
+      "6x2 + 5x + 1 = 0",
+      "6x2 – 5x – 1 = 0",
+      "6x2 + 5x – 1 = 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6x2 – 5x + 1 = 0)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If  and  are the roots of equation x² –",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If  and  are the roots of the equation x² – 3x + 2 = 0, then the quadratic equation whose roots ar ( + 1) and ( + 1) is.",
+    "options": [
+      "x² – 5x + 6 = 0",
+      "x² + 5x – 6 = 0",
+      "x² + 5x + 6 = 0",
+      "x² – 5x – 6 = 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (x² – 5x + 6 = 0)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": " and  are the roots of quadratic equation. If  +  = 8 and  –  = 25, then which of the of the following equation will have roots  and ?",
+    "options": [
+      "x² – 1522x + 14641 = 0",
+      "x² + 1921x + 14641 = 0",
+      "x² – 1764x + 14641 = 0",
+      "x² + 2520x + 14641 = 0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (x² – 1522x + 14641 = 0)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "When (x4 – 3x3 + 2x2 – 5x + 7) is divided by (x – 2), the remainder is –",
+    "options": [
+      "3",
+      "–3",
+      "2",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (–3)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "When f(x) = 15x3 – 14x2 - 4x + 10 is divided by (3x + 2), then the remainder is:",
+    "options": [
+      "– 1",
+      "1",
+      "– 2",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CHSL 27/05/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If 5x3 + 5x2 – 6x + 9 is divided by (x + 3), the remainder is :",
+    "options": [
+      "135",
+      "63",
+      "–135",
+      "–63"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–63)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If x3 + 2x2 – ax – b is exactly divisible by (x2 – 1), then the values of a and b are :",
+    "options": [
+      "a = – 1 and b = 2",
+      "a = 1 and b = – 2",
+      "a = 1 and b = 2",
+      "a = 2 and b = 2 Answer 1.(b) 2.(b) 3.(c) 4.(b) 5.(a"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (a = 1 and b = 2) | Exam: CHSL 2019 21/10/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If px3 + x2 + 3x + q is exactly divisible by (x + 2) and (x – 2), then the values of p and q are:",
+    "options": [
+      "p  – and q  4 4 3",
+      "p  and q  4 4 3",
+      "p  and q  – 4 4 3",
+      "p  – and q  – 4 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (p  – and q  – 4 4) | Exam: SSC CHSL 08/06/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "Let f(x) = x3 – 6x2 + 11x – 6, then which one of the following is not a factor of f(x) ?",
+    "options": [
+      "(x – 1)",
+      "(x – 2)",
+      "(x + 3)",
+      "(x – 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((x + 3))"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "If (x + 2) and (x – 3) are the factors of x² + k1x + k2 , then:",
+    "options": [
+      "k1 = 1 and k2 = – 6",
+      "k1 = –1 and k2 = – 6",
+      "k1 = –1 and k2 = 6",
+      "k1 = 1 and k2 = 6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (k1 = –1 and k2 = – 6) | Exam: SSC CHSL 09/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_quadratic_equation_quadratic_equation_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Quadratic Equation",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Quadratic Equation (ClassRoom Sheet).pdf",
+    "question": "For what value(s) of k will the expression 1 p  p  k 2 be a perfect square ? 9",
+    "options": [
+      "k ",
+      "k ",
+      "k ",
+      "k "
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (k ) | Exam: SSC CHSL 10/06/2022 (Shift- 02)"
+  }
+]

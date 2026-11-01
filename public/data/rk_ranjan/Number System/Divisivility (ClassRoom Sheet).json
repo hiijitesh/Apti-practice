@@ -1,0 +1,1855 @@
+[
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What is the condition for a number to be divisible by 3?",
+    "options": [
+      "The difference between the sum of the odd and even digits of that number is divisible",
+      "The last two digits of that number are foHkkT; gksa",
+      "The sum of the digits of that number is foHkkT; gks",
+      "The last digit of that number is either 0 or"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (The sum of the digits of that number is foHkkT; gks) | Exam: SSC CHSL TIER-II 26/06/2023"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Number 30744 is divisible by which one digit number?",
+    "options": [
+      "All the other numbers except 5 and 7",
+      "only 2, 3 and 6",
+      "only 2, 3, 6 and 9",
+      "All the other numbers except 5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (All the other numbers except 5) | Exam: SSC CPO 16/03/2019 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Number 106974 is divisible by which one digit number?",
+    "options": [
+      "only 2, 3, 4 and 7",
+      "only 2 and 3",
+      "only 2, 3 and 4",
+      "only 2, 3 and 7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (only 2, 3 and 7) | Exam: SSC CPO 15/03/2019 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the difference between squares of the greatest value and the smallest value of P if the number 5306P2 is divisible by 3.",
+    "options": [
+      "60",
+      "68",
+      "36",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (60) | Exam: SSC CGL 16/08/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the value of k such that the number k53206k is divisible b",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is divisible by 8?",
+    "options": [
+      "6816",
+      "5006",
+      "6124",
+      "6006"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (6816) | Exam: SSC Phase-XII 26/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 8-digit number 123456xy is divisible by 8, then the total possible pairs of (x,y) are:",
+    "options": [
+      "8",
+      "13",
+      "10",
+      "11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (13) | Exam: SSC CGL 03/12/2022 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following options is divisible by 9?",
+    "options": [
+      "42563",
+      "12366",
+      "32458",
+      "24652"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12366)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the least value of x for which 57x716 is divisible by 9.",
+    "options": [
+      "1",
+      "9",
+      "0",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CGL 17/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "A 9-digit number 846523X7Y is divisible by 9, and Y – X = 6. Find the value of 2X  4Y .",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6) | Exam: SSC CGL 26/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 4-digit number x67y is exactly divisible by 9, then the least value of (x + y) is _____.",
+    "options": [
+      "9",
+      "0",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CGL 02/12/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the four-digit number 463y is divisible by 7, then what is the value of y?",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC CGL MAINS 07/03/2023"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which number among 24963, 24973, 24983 and 24993 is divisible by 7?",
+    "options": [
+      "24973",
+      "24983",
+      "24963",
+      "24993"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24983) | Exam: SSC CGL 18/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is divisible by 11?",
+    "options": [
+      "5214341",
+      "5648741",
+      "6598321",
+      "2378965"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5214341) | Exam: SSC CGL MAINS 07/03/2023"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If 483y718 is divisible by the prime number 11, where y is a digit, then what is the value of y?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: CONSTABLE 29/11/2023 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the smallest value of a so that 42a48b (a > b) is divisible by 11.",
+    "options": [
+      "4",
+      "5",
+      "0",
+      "9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5) | Exam: SSC CGL 17/08/2021 (Shift 02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the greatest value of b so that 30a68b (a > b) is divisible by 11.",
+    "options": [
+      "4",
+      "9",
+      "3",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: SSC CGL 13/08/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The number 611611611611 is:",
+    "options": [
+      "Divisible by both 6 and 11",
+      "Neither divisible by 6 nor by 11",
+      "Divisible by 6 only",
+      "Divisible by 11 only"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Divisible by 11 only) | Exam: SSC CHSL 11/07/2024 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If a 4-digit number 273x is divisible by 12 and a 7-digit number y854z 06 is divisible by 11 , then what is the value of (x + y + z) ?",
+    "options": [
+      "18",
+      "12",
+      "6",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (18) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is divisible by 15?",
+    "options": [
+      "1,65,485",
+      "3,06,045",
+      "2,12,695",
+      "2,95,145"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3,06,045) | Exam: SSC CHSL 01/06/2022 (Shift- 2)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Find the greatest possible value of (a + b) for which the 8-digit number 143b203a is divisible by 15.",
+    "options": [
+      "15",
+      "17",
+      "16",
+      "14"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14) | Exam: SSC CHSL 09/06/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers is NOT divisible by 16?",
+    "options": [
+      "16826",
+      "17776",
+      "5168",
+      "18016"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16826) | Exam: SSC GD 12/01/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What are the values of R and M, respectively, if the given number is perfectly divisible by 16 and 11?",
+    "options": [
+      "4 and 6",
+      "7 and 5",
+      "5 and 5",
+      "5 and 7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5 and 5) | Exam: SSC CPO 10/11/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "An 11-digit number 7823326867X is divisible by 18. What is the value of X?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CGL 19/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "A six-digit number 11p9q4 is divisible by 24.",
+    "options": [
+      "42",
+      "32",
+      "56",
+      "68"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (56) | Exam: SSC CGL MAINS 26/10/2023"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The 6-digit number 439xy5 is divisible by 125. How many such 6-digit numbers are there?",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The six-digit number 537xy5 is divisible by 125. How many such six-digit numbers are there?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4) | Exam: SSC CHSL 19/04/2021 (Shift- 1)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which digits should come",
+    "options": [
+      "5 and 0",
+      "4 and 0",
+      "2 and 0",
+      "0 and 5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4 and 0) | Exam: SSC CGL 13/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The five-digit number 45yz0 is divisible by 40. What is the maximum possible value of (y + z)?",
+    "options": [
+      "15",
+      "18",
+      "16",
+      "17"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16) | Exam: SSC CGL 26/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 9-digit number 5x79856y6 is divisible by 36, then what is the negative value (2 x + y) for the largest possible value of y, given x and y are natural numbers?",
+    "options": [
+      "–7",
+      "–2",
+      "–4",
+      "–5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–5) | Exam: SSC CGL 18/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the six-digit number 15x1y2 is divisible by 44, then the minimum value of (x + y) is equal to:",
+    "options": [
+      "8",
+      "6",
+      "5",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7) | Exam: SSC Phase-XII 26/06/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "A seven-digit number 489y5z6 is divisible by 72. Which of the options gives the highest possible product of y and z?",
+    "options": [
+      "21",
+      "30",
+      "42",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (42) | Exam: SSC CHSL 03/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If a 9-digit number 389x6378y is divisible by 72, then the value of 6x + 7y is:",
+    "options": [
+      "16",
+      "32",
+      "28",
+      "64"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (64) | Exam: SSC Phase-XII 20/06/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If a 10-digit number 75462A97B6 is divisible by 72, then the value of 8 A – 4 B is:",
+    "options": [
+      "28",
+      "21",
+      "30",
+      "27"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (28) | Exam: SSC CGL MAINS 29/01/ 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 7-digit number 612x97y is divisible by 72 , and the 6 - digit number 34z178 is divisible by 11 , then the value of (x- 2y + 3z) is:",
+    "options": [
+      "6",
+      "5",
+      "2",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the number 6p5157q is divisible by 88, then",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (18) | Exam: SSC CHSL 11/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the number 5X8146Y is divisible by 88, then what is the value of X?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CHSL 30/05/2022 (Shift- 3)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What is the least value of x+y, if 10 digit number 780x533y24 is divisible by 88?",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CHSL 03/08/2023 Shift-04"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the nine-digit number 7p5964q28 is completely divisible by 88, what is the value of (p² – q), for the largest value of q, where p and q are natural numbers ?",
+    "options": [
+      "72",
+      "9",
+      "0",
+      "81"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (72) | Exam: SSC CGL 16/08/2021 (Shift 02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the nine-digit number 9m2365n48 is completely divisible by 88, what is the value",
+    "options": [
+      "32",
+      "64",
+      "20",
+      "36"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (64) | Exam: SSC CGL 13/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "An 8 digit number is divisible by 99. If the digits are shuffled, then the number is always divisible by ____.",
+    "options": [
+      "11",
+      "5",
+      "9",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9) | Exam: SSC CHSL 03/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the number 55p1067q9 is exactly divisible by 99, then pq is equal to:",
+    "options": [
+      "35",
+      "28",
+      "36",
+      "42"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (35) | Exam: SSC CPO 11/11/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 9-digit number 4x92y6588 is exactly divisible by 99(x + y < 10), then what is the value of 2(y – x) ?",
+    "options": [
+      "–2",
+      "1",
+      "2",
+      "–1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the number 6336633P is divisible by 132, then the value of P is:",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6) | Exam: SSC CPO 10/11/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 5-digit number 535ab is divisible by 3, 7 and 11, then what is the value of (a2 – b2 + ab) ?",
+    "options": [
+      "95",
+      "83",
+      "89",
+      "77"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (95) | Exam: SSC CGL MAINS 15/11/ 2020"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 5-digit number 235xy is divisible by 3, 7 and 11, then what is the value of (3x – 4y) ?",
+    "options": [
+      "8",
+      "9",
+      "5",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (10) | Exam: SSC CGL MAINS 16/11/ 2020"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The number 823p2q is exactly divisible by 7, 11 and 13. What is the value of (p–q)?",
+    "options": [
+      "8",
+      "3",
+      "5",
+      "11"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5) | Exam: SSC CGL 20/08/2021 (Shift 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If the 6 – digit number 57zxy8 is divisible by each of 7,11 and 13 , then (x – 2y + z) is:",
+    "options": [
+      "–1",
+      "2",
+      "1",
+      "–2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (–1) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "715 + 716 + 717 is divisible by which of the following given numbers?",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CGL 26/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Which of the following numbers will completely divide 412 + 413 + 414 + 415?",
+    "options": [
+      "3",
+      "7",
+      "11",
+      "17"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (17) | Exam: SSC CGL 18/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "350 + 926 + 927 + 928 + 929 is divisible by which of the following integers?",
+    "options": [
+      "11",
+      "5",
+      "7",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (11) | Exam: SSC CGL 06/12/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "571 + 572 + 573 + 574 + 575 is divisible by which of the following number?",
+    "options": [
+      "71",
+      "69",
+      "89",
+      "73"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (71) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If a positive integer 'n' is divisible by 3, 5 and 7, then what is the next larger integer divisible by all these numbersd?",
+    "options": [
+      "n + 21",
+      "n + 35",
+      "n + 105",
+      "n + 110"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (n + 105) | Exam: CHSL 2019 19/10/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The greatest whole number by which the expression n4 + 6n3 + 11n2 + 6n + 24 is divisible for every natural number n, is :",
+    "options": [
+      "6",
+      "24",
+      "132",
+      "48"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (48)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "If n is a whole number greater than 1, then n2(n2 – 1) is always divisible by :",
+    "options": [
+      "16",
+      "12",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "A six digit number is formed by repeating a three digit number, for example 256256 or 678678 etc. Any number of this form is always exactly divisible by :",
+    "options": [
+      "7 Only",
+      "11 Only",
+      "13 only",
+      "1001"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1001)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The sum of 3-digit numbers abc, cab and bca is not divisible by:",
+    "options": [
+      "a + b + c",
+      "37",
+      "31",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (31) | Exam: SSC CGL 24/08/2021 (Shift 01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The sum of 3-digit numbers abc, bca and cab is always divisible by:",
+    "options": [
+      "35",
+      "41",
+      "37",
+      "31"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (37) | Exam: SSC PHASE IX 2022"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "A 3-digit number ABC, where A is at the hundreds place, B is at the tens place and C is at the unit's place, is so-written as ABCABC and is divided by the LCM of 7, 11 and 13. What will be the result?",
+    "options": [
+      "ABC",
+      "CBA",
+      "BCA",
+      "AA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (ABC) | Exam: Constable 28/01/2019 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Consider a 6-digit number of the form XYXYXY. The number is divisible by:",
+    "options": [
+      "3 and 7 only",
+      "7 and 13 only",
+      "3, 13 and 37 only",
+      "3, 7, 13 and 37"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3, 7, 13 and 37)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What will be the greatest number 32a78b, which is divisible by 3 but NOT divisible by 9? (Where a and b are single digit number).",
+    "options": [
+      "324781",
+      "329787",
+      "326787",
+      "329784"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (329784) | Exam: SSC CHSL 09/08/2023 Shift-02"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What is the value of x",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6) | Exam: SSC CHSL, 10/08/2023 (Shift-4)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "What is the number of possible pairs of (P, Q), if the number 357P25Q is divisible by both 3 and 5?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers are there from 200 to 300.",
+    "options": [
+      "100",
+      "99",
+      "98",
+      "101"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (101)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers are there from 120 to 240.",
+    "options": [
+      "120",
+      "121",
+      "119",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (121)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers are there between 200 and 300.",
+    "options": [
+      "100",
+      "99",
+      "98",
+      "101"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (99)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers are there between 120 and 240.",
+    "options": [
+      "120",
+      "121",
+      "119",
+      "None of thes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (119)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 3000 divisible by 6.",
+    "options": [
+      "499",
+      "500",
+      "501",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (500)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 100 to 3000 divisible by 6.",
+    "options": [
+      "483",
+      "484",
+      "485",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (484)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q071",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 250 divisible by 3.",
+    "options": [
+      "82",
+      "83",
+      "84",
+      "85"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (83)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q072",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 100 to 250 divisible by 3.",
+    "options": [
+      "49",
+      "50",
+      "51",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (50)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q073",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 370 divisible by 4.",
+    "options": [
+      "91",
+      "92",
+      "93",
+      "94"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (92)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q074",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 140 to 370 divisible by 4.",
+    "options": [
+      "56",
+      "57",
+      "58",
+      "None of thes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (58)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q075",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 250 divisible by 3 and 5.",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (16)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q076",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers up to 980 are divisible by both 3 and 5?",
+    "options": [
+      "69",
+      "65",
+      "38",
+      "62"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (65)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q077",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers up to 600 are divisible by both 3 and 7?",
+    "options": [
+      "29",
+      "39",
+      "28",
+      "56"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (28)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q078",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 100 to 250 divisible by 3 and 5.",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "None of thes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q079",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 280 divisible by 4 and 7.",
+    "options": [
+      "9",
+      "7",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (10)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q080",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 140 to 370 divisible by 4 and 7.",
+    "options": [
+      "9",
+      "7",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q081",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 700 divisible by 3, 4 and 5.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q082",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 300 to 700 divisible by 3, 4 and 5.",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q083",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 1000 divisible by 4, 5 and 7.",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q084",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 500 to 1000 divisible by 4, 5 and 6.",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q085",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there between 1 and 124 which is divisible by 9.",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q086",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers between 100 and 1000 are divisible by 17?",
+    "options": [
+      "51",
+      "53",
+      "52",
+      "54"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (53) | Exam: SSC CHSL 01/06/2022 (Shift- 1)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q087",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers between 800 and 2000 are divisible by 13?",
+    "options": [
+      "90",
+      "92",
+      "91",
+      "93"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (92) | Exam: CHSL 2019 19/10/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q088",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "Ramu had to select a list of numbers between 1 and 1000 (including both) which are divisible by both 2 and 7. How many such numbers are there?",
+    "options": [
+      "142",
+      "71",
+      "97",
+      "642"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (71) | Exam: SSC CPO 11/11/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q089",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there between 30 and 100, divisible by 2 and 3 both.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q090",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "The total number of integers between 1 and 1000, which are divisible by 2, 3 and 5:",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "33"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (33)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q091",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers between 300 and 700 are divisible by 5, 6 and 8?",
+    "options": [
+      "20",
+      "2",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3) | Exam: CPO 2019 25/11/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q092",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are divisible by 3 or 5",
+    "options": [
+      "20",
+      "21",
+      "24",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (21)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q093",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are divisible by 3 or 5",
+    "options": [
+      "26",
+      "28",
+      "32",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (28)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q094",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural number from 500 to 1250 (including both) are divisible by 3 or 11.",
+    "options": [
+      "312",
+      "296",
+      "316",
+      "318"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (296)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q095",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many integers between 299 and 601 are divisible by 4 or 10.",
+    "options": [
+      "91",
+      "92",
+      "93",
+      "94"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (91)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q096",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers from 1 to 900, which are divisible by 2 or 3 or 5.",
+    "options": [
+      "634",
+      "635",
+      "644",
+      "660"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (660)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q097",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers from 1 to 100 which are not divisible by 3 ?",
+    "options": [
+      "67",
+      "68",
+      "66",
+      "69"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (67)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q098",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers from 100 to 200 which are not divisible by 3 ?",
+    "options": [
+      "66",
+      "68",
+      "67",
+      "69"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (68)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q099",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 1 to 100 which are neither divisible by 3 nor by 5?",
+    "options": [
+      "53",
+      "54",
+      "55",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (53)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q100",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 700 to 950 which are neither divisible by 3 nor by 7 ?",
+    "options": [
+      "144",
+      "143",
+      "146",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (144) | Exam: SSC CGL 04/03/ 2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q101",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 200 to 800 which are neither divisible by 5 nor by 7 ?",
+    "options": [
+      "407",
+      "410",
+      "413",
+      "411"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (411) | Exam: SSC CGL 04/03/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q102",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 500 to 650 (including both) which are neither divisible by 3 nor by 7?",
+    "options": [
+      "21",
+      "121",
+      "87",
+      "99"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (87) | Exam: SSC CGL 11/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q103",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many integers are there less than 230 which are divisible by 7 but not by 13.",
+    "options": [
+      "32",
+      "26",
+      "28",
+      "30"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q104",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers less than 151 which are divisible by 3 but not 7.",
+    "options": [
+      "40",
+      "50",
+      "49",
+      "43"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (43)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q105",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many two digits numbers are divisible by 3 but not by 8?",
+    "options": [
+      "29",
+      "26",
+      "27",
+      "33"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (26)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q106",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there between 301 and 901 which are divisible by 10 but are not divisible by 3?",
+    "options": [
+      "60",
+      "40",
+      "30",
+      "35"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q107",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers up to 2001 are divisible by 3 or 4 but NOT by 5?",
+    "options": [
+      "768",
+      "801",
+      "934",
+      "1067"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (801)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q108",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural numbers up to 300 are divisible by 5 or 7 but not by 35.",
+    "options": [
+      "85",
+      "84",
+      "87",
+      "86"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (86)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q109",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many numbers are there from 35 to 289 (including both these numbers) which are divisible by either 5 or 17?",
+    "options": [
+      "70",
+      "62",
+      "69",
+      "63"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (63)"
+  },
+  {
+    "id": "rkr_number_system_divisivility_classroom_sheet_q110",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Divisivility (ClassRoom Sheet).pdf",
+    "question": "How many natural number less than 1000 are divisible by 5 or 7 but NOT by 35?",
+    "options": [
+      "5. (a) 6. (a) 7. (a) 8.",
+      "9. (b) 10. (a)",
+      "2.",
+      "3. (d) 4. (a) 5. (a) 6. (a) 7. (a) 8. (b) 9. (b) 10. (a)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5. (a) 6. (a) 7. (a) 8.) | Exam: SSC CPO 11/12/2019 (Shift-01)"
+  }
+]

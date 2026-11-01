@@ -1,0 +1,988 @@
+[
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value of (1 – tan69ºtan66º) (tan 69º + tan66º)",
+    "options": [
+      "1",
+      "– 1",
+      "2",
+      "– 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (– 1) | Solution: (b) tan69º + tan66º 1 – tan69º tan66º tan(69° + 66°) = tan135º = tan(90° + 45º) = – cot45º = –1"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "What is the value of cos70° cos40° + sin70° sin40°?",
+    "options": [
+      "1/2",
+      "2",
+      "3/2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3/2) | Solution: (c) cos70º cos40º + sin70º sin40º Formula:- cos(A – B) = cosA.cosB + sinA.sinB cos(70º – 40º) = cos30º = 3 2"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If 0 <  < 90°, solve the following equations: 2 cos2 + sin – 2 = 0.",
+    "options": [
+      " = 0",
+      " =",
+      " = 1",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( =) | Solution: (b) 2cos² + sin – 2 = 0 2(1 – sin²) + sin – 2 = 0 2 – 2sin² + sin – 2 = 0 2sin² – sin = 0 sin(2sin – 1) = 0 2sin – 1 = 0 sin = 1 2 So,  = 6 "
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value of/",
+    "options": [
+      "1",
+      "–1",
+      "0",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Solution: (d) cos 60º sin 30º + cos 65º cosec 25º tan10º tan 30º tan 45º tan 60º tan 80º If A + B = 90°  sinA = cosB, secA = cosecA, tanA = cotB cos ec65 sec 65 1 tan45     = 1 + 1 = 2"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value of/",
+    "options": [
+      "cos",
+      "cos/2",
+      "2 cos",
+      "2cos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 cos) | Solution: (c) cos² 1+ sin 1 – sin 1 – sin 1 sin                 cos2 1+ sin 1 – sin 2 1 – sin              = 2 cos  = 2cos"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Evaluate: sin10º sin30º sin50º sin70º",
+    "options": [
+      "1/8",
+      "1/16",
+      "1/4",
+      "1/32"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/16) | Solution: (b) We know, sin sin(60 – ) sin(60 + ) 1 = 4 sin3 Then,  sin30° [sin10° sin50° sin70°] 1 1 sin3 10 2 4           1 1 sin30 = 8 16   "
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Evaluate: sin20º sin40º sin60º sin80º",
+    "options": [
+      "1/16",
+      "3/16",
+      "5/16",
+      "7/16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3/16) | Solution: (b) sin20º sin40º sin60º sin80º We know, sinsin2sin4 = 1 4 sin3 Then, sin60º sin20º sin40º sin80º 3 1 sin(3"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "The value of cos15° cos45° cos75° is:",
+    "options": [
+      "1/3",
+      "1/2 4 2",
+      "3/8",
+      "1/8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1/2 4 2) | Solution: (b) cos15° cos45º cos75º Formula :- 1 4 cos3 = cos.cos(60 – ).cos(60 + ) cos(60º – 15º) cos15º cos(60º + 15º) 1 4 cos(3 15°) = 1 1 1 4 2 4 2  "
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Simplify cos(36º – A) cos(36º + A) + cos(54º – A) cos(54º + A)",
+    "options": [
+      "cosA",
+      "sin2A",
+      "cos2A",
+      "sin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (cos2A) | Solution: (c) cos(36º – A) cos(36º + A) + cos(54º – A) cos(54º + A) By Using, cos(A + B) cos(A – B) = cos²A – sin²B  cos²36º – sin²A + cos²54º – sin²A  cos²36º – sin²A + sin²36º – sin²A  1 – 2sin²A  cos2A"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sec = cosec, 0º  (, )  90º Then find cos²( + ) ;fn sec = cosec, 0º  (, )  90º",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0) | Solution: (a) ATQ, sec = cosec If we take  =  = 45° Then, sec45° = cosec45°  2 2  cos² ( + ) = cos290° = 0"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "The numerical value of + + 3sin² is sec 2  1+ cot 2  5 2",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5) | Solution: (a) 2 2 2 5 2 + + 3sin sec 1+ cot    5cos² + 2sin² + 3sin² 5cos² + 5sin² 5 1 = 5"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If 0º <  < 90º, the value of (sin + cos) is?",
+    "options": [
+      "equal to 1",
+      "greater than 1",
+      "less than 1",
+      "equal to 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (greater than 1) | Solution: (b) 0º <  < 90º (sin + cos) Put  = 45º = 1 1 2 2  = 2 = 2 = 1.414 2 greater than 1 ANSWER KEY"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If = 3 and 0º <  < 90º then the value cot 2  – cos 2  of  is. cos 2 ",
+    "options": [
+      "30º",
+      "45º",
+      "60º",
+      "Non"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (60º)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If cosx + cosy = 2 then value of sinx + siny is.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "–1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the simplest numerical value of 3(sinx – cosx)4 + 4(sin6x + cos6x) + 6(sinx + cosx)²",
+    "options": [
+      "12",
+      "10",
+      "21",
+      "13"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (13)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If tan15º = 2 – 3 then find the value tan15º cot75º + tan75º cot15º.",
+    "options": [
+      "14",
+      "12",
+      "10",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (14)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If A = tan11º tan29º and B = 2cot61º cot79º then:",
+    "options": [
+      "A = 2B",
+      "A = – 2B",
+      "2A = B",
+      "2A = –"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2A = B)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If cos + sec = k, then what is the value of sin2 – tan2?",
+    "options": [
+      "4 – k",
+      "4 – k2",
+      "k2 – 4",
+      "k2 + 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4 – k2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If   ,   90° such that cos( – ) = 1, then what is sin – sin + cos – cos equal to?",
+    "options": [
+      "–1",
+      "0",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x + y = 90°, then what is cos x cosecy – cos x siny equal to?",
+    "options": [
+      "cosx",
+      "sinx",
+      "cos x",
+      "sin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (sinx) | Solution: 2 4    3 1 3 3 2 4 2 16   "
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If tan2y cosec2x – 1 = tan2y; then which one of the following is correct?",
+    "options": [
+      "x – y = 0",
+      "x = 2y",
+      "y = 2x",
+      "x – y = 1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (x – y = 0)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "For what value of  is (sin + cosec) = 2.5, where 0 <  < 90°?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (30°)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Evaluate : cos2 45° – sin2 15°.",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3/4)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Evaluate : (cot4 – cosec4 + cot2 + cosec2)",
+    "options": [
+      "1",
+      "0",
+      "– 1",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value of sin210° + sin220° + sin230° + ....... + sin280°?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sin 21° = , then sec 21° – sin 69° is equal to y x",
+    "options": [
+      "x/y",
+      "2 y 2/(y² – x ²) y (y² – x ²)",
+      "x/y",
+      "2 y 2/( x ² – y²) x ( x ² – y²"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (x/y)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sin = x² – 2x + 2, then the value of x is 2  x",
+    "options": [
+      "0",
+      "1",
+      "–1",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "The value of expression (1 + sec22º + cot68º) (1 – cosec22º + tan68º) is:",
+    "options": [
+      "0",
+      "–1",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value of expression:-",
+    "options": [
+      "–1",
+      "0",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sec( + ) + sec( – ) = 2sec [  0], Then the value of sin² = ?",
+    "options": [
+      "–sec",
+      "–sec",
+      "–cos",
+      "–sin cos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (–cos)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "For all i {i = 1, 2, 3 ...... 20}, 0  90º. Given that sin1 + sin2 + ...... + sin20 = 20 Then value",
+    "options": [
+      "1800º",
+      "900º",
+      "0º",
+      "20º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1800º)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If ,  are acute angle and cos2 = then 3 – cos2  the value of tan cot is: 3cos2  –1",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sin = acos and cos = bsin then the value of (a² – 1) cot² + (1 – b²) cot² is equal to.",
+    "options": [
+      "a/a",
+      "2 + b 2 a 2 – b 2/2 b 2",
+      "a/b",
+      "2 – b 2 a 2 – b 2/2 a 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 – b 2 a 2 – b 2/2 a 2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "Find the value/",
+    "options": [
+      "sec + tan",
+      "1 – sin",
+      "1 + sin",
+      "None"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1 – sin)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x =  1+ cos  + sin   then the value of  1+ sin   is: 2sin  1 – cos  + sin ",
+    "options": [
+      "x/1  1+",
+      "x ",
+      "1/x",
+      " 1+ x /x"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (x )"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If (a² – b²) sin + 2ab cos = a² + b² then tan = ?",
+    "options": [
+      "2ab a 2 –/2ab",
+      "b 2",
+      "ab/a",
+      "a 2 – b 2/2 – b 2 a"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (b 2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x, y are acute angles 0 < (x + y) < 90º and sin(2x – 20°) = cos(2y + 20°) then the value of tan(x + y)",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "sin75º + sin15º can be expressed as.",
+    "options": [
+      "3/2",
+      "2/3",
+      "2/3",
+      "3/2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3/2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x = cosec – cos and y = sec – cos then the relation between x and y is.",
+    "options": [
+      "x² + y² + 3 = 1",
+      "x² y² (x² + y² + 3) = 1",
+      "x² (x² + y² – 5) = 1",
+      "y² (x² + y² – 5) = 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (x² y² (x² + y² + 3) = 1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If tanx = a and tany = b. What is the value of (tanx + tany) (1 – cotxcoty) + (cotx + coty) (1 – tanx tany) equal to?",
+    "options": [
+      "a/a",
+      "– b ab –1/ b ab",
+      "a ",
+      "b ab"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (a )"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "A rectangle is 48 cm long and 14 cm wide. If the diagonal makes an angle  with the longer side, then (sec + cosec) equal to?",
+    "options": [
+      "77/16",
+      "5/8",
+      "77/10",
+      "1 770/7 107"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (77/16)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If cosec – sin = m and sec – cos = n, then what is 4 2 2 4 equal to? m 3 n 3  m 3 n 3",
+    "options": [
+      "m 3/1 1",
+      "n 3  m 3 n 3",
+      "1/2",
+      "1/4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (n 3  m 3 n 3)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x = acos and y = bcot, then (ax–1 – by–1) (ax–1 + by–1) is equal to?",
+    "options": [
+      "0",
+      "1",
+      "tan2",
+      "sin2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If  is an acute angle and sincos = 2cos3 – 1.5 cos, then what is sin equal to?",
+    "options": [
+      "5/4",
+      " 1 1  5/4",
+      "5/4",
+      " 1/4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5/4)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "What is the expression  equal to: 1  sec x 1  sec x tan x tan x ",
+    "options": [
+      "cosecx",
+      "2cosecx",
+      "2sinx",
+      "2cos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2cosecx)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x + y = 90° and sinx : siny = 3 : 1 then what is x : y equal to?",
+    "options": [
+      "1 : 1",
+      "1 : 2",
+      "2 : 1",
+      "3 : 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2 : 1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "P = tan2x + cot2x, then which one of the following is correct?",
+    "options": [
+      "P  2",
+      "P  2",
+      "P < 2",
+      "P > 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (P  2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If  is the angle of first quadrant such that cosec4 = 17 + cot4, then what is the value of sin?",
+    "options": [
+      "1/3",
+      "1/4",
+      "1/9",
+      "1/16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1/3)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "The value of cosec2 – 2 + sin2 is always",
+    "options": [
+      "less than zero",
+      "non-negative",
+      "zero",
+      "1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (non-negative)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If  and  are complimentary angles, then what is – 1  sin  cos   2 cosec  .cosecβ  +  equal to?  sinβ cosβ  – 1  sin  cos   2",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "What is the value of sin x  ? 1  cos x 1 – cos x 1 1",
+    "options": [
+      "2",
+      "2 2",
+      "2 tan x",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If cosec – sin = p3 and sec – cos = q3 then what is the value of tan?",
+    "options": [
+      "p/q",
+      "q",
+      "q",
+      "p2q2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (q)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sinx + cosx = C then sin6x + cos6x is equal to",
+    "options": [
+      "1/16",
+      " 6c 2  3c 4 1  6c 2  3c 4/4",
+      "1/16",
+      " 6c 2  3c 4 1  6c 2  3c 4/4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | ( 6c 2  3c 4 1  6c 2  3c 4/4)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "The difference of the two angles",
+    "options": [
+      " –  , +   2 360°  2 360°   1 90  1 90 ",
+      " –  , +   2   2    1   1  ",
+      " –  , +   2 180°  2 180° ",
+      "None of these 1  cosB 2tan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ( –  , +   2 360°  2 360°   1 90  1 90 )"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If tanA = then what is equal to? sinB 1  tan 2 A 1  cos B 2tan A",
+    "options": [
+      "2",
+      "2 tanB",
+      "2/1 ",
+      "2sin  cos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2/1 )"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If a² = , then what is the value of 1 – 2sin  cos a  1 ? a –1 1  2sin  cos  a  1",
+    "options": [
+      "sec",
+      "1",
+      "0",
+      "tan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (tan)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If sinA + cosA = P and sin³A + cos³A = q, then which one of the following is correct?",
+    "options": [
+      "p³ – 3p + q = 0",
+      "q³ – 3q + 2p = 0",
+      "p³ – 3p + 2q = 0",
+      "p³ + 3p + 2q = 0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (p³ – 3p + 2q = 0)"
+  },
+  {
+    "id": "rkr_trigonometry_trigonometry_pro_level_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Trigonometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Trigonometry (Pro Level Sheet).pdf",
+    "question": "If x = , then which one of the following sec ²  tan is correct? sec²  – tan ",
+    "options": [
+      " x  3 3  1 ",
+      "x  ,3   3  1",
+      "– 3 < x < – 3 1",
+      " x  3 3 ANSWER KEY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ( x  3 3 ANSWER KEY)"
+  }
+]

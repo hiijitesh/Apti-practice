@@ -1,0 +1,189 @@
+[
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "Point : A point is a circle of zero radius",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "Lines: A line is made up of a infinite number of points and it has only length i.e., it does not has any thickness (or width). A line is",
+    "options": [
+      "(i) Intersecting Lines: If two or more lines intersect each other, then they are AB and CD are intersecting lines. gSaA C B A D",
+      "(ii) Concurrent Lines : If three or more lines pass through a point, then they are called concurrent lines and the point through which these all lines pass is called point of concurrent. leorhZ fcUnq dgrs gSaA E B C D A F",
+      "(iii) Parallel Lines : Two straight lines are parallel intersect even if they produced infinitely. Perpendicular distances between two parallel lines are always same at all places. A B C D Symbol for parallel lines is ||. Hence, AB || CD.",
+      "(iv) Perpendicular Lines : If two lines intersect at right angles, then two lines are called AB and CD are perpendicular lines. C A B D Lines and Angles Symbolically it is represented as AB  CD or we can also say that CD  AB."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((i) Intersecting Lines: If two or more lines intersect each other, then they are AB and CD are intersecting lines. gSaA C B A D)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "Angles : An angle is the union of two non- collinear rays with a common initial point. The two rays forming an angle are called arms of the angle and the common initial point is called the vertex of the angle.",
+    "options": [
+      "105°",
+      "115°",
+      "120°",
+      "110°"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (105°)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "If a transversal line intersects two parallel lines, and the difference between two interior angles on the same side of the transversal line is 40°, then find the smallest angle among the interior angles.",
+    "options": [
+      "60°",
+      "50°",
+      "40°",
+      "70°"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (70°) | Exam: SSC CHSL MAINS 10/01/2024"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "Find the value of a + b.",
+    "options": [
+      "80º",
+      "180º",
+      "90º",
+      "120º"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (80º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "If AB||CD then find the value of  +  + .",
+    "options": [
+      "180º",
+      "270º",
+      "360º",
+      "240º"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (360º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "Find the values of x?",
+    "options": [
+      "79º",
+      "81º",
+      "89º",
+      "84º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (84º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "The complement angle of 70º is :",
+    "options": [
+      "radian",
+      "radian",
+      "radian",
+      "radian"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (radian)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "The complement angle of 30º20 is :",
+    "options": [
+      "69º40",
+      "59º40",
+      "35º80",
+      "159º40"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (59º40)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "The measure of an angle is 18º less than the measure of its complementary angle then find the value of angle?",
+    "options": [
+      "48º",
+      "38º",
+      "54º",
+      "36º"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (36º)"
+  },
+  {
+    "id": "rkr_geometry_line_angles_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Line & Angles (ClassRoom Sheet).pdf",
+    "question": "The measure of half of supplement of P is 19º more than thrice of half of measure of",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  }
+]

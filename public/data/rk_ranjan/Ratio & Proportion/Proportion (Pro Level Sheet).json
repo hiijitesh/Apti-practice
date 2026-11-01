@@ -1,0 +1,325 @@
+[
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "If P² varies as R and Q² varies as R, (P  Q), then which of the following are correct?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (d) Given, P²  R  P² = k1R Q²  R  Q² = k2R and P  Q Consider, P² + Q² = k1R + k2R  R(k1 + k2) = Rk Hence, (P² + Q²)  R Consider, PQ 1 2 k R. k R  1 2 R k .k  = R.k  PQ  R Consider, P² – Q² = k1R – k2R  R(k1 – k2) = Rk  P² – Q² R Hence,"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "PQ varies as R.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Solution: (a) p q r² p = kq r² where, k = constant Now, q is increased by 20% and r is decreased by 20% Then, new p (let's say p')"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "P² – Q² varies as R.",
+    "options": [
+      "87.5",
+      "85",
+      "82.5",
+      "80"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (82.5) | Solution: (c) Statement (I): ATQ, x  z and y  z x = kz and y = rz, where k & r are constants.  x² = k²z² and y² = r²z²  x² – y² = z² (k² – r²)  x² – y²  z² Hence, statement (I) is correct. Statement (II): ATQ,  1 z  x & 1 y z   xz = k & yz = r wher"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "If x varies as y, then which of the following is/are correct?",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1, 2 and 3) | Solution: (d) If x varies as y then x = ky, where (k = constant) (1) x² + y² varies as x² – y² Putting x = ky  x² + y² = (ky)² + y² = y² (k² + 1) and x² – y² = (ky)² – y² = y² (k² – 1) So, ² y² y²(k²"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "When a ball is allowed to fall, the time it takes to fall any distance varies as the square root of the distance and it takes 4 seconds to fall 78.40 m. How long would it take to fall 122.50 m?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "5 sec 6. Find the fourth proportional of 1235, 312 and 412.",
+    "options": [
+      "324",
+      "12–23",
+      "424",
+      "12–11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (12–23)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "If 2³ : 85.06 : : 8–4.06 : x, find the value of x.",
+    "options": [
+      "1/2³",
+      "1",
+      "2³",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "Find the fourth proportional of (a + b)2",
+    "options": [
+      "(a + b) (a 2 – ab + b 2 )",
+      "2 2 (a + ab + b ) (a 2 + ab + b 2 )",
+      "(a – b) (a 2 + ab + b 2 )",
+      "2 2 (a – b"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2 2 (a + ab + b ) (a 2 + ab + b 2 ))"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "The mean proportion of 0.14 and 2.24 is:",
+    "options": [
+      "0.56",
+      "1.02",
+      "–2.39",
+      "1.12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0.56)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "The mean proportional between 0.03 and 0.0003 is:",
+    "options": [
+      "0.0013",
+      "0.003",
+      "0.0003",
+      "0.033"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0.033)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "Find the mean proportion of and a – b a 2 – ab + b 2 a 3 + b 3 a 2 – b 2",
+    "options": [
+      "a ",
+      "b",
+      "a/a",
+      " b/–"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ( b/–)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "When x is added to each of the numbers 7, 11, 18",
+    "options": [
+      "68",
+      "78",
+      "98",
+      "48"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (48)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "When x is added to each of 2, 3, 30 and 35, then the",
+    "options": [
+      "7",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "If x is subtracted from each of 24, 40, 33 and 57, the",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "A varies directly as the positive square root of B, and inversely as the cube of C. If A = 15, when B = 27 and C = 2, then find B when A = 9 and C = 2.",
+    "options": [
+      "28/42",
+      "1 243/25",
+      "26/37",
+      "4 275/51"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (28/42)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "'x' varies directly with the cube of 'y', and inversely 1 with the square of 'z'. If x = when y = 2 and z = 3, 36 then what is the value of 800x when y = 3 and z = 5?",
+    "options": [
+      "9/80",
+      "0",
+      "80/9",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (0)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "y is directly proportional to x + 3 and y = 8 when x = 1, x inversely proportional to z and x = 2 when z = 6 Find the relation between y and z.",
+    "options": [
+      "z – 24",
+      "z(y – 6) = 24 (y – 6)",
+      "z – 12",
+      "z(y – 6) = 12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (z(y – 6) = 24 (y – 6))"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "The weight of a circular disc varies directly as the product of the square of the radius and its thickness. Two",
+    "options": [
+      "1 : 2",
+      "2 : 3",
+      "3 : 2",
+      "2 : 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3 : 2)"
+  },
+  {
+    "id": "rkr_ratio_proportion_proportion_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "sheetType": "Pro Level",
+    "sheetFile": "Proportion (Pro Level Sheet).pdf",
+    "question": "Four distinct positive numbers, ‘a’, ‘b’, ‘c’ and ‘d’,",
+    "options": [
+      "400",
+      "398",
+      "397",
+      "399"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (399)"
+  }
+]

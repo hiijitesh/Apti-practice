@@ -1,0 +1,512 @@
+[
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "2 pipes A and B can fill a tank",
+    "options": [
+      "600 gallons",
+      "720 gallons",
+      "840 gallons",
+      "960 gallon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (720 gallons) | Solution: (b) A 40 h  B 30 h  24 h  120 unit 3 4 5 Capacity Eff. A + B – C Efficiency of C = A + B – C = 7 – 5 = 2 Time taken by C = 120 2 = 60 min Draining rate of C = 120 gallons/min  capacity of tank = 120 60 = 720 gallons 2 (a) Time A 52  min. B 60  "
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "A cistern can be filled by one of two pipes",
+    "options": [
+      "17 min.",
+      "17 min.",
+      "17 min.",
+      "17 min."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (17 min.)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipes A and B can fill a tank",
+    "options": [
+      "3 hours",
+      "6 hours",
+      "5 hours",
+      "8 hour"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5 hours) | Solution: (c) Given, A 10  B 18  90 units 9 5 Eff. Capacity 4 15 90 = 24 units filled 3 hrs. Let, efficiency of drain pipe be x unit/hr ATQ, 24 3 = 9 + 5 + x  x = – 6 1 3 rd of capacity of tank is drain by C = 90 3 (–6)  = 5 hrs."
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Two pipes A and B can fill a tank",
+    "options": [
+      "5",
+      "4.5",
+      "4",
+      "3.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4.5) | Solution: (b) Given, A 45 min.  B 75 min.  225 units 5 3 (Capacity) Eff. efficiency of drain pipe C = 2 225 3 20  = 7.5 units/min  Required time = 3 225 5 (5 3 – 7.5)   1 60 = 4.5 hrs."
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Two pipes can fill a cistern",
+    "options": [
+      "84 hours",
+      "78 hours",
+      "90 hours",
+      "96 hour"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (84 hours) | Solution: (a) Given, A 21 h  B 24 h  168 units 8 7 Eff. (Capacity) Time taken by A and B = 168 (8"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Three taps A, B and C can fill a tank",
+    "options": [
+      "6 Hours",
+      "6 Hours",
+      "7 Hours",
+      "7 Hours"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (7 Hours) | Solution: (c) A 12 h  5 3 60 4 B 15 h  C 20 h  Eff. (Capacity) units"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Three pipes can separately fill a tank",
+    "options": [
+      "17 hr 13 min",
+      "14 hr 11.2 min",
+      "13 hr 26.4 min",
+      "15 hr 14.6 mi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (13 hr 26.4 min) | Solution:  60 = 672 min Time taken with leakage = 672 + 48 = 720 min  Efficiency of C = 168 60 720  = 8 + 7 + x  15 + x = 14  x = – 1  Time taken by C to empty half tank = 168 2(–1) = 84 hr."
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe A can fill a tank",
+    "options": [
+      "2 hours 48 minutes",
+      "1 hour 48 minutes",
+      "1 hour 30 minutes",
+      "None of thes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1 hour 48 minutes)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe A can fill a tank",
+    "options": [
+      "32 hr.",
+      "24 hr.",
+      "28 hr.",
+      "20 hr"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (24 hr.)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipes P and Q alone can fill a tank",
+    "options": [
+      "8 hrs.",
+      "7 Hrs.",
+      "6 hrs.",
+      "5 hrs."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7 Hrs.)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Three pipes fill a swimming pool, and working",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "3.75"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3.75)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "A pipe can fill a tank",
+    "options": [
+      "4/5(",
+      "x y 5 x y/y – x ) 4(y – x )",
+      "4/(y",
+      "x y 5 x y/– x ) (y – x )"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4/5()"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe P can fill of a tank",
+    "options": [
+      "51 hours",
+      "57 hours",
+      "40 hours",
+      "42 hours"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (42 hours)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "One of the two inlet pipes works twice as efficiently as the other. The two, working alongside a drain",
+    "options": [
+      "8",
+      "6",
+      "12",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (12)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe A can fill a liquid tank",
+    "options": [
+      "45 hrs",
+      "86 hrs 40 min",
+      "90 hrs",
+      "86 hrs 48 mi"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (86 hrs 48 mi)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipes P and Q can completely fill a water tank",
+    "options": [
+      "1 p.m",
+      "2 p.m",
+      "11 p.m",
+      "3 p."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 p.)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Two pipes can separately fill a tank",
+    "options": [
+      "20 hours 10 minutes",
+      "20 hours 20 minutes",
+      "20 hours 40 minutes",
+      "20 hours 50 minute"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20 hours 50 minute)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipes M, N and S can fill a tank",
+    "options": [
+      "30",
+      "33",
+      "42",
+      "27"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (27)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe A can fill a tank",
+    "options": [
+      "5 hours 52 minutes",
+      "5 hours 24 minutes",
+      "4 hours 30 minutes",
+      "4 hours 8 minute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5 hours 52 minutes)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Two inlet pipes A and B and one outlet pipe C are connected to a tank. Pipes A and C together can fill",
+    "options": [
+      "12 min",
+      "6 min",
+      "15 min",
+      "9 mi"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (9 mi)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Two pipes can fill a tank",
+    "options": [
+      "8 minutes",
+      "6 minutes",
+      "5 minutes",
+      "4 minute"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4 minute)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "There are two inlets and one outlet pipe connected to a tank, whose diameters are 4 cm, 5 cm and 6 cm respectively. Efficiency of pipe is directly proportional to square of its diameter and least",
+    "options": [
+      "24 minutes",
+      "32 minutes",
+      "40 minutes",
+      "Cannot be determine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (24 minutes)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipe A can fill a tank",
+    "options": [
+      "60",
+      "68",
+      "72",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Pipes A and B can fill a tank",
+    "options": [
+      "42 hours",
+      "48 hours",
+      "45 hours",
+      "40 hours"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (45 hours)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "There are 3 taps A, B and C",
+    "options": [
+      "75",
+      "52",
+      "72",
+      "32"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (72)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "There are 15 pipes, some are inlets and some are",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "A pipe can fill a tank",
+    "options": [
+      "12 minutes",
+      "24 minutes",
+      "36 minutes",
+      "48 minute"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (36 minutes)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "(T + 4) Type 'A' types of pipes can fill a tank",
+    "options": [
+      "18 hours",
+      "20 hours",
+      "24 hours",
+      "16 hours"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16 hours)"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern,",
+    "options": [
+      "180 min",
+      "144 min",
+      "112 min",
+      "108 mi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (112 min) | Solution: Efficiency of pipe A is 16.66% more than that of pipe B and 12.5% more than that of C. If pipe A takes 12 minutes less than that of pipe C to fill a cistern, then find low many minutes pipe B alone can fill the same cistern? ikbi A {kerk ikbi B {kerk"
+  },
+  {
+    "id": "rkr_pipe_cistern_pipe_cistern_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Pipe & Cistern",
+    "sheetType": "Pro Level",
+    "sheetFile": "Pipe & Cistern (Pro Level Sheet).pdf",
+    "question": "A swimming pool is fitted with 3 pipes, the 1st two",
+    "options": [
+      "3.",
+      "2.",
+      "4. (b) 5. (a) 82 (a) hrs. 11 84 (b) hrs. 11 88 (c) hrs. 11",
+      "None of these KEY 6. (c) 7. (c) 8. (b) 9. (b) 10. (b)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2.) | Solution: (b) ANSWER KEY"
+  }
+]

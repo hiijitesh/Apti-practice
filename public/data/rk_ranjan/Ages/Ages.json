@@ -1,0 +1,801 @@
+[
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Father is aged three times more After 8 years, he would be two and Ronit's age. After further 8 years, would he be of Ronit's age?",
+    "options": [
+      "2 times",
+      "3 times",
+      "4 times",
+      "1 times"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 times) | Solution: (a) Present age After 8 years F : R 4 : 1 5 : 2 3 3   1 unit = 8 years F 8 + 8 48 2 = = times R 8 + 8 24 1 "
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Sum of ages of 5 children born at years each is 50 years. What is the child?",
+    "options": [
+      "4 years",
+      "8 years",
+      "10 years",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4 years) | Solution: (a) Let 'a' be the age of youngest child. We know, Sn =   n 2a + n -1 d 2     50 = 5 2 [2a + 4 3]  a = 4 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "5 times the present age of Sujatha than 2 times the present age of Vanita. 3 times the age of Vanita will be times the age of Sujatha. The age more than that of Sujatha. What",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2) | Solution: (a) 5S = 2V + 5 ........(i) (V + 4) 3 = (S + 4) 5 – 8 .......(ii)  3V + 12 = 5S + 20 – 8 3V = 2V + 5  V = 5 From equation (i) 5S = 15 S = 3 K = 5 – 3 = 2 years"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Ayesha's father was 38 years of born while her mother was 36 years brother four years younger to her the difference between the ages of",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6 years) | Solution: (c) ATQ, F – A = 38 ....(1) A – Brother = 4 Brother = A – 4 M – B = 36 M – A = 32 ....(2) from (1) and (2) F – M = 6 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The age of father 10 years ago was his son. Ten years hence, father's that of his son. The ratio of their",
+    "options": [
+      "5 : 2",
+      "7 :",
+      "9 : 2",
+      "13"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7 :) | Solution: (b) 10 years ago After 10 years F : S (3 :"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Divya is twice as old as Shruti. What",
+    "options": [
+      "II alone sufficient answer",
+      "Either I or ;k rks I ;k II",
+      "Both I and the intervals of 3",
+      "Both I and age of the youngest"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Either I or ;k rks I ;k II) | Solution: (b) Present age 5 years ago D : S (2 :"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "If 6 years are subtracted and the remainder age of his grandson years younger to of these is the age of Arun?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (c) ATQ, A 6 18  = G  A – 6 = 18 G  A = 18G + 6 ...(1) also, G = 5 – 2 = 3 ...(2) Put (2) (1) A = 54 + 6 = 60 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Seven times the",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | Solution: (d) ATQ, 7P – Q = 46 .....(i) 6(P + 8) – 6(Q + 8) = 24 P + 8 – Q – 8 = 4 P – Q = 4 .....(ii) From equation (i) – (ii) 7 7P – Q = 46 7P – 7Q = 28 6Q = 18 – + – Q = 3 then,"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Raju got married times his age at was 10 years younger thrice the age of The present age age will be twice",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (c) –8 years now Raju  5 6 1 unit  8 5 unit  40 present age of Raju = 6 8 = 48 Also, R – S = 10  S = 38 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Six years ago Anita",
+    "options": [
+      "11/P",
+      "P/+ 6 11+ 6",
+      "17/6",
+      "– P 11+ 6P/11"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (– P 11+ 6P/11) | Solution: (d) Anita Ben 6 years ago  Px x (Px + 6) (x + 6) Px + 6 = 17  x = 11 P Age of Ben = 11 + 6 P       = 11+6P P"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The age of a person is thrice the total ages of his 2 daughters. 0.5 decades hence, his age will be twice of the total ages of his daughters. Then what is the father's current age?",
+    "options": [
+      "35 years",
+      "40 years",
+      "45 years",
+      "47 years"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (45 years) | Solution: (c) Let, D1 + D2 = A Father's current age = 3A years Also, 3A + 5 = 2(A + 10)  A = 15  Father's current age = 45 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Ten years ago, Karan was thrice as old as Shiva was but 10 years hence, he will be twice as old. Find Shiva's present age ?",
+    "options": [
+      "70 years",
+      "30 years",
+      "60 years",
+      "40 years"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (30 years) | Solution: (b) 10 years ago After 10 years K : S 3 : 1 4 : 2 2 2   1 1 unit = 20 years 2 unit = 40 years Present age of Shiva = 30 years."
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The average age of a couple is 24 years when they were married five years ago but now the average age of the husband, wife and child is 20 years (the child was born during the interval). What is the present age of the child ?",
+    "options": [
+      "2 years",
+      "4 years",
+      "3 years",
+      "5 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 years) | Solution: (a) ATQ, H 5 W 5 2    = 24  H + W = 58 ...(1) Also, H W C 3   = 20 H + W + C = 60 ...(2) Put (1) (2) C = 2 years"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "A woman says, \"If you reverse my own age, the figures represent my husband's age. He is, of course, senior to me and the difference between our ages is one- eleventh of their sum.\" The woman's husband age is ?",
+    "options": [
+      "45",
+      "24",
+      "42",
+      "54"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (45)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "If 3 times the mother's age is 26 years more than 5 times her daughter's age, and 2 times the daughter's age is 2 years less than the mother's age, then what",
+    "options": [
+      "25",
+      "20",
+      "23",
+      "22"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (22)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The sum of the ages of a mother, son and daughter is 70 yrs. If mother is thrice as old as her son and the daughter is 5 yrs older than her brother. How old is mother?",
+    "options": [
+      "39 years",
+      "45 years",
+      "42 years",
+      "35 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (39 years)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "Five years ago Laurel was four years more than four times the age of his son. Three years hence Laurel`s age will be six years less than thrice the age of his son. After how many years from now will their combined age be 50 years?",
+    "options": [
+      "10",
+      "8",
+      "6",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The persent age (",
+    "options": [
+      "54",
+      "50",
+      "58",
+      "52"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (54)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "The present ages of two cousins are",
+    "options": [
+      "8 : 5",
+      "5 : 9",
+      "5 : 8",
+      "5 : 7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5 : 8)"
+  },
+  {
+    "id": "rkr_ages_age_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "Pro Level",
+    "sheetFile": "Age (Pro Level Sheet).pdf",
+    "question": "5 year ago, the ratio of the ages of A, B and C was 4 : 5 : 7. The sum of their present ages is 135 year.",
+    "options": [
+      "100",
+      "112",
+      "106",
+      "96"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (106)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times",
+    "options": [
+      "45",
+      "35",
+      "40",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (35) | Exam: SSC CGL 14/07/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "One year ago, the age of B was twice that of A. After 9 years, if the ratio of the ages of B and A would be 4 : 3, then the sum of their present ages is _____ years.",
+    "options": [
+      "30",
+      "15",
+      "17",
+      "21"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (17) | Exam: SSC CGL 24/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio of present ages of A and B is 7 : 8. After 6 years from now, the ratio of their ages will be 8 : 9. If C's present age is 10 years more than the present age of A, then",
+    "options": [
+      "56",
+      "52",
+      "59",
+      "45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (52) | Exam: SSC CGL 17/08/2021 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The difference between the ages of father and son is 15 years. 5 years ago the age of the father was twice the age of his son. Find the present age of both of them.",
+    "options": [
+      "45 yrs, 30 yrs",
+      "40 yrs, 25 yrs",
+      "30 yrs, 15 yrs",
+      "35 yrs, 20 yrs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (35 yrs, 20 yrs) | Exam: SSC CHSL MAINS 26/06/2023"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Ghanshyam is thrice as old as Akash. 10 years ago, Ghanshyam was four times as old as Akash. What is the difference between their",
+    "options": [
+      "65",
+      "50",
+      "55",
+      "60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (60) | Exam: SSC CGL 24/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Eight year ago, the ratio of ages of A and B was 5 : 4. The ratio of their present ages",
+    "options": [
+      "80",
+      "122",
+      "112",
+      "102"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (102) | Exam: SSC CGL MAINS 29/01/2022"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Seven years ago, Prachi was four times as old as her daughter was at that time. Four years from now, Prachi will be two-and-a- half times as old as her daughter would then be. Find the sum of the present ages",
+    "options": [
+      "69",
+      "77",
+      "49",
+      "72"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (69) | Exam: SSC CGL 09/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Mother told her daughter, \"Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be\". Find the present ages of the mother and the daughter, respectively.",
+    "options": [
+      "45 ; 15",
+      "40 ; 10",
+      "42 ; 12",
+      "50 ; 20"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (42 ; 12) | Exam: SSC CGL 19/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "10 years ago the father's age was three times the age of his son. After ten years, the father's age will be twice the age of his son. What is the ratio of their present ages?",
+    "options": [
+      "7 : 3",
+      "5 : 2",
+      "3 : 2",
+      "5 : 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (7 : 3) | Exam: SSC CHSL 10/01/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Four years ago, Ravi was four times as old as Kavya. Seven years from now, Ravi will be three times as old as Kavya. Find the sum of their present ages.",
+    "options": [
+      "118 years",
+      "122 years",
+      "117 years",
+      "115 years"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (118 years) | Exam: SSC CHSL 10/07/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "10 years ago, the age of Sunita was thrice the age of her daughter Tanya. 10 years hence, the age of Sunita will be twice the age of Tanya. What is the ratio of their present ages?",
+    "options": [
+      "3 : 7",
+      "7 : 3",
+      "2 : 7",
+      "7 : 2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (7 : 3) | Exam: SSC CGL 23/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Amit's father is aged five times more than Amit. After 6 years, he would be three and a half times of Amit's age. After further 9 years, how many times of Amit's age would he be?",
+    "options": [
+      "2 times",
+      "2 times",
+      "3 times",
+      "2 times"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2 times) | Exam: SSC CGL 24/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio of the present ages of a man and his son is 5 : 3. The average of their present ages is 32 years. What will be the ratio of their ages after six years?",
+    "options": [
+      "12 : 17",
+      "15 : 23",
+      "17 : 12",
+      "23 : 15"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (23 : 15) | Exam: ICAR MAINS 08/07/2023 (Shift-2)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio between Sumit and Prakash age at present is 2 : 3. Sumit is 6 years younger than Prakash. The ratio of Sumit’s age to Prakash’s age after 6 years will be",
+    "options": [
+      "2 : 3",
+      "1 : 2",
+      "4 : 3",
+      "3 : 4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3 : 4)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The sum of the ages of a son and father is 52 years; After four years the father's age will be four times the son's age. What is the",
+    "options": [
+      "9 years",
+      "12 years",
+      "10 years",
+      "8 years"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8 years) | Exam: SSC CHSL MAINS 10/01/2024"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Three years ago, the age of a person was six times the age of his younger brother. Eight years later, the age of the person will be three years less than twice the age of his younger brother. Find the present ages of the person and his younger brother.",
+    "options": [
+      "15 yrs. and 5 yrs.",
+      "5 yrs. and 15 yrs.",
+      "12 yrs. and 4 yrs.",
+      "4 yrs. and 12 yrs."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (15 yrs. and 5 yrs.) | Exam: SSC CGL 19/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Six years ago, the average of the ages of Ravi, Mohan and Govind was 32 years. If Shyam joins them now, the average of the ages of all four of them is 36 years. The present age of Shyam is:",
+    "options": [
+      "35 years",
+      "32 years",
+      "40 years",
+      "30 years"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30 years) | Exam: SSC CHSL 14/10/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio of ages of A and B, 8 years ago, was 2:3. Four years ago, the ratio of their ages was 5:7. What will be the ratio of their ages 8 years from now?",
+    "options": [
+      "7:8",
+      "4:5",
+      "3:4",
+      "5:6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4:5) | Exam: SSC CGL 5/03/2020 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "Five year ago, the ratio of the ages of A and B was 3 : 4. Five years from now, the ratio of their ages will be 4:5. What is the ratio of A and B, 10 years form now ?",
+    "options": [
+      "9:11",
+      "6:7",
+      "5:6",
+      "7:9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (9:11) | Exam: SSC MTS 22/08/2019 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ages of two friends, Ram and Ravi, differ by 7 years. Ram's mother Mayadevi is three times as old as Ram, and Ravi is four times as old as his brother Soham. The ages of Mayadevi and Soham differ by 65",
+    "options": [
+      "69",
+      "36",
+      "85",
+      "45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (69) | Exam: SSC CGL 10/09/2024 (Shift-01)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "One year ago, the ratio of the age (",
+    "options": [
+      "7 : 6",
+      "10 : 9",
+      "9 : 8",
+      "8 : 7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (9 : 8) | Exam: SSC CGL MAINS 11/09/2019"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The present age of a husband and wife is",
+    "options": [
+      "8 yrs",
+      "10 yrs",
+      "6 yrs",
+      "4 yrs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6 yrs) | Exam: SSC PHASE XI 28/06/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio of the ages of A and B, 3 years ago, was 5 : 7. The ratio of their ages, 13 years from now, will be 9 : 11. If the present age of C is 11 years less than that of B, then",
+    "options": [
+      "23",
+      "36",
+      "31",
+      "20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (20) | Exam: SSC CGL 23/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The ratio of the ages of A and B, 8 years ago, was 5 : 7. The ratio of their ages, 8 years from now, will be 9 : 11. If the present age of C is 13 years less than that of B, and the present age of D is 8 years less than that of the age of A, then the sum of the",
+    "options": [
+      "47",
+      "55",
+      "43",
+      "53"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (43) | Exam: SSC PHASE IX 14/03/2022 (Shift-03)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "The sum of the present ages of father and a son is 52 years. Four years hence, the 1 son’s age will be that of the father. 4 What will be the ratio of the ages of the son and father,10 years from now?",
+    "options": [
+      "2 : 7",
+      "2 : 5",
+      "3 : 8",
+      "1 : 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (1 : 3)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "P got married 15 years ago. Today her age 3 is 1 times her age at the time of her 5 1 marriage. At present her son's age is of 5 her age. What was her son's age 4 years ago as a fraction of P's age at that time?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Exam: SSC CHSL 10/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_ages_ages_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Ages",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Ages (ClassRoom Sheet).pdf",
+    "question": "At present, A is thrice as old as B. C is 5 years elder than B. The sum of the ages of A, B, C is 75 years. The ratio of the age of B five years ago to the age of A three years from now is:",
+    "options": [
+      "2 : 3",
+      "1 : 4",
+      "4 : 7",
+      "1 : 5 KEY 6. (d) 7. (a) 8. (c) 9. (a) 10. (a)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2 : 3) | Exam: SSC CGL 09/09/2024 (Shift-02)"
+  }
+]

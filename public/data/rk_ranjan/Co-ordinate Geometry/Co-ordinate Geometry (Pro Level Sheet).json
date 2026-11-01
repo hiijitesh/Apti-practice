@@ -1,0 +1,682 @@
+[
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The ordinate and abscissa of the equal, The value of k is ?",
+    "options": [
+      "0",
+      "–1",
+      "1",
+      "0.5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (–1) | Solution: (c) K = 2K – 1 K = 1"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the coordinates of the point line segment joining the points (2, the ratio 1 : 2 internally.",
+    "options": [
+      "(8, 0)",
+      "(0,",
+      "(3, –5)",
+      "(4,"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((4,) | Solution: (b) Given, (x1, y1) = (2, – 3), (x2, y2) = (–4, 6) and ratio, m : n = 1 : 2 We know, x = 2 1 2 1 m +n my ny ,y = m+ n m+n x x  x = 2 2 1 (–4) 3    = 0 y = 2 (–3) 1 6 3    = 0 (x, y) = (0, 0)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The length of the portion of the straight = 60 intercepted between the axes",
+    "options": [
+      "5",
+      "13",
+      "17",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (12) | Solution: (b) (0, 5) (12, 0) B A 5x + 12y = 60 Put x = 0  y = 5 Put y = 0  x = 12  Length of AB =13(Triplet of 5, 12, 13)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the graph of the equation 20x + coordinate axes at P and Q, then",
+    "options": [
+      "25",
+      "29",
+      "40",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (25) | Solution: (b)20x + 21y = 420 Put x = 0 y = 20 Put y = 0 x = 21 (0, 20) (21, 0) Q P  Length of PQ = 29 (Triplet of 20, 21, 29)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the intersection point of the equations = 0 and – 2p + q – 13 = 0 on the the value of (3p + q) is equal to:",
+    "options": [
+      "2",
+      "1",
+      "–2",
+      "–1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (–2) | Solution: (c) 3p – 2q + 23 = 0 ......(i) –2p + q – 13 = 0 ......(ii) Multiple (ii) by 2 and add it from (i), p = –3  q = 7  3p + q = 3 –3 + 7 = – 2"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the point of intersection of lines y = 1 lies on y = Kx + 5, what is the",
+    "options": [
+      "3",
+      "–4",
+      "4",
+      "–3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–3) | Solution: (b)x + y = 2 …….(i) 2x – y = 1 ……(ii) Adding equation (i) and (ii), 3x = 3 x = 1 And y = 1 y = Kx + 5  1 = K + 5 K = – 4"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If equation of line p is x + y = 5 and – y = 3, what are the coordinates to both the lines?",
+    "options": [
+      "(2, 1)",
+      "(1,",
+      "(2, 3)",
+      "(4,"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((2, 3)) | Solution: (c)ATQ, x + y = 5 .....(i) x – y = 3 .....(ii) On solving equation (i) & (ii) x = 4, and y = 1  The co-ordinates of the common point = (4, 1)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The perpendicular length from the + 8y – 48 = 0 is:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (b) (0, 6) (0, 0) (8, 0) If point of origin (0, 0) then perpendicular distance of a line = 2 2 C a b  = 2 2 –48 6 8  = 4.8 unit Alternate Method: Perpendicular distance of a line ax + by + c = 0 from a point (x, y) = 1 1 2 2 ax by c a b    = 2 2"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "What is the area linear equations by these lines and which divides the nks jSf•d lehdj.k",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) (0,6) (3,0) (0,2) (–1,0) 2 y 6 2 – y – 2 2y 8 y 4      x x Area of bounded region = 1 2 4 4 = 8 unit2"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If a circle whose 3) 3y - 7 = 0, then",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (c) 4x + 3y – 7 = 0 (2, 3) Radius of circle = 1 1 2 2 a by c a b    x = 2 2 4 2 3 3 – 7 4 3   = 10 5 = 2 unit"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The equation of cm is :",
+    "options": [
+      "x2 + y2 + 2x",
+      "x2 + y2 – 2x",
+      "x2 + y2 + 2x",
+      "x2 + y2 – 2x"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (x2 + y2 – 2x) | Solution: (d) C(1, 2), r = 4 cm equation of circle = (x – h)² + (y – k)² = r² (x – 1)² + (y – 2)² = 16 x² + y² – 2x – 4y + 5 = 16 x² + y² – 2x – 4y = 11"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The relation between of linear equations 3p – 2q + 23 represents coincident",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (a)K1x + 3y = 8 ......(i) 4x + K2y = 16 ......(ii) Note:- For coincident lines 1 1 1 2 2 2 a b c = = a b c On comparing equation 1 K 4 = 2 3 K = 8 16 So, 2 3 K = 8 16 , then 1 K 4 = 8 16  K2 = 6, K1 = 2. So, we can say K2 = 3K1"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Given a linear equation x + y = 2 and 2x – = 0, which of the value of K? the given equation, y = having no solution?",
+    "options": [
+      "5x + 7y – 16",
+      "7x + 5y – 8",
+      "5x – 7y – 8",
+      "10x + 14y – 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5x + 7y – 16) | Solution: (a)Given, 5x + 7y – 8 = 0 If equation have no solution- Then,"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the equations 1) 5 = 0 (k > 0) are origin to the line 6x ;fn lehdj.k 4x + = 0, (k > 0) lekarj",
+    "options": [
+      "68",
+      "4.8 unit",
+      "72 Co-ordinate Geometry (funsZ'kkad T;kfefr)",
+      "5.2 unit of the region created by the two 2x + y = 6 and 2x – y = –2 bounded the x-axis? (b) 8 unit2 (d) 6 unit2 centre is (2, 3) touches the line 4x + the radius of the circle is: (b) 1 unit (d) 3 unit circle with centre (1, 2) and radius 4 – 4y = 16 + 4y = 16 – 4y = 11 – 4y = 11 K1 and K2 for which the system K1x + 3y = 8 and 4x + K2y = 16 lines, is: laca/ ftlds fy, jSf•d lehdj.kksa K1x + 3y (b) K2 + 3K1 = 0 (d) K1 + K2 = 0 following linear equations, along with forms a system of linear equations = 0 = 0 = 0 16 = 0 4x + (k – 2)y + 3 = 0 and (k – 2)x + 9y – parallel, then find the value of k2 + 6. (b) 70 (d) 64"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4.8 unit)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the values of x, y and z, so as to satisfy the equations given below:",
+    "options": [
+      "x = 5, y = 4, z = – 3",
+      "x = 5, y = – 4, z = 3",
+      "x = 5, y = 4, z = 3",
+      "x = 5, y = – 4, z = – 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (x = 5, y = 4, z = 3)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Solve the given set of three equations to get the value of the unknowns:",
+    "options": [
+      "x = 0, y = –1, z = 2",
+      "x = –1, y = 0, z = 2",
+      "x = –1, y = 2, z = 0",
+      "x = 2, y = 0, z = –1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (x = –1, y = 0, z = 2)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If 0.4x + 0.16y = 1.7 and 0.3x + 0.12y = 3.4, then which of the following is correct?",
+    "options": [
+      "The system has finitely many solutions but not unique",
+      "The system has infinitely many solutions",
+      "The system has no solution",
+      "The system has unique solution"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (The system has no solution)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the coordinates of the point which divides the line segment joining the points (2, 1) and (3, 5)",
+    "options": [
+      "(0, –6)",
+      "(0, 0)",
+      "(3, –5)",
+      "(0, –7)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((0, –7))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "For the following equations, what are the values of a and b to have infinitely many solutions?",
+    "options": [
+      "a = – 1, b = – 1",
+      "a = – 1, b = 1",
+      "a = 1, b = – 1",
+      "a = 1, b = 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (a = 1, b = – 1)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Solve the following system of linear equations:",
+    "options": [
+      "x = 7, y = 5, z = 1",
+      "x = 7, y = 2, z = 3",
+      "x = 2, y = 5, z = 3",
+      "x = 7, y = 5, z = 3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (x = 7, y = 5, z = 3)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The lines x + y = 10 and –3x + y = 2 have a unique",
+    "options": [
+      "8 2",
+      "8",
+      "10",
+      "10 2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8 2)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The graphs of two linear equations, x + 2y = 15 and 4x + 8y = 13 will be:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The distance of the point P(2, 3) from the x–axis is.",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The distance between the points (0, 3) and (–3, 0) is:",
+    "options": [
+      "3 units",
+      "3 2 units",
+      "6 units",
+      "2 3 units"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3 2 units)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The point (9, 0), (9, 6), (–9, 6) and (–9, 0) are the vertices of a _______.",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Trapezium",
+      "Rhombus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Square)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the points A(1, 2), B(4, 3), C(1, 0) and D(k, -1) are the vertices of a parallelogram then, the value of k is:",
+    "options": [
+      "2",
+      "1",
+      "–1",
+      "–2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (–2)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The area of the triangle ABC with the vertices A(–5, 7), B(–4, –5) and C(4, 5) is.",
+    "options": [
+      "53 sq.units",
+      "63 sq.units",
+      "36 sq.units",
+      "35 sq.units"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (53 sq.units)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The coordinates of the centroid of the triangle ABC whose vertices are A(–5, 7), B(–4, –5) and C(4, 5), is",
+    "options": [
+      " – , ",
+      " – , ",
+      "  ",
+      "   "
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ( – , )"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the incentre of a triangle ABC whose vertices are A(0, 0),B(5, 0) and C(0, 12).",
+    "options": [
+      "(2, –2)",
+      "(3, –2)",
+      "(3, 2)",
+      "(2, 2)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((2, 2))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The area of a quadrilateral whose vertices are (3, 0),",
+    "options": [
+      "48 sq. units",
+      "30 sq. units",
+      "24 sq. units",
+      "12 sq. units"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (48 sq. units)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The pair of equations 3x –5y = 7 and 6 x + 10y = 7 have:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If a pair of linear equations is consistent, then the lines will be:",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "If the points (–5 1,) (1, k) and (4–2) are colinear then the value of K is.",
+    "options": [
+      "–1",
+      "2",
+      "3.",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (–1)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "A (x, 5), B (3, – 4) and C (– 6, y) are the three vertices of a triangle ABC. If (3.5, 4.5) is the centroid of the triangle, find the point (x + 3, y – 4)",
+    "options": [
+      "(16.5, 8.5)",
+      "(13.5, 12.5)",
+      "(8.5, 16.5)",
+      "(15.5, 9.5)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((16.5, 8.5))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the ortho centre of an equilateral PQR, whose vertices are P(2, –3), Q(0, –3) and R(4, 9).",
+    "options": [
+      "(2, 1)",
+      "(3, –2)",
+      "(3, 2)",
+      "(1, 2)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((2, 1))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "What is the polar co-ordinate of (1, 3 )",
+    "options": [
+      "(2cos60°, 2sin60°)",
+      "(2cos30°, 2sin30°)",
+      "(2sin60°, 2cos60°)",
+      "(2sin30°, 2cos30°)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | ((2cos60°, 2sin60°))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the acute angle between the lines y = 2x + 5 and y + 3x + 2 = 0",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (45°)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "The co-ordinates of the vertices of a right-triangle are P(3, 4), Q(7, 4) and R (3, 8), right-angled at P. The co- ordinate of the circum centre of triangle PQR.",
+    "options": [
+      "(7, 4)",
+      "(3, 8)",
+      "(5, 6)",
+      "(3, 4)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | ((5, 6))"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "For the equations ax + (a² + 1)y = 4 and 4x + ay = a², which of the following statements is TRUE?",
+    "options": [
+      "If a = 6, then x = , y = – are the solu- 28 28 tions",
+      "If a = 6, then x = 48, y = 4 are the solutions 325 25",
+      "If a = –12, then x = , y = – are the solu- 28 28 tions",
+      "If a = –12, then x = 48, y = 4 are the solutions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (If a = –12, then x = 48, y = 4 are the solutions)"
+  },
+  {
+    "id": "rkr_co_ordinate_geometry_co_ordinate_geometry_pro_level_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Co-ordinate Geometry",
+    "sheetType": "Pro Level",
+    "sheetFile": "Co-ordinate Geometry (Pro Level Sheet).pdf",
+    "question": "Find the orthocentre of a right angle PQR, whose vertices are P(3, 4), Q(7, 4) and R(3, 8), right angled at P.",
+    "options": [
+      "3, 4",
+      "2, 1",
+      "3, 7",
+      "4, 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3, 4)"
+  }
+]

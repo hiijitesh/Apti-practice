@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "On dividing a number by 38, the quotient is 24 and the remainder is 13, then the number is :",
+    "options": [
+      "925",
+      "975",
+      "904",
+      "956"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (925) | Exam: SSC CPO 16/03/2019 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "On dividing 8675123 by a certain number, the quotient is 33611 and the remainder is 3485. The divisor is",
+    "options": [
+      "538",
+      "258",
+      "248",
+      "356"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (258) | Exam: SSC CHSL 25/05/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "A number when divided by 44, gives 432 as quotient and 10 as remainder. What will be the remainder when dividing the same number by 31?",
+    "options": [
+      "12",
+      "13",
+      "15",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (15)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the sum of all two digit odd numbers?",
+    "options": [
+      "2375",
+      "2475",
+      "2325",
+      "2425"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2375) | Exam: SSC CHSL 17/03/2023 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Divide 25 into two parts such that 6 times of the larger part added to 4 times of the smaller part is equal to 130. Find the larger part?",
+    "options": [
+      "13",
+      "15",
+      "14",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (13) | Exam: SSC CHSL 11/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "On dividing a number by 645, the remainder is 40. What will be the remainder on dividing the same number by 43?",
+    "options": [
+      "27",
+      "40",
+      "29",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (40)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When the integer n is divided by 5, the remainder is 3. What is the remainder if 6n is divided by 5?",
+    "options": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (3) | Exam: SSC CHSL 08/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When number n is divided by 6, the reminder is 3. What will be the remainder when (n4+n³+n2+5n) is divided by 6?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "For any integeral value of n, 32n + 9n + 5, when divided by 3 will leave the remainder :",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Given n is an integer, what is the remainder when (6n + 3)2 is divided by 9?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0) | Exam: SSC CGL 08/07/2019 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When positive number x, y and z are divided by 31, the reminders are 17, 24 and 27 respectively. When (4x – 2y + 3z) is divided by 31, the remainder will be :",
+    "options": [
+      "9",
+      "8",
+      "16",
+      "19"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (8) | Exam: SSC CGL TIER-II (15/11/2020)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When positive number a, b and c are divided by 13, the reminders are 9, 7 and 10 respectively. What will be the remainder when (a + 2b + 5c) is divided by 13?",
+    "options": [
+      "10",
+      "5",
+      "9",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (8) | Exam: SSC CGL TIER-II (16/11/2020)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "The difference between two numbers is 3630. When a larger number is divided by a smaller number, the quotient and remainder are 30 and 5 respectively. Find the larger number?",
+    "options": [
+      "3955",
+      "3755",
+      "3855",
+      "4755"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (3755)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "The difference between two numbers is 4176. When the larger number is divided by the smaller number, the quotient and remainder are 36 and 11 respectively. Find the larger number.",
+    "options": [
+      "4295",
+      "4495",
+      "4595",
+      "4275"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4295)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When a positive integer is divided by d, the remainder is 15. When ten times of the same number is divided by d, the remainder is 6. The least possible value of d is :",
+    "options": [
+      "9",
+      "12",
+      "16",
+      "18"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (16) | Exam: SSC CGL 05/03/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When two numbers are seperately divided by 33, the remainder are 21 and 28 respectively. If the sum of the two numbrs is divided by 33, the remainder will be :",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When two numbers are separately divided by 44, the remainders are 11 and 38, respectively. If the sum of the two numbers is divided by 44, then the remainder will be:",
+    "options": [
+      "16",
+      "44",
+      "33",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5) | Exam: SSC CHSL 30/05/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If two number x and y is separately divided by a number the remainders is 4376 and 2986 respectively. If the sum of that numbers i.e. (x + y) is divided by that number 'd' then the remainder is 2361. The value of number d is :",
+    "options": [
+      "7362",
+      "5000",
+      "4000",
+      "2542"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5000)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder when 23 x 34 x 45 x 56",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when 121",
+    "options": [
+      "7",
+      "9",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when the product of 335, 608 and 853 is divided by 13?",
+    "options": [
+      "11",
+      "12",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (7) | Exam: SSC CGL 12/04/2022 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "The number which is divided by 10 leaves 9 as remainder when it is divided by 9 leaves 8 as remainder and when it is divided by 8 leaves 7 as remainder is :",
+    "options": [
+      "1539",
+      "539",
+      "359",
+      "1359"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (359)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When a positive integer N divided by 16, 17 and 18 leaves remainders of 6, 7 and 8 respectively. Find the remainder when N2 + 5N + 6 is divided by 11?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "7"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "The sum of the digits of the least number which when divided by 36, 72, 80 and 88 leaves the remainders 16, 52, 60 and 68, respectively, is:",
+    "options": [
+      "17",
+      "11",
+      "14",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16) | Exam: SSC CGL MAINS 03/02/2022"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the greatest number which divides 108, 124 and 156, leaving the same remainder:",
+    "options": [
+      "18",
+      "10",
+      "12",
+      "16"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (16) | Exam: SSC CGL 11/04/2022 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the greatest number by which when 156, 181 and 331 are divided, the remainder",
+    "options": [
+      "26",
+      "17",
+      "25",
+      "13"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (25) | Exam: SSC CGL 11/04/2022 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When a number is successively divided by 3, 4 and 7, the remainder obtained are 2, 3 and 5 respectively. What will be the remainder when 84 divides the same number?",
+    "options": [
+      "71",
+      "53",
+      "30",
+      "48"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (71) | Exam: SSC CPO 24/11/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "After the division of a number successively by 2, 3 and 5, the remainders are 1, 2 and 3, respectively. What will be the remainder, if 13 divides the same number (if the last quotient is 1)?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1) | Exam: SSC CHSL 05/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "A number when successively divided by 3, 5 and 8 leaves remainder 1, 4 and 7 respectively. Find the respective remainder when the order of the divisors is reversed.",
+    "options": [
+      "8 , 5, 3",
+      "4, 2, 1",
+      "3, 2, 1",
+      "6, 4, 2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (6, 4, 2)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q031",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "A number when successively divided by 4 and 5 leaves remainder 1 and 4 respectively. When it is successively divided by 5 and 4, the respective remainder will be :",
+    "options": [
+      "4, 1",
+      "3, 2",
+      "2, 3",
+      "1, 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2, 3)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q032",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the number when successively divided by 3, 5 and 7 leaves remainder 2, 1 and 3 respectively, and the last quotient is 3.",
+    "options": [
+      "360",
+      "362",
+      "365",
+      "367"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (365) | Exam: SSC CHSL 01/07/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q033",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "A number on being divided by 3, 4 and 5 successively the remainder 2, 1 and 2 respectively. Find the remainders when the number successively divided by 5, 4 and 3.",
+    "options": [
+      "4, 0, 1",
+      "4, 2, 1",
+      "4, 1, 1",
+      "4, 1, 2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (4, 1, 1)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q034",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the remainder when 676 is divided by 5?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q035",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder when 77 is divided by 4.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (3) | Exam: CONSTABLE 18/02/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q036",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when 2727 – 1527 is divided by 6?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q037",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If (7777 + 77) is divided by 78, then the remainder will be:",
+    "options": [
+      "76",
+      "77",
+      "78",
+      "1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (76) | Exam: SSC CGL 10/09/2024 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q038",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the remainder when 340 is divided by 4?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (1)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q039",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder: (1713 – 21)",
+    "options": [
+      "15",
+      "17",
+      "14",
+      "21"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (14) | Exam: SSC CGL 13/09/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q040",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the remainder when (265)4081 + 9 is divided by 266?",
+    "options": [
+      "8",
+      "6",
+      "1",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Exam: SSC CGL 14/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q041",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when 21000000 is divided by 7?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (2)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q042",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when 38 is divided by 7?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CHSL 08/08/2023 Shift-02"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q043",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Given that N = 520, what will be the remainder when N is divisible by 7 ?",
+    "options": [
+      "4",
+      "– 4",
+      "– 1",
+      "None of thes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (4)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q044",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Given that N = 2001000, what will be the remainder when N is divisible by 17 ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q045",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Given that N = (2222)5555 + (5555)2222. What will be the remainder when N is divided by 7?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q046",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the remainder when (265)4081 + 9 is divided by 266?",
+    "options": [
+      "8",
+      "6",
+      "1",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (8) | Exam: SSC CGL 14/07/2023 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q047",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the remainder when 4961 is divided by 35?",
+    "options": [
+      "16",
+      "12",
+      "18",
+      "14"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (14)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q048",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder on dividing (985)133 by 29.",
+    "options": [
+      "24",
+      "26",
+      "22",
+      "28"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (28)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q049",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when we divide 570 + 770 by 74?",
+    "options": [
+      "7",
+      "1",
+      "0",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0) | Exam: SSC CGL 07/03/2020 (Shift- 03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q050",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when (x17 + 1) is divided by (x + 1) ?",
+    "options": [
+      "x",
+      "x –1",
+      "0",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0) | Exam: SSC CGL 25/07/2023 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q051",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When m12– 1 is divided by m + 1, the remainder is:",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "–1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0) | Exam: SSC CGL 13/12/2022 (Shift-01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q052",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When the sum of 201, 202, 203, 204, 205, 206 _____ 260 is divided by 9, then what will be the remainder?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (6)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q053",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the sum of all those 3-digit numbers which when divided by 11 leave remainder 5.",
+    "options": [
+      "45059",
+      "44955",
+      "45525",
+      "34995"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (45059)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q054",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the sum of all those 3-digit numbers which when divided by 10 leave remainder 5.",
+    "options": [
+      "54800",
+      "72000",
+      "49500",
+      "56500"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (49500)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q055",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When 200 is divided by a positive integer x, the remainder is 8. How many values of x are there?",
+    "options": [
+      "7",
+      "5",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (8) | Exam: SSC CGL 03/03/2020 (Shift- 02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q056",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When 732 is divided by a positive integer x, the remainder is 12. How many value of x are there?",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20) | Exam: SSC CGL 03/03/2020 (Shift- 01)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q057",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "64329 is divided by a certain number. While dividing the numbers, 175, 114 and 213 appear as the three successive remainders. The divisor is :",
+    "options": [
+      "184",
+      "224",
+      "234",
+      "256"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (234)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q058",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If 243 gives a remainder of 4 when divided by a certain natural number n, what will be the remainder when 482 is divided by 2n",
+    "options": [
+      "1",
+      "4",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (4)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q059",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "R = Remainder when (1! + 2! + 3! + ......120!) is divided by 15. find R.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (3)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q060",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What will be the sheffle when O! + 1! + 2! + 3! .......... + 98! is divided by 5?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (4)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q061",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If X = (123 + 133 + 143 + 153), then what is the remainder when X is divided by 9?",
+    "options": [
+      "0",
+      "1",
+      "27",
+      "None of these"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q062",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If X = (163 + 173 + 183 + 193), then leaves 70 a remainder of X",
+    "options": [
+      "0",
+      "1",
+      "69",
+      "35"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q063",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "What is the remainder when (11 + 22 + 33 + 44+ ...... + 100100) is divided by 4?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (0)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q064",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Two numbers 11284 and 7655 is divided by three digits numbers leaves the same remainder. That three digit number is :",
+    "options": [
+      "199",
+      "197",
+      "193",
+      "191"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (191)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q065",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder of . 5 22 23 – – – 3126 20 21",
+    "options": [
+      "4",
+      "0",
+      "1",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (1) | Exam: SSC GD 01/02/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q066",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If N = (243 + 253 + 263 + 273), then N divided by 102 leaves a remainder of:",
+    "options": [
+      "2.",
+      "3. (b) 4. (c) 5. (d",
+      "0",
+      "18"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (0) | Exam: SSC GD 24/01/2023 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q067",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "When f(x) = 15x3 – 14x2 – 4x + 10 is divided by (3x + 2), then the remainder is:",
+    "options": [
+      "– 1",
+      "1",
+      "– 2",
+      "2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2) | Exam: SSC CHSL 27/05/2022 (Shift-02)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q068",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder, when we divide 2x3 – 3x2 + 6x – 4 by 2x – 3?",
+    "options": [
+      "5",
+      "6",
+      "–5",
+      "–6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (5) | Exam: SSC CHSL 04/07/2024 (Shift-03)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q069",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "Find the remainder when we divide 3x4 – 2x² +4x – 1 by 2x – 1.",
+    "options": [
+      "11",
+      "15",
+      "11/16",
+      "15/16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (11/16) | Exam: SSC CGL 07/12/2022 (Shift-04)"
+  },
+  {
+    "id": "rkr_number_system_remainder_classroom_sheet_q070",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "sheetType": "ClassRoom",
+    "sheetFile": "Remainder (ClassRoom Sheet).pdf",
+    "question": "If the polynomial (2x3 + ax2 + 3x – 5) and (x3 + x2 – 2x + a) leave the same remainder when divided by (x – 2), find the remainder.",
+    "options": [
+      "7.",
+      "8. (a) 9. (c) 10. (b)",
+      "2",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (5) | Exam: SSC CPO 28/06/2024 (Shift-03)"
+  }
+]

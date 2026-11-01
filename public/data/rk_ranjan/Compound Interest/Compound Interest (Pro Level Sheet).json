@@ -1,0 +1,512 @@
+[
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q001",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Utsavi invested a sum of `7500 compound interest, compounded received an amount of `10443 after of n is:",
+    "options": [
+      "1.6",
+      "3",
+      "2",
+      "2.7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (2) | Solution: (c) Number of year = n ATQ, Amount Principle 10443 7500 3481 2500 : 59 2 50 2 Hence, Number of years (n) = 2 years"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q002",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum of money invested at",
+    "options": [
+      "15 year",
+      "20",
+      "30 year",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (20) | Solution: (b) The amount triples 10 years. 32 = 9 So, time taken to occur 9 times = 10 power = 10 2 = 20 years"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q003",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum becomes 2.89 times of itself invested at compound interest annually). What is the annual rate",
+    "options": [
+      "80",
+      "50",
+      "40",
+      "70"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (70) | Solution: (d) ATQ, I st year 1 (100 : 10 : II nd year"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q004",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A certain sum at compound interest",
+    "options": [
+      "2,800 & 9",
+      "2,200 & 10",
+      "2,000 & 8.5",
+      "2,500 & 10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (2,500 & 10) | Solution: (d) P 3327.5 3025 2 year 1 year 3 year R = A – P P 3327.5 – 3025 = 3025 100"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q005",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "If the simple interest on a sum of",
+    "options": [
+      "`2,080",
+      "`2,040",
+      "`1,960",
+      "`1,660"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`2,080) | Solution: (a) ATQ, 8% 2000 2  `1000 (1 year SI)  4%  `500  100%  `12500 Now CI for 2 years = (8 + 8 + 8 8 100  )% = 16.64% CI amount = 16.64% 12500 = 2080"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q006",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A, B and C invested amounts respectively. If the schemes offered at the rate of 20% p.a, 15% respectively, then what will be amounts after 1 year?",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (c) ATQ, A B C 300 400 500 120% 115% 110% 300 120% : 400 115% : 500 110% 36 : 46 : 55"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q007",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "When difference interest for three",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (c) 3 years diff. = (CI – SI) = 2 R 300 R P 100 100              124 = P 10 100 10 100 310 100 P = 100 100 100 124 10 10 310      = Rs.4000"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q008",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Three amounts 10 years.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) Given, y = x t r 1 –1 100               .......(i) z = y t r 1 –1 100               .......(ii) from (i) and (ii) y x = z y  y2 = xz"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q009",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum of Rs.100 tkus okyk) ij fuos'k compound interest",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | Solution: (b) Successive interest% for 2 years at 10% = 21% Successive interest% for 2 years at 20% = 44% Increment interest = (44 – 21)% = 23% then, 23% of 100 = Rs.23"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q010",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum becomes",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | Solution: (c) We know, Principle 1 1 2 A A A   8640 8640 12441.6   = Rs. 6000"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q011",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Javed took a loan same period at the compounded annualy years. If he had",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | Solution: (a) 100 : 112 : 12 100 12% 100   2nd year  Rate = Principal Amount 12,544 10,000 1st year  10,000 12,544 Total SI = 2 12% = 24%  SI = Rs.2,400 Total saving = (25,44 – 2400) = Rs.144"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q012",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "If a sum of money the ratio of their compound interest, it become 16",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "30"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (30) | Solution: (d) Let principal = P P 2P 10years 4P 10years 8P 10years 16P 10years more time taken to make 16 time = 30 years. Note:- CI if a sum becomes n times t years then every year it will become n times of previous amount. SMART APPROACH:- 2 times 10 years "
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q013",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A moneylender borrows money at pays the interest at the end of the at 8% per annum compound interest, half-yearly, and receives the interest year.",
+    "options": [
+      "`6,500",
+      "`4,000",
+      "`5,050",
+      "`4,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`4,000) | Solution: (b) Rate = 8 4% 2  Equivalent rate of CI at 4% for 2 cycle = 4 4 4 4 % 100            = 8.16% ANSWER KEY"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q014",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A certain sum becomes Rs. 15,500 annual simple interest rate. calculated on a half-yearly compounded how much will the same sum become 10% annual rate? (Rounded off to",
+    "options": [
+      "`14,470",
+      "`13,460",
+      "`14,360",
+      "`15,125"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`14,470)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q015",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "The simple interest on a certain sum 10% per annum is Rs.2,940. compound interest on the same sum the same rate when interest is compounded (nearest to a rupee) 1",
+    "options": [
+      "2272",
+      "2300",
+      "2400",
+      "2600"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2272)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q016",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Pragya invests `2,00,000",
+    "options": [
+      "`2,51,250",
+      "`2,52,150",
+      "`2,35,850",
+      "`2,33,280"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (`2,33,280)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q017",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Let, x be the compound on a sum of Rs.1000 annually and y 4% per annum and years on a sum year. He lends it What is the difference compounded",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q018",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "How much amount rjg mUgsa lkykuk 166-4 interest will amount",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q019",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A deposited a names of his grandsons",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q020",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A person borrows yearly. compound interest second year he third year he clears",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q021",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Jonathan had at 10% interest of her daughter, a 5-year period, pays compound end of the period compounded no pre-payment amount due to the some bonus payment old? to clear his debt. pay now to clear",
+    "options": [
+      "`1,33,100",
+      "`1,33,200",
+      "`1,33,000",
+      "`1,32,900"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`1,33,100)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q022",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "The compound interest on a sum 1 of x % p.a. for 12 years is `3,840, yearly. What will be the compound same sum at the same rate and if the interest is compounded half-yearly?",
+    "options": [
+      "`3,972",
+      "`3,876",
+      "`3,944",
+      "`3,846"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (`3,972)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q023",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Kajal invested x amount on compound years and 146 days at 5% per annum period, he got Rs.9964 as interest. amount on simple interest at 10% years, How much interest she could",
+    "options": [
+      "16,000",
+      "15,000",
+      "14,000",
+      "20,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (16,000)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q024",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum amounts to `7,562",
+    "options": [
+      "2,544",
+      "2,764",
+      "1,965",
+      "1,736"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (2,544)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q025",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum of `8,000 invested at 10",
+    "options": [
+      "`2,520",
+      "`2,480",
+      "`2,560",
+      "`2,500"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (`2,560)"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q026",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum becomes `33800",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q027",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A sum of `3125 x% p.a., interest",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q028",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Nutan gets two interest for 2 The app offered rate. After this compounded annually If Kajal invested x offered the same per annum for 2 same time but earn? between the interests.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q029",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "A certain sum per annum when period of 2 years If `10,000 at the annually. The for two years, then period and same",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D"
+  },
+  {
+    "id": "rkr_compound_interest_compound_interest_pro_level_sheet_q030",
+    "subject": "Quantitative Aptitude",
+    "subSubject": "Quantitative Aptitude",
+    "chapter": "Compound Interest",
+    "sheetType": "Pro Level",
+    "sheetFile": "Compound Interest (Pro Level Sheet).pdf",
+    "question": "Peter invested",
+    "options": [
+      "`12,900",
+      "`67600",
+      "`13,100",
+      "`60,420 being compounded yearly. What will at (x + 2)% p.a.? (b) 562.50 (d) 550 offers of loan from a bank and an app. `10,000 at 15 percent per annum for 2 years and the bank amount at the same rate for the on simple interest. Find the difference (b) `400 (d) `225 was invested at the rate of 10% for a at compound interest compounded same sum was invested for the same rate of interest at simple interest. if of compound interest and simple find the sum. (b) `25,000 (d) `20,000 interest per annum, while Rachel 10% interest per annum compounded while Peter invested for 2 years, by Peter and Rachel was `897, what Rachel had invested? (b) `13,000 (d) `12,960 gaS Selection fnyk,axs 3 ANSWER KEY"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (`67600)"
+  }
+]
