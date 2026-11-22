@@ -78,6 +78,7 @@ When extracting questions from PDF slide presentations (such as Neeraj Sir / Sci
   - **Top 300 Science**: `170` questions
 
 ### Dedicated Test Suites
+- `tests/dixit_aptitude_integrity.test.js`: Validates 1,342 Dixit Aptitude questions, 0 dummy options, 0 exam tags in options, 0 stem in options, zero Hindi.
 - `tests/physics_reverification.test.js`: Validates 399 questions, slide numbers, zero Hindi.
 - `tests/chemistry_reverification.test.js`: Validates 465 questions, slide numbers, zero Hindi.
 - `tests/biology_reverification.test.js`: Validates 616 questions, slide numbers, zero Hindi.
@@ -144,6 +145,7 @@ Apti Practice/
 │       ├── revision_materials.json# Google Drive PDF URLs for chapter revision
 │       └── diagrams/              # Embedded visual assets for diagram questions
 ├── scripts/                       # Extraction, Merging, and Audit Tooling
+│   ├── cross_check_dixit_aptitude.py       # Cross-checks Dixit Sir Aptitude against Complete Solutions
 │   ├── universal_pdf_question_extractor.py # Spatial-aware 2D bounding box PDF extractor
 │   ├── merge_questions.py         # Merges sources into public/data/questions.json
 │   ├── apply_biology_reverification.py # Biology verification & slide mapping pipeline

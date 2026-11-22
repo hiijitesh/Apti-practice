@@ -72,6 +72,37 @@ ANSWER_OVERRIDES = {
     "Simple Interest": {75: 'C'},
 }
 
+# Manual verified translations / formulations for special non-standard slides
+MANUAL_OVERRIDES = {
+    "disc_q056": {
+        "options": ['A', 'No discount is offered in scheme A', 'Discount percentage is equal in both A and B', 'B'],
+        "correctAnswer": 0,
+        "explanation": "Correct Answer: Option A (A) | Exam: SSC CGL 14/07/2023 (1st shift)"
+    },
+    "pct_q102": {
+        "options": ['16.4% more', '8.2% more', '16.4% less', '8.2% less'],
+        "correctAnswer": 0,
+        "explanation": "Correct Answer: Option A (16.4% more) | Exam: SSC CPO 9/12/19 (Morning)"
+    },
+    "pct_q105": {
+        "options": ['24.5% of X', '24.5% of Y', '40% of Y', '50% of X'],
+        "correctAnswer": 0,
+        "explanation": "Correct Answer: Option A (24.5% of X) | Exam: SSC CPO 24/11/2020 (Evening)"
+    },
+    "tsd_q102": {
+        "question": "A car travels from A to B at V1 Km/h, back from B to A at V2 Km/h and again A to B at V1 Km/h. Find the average speed of the car during the journey.",
+        "options": ['2V1V2 / (V1+2V2)', '2V1V2 / (V2+2V1)', '3V1V2 / (V2+2V1)', '3V1V2 / (V1+2V2)'],
+        "correctAnswer": 3,
+        "explanation": "Correct Answer: Option D (3V1V2 / (V1+2V2)) | Exam: CGL 2019 MAINS"
+    }
+}
+
+opt_marker_pat = re.compile(
+    r'(?:\(([a-dA-D])\.?\)|'
+    r'(?:^|[\n\r\s])([a-dA-D])\s*[\.\)]|'
+    r'(?:^|[\n\r\s])([a-dA-D])\s+(?=[0-9A-Za-z₹$]|NPNL|Gain|Loss|Equal|No|Both|\-|\())'
+)
+
 def clean_text(t):
     if not t:
         return ""
@@ -83,9 +114,7 @@ def has_hindi(s):
 def strip_hindi(s):
     if not s:
         return ""
-    # remove Devanagari block
     clean = re.sub(r'[\u0900-\u097F]+', '', s)
-    # collapse spaces
     clean = re.sub(r'[ \t]+', ' ', clean).strip()
     return clean
 
@@ -102,7 +131,6 @@ def parse_answer_key_from_pdf(pdf_path):
 
 def format_option_value(val):
     val = clean_text(val)
-    # Strip Hindi part if present
     if '/' in val and has_hindi(val):
         parts = [p.strip() for p in val.split('/') if not has_hindi(p)]
         val = ' / '.join(parts).strip()
@@ -121,51 +149,78 @@ def format_option_value(val):
         return f"{lines[0]}({lines[1]}/{den}){unit}"
     return ' '.join(lines).strip()
 
-def parse_question_slide(page):
-    blocks = sorted(page.get_text('blocks'), key=lambda b: (round(b[1] / 10) * 10, b[0]))
-    full_text = '\n'.join(clean_text(b[4]) for b in blocks if clean_text(b[4]))
-    lines = [l.strip() for l in full_text.split('\n') if l.strip()]
-
-    # Filter out title/type headers
-    clean_lines = []
-    for l in lines:
-        if re.search(r'^(?:Type\s+\d+|Level\s*-\s*Zero|[A-Z\s&]+\s+by\s+Dixit\s+Sir|Solutions\s+on|YouTube\s+Channel|Page\s+\d+)', l, re.I):
-            continue
-        clean_lines.append(l)
-
-    # Search for option pattern
-    opt_pat = r'(?:^|[\s\t])(?:\(([a-dA-D])\)|([a-dA-D])[\.\)])\s*'
-
-    opt_line_idx = -1
-    for idx, l in enumerate(clean_lines):
-        if re.search(r'^(?:\([a-dA-D]\)|[a-dA-D][\.\)])\s*', l):
-            opt_line_idx = idx
-            break
-    if opt_line_idx == -1:
-        for idx, l in enumerate(clean_lines):
-            if re.search(r'(?:\([a-dA-D]\)|[a-dA-D][\.\)])\s*', l):
-                opt_line_idx = idx
-                break
-    if opt_line_idx == -1:
+def extract_slide_data(txt):
+    matches = list(opt_marker_pat.finditer(txt))
+    best_opts = None
+    best_span = 999999
+    
+    for i in range(len(matches)):
+        for j in range(i+1, len(matches)):
+            for k in range(j+1, len(matches)):
+                for l in range(k+1, len(matches)):
+                    m_list = [matches[i], matches[j], matches[k], matches[l]]
+                    labels = [(m.group(1) or m.group(2) or m.group(3)).upper() for m in m_list]
+                    if set(labels) == {'A', 'B', 'C', 'D'}:
+                        span = m_list[3].end() - m_list[0].start()
+                        d1 = m_list[1].start() - m_list[0].end()
+                        d2 = m_list[2].start() - m_list[1].end()
+                        d3 = m_list[3].start() - m_list[2].end()
+                        if max(d1, d2, d3) < 300 and span < best_span:
+                            best_span = span
+                            best_opts = (m_list, labels)
+    if not best_opts:
+        return None
+    
+    m_list, labels = best_opts
+    opt_dict = {}
+    for idx in range(3):
+        val = txt[m_list[idx].end():m_list[idx+1].start()]
+        opt_dict[labels[idx]] = format_option_value(val)
+    
+    tail = txt[m_list[3].end():]
+    exam_m = re.search(r'((?:SSC|Higher Secondary|Selection Post|CGL|CHSL|MTS|CPO|Tier|Matriculation|Graduate|RRB|Constable|Delhi Police)[^\n\r]*)', tail, re.I)
+    exam_tag = ''
+    if exam_m:
+        exam_tag = clean_text(exam_m.group(1))
+        tail = tail[:exam_m.start()]
+    opt_dict[labels[3]] = format_option_value(tail)
+    
+    # Strip any leftover exam tag from all options
+    for k in opt_dict:
+        em = re.search(r'((?:SSC|Higher Secondary|Selection Post|CGL|CHSL|MTS|CPO|Tier|Matriculation|Graduate|RRB|Constable|Delhi Police)[^\n\r]*)', opt_dict[k], re.I)
+        if em:
+            if not exam_tag:
+                exam_tag = clean_text(em.group(1))
+            opt_dict[k] = clean_text(opt_dict[k][:em.start()])
+    
+    opts = [opt_dict.get('A', ''), opt_dict.get('B', ''), opt_dict.get('C', ''), opt_dict.get('D', '')]
+    if not (all(opts) and len(opts) == 4):
         return None
 
-    stem_lines = clean_lines[:opt_line_idx]
-    en_stem_lines = []
-    for l in stem_lines:
-        if has_hindi(l):
-            break
-        if re.search(r'^(?:SSC|CGL|CHSL|MTS|CPO|Selection Post|Phase|Tier|Matriculation|Graduate)', l, re.I):
+    # Question stem extraction
+    stem_raw = txt[:m_list[0].start()].strip()
+    stem_lines = []
+    for l in stem_raw.split('\n'):
+        l = l.strip()
+        if not l:
             continue
-        en_stem_lines.append(l)
-
-    # Format stacked fractions in question stem
+        if re.search(r'^(?:Type\s+\d+|Level\s*-\s*Zero|[A-Z\s&]+\s+by\s+Dixit\s+Sir|Solutions\s+on|YouTube\s+Channel|Page\s+\d+|Basics\b)', l, re.I):
+            continue
+        l_no_hindi = re.sub(r'\([^\)]*[\u0900-\u097F][^\)]*\)', '', l).strip()
+        if not l_no_hindi:
+            continue
+        if has_hindi(l_no_hindi) and not re.search(r'[a-zA-Z]{3,}', l_no_hindi):
+            continue
+        stem_lines.append(strip_hindi(l_no_hindi))
+    
+    # Handle vertically stacked fractions in question stem e.g. "1 \n 125" -> "1/125"
     stem_lines_proc = []
     i = 0
-    while i < len(en_stem_lines):
-        l = en_stem_lines[i]
+    while i < len(stem_lines):
+        l = stem_lines[i]
         m1 = re.match(r'^(\d+)$', l)
-        if m1 and i + 1 < len(en_stem_lines):
-            next_l = en_stem_lines[i+1]
+        if m1 and i + 1 < len(stem_lines):
+            next_l = stem_lines[i+1]
             m2 = re.match(r'^(\d+)(\s*[:,\-A-Za-z].*|\s*)$', next_l)
             if m2:
                 frac = f"{m1.group(1)}/{m2.group(1)}"
@@ -174,52 +229,10 @@ def parse_question_slide(page):
                 continue
         stem_lines_proc.append(l)
         i += 1
-
+    
     stem = ' '.join(stem_lines_proc).strip()
-    # Strip leading question number if present e.g. "1. " or "Q.1 "
     stem = re.sub(r'^(?:Q\.?\s*\d+[\.\)]|\d+[\.\)])\s*', '', stem).strip()
-
-    post_lines = clean_lines[opt_line_idx:]
-    post_text = '\n'.join(post_lines)
-
-    # Extract exam tag
-    exam_tag = ""
-    exam_m = re.search(r'((?:SSC|Higher Secondary|Selection Post|CGL|CHSL|MTS|CPO|Tier|Matriculation|Graduate)[^\n\r]*)', full_text, re.I)
-    if exam_m:
-        exam_tag = clean_text(exam_m.group(1))
-        # Remove exam tag from post_text if inside
-        post_text = post_text.replace(exam_m.group(1), "")
-
-    matches = list(re.finditer(opt_pat, post_text))
-    best_combo = None
-    for idx in range(len(matches)):
-        lbl = (matches[idx].group(1) or matches[idx].group(2)).upper()
-        if lbl != 'A':
-            continue
-        selected = [matches[idx]]
-        lbls = ['A']
-        for j in range(idx + 1, len(matches)):
-            next_lbl = (matches[j].group(1) or matches[j].group(2)).upper()
-            if next_lbl == chr(ord(lbls[-1]) + 1):
-                lbls.append(next_lbl)
-                selected.append(matches[j])
-                if len(lbls) == 4:
-                    best_combo = selected
-                    break
-        if best_combo:
-            break
-
-    options = []
-    if best_combo and len(best_combo) == 4:
-        for k in range(3):
-            val = post_text[best_combo[k].end():best_combo[k+1].start()]
-            options.append(format_option_value(val))
-        last_val = post_text[best_combo[3].end():]
-        options.append(format_option_value(last_val))
-
-    if len(options) == 4 and all(o for o in options):
-        return stem, options, exam_tag
-    return None
+    return stem, opts, exam_tag
 
 def main():
     print("=== DIXIT SIR APTITUDE CROSS-CHECK & OPTION RE-VERIFICATION ===")
@@ -235,10 +248,8 @@ def main():
 
     total_fixed_options = 0
     total_fixed_stems = 0
-    total_fixed_answers = 0
-    total_stripped_exam_tags = 0
-
     fixed_questions_map = {}
+    letter_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
 
     for chap_name, all_q_pdf, sol_pdf, slug in CHAPTER_MAPPING:
         qlist = chap_dict.get(chap_name, [])
@@ -256,112 +267,108 @@ def main():
             ans_key = PERCENTAGE_ANSWERS
         else:
             ans_key = parse_answer_key_from_pdf(all_q_path)
-            # Add overrides
             if chap_name in ANSWER_OVERRIDES:
                 ans_key.update(ANSWER_OVERRIDES[chap_name])
 
         # 2. Extract slides from Complete Solutions PDF
         doc = fitz.open(sol_path)
-
-        # Collect candidate question slides
-        q_slides = []
+        slides = []
         for p_idx, page in enumerate(doc):
-            parsed = parse_question_slide(page)
-            if parsed:
-                q_slides.append((p_idx, parsed))
+            data = extract_slide_data(page.get_text('text'))
+            if data:
+                slides.append((p_idx + 1, data))
 
-        print(f"  Complete Solutions pages: {len(doc)} | Extracted valid Q-slides: {len(q_slides)}")
+        print(f"  Complete Solutions pages: {len(doc)} | Extracted valid Q-slides: {len(slides)}")
 
-        # Map each question in qlist to a slide
-        curr_slide_idx = 0
-        for qnum_idx, q in enumerate(qlist):
-            qnum = qnum_idx + 1
-            existing_id = q["id"]
+        # 3. Match slides to questions
+        matched_slides = {}
+        for q_idx, q in enumerate(qlist):
+            stem = q["question"]
+            words = [w.lower() for w in re.findall(r'[a-zA-Z0-9%]+', stem) if len(w) > 3]
+            best_s = None
+            max_m = 0
+            for s_idx, (pnum, sdata) in enumerate(slides):
+                s_text = (sdata[0] + ' ' + ' '.join(sdata[1])).lower()
+                m = sum(1 for w in words if w in s_text)
+                if m > max_m:
+                    max_m = m
+                    best_s = (s_idx, pnum, sdata)
+            if words and max_m >= max(1, int(len(words) * 0.35)):
+                matched_slides[q_idx] = best_s
+            elif len(slides) == len(qlist):
+                matched_slides[q_idx] = (q_idx, slides[q_idx][0], slides[q_idx][1])
+
+        # 4. Interpolate any unmatched gaps between anchors
+        for q_idx in range(len(qlist)):
+            if q_idx not in matched_slides:
+                prev_m = [i for i in range(q_idx) if i in matched_slides]
+                next_m = [i for i in range(q_idx + 1, len(qlist)) if i in matched_slides]
+                if prev_m:
+                    last_p = prev_m[-1]
+                    expected_s_idx = matched_slides[last_p][0] + (q_idx - last_p)
+                    if expected_s_idx < len(slides):
+                        matched_slides[q_idx] = (expected_s_idx, slides[expected_s_idx][0], slides[expected_s_idx][1])
+                elif next_m:
+                    first_n = next_m[0]
+                    expected_s_idx = matched_slides[first_n][0] - (first_n - q_idx)
+                    if 0 <= expected_s_idx < len(slides):
+                        matched_slides[q_idx] = (expected_s_idx, slides[expected_s_idx][0], slides[expected_s_idx][1])
+
+        # 5. Process each question
+        for q_idx, q in enumerate(qlist):
+            qid = q["id"]
+            qnum = q_idx + 1
             existing_stem = q["question"]
             existing_opts = q["options"]
             existing_ans = q["correctAnswer"]
-            existing_exp = q["explanation"]
+            existing_exp = q.get("explanation", "")
 
-            # Match to slide
-            # First check if q_slides has exact count and matches monotonically
-            matched_parsed = None
-            if len(q_slides) == len(qlist):
-                matched_parsed = q_slides[qnum_idx][1]
-            else:
-                # Align monotonically by matching key words
-                q_words = [w.lower() for w in re.findall(r'[a-zA-Z0-9%]+', existing_stem) if len(w) > 3]
-                best_match = None
-                for s_idx in range(curr_slide_idx, len(q_slides)):
-                    slide_p, slide_parsed = q_slides[s_idx]
-                    s_stem, s_opts, s_exam = slide_parsed
-                    s_text = (s_stem + " " + " ".join(s_opts)).lower()
-                    m_count = sum(1 for w in q_words if w in s_text)
-                    if q_words and m_count >= max(1, int(len(q_words) * 0.3)):
-                        best_match = (s_idx, slide_parsed)
-                        break
-                if best_match:
-                    curr_slide_idx = best_match[0] + 1
-                    matched_parsed = best_match[1]
+            if qid in MANUAL_OVERRIDES:
+                ov = MANUAL_OVERRIDES[qid]
+                new_q = dict(q)
+                new_q.update(ov)
+                fixed_questions_map[qid] = new_q
+                total_fixed_options += 1
+                continue
 
-            # If matched from slide, compare and fix!
-            if matched_parsed:
-                new_stem, new_opts, new_exam = matched_parsed
+            s_match = matched_slides.get(q_idx)
+            if s_match:
+                s_idx, pnum, (s_stem, s_opts, s_exam) = s_match
 
-                # Clean question stem
+                # Stem cleaning
                 final_stem = existing_stem
-                # If existing stem was corrupted or incomplete or had font dropouts, use slide stem
-                if any(kw in existing_stem for kw in ["Question ", "Two pipes and can", "Two numbers are in the ratio of .", "Three numbers are in the ratio ,", "If and then is:"]) or len(new_stem) > len(existing_stem) + 5 or has_hindi(existing_stem):
-                    final_stem = new_stem
-                    total_fixed_stems += 1
-                elif len(existing_stem.strip()) < 20 and len(new_stem) > 20:
-                    final_stem = new_stem
+                if (len(s_stem) > len(existing_stem) + 5 or len(existing_stem) < 25 or 
+                    has_hindi(existing_stem) or 
+                    any(kw in existing_stem for kw in ["Question ", "Two pipes and can", "ratio of .", "If and then is:"])):
+                    final_stem = s_stem
                     total_fixed_stems += 1
 
-                # Clean options
-                final_opts = list(existing_opts)
-                # Check if existing options had dummy values or exam tags or were scrambled
-                has_dummy = any(o.startswith("Option ") and len(o) <= 8 for o in existing_opts)
-                has_exam_in_d = existing_opts and any(kw in existing_opts[-1] for kw in ["SSC", "CHSL", "CGL", "MTS", "CPO", "Phase", "Type "])
-                has_stem_in_a = existing_opts and (len(existing_opts[0]) > 80 or "(a)" in existing_opts[0].lower())
-
-                if has_dummy or has_exam_in_d or has_stem_in_a or len(existing_opts) != 4:
-                    final_opts = new_opts
+                # Options: authentic slide options (ordered A, B, C, D)
+                final_opts = list(s_opts)
+                if final_opts != existing_opts:
                     total_fixed_options += 1
-                else:
-                    # Check if new_opts are cleaner (e.g. no missing fractions/percentages)
-                    # or if order in new_opts matches answer key better
-                    if any(o in ["loss", "profit"] for o in existing_opts) and any("%" in o for o in new_opts):
-                        final_opts = new_opts
-                        total_fixed_options += 1
 
-                # Answer Key
-                ans_letter = ans_key.get(qnum)
-                letter_map = {"A": 0, "B": 1, "C": 2, "D": 3}
-                if ans_letter and ans_letter in letter_map:
-                    correct_idx = letter_map[ans_letter]
-                else:
-                    correct_idx = existing_ans
-
+                # Answer key alignment
+                ans_let = ans_key.get(qnum)
+                correct_idx = letter_map.get(ans_let, existing_ans)
                 correct_val = final_opts[correct_idx] if correct_idx < len(final_opts) else ""
 
                 # Exam tag
-                final_exam = new_exam
-                if not final_exam:
-                    # check if existing explanation had exam tag
+                exam = s_exam
+                if not exam:
                     em = re.search(r'Exam:\s*([^\n\r|]+)', existing_exp)
                     if em:
-                        final_exam = em.group(1).strip()
+                        exam = em.group(1).strip()
 
-                # Build explanation
                 exp_parts = [f"Correct Answer: Option {chr(65 + correct_idx)}"]
                 if correct_val:
                     exp_parts.append(f"({correct_val})")
-                if final_exam:
-                    exp_parts.append(f"Exam: {final_exam}")
+                if exam:
+                    exp_parts.append(f"Exam: {exam}")
                 final_exp = " | ".join(exp_parts)
 
-                fixed_questions_map[existing_id] = {
-                    "id": existing_id,
+                fixed_questions_map[qid] = {
+                    "id": qid,
                     "subject": "Quantitative Aptitude",
                     "subSubject": "Quantitative Aptitude",
                     "chapter": chap_name,
@@ -371,12 +378,12 @@ def main():
                     "explanation": final_exp
                 }
             else:
-                print(f"  Warning: Q{qnum} ({existing_id}) could not be matched to slide!")
-                fixed_questions_map[existing_id] = q
+                print(f"  Warning: Q{qnum} ({qid}) could not be matched!")
+                fixed_questions_map[qid] = q
 
     print("\n=== SUMMARY OF FIXES ===")
-    print(f"Total options repaired from slides: {total_fixed_options}")
-    print(f"Total question stems repaired from slides: {total_fixed_stems}")
+    print(f"Total options updated/verified: {total_fixed_options}")
+    print(f"Total question stems updated: {total_fixed_stems}")
     print(f"Total questions mapped: {len(fixed_questions_map)}")
 
     # Update master questions list
@@ -387,10 +394,29 @@ def main():
         else:
             updated_master.append(item)
 
+    # Sanity checks before write
+    assert len(updated_master) == len(master_questions), f"Length mismatch: {len(updated_master)} vs {len(master_questions)}"
+    apti_updated = [q for q in updated_master if q.get("subject") == "Quantitative Aptitude"]
+    assert len(apti_updated) == 1342, f"Expected 1342 aptitude questions, got {len(apti_updated)}"
+    
+    # Assert zero dummy options
+    dummies = [q["id"] for q in apti_updated if any(o.startswith("Option ") and len(o) <= 8 for o in q["options"])]
+    assert len(dummies) == 0, f"Found {len(dummies)} dummy options: {dummies[:5]}"
+    
+    # Assert zero Hindi across entire database
+    hindi_qs = [q["id"] for q in updated_master if has_hindi(q["question"] + " " + " ".join(q["options"]) + q.get("explanation", ""))]
+    assert len(hindi_qs) == 0, f"Found Hindi in {len(hindi_qs)} questions: {hindi_qs[:5]}"
+
+    # Assert 4 non-empty options and valid answer index
+    for q in apti_updated:
+        assert len(q["options"]) == 4, f"Question {q['id']} does not have 4 options"
+        assert all(len(o) > 0 for o in q["options"]), f"Question {q['id']} has empty option: {q['options']}"
+        assert 0 <= q["correctAnswer"] <= 3, f"Question {q['id']} has invalid correctAnswer {q['correctAnswer']}"
+
     print(f"\nWriting updated questions to {QUESTIONS_JSON}...")
     with open(QUESTIONS_JSON, "w", encoding="utf-8") as f:
         json.dump(updated_master, f, indent=2, ensure_ascii=False)
-    print("Done! public/data/questions.json updated successfully.")
+    print("Done! public/data/questions.json updated and verified successfully.")
 
 if __name__ == "__main__":
     main()
