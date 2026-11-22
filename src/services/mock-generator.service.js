@@ -1,7 +1,42 @@
+// src/services/mock-generator.service.js - Blueprint Stratification, Difficulty Curve, & Weakness Targeting
+'use strict';
+
 class MockGeneratorService {
   /**
+   * Classify question difficulty based on explicit tag, metadata type, or content heuristic.
+   * @param {Object} q
+   * @returns {'easy' | 'medium' | 'hard'}
+   */
+  static classifyDifficulty(q) {
+    if (!q) return 'medium';
+    if (q.difficulty === 'easy' || q.difficulty === 'medium' || q.difficulty === 'hard') {
+      return q.difficulty;
+    }
+
+    // RK Ranjan Type-based inference
+    if (q.type) {
+      const typeMatch = q.type.match(/type\s*0?(\d+)/i);
+      if (typeMatch) {
+        const typeNum = parseInt(typeMatch[1], 10);
+        if (typeNum <= 3) return 'easy';
+        if (typeNum <= 7) return 'medium';
+        return 'hard';
+      }
+      if (/pro\s*level|mains|advance|hard|test/i.test(q.type)) return 'hard';
+    }
+
+    // Content length & complexity heuristics
+    const qLen = (q.question || '').length;
+    const optLen = (q.options || []).join(' ').length;
+    const hasMathSymbols = /[√∑∫π%^/\\=]/.test(q.question || '');
+
+    if (qLen < 85 && optLen < 70 && !hasMathSymbols) return 'easy';
+    if (qLen > 220 || optLen > 180 || (qLen > 150 && hasMathSymbols)) return 'hard';
+    return 'medium';
+  }
+
+  /**
    * Filter question pool based on subject / topic query.
-   * Open for extension via custom predicate rules.
    * @param {Array} allQuestions
    * @param {string} subjectQuery
    * @returns {Array} Filtered questions pool
@@ -24,50 +59,176 @@ class MockGeneratorService {
   }
 
   /**
-   * Generate sanitized mock exam questions distributed across chapters.
-   * @param {Array} allQuestions Source questions
-   * @param {string} subjectQuery 'all' | 'aptitude' | 'science' | discipline | 'top300'
-   * @param {number} targetCount Total questions requested (default 30)
-   * @returns {Array} Sanitized questions without answers or explanations
+   * Pick K questions from a pool adhering to the 40/40/20 difficulty curve
+   * and ensuring maximum chapter diversity (pigeonhole sampling).
+   * @param {Array} pool Questions in this category
+   * @param {number} targetCount Total questions to pick
+   * @param {Object} options Configuration including weakChapters
+   * @returns {Array} Picked questions
    */
-  static generate(allQuestions, subjectQuery = 'all', targetCount = 30) {
-    const pool = this.filterPool(allQuestions, subjectQuery);
-    if (pool.length === 0) return [];
+  static sampleSlice(pool, targetCount, options = {}) {
+    if (!pool || pool.length === 0 || targetCount <= 0) return [];
+    if (pool.length <= targetCount) return [...pool].sort(() => 0.5 - Math.random());
+
+    const weakChaptersSet = new Set(
+      (options.weakChapters || []).map(ch => (ch || '').trim().toLowerCase())
+    );
 
     // Group by chapter
     const byChapter = {};
     for (const q of pool) {
-      if (!byChapter[q.chapter]) byChapter[q.chapter] = [];
-      byChapter[q.chapter].push(q);
+      const ch = q.chapter || 'General';
+      if (!byChapter[ch]) byChapter[ch] = [];
+      byChapter[ch].push(q);
     }
 
-    const chapterNames = Object.keys(byChapter);
-    const totalTarget = Math.min(targetCount, pool.length);
-    const numChapters = chapterNames.length;
-
-    const baseCount = Math.floor(totalTarget / numChapters);
-    const remainder = totalTarget % numChapters;
-
-    const shuffledChapters = [...chapterNames].sort(() => 0.5 - Math.random());
-    const selectedQuestions = [];
-
-    shuffledChapters.forEach((chap, idx) => {
-      const targetForThisChap = baseCount + (idx < remainder ? 1 : 0);
-      const cPool = [...byChapter[chap]].sort(() => 0.5 - Math.random());
-      const picked = cPool.slice(0, targetForThisChap);
-      selectedQuestions.push(...picked);
+    const chapterList = Object.keys(byChapter);
+    
+    // Sort chapters giving prioritized weight to weak chapters
+    const weightedChapters = [...chapterList].sort((a, b) => {
+      const aWeak = weakChaptersSet.has(a.toLowerCase()) ? 1 : 0;
+      const bWeak = weakChaptersSet.has(b.toLowerCase()) ? 1 : 0;
+      if (aWeak !== bWeak) return bWeak - aWeak;
+      return 0.5 - Math.random();
     });
 
-    if (selectedQuestions.length < totalTarget) {
-      const pickedIds = new Set(selectedQuestions.map(q => q.id));
-      const leftovers = pool.filter(q => !pickedIds.has(q.id)).sort(() => 0.5 - Math.random());
-      const extra = leftovers.slice(0, totalTarget - selectedQuestions.length);
-      selectedQuestions.push(...extra);
+    // Determine difficulty targets for this slice: 40% Easy, 40% Medium, 20% Hard
+    const easyTarget = Math.round(targetCount * 0.4);
+    const mediumTarget = Math.round(targetCount * 0.4);
+    const hardTarget = Math.max(0, targetCount - easyTarget - mediumTarget);
+    const diffTargets = { easy: easyTarget, medium: mediumTarget, hard: hardTarget };
+
+    // Group candidates within chapters by difficulty
+    const selected = [];
+    const pickedIds = new Set();
+    const diffCounts = { easy: 0, medium: 0, hard: 0 };
+
+    // Pass 1: Questions per chapter, prioritizing weak chapters (up to 2 for weak chapters)
+    for (const ch of weightedChapters) {
+      if (selected.length >= targetCount) break;
+
+      const candidates = byChapter[ch].filter(q => !pickedIds.has(q.id));
+      if (candidates.length === 0) continue;
+
+      const isWeak = weakChaptersSet.has(ch.toLowerCase());
+      const quota = isWeak ? Math.min(2, targetCount - selected.length) : 1;
+
+      for (let i = 0; i < quota; i++) {
+        const remainingCandidates = byChapter[ch].filter(q => !pickedIds.has(q.id));
+        if (remainingCandidates.length === 0) break;
+
+        let bestQ = null;
+        const neededDiffs = ['easy', 'medium', 'hard']
+          .filter(d => diffCounts[d] < diffTargets[d])
+          .sort((a, b) => (diffTargets[b] - diffCounts[b]) - (diffTargets[a] - diffCounts[a]));
+
+        for (const d of neededDiffs) {
+          bestQ = remainingCandidates.find(q => this.classifyDifficulty(q) === d);
+          if (bestQ) break;
+        }
+
+        if (!bestQ) {
+          bestQ = remainingCandidates[Math.floor(Math.random() * remainingCandidates.length)];
+        }
+
+        const qDiff = this.classifyDifficulty(bestQ);
+        diffCounts[qDiff] = (diffCounts[qDiff] || 0) + 1;
+        pickedIds.add(bestQ.id);
+        selected.push(bestQ);
+      }
     }
 
-    const finalQuestions = selectedQuestions.sort(() => 0.5 - Math.random()).slice(0, totalTarget);
+    // Pass 2: If we still need more questions (targetCount > number of chapters), sample remaining
+    if (selected.length < targetCount) {
+      const remainingPool = pool
+        .filter(q => !pickedIds.has(q.id))
+        .sort(() => 0.5 - Math.random());
 
-    // SANITIZE: remove correctAnswer and explanation so client cannot inspect/cheat!
+      for (const q of remainingPool) {
+        if (selected.length >= targetCount) break;
+        const qDiff = this.classifyDifficulty(q);
+        diffCounts[qDiff] = (diffCounts[qDiff] || 0) + 1;
+        pickedIds.add(q.id);
+        selected.push(q);
+      }
+    }
+
+    return selected;
+  }
+
+  /**
+   * Generate sanitized mock exam questions with Blueprint Stratification,
+   * Difficulty Curve (40/40/20), and Adaptive Weakness Retesting.
+   * @param {Array} allQuestions Source questions
+   * @param {string} subjectQuery 'all' | 'aptitude' | 'science' | discipline | 'top300'
+   * @param {number} targetCount Total questions requested (default 30)
+   * @param {Object} options Configuration options ({ weakChapters: [] })
+   * @returns {Array} Sanitized questions without answers or explanations
+   */
+  static generate(allQuestions, subjectQuery = 'all', targetCount = 30, options = {}) {
+    if (!allQuestions || allQuestions.length === 0) return [];
+    const sq = (subjectQuery || 'all').trim().toLowerCase();
+
+    let selectedQuestions = [];
+
+    // Blueprint 1: Combined CBT Mock (15 Aptitude + 15 Science: 5 Phys, 5 Chem, 5 Bio)
+    if (sq === 'all' || sq === 'combined') {
+      const aptiPool = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
+      const physPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'physics');
+      const chemPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'chemistry');
+      const bioPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'biology');
+
+      const aptiTarget = Math.floor(targetCount / 2); // 15
+      const sciTotal = targetCount - aptiTarget;       // 15
+      const physTarget = Math.floor(sciTotal / 3);     // 5
+      const chemTarget = Math.floor(sciTotal / 3);     // 5
+      const bioTarget = sciTotal - physTarget - chemTarget; // 5
+
+      const pickedApti = this.sampleSlice(aptiPool, aptiTarget, options);
+      const pickedPhys = this.sampleSlice(physPool, physTarget, options);
+      const pickedChem = this.sampleSlice(chemPool, chemTarget, options);
+      const pickedBio = this.sampleSlice(bioPool, bioTarget, options);
+
+      selectedQuestions = [...pickedApti, ...pickedPhys, ...pickedChem, ...pickedBio];
+    }
+    // Blueprint 2: General Science Mock (10 Physics + 10 Chemistry + 10 Biology)
+    else if (sq === 'science' || sq === 'general science') {
+      const physPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'physics');
+      const chemPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'chemistry');
+      const bioPool = allQuestions.filter(q => (q.subSubject || '').toLowerCase() === 'biology');
+
+      const targetPerDiscipline = Math.floor(targetCount / 3); // 10
+      const remainder = targetCount % 3;
+
+      const pickedPhys = this.sampleSlice(physPool, targetPerDiscipline + (remainder > 0 ? 1 : 0), options);
+      const pickedChem = this.sampleSlice(chemPool, targetPerDiscipline + (remainder > 1 ? 1 : 0), options);
+      const pickedBio = this.sampleSlice(bioPool, targetPerDiscipline, options);
+
+      selectedQuestions = [...pickedPhys, ...pickedChem, ...pickedBio];
+    }
+    // Blueprint 3: Quantitative Aptitude Mock
+    else if (sq === 'aptitude' || sq === 'quantitative aptitude') {
+      const aptiPool = allQuestions.filter(q => (q.subject || '').toLowerCase().includes('aptitude'));
+      selectedQuestions = this.sampleSlice(aptiPool, targetCount, options);
+    }
+    // Blueprint 4: Specific discipline or Top 300
+    else {
+      const pool = this.filterPool(allQuestions, sq);
+      selectedQuestions = this.sampleSlice(pool, targetCount, options);
+    }
+
+    // Safety fallback: if slice allocation fell short due to small pool, fill from available questions
+    if (selectedQuestions.length < targetCount) {
+      const pool = this.filterPool(allQuestions, sq);
+      const pickedIds = new Set(selectedQuestions.map(q => q.id));
+      const leftovers = pool.filter(q => !pickedIds.has(q.id)).sort(() => 0.5 - Math.random());
+      selectedQuestions.push(...leftovers.slice(0, targetCount - selectedQuestions.length));
+    }
+
+    // Interleave / shuffle questions so sections are mixed naturally
+    const finalQuestions = selectedQuestions.sort(() => 0.5 - Math.random()).slice(0, targetCount);
+
+    // SANITIZE: remove correctAnswer and explanation, attach difficulty metadata
     return finalQuestions.map(q => ({
       id: q.id,
       subject: q.subject,
@@ -75,6 +236,7 @@ class MockGeneratorService {
       chapter: q.chapter,
       question: q.question,
       options: q.options,
+      difficulty: this.classifyDifficulty(q),
       diagram: q.diagram || undefined
     }));
   }

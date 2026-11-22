@@ -906,23 +906,33 @@
             <p id="result-feedback-message" class="text-xs text-zinc-500 mt-1">Feedback</p>
           </div>
 
-          <!-- Minimal Metrics Grid -->
-          <div class="grid grid-cols-4 gap-2 text-center text-xs">
-            <div class="p-2.5 bg-zinc-50 rounded-lg border border-zinc-100">
-              <span class="text-[10px] uppercase text-zinc-400 block font-medium">Correct</span>
-              <span id="res-correct" class="text-base font-bold text-emerald-600">0</span>
+          <!-- CBT Exam Metrics Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2 text-center text-xs">
+            <div class="p-2 bg-emerald-50/70 rounded-lg border border-emerald-100">
+              <span class="text-[9px] uppercase text-emerald-700 block font-semibold">Correct (+1)</span>
+              <span id="res-correct" class="text-sm sm:text-base font-bold text-emerald-700">0</span>
             </div>
-            <div class="p-2.5 bg-zinc-50 rounded-lg border border-zinc-100">
-              <span class="text-[10px] uppercase text-zinc-400 block font-medium">Incorrect</span>
-              <span id="res-incorrect" class="text-base font-bold text-rose-600">0</span>
+            <div class="p-2 bg-rose-50/70 rounded-lg border border-rose-100">
+              <span class="text-[9px] uppercase text-rose-700 block font-semibold">Wrong (-0.33)</span>
+              <span id="res-incorrect" class="text-sm sm:text-base font-bold text-rose-700">0</span>
             </div>
-            <div class="p-2.5 bg-zinc-50 rounded-lg border border-zinc-100">
-              <span class="text-[10px] uppercase text-zinc-400 block font-medium">Skipped</span>
-              <span id="res-unattempted" class="text-base font-bold text-zinc-500">0</span>
+            <div class="p-2 bg-amber-50/70 rounded-lg border border-amber-100">
+              <span class="text-[9px] uppercase text-amber-700 block font-semibold">Penalty Lost</span>
+              <span id="res-penalty-lost" class="text-sm sm:text-base font-bold text-amber-700 font-mono">0.00</span>
             </div>
-            <div class="p-2.5 bg-zinc-50 rounded-lg border border-zinc-100">
-              <span class="text-[10px] uppercase text-zinc-400 block font-medium">Time</span>
-              <span id="res-time-taken" class="text-base font-bold font-mono text-zinc-800">0s</span>
+            <div class="p-2 bg-indigo-50/70 rounded-lg border border-indigo-100">
+              <span class="text-[9px] uppercase text-indigo-700 block font-semibold">Accuracy</span>
+              <span id="res-accuracy" class="text-sm sm:text-base font-bold text-indigo-700 font-mono">0%</span>
+            </div>
+            <div class="p-2 bg-sky-50/70 rounded-lg border border-sky-100">
+              <span class="text-[9px] uppercase text-sky-700 block font-semibold">Percentile</span>
+              <span id="res-percentile" class="text-sm sm:text-base font-bold text-sky-700 font-mono">--</span>
+            </div>
+            <div class="p-2 bg-zinc-50 rounded-lg border border-zinc-200">
+              <span class="text-[9px] uppercase text-zinc-500 block font-semibold">Speed &amp; Time</span>
+              <span id="res-speed" class="text-sm sm:text-base font-bold font-mono text-zinc-800">--</span>
+              <span id="res-time-taken" class="hidden">0s</span>
+              <span id="res-unattempted" class="hidden">0</span>
             </div>
           </div>
         </div>

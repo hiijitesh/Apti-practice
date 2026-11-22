@@ -7,7 +7,9 @@ class AttemptController {
     try {
       const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null } = req.body;
 
-      const allQuestions = questionRepository.getAll();
+      const coreQuestions = questionRepository.getAll();
+      const rkQuestions = questionRepository.getRkQuestions();
+      const allQuestions = [...coreQuestions, ...rkQuestions];
       const { attemptRecord, fullAttempt } = ScoringService.calculate(allQuestions, {
         mode,
         chapter,

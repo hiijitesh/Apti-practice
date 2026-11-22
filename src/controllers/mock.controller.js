@@ -10,7 +10,9 @@ class MockController {
       }
 
       const subjectQuery = (req.query.subject || '').trim().toLowerCase();
-      const sanitized = MockGeneratorService.generate(allQuestions, subjectQuery, 30);
+      const weakChaptersQuery = req.query.weakChapters;
+      const weakChapters = weakChaptersQuery ? weakChaptersQuery.split(',').map(s => s.trim()) : [];
+      const sanitized = MockGeneratorService.generate(allQuestions, subjectQuery, 30, { weakChapters });
 
       if (sanitized.length === 0) {
         return res.status(404).json({ error: `No questions found matching subject '${subjectQuery}'` });

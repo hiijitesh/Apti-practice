@@ -3105,6 +3105,26 @@ class AptiPrepApp {
     await this.startMockTest(choice);
   }
 
+  getWeakChapters() {
+    const chapterStats = {};
+    (this.attempts || []).forEach(att => {
+      const cb = att.chapterBreakdown || {};
+      for (const [ch, stat] of Object.entries(cb)) {
+        if (!chapterStats[ch]) chapterStats[ch] = { correct: 0, total: 0 };
+        chapterStats[ch].correct += (stat.correct || 0);
+        chapterStats[ch].total += (stat.total || 0);
+      }
+    });
+
+    const weak = [];
+    for (const [ch, s] of Object.entries(chapterStats)) {
+      if (s.total >= 3 && (s.correct / s.total) < 0.5) {
+        weak.push(ch);
+      }
+    }
+    return weak;
+  }
+
   async startMockTest(subject = 'all') {
     this.isTestPaused = false;
     this.pauseStartTime = null;
@@ -3112,6 +3132,8 @@ class AptiPrepApp {
 
     // When test start enter full screen mode!
     this.enterFullscreen().catch(() => {});
+
+    const weakChaps = this.getWeakChapters();
 
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
@@ -3121,7 +3143,10 @@ class AptiPrepApp {
     }
 
     try {
-      const url = (subject && subject !== 'all') ? `/api/mock?subject=${encodeURIComponent(subject)}` : '/api/mock';
+      let url = (subject && subject !== 'all') ? `/api/mock?subject=${encodeURIComponent(subject)}` : '/api/mock?subject=all';
+      if (weakChaps.length > 0) {
+        url += `&weakChapters=${encodeURIComponent(weakChaps.slice(0, 10).join(','))}`;
+      }
       const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
@@ -3139,8 +3164,9 @@ class AptiPrepApp {
   }
 
   generateMockQuestionsStatic(count = 30, subject = 'all') {
+    const weakChapters = this.getWeakChapters();
     if (window.AptiPrep && window.AptiPrep.MockGenerator) {
-      return window.AptiPrep.MockGenerator.generate(this.allQuestions, count, subject);
+      return window.AptiPrep.MockGenerator.generate(this.allQuestions, count, subject, { weakChapters });
     }
     let pool = [...this.allQuestions];
     const sq = (subject || '').trim().toLowerCase();
@@ -4023,25 +4049,70 @@ class AptiPrepApp {
 
     const titleEl = document.getElementById('result-score-title');
     if (titleEl) {
-      titleEl.textContent = `Score: ${attempt.correctCount} / ${attempt.totalQuestions} (${attempt.scorePercentage}%)`;
+      if (attempt.netMarks !== undefined) {
+        titleEl.textContent = `Net Score: ${attempt.netMarks} / ${attempt.totalQuestions} (${attempt.netPercentage}%)`;
+      } else {
+        titleEl.textContent = `Score: ${attempt.correctCount} / ${attempt.totalQuestions} (${attempt.scorePercentage}%)`;
+      }
     }
 
     const feedbackEl = document.getElementById('result-feedback-message');
     if (feedbackEl) {
-      const pct = attempt.scorePercentage || 0;
-      if (pct >= 85) feedbackEl.textContent = 'Outstanding accuracy. Concepts are well-cemented.';
-      else if (pct >= 70) feedbackEl.textContent = 'Strong performance. Review occasional misses below.';
-      else if (pct >= 50) feedbackEl.textContent = 'Satisfactory. Read through the step-by-step solutions below.';
-      else feedbackEl.textContent = 'Focus on reviewing the missed questions and their formulas below.';
+      if (attempt.performanceBand) {
+        feedbackEl.innerHTML = `<span class="inline-block px-2 py-0.5 rounded font-semibold text-[11px] bg-sky-50 text-sky-800 border border-sky-200 mr-1.5">${attempt.performanceBand}</span> • Percentile: <strong>${attempt.estimatedPercentile || 50}%</strong>`;
+      } else {
+        const pct = attempt.scorePercentage || 0;
+        if (pct >= 85) feedbackEl.textContent = 'Outstanding accuracy. Concepts are well-cemented.';
+        else if (pct >= 70) feedbackEl.textContent = 'Strong performance. Review occasional misses below.';
+        else if (pct >= 50) feedbackEl.textContent = 'Satisfactory. Read through the step-by-step solutions below.';
+        else feedbackEl.textContent = 'Focus on reviewing the missed questions and their formulas below.';
+      }
     }
 
-    document.getElementById('res-correct').textContent = attempt.correctCount;
-    document.getElementById('res-incorrect').textContent = attempt.incorrectCount;
-    document.getElementById('res-unattempted').textContent = attempt.unattemptedCount;
+    const resCorrect = document.getElementById('res-correct');
+    if (resCorrect) resCorrect.textContent = attempt.correctCount;
+    const resIncorrect = document.getElementById('res-incorrect');
+    if (resIncorrect) resIncorrect.textContent = attempt.incorrectCount;
+    const resUnattempted = document.getElementById('res-unattempted');
+    if (resUnattempted) resUnattempted.textContent = attempt.unattemptedCount;
 
+    // Penalty lost
+    const penaltyEl = document.getElementById('res-penalty-lost');
+    if (penaltyEl) {
+      const penalty = attempt.negativeMarksLost !== undefined
+        ? attempt.negativeMarksLost
+        : Number(((attempt.incorrectCount || 0) * (1 / 3)).toFixed(2));
+      penaltyEl.textContent = penalty > 0 ? `-${penalty.toFixed(2)}` : '0.00';
+    }
+
+    // Accuracy %
+    const accEl = document.getElementById('res-accuracy');
+    if (accEl) {
+      const attempted = (attempt.correctCount || 0) + (attempt.incorrectCount || 0);
+      const acc = attempt.accuracyPercentage !== undefined
+        ? attempt.accuracyPercentage
+        : (attempted > 0 ? Number((((attempt.correctCount || 0) / attempted) * 100).toFixed(1)) : 0);
+      accEl.textContent = `${acc}%`;
+    }
+
+    // Percentile
+    const percEl = document.getElementById('res-percentile');
+    if (percEl) {
+      percEl.textContent = attempt.estimatedPercentile !== undefined ? `${attempt.estimatedPercentile}%` : '50.0%';
+    }
+
+    // Speed & Pacing
     const mins = Math.floor((attempt.timeTakenSeconds || 0) / 60);
     const secs = (attempt.timeTakenSeconds || 0) % 60;
-    document.getElementById('res-time-taken').textContent = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+    const timeDisplay = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+    const resTime = document.getElementById('res-time-taken');
+    if (resTime) resTime.textContent = timeDisplay;
+
+    const speedEl = document.getElementById('res-speed');
+    if (speedEl) {
+      const avgSecs = attempt.pacingAnalytics?.avgSecondsPerQuestion || (attempt.totalQuestions > 0 ? Math.round((attempt.timeTakenSeconds || 0) / attempt.totalQuestions) : 0);
+      speedEl.textContent = `${avgSecs}s/Q (${timeDisplay})`;
+    }
 
     this.renderChapterBreakdown(attempt.chapterBreakdown || {});
 
