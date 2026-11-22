@@ -82,6 +82,113 @@ describe('Mobile UI & Swipe Navigation Tests', () => {
 
     // 4. setupSwipeNavigation is called in init()
     assert.match(jsContent, /this\.setupSwipeNavigation\(\)/);
+
+    // 5. extractPoint handles touches, changedTouches, targetTouches, detail, clientX/pageX
+    assert.match(jsContent, /extractPoint\s*=\s*\(e\)\s*=>/);
+    assert.match(jsContent, /e\.touches\[0\]/);
+    assert.match(jsContent, /e\.changedTouches\[0\]/);
+
+    // 6. Pointer events are registered alongside touch events
+    assert.match(jsContent, /document\.addEventListener\('pointerdown'/);
+    assert.match(jsContent, /document\.addEventListener\('pointerup'/);
+
+    // 7. Accidental option clicks are suppressed during swipe
+    assert.match(jsContent, /this\._suppressOptionClick = true/);
+    assert.match(jsContent, /selectPracticeOption\(idx\)\s*\{\s*if\s*\(this\._suppressOptionClick\)\s*return;/);
+    assert.match(jsContent, /selectMockOption\(idx\)\s*\{\s*if\s*\(this\._suppressOptionClick\)\s*return;/);
+  });
+
+  test('Swipe simulation functional behavior', () => {
+    // Extract setupSwipeNavigation function code and verify logic with a mock app object
+    let nextCalled = 0;
+    let prevCalled = 0;
+    const listeners = {};
+
+    const mockDoc = {
+      addEventListener: (type, fn) => {
+        listeners[type] = fn;
+      }
+    };
+
+    const mockApp = {
+      currentMode: 'practice',
+      practice: {
+        currentIndex: 0,
+        questions: [{ id: 'q1' }, { id: 'q2' }],
+        drawerOpen: false
+      },
+      mock: {
+        currentIndex: 0,
+        questions: [{ id: 'm1' }, { id: 'm2' }],
+        drawerOpen: false
+      },
+      _suppressOptionClick: false,
+      nextPracticeQuestion: () => { nextCalled++; mockApp.practice.currentIndex++; },
+      prevPracticeQuestion: () => { prevCalled++; mockApp.practice.currentIndex--; },
+      selectPracticeOption: function(idx) {
+        if (this._suppressOptionClick) return;
+        this.practice.userAnswers = { [this.practice.currentIndex]: idx };
+      }
+    };
+
+    // Execute setupSwipeNavigation in mock context
+    const fnBody = jsContent.match(/setupSwipeNavigation\(\)\s*\{([\s\S]*?)\n  \}/)[1];
+    const setupFn = new Function('document', 'window', fnBody);
+    const mockWindow = {
+      innerWidth: 390,
+      getSelection: () => ({ toString: () => '' }),
+      getComputedStyle: () => ({ overflowX: 'visible' })
+    };
+
+    setupFn.call(mockApp, mockDoc, mockWindow);
+
+    assert.strictEqual(typeof listeners['touchstart'], 'function');
+    assert.strictEqual(typeof listeners['touchend'], 'function');
+    assert.strictEqual(typeof listeners['pointerdown'], 'function');
+    assert.strictEqual(typeof listeners['pointerup'], 'function');
+
+    // 1. Simulate Touch Swipe Left (300 -> 100) -> Next question
+    listeners['touchstart']({
+      touches: [{ clientX: 300, clientY: 200 }],
+      target: { closest: () => null, scrollWidth: 100, clientWidth: 100 }
+    });
+    listeners['touchend']({
+      changedTouches: [{ clientX: 100, clientY: 200 }]
+    });
+
+    assert.strictEqual(nextCalled, 1, 'Swipe left must advance to next question');
+    assert.strictEqual(mockApp.practice.currentIndex, 1);
+    assert.strictEqual(mockApp._suppressOptionClick, true, 'Option click must be suppressed immediately after swipe');
+
+    // Option selection during suppression should be ignored
+    mockApp.selectPracticeOption(2);
+    assert.strictEqual(mockApp.practice.userAnswers, undefined, 'Option selection while suppressed must be ignored');
+
+    // Reset suppression and advance clock past debounce
+    mockApp._suppressOptionClick = false;
+
+    // 2. Simulate Pointer Swipe Right (100 -> 300) -> Previous question
+    setTimeout(() => {}, 400); // Debounce interval simulation
+    // Fake time advance
+    const originalDateNow = Date.now;
+    try {
+      Date.now = () => originalDateNow() + 500;
+      listeners['pointerdown']({
+        clientX: 100,
+        clientY: 200,
+        pointerType: 'touch',
+        button: 0,
+        target: { closest: () => null, scrollWidth: 100, clientWidth: 100 }
+      });
+      listeners['pointerup']({
+        clientX: 300,
+        clientY: 200
+      });
+      assert.strictEqual(prevCalled, 1, 'Swipe right must navigate to previous question');
+      assert.strictEqual(mockApp.practice.currentIndex, 0);
+    } finally {
+      Date.now = originalDateNow;
+    }
   });
 
   test('Test page bottom bars include Previous, Next, Mark for Review, and Submit buttons', () => {

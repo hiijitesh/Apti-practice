@@ -1137,35 +1137,61 @@ class AptiPrepApp {
     let touchCurrentX = 0;
     let touchCurrentY = 0;
     let touchStartTime = 0;
-    let isTouchActive = false;
+    let isTracking = false;
+    let lastSwipeTime = 0;
 
-    const handleTouchStart = (e) => {
-      const touch = (e.touches && e.touches[0]) || (e.changedTouches && e.changedTouches[0]) || e;
-      if (!touch || typeof touch.clientX !== 'number') return;
+    const extractPoint = (e) => {
+      if (e.touches && e.touches.length > 0) {
+        const t = e.touches[0];
+        return { clientX: t.clientX ?? t.pageX, clientY: t.clientY ?? t.pageY };
+      }
+      if (e.changedTouches && e.changedTouches.length > 0) {
+        const t = e.changedTouches[0];
+        return { clientX: t.clientX ?? t.pageX, clientY: t.clientY ?? t.pageY };
+      }
+      if (e.targetTouches && e.targetTouches.length > 0) {
+        const t = e.targetTouches[0];
+        return { clientX: t.clientX ?? t.pageX, clientY: t.clientY ?? t.pageY };
+      }
+      if (e.detail && typeof e.detail.clientX === 'number') {
+        return { clientX: e.detail.clientX, clientY: e.detail.clientY };
+      }
+      if (typeof e.clientX === 'number' && !isNaN(e.clientX)) {
+        return { clientX: e.clientX, clientY: e.clientY };
+      }
+      if (typeof e.pageX === 'number' && !isNaN(e.pageX)) {
+        return { clientX: e.pageX, clientY: e.pageY };
+      }
+      return null;
+    };
+
+    const handleStart = (e) => {
       if (this.currentMode !== 'practice' && this.currentMode !== 'mock') return;
+
+      const pt = extractPoint(e);
+      if (!pt || typeof pt.clientX !== 'number') return;
 
       const target = e.target;
 
-      // Ignore interactive controls that handle their own touches
-      if (target.closest && target.closest('select, input, textarea, button, a, [role="button"], [role="slider"]')) {
+      // Ignore interactive controls that handle their own interactions
+      if (target && target.closest && target.closest('select, input, textarea, button, a, [role="button"], [role="slider"]')) {
         return;
+      }
+
+      // Ignore if touch/interaction is inside drawers, modals, or palette sheet
+      if (target && target.closest && target.closest('#practice-drawer-panel, #mock-drawer-panel, .palette-sheet-drawer, .palette-backdrop, #practice-palette-backdrop, #mock-palette-backdrop, #chapter-select-modal, #test-paused-modal')) {
+        return;
+      }
+
+      // Ignore if drawer is actively open on mobile
+      if (window.innerWidth < 1024) {
+        if (this.currentMode === 'practice' && this.practice?.drawerOpen) return;
+        if (this.currentMode === 'mock' && this.mock?.drawerOpen) return;
       }
 
       // Ignore if near left edge (margin for iOS / Android edge swipe back navigation)
-      if (touch.clientX < 16) {
+      if (pt.clientX < 16) {
         return;
-      }
-
-      // Ignore if mobile palette drawer is open
-      if (window.innerWidth < 1024) {
-        const bdPrac = document.getElementById('practice-palette-backdrop');
-        const bdMock = document.getElementById('mock-palette-backdrop');
-        if (this.currentMode === 'practice' && bdPrac && !bdPrac.classList.contains('hidden')) {
-          return;
-        }
-        if (this.currentMode === 'mock' && bdMock && !bdMock.classList.contains('hidden')) {
-          return;
-        }
       }
 
       // Check if target is inside a horizontally scrollable element
@@ -1180,38 +1206,38 @@ class AptiPrepApp {
         el = el.parentElement;
       }
 
-      touchStartX = touch.clientX;
-      touchStartY = touch.clientY;
+      touchStartX = pt.clientX;
+      touchStartY = pt.clientY;
       touchCurrentX = touchStartX;
       touchCurrentY = touchStartY;
       touchStartTime = Date.now();
-      isTouchActive = true;
+      isTracking = true;
     };
 
-    const handleTouchMove = (e) => {
-      if (!isTouchActive) return;
-      const touch = (e.touches && e.touches[0]) || (e.changedTouches && e.changedTouches[0]) || e;
-      if (touch && typeof touch.clientX === 'number') {
-        touchCurrentX = touch.clientX;
-        touchCurrentY = touch.clientY;
+    const handleMove = (e) => {
+      if (!isTracking) return;
+      const pt = extractPoint(e);
+      if (pt && typeof pt.clientX === 'number') {
+        touchCurrentX = pt.clientX;
+        touchCurrentY = pt.clientY;
       }
     };
 
-    const handleTouchEnd = (e) => {
-      if (!isTouchActive || !touchStartTime) {
-        isTouchActive = false;
+    const handleEnd = (e) => {
+      if (!isTracking || !touchStartTime) {
+        isTracking = false;
         return;
       }
 
-      const touch = (e.changedTouches && e.changedTouches[0]) || (e.touches && e.touches[0]) || e;
-      const endX = (touch && typeof touch.clientX === 'number') ? touch.clientX : touchCurrentX;
-      const endY = (touch && typeof touch.clientY === 'number') ? touch.clientY : touchCurrentY;
+      const pt = extractPoint(e);
+      const endX = (pt && typeof pt.clientX === 'number') ? pt.clientX : touchCurrentX;
+      const endY = (pt && typeof pt.clientY === 'number') ? pt.clientY : touchCurrentY;
 
       const diffX = endX - touchStartX;
       const diffY = endY - touchStartY;
       const elapsed = Date.now() - touchStartTime;
 
-      isTouchActive = false;
+      isTracking = false;
       touchStartX = 0;
       touchStartY = 0;
       touchCurrentX = 0;
@@ -1223,7 +1249,12 @@ class AptiPrepApp {
       if (elapsed > 1000) return; // Must be under 1000ms gesture
       if (Math.abs(diffX) < minDistance) return; // Must meet min distance
       if (Math.abs(diffX) < Math.abs(diffY)) return; // Must be predominantly horizontal
-      if (window.getSelection && window.getSelection().toString().length > 0) return; // Ignore text selection
+      if (window.getSelection && window.getSelection().toString().trim().length > 0) return; // Ignore text selection
+
+      // Debounce rapid swipe actions
+      const now = Date.now();
+      if (now - lastSwipeTime < 350) return;
+      lastSwipeTime = now;
 
       // Temporarily suppress option click so swipe across option card doesn't accidentally trigger selection
       this._suppressOptionClick = true;
@@ -1256,8 +1287,8 @@ class AptiPrepApp {
       }
     };
 
-    const handleTouchCancel = () => {
-      isTouchActive = false;
+    const handleCancel = () => {
+      isTracking = false;
       touchStartX = 0;
       touchStartY = 0;
       touchCurrentX = 0;
@@ -1265,17 +1296,20 @@ class AptiPrepApp {
       touchStartTime = 0;
     };
 
-    const attachListeners = (el) => {
-      if (!el) return;
-      el.addEventListener('touchstart', handleTouchStart, { passive: true, capture: true });
-      el.addEventListener('touchmove', handleTouchMove, { passive: true, capture: true });
-      el.addEventListener('touchend', handleTouchEnd, { passive: true, capture: true });
-      el.addEventListener('touchcancel', handleTouchCancel, { passive: true, capture: true });
-    };
+    // Attach touch listeners to document (passive so browser scrolling remains 60fps)
+    document.addEventListener('touchstart', handleStart, { passive: true });
+    document.addEventListener('touchmove', handleMove, { passive: true });
+    document.addEventListener('touchend', handleEnd, { passive: true });
+    document.addEventListener('touchcancel', handleCancel, { passive: true });
 
-    attachListeners(document);
-    attachListeners(document.getElementById('view-practice'));
-    attachListeners(document.getElementById('view-mock'));
+    // Pointer events support (for touch screens, styluses, and pointer dragging)
+    document.addEventListener('pointerdown', (e) => {
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      handleStart(e);
+    }, { passive: true });
+    document.addEventListener('pointermove', handleMove, { passive: true });
+    document.addEventListener('pointerup', handleEnd, { passive: true });
+    document.addEventListener('pointercancel', handleCancel, { passive: true });
   }
 
   toggleZenMode(forcedState) {
