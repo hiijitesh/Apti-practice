@@ -142,35 +142,39 @@ class AptiPrepApp {
     const params = new URLSearchParams(window.location.search);
     const autostart = params.get('autostart');
 
-    if (!autostart) {
-      let activeMock = null;
-      let activePractice = null;
-      try {
-        const rawMock = localStorage.getItem('apti_active_mock');
-        if (rawMock) activeMock = JSON.parse(rawMock);
-      } catch (e) {}
+    let activeMock = null;
+    let activePractice = null;
+    try {
+      const rawMock = localStorage.getItem('apti_active_mock');
+      if (rawMock) activeMock = JSON.parse(rawMock);
+    } catch (e) {}
 
-      try {
-        const rawPrac = localStorage.getItem('apti_active_practice');
-        if (rawPrac) activePractice = JSON.parse(rawPrac);
-      } catch (e) {}
+    try {
+      const rawPrac = localStorage.getItem('apti_active_practice');
+      if (rawPrac) activePractice = JSON.parse(rawPrac);
+    } catch (e) {}
 
-      if (activeMock && Array.isArray(activeMock.questions) && activeMock.questions.length > 0) {
+    if (activeMock && Array.isArray(activeMock.questions) && activeMock.questions.length > 0) {
+      try {
+        await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+      } catch (e) {}
+      this.updateUserSessionUI();
+      if (this.restoreActiveMockSession(activeMock)) {
         try {
-          await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+          if (autostart) window.history.replaceState({}, document.title, window.location.pathname);
         } catch (e) {}
-        this.updateUserSessionUI();
-        if (this.restoreActiveMockSession(activeMock)) {
-          return;
-        }
-      } else if (activePractice && Array.isArray(activePractice.questions) && activePractice.questions.length > 0) {
+        return;
+      }
+    } else if (activePractice && Array.isArray(activePractice.questions) && activePractice.questions.length > 0) {
+      try {
+        await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+      } catch (e) {}
+      this.updateUserSessionUI();
+      if (this.restoreActivePracticeSession(activePractice)) {
         try {
-          await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+          if (autostart) window.history.replaceState({}, document.title, window.location.pathname);
         } catch (e) {}
-        this.updateUserSessionUI();
-        if (this.restoreActivePracticeSession(activePractice)) {
-          return;
-        }
+        return;
       }
     }
 
@@ -185,6 +189,9 @@ class AptiPrepApp {
     this.renderDashboard();
 
     if (params.get('autostart') === 'mock') {
+      try {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      } catch (e) {}
       await this.startMockTest('all');
       if (params.get('pause') === '1') {
         this.pauseMockTest();
@@ -192,6 +199,9 @@ class AptiPrepApp {
         this.toggleMockDrawer();
       }
     } else if (params.get('autostart') === 'practice') {
+      try {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      } catch (e) {}
       if (!this.chapters || this.chapters.length === 0) await this.loadChapters();
       if (this.chapters && this.chapters.length > 0) {
         await this.startPractice(this.chapters[0].name);
@@ -375,6 +385,8 @@ class AptiPrepApp {
 
   promptSwitchUser() {
     this.currentUserEmail = null;
+    this.clearActivePracticeSession();
+    this.clearActiveMockSession();
     localStorage.removeItem('apti_user_email');
     this.updateUserSessionUI();
     this.switchView('login');
@@ -383,6 +395,206 @@ class AptiPrepApp {
       input.value = '';
       input.focus();
     }
+  }
+
+  // ==========================================
+  // ACTIVE TEST REFRESH PERSISTENCE & GUARDS
+  // ==========================================
+
+  setupRefreshGuard() {
+    window.addEventListener('beforeunload', (e) => {
+      if (this.isSubmitting) return;
+
+      if (this.currentMode === 'mock' && this.mock.questions && this.mock.questions.length > 0) {
+        this.saveActiveMockSession();
+        e.preventDefault();
+        e.returnValue = '';
+        return '';
+      } else if (this.currentMode === 'practice' && this.practice.questions && this.practice.questions.length > 0) {
+        this.saveActivePracticeSession();
+        if (this.practice.modeType === 'test') {
+          e.preventDefault();
+          e.returnValue = '';
+          return '';
+        }
+      }
+    });
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') {
+        if (this.currentMode === 'mock') {
+          this.saveActiveMockSession();
+        } else if (this.currentMode === 'practice') {
+          this.saveActivePracticeSession();
+        }
+      }
+    });
+  }
+
+  saveActiveMockSession() {
+    if (!this.mock || !Array.isArray(this.mock.questions) || this.mock.questions.length === 0 || this.isSubmitting) {
+      return;
+    }
+    try {
+      const payload = {
+        questions: this.mock.questions,
+        subject: this.mock.subject || 'all',
+        currentIndex: this.mock.currentIndex || 0,
+        userAnswers: this.mock.userAnswers || {},
+        reviewFlags: this.mock.reviewFlags || {},
+        visited: this.mock.visited || {},
+        questionTimes: this.mock.questionTimes || {},
+        timeLeftSeconds: this.mock.timeLeftSeconds,
+        startTime: this.mock.startTime || Date.now(),
+        savedAt: Date.now(),
+        userEmail: this.currentUserEmail || 'guest@local'
+      };
+      localStorage.setItem('apti_active_mock', JSON.stringify(payload));
+    } catch (e) {
+      console.warn('Failed to save active mock session to localStorage:', e);
+    }
+  }
+
+  clearActiveMockSession() {
+    try {
+      localStorage.removeItem('apti_active_mock');
+    } catch (e) {}
+  }
+
+  restoreActiveMockSession(saved) {
+    if (!saved || !Array.isArray(saved.questions) || saved.questions.length === 0) {
+      this.clearActiveMockSession();
+      return false;
+    }
+
+    if (saved.userEmail && this.currentUserEmail && saved.userEmail !== this.currentUserEmail) {
+      this.clearActiveMockSession();
+      return false;
+    }
+
+    const elapsedSeconds = Math.max(0, Math.floor((Date.now() - (saved.savedAt || Date.now())) / 1000));
+    const remainingSeconds = Math.max(0, (saved.timeLeftSeconds !== undefined ? saved.timeLeftSeconds : 1800) - elapsedSeconds);
+
+    this.mock.questions = saved.questions;
+    this.mock.subject = saved.subject || 'all';
+    this.mock.currentIndex = Math.min(Math.max(0, saved.currentIndex || 0), saved.questions.length - 1);
+    this.mock.userAnswers = saved.userAnswers || {};
+    this.mock.reviewFlags = saved.reviewFlags || {};
+    this.mock.visited = saved.visited || { [this.mock.currentIndex]: true };
+    this.mock.questionTimes = saved.questionTimes || {};
+    this.mock.timeLeftSeconds = remainingSeconds;
+    this.mock.startTime = saved.startTime || Date.now();
+    this.mock.isSidebarCollapsed = false;
+    this.mock.drawerOpen = false;
+
+    // Set Header Titles
+    const titleEl = document.getElementById('mock-test-header-title');
+    const subtitleEl = document.getElementById('mock-test-header-subtitle');
+    const sub = (this.mock.subject || '').toLowerCase();
+    let titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    let subtitleStr = '30 Questions • 30 Minutes • Negative Marking: 1/3 (-0.33)';
+
+    if (sub === 'aptitude') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    } else if (sub === 'science') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - General Science (Held On: 05 Jun, 2025 Shift 1)';
+    } else if (sub === 'top300') {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - TOP 300 High-Yield Science (Held On: 05 Jun, 2025 Shift 1)';
+    } else {
+      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics & General Science (Held On: 05 Jun, 2025 Shift 1)';
+    }
+
+    if (titleEl) titleEl.textContent = titleStr;
+    if (subtitleEl) subtitleEl.textContent = subtitleStr;
+
+    // Set Candidate Profile
+    const userNameEl = document.getElementById('mock-user-name-display');
+    const userEmailEl = document.getElementById('mock-user-email-display');
+    const userAvatarEl = document.getElementById('mock-user-avatar-text');
+    const displayName = this.getUserDisplayName();
+    if (userNameEl) userNameEl.textContent = displayName;
+    if (userEmailEl) userEmailEl.textContent = this.currentUserEmail || 'Candidate';
+    if (userAvatarEl) userAvatarEl.textContent = displayName.charAt(0).toUpperCase();
+
+    const initTab = (sub === 'aptitude') ? 'aptitude' : (sub === 'science' || sub === 'top300' || sub === 'biology' || sub === 'chemistry' || sub === 'physics') ? 'science' : 'all';
+    this.setMockSectionTab(initTab);
+
+    this.switchView('mock');
+    this.renderMockQuestion();
+    this.updateMockPalette();
+
+    if (remainingSeconds <= 0) {
+      alert('Time expired while you were away! Your mock examination will now be automatically submitted.');
+      this.autoSubmitMock();
+    } else {
+      this.startMockTimer();
+    }
+    return true;
+  }
+
+  saveActivePracticeSession() {
+    if (!this.practice || !this.practice.chapter || !Array.isArray(this.practice.questions) || this.practice.questions.length === 0 || this.isSubmitting) {
+      return;
+    }
+    try {
+      const payload = {
+        chapter: this.practice.chapter,
+        questions: this.practice.questions,
+        currentIndex: this.practice.currentIndex || 0,
+        userAnswers: this.practice.userAnswers || {},
+        reviewFlags: this.practice.reviewFlags || {},
+        modeType: this.practice.modeType || 'study',
+        practiceSubjectFilter: this.practiceSubjectFilter || 'all',
+        startTime: this.practice.startTime || Date.now(),
+        savedAt: Date.now(),
+        userEmail: this.currentUserEmail || 'guest@local'
+      };
+      localStorage.setItem('apti_active_practice', JSON.stringify(payload));
+    } catch (e) {
+      console.warn('Failed to save active practice session to localStorage:', e);
+    }
+  }
+
+  clearActivePracticeSession() {
+    try {
+      localStorage.removeItem('apti_active_practice');
+    } catch (e) {}
+  }
+
+  restoreActivePracticeSession(saved) {
+    if (!saved || !saved.chapter || !Array.isArray(saved.questions) || saved.questions.length === 0) {
+      this.clearActivePracticeSession();
+      return false;
+    }
+
+    if (saved.userEmail && this.currentUserEmail && saved.userEmail !== this.currentUserEmail) {
+      this.clearActivePracticeSession();
+      return false;
+    }
+
+    this.practice.chapter = saved.chapter;
+    this.practice.questions = saved.questions;
+    this.practice.currentIndex = Math.min(Math.max(0, saved.currentIndex || 0), saved.questions.length - 1);
+    this.practice.userAnswers = saved.userAnswers || {};
+    this.practice.reviewFlags = saved.reviewFlags || {};
+    this.practice.modeType = saved.modeType || 'study';
+    this.practice.startTime = saved.startTime || Date.now();
+    this.practiceSubjectFilter = saved.practiceSubjectFilter || 'all';
+
+    this.setPracticeChapterTitle(saved.chapter);
+
+    // Sync dropdowns
+    this.populateChapterDropdown(this.practiceSubjectFilter);
+    const subjSelect = document.getElementById('practice-subject-dropdown');
+    if (subjSelect) subjSelect.value = this.practiceSubjectFilter;
+    const dd = document.getElementById('practice-chapter-dropdown');
+    if (dd) dd.value = saved.chapter;
+
+    this.setPracticeModeType(this.practice.modeType);
+    this.switchView('practice');
+    this.renderPracticeQuestion();
+    this.renderPracticePalette();
+    return true;
   }
 
   // ==========================================
@@ -433,11 +645,12 @@ class AptiPrepApp {
       if (!document.fullscreenElement && !document.webkitFullscreenElement) {
         const el = document.documentElement;
         if (el.requestFullscreen) {
-          await el.requestFullscreen();
+          const p = el.requestFullscreen();
+          if (p && typeof p.catch === 'function') p.catch(() => {});
         } else if (el.webkitRequestFullscreen) {
-          await el.webkitRequestFullscreen();
+          el.webkitRequestFullscreen();
         } else if (el.msRequestFullscreen) {
-          await el.msRequestFullscreen();
+          el.msRequestFullscreen();
         }
       }
     } catch (err) {
@@ -556,6 +769,7 @@ class AptiPrepApp {
     if (confirm('Do you want to leave this examination and return to Dashboard?')) {
       this.hideTestPausedModal();
       this.clearMockTimer();
+      this.clearActiveMockSession();
       this.exitFullscreen();
       this.showDashboard();
     }
@@ -1140,12 +1354,19 @@ class AptiPrepApp {
       return;
     }
 
-    if (this.mock.timerInterval) {
+    if (this.mock.timerInterval || (this.currentMode === 'mock' && this.mock.questions && this.mock.questions.length > 0)) {
       if (!confirm('You have an ongoing mock test. Leaving will abandon the current test. Continue?')) {
         return;
       }
       this.clearMockTimer();
+      this.clearActiveMockSession();
+    } else if (this.currentMode === 'practice' && this.practice.modeType === 'test' && this.practice.questions && this.practice.questions.length > 0) {
+      if (!confirm('You have an ongoing chapter test. Leaving will abandon the current test. Continue?')) {
+        return;
+      }
     }
+    this.clearActivePracticeSession();
+    this.clearActiveMockSession();
     this.exitFullscreen();
     this.switchView('dashboard');
     this.updateUserSessionUI();
@@ -1907,7 +2128,7 @@ class AptiPrepApp {
 
     // When test starts, enter full screen mode (only in test mode, not study mode!)
     if (this.practice.modeType === 'test') {
-      await this.enterFullscreen();
+      this.enterFullscreen().catch(() => {});
     }
 
     if (this.isStaticMode || this.allQuestions.length > 0) {
@@ -1997,14 +2218,17 @@ class AptiPrepApp {
     const dd = document.getElementById('practice-chapter-dropdown');
     if (dd) dd.value = chapterName;
 
+    this.practice.modeType = this.practice.modeType || 'study';
     this.setPracticeModeType(this.practice.modeType);
     this.switchView('practice');
     this.renderPracticeQuestion();
     this.renderPracticePalette();
+    this.saveActivePracticeSession();
   }
 
   async setPracticeModeType(type) {
     this.practice.modeType = type;
+    this.saveActivePracticeSession();
 
     const btnTest = document.getElementById('toggle-btn-test');
     const btnStudy = document.getElementById('toggle-btn-study');
@@ -2211,8 +2435,9 @@ class AptiPrepApp {
 
   selectPracticeOption(idx) {
     this.practice.userAnswers[this.practice.currentIndex] = idx;
+    this.saveActivePracticeSession();
     this.renderPracticeQuestion();
-    if (this.practice.isStudyMode) {
+    if (this.practice.modeType === 'study' || this.practice.isStudyMode) {
       setTimeout(() => {
         const solBox = document.getElementById('practice-solution-box');
         if (solBox) {
@@ -2224,6 +2449,7 @@ class AptiPrepApp {
 
   clearPracticeResponse() {
     delete this.practice.userAnswers[this.practice.currentIndex];
+    this.saveActivePracticeSession();
     this.renderPracticeQuestion();
   }
 
@@ -2234,6 +2460,7 @@ class AptiPrepApp {
     if (andNext && this.practice.currentIndex < this.practice.questions.length - 1) {
       this.practice.currentIndex++;
     }
+    this.saveActivePracticeSession();
     this.renderPracticeQuestion();
     this.renderPracticePalette();
   }
@@ -2241,6 +2468,7 @@ class AptiPrepApp {
   prevPracticeQuestion() {
     if (this.practice.currentIndex > 0) {
       this.practice.currentIndex--;
+      this.saveActivePracticeSession();
       this.renderPracticeQuestion();
     }
   }
@@ -2249,6 +2477,7 @@ class AptiPrepApp {
     const total = this.practice.questions.length;
     if (this.practice.currentIndex < total - 1) {
       this.practice.currentIndex++;
+      this.saveActivePracticeSession();
       this.renderPracticeQuestion();
     } else {
       this.promptSubmitChapterTest();
@@ -2257,6 +2486,7 @@ class AptiPrepApp {
 
   jumpPracticeQuestion(idx) {
     this.practice.currentIndex = idx;
+    this.saveActivePracticeSession();
     this.renderPracticeQuestion();
     if (window.innerWidth < 1024) {
       const panel = document.getElementById('practice-drawer-panel');
@@ -2355,6 +2585,7 @@ class AptiPrepApp {
 
   async executeChapterTestSubmission() {
     this.isSubmitting = true;
+    this.clearActivePracticeSession();
     this.hideTestPausedModal();
     this.exitFullscreen();
     const elapsedMs = (Date.now() - (this.practice.startTime || Date.now())) - this.totalPausedDuration;
@@ -2454,7 +2685,7 @@ class AptiPrepApp {
     this.totalPausedDuration = 0;
 
     // When test start enter full screen mode!
-    await this.enterFullscreen();
+    this.enterFullscreen().catch(() => {});
 
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
@@ -2582,6 +2813,7 @@ class AptiPrepApp {
     this.switchView('mock');
     this.renderMockQuestion();
     this.updateMockPalette();
+    this.saveActiveMockSession();
     this.startMockTimer();
   }
 
@@ -2649,6 +2881,10 @@ class AptiPrepApp {
       }
 
       updateTimerUI();
+
+      if (this.mock.timeLeftSeconds % 5 === 0) {
+        this.saveActiveMockSession();
+      }
 
       if (this.mock.timeLeftSeconds <= 0) {
         this.clearMockTimer();
@@ -2868,6 +3104,7 @@ class AptiPrepApp {
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
     this.mock.userAnswers[q.id] = idx;
+    this.saveActiveMockSession();
     this.renderMockQuestion();
   }
 
@@ -2875,6 +3112,7 @@ class AptiPrepApp {
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
     delete this.mock.userAnswers[q.id];
+    this.saveActiveMockSession();
     this.renderMockQuestion();
   }
 
@@ -2885,12 +3123,14 @@ class AptiPrepApp {
     if (andNext && this.mock.currentIndex < this.mock.questions.length - 1) {
       this.mock.currentIndex++;
     }
+    this.saveActiveMockSession();
     this.renderMockQuestion();
   }
 
   prevMockQuestion() {
     if (this.mock.currentIndex > 0) {
       this.mock.currentIndex--;
+      this.saveActiveMockSession();
       this.renderMockQuestion();
     }
   }
@@ -2899,6 +3139,7 @@ class AptiPrepApp {
     const total = this.mock.questions.length;
     if (this.mock.currentIndex < total - 1) {
       this.mock.currentIndex++;
+      this.saveActiveMockSession();
       this.renderMockQuestion();
     } else {
       this.promptSubmitMock();
@@ -2907,6 +3148,7 @@ class AptiPrepApp {
 
   jumpMockQuestion(idx) {
     this.mock.currentIndex = idx;
+    this.saveActiveMockSession();
     this.renderMockQuestion();
     if (window.innerWidth < 1024) {
       const panel = document.getElementById('mock-drawer-panel');
@@ -3134,6 +3376,7 @@ class AptiPrepApp {
 
   async executeMockSubmission() {
     this.isSubmitting = true;
+    this.clearActiveMockSession();
     this.hideTestPausedModal();
     this.exitFullscreen();
     const timeTakenSeconds = 1800 - Math.max(0, this.mock.timeLeftSeconds);
