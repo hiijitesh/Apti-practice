@@ -1218,16 +1218,56 @@ class AptiPrepApp {
       isTracking = true;
     };
 
+    const showSwipeHint = (dir) => {
+      if (typeof document === 'undefined' || !document.getElementById) return;
+      const isMock = (this.currentMode === 'mock');
+      const prevEl = document.getElementById(isMock ? 'mock-mobile-arrow-prev' : 'practice-mobile-arrow-prev');
+      const nextEl = document.getElementById(isMock ? 'mock-mobile-arrow-next' : 'practice-mobile-arrow-next');
+
+      if (dir === 'next') {
+        if (nextEl && !nextEl.classList.contains('arrow-disabled')) {
+          nextEl.classList.add('swipe-hint-active');
+        }
+        if (prevEl) prevEl.classList.remove('swipe-hint-active');
+      } else if (dir === 'prev') {
+        if (prevEl && !prevEl.classList.contains('arrow-disabled')) {
+          prevEl.classList.add('swipe-hint-active');
+        }
+        if (nextEl) nextEl.classList.remove('swipe-hint-active');
+      }
+    };
+
+    const clearSwipeHints = () => {
+      if (typeof document === 'undefined' || !document.querySelectorAll) return;
+      const activeHints = document.querySelectorAll('.mobile-swipe-arrow.swipe-hint-active');
+      activeHints.forEach(el => el.classList.remove('swipe-hint-active'));
+    };
+
     const handleMove = (e) => {
       if (!isTracking) return;
       const pt = extractPoint(e);
       if (pt && typeof pt.clientX === 'number') {
         touchCurrentX = pt.clientX;
         touchCurrentY = pt.clientY;
+
+        const currentDiffX = touchCurrentX - touchStartX;
+        const currentDiffY = touchCurrentY - touchStartY;
+
+        // If swipe gesture is moving horizontally, show visual feedback on edge arrows
+        if (Math.abs(currentDiffX) > 15 && Math.abs(currentDiffX) > Math.abs(currentDiffY)) {
+          if (currentDiffX < 0) {
+            showSwipeHint('next');
+          } else {
+            showSwipeHint('prev');
+          }
+        } else {
+          clearSwipeHints();
+        }
       }
     };
 
     const handleEnd = (e) => {
+      clearSwipeHints();
       if (!isTracking || !touchStartTime) {
         isTracking = false;
         return;
@@ -1292,6 +1332,7 @@ class AptiPrepApp {
     };
 
     const handleCancel = () => {
+      clearSwipeHints();
       isTracking = false;
       touchStartX = 0;
       touchStartY = 0;
@@ -2653,6 +2694,12 @@ class AptiPrepApp {
       mobileBtnNext.textContent = (this.practice.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next →';
     }
 
+    // Update floating mobile swipe navigation arrows
+    const mobileArrowPrev = document.getElementById('practice-mobile-arrow-prev');
+    const mobileArrowNext = document.getElementById('practice-mobile-arrow-next');
+    if (mobileArrowPrev) mobileArrowPrev.classList.toggle('arrow-disabled', this.practice.currentIndex === 0);
+    if (mobileArrowNext) mobileArrowNext.classList.toggle('arrow-disabled', this.practice.currentIndex === total - 1);
+
     // Update Mark for Review button state in Practice bottom bar
     const isMarked = !!(this.practice.reviewFlags && this.practice.reviewFlags[this.practice.currentIndex]);
     const btnReview = document.getElementById('practice-btn-review');
@@ -3311,6 +3358,12 @@ class AptiPrepApp {
     if (mobileBtnNext) {
       mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next →';
     }
+
+    // Update floating mobile swipe navigation arrows
+    const mobileArrowPrev = document.getElementById('mock-mobile-arrow-prev');
+    const mobileArrowNext = document.getElementById('mock-mobile-arrow-next');
+    if (mobileArrowPrev) mobileArrowPrev.classList.toggle('arrow-disabled', this.mock.currentIndex === 0);
+    if (mobileArrowNext) mobileArrowNext.classList.toggle('arrow-disabled', this.mock.currentIndex === total - 1);
 
     this.updateMockPalette();
   }

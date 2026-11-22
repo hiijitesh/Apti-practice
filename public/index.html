@@ -511,6 +511,14 @@
         </div>
       </div>
 
+      <!-- FLOATING MOBILE SWIPE ARROWS (LEFT & RIGHT) -->
+      <button id="practice-mobile-arrow-prev" onclick="app.prevPracticeQuestion()" aria-label="Previous question" class="mobile-swipe-arrow mobile-swipe-arrow-prev fixed left-0 top-1/2 -translate-y-1/2 z-30 lg:hidden w-6 h-12 rounded-r-md bg-white/85 hover:bg-white active:bg-zinc-100 backdrop-blur-xs border-y border-r border-zinc-200/80 shadow-xs flex items-center justify-center text-zinc-500 hover:text-zinc-800 transition-all select-none">
+        <svg class="w-3.5 h-3.5 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"/></svg>
+      </button>
+      <button id="practice-mobile-arrow-next" onclick="app.nextPracticeQuestion()" aria-label="Next question" class="mobile-swipe-arrow mobile-swipe-arrow-next fixed right-0 top-1/2 -translate-y-1/2 z-30 lg:hidden w-6 h-12 rounded-l-md bg-white/85 hover:bg-white active:bg-zinc-100 backdrop-blur-xs border-y border-l border-zinc-200/80 shadow-xs flex items-center justify-center text-zinc-500 hover:text-zinc-800 transition-all select-none">
+        <svg class="w-3.5 h-3.5 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+      </button>
+
       <!-- FIXED BOTTOM NAVIGATION BAR (FIXED ACROSS ALL SCREEN SIZES: NEVER SHIFTS WITH QUESTION LENGTH) -->
       <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-2 sm:px-6 lg:px-8 py-2 sm:py-2.5 z-40 flex items-center justify-between gap-1.5 sm:gap-2.5 shadow-lg safe-bottom">
         <!-- Left: Previous, Mark for Review & Clear -->
@@ -842,6 +850,14 @@
         <div id="mock-palette-backdrop" onclick="app.toggleMockDrawer()" class="palette-backdrop hidden"></div>
 
       </div>
+
+      <!-- FLOATING MOBILE SWIPE ARROWS (LEFT & RIGHT) -->
+      <button id="mock-mobile-arrow-prev" onclick="app.prevMockQuestion()" aria-label="Previous question" class="mobile-swipe-arrow mobile-swipe-arrow-prev fixed left-0 top-1/2 -translate-y-1/2 z-30 lg:hidden w-6 h-12 rounded-r-md bg-white/85 hover:bg-white active:bg-zinc-100 backdrop-blur-xs border-y border-r border-zinc-200/80 shadow-xs flex items-center justify-center text-zinc-500 hover:text-zinc-800 transition-all select-none">
+        <svg class="w-3.5 h-3.5 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"/></svg>
+      </button>
+      <button id="mock-mobile-arrow-next" onclick="app.nextMockQuestion()" aria-label="Next question" class="mobile-swipe-arrow mobile-swipe-arrow-next fixed right-0 top-1/2 -translate-y-1/2 z-30 lg:hidden w-6 h-12 rounded-l-md bg-white/85 hover:bg-white active:bg-zinc-100 backdrop-blur-xs border-y border-l border-zinc-200/80 shadow-xs flex items-center justify-center text-zinc-500 hover:text-zinc-800 transition-all select-none">
+        <svg class="w-3.5 h-3.5 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+      </button>
 
       <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR -->
       <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-2 py-2 z-30 lg:hidden flex items-center justify-between gap-1 sm:gap-2 shadow-lg safe-bottom">

@@ -208,4 +208,29 @@ describe('Mobile UI & Swipe Navigation Tests', () => {
     assert.match(jsContent, /togglePracticeReview\(andNext = false\)\s*\{/);
     assert.match(jsContent, /this\.practice\.reviewFlags/);
   });
+
+  test('Mobile floating swipe navigation arrows exist and respond to gestures', () => {
+    // 1. Practice floating arrows exist in HTML with thin stroke
+    assert.match(htmlContent, /id="practice-mobile-arrow-prev"/);
+    assert.match(htmlContent, /id="practice-mobile-arrow-next"/);
+    assert.match(htmlContent, /id="practice-mobile-arrow-prev"[\s\S]*?stroke-\[1\.5\]/);
+    assert.match(htmlContent, /id="practice-mobile-arrow-next"[\s\S]*?stroke-\[1\.5\]/);
+
+    // 2. Mock floating arrows exist in HTML with thin stroke
+    assert.match(htmlContent, /id="mock-mobile-arrow-prev"/);
+    assert.match(htmlContent, /id="mock-mobile-arrow-next"/);
+    assert.match(htmlContent, /id="mock-mobile-arrow-prev"[\s\S]*?stroke-\[1\.5\]/);
+    assert.match(htmlContent, /id="mock-mobile-arrow-next"[\s\S]*?stroke-\[1\.5\]/);
+
+    // 3. CSS has styling for .mobile-swipe-arrow, .swipe-hint-active, and .arrow-disabled
+    assert.match(cssContent, /\.mobile-swipe-arrow\s*\{/);
+    assert.match(cssContent, /\.mobile-swipe-arrow\.swipe-hint-active/);
+    assert.match(cssContent, /\.mobile-swipe-arrow\.arrow-disabled/);
+
+    // 4. JS contains showSwipeHint, clearSwipeHints and disabled toggle logic
+    assert.match(jsContent, /showSwipeHint\s*=\s*\(dir\)\s*=>/);
+    assert.match(jsContent, /clearSwipeHints\s*=\s*\(\)\s*=>/);
+    assert.match(jsContent, /mobileArrowPrev\.classList\.toggle\('arrow-disabled'/);
+    assert.match(jsContent, /mobileArrowNext\.classList\.toggle\('arrow-disabled'/);
+  });
 });
