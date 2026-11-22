@@ -46,7 +46,7 @@ class AptiPrepApp {
       currentIndex: 0,
       userAnswers: {}, // { [qIndex]: number (selected option index) }
       reviewFlags: {}, // { [qIndex]: boolean }
-      modeType: 'test', // 'test' (show answers at end) or 'study' (instant feedback)
+      modeType: 'study', // Default: 'study' (instant feedback) or 'test' (show answers at end)
       drawerOpen: true,
       startTime: null
     };
@@ -101,6 +101,7 @@ class AptiPrepApp {
     this.initFontScale();
     this.setupFullscreenListeners();
     this.setupSwipeNavigation();
+    this.setupRefreshGuard();
     this.updateSheetStatusUI();
 
     if (window.AptiPrep && window.AptiPrep.EventRouter) {
@@ -137,6 +138,42 @@ class AptiPrepApp {
       }
     }
 
+    // Check for active test or practice session to restore across page refreshes
+    const params = new URLSearchParams(window.location.search);
+    const autostart = params.get('autostart');
+
+    if (!autostart) {
+      let activeMock = null;
+      let activePractice = null;
+      try {
+        const rawMock = localStorage.getItem('apti_active_mock');
+        if (rawMock) activeMock = JSON.parse(rawMock);
+      } catch (e) {}
+
+      try {
+        const rawPrac = localStorage.getItem('apti_active_practice');
+        if (rawPrac) activePractice = JSON.parse(rawPrac);
+      } catch (e) {}
+
+      if (activeMock && Array.isArray(activeMock.questions) && activeMock.questions.length > 0) {
+        try {
+          await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+        } catch (e) {}
+        this.updateUserSessionUI();
+        if (this.restoreActiveMockSession(activeMock)) {
+          return;
+        }
+      } else if (activePractice && Array.isArray(activePractice.questions) && activePractice.questions.length > 0) {
+        try {
+          await Promise.all([this.loadChapters(), this.loadAttempts(), this.loadRevisionMaterials()]);
+        } catch (e) {}
+        this.updateUserSessionUI();
+        if (this.restoreActivePracticeSession(activePractice)) {
+          return;
+        }
+      }
+    }
+
     // Existing authenticated user: show dashboard and load data
     this.switchView('dashboard');
     this.updateUserSessionUI();
@@ -147,7 +184,6 @@ class AptiPrepApp {
     }
     this.renderDashboard();
 
-    const params = new URLSearchParams(window.location.search);
     if (params.get('autostart') === 'mock') {
       await this.startMockTest('all');
       if (params.get('pause') === '1') {
@@ -702,7 +738,8 @@ class AptiPrepApp {
     const isLocalhost = Boolean(
       window.location.hostname === 'localhost' ||
       window.location.hostname === '127.0.0.1' ||
-      window.location.port === '3000'
+      /^192\.168\.|^10\.|^172\.(1[6-9]|2[0-9]|3[01])\./.test(window.location.hostname) ||
+      window.location.port !== ''
     );
     if (isLocalhost && !this.isStaticMode) {
       try {
@@ -1290,7 +1327,8 @@ class AptiPrepApp {
     const isLocalhost = Boolean(
       window.location.hostname === 'localhost' ||
       window.location.hostname === '127.0.0.1' ||
-      window.location.port === '3000'
+      /^192\.168\.|^10\.|^172\.(1[6-9]|2[0-9]|3[01])\./.test(window.location.hostname) ||
+      window.location.port !== ''
     );
 
     if (isLocalhost) {
@@ -3643,7 +3681,12 @@ class AptiPrepApp {
   async loadRevisionMaterials() {
     try {
       let data = null;
-      const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      const isLocalhost = Boolean(
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1' ||
+        /^192\.168\.|^10\.|^172\.(1[6-9]|2[0-9]|3[01])\./.test(window.location.hostname) ||
+        window.location.port !== ''
+      );
       if (isLocalhost) {
         try {
           const res = await fetch('/api/revision-materials');
