@@ -62,4 +62,18 @@ describe('Mock Test Generation Unit Tests', () => {
     // 30 questions from 51 chapters should cover at least 15 unique chapters
     assert.ok(chapters.size >= 15, `Expected >= 15 chapters represented, got ${chapters.size}`);
   });
+
+  test('Mock UI in public/index.html and public/app.js contains zero static "testbook" or "NTPC" references', () => {
+    const fs = require('fs');
+    const path = require('path');
+    const indexHtml = fs.readFileSync(path.join(__dirname, '../public/index.html'), 'utf-8');
+    const appJs = fs.readFileSync(path.join(__dirname, '../public/app.js'), 'utf-8');
+
+    assert.ok(!indexHtml.toLowerCase().includes('testbook'), 'index.html must not contain testbook branding');
+    assert.ok(!indexHtml.includes('RRB NTPC'), 'index.html mock header must not contain hardcoded RRB NTPC text');
+    assert.ok(!appJs.includes('RRB NTPC Graduate Level'), 'app.js must not contain hardcoded NTPC mock titles');
+
+    assert.ok(indexHtml.includes('AptiPrep'), 'index.html must use AptiPrep CBT branding');
+    assert.ok(appJs.includes('Full Mock Test: Quantitative Aptitude'), 'app.js must use dynamic mock titles');
+  });
 });

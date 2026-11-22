@@ -497,22 +497,24 @@ class AptiPrepApp {
     // Set Header Titles
     const titleEl = document.getElementById('mock-test-header-title');
     const subtitleEl = document.getElementById('mock-test-header-subtitle');
+    const mobSubEl = document.getElementById('mock-mobile-exam-subtitle');
     const sub = (this.mock.subject || '').toLowerCase();
-    let titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    let titleStr = 'Full Mock Test: Quantitative Aptitude & General Science';
     let subtitleStr = '30 Questions • 30 Minutes • Negative Marking: 1/3 (-0.33)';
 
     if (sub === 'aptitude') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: Quantitative Aptitude';
     } else if (sub === 'science') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - General Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: General Science';
     } else if (sub === 'top300') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - TOP 300 High-Yield Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: TOP 300 High-Yield Science';
     } else {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics & General Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: Quantitative Aptitude & General Science';
     }
 
     if (titleEl) titleEl.textContent = titleStr;
     if (subtitleEl) subtitleEl.textContent = subtitleStr;
+    if (mobSubEl) mobSubEl.textContent = titleStr;
 
     // Set Candidate Profile
     const userNameEl = document.getElementById('mock-user-name-display');
@@ -3199,22 +3201,24 @@ class AptiPrepApp {
     // Set Header Titles
     const titleEl = document.getElementById('mock-test-header-title');
     const subtitleEl = document.getElementById('mock-test-header-subtitle');
+    const mobSubEl = document.getElementById('mock-mobile-exam-subtitle');
     const sub = (subject || '').toLowerCase();
-    let titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+    let titleStr = 'Full Mock Test: Quantitative Aptitude & General Science';
     let subtitleStr = '30 Questions • 30 Minutes • Negative Marking: 1/3 (-0.33)';
 
     if (sub === 'aptitude') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: Quantitative Aptitude';
     } else if (sub === 'science') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - General Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: General Science';
     } else if (sub === 'top300') {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - TOP 300 High-Yield Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: TOP 300 High-Yield Science';
     } else {
-      titleStr = 'PYST 01: RRB NTPC Graduate Level CBT-I - Mathematics & General Science (Held On: 05 Jun, 2025 Shift 1)';
+      titleStr = 'Full Mock Test: Quantitative Aptitude & General Science';
     }
 
     if (titleEl) titleEl.textContent = titleStr;
     if (subtitleEl) subtitleEl.textContent = subtitleStr;
+    if (mobSubEl) mobSubEl.textContent = titleStr;
 
     // Set Candidate Profile
     const userNameEl = document.getElementById('mock-user-name-display');
