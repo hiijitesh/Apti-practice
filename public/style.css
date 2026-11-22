@@ -365,6 +365,31 @@ button:active:not(:disabled) {
   padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
 }
 
+/* ========================================================
+   MOBILE BUTTON SIZING & HEADER OPTIMIZATIONS (<640px)
+   ======================================================== */
+@media (max-width: 639px) {
+  #toggle-btn-test,
+  #toggle-btn-study {
+    padding: 3px 8px !important;
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+  }
+
+  #practice-btn-submit-header {
+    padding: 4px 10px !important;
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    border-radius: 6px !important;
+  }
+
+  #practice-chapter-dropdown {
+    font-size: 11.5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+}
+
 /* Off-canvas / Bottom Sheet Drawer on Mobile (<1024px) */
 @media (max-width: 1023px) {
   .palette-sheet-drawer {

@@ -324,50 +324,50 @@
     <section id="view-practice" class="space-y-6 hidden">
 
       <!-- Top Control Bar -->
-      <div class="border-b border-zinc-200 pb-3 sm:pb-4 space-y-2.5">
+      <div class="border-b border-zinc-200 pb-2.5 sm:pb-4 space-y-2 sm:space-y-2.5">
         <!-- Row 1: Back, Title, Mode Toggle, and Submit -->
-        <div class="flex items-center justify-between gap-2">
-          <div class="flex items-center space-x-2 sm:space-x-3 overflow-hidden">
-            <button onclick="app.showDashboard()" class="text-xs text-zinc-500 hover:text-zinc-900 transition flex items-center gap-1 shrink-0 p-1 -ml-1">
+        <div class="flex items-center justify-between gap-1.5 sm:gap-2">
+          <div class="flex items-center space-x-1.5 sm:space-x-3 overflow-hidden min-w-0">
+            <button onclick="app.showDashboard()" class="text-xs text-zinc-500 hover:text-zinc-900 transition flex items-center gap-0.5 shrink-0 p-1 -ml-1">
               <span>&larr;</span> <span class="hidden xs:inline">Back</span>
             </button>
             <span class="text-zinc-300">|</span>
-            <div class="overflow-hidden">
-              <h2 id="practice-chapter-title" onclick="app.openChapterSelectModal()" class="text-sm sm:text-base font-semibold text-zinc-900 leading-tight cursor-pointer hover:text-zinc-600 transition flex items-center gap-1.5 truncate" title="Click to browse all chapters">
-                <span class="truncate">Chapter Name</span>
-                <svg class="w-3.5 h-3.5 text-zinc-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+            <div class="overflow-hidden min-w-0">
+              <h2 id="practice-chapter-title" onclick="app.handlePracticeChapterTitleClick()" class="text-xs sm:text-base font-semibold text-zinc-900 leading-tight cursor-pointer hover:text-zinc-600 transition flex items-center gap-1 truncate" title="Click to browse all chapters">
+                <span id="practice-chapter-title-text" class="truncate">Chapter Name</span>
+                <svg id="practice-chapter-chevron" class="w-3.5 h-3.5 text-zinc-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
               </h2>
-              <div class="flex items-center gap-1.5 mt-0.5">
-                <span id="practice-mode-badge" class="text-[9px] sm:text-[10px] uppercase font-bold text-zinc-500">Chapter Test</span>
+              <div class="flex items-center gap-1 sm:gap-1.5 mt-0.5 text-[10px] sm:text-[11px]">
+                <span id="practice-mode-badge" class="text-[9px] sm:text-[10px] uppercase font-bold text-zinc-500 shrink-0">Chapter Test</span>
                 <span class="text-zinc-300 text-xs">&bull;</span>
                 <span id="practice-mode-subtitle" class="text-[10px] sm:text-[11px] text-zinc-400 truncate">Answers revealed on submit</span>
               </div>
             </div>
           </div>
 
-          <div class="flex items-center gap-1.5 shrink-0">
-            <!-- Segmented Toggle: Test vs Study -->
-            <div class="flex items-center bg-zinc-100 p-0.5 rounded-lg border border-zinc-200 text-[11px]">
-              <button onclick="app.setPracticeModeType('test')" id="toggle-btn-test" class="px-2 sm:px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition">
+          <div class="flex items-center gap-1 sm:gap-1.5 shrink-0">
+            <!-- Segmented Toggle: Test vs Study (Small on mobile) -->
+            <div class="flex items-center bg-zinc-100 p-0.5 rounded-md border border-zinc-200 text-[10px] sm:text-[11px]">
+              <button onclick="app.setPracticeModeType('test')" id="toggle-btn-test" class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded text-[10px] sm:text-xs font-semibold bg-white text-zinc-900 shadow-2xs transition">
                 Test
               </button>
-              <button onclick="app.setPracticeModeType('study')" id="toggle-btn-study" class="px-2 sm:px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition">
+              <button onclick="app.setPracticeModeType('study')" id="toggle-btn-study" class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded text-[10px] sm:text-xs font-medium text-zinc-500 hover:text-zinc-900 transition">
                 Study
               </button>
             </div>
 
-            <!-- Submit Chapter Test Button (Desktop & Tablet) -->
-            <button onclick="app.promptSubmitChapterTest()" id="practice-btn-submit-header" class="px-3 py-1.5 btn-primary font-medium text-xs rounded-lg transition whitespace-nowrap">
+            <!-- Submit Chapter Test Button (Small on mobile) -->
+            <button onclick="app.promptSubmitChapterTest()" id="practice-btn-submit-header" class="px-2 sm:px-3 py-1 sm:py-1.5 btn-primary font-semibold text-[10px] sm:text-xs rounded-md sm:rounded-lg transition whitespace-nowrap leading-tight">
               Submit Test
             </button>
           </div>
         </div>
 
-        <!-- Row 2: Selectors & Quick Actions -->
-        <div class="flex items-center justify-between gap-1.5 sm:gap-2 text-xs">
+        <!-- Row 2: Selectors & Quick Actions (Hidden in Test Mode, Clutter-Free in Study Mode) -->
+        <div id="practice-selectors-row" class="hidden flex items-center justify-between gap-1.5 sm:gap-2 text-xs">
           <div class="flex items-center gap-1.5 flex-1 min-w-0">
-            <!-- Subject Select Dropdown in Chapter Test -->
-            <select id="practice-subject-dropdown" onchange="app.filterPracticeChaptersBySubject(this.value)" class="text-xs border border-zinc-200 rounded-lg px-2 py-1.5 bg-zinc-100 text-zinc-900 font-semibold focus:outline-none focus:border-zinc-400 shrink-0 max-w-[115px] sm:max-w-none">
+            <!-- Subject Select Dropdown in Chapter Test (Desktop/tablet only) -->
+            <select id="practice-subject-dropdown" onchange="app.filterPracticeChaptersBySubject(this.value)" class="hidden sm:inline-block text-xs border border-zinc-200 rounded-lg px-2 py-1.5 bg-zinc-100 text-zinc-900 font-semibold focus:outline-none focus:border-zinc-400 shrink-0 max-w-[125px]">
               <option value="all">All (51)</option>
               <option value="aptitude">Aptitude (17)</option>
               <option value="science">Science (34)</option>
@@ -376,15 +376,15 @@
               <option value="physics">&nbsp;&nbsp;↳ Physics</option>
             </select>
 
-            <!-- Chapter Select Dropdown -->
-            <select id="practice-chapter-dropdown" onchange="app.switchPracticeChapter(this.value)" class="text-xs border border-zinc-200 rounded-lg px-2.5 py-1.5 bg-white text-zinc-800 font-medium focus:outline-none focus:border-zinc-400 flex-1 min-w-0 truncate">
+            <!-- Chapter Select Dropdown (Takes full width on mobile) -->
+            <select id="practice-chapter-dropdown" onchange="app.switchPracticeChapter(this.value)" class="text-xs border border-zinc-200 rounded-lg px-2 sm:px-2.5 py-1.5 bg-white text-zinc-800 font-medium focus:outline-none focus:border-zinc-400 flex-1 min-w-0 truncate">
               <!-- Filled dynamically -->
             </select>
 
-            <!-- Browse Chapters Modal Button -->
-            <button onclick="app.openChapterSelectModal()" title="Browse all 52 chapters" class="p-1.5 sm:px-2 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition shrink-0 flex items-center gap-1" aria-label="Browse chapters">
+            <!-- Browse Chapters Modal Button (Desktop/tablet only) -->
+            <button onclick="app.openChapterSelectModal()" title="Browse all 52 chapters" class="hidden sm:flex p-1.5 sm:px-2 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition shrink-0 items-center gap-1" aria-label="Browse chapters">
               <svg class="w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
-              <span class="hidden sm:inline text-[11px] font-medium">Browse</span>
+              <span class="text-[11px] font-medium">Browse</span>
             </button>
           </div>
 
@@ -396,7 +396,7 @@
             </button>
 
             <!-- Palette Toggle Button (Desktop only; mobile uses the pinned bottom bar button) -->
-            <button onclick="app.togglePracticeDrawer()" class="hidden md:flex px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition items-center gap-1" title="Toggle Question Palette">
+            <button onclick="app.togglePracticeDrawer()" class="hidden lg:flex px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 hover:bg-zinc-100 text-zinc-600 transition items-center gap-1" title="Toggle Question Palette">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
               <span id="practice-drawer-btn-label">Palette</span>
             </button>

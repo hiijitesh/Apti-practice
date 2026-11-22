@@ -99,6 +99,7 @@ class AptiPrepApp {
   async init() {
     this.initFontScale();
     this.setupFullscreenListeners();
+    this.setupSwipeNavigation();
     this.updateSheetStatusUI();
 
     if (window.AptiPrep && window.AptiPrep.EventRouter) {
@@ -877,6 +878,105 @@ class AptiPrepApp {
     });
   }
 
+  setupSwipeNavigation() {
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
+
+    const handleTouchStart = (e) => {
+      if (!e.touches || e.touches.length !== 1) return;
+      const target = e.target;
+
+      // Ignore interactive controls that handle their own touches
+      if (target.closest('select, input, textarea, button, a, [role="button"]')) {
+        return;
+      }
+
+      // Ignore if near left edge (margin for iOS / browser edge-swipe back navigation)
+      if (e.touches[0].clientX < 22) {
+        return;
+      }
+
+      // Ignore if a modal or off-canvas drawer is open
+      if (this.practice?.drawerOpen || document.querySelector('.palette-sheet-drawer:not(.hidden)')) {
+        return;
+      }
+
+      // Check if target is inside a horizontally scrollable element
+      let el = target;
+      while (el && el !== document.body) {
+        if (el.scrollWidth > el.clientWidth) {
+          const style = window.getComputedStyle(el);
+          if (style.overflowX === 'auto' || style.overflowX === 'scroll') {
+            return;
+          }
+        }
+        el = el.parentElement;
+      }
+
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+      touchStartTime = Date.now();
+    };
+
+    const handleTouchEnd = (e) => {
+      if (!touchStartTime || !e.changedTouches || e.changedTouches.length === 0) return;
+
+      const diffX = e.changedTouches[0].clientX - touchStartX;
+      const diffY = e.changedTouches[0].clientY - touchStartY;
+      const elapsed = Date.now() - touchStartTime;
+
+      touchStartX = 0;
+      touchStartY = 0;
+      touchStartTime = 0;
+
+      // Swipe criteria
+      const minDistance = 45;
+      if (elapsed > 700) return; // Must be under 700ms gesture
+      if (Math.abs(diffX) < minDistance) return; // Must meet min distance
+      if (Math.abs(diffX) < Math.abs(diffY) * 1.3) return; // Must be predominantly horizontal
+      if (window.getSelection && window.getSelection().toString().length > 0) return; // Ignore text selection
+
+      if (this.currentMode === 'practice') {
+        if (diffX < 0) {
+          // Swipe left -> Next question
+          if (this.practice.currentIndex < this.practice.questions.length - 1) {
+            this.nextPracticeQuestion();
+          }
+        } else if (diffX > 0) {
+          // Swipe right -> Previous question
+          if (this.practice.currentIndex > 0) {
+            this.prevPracticeQuestion();
+          }
+        }
+      } else if (this.currentMode === 'mock') {
+        if (diffX < 0) {
+          // Swipe left -> Next question
+          if (this.mock.currentIndex < this.mock.questions.length - 1) {
+            this.nextMockQuestion();
+          }
+        } else if (diffX > 0) {
+          // Swipe right -> Previous question
+          if (this.mock.currentIndex > 0) {
+            this.prevMockQuestion();
+          }
+        }
+      }
+    };
+
+    const practiceView = document.getElementById('view-practice');
+    const mockView = document.getElementById('view-mock');
+
+    if (practiceView) {
+      practiceView.addEventListener('touchstart', handleTouchStart, { passive: true });
+      practiceView.addEventListener('touchend', handleTouchEnd, { passive: true });
+    }
+    if (mockView) {
+      mockView.addEventListener('touchstart', handleTouchStart, { passive: true });
+      mockView.addEventListener('touchend', handleTouchEnd, { passive: true });
+    }
+  }
+
   toggleZenMode(forcedState) {
     this.zenMode = (typeof forcedState === 'boolean') ? forcedState : !this.zenMode;
     document.body.classList.toggle('zen-mode', this.zenMode);
@@ -1022,7 +1122,18 @@ class AptiPrepApp {
   // CHAPTER TEST SELECTION MODAL
   // ==========================================
 
+  handlePracticeChapterTitleClick() {
+    if (this.practice.modeType === 'test') {
+      return; // Cannot change chapter during test mode
+    }
+    this.openChapterSelectModal();
+  }
+
   openChapterSelectModal(defaultSubj = 'aptitude') {
+    if (this.currentMode === 'practice' && this.practice.modeType === 'test') {
+      alert('You cannot change chapter or subject during an active chapter test. Please submit the test or switch to Study mode.');
+      return;
+    }
     if (!this.currentUserEmail) {
       this.switchView('login');
       return;
@@ -1634,6 +1745,12 @@ class AptiPrepApp {
   }
 
   filterPracticeChaptersBySubject(subjectValue) {
+    if (this.practice.modeType === 'test') {
+      alert('You cannot change subject during an active chapter test. Please submit the test or switch to Study mode.');
+      const subjSelect = document.getElementById('practice-subject-dropdown');
+      if (subjSelect) subjSelect.value = this.practiceSubjectFilter || 'all';
+      return;
+    }
     this.practiceSubjectFilter = subjectValue;
     this.populateChapterDropdown(subjectValue);
 
@@ -1775,6 +1892,16 @@ class AptiPrepApp {
     this.initPracticeState(chapterName, filtered, preferredSubjectFilter);
   }
 
+  setPracticeChapterTitle(title) {
+    const titleText = document.getElementById('practice-chapter-title-text');
+    const titleEl = document.getElementById('practice-chapter-title');
+    if (titleText) {
+      titleText.textContent = title;
+    } else if (titleEl) {
+      titleEl.textContent = title;
+    }
+  }
+
   initPracticeState(chapterName, questions, preferredSubjectFilter = null) {
     this.practice.chapter = chapterName;
     this.practice.questions = questions;
@@ -1782,8 +1909,7 @@ class AptiPrepApp {
     this.practice.userAnswers = {};
     this.practice.startTime = Date.now();
 
-    const titleEl = document.getElementById('practice-chapter-title');
-    if (titleEl) titleEl.textContent = chapterName;
+    this.setPracticeChapterTitle(chapterName);
 
     // Sync the subject dropdown in Chapter Test
     const chInfo = this.chapters.find(c => c.name.toLowerCase() === chapterName.toLowerCase());
@@ -1843,21 +1969,50 @@ class AptiPrepApp {
     const btnStudy = document.getElementById('toggle-btn-study');
     const badge = document.getElementById('practice-mode-badge');
     const subtitle = document.getElementById('practice-mode-subtitle');
+    const row2 = document.getElementById('practice-selectors-row');
+    const titleEl = document.getElementById('practice-chapter-title');
+    const chevronEl = document.getElementById('practice-chapter-chevron');
+
+    const activeClasses = 'px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded text-[10px] sm:text-xs font-semibold bg-white text-zinc-900 shadow-2xs transition';
+    const inactiveClasses = 'px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded text-[10px] sm:text-xs font-medium text-zinc-500 hover:text-zinc-900 transition';
 
     if (type === 'test') {
-      if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
-      if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
+      if (btnTest) btnTest.className = activeClasses;
+      if (btnStudy) btnStudy.className = inactiveClasses;
       if (badge) badge.textContent = 'Chapter Test';
       if (subtitle) subtitle.textContent = 'Answers revealed on submission (Full Screen)';
+
+      // Hide second row clutter in test mode - user cannot change chapter or subject in test mode
+      if (row2) row2.classList.add('hidden');
+
+      // Disable chapter browsing via title click in test mode
+      if (titleEl) {
+        titleEl.classList.remove('cursor-pointer', 'hover:text-zinc-600');
+        titleEl.classList.add('cursor-default');
+        titleEl.title = 'Chapter Test in progress (cannot change chapter during test)';
+      }
+      if (chevronEl) chevronEl.classList.add('hidden');
+
       // Enter full screen when switching to test mode
       if (this.currentMode === 'practice') {
         await this.enterFullscreen();
       }
     } else {
-      if (btnStudy) btnStudy.className = 'px-2.5 py-1 rounded-md bg-white font-medium text-zinc-900 shadow-xs transition';
-      if (btnTest) btnTest.className = 'px-2.5 py-1 rounded-md text-zinc-500 hover:text-zinc-900 transition';
+      if (btnStudy) btnStudy.className = activeClasses;
+      if (btnTest) btnTest.className = inactiveClasses;
       if (badge) badge.textContent = 'Study Mode';
       if (subtitle) subtitle.textContent = 'Instant answers & explanation';
+
+      // Show second row in study mode
+      if (row2) row2.classList.remove('hidden');
+
+      // Enable chapter browsing via title click in study mode
+      if (titleEl) {
+        titleEl.classList.add('cursor-pointer', 'hover:text-zinc-600');
+        titleEl.classList.remove('cursor-default');
+        titleEl.title = 'Click to browse all chapters';
+      }
+      if (chevronEl) chevronEl.classList.remove('hidden');
 
       // Study mode: dismiss pause modal if open and unpause!
       if (this.isTestPaused) {
@@ -1872,13 +2027,11 @@ class AptiPrepApp {
   }
 
   switchPracticeChapter(newChap) {
-    if (this.practice.modeType === 'test' && Object.keys(this.practice.userAnswers).length > 0) {
-      const ok = confirm('Switching chapters will discard your current chapter test progress. Continue?');
-      if (!ok) {
-        const dd = document.getElementById('practice-chapter-dropdown');
-        if (dd) dd.value = this.practice.chapter;
-        return;
-      }
+    if (this.practice.modeType === 'test') {
+      alert('You cannot change chapter during an active chapter test. Please submit the test or switch to Study mode.');
+      const dd = document.getElementById('practice-chapter-dropdown');
+      if (dd) dd.value = this.practice.chapter;
+      return;
     }
     const curFilter = this.practiceSubjectFilter || document.getElementById('practice-subject-dropdown')?.value || 'all';
     this.startPractice(newChap, curFilter);
@@ -3295,8 +3448,7 @@ class AptiPrepApp {
     this.renderPracticeQuestion();
     this.updatePracticePalette();
 
-    const titleEl = document.getElementById('practice-chapter-title');
-    if (titleEl) titleEl.textContent = `⚡ Mistakes Drill (${reattemptQuestions.length} Questions)`;
+    this.setPracticeChapterTitle(`⚡ Mistakes Drill (${reattemptQuestions.length} Questions)`);
   }
 
   renderChapterBreakdown(breakdown) {
