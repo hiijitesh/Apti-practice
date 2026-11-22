@@ -17,6 +17,9 @@ class AptiPrepApp {
     this.allQuestions = [];
     this.rkQuestions = [];
     this.rkChapters = [];
+    this.isTypeWiseEnabled = (localStorage.getItem('apti_typewise_enabled') === 'true');
+    this.currentPracticeType = 'all';
+    this.unfilteredPracticeQuestions = [];
     this.currentMode = 'dashboard';
     this.zenMode = false;
     this.isStaticMode = false;
@@ -47,7 +50,9 @@ class AptiPrepApp {
       questions: [],
       currentIndex: 0,
       userAnswers: {}, // { [qIndex]: number (selected option index) }
+      answersById: {}, // { [questionId]: number }
       reviewFlags: {}, // { [qIndex]: boolean }
+      reviewById: {}, // { [questionId]: boolean }
       modeType: 'study', // Default: 'study' (instant feedback) or 'test' (show answers at end)
       drawerOpen: false,
       startTime: null
@@ -2393,10 +2398,14 @@ class AptiPrepApp {
 
   initPracticeState(chapterName, questions, preferredSubjectFilter = null) {
     this.practice.chapter = chapterName;
-    this.practice.questions = questions;
+    this.unfilteredPracticeQuestions = [...questions];
+    this.practice.questions = [...questions];
     this.practice.currentIndex = 0;
     this.practice.userAnswers = {};
+    this.practice.answersById = {};
     this.practice.reviewFlags = {};
+    this.practice.reviewById = {};
+    this.currentPracticeType = 'all';
     this.practice.startTime = Date.now();
 
     this.setPracticeChapterTitle(chapterName);
@@ -2410,58 +2419,57 @@ class AptiPrepApp {
       this.practiceSubjectFilter = 'rk_ranjan';
       if (subjSelect) subjSelect.value = 'rk_ranjan';
       this.populateChapterDropdown('rk_ranjan');
-      const dd = document.getElementById('practice-chapter-dropdown');
-      if (dd) dd.value = chapterName;
-
-      this.practice.modeType = this.practice.modeType || 'study';
-      this.setPracticeModeType(this.practice.modeType);
-      this.switchView('practice');
-      this.renderPracticeQuestion();
-      this.renderPracticePalette();
-      this.saveActivePracticeSession();
-      return;
-    }
-
-    if (preferredSubjectFilter) {
-      this.practiceSubjectFilter = preferredSubjectFilter;
-    }
-
-    if (subjSelect) {
-      const activeFilter = this.practiceSubjectFilter || 'all';
-      let keepFilter = false;
-      if (activeFilter === 'all') {
-        keepFilter = true;
-      } else if (activeFilter === 'aptitude' && (chInfo?.subject || '').includes('Aptitude')) {
-        keepFilter = true;
-      } else if (activeFilter === 'science' && (chInfo?.subject || '').includes('Science')) {
-        keepFilter = true;
-      } else if (activeFilter === 'biology' && (chInfo?.subSubject || '').toLowerCase() === 'biology') {
-        keepFilter = true;
-      } else if (activeFilter === 'chemistry' && (chInfo?.subSubject || '').toLowerCase() === 'chemistry') {
-        keepFilter = true;
-      } else if (activeFilter === 'physics' && (chInfo?.subSubject || '').toLowerCase() === 'physics') {
-        keepFilter = true;
+    } else {
+      if (preferredSubjectFilter) {
+        this.practiceSubjectFilter = preferredSubjectFilter;
       }
 
-      if (keepFilter) {
-        subjSelect.value = activeFilter;
-        this.populateChapterDropdown(activeFilter);
-      } else if (chInfo) {
-        const newFilter = (chInfo.subject || '').includes('Science') ? 'science' : 'aptitude';
-        this.practiceSubjectFilter = newFilter;
-        subjSelect.value = newFilter;
-        this.populateChapterDropdown(newFilter);
+      if (subjSelect) {
+        const activeFilter = this.practiceSubjectFilter || 'all';
+        let keepFilter = false;
+        if (activeFilter === 'all') {
+          keepFilter = true;
+        } else if (activeFilter === 'aptitude' && (chInfo?.subject || '').includes('Aptitude')) {
+          keepFilter = true;
+        } else if (activeFilter === 'science' && (chInfo?.subject || '').includes('Science')) {
+          keepFilter = true;
+        } else if (activeFilter === 'biology' && (chInfo?.subSubject || '').toLowerCase() === 'biology') {
+          keepFilter = true;
+        } else if (activeFilter === 'chemistry' && (chInfo?.subSubject || '').toLowerCase() === 'chemistry') {
+          keepFilter = true;
+        } else if (activeFilter === 'physics' && (chInfo?.subSubject || '').toLowerCase() === 'physics') {
+          keepFilter = true;
+        }
+
+        if (keepFilter) {
+          subjSelect.value = activeFilter;
+          this.populateChapterDropdown(activeFilter);
+        } else if (chInfo) {
+          const newFilter = (chInfo.subject || '').includes('Science') ? 'science' : 'aptitude';
+          this.practiceSubjectFilter = newFilter;
+          subjSelect.value = newFilter;
+          this.populateChapterDropdown(newFilter);
+        } else {
+          this.practiceSubjectFilter = 'all';
+          subjSelect.value = 'all';
+          this.populateChapterDropdown('all');
+        }
       } else {
-        this.practiceSubjectFilter = 'all';
-        subjSelect.value = 'all';
         this.populateChapterDropdown('all');
       }
-    } else {
-      this.populateChapterDropdown('all');
     }
 
     const dd = document.getElementById('practice-chapter-dropdown');
     if (dd) dd.value = chapterName;
+
+    // Type-wise setup
+    this.updateTypeWiseUI();
+    if (this.isTypeWiseEnabled) {
+      this.renderPracticeTypeBar();
+    } else {
+      const bar = document.getElementById('practice-type-bar');
+      if (bar) bar.classList.add('hidden');
+    }
 
     this.practice.modeType = this.practice.modeType || 'study';
     this.setPracticeModeType(this.practice.modeType);
@@ -2469,6 +2477,140 @@ class AptiPrepApp {
     this.renderPracticeQuestion();
     this.renderPracticePalette();
     this.saveActivePracticeSession();
+  }
+
+  // ==========================================
+  // TYPE-WISE QUESTION GROUPING & FILTERING
+  // ==========================================
+
+  toggleTypeWisePractice() {
+    this.isTypeWiseEnabled = !this.isTypeWiseEnabled;
+    try {
+      localStorage.setItem('apti_typewise_enabled', this.isTypeWiseEnabled ? 'true' : 'false');
+    } catch (e) {}
+
+    this.updateTypeWiseUI();
+
+    if (this.isTypeWiseEnabled) {
+      this.renderPracticeTypeBar();
+    } else {
+      // Revert to full chapter questions
+      this.currentPracticeType = 'all';
+      const bar = document.getElementById('practice-type-bar');
+      if (bar) bar.classList.add('hidden');
+
+      if (this.unfilteredPracticeQuestions && this.unfilteredPracticeQuestions.length > 0) {
+        this.practice.questions = [...this.unfilteredPracticeQuestions];
+        this.syncUserAnswersToCurrentQuestions();
+      }
+
+      this.renderPracticeQuestion();
+      this.renderPracticePalette();
+    }
+  }
+
+  updateTypeWiseUI() {
+    const btn = document.getElementById('practice-btn-typewise');
+    const dot = document.getElementById('practice-typewise-dot');
+    const txt = document.getElementById('practice-typewise-text');
+    if (!btn || !txt) return;
+
+    if (this.isTypeWiseEnabled) {
+      btn.className = 'px-2 sm:px-2.5 py-1.5 rounded-lg border border-violet-300 bg-violet-50 text-violet-800 font-medium text-xs transition flex items-center gap-1.5 shadow-2xs shrink-0';
+      if (dot) dot.className = 'w-2 h-2 rounded-full bg-violet-600 animate-pulse';
+      txt.textContent = 'Type-wise: ON';
+    } else {
+      btn.className = 'px-2 sm:px-2.5 py-1.5 rounded-lg border border-zinc-200 bg-white hover:bg-zinc-100 text-zinc-700 font-medium text-xs transition flex items-center gap-1.5 shadow-2xs shrink-0';
+      if (dot) dot.className = 'w-2 h-2 rounded-full bg-zinc-300';
+      txt.textContent = 'Type-wise: OFF';
+    }
+  }
+
+  renderPracticeTypeBar() {
+    const bar = document.getElementById('practice-type-bar');
+    if (!bar) return;
+
+    if (!this.isTypeWiseEnabled) {
+      bar.classList.add('hidden');
+      return;
+    }
+
+    const allQuestions = this.unfilteredPracticeQuestions || this.practice.questions || [];
+    if (allQuestions.length === 0) {
+      bar.classList.add('hidden');
+      return;
+    }
+
+    // Collect type distribution preserving natural sequence
+    const typeOrder = [];
+    const typeCount = {};
+    allQuestions.forEach(q => {
+      const t = q.type || q.sheetType || 'Standard';
+      if (!typeCount[t]) {
+        typeCount[t] = 0;
+        typeOrder.push(t);
+      }
+      typeCount[t]++;
+    });
+
+    if (typeOrder.length <= 1) {
+      bar.classList.remove('hidden');
+      bar.innerHTML = `<span class="text-[11px] text-zinc-500 font-medium italic py-0.5">Chapter has single standardized question set (${allQuestions.length} Qs).</span>`;
+      return;
+    }
+
+    bar.classList.remove('hidden');
+
+    const isAllActive = (this.currentPracticeType === 'all');
+    const activeClass = 'px-2.5 py-1 rounded-md text-xs font-semibold bg-violet-600 text-white shadow-xs shrink-0 transition whitespace-nowrap cursor-pointer';
+    const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300 shrink-0 transition whitespace-nowrap cursor-pointer';
+
+    let html = `
+      <button onclick="app.selectPracticeType('all')" class="${isAllActive ? activeClass : inactiveClass}">
+        All Types <span class="opacity-80 text-[10px] ml-0.5 font-mono">(${allQuestions.length})</span>
+      </button>
+    `;
+
+    typeOrder.forEach(t => {
+      const isActive = (this.currentPracticeType === t);
+      html += `
+        <button onclick="app.selectPracticeType('${t.replace(/'/g, "\\'")}')" class="${isActive ? activeClass : inactiveClass}">
+          ${t} <span class="opacity-80 text-[10px] ml-0.5 font-mono">(${typeCount[t]})</span>
+        </button>
+      `;
+    });
+
+    bar.innerHTML = html;
+  }
+
+  selectPracticeType(type) {
+    this.currentPracticeType = type;
+    const allQuestions = this.unfilteredPracticeQuestions || [];
+
+    if (type === 'all') {
+      this.practice.questions = [...allQuestions];
+    } else {
+      this.practice.questions = allQuestions.filter(q => (q.type || q.sheetType || 'Standard') === type);
+    }
+
+    this.practice.currentIndex = 0;
+    this.syncUserAnswersToCurrentQuestions();
+    this.renderPracticeTypeBar();
+    this.renderPracticeQuestion();
+    this.renderPracticePalette();
+  }
+
+  syncUserAnswersToCurrentQuestions() {
+    this.practice.userAnswers = {};
+    this.practice.reviewFlags = {};
+    (this.practice.questions || []).forEach((q, idx) => {
+      if (this.practice.answersById && this.practice.answersById[q.id] !== undefined) {
+        this.practice.userAnswers[idx] = this.practice.answersById[q.id];
+      }
+      if (this.practice.reviewById && this.practice.reviewById[q.id]) {
+        this.practice.reviewFlags[idx] = true;
+      }
+    });
   }
 
   async setPracticeModeType(type) {
@@ -2559,7 +2701,29 @@ class AptiPrepApp {
 
     document.getElementById('practice-q-number').textContent = `Q${current}`;
     document.getElementById('practice-q-chapter').textContent = chapDisplay;
-    document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}`;
+
+    // Render Question Type Badge
+    const typeBadge = document.getElementById('practice-q-type-badge');
+    if (typeBadge) {
+      const qType = q.type || q.sheetType;
+      if (qType) {
+        typeBadge.textContent = qType;
+        typeBadge.title = `Question Type: ${qType}`;
+        typeBadge.classList.remove('hidden');
+        if (qType.includes('Pro Level')) {
+          typeBadge.className = 'text-[10px] font-bold px-2 py-0.5 rounded tracking-wide bg-amber-50 text-amber-800 border border-amber-200/80 truncate max-w-[240px]';
+        } else if (qType.includes('Type')) {
+          typeBadge.className = 'text-[10px] font-bold px-2 py-0.5 rounded tracking-wide bg-indigo-50 text-indigo-700 border border-indigo-200/80 truncate max-w-[240px]';
+        } else {
+          typeBadge.className = 'text-[10px] font-bold px-2 py-0.5 rounded tracking-wide bg-violet-50 text-violet-700 border border-violet-200/80 truncate max-w-[240px]';
+        }
+      } else {
+        typeBadge.classList.add('hidden');
+      }
+    }
+
+    const typeSuffix = (this.isTypeWiseEnabled && this.currentPracticeType !== 'all') ? ` • ${this.currentPracticeType}` : '';
+    document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}${typeSuffix}`;
 
     const fillPercent = (current / total) * 100;
     document.getElementById('practice-progress-fill').style.width = `${fillPercent}%`;
@@ -2680,7 +2844,12 @@ class AptiPrepApp {
 
   selectPracticeOption(idx) {
     if (this._suppressOptionClick) return;
+    const q = this.practice.questions[this.practice.currentIndex];
     this.practice.userAnswers[this.practice.currentIndex] = idx;
+    if (q) {
+      if (!this.practice.answersById) this.practice.answersById = {};
+      this.practice.answersById[q.id] = idx;
+    }
     this.saveActivePracticeSession();
     this.renderPracticeQuestion();
     if (this.practice.modeType === 'study' || this.practice.isStudyMode) {
@@ -2694,15 +2863,24 @@ class AptiPrepApp {
   }
 
   clearPracticeResponse() {
+    const q = this.practice.questions[this.practice.currentIndex];
     delete this.practice.userAnswers[this.practice.currentIndex];
+    if (q && this.practice.answersById) {
+      delete this.practice.answersById[q.id];
+    }
     this.saveActivePracticeSession();
     this.renderPracticeQuestion();
   }
 
   togglePracticeReview(andNext = false) {
     const idx = this.practice.currentIndex;
+    const q = this.practice.questions[idx];
     if (!this.practice.reviewFlags) this.practice.reviewFlags = {};
+    if (!this.practice.reviewById) this.practice.reviewById = {};
     this.practice.reviewFlags[idx] = !this.practice.reviewFlags[idx];
+    if (q) {
+      this.practice.reviewById[q.id] = this.practice.reviewFlags[idx];
+    }
     if (andNext && this.practice.currentIndex < this.practice.questions.length - 1) {
       this.practice.currentIndex++;
     }

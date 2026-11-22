@@ -61,6 +61,122 @@ def clean_option(opt):
     opt = re.sub(r'^\(?[a-dA-D]\)?[.:\s]+', '', opt).strip()
     return opt
 
+PNL_RANGES = [
+    (1, 24, 'Type 01: Basic Profit & Loss'),
+    (25, 31, 'Type 02: CP & SP Ratio'),
+    (32, 34, 'Type 03: Equal Selling Price'),
+    (35, 39, 'Type 04: Articles based (Buying & Selling)'),
+    (40, 47, 'Type 05: Dishonest Dealer & False Weight'),
+    (48, 53, 'Type 06: Successive Transactions'),
+    (54, 65, 'Type 07: Price & Quantity Variation'),
+    (66, 77, 'Type 08: Overheads & Repairing Costs'),
+    (78, 89, 'Type 09: Value & Percent Equivalence'),
+    (90, 92, 'Type 10: Breakage / Depreciation'),
+    (93, 104, 'Type 11: True Value & Profit Analysis'),
+    (105, 111, 'Type 12: Proportional Division of Goods'),
+    (112, 117, 'Type 13: Discount & Marked Price Relation'),
+    (118, 137, 'Type 14: Advanced Exam Questions'),
+    (138, 155, 'Type 15: Miscellaneous Applications')
+]
+
+DISCOUNT_RANGES = [
+    (1, 7, 'Type 01: Single & Equivalent Discount'),
+    (8, 10, 'Type 02: Successive Discounts'),
+    (11, 26, 'Type 03: Marked Price & Cost Price Ratio'),
+    (27, 46, 'Type 04: Buy X Get Y Free & Schemes'),
+    (47, 55, 'Type 05: Profit after Discount'),
+    (56, 64, 'Type 06: Successive Discount on Cash/Credit'),
+    (65, 80, 'Type 07: Advanced Marked Price & Profit')
+]
+
+HD_RANGES = [
+    (1, 13, 'Type 01: Single Angle of Elevation'),
+    (14, 16, 'Type 02: Angle of Depression'),
+    (17, 18, 'Type 03: Complementary Angles'),
+    (19, 26, 'Type 04: Two Objects from Top/Bottom'),
+    (27, 29, 'Type 05: Moving Observer / Speed & Distance'),
+    (30, 34, 'Type 06: Balloon, Cloud & Water Reflection'),
+    (35, 36, 'Type 07: Broken Tree / Pole'),
+    (37, 40, 'Type 08: Two Towers / Flagstaff on Building'),
+    (41, 50, 'Type 09: Advanced 3D & Miscellaneous')
+]
+
+def assign_question_type(q):
+    chap = q.get('chapter', '').strip()
+    sheet_file = q.get('sheetFile', '')
+    sheet_type = q.get('sheetType', '')
+    sf_clean = sheet_file.replace('.pdf', '').replace(' [English Only]', '').strip()
+
+    # Extract question number from ID if possible (e.g. q025 -> 25)
+    m_qid = re.search(r'_q(\d+)$', q.get('id', ''))
+    qn = int(m_qid.group(1)) if m_qid else None
+
+    if chap == 'Profit & Loss' and 'classroom' in sf_clean.lower() and qn is not None:
+        for start, end, label in PNL_RANGES:
+            if start <= qn <= end:
+                return label
+        return 'ClassRoom'
+
+    if chap == 'Discount' and 'classroom' in sf_clean.lower() and qn is not None:
+        for start, end, label in DISCOUNT_RANGES:
+            if start <= qn <= end:
+                return label
+        return 'ClassRoom'
+
+    if chap == 'Height & Distance' and 'classroom' in sf_clean.lower() and 'mains' not in sf_clean.lower() and qn is not None:
+        for start, end, label in HD_RANGES:
+            if start <= qn <= end:
+                return label
+        return 'ClassRoom'
+
+    # Check for known sub-topics
+    # Geometry sub-topics
+    if 'centers of triangle' in sf_clean.lower(): return 'Centers of Triangle'
+    if 'types of triangle' in sf_clean.lower(): return 'Types of Triangle'
+    if 'fundamental properties of triangle' in sf_clean.lower(): return 'Triangle Properties'
+    if 'all triangle pro level' in sf_clean.lower(): return 'Triangle (Pro Level)'
+    if 'circle' in sf_clean.lower(): return 'Circle (Pro Level)' if 'pro level' in sf_clean.lower() else 'Circle'
+    if 'quadrilateral' in sf_clean.lower(): return 'Quadrilateral (Pro Level)' if 'pro level' in sf_clean.lower() else 'Quadrilateral'
+    if 'polygon' in sf_clean.lower(): return 'Polygon (Pro Level)' if 'pro level' in sf_clean.lower() else 'Polygon'
+    if 'similarity & congruency' in sf_clean.lower(): return 'Similarity & Congruency'
+    if 'line & angles' in sf_clean.lower(): return 'Line & Angles'
+
+    # Number System sub-topics
+    if 'classification of numbers' in sf_clean.lower(): return 'Classification of Numbers'
+    if 'divisivility' in sf_clean.lower() or 'divisibility' in sf_clean.lower(): return 'Divisibility'
+    if 'unit digit' in sf_clean.lower(): return 'Unit Digit'
+    if 'remainder' in sf_clean.lower(): return 'Remainder Theorem'
+    if 'factor' in sf_clean.lower(): return 'Factors'
+    if 'no. of zeros' in sf_clean.lower(): return 'Number of Zeros'
+    if 'number system pro level' in sf_clean.lower(): return 'Pro Level'
+
+    # Compound Interest sub-topics
+    if 'installment' in sf_clean.lower(): return 'Installment'
+
+    # AP & GP
+    if 'geometric progression' in sf_clean.lower(): return 'Geometric Progression (GP)'
+    if 'arithmetic progression' in sf_clean.lower(): return 'Arithmetic Progression (AP)'
+
+    # Mixture & Alligation
+    if 'alligation' in sf_clean.lower(): return 'Alligation (Pro Level)' if 'pro level' in sf_clean.lower() else 'Alligation'
+    if 'mixture' in sf_clean.lower(): return 'Mixture (Pro Level)' if 'pro level' in sf_clean.lower() else 'Mixture'
+
+    # Ratio & Proportion
+    if 'proportion' in sf_clean.lower(): return 'Proportion'
+    if 'ratio' in sf_clean.lower() and 'proportion' not in sf_clean.lower(): return 'Ratio'
+
+    # Sheets with Sheet-01, Sheet-02, Sheet-03
+    m_sh = re.search(r'Sheet\s*[-–—]?\s*0?(\d+)', sf_clean, re.I)
+    if m_sh:
+        sh_num = m_sh.group(1)
+        if 'pro level' in sf_clean.lower():
+            return f'Pro Level (Sheet {sh_num})'
+        return f'ClassRoom (Sheet {sh_num})'
+
+    if sheet_type == 'Pro Level':
+        return 'Pro Level'
+    return 'ClassRoom'
+
 def main():
     if not os.path.exists(MASTER_FILE):
         print(f"Error: {MASTER_FILE} does not exist.")
@@ -119,6 +235,7 @@ def main():
             'subSubject': 'RK Ranjan Math',
             'faculty': 'RK Ranjan',
             'chapter': q['chapter'].strip(),
+            'type': assign_question_type(q),
             'sheetType': q.get('sheetType', 'ClassRoom'),
             'sheetFile': q.get('sheetFile', ''),
             'question': stem,
