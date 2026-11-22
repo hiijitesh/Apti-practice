@@ -47,7 +47,7 @@ class AptiPrepApp {
       userAnswers: {}, // { [qIndex]: number (selected option index) }
       reviewFlags: {}, // { [qIndex]: boolean }
       modeType: 'study', // Default: 'study' (instant feedback) or 'test' (show answers at end)
-      drawerOpen: true,
+      drawerOpen: false,
       startTime: null
     };
 
@@ -1134,25 +1134,38 @@ class AptiPrepApp {
   setupSwipeNavigation() {
     let touchStartX = 0;
     let touchStartY = 0;
+    let touchCurrentX = 0;
+    let touchCurrentY = 0;
     let touchStartTime = 0;
+    let isTouchActive = false;
 
     const handleTouchStart = (e) => {
-      if (!e.touches || e.touches.length !== 1) return;
+      const touch = (e.touches && e.touches[0]) || (e.changedTouches && e.changedTouches[0]) || e;
+      if (!touch || typeof touch.clientX !== 'number') return;
+      if (this.currentMode !== 'practice' && this.currentMode !== 'mock') return;
+
       const target = e.target;
 
       // Ignore interactive controls that handle their own touches
-      if (target.closest('select, input, textarea, button, a, [role="button"]')) {
+      if (target.closest && target.closest('select, input, textarea, button, a, [role="button"], [role="slider"]')) {
         return;
       }
 
-      // Ignore if near left edge (margin for iOS / browser edge-swipe back navigation)
-      if (e.touches[0].clientX < 22) {
+      // Ignore if near left edge (margin for iOS / Android edge swipe back navigation)
+      if (touch.clientX < 16) {
         return;
       }
 
-      // Ignore if a modal or off-canvas drawer is open
-      if (this.practice?.drawerOpen || document.querySelector('.palette-sheet-drawer:not(.hidden)')) {
-        return;
+      // Ignore if mobile palette drawer is open
+      if (window.innerWidth < 1024) {
+        const bdPrac = document.getElementById('practice-palette-backdrop');
+        const bdMock = document.getElementById('mock-palette-backdrop');
+        if (this.currentMode === 'practice' && bdPrac && !bdPrac.classList.contains('hidden')) {
+          return;
+        }
+        if (this.currentMode === 'mock' && bdMock && !bdMock.classList.contains('hidden')) {
+          return;
+        }
       }
 
       // Check if target is inside a horizontally scrollable element
@@ -1160,35 +1173,61 @@ class AptiPrepApp {
       while (el && el !== document.body) {
         if (el.scrollWidth > el.clientWidth) {
           const style = window.getComputedStyle(el);
-          if (style.overflowX === 'auto' || style.overflowX === 'scroll') {
+          if (style && (style.overflowX === 'auto' || style.overflowX === 'scroll')) {
             return;
           }
         }
         el = el.parentElement;
       }
 
-      touchStartX = e.touches[0].clientX;
-      touchStartY = e.touches[0].clientY;
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+      touchCurrentX = touchStartX;
+      touchCurrentY = touchStartY;
       touchStartTime = Date.now();
+      isTouchActive = true;
+    };
+
+    const handleTouchMove = (e) => {
+      if (!isTouchActive) return;
+      const touch = (e.touches && e.touches[0]) || (e.changedTouches && e.changedTouches[0]) || e;
+      if (touch && typeof touch.clientX === 'number') {
+        touchCurrentX = touch.clientX;
+        touchCurrentY = touch.clientY;
+      }
     };
 
     const handleTouchEnd = (e) => {
-      if (!touchStartTime || !e.changedTouches || e.changedTouches.length === 0) return;
+      if (!isTouchActive || !touchStartTime) {
+        isTouchActive = false;
+        return;
+      }
 
-      const diffX = e.changedTouches[0].clientX - touchStartX;
-      const diffY = e.changedTouches[0].clientY - touchStartY;
+      const touch = (e.changedTouches && e.changedTouches[0]) || (e.touches && e.touches[0]) || e;
+      const endX = (touch && typeof touch.clientX === 'number') ? touch.clientX : touchCurrentX;
+      const endY = (touch && typeof touch.clientY === 'number') ? touch.clientY : touchCurrentY;
+
+      const diffX = endX - touchStartX;
+      const diffY = endY - touchStartY;
       const elapsed = Date.now() - touchStartTime;
 
+      isTouchActive = false;
       touchStartX = 0;
       touchStartY = 0;
+      touchCurrentX = 0;
+      touchCurrentY = 0;
       touchStartTime = 0;
 
       // Swipe criteria
-      const minDistance = 45;
-      if (elapsed > 700) return; // Must be under 700ms gesture
+      const minDistance = 30;
+      if (elapsed > 1000) return; // Must be under 1000ms gesture
       if (Math.abs(diffX) < minDistance) return; // Must meet min distance
-      if (Math.abs(diffX) < Math.abs(diffY) * 1.3) return; // Must be predominantly horizontal
+      if (Math.abs(diffX) < Math.abs(diffY)) return; // Must be predominantly horizontal
       if (window.getSelection && window.getSelection().toString().length > 0) return; // Ignore text selection
+
+      // Temporarily suppress option click so swipe across option card doesn't accidentally trigger selection
+      this._suppressOptionClick = true;
+      setTimeout(() => { this._suppressOptionClick = false; }, 350);
 
       if (this.currentMode === 'practice') {
         if (diffX < 0) {
@@ -1217,17 +1256,26 @@ class AptiPrepApp {
       }
     };
 
-    const practiceView = document.getElementById('view-practice');
-    const mockView = document.getElementById('view-mock');
+    const handleTouchCancel = () => {
+      isTouchActive = false;
+      touchStartX = 0;
+      touchStartY = 0;
+      touchCurrentX = 0;
+      touchCurrentY = 0;
+      touchStartTime = 0;
+    };
 
-    if (practiceView) {
-      practiceView.addEventListener('touchstart', handleTouchStart, { passive: true });
-      practiceView.addEventListener('touchend', handleTouchEnd, { passive: true });
-    }
-    if (mockView) {
-      mockView.addEventListener('touchstart', handleTouchStart, { passive: true });
-      mockView.addEventListener('touchend', handleTouchEnd, { passive: true });
-    }
+    const attachListeners = (el) => {
+      if (!el) return;
+      el.addEventListener('touchstart', handleTouchStart, { passive: true, capture: true });
+      el.addEventListener('touchmove', handleTouchMove, { passive: true, capture: true });
+      el.addEventListener('touchend', handleTouchEnd, { passive: true, capture: true });
+      el.addEventListener('touchcancel', handleTouchCancel, { passive: true, capture: true });
+    };
+
+    attachListeners(document);
+    attachListeners(document.getElementById('view-practice'));
+    attachListeners(document.getElementById('view-mock'));
   }
 
   toggleZenMode(forcedState) {
@@ -2434,6 +2482,7 @@ class AptiPrepApp {
   }
 
   selectPracticeOption(idx) {
+    if (this._suppressOptionClick) return;
     this.practice.userAnswers[this.practice.currentIndex] = idx;
     this.saveActivePracticeSession();
     this.renderPracticeQuestion();
@@ -3101,6 +3150,7 @@ class AptiPrepApp {
   }
 
   selectMockOption(idx) {
+    if (this._suppressOptionClick) return;
     const q = this.mock.questions[this.mock.currentIndex];
     if (!q) return;
     this.mock.userAnswers[q.id] = idx;

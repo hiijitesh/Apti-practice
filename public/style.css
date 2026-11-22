@@ -609,6 +609,7 @@ body.cbt-portal-active.in-mock-portal #view-mock {
   height: 100vh !important;
   max-height: 100vh !important;
   overflow: hidden !important;
+  touch-action: pan-y;
 }
 
 body.cbt-portal-active #view-practice {
@@ -616,6 +617,7 @@ body.cbt-portal-active #view-practice {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem 1.25rem 6.5rem 1.25rem;
+  touch-action: pan-y;
 }
 
 @media (min-width: 640px) {
