@@ -1,12 +1,15 @@
 const fs = require('fs');
-const { QUESTIONS_FILE } = require('../config');
+const { QUESTIONS_FILE, RK_RANJAN_FILE } = require('../config');
 
 class QuestionRepository {
-  constructor(filePath = QUESTIONS_FILE) {
+  constructor(filePath = QUESTIONS_FILE, rkFilePath = RK_RANJAN_FILE) {
     this.filePath = filePath;
+    this.rkFilePath = rkFilePath;
     this._questionsCache = null;
     this._chaptersCache = null;
     this._questionsMap = null;
+    this._rkQuestionsCache = null;
+    this._rkChaptersCache = null;
   }
 
   /**
@@ -90,14 +93,61 @@ class QuestionRepository {
   /**
    * Filter questions by chapter name (case-insensitive).
    * @param {string} chapterName
+   * @param {string} source
    * @returns {Array}
    */
-  getByChapter(chapterName) {
+  getByChapter(chapterName, source = null) {
+    if (source === 'rk_ranjan') {
+      const rkAll = this.getRkQuestions();
+      if (!chapterName) return rkAll;
+      const q = chapterName.trim().toLowerCase();
+      return rkAll.filter(item => item.chapter && item.chapter.toLowerCase() === q);
+    }
+
     if (!chapterName) return this.getAll();
     const query = chapterName.trim().toLowerCase();
-    return this.getAll().filter(
+    const coreMatches = this.getAll().filter(
       q => q.chapter && q.chapter.toLowerCase() === query
     );
+    if (coreMatches.length > 0) return coreMatches;
+
+    // Fallback to RK Ranjan questions if chapter is an RK chapter
+    const rkMatches = this.getRkQuestions().filter(
+      q => q.chapter && q.chapter.toLowerCase() === query
+    );
+    return rkMatches.length > 0 ? rkMatches : coreMatches;
+  }
+
+  /**
+   * Returns all purified RK Ranjan questions.
+   * @returns {Array}
+   */
+  getRkQuestions() {
+    if (this._rkQuestionsCache) return this._rkQuestionsCache;
+    if (!fs.existsSync(this.rkFilePath)) {
+      this._rkQuestionsCache = [];
+      return [];
+    }
+    try {
+      const raw = fs.readFileSync(this.rkFilePath, 'utf8');
+      const parsed = JSON.parse(raw);
+      this._rkQuestionsCache = Array.isArray(parsed) ? parsed : [];
+    } catch (e) {
+      console.warn('QuestionRepository: Error loading RK questions:', e);
+      this._rkQuestionsCache = [];
+    }
+    return this._rkQuestionsCache;
+  }
+
+  /**
+   * Returns precomputed RK Ranjan chapter summaries.
+   * @returns {Array}
+   */
+  getRkChapters() {
+    if (this._rkChaptersCache) return this._rkChaptersCache;
+    const rkQs = this.getRkQuestions();
+    this._rkChaptersCache = this._buildChapterSummaries(rkQs);
+    return this._rkChaptersCache;
   }
 
   _buildChapterSummaries(questions) {

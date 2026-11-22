@@ -292,7 +292,10 @@
               All <span id="badge-count-all" class="opacity-70 text-[11px]">(52)</span>
             </button>
             <button onclick="app.setSubjectFilter('aptitude')" id="filter-btn-aptitude" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300">
-              Aptitude <span id="badge-count-aptitude" class="opacity-70 text-[11px]">(17)</span>
+              Dixit Apti <span id="badge-count-aptitude" class="opacity-70 text-[11px]">(17)</span>
+            </button>
+            <button onclick="app.setSubjectFilter('rk_ranjan')" id="filter-btn-rk-ranjan" class="px-2.5 py-1 rounded-md text-xs font-semibold transition bg-white border border-zinc-200 text-violet-700 hover:text-violet-900 hover:border-violet-300">
+              🔥 RK Ranjan Math <span id="badge-count-rk-ranjan" class="opacity-80 text-[11px]">(33)</span>
             </button>
             <button onclick="app.setSubjectFilter('science')" id="filter-btn-science" class="px-2.5 py-1 rounded-md text-xs font-medium transition bg-white border border-zinc-200 text-zinc-600 hover:text-zinc-900 hover:border-zinc-300">
               General Science <span id="badge-count-science" class="opacity-70 text-[11px]">(35)</span>
@@ -404,9 +407,10 @@
         <div id="practice-selectors-row" class="flex items-center justify-between gap-1.5 sm:gap-2 text-xs">
           <div class="flex items-center gap-1.5 flex-1 min-w-0">
             <!-- Subject Select Dropdown in Chapter Test (Desktop/tablet only) -->
-            <select id="practice-subject-dropdown" onchange="app.filterPracticeChaptersBySubject(this.value)" class="hidden sm:inline-block text-xs border border-zinc-200 rounded-lg px-2 py-1.5 bg-zinc-100 text-zinc-900 font-semibold focus:outline-none focus:border-zinc-400 shrink-0 max-w-[125px]">
-              <option value="all">All (51)</option>
-              <option value="aptitude">Aptitude (17)</option>
+            <select id="practice-subject-dropdown" onchange="app.filterPracticeChaptersBySubject(this.value)" class="hidden sm:inline-block text-xs border border-zinc-200 rounded-lg px-2 py-1.5 bg-zinc-100 text-zinc-900 font-semibold focus:outline-none focus:border-zinc-400 shrink-0 max-w-[135px]">
+              <option value="all">All (52)</option>
+              <option value="aptitude">Dixit Apti (17)</option>
+              <option value="rk_ranjan">🔥 RK Ranjan (33)</option>
               <option value="science">Science (34)</option>
               <option value="biology">&nbsp;&nbsp;↳ Biology</option>
               <option value="chemistry">&nbsp;&nbsp;↳ Chem</option>
@@ -1184,13 +1188,16 @@
       <!-- Subject Switcher Tabs -->
       <div class="flex items-center gap-1.5 bg-zinc-100 p-1 rounded-lg border border-zinc-200 text-xs">
         <button onclick="app.setModalSubjectTab('aptitude')" id="modal-tab-aptitude" class="flex-1 py-1.5 rounded-md font-semibold transition bg-white text-zinc-900 shadow-xs text-center">
-          Quantitative Aptitude (17)
+          Dixit Apti (17)
+        </button>
+        <button onclick="app.setModalSubjectTab('rk_ranjan')" id="modal-tab-rk-ranjan" class="flex-1 py-1.5 rounded-md font-medium text-violet-700 hover:text-violet-900 transition text-center">
+          🔥 RK Ranjan (33)
         </button>
         <button onclick="app.setModalSubjectTab('science')" id="modal-tab-science" class="flex-1 py-1.5 rounded-md font-medium text-zinc-600 hover:text-zinc-900 transition text-center">
-          General Science (35)
+          Science (35)
         </button>
         <button onclick="app.setModalSubjectTab('top300')" id="modal-tab-top300" class="flex-1 py-1.5 rounded-md font-medium text-amber-800 hover:text-amber-900 transition text-center">
-          🔥 TOP 300 (170)
+          TOP 300
         </button>
       </div>
 

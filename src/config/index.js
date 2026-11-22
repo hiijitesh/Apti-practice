@@ -10,6 +10,7 @@ module.exports = {
   PUBLIC_DIR,
   DATA_DIR,
   QUESTIONS_FILE: path.join(DATA_DIR, 'questions.json'),
+  RK_RANJAN_FILE: path.join(DATA_DIR, 'rk_ranjan_questions.json'),
   ATTEMPTS_FILE: path.join(DATA_DIR, 'attempts.json'),
   REVISION_FILE: path.join(DATA_DIR, 'revision_materials.json')
 };

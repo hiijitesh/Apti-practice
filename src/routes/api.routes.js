@@ -9,6 +9,8 @@ const router = express.Router();
 // Question & chapter routes
 router.get('/chapters', QuestionController.getChapters);
 router.get('/questions', QuestionController.getQuestions);
+router.get('/rk-chapters', QuestionController.getRkChapters);
+router.get('/rk-questions', QuestionController.getRkQuestions);
 
 // Mock CBT test routes
 router.get('/mock', MockController.getMockQuestions);
