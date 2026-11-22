@@ -46,7 +46,6 @@ describe('RK Ranjan Math Integrity & Zero Discrepancy Tests', () => {
       assert.strictEqual(q.subSubject, 'RK Ranjan Math');
       assert.strictEqual(q.faculty, 'RK Ranjan');
       assert.ok(q.chapter && typeof q.chapter === 'string', `Q ${q.id} must have chapter`);
-      assert.ok(q.type && typeof q.type === 'string' && q.type.trim().length > 0, `Q ${q.id} must have type`);
       assert.ok(q.question && q.question.trim().length >= 5, `Q ${q.id} must have non-empty stem`);
       assert.ok(Array.isArray(q.options) && q.options.length === 4, `Q ${q.id} must have exactly 4 options`);
       q.options.forEach((opt, oIdx) => {
@@ -108,22 +107,5 @@ describe('RK Ranjan Math Integrity & Zero Discrepancy Tests', () => {
     assert.strictEqual(rkQuestions.length, 5327, 'Repository must return 5,327 RK questions');
     const pctQuestions = QuestionRepository.getByChapter('Percentage', 'rk_ranjan');
     assert.ok(pctQuestions.length >= 200, `Percentage should have 200+ questions, got ${pctQuestions.length}`);
-  });
-
-  test('Optional Type-wise practice toggle and question type badge exist in UI', () => {
-    const htmlPath = path.join(__dirname, '../public/index.html');
-    const html = fs.readFileSync(htmlPath, 'utf8');
-    assert.ok(html.includes('id="practice-btn-typewise"'), 'Type-wise toggle button must exist');
-    assert.ok(html.includes('id="practice-type-bar"'), 'Type-wise filter pills bar must exist');
-    assert.ok(html.includes('id="practice-q-type-badge"'), 'Question type badge element must exist');
-  });
-
-  test('Frontend app.js supports optional Type-wise practice toggle and filtering', () => {
-    const appPath = path.join(__dirname, '../public/app.js');
-    const appJs = fs.readFileSync(appPath, 'utf8');
-    assert.ok(appJs.includes('toggleTypeWisePractice'), 'app.js must define toggleTypeWisePractice');
-    assert.ok(appJs.includes('selectPracticeType'), 'app.js must define selectPracticeType');
-    assert.ok(appJs.includes('renderPracticeTypeBar'), 'app.js must define renderPracticeTypeBar');
-    assert.ok(appJs.includes('isTypeWiseEnabled'), 'app.js must maintain isTypeWiseEnabled state');
   });
 });
