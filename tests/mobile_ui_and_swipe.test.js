@@ -83,4 +83,22 @@ describe('Mobile UI & Swipe Navigation Tests', () => {
     // 4. setupSwipeNavigation is called in init()
     assert.match(jsContent, /this\.setupSwipeNavigation\(\)/);
   });
+
+  test('Test page bottom bars include Previous, Next, Mark for Review, and Submit buttons', () => {
+    // 1. Practice fixed bottom bar contains all 4 key buttons
+    assert.match(htmlContent, /id="practice-fixed-bottom-bar"[\s\S]*?id="practice-btn-prev"/);
+    assert.match(htmlContent, /id="practice-fixed-bottom-bar"[\s\S]*?id="practice-btn-review"/);
+    assert.match(htmlContent, /id="practice-fixed-bottom-bar"[\s\S]*?id="practice-bottom-btn-submit"/);
+    assert.match(htmlContent, /id="practice-fixed-bottom-bar"[\s\S]*?id="practice-btn-next"/);
+
+    // 2. Mock mobile bottom bar contains all 4 key buttons
+    assert.match(htmlContent, /id="mock-mobile-bottom-bar"[\s\S]*?id="mock-mobile-btn-prev"/);
+    assert.match(htmlContent, /id="mock-mobile-bottom-bar"[\s\S]*?id="mock-mobile-btn-review"/);
+    assert.match(htmlContent, /id="mock-mobile-bottom-bar"[\s\S]*?id="mock-mobile-btn-submit"/);
+    assert.match(htmlContent, /id="mock-mobile-bottom-bar"[\s\S]*?id="mock-mobile-btn-next"/);
+
+    // 3. JS implements togglePracticeReview
+    assert.match(jsContent, /togglePracticeReview\(andNext = false\)\s*\{/);
+    assert.match(jsContent, /this\.practice\.reviewFlags/);
+  });
 });

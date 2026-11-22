@@ -471,29 +471,41 @@
       </div>
 
       <!-- FIXED BOTTOM NAVIGATION BAR (FIXED ACROSS ALL SCREEN SIZES: NEVER SHIFTS WITH QUESTION LENGTH) -->
-      <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3.5 sm:px-6 lg:px-8 py-2.5 sm:py-3 z-40 flex items-center justify-between gap-2 sm:gap-3 shadow-lg safe-bottom">
-        <!-- Left: Previous, Clear & Keyboard Hints (Desktop) -->
-        <div class="flex items-center gap-2 sm:gap-3">
-          <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-3.5 sm:px-4 py-2 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center transition disabled:opacity-30 disabled:pointer-events-none active:scale-95">
-            Previous
+      <div id="practice-fixed-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-2 sm:px-6 lg:px-8 py-2 sm:py-2.5 z-40 flex items-center justify-between gap-1.5 sm:gap-2.5 shadow-lg safe-bottom">
+        <!-- Left: Previous, Mark for Review & Clear -->
+        <div class="flex items-center gap-1 sm:gap-2">
+          <!-- Previous Button -->
+          <button onclick="app.prevPracticeQuestion()" id="practice-btn-prev" class="px-2.5 sm:px-3.5 py-2 rounded-lg btn-secondary text-zinc-700 font-medium text-xs text-center transition disabled:opacity-30 disabled:pointer-events-none active:scale-95 whitespace-nowrap" title="Previous Question">
+            &larr; <span class="hidden xs:inline">Prev</span><span class="xs:hidden">Prev</span>
           </button>
-          <button onclick="app.clearPracticeResponse()" id="practice-btn-clear" class="px-2.5 sm:px-3 py-2 rounded-lg text-xs text-zinc-500 hover:text-zinc-800 transition active:scale-95">
+
+          <!-- Mark for Review Button -->
+          <button onclick="app.togglePracticeReview()" id="practice-btn-review" class="px-2 sm:px-3 py-2 rounded-lg border border-zinc-200 bg-white hover:bg-zinc-50 text-zinc-700 font-medium text-xs flex items-center gap-1 active:scale-95 transition whitespace-nowrap" title="Mark this question for review">
+            <svg class="w-3.5 h-3.5 text-purple-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+            <span id="practice-btn-review-label">Review</span>
+          </button>
+
+          <!-- Clear Response Button -->
+          <button onclick="app.clearPracticeResponse()" id="practice-btn-clear" class="hidden sm:inline-flex px-2.5 py-2 rounded-lg text-xs text-zinc-500 hover:text-zinc-800 transition active:scale-95" title="Clear selected response">
             Clear
           </button>
-          <div class="hidden md:flex items-center gap-1.5 text-[11px] text-zinc-400 border-l border-zinc-200 pl-3">
-            <span>Keys:</span>
-            <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">1-4</kbd> / <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">A-D</kbd> <span>Select</span> &bull;
-            <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">&rarr;</kbd> / <kbd class="px-1.5 py-0.5 bg-zinc-100 border border-zinc-200 rounded text-[10px] text-zinc-600 font-mono">Enter</kbd> <span>Next</span>
-          </div>
         </div>
 
-        <!-- Right: Mobile Palette Toggle & Save & Next Button -->
-        <div class="flex items-center gap-2">
-          <button onclick="app.togglePracticeDrawer()" class="lg:hidden px-3 py-2 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:scale-95 transition">
+        <!-- Right: Palette, Submit & Save & Next Button -->
+        <div class="flex items-center gap-1 sm:gap-2">
+          <!-- Mobile Palette Drawer Button -->
+          <button onclick="app.togglePracticeDrawer()" class="lg:hidden p-2 sm:px-2.5 sm:py-2 rounded-lg btn-secondary text-zinc-700 text-xs flex items-center gap-1 active:scale-95 transition" title="Toggle Question Palette">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            <span id="practice-mobile-palette-btn-text">Palette</span>
+            <span id="practice-mobile-palette-btn-text" class="hidden sm:inline">Palette</span>
           </button>
-          <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-5 sm:px-7 py-2.5 rounded-lg btn-primary font-semibold text-xs text-center shadow-xs active:scale-95 transition select-none flex items-center gap-1.5">
+
+          <!-- Submit Chapter Test Button (Bottom Bar) -->
+          <button onclick="app.promptSubmitChapterTest()" id="practice-bottom-btn-submit" class="px-2.5 sm:px-3.5 py-2 rounded-lg border border-indigo-200 bg-indigo-50/80 hover:bg-indigo-100 text-indigo-700 font-semibold text-xs transition active:scale-95 whitespace-nowrap" title="Submit Chapter Test">
+            Submit
+          </button>
+
+          <!-- Save & Next Button -->
+          <button onclick="app.nextPracticeQuestion()" id="practice-btn-next" class="px-3 sm:px-5 py-2 rounded-lg btn-primary font-semibold text-xs text-center shadow-xs active:scale-95 transition select-none flex items-center gap-1 whitespace-nowrap">
             Save & Next &rarr;
           </button>
           <span id="practice-mobile-btn-next" class="hidden"></span>
@@ -688,6 +700,9 @@
               <button onclick="app.prevMockQuestion()" id="mock-btn-prev" class="tb-btn-outline px-3.5 py-2 rounded-md font-medium text-xs transition disabled:opacity-30 disabled:pointer-events-none">
                 Previous
               </button>
+              <button onclick="app.promptSubmitMock()" id="mock-desktop-btn-submit" class="px-4 py-2 rounded-md border border-red-200 bg-red-50 hover:bg-red-100 text-red-700 font-bold text-xs transition">
+                Submit Test
+              </button>
               <button onclick="app.nextMockQuestion()" id="mock-btn-next" class="tb-btn-primary px-6 py-2 rounded-md font-bold text-xs flex items-center gap-1.5 transition shadow-xs">
                 Save & Next
               </button>
@@ -787,19 +802,32 @@
 
       </div>
 
-      <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR (Ergonomic 4-button layout, zero content collision) -->
-      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-3 py-2 z-30 lg:hidden flex items-center justify-between gap-1.5 sm:gap-2 shadow-lg safe-bottom">
-        <button onclick="app.clearMockResponse()" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition">
-          Clear
+      <!-- 5. MOBILE THUMB-FRIENDLY FIXED BOTTOM BAR -->
+      <div id="mock-mobile-bottom-bar" class="fixed bottom-0 left-0 right-0 bg-white border-t border-zinc-200 px-2 py-2 z-30 lg:hidden flex items-center justify-between gap-1 sm:gap-2 shadow-lg safe-bottom">
+        <!-- Previous Button -->
+        <button onclick="app.prevMockQuestion()" id="mock-mobile-btn-prev" class="tb-btn-outline px-2 py-2 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition disabled:opacity-30 disabled:pointer-events-none" title="Previous Question">
+          &larr; Prev
         </button>
-        <button onclick="app.prevMockQuestion()" id="mock-mobile-btn-prev" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition disabled:opacity-30 disabled:pointer-events-none">
-          Prev
+
+        <!-- Mark for Review Button -->
+        <button onclick="app.toggleMockReview()" id="mock-mobile-btn-review" class="tb-btn-outline px-2 py-2 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition flex items-center gap-1 text-purple-700 border-purple-200" title="Mark for Review">
+          <svg class="w-3.5 h-3.5 text-purple-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
+          <span id="mock-mobile-review-label">Review</span>
         </button>
-        <button onclick="app.toggleMockDrawer()" id="mock-mobile-palette-toggle-btn" class="tb-btn-outline px-2.5 py-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition flex items-center justify-center gap-1 text-zinc-700 bg-zinc-50" title="Open Question Palette">
+
+        <!-- Palette Toggle Button -->
+        <button onclick="app.toggleMockDrawer()" id="mock-mobile-palette-toggle-btn" class="tb-btn-outline p-2 sm:px-2.5 rounded-md text-xs font-semibold text-center whitespace-nowrap active:scale-95 transition flex items-center justify-center gap-1 text-zinc-700 bg-zinc-50" title="Open Question Palette">
           <svg class="w-3.5 h-3.5 text-[#00a8cc]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"/></svg>
-          <span id="mock-mobile-palette-btn-text">Palette (0/30)</span>
+          <span id="mock-mobile-palette-btn-text" class="hidden sm:inline">Palette</span>
         </button>
-        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="tb-btn-primary flex-1 py-2.5 px-3 rounded-md text-xs font-bold text-center whitespace-nowrap active:scale-95 transition shadow-xs">
+
+        <!-- Submit Button -->
+        <button onclick="app.promptSubmitMock()" id="mock-mobile-btn-submit" class="px-2 py-2 rounded-md border border-red-200 bg-red-50 text-red-700 hover:bg-red-100 text-xs font-bold text-center whitespace-nowrap active:scale-95 transition" title="Submit Test">
+          Submit
+        </button>
+
+        <!-- Save & Next Button -->
+        <button onclick="app.nextMockQuestion()" id="mock-mobile-btn-next" class="tb-btn-primary flex-1 py-2 px-2.5 rounded-md text-xs font-bold text-center whitespace-nowrap active:scale-95 transition shadow-xs">
           Save & Next &rarr;
         </button>
       </div>

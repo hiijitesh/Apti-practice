@@ -45,6 +45,7 @@ class AptiPrepApp {
       questions: [],
       currentIndex: 0,
       userAnswers: {}, // { [qIndex]: number (selected option index) }
+      reviewFlags: {}, // { [qIndex]: boolean }
       modeType: 'test', // 'test' (show answers at end) or 'study' (instant feedback)
       drawerOpen: true,
       startTime: null
@@ -857,6 +858,7 @@ class AptiPrepApp {
         else if (key === '2' || key === 'b') { e.preventDefault(); this.selectPracticeOption(1); }
         else if (key === '3' || key === 'c') { e.preventDefault(); this.selectPracticeOption(2); }
         else if (key === '4' || key === 'd') { e.preventDefault(); this.selectPracticeOption(3); }
+        else if (key === 'r') { e.preventDefault(); this.togglePracticeReview(); }
         else if (key === 'arrowright' || key === 'enter') { e.preventDefault(); this.nextPracticeQuestion(); }
         else if (key === 'arrowleft') { e.preventDefault(); this.prevPracticeQuestion(); }
       } else if (this.currentMode === 'mock') {
@@ -1907,6 +1909,7 @@ class AptiPrepApp {
     this.practice.questions = questions;
     this.practice.currentIndex = 0;
     this.practice.userAnswers = {};
+    this.practice.reviewFlags = {};
     this.practice.startTime = Date.now();
 
     this.setPracticeChapterTitle(chapterName);
@@ -2150,6 +2153,20 @@ class AptiPrepApp {
       mobileBtnNext.textContent = (this.practice.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next →';
     }
 
+    // Update Mark for Review button state in Practice bottom bar
+    const isMarked = !!(this.practice.reviewFlags && this.practice.reviewFlags[this.practice.currentIndex]);
+    const btnReview = document.getElementById('practice-btn-review');
+    const btnReviewLabel = document.getElementById('practice-btn-review-label');
+    if (btnReview) {
+      if (isMarked) {
+        btnReview.className = 'px-2 sm:px-3 py-2 rounded-lg border border-purple-400 bg-purple-50 text-purple-700 font-bold text-xs flex items-center gap-1 active:scale-95 transition shadow-2xs whitespace-nowrap';
+        if (btnReviewLabel) btnReviewLabel.textContent = '★ Marked';
+      } else {
+        btnReview.className = 'px-2 sm:px-3 py-2 rounded-lg border border-zinc-200 bg-white hover:bg-zinc-50 text-zinc-700 font-medium text-xs flex items-center gap-1 active:scale-95 transition whitespace-nowrap';
+        if (btnReviewLabel) btnReviewLabel.textContent = 'Review';
+      }
+    }
+
     this.updatePracticeScoreboard();
     this.renderPracticePalette();
   }
@@ -2170,6 +2187,17 @@ class AptiPrepApp {
   clearPracticeResponse() {
     delete this.practice.userAnswers[this.practice.currentIndex];
     this.renderPracticeQuestion();
+  }
+
+  togglePracticeReview(andNext = false) {
+    const idx = this.practice.currentIndex;
+    if (!this.practice.reviewFlags) this.practice.reviewFlags = {};
+    this.practice.reviewFlags[idx] = !this.practice.reviewFlags[idx];
+    if (andNext && this.practice.currentIndex < this.practice.questions.length - 1) {
+      this.practice.currentIndex++;
+    }
+    this.renderPracticeQuestion();
+    this.renderPracticePalette();
   }
 
   prevPracticeQuestion() {
@@ -2216,10 +2244,13 @@ class AptiPrepApp {
   updatePracticeScoreboard() {
     const total = this.practice.questions.length;
     const answeredCount = Object.keys(this.practice.userAnswers).length;
+    const reviewCount = Object.values(this.practice.reviewFlags || {}).filter(Boolean).length;
 
     const statsEl = document.getElementById('practice-score-stats');
     if (statsEl) {
-      statsEl.textContent = `${answeredCount} / ${total} answered`;
+      statsEl.textContent = reviewCount > 0
+        ? `${answeredCount} / ${total} • ${reviewCount} marked`
+        : `${answeredCount} / ${total}`;
     }
 
     const summaryEl = document.getElementById('practice-palette-summary');
@@ -2238,11 +2269,16 @@ class AptiPrepApp {
     grid.innerHTML = this.practice.questions.map((q, idx) => {
       const selected = this.practice.userAnswers[idx];
       const isAnswered = (selected !== undefined && selected !== null);
+      const isMarked = !!(this.practice.reviewFlags && this.practice.reviewFlags[idx]);
       const isCurrent = (idx === this.practice.currentIndex);
 
       let btnClass = 'bg-zinc-50 text-zinc-600 hover:bg-zinc-100 border-zinc-200';
 
-      if (isAnswered) {
+      if (isMarked) {
+        btnClass = isAnswered
+          ? 'bg-purple-600 text-white font-bold border-purple-700 shadow-2xs'
+          : 'bg-purple-100 text-purple-900 font-semibold border-purple-300 shadow-2xs';
+      } else if (isAnswered) {
         if (isTestMode) {
           btnClass = 'bg-indigo-100 text-indigo-900 font-semibold border-indigo-300 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 transition';
         } else {
@@ -2256,8 +2292,9 @@ class AptiPrepApp {
 
       return `
         <button onclick="app.jumpPracticeQuestion(${idx})"
-                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition">
+                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition relative">
           ${idx + 1}
+          ${isMarked ? '<span class="absolute top-0.5 right-0.5 w-1.5 h-1.5 rounded-full bg-purple-500"></span>' : ''}
         </button>
       `;
     }).join('');
@@ -2633,13 +2670,16 @@ class AptiPrepApp {
     }
 
     const mobileReviewBtn = document.getElementById('mock-mobile-btn-review');
+    const mobileReviewLabel = document.getElementById('mock-mobile-review-label');
     if (mobileReviewBtn) {
       if (isMarked) {
-        mobileReviewBtn.className = 'tb-btn-primary px-2.5 py-2.5 rounded-md text-[11px] font-bold text-center active:scale-95 transition';
-        mobileReviewBtn.textContent = '★ Marked';
+        mobileReviewBtn.className = 'tb-btn-primary px-2 py-2 rounded-md text-xs font-bold text-center active:scale-95 transition flex items-center gap-1';
+        if (mobileReviewLabel) mobileReviewLabel.textContent = '★ Marked';
+        else mobileReviewBtn.textContent = '★ Marked';
       } else {
-        mobileReviewBtn.className = 'tb-btn-secondary px-2.5 py-2.5 rounded-md text-[11px] font-semibold text-center active:scale-95 transition';
-        mobileReviewBtn.textContent = 'Mark Review';
+        mobileReviewBtn.className = 'tb-btn-outline px-2 py-2 rounded-md text-xs font-semibold text-center active:scale-95 transition flex items-center gap-1 text-purple-700 border-purple-200';
+        if (mobileReviewLabel) mobileReviewLabel.textContent = 'Review';
+        else mobileReviewBtn.textContent = 'Review';
       }
     }
 
@@ -2718,15 +2758,17 @@ class AptiPrepApp {
     }
 
     const btnPrev = document.getElementById('mock-btn-prev');
+    const mobileBtnPrev = document.getElementById('mock-mobile-btn-prev');
     const btnNext = document.getElementById('mock-btn-next');
     const mobileBtnNext = document.getElementById('mock-mobile-btn-next');
     if (btnPrev) btnPrev.disabled = (this.mock.currentIndex === 0);
+    if (mobileBtnPrev) mobileBtnPrev.disabled = (this.mock.currentIndex === 0);
     if (btnNext) {
-      const targetText = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next';
+      const targetText = (this.mock.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next';
       btnNext.textContent = targetText;
     }
     if (mobileBtnNext) {
-      mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Review & Submit' : 'Save & Next';
+      mobileBtnNext.textContent = (this.mock.currentIndex === total - 1) ? 'Submit Test' : 'Save & Next →';
     }
 
     this.updateMockPalette();
