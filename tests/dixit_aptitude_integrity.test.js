@@ -117,4 +117,42 @@ describe('Dixit Sir Quantitative Aptitude Verification & Integrity Tests', () =>
       );
     });
   });
+
+  test('Ratio & Proportion has 122 authentic questions with zero accidental duplicates', () => {
+    const ratioQuestions = aptiQuestions.filter(q => q.chapter === 'Ratio & Proportion');
+    assert.equal(ratioQuestions.length, 122, 'Must have exactly 122 Ratio & Proportion questions');
+
+    // 1. Q1 stem appears only ONCE across all questions
+    const q1StemMatches = ratioQuestions.filter(q =>
+      q.question.includes('Two numbers are in the ratio of 6:7. If the difference between these numbers is 16')
+    );
+    assert.equal(q1StemMatches.length, 1, 'Q1 stem must only appear once, never repeated in Q5, Q7, Q10, Q102, etc.');
+    assert.equal(q1StemMatches[0].id, 'ratio_q001');
+
+    // 2. Q102 must have its authentic Componendo & Dividendo stem and correct answer D
+    const q102 = ratioQuestions.find(q => q.id === 'ratio_q102');
+    assert.ok(q102, 'ratio_q102 must exist');
+    assert.match(q102.question, /20%\s*of\s*\(P\+Q\)/);
+    assert.equal(q102.correctAnswer, 3, 'Q102 correct answer index must be 3 (Option D)');
+    assert.equal(q102.options[3].trim(), '7 : 3');
+
+    // 3. Q103 must have its authentic stem and correct answer D
+    const q103 = ratioQuestions.find(q => q.id === 'ratio_q103');
+    assert.ok(q103, 'ratio_q103 must exist');
+    assert.match(q103.question, /40%\s*of\s*\(A\s*\+\s*B\)/);
+    assert.equal(q103.correctAnswer, 3, 'Q103 correct answer index must be 3 (Option D)');
+
+    // 4. Q5 must have fractions A:B = (1/3):(1/5)...
+    const q5 = ratioQuestions.find(q => q.id === 'ratio_q005');
+    assert.ok(q5, 'ratio_q005 must exist');
+    assert.match(q5.question, /1\/3/);
+
+    // 5. All 122 questions must have valid slidePage attribute (12 to 137)
+    ratioQuestions.forEach(q => {
+      assert.ok(
+        Number.isInteger(q.slidePage) && q.slidePage >= 12 && q.slidePage <= 137,
+        `Question ${q.id} must have slidePage between 12 and 137 (got ${q.slidePage})`
+      );
+    });
+  });
 });

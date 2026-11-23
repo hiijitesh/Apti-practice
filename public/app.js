@@ -536,6 +536,65 @@ class AptiPrepApp {
     return true;
   }
 
+  getChapterStudyStorageKey(chapterName) {
+    const email = (this.currentUserEmail || 'guest@local').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const chap = (chapterName || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    return `apti_study_${email}_${chap}`;
+  }
+
+  saveChapterStudyProgress() {
+    if (!this.practice || !this.practice.chapter || this.practice.modeType !== 'study') return;
+    try {
+      const key = this.getChapterStudyStorageKey(this.practice.chapter);
+      const data = {
+        chapter: this.practice.chapter,
+        userAnswers: this.practice.userAnswers || {},
+        reviewFlags: this.practice.reviewFlags || {},
+        currentIndex: this.practice.currentIndex || 0,
+        savedAt: Date.now()
+      };
+      localStorage.setItem(key, JSON.stringify(data));
+    } catch (e) {
+      console.warn('Failed to save chapter study progress:', e);
+    }
+  }
+
+  loadChapterStudyProgress(chapterName) {
+    try {
+      const key = this.getChapterStudyStorageKey(chapterName);
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (data && typeof data.userAnswers === 'object') {
+        return data;
+      }
+    } catch (e) {
+      console.warn('Failed to load chapter study progress:', e);
+    }
+    return null;
+  }
+
+  clearChapterStudyProgress(chapterName) {
+    try {
+      const key = this.getChapterStudyStorageKey(chapterName || this.practice?.chapter);
+      localStorage.removeItem(key);
+    } catch (e) {}
+  }
+
+  resetPracticeProgress() {
+    if (!this.practice || !this.practice.chapter) return;
+    const chap = this.practice.chapter;
+    if (confirm(`Reset practice progress for "${chap}"?\n\nAll your answered questions for this chapter will be cleared.`)) {
+      this.practice.userAnswers = {};
+      this.practice.reviewFlags = {};
+      this.practice.currentIndex = 0;
+      this.clearChapterStudyProgress(chap);
+      this.saveActivePracticeSession();
+      this.renderPracticeQuestion();
+      this.renderPracticePalette();
+    }
+  }
+
   saveActivePracticeSession() {
     if (!this.practice || !this.practice.chapter || !Array.isArray(this.practice.questions) || this.practice.questions.length === 0 || this.isSubmitting) {
       return;
@@ -554,6 +613,9 @@ class AptiPrepApp {
         userEmail: this.currentUserEmail || 'guest@local'
       };
       localStorage.setItem('apti_active_practice', JSON.stringify(payload));
+      if (this.practice.modeType === 'study') {
+        this.saveChapterStudyProgress();
+      }
     } catch (e) {
       console.warn('Failed to save active practice session to localStorage:', e);
     }
@@ -1491,8 +1553,11 @@ class AptiPrepApp {
       if (!confirm('You have an ongoing chapter test. Leaving will abandon the current test. Continue?')) {
         return;
       }
+      this.clearActivePracticeSession();
     }
-    this.clearActivePracticeSession();
+    if (this.currentMode !== 'practice' || this.practice.modeType !== 'study') {
+      this.clearActivePracticeSession();
+    }
     this.clearActiveMockSession();
     this.exitFullscreen();
     this.switchView('dashboard');
@@ -2449,9 +2514,24 @@ class AptiPrepApp {
   initPracticeState(chapterName, questions, preferredSubjectFilter = null) {
     this.practice.chapter = chapterName;
     this.practice.questions = questions;
-    this.practice.currentIndex = 0;
-    this.practice.userAnswers = {};
-    this.practice.reviewFlags = {};
+
+    const mode = this.practice.modeType || 'study';
+    let restored = false;
+    if (mode === 'study') {
+      const savedProgress = this.loadChapterStudyProgress(chapterName);
+      if (savedProgress && savedProgress.userAnswers && Object.keys(savedProgress.userAnswers).length > 0) {
+        this.practice.userAnswers = savedProgress.userAnswers;
+        this.practice.reviewFlags = savedProgress.reviewFlags || {};
+        this.practice.currentIndex = Math.min(Math.max(0, savedProgress.currentIndex || 0), questions.length - 1);
+        restored = true;
+      }
+    }
+
+    if (!restored) {
+      this.practice.currentIndex = 0;
+      this.practice.userAnswers = {};
+      this.practice.reviewFlags = {};
+    }
     this.practice.startTime = Date.now();
 
     this.setPracticeChapterTitle(chapterName);
@@ -2550,6 +2630,8 @@ class AptiPrepApp {
         titleEl.title = 'Chapter Test in progress (cannot change chapter during test)';
       }
       if (chevronEl) chevronEl.classList.add('hidden');
+      const resetBtn = document.getElementById('practice-reset-btn');
+      if (resetBtn) resetBtn.classList.add('hidden');
 
       // Enter full screen when switching to test mode
       if (this.currentMode === 'practice') {
@@ -2571,6 +2653,19 @@ class AptiPrepApp {
         titleEl.title = 'Click to browse all chapters';
       }
       if (chevronEl) chevronEl.classList.remove('hidden');
+      const resetBtn = document.getElementById('practice-reset-btn');
+      if (resetBtn) resetBtn.classList.remove('hidden');
+
+      if (this.practice.chapter && (!this.practice.userAnswers || Object.keys(this.practice.userAnswers).length === 0)) {
+        const savedProgress = this.loadChapterStudyProgress(this.practice.chapter);
+        if (savedProgress && savedProgress.userAnswers && Object.keys(savedProgress.userAnswers).length > 0) {
+          this.practice.userAnswers = savedProgress.userAnswers;
+          this.practice.reviewFlags = savedProgress.reviewFlags || {};
+          if (savedProgress.currentIndex !== undefined && this.practice.questions) {
+            this.practice.currentIndex = Math.min(savedProgress.currentIndex, this.practice.questions.length - 1);
+          }
+        }
+      }
 
       // Study mode: dismiss pause modal if open and unpause!
       if (this.isTestPaused) {

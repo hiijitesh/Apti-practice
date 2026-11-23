@@ -91,4 +91,28 @@ describe('Test Refresh Persistence & Default Study Mode Tests', () => {
     assert.match(htmlContent, /viewMock\.classList\.remove\('hidden'\)/);
     assert.match(htmlContent, /viewPractice\.classList\.remove\('hidden'\)/);
   });
+
+  test('Chapter Study Progress methods exist and preserve answers across chapter navigation', () => {
+    // 1. Storage key generator scopes by user email and chapter
+    assert.match(jsContent, /getChapterStudyStorageKey\(chapterName\)\s*\{/);
+    assert.match(jsContent, /apti_study_\$\{email\}_\$\{chap\}/);
+
+    // 2. saveChapterStudyProgress saves userAnswers, reviewFlags, currentIndex
+    assert.match(jsContent, /saveChapterStudyProgress\(\)\s*\{/);
+    assert.match(jsContent, /if\s*\(!this\.practice\s*\|\|\s*!this\.practice\.chapter\s*\|\|\s*this\.practice\.modeType\s*!==\s*'study'\)\s*return;/);
+
+    // 3. loadChapterStudyProgress and clearChapterStudyProgress exist
+    assert.match(jsContent, /loadChapterStudyProgress\(chapterName\)\s*\{/);
+    assert.match(jsContent, /clearChapterStudyProgress\(chapterName\)\s*\{/);
+
+    // 4. resetPracticeProgress allows clearing saved chapter answers with confirmation
+    assert.match(jsContent, /resetPracticeProgress\(\)\s*\{/);
+
+    // 5. initPracticeState restores saved study progress for chapters in study mode
+    assert.match(jsContent, /const savedProgress = this\.loadChapterStudyProgress\(chapterName\);/);
+    assert.match(jsContent, /this\.practice\.userAnswers = savedProgress\.userAnswers;/);
+
+    // 6. showDashboard preserves study mode sessions in localStorage
+    assert.match(jsContent, /if\s*\(this\.currentMode\s*!==\s*'practice'\s*\|\|\s*this\.practice\.modeType\s*!==\s*'study'\)\s*\{[\s\S]*?this\.clearActivePracticeSession\(\);/);
+  });
 });

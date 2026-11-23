@@ -503,9 +503,12 @@
           <div id="practice-palette-grid" class="grid grid-cols-5 gap-1.5 max-h-[300px] lg:max-h-[360px] overflow-y-auto pr-1">
             <!-- Palette buttons -->
           </div>
-          <div class="pt-2 border-t border-zinc-100">
-            <button onclick="app.promptSubmitChapterTest()" class="w-full py-2 btn-primary font-medium text-xs rounded-lg transition">
+          <div class="pt-2 border-t border-zinc-100 flex gap-2">
+            <button onclick="app.promptSubmitChapterTest()" class="flex-1 py-2 btn-primary font-medium text-xs rounded-lg transition">
               Submit Chapter Test
+            </button>
+            <button id="practice-reset-btn" onclick="app.resetPracticeProgress()" title="Reset saved answers for this chapter" class="px-3 py-2 bg-zinc-100 hover:bg-zinc-200 text-zinc-700 font-medium text-xs rounded-lg transition">
+              Reset
             </button>
           </div>
         </div>

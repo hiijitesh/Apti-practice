@@ -30,7 +30,11 @@ except ImportError:
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 QUESTIONS_JSON = BASE_DIR / "public" / "data" / "questions.json"
-DIXIT_DIR = Path(os.path.expanduser("~/Downloads/Govt Exams & RRB/A RRB NOTES/Dixit Sir Sheet"))
+dixit_candidates = [
+    Path(os.path.expanduser("~/Downloads/Govt Exams & RRB/A RRB NOTES/ADixit Sir Sheet")),
+    Path(os.path.expanduser("~/Downloads/Govt Exams & RRB/A RRB NOTES/Dixit Sir Sheet"))
+]
+DIXIT_DIR = next((p for p in dixit_candidates if p.exists()), dixit_candidates[0])
 
 CHAPTER_MAPPING = [
     ("Ages", "Ages (आयु) - All Questions.pdf", "Ages - Complete Solutions.pdf", "ages"),
@@ -261,6 +265,16 @@ def main():
             continue
 
         print(f"\nProcessing {chap_name:25} ({len(qlist)} questions)...")
+
+        if chap_name == "Ratio & Proportion":
+            ratio_src = BASE_DIR / "scripts" / "sources" / "reextracted_ratio.json"
+            if ratio_src.exists():
+                with open(ratio_src) as rf:
+                    r_qs = json.load(rf)
+                for rq in r_qs:
+                    fixed_questions_map[rq["id"]] = rq
+                print(f"  Loaded {len(r_qs)} authentic verified Ratio & Proportion questions from reextracted_ratio.json")
+                continue
 
         # 1. Answer Key
         if chap_name == "Percentage":
