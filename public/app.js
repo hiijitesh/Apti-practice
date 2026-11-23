@@ -1660,7 +1660,7 @@ class AptiPrepApp {
 
       const clickHandler = (this.modalSubject === 'rk_ranjan')
         ? `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan')`
-        : `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}')`;
+        : `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}', '${this.modalSubject}')`;
 
       return `
         <div onclick="${clickHandler}"
@@ -2136,7 +2136,7 @@ class AptiPrepApp {
 
       const clickHandler = isRk
         ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan')`
-        : `app.startPractice('${ch.name.replace(/'/g, "\\'")}')`;
+        : (isSci ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'science')` : `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'aptitude')`);
 
       return `
         <div onclick="${clickHandler}"
@@ -2271,20 +2271,17 @@ class AptiPrepApp {
     this.populateChapterDropdown(subjectValue);
 
     const dd = document.getElementById('practice-chapter-dropdown');
-    if (!dd) return;
+    if (!dd || dd.options.length === 0) return;
 
-    let hasCurrent = false;
+    let targetChapter = dd.options[0].value;
     for (let i = 0; i < dd.options.length; i++) {
       if (dd.options[i].value === this.practice.chapter) {
-        hasCurrent = true;
-        dd.value = this.practice.chapter;
+        targetChapter = this.practice.chapter;
         break;
       }
     }
-
-    if (!hasCurrent && dd.options.length > 0) {
-      this.startPractice(dd.options[0].value, subjectValue);
-    }
+    dd.value = targetChapter;
+    await this.startPractice(targetChapter, subjectValue);
   }
 
   renderAttemptsHistory() {
@@ -2372,9 +2369,19 @@ class AptiPrepApp {
       return;
     }
 
-    const isRk = preferredSubjectFilter === 'rk_ranjan' ||
-      (this.rkChapters && this.rkChapters.some(c => c.name.toLowerCase() === (chapterName || '').toLowerCase())) ||
-      (this.rkQuestions && this.rkQuestions.some(q => q.chapter.toLowerCase() === (chapterName || '').toLowerCase()));
+    const isCoreChapter = (this.chapters || []).some(
+      c => c.name.toLowerCase() === (chapterName || '').toLowerCase()
+    );
+
+    const isCoreFilter = ['aptitude', 'science', 'biology', 'chemistry', 'physics', 'top300'].includes(
+      (preferredSubjectFilter || '').toLowerCase()
+    );
+
+    const isRk = (preferredSubjectFilter === 'rk_ranjan') ||
+      (!isCoreFilter && !isCoreChapter && (
+        (this.rkChapters && this.rkChapters.some(c => c.name.toLowerCase() === (chapterName || '').toLowerCase())) ||
+        (this.rkQuestions && this.rkQuestions.some(q => q.chapter.toLowerCase() === (chapterName || '').toLowerCase()))
+      ));
 
     if (isRk) {
       if (!this.rkQuestions || this.rkQuestions.length === 0) {
@@ -2383,7 +2390,7 @@ class AptiPrepApp {
       if (!chapterName && this.rkChapters.length > 0) {
         chapterName = this.rkChapters[0].name;
       }
-      const filtered = this.rkQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
+      const filtered = (this.rkQuestions || []).filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
       this.initPracticeState(chapterName, filtered, 'rk_ranjan');
       return;
     }
@@ -2391,6 +2398,11 @@ class AptiPrepApp {
     if (!chapterName && this.chapters.length > 0) {
       chapterName = this.chapters[0].name;
     }
+
+    // Determine appropriate core filter (aptitude vs science)
+    const chObj = (this.chapters || []).find(c => c.name.toLowerCase() === chapterName.toLowerCase());
+    const effectiveFilter = preferredSubjectFilter ||
+      (chObj?.subject?.includes('Science') ? 'science' : 'aptitude');
 
     // Reset pause trackers
     this.isTestPaused = false;
@@ -2405,7 +2417,7 @@ class AptiPrepApp {
     if (this.isStaticMode || this.allQuestions.length > 0) {
       if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
       const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
-      this.initPracticeState(chapterName, filtered, preferredSubjectFilter);
+      this.initPracticeState(chapterName, filtered, effectiveFilter);
       return;
     }
 
@@ -2413,7 +2425,7 @@ class AptiPrepApp {
       const res = await fetch(`/api/questions?chapter=${encodeURIComponent(chapterName)}`);
       if (res.ok) {
         const data = await res.json();
-        this.initPracticeState(chapterName, data.questions || [], preferredSubjectFilter);
+        this.initPracticeState(chapterName, data.questions || [], effectiveFilter);
         return;
       }
     } catch (err) {}
@@ -2421,7 +2433,7 @@ class AptiPrepApp {
     this.isStaticMode = true;
     if (this.allQuestions.length === 0) await this.loadAllQuestionsStatic();
     const filtered = this.allQuestions.filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
-    this.initPracticeState(chapterName, filtered, preferredSubjectFilter);
+    this.initPracticeState(chapterName, filtered, effectiveFilter);
   }
 
   setPracticeChapterTitle(title) {
@@ -2449,7 +2461,10 @@ class AptiPrepApp {
                    (this.rkChapters || []).find(c => c.name.toLowerCase() === chapterName.toLowerCase());
     const subjSelect = document.getElementById('practice-subject-dropdown');
 
-    if (preferredSubjectFilter === 'rk_ranjan' || (chInfo && (chInfo.subSubject === 'RK Ranjan Math' || chInfo.faculty === 'RK Ranjan'))) {
+    const isRkSession = (preferredSubjectFilter === 'rk_ranjan') ||
+      (preferredSubjectFilter !== 'aptitude' && !this.chapters?.some(c => c.name.toLowerCase() === chapterName.toLowerCase()) && (chInfo && (chInfo.subSubject === 'RK Ranjan Math' || chInfo.faculty === 'RK Ranjan')));
+
+    if (isRkSession) {
       this.practiceSubjectFilter = 'rk_ranjan';
       if (subjSelect) subjSelect.value = 'rk_ranjan';
       this.populateChapterDropdown('rk_ranjan');
