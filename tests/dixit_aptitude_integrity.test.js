@@ -155,4 +155,22 @@ describe('Dixit Sir Quantitative Aptitude Verification & Integrity Tests', () =>
       );
     });
   });
+
+  test('Zero duplicate question stems across all 17 Quantitative Aptitude chapters', () => {
+    const chapters = [...new Set(aptiQuestions.map(q => q.chapter))];
+    chapters.forEach(ch => {
+      const chQuestions = aptiQuestions.filter(q => q.chapter === ch);
+      const stemCounts = {};
+      chQuestions.forEach(q => {
+        const cleanStem = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+        stemCounts[cleanStem] = (stemCounts[cleanStem] || 0) + 1;
+      });
+      const duplicates = Object.entries(stemCounts).filter(([_, count]) => count > 1);
+      assert.equal(
+        duplicates.length,
+        0,
+        `Chapter "${ch}" has duplicate questions: ${JSON.stringify(duplicates)}`
+      );
+    });
+  });
 });
