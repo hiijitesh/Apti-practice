@@ -79,10 +79,10 @@ When extracting questions from PDF slide presentations (such as Neeraj Sir / Sci
 
 ### Dedicated Test Suites
 - `tests/dixit_aptitude_integrity.test.js`: Validates 1,342 Dixit Aptitude questions, 0 duplicate stems across all 17 chapters, 0 dummy options, 0 exam tags in options, 0 stem in options, zero Hindi.
-- `tests/physics_reverification.test.js`: Validates 399 questions, slide numbers, zero Hindi.
-- `tests/chemistry_reverification.test.js`: Validates 465 questions, slide numbers, zero Hindi.
-- `tests/biology_reverification.test.js`: Validates 616 questions, slide numbers, zero Hindi.
-- `tests/data_integrity.test.js`: Validates CBT schema, 2,992 total count, 1,650 science count.
+- `tests/physics_reverification.test.js`: Validates 399 questions, slide numbers, 0 duplicate stems across all 10 Physics chapters, zero Hindi.
+- `tests/chemistry_reverification.test.js`: Validates 465 questions, slide numbers, 0 duplicate stems across all 8 Chemistry chapters, zero Hindi.
+- `tests/biology_reverification.test.js`: Validates 616 questions, slide numbers, 0 duplicate stems across all 16 Biology chapters, zero Hindi.
+- `tests/data_integrity.test.js`: Validates CBT schema, 2,992 total count, 1,650 science count, 0 duplicate stems across all 52 chapters.
 - `tests/api.test.js`: Validates 52 chapters and 2,992 API response count.
 
 ---

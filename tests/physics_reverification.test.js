@@ -93,5 +93,23 @@ describe('Physics Reverification & Slide Page Integrity Tests', () => {
       );
     });
   });
+
+  test('Zero duplicate question stems across all 10 Physics chapters', () => {
+    const chapters = [...new Set(physicsQuestions.map(q => q.chapter))];
+    chapters.forEach(ch => {
+      const chQuestions = physicsQuestions.filter(q => q.chapter === ch);
+      const stemCounts = {};
+      chQuestions.forEach(q => {
+        const cleanStem = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+        stemCounts[cleanStem] = (stemCounts[cleanStem] || 0) + 1;
+      });
+      const duplicates = Object.entries(stemCounts).filter(([_, count]) => count > 1);
+      assert.equal(
+        duplicates.length,
+        0,
+        `Physics chapter "${ch}" has duplicate questions: ${JSON.stringify(duplicates)}`
+      );
+    });
+  });
 });
 

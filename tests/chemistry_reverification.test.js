@@ -90,5 +90,23 @@ describe('Chemistry Reverification & Slide Page Integrity Tests', () => {
       );
     });
   });
+
+  test('Zero duplicate question stems across all 8 Chemistry chapters', () => {
+    const chapters = [...new Set(chemistryQuestions.map(q => q.chapter))];
+    chapters.forEach(ch => {
+      const chQuestions = chemistryQuestions.filter(q => q.chapter === ch);
+      const stemCounts = {};
+      chQuestions.forEach(q => {
+        const cleanStem = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+        stemCounts[cleanStem] = (stemCounts[cleanStem] || 0) + 1;
+      });
+      const duplicates = Object.entries(stemCounts).filter(([_, count]) => count > 1);
+      assert.equal(
+        duplicates.length,
+        0,
+        `Chemistry chapter "${ch}" has duplicate questions: ${JSON.stringify(duplicates)}`
+      );
+    });
+  });
 });
 

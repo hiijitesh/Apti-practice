@@ -20805,16 +20805,16 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Botany",
-    "question": "Which of the following is are correct with regard to the technique of plants to get rid of waste material?",
+    "question": "Which of the following is a mechanical method of weed control?",
     "options": [
-      "Both B and C",
-      "Both A and B",
-      "Both A and C",
-      "A, B and C"
+      "Hand weeding",
+      "Seed treatment",
+      "Spraying herbicides",
+      "Crop rotation"
     ],
-    "correctAnswer": 3,
-    "explanation": "Official Science Magnet question. | Exam: Railway Technician 26 12 2024 --> 1 st shift | Slide: Page 9",
-    "slidePage": 9
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Hand weeding) | Exam: RRB ALP 18/03/2026 Shift 3 | Slide: Page 3",
+    "slidePage": 3
   },
   {
     "id": "sci_botany_q008",
@@ -21973,16 +21973,16 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Cell",
-    "question": "Which of the following cellular components is not present in most prokaryotes?",
+    "question": "Which of the following processes represents the most specific purpose of meiotic cell division?",
     "options": [
-      "Cytoplasm",
-      "Nuclear membrane",
-      "Cell wall",
-      "Ribosome"
+      "Digestion",
+      "Reproduction",
+      "Excretion",
+      "Respiration"
     ],
     "correctAnswer": 1,
-    "explanation": "Prokaryotic cells lack a defined nucleus enclosed by a nuclear membrane; their genetic material lies naked in a region called the nucleoid. | Exam: RRB Group-D-02/09/2022 (Shift-II) | Slide: Page 129",
-    "slidePage": 129
+    "explanation": "Correct Answer: Option B | (Reproduction) | Exam: RRB Group-D, 26/12/2025 (Shift-3) | Slide: Page 17",
+    "slidePage": 17
   },
   {
     "id": "sci_cell_q061",
@@ -26913,32 +26913,32 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Nutrition",
-    "question": "Which of the following foods is called a 'body- building' food?",
+    "question": "Which of the following is an insectivorous plant?",
     "options": [
-      "Food rich in carbohydrates, like wheat ,",
-      "Food rich in proteins, like peas ,",
-      "Food rich in vitamins, like apples ,",
-      "Food rich in fats, like butter ,"
+      "Mushroom",
+      "Lichens",
+      "Cuscuta",
+      "Pitcher plant"
     ],
-    "correctAnswer": 1,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 14-09-2022 (Shift-I) | Slide: Page 14",
-    "slidePage": 14
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Pitcher plant) | Exam: RRB Group-D- 16/09/2022 (Shift-III) | Slide: Page 9",
+    "slidePage": 9
   },
   {
     "id": "sci_nutrition_q010",
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Nutrition",
-    "question": "Which of the following is not a macro nutrient?",
+    "question": "__________ is a parasitic plant.",
     "options": [
-      "Vitamin",
-      "Fat",
-      "Carbohydrate",
-      "Protein"
+      "Orchid",
+      "Cuscuta",
+      "Leech",
+      "Teak"
     ],
-    "correctAnswer": 0,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 05-11-2018 (Shift-II) | Slide: Page 17",
-    "slidePage": 17
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Cuscuta) | Exam: RRB Group-D 16-11-2018 (Shift-I) | Slide: Page 32",
+    "slidePage": 32
   },
   {
     "id": "sci_nutrition_q011",
@@ -31042,64 +31042,64 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "What is used to remove permanent hardness of water?",
+    "question": "What is the colour of alkali?",
     "options": [
-      "Baking soda",
-      "Bleaching powder",
-      "Washing soda",
-      "Sodium Hydroxide"
+      "Blue with phenolphthalein and yellow with methyl orange",
+      "Yellow with phenolphthalein and blue with methyl orange",
+      "Pink with phenolphthalein and yellow with methyl orange",
+      "Yellow with phenolphthalein and pink with methyl orange"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Washing soda) | Exam: ALP 29 Nov 2024 | 3 rd Shift | Slide: Page 110",
-    "slidePage": 110
+    "explanation": "Correct Answer: Option C | (Pink with phenolphthalein and yellow with methyl orange) | Exam: RRB JE 24.05.2019 (Shift-III) | Slide: Page 18",
+    "slidePage": 18
   },
   {
     "id": "sci_acids_bases_and_salt_q053",
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "Washing soda is:",
+    "question": "A solution has a pH of 12. Which ion concentration is higher in this solution?",
     "options": [
-      "A base",
-      "An acidic salt",
-      "A neutral salt",
-      "A basic salt"
+      "Both H+ and OH- are equal",
+      "More number S2- ions and more Cl-1",
+      "Only OH-",
+      "Only H+"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (A basic salt) | Exam: Group-D- 16 09 2022 (Shift-III) | Slide: Page 93",
-    "slidePage": 93
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Only OH-) | Exam: RRB JE 18/12/2024 1st shift | Slide: Page 80",
+    "slidePage": 80
   },
   {
     "id": "sci_acids_bases_and_salt_q054",
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "Which of the following raw materials is used to make washing soda ?",
+    "question": "What is the role of chlorine gas in the preparation of bleaching powder?",
     "options": [
-      "MgCO 3",
-      "NaOH",
-      "NaHCO 3",
-      "NaCl"
+      "It reacts with dry slaked lime to form bleaching powder.",
+      "It is used as a catalyst for the reaction.",
+      "It reacts with water to produce hydrogen peroxide.",
+      "It is used to neutralise calcium hydroxide."
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (NaCl) | Exam: RRB Group-D-06 10 2022 (Shift-III) | Slide: Page 115",
-    "slidePage": 115
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (It reacts with dry slaked lime to form bleaching powder.) | Exam: RRB JE 17/12/2024 3rd shift | Slide: Page 101",
+    "slidePage": 101
   },
   {
     "id": "sci_acids_bases_and_salt_q055",
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "What is used in the preparation of calcium sulphate hemihydrate?",
+    "question": "When Plaster of Paris is mixed with water, it undergoes which of the following changes?",
     "options": [
-      "Sodium Hydrogen Carbonate",
-      "Sodium Carbonate",
-      "Gypsum",
-      "Copper Sulphate"
+      "It loses all its water molecules.",
+      "It dissolves completely.",
+      "It produces a gas.",
+      "It changes to gypsum."
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Gypsum) | Exam: ALP 29 Nov 2024 3 rd Shift | Slide: Page 118",
-    "slidePage": 118
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (It changes to gypsum.) | Exam: RRB JE 17/12/2024 3rd shift | Slide: Page 121",
+    "slidePage": 121
   },
   {
     "id": "sci_atom_and_molecule_q001",
@@ -31619,32 +31619,32 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Which of the following is an allotrope of carbon?",
+    "question": "Which of the following is not a homologous series?",
     "options": [
-      "Diamond",
-      "Quartz",
-      "Alum",
-      "Limestone"
+      "CH4, C2H6, C3H8, C4H10",
+      "C3H7OH, C4H9OH, C5H11OH, C6H13OH",
+      "C2H2, C3H4, C4H6, C5H8",
+      "C2H4, C2H6, C3H6, C4H8"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Diamond) | Exam: RRB Group D 19 12 25 Shift-III | Slide: Page 16",
-    "slidePage": 16
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (C2H4, C2H6, C3H6, C4H8) | Exam: RRB JE 17-12-2024 (Shift-2) | Slide: Page 114",
+    "slidePage": 114
   },
   {
     "id": "sci_carbon_and_its_compounds_q016",
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "The allotrope of which non-metal conducts electricity?",
+    "question": "Which of the following statements are correct for benzene? a. It is a six-membered cyclic carbon compound. b. It has three single and three double bonds. c. The molecular formula is C6H14.",
     "options": [
-      "Sulfur",
-      "Phosphorous",
-      "Carbon",
-      "Oxygen"
+      "Only a and c",
+      "Only b and c",
+      "a, b and c",
+      "Only a and b"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Carbon) | Exam: RRB Group-D-30 09 2022 (Shift-I) | Slide: Page 23",
-    "slidePage": 23
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Only a and b) | Exam: RRB Group D 29/12/25 Shift-II | Slide: Page 72",
+    "slidePage": 72
   },
   {
     "id": "sci_carbon_and_its_compounds_q017",
@@ -33811,16 +33811,16 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Chemical Reactions and Equations",
-    "question": "Which is the not an example of redox reaction . (i) ZnO + C → Zn + CO (ii) MnO 2  + 4HCI → MnCl 2  + 2H 2 O + Cl 2 (iii) 4Na + O 2  + 2Na2O (iv) AgNO 3  + NaCl → AgCl + NaNO 3",
+    "question": "Double displacement reactions usually occur in:",
     "options": [
-      "i",
-      "iv",
-      "iii",
-      "ii"
+      "Aqueous solution",
+      "Gaseous state",
+      "Solid state",
+      "All three states"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (iv) | Exam: RRB Group-D- 17 08 2022 (Shift-II) | Slide: Page 63",
-    "slidePage": 63
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Aqueous solution) | Exam: RRB JE 16/12/2024 3rd shift | Slide: Page 55",
+    "slidePage": 55
   },
   {
     "id": "sci_chemical_reactions_and_equations_q041",
@@ -34931,32 +34931,32 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Which of the following is a chemical change?",
+    "question": "Which of the following statements about the effects of pressure changes on the states of matter is/are correct? Statement I: Applying pressure and reducing temperature can liquefy gases. Statement II: Solid carbon dioxide is stored under high pressure.",
     "options": [
-      "Conversion of milk into curd",
-      "Sublimation of dry ice",
-      "Dissolve sand in water",
-      "Dissolve sugar in water"
+      "Only statement I is correct.",
+      "Both statements I and II are correct.",
+      "Only statement II is correct.",
+      "Neither statement I nor II is correct."
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Conversion of milk into curd) | Exam: RRB Group-D 12-10-2018 (Shift-I) | Slide: Page 53",
-    "slidePage": 53
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Both statements I and II are correct.) | Exam: RRB Technicians Grade III 24/12/2024 Shift 1 | Slide: Page 105",
+    "slidePage": 105
   },
   {
     "id": "sci_matter_q021",
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Which of the following is not a physical change?",
+    "question": "Which of the following statements is/are correct regarding the liquid state of matter? Statement I: Liquids have a fixed volume but an indefinite shape. Statement II: The diffusion rate in liquids is higher than in solids.",
     "options": [
-      "Melting of solids into liquids",
-      "Liquefaction of gases into liquids",
-      "Fermentation of substances",
-      "Evaporation of liquids in gases"
+      "Neither (i) nor (ii) are correct.",
+      "Both (i) and (ii) are correct.",
+      "Only (ii) is correct.",
+      "Only (i) is correct."
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Fermentation of substances) | Exam: RRB JE 24.05.2019 (Shift-I) | Slide: Page 54",
-    "slidePage": 54
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Both (i) and (ii) are correct.) | Exam: RRB Technicians Grade III 30/12/2024 Shift 2 | Slide: Page 107",
+    "slidePage": 107
   },
   {
     "id": "sci_matter_q022",
@@ -35347,16 +35347,16 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Face cream belongs to which type of colloid form?",
+    "question": "How many states of matter have been discovered by scientists so far?",
     "options": [
-      "Solid",
-      "Foam",
-      "Gel",
-      "Emulsion"
+      "2",
+      "5",
+      "4",
+      "3"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Emulsion) | Exam: RRB Technicians Grade III 23 12 2024 Shift 3 | Slide: Page 97",
-    "slidePage": 97
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (5) | Exam: RRB Group-D 01-10-2018 (Shift-II) | Slide: Page 117",
+    "slidePage": 117
   },
   {
     "id": "sci_metals_and_non_metals_q001",
@@ -36147,16 +36147,16 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Metals and Non-Metals",
-    "question": "Which of the following metals are found in free state?",
+    "question": "Na2O is a __________ oxide.",
     "options": [
-      "Sodium",
-      "Gold",
-      "Potassium",
-      "Calcium"
+      "Alkaline",
+      "Inactive",
+      "Acidic",
+      "Amphoteric"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Gold) | Exam: ALP & Tec. (31-08-18 Shift-III) | Slide: Page 80",
-    "slidePage": 80
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (Alkaline) | Exam: RRB Group-D - 24/08/2022 (Shift-I) | Slide: Page 31",
+    "slidePage": 31
   },
   {
     "id": "sci_metals_and_non_metals_q051",
@@ -38100,16 +38100,16 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Electricity",
-    "question": "Select the correct pairs from the following options:",
+    "question": "Which of the following factors do NOT affect the resistance of a conductor (at constant temperature)? i) Area of cross-section of the conductor. ii) Current flowing through the conductor. iii) Length of the conductor.",
     "options": [
-      "(i) Resistance - volt",
-      "(i) Resistance - ampere metre",
-      "(i) Resistance – ohm",
-      "(i) Resistance - ohm"
+      "Both (i) and (iii)",
+      "Both (i) and (ii)",
+      "Only (iii)",
+      "Only (ii)"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | ((i) Resistance - ohm) | Exam: RRB Technicians Grade III 26 12 2024 Shift 2 | Slide: Page 9",
-    "slidePage": 9
+    "explanation": "Correct Answer: Option D | (Only (ii)) | Exam: RRB Technicians Grade III 26/12/2024 Shift 3 | Slide: Page 44",
+    "slidePage": 44
   },
   {
     "id": "sci_electricity_q029",
@@ -40375,16 +40375,16 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Human Eye",
-    "question": "Lenses with two focal lengths are used by persons suffering from ___________.",
+    "question": "A person suffering from myopia can clearly see objects up to 100 cm, but beyond that, everything appears blurred. What is the power of the corrective lens required to correct the vision?",
     "options": [
-      "Myopia and hypermetropia",
-      "Myopia or hypermetropia",
-      "Myopia but not hypermetropia",
-      "Hypermetropia but not myopia"
+      "-1.0 D",
+      "+1.0 D",
+      "-2.0 D",
+      "+2.0 D"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Myopia and hypermetropia) | Exam: RRB Group-D 18-09-2018 (Shift-II) | Slide: Page 44",
-    "slidePage": 44
+    "explanation": "Correct Answer: Option A | (-1.0 D) | Far point v = -100 cm = -1 m, object u = infinity; 1/f = 1/v - 1/u = -1 D | Slide: Page 28",
+    "slidePage": 28
   },
   {
     "id": "sci_magnetic_effect_of_current_q001",

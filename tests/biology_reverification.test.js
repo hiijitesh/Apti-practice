@@ -98,5 +98,23 @@ describe('Biology Reverification & Slide Page Integrity Tests', () => {
       );
     });
   });
+
+  test('Zero duplicate question stems across all 16 Biology chapters', () => {
+    const chapters = [...new Set(biologyQuestions.map(q => q.chapter))];
+    chapters.forEach(ch => {
+      const chQuestions = biologyQuestions.filter(q => q.chapter === ch);
+      const stemCounts = {};
+      chQuestions.forEach(q => {
+        const cleanStem = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+        stemCounts[cleanStem] = (stemCounts[cleanStem] || 0) + 1;
+      });
+      const duplicates = Object.entries(stemCounts).filter(([_, count]) => count > 1);
+      assert.equal(
+        duplicates.length,
+        0,
+        `Biology chapter "${ch}" has duplicate questions: ${JSON.stringify(duplicates)}`
+      );
+    });
+  });
 });
 

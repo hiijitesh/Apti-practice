@@ -68,4 +68,23 @@ describe('Data Integrity Tests', () => {
       assert.ok(q.diagram.startsWith('data:image/png;base64,'), `Diagram for ${q.id} must be a valid PNG Data URI`);
     });
   });
+
+  test('zero duplicate question stems across all 52 chapters', () => {
+    const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
+    const chapters = [...new Set(questions.map(q => q.chapter))];
+    chapters.forEach(ch => {
+      const chQuestions = questions.filter(q => q.chapter === ch);
+      const stemCounts = {};
+      chQuestions.forEach(q => {
+        const cleanStem = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
+        stemCounts[cleanStem] = (stemCounts[cleanStem] || 0) + 1;
+      });
+      const duplicates = Object.entries(stemCounts).filter(([_, count]) => count > 1);
+      assert.equal(
+        duplicates.length,
+        0,
+        `Chapter "${ch}" has duplicate questions: ${JSON.stringify(duplicates)}`
+      );
+    });
+  });
 });
