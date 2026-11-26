@@ -108,4 +108,67 @@ describe('RK Ranjan Math Integrity & Zero Discrepancy Tests', () => {
     const pctQuestions = QuestionRepository.getByChapter('Percentage', 'rk_ranjan');
     assert.ok(pctQuestions.length >= 200, `Percentage should have 200+ questions, got ${pctQuestions.length}`);
   });
+
+  test('RK Ranjan chapters follow Dixit 1-17 order followed by remaining 16 chapters in syllabus order', () => {
+    const vm = require('vm');
+    const QuestionRepository = require('../src/repositories/question.repository');
+    const expectedRkOrder = [
+      'Percentage',
+      'Ratio & Proportion',
+      'Ages',
+      'Mixture & Alligation',
+      'Average',
+      'Simple Interest',
+      'Compound Interest',
+      'Profit & Loss',
+      'Discount',
+      'Time & Work',
+      'Work & Wages',
+      'Pipe & Cistern',
+      'Partnership',
+      'Time, Speed & Distance',
+      'Train',
+      'Boat & Stream',
+      'Race & Circular Motion',
+      'Number System',
+      'HCF & LCM',
+      'Simplification',
+      'Surds & Indices',
+      'AP & GP',
+      'Algebra',
+      'Quadratic Equation',
+      'Maxima & Minima',
+      'Geometry',
+      'Co-ordinate Geometry',
+      'Mensuration 2D',
+      'Mensuration 3D',
+      'Trigonometry',
+      'Height & Distance',
+      'Statistics',
+      'Probability'
+    ];
+
+    QuestionRepository.reload();
+    const rkChapters = QuestionRepository.getRkChapters();
+    assert.deepEqual(
+      rkChapters.map(c => c.name),
+      expectedRkOrder
+    );
+
+    // Browser UMD sortChapters preserves the same order for static rkChapters
+    const orderScript = fs.readFileSync(
+      path.join(__dirname, '../public/js/utils/chapter-order.js'),
+      'utf8'
+    );
+    const sandbox = { window: {}, globalThis: {} };
+    vm.runInNewContext(orderScript, sandbox);
+    const sorted = sandbox.window.AptiPrep.ChapterOrder.sortChapters([...rkChapters].reverse());
+    assert.deepEqual(
+      Array.from(sorted.map(c => c.name)),
+      expectedRkOrder
+    );
+
+    const appJs = fs.readFileSync(path.join(__dirname, '../public/app.js'), 'utf8');
+    assert.match(appJs, /this\.rkChapters = this\.sortChapters\(Object\.values\(chapMap\)\)/);
+  });
 });

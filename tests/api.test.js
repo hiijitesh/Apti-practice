@@ -24,19 +24,87 @@ describe('API Integration Tests', () => {
     }
   });
 
-  test('GET /api/chapters returns all 52 chapters and 2992 total questions', async () => {
+  test('GET /api/chapters returns all 52 chapters and 2994 total questions', async () => {
     const res = await fetch(`${baseUrl}/api/chapters`);
     assert.equal(res.status, 200);
     const data = await res.json();
 
-    assert.equal(data.totalQuestions, 2992);
+    assert.equal(data.totalQuestions, 2994);
     assert.equal(data.totalChapters, 52);
     assert.equal(data.chapters.length, 52);
 
-    const aptiCount = data.chapters.filter(c => (c.subject || '').includes('Aptitude')).length;
+    const aptiChapters = data.chapters
+      .filter(c => (c.subject || '').includes('Aptitude'))
+      .map(c => c.name);
     const sciCount = data.chapters.filter(c => (c.subject || '').includes('Science')).length;
-    assert.equal(aptiCount, 17);
+    assert.equal(aptiChapters.length, 17);
     assert.equal(sciCount, 35);
+    assert.deepEqual(aptiChapters, [
+      'Percentage',
+      'Ratio & Proportion',
+      'Ages',
+      'Mixture & Alligation',
+      'Average',
+      'Simple Interest',
+      'Compound Interest',
+      'Profit & Loss',
+      'Discount',
+      'Time & Work',
+      'Work & Wages',
+      'Pipe & Cistern',
+      'Partnership',
+      'Time, Speed & Distance',
+      'Trains',
+      'Boat & Stream',
+      'Race'
+    ]);
+  });
+
+  test('GET /api/rk-chapters returns all 33 RK Ranjan chapters in syllabus order', async () => {
+    const res = await fetch(`${baseUrl}/api/rk-chapters`);
+    assert.equal(res.status, 200);
+    const data = await res.json();
+
+    assert.equal(data.totalChapters, 33);
+    assert.equal(data.totalQuestions, 5327);
+    assert.deepEqual(
+      data.chapters.map(c => c.name),
+      [
+        'Percentage',
+        'Ratio & Proportion',
+        'Ages',
+        'Mixture & Alligation',
+        'Average',
+        'Simple Interest',
+        'Compound Interest',
+        'Profit & Loss',
+        'Discount',
+        'Time & Work',
+        'Work & Wages',
+        'Pipe & Cistern',
+        'Partnership',
+        'Time, Speed & Distance',
+        'Train',
+        'Boat & Stream',
+        'Race & Circular Motion',
+        'Number System',
+        'HCF & LCM',
+        'Simplification',
+        'Surds & Indices',
+        'AP & GP',
+        'Algebra',
+        'Quadratic Equation',
+        'Maxima & Minima',
+        'Geometry',
+        'Co-ordinate Geometry',
+        'Mensuration 2D',
+        'Mensuration 3D',
+        'Trigonometry',
+        'Height & Distance',
+        'Statistics',
+        'Probability'
+      ]
+    );
   });
 
   test('GET /api/questions?chapter=Ages returns filtered questions for chapter', async () => {

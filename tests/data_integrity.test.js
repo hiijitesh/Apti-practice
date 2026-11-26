@@ -11,13 +11,13 @@ describe('Data Integrity Tests', () => {
     assert.ok(fs.existsSync(questionsPath), 'public/data/questions.json should exist');
   });
 
-  test('questions file contains 2992 questions with unique IDs', () => {
+  test('questions file contains 2994 questions with unique IDs', () => {
     const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
 
-    assert.equal(questions.length, 2992, 'Questions file should contain 2992 questions');
+    assert.equal(questions.length, 2994, 'Questions file should contain 2994 questions');
 
     const questionIds = new Set(questions.map(q => q.id));
-    assert.equal(questionIds.size, 2992, 'All question IDs must be unique');
+    assert.equal(questionIds.size, 2994, 'All question IDs must be unique');
   });
 
   test('every question adheres strictly to CBT schema', () => {
@@ -42,12 +42,12 @@ describe('Data Integrity Tests', () => {
     });
   });
 
-  test('subject distribution: 1342 Aptitude and 1650 Science across 52 chapters', () => {
+  test('subject distribution: 1344 Aptitude and 1650 Science across 52 chapters', () => {
     const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     const apti = questions.filter(q => q.subject === 'Quantitative Aptitude');
     const science = questions.filter(q => q.subject === 'General Science');
 
-    assert.equal(apti.length, 1342, 'Quantitative Aptitude must have 1342 questions');
+    assert.equal(apti.length, 1344, 'Quantitative Aptitude must have 1344 questions');
     assert.equal(science.length, 1650, 'General Science must have 1650 questions');
 
     const chapters = new Set(questions.map(q => q.chapter));

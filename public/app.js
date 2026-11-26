@@ -1756,6 +1756,18 @@ class AptiPrepApp {
   // DATA FETCHING (DUAL MODE: API & STATIC)
   // ==========================================
 
+  sortChapters(chapters) {
+    if (window.AptiPrep && window.AptiPrep.ChapterOrder) {
+      return window.AptiPrep.ChapterOrder.sortChapters(chapters);
+    }
+    return [...(chapters || [])].sort((a, b) => {
+      const subjA = a.subject || '';
+      const subjB = b.subject || '';
+      if (subjA !== subjB) return subjA.localeCompare(subjB);
+      return (a.name || '').localeCompare(b.name || '');
+    });
+  }
+
   async loadChapters() {
     const isLocalhost = Boolean(
       window.location.hostname === 'localhost' ||
@@ -1771,7 +1783,7 @@ class AptiPrepApp {
         if (res.ok) {
           const data = await res.json();
           if (data.chapters && data.chapters.length > 0) {
-            this.chapters = data.chapters;
+            this.chapters = this.sortChapters(data.chapters);
             this.updateDashboardBadges(data.totalQuestions, data.totalChapters);
             this.renderChaptersGrid();
             this.populateChapterDropdown();
@@ -1808,10 +1820,7 @@ class AptiPrepApp {
         chapterMap[chap].count += 1;
       });
 
-      this.chapters = Object.values(chapterMap).sort((a, b) => {
-        if (a.subject !== b.subject) return a.subject.localeCompare(b.subject);
-        return a.name.localeCompare(b.name);
-      });
+      this.chapters = this.sortChapters(Object.values(chapterMap));
 
       this.updateDashboardBadges(this.allQuestions.length, this.chapters.length);
       this.renderChaptersGrid();
@@ -1871,7 +1880,7 @@ class AptiPrepApp {
       chapMap[chap].count += 1;
     });
 
-    this.rkChapters = Object.values(chapMap).sort((a, b) => a.name.localeCompare(b.name));
+    this.rkChapters = this.sortChapters(Object.values(chapMap));
 
     const badgeRk = document.getElementById('badge-count-rk-ranjan');
     if (badgeRk) badgeRk.textContent = `(${this.rkChapters.length})`;

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { QUESTIONS_FILE, RK_RANJAN_FILE } = require('../config');
+const { sortChapters } = require('../../public/js/utils/chapter-order');
 
 class QuestionRepository {
   constructor(filePath = QUESTIONS_FILE, rkFilePath = RK_RANJAN_FILE) {
@@ -166,10 +167,7 @@ class QuestionRepository {
       chaptersMap[chap].count += 1;
     }
 
-    return Object.values(chaptersMap).sort((a, b) => {
-      if (a.subject !== b.subject) return a.subject.localeCompare(b.subject);
-      return a.name.localeCompare(b.name);
-    });
+    return sortChapters(Object.values(chaptersMap));
   }
 }
 

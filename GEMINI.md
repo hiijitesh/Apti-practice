@@ -69,8 +69,8 @@ When extracting questions from PDF slide presentations (such as Neeraj Sir / Sci
 
 ## 3. Database State as of November 2026
 
-* **Total Combined Questions**: `2,992`
-* **Quantitative Aptitude**: `1,342` across 17 chapters
+* **Total Combined Questions**: `2,994`
+* **Quantitative Aptitude**: `1,344` across 17 chapters
 * **General Science**: `1,650` across 35 chapters
   - **Physics**: `399` across 10 chapters (100% mapped to slide pages)
   - **Chemistry**: `465` across 8 chapters (100% mapped to slide pages)
@@ -78,12 +78,12 @@ When extracting questions from PDF slide presentations (such as Neeraj Sir / Sci
   - **Top 300 Science**: `170` questions
 
 ### Dedicated Test Suites
-- `tests/dixit_aptitude_integrity.test.js`: Validates 1,342 Dixit Aptitude questions, 0 duplicate stems across all 17 chapters, 0 dummy options, 0 exam tags in options, 0 stem in options, zero Hindi.
+- `tests/dixit_aptitude_integrity.test.js`: Validates 1,344 Dixit Aptitude questions, 0 duplicate stems across all 17 chapters, 0 dummy options, 0 exam tags in options, 0 stem in options, zero Hindi.
 - `tests/physics_reverification.test.js`: Validates 399 questions, slide numbers, 0 duplicate stems across all 10 Physics chapters, zero Hindi.
 - `tests/chemistry_reverification.test.js`: Validates 465 questions, slide numbers, 0 duplicate stems across all 8 Chemistry chapters, zero Hindi.
 - `tests/biology_reverification.test.js`: Validates 616 questions, slide numbers, 0 duplicate stems across all 16 Biology chapters, zero Hindi.
-- `tests/data_integrity.test.js`: Validates CBT schema, 2,992 total count, 1,650 science count, 0 duplicate stems across all 52 chapters.
-- `tests/api.test.js`: Validates 52 chapters and 2,992 API response count.
+- `tests/data_integrity.test.js`: Validates CBT schema, 2,994 total count, 1,650 science count, 0 duplicate stems across all 52 chapters.
+- `tests/api.test.js`: Validates 52 chapters and 2,994 API response count.
 
 ---
 
