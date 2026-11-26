@@ -2911,6 +2911,17 @@ class AptiPrepApp {
       if (backdrop) {
         backdrop.classList.toggle('hidden', !this.practice.drawerOpen || window.innerWidth >= 1024);
       }
+      if (this.practice.drawerOpen) {
+        setTimeout(() => {
+          const grid = document.getElementById('practice-palette-grid');
+          if (grid) {
+            const currentBtn = grid.querySelector(`[data-palette-idx="${this.practice.currentIndex}"]`);
+            if (currentBtn && typeof currentBtn.scrollIntoView === 'function') {
+              currentBtn.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'smooth' });
+            }
+          }
+        }, 50);
+      }
     }
   }
 
@@ -2965,12 +2976,21 @@ class AptiPrepApp {
 
       return `
         <button onclick="app.jumpPracticeQuestion(${idx})"
+                data-palette-idx="${idx}"
                 class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition relative">
           ${idx + 1}
           ${isMarked ? '<span class="absolute top-0.5 right-0.5 w-1.5 h-1.5 rounded-full bg-purple-500"></span>' : ''}
         </button>
       `;
     }).join('');
+
+    // Auto-scroll active question button into view inside the palette
+    requestAnimationFrame(() => {
+      const currentBtn = grid.querySelector(`[data-palette-idx="${this.practice.currentIndex}"]`);
+      if (currentBtn && typeof currentBtn.scrollIntoView === 'function') {
+        currentBtn.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
+      }
+    });
   }
 
   promptSubmitChapterTest() {
@@ -3608,6 +3628,17 @@ class AptiPrepApp {
       if (backdrop) {
         backdrop.classList.toggle('hidden', !this.mock.drawerOpen || window.innerWidth >= 1024);
       }
+      if (this.mock.drawerOpen) {
+        setTimeout(() => {
+          const grid = document.getElementById('mock-palette-grid');
+          if (grid) {
+            const currentBtn = grid.children[this.mock.currentIndex];
+            if (currentBtn && typeof currentBtn.scrollIntoView === 'function') {
+              currentBtn.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'smooth' });
+            }
+          }
+        }, 50);
+      }
     }
   }
 
@@ -3762,6 +3793,14 @@ class AptiPrepApp {
 
     const mobPalText = document.getElementById('mock-mobile-palette-btn-text');
     if (mobPalText) mobPalText.textContent = `Palette (${answeredCount + markedAnsweredCount}/${this.mock.questions.length})`;
+
+    // Auto-scroll active question button into view in mock palette
+    requestAnimationFrame(() => {
+      const currentBtn = grid.children[this.mock.currentIndex];
+      if (currentBtn && typeof currentBtn.scrollIntoView === 'function') {
+        currentBtn.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
+      }
+    });
   }
 
   promptSubmitMock() {
