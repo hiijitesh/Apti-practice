@@ -51,6 +51,7 @@ class AptiPrepApp {
       questionTimes: {}, // { [questionId || qIndex]: elapsed seconds }
       timerInterval: null,
       modeType: 'study', // Default: 'study' (instant feedback) or 'test' (show answers at end)
+      tier: 'all', // 'all' | 'pro' | 'classroom'
       drawerOpen: false,
       startTime: null
     };
@@ -73,8 +74,9 @@ class AptiPrepApp {
     };
 
     // Subject Filters
-    this.currentSubjectFilter = 'all'; // 'all' | 'aptitude' | 'science'
+    this.currentSubjectFilter = 'all'; // 'all' | 'aptitude' | 'science' | 'rk_ranjan' | 'top300'
     this.currentSubSubjectFilter = 'all'; // 'all' | 'Biology' | 'Chemistry' | 'Physics'
+    this.currentRkTier = 'all'; // 'all' | 'pro' | 'classroom'
 
     // Fullscreen & Auto-Pause State
     this.isTestPaused = false;
@@ -85,6 +87,7 @@ class AptiPrepApp {
     // Modal Chapter Select State
     this.modalSubject = 'aptitude';
     this.modalScienceSub = 'all';
+    this.modalRkTier = 'all'; // 'all' | 'pro' | 'classroom'
 
     // Revision Materials & PDFs State
     this.revision = {
@@ -541,13 +544,18 @@ class AptiPrepApp {
   getChapterStudyStorageKey(chapterName) {
     const email = (this.currentUserEmail || 'guest@local').toLowerCase().replace(/[^a-z0-9]/g, '_');
     const chap = (chapterName || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const tier = (arguments.length > 1 ? arguments[1] : this.practice?.tier) || 'all';
+    if (tier && tier !== 'all') {
+      return `apti_study_${email}_${chap}_${tier.toLowerCase().replace(/[^a-z0-9]/g, '_')}`;
+    }
     return `apti_study_${email}_${chap}`;
   }
 
   saveChapterStudyProgress() {
     if (!this.practice || !this.practice.chapter || this.practice.modeType !== 'study') return;
     try {
-      const key = this.getChapterStudyStorageKey(this.practice.chapter);
+      const tier = this.practice.tier || 'all';
+      const key = this.getChapterStudyStorageKey(this.practice.chapter, tier);
       const questions = Array.isArray(this.practice.questions) ? this.practice.questions : [];
       const answers = this.practice.userAnswers || {};
       let correctCount = 0;
@@ -560,6 +568,7 @@ class AptiPrepApp {
       const data = {
         chapter: this.practice.chapter,
         subjectFilter: this.practiceSubjectFilter || 'all',
+        tier,
         totalQuestions: questions.length,
         correctCount,
         userAnswers: answers,
@@ -576,8 +585,12 @@ class AptiPrepApp {
 
   loadChapterStudyProgress(chapterName) {
     try {
-      const key = this.getChapterStudyStorageKey(chapterName);
-      const raw = localStorage.getItem(key);
+      const activeTier = (arguments.length > 1 ? arguments[1] : this.practice?.tier) || 'all';
+      const key = this.getChapterStudyStorageKey(chapterName, activeTier);
+      let raw = localStorage.getItem(key);
+      if (!raw && activeTier !== 'all') {
+        raw = localStorage.getItem(this.getChapterStudyStorageKey(chapterName, 'all'));
+      }
       if (!raw) return null;
       const data = JSON.parse(raw);
       if (data && typeof data.userAnswers === 'object') {
@@ -591,7 +604,8 @@ class AptiPrepApp {
 
   clearChapterStudyProgress(chapterName) {
     try {
-      const key = this.getChapterStudyStorageKey(chapterName || this.practice?.chapter);
+      const activeTier = (arguments.length > 1 ? arguments[1] : this.practice?.tier) || 'all';
+      const key = this.getChapterStudyStorageKey(chapterName || this.practice?.chapter, activeTier);
       localStorage.removeItem(key);
     } catch (e) {}
   }
@@ -618,15 +632,20 @@ class AptiPrepApp {
         const isRk = data.subjectFilter === 'rk_ranjan' || (!coreMatch && !!rkMatch);
         const chapInfo = isRk ? (rkMatch || coreMatch) : (coreMatch || rkMatch);
         const totalQuestions = data.totalQuestions || (chapInfo ? chapInfo.count : 0);
+        const tier = data.tier || 'all';
+        let subSubjectTitle = isRk ? 'RK Ranjan Math' : (chapInfo?.subSubject || chapInfo?.subject || 'Practice');
+        if (isRk && tier === 'pro') subSubjectTitle = 'RK Ranjan • Pro Level';
+        else if (isRk && tier === 'classroom') subSubjectTitle = 'RK Ranjan • ClassRoom';
 
         sessions.push({
           type: 'study',
           storageKey: key,
           chapter: data.chapter,
+          tier,
           subjectFilter: data.subjectFilter && data.subjectFilter !== 'all'
             ? data.subjectFilter
             : (isRk ? 'rk_ranjan' : ((chapInfo?.subject || '').includes('Science') ? 'science' : 'aptitude')),
-          subSubject: isRk ? 'RK Ranjan Math' : (chapInfo?.subSubject || chapInfo?.subject || 'Practice'),
+          subSubject: subSubjectTitle,
           answeredCount,
           correctCount: typeof data.correctCount === 'number' ? data.correctCount : null,
           totalQuestions,
@@ -693,7 +712,7 @@ class AptiPrepApp {
     return [...sessions, ...this.getSavedStudySessions()].sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
   }
 
-  resumeHomeAttemptSession(type, chapterName = '', subjectFilter = '') {
+  resumeHomeAttemptSession(type, chapterName = '', subjectFilter = '', tier = null) {
     if (type === 'mock') {
       try {
         const rawMock = localStorage.getItem('apti_active_mock');
@@ -712,7 +731,7 @@ class AptiPrepApp {
 
     if (chapterName) {
       this.practice.modeType = 'study';
-      this.startPractice(chapterName, subjectFilter || null);
+      this.startPractice(chapterName, subjectFilter || null, tier || null);
     }
   }
 
@@ -769,6 +788,7 @@ class AptiPrepApp {
         questionTimes: this.practice.questionTimes || {},
         modeType: this.practice.modeType || 'study',
         practiceSubjectFilter: this.practiceSubjectFilter || 'all',
+        tier: this.practice.tier || 'all',
         startTime: this.practice.startTime || Date.now(),
         savedAt: Date.now(),
         userEmail: this.currentUserEmail || 'guest@local'
@@ -806,8 +826,12 @@ class AptiPrepApp {
     this.practice.reviewFlags = saved.reviewFlags || {};
     this.practice.questionTimes = saved.questionTimes || {};
     this.practice.modeType = saved.modeType || 'study';
+    this.practice.tier = saved.tier || 'all';
     this.practice.startTime = saved.startTime || Date.now();
     this.practiceSubjectFilter = saved.practiceSubjectFilter || 'all';
+    if (this.practiceSubjectFilter === 'rk_ranjan') {
+      this.currentRkTier = saved.tier || 'all';
+    }
 
     this.setPracticeChapterTitle(saved.chapter);
 
@@ -817,6 +841,17 @@ class AptiPrepApp {
     if (subjSelect) subjSelect.value = this.practiceSubjectFilter;
     const dd = document.getElementById('practice-chapter-dropdown');
     if (dd) dd.value = saved.chapter;
+
+    // Toggle and sync RK Ranjan Tier bar in practice header
+    const rkTierToggle = document.getElementById('practice-rk-tier-toggle');
+    if (rkTierToggle) {
+      if (this.practiceSubjectFilter === 'rk_ranjan') {
+        rkTierToggle.classList.remove('hidden');
+        this.updatePracticeRkTierUI();
+      } else {
+        rkTierToggle.classList.add('hidden');
+      }
+    }
 
     this.setPracticeModeType(this.practice.modeType);
     this.switchView('practice');
@@ -1830,12 +1865,19 @@ class AptiPrepApp {
     this.renderModalChapters();
   }
 
+  setModalRkTierTab(tier) {
+    this.modalRkTier = tier;
+    this.updateModalTabsUI();
+    this.renderModalChapters();
+  }
+
   updateModalTabsUI() {
     const tabApti = document.getElementById('modal-tab-aptitude');
     const tabRk = document.getElementById('modal-tab-rk-ranjan');
     const tabSci = document.getElementById('modal-tab-science');
     const tabTop300 = document.getElementById('modal-tab-top300');
     const sciBar = document.getElementById('modal-science-subfilter-bar');
+    const rkBar = document.getElementById('modal-rk-subfilter-bar');
 
     const activeTab = 'flex-1 py-1.5 rounded-md font-semibold transition bg-white text-zinc-900 shadow-xs text-center';
     const inactiveTab = 'flex-1 py-1.5 rounded-md font-medium text-zinc-600 hover:text-zinc-900 transition text-center';
@@ -1852,6 +1894,9 @@ class AptiPrepApp {
     if (sciBar) {
       sciBar.classList.toggle('hidden', this.modalSubject !== 'science');
     }
+    if (rkBar) {
+      rkBar.classList.toggle('hidden', this.modalSubject !== 'rk_ranjan');
+    }
 
     if (this.modalSubject === 'science') {
       const subTabs = {
@@ -1867,6 +1912,32 @@ class AptiPrepApp {
             btn.className = 'px-2 py-0.5 rounded font-semibold btn-primary text-white transition';
           } else {
             btn.className = 'px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition';
+          }
+        }
+      });
+    }
+
+    if (this.modalSubject === 'rk_ranjan') {
+      const rkModalTabs = {
+        'all': document.getElementById('modal-rk-subtab-all'),
+        'pro': document.getElementById('modal-rk-subtab-pro'),
+        'classroom': document.getElementById('modal-rk-subtab-classroom')
+      };
+      Object.keys(rkModalTabs).forEach(k => {
+        const btn = rkModalTabs[k];
+        if (btn) {
+          if (k === this.modalRkTier) {
+            if (k === 'pro') {
+              btn.className = 'px-2 py-0.5 rounded font-bold bg-violet-600 text-white transition shadow-xs';
+            } else {
+              btn.className = 'px-2 py-0.5 rounded font-semibold btn-primary text-white transition';
+            }
+          } else {
+            if (k === 'pro') {
+              btn.className = 'px-2 py-0.5 rounded font-bold text-violet-700 hover:text-violet-900 transition';
+            } else {
+              btn.className = 'px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition';
+            }
           }
         }
       });
@@ -1912,8 +1983,24 @@ class AptiPrepApp {
         badge = '<span class="text-[9px] font-bold uppercase tracking-wider text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded border border-violet-200/60">Phys</span>';
       }
 
+      const isRkModal = (this.modalSubject === 'rk_ranjan');
+      let displayedCount = ch.count;
+      let modalBadge = badge;
+      let modalTierArg = '';
+      if (isRkModal) {
+        if (this.modalRkTier === 'pro') {
+          displayedCount = ch.proCount !== undefined ? ch.proCount : ch.count;
+          modalBadge = '<span class="text-[9px] font-bold uppercase tracking-wider text-violet-800 bg-violet-100 px-1.5 py-0.5 rounded border border-violet-200">⭐ Pro</span>';
+          modalTierArg = ", 'pro'";
+        } else if (this.modalRkTier === 'classroom') {
+          displayedCount = ch.classroomCount !== undefined ? ch.classroomCount : ch.count;
+          modalBadge = '<span class="text-[9px] font-medium uppercase tracking-wider text-zinc-700 bg-zinc-100 px-1.5 py-0.5 rounded border border-zinc-200">ClassRoom</span>';
+          modalTierArg = ", 'classroom'";
+        }
+      }
+
       const clickHandler = (this.modalSubject === 'rk_ranjan')
-        ? `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan')`
+        ? `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan'${modalTierArg})`
         : `app.startPracticeFromModal('${ch.name.replace(/'/g, "\\'")}', '${this.modalSubject}')`;
 
       return `
@@ -1921,8 +2008,8 @@ class AptiPrepApp {
              class="p-2.5 rounded-lg border border-zinc-200 hover:border-sky-300 hover:bg-sky-50/80 cursor-pointer transition flex items-center justify-between group">
           <div class="overflow-hidden pr-2">
             <div class="flex items-center gap-1.5 mb-0.5">
-              ${badge}
-              <span class="text-[10px] text-zinc-400 font-mono">${ch.count} Qs</span>
+              ${modalBadge}
+              <span class="text-[10px] text-zinc-400 font-mono">${displayedCount} Qs</span>
             </div>
             <h4 class="text-xs font-semibold text-zinc-900 group-hover:text-zinc-700 truncate">${ch.name}</h4>
           </div>
@@ -1932,13 +2019,14 @@ class AptiPrepApp {
     }).join('');
   }
 
-  startPracticeFromModal(chapterName, preferredSubjectFilter = null) {
+  startPracticeFromModal(chapterName, preferredSubjectFilter = null, preferredTier = null) {
     this.closeChapterSelectModal();
     let filter = preferredSubjectFilter || this.modalSubject;
     if (this.modalSubject === 'science' && this.modalScienceSub !== 'all') {
       filter = this.modalScienceSub.toLowerCase();
     }
-    this.startPractice(chapterName, filter);
+    const tier = preferredTier || (this.modalSubject === 'rk_ranjan' ? (this.modalRkTier || 'all') : null);
+    this.startPractice(chapterName, filter, tier);
   }
 
   // ==========================================
@@ -2063,10 +2151,18 @@ class AptiPrepApp {
           subject: 'Quantitative Aptitude',
           subSubject: 'RK Ranjan Math',
           faculty: 'RK Ranjan',
-          count: 0
+          count: 0,
+          proCount: 0,
+          classroomCount: 0
         };
       }
       chapMap[chap].count += 1;
+      const isPro = (q.sheetType || '').toLowerCase().includes('pro');
+      if (isPro) {
+        chapMap[chap].proCount += 1;
+      } else {
+        chapMap[chap].classroomCount += 1;
+      }
     });
 
     this.rkChapters = this.sortChapters(Object.values(chapMap));
@@ -2124,6 +2220,7 @@ class AptiPrepApp {
     const btnSci = document.getElementById('filter-btn-science');
     const btnTop300 = document.getElementById('filter-btn-top300');
     const subBar = document.getElementById('subsubject-filter-bar');
+    const rkBar = document.getElementById('rk-subfilter-bar');
 
     const activeClass = 'px-2.5 py-1 rounded-md text-xs font-semibold transition btn-primary shadow-xs';
     const inactiveClass = 'px-2.5 py-1 rounded-md text-xs font-medium transition btn-secondary border border-zinc-200 text-zinc-600 hover:text-zinc-900';
@@ -2146,14 +2243,20 @@ class AptiPrepApp {
       }
     }
 
+    if (rkBar) {
+      if (filter === 'rk_ranjan') {
+        rkBar.classList.remove('hidden');
+        this.updateRkTierButtonsUI();
+      } else {
+        rkBar.classList.add('hidden');
+      }
+    }
+
     if (filter === 'rk_ranjan') {
       if (!this.rkQuestions || this.rkQuestions.length === 0) {
         await this.loadRkRanjanData();
       }
-      const heroSub = document.getElementById('dashboard-hero-subtitle');
-      if (heroSub) {
-        heroSub.innerHTML = `<strong>RK Ranjan Math Series:</strong> ${this.rkChapters.length} chapters &bull; ${this.rkQuestions.length.toLocaleString()} questions &bull; ClassRoom & Practice Sheets`;
-      }
+      this.updateRkHeroSubtitle();
     } else {
       const heroSub = document.getElementById('dashboard-hero-subtitle');
       if (heroSub && this.chapters.length > 0) {
@@ -2162,6 +2265,58 @@ class AptiPrepApp {
       }
     }
 
+    this.renderChaptersGrid();
+  }
+
+  updateRkTierButtonsUI() {
+    const tier = this.currentRkTier || 'all';
+    const rkBtns = {
+      'all': document.getElementById('rk-tier-btn-all'),
+      'pro': document.getElementById('rk-tier-btn-pro'),
+      'classroom': document.getElementById('rk-tier-btn-classroom')
+    };
+
+    Object.keys(rkBtns).forEach(key => {
+      const btn = rkBtns[key];
+      if (btn) {
+        if (key === tier) {
+          if (key === 'pro') {
+            btn.className = 'px-2 py-0.5 rounded text-[11px] font-bold transition bg-violet-600 text-white shadow-xs';
+          } else {
+            btn.className = 'px-2 py-0.5 rounded text-[11px] font-semibold transition bg-white text-zinc-900 shadow-xs border border-zinc-200';
+          }
+        } else {
+          if (key === 'pro') {
+            btn.className = 'px-2 py-0.5 rounded text-[11px] font-bold transition text-violet-700 hover:text-violet-900';
+          } else {
+            btn.className = 'px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900';
+          }
+        }
+      }
+    });
+  }
+
+  updateRkHeroSubtitle() {
+    const heroSub = document.getElementById('dashboard-hero-subtitle');
+    if (!heroSub) return;
+    const tier = this.currentRkTier || 'all';
+    const totalChapters = (this.rkChapters || []).length;
+    if (tier === 'pro') {
+      const totalPro = (this.rkChapters || []).reduce((sum, c) => sum + (c.proCount || 0), 0);
+      heroSub.innerHTML = `<strong>RK Ranjan Math (⭐ Pro Level):</strong> ${totalChapters} chapters &bull; ${totalPro.toLocaleString()} advanced & high-difficulty questions`;
+    } else if (tier === 'classroom') {
+      const totalCr = (this.rkChapters || []).reduce((sum, c) => sum + (c.classroomCount || 0), 0);
+      heroSub.innerHTML = `<strong>RK Ranjan Math (ClassRoom):</strong> ${totalChapters} chapters &bull; ${totalCr.toLocaleString()} foundation & core questions`;
+    } else {
+      const totalAll = (this.rkQuestions || []).length;
+      heroSub.innerHTML = `<strong>RK Ranjan Math Series:</strong> ${totalChapters} chapters &bull; ${totalAll.toLocaleString()} questions &bull; ClassRoom & Pro Level Sheets`;
+    }
+  }
+
+  setRkTierFilter(tier) {
+    this.currentRkTier = tier;
+    this.updateRkTierButtonsUI();
+    this.updateRkHeroSubtitle();
     this.renderChaptersGrid();
   }
 
@@ -2267,6 +2422,7 @@ class AptiPrepApp {
           const safeChap = (sess.chapter || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
           const safeFilter = (sess.subjectFilter || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
           const safeType = (sess.type || 'study').replace(/'/g, "\\'");
+          const safeTier = (sess.tier || 'all').replace(/'/g, "\\'");
 
           let modePill = '<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-200/70">Study Session</span>';
           let barColor = 'bg-sky-600';
@@ -2276,6 +2432,13 @@ class AptiPrepApp {
           } else if (sess.type === 'chapter_test') {
             modePill = '<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">Chapter Test</span>';
             barColor = 'bg-indigo-600';
+          }
+
+          let tierPill = '';
+          if (sess.subjectFilter === 'rk_ranjan' && sess.tier === 'pro') {
+            tierPill = ' <span class="text-[9px] font-bold text-violet-700 bg-violet-100 px-1 py-0.2 rounded border border-violet-200">⭐ Pro</span>';
+          } else if (sess.subjectFilter === 'rk_ranjan' && sess.tier === 'classroom') {
+            tierPill = ' <span class="text-[9px] font-medium text-zinc-600 bg-zinc-100 px-1 py-0.2 rounded border border-zinc-200">ClassRoom</span>';
           }
 
           const progressLabel = total > 0
@@ -2294,7 +2457,7 @@ class AptiPrepApp {
                   <span class="text-[11px] text-zinc-400 font-medium">${escapeHtml(timeLabel)}</span>
                 </div>
                 <div>
-                  <h4 class="text-sm font-bold text-zinc-900 truncate" title="${escapeHtml(sess.chapter)}">${escapeHtml(sess.chapter)}</h4>
+                  <h4 class="text-sm font-bold text-zinc-900 truncate" title="${escapeHtml(sess.chapter)}">${escapeHtml(sess.chapter)}${tierPill}</h4>
                   <p class="text-[11px] text-zinc-500 mt-0.5 truncate">${escapeHtml(sess.subSubject || '')} &bull; On Q${(sess.currentIndex || 0) + 1}${accLabel}</p>
                 </div>
                 <div class="space-y-1">
@@ -2308,7 +2471,7 @@ class AptiPrepApp {
               </div>
 
               <div class="pt-2 border-t border-zinc-100 flex items-center justify-between gap-2">
-                <button onclick="app.resumeHomeAttemptSession('${safeType}', '${safeChap}', '${safeFilter}')"
+                <button onclick="app.resumeHomeAttemptSession('${safeType}', '${safeChap}', '${safeFilter}', '${safeTier}')"
                         class="flex-1 py-1.5 px-3 rounded-lg btn-primary text-white text-xs font-semibold transition text-center">
                   Resume &rarr;
                 </button>
@@ -2513,21 +2676,40 @@ class AptiPrepApp {
 
       const savedSess = savedStudyMap.get((ch.name || '').toLowerCase());
       const showProgress = savedSess && (!isRk || savedSess.subjectFilter === 'rk_ranjan') && (isRk || savedSess.subjectFilter !== 'rk_ranjan');
-      const attemptedCount = showProgress ? savedSess.answeredCount : 0;
-      const pct = showProgress && ch.count > 0 ? Math.min(100, Math.round((attemptedCount / ch.count) * 100)) : 0;
 
-      const clickHandler = isRk
-        ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan')`
-        : (isSci ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'science')` : `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'aptitude')`);
+      let displayedCount = ch.count;
+      let displayedBadgeHtml = badgeHtml;
+      let clickHandler = '';
+
+      if (isRk) {
+        if (this.currentRkTier === 'pro') {
+          displayedCount = ch.proCount !== undefined ? ch.proCount : ch.count;
+          displayedBadgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-violet-800 bg-violet-100 px-2 py-0.5 rounded border border-violet-300 shadow-2xs">⭐ Pro Level</span>';
+          cardBorder = 'bg-violet-50/40 hover:bg-violet-50 hover:border-violet-300 border border-violet-200/80 shadow-2xs hover:shadow-xs';
+          clickHandler = `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan', 'pro')`;
+        } else if (this.currentRkTier === 'classroom') {
+          displayedCount = ch.classroomCount !== undefined ? ch.classroomCount : ch.count;
+          displayedBadgeHtml = '<span class="text-[11px] font-medium uppercase tracking-wider text-zinc-700 bg-zinc-100 px-2 py-0.5 rounded border border-zinc-200">ClassRoom</span>';
+          cardBorder = 'bg-white hover:bg-zinc-50 hover:border-zinc-300 border border-zinc-200 shadow-2xs hover:shadow-xs';
+          clickHandler = `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan', 'classroom')`;
+        } else {
+          clickHandler = `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan', 'all')`;
+        }
+      } else {
+        clickHandler = (isSci ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'science')` : `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'aptitude')`);
+      }
+
+      const attemptedCount = showProgress ? savedSess.answeredCount : 0;
+      const pct = showProgress && displayedCount > 0 ? Math.min(100, Math.round((attemptedCount / displayedCount) * 100)) : 0;
 
       return `
         <div onclick="${clickHandler}"
              class="${cardBorder} rounded-xl p-3.5 sm:p-4 cursor-pointer transition-all duration-150 flex items-center justify-between group shadow-2xs hover:shadow-xs">
           <div class="space-y-1.5 overflow-hidden pr-2 flex-1">
             <div class="flex items-center gap-2 flex-wrap">
-              ${badgeHtml}
-              <span class="text-xs text-zinc-500 group-hover:text-sky-700 font-mono font-medium transition-colors">${ch.count} Qs</span>
-              ${showProgress ? `<span class="text-[10px] font-mono font-semibold text-sky-700 bg-sky-50 border border-sky-200/80 px-1.5 py-0.2 rounded">${attemptedCount}/${ch.count} done</span>` : ''}
+              ${displayedBadgeHtml}
+              <span class="text-xs text-zinc-500 group-hover:text-sky-700 font-mono font-medium transition-colors">${displayedCount} Qs</span>
+              ${showProgress ? `<span class="text-[10px] font-mono font-semibold text-sky-700 bg-sky-50 border border-sky-200/80 px-1.5 py-0.2 rounded">${attemptedCount}/${displayedCount} done</span>` : ''}
             </div>
             <h4 class="font-semibold text-zinc-900 group-hover:text-sky-900 text-sm sm:text-base leading-snug truncate transition-colors" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</h4>
             ${showProgress ? `<div class="w-full h-1 bg-zinc-100 rounded-full overflow-hidden"><div class="h-full bg-sky-500 rounded-full" style="width: ${pct}%"></div></div>` : ''}
@@ -2752,6 +2934,7 @@ class AptiPrepApp {
   // ==========================================
 
   async startPractice(chapterName, preferredSubjectFilter = null) {
+    const preferredTier = arguments[2] || null;
     if (!this.currentUserEmail) {
       this.switchView('login');
       return;
@@ -2778,7 +2961,16 @@ class AptiPrepApp {
       if (!chapterName && this.rkChapters.length > 0) {
         chapterName = this.rkChapters[0].name;
       }
-      const filtered = (this.rkQuestions || []).filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
+      const tier = preferredTier || this.currentRkTier || 'all';
+      let filtered = (this.rkQuestions || []).filter(q => q.chapter.toLowerCase() === chapterName.toLowerCase());
+      if (tier === 'pro') {
+        const proOnly = filtered.filter(q => (q.sheetType || '').toLowerCase().includes('pro'));
+        if (proOnly.length > 0) filtered = proOnly;
+      } else if (tier === 'classroom') {
+        const crOnly = filtered.filter(q => !(q.sheetType || '').toLowerCase().includes('pro'));
+        if (crOnly.length > 0) filtered = crOnly;
+      }
+      this.practice.tier = tier;
       this.initPracticeState(chapterName, filtered, 'rk_ranjan');
       return;
     }
@@ -2827,16 +3019,26 @@ class AptiPrepApp {
   setPracticeChapterTitle(title) {
     const titleText = document.getElementById('practice-chapter-title-text');
     const titleEl = document.getElementById('practice-chapter-title');
+    let displayTitle = title;
+    if (this.practiceSubjectFilter === 'rk_ranjan') {
+      const tier = this.practice?.tier || this.currentRkTier || 'all';
+      if (tier === 'pro') {
+        displayTitle = `${title} (⭐ Pro Level)`;
+      } else if (tier === 'classroom') {
+        displayTitle = `${title} (ClassRoom)`;
+      }
+    }
     if (titleText) {
-      titleText.textContent = title;
+      titleText.textContent = displayTitle;
     } else if (titleEl) {
-      titleEl.textContent = title;
+      titleEl.textContent = displayTitle;
     }
   }
 
   initPracticeState(chapterName, questions, preferredSubjectFilter = null) {
     this.practice.chapter = chapterName;
     this.practice.questions = questions;
+    const tier = this.practice.tier || 'all';
 
     const mode = this.practice.modeType || 'study';
     let restored = false;
@@ -2916,6 +3118,17 @@ class AptiPrepApp {
     const dd = document.getElementById('practice-chapter-dropdown');
     if (dd) dd.value = chapterName;
 
+    // Toggle and sync RK Ranjan Tier bar in practice header
+    const rkTierToggle = document.getElementById('practice-rk-tier-toggle');
+    if (rkTierToggle) {
+      if (isRkSession) {
+        rkTierToggle.classList.remove('hidden');
+        this.updatePracticeRkTierUI();
+      } else {
+        rkTierToggle.classList.add('hidden');
+      }
+    }
+
     this.practice.modeType = this.practice.modeType || 'study';
     this.setPracticeModeType(this.practice.modeType);
     this.switchView('practice');
@@ -2923,6 +3136,45 @@ class AptiPrepApp {
     this.renderPracticePalette();
     this.startPracticeTimer();
     this.saveActivePracticeSession();
+  }
+
+  updatePracticeRkTierUI() {
+    const tier = this.practice?.tier || 'all';
+    const btns = {
+      'pro': document.getElementById('practice-tier-btn-pro'),
+      'classroom': document.getElementById('practice-tier-btn-classroom'),
+      'all': document.getElementById('practice-tier-btn-all')
+    };
+    Object.keys(btns).forEach(k => {
+      const b = btns[k];
+      if (b) {
+        if (k === tier) {
+          if (k === 'pro') {
+            b.className = 'px-1.5 sm:px-2 py-0.5 rounded font-bold bg-violet-600 text-white shadow-2xs transition';
+          } else {
+            b.className = 'px-1.5 sm:px-2 py-0.5 rounded font-semibold bg-white text-zinc-900 shadow-2xs transition';
+          }
+        } else {
+          if (k === 'pro') {
+            b.className = 'px-1.5 sm:px-2 py-0.5 rounded font-bold text-violet-700 hover:text-violet-900 transition';
+          } else {
+            b.className = 'px-1.5 sm:px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition';
+          }
+        }
+      }
+    });
+  }
+
+  setPracticeRkTier(tier) {
+    if (!this.practice || !this.practice.chapter) return;
+    if (this.practice.tier === tier) return;
+    if (this.practice.modeType === 'test') {
+      if (!confirm('Switching sheet tier will reset the current active test. Proceed?')) return;
+    } else {
+      this.saveChapterStudyProgress();
+    }
+    this.currentRkTier = tier;
+    this.startPractice(this.practice.chapter, 'rk_ranjan', tier);
   }
 
   getPracticeQuestionTimeKey(q, idx) {
@@ -3101,7 +3353,7 @@ class AptiPrepApp {
       return;
     }
     const curFilter = this.practiceSubjectFilter || document.getElementById('practice-subject-dropdown')?.value || 'all';
-    this.startPractice(newChap, curFilter);
+    this.startPractice(newChap, curFilter, this.practice?.tier || 'all');
   }
 
   renderPracticeQuestion() {
@@ -3116,6 +3368,22 @@ class AptiPrepApp {
 
     document.getElementById('practice-q-number').textContent = `Q${current}`;
     document.getElementById('practice-q-chapter').textContent = chapDisplay;
+
+    // Render RK Ranjan Sheet Tier Badge (Pro Level vs ClassRoom)
+    const tierBadge = document.getElementById('practice-q-tier-badge');
+    if (tierBadge) {
+      const isRkQuestion = q.faculty === 'RK Ranjan' || q.subSubject === 'RK Ranjan Math' || !!q.sheetType;
+      if (isRkQuestion && q.sheetType) {
+        const isPro = q.sheetType.toLowerCase().includes('pro');
+        tierBadge.textContent = isPro ? '⭐ Pro Level' : 'ClassRoom';
+        tierBadge.className = isPro
+          ? 'text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded bg-violet-100 text-violet-800 border border-violet-200 shadow-2xs'
+          : 'text-[10px] font-medium px-1.5 py-0.2 rounded bg-zinc-100 text-zinc-600 border border-zinc-200';
+        tierBadge.classList.remove('hidden');
+      } else {
+        tierBadge.classList.add('hidden');
+      }
+    }
 
     document.getElementById('practice-progress-text').textContent = `Question ${current} of ${total}`;
 

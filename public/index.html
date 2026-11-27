@@ -320,6 +320,14 @@
           <button onclick="app.setSubSubjectFilter('Physics')" id="subfilter-btn-physics" class="px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900">Physics (10)</button>
         </div>
 
+        <!-- RK Ranjan Tier Subfilter Bar (Pro Level vs ClassRoom) -->
+        <div id="rk-subfilter-bar" class="hidden flex items-center gap-1.5 text-xs bg-violet-50/70 p-1.5 rounded-lg border border-violet-200/80">
+          <span class="text-[10px] text-violet-500 uppercase tracking-wider font-bold ml-1 mr-1">Sheet:</span>
+          <button onclick="app.setRkTierFilter('all')" id="rk-tier-btn-all" class="px-2 py-0.5 rounded text-[11px] font-medium transition bg-white text-zinc-900 shadow-xs border border-zinc-200">All Sheets (5,327)</button>
+          <button onclick="app.setRkTierFilter('pro')" id="rk-tier-btn-pro" class="px-2 py-0.5 rounded text-[11px] font-bold transition text-violet-700 hover:text-violet-900">⭐ Pro Level (1,310)</button>
+          <button onclick="app.setRkTierFilter('classroom')" id="rk-tier-btn-classroom" class="px-2 py-0.5 rounded text-[11px] font-medium transition text-zinc-600 hover:text-zinc-900">ClassRoom (4,017)</button>
+        </div>
+
         <div id="chapters-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2.5">
           <!-- Dynamically filled by app.js -->
         </div>
@@ -391,6 +399,13 @@
           </div>
 
           <div class="flex items-center gap-1 sm:gap-1.5 shrink-0">
+            <!-- RK Ranjan Tier Toggle in Practice Screen -->
+            <div id="practice-rk-tier-toggle" class="hidden flex items-center bg-violet-50/90 p-0.5 rounded-md border border-violet-200 text-[10px] sm:text-[11px]">
+              <button onclick="app.setPracticeRkTier('pro')" id="practice-tier-btn-pro" class="px-1.5 sm:px-2 py-0.5 rounded font-bold transition text-violet-700 hover:text-violet-900">⭐ Pro</button>
+              <button onclick="app.setPracticeRkTier('classroom')" id="practice-tier-btn-classroom" class="px-1.5 sm:px-2 py-0.5 rounded font-medium transition text-zinc-600 hover:text-zinc-900">ClassRoom</button>
+              <button onclick="app.setPracticeRkTier('all')" id="practice-tier-btn-all" class="px-1.5 sm:px-2 py-0.5 rounded font-medium transition text-zinc-600 hover:text-zinc-900">All</button>
+            </div>
+
             <!-- Segmented Toggle: Test vs Study (Small on mobile) -->
             <div class="flex items-center bg-zinc-100 p-0.5 rounded-md border border-zinc-200 text-[10px] sm:text-[11px]">
               <button onclick="app.setPracticeModeType('test')" id="toggle-btn-test" class="px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded text-[10px] sm:text-xs font-medium text-zinc-500 hover:text-zinc-900 transition">
@@ -471,7 +486,10 @@
                 <span id="practice-question-timer-text">00:00</span>
               </span>
             </div>
-            <span id="practice-q-chapter" class="text-zinc-500 font-medium truncate max-w-[200px] sm:max-w-none">Chapter</span>
+            <div class="flex items-center gap-1.5 min-w-0">
+              <span id="practice-q-chapter" class="text-zinc-500 font-medium truncate max-w-[200px] sm:max-w-none">Chapter</span>
+              <span id="practice-q-tier-badge" class="hidden text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.2 rounded border shadow-2xs"></span>
+            </div>
           </div>
 
           <!-- Question text (Unboxed) -->
@@ -1250,6 +1268,14 @@
         <button onclick="app.setModalScienceSubTab('Physics')" id="modal-subtab-phys" class="px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition">Physics (10)</button>
       </div>
 
+      <!-- RK Ranjan Subfilter Bar in Modal -->
+      <div id="modal-rk-subfilter-bar" class="hidden flex items-center gap-1 text-[11px] bg-violet-50/70 p-1 rounded-lg border border-violet-200/80">
+        <span class="text-violet-500 uppercase tracking-wider font-bold text-[10px] ml-1 mr-1">Sheet:</span>
+        <button onclick="app.setModalRkTierTab('all')" id="modal-rk-subtab-all" class="px-2 py-0.5 rounded font-medium btn-primary transition">All (5,327)</button>
+        <button onclick="app.setModalRkTierTab('pro')" id="modal-rk-subtab-pro" class="px-2 py-0.5 rounded font-bold text-violet-700 hover:text-violet-900 transition">⭐ Pro Level (1,310)</button>
+        <button onclick="app.setModalRkTierTab('classroom')" id="modal-rk-subtab-classroom" class="px-2 py-0.5 rounded font-medium text-zinc-600 hover:text-zinc-900 transition">ClassRoom (4,017)</button>
+      </div>
+
       <!-- Scrollable Chapters Grid -->
       <div id="modal-chapters-list" class="overflow-y-auto max-h-[350px] grid grid-cols-1 sm:grid-cols-2 gap-2 pr-1">
         <!-- Filled dynamically -->
@@ -1548,6 +1574,6 @@
   <script src="js/services/storage.service.js"></script>
   <script src="js/services/scoring.service.js"></script>
   <script src="js/services/mock-generator.service.js"></script>
-  <script src="app.js?v=4.3.2"></script>
+  <script src="app.js?v=4.3.3"></script>
 </body>
 </html>
