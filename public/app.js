@@ -48,6 +48,8 @@ class AptiPrepApp {
       currentIndex: 0,
       userAnswers: {}, // { [qIndex]: number (selected option index) }
       reviewFlags: {}, // { [qIndex]: boolean }
+      questionTimes: {}, // { [questionId || qIndex]: elapsed seconds }
+      timerInterval: null,
       modeType: 'study', // Default: 'study' (instant feedback) or 'test' (show answers at end)
       drawerOpen: false,
       startTime: null
@@ -546,10 +548,23 @@ class AptiPrepApp {
     if (!this.practice || !this.practice.chapter || this.practice.modeType !== 'study') return;
     try {
       const key = this.getChapterStudyStorageKey(this.practice.chapter);
+      const questions = Array.isArray(this.practice.questions) ? this.practice.questions : [];
+      const answers = this.practice.userAnswers || {};
+      let correctCount = 0;
+      Object.keys(answers).forEach(idxKey => {
+        const q = questions[Number(idxKey)];
+        if (q && answers[idxKey] === q.correctAnswer) {
+          correctCount++;
+        }
+      });
       const data = {
         chapter: this.practice.chapter,
-        userAnswers: this.practice.userAnswers || {},
+        subjectFilter: this.practiceSubjectFilter || 'all',
+        totalQuestions: questions.length,
+        correctCount,
+        userAnswers: answers,
         reviewFlags: this.practice.reviewFlags || {},
+        questionTimes: this.practice.questionTimes || {},
         currentIndex: this.practice.currentIndex || 0,
         savedAt: Date.now()
       };
@@ -581,17 +596,162 @@ class AptiPrepApp {
     } catch (e) {}
   }
 
+  getSavedStudySessions() {
+    const emailPrefix = (this.currentUserEmail || 'guest@local').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const prefix = `apti_study_${emailPrefix}_`;
+    const sessions = [];
+
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(prefix)) continue;
+        const raw = localStorage.getItem(key);
+        if (!raw) continue;
+        const data = JSON.parse(raw);
+        if (!data || !data.chapter || !data.userAnswers) continue;
+
+        const answeredCount = Object.keys(data.userAnswers).length;
+        if (answeredCount === 0) continue;
+
+        const coreMatch = (this.chapters || []).find(c => c.name.toLowerCase() === data.chapter.toLowerCase());
+        const rkMatch = (this.rkChapters || []).find(c => c.name.toLowerCase() === data.chapter.toLowerCase());
+        const isRk = data.subjectFilter === 'rk_ranjan' || (!coreMatch && !!rkMatch);
+        const chapInfo = isRk ? (rkMatch || coreMatch) : (coreMatch || rkMatch);
+        const totalQuestions = data.totalQuestions || (chapInfo ? chapInfo.count : 0);
+
+        sessions.push({
+          type: 'study',
+          storageKey: key,
+          chapter: data.chapter,
+          subjectFilter: data.subjectFilter && data.subjectFilter !== 'all'
+            ? data.subjectFilter
+            : (isRk ? 'rk_ranjan' : ((chapInfo?.subject || '').includes('Science') ? 'science' : 'aptitude')),
+          subSubject: isRk ? 'RK Ranjan Math' : (chapInfo?.subSubject || chapInfo?.subject || 'Practice'),
+          answeredCount,
+          correctCount: typeof data.correctCount === 'number' ? data.correctCount : null,
+          totalQuestions,
+          currentIndex: data.currentIndex || 0,
+          savedAt: data.savedAt || 0
+        });
+      }
+    } catch (e) {
+      console.warn('Failed to enumerate saved study sessions:', e);
+    }
+
+    sessions.sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+    return sessions;
+  }
+
+  getHomeAttemptSessions() {
+    const sessions = [];
+    const activeEmail = (this.currentUserEmail || 'guest@local').trim().toLowerCase();
+
+    try {
+      const rawMock = localStorage.getItem('apti_active_mock');
+      if (rawMock) {
+        const mockData = JSON.parse(rawMock);
+        const mockOwner = (mockData.userEmail || 'guest@local').trim().toLowerCase();
+        if (mockData && Array.isArray(mockData.questions) && mockData.questions.length > 0 && mockOwner === activeEmail) {
+          const answeredCount = Object.keys(mockData.userAnswers || {}).length;
+          sessions.push({
+            type: 'mock',
+            chapter: mockData.subject && mockData.subject !== 'all' ? `Mock Test (${mockData.subject})` : 'Full Mock Test',
+            subjectFilter: mockData.subject || 'all',
+            subSubject: 'Timed CBT Mock',
+            answeredCount,
+            correctCount: null,
+            totalQuestions: mockData.questions.length,
+            currentIndex: mockData.currentIndex || 0,
+            timeLeftSeconds: mockData.timeLeftSeconds,
+            savedAt: mockData.savedAt || mockData.startTime || Date.now()
+          });
+        }
+      }
+    } catch (e) {}
+
+    try {
+      const rawPrac = localStorage.getItem('apti_active_practice');
+      if (rawPrac) {
+        const pracData = JSON.parse(rawPrac);
+        const pracOwner = (pracData.userEmail || 'guest@local').trim().toLowerCase();
+        if (pracData && pracData.modeType === 'test' && Array.isArray(pracData.questions) && pracData.questions.length > 0 && pracOwner === activeEmail) {
+          sessions.push({
+            type: 'chapter_test',
+            chapter: pracData.chapter,
+            subjectFilter: pracData.practiceSubjectFilter || 'all',
+            subSubject: 'Chapter Test (In Progress)',
+            answeredCount: Object.keys(pracData.userAnswers || {}).length,
+            correctCount: null,
+            totalQuestions: pracData.questions.length,
+            currentIndex: pracData.currentIndex || 0,
+            savedAt: pracData.savedAt || pracData.startTime || Date.now()
+          });
+        }
+      }
+    } catch (e) {}
+
+    return [...sessions, ...this.getSavedStudySessions()].sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+  }
+
+  resumeHomeAttemptSession(type, chapterName = '', subjectFilter = '') {
+    if (type === 'mock') {
+      try {
+        const rawMock = localStorage.getItem('apti_active_mock');
+        if (rawMock && this.restoreActiveMockSession(JSON.parse(rawMock))) return;
+      } catch (e) {}
+      this.startMockTestPrompt();
+      return;
+    }
+
+    if (type === 'chapter_test') {
+      try {
+        const rawPrac = localStorage.getItem('apti_active_practice');
+        if (rawPrac && this.restoreActivePracticeSession(JSON.parse(rawPrac))) return;
+      } catch (e) {}
+    }
+
+    if (chapterName) {
+      this.practice.modeType = 'study';
+      this.startPractice(chapterName, subjectFilter || null);
+    }
+  }
+
+  discardHomeAttemptSession(type, chapterName = '') {
+    if (type === 'mock') {
+      if (!confirm('Discard your in-progress Mock Test session?')) return;
+      this.clearActiveMockSession();
+    } else if (type === 'chapter_test') {
+      if (!confirm(`Discard your in-progress Chapter Test for "${chapterName}"?`)) return;
+      this.clearActivePracticeSession();
+    } else if (chapterName) {
+      if (!confirm(`Reset saved practice session for "${chapterName}"?`)) return;
+      this.clearChapterStudyProgress(chapterName);
+      try {
+        const rawPrac = localStorage.getItem('apti_active_practice');
+        if (rawPrac) {
+          const parsed = JSON.parse(rawPrac);
+          if (parsed && parsed.chapter && parsed.chapter.toLowerCase() === chapterName.toLowerCase() && parsed.modeType === 'study') {
+            this.clearActivePracticeSession();
+          }
+        }
+      } catch (e) {}
+    }
+    this.renderDashboard();
+  }
+
   resetPracticeProgress() {
     if (!this.practice || !this.practice.chapter) return;
     const chap = this.practice.chapter;
     if (confirm(`Reset practice progress for "${chap}"?\n\nAll your answered questions for this chapter will be cleared.`)) {
       this.practice.userAnswers = {};
       this.practice.reviewFlags = {};
+      this.practice.questionTimes = {};
       this.practice.currentIndex = 0;
       this.clearChapterStudyProgress(chap);
       this.saveActivePracticeSession();
       this.renderPracticeQuestion();
       this.renderPracticePalette();
+      this.startPracticeTimer();
     }
   }
 
@@ -606,6 +766,7 @@ class AptiPrepApp {
         currentIndex: this.practice.currentIndex || 0,
         userAnswers: this.practice.userAnswers || {},
         reviewFlags: this.practice.reviewFlags || {},
+        questionTimes: this.practice.questionTimes || {},
         modeType: this.practice.modeType || 'study',
         practiceSubjectFilter: this.practiceSubjectFilter || 'all',
         startTime: this.practice.startTime || Date.now(),
@@ -643,6 +804,7 @@ class AptiPrepApp {
     this.practice.currentIndex = Math.min(Math.max(0, saved.currentIndex || 0), saved.questions.length - 1);
     this.practice.userAnswers = saved.userAnswers || {};
     this.practice.reviewFlags = saved.reviewFlags || {};
+    this.practice.questionTimes = saved.questionTimes || {};
     this.practice.modeType = saved.modeType || 'study';
     this.practice.startTime = saved.startTime || Date.now();
     this.practiceSubjectFilter = saved.practiceSubjectFilter || 'all';
@@ -660,6 +822,7 @@ class AptiPrepApp {
     this.switchView('practice');
     this.renderPracticeQuestion();
     this.renderPracticePalette();
+    this.startPracticeTimer();
     return true;
   }
 
@@ -994,6 +1157,8 @@ class AptiPrepApp {
   async loadAttempts() {
     if (!this.currentUserEmail) {
       this.attempts = [];
+      this.renderStudyAnalyticsWidget();
+      this.renderAttemptSessionsSection();
       this.renderAttemptsHistory();
       return;
     }
@@ -1027,16 +1192,7 @@ class AptiPrepApp {
         if (res.ok) {
           const data = await res.json();
           if (data.attempts && Array.isArray(data.attempts)) {
-            const map = new Map();
-            data.attempts.forEach(a => {
-              if (a && a.attemptId) map.set(a.attemptId, a);
-            });
-            loaded.forEach(a => {
-              if (a && a.attemptId && !map.has(a.attemptId)) {
-                map.set(a.attemptId, a);
-              }
-            });
-            loaded = Array.from(map.values());
+            loaded = [...data.attempts, ...loaded];
           }
         }
       } catch (e) {
@@ -1044,8 +1200,33 @@ class AptiPrepApp {
       }
     }
 
-    loaded.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
-    this.attempts = loaded;
+    // 3. Also load from Google Sheet if configured
+    if (this.googleSheetUrl && this.googleSheetUrl.trim().length > 0) {
+      try {
+        const sheetUrl = `${this.googleSheetUrl.trim()}?action=getAttempts&email=${encodeURIComponent(activeEmail)}`;
+        const sRes = await fetch(sheetUrl);
+        if (sRes.ok) {
+          const sData = await sRes.json();
+          if (sData && Array.isArray(sData.attempts)) {
+            loaded = [...loaded, ...sData.attempts];
+          }
+        }
+      } catch (e) {
+        console.warn('Google Sheet loadAttempts notice:', e);
+      }
+    }
+
+    const dedupedMap = new Map();
+    loaded.forEach(a => {
+      if (a && a.attemptId && !dedupedMap.has(a.attemptId)) {
+        dedupedMap.set(a.attemptId, a);
+      }
+    });
+    const deduped = Array.from(dedupedMap.values());
+    deduped.sort((a, b) => new Date(b.timestamp || 0) - new Date(a.timestamp || 0));
+    this.attempts = deduped;
+    this.renderStudyAnalyticsWidget();
+    this.renderAttemptSessionsSection();
     this.renderAttemptsHistory();
   }
 
@@ -1531,12 +1712,19 @@ class AptiPrepApp {
     if (btnPractice) btnPractice.classList.toggle('bg-zinc-100', viewName === 'practice');
     if (btnRevision) btnRevision.classList.toggle('bg-indigo-100', viewName === 'revision');
 
+    if (viewName === 'practice') {
+      this.startPracticeTimer();
+    } else {
+      this.clearPracticeTimer();
+    }
+
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   showDashboard() {
     this.isSubmitting = false;
     this.hideTestPausedModal();
+    this.clearPracticeTimer();
 
     if (!this.currentUserEmail) {
       this.switchView('login');
@@ -1884,6 +2072,13 @@ class AptiPrepApp {
 
     const badgeRk = document.getElementById('badge-count-rk-ranjan');
     if (badgeRk) badgeRk.textContent = `(${this.rkChapters.length})`;
+
+    if (this.currentMode === 'dashboard') {
+      this.renderAttemptSessionsSection();
+      if (this.currentSubjectFilter === 'rk_ranjan') {
+        this.renderChaptersGrid();
+      }
+    }
   }
 
   updateDashboardBadges(totalQuestions, totalChapters) {
@@ -2025,8 +2220,108 @@ class AptiPrepApp {
 
   renderDashboard() {
     this.renderStudyAnalyticsWidget();
+    this.renderAttemptSessionsSection();
     this.renderChaptersGrid();
     this.renderAttemptsHistory();
+  }
+
+  formatRelativeSessionTime(ts) {
+    if (!ts) return 'Recently';
+    const diffMs = Math.max(0, Date.now() - Number(ts));
+    const mins = Math.floor(diffMs / 60000);
+    if (mins < 1) return 'Just now';
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return `${hrs}h ago`;
+    const days = Math.floor(hrs / 24);
+    if (days < 7) return `${days}d ago`;
+    return new Date(ts).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  renderAttemptSessionsSection() {
+    const container = document.getElementById('dashboard-attempt-sessions');
+    if (!container) return;
+
+    const sessions = this.getHomeAttemptSessions();
+    if (!sessions || sessions.length === 0) {
+      container.classList.add('hidden');
+      container.innerHTML = '';
+      return;
+    }
+
+    container.classList.remove('hidden');
+    container.innerHTML = `
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <h3 class="text-sm font-semibold text-zinc-900">Active &amp; Saved Attempt Sessions</h3>
+          <span class="text-[11px] font-mono font-semibold text-sky-700 bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-full">${sessions.length}</span>
+        </div>
+        <span class="text-[11px] text-zinc-400">Pick up where you left off</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        ${sessions.map(sess => {
+          const total = sess.totalQuestions || 0;
+          const pct = total > 0 ? Math.min(100, Math.round((sess.answeredCount / total) * 100)) : 0;
+          const safeChap = (sess.chapter || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+          const safeFilter = (sess.subjectFilter || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+          const safeType = (sess.type || 'study').replace(/'/g, "\\'");
+
+          let modePill = '<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-sky-50 text-sky-700 border border-sky-200/70">Study Session</span>';
+          let barColor = 'bg-sky-600';
+          if (sess.type === 'mock') {
+            modePill = '<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200">In-Progress Mock</span>';
+            barColor = 'bg-amber-500';
+          } else if (sess.type === 'chapter_test') {
+            modePill = '<span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">Chapter Test</span>';
+            barColor = 'bg-indigo-600';
+          }
+
+          const progressLabel = total > 0
+            ? `${sess.answeredCount} / ${total} attempted (${pct}%)`
+            : `${sess.answeredCount} attempted`;
+          const accLabel = (sess.correctCount !== null && sess.answeredCount > 0)
+            ? ` • ${Math.round((sess.correctCount / sess.answeredCount) * 100)}% acc`
+            : '';
+          const timeLabel = this.formatRelativeSessionTime(sess.savedAt);
+
+          return `
+            <div class="bg-white border border-zinc-200 hover:border-sky-300 rounded-xl p-4 shadow-2xs transition flex flex-col justify-between gap-3">
+              <div class="space-y-2">
+                <div class="flex items-center justify-between gap-2">
+                  ${modePill}
+                  <span class="text-[11px] text-zinc-400 font-medium">${escapeHtml(timeLabel)}</span>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-zinc-900 truncate" title="${escapeHtml(sess.chapter)}">${escapeHtml(sess.chapter)}</h4>
+                  <p class="text-[11px] text-zinc-500 mt-0.5 truncate">${escapeHtml(sess.subSubject || '')} &bull; On Q${(sess.currentIndex || 0) + 1}${accLabel}</p>
+                </div>
+                <div class="space-y-1">
+                  <div class="flex items-center justify-between text-[11px] font-mono text-zinc-600">
+                    <span>${progressLabel}</span>
+                  </div>
+                  <div class="w-full h-1.5 bg-zinc-100 rounded-full overflow-hidden">
+                    <div class="${barColor} h-full rounded-full transition-all" style="width: ${pct}%"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-2 border-t border-zinc-100 flex items-center justify-between gap-2">
+                <button onclick="app.resumeHomeAttemptSession('${safeType}', '${safeChap}', '${safeFilter}')"
+                        class="flex-1 py-1.5 px-3 rounded-lg btn-primary text-white text-xs font-semibold transition text-center">
+                  Resume &rarr;
+                </button>
+                <button onclick="app.discardHomeAttemptSession('${safeType}', '${safeChap}')"
+                        class="py-1.5 px-2.5 rounded-lg border border-zinc-200 text-zinc-500 hover:text-rose-600 hover:border-rose-200 hover:bg-rose-50/50 text-xs font-medium transition"
+                        title="Clear saved session">
+                  Reset
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
   }
 
   renderStudyAnalyticsWidget() {
@@ -2070,7 +2365,7 @@ class AptiPrepApp {
       totalQuestionsSolved += qCount;
       totalCorrect += cCount;
 
-      if (att.mode === 'mock') {
+      if ((att.mode || '').toLowerCase().includes('mock')) {
         mockScores.push(att.scorePercentage !== undefined ? att.scorePercentage : (qCount > 0 ? Math.round((cCount / qCount) * 100) : 0));
       }
 
@@ -2183,6 +2478,13 @@ class AptiPrepApp {
       return;
     }
 
+    const savedStudyMap = new Map();
+    this.getSavedStudySessions().forEach(s => {
+      if (s && s.chapter) {
+        savedStudyMap.set(s.chapter.toLowerCase(), s);
+      }
+    });
+
     grid.innerHTML = filtered.map(ch => {
       const isSci = (ch.subject === 'General Science');
       const isRk = (ch.subSubject === 'RK Ranjan Math' || ch.faculty === 'RK Ranjan' || this.currentSubjectFilter === 'rk_ranjan');
@@ -2208,6 +2510,11 @@ class AptiPrepApp {
         badgeHtml = '<span class="text-[11px] font-bold uppercase tracking-wider text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded border border-zinc-200/60">Apti</span>';
       }
 
+      const savedSess = savedStudyMap.get((ch.name || '').toLowerCase());
+      const showProgress = savedSess && (!isRk || savedSess.subjectFilter === 'rk_ranjan') && (isRk || savedSess.subjectFilter !== 'rk_ranjan');
+      const attemptedCount = showProgress ? savedSess.answeredCount : 0;
+      const pct = showProgress && ch.count > 0 ? Math.min(100, Math.round((attemptedCount / ch.count) * 100)) : 0;
+
       const clickHandler = isRk
         ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'rk_ranjan')`
         : (isSci ? `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'science')` : `app.startPractice('${ch.name.replace(/'/g, "\\'")}', 'aptitude')`);
@@ -2216,11 +2523,13 @@ class AptiPrepApp {
         <div onclick="${clickHandler}"
              class="${cardBorder} rounded-xl p-3.5 sm:p-4 cursor-pointer transition-all duration-150 flex items-center justify-between group shadow-2xs hover:shadow-xs">
           <div class="space-y-1.5 overflow-hidden pr-2 flex-1">
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 flex-wrap">
               ${badgeHtml}
               <span class="text-xs text-zinc-500 group-hover:text-sky-700 font-mono font-medium transition-colors">${ch.count} Qs</span>
+              ${showProgress ? `<span class="text-[10px] font-mono font-semibold text-sky-700 bg-sky-50 border border-sky-200/80 px-1.5 py-0.2 rounded">${attemptedCount}/${ch.count} done</span>` : ''}
             </div>
-            <h4 class="font-semibold text-zinc-900 group-hover:text-sky-900 text-sm sm:text-base leading-snug truncate transition-colors" title="${ch.name}">${ch.name}</h4>
+            <h4 class="font-semibold text-zinc-900 group-hover:text-sky-900 text-sm sm:text-base leading-snug truncate transition-colors" title="${escapeHtml(ch.name)}">${escapeHtml(ch.name)}</h4>
+            ${showProgress ? `<div class="w-full h-1 bg-zinc-100 rounded-full overflow-hidden"><div class="h-full bg-sky-500 rounded-full" style="width: ${pct}%"></div></div>` : ''}
           </div>
           <span class="text-sm text-zinc-300 group-hover:text-sky-600 transition-colors shrink-0 font-bold ml-1">&rarr;</span>
         </div>
@@ -2392,10 +2701,11 @@ class AptiPrepApp {
       const dateStr = date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
       const timeStr = date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
 
+      const normMode = (att.mode || '').toLowerCase();
       let modeBadge = '<span class="text-[11px] font-medium text-zinc-700">Mock</span>';
-      if (att.mode === 'chapter_test') {
+      if (normMode === 'chapter_test' || normMode === 'chapter test') {
         modeBadge = '<span class="text-[11px] font-medium text-zinc-700">Chapter Test</span>';
-      } else if (att.mode === 'practice') {
+      } else if (normMode === 'practice') {
         modeBadge = '<span class="text-[11px] font-medium text-zinc-500">Practice</span>';
       }
 
@@ -2405,9 +2715,12 @@ class AptiPrepApp {
       else if (accuracy >= 50) accBadge = 'text-amber-700 font-semibold';
       else accBadge = 'text-rose-600 font-semibold';
 
-      const mins = Math.floor((att.timeTakenSeconds || 0) / 60);
-      const secs = (att.timeTakenSeconds || 0) % 60;
-      const timeTakenStr = mins > 0 ? `${mins}m ${secs.toString().padStart(2, '0')}s` : `${secs}s`;
+      let timeTakenStr = att.timeTakenFormatted || '0s';
+      if (att.timeTakenSeconds !== undefined && att.timeTakenSeconds !== null) {
+        const mins = Math.floor((att.timeTakenSeconds || 0) / 60);
+        const secs = (att.timeTakenSeconds || 0) % 60;
+        timeTakenStr = mins > 0 ? `${mins}m ${secs.toString().padStart(2, '0')}s` : `${secs}s`;
+      }
 
       return `
         <tr class="hover:bg-zinc-50 transition">
@@ -2415,7 +2728,7 @@ class AptiPrepApp {
             <span>${dateStr}</span> <span class="text-zinc-400 text-[10px] ml-1">${timeStr}</span>
           </td>
           <td class="py-2.5 px-4 whitespace-nowrap">${modeBadge}</td>
-          <td class="py-2.5 px-4 font-medium text-zinc-800 whitespace-nowrap">${att.chapter || 'All Chapters'}</td>
+          <td class="py-2.5 px-4 font-medium text-zinc-800 whitespace-nowrap">${escapeHtml(att.chapter || 'All Chapters')}</td>
           <td class="py-2.5 px-4 font-mono font-medium text-zinc-900 whitespace-nowrap">
             ${att.correctCount} / ${att.totalQuestions}
           </td>
@@ -2531,6 +2844,7 @@ class AptiPrepApp {
       if (savedProgress && savedProgress.userAnswers && Object.keys(savedProgress.userAnswers).length > 0) {
         this.practice.userAnswers = savedProgress.userAnswers;
         this.practice.reviewFlags = savedProgress.reviewFlags || {};
+        this.practice.questionTimes = savedProgress.questionTimes || {};
         this.practice.currentIndex = Math.min(Math.max(0, savedProgress.currentIndex || 0), questions.length - 1);
         restored = true;
       }
@@ -2540,6 +2854,7 @@ class AptiPrepApp {
       this.practice.currentIndex = 0;
       this.practice.userAnswers = {};
       this.practice.reviewFlags = {};
+      this.practice.questionTimes = {};
     }
     this.practice.startTime = Date.now();
 
@@ -2605,7 +2920,96 @@ class AptiPrepApp {
     this.switchView('practice');
     this.renderPracticeQuestion();
     this.renderPracticePalette();
+    this.startPracticeTimer();
     this.saveActivePracticeSession();
+  }
+
+  getPracticeQuestionTimeKey(q, idx) {
+    return (q && q.id) ? q.id : String(idx);
+  }
+
+  formatQuestionTimer(seconds) {
+    const safe = Math.max(0, Math.floor(Number(seconds) || 0));
+    const mins = Math.floor(safe / 60).toString().padStart(2, '0');
+    const secs = (safe % 60).toString().padStart(2, '0');
+    return `${mins}:${secs}`;
+  }
+
+  updatePracticeQuestionTimerUI() {
+    const textEl = document.getElementById('practice-question-timer-text');
+    const badgeEl = document.getElementById('practice-question-timer');
+    if (!textEl) return;
+
+    const idx = this.practice ? this.practice.currentIndex : 0;
+    const q = this.practice && Array.isArray(this.practice.questions) ? this.practice.questions[idx] : null;
+    if (!q) {
+      textEl.textContent = '00:00';
+      return;
+    }
+
+    if (!this.practice.questionTimes) this.practice.questionTimes = {};
+    const key = this.getPracticeQuestionTimeKey(q, idx);
+    const spent = this.practice.questionTimes[key] || 0;
+    textEl.textContent = this.formatQuestionTimer(spent);
+
+    if (badgeEl) {
+      const isStudySolved = (this.practice.modeType === 'study') &&
+        (this.practice.userAnswers[idx] !== undefined && this.practice.userAnswers[idx] !== null);
+      if (isStudySolved) {
+        badgeEl.className = 'inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/70 font-mono text-[11px] font-medium';
+        badgeEl.title = 'Time taken for this question (paused)';
+      } else if (spent >= 90) {
+        badgeEl.className = 'inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200/80 font-mono text-[11px] font-medium';
+        badgeEl.title = 'Time spent on this question';
+      } else {
+        badgeEl.className = 'inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-zinc-100 text-zinc-600 font-mono text-[11px] font-medium';
+        badgeEl.title = 'Time spent on this question';
+      }
+    }
+  }
+
+  startPracticeTimer() {
+    this.clearPracticeTimer();
+    this.updatePracticeQuestionTimerUI();
+
+    if (!this.practice || !Array.isArray(this.practice.questions) || this.practice.questions.length === 0) {
+      return;
+    }
+
+    this.practice.timerInterval = setInterval(() => {
+      if (this.currentMode !== 'practice' || this.isTestPaused || this.isSubmitting) return;
+      if (typeof document !== 'undefined' && document.visibilityState === 'hidden') return;
+
+      const idx = this.practice.currentIndex;
+      const q = this.practice.questions && this.practice.questions[idx];
+      if (!q) return;
+
+      // In Study Mode, pause the per-question timer once the user answers that question
+      const isStudySolved = (this.practice.modeType === 'study') &&
+        (this.practice.userAnswers[idx] !== undefined && this.practice.userAnswers[idx] !== null);
+      if (isStudySolved) {
+        this.updatePracticeQuestionTimerUI();
+        return;
+      }
+
+      if (!this.practice.questionTimes) this.practice.questionTimes = {};
+      const key = this.getPracticeQuestionTimeKey(q, idx);
+      const nextSeconds = (this.practice.questionTimes[key] || 0) + 1;
+      this.practice.questionTimes[key] = nextSeconds;
+
+      this.updatePracticeQuestionTimerUI();
+
+      if (nextSeconds % 5 === 0) {
+        this.saveActivePracticeSession();
+      }
+    }, 1000);
+  }
+
+  clearPracticeTimer() {
+    if (this.practice && this.practice.timerInterval) {
+      clearInterval(this.practice.timerInterval);
+      this.practice.timerInterval = null;
+    }
   }
 
   async setPracticeModeType(type) {
@@ -2833,6 +3237,7 @@ class AptiPrepApp {
       }
     }
 
+    this.updatePracticeQuestionTimerUI();
     this.updatePracticeScoreboard();
     this.renderPracticePalette();
   }
@@ -3010,6 +3415,7 @@ class AptiPrepApp {
 
   async executeChapterTestSubmission() {
     this.isSubmitting = true;
+    this.clearPracticeTimer();
     this.clearActivePracticeSession();
     this.hideTestPausedModal();
     this.exitFullscreen();
@@ -3911,9 +4317,10 @@ class AptiPrepApp {
   // ==========================================
 
   calculateAttemptLocally({ mode, chapter, timeTakenSeconds, answers }) {
+    const combinedQuestions = [...(this.allQuestions || []), ...(this.rkQuestions || [])];
     if (window.AptiPrep && window.AptiPrep.ScoringService) {
       const { fullAttempt } = window.AptiPrep.ScoringService.calculate({
-        questions: this.allQuestions,
+        questions: combinedQuestions,
         answers,
         mode,
         chapter,
@@ -3924,7 +4331,7 @@ class AptiPrepApp {
     }
 
     const detailedAnswers = answers.map(ans => {
-      const q = this.allQuestions.find(item => item.id === ans.questionId);
+      const q = combinedQuestions.find(item => item.id === ans.questionId);
       const isCorrect = (ans.userAnswer !== null && ans.userAnswer !== undefined && q && ans.userAnswer === q.correctAnswer);
       return {
         questionId: ans.questionId,
@@ -3986,7 +4393,10 @@ class AptiPrepApp {
 
   saveAttempt(attempt) {
     try {
-      this.attempts.unshift(attempt);
+      this.attempts = [
+        attempt,
+        ...(this.attempts || []).filter(a => a && a.attemptId !== attempt.attemptId)
+      ];
 
       // Save to global attempts array in localStorage
       let all = [];
@@ -3995,7 +4405,10 @@ class AptiPrepApp {
         if (stored) all = JSON.parse(stored);
       } catch (e) {}
 
-      all.unshift(attempt);
+      all = [
+        attempt,
+        ...(Array.isArray(all) ? all.filter(a => a && a.attemptId !== attempt.attemptId) : [])
+      ];
       localStorage.setItem('apti_attempts', JSON.stringify(all));
     } catch (e) {
       console.warn('LocalStorage save error:', e);
@@ -4024,9 +4437,10 @@ class AptiPrepApp {
       }
     } catch (err) {}
 
-    // Fallback: reconstruct detailedAnswers from local allQuestions if available
-    if (found && found.answers && this.allQuestions && this.allQuestions.length > 0) {
-      const qMap = new Map(this.allQuestions.map(q => [q.id, q]));
+    // Fallback: reconstruct detailedAnswers from local allQuestions/rkQuestions if available
+    const combinedQuestions = [...(this.allQuestions || []), ...(this.rkQuestions || [])];
+    if (found && found.answers && combinedQuestions.length > 0) {
+      const qMap = new Map(combinedQuestions.map(q => [q.id, q]));
       found.detailedAnswers = found.answers.map(ans => {
         const q = qMap.get(ans.questionId);
         return {
@@ -4282,9 +4696,11 @@ class AptiPrepApp {
       questions: reattemptQuestions,
       currentIndex: 0,
       userAnswers: {},
-      markedForReview: {},
+      reviewFlags: {},
+      questionTimes: {},
       startTime: Date.now(),
       timerInterval: null,
+      modeType: 'study',
       isStudyMode: true,
       subjectFilter: 'all',
       drawerOpen: false,
@@ -4293,7 +4709,8 @@ class AptiPrepApp {
 
     this.switchView('practice');
     this.renderPracticeQuestion();
-    this.updatePracticePalette();
+    this.renderPracticePalette();
+    this.startPracticeTimer();
 
     this.setPracticeChapterTitle(`⚡ Mistakes Drill (${reattemptQuestions.length} Questions)`);
   }

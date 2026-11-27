@@ -115,4 +115,37 @@ describe('Test Refresh Persistence & Default Study Mode Tests', () => {
     // 6. showDashboard preserves study mode sessions in localStorage
     assert.match(jsContent, /if\s*\(this\.currentMode\s*!==\s*'practice'\s*\|\|\s*this\.practice\.modeType\s*!==\s*'study'\)\s*\{[\s\S]*?this\.clearActivePracticeSession\(\);/);
   });
+
+  test('Home page displays active and saved attempt sessions with resume/reset controls', () => {
+    // 1. Dashboard container exists in index.html
+    assert.match(htmlContent, /id="dashboard-attempt-sessions"/);
+
+    // 2. Dashboard renders attempt sessions and chapter progress badges
+    assert.match(jsContent, /getSavedStudySessions\(\)\s*\{/);
+    assert.match(jsContent, /getHomeAttemptSessions\(\)\s*\{/);
+    assert.match(jsContent, /renderAttemptSessionsSection\(\)\s*\{/);
+    assert.match(jsContent, /resumeHomeAttemptSession\(/);
+    assert.match(jsContent, /discardHomeAttemptSession\(/);
+    assert.match(jsContent, /renderDashboard\(\)\s*\{[\s\S]*?this\.renderAttemptSessionsSection\(\)/);
+
+    // 3. loadAttempts refreshes study analytics widget, attempt sessions, and history table
+    assert.match(jsContent, /loadAttempts\(\)\s*\{[\s\S]*?this\.renderStudyAnalyticsWidget\(\)[\s\S]*?this\.renderAttemptSessionsSection\(\)[\s\S]*?this\.renderAttemptsHistory\(\)/);
+  });
+
+  test('Study mode has per-question timer UI, persistence, and cleanup', () => {
+    // 1. Timer UI elements exist in practice view
+    assert.match(htmlContent, /id="practice-question-timer"/);
+    assert.match(htmlContent, /id="practice-question-timer-text"/);
+
+    // 2. Practice state tracks questionTimes and timerInterval
+    assert.match(jsContent, /this\.practice\s*=\s*\{[\s\S]*?questionTimes:\s*\{\}/);
+    assert.match(jsContent, /startPracticeTimer\(\)\s*\{/);
+    assert.match(jsContent, /clearPracticeTimer\(\)\s*\{/);
+    assert.match(jsContent, /updatePracticeQuestionTimerUI\(\)\s*\{/);
+
+    // 3. Timer persists questionTimes across study progress and active practice sessions
+    assert.match(jsContent, /saveChapterStudyProgress\(\)\s*\{[\s\S]*?questionTimes:\s*this\.practice\.questionTimes/);
+    assert.match(jsContent, /saveActivePracticeSession\(\)\s*\{[\s\S]*?questionTimes:\s*this\.practice\.questionTimes/);
+    assert.match(jsContent, /restoreActivePracticeSession\(saved\)\s*\{[\s\S]*?this\.practice\.questionTimes\s*=\s*saved\.questionTimes/);
+  });
 });

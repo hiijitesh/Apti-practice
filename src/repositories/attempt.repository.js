@@ -38,7 +38,10 @@ class AttemptRepository {
 
     if (filterEmail) {
       const normalized = filterEmail.trim().toLowerCase();
-      return attempts.filter(a => (a.userEmail || '').toLowerCase() === normalized);
+      return attempts.filter(a => {
+        const recordEmail = (a.userEmail || (normalized === 'guest@local' ? 'guest@local' : '')).toLowerCase();
+        return recordEmail === normalized;
+      });
     }
 
     return attempts;

@@ -36,6 +36,20 @@ class QuestionRepository {
   }
 
   /**
+   * Returns a combined Map of core + RK Ranjan questions for O(1) review lookups.
+   * @returns {Map<string, Object>}
+   */
+  getCombinedMap() {
+    const map = new Map(this.getMap());
+    for (const q of this.getRkQuestions()) {
+      if (q && q.id && !map.has(q.id)) {
+        map.set(q.id, q);
+      }
+    }
+    return map;
+  }
+
+  /**
    * Get a question by its unique ID.
    * @param {string} id
    * @returns {Object|null}

@@ -62,4 +62,20 @@ describe('Modular Architecture & Repositories Unit Tests', () => {
     assert.ok(fullAttempt.chapterBreakdown);
     assert.equal(fullAttempt.detailedAnswers.length, 3);
   });
+
+  test('QuestionRepository getCombinedMap includes both core and RK Ranjan questions', () => {
+    const combined = questionRepository.getCombinedMap();
+    const core = questionRepository.getAll();
+    const rk = questionRepository.getRkQuestions();
+    assert.ok(combined.size >= core.length);
+    if (rk.length > 0) {
+      assert.ok(combined.has(rk[0].id), 'Combined map must contain RK Ranjan questions');
+    }
+  });
+
+  test('AttemptRepository getAll matches guest@local records with missing userEmail', () => {
+    const guestAttempts = attemptRepository.getAll('guest@local');
+    assert.ok(Array.isArray(guestAttempts));
+    assert.ok(guestAttempts.some(a => !a.userEmail || a.userEmail === 'guest@local'));
+  });
 });

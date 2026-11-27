@@ -51,7 +51,7 @@ class AttemptController {
         return res.status(404).json({ error: 'Attempt not found' });
       }
 
-      const enriched = ScoringService.enrichAttemptReview(attempt, questionRepository.getMap());
+      const enriched = ScoringService.enrichAttemptReview(attempt, questionRepository.getCombinedMap());
       res.json(enriched);
     } catch (err) {
       next(err);
