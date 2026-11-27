@@ -112,8 +112,8 @@ describe('Test Refresh Persistence & Default Study Mode Tests', () => {
     assert.match(jsContent, /const savedProgress = this\.loadChapterStudyProgress\(chapterName\);/);
     assert.match(jsContent, /this\.practice\.userAnswers = savedProgress\.userAnswers;/);
 
-    // 6. showDashboard preserves study mode sessions in localStorage
-    assert.match(jsContent, /if\s*\(this\.currentMode\s*!==\s*'practice'\s*\|\|\s*this\.practice\.modeType\s*!==\s*'study'\)\s*\{[\s\S]*?this\.clearActivePracticeSession\(\);/);
+    // 6. showDashboard saves study progress and clears active redirect keys so homepage refresh stays on homepage
+    assert.match(jsContent, /showDashboard\(\)\s*\{[\s\S]*?if\s*\(this\.currentMode\s*===\s*'practice'\s*&&\s*this\.practice\.modeType\s*===\s*'study'\)\s*\{[\s\S]*?this\.saveChapterStudyProgress\(\);[\s\S]*?\}[\s\S]*?this\.clearActivePracticeSession\(\);/);
   });
 
   test('Home page displays active and saved attempt sessions with resume/reset controls', () => {

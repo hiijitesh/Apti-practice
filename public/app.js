@@ -1743,9 +1743,10 @@ class AptiPrepApp {
       }
       this.clearActivePracticeSession();
     }
-    if (this.currentMode !== 'practice' || this.practice.modeType !== 'study') {
-      this.clearActivePracticeSession();
+    if (this.currentMode === 'practice' && this.practice.modeType === 'study') {
+      this.saveChapterStudyProgress();
     }
+    this.clearActivePracticeSession();
     this.clearActiveMockSession();
     this.exitFullscreen();
     this.switchView('dashboard');

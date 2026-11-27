@@ -522,6 +522,34 @@ describe('Study Mode Per-Question Timer Unit Tests', () => {
     assert.equal(intervals.size, 0);
     assert.equal(app.practice.timerInterval, null);
   });
+
+  test('showDashboard from study mode saves apti_study_* progress and clears apti_active_practice so homepage refresh stays on dashboard', () => {
+    const { app, localStorage } = createAppHarness({ email: 'jitesh@local' });
+    app.currentMode = 'practice';
+    app.practice = {
+      chapter: 'Percentage',
+      modeType: 'study',
+      currentIndex: 0,
+      questions: [{ id: 'p1', question: 'Q1', options: ['A', 'B', 'C', 'D'], correctAnswer: 2 }],
+      userAnswers: { 0: 2 },
+      reviewFlags: {},
+      questionTimes: { p1: 11 },
+      timerInterval: null,
+      startTime: Date.now()
+    };
+
+    app.saveActivePracticeSession();
+    assert.ok(localStorage.getItem('apti_active_practice'));
+
+    app.showDashboard();
+    assert.equal(app.currentMode, 'dashboard');
+    assert.equal(localStorage.getItem('apti_active_practice'), null);
+
+    const studyKey = app.getChapterStudyStorageKey('Percentage');
+    const savedStudy = JSON.parse(localStorage.getItem(studyKey));
+    assert.equal(savedStudy.correctCount, 1);
+    assert.deepEqual(savedStudy.questionTimes, { p1: 11 });
+  });
 });
 
 describe('Client Services & Backend Repository Unit Tests', () => {
