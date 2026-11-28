@@ -4118,7 +4118,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If the income of A equals the savings of B, then the ratio of the expenditures of A and B is:",
+    "question": "The monthly incomes of A and B are in the ratio 2: 3, and the ratio of their savings is 3: 4. If the income of A equals the savings of B, then the ratio of the expenditures of A and B is:",
     "options": [
       "1:2",
       "4:5",
@@ -4716,7 +4716,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If the value of all the coins is Rs. 5.25, then how many 5p coins are there in the bag?",
+    "question": "In a bag, there are coins of 25 p, 10 p and 5 p in the ratio of 2: 3: 5 respectively. If the value of all the coins is Rs. 5.25, then how many 5 p coins are there in the bag?",
     "options": [
       "25",
       "15",
@@ -7865,10 +7865,10 @@
     "chapter": "Mixture & Alligation",
     "question": "In a liquid milk is 15%, in another liquid milk is 20%. If 4 parts of first liquid is added to 11 parts of secon d liquid find percentage of milk in the mixture.",
     "options": [
-      "28",
-      "27",
-      "28.5",
-      "27.5"
+      "18(2/3)%",
+      "16(1/3)%",
+      "18(1/3)%",
+      "17%"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (28) | Exam: SSC CGL 2022 Pre",
@@ -8288,7 +8288,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Mixture & Alligation",
-    "question": "A vessel contains milk and water in the ratio 3 : 4. What percent of mixture should be taken out and replaced by same amount of milk, so that ratio of milk and water in new mixture becomes",
+    "question": "A vessel contains milk and water in the ratio 3 : 4. What percent of mixture should be taken out and replaced by same amount of milk, so that ratio of milk and water in new mixture becomes 17 : 18.",
     "options": [
       "15%",
       "20%",
@@ -9846,7 +9846,7 @@
     "chapter": "Average",
     "question": "The average of 7 consecutive odd numbers is A. If next 3 and previous 2 odd numbers to these 7 odd numbers are also included, then what is the new average of these 12 consecutive odd numbers?",
     "options": [
-      "A",
+      "A + 1",
       "A - 2",
       "A + 2",
       "A + 3"
@@ -11121,10 +11121,10 @@
     "chapter": "Average",
     "question": "Three years ago average age of a family of 5 members was 17 years. After birth of a child, average age of the family today, is 18 years. Find present age of the child.",
     "options": [
-      "1 y",
-      "3 y",
+      "4 y",
+      "8 y",
       "2 y",
-      "5"
+      "5 y"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B (3 y) | Slide: Page 86",
@@ -16409,7 +16409,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Compound Interest",
-    "question": "A sum becomes double in 10 years at compound interest. In how many years (approx) will it double?",
+    "question": "A certain sum is invested at 26% p.a, interest compounded annually. In how many years (approx) will it double?",
     "options": [
       "4",
       "3",
@@ -17334,7 +17334,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "The profit on selling an article for Rs 1100 is equal to the three times the amount of loss on selling it for Rs 700 . To gain the article must be sold for:",
+    "question": "The profit on selling an article for Rs 1100 is equal to three times the amount of loss on selling it for Rs 700. To gain 12.5% the article must be sold for:",
     "options": [
       "Rs 956",
       "Rs 877.50",
@@ -17709,7 +17709,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A person buys some bananas at ₹Y per dozen and sells them at ₹ per banana. What is his gain percentage?",
+    "question": "A person buys some bananas at ₹Y per dozen and sells them at ₹Y/4 per banana. What is his gain percentage?",
     "options": [
       "200%",
       "50%",
@@ -17961,7 +17961,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A shopkeeper mixed two kinds of rice in the ratio 1:5.",
+    "question": "A shopkeeper mixed two kinds of rice in the ratio 1:5. Type 1 rice costs ₹65 per kg and type 2 rice costs ₹95 per kg. He sold the mixed rice at ₹99 per kg. Find his gain percentage.",
     "options": [
       "25 (1/3)%",
       "19%",
@@ -18797,7 +18797,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A man sells two objects for ₹7840 each he sells the first object at loss, if on the whole he makes neither profit nor loss. Find percentage profit on the second object.",
+    "question": "A man sells two objects for ₹7840 each he sells the first object at 25% loss, if on the whole he makes neither profit nor loss. Find percentage profit on the second object.",
     "options": [
       "25%",
       "33(1/3) %",
@@ -18847,7 +18847,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A man purchased two cows for ₹ 500 . He sells the first at loss and the second at gain. In this bargain he neither gains nor loses. Find the S. P of cow sold at profit",
+    "question": "A man purchased two cows for ₹500. He sells the first at 12% loss and the second at 8% gain. In this bargain he neither gains nor loses. Find the S.P of cow sold at profit.",
     "options": [
       "300",
       "200",
@@ -18972,7 +18972,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A man bought two bicycles for ₹3,000 each. If he sells one bicycle at a profi t of , then for how much percentage profit should he sell the other bicycle so that he makes a profit of 20% on the whole?",
+    "question": "A man bought two bicycles for ₹3,000 each. If he sells one bicycle at a profit of 10%, then for how much percentage profit should he sell the other bicycle so that he makes a profit of 20% on the whole?",
     "options": [
       "15 Percent",
       "25 Percent",
@@ -18997,7 +18997,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "A sold an article on profit for Rs. 1495. He purchased another article having cost price equal to the first article. He sold this new article at 10% profit. What is the total profit of A?",
+    "question": "A sold an article on 15% profit for Rs. 1495. He purchased another article having cost price equal to the first article. He sold this new article at 10% profit. What is the total profit of A?",
     "options": [
       "₹325",
       "₹450",
@@ -19147,12 +19147,12 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Profit & Loss",
-    "question": "Each of the two cars is sold at the same price. A profit of is made on the first and a loss of is made on the second. What is the combined loss or gain A. B. C. D.",
+    "question": "Each of the two cars is sold at the same price. A profit of 10% is made on the first and a loss of 7% is made on the second. What is the combined loss or gain?",
     "options": [
-      "150 203 %",
-      "170 203 %",
-      "160 203 %",
-      "180 203 %"
+      "150/203 %",
+      "170/203 %",
+      "160/203 %",
+      "180/203 %"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C (160 203 %)",
@@ -19349,10 +19349,10 @@
     "chapter": "Profit & Loss",
     "question": "A horse worth ₹ 9000 is sold by A to B at 10% gain. B sells the horse back to A at 10% loss. Find profit or loss % of A .",
     "options": [
-      "810 Profit",
-      "900 Loss",
-      "900 Profit",
-      "810 loss"
+      "11% profit",
+      "10% Profit",
+      "10% Loss",
+      "11% Loss"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (810 Profit)",
@@ -21722,7 +21722,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A certain number of persons can complete a work in 34 days working 9 hours a day. If the number of persons is decreased by , then how many hours a day should the remaining persons work to complete the work in 51 days?",
+    "question": "A certain number of persons can complete a work in 34 days working 9 hours a day. If the number of persons is decreased by 40%, then how many hours a day should the remaining persons work to complete the work in 51 days?",
     "options": [
       "9",
       "8",
@@ -21973,7 +21973,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "Raju and Vinod are working on an assignment. Raju takes 8 hours to",
+    "question": "Raju and Vinod are working on an assignment. Raju takes 8 hours to type 32 pages on computer while Vinod takes 6 hours to type 44 pages. What time will they take working together to type an assignment of 102 pages on separate computers?",
     "options": [
       "9 hr",
       "12 hr",
@@ -22048,7 +22048,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A Does of a work in 30 days. He then calls i n B and they together finish the remaining work in 20 days. How long B alone would take to do the whole work?",
+    "question": "A Does 30% of a work in 30 days. He then calls in B and they together finish the remaining work in 20 days. How long B alone would take to do the whole work?",
     "options": [
       "20 days",
       "42 days",
@@ -22175,10 +22175,10 @@
     "chapter": "Time & Work",
     "question": "P,Q and R alone can complete a work in 7.5, 20 and 18 days respectively. In how many days will they together complete the same work?",
     "options": [
-      "40",
-      "30",
-      "44",
-      "32"
+      "180/43",
+      "180/37",
+      "180/19",
+      "180/41"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (40) | Exam: SSC CGL 2023",
@@ -22250,10 +22250,10 @@
     "chapter": "Time & Work",
     "question": "X alone can do a work in 10 days, Y alone can do it in 15 days. X, Y and Z together can do the same work in 3 days. In how many days can Z alone do the work?",
     "options": [
-      "40",
-      "30",
-      "44",
-      "32"
+      "5",
+      "4",
+      "6",
+      "8"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C (44) | Exam: SSC MTS 2022 Type D - AB = x, BC = y, CA = z",
@@ -22625,7 +22625,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "P can do more work than Q in the same time. Q alone completes the total part of that work in 25 days, then in how many days will P and Q together finish the same work?",
+    "question": "P can do 25% more work than Q in the same time. Q alone completes the total part of that work in 25 days, then in how many days will P and Q together finish the same work?",
     "options": [
       "12(1/5)",
       "10(2/3)",
@@ -22700,7 +22700,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A is more efficient than B and C is 20% less efficient than B. Working together, they can finish a work in 5 days. In how many days, will A alone complete 70% of the work?",
+    "question": "A is 40% more efficient than B and C is 20% less efficient than B. Working together, they can finish a work in 5 days. In how many days, will A alone complete 70% of the work?",
     "options": [
       "9",
       "7",
@@ -22875,7 +22875,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "The Efficiency of A, B and C are in the ratio 2:5:7 working together, they can complete a work in 10 days. In how many days will A alone be able to complete of that work?",
+    "question": "The Efficiency of A, B and C are in the ratio 2:5:7 working together, they can complete a work in 10 days. In how many days will A alone be able to complete 30% of that work?",
     "options": [
       "21",
       "15",
@@ -22925,7 +22925,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "C is 5 times as productive as B . A takes 60 days to complete a task. If and C work together can complete the task in 12 days. In how many days can B complete the task if he worked alone?",
+    "question": "C is 5 times as productive as B. A takes 60 days to complete a task. If A, B and C work together can complete the task in 12 days. In how many days can B complete the task if he worked alone?",
     "options": [
       "15",
       "10",
@@ -22975,7 +22975,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A does as much work as B in one - sixth of the time. If together they take 10 days to complete a work, how much time shall ' A ' take to do it alone?",
+    "question": "A does 2/3 as much work as B in one-sixth of the time. If together they take 10 days to complete a work, how much time shall 'A' take to do it alone?",
     "options": [
       "12.5",
       "25",
@@ -23052,10 +23052,10 @@
     "chapter": "Time & Work",
     "question": "A alone can do 2/5 of a work in 12 days, B is 25 percent more efficient than A. C alone can do the same work in 12 days less than B. D is 25 percent less efficient than C. If they all work together, then the work will be completed in how many days?",
     "options": [
-      "9",
-      "7",
-      "10",
-      "8"
+      "240/53",
+      "180/43",
+      "200/51",
+      "300/47"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (9) | Exam: CGL Tier II 2022",
@@ -23075,7 +23075,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A works twice as fast as B and B works twice as fast as C. All three working together can finish a task in 4 days with the help of D . If D alone can finish the same task in 16 days, then in how many days will A alone finish of the same task?",
+    "question": "A works twice as fast as B and B works twice as fast as C. All three working together can finish a task in 4 days with the help of D. If D alone can finish the same task in 16 days, then in how many days will A alone finish 75% of the same task?",
     "options": [
       "9",
       "8",
@@ -24125,12 +24125,12 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A and B together can do a piece of work in 12 days. A works for 4 days alone and leave. Now B finishes the remaining job in 36 day s. Find time taken by ' ' alone to complete the work.",
+    "question": "A and B together can do a piece of work in 12 days. A works for 4 days alone and leave. Now B finishes the remaining job in 36 days. Find time taken by 'A' alone to complete the work.",
     "options": [
-      "64",
-      "96",
-      "80",
-      "60"
+      "48",
+      "16",
+      "32",
+      "40"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B (96) | Exam: SSC CHSL 2021",
@@ -24475,7 +24475,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "A man can",
+    "question": "A man can type 20 lines in 10 minutes but he leaves 8% margin on each line. In how much time he will type 23 pages with 40 lines on each page on which he leaves 25% more margins than before?",
     "options": [
       "7hr 30min",
       "7hr 20min",
@@ -24486,7 +24486,8 @@
     "explanation": "Correct Answer: Option A (7hr 30min) | Exam: SSC CHSL 2022",
     "source": {
       "file": "Dixit Sir · Time & Work",
-      "q": 122
+      "q": 122,
+      "page": 13
     },
     "check": {
       "text": false,
@@ -25302,8 +25303,8 @@
     "chapter": "Pipe & Cistern",
     "question": "Pipes A and B can fill a tank in one hour and two hours respectively while pipe C can empty the filled up tank in one hour and fifteen minutes. A and C are turned on together at 9 a.m. After 2 hours, only A is closed and B is turned on. When will the tank be emptied ?",
     "options": [
-      "m.",
-      "11:30",
+      "12:10 p.m.",
+      "11:30 a.m.",
       "10:20 a.m.",
       "12:20 p.m."
     ],
@@ -26050,7 +26051,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Pipe & Cistern",
-    "question": "A pipe can fill a tank in 18 hours. In how much time (in hours) will another pipe operating at one-third the efficiency of the first pipe fill a tank whose capacity is of that of the first tank?",
+    "question": "A pipe can fill a tank in 18 hours. In how much time (in hours) will another pipe operating at one-third the efficiency of the first pipe fill a tank whose capacity is 50% of that of the first tank?",
     "options": [
       "36",
       "21",
@@ -33876,7 +33877,9 @@
     "slidePage": 2,
     "source": {
       "file": "Science Magnet · Blood",
-      "page": 2
+      "page": 2,
+      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=2",
+      "slide": "data/slides/blood-p2.webp"
     },
     "check": {
       "text": true,
@@ -34141,23 +34144,26 @@
     "chapter": "Blood",
     "question": "The diagram below shows the different types of white blood cells. Identify the option with correct labelling.",
     "options": [
-      "a - Eosinophil b - Neutrophil, c - Basophil, d-monocyte, e-Lymphocyte a - b - , c - , d-, e-",
-      "a-Neutrophil, b-Basophil, c- Lymphocyte, d-Eosinophil, e-Monocyte a- , b- , c- , d- , e-",
-      "a-Neutrophil, b-Monocyte, c-Eosinophil, d-Basophil, e-Lymphocyte a- , b- , c- , d- , e-",
-      "a-Neutrophil, b-Eosionphil, c-Basophil, d-Lymphocyte, e-Monocyte a- , b- , c- , d- , e-"
+      "a - Eosinophil b - Neutrophil, c - Basophil, d-monocyte, e-Lymphocyte",
+      "a-Neutrophil, b-Basophil, c- Lymphocyte, d-Eosinophil, e-Monocyte",
+      "a-Neutrophil, b-Monocyte, c-Eosinophil, d-Basophil, e-Lymphocyte",
+      "a-Neutrophil, b-Eosionphil, c-Basophil, d-Lymphocyte, e-Monocyte"
     ],
     "correctAnswer": 3,
     "explanation": " RRB Group D 24 8 22 – Shift II | Slide: Page 35",
     "slidePage": 35,
     "source": {
       "file": "Science Magnet · Blood",
-      "page": 35
+      "page": 35,
+      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=35",
+      "slide": "data/slides/blood-p35.webp"
     },
     "check": {
       "text": true,
       "options": false,
       "key": null
-    }
+    },
+    "diagram": "data/diagrams/Bio_BLOOD_Q14.png"
   },
   {
     "id": "sci_blood_q015",
@@ -34326,7 +34332,9 @@
     "slidePage": 20,
     "source": {
       "file": "Science Magnet · Blood",
-      "page": 20
+      "page": 20,
+      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=20",
+      "slide": "data/slides/blood-p20.webp"
     },
     "check": {
       "text": true,
@@ -34376,7 +34384,9 @@
     "slidePage": 7,
     "source": {
       "file": "Science Magnet · Botany",
-      "page": 7
+      "page": 7,
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=7",
+      "slide": "data/slides/botany-p7.webp"
     },
     "check": {
       "text": false,
@@ -34400,7 +34410,8 @@
     "explanation": " RRB Group-D: 29 08 2022 (Shift-II) | Slide: Page 26",
     "slidePage": 26,
     "source": {
-      "file": "Science Magnet · Botany"
+      "file": "Science Magnet · Botany",
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
     },
     "check": {
       "text": false,
@@ -34424,7 +34435,8 @@
     "explanation": " RRB Group-D - 20 09 2022 (Shift-III) | Slide: Page 27",
     "slidePage": 27,
     "source": {
-      "file": "Science Magnet · Botany"
+      "file": "Science Magnet · Botany",
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
     },
     "check": {
       "text": false,
@@ -34448,7 +34460,8 @@
     "explanation": " RRB NTPC 09.03.2021 (Shift-I) | Slide: Page 28",
     "slidePage": 28,
     "source": {
-      "file": "Science Magnet · Botany"
+      "file": "Science Magnet · Botany",
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
     },
     "check": {
       "text": false,
@@ -34461,7 +34474,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Botany",
-    "question": "Which of the following is are correct with regard to the technique of plants to get rid of waste material?",
+    "question": "Which of the following is are correct with regard to the technique of plants to get rid of waste material?\nA. Plants get rid of excess water by transpiration.\nB. Waste products may be stored in leaves that fall off.\nC. Waste products are stored as resins and gums, especially in old xylem.",
     "options": [
       "Both B and C",
       "Both A and B",
@@ -34473,7 +34486,9 @@
     "slidePage": 9,
     "source": {
       "file": "Science Magnet · Botany",
-      "page": 9
+      "page": 9,
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=9",
+      "slide": "data/slides/botany-p9.webp"
     },
     "check": {
       "text": true,
@@ -34522,7 +34537,8 @@
     "explanation": "Correct Answer: Option A | (Hand weeding) | Exam: RRB ALP 18/03/2026 Shift 3 | Slide: Page 3",
     "slidePage": 3,
     "source": {
-      "file": "Science Magnet · Botany"
+      "file": "Science Magnet · Botany",
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
     },
     "check": {
       "text": false,
@@ -34672,7 +34688,9 @@
     "slidePage": 27,
     "source": {
       "file": "Science Magnet · Botany",
-      "page": 27
+      "page": 27,
+      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=27",
+      "slide": "data/slides/botany-p27.webp"
     },
     "check": {
       "text": true,
@@ -35272,13 +35290,16 @@
     "slidePage": 38,
     "source": {
       "file": "Science Magnet · Cell",
-      "page": 38
+      "page": 38,
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=38",
+      "slide": "data/slides/cell-p38.webp"
     },
     "check": {
       "text": true,
       "options": false,
       "key": null
-    }
+    },
+    "diagram": "data/diagrams/Bio_CELL_Q17.png"
   },
   {
     "id": "sci_cell_q018",
@@ -35490,14 +35511,16 @@
       "Cell size is always large in multicellular organisms.",
       "Cell size depends on the number of nuclei.",
       "All cells are of the same size in all organisms.",
-      "Cell size is related to its function, not the size of the organism. ,"
+      "Cell size is related to its function, not the size of the organism."
     ],
     "correctAnswer": 3,
     "explanation": " RRB Group-D, 28 11 2025 (Shift-3) | Slide: Page 63",
     "slidePage": 63,
     "source": {
       "file": "Science Magnet · Cell",
-      "page": 63
+      "page": 63,
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=63",
+      "slide": "data/slides/cell-p63.webp"
     },
     "check": {
       "text": true,
@@ -35547,7 +35570,9 @@
     "slidePage": 68,
     "source": {
       "file": "Science Magnet · Cell",
-      "page": 68
+      "page": 68,
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=68",
+      "slide": "data/slides/cell-p68.webp"
     },
     "check": {
       "text": true,
@@ -35860,19 +35885,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Cell",
-    "question": "Match the cell organelles with their respective functions.",
+    "question": "Match the cell organelles with their respective functions.\n1. Cell wall — a. Digests any foreign matter and worn-out cellular components\n2. Ribosomes — b. Gives plants their structural strength\n3. Lysosomes — c. Sites involved in protein manufacture\n4. Golgi apparatus — d. Linked to the production of lysosomes",
     "options": [
-      "Digests any foreign matter and worn-",
-      "Gives plants their structural strength",
-      "Sites involved in protein manufacture",
-      "Linked to the production of"
+      "1-b, 2-c, 3-a, 4-d",
+      "1-a, 2-b, 3-c, 4-d",
+      "1-b, 2-d, 3-c, 4-a",
+      "1-c, 2-a, 3-d, 4-b"
     ],
-    "correctAnswer": 2,
-    "explanation": " Railway Technician 24 12 2024 --> 2 nd shift | Slide: Page 100",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (1-b, 2-c, 3-a, 4-d) | Exam: Railway Technician 24/12/2024 Shift-II | Slide: Page 100",
     "slidePage": 100,
     "source": {
       "file": "Science Magnet · Cell",
-      "page": 100
+      "page": 100,
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=100",
+      "slide": "data/slides/cell-p100.webp"
     },
     "check": {
       "text": true,
@@ -36037,17 +36064,19 @@
     "chapter": "Cell",
     "question": "Chlorophyll pigment is present in which of the following components of the cell?",
     "options": [
-      "Chlorophyll",
+      "Chloroplast",
       "Lysosome",
       "Mitochondria",
       "Ribosome"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D - 15 09 2022 (Shift-1) | Slide: Page 118",
+    "explanation": "Correct Answer: Option A | (Chloroplast — slide printed 'Chlorophyll', corrected by teacher on slide) | Exam: RRB Group-D 15/09/2022 (Shift-1) | Slide: Page 118",
     "slidePage": 118,
     "source": {
       "file": "Science Magnet · Cell",
-      "page": 118
+      "page": 118,
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=118",
+      "slide": "data/slides/cell-p118.webp"
     },
     "check": {
       "text": true,
@@ -36346,7 +36375,8 @@
     "explanation": "Correct Answer: Option B | (Reproduction) | Exam: RRB Group-D, 26/12/2025 (Shift-3) | Slide: Page 17",
     "slidePage": 17,
     "source": {
-      "file": "Science Magnet · Cell"
+      "file": "Science Magnet · Cell",
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view"
     },
     "check": {
       "text": false,
@@ -36395,7 +36425,8 @@
     "explanation": "Mitosis is somatic cell division responsible for growth, replacement of worn-out cells, and healing of injuries. | Exam: RRB NTPC Stage Ist 26.04.2016 (Shift-II) | Slide: Page 132",
     "slidePage": 132,
     "source": {
-      "file": "Science Magnet · Cell"
+      "file": "Science Magnet · Cell",
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view"
     },
     "check": {
       "text": false,
@@ -37222,7 +37253,9 @@
     "slidePage": 23,
     "source": {
       "file": "Science Magnet · Circulatory System",
-      "page": 23
+      "page": 23,
+      "url": "https://drive.google.com/file/d/1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq/view#page=23",
+      "slide": "data/slides/circulatory-system-p23.webp"
     },
     "check": {
       "text": false,
@@ -37835,19 +37868,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Classification of Organisms",
-    "question": "A researcher finds a plant group that does not need water for fertilisation and has",
+    "question": "A researcher finds a plant group that does not need water for fertilisation and has seeds which are not enclosed in fruits. Which plant group is being described?",
     "options": [
       "Pteridophytes",
-      "Gymnosperms ()",
+      "Gymnosperms",
       "Bryophytes",
-      "Angiosperms ()"
+      "Angiosperms"
     ],
     "correctAnswer": 1,
     "explanation": " RRB GROUP D 21-08-2026 Shift 1 | Slide: Page 118",
     "slidePage": 118,
     "source": {
       "file": "Science Magnet · Classification of Organisms",
-      "page": 118
+      "page": 118,
+      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=118",
+      "slide": "data/slides/classification-of-organisms-p118.webp"
     },
     "check": {
       "text": true,
@@ -37913,7 +37948,7 @@
     "question": "A zoologist observes a fixed aquatic animal with no tissue differentiation but efficient water filtration. Which of the following is most likely to happen if this animal was placed in a terrestrial environment?",
     "options": [
       "It would desiccate due to inability to retain water",
-      "It would use tentacles to trap moisture ()",
+      "It would use tentacles to trap moisture",
       "It would move to moist areas for survival",
       "It would close its pores to prevent drying"
     ],
@@ -37922,7 +37957,9 @@
     "slidePage": 121,
     "source": {
       "file": "Science Magnet · Classification of Organisms",
-      "page": 121
+      "page": 121,
+      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=121",
+      "slide": "data/slides/classification-of-organisms-p121.webp"
     },
     "check": {
       "text": true,
@@ -37997,7 +38034,9 @@
     "slidePage": 127,
     "source": {
       "file": "Science Magnet · Classification of Organisms",
-      "page": 127
+      "page": 127,
+      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=127",
+      "slide": "data/slides/classification-of-organisms-p127.webp"
     },
     "check": {
       "text": true,
@@ -38237,17 +38276,19 @@
     "chapter": "Digestive System",
     "question": "Identify the incorrect statement regarding digestion.",
     "options": [
-      "Absorption occurs before assimilation but after digestion. ,",
-      "Assimilation occurs before ingestion but after absorption. ,",
-      "Digestion occurs before Egestion but after ingestion. , () ,",
-      "Both assimilation and absorption occur before ingestion. ,"
+      "Absorption occurs before assimilation but after digestion.",
+      "Assimilation occurs before ingestion but after absorption.",
+      "Digestion occurs before Egestion but after ingestion.",
+      "Both assimilation and absorption occur before ingestion."
     ],
     "correctAnswer": 1,
     "explanation": " RRB Group- D - 11 10 2022 (Shift-II) | Slide: Page 7",
     "slidePage": 7,
     "source": {
       "file": "Science Magnet · Digestive System",
-      "page": 7
+      "page": 7,
+      "url": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/view#page=7",
+      "slide": "data/slides/digestive-system-p7.webp"
     },
     "check": {
       "text": true,
@@ -38686,20 +38727,22 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Digestive System",
-    "question": "Digestive System Which figure shows the correct location of the liver (in the human body (given that the person is facing you, the reader)?",
+    "question": "Which figure shows the correct location of the liver in the human body (given that the person is facing you, the reader)?",
     "diagram": "data/diagrams/Bio_DIGESTIVE_SYSTEM_Q21.png",
     "options": [
-      "Figure 4 4",
-      "Figure 1 1",
-      "Figure 2 2",
-      "Figure 3 3"
+      "Figure 4",
+      "Figure 1",
+      "Figure 2",
+      "Figure 3"
     ],
-    "correctAnswer": 1,
-    "explanation": " RRB Group-D- 06 10 2022 (Shift-I) | Slide: Page 55",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Figure 3) | Exam: RRB Group-D 06/10/2022 (Shift-I) | Slide: Page 55",
     "slidePage": 55,
     "source": {
       "file": "Science Magnet · Digestive System",
-      "page": 55
+      "page": 55,
+      "url": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/view#page=55",
+      "slide": "data/slides/digestive-system-p55.webp"
     },
     "check": {
       "text": true,
@@ -39724,7 +39767,9 @@
     "slidePage": 61,
     "source": {
       "file": "Science Magnet · Endocrine System",
-      "page": 61
+      "page": 61,
+      "url": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/view#page=61",
+      "slide": "data/slides/endocrine-system-p61.webp"
     },
     "check": {
       "text": true,
@@ -39749,7 +39794,9 @@
     "slidePage": 68,
     "source": {
       "file": "Science Magnet · Endocrine System",
-      "page": 68
+      "page": 68,
+      "url": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/view#page=68",
+      "slide": "data/slides/endocrine-system-p68.webp"
     },
     "check": {
       "text": true,
@@ -40049,7 +40096,9 @@
     "slidePage": 12,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 12
+      "page": 12,
+      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=12",
+      "slide": "data/slides/environment-p12.webp"
     },
     "check": {
       "text": true,
@@ -40625,7 +40674,9 @@
     "slidePage": 64,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 64
+      "page": 64,
+      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
+      "slide": "data/slides/environment-p64.webp"
     },
     "check": {
       "text": false,
@@ -40675,7 +40726,9 @@
     "slidePage": 36,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 36
+      "page": 36,
+      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=36",
+      "slide": "data/slides/environment-p36.webp"
     },
     "check": {
       "text": true,
@@ -40713,19 +40766,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Environment",
-    "question": "Which of the given substances is NOT biodegradable nature?",
+    "question": "Which of the given substances is NOT biodegradable nature?\nA. Vegetable peels\nB. Plastic bottles\nC. Spoilt food",
     "options": [
-      "Only B B",
-      "Both A and C A C",
-      "A, B and C A , B C",
-      "Only A A"
+      "Only B",
+      "Both A and C",
+      "A, B and C",
+      "Only A"
     ],
     "correctAnswer": 0,
     "explanation": " Railway Technician 24 12 2024 --> 2 nd shift | Slide: Page 71",
     "slidePage": 71,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 71
+      "page": 71,
+      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=71",
+      "slide": "data/slides/environment-p71.webp"
     },
     "check": {
       "text": true,
@@ -40850,7 +40905,9 @@
     "slidePage": 64,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 64
+      "page": 64,
+      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
+      "slide": "data/slides/environment-p64.webp"
     },
     "check": {
       "text": true,
@@ -41397,12 +41454,14 @@
       "The amount of excess water",
       "These factors have no effect"
     ],
-    "correctAnswer": 2,
-    "explanation": " RRB Group-D 05-09-2022 Level-1 (Shift-III) | Slide: Page 47",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (The amount of excess water and the amount of dissolved waste excreted) | Exam: RRB Group-D 05-09-2022 Level-1 (Shift-III) | Slide: Page 47",
     "slidePage": 47,
     "source": {
       "file": "Science Magnet · Excretory System",
-      "page": 47
+      "page": 47,
+      "url": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/view#page=47",
+      "slide": "data/slides/excretory-system-p47.webp"
     },
     "check": {
       "text": true,
@@ -41604,7 +41663,9 @@
     "slidePage": 41,
     "source": {
       "file": "Science Magnet · Excretory System",
-      "page": 41
+      "page": 41,
+      "url": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/view#page=41",
+      "slide": "data/slides/excretory-system-p41.webp"
     },
     "check": {
       "text": true,
@@ -41945,17 +42006,19 @@
     "chapter": "Heredity",
     "question": "Which of the following contrasting visible characters of garden peas are NOT used by Mendel?",
     "options": [
-      "Tall",
-      "Round",
-      "White",
-      "Green"
+      "Tall/short plants",
+      "Round/wrinkled seeds",
+      "White/purple flowers",
+      "Green/white seeds"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB Group-D, 26 12 2025 (Shift-2) | Slide: Page 18",
+    "explanation": "Correct Answer: Option D | (Green/white seeds — Mendel used yellow/green seed colour) | Exam: RRB Group-D, 26/12/2025 (Shift-2) | Slide: Page 18",
     "slidePage": 18,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 18
+      "page": 18,
+      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=18",
+      "slide": "data/slides/heredity-p18.webp"
     },
     "check": {
       "text": true,
@@ -42205,7 +42268,9 @@
     "slidePage": 32,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 32
+      "page": 32,
+      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=32",
+      "slide": "data/slides/heredity-p32.webp"
     },
     "check": {
       "text": false,
@@ -42218,19 +42283,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Heredity",
-    "question": "Mendel worked with a number of contrasting visible characters of garden pea. Some",
+    "question": "Mendel worked with a number of contrasting visible characters of garden pea. Some of them were:\nA. Round and wrinkled seeds\nB. tall and short plants\nC. white and violet flowers\nWhich of these are the recessive traits in the pea plant?",
     "options": [
-      "Violet, short and round ,",
-      "Wrinkled, short and violet ,",
-      "Wrinkled, short and white ,",
-      "Round, short and white ,"
+      "Violet, short and round",
+      "Wrinkled, short and violet",
+      "Wrinkled, short and white",
+      "Round, short and white"
     ],
     "correctAnswer": 2,
     "explanation": " RRB Group-D- 26 08 2022 (Shift-III) | Slide: Page 32",
     "slidePage": 32,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 32
+      "page": 32,
+      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=32",
+      "slide": "data/slides/heredity-p32.webp"
     },
     "check": {
       "text": true,
@@ -42268,10 +42335,10 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Heredity",
-    "question": "Read the given Assertion (A) and Reason (R) carefully and select the correct option.",
+    "question": "Read the given Assertion (A) and Reason (R) carefully and select the correct option.\n(A): Mendel chose pea plants for his experiments because they were easy to grow and showed distinct contrasting traits.\n(R): Pea plants reproduce asexually, allowing Mendel to control crosses easily.",
     "options": [
-      "Both A and R are true, but R is not the correct explanation of A A R , R, A",
-      "Both A and R are true, and R is the correct explanation of A A R , R, A",
+      "Both A and R are true, but R is not the correct explanation of A",
+      "Both A and R are true, and R is the correct explanation of A",
       "A is true, but R is false",
       "A is false, but R is true"
     ],
@@ -42280,7 +42347,9 @@
     "slidePage": 35,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 35
+      "page": 35,
+      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=35",
+      "slide": "data/slides/heredity-p35.webp"
     },
     "check": {
       "text": true,
@@ -42480,7 +42549,9 @@
     "slidePage": 51,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 51
+      "page": 51,
+      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=51",
+      "slide": "data/slides/heredity-p51.webp"
     },
     "check": {
       "text": true,
@@ -43130,7 +43201,9 @@
     "slidePage": 98,
     "source": {
       "file": "Science Magnet · Improvement in Food Resources",
-      "page": 98
+      "page": 98,
+      "url": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/view#page=98",
+      "slide": "data/slides/improvement-in-food-resources-p98.webp"
     },
     "check": {
       "text": true,
@@ -43193,7 +43266,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Improvement in Food Resources",
-    "question": "Match the common name of the bee with its scientific name.\nColumn I (Common Name) Column II (Scientific Name)\n1. Indian bee A. Apis mellifera",
+    "question": "Match the common name of the bee with its scientific name.\n1. Indian bee — A. Apis mellifera\n2. Rock bee — B. Apis cerana indica\n3. Little bee — C. Apis dorsata\n4. Italian bee — D. Apis florae",
     "options": [
       "1-C, 2-D, 3-B, 4-A",
       "1-B, 2-C, 3-D, 4-A",
@@ -43205,7 +43278,9 @@
     "slidePage": 111,
     "source": {
       "file": "Science Magnet · Improvement in Food Resources",
-      "page": 111
+      "page": 111,
+      "url": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/view#page=111",
+      "slide": "data/slides/improvement-in-food-resources-p111.webp"
     },
     "check": {
       "text": true,
@@ -43932,7 +44007,9 @@
     "slidePage": 7,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 7
+      "page": 7,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=7",
+      "slide": "data/slides/nutrition-p7.webp"
     },
     "check": {
       "text": true,
@@ -44057,7 +44134,9 @@
     "slidePage": 9,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 9
+      "page": 9,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=9",
+      "slide": "data/slides/nutrition-p9.webp"
     },
     "check": {
       "text": true,
@@ -44082,7 +44161,9 @@
     "slidePage": 32,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 32
+      "page": 32,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=32",
+      "slide": "data/slides/nutrition-p32.webp"
     },
     "check": {
       "text": true,
@@ -44095,7 +44176,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Nutrition",
-    "question": "Match the following types of carbohydrates with their corresponding examples:\nCarbohydrate Type Example",
+    "question": "Match the following types of carbohydrates with their corresponding examples:\np. Monosaccharide — 1. Lactose\nq. Disaccharide — 2. Glycogen\nr. Polysaccharide — 3. Glucose",
     "options": [
       "p-2, q-3, r-1",
       "p-3, q-1, r-2",
@@ -44107,7 +44188,9 @@
     "slidePage": 60,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 60
+      "page": 60,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=60",
+      "slide": "data/slides/nutrition-p60.webp"
     },
     "check": {
       "text": true,
@@ -44622,17 +44705,19 @@
     "chapter": "Nutrition",
     "question": "Which of the following vitamins plays an important role in blood clotting?",
     "options": [
-      "Vitamin B 12 B 12",
-      "Vitamin D D",
-      "Vitamin A A",
-      "Vitamin E E"
+      "Vitamin B12",
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin K"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB NTPC 03.04.2016 (Shift-I) Stage Ist | Slide: Page 109",
+    "explanation": "Correct Answer: Option D | (Vitamin K — slide printed 'Vitamin E', corrected by teacher to Vitamin K) | Exam: RRB NTPC 03.04.2016 (Shift-I) Stage Ist | Slide: Page 109",
     "slidePage": 109,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 109
+      "page": 109,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=109",
+      "slide": "data/slides/nutrition-p109.webp"
     },
     "check": {
       "text": true,
@@ -44657,7 +44742,9 @@
     "slidePage": 81,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 81
+      "page": 81,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=81",
+      "slide": "data/slides/nutrition-p81.webp"
     },
     "check": {
       "text": false,
@@ -44857,7 +44944,9 @@
     "slidePage": 27,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 27
+      "page": 27,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=27",
+      "slide": "data/slides/nutrition-p27.webp"
     },
     "check": {
       "text": true,
@@ -46283,7 +46372,9 @@
     "slidePage": 101,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 101
+      "page": 101,
+      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=101",
+      "slide": "data/slides/reproduction-in-organisms-p101.webp"
     },
     "check": {
       "text": true,
@@ -46658,7 +46749,9 @@
     "slidePage": 26,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 26
+      "page": 26,
+      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=26",
+      "slide": "data/slides/reproduction-in-organisms-p26.webp"
     },
     "check": {
       "text": true,
@@ -46783,7 +46876,9 @@
     "slidePage": 149,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 149
+      "page": 149,
+      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=149",
+      "slide": "data/slides/reproduction-in-organisms-p149.webp"
     },
     "check": {
       "text": false,
@@ -47433,7 +47528,9 @@
     "slidePage": 32,
     "source": {
       "file": "Science Magnet · Respiratory System",
-      "page": 32
+      "page": 32,
+      "url": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/view#page=32",
+      "slide": "data/slides/respiratory-system-p32.webp"
     },
     "check": {
       "text": false,
@@ -47533,7 +47630,9 @@
     "slidePage": 47,
     "source": {
       "file": "Science Magnet · Respiratory System",
-      "page": 47
+      "page": 47,
+      "url": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/view#page=47",
+      "slide": "data/slides/respiratory-system-p47.webp"
     },
     "check": {
       "text": true,
@@ -47708,7 +47807,9 @@
     "slidePage": 8,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 8
+      "page": 8,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=8",
+      "slide": "data/slides/tissue-p8.webp"
     },
     "check": {
       "text": true,
@@ -47808,7 +47909,9 @@
     "slidePage": 12,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 12
+      "page": 12,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=12",
+      "slide": "data/slides/tissue-p12.webp"
     },
     "check": {
       "text": false,
@@ -48008,7 +48111,9 @@
     "slidePage": 37,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 37
+      "page": 37,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=37",
+      "slide": "data/slides/tissue-p37.webp"
     },
     "check": {
       "text": true,
@@ -48183,7 +48288,9 @@
     "slidePage": 33,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 33
+      "page": 33,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=33",
+      "slide": "data/slides/tissue-p33.webp"
     },
     "check": {
       "text": true,
@@ -48433,7 +48540,9 @@
     "slidePage": 64,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 64
+      "page": 64,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=64",
+      "slide": "data/slides/tissue-p64.webp"
     },
     "check": {
       "text": true,
@@ -48871,7 +48980,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Tissue",
-    "question": "Which muscles act involuntarily?",
+    "question": "Which muscles act involuntarily?\n(i) Striated muscles\n(ii) Smooth muscles\n(iii) Cardiac muscles\n(iv) Skeletal muscles",
     "options": [
       "(i) and (ii)",
       "(ii) and (iii)",
@@ -48883,7 +48992,9 @@
     "slidePage": 103,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 103
+      "page": 103,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=103",
+      "slide": "data/slides/tissue-p103.webp"
     },
     "check": {
       "text": true,
@@ -49096,19 +49207,21 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Tissue",
-    "question": "Some of the functions performed by a particular animal tissue are mentioned below: Identify this tissue from the options given below.",
+    "question": "Some of the functions performed by a particular animal tissue are mentioned below:\na. It fills the spaces inside organs\nb. It supports internal organs\nc. It helps in repairing tissues\nIdentify this tissue from the options given below.",
     "options": [
       "Muscular tissue",
       "Epithelial Tissue",
       "Adipose tissue",
       "Areolar tissue"
     ],
-    "correctAnswer": 1,
-    "explanation": " RRB Group-D 26-08-2022 (Shift-II) | Slide: Page 118",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Areolar tissue) | Exam: RRB Group-D 26-08-2022 | Slide: Page 118",
     "slidePage": 118,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 118
+      "page": 118,
+      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=118",
+      "slide": "data/slides/tissue-p118.webp"
     },
     "check": {
       "text": true,
@@ -49383,7 +49496,9 @@
     "slidePage": 15,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 15
+      "page": 15,
+      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=15",
+      "slide": "data/slides/acids-bases-salt-p15.webp"
     },
     "check": {
       "text": true,
@@ -49996,19 +50111,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "Which of the following pairs is correct with reference to pH value? Previous years Questions",
+    "question": "Which of the following pairs is correct with reference to pH value?\n(a) Tooth decay in humans: pH of mouth > 5.5\n(b) pH range of human body: 7.0 to 7.8\n(c) Acid rain: pH of rain water > 8",
     "options": [
-      ", (b) (c)",
-      "Only (a) is correct. (a)",
-      "Only (c) is correct. (c)",
-      "Only (b) is correct (b)"
+      "(a), (b) and (c) are correct.",
+      "Only (a) is correct.",
+      "Only (c) is correct.",
+      "Only (b) is correct"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (, (b) (c)) | Exam: RRB Technician (30 12 2024 --> 2 nd shift) | Slide: Page 87",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Only (b) is correct) | Exam: RRB Technician (30 12 2024 --> 2 nd shift) | Slide: Page 87",
     "slidePage": 87,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 87
+      "page": 87,
+      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=87",
+      "slide": "data/slides/acids-bases-salt-p87.webp"
     },
     "check": {
       "text": true,
@@ -50358,7 +50475,9 @@
     "slidePage": 110,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 110
+      "page": 110,
+      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=110",
+      "slide": "data/slides/acids-bases-salt-p110.webp"
     },
     "check": {
       "text": false,
@@ -50383,7 +50502,9 @@
     "slidePage": 93,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 93
+      "page": 93,
+      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=93",
+      "slide": "data/slides/acids-bases-salt-p93.webp"
     },
     "check": {
       "text": true,
@@ -50533,7 +50654,9 @@
     "slidePage": 80,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 80
+      "page": 80,
+      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=80",
+      "slide": "data/slides/acids-bases-salt-p80.webp"
     },
     "check": {
       "text": true,
@@ -50829,12 +50952,14 @@
       "Mercury",
       "Silver"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Hydrogen) | Slide: Page 20",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (Mercury) | Slide: Page 20",
     "slidePage": 20,
     "source": {
       "file": "Science Magnet · Atom and Molecule",
-      "page": 20
+      "page": 20,
+      "url": "https://drive.google.com/file/d/1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r/view#page=20",
+      "slide": "data/slides/atom-molecule-p20.webp"
     },
     "check": {
       "text": true,
@@ -51409,7 +51534,9 @@
     "slidePage": 85,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 85
+      "page": 85,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
+      "slide": "data/slides/carbon-and-its-compounds-p85.webp"
     },
     "check": {
       "text": true,
@@ -51434,7 +51561,9 @@
     "slidePage": 56,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 56
+      "page": 56,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=56",
+      "slide": "data/slides/carbon-and-its-compounds-p56.webp"
     },
     "check": {
       "text": true,
@@ -51609,7 +51738,9 @@
     "slidePage": 38,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 38
+      "page": 38,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=38",
+      "slide": "data/slides/carbon-and-its-compounds-p38.webp"
     },
     "check": {
       "text": true,
@@ -51784,7 +51915,9 @@
     "slidePage": 48,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 48
+      "page": 48,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=48",
+      "slide": "data/slides/carbon-and-its-compounds-p48.webp"
     },
     "check": {
       "text": true,
@@ -52034,7 +52167,9 @@
     "slidePage": 84,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 84
+      "page": 84,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=84",
+      "slide": "data/slides/carbon-and-its-compounds-p84.webp"
     },
     "check": {
       "text": false,
@@ -52059,7 +52194,9 @@
     "slidePage": 78,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 78
+      "page": 78,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=78",
+      "slide": "data/slides/carbon-and-its-compounds-p78.webp"
     },
     "check": {
       "text": true,
@@ -52284,7 +52421,9 @@
     "slidePage": 85,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 85
+      "page": 85,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
+      "slide": "data/slides/carbon-and-its-compounds-p85.webp"
     },
     "check": {
       "text": true,
@@ -52349,17 +52488,19 @@
     "chapter": "Carbon and its Compounds",
     "question": "Read the following statements carefully and choose the correct option.\nStatement 1: Members of a homologous series differ by a -CH₂- group.\nStatement 2: Each successive member of a homologous series differs from the previous one by 12 u in molecular mass.",
     "options": [
-      "26 Shift-I)",
-      "Both statements are true but Statement 2 is not the correct explanation of Statement 1. 2, 1",
-      "Both statements are true and Statement 2 is the correct explanation of Statement 1. 2, 1",
-      "Statement 1 is true but Statement 2 is false. 1 2"
+      "Both statements are false.",
+      "Both statements are true but Statement 2 is not the correct explanation of Statement 1.",
+      "Both statements are true and Statement 2 is the correct explanation of Statement 1.",
+      "Statement 1 is true but Statement 2 is false."
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Both statements are true but Statement 2 is not the correct explanation of Statement 1. 2, 1) | Slide: Page 101",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Statement 1 is true but Statement 2 is false.) | Exam: RRB Technician Grade III 6/3/26 Shift-I | Slide: Page 101",
     "slidePage": 101,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 101
+      "page": 101,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=101",
+      "slide": "data/slides/carbon-and-its-compounds-p101.webp"
     },
     "check": {
       "text": true,
@@ -52834,7 +52975,9 @@
     "slidePage": 147,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 147
+      "page": 147,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=147",
+      "slide": "data/slides/carbon-and-its-compounds-p147.webp"
     },
     "check": {
       "text": false,
@@ -53730,11 +53873,13 @@
       "interacts with water and interacts with hydrocarbon respectively"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (interacts with hydrocarbon and interacts with alkali respectively) | Exam: RRB Technicians Grade III 23 12 2024 Shift 1 | Slide: Page 184",
-    "slidePage": 184,
+    "explanation": "Correct Answer: Option B | (interacts with hydrocarbon and interacts with alkali respectively) | Exam: RRB Technicians Grade III 23/12/2024 Shift 1 | Slide: Page 188",
+    "slidePage": 188,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 184
+      "page": 188,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=184",
+      "slide": "data/slides/carbon-and-its-compounds-p184.webp"
     },
     "check": {
       "text": true,
@@ -53797,19 +53942,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason\nAssertion (A): Soap solution appears cloudy.\nReason (R): The soap micelles are large enough to scatter light.",
+    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason (R):\nAssertion (A): Soap solution appears cloudy.\nReason (R): The soap micelles are large enough to scatter light.",
     "options": [
-      "A is false, but R is true. A , R",
-      "A is true, but R is false. A , R",
-      "Both A and R are true, and R is not the correct explanation of A. A R , R, A",
-      "Both A and R are true, and R is the correct explanation of A. A R , R, A"
+      "A is false, but R is true.",
+      "A is true, but R is false.",
+      "Both A and R are true, and R is not the correct explanation of A.",
+      "Both A and R are true, and R is the correct explanation of A."
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Both A and R are true, and R is the correct explanation of A. A R , R, A) | Exam: RRB Group-D-05 02 25, Shift-II | Slide: Page 191",
+    "explanation": "Correct Answer: Option D | (Both A and R are true, and R is the correct explanation of A.) | Exam: RRB Group-D-05 02 25, Shift-II | Slide: Page 191",
     "slidePage": 191,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 191
+      "page": 191,
+      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=191",
+      "slide": "data/slides/carbon-and-its-compounds-p191.webp"
     },
     "check": {
       "text": true,
@@ -54159,7 +54306,9 @@
     "slidePage": 23,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 23
+      "page": 23,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=23",
+      "slide": "data/slides/chemical-reactions-and-equations-p23.webp"
     },
     "check": {
       "text": true,
@@ -54559,7 +54708,9 @@
     "slidePage": 53,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 53
+      "page": 53,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=53",
+      "slide": "data/slides/chemical-reactions-and-equations-p53.webp"
     },
     "check": {
       "text": true,
@@ -54709,7 +54860,9 @@
     "slidePage": 64,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 64
+      "page": 64,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=64",
+      "slide": "data/slides/chemical-reactions-and-equations-p64.webp"
     },
     "check": {
       "text": true,
@@ -54784,7 +54937,9 @@
     "slidePage": 6,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 6
+      "page": 6,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=6",
+      "slide": "data/slides/chemical-reactions-and-equations-p6.webp"
     },
     "check": {
       "text": false,
@@ -54859,7 +55014,9 @@
     "slidePage": 61,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 61
+      "page": 61,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=61",
+      "slide": "data/slides/chemical-reactions-and-equations-p61.webp"
     },
     "check": {
       "text": true,
@@ -54884,7 +55041,9 @@
     "slidePage": 73,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 73
+      "page": 73,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=73",
+      "slide": "data/slides/chemical-reactions-and-equations-p73.webp"
     },
     "check": {
       "text": true,
@@ -54934,7 +55093,9 @@
     "slidePage": 76,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 76
+      "page": 76,
+      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=76",
+      "slide": "data/slides/chemical-reactions-and-equations-p76.webp"
     },
     "check": {
       "text": true,
@@ -55097,19 +55258,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Classification of Matter",
-    "question": "Which of the following statements is/are correct in the context of a mixture and a compound?",
+    "question": "Which of the following statements is/are correct in the context of a mixture and a compound?\nA) A mixture has a variable composition while in a compound, the composition of each new substance is always fixed.\nB) A mixture shows the different properties of the constituent substance while in a compound, the new substance shows the same properties.\nC) A mixture has a non-variable composition while in a compound, the composition of each new substance is always changing.",
     "options": [
       "Both A and B",
       "Only A",
       "Only C",
       "Only B"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Only B) | Exam: RRB Group-D, 05 02 2026 (Shift-2) | Slide: Page 7",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B | (Only A) | Exam: RRB Group-D 05/02/2026 (Shift-2) | Slide: Page 7",
     "slidePage": 7,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 7
+      "page": 7,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=7",
+      "slide": "data/slides/classification-of-matter-p7.webp"
     },
     "check": {
       "text": true,
@@ -55134,7 +55297,9 @@
     "slidePage": 5,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5
+      "page": 5,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
+      "slide": "data/slides/classification-of-matter-p5.webp"
     },
     "check": {
       "text": true,
@@ -55309,7 +55474,9 @@
     "slidePage": 4,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 4
+      "page": 4,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=4",
+      "slide": "data/slides/classification-of-matter-p4.webp"
     },
     "check": {
       "text": true,
@@ -55334,7 +55501,9 @@
     "slidePage": 5,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5
+      "page": 5,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
+      "slide": "data/slides/classification-of-matter-p5.webp"
     },
     "check": {
       "text": true,
@@ -55384,7 +55553,9 @@
     "slidePage": 5,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5
+      "page": 5,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
+      "slide": "data/slides/classification-of-matter-p5.webp"
     },
     "check": {
       "text": true,
@@ -55484,7 +55655,9 @@
     "slidePage": 20,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 20
+      "page": 20,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=20",
+      "slide": "data/slides/classification-of-matter-p20.webp"
     },
     "check": {
       "text": false,
@@ -55834,7 +56007,9 @@
     "slidePage": 11,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 11
+      "page": 11,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=11",
+      "slide": "data/slides/classification-of-matter-p11.webp"
     },
     "check": {
       "text": true,
@@ -56034,7 +56209,9 @@
     "slidePage": 84,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 84
+      "page": 84,
+      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=84",
+      "slide": "data/slides/classification-of-matter-p84.webp"
     },
     "check": {
       "text": true,
@@ -56334,7 +56511,9 @@
     "slidePage": 36,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 36
+      "page": 36,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=36",
+      "slide": "data/slides/matter-p36.webp"
     },
     "check": {
       "text": true,
@@ -56559,7 +56738,9 @@
     "slidePage": 54,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 54
+      "page": 54,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=54",
+      "slide": "data/slides/matter-p54.webp"
     },
     "check": {
       "text": true,
@@ -56584,7 +56765,9 @@
     "slidePage": 98,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 98
+      "page": 98,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=98",
+      "slide": "data/slides/matter-p98.webp"
     },
     "check": {
       "text": true,
@@ -56609,7 +56792,9 @@
     "slidePage": 100,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 100
+      "page": 100,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=100",
+      "slide": "data/slides/matter-p100.webp"
     },
     "check": {
       "text": true,
@@ -56672,19 +56857,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Which one of the following is not a property of a solution? Previous years Questions",
+    "question": "Which one of the following is not a property of a solution?",
     "options": [
       "A solution is a homogeneous mixture.",
       "Because of their small size, the particles in a solution do not scatter the beam of light passing through it.",
-      "The particles of solute can be separated from a solution by filtration. ( )",
-      "The particles in a solution are smaller than 1 nm (10 −9 m) in diameter. 1 nm (10 −9 )"
+      "The particles of solute can be separated from a solution by filtration.",
+      "The particles in a solution are smaller than 1 nm (10⁻⁹ m) in diameter."
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (The particles of solute can be separated from a solution by filtration. ( )) | Exam: RRB Technician (28 12 2024 --> 2 nd shift) | Slide: Page 78",
-    "slidePage": 78,
+    "explanation": "Correct Answer: Option C | (The particles of solute can be separated from a solution by filtration.) | Exam: RRB Technician (28 12 2024 --> 2 nd shift) | Slide: Page 71",
+    "slidePage": 71,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 78
+      "page": 71,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=78",
+      "slide": "data/slides/matter-p71.webp"
     },
     "check": {
       "text": false,
@@ -57209,7 +57396,9 @@
     "slidePage": 66,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 66
+      "page": 66,
+      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=66",
+      "slide": "data/slides/matter-p66.webp"
     },
     "check": {
       "text": true,
@@ -57409,7 +57598,9 @@
     "slidePage": 9,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 9
+      "page": 9,
+      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=9",
+      "slide": "data/slides/metals-non-metals-p9.webp"
     },
     "check": {
       "text": true,
@@ -57609,7 +57800,9 @@
     "slidePage": 23,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 23
+      "page": 23,
+      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=23",
+      "slide": "data/slides/metals-non-metals-p23.webp"
     },
     "check": {
       "text": true,
@@ -57659,7 +57852,9 @@
     "slidePage": 33,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 33
+      "page": 33,
+      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=33",
+      "slide": "data/slides/metals-non-metals-p33.webp"
     },
     "check": {
       "text": true,
@@ -57959,7 +58154,9 @@
     "slidePage": 39,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 39
+      "page": 39,
+      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=39",
+      "slide": "data/slides/metals-non-metals-p39.webp"
     },
     "check": {
       "text": true,
@@ -58197,19 +58394,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Metals and Non-Metals",
-    "question": "Match the following:\nIonic compound Melting point (K)\ni. NaCl\nii. CaCl₂",
+    "question": "Match the following:\nIonic compound — Melting point (K)\ni. NaCl — a. 2850\nii. CaCl₂ — b. 1074\niii. CaO — c. 1045",
     "options": [
       "i-c, ii-a, iii-b",
       "i-a, ii-b, iii-c",
       "i-c, ii-b, iii-a",
       "i-b, ii-c, iii-a"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (i-c, ii-a, iii-b) | Exam: RRB Group-D-20 09 2022 (Shift-III) | Slide: Page 73",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (i-b, ii-c, iii-a) | Exam: RRB Group-D 20/09/2022 (Shift-III) | Slide: Page 73",
     "slidePage": 73,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 73
+      "page": 73,
+      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=73",
+      "slide": "data/slides/metals-non-metals-p73.webp"
     },
     "check": {
       "text": true,
@@ -58984,7 +59183,9 @@
     "slidePage": 20,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 20
+      "page": 20,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=20",
+      "slide": "data/slides/structure-of-atom-p20.webp"
     },
     "check": {
       "text": true,
@@ -59109,7 +59310,9 @@
     "slidePage": 8,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 8
+      "page": 8,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=8",
+      "slide": "data/slides/structure-of-atom-p8.webp"
     },
     "check": {
       "text": true,
@@ -59684,7 +59887,9 @@
     "slidePage": 48,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 48
+      "page": 48,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=48",
+      "slide": "data/slides/structure-of-atom-p48.webp"
     },
     "check": {
       "text": true,
@@ -59734,7 +59939,9 @@
     "slidePage": 81,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 81
+      "page": 81,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=81",
+      "slide": "data/slides/structure-of-atom-p81.webp"
     },
     "check": {
       "text": false,
@@ -59834,7 +60041,9 @@
     "slidePage": 104,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 104
+      "page": 104,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=104",
+      "slide": "data/slides/structure-of-atom-p104.webp"
     },
     "check": {
       "text": true,
@@ -60097,19 +60306,21 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Structure of Atom",
-    "question": "Match the elements in Column I with their correct electron distribution in Column II according to the Bohr-Bury rules. A-2, B-1, C-3, D-4\nElectron Distribution\n1.2,8,2",
+    "question": "Match the elements in Column I with their correct electron distribution in Column II according to the Bohr-Bury rules.\nA. Sodium (Na) — 1. 2,8,2\nB. Magnesium (Mg) — 2. 2,8,1\nC. Aluminium (Al) — 3. 2,8,3\nD. Calcium (Ca) — 4. 2,8,8,2",
     "options": [
-      "Sodium (Na)",
-      "Magnesium (Mg)",
-      "Aluminium (Al)",
-      "Calcium (Ca)"
+      "A-2, B-1, C-3, D-4",
+      "A-2, B-3, C-1, D-4",
+      "A-2, B-3, C-4, D-1",
+      "A-1, B-3, C-2, D-4"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Magnesium (Mg)) | Exam: RRB Technician, 10 03 2026, Shift-I | Slide: Page 118",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (A-2, B-1, C-3, D-4) | Exam: RRB Technician, 10/03/2026, Shift-I | Slide: Page 118",
     "slidePage": 118,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 118
+      "page": 118,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=118",
+      "slide": "data/slides/structure-of-atom-p118.webp"
     },
     "check": {
       "text": true,
@@ -60284,7 +60495,9 @@
     "slidePage": 130,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 130
+      "page": 130,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=130",
+      "slide": "data/slides/structure-of-atom-p130.webp"
     },
     "check": {
       "text": true,
@@ -60384,7 +60597,9 @@
     "slidePage": 62,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 62
+      "page": 62,
+      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=62",
+      "slide": "data/slides/structure-of-atom-p62.webp"
     },
     "check": {
       "text": true,
@@ -60924,17 +61139,19 @@
     "chapter": "Electricity",
     "question": "Select the correct pairs from the following options:",
     "options": [
-      "(i) Resistance - volt",
-      "(i) Resistance - ampere metre",
-      "(i) Resistance – ohm",
-      "(i) Resistance - ohm"
+      "(i) Resistance - volt/ampere; (ii) Resistivity - ohm",
+      "(i) Resistance - ampere metre; (ii) Resistivity - volt/metre",
+      "(i) Resistance - ohm; (ii) Resistivity - volt/metre",
+      "(i) Resistance - ohm; (ii) Resistivity - ohm metre"
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D | ((i) Resistance - ohm) | Exam: RRB Technicians Grade III 26 12 2024 Shift 2 | Slide: Page 9",
     "slidePage": 9,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 9
+      "page": 9,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=9",
+      "slide": "data/slides/electricity-p9.webp"
     },
     "check": {
       "text": true,
@@ -61185,7 +61402,9 @@
     "slidePage": 36,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 36
+      "page": 36,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=36",
+      "slide": "data/slides/electricity-p36.webp"
     },
     "check": {
       "text": true,
@@ -61735,7 +61954,9 @@
     "slidePage": 70,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 70
+      "page": 70,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=70",
+      "slide": "data/slides/electricity-p70.webp"
     },
     "check": {
       "text": true,
@@ -61926,17 +62147,19 @@
     "chapter": "Electricity",
     "question": "Two resistances R 1  and R 2  are connected in parallel. Their equivalent resistance is:",
     "options": [
-      "𝑅 1 +𝑅 2 𝑅 1 𝑅 2",
-      "𝑅 1 + 𝑅 2",
-      "𝑅 1 𝑅 2",
-      "𝑅 1 +𝑅 2 𝑅 1 𝑅 2"
+      "(R₁ + R₂) / (R₁R₂)",
+      "R₁ + R₂",
+      "R₁R₂",
+      "(R₁R₂) / (R₁ + R₂)"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (𝑅 1 𝑅 2) | Exam: RRB Group-D 26-08-2022 (Shift-I) | Slide: Page 85",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | ((R₁R₂) / (R₁ + R₂)) | Exam: RRB Group-D 26-08-2022 (Shift-I) | Slide: Page 85",
     "slidePage": 85,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 85
+      "page": 85,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=85",
+      "slide": "data/slides/electricity-p85.webp"
     },
     "check": {
       "text": true,
@@ -61954,14 +62177,16 @@
       "2Ω",
       "3Ω",
       "18Ω",
-      "5Ω"
+      "0.5Ω"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3Ω) | Exam: RRB Technician - III, 09-03-2026, Shift-3 | Slide: Page 86",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0.5Ω) | Exam: RRB Technician - III, 09-03-2026, Shift-3 | Slide: Page 86",
     "slidePage": 86,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 86
+      "page": 86,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=86",
+      "slide": "data/slides/electricity-p86.webp"
     },
     "check": {
       "text": true,
@@ -62234,11 +62459,13 @@
       "0.6 A"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (0.4 A) | Exam: Practice Question | Slide: Page 89",
-    "slidePage": 89,
+    "explanation": "Correct Answer: Option C | (0.4 A) | Exam: Practice Question | Slide: Page 98",
+    "slidePage": 98,
     "source": {
       "file": "Science Magnet · Electricity",
-      "page": 89
+      "page": 98,
+      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=89",
+      "slide": "data/slides/electricity-p98.webp"
     },
     "check": {
       "text": true,
@@ -62713,7 +62940,9 @@
     "slidePage": 30,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 30
+      "page": 30,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=30",
+      "slide": "data/slides/gravitation-p30.webp"
     },
     "check": {
       "text": true,
@@ -62955,15 +63184,17 @@
     "options": [
       "10 m",
       "20 m",
-      "50 m",
+      "5 m",
       "100 m"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (10 m) | Slide: Page 47",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C | (5 m — slide printed 50 m, corrected by teacher to 5 m using v² = u² - 2gh) | Exam: Practice Questions | Slide: Page 47",
     "slidePage": 47,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 47
+      "page": 47,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=47",
+      "slide": "data/slides/gravitation-p47.webp"
     },
     "check": {
       "text": true,
@@ -62988,7 +63219,9 @@
     "slidePage": 48,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 48
+      "page": 48,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=48",
+      "slide": "data/slides/gravitation-p48.webp"
     },
     "check": {
       "text": true,
@@ -63038,7 +63271,9 @@
     "slidePage": 50,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 50
+      "page": 50,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=50",
+      "slide": "data/slides/gravitation-p50.webp"
     },
     "check": {
       "text": true,
@@ -63363,7 +63598,9 @@
     "slidePage": 70,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 70
+      "page": 70,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=70",
+      "slide": "data/slides/gravitation-p70.webp"
     },
     "check": {
       "text": false,
@@ -63488,7 +63725,9 @@
     "slidePage": 81,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 81
+      "page": 81,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=81",
+      "slide": "data/slides/gravitation-p81.webp"
     },
     "check": {
       "text": false,
@@ -63638,7 +63877,9 @@
     "slidePage": 68,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 68
+      "page": 68,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=68",
+      "slide": "data/slides/gravitation-p68.webp"
     },
     "check": {
       "text": false,
@@ -64063,7 +64304,9 @@
     "slidePage": 76,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 76
+      "page": 76,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=76",
+      "slide": "data/slides/gravitation-p76.webp"
     },
     "check": {
       "text": true,
@@ -64413,7 +64656,9 @@
     "slidePage": 18,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 18
+      "page": 18,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=18",
+      "slide": "data/slides/gravitation-p18.webp"
     },
     "check": {
       "text": true,
@@ -64428,7 +64673,7 @@
     "chapter": "Gravitation",
     "question": "The force of gravitation between two bodies is F; if the mass of one of the bodies is increased to four times its initial value, then the gravitational force between the bodies will now be:",
     "options": [
-      "F",
+      "F/4",
       "2F",
       "F",
       "4F"
@@ -64438,7 +64683,9 @@
     "slidePage": 19,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 19
+      "page": 19,
+      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=19",
+      "slide": "data/slides/gravitation-p19.webp"
     },
     "check": {
       "text": true,
@@ -64988,7 +65235,9 @@
     "slidePage": 41,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "page": 41
+      "page": 41,
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=41",
+      "slide": "data/slides/human-eye-p41.webp"
     },
     "check": {
       "text": false,
@@ -65013,7 +65262,9 @@
     "slidePage": 37,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "page": 37
+      "page": 37,
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=37",
+      "slide": "data/slides/human-eye-p37.webp"
     },
     "check": {
       "text": false,
@@ -65038,7 +65289,9 @@
     "slidePage": 25,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "page": 25
+      "page": 25,
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=25",
+      "slide": "data/slides/human-eye-p25.webp"
     },
     "check": {
       "text": false,
@@ -65062,7 +65315,8 @@
     "explanation": "Correct Answer: Option A | (Myopia and hypermetropia) | Exam: RRB Group-D 18-09-2018 (Shift-II) | Slide: Page 44",
     "slidePage": 44,
     "source": {
-      "file": "Science Magnet · Human Eye"
+      "file": "Science Magnet · Human Eye",
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view"
     },
     "check": {
       "text": false,
@@ -65087,7 +65341,9 @@
     "slidePage": 46,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "page": 46
+      "page": 46,
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=46",
+      "slide": "data/slides/human-eye-p46.webp"
     },
     "check": {
       "text": true,
@@ -66689,7 +66945,9 @@
     "slidePage": 72,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 72
+      "page": 72,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=72",
+      "slide": "data/slides/motion-p72.webp"
     },
     "check": {
       "text": true,
@@ -66740,7 +66998,9 @@
     "slidePage": 86,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 86
+      "page": 86,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=86",
+      "slide": "data/slides/motion-p86.webp"
     },
     "check": {
       "text": true,
@@ -66865,7 +67125,9 @@
     "slidePage": 87,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 87
+      "page": 87,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=87",
+      "slide": "data/slides/motion-p87.webp"
     },
     "check": {
       "text": true,
@@ -66940,7 +67202,9 @@
     "slidePage": 92,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 92
+      "page": 92,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=92",
+      "slide": "data/slides/motion-p92.webp"
     },
     "check": {
       "text": true,
@@ -67190,7 +67454,9 @@
     "slidePage": 50,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 50
+      "page": 50,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
+      "slide": "data/slides/motion-p50.webp"
     },
     "check": {
       "text": false,
@@ -67340,7 +67606,9 @@
     "slidePage": 62,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 62
+      "page": 62,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=62",
+      "slide": "data/slides/motion-p62.webp"
     },
     "check": {
       "text": true,
@@ -67390,7 +67658,9 @@
     "slidePage": 50,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 50
+      "page": 50,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
+      "slide": "data/slides/motion-p50.webp"
     },
     "check": {
       "text": false,
@@ -67416,7 +67686,9 @@
     "slidePage": 83,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 83
+      "page": 83,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=83",
+      "slide": "data/slides/motion-p83.webp"
     },
     "check": {
       "text": true,
@@ -67442,7 +67714,9 @@
     "slidePage": 84,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 84
+      "page": 84,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=84",
+      "slide": "data/slides/motion-p84.webp"
     },
     "check": {
       "text": true,
@@ -67468,7 +67742,9 @@
     "slidePage": 85,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 85
+      "page": 85,
+      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=85",
+      "slide": "data/slides/motion-p85.webp"
     },
     "check": {
       "text": true,
@@ -67493,7 +67769,9 @@
     "slidePage": 3,
     "source": {
       "file": "Science Magnet · Prism",
-      "page": 3
+      "page": 3,
+      "url": "https://drive.google.com/file/d/12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt/view#page=3",
+      "slide": "data/slides/prism-p3.webp"
     },
     "check": {
       "text": true,
@@ -67968,7 +68246,9 @@
     "slidePage": 33,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 33
+      "page": 33,
+      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=33",
+      "slide": "data/slides/reflection-of-light-p33.webp"
     },
     "check": {
       "text": true,
@@ -68143,7 +68423,9 @@
     "slidePage": 62,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 62
+      "page": 62,
+      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=62",
+      "slide": "data/slides/reflection-of-light-p62.webp"
     },
     "check": {
       "text": true,
@@ -68506,19 +68788,21 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Reflection of Light",
-    "question": "If an object is placed 10 cm away from a convex mirror of radius of curvature 5 cm, what will be its magnification? Mirror Formula",
+    "question": "If an object is placed 10 cm away from a convex mirror of radius of curvature 5 cm, what will be its magnification?",
     "options": [
       "0.05",
       "0.3",
       "0.1",
-      "2"
+      "0.2"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0.3) | Exam: RRB Group-D 18-09-2018 (Shift-III) | Slide: Page 91",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (0.2 — slide printed '2', corrected by teacher to 0.2) | Exam: RRB Group-D 18-09-2018 (Shift-III) | Slide: Page 91",
     "slidePage": 91,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 91
+      "page": 91,
+      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=91",
+      "slide": "data/slides/reflection-of-light-p91.webp"
     },
     "check": {
       "text": true,
@@ -68543,7 +68827,9 @@
     "slidePage": 92,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 92
+      "page": 92,
+      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=92",
+      "slide": "data/slides/reflection-of-light-p92.webp"
     },
     "check": {
       "text": true,
@@ -68556,19 +68842,21 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Reflection of Light",
-    "question": "An object is placed in a 9 cm space. In front of a convex mirror with focal length 18 cm. Placed at a distance. The magnification generated by the mirror will be ..................",
+    "question": "An object is placed at 18 cm in front of a convex mirror with focal length 9 cm. The magnification generated by the mirror will be ..................",
     "options": [
       "-1",
-      "-1 3",
+      "-1/3",
       "1",
-      "1 3"
+      "1/3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1 3) | Exam: RRB Group- D - 09 09 2022 (Shift-II) | Slide: Page 93",
+    "explanation": "Correct Answer: Option D | (1/3 — English typo on slide corrected by teacher from Hindi prompt) | Exam: RRB Group-D 09/09/2022 (Shift-II) | Slide: Page 93",
     "slidePage": 93,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 93
+      "page": 93,
+      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=93",
+      "slide": "data/slides/reflection-of-light-p93.webp"
     },
     "check": {
       "text": true,
@@ -68893,7 +69181,9 @@
     "slidePage": 12,
     "source": {
       "file": "Science Magnet · Refraction",
-      "page": 12
+      "page": 12,
+      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=12",
+      "slide": "data/slides/refraction-of-light-p12.webp"
     },
     "check": {
       "text": true,
@@ -68944,7 +69234,9 @@
     "slidePage": 19,
     "source": {
       "file": "Science Magnet · Refraction",
-      "page": 19
+      "page": 19,
+      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=19",
+      "slide": "data/slides/refraction-of-light-p19.webp"
     },
     "check": {
       "text": true,
@@ -69145,7 +69437,9 @@
     "slidePage": 5,
     "source": {
       "file": "Science Magnet · Refraction",
-      "page": 5
+      "page": 5,
+      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=5",
+      "slide": "data/slides/refraction-of-light-p5.webp"
     },
     "check": {
       "text": false,
@@ -69166,12 +69460,14 @@
       "1",
       "root(2)"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1/root(2)) | Exam: RRB JE 31.05.2019 (Shift-I) | Slide: Page 29",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (root(2)) | Exam: RRB JE 31.05.2019 (Shift-I) | Slide: Page 29",
     "slidePage": 29,
     "source": {
       "file": "Science Magnet · Refraction",
-      "page": 29
+      "page": 29,
+      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=29",
+      "slide": "data/slides/refraction-of-light-p29.webp"
     },
     "check": {
       "text": true,
@@ -70035,19 +70331,21 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Sound",
-    "question": "Which of the following statements about the speed of sound in different mediums at 25 ° C are correct/false?",
+    "question": "Which of the following statements about the speed of sound in different mediums at 25 °C are correct/false?\nA. In sea water, the speed of sound is 1531 km/s.\nB. In water (distilled), the speed of sound is 1498 km/s.",
     "options": [
-      "Neither A nor B is true. A B",
-      "Both A and B are correct. A B",
-      "Only B is correct. B",
-      "Only A is correct. A"
+      "Neither A nor B is true.",
+      "Both A and B are correct.",
+      "Only B is correct.",
+      "Only A is correct."
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Neither A nor B is true. A B) | Exam: Group-D 23-10-2018 (Shift-I) | Slide: Page 52",
+    "explanation": "Correct Answer: Option A | (Neither A nor B is true.) | Exam: Group-D 23-10-2018 (Shift-I) | Slide: Page 52",
     "slidePage": 52,
     "source": {
       "file": "Science Magnet · Sound",
-      "page": 52
+      "page": 52,
+      "url": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/view#page=52",
+      "slide": "data/slides/sound-p52.webp"
     },
     "check": {
       "text": true,
@@ -70060,19 +70358,21 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Sound",
-    "question": "Which of the following statements is/are true regarding the speed of sound at 25 ° C in different mediums?",
+    "question": "Which of the following statements is/are true regarding the speed of sound at 25 °C in different mediums?\nA. In steel, the speed of sound is 5960 m/s.\nB. In nickel, the speed of sound is 6240 m/s.",
     "options": [
-      "Neither A nor B is true. A B",
-      "Both A and B are correct. A B",
-      "Only B is correct. B",
-      "Only A is correct. A"
+      "Neither A nor B is true.",
+      "Both A and B are correct.",
+      "Only B is correct.",
+      "Only A is correct."
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Neither A nor B is true. A B) | Exam: Group-D 23-10-2018 (Shift-I) | Slide: Page 53",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D | (Only A is correct. Speed in nickel is 6040 m/s) | Exam: Group-D 23-10-2018 (Shift-I) | Slide: Page 53",
     "slidePage": 53,
     "source": {
       "file": "Science Magnet · Sound",
-      "page": 53
+      "page": 53,
+      "url": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/view#page=53",
+      "slide": "data/slides/sound-p53.webp"
     },
     "check": {
       "text": true,
@@ -70672,7 +70972,9 @@
     "slidePage": 43,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
-      "page": 43
+      "page": 43,
+      "url": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/view#page=43",
+      "slide": "data/slides/work-energy-power-p43.webp"
     },
     "check": {
       "text": true,
@@ -70735,19 +71037,21 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Work, Energy and Power",
-    "question": "A pump lifts 50 kg of water per minute to a height of 10 m. Calculate the power of the pump. (Take g = 10 m/s²) Work, Energy & Power",
+    "question": "A pendulum is raised to a height of 2 meters and then released. At its lowest point, what will be its speed? (g = 10 m/s²)",
     "options": [
-      "10 m",
-      "5 m",
-      "20 m",
-      "15 m"
+      "2√10 m/s",
+      "5 m/s",
+      "20 m/s",
+      "15 m/s"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (10 m) | Slide: Page 51",
+    "explanation": "Correct Answer: Option A | (2√10 m/s — slide English typo corrected by teacher to match pendulum Hindi prompt and calculation) | Slide: Page 51",
     "slidePage": 51,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
-      "page": 51
+      "page": 51,
+      "url": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/view#page=51",
+      "slide": "data/slides/work-energy-power-p51.webp"
     },
     "check": {
       "text": true,
@@ -71686,7 +71990,9 @@
     "explanation": "Correct Answer: Option D | ((a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). CuSO4.5H2O (copper sulphate pentahydrate) consists of blue crystals that dehydrate to white powder upon heating (a-iv). CaSO4.2H2O is gypsum (b-iii). CaSO4.1/2H2O is plaster of Paris (c-ii). Na2CO3.10H2O is washing soda (d-i).",
     "source": {
       "file": "Science Magnet · 300 Questions Part 3_1 1",
-      "page": 9
+      "page": 9,
+      "url": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view",
+      "slide": "data/slides/300-questions-part-3-1-1-p9.webp"
     },
     "check": {
       "text": true,
@@ -73283,7 +73589,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "The temperature at which ethanol remains a liquid i",
+    "question": "The temperature at which ethanol remains a liquid is:",
     "options": [
       "90 K",
       "158 K",
@@ -73294,7 +73600,9 @@
     "explanation": "Correct Answer: Option B | (158 K) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Ethanol has a melting point of 156 K (-117 °C) and a boiling point of 351 K (78 °C). At 158 K, ethanol is comfortably within its liquid state range.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 6",
-      "page": 29
+      "page": 29,
+      "url": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view",
+      "slide": "data/slides/300-questions-part-6-p29.webp"
     },
     "check": {
       "text": true,
