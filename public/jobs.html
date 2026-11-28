@@ -53,15 +53,17 @@
     // Shown only while the sheet has no rows yet; delete once real alerts flow in.
     const daysAgo = n => new Date(Date.now() - n * 864e5).toISOString();
     const SAMPLE = [
-      { type: 'Last Date', company: 'Northern Coalfields Limited', role: 'Assistant Engineer (ECE)', deadline: 'Today', postedAt: daysAgo(0), vacancies: '270', source: 'sample' },
-      { type: 'Job Alert', company: 'NTPC Limited', role: 'Engineer Trainee', deadline: '15/12/2026', postedAt: daysAgo(1), vacancies: '120', source: 'sample' },
-      { type: 'Job Alert', company: 'Bharat Electronics Limited', role: 'Probationary Engineer', deadline: '20/12/2026', postedAt: daysAgo(2), vacancies: '350', source: 'sample' },
-      { type: 'Admit Card', company: 'SSC JE 2026', role: 'Junior Engineer (Electrical)', postedAt: daysAgo(1), source: 'sample' },
+      { type: 'Last Date', company: 'Northern Coalfields Limited', role: 'Assistant Engineer (ECE)', deadline: 'Today', postedAt: daysAgo(0), vacancies: '270', source: 'sample', applyLink: 'https://www.nclcil.in', telegramLink: 'https://t.me/s/telegram' },
+      { type: 'Job Alert', company: 'NTPC Limited', role: 'Engineer Trainee', deadline: '15/12/2026', postedAt: daysAgo(1), vacancies: '120', source: 'sample', applyLink: 'https://careers.ntpc.co.in' },
+      { type: 'Job Alert', company: 'Bharat Electronics Limited', role: 'Probationary Engineer', deadline: '20-Dec', postedAt: daysAgo(2), vacancies: '350', source: 'sample', applyLink: 'https://bel-india.in' },
+      { type: 'Admit Card', company: 'SSC JE 2026', role: 'Junior Engineer (Electrical)', postedAt: daysAgo(1), source: 'sample', applyLink: 'https://ssc.gov.in' },
       { type: 'Exam Date', company: 'RRB JE CBT-2', role: 'Junior Engineer', deadline: '12/01/2027', postedAt: daysAgo(3), source: 'sample' },
       { type: 'Result', company: 'NMDC Limited', role: 'Junior Officer Trainee', postedAt: daysAgo(2), source: 'sample' },
       { type: 'Answer Key', company: 'UPSC ESE 2027 Prelims', role: 'Engineering Services', postedAt: daysAgo(4), source: 'sample' },
     ];
     let jobs = [];
+    // Default: newest post first. Clicking "Last date" sorts soonest deadline first (click again to flip).
+    let sort = { key: 'posted', dir: -1 };
 
     const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; };
     const safeUrl = u => /^https?:\/\//i.test(String(u || '')) ? String(u) : '';
@@ -69,6 +71,55 @@
     const posts = j => j.vacancies && j.vacancies !== 'Refer Notification' ? String(j.vacancies) : '';
     // Anything the bot tags with a type not listed above still lands in Openings.
     const sectionOf = j => SECTIONS.find(s => s.types.includes(j.type)) || SECTIONS[0];
+
+    // Bot deadlines are free text: "15/12/2026", "Today (28/11/2026)", "Tomorrow", "20-Dec", "10th Dec".
+    // Returns a timestamp, or null when it can't be read (those rows sort last).
+    const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+    function deadlineTime(j) {
+      const s = String(j.deadline || '').toLowerCase();
+      if (!s) return null;
+      let m = s.match(/(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{2,4})/);
+      if (m) { const y = +m[3] < 100 ? 2000 + +m[3] : +m[3]; return new Date(y, m[2] - 1, +m[1]).getTime(); }
+      const posted = new Date(j.postedAt);
+      const base = isNaN(posted) ? new Date() : posted;
+      const day = n => new Date(base.getFullYear(), base.getMonth(), base.getDate() + n).getTime();
+      if (s.includes('today')) return day(0);
+      if (s.includes('tomorrow')) return day(1);
+      m = s.match(/(\d{1,2})(?:st|nd|rd|th)?[\s-]*([a-z]{3})/);
+      if (m && MONTHS.includes(m[2])) {
+        const d = new Date(base.getFullYear(), MONTHS.indexOf(m[2]), +m[1]);
+        if (d.getTime() < day(-60)) d.setFullYear(d.getFullYear() + 1); // "10 Jan" posted in December
+        return d.getTime();
+      }
+      return null;
+    }
+
+    function sortRows(rows) {
+      const val = j => sort.key === 'deadline' ? deadlineTime(j) : (Date.parse(j.postedAt) || null);
+      return rows.slice().sort((a, b) => {
+        const x = val(a), y = val(b);
+        if (x === null || y === null) return (x === null) - (y === null);
+        return (x - y) * sort.dir;
+      });
+    }
+
+    function setSort(key) {
+      sort = sort.key === key ? { key, dir: -sort.dir } : { key, dir: key === 'deadline' ? 1 : -1 };
+      render();
+    }
+
+    function linkCell(j) {
+      const td = el('td', 'px-3 py-2 whitespace-nowrap text-right');
+      [['Apply', safeUrl(j.applyLink), 'bg-zinc-900 text-white'], ['TG', safeUrl(j.telegramLink), 'border border-sky-200 text-sky-700 bg-sky-50']]
+        .forEach(([label, url, cls]) => {
+          if (!url) return;
+          const a = el('a', `inline-block ml-1 px-2 py-1 rounded-md text-xs font-medium ${cls}`, label);
+          a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.onclick = e => e.stopPropagation(); // link, not the row popup
+          td.append(a);
+        });
+      return td;
+    }
 
     function linkButton(label, url, primary) {
       const a = el('a', 'px-3 py-1.5 rounded-lg ' + (primary ? 'bg-zinc-900 text-white' : 'border border-zinc-200 text-zinc-700'), label);
@@ -93,8 +144,18 @@
       if (!rows.length) { wrap.append(el('p', 'px-4 py-3 text-sm text-zinc-500', 'Nothing here.')); return wrap; }
       const t = el('table', 'w-full text-sm');
       const head = el('tr', 'bg-zinc-50 text-left text-[11px] uppercase tracking-wide text-zinc-500');
-      [['Date', ''], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', 'hidden sm:table-cell']]
-        .forEach(([h, cls]) => head.append(el('th', `px-3 py-2 font-semibold ${cls}`, h)));
+      [['Date', '', 'posted'], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', '', 'deadline'], ['Links', 'text-right']]
+        .forEach(([h, cls, key]) => {
+          const th = el('th', `px-3 py-2 font-semibold whitespace-nowrap ${cls}`);
+          if (!key) { th.textContent = h; head.append(th); return; }
+          const active = sort.key === key;
+          const b = el('button', 'uppercase tracking-wide hover:text-zinc-900 ' + (active ? 'text-zinc-900' : ''),
+            h + (active ? (sort.dir > 0 ? ' ↑' : ' ↓') : ' \u2195\uFE0E'));
+          b.onclick = () => setSort(key);
+          th.setAttribute('aria-sort', active ? (sort.dir > 0 ? 'ascending' : 'descending') : 'none');
+          th.append(b);
+          head.append(th);
+        });
       const body = el('tbody', 'divide-y divide-zinc-100');
       rows.forEach(j => {
         const tr = el('tr', 'cursor-pointer hover:bg-indigo-50/60 focus:bg-indigo-50/60 outline-none');
@@ -107,7 +168,8 @@
         if (j.role) company.append(el('div', 'sm:hidden text-xs font-normal text-zinc-500', j.role));
         tr.append(company);
         tr.append(el('td', 'px-3 py-2 text-zinc-700 hidden sm:table-cell', j.role || ''));
-        tr.append(el('td', 'px-3 py-2 whitespace-nowrap hidden sm:table-cell ' + (j.type === 'Last Date' ? 'text-red-700 font-medium' : 'text-zinc-700'), j.deadline || ''));
+        tr.append(el('td', 'px-3 py-2 whitespace-nowrap ' + (j.type === 'Last Date' ? 'text-red-700 font-medium' : 'text-zinc-700'), j.deadline || ''));
+        tr.append(linkCell(j));
         body.append(tr);
       });
       const thead = el('thead');
@@ -125,7 +187,7 @@
         const sec = el('section', 'space-y-2');
         const h = el('h2', 'text-sm font-semibold text-zinc-900', s.title);
         h.append(el('span', 'ml-2 text-xs font-normal text-zinc-400', String(rows.length)));
-        sec.append(h, table(rows));
+        sec.append(h, table(sortRows(rows)));
         return sec;
       }));
     }
