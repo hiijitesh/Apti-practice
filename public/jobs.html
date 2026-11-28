@@ -147,7 +147,12 @@
     function table(rows, withView) {
       const wrap = el('div', 'bg-white border border-zinc-200 rounded-xl overflow-x-auto');
       if (!rows.length) { wrap.append(el('p', 'px-4 py-3 text-sm text-zinc-500', 'Nothing here.')); return wrap; }
-      const t = el('table', 'w-full text-sm');
+      // Fixed layout + shared widths so the three tables line up column for column.
+      const t = el('table', 'w-full text-sm table-fixed');
+      const cols = el('colgroup');
+      ['w-[17%] sm:w-[11%]', 'w-[35%] sm:w-[31%]', 'hidden sm:table-column sm:w-[27%]', 'w-[20%] sm:w-[15%]', 'w-[28%] sm:w-[16%]']
+        .forEach(cls => cols.append(el('col', cls)));
+      t.append(cols);
       const head = el('tr', 'bg-zinc-50 text-left text-[11px] uppercase tracking-wide text-zinc-500');
       [['Date', '', 'posted'], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', '', 'deadline'], [withView ? 'Actions' : 'Apply', 'text-right']]
         .forEach(([h, cls, key]) => {
@@ -168,11 +173,11 @@
         tr.onclick = () => openDetail(j);
         tr.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(j); } };
         tr.append(el('td', 'px-3 py-2 whitespace-nowrap text-zinc-500', fmtDate(j.postedAt)));
-        const company = el('td', 'px-3 py-2 font-medium');
+        const company = el('td', 'px-3 py-2 font-medium break-words');
         company.append(el('div', '', j.company || 'New Opening'));
         if (j.role) company.append(el('div', 'sm:hidden text-xs font-normal text-zinc-500', j.role));
         tr.append(company);
-        tr.append(el('td', 'px-3 py-2 text-zinc-700 hidden sm:table-cell', j.role || ''));
+        tr.append(el('td', 'px-3 py-2 text-zinc-700 hidden sm:table-cell break-words', j.role || ''));
         tr.append(el('td', 'px-3 py-2 whitespace-nowrap ' + (j.type === 'Last Date' ? 'text-red-700 font-medium' : 'text-zinc-700'), j.deadline || ''));
         tr.append(linkCell(j, withView));
         body.append(tr);
