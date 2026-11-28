@@ -22,7 +22,11 @@ function sourceHtml(q) {
   const badge = verified
     ? `<span class="text-emerald-700" title="Question text and options match the PDF page${c.key ? '; answer matches the PDF answer key' : ''}">✓ Matches PDF${c.key ? ' + key' : ''}</span>`
     : `<span class="text-amber-700" title="Could not be matched automatically - check this one in the PDF">⚠ Not yet verified, check PDF</span>`;
-  return `<span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}`;
+  const a = (href, label) => ` &nbsp;<a href="${escapeHtml(href)}" target="_blank" rel="noopener" class="text-sky-700 underline underline-offset-2">${label}</a>`;
+  // Drive's viewer ignores #page, so the exact slide is a pre-rendered image; Drive link stays for the full PDF.
+  const link = (/^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Open slide ↗') : '')
+    + (/^https:\/\/drive\.google\.com\//.test(src.url || '') ? a(src.url.split('#')[0], 'Full PDF ↗') : '');
+  return `<span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}${link}`;
 }
 
 class AptiPrepApp {
