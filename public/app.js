@@ -27,7 +27,7 @@ function sourceHtml(q) {
   const crop = !verified && window.APTI_CROPS && window.APTI_CROPS.has(q.id || q.questionId) ? `data/crops/${q.id || q.questionId}.webp` : '';
   const link = (/^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Open slide ↗') : '')
     + (crop ? a(crop, 'Open question in PDF ↗') : '')
-    + (/^https:\/\/drive\.google\.com\//.test(src.url || '') ? a(src.url.split('#')[0], 'Full PDF ↗') : '');
+    + (!verified && /^https:\/\/drive\.google\.com\//.test(src.url || '') ? a(src.url.split('#')[0], 'Full PDF ↗') : '');
   return `<span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}${link}`;
 }
 
