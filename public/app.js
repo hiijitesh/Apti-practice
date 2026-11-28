@@ -447,14 +447,27 @@ class AptiPrepApp {
   // MANUALLY VERIFIED QUESTIONS (public/data/manual_verified.json)
   // ==========================================
 
+  // Marks come from data/manual_verified.json (written by the local server, committed) plus the Google
+  // Sheet "Verified" tab (written from anywhere, incl. GitHub Pages); the sheet's latest state wins.
   async loadManualVerified() {
+    const ids = new Set();
     try {
       const res = await fetch('data/manual_verified.json', { cache: 'no-store' });
-      window.APTI_MANUAL = new Set(res.ok ? await res.json() : []);
-    } catch (e) {
-      window.APTI_MANUAL = new Set();
-    }
+      if (res.ok) (await res.json()).forEach(id => ids.add(id));
+    } catch (e) { /* no local list */ }
+    window.APTI_MANUAL = ids;
     this.refreshSourceLines();
+    const sheet = (this.googleSheetUrl || '').trim();
+    if (!sheet) return;
+    try {
+      const res = await fetch(`${sheet}?action=verified`);
+      const data = res.ok ? await res.json() : {};
+      // Only an updated Apps Script answers with {verified: [...]}; an old one would file our POSTs as attempts.
+      this.sheetSupportsVerify = Array.isArray(data.verified);
+      (data.verified || []).forEach(id => ids.add(id));
+      (data.unverified || []).forEach(id => ids.delete(id));
+      this.refreshSourceLines();
+    } catch (e) { console.warn('Verified list from Google Sheet unavailable:', e); }
   }
 
   // Mark/Undo buttons only for the admin email (compared by SHA-256; needs a secure context: localhost or https).
@@ -481,10 +494,24 @@ class AptiPrepApp {
   async markVerified(id, verified, btn) {
     if (btn) { btn.disabled = true; btn.textContent = 'Saving…'; }
     try {
-      const res = await fetch(`/api/questions/${encodeURIComponent(id)}/verified`, {
-        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: this.currentUserEmail, verified })
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const body = JSON.stringify({ email: this.currentUserEmail, verified });
+      let saved = false;
+      // Local server (if running) keeps data/manual_verified.json in sync for committing.
+      if (!this.isStaticMode) {
+        try {
+          const res = await fetch(`/api/questions/${encodeURIComponent(id)}/verified`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body });
+          saved = res.ok;
+        } catch (e) { /* static hosting: no API */ }
+      }
+      // Google Sheet works from anywhere, incl. GitHub Pages. no-cors: the reply is unreadable, so a
+      // network success counts as saved; the next load re-reads the sheet as the source of truth.
+      const sheet = (this.googleSheetUrl || '').trim();
+      if (sheet && this.sheetSupportsVerify) {
+        await fetch(sheet, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' },
+          body: JSON.stringify({ kind: 'verify', id, verified, email: this.currentUserEmail }) });
+        saved = true;
+      }
+      if (!saved) throw new Error('no backend reachable');
       window.APTI_MANUAL = window.APTI_MANUAL || new Set();
       if (verified) window.APTI_MANUAL.add(id); else window.APTI_MANUAL.delete(id);
       window.APTI_UNDO_UNTIL = window.APTI_UNDO_UNTIL || {};
@@ -500,7 +527,7 @@ class AptiPrepApp {
       }
       this.refreshSourceLines(id);
     } catch (e) {
-      if (btn) { btn.disabled = false; btn.textContent = 'Not saved - run the local server'; }
+      if (btn) { btn.disabled = false; btn.textContent = 'Not saved - check connection'; }
     }
   }
 

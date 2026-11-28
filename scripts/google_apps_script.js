@@ -18,6 +18,10 @@
  *     Set the same value as JOBS_SHEET_TOKEN in the bot's .env.
  * 12. After pasting a new version: Deploy > Manage deployments > Edit > Version: New version.
  *     (Keeps the same /exec URL.) The "Jobs" tab is created on the first post.
+ *
+ * Manually verified questions (the admin's "Mark verified" button, works on GitHub Pages):
+ * 13. Nothing to configure: the "Verified" tab is created on the first mark. Each mark/undo appends a
+ *     row; the latest row per question id wins. Only the admin email (checked by SHA-256) may write.
  */
 
 function doPost(e) {
@@ -32,6 +36,7 @@ function doPost(e) {
             } catch (ignore) {}
         }
         if (payload.kind === 'job') return postJob(payload);
+        if (payload.kind === 'verify') return postVerified(payload);
 
         var doc = SpreadsheetApp.getActiveSpreadsheet();
         var sheet = doc.getSheets()[0]; // attempts tab (first tab); jobs live in their own tab
@@ -104,6 +109,7 @@ function doPost(e) {
 
 function doGet(e) {
     if (e && e.parameter && e.parameter.action === 'jobs') return getJobs(e);
+    if (e && e.parameter && e.parameter.action === 'verified') return getVerified();
     try {
         var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
         var rows = sheet.getDataRange().getValues();
@@ -266,3 +272,45 @@ function getJobs(e) {
         return json_({ error: err.toString(), jobs: [] });
     }
 }
+
+// ---------------- Manually verified questions ----------------
+// SHA-256 of the admin email (same value as ADMIN_EMAIL_SHA256 in src/config/index.js).
+var ADMIN_EMAIL_SHA256 = '6f042462e112492d5aa71a6167b56ac2892b8a13487ea573bc01d941ad7fd057';
+
+function verifiedSheet_() {
+    var doc = SpreadsheetApp.getActiveSpreadsheet();
+    var sheet = doc.getSheetByName('Verified');
+    if (!sheet) {
+        sheet = doc.insertSheet('Verified');
+        sheet.appendRow(['Question ID', 'Verified', 'Marked At']);
+        sheet.setFrozenRows(1);
+    }
+    return sheet;
+}
+
+function sha256Hex_(text) {
+    return Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, text, Utilities.Charset.UTF_8)
+        .map(function (b) { return ('0' + (b & 0xff).toString(16)).slice(-2); })
+        .join('');
+}
+
+function postVerified(d) {
+    var email = String(d.email || '').trim().toLowerCase();
+    if (sha256Hex_(email) !== ADMIN_EMAIL_SHA256) return json_({ error: 'forbidden' });
+    var id = String(d.id || '');
+    if (!/^[a-z0-9_]{3,120}$/.test(id)) return json_({ error: 'bad id' });
+    verifiedSheet_().appendRow([id, d.verified === false ? 'no' : 'yes', new Date().toISOString()]);
+    return json_({ ok: true, id: id, verified: d.verified !== false });
+}
+
+function getVerified() {
+    var rows = verifiedSheet_().getDataRange().getValues();
+    var latest = {};
+    for (var i = 1; i < rows.length; i++) latest[rows[i][0]] = rows[i][1] === 'yes';   // later rows win
+    var keys = Object.keys(latest).sort();
+    return json_({
+        verified: keys.filter(function (k) { return latest[k]; }),
+        unverified: keys.filter(function (k) { return !latest[k]; })   // undone marks override the committed list
+    });
+}
+
