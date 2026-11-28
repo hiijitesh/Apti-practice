@@ -43,31 +43,28 @@ function calculateScore(allQuestions, options) {
 }
 
 let serverInstance = null;
-if (require.main === module) {
+function listen(port, triesLeft = 10) {
   const localIp = getLocalIpAddress();
-  serverInstance = app.listen(PORT, '0.0.0.0', () => {
+  serverInstance = app.listen(port, '0.0.0.0', () => {
     console.log(`===============================================`);
     console.log(` Aptitude Test Application running on:`);
-    console.log(` - Local (Mac):   http://localhost:${PORT}`);
-    console.log(` - Mobile (Wi-Fi): http://${localIp}:${PORT}`);
+    console.log(` - Local (Mac):   http://localhost:${port}`);
+    console.log(` - Mobile (Wi-Fi): http://${localIp}:${port}`);
     console.log(`===============================================`);
   });
-
   serverInstance.on('error', (err) => {
-    if (err.code === 'EADDRINUSE') {
-      const nextPort = Number(PORT) + 1;
-      console.log(`Port ${PORT} in use, trying port ${nextPort}...`);
-      serverInstance = app.listen(nextPort, '0.0.0.0', () => {
-        console.log(`===============================================`);
-        console.log(` Aptitude Test Application running on:`);
-        console.log(` - Local (Mac):   http://localhost:${nextPort}`);
-        console.log(` - Mobile (Wi-Fi): http://${localIp}:${nextPort}`);
-        console.log(`===============================================`);
-      });
+    if (err.code === 'EADDRINUSE' && triesLeft > 0) {
+      console.log(`Port ${port} in use, trying port ${port + 1}...`);
+      listen(port + 1, triesLeft - 1);
     } else {
       console.error('Server error:', err);
+      process.exit(1);
     }
   });
+}
+
+if (require.main === module) {
+  listen(Number(PORT));
 }
 
 module.exports = {

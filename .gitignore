@@ -8,3 +8,4 @@ __pycache__/
 
 # Local attempt history (contains user emails)
 data/attempts.json
+*.swp

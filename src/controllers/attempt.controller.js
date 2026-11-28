@@ -5,7 +5,13 @@ const ScoringService = require('../services/scoring.service');
 class AttemptController {
   static submitAttempt(req, res, next) {
     try {
-      const { mode = 'mock', chapter = null, timeTakenSeconds = 0, answers = [], userEmail = null } = req.body;
+      const body = req.body || {};
+      const { mode = 'mock', chapter = null, answers = [] } = body;
+      if (!Array.isArray(answers)) {
+        return res.status(400).json({ error: '`answers` must be an array' });
+      }
+      const timeTakenSeconds = Math.max(0, Number(body.timeTakenSeconds) || 0);
+      const userEmail = typeof body.userEmail === 'string' ? body.userEmail : null;
 
       const coreQuestions = questionRepository.getAll();
       const rkQuestions = questionRepository.getRkQuestions();

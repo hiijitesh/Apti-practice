@@ -1,6 +1,6 @@
 # AptiPrep CBT - Local Aptitude Test Web Application
 
-A lightweight, local test-taking web application that runs entirely on localhost without any external database or cloud deployment. Designed for RRB, SSC, and Government Exam aptitude preparation.
+A lightweight test-taking web app for RRB, SSC, and Government Exam aptitude preparation. Runs locally with Node.js, or as a static site on GitHub Pages (installable as an app), with optional Google Sheets sync for attempt history.
 
 ---
 
@@ -13,8 +13,9 @@ A lightweight, local test-taking web application that runs entirely on localhost
   - Fast, responsive Computer-Based Test (CBT) portal UI modeled after real exam interfaces.
   - Zero heavy build tools or bundlers required—runs directly in any modern browser.
 - **Data Persistence:** Local JSON files (`data/` and `public/data/`)
-  - `public/data/questions.json`: 2,891 structured questions across 52 chapters (Quantitative Aptitude & General Science - single source of truth for both backend and static frontend).
-  - `data/attempts.json`: Stores all past test attempts with accuracy, timestamps, and answer histories (created on first run, git-ignored, and kept outside `public/` so it is never served to browsers). Override the location with `APTI_ATTEMPTS_FILE=/path/to/attempts.json`.
+  - `public/data/questions.json`: 2,994 questions across 52 chapters (1,344 Quantitative Aptitude + 1,650 General Science) — single source of truth for both backend and static frontend.
+  - `public/data/rk_ranjan_questions.json`: 5,327 RK Ranjan maths questions (ClassRoom & Pro Level sheets).
+  - `data/attempts.json`: Past test attempts (local Node server only; git-ignored and never deployed). Override the location with `APTI_ATTEMPTS_FILE=/path/to/attempts.json`.
 - **Extraction Script:** Python 3 (`scripts/extract_questions.py`)
   - Robust parser using `pypdf` that extracts questions, options, and answer keys from PDFs in `./source_pdfs/` (or current directory) into structured JSON.
 
@@ -44,7 +45,12 @@ Open your browser and navigate to:
 ```
 http://localhost:3001
 ```
-*(If port 3001 is in use, it will automatically fallback to the next available port, or you can specify `PORT=8080 npm start`)*
+*(If port 3001 is in use, it tries the next ports up to 3011, or you can specify `PORT=8080 npm start`)*
+
+### 4. Install as an App (Chrome)
+Open the site in Chrome and click the **Install** icon in the address bar (or ⋮ → **Cast, save and share → Install page as app**). On Android: ⋮ → **Add to Home screen**.
+Install only works over HTTPS or `localhost` — the GitHub Pages URL works; `http://192.168.x.x:3001` from a phone does not.
+Pages you have opened once keep working offline.
 
 ### 4. Install as an App (Chrome / Edge / Android)
 AptiPrep is a Progressive Web App (PWA). Open it in Chrome (on `http://localhost:3001` or the GitHub Pages URL) and either:
@@ -60,7 +66,7 @@ The installed app opens in its own window and keeps working offline: the app she
 ## 📋 Features & User Flows
 
 ### 1. Dashboard & Analytics
-- Overview of all 17 available aptitude chapters with question counts.
+- Overview of all chapters with question counts.
 - Past test attempt summary (total tests taken, average score percentage, highest score, total time spent).
 - Interactive attempts history table with accuracy badges and one-click **"Review"** button to reopen full detailed analysis for any past test.
 
@@ -72,8 +78,8 @@ The installed app opens in its own window and keeps working offline: the app she
 - Option to save your practice session to your local performance history.
 
 ### 3. Mode 2: Full Mock Test (CBT Exam Portal)
-- **Balanced question selection:** Generates 30 random questions uniformly distributed across all 17 chapters.
-- **Anti-cheat protection:** The `/api/mock` endpoint securely strips `correctAnswer` and `explanation` from the payload so answers cannot be inspected in DevTools.
+- **Balanced question selection:** Generates 30 random questions spread across chapters (weighted toward your weak chapters).
+- **Answers hidden from the mock payload:** `/api/mock` strips `correctAnswer` and `explanation`. This is not anti-cheat: the full `data/questions.json` (with answers) is publicly downloadable.
 - **30-Minute Global Timer:** Sticky countdown timer at the top with color warnings (amber under 5 min, red pulse under 1 min).
 - **Auto-Submit:** If time runs out (00:00), the exam auto-submits immediately.
 - **CBT Question Palette:**
@@ -103,6 +109,9 @@ The installed app opens in its own window and keeps working offline: the app she
 | `POST` | `/api/submit-attempt` | Scores test against disk data, saves to `attempts.json`, returns review |
 | `GET` | `/api/attempts` | Returns list of all past attempts from disk |
 | `GET` | `/api/attempts/:id` | Returns specific past attempt enriched with question review data |
+| `GET` | `/api/rk-chapters` | RK Ranjan chapters and question counts |
+| `GET` | `/api/rk-questions?chapter=:name` | RK Ranjan questions (optionally by chapter) |
+| `GET` | `/api/revision-materials` | Revision notes |
 
 ---
 
@@ -111,15 +120,16 @@ The installed app opens in its own window and keeps working offline: the app she
 ```
 Apti Practice/
 ├── data/
-│   ├── questions.json      # 1,344 parsed aptitude questions
-│   └── attempts.json       # Persisted user test attempt records
-├── public/
-│   ├── index.html          # Clean Single-Page CBT Interface
+│   └── attempts.json       # Local attempt history (git-ignored, not deployed)
+├── public/                 # Deployed to GitHub Pages
+│   ├── index.html          # Single-page CBT interface
 │   ├── app.js              # State management & client interactions
 │   ├── style.css           # Styling and animations
 │   ├── manifest.webmanifest # PWA manifest (install from Chrome)
 │   ├── sw.js               # Service worker (offline cache)
-│   └── icons/              # App icons
+│   ├── icons/              # App icons
+│   └── data/               # questions.json, rk_ranjan_questions.json, revision_materials.json
+├── src/                    # Express routes, controllers, repositories, services
 ├── scripts/
 │   └── extract_questions.py # Standalone PDF extraction script
 ├── source_pdfs/            # Source question PDF files
