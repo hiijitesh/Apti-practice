@@ -5860,7 +5860,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "A, B and C are boxes with marbles in the ratio 2:3:4. The total number of marbles in the boxes is 360. The above ratio can be changed to 3:8:7 by which of the following? (i) By transferring 20 marbles from A to B and 20 marbles from C to B. (ii) By transferring 20 marbles from A to B and 10 marbles from C to B. (iii) By transferring 40 marbles from A to B and 20 marbles from C to B. (iv) By transferring 30 marbles from A to B and 30 marbles from C to B.",
+    "question": "A, B and C are boxes with marbles in the ratio 2:3:4. The total number of marbles in the boxes is 360. The above ratio can be changed to 3:8:7 by which of the following?\n(i) By transferring 20 marbles from A to B and 20 marbles from C to B.\n(ii) By transferring 20 marbles from A to B and 10 marbles from C to B.\n(iii) By transferring 40 marbles from A to B and 20 marbles from C to B.\n(iv) By transferring 30 marbles from A to B and 30 marbles from C to B.",
     "options": [
       "(ii)",
       "(iv)",
@@ -20022,7 +20022,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Discount",
-    "question": "The company offers the following four types of successive discounts on a computer which is listed at ₹6,000. Which of these offers is best for a customer? (i) 25% and 15% (ii) 30% and 10% (iii) 35% and 5% (iv) 20% and 20%",
+    "question": "The company offers the following four types of successive discounts on a computer which is listed at ₹6,000.\nWhich of these offers is best for a customer?\n(i) 25% and 15%\n(ii) 30% and 10%\n(iii) 35% and 5%\n(iv) 20% and 20%",
     "options": [
       "Fourth offer",
       "First offer",
@@ -21247,7 +21247,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Discount",
-    "question": "A shopkeeper offers the following discount schemes for the purchase of his goods. Find the scheme which has the maximum discount. (i) Two successive discounts of 20% and 10% (ii) Discount of 10% (iii) Buy 8 and get 4 free (iv) Buy 9 and get 6 free",
+    "question": "A shopkeeper offers the following discount schemes for the purchase of his goods.\nFind the scheme which has the maximum discount.\n(i) Two successive discounts of 20% and 10%\n(ii) Discount of 10%\n(iii) Buy 8 and get 4 free\n(iv) Buy 9 and get 6 free",
     "options": [
       "(iii)",
       "(ii)",
@@ -51597,7 +51597,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Which of the following compounds is/are saturated? (i) C₂H₆ (ii) C₃H₈ (iii) C₂H₄",
+    "question": "Which of the following compounds is/are saturated?\n(i) C₂H₆\n(ii) C₃H₈\n(iii) C₂H₄",
     "options": [
       "i, ii and iv",
       "i, ii and iii",
@@ -52347,7 +52347,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Read the following statements carefully and choose the correct option. Statement 1: Members of a homologous series differ by a -CH₂- group. Statement 2: Each successive member of a homologous series differs from the previous one by 12 u in molecular mass.",
+    "question": "Read the following statements carefully and choose the correct option.\nStatement 1: Members of a homologous series differ by a -CH₂- group.\nStatement 2: Each successive member of a homologous series differs from the previous one by 12 u in molecular mass.",
     "options": [
       "26 Shift-I)",
       "Both statements are true but Statement 2 is not the correct explanation of Statement 1. 2, 1",
@@ -54672,7 +54672,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Chemical Reactions and Equations",
-    "question": "Which is the not an example of redox reaction . (i) ZnO + C → Zn + CO (ii) MnO2 + 4HCI → MnCl2 + 2H2O + Cl2 (iii) 4Na + O2 + 2Na2O (iv) AgNO3 + NaCl → AgCl + NaNO3",
+    "question": "Which is the not an example of redox reaction .\n(i) ZnO + C → Zn + CO\n(ii) MnO2 + 4HCI → MnCl2 + 2H2O + Cl2\n(iii) 4Na + O2 + 2Na2O\n(iv) AgNO3 + NaCl → AgCl + NaNO3",
     "options": [
       "i",
       "iv",
@@ -56572,7 +56572,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Which of the following statements about the effects of pressure changes on the states of matter is/are correct? Statement I: Applying pressure and reducing temperature can liquefy gases. Statement II: Solid carbon dioxide is stored under high pressure.",
+    "question": "Which of the following statements about the effects of pressure changes on the states of matter is/are correct?\nStatement I: Applying pressure and reducing temperature can liquefy gases.\nStatement II: Solid carbon dioxide is stored under high pressure.",
     "options": [
       "Only statement I is correct.",
       "Both statements I and II are correct.",
@@ -56597,7 +56597,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Matter",
-    "question": "Which of the following statements is/are correct regarding the liquid state of matter? Statement I: Liquids have a fixed volume but an indefinite shape. Statement II: The diffusion rate in liquids is higher than in solids.",
+    "question": "Which of the following statements is/are correct regarding the liquid state of matter?\nStatement I: Liquids have a fixed volume but an indefinite shape.\nStatement II: The diffusion rate in liquids is higher than in solids.",
     "options": [
       "Neither (i) nor (ii) are correct.",
       "Both (i) and (ii) are correct.",
@@ -59622,7 +59622,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Structure of Atom",
-    "question": "Which of the following statements are correct about molecular mass? Statement 1: The molecular mass of a substance is the sum of the atomic masses of all the atoms in a Statement 2: It is also known as the relative mass of a molecule. Statement 3: It is expressed in atomic mass units (u).",
+    "question": "Which of the following statements are correct about molecular mass?\nStatement 1: The molecular mass of a substance is the sum of the atomic masses of all the atoms in a\nStatement 2: It is also known as the relative mass of a molecule.\nStatement 3: It is expressed in atomic mass units (u).",
     "options": [
       "Statements 1, 2 and 3 are correct. 1, 2 3",
       "Only statements 1 and 2 are correct. 1 2",
@@ -63126,7 +63126,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Gravitation",
-    "question": "Read the given statements and select the most appropriate option. Statement 1: When a ball is thrown vertically upward, its velocity decreases at the rate of g. Statement 2: The acceleration due to gravity acts downward even when the ball moves upward. 19",
+    "question": "Read the given statements and select the most appropriate option.\nStatement 1: When a ball is thrown vertically upward, its velocity decreases at the rate of g.\nStatement 2: The acceleration due to gravity acts downward even when the ball moves upward. 19",
     "options": [
       "Both Statements are incorrect",
       "Only Statement 1 is correct 1",
@@ -66552,7 +66552,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Motion",
-    "question": "Which of the following is/are not correct regarding the distance-time graph of a body moving with (i) The slope of the distance-time graph gives the acceleration of the body. (ii) The smaller the slope of the graph, the slower the body moves.",
+    "question": "Which of the following is/are not correct regarding the distance-time graph of a body moving with\n(i) The slope of the distance-time graph gives the acceleration of the body.\n(ii) The smaller the slope of the graph, the slower the body moves.",
     "options": [
       "(i) and (ii) both (i) (ii)",
       "(i) and (iii) both (i) (iii)",
@@ -67706,15 +67706,15 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Prism",
-    "question": "When white light is incident obliquely on a glass prism, which of the following statements is/are not correct? (i) Red colour has minimum deviation. ( ii) Violet colour has the least speed while passing through the prism.",
+    "question": "When white light is incident obliquely on a glass prism, which of the following statements is/are not correct?\n(i) Red colour has minimum deviation.\n(ii) Violet colour has the least speed while passing through the prism.\n(iii) The refractive index of green colour is more than that of violet colour.\n(iv) The refractive index of red colour is more than that of blue colour.",
     "options": [
-      "(i) and (iv) both (i) (iv)",
-      "(iii) and (iv) both (iii) (iv)",
-      "(ii) and (iii) both (ii) (iii)",
-      "(i) and (ii) both (i) (ii)"
+      "(i) and (iv) both",
+      "(iii) and (iv) both",
+      "(ii) and (iii) both",
+      "(i) and (ii) both"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | ((ii) and (iii) both (ii) (iii)) | Exam: RRB Technician - III, 06-03-2026, Shift-2 | Slide: Page 18",
+    "explanation": "Correct Answer: Option C ((ii) and (iii) both) | Exam: RRB Technician - III, 06-03-2026, Shift-2 | Slide: Page 18",
     "slidePage": 18,
     "source": {
       "file": "Science Magnet · Prism",
@@ -70859,7 +70859,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Gangue (i) Heating a sulphide ore strongly in excess air (b) Roasting (ii) An ore of mercury (c) Calcination (iii) Soil and sand mixed with the ore (d) Cinnabar (iv) Heating a carbonate ore strongly in limited air Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Gangue (i) Heating a sulphide ore strongly in excess air\n(b) Roasting (ii) An ore of mercury\n(c) Calcination (iii) Soil and sand mixed with the ore\n(d) Cinnabar (iv) Heating a carbonate ore strongly in limited air\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -70907,7 +70907,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Mode of nutrition (i) Producer or decomposer (b) Cell structure (ii) Similarities studied using DNA (c) Ecological role (iii) Autotrophic or heterotrophic (d) Genetic similarity (iv) Prokaryote or eukaryote Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Mode of nutrition (i) Producer or decomposer\n(b) Cell structure (ii) Similarities studied using DNA\n(c) Ecological role (iii) Autotrophic or heterotrophic\n(d) Genetic similarity (iv) Prokaryote or eukaryote\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -71363,7 +71363,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) In yeast, without oxygen (i) Carbon dioxide and water (a) (i) (b) In muscle cells short of oxygen (ii) Ethanol and carbon dioxide (c) In mitochondria, with oxygen (iii) Pyruvate (d) First step, in the cytoplasm (iv) Lactic acid Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) In yeast, without oxygen (i) Carbon dioxide and water (a) (i)\n(b) In muscle cells short of oxygen (ii) Ethanol and carbon dioxide\n(c) In mitochondria, with oxygen (iii) Pyruvate\n(d) First step, in the cytoplasm (iv) Lactic acid\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
       "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
@@ -71387,7 +71387,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) F. C. Steward (i) Anther culture (b) Sipra Guha Mukherjee (ii) Crown gall disease (c) Agrobacterium tumefaciens (iii) Complete plant from a single carrot cell (d) Totipotency (iv) Ability of a mature cell to form a whole plant Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) F. C. Steward (i) Anther culture\n(b) Sipra Guha Mukherjee (ii) Crown gall disease\n(c) Agrobacterium tumefaciens (iii) Complete plant from a single carrot cell\n(d) Totipotency (iv) Ability of a mature cell to form a whole plant\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -71459,7 +71459,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) W (i) Latin name ferrum (b) Zn (ii) Greek name hydrargyros (c) Fe (iii) German name wolfram (d) Hg (iv) First letter and a later letter of the English name Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) W (i) Latin name ferrum\n(b) Zn (ii) Greek name hydrargyros\n(c) Fe (iii) German name wolfram\n(d) Hg (iv) First letter and a later letter of the English name\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -71507,7 +71507,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "In each reaction of List I, one substance is oxidised. Match List I with List II: List I List II (a) CuO + H₂ → Cu + H₂O (i) HCl (b) ZnO + C → Zn + CO (ii) Carbon (c) MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂ (iii) Copper (d) 2Cu + O₂ → 2CuO (iv) Hydrogen Select the correct answer:",
+    "question": "In each reaction of List I, one substance is oxidised. Match List I with List II: \nList I | List II\n(a) CuO + H₂ → Cu + H₂O (i) HCl\n(b) ZnO + C → Zn + CO (ii) Carbon\n(c) MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂ (iii) Copper\n(d) 2Cu + O₂ → 2CuO (iv) Hydrogen\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
       "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
@@ -71675,7 +71675,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) CuSO₄.5H₂O (i) Washing soda (b) CaSO₄.2H₂O (ii) Plaster of Paris (c) CaSO₄.1/2H₂O (iii) Gypsum (d) Na₂CO₃.10H₂O (iv) Blue crystals that turn white on heating Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) CuSO₄.5H₂O (i) Washing soda\n(b) CaSO₄.2H₂O (ii) Plaster of Paris\n(c) CaSO₄.1/2H₂O (iii) Gypsum\n(d) Na₂CO₃.10H₂O (iv) Blue crystals that turn white on heating\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iv), (b)-(ii), (c)-(iii), (d)-(i)",
@@ -71723,7 +71723,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Monera (i) Heterotrophic, multicellular, no cell wall (b) Protista (ii) Cell wall made of chitin (c) Fungi (iii) Includes Amoeba and Euglena (d) Animalia (iv) Prokaryotes such as bacteria Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Monera (i) Heterotrophic, multicellular, no cell wall\n(b) Protista (ii) Cell wall made of chitin\n(c) Fungi (iii) Includes Amoeba and Euglena\n(d) Animalia (iv) Prokaryotes such as bacteria\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -71771,7 +71771,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Shoots in phototropism (i) Growth of pollen tubes towards ovules (b) Roots in phototropism (ii) Bend away from light (c) Hydrotropism (iii) Bend towards light (d) Chemotropism (iv) Directional growth in response to water Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Shoots in phototropism (i) Growth of pollen tubes towards ovules\n(b) Roots in phototropism (ii) Bend away from light\n(c) Hydrotropism (iii) Bend towards light\n(d) Chemotropism (iv) Directional growth in response to water\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
       "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
@@ -71795,7 +71795,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Distance between two consecutive crests (i) Frequency (b) Number of density oscillations per second (ii) Wavelength (c) Time for one complete density oscillation (iii) Time period (d) Time period of a 5 Hz sound wave (iv) 0.2 s Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Distance between two consecutive crests (i) Frequency\n(b) Number of density oscillations per second (ii) Wavelength\n(c) Time for one complete density oscillation (iii) Time period\n(d) Time period of a 5 Hz sound wave (iv) 0.2 s\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
@@ -71819,7 +71819,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Torch (i) Large image of the teeth (b) Solar furnace (ii) Powerful parallel beam of light (c) Dentist's mirror (iii) Concentrates sunlight to produce heat (d) Mirror in the Agra Fort wall (iv) Full image of the Taj Mahal Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Torch (i) Large image of the teeth\n(b) Solar furnace (ii) Powerful parallel beam of light\n(c) Dentist's mirror (iii) Concentrates sunlight to produce heat\n(d) Mirror in the Agra Fort wall (iv) Full image of the Taj Mahal\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -72011,7 +72011,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) CS₂ (i) Dinitrogen pentoxide (b) SF₆ (ii) Sulfur hexafluoride (c) N₂O₄ (iii) Dinitrogen tetroxide (d) N₂O₅ (iv) Carbon disulfide Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) CS₂ (i) Dinitrogen pentoxide\n(b) SF₆ (ii) Sulfur hexafluoride\n(c) N₂O₄ (iii) Dinitrogen tetroxide\n(d) N₂O₅ (iv) Carbon disulfide\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
       "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
@@ -72251,7 +72251,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Ovary (i) Terminal part, may be sticky (b) Style (ii) Swollen bottom part (c) Stigma (iii) Middle elongated part (d) Ovule (iv) Contains the egg cell Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Ovary (i) Terminal part, may be sticky\n(b) Style (ii) Swollen bottom part\n(c) Stigma (iii) Middle elongated part\n(d) Ovule (iv) Contains the egg cell\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
@@ -72347,7 +72347,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Auxin (i) Promotes cell division (b) Gibberellin (ii) Inhibits growth (c) Cytokinin (iii) Helps in the growth of the stem (d) Abscisic acid (iv) Diffuses to the shady side of the shoot Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Auxin (i) Promotes cell division\n(b) Gibberellin (ii) Inhibits growth\n(c) Cytokinin (iii) Helps in the growth of the stem\n(d) Abscisic acid (iv) Diffuses to the shady side of the shoot\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -72419,7 +72419,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Source of litmus solution (i) Reddish-brown (b) Turmeric stain scrubbed with soap (ii) Lichen (c) Litmus solution in a neutral medium (iii) Purple (d) Phenolphthalein (iv) Synthetic indicator Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Source of litmus solution (i) Reddish-brown\n(b) Turmeric stain scrubbed with soap (ii) Lichen\n(c) Litmus solution in a neutral medium (iii) Purple\n(d) Phenolphthalein (iv) Synthetic indicator\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
@@ -72539,7 +72539,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Typical prokaryotic cell (i) Diameter 10 to 100 µm (b) Typical eukaryotic cell (ii) Nucleoid (c) Primitive nucleus (iii) Diameter 1 to 10 µm (d) Most cell organelles (iv) Visible only with an electron microscope Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Typical prokaryotic cell (i) Diameter 10 to 100 µm\n(b) Typical eukaryotic cell (ii) Nucleoid\n(c) Primitive nucleus (iii) Diameter 1 to 10 µm\n(d) Most cell organelles (iv) Visible only with an electron microscope\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
@@ -72635,7 +72635,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Pollination (i) Wind, water, insects and birds (b) Self-pollination (ii) Pollen from anther to stigma of another plant of the same type (c) Cross-pollination (iii) Transfer of pollen from anther to stigma (d) Pollinators (iv) Pollen to stigma of the same flower or the same plant Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Pollination (i) Wind, water, insects and birds\n(b) Self-pollination (ii) Pollen from anther to stigma of another plant of the same type\n(c) Cross-pollination (iii) Transfer of pollen from anther to stigma\n(d) Pollinators (iv) Pollen to stigma of the same flower or the same plant\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
       "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
@@ -72659,7 +72659,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) K⁺ (i) Ferric ion (b) Ca²⁺ (ii) Fluoride ion (c) Fe³⁺ (iii) Calcium ion (d) F⁻ (iv) Potassium ion Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) K⁺ (i) Ferric ion\n(b) Ca²⁺ (ii) Fluoride ion\n(c) Fe³⁺ (iii) Calcium ion\n(d) F⁻ (iv) Potassium ion\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -72803,7 +72803,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Nephron (i) Connects the kidney with the urinary bladder (b) Bowman's capsule (ii) Stores urine until it is passed out (c) Ureter (iii) Filtration unit present in large numbers in a kidney (d) Urinary bladder (iv) Cup-shaped end of a coiled tube that collects the filtrate Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Nephron (i) Connects the kidney with the urinary bladder\n(b) Bowman's capsule (ii) Stores urine until it is passed out\n(c) Ureter (iii) Filtration unit present in large numbers in a kidney\n(d) Urinary bladder (iv) Cup-shaped end of a coiled tube that collects the filtrate\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -72851,7 +72851,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Uranium-235 (i) Treatment of goitre (b) Cobalt-60 (ii) Fuel in a nuclear reactor (c) Iodine-131 (iii) Radiation treatment for cancer (d) Carbon-14 (iv) Finding the age of ancient fossils Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Uranium-235 (i) Treatment of goitre\n(b) Cobalt-60 (ii) Fuel in a nuclear reactor\n(c) Iodine-131 (iii) Radiation treatment for cancer\n(d) Carbon-14 (iv) Finding the age of ancient fossils\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
       "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
@@ -72875,7 +72875,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Spirogyra (i) Macroscopic fungus that reproduces by spores (b) Moss (ii) Fungus used to make enzymes and antibiotics (c) Mushroom (iii) Example of Thallophyta (d) Aspergillus (iv) Example of Bryophyta Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Spirogyra (i) Macroscopic fungus that reproduces by spores\n(b) Moss (ii) Fungus used to make enzymes and antibiotics\n(c) Mushroom (iii) Example of Thallophyta\n(d) Aspergillus (iv) Example of Bryophyta\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
@@ -72971,7 +72971,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Metal that is liquid at room temperature (i) Diamond (b) Non-metal that is lustrous (ii) Graphite (c) Hardest natural substance (iii) Mercury (d) Allotrope of carbon that conducts electricity (iv) Iodine Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Metal that is liquid at room temperature (i) Diamond\n(b) Non-metal that is lustrous (ii) Graphite\n(c) Hardest natural substance (iii) Mercury\n(d) Allotrope of carbon that conducts electricity (iv) Iodine\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -72995,7 +72995,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Parenchyma (i) Thick lignified walls, mostly dead cells (b) Collenchyma (ii) Unevenly thickened corners due to pectin (c) Sclerenchyma (iii) Thin-walled living cells that mainly store food (d) Xylem (iv) Carries water and minerals from the roots Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Parenchyma (i) Thick lignified walls, mostly dead cells\n(b) Collenchyma (ii) Unevenly thickened corners due to pectin\n(c) Sclerenchyma (iii) Thin-walled living cells that mainly store food\n(d) Xylem (iv) Carries water and minerals from the roots\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
@@ -73211,7 +73211,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Deficiency of iodine in the diet (i) Dwarfism (b) Deficiency of growth hormone in (ii) Regulates blood sugar level childhood (c) Insulin (iii) Goitre (d) Testosterone (iv) Puberty changes in males Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Deficiency of iodine in the diet (i) Dwarfism\n(b) Deficiency of growth hormone in (ii) Regulates blood sugar level childhood\n(c) Insulin (iii) Goitre\n(d) Testosterone (iv) Puberty changes in males\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -73331,7 +73331,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Tone (i) Quality that tells instruments apart (b) Musical note (ii) Sound of a single frequency (c) Timbre (iii) One note has double the frequency (d) Octave (iv) Fundamental along with overtones Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Tone (i) Quality that tells instruments apart\n(b) Musical note (ii) Sound of a single frequency\n(c) Timbre (iii) One note has double the frequency\n(d) Octave (iv) Fundamental along with overtones\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
       "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
@@ -73379,7 +73379,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Upper part of a bifocal lens (i) Convex lens for near vision (b) Lower part of a bifocal lens (ii) Concave lens for distant vision (c) Angle between the two lateral faces of a prism (iii) Angle of the prism (d) Angle between the emergent ray and the incident ray in a prism (iv) Angle of deviation Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Upper part of a bifocal lens (i) Convex lens for near vision\n(b) Lower part of a bifocal lens (ii) Concave lens for distant vision\n(c) Angle between the two lateral faces of a prism (iii) Angle of the prism\n(d) Angle between the emergent ray and the incident ray in a prism (iv) Angle of deviation\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
@@ -73643,7 +73643,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Magnesium ribbon in air (i) Oxide dissolves in water to form an alkali (b) Aluminium oxide (ii) Reacts with both acids and bases (c) Sodium oxide (iii) Burns with a dazzling white flame (d) Copper heated in air (iv) Gets a black coating of copper(II) oxide Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Magnesium ribbon in air (i) Oxide dissolves in water to form an alkali\n(b) Aluminium oxide (ii) Reacts with both acids and bases\n(c) Sodium oxide (iii) Burns with a dazzling white flame\n(d) Copper heated in air (iv) Gets a black coating of copper(II) oxide\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -73739,7 +73739,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Ribosome (i) Cell's post office (b) Golgi apparatus (ii) Powerhouse of the cell (c) Lysosome (iii) Site of protein synthesis (d) Mitochondrion (iv) Single-membrane sac of enzymes Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Ribosome (i) Cell's post office\n(b) Golgi apparatus (ii) Powerhouse of the cell\n(c) Lysosome (iii) Site of protein synthesis\n(d) Mitochondrion (iv) Single-membrane sac of enzymes\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
       "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
@@ -73763,7 +73763,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Bryophytes (i) Seeds enclosed in fruits (b) Pteridophytes (ii) Seeds exposed on cones (c) Gymnosperms (iii) Called plant amphibians (d) Angiosperms (iv) True roots, stems and leaves, no seeds Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Bryophytes (i) Seeds enclosed in fruits\n(b) Pteridophytes (ii) Seeds exposed on cones\n(c) Gymnosperms (iii) Called plant amphibians\n(d) Angiosperms (iv) True roots, stems and leaves, no seeds\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
       "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
@@ -73955,7 +73955,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Autotrophs (producers) (i) Third trophic level (b) Herbivores (ii) Fourth trophic level (c) Small carnivores (iii) First trophic level (d) Larger carnivores (iv) Second trophic level Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Autotrophs (producers) (i) Third trophic level\n(b) Herbivores (ii) Fourth trophic level\n(c) Small carnivores (iii) First trophic level\n(d) Larger carnivores (iv) Second trophic level\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
@@ -74195,7 +74195,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Porifera (i) Organ system level (b) Cnidaria (ii) Organ level (c) Platyhelminthes (iii) Cellular level (d) Annelida (iv) Tissue level Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Porifera (i) Organ system level\n(b) Cnidaria (ii) Organ level\n(c) Platyhelminthes (iii) Cellular level\n(d) Annelida (iv) Tissue level\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
@@ -74267,7 +74267,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Sodium in cold water (i) A thin oxide layer protects it from further corrosion (b) Calcium in cold water (ii) The hydrogen evolved catches fire (c) Aluminium in air (iii) The heat released is not enough for hydrogen to catch fire (d) Silver and gold heated in oxygen (iv) No reaction even at high temperature Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Sodium in cold water (i) A thin oxide layer protects it from further corrosion\n(b) Calcium in cold water (ii) The hydrogen evolved catches fire\n(c) Aluminium in air (iii) The heat released is not enough for hydrogen to catch fire\n(d) Silver and gold heated in oxygen (iv) No reaction even at high temperature\nSelect the correct answer:",
     "options": [
       "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)",
       "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -74315,7 +74315,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Bone (i) Connects bone to bone (b) Cartilage (ii) Connects muscle to bone (c) Tendon (iii) Soft, jelly-like matrix (d) Ligament (iv) Rigid matrix with calcium and phosphorus compounds Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Bone (i) Connects bone to bone\n(b) Cartilage (ii) Connects muscle to bone\n(c) Tendon (iii) Soft, jelly-like matrix\n(d) Ligament (iv) Rigid matrix with calcium and phosphorus compounds\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -74459,7 +74459,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II (convex lens): List I List II (a) Object at infinity (i) Real, inverted, same size, at 2F₂ (b) Object at 2F₁ (ii) Virtual, erect, enlarged (c) Object between F₁ and 2F₁ (iii) Real, inverted, enlarged, beyond 2F₂ (d) Object between F₁ and O (iv) Real, inverted, highly diminished, at F₂ Select the correct answer:",
+    "question": "Match List I with List II (convex lens): \nList I | List II\n(a) Object at infinity (i) Real, inverted, same size, at 2F₂\n(b) Object at 2F₁ (ii) Virtual, erect, enlarged\n(c) Object between F₁ and 2F₁ (iii) Real, inverted, enlarged, beyond 2F₂\n(d) Object between F₁ and O (iv) Real, inverted, highly diminished, at F₂\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
       "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
@@ -74507,7 +74507,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Echinodermata (i) Notochord present at least once in life (b) Mollusca (ii) Backbone that protects the brain and spinal cord (c) Protochordates (iii) Hard internal skeleton of calcium carbonate (d) Vertebrates (iv) Shell that protects the soft body Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Echinodermata (i) Notochord present at least once in life\n(b) Mollusca (ii) Backbone that protects the brain and spinal cord\n(c) Protochordates (iii) Hard internal skeleton of calcium carbonate\n(d) Vertebrates (iv) Shell that protects the soft body\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -74579,7 +74579,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Gustatory receptors (i) Detect smell (b) Olfactory receptors (ii) Release of chemicals when the impulse reaches the end of the axon (c) End of the axon (iii) Detect taste (d) Synapse (iv) Gap across which chemicals reach the next neuron Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Gustatory receptors (i) Detect smell\n(b) Olfactory receptors (ii) Release of chemicals when the impulse reaches the end of the axon\n(c) End of the axon (iii) Detect taste\n(d) Synapse (iv) Gap across which chemicals reach the next neuron\nSelect the correct answer:",
     "options": [
       "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
@@ -74651,7 +74651,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Smooth muscle (i) Long fibre that carries messages away from the cell (b) Cardiac muscle (ii) Receives signals from other neurons (c) Dendrites (iii) Branched cylindrical fibres found only in the heart (d) Axon (iv) Spindle-shaped cells with one nucleus and no striations Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Smooth muscle (i) Long fibre that carries messages away from the cell\n(b) Cardiac muscle (ii) Receives signals from other neurons\n(c) Dendrites (iii) Branched cylindrical fibres found only in the heart\n(d) Axon (iv) Spindle-shaped cells with one nucleus and no striations\nSelect the correct answer:",
     "options": [
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -74747,7 +74747,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Calcium (i) Reacts with steam to form metal oxide and hydrogen (b) Magnesium (ii) Does not react with water at all (c) Iron (iii) Reacts with cold water and starts floating (d) Copper (iv) Reacts with hot water but not with cold water Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Calcium (i) Reacts with steam to form metal oxide and hydrogen\n(b) Magnesium (ii) Does not react with water at all\n(c) Iron (iii) Reacts with cold water and starts floating\n(d) Copper (iv) Reacts with hot water but not with cold water\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",
@@ -74891,7 +74891,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Match List I with List II: List I List II (a) Electric bulb (i) Chemical energy to mechanical energy (b) Electric water heater (ii) Mechanical energy to sound energy (c) Muscles using food (iii) Electrical energy to light energy (d) Ringing bell (iv) Electrical energy to thermal energy Select the correct answer:",
+    "question": "Match List I with List II: \nList I | List II\n(a) Electric bulb (i) Chemical energy to mechanical energy\n(b) Electric water heater (ii) Mechanical energy to sound energy\n(c) Muscles using food (iii) Electrical energy to light energy\n(d) Ringing bell (iv) Electrical energy to thermal energy\nSelect the correct answer:",
     "options": [
       "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)",

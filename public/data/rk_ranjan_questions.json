@@ -5103,7 +5103,7 @@
     "chapter": "Algebra",
     "sheetType": "ClassRoom",
     "sheetFile": "Algebra (Classroom Sheet-03).pdf",
-    "question": "If a, b, c are non zero, a + 1/b = 1 & b + 1/c = 1 then (i) abc is (ii) c + 1/a is",
+    "question": "If a, b, c are non zero, a + 1/b = 1 & b + 1/c = 1 then\n(i) abc is\n(ii) c + 1/a is",
     "options": [
       "–1, 1",
       "3, –1",
@@ -31338,7 +31338,7 @@
     "chapter": "Geometry",
     "sheetType": "Pro Level",
     "sheetFile": "ALL Triangle Pro Level Sheet.pdf",
-    "question": "In ΔPQR, PQ = QR and O is an interior point of ΔPQR such that OPR = ORP. Consider the following statements: (i) ΔPOR is an isosceles triangle. (ii) O is the centroid of ΔPQR. (iii) ΔPQO is congruent to ΔRQO. Which of the above statements are correct?",
+    "question": "In ΔPQR, PQ = QR and O is an interior point of ΔPQR such that OPR = ORP. Consider the following statements:\n(i) ΔPOR is an isosceles triangle.\n(ii) O is the centroid of ΔPQR.\n(iii) ΔPQO is congruent to ΔRQO.\nWhich of the above statements are correct?",
     "options": [
       "Only (i) and (ii)/",
       "Only (i) and (iii)/",
