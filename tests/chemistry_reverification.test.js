@@ -81,12 +81,12 @@ describe('Chemistry Reverification & Slide Page Integrity Tests', () => {
     });
   });
 
-  test('Diagram questions have valid PNG base64 data URIs if present', () => {
+  test('Diagram questions have existing PNG files if present', () => {
     const withDiagram = chemistryQuestions.filter(q => q.diagram && q.diagram.trim().length > 0);
     withDiagram.forEach(q => {
       assert.ok(
-        q.diagram.startsWith('data:image/png;base64,'),
-        `Diagram for ${q.id} must be a valid PNG Data URI`
+        /^data\/diagrams\/[\w.-]+\.png$/.test(q.diagram) && require('fs').existsSync(require('path').join(__dirname, '..', 'public', q.diagram)),
+        `Diagram for ${q.id} must point to an existing PNG in public/data/diagrams`
       );
     });
   });

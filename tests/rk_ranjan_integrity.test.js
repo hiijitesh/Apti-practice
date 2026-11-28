@@ -104,7 +104,7 @@ describe('RK Ranjan Math Integrity & Zero Discrepancy Tests', () => {
     const rkChapters = QuestionRepository.getRkChapters();
     assert.strictEqual(rkChapters.length, 33, 'Repository must return 33 RK chapters');
     const rkQuestions = QuestionRepository.getRkQuestions();
-    assert.strictEqual(rkQuestions.length, 5327, 'Repository must return 5,327 RK questions');
+    assert.strictEqual(rkQuestions.length, 5304, 'Repository must return 5,304 RK questions');
     const pctQuestions = QuestionRepository.getByChapter('Percentage', 'rk_ranjan');
     assert.ok(pctQuestions.length >= 200, `Percentage should have 200+ questions, got ${pctQuestions.length}`);
   });

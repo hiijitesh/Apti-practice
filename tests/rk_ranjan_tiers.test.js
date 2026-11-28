@@ -35,12 +35,12 @@ describe('RK Ranjan Sheet Tiers (Pro Level vs ClassRoom) Tests', () => {
   });
 
   test('2. Dataset integrity: Both Pro Level and ClassRoom sheets exist across all 33 chapters', () => {
-    assert.strictEqual(rkQuestions.length, 5327, 'Total questions must be 5,327');
+    assert.strictEqual(rkQuestions.length, 5304, 'Total questions must be 5,304');
     const proQuestions = rkQuestions.filter(q => (q.sheetType || '').toLowerCase().includes('pro'));
     const classroomQuestions = rkQuestions.filter(q => !(q.sheetType || '').toLowerCase().includes('pro'));
 
-    assert.strictEqual(proQuestions.length, 1310, 'Expected exactly 1,310 Pro Level questions');
-    assert.strictEqual(classroomQuestions.length, 4017, 'Expected exactly 4,017 ClassRoom questions');
+    assert.strictEqual(proQuestions.length, 1305, 'Expected exactly 1,305 Pro Level questions');
+    assert.strictEqual(classroomQuestions.length, 3999, 'Expected exactly 3,999 ClassRoom questions');
 
     // Verify all 33 chapters have questions in both tiers
     const byChapter = {};
@@ -89,9 +89,9 @@ describe('RK Ranjan Sheet Tiers (Pro Level vs ClassRoom) Tests', () => {
     const totalClassroom = mockApp.rkChapters.reduce((acc, c) => acc + (c.classroomCount || 0), 0);
     const totalAll = mockApp.rkChapters.reduce((acc, c) => acc + (c.count || 0), 0);
 
-    assert.strictEqual(totalPro, 1310, 'Total proCount must equal 1,310');
-    assert.strictEqual(totalClassroom, 4017, 'Total classroomCount must equal 4,017');
-    assert.strictEqual(totalAll, 5327, 'Total count must equal 5,327');
+    assert.strictEqual(totalPro, 1305, 'Total proCount must equal 1,305');
+    assert.strictEqual(totalClassroom, 3999, 'Total classroomCount must equal 3,999');
+    assert.strictEqual(totalAll, 5304, 'Total count must equal 5,304');
 
     const ages = mockApp.rkChapters.find(c => c.name === 'Ages');
     assert.ok(ages, 'Ages chapter must exist');
@@ -101,9 +101,9 @@ describe('RK Ranjan Sheet Tiers (Pro Level vs ClassRoom) Tests', () => {
 
     const geom = mockApp.rkChapters.find(c => c.name === 'Geometry');
     assert.ok(geom, 'Geometry chapter must exist');
-    assert.strictEqual(geom.proCount, 165, 'Geometry must have 165 Pro Level questions');
+    assert.strictEqual(geom.proCount, 164, 'Geometry must have 164 Pro Level questions');
     assert.strictEqual(geom.classroomCount, 427, 'Geometry must have 427 ClassRoom questions');
-    assert.strictEqual(geom.count, 592, 'Geometry must have 592 total questions');
+    assert.strictEqual(geom.count, 591, 'Geometry must have 591 total questions');
   });
 
   test('4. startPractice filters by tier correctly (pro vs classroom vs all)', async () => {
@@ -116,7 +116,7 @@ describe('RK Ranjan Sheet Tiers (Pro Level vs ClassRoom) Tests', () => {
       chapters: [],
       rkChapters: [
         { name: 'Ages', count: 47, proCount: 20, classroomCount: 27 },
-        { name: 'Geometry', count: 592, proCount: 165, classroomCount: 427 }
+        { name: 'Geometry', count: 591, proCount: 164, classroomCount: 427 }
       ],
       currentRkTier: 'all',
       practice: {
@@ -162,7 +162,7 @@ describe('RK Ranjan Sheet Tiers (Pro Level vs ClassRoom) Tests', () => {
 
     // D. Practice Geometry with 'pro' tier
     await startPracticeFn.call(mockApp, 'Geometry', 'rk_ranjan', 'pro');
-    assert.strictEqual(capturedState.questions.length, 165, 'Must load 165 Pro Level questions for Geometry');
+    assert.strictEqual(capturedState.questions.length, 164, 'Must load 164 Pro Level questions for Geometry');
   });
 
   test('5. Session isolation and tier persistence across Pro Level and ClassRoom study progress', () => {

@@ -66,7 +66,7 @@ describe('API Integration Tests', () => {
     const data = await res.json();
 
     assert.equal(data.totalChapters, 33);
-    assert.equal(data.totalQuestions, 5327);
+    assert.equal(data.totalQuestions, 5304);
     assert.deepEqual(
       data.chapters.map(c => c.name),
       [

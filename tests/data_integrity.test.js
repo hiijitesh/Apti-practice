@@ -59,13 +59,13 @@ describe('Data Integrity Tests', () => {
     assert.equal(sciChapters.size, 35, 'General Science must have 35 chapters');
   });
 
-  test('diagrams are attached to questions and valid png data uris', () => {
+  test('diagrams are attached to questions and existing png files', () => {
     const questions = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
     const withDiagram = questions.filter(q => q.diagram && q.diagram.trim().length > 0);
 
     assert.ok(withDiagram.length >= 20, `Should have at least 20 questions with diagrams (found ${withDiagram.length})`);
     withDiagram.forEach(q => {
-      assert.ok(q.diagram.startsWith('data:image/png;base64,'), `Diagram for ${q.id} must be a valid PNG Data URI`);
+      assert.ok(/^data\/diagrams\/[\w.-]+\.png$/.test(q.diagram) && require('fs').existsSync(require('path').join(__dirname, '..', 'public', q.diagram)), `Diagram for ${q.id} must point to an existing PNG in public/data/diagrams`);
     });
   });
 
