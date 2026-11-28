@@ -74,8 +74,27 @@ describe('Modular Architecture & Repositories Unit Tests', () => {
   });
 
   test('AttemptRepository getAll matches guest@local records with missing userEmail', () => {
-    const guestAttempts = attemptRepository.getAll('guest@local');
-    assert.ok(Array.isArray(guestAttempts));
-    assert.ok(guestAttempts.some(a => !a.userEmail || a.userEmail === 'guest@local'));
+    const fs = require('fs');
+    const os = require('os');
+    const path = require('path');
+    const { AttemptRepository } = require('../src/repositories/attempt.repository');
+    const tmpFile = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'apti-arch-')), 'attempts.json');
+    const repo = new AttemptRepository(tmpFile);
+    repo.saveAll([
+      { attemptId: 'a1' },
+      { attemptId: 'a2', userEmail: 'guest@local' },
+      { attemptId: 'a3', userEmail: 'someone@example.com' }
+    ]);
+
+    const guestAttempts = repo.getAll('guest@local');
+    assert.deepEqual(guestAttempts.map(a => a.attemptId), ['a1', 'a2']);
+  });
+
+  test('AttemptRepository default store lives outside the public web root', () => {
+    const path = require('path');
+    const { ATTEMPTS_FILE, PUBLIC_DIR } = require('../src/config');
+    assert.ok(!path.resolve(ATTEMPTS_FILE).startsWith(path.resolve(PUBLIC_DIR) + path.sep),
+      'attempts.json must not be served as a static file');
+    assert.equal(attemptRepository.filePath, ATTEMPTS_FILE);
   });
 });

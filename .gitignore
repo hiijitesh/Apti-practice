@@ -5,3 +5,6 @@ node_modules/
 source_pdfs/
 
 __pycache__/
+
+# Local attempt history (contains user emails)
+data/attempts.json

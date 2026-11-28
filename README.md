@@ -14,7 +14,7 @@ A lightweight, local test-taking web application that runs entirely on localhost
   - Zero heavy build tools or bundlers required—runs directly in any modern browser.
 - **Data Persistence:** Local JSON files (`data/` and `public/data/`)
   - `public/data/questions.json`: 2,891 structured questions across 52 chapters (Quantitative Aptitude & General Science - single source of truth for both backend and static frontend).
-  - `data/attempts.json`: Stores all past test attempts with accuracy, timestamps, and answer histories.
+  - `data/attempts.json`: Stores all past test attempts with accuracy, timestamps, and answer histories (created on first run, git-ignored, and kept outside `public/` so it is never served to browsers). Override the location with `APTI_ATTEMPTS_FILE=/path/to/attempts.json`.
 - **Extraction Script:** Python 3 (`scripts/extract_questions.py`)
   - Robust parser using `pypdf` that extracts questions, options, and answer keys from PDFs in `./source_pdfs/` (or current directory) into structured JSON.
 
@@ -45,6 +45,15 @@ Open your browser and navigate to:
 http://localhost:3001
 ```
 *(If port 3001 is in use, it will automatically fallback to the next available port, or you can specify `PORT=8080 npm start`)*
+
+### 4. Install as an App (Chrome / Edge / Android)
+AptiPrep is a Progressive Web App (PWA). Open it in Chrome (on `http://localhost:3001` or the GitHub Pages URL) and either:
+- click the green **Install App** button in the header (or in the mobile menu), or
+- use the install icon in Chrome's address bar / **⋮ menu → Cast, save and share → Install AptiPrep**.
+
+The installed app opens in its own window and keeps working offline: the app shell, question banks, fonts and Tailwind are cached by `public/sw.js`. API calls and Google Sheet sync are never cached.
+
+> Chrome only offers installation on `https://` origins or `localhost`. Opening the app via a LAN IP like `http://192.168.x.x:3001` works, but cannot be installed.
 
 ---
 
@@ -107,7 +116,10 @@ Apti Practice/
 ├── public/
 │   ├── index.html          # Clean Single-Page CBT Interface
 │   ├── app.js              # State management & client interactions
-│   └── style.css           # Styling and animations
+│   ├── style.css           # Styling and animations
+│   ├── manifest.webmanifest # PWA manifest (install from Chrome)
+│   ├── sw.js               # Service worker (offline cache)
+│   └── icons/              # App icons
 ├── scripts/
 │   └── extract_questions.py # Standalone PDF extraction script
 ├── source_pdfs/            # Source question PDF files
