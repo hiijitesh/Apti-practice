@@ -11,6 +11,7 @@ router.get('/chapters', QuestionController.getChapters);
 router.get('/questions', QuestionController.getQuestions);
 router.get('/rk-chapters', QuestionController.getRkChapters);
 router.get('/rk-questions', QuestionController.getRkQuestions);
+router.post('/questions/:id/verified', QuestionController.setManualVerified);
 
 // Mock CBT test routes
 router.get('/mock', MockController.getMockQuestions);

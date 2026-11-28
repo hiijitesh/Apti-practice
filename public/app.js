@@ -11,6 +11,10 @@ function escapeHtml(str) {
 }
 
 // "Source: <pdf> · Q23 · p. 3" plus whether scripts/verify_against_pdfs.py matched it to that page.
+// Undo is offered for 30 s after marking a question verified, to catch mis-taps.
+const UNDO_SECONDS = 30;
+const undoLeft = id => Math.max(0, Math.ceil((((window.APTI_UNDO_UNTIL || {})[id] || 0) - Date.now()) / 1000));
+
 function sourceHtml(q) {
   const src = q && q.source;
   if (!src || !src.file) return '';
@@ -18,17 +22,25 @@ function sourceHtml(q) {
   if (src.q) parts.push(`Q${src.q}`);
   if (src.page) parts.push(`p. ${src.page}`);
   const c = q.check || {};
-  const verified = c.text && c.options && c.key !== false;
-  const badge = verified
-    ? `<span class="text-emerald-700" title="Question text and options match the PDF page${c.key ? '; answer matches the PDF answer key' : ''}">✓ Matches PDF${c.key ? ' + key' : ''}</span>`
-    : `<span class="text-amber-700" title="Could not be matched automatically - check this one in the PDF">⚠ Not yet verified, check PDF</span>`;
+  const qid = q.id || q.questionId;
+  (window.APTI_SRC_Q = window.APTI_SRC_Q || {})[qid] = q;          // lets markVerified re-render this line
+  const manual = !!(window.APTI_MANUAL && window.APTI_MANUAL.has(qid));
+  const autoOk = c.text && c.options && c.key !== false;
+  const verified = autoOk || manual;
+  const btn = (on, label) => !window.APTI_IS_ADMIN ? '' : ` &nbsp;<button type="button" onclick="app.markVerified('${escapeHtml(qid)}', ${on}, this)" class="text-zinc-500 underline underline-offset-2 hover:text-zinc-800">${label}</button>`;
+  const sym = (cls, text, label) => `<span class="${cls}" title="${label}" aria-label="${label}" role="img">${text}</span>`;
+  const badge = autoOk
+    ? sym('text-emerald-600', '✓', `Matches the PDF${c.key ? ' and its answer key' : ''}`)
+    : manual
+      ? sym('text-emerald-600', '✓', 'Verified by you') + (undoLeft(qid) ? btn(false, `Undo (${undoLeft(qid)}s)`) : '')
+      : sym('text-amber-600', '⚠', 'Not yet verified - check the PDF') + btn(true, 'Mark verified');
   const a = (href, label) => ` &nbsp;<a href="${escapeHtml(href)}" target="_blank" rel="noopener" class="text-sky-700 underline underline-offset-2">${label}</a>`;
   // Drive's viewer ignores #page, so the exact slide is a pre-rendered image; Drive link stays for the full PDF.
   const crop = !verified && window.APTI_CROPS && window.APTI_CROPS.has(q.id || q.questionId) ? `data/crops/${q.id || q.questionId}.webp` : '';
-  const link = (/^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Open slide ↗') : '')
-    + (crop ? a(crop, 'Open question in PDF ↗') : '')
+  const link = (!verified && /^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Open slide ↗') : '')
+    + (crop ? a(crop, 'Check slide ↗') : '')
     + (!verified && /^https:\/\/drive\.google\.com\//.test(src.url || '') ? a(src.url.split('#')[0], 'Full PDF ↗') : '');
-  return `<span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}${link}`;
+  return `<span data-src-id="${escapeHtml(qid)}"><span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}${link}</span>`;
 }
 
 class AptiPrepApp {
@@ -126,6 +138,7 @@ class AptiPrepApp {
   }
 
   async init() {
+    this.loadManualVerified();
     this.initFontScale();
     this.setupFullscreenListeners();
     this.setupSwipeNavigation();
@@ -242,6 +255,7 @@ class AptiPrepApp {
   // ==========================================
 
   updateUserSessionUI() {
+    this.refreshAdmin();
     const widget = document.getElementById('user-header-widget');
     const label = document.getElementById('header-user-email');
     const btnChapters = document.getElementById('nav-btn-practice');
@@ -428,6 +442,67 @@ class AptiPrepApp {
   // ==========================================
   // ACTIVE TEST REFRESH PERSISTENCE & GUARDS
   // ==========================================
+
+  // ==========================================
+  // MANUALLY VERIFIED QUESTIONS (public/data/manual_verified.json)
+  // ==========================================
+
+  async loadManualVerified() {
+    try {
+      const res = await fetch('data/manual_verified.json', { cache: 'no-store' });
+      window.APTI_MANUAL = new Set(res.ok ? await res.json() : []);
+    } catch (e) {
+      window.APTI_MANUAL = new Set();
+    }
+    this.refreshSourceLines();
+  }
+
+  // Mark/Undo buttons only for the admin email (compared by SHA-256; needs a secure context: localhost or https).
+  async refreshAdmin() {
+    const ADMIN_SHA256 = '6f042462e112492d5aa71a6167b56ac2892b8a13487ea573bc01d941ad7fd057';
+    let ok = false;
+    try {
+      const data = new TextEncoder().encode((this.currentUserEmail || '').trim().toLowerCase());
+      const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', data))].map(b => b.toString(16).padStart(2, '0')).join('');
+      ok = hash === ADMIN_SHA256;
+    } catch (e) { /* crypto.subtle missing (plain-http LAN address) -> not admin */ }
+    if (ok !== !!window.APTI_IS_ADMIN) { window.APTI_IS_ADMIN = ok; this.refreshSourceLines(); }
+  }
+
+  refreshSourceLines(id) {
+    const sel = id ? `[data-src-id="${CSS.escape(id)}"]` : '[data-src-id]';
+    document.querySelectorAll(sel).forEach(el => {
+      const q = (window.APTI_SRC_Q || {})[el.dataset.srcId];
+      if (q) el.outerHTML = sourceHtml(q);
+    });
+  }
+
+  // Saving needs the local Node server (GitHub Pages is read-only); commit manual_verified.json to publish.
+  async markVerified(id, verified, btn) {
+    if (btn) { btn.disabled = true; btn.textContent = 'Saving…'; }
+    try {
+      const res = await fetch(`/api/questions/${encodeURIComponent(id)}/verified`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: this.currentUserEmail, verified })
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      window.APTI_MANUAL = window.APTI_MANUAL || new Set();
+      if (verified) window.APTI_MANUAL.add(id); else window.APTI_MANUAL.delete(id);
+      window.APTI_UNDO_UNTIL = window.APTI_UNDO_UNTIL || {};
+      clearInterval((this.undoTimers = this.undoTimers || {})[id]);
+      if (verified) {
+        window.APTI_UNDO_UNTIL[id] = Date.now() + UNDO_SECONDS * 1000;
+        this.undoTimers[id] = setInterval(() => {       // tick the countdown, then drop the Undo button
+          this.refreshSourceLines(id);
+          if (!undoLeft(id)) clearInterval(this.undoTimers[id]);
+        }, 1000);
+      } else {
+        delete window.APTI_UNDO_UNTIL[id];
+      }
+      this.refreshSourceLines(id);
+    } catch (e) {
+      if (btn) { btn.disabled = false; btn.textContent = 'Not saved - run the local server'; }
+    }
+  }
 
   setupRefreshGuard() {
     window.addEventListener('beforeunload', (e) => {

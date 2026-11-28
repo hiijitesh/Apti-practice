@@ -202,6 +202,24 @@ describe('API Integration Tests', () => {
     assert.equal(detailData.detailedAnswers[1].userAnswer, null);
   });
 
+  test('POST /api/questions/:id/verified stores and removes a manual verification', async () => {
+    const fs = require('fs');
+    const { MANUAL_VERIFIED_FILE } = require('../src/config');
+    const post = (id, verified, email = 'JiteshEce@gmail.com ') => fetch(`${baseUrl}/api/questions/${id}/verified`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, verified })
+    });
+    let res = await post('pct_q001', true);
+    assert.equal(res.status, 200);
+    assert.ok(JSON.parse(fs.readFileSync(MANUAL_VERIFIED_FILE, 'utf8')).includes('pct_q001'));
+    res = await post('pct_q001', false);
+    assert.equal(res.status, 200);
+    assert.ok(!JSON.parse(fs.readFileSync(MANUAL_VERIFIED_FILE, 'utf8')).includes('pct_q001'));
+    res = await post('no_such_question', true);
+    assert.equal(res.status, 404);
+    res = await post('pct_q001', true, 'someone@else.com');
+    assert.equal(res.status, 403, 'non-admin email must be rejected');
+  });
+
   test('GET /api/attempts returns attempt history', async () => {
     const res = await fetch(`${baseUrl}/api/attempts?email=unit_test@apti.com`);
     assert.equal(res.status, 200);

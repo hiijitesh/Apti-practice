@@ -24,5 +24,11 @@ module.exports = {
   QUESTIONS_FILE: path.join(DATA_DIR, 'questions.json'),
   RK_RANJAN_FILE: path.join(DATA_DIR, 'rk_ranjan_questions.json'),
   ATTEMPTS_FILE: resolveAttemptsFile(),
-  REVISION_FILE: path.join(DATA_DIR, 'revision_materials.json')
+  REVISION_FILE: path.join(DATA_DIR, 'revision_materials.json'),
+  // SHA-256 of the only email allowed to mark questions verified (hash, so the address isn't published).
+  ADMIN_EMAIL_SHA256: process.env.APTI_ADMIN_EMAIL_SHA256 || '6f042462e112492d5aa71a6167b56ac2892b8a13487ea573bc01d941ad7fd057',
+  // Question ids you checked against the PDF yourself. Lives in public/ so the static site shows them too;
+  // tests write to a temp copy so they never touch the real list.
+  MANUAL_VERIFIED_FILE: process.env.APTI_MANUAL_VERIFIED_FILE
+    || (process.env.NODE_TEST_CONTEXT ? path.join(os.tmpdir(), `apti-manual-verified-${process.pid}.json`) : path.join(DATA_DIR, 'manual_verified.json'))
 };
