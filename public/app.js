@@ -10,6 +10,21 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
+// "Source: <pdf> · Q23 · p. 3" plus whether scripts/verify_against_pdfs.py matched it to that page.
+function sourceHtml(q) {
+  const src = q && q.source;
+  if (!src || !src.file) return '';
+  const parts = [escapeHtml(src.file)];
+  if (src.q) parts.push(`Q${src.q}`);
+  if (src.page) parts.push(`p. ${src.page}`);
+  const c = q.check || {};
+  const verified = c.text && c.options && c.key !== false;
+  const badge = verified
+    ? `<span class="text-emerald-700" title="Question text and options match the PDF page${c.key ? '; answer matches the PDF answer key' : ''}">✓ Matches PDF${c.key ? ' + key' : ''}</span>`
+    : `<span class="text-amber-700" title="Could not be matched automatically - check this one in the PDF">⚠ Not yet verified, check PDF</span>`;
+  return `<span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}`;
+}
+
 class AptiPrepApp {
   constructor() {
     this.chapters = [];
@@ -3410,6 +3425,8 @@ class AptiPrepApp {
 
     document.getElementById('practice-q-number').textContent = `Q${current}`;
     document.getElementById('practice-q-chapter').textContent = chapDisplay;
+    const srcEl = document.getElementById('practice-q-source');
+    if (srcEl) srcEl.innerHTML = sourceHtml(q);
 
     // Render RK Ranjan Sheet Tier Badge (Pro Level vs ClassRoom)
     const tierBadge = document.getElementById('practice-q-tier-badge');
@@ -4661,6 +4678,8 @@ class AptiPrepApp {
         question: q ? q.question : '',
         options: q ? q.options : [],
         diagram: (q && q.diagram) ? q.diagram : undefined,
+        source: q ? q.source : undefined,
+        check: q ? q.check : undefined,
         userAnswer: ans.userAnswer,
         correctAnswer: q ? q.correctAnswer : null,
         isCorrect: !!isCorrect,
@@ -5217,6 +5236,7 @@ class AptiPrepApp {
             <span class="font-medium text-zinc-900 block text-[11px] uppercase tracking-wider">Solution:</span>
             <p class="leading-relaxed">${item.explanation || 'Option ' + letters[item.correctAnswer]}</p>
           </div>
+          ${item.source ? `<div class="text-[11px] leading-relaxed">${sourceHtml(item)}</div>` : ''}
         </div>
       `;
     }).join('');

@@ -87,4 +87,15 @@ describe('Data Integrity Tests', () => {
       );
     });
   });
+
+  test('every question names its source PDF and carries a PDF check result', () => {
+    const files = ['questions.json', 'rk_ranjan_questions.json'];
+    files.forEach(f => {
+      const qs = JSON.parse(fs.readFileSync(path.join(rootDir, 'public', 'data', f), 'utf8'));
+      qs.forEach(q => {
+        assert.ok(q.source && q.source.file, `${q.id} must have source.file`);
+        assert.ok(q.check && typeof q.check.text === 'boolean' && typeof q.check.options === 'boolean', `${q.id} must have check.text/check.options from scripts/verify_against_pdfs.py`);
+      });
+    });
+  });
 });

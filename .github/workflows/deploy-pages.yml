@@ -30,8 +30,8 @@ jobs:
           enablement: true
 
       - name: Drop files the site does not use
-        # Work-in-progress datasets (~88 MB) and local attempt history are not loaded by the app
-        run: rm -f public/data/reasoning.json public/data/calendar_reasoning.json public/data/advanced_maths_questions.json public/data/attempts.json
+        # Local attempt history is not loaded by the public static app
+        run: rm -f public/data/attempts.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

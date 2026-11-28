@@ -130,6 +130,8 @@
           question: q ? q.question : '',
           options: q ? q.options : [],
           diagram: (q && q.diagram) ? q.diagram : undefined,
+          source: q ? q.source : undefined,
+          check: q ? q.check : undefined,
           chapter: chap,
           subject: q ? q.subject : undefined,
           subSubject: q ? q.subSubject : undefined,

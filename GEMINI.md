@@ -7,7 +7,7 @@ This document serves as persistent operational memory and safety guidelines for 
 ## 1. Core Platform Invariants & Rules
 
 ### 1.1 Zero Hindi / Devanagari Constraint
-* **Strict Rule**: No Devanagari/Hindi characters (`[\u0900-\u097F]`) are permitted in question stems, options, or explanations in `public/data/questions.json` or `scripts/sources/*.json`.
+* **Strict Rule**: No Devanagari/Hindi characters (`[\u0900-\u097F]`) are permitted in question stems, options, or explanations in `public/data/questions.json` or `public/data/rk_ranjan_questions.json`.
 * **Verification Command**:
   ```bash
   python3 -c "
@@ -140,24 +140,23 @@ Apti Practice/
 │   │   ├── services/
 │   │   └── utils/
 │   └── data/                      # Single Source of Truth Datasets
-│       ├── questions.json         # Master dataset: 2,992 questions across 52 chapters
+│       ├── questions.json         # Master dataset: 2,994 questions across 52 chapters (Single Source of Truth)
+│       ├── rk_ranjan_questions.json# RK Ranjan dataset: 5,304 questions across 33 chapters
 │       ├── attempts.json          # Persistent user attempt history & performance records
 │       ├── revision_materials.json# Google Drive PDF URLs for chapter revision
 │       └── diagrams/              # Embedded visual assets for diagram questions
-├── scripts/                       # Extraction, Merging, and Audit Tooling
-│   ├── cross_check_dixit_aptitude.py       # Cross-checks Dixit Sir Aptitude against Complete Solutions
-│   ├── universal_pdf_question_extractor.py # Spatial-aware 2D bounding box PDF extractor
-│   ├── merge_questions.py         # Merges sources into public/data/questions.json
-│   ├── apply_biology_reverification.py # Biology verification & slide mapping pipeline
-│   └── sources/                   # Raw chapterwise question sources
-│       ├── science.json           # Raw Science questions with slidePage & explanations
-│       └── top_300_questions_science.json # Curated Top 300 Science questions
+├── scripts/                       # Extraction, Rebuild, and Audit Tooling
+│   ├── rebuild_verified_dixit.py  # Master rebuild script verifying Dixit Aptitude directly from authentic PDFs
+│   ├── verify_against_pdfs.py     # End-to-end PDF audit validator
+│   └── universal_pdf_question_extractor.py # Spatial-aware 2D bounding box PDF extractor
 └── tests/                         # Comprehensive Node.js Native Test Suites ('npm test')
-    ├── api.test.js                # API integration tests (52 chapters, 2,992 questions)
+    ├── api.test.js                # API integration tests (52 chapters, 2,994 questions)
     ├── data_integrity.test.js     # CBT schema, subject distributions, unique IDs, diagrams
     ├── physics_reverification.test.js   # Validates all 399 Physics questions & slide numbers
     ├── chemistry_reverification.test.js # Validates all 465 Chemistry questions & slide numbers
     ├── biology_reverification.test.js   # Validates all 616 Biology questions & slide numbers
+    ├── dixit_aptitude_integrity.test.js # Validates all 1,344 Dixit Aptitude questions & answer keys
+    ├── rk_ranjan_integrity.test.js      # Validates all 33 RK Ranjan chapters & syllabus ordering
     ├── mock_generation.test.js    # Mock test 30-question sampling & sanitization tests
     ├── scoring.test.js            # Pure scoring, accuracy, and aggregation unit tests
     ├── architecture.test.js       # Repository caching, controller contracts, service purity
@@ -165,11 +164,13 @@ Apti Practice/
 ```
 
 ### 5.2 Key Data Flows
-1. **Source Data to Master Database**:
-   - `scripts/sources/science.json` + `public/data/questions.json` (Aptitude) + `scripts/sources/top_300_questions_science.json` $\rightarrow$ `scripts/merge_questions.py` $\rightarrow$ `public/data/questions.json`.
+1. **Master Database (Single Source of Truth)**:
+   - `public/data/questions.json` contains the verified master dataset (1,344 Quantitative Aptitude + 1,650 General Science = 2,994 questions).
+   - `public/data/rk_ranjan_questions.json` contains 5,304 RK Ranjan Math questions.
+   - All client and backend services read directly from these master files.
 2. **Server Startup**:
    - `server.js` starts `src/app.js`.
-   - `QuestionRepository.init()` reads and caches `public/data/questions.json` in memory.
+   - `QuestionRepository.init()` reads and caches `public/data/questions.json` and `public/data/rk_ranjan_questions.json` in memory.
    - Precomputes chapter counts and subject indexes for sub-millisecond retrieval.
 3. **Mock Test Generation**:
    - `GET /api/mock` $\rightarrow$ `mock.controller.js` $\rightarrow$ `MockGeneratorService.generateMockQuestions()`.
