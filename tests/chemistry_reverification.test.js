@@ -12,9 +12,9 @@ describe('Chemistry Reverification & Slide Page Integrity Tests', () => {
     q => q.subSubject === 'Chemistry' && q.chapter !== 'Top 300 Questions'
   );
 
-  test('Chemistry chapter counts match reverified totals (465 total across 8 chapters)', () => {
+  test('Chemistry chapter counts match reverified totals (464 total across 8 chapters)', () => {
     const expectedCounts = {
-      'Acids, Bases and Salt': 55,
+      'Acids, Bases and Salt': 54,
       'Atom and Molecule': 18,
       'Carbon and its Compounds': 112,
       'Chemical Reactions and Equations': 47,
@@ -24,7 +24,7 @@ describe('Chemistry Reverification & Slide Page Integrity Tests', () => {
       'Structure of Atom': 83
     };
 
-    assert.equal(chemistryQuestions.length, 465, 'Total Chemistry questions must be 465');
+    assert.equal(chemistryQuestions.length, 464, 'Total Chemistry questions must be 464');
 
     const actualCounts = {};
     chemistryQuestions.forEach(q => {

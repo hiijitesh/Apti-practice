@@ -13,7 +13,7 @@ A lightweight test-taking web app for RRB, SSC, and Government Exam aptitude pre
   - Fast, responsive Computer-Based Test (CBT) portal UI modeled after real exam interfaces.
   - Zero heavy build tools or bundlers required—runs directly in any modern browser.
 - **Data Persistence:** Local JSON files (`data/` and `public/data/`)
-  - `public/data/questions.json`: 2,994 questions across 52 chapters (1,344 Quantitative Aptitude + 1,650 General Science) — single source of truth for both backend and static frontend.
+  - `public/data/questions.json`: 2,991 questions across 52 chapters (1,344 Quantitative Aptitude + 1,647 General Science) — single source of truth for both backend and static frontend.
   - `public/data/rk_ranjan_questions.json`: 5,304 RK Ranjan maths questions (ClassRoom & Pro Level sheets).
   - `data/attempts.json`: Past test attempts (local Node server only; git-ignored and never deployed). Override the location with `APTI_ATTEMPTS_FILE=/path/to/attempts.json`.
 - **Extraction Script:** Python 3 (`scripts/extract_questions.py`)

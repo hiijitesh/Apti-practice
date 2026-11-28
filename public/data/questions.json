@@ -49484,33 +49484,6 @@
     }
   },
   {
-    "id": "sci_acids_bases_and_salt_q007",
-    "subject": "General Science",
-    "subSubject": "Chemistry",
-    "chapter": "Acids, Bases and Salt",
-    "question": "What is the colour of alkali?",
-    "options": [
-      "Blue with phenolphthalein and yellow with methyl orange",
-      "Pink with phenolphthalein and yellow with methyl orange",
-      "Yellow with phenolphthalein and pink with methyl orange",
-      "Yellow with phenolphthalein and blue with methyl orange"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Pink with phenolphthalein and yellow with methyl orange) | Exam: RRB JE 24.05.2019 (Shift-III) | Slide: Page 18",
-    "slidePage": 18,
-    "source": {
-      "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 18,
-      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=15",
-      "slide": "data/slides/acids-bases-salt-p15.webp"
-    },
-    "check": {
-      "text": true,
-      "options": false,
-      "key": true
-    }
-  },
-  {
     "id": "sci_acids_bases_and_salt_q008",
     "subject": "General Science",
     "subSubject": "Chemistry",
@@ -63865,33 +63838,6 @@
     }
   },
   {
-    "id": "sci_gravitation_q038",
-    "subject": "General Science",
-    "subSubject": "Physics",
-    "chapter": "Gravitation",
-    "question": "What is the SI unit of pressure?",
-    "options": [
-      "N m",
-      "N",
-      "N m⁻¹",
-      "N m⁻²"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (N m⁻²) | Exam: RRB Technicians Grade III 30 12 2024 Shift 1 | Slide: Page 70",
-    "slidePage": 70,
-    "source": {
-      "file": "Science Magnet · Gravitation",
-      "page": 70,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=68",
-      "slide": "data/slides/gravitation-p68.webp"
-    },
-    "check": {
-      "text": false,
-      "options": false,
-      "key": null
-    }
-  },
-  {
     "id": "sci_gravitation_q039",
     "subject": "General Science",
     "subSubject": "Physics",
@@ -64109,31 +64055,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 80
-    },
-    "check": {
-      "text": true,
-      "options": true,
-      "key": true
-    }
-  },
-  {
-    "id": "sci_gravitation_q048",
-    "subject": "General Science",
-    "subSubject": "Physics",
-    "chapter": "Gravitation",
-    "question": "Density is the ratio of which of the following?",
-    "options": [
-      "Mass + Volume +",
-      "Volume",
-      "Mass",
-      "Mass × Volume ×"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Mass) | Exam: RRB Group-D 05-12-2018 (Shift-II) | Slide: Page 81",
-    "slidePage": 81,
-    "source": {
-      "file": "Science Magnet · Gravitation",
-      "page": 81
     },
     "check": {
       "text": true,

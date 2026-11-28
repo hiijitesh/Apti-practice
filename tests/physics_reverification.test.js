@@ -12,10 +12,10 @@ describe('Physics Reverification & Slide Page Integrity Tests', () => {
     q => q.subSubject === 'Physics' && q.chapter !== 'Top 300 Questions'
   );
 
-  test('Physics chapter counts match reverified totals (399 total across 10 chapters)', () => {
+  test('Physics chapter counts match reverified totals (397 total across 10 chapters)', () => {
     const expectedCounts = {
       'Electricity': 74,
-      'Gravitation': 75,
+      'Gravitation': 73,
       'Human Eye': 21,
       'Magnetic Effect of Current': 25,
       'Motion': 70,
@@ -26,7 +26,7 @@ describe('Physics Reverification & Slide Page Integrity Tests', () => {
       'Work, Energy and Power': 30
     };
 
-    assert.equal(physicsQuestions.length, 399, 'Total Physics questions must be 399');
+    assert.equal(physicsQuestions.length, 397, 'Total Physics questions must be 397');
 
     const actualCounts = {};
     physicsQuestions.forEach(q => {
