@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AptiPrep - Job Alerts</title>
+  <meta name="theme-color" content="#18181b">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 min-h-screen">
+  <header class="bg-white border-b border-zinc-200 sticky top-0 z-30">
+    <div class="max-w-3xl mx-auto px-4 h-12 flex items-center justify-between">
+      <a href="./" class="text-sm font-semibold tracking-tight">AptiPrep <span class="text-zinc-400 font-normal">/ Job Alerts</span></a>
+      <a href="./" class="text-xs font-medium px-3 py-1.5 rounded-lg text-zinc-600 hover:bg-zinc-100">← Practice</a>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-4 space-y-3">
+    <div class="flex flex-wrap gap-1.5 text-xs" id="filters"></div>
+    <input id="search" type="search" placeholder="Search company, post, source…"
+           class="w-full text-sm px-3 py-2 rounded-lg border border-zinc-200 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-200">
+    <p id="status" class="text-xs text-zinc-500">Loading…</p>
+    <ul id="list" class="space-y-2"></ul>
+  </main>
+
+  <script src="config.js"></script>
+  <script>
+    // Rows come from Telegram posts via the bot: render with textContent only, links http(s) only.
+    const GROUPS = {
+      'All': () => true,
+      'Openings': t => t === 'Job Alert' || t === 'Last Date',
+      'Admit Card': t => t === 'Admit Card',
+      'Result': t => t === 'Result' || t === 'Answer Key',
+      'Other': t => !['Job Alert', 'Last Date', 'Admit Card', 'Result', 'Answer Key'].includes(t),
+    };
+    const BADGE = {
+      'Job Alert': 'bg-emerald-50 text-emerald-700 border-emerald-200',
+      'Last Date': 'bg-red-50 text-red-700 border-red-200',
+      'Admit Card': 'bg-indigo-50 text-indigo-700 border-indigo-200',
+      'Result': 'bg-amber-50 text-amber-800 border-amber-200',
+    };
+    const CACHE_KEY = 'apti_jobs_cache';
+    let jobs = [], group = 'All';
+
+    const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; };
+    const safeUrl = u => /^https?:\/\//i.test(String(u || '')) ? String(u) : '';
+    const fmtDate = s => { const d = new Date(s); return isNaN(d) ? '' : d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short' }); };
+
+    function renderFilters() {
+      const box = document.getElementById('filters');
+      box.replaceChildren(...Object.keys(GROUPS).map(name => {
+        const count = jobs.filter(j => GROUPS[name](j.type)).length;
+        const b = el('button', 'px-3 py-1.5 rounded-full border font-medium ' +
+          (name === group ? 'bg-zinc-900 text-white border-zinc-900' : 'bg-white text-zinc-600 border-zinc-200 hover:bg-zinc-100'),
+          `${name} ${count}`);
+        b.onclick = () => { group = name; render(); };
+        return b;
+      }));
+    }
+
+    function render() {
+      renderFilters();
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      const shown = jobs.filter(j => GROUPS[group](j.type) &&
+        (!q || [j.company, j.role, j.source, j.type].join(' ').toLowerCase().includes(q)));
+      const list = document.getElementById('list');
+      list.replaceChildren(...shown.map(j => {
+        const li = el('li', 'bg-white border border-zinc-200 rounded-xl p-3');
+        const top = el('div', 'flex items-center gap-2 text-[11px] text-zinc-500');
+        top.append(el('span', 'px-2 py-0.5 rounded-full border font-semibold ' + (BADGE[j.type] || 'bg-zinc-50 text-zinc-700 border-zinc-200'), j.type || 'Job Alert'));
+        top.append(el('span', '', fmtDate(j.postedAt)));
+        if (j.source) top.append(el('span', 'truncate', '· ' + j.source));
+        li.append(top);
+        li.append(el('div', 'mt-1.5 text-sm font-semibold', j.company || 'New Opening'));
+        if (j.role) li.append(el('div', 'text-sm text-zinc-700', j.role));
+        const meta = [j.vacancies && j.vacancies !== 'Refer Notification' ? `Posts: ${j.vacancies}` : '', j.deadline ? `Last date: ${j.deadline}` : ''].filter(Boolean).join('  ·  ');
+        if (meta) li.append(el('div', 'mt-1 text-xs text-zinc-500', meta));
+        const links = el('div', 'mt-2 flex gap-2 text-xs font-medium');
+        [['Apply', j.applyLink, 'bg-zinc-900 text-white'], ['Telegram', j.telegramLink, 'border border-zinc-200 text-zinc-700']].forEach(([label, url, cls]) => {
+          if (!safeUrl(url)) return;
+          const a = el('a', `px-3 py-1.5 rounded-lg ${cls}`, label);
+          a.href = safeUrl(url); a.target = '_blank'; a.rel = 'noopener noreferrer';
+          links.append(a);
+        });
+        if (links.childElementCount) li.append(links);
+        return li;
+      }));
+      if (!shown.length && jobs.length) list.replaceChildren(el('li', 'text-sm text-zinc-500', 'Nothing here.'));
+    }
+
+    async function load() {
+      const status = document.getElementById('status');
+      try { jobs = JSON.parse(localStorage.getItem(CACHE_KEY) || '[]'); } catch (e) { jobs = []; }
+      if (jobs.length) render();
+      const url = (window.APTIPREP_CONFIG && window.APTIPREP_CONFIG.GOOGLE_SHEET_URL || '').trim();
+      if (!url) { status.textContent = 'No Google Sheet URL in config.js.'; return; }
+      try {
+        const res = await fetch(`${url}?action=jobs&limit=300`);
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        jobs = Array.isArray(data.jobs) ? data.jobs : [];
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify(jobs)); } catch (e) {}
+        status.textContent = jobs.length ? `${jobs.length} alerts · updated ${new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })}` : 'No alerts yet.';
+      } catch (e) {
+        status.textContent = jobs.length ? 'Offline — showing last saved alerts.' : 'Could not load alerts.';
+      }
+      render();
+    }
+
+    document.getElementById('search').addEventListener('input', render);
+    load();
+  </script>
+</body>
+</html>
