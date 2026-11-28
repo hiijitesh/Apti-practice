@@ -264,7 +264,7 @@ describe('Dixit Sir Quantitative Aptitude Verification & Integrity Tests', () =>
 
     // Compound Interest & Profit & Loss
     assert.match(byId.ci_q071.question, /third year at 8% p\.a\./);
-    assert.equal(byId.ci_q101.options[2], 'S(1+r/50)^3');
+    assert.equal(byId.ci_q101.options[2], 'S(1+r/50)³');
     assert.equal(byId.ci_q101.correctAnswer, 2);
     assert.deepEqual(byId.pnl_q048.options, ['20% Loss', '25% Loss', '25% Profit', '20% Profit']);
     assert.equal(byId.pnl_q051.correctAnswer, 3);
@@ -286,7 +286,7 @@ describe('Dixit Sir Quantitative Aptitude Verification & Integrity Tests', () =>
     assert.equal(byId.tnw_q039.options[1], '40/3 days');
     assert.deepEqual(byId.pipe_q020.options, ['40', '50', '60', '45']);
     assert.match(byId.part_q019.question, /claims 1\/7 of the profit/);
-    assert.match(byId.tsd_q006.question, /\(x\^3 \+ 1\) km/);
+    assert.match(byId.tsd_q006.question, /\(x³ \+ 1\) km/);
     assert.match(byId.tsd_q024.question, /first 100 km at a speed of 50 km\/h/);
     assert.equal(byId.tsd_q025.correctAnswer, 2);
     assert.equal(byId.tsd_q102.options[3], '3V1V2 / (V1+2V2)');

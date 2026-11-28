@@ -7438,7 +7438,8 @@
     "explanation": "Correct Answer: Option D | ((799 + 315√5)/8)",
     "source": {
       "file": "Algebra (Pro level Sheet)",
-      "q": 41
+      "q": 41,
+      "page": 5
     },
     "check": {
       "text": false,
@@ -39161,7 +39162,8 @@
     "explanation": "Correct Answer: Option B | (6x/10º)",
     "source": {
       "file": "Line & Angles (ClassRoom Sheet)",
-      "q": 8
+      "q": 8,
+      "page": 8
     },
     "check": {
       "text": false,
@@ -43556,7 +43558,8 @@
     "explanation": "Correct Answer: Option C | (4.5) | Exam: SSC CHSL 11/07/2024 (Shift-4)",
     "source": {
       "file": "Similarity & Congruency (ClassRoom Sheet)",
-      "q": 14
+      "q": 14,
+      "page": 6
     },
     "check": {
       "text": false,
@@ -48483,7 +48486,8 @@
     "explanation": "Correct Answer: Option B | ((x – 5) (x – 2) (x – 3)) | Solution: (b) x2 – 8x + 15 = x2 – 3x – 5x + 15 = x(x – 3) – 5(x – 3) = (x – 5) (x – 3) x2 – 5x + 6 = x2 – 3x – 2x + 6 = x(x – 3) – 2 (x – 3) = (x – 2) (x – 3) \\\\ LCM = (x – 3) (x – 2) (x – 5)",
     "source": {
       "file": "LCM & HCF  (Pro Level Sheet)",
-      "q": 2
+      "q": 2,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -49070,7 +49074,8 @@
     "explanation": "Correct Answer: Option A | ((x – 2) (x – 3) (x – 5))",
     "source": {
       "file": "LCM & HCF  (Pro Level Sheet)",
-      "q": 23
+      "q": 23,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -49265,7 +49270,8 @@
     "explanation": "Correct Answer: Option A | (413) | Solution: (a) ANSWER KEY",
     "source": {
       "file": "LCM & HCF  (Pro Level Sheet)",
-      "q": 30
+      "q": 30,
+      "page": 4
     },
     "check": {
       "text": false,
@@ -49460,7 +49466,8 @@
     "explanation": "Correct Answer: Option B | (7.32 m)",
     "source": {
       "file": "Height & Distance (ClassRoom Sheet) (Mains Level)",
-      "q": 8
+      "q": 8,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -49655,7 +49662,8 @@
     "explanation": "Correct Answer: Option D | (hsecα·cosecα)",
     "source": {
       "file": "Height & Distance (ClassRoom Sheet) (Mains Level)",
-      "q": 15
+      "q": 15,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -49682,7 +49690,8 @@
     "explanation": "Correct Answer: Option C | (172.5) | Exam: SSC CGL TIER-II 02-03-2023",
     "source": {
       "file": "Height & Distance (ClassRoom Sheet) (Mains Level)",
-      "q": 16
+      "q": 16,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -49849,7 +49858,8 @@
     "explanation": "Correct Answer: Option C | (120)",
     "source": {
       "file": "Height & Distance (ClassRoom Sheet) (Mains Level)",
-      "q": 22
+      "q": 22,
+      "page": 4
     },
     "check": {
       "text": false,
@@ -49876,7 +49886,8 @@
     "explanation": "Correct Answer: Option A | ((r cosec sin β)/2)",
     "source": {
       "file": "Height & Distance (ClassRoom Sheet) (Mains Level)",
-      "q": 23
+      "q": 23,
+      "page": 4
     },
     "check": {
       "text": false,
@@ -52675,7 +52686,8 @@
     "explanation": "Correct Answer: Option B | (1)",
     "source": {
       "file": "Maxima & Minima (ClassRoom Sheet)",
-      "q": 23
+      "q": 23,
+      "page": 4
     },
     "check": {
       "text": false,
@@ -52702,7 +52714,8 @@
     "explanation": "Correct Answer: Option A | (1)",
     "source": {
       "file": "Maxima & Minima (ClassRoom Sheet)",
-      "q": 24
+      "q": 24,
+      "page": 4
     },
     "check": {
       "text": false,
@@ -53597,7 +53610,8 @@
     "explanation": "Correct Answer: Option D | (64 m²) | Exam: CONSTABLE 23/08/2024 (Shift-02)",
     "source": {
       "file": "Mensuration 2D (ClassRoom Sheet)",
-      "q": 8
+      "q": 8,
+      "page": 5
     },
     "check": {
       "text": false,
@@ -62332,7 +62346,8 @@
     "explanation": "Correct Answer: Option C | (1 : 3) | Exam: SSC CGL TIER II (13/09/2019)",
     "source": {
       "file": "Mensuration 3D (ClassRoom Sheet)",
-      "q": 150
+      "q": 150,
+      "page": 28
     },
     "check": {
       "text": false,
@@ -62359,7 +62374,8 @@
     "explanation": "Correct Answer: Option B | (4:1)",
     "source": {
       "file": "Mensuration 3D (ClassRoom Sheet)",
-      "q": 151
+      "q": 151,
+      "page": 28
     },
     "check": {
       "text": false,
@@ -75042,7 +75058,8 @@
     "explanation": "Correct Answer: Option A | (1 and 2 only) | Solution: An + 1 is always an even number. An + 1 ges'kk ,d le Which of the above statements is (a) 1 only 1 (b) 2 only 2 (c) 3 only 3 (d) 2 and 3 only 2 3 SOLUTIONS",
     "source": {
       "file": "Number System Pro Level sheet",
-      "q": 3
+      "q": 3,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -79930,7 +79947,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "Find the unit digit of (123456789)^(123456789!).",
+    "question": "Find the unit digit of (123456789)¹²³⁴⁵⁶⁷⁸⁹!).",
     "options": [
       "2",
       "6",
@@ -79958,7 +79975,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "Find the unit digit of 973^(234!)",
+    "question": "Find the unit digit of 973²³⁴!)",
     "options": [
       "2",
       "6",
@@ -79986,7 +80003,7 @@
     "chapter": "Number System",
     "sheetType": "ClassRoom",
     "sheetFile": "Unit Digit (ClassRoom Sheet).pdf",
-    "question": "Find the unit digit of the expression: 2222^(2222!) + 4444^(4444!) + 8888^(8888!) + 9999^(9999!)",
+    "question": "Find the unit digit of the expression: 2222²²²²!) + 4444⁴⁴⁴⁴!) + 8888⁸⁸⁸⁸!) + 9999⁹⁹⁹⁹!)",
     "options": [
       "0",
       "2",
@@ -114129,7 +114146,8 @@
     "explanation": "Correct Answer: Option D | (`840) | Exam: SSC CGL 19/07/2023 (Shift-01) | Solution: (d) SI = P R T 100 × × = 6000 8 21 100 12 × × × = `840 SOLUTIONS",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 10
+      "q": 10,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114156,7 +114174,8 @@
     "explanation": "Correct Answer: Option A | (Rs.871) | Exam: SSC CGL 12/09/2024 (Shift-03) | Solution: (a) Given, Principal = Rs.6700, time = 13 months, R = 12% SI = P R T 100 × × = 6700 12 13 100 12 × × × = 67 13 = 871",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 11
+      "q": 11,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114183,7 +114202,8 @@
     "explanation": "Correct Answer: Option B | (` 2,520) | Exam: SSC Phase-XI 30/06/2023 (Shift-04) | Solution: (b) Given, P = 24000, R = 18%, T = 7 12 month SI = P R T 100 × × = 24000 18 7 100 12 × × × = `2520",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 12
+      "q": 12,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114210,7 +114230,8 @@
     "explanation": "Correct Answer: Option A | (300) | Exam: SSC CHSL 09/08/2023 (Shift-04) | Solution: (a) May June July August 10 30 31 2 Total days = 73 days SI = 12300 12 73 100 365 × × × = 123 12 5 × = 295.2 ≈ `300",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 13
+      "q": 13,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114237,7 +114258,8 @@
     "explanation": "Correct Answer: Option D | (727800) | Exam: SSC Phase XII 21/06/2024 (Shift-03) | Solution: (d) 10% = `72,780 \\\\ 100% = `7,27,800 \\\\ P = `7,27,800",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 14
+      "q": 14,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114264,7 +114286,8 @@
     "explanation": "Correct Answer: Option A | (92916) | Exam: SSC Phase XII 25/06/2024 (Shift-03) | Solution: (a) Total interest = 15 5 = 75% 75% → 69687 100% = 92916",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 15
+      "q": 15,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114291,7 +114314,8 @@
     "explanation": "Correct Answer: Option D | (9,000) | Exam: SSC CHSL 09/07/2024 (Shift-03) | Solution: (d) SI = 9 5 = 45% 45% 4050 → 100% 9000 → \\\\ Principal = 9000",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 16
+      "q": 16,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114318,7 +114342,8 @@
     "explanation": "Correct Answer: Option C | (`12,000) | Exam: SSC CGL 03/12/2022 (Shift-02) | Solution: (c) 4 16% = 25 , 4 P 5 = 9600 25 × × ⇒ 4 P 9600 5 = ⇒ P = ` 12000 Alternate Method:- SI = 16% 5 = 80% 80 % 9600 → 100 % 1200 → 0",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 17
+      "q": 17,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114345,7 +114370,8 @@
     "explanation": "Correct Answer: Option C | (` 19,450) | Exam: SSC MTS 08/09/2023 (Shift-01) | Solution: (c) R = 15%, T = 8 years Then, P = SI 100 R T × × = 23340 100 15 8 × × = `19450",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 18
+      "q": 18,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114372,7 +114398,8 @@
     "explanation": "Correct Answer: Option C | (` 3200) | Exam: SSC CHSL TIER-II (18/11/2024) | Solution: (c) SI for 6 years = 5% 6 = 30% Then, 130% → 4160 1% → 32 100% → 3200. \\\\ Sum = 3200",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 19
+      "q": 19,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114399,7 +114426,8 @@
     "explanation": "Correct Answer: Option C | (` 18,000) | Exam: SSC CGL 26/09/2024 (Shift-02) | Solution: (c) Rate = 9.5% (yearly) = 19% (for 2 years) So, 19 100 SI P A = P + SI = 100 + 19 = 119 units ⇒ 119 units → Rs.21420 \\\\ 100 units → Rs.18,000",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 20
+      "q": 20,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114426,7 +114454,8 @@
     "explanation": "Correct Answer: Option C | (` 5,500) | Exam: SSC CHSL 01/07/2024 (Shift-04) | Solution: (c) SI = 5 4 = 20% A = P + SI = 120% 120% → 6600 100% → 5500 \\\\ Sum → Rs.5500",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 21
+      "q": 21,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114453,7 +114482,8 @@
     "explanation": "Correct Answer: Option B | (` 2,000) | Exam: SSC CHSL 03/07/2024 (Shift-01) | Solution: (b) SI = 4 5 = 20% ⇒ A = 120% → 2400 ⇒ P = 100% → 2000 \\\\ Present worth = 2000",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 22
+      "q": 22,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114480,7 +114510,8 @@
     "explanation": "Correct Answer: Option B | (5,940) | Exam: SSC CHSL 05/07/2024 (Shift-04) | Solution: (b) Let the amount be A A = P + P R T 100 × × = 4500 + 4500 8 4 100 ×× = 4500 + 1440 = 5940 Alternate Method: A = 100% + 8 4% = 132% \\\\ A = 4500 100% 132% = 5940",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 23
+      "q": 23,
+      "page": 15
     },
     "check": {
       "text": false,
@@ -114815,7 +114846,8 @@
     "explanation": "Correct Answer: Option C | (11) | Exam: SSC CHSL 03/07/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 35
+      "q": 35,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114842,7 +114874,8 @@
     "explanation": "Correct Answer: Option C | (2) | Exam: SSC CHSL 04/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 36
+      "q": 36,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114869,7 +114902,8 @@
     "explanation": "Correct Answer: Option C | (8) | Exam: SSC CHSL 05/07/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 37
+      "q": 37,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114896,7 +114930,8 @@
     "explanation": "Correct Answer: Option C | (14) | Exam: SSC CHSL 05/07/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 38
+      "q": 38,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114923,7 +114958,8 @@
     "explanation": "Correct Answer: Option C | (26) | Exam: SSC CGL TIER-II (18/01/2025)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 39
+      "q": 39,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114950,7 +114986,8 @@
     "explanation": "Correct Answer: Option C | (26) | Exam: SSC CGL TIER-II (20/01/2025)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 40
+      "q": 40,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -114977,7 +115014,8 @@
     "explanation": "Correct Answer: Option B | (8) | Exam: SSC CPO 28/06/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 41
+      "q": 41,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115004,7 +115042,8 @@
     "explanation": "Correct Answer: Option B | (5) | Exam: SSC Phase XII 25/06/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 42
+      "q": 42,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115031,7 +115070,8 @@
     "explanation": "Correct Answer: Option D | (1/(11 % p.a)) | Exam: SSC CHSL TIER-II 02/11/2023",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 43
+      "q": 43,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115058,7 +115098,8 @@
     "explanation": "Correct Answer: Option A | (20) | Exam: SSC MTS 04/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 44
+      "q": 44,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115085,7 +115126,8 @@
     "explanation": "Correct Answer: Option C | (5) | Exam: SSC MTS 05/09/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 45
+      "q": 45,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115112,7 +115154,8 @@
     "explanation": "Correct Answer: Option B | (5) | Exam: SSC MTS 13/09/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 46
+      "q": 46,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115139,7 +115182,8 @@
     "explanation": "Correct Answer: Option A | (2/6) | Exam: SSC CHSL 02/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 47
+      "q": 47,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115166,7 +115210,8 @@
     "explanation": "Correct Answer: Option B | (18.54) | Exam: SSC CHSL 04/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 48
+      "q": 48,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115193,7 +115238,8 @@
     "explanation": "Correct Answer: Option D | (12) | Exam: SSC CHSL 08/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 49
+      "q": 49,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115220,7 +115266,8 @@
     "explanation": "Correct Answer: Option C | (2/(16 years)) | Exam: SSC CHSL 14/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 50
+      "q": 50,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115247,7 +115294,8 @@
     "explanation": "Correct Answer: Option C | (4/(8 %)) | Exam: SSC CGL 14/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 51
+      "q": 51,
+      "page": 16
     },
     "check": {
       "text": false,
@@ -115526,7 +115574,8 @@
     "explanation": "Correct Answer: Option C | (10) | Exam: SSC CHSL 03/07/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 61
+      "q": 61,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115553,7 +115602,8 @@
     "explanation": "Correct Answer: Option B | (8.33) | Exam: SSC CHSL 08/07/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 62
+      "q": 62,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115580,7 +115630,8 @@
     "explanation": "Correct Answer: Option D | (20% p.a.) | Exam: SSC CGL 21/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 63
+      "q": 63,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115607,7 +115658,8 @@
     "explanation": "Correct Answer: Option A | (8) | Exam: SSC Phase XI 28/06/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 64
+      "q": 64,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115634,7 +115686,8 @@
     "explanation": "Correct Answer: Option C | (28) | Exam: SSC CGL 05/12/2022 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 65
+      "q": 65,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115661,7 +115714,8 @@
     "explanation": "Correct Answer: Option B | (2) | Exam: SSC MTS 12/10/2021 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 66
+      "q": 66,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115688,7 +115742,8 @@
     "explanation": "Correct Answer: Option B | (14) | Exam: SSC MTS 08/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 67
+      "q": 67,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115715,7 +115770,8 @@
     "explanation": "Correct Answer: Option B | (` 8,750) | Exam: SSC CGL TIER-II 13/09/2019",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 68
+      "q": 68,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115742,7 +115798,8 @@
     "explanation": "Correct Answer: Option B | (8.36) | Exam: SSC CGL 24/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 69
+      "q": 69,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115769,7 +115826,8 @@
     "explanation": "Correct Answer: Option A | (Rs.45,600) | Exam: SSC CGL 26/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 70
+      "q": 70,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115796,7 +115854,8 @@
     "explanation": "Correct Answer: Option A | (Rs.4,700) | Exam: SSC CHSL 09/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 71
+      "q": 71,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115823,7 +115882,8 @@
     "explanation": "Correct Answer: Option A | (`93,000) | Exam: SSC CPO 03/10/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 72
+      "q": 72,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115850,7 +115910,8 @@
     "explanation": "Correct Answer: Option C | (5) | Exam: SSC CPO 27/06/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 73
+      "q": 73,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115877,7 +115938,8 @@
     "explanation": "Correct Answer: Option D | (` 27,250) | Exam: SSC CHSL 04/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 74
+      "q": 74,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115904,7 +115966,8 @@
     "explanation": "Correct Answer: Option B | (24,380) | Exam: SSC CHSL 11/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 75
+      "q": 75,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115931,7 +115994,8 @@
     "explanation": "Correct Answer: Option C | (`10800) | Exam: SSC CGL 21/07/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 76
+      "q": 76,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -115958,7 +116022,8 @@
     "explanation": "Correct Answer: Option A | (35 years) | Exam: SSC CHSL 01/07/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 77
+      "q": 77,
+      "page": 17
     },
     "check": {
       "text": false,
@@ -116209,7 +116274,8 @@
     "explanation": "Correct Answer: Option A | (` 28,500) | Exam: SSC CHSL 03/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 86
+      "q": 86,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116236,7 +116302,8 @@
     "explanation": "Correct Answer: Option B | (2,000) | Exam: SSC CHSL 11/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 87
+      "q": 87,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116263,7 +116330,8 @@
     "explanation": "Correct Answer: Option A | (` 36) | Exam: SSC CHSL 20/03/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 88
+      "q": 88,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116290,7 +116358,8 @@
     "explanation": "Correct Answer: Option B | (1/(3 %)) | Exam: SSC CGL TIER-II 02/03/2023",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 89
+      "q": 89,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116317,7 +116386,8 @@
     "explanation": "Correct Answer: Option B | (` 5,937.5) | Exam: SSC CGL 07/03/2020 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 90
+      "q": 90,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116344,7 +116414,8 @@
     "explanation": "Correct Answer: Option C | (` 1,000) | Exam: SSC CGL 26/07/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 91
+      "q": 91,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116371,7 +116442,8 @@
     "explanation": "Correct Answer: Option D | (` 16500) | Exam: SSC MTS 16/06/2023 (SHIFT-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 92
+      "q": 92,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116398,7 +116470,8 @@
     "explanation": "Correct Answer: Option D | (`24000) | Exam: SSC CGL TIER-II 08/08/2022",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 93
+      "q": 93,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116425,7 +116498,8 @@
     "explanation": "Correct Answer: Option B | (7,200) | Exam: SSC CGL 21/04/2022 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 94
+      "q": 94,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116452,7 +116526,8 @@
     "explanation": "Correct Answer: Option B | (` 8,750) | Exam: SSC CGL TIER-II 13/09/2019",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 95
+      "q": 95,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116479,7 +116554,8 @@
     "explanation": "Correct Answer: Option B | (2) | Exam: SSC Phase XII 26/06/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 96
+      "q": 96,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116506,7 +116582,8 @@
     "explanation": "Correct Answer: Option A | (`80,723) | Exam: SSC CGL 19/07/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 97
+      "q": 97,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116533,7 +116610,8 @@
     "explanation": "Correct Answer: Option D | (36) | Exam: SSC MTS 18/10/2021 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 98
+      "q": 98,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116560,7 +116638,8 @@
     "explanation": "Correct Answer: Option B | (39.67) | Exam: SSC CGL 12/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 99
+      "q": 99,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116587,7 +116666,8 @@
     "explanation": "Correct Answer: Option C | (21) | Exam: SSC CHSL 01/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 100
+      "q": 100,
+      "page": 18
     },
     "check": {
       "text": false,
@@ -116810,7 +116890,8 @@
     "explanation": "Correct Answer: Option C | (37.5) | Exam: SSC MTS 05/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 109
+      "q": 109,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116837,7 +116918,8 @@
     "explanation": "Correct Answer: Option A | (8) | Exam: SSC CHSL 03/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 110
+      "q": 110,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116864,7 +116946,8 @@
     "explanation": "Correct Answer: Option B | (Increases by 6) | Exam: SSC CHSL 10/08/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 111
+      "q": 111,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116891,7 +116974,8 @@
     "explanation": "Correct Answer: Option C | (22) | Exam: SSC CHSL 10/08/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 112
+      "q": 112,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116918,7 +117002,8 @@
     "explanation": "Correct Answer: Option B | (2/(22 %)) | Exam: SSC Phase-XI 30/06/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 114
+      "q": 114,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116945,7 +117030,8 @@
     "explanation": "Correct Answer: Option C | (5.55) | Exam: SSC MTS 14/06/2023 (SHIFT-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 115
+      "q": 115,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116972,7 +117058,8 @@
     "explanation": "Correct Answer: Option C | (1/(7 %)) | Exam: SSC CGL 20/07/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 116
+      "q": 116,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -116999,7 +117086,8 @@
     "explanation": "Correct Answer: Option A | (20) | Exam: SSC CGL 08/12/2022 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 117
+      "q": 117,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117026,7 +117114,8 @@
     "explanation": "Correct Answer: Option B | (7 years) | Exam: SSC CGL 09/12/2022 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 118
+      "q": 118,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117053,7 +117142,8 @@
     "explanation": "Correct Answer: Option B | (`6,250) | Exam: SSC CHSL 10/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 119
+      "q": 119,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117080,7 +117170,8 @@
     "explanation": "Correct Answer: Option B | (`3,600) | Exam: SSC CGL 18/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 120
+      "q": 120,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117107,7 +117198,8 @@
     "explanation": "Correct Answer: Option D | (`4,000) | Exam: SSC CGL 08/12/2022 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 121
+      "q": 121,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117134,7 +117226,8 @@
     "explanation": "Correct Answer: Option C | (`720) | Exam: SSC CGL 01/12/2022 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 122
+      "q": 122,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117161,7 +117254,8 @@
     "explanation": "Correct Answer: Option D | (8,240) | Exam: SSC CPO 24/11/2020 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 123
+      "q": 123,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117188,7 +117282,8 @@
     "explanation": "Correct Answer: Option D | (8,000) | Exam: SSC CHSL 02/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 124
+      "q": 124,
+      "page": 19
     },
     "check": {
       "text": false,
@@ -117411,7 +117506,8 @@
     "explanation": "Correct Answer: Option C | (1396) | Exam: SSC CGL 19/07/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 132
+      "q": 132,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117438,7 +117534,8 @@
     "explanation": "Correct Answer: Option D | (8) | Exam: SSC CPO 05/10/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 133
+      "q": 133,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117465,7 +117562,8 @@
     "explanation": "Correct Answer: Option C | (25) | Exam: SSC CHSL 10/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 134
+      "q": 134,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117492,7 +117590,8 @@
     "explanation": "Correct Answer: Option A | (33.96) | Exam: SSC Phase XII 25/06/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 135
+      "q": 135,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117519,7 +117618,8 @@
     "explanation": "Correct Answer: Option A | (1/(33 %)) | Exam: SSC CHSL 07/08/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 136
+      "q": 136,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117546,7 +117646,8 @@
     "explanation": "Correct Answer: Option D | (` 750) | Exam: SSC CGL 26/07/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 137
+      "q": 137,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117573,7 +117674,8 @@
     "explanation": "Correct Answer: Option D | (1,844) | Exam: SSC Phase XI 27/06/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 138
+      "q": 138,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117600,7 +117702,8 @@
     "explanation": "Correct Answer: Option D | (`2,400) | Exam: SSC Phase XI 30/06/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 139
+      "q": 139,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117627,7 +117730,8 @@
     "explanation": "Correct Answer: Option B | (9) | Exam: SSC CGL 12/04/2022 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 140
+      "q": 140,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117654,7 +117758,8 @@
     "explanation": "Correct Answer: Option B | (20%/1) | Exam: SSC MTS 11/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 141
+      "q": 141,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117681,7 +117786,8 @@
     "explanation": "Correct Answer: Option A | (6850) | Exam: SSC CGL 17/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 142
+      "q": 142,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117708,7 +117814,8 @@
     "explanation": "Correct Answer: Option A | (1,30,000 and 70,000) | Exam: SSC CGL 18/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 143
+      "q": 143,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117735,7 +117842,8 @@
     "explanation": "Correct Answer: Option D | (`1,600) | Exam: SSC CGL 10/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 144
+      "q": 144,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117762,7 +117870,8 @@
     "explanation": "Correct Answer: Option D | (`4,000) | Exam: SSC CHSL 04/07/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 145
+      "q": 145,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -117789,7 +117898,8 @@
     "explanation": "Correct Answer: Option C | (`6400) | Exam: SSC Phase XII 21/06/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 146
+      "q": 146,
+      "page": 20
     },
     "check": {
       "text": false,
@@ -118012,7 +118122,8 @@
     "explanation": "Correct Answer: Option B | (`4,000) | Exam: SSC CGL 14/07/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 154
+      "q": 154,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118039,7 +118150,8 @@
     "explanation": "Correct Answer: Option D | (Rs.18,938) | Exam: SSC CHSL 03/07/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 155
+      "q": 155,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118066,7 +118178,8 @@
     "explanation": "Correct Answer: Option A | (`9,800) | Exam: SSC CPO 03/10/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 156
+      "q": 156,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118093,7 +118206,8 @@
     "explanation": "Correct Answer: Option A | (`25,000) | Exam: SSC CHSL 07/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 157
+      "q": 157,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118120,7 +118234,8 @@
     "explanation": "Correct Answer: Option D | (26,000) | Exam: SSC CGL 20/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 158
+      "q": 158,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118147,7 +118262,8 @@
     "explanation": "Correct Answer: Option B | (` 19,350) | Exam: SSC CGL TIER-II 16/11/2020)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 159
+      "q": 159,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118174,7 +118290,8 @@
     "explanation": "Correct Answer: Option C | (9) | Exam: SSC CGL 09/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 160
+      "q": 160,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118201,7 +118318,8 @@
     "explanation": "Correct Answer: Option A | (2800) | Exam: SSC CHSL 03/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 161
+      "q": 161,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118228,7 +118346,8 @@
     "explanation": "Correct Answer: Option C | (` 2,187.50) | Exam: SSC MTS 13/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 162
+      "q": 162,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118255,7 +118374,8 @@
     "explanation": "Correct Answer: Option A | (`2,000) | Exam: SSC CHSL 16/10/2020 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 163
+      "q": 163,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118282,7 +118402,8 @@
     "explanation": "Correct Answer: Option A | (9) | Exam: SSC CGL 17/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 164
+      "q": 164,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118309,7 +118430,8 @@
     "explanation": "Correct Answer: Option A | (8 years) | Exam: SSC CGL 26/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 165
+      "q": 165,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118336,7 +118458,8 @@
     "explanation": "Correct Answer: Option C | (4 year) | Exam: SSC CGL 14/07/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 166
+      "q": 166,
+      "page": 21
     },
     "check": {
       "text": false,
@@ -118531,7 +118654,8 @@
     "explanation": "Correct Answer: Option A | (`13,440) | Exam: SSC CGL 11/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 173
+      "q": 173,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118558,7 +118682,8 @@
     "explanation": "Correct Answer: Option B | (13) | Exam: SSC CGL 11/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 174
+      "q": 174,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118585,7 +118710,8 @@
     "explanation": "Correct Answer: Option D | (9,405) | Exam: SSC CGL 13/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 175
+      "q": 175,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118612,7 +118738,8 @@
     "explanation": "Correct Answer: Option B | (`16,900) | Exam: SSC CGL 13/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 176
+      "q": 176,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118639,7 +118766,8 @@
     "explanation": "Correct Answer: Option C | (Rs.2,40,000) | Exam: SSC CGL 17/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 177
+      "q": 177,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118666,7 +118794,8 @@
     "explanation": "Correct Answer: Option A | (9) | Exam: SSC CHSL 01/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 178
+      "q": 178,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118693,7 +118822,8 @@
     "explanation": "Correct Answer: Option A | (Rs.14,280) | Exam: SSC CHSL 08/07/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 179
+      "q": 179,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118720,7 +118850,8 @@
     "explanation": "Correct Answer: Option D | (Rs.41,040) | Exam: SSC CHSL 09/07/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 180
+      "q": 180,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118747,7 +118878,8 @@
     "explanation": "Correct Answer: Option A | (3,600) | Exam: SSC Phase XII 21/06/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 181
+      "q": 181,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118774,7 +118906,8 @@
     "explanation": "Correct Answer: Option D | (` 63,072) | Exam: SSC MTS 04/09/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 182
+      "q": 182,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118801,7 +118934,8 @@
     "explanation": "Correct Answer: Option C | (` 26,160) | Exam: SSC MTS 06/09/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 183
+      "q": 183,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118828,7 +118962,8 @@
     "explanation": "Correct Answer: Option C | (` 12,800) | Exam: SSC MTS 11/09/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 184
+      "q": 184,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118855,7 +118990,8 @@
     "explanation": "Correct Answer: Option D | (2592) | Exam: SSC CHSL 09/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 185
+      "q": 185,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118882,7 +119018,8 @@
     "explanation": "Correct Answer: Option A | (8.16) | Exam: SSC CHSL 09/08/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 186
+      "q": 186,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -118909,7 +119046,8 @@
     "explanation": "Correct Answer: Option C | (It increases to 8 years. 3 1) | Exam: mains the same,",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 187
+      "q": 187,
+      "page": 22
     },
     "check": {
       "text": false,
@@ -119104,7 +119242,8 @@
     "explanation": "Correct Answer: Option B | (850) | Exam: SSC CGL 13/08/2021 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 194
+      "q": 194,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119131,7 +119270,8 @@
     "explanation": "Correct Answer: Option A | (` 3715.20) | Exam: SSC CGL TIER-II 12/09/2019",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 195
+      "q": 195,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119158,7 +119298,8 @@
     "explanation": "Correct Answer: Option D | (Rs.1,500) | Exam: SSC CHSL 10/07/2024 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 196
+      "q": 196,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119185,7 +119326,8 @@
     "explanation": "Correct Answer: Option C | (16,200) | Exam: SSC CPO 29/06/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 197
+      "q": 197,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119212,7 +119354,8 @@
     "explanation": "Correct Answer: Option D | (`40,500) | Exam: SSC CGL 25/07/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 198
+      "q": 198,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119239,7 +119382,8 @@
     "explanation": "Correct Answer: Option B | (`37,500) | Exam: SSC CGL 27/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 199
+      "q": 199,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119266,7 +119410,8 @@
     "explanation": "Correct Answer: Option B | (6) | Exam: SSC Phase XI 28/06/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 200
+      "q": 200,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119293,7 +119438,8 @@
     "explanation": "Correct Answer: Option C | (`15,000) | Exam: SSC CGL 01/12/2022 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 201
+      "q": 201,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119320,7 +119466,8 @@
     "explanation": "Correct Answer: Option C | (10) | Exam: SSC CHSL 17/03/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 202
+      "q": 202,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119347,7 +119494,8 @@
     "explanation": "Correct Answer: Option B | (`9000) | Exam: SSC MTS 05/07/2022 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 203
+      "q": 203,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119374,7 +119522,8 @@
     "explanation": "Correct Answer: Option B | (` 5,096) | Exam: SSC MTS 27/10/2021 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 204
+      "q": 204,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119401,7 +119550,8 @@
     "explanation": "Correct Answer: Option D | (3,600) | Exam: SSC CGL 19/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 205
+      "q": 205,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119428,7 +119578,8 @@
     "explanation": "Correct Answer: Option B | (rn:1) | Exam: SSC CHSL 02/07/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 206
+      "q": 206,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119455,7 +119606,8 @@
     "explanation": "Correct Answer: Option C | (4,80,000) | Exam: SSC CGL 07/12/2022 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 207
+      "q": 207,
+      "page": 23
     },
     "check": {
       "text": false,
@@ -119650,7 +119802,8 @@
     "explanation": "Correct Answer: Option A | (` 5,440) | Exam: SSC CHSL 20/03/2023 (Shift-04)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 214
+      "q": 214,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119677,7 +119830,8 @@
     "explanation": "Correct Answer: Option D | (Both I and II) | Exam: SSC CHSL 21/03/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 215
+      "q": 215,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119704,7 +119858,8 @@
     "explanation": "Correct Answer: Option D | (12,325) | Exam: SSC CGL 25/07/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 216
+      "q": 216,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119731,7 +119886,8 @@
     "explanation": "Correct Answer: Option D | (20) | Exam: SSC CPO 29/06/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 217
+      "q": 217,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119758,7 +119914,8 @@
     "explanation": "Correct Answer: Option D | (5) | Exam: SSC CPO 04/10/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 218
+      "q": 218,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119785,7 +119942,8 @@
     "explanation": "Correct Answer: Option A | (12) | Exam: SSC CGL 17/07/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 219
+      "q": 219,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119812,7 +119970,8 @@
     "explanation": "Correct Answer: Option B | (20) | Exam: SSC MTS 12/09/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 220
+      "q": 220,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119839,7 +119998,8 @@
     "explanation": "Correct Answer: Option A | (Rs.1,000) | Exam: SSC CGL 24/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 221
+      "q": 221,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119866,7 +120026,8 @@
     "explanation": "Correct Answer: Option B | (74) | Exam: SSC CHSL 10/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 222
+      "q": 222,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119893,7 +120054,8 @@
     "explanation": "Correct Answer: Option D | (25) | Exam: SSC CGL 13/12/2022 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 223
+      "q": 223,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119920,7 +120082,8 @@
     "explanation": "Correct Answer: Option C | (` 1000) | Exam: SSC CHSL 09/03/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 224
+      "q": 224,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119947,7 +120110,8 @@
     "explanation": "Correct Answer: Option B | (7,605) | Exam: SSC CGL TIER-II 29/01/2022",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 225
+      "q": 225,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -119974,7 +120138,8 @@
     "explanation": "Correct Answer: Option C | (` 6,000) | Exam: SSC CGL 10/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 226
+      "q": 226,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -120001,7 +120166,8 @@
     "explanation": "Correct Answer: Option A | (2800) | Exam: SSC CPO 05/10/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 227
+      "q": 227,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -120028,7 +120194,8 @@
     "explanation": "Correct Answer: Option D | (5400) | Exam: SSC CHSL 08/08/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 228
+      "q": 228,
+      "page": 24
     },
     "check": {
       "text": false,
@@ -120307,7 +120474,8 @@
     "explanation": "Correct Answer: Option A | (10/730) | Exam: SSC CGL 13/12/2022 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 238
+      "q": 238,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120334,7 +120502,8 @@
     "explanation": "Correct Answer: Option B | (9/(21 %)) | Exam: SSC CGL 13/12/2022 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 239
+      "q": 239,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120361,7 +120530,8 @@
     "explanation": "Correct Answer: Option C | (` 23,200) | Exam: SSC MTS 04/09/2023 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 240
+      "q": 240,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120388,7 +120558,8 @@
     "explanation": "Correct Answer: Option A | (`30,000)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 241
+      "q": 241,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120415,7 +120586,8 @@
     "explanation": "Correct Answer: Option C | (20/(20 %)) | Exam: SSC CHSL 02/08/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 242
+      "q": 242,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120442,7 +120614,8 @@
     "explanation": "Correct Answer: Option D | (5,64,914) | Exam: SSC CGL 09/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 243
+      "q": 243,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120469,7 +120642,8 @@
     "explanation": "Correct Answer: Option A | (1,44,391) | Exam: SSC CGL 11/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 244
+      "q": 244,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120496,7 +120670,8 @@
     "explanation": "Correct Answer: Option D | (7,29,937) | Exam: SSC CGL 13/09/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 245
+      "q": 245,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120523,7 +120698,8 @@
     "explanation": "Correct Answer: Option A | (226645) | Exam: SSC CGL 18/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 246
+      "q": 246,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120550,7 +120726,8 @@
     "explanation": "Correct Answer: Option B | (808615) | Exam: SSC CGL 19/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 247
+      "q": 247,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120577,7 +120754,8 @@
     "explanation": "Correct Answer: Option B | (15 months) | Exam: SSC CGL 23/09/2024 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 248
+      "q": 248,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120604,7 +120782,8 @@
     "explanation": "Correct Answer: Option B | (3,87,406) | Exam: SSC CGL 25/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 249
+      "q": 249,
+      "page": 25
     },
     "check": {
       "text": false,
@@ -120715,7 +120894,8 @@
     "explanation": "Correct Answer: Option C | (5% p.a.) | Exam: SSC CHSL 11/07/2024 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 253
+      "q": 253,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120742,7 +120922,8 @@
     "explanation": "Correct Answer: Option D | (520) | Exam: SSC CPO 05/10/2023 (Shift-03)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 254
+      "q": 254,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120769,7 +120950,8 @@
     "explanation": "Correct Answer: Option A | (1,50,000) | Exam: SSC Phase XI 27/06/2023 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 255
+      "q": 255,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120796,7 +120978,8 @@
     "explanation": "Correct Answer: Option B | (`1,95,455) | Exam: SSC CGL 06/12/2022 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 256
+      "q": 256,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120823,7 +121006,8 @@
     "explanation": "Correct Answer: Option B | (`30,000) | Exam: SSC CGL 12/12/2022 (Shift-01)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 257
+      "q": 257,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120850,7 +121034,8 @@
     "explanation": "Correct Answer: Option B | (120) | Exam: SSC CGL 24/09/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 258
+      "q": 258,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -120877,7 +121062,8 @@
     "explanation": "Correct Answer: Option C | (`3,088.48) | Exam: SSC CPO 27/06/2024 (Shift-02)",
     "source": {
       "file": "SSC MATHS 2ND  SIMPLE INTEREST English (TYPEWISE)",
-      "q": 259
+      "q": 259,
+      "page": 26
     },
     "check": {
       "text": false,
@@ -122248,7 +122434,8 @@
     "explanation": "Correct Answer: Option C (2 41/67)",
     "source": {
       "file": "Simplification (ClassRoom Sheet)",
-      "q": 71
+      "q": 71,
+      "page": 10
     },
     "check": {
       "text": false,
@@ -122415,7 +122602,8 @@
     "explanation": "Correct Answer: Option D | (n/(n +1)) | Exam: NTPC CBT-1, 02/03/2021 (Shift-03)",
     "source": {
       "file": "Simplification (ClassRoom Sheet)",
-      "q": 83
+      "q": 83,
+      "page": 11
     },
     "check": {
       "text": false,
@@ -128518,7 +128706,8 @@
     "explanation": "Correct Answer: Option C | (6) | Solution: 00 (b) 1.25 (c)",
     "source": {
       "file": "Surds & Indices (Pro Level Sheet)",
-      "q": 1
+      "q": 1,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -140221,7 +140410,8 @@
     "explanation": "Correct Answer: Option D | (60° 3) | Exam: SSC CGL 21/04/2022 (Shift- 01)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-01)",
-      "q": 42
+      "q": 42,
+      "page": 7
     },
     "check": {
       "text": false,
@@ -140976,7 +141166,8 @@
     "explanation": "Correct Answer: Option C | (1) | Exam: SSC CHSL 05/07/2024 (Shift-04)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-02)",
-      "q": 8
+      "q": 8,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -141675,7 +141866,8 @@
     "explanation": "Correct Answer: Option A | (secθcosecθ) | Exam: SSC CGL TIER-II 29/01/2022",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-04)",
-      "q": 7
+      "q": 7,
+      "page": 2
     },
     "check": {
       "text": false,
@@ -142038,7 +142230,8 @@
     "explanation": "Correct Answer: Option D | (cotθ) | Exam: SSC CGL TIER-II 29/01/2022",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-04)",
-      "q": 22
+      "q": 22,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -143381,7 +143574,8 @@
     "explanation": "Correct Answer: Option C | (2)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-05)",
-      "q": 50
+      "q": 50,
+      "page": 6
     },
     "check": {
       "text": false,
@@ -143492,7 +143686,8 @@
     "explanation": "Correct Answer: Option D | (1/16)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-05)",
-      "q": 55
+      "q": 55,
+      "page": 6
     },
     "check": {
       "text": false,
@@ -143575,7 +143770,8 @@
     "explanation": "Correct Answer: Option B | (3/16)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-05)",
-      "q": 58
+      "q": 58,
+      "page": 7
     },
     "check": {
       "text": false,
@@ -143602,7 +143798,8 @@
     "explanation": "Correct Answer: Option C | (1/8)",
     "source": {
       "file": "Trigonometry  (ClassRoom Sheet-05)",
-      "q": 59
+      "q": 59,
+      "page": 7
     },
     "check": {
       "text": false,
@@ -144273,7 +144470,8 @@
     "explanation": "Correct Answer: Option C | (cos A – sin A)",
     "source": {
       "file": "Trigonometry (ClassRoom Sheet-03)",
-      "q": 25
+      "q": 25,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -144300,7 +144498,8 @@
     "explanation": "Correct Answer: Option D | (All of the above)",
     "source": {
       "file": "Trigonometry (ClassRoom Sheet-03)",
-      "q": 27
+      "q": 27,
+      "page": 3
     },
     "check": {
       "text": false,
@@ -144355,7 +144554,8 @@
     "explanation": "Correct Answer: Option C | (cosec – cotA)",
     "source": {
       "file": "Trigonometry (ClassRoom Sheet-03)",
-      "q": 29
+      "q": 29,
+      "page": 3
     },
     "check": {
       "text": false,

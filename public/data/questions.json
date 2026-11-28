@@ -2948,7 +2948,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If p : q = 5 : 2, then (p^2 - q^2) : (p^2 + q^2) = ?",
+    "question": "If p : q = 5 : 2, then (p² - q² : (p² + q² = ?",
     "options": [
       "29: 21",
       "4: 3",
@@ -2974,7 +2974,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If a : b = 5 : 7, then (6a^2 - 2b^2) : (b^2 - a^2) will be :",
+    "question": "If a : b = 5 : 7, then (6a² - 2b² : (b² - a² will be :",
     "options": [
       "12: 5",
       "21: 5",
@@ -3000,7 +3000,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If J/4 = K/5 = L/3, then what is the value of (L + J)^2 : (J + K)^2 : (K + L)^2?",
+    "question": "If J/4 = K/5 = L/3, then what is the value of (L + J)² : (J + K)² : (K + L)²?",
     "options": [
       "25: 16: 9",
       "64: 25: 81",
@@ -3130,7 +3130,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If a, b and c are positive numbers such that (a^2 + b^2) : (b^2 + c^2) : (c^2 + a^2) = 34 : 61 : 45, then (b - a) : (c - b) : (c - a) = ?",
+    "question": "If a, b and c are positive numbers such that (a² + b² : (b² + c² : (c² + a² = 34 : 61 : 45, then (b - a) : (c - b) : (c - a) = ?",
     "options": [
       "1:2:3",
       "3:1:2",
@@ -3260,7 +3260,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "If (5x + 2y) : (10x + 3y) = 5 : 9, then (2x^2 + 3y^2) : (4x^2 + 9y^2) = ?",
+    "question": "If (5x + 2y) : (10x + 3y) = 5 : 9, then (2x² + 3y² : (4x² + 9y² = ?",
     "options": [
       "31 : 87",
       "10 : 27",
@@ -3520,7 +3520,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "The mean proportion of (3 + 2√2)^2 and (3 - 2√2)^2 is:",
+    "question": "The mean proportion of (3 + 2√2)² and (3 - 2√2)² is:",
     "options": [
       "3 + 2√2",
       "5",
@@ -3624,7 +3624,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "The third proportional to (x^2 - y^2) and (x - y) is:",
+    "question": "The third proportional to (x² - y² and (x - y) is:",
     "options": [
       "(x - y)",
       "(x - y)/(x + y)",
@@ -3676,15 +3676,15 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "The mean proportional of (a + b)(a - b)^3 and (a + b)^3(a - b) is:",
+    "question": "The mean proportional of (a + b)(a - b)³ and (a + b)³(a - b) is:",
     "options": [
-      "(a + b)^2(a - b)^2",
-      "(a + b)^2(a - b)",
-      "(a + b)(a - b)^2",
-      "a^2 - b^2"
+      "(a + b)²(a - b)²",
+      "(a + b)²(a - b)",
+      "(a + b)(a - b)²",
+      "a² - b²"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A ((a + b)^2(a - b)^2) | Slide: Page 50",
+    "explanation": "Correct Answer: Option A ((a + b)²(a - b)² | Slide: Page 50",
     "slidePage": 50,
     "source": {
       "file": "Dixit Sir · Ratio & Proportion",
@@ -3702,7 +3702,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Ratio & Proportion",
-    "question": "Find the mean proportion of (a^3 + b^3)/(a - b) and (a^2 - b^2)/(a^2 - ab + b^2):",
+    "question": "Find the mean proportion of (a³ + b³)/(a - b) and (a² - b²)/(a² - ab + b²:",
     "options": [
       "1",
       "a + b",
@@ -14747,13 +14747,13 @@
     "chapter": "Compound Interest",
     "question": "A certain sum becomes ‘k’ times in 5 years at compound interest. In 30 years it will become how many times",
     "options": [
-      "k^6",
+      "k⁶",
       "6k",
       "6k",
       "5k"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A (k^6) | Exam: SSC CGL 2018 MAINS",
+    "explanation": "Correct Answer: Option A (k⁶ | Exam: SSC CGL 2018 MAINS",
     "source": {
       "file": "Dixit Sir · Compound Interest",
       "q": 32,
@@ -16487,12 +16487,12 @@
     "question": "Principal = Rs. S, Rate= 2r%, the amount after 3 years at C. I. is",
     "options": [
       "6Sr/100",
-      "S(1+r/100)^3",
-      "S(1+r/50)^3",
-      "3S(1+r/100)^3"
+      "S(1+r/100)³",
+      "S(1+r/50)³",
+      "3S(1+r/100)³"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C (S(1+r/50)^3) | Exam: SSC CGL 2019 MAINS 99.c 100.b 101.c",
+    "explanation": "Correct Answer: Option C (S(1+r/50)³ | Exam: SSC CGL 2019 MAINS 99.c 100.b 101.c",
     "source": {
       "file": "Dixit Sir · Compound Interest",
       "q": 101,
@@ -19124,7 +19124,7 @@
     "chapter": "Profit & Loss",
     "question": "A man sells a land and a shop at ₹1 lakh each. If he loses 20% on the land and gains 20% on the shop, find his total loss.",
     "options": [
-      "NPNL",
+      "No profit and no loss",
       "1/24 lakh",
       "1/6 lakh",
       "1/12 lakh"
@@ -22098,7 +22098,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time & Work",
-    "question": "Type C – A=x, B=y, C=z, A+B+C=? A, B and C can do a work in x, y and z days respectively. Then all working together can complete the same work in",
+    "question": "A, B and C can do a work in x, y and z days respectively. Then all working together can complete the same work in",
     "options": [
       "xyz/x+y+z",
       "x+y+z/xyz",
@@ -22852,10 +22852,10 @@
     "chapter": "Time & Work",
     "question": "S, T and U together can complete a work in 30 days. If the ratio of efficiency of S, T and U is 20:15:12 respectively, then in how many days U alone can complete the same work?",
     "options": [
-      "195 2 days",
-      "235 2 days",
-      "225 2 days",
-      "215 2 days"
+      "195/2 days",
+      "235/2 days",
+      "225/2 days",
+      "215/2 days"
     ],
     "correctAnswer": 1,
     "explanation": "Correct Answer: Option B (235 2 days) | Exam: SSC  CHSL  2020",
@@ -24952,7 +24952,7 @@
     "chapter": "Pipe & Cistern",
     "question": "Two pipes, D and E, can fill a cistern in 26 and 78 hours, respectively, while working alone. If the two pipes are opened together, the time taken to fill the cistern is:",
     "options": [
-      "18(/14) hours",
+      "18(1/4) hours",
       "19(1/4) hours",
       "19(1/2) hours",
       "18(1/3) hours"
@@ -27365,15 +27365,15 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time, Speed & Distance",
-    "question": "The distance covered by a train in (x + 1) hours is (x^3 + 1) km. What is the speed of the train (in km/h)?",
+    "question": "The distance covered by a train in (x + 1) hours is (x³ + 1) km. What is the speed of the train (in km/h)?",
     "options": [
-      "(x^3 - 1) km/h",
-      "(x^2 - x + 1) km/h",
-      "(x^2 + x + 1) km/h",
+      "(x³ - 1) km/h",
+      "(x² - x + 1) km/h",
+      "(x² + x + 1) km/h",
       "(x + 1) km/h"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B ((x^2 - x + 1) km/h) | Exam: SSC CHSL 2021",
+    "explanation": "Correct Answer: Option B ((x² - x + 1) km/h) | Exam: SSC CHSL 2021",
     "source": {
       "file": "Dixit Sir · Time, Speed & Distance",
       "q": 6,
@@ -27415,7 +27415,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time, Speed & Distance",
-    "question": "The speed of wind during a storm is 10^5 mm per sec. How long (in seconds) will it take a dust particle suspended in air to travel 1 km. ?",
+    "question": "The speed of wind during a storm is 10⁵ mm per sec. How long (in seconds) will it take a dust particle suspended in air to travel 1 km. ?",
     "options": [
       "1",
       "0.1",
@@ -27790,15 +27790,15 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Time, Speed & Distance",
-    "question": "If a man travels at 1/x km/h on a journey and returns at 1/x^2 km/h, then his average speed for the journey is:",
+    "question": "If a man travels at 1/x km/h on a journey and returns at 1/x² km/h, then his average speed for the journey is:",
     "options": [
-      "(x+1)/x^2",
-      "2/(x+x^2)",
-      "1/(x+x^2)",
-      "(2x^2)/(x+1)"
+      "(x+1)/x²",
+      "2/(x+x²",
+      "1/(x+x²",
+      "(2x²)/(x+1)"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B (2/(x+x^2)) | Exam: CGL 2022 Pre",
+    "explanation": "Correct Answer: Option B (2/(x+x²) | Exam: CGL 2022 Pre",
     "source": {
       "file": "Dixit Sir · Time, Speed & Distance",
       "q": 23,
@@ -30062,7 +30062,7 @@
       "300 m/s",
       "280 m/s",
       "310 m/s",
-      "320 m/s The distance between two stations A and B is"
+      "320 m/s"
     ],
     "correctAnswer": 3,
     "explanation": "Correct Answer: Option D (320 m/s The distance between two stations A and B is)",
@@ -32967,10 +32967,10 @@
     "chapter": "Race",
     "question": "In a 1200 m race, bike A beats bike B by 100 m. Bike B beats bike C by 100 m in a 600 m race. If bike A beats bike C by 30 sec in a 720 m race, then what is the speed of bike C?",
     "options": [
-      "17 3 m/sec",
-      "26 9 m/sec",
-      "17 9 m/sec",
-      "26 3 m/sec"
+      "17/3 m/sec",
+      "26/9 m/sec",
+      "17/9 m/sec",
+      "26/3 m/sec"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (17 3 m/sec) | Exam: SSC CGL 2022",
@@ -33873,11 +33873,11 @@
       "Nerve"
     ],
     "correctAnswer": 2,
-    "explanation": " RRB Group-D 05-10-2018 (Shift-I) | Slide: Page 2",
-    "slidePage": 2,
+    "explanation": " RRB Group-D 05-10-2018 (Shift-I) | Slide: Page 5",
+    "slidePage": 5,
     "source": {
       "file": "Science Magnet · Blood",
-      "page": 2,
+      "page": 5,
       "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=2",
       "slide": "data/slides/blood-p2.webp"
     },
@@ -34328,11 +34328,11 @@
       "O"
     ],
     "correctAnswer": 1,
-    "explanation": " RRB JE 26 02 2019 SHIFT IV | Slide: Page 20",
-    "slidePage": 20,
+    "explanation": " RRB JE 26 02 2019 SHIFT IV | Slide: Page 51",
+    "slidePage": 51,
     "source": {
       "file": "Science Magnet · Blood",
-      "page": 20,
+      "page": 51,
       "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=20",
       "slide": "data/slides/blood-p20.webp"
     },
@@ -34376,16 +34376,16 @@
     "options": [
       "Glucose",
       "Water",
-      "Ccarbon dioxide",
+      "Carbon dioxide",
       "Oxygen"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB Group-D - 01 09 2022 (Shift-III) | Slide: Page 7",
-    "slidePage": 7,
+    "explanation": " RRB Group-D - 01 09 2022 (Shift-III) | Slide: Page 25",
+    "slidePage": 25,
     "source": {
-      "file": "Science Magnet · Botany",
-      "page": 7,
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=7",
+      "file": "Science Magnet · Nutrition",
+      "page": 25,
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=25",
       "slide": "data/slides/botany-p7.webp"
     },
     "check": {
@@ -34410,8 +34410,9 @@
     "explanation": " RRB Group-D: 29 08 2022 (Shift-II) | Slide: Page 26",
     "slidePage": 26,
     "source": {
-      "file": "Science Magnet · Botany",
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
+      "file": "Science Magnet · Nutrition",
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=26",
+      "page": 26
     },
     "check": {
       "text": false,
@@ -34435,8 +34436,9 @@
     "explanation": " RRB Group-D - 20 09 2022 (Shift-III) | Slide: Page 27",
     "slidePage": 27,
     "source": {
-      "file": "Science Magnet · Botany",
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
+      "file": "Science Magnet · Nutrition",
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=27",
+      "page": 27
     },
     "check": {
       "text": false,
@@ -34460,8 +34462,9 @@
     "explanation": " RRB NTPC 09.03.2021 (Shift-I) | Slide: Page 28",
     "slidePage": 28,
     "source": {
-      "file": "Science Magnet · Botany",
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
+      "file": "Science Magnet · Nutrition",
+      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=28",
+      "page": 28
     },
     "check": {
       "text": false,
@@ -34537,8 +34540,8 @@
     "explanation": "Correct Answer: Option A | (Hand weeding) | Exam: RRB ALP 18/03/2026 Shift 3 | Slide: Page 3",
     "slidePage": 3,
     "source": {
-      "file": "Science Magnet · Botany",
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view"
+      "file": "Science Magnet · Biology Tests",
+      "page": 3
     },
     "check": {
       "text": false,
@@ -34684,11 +34687,11 @@
       "Auxin"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB NTPC 22.01.2021 (Shift-I) | Slide: Page 27",
-    "slidePage": 27,
+    "explanation": " RRB NTPC 22.01.2021 (Shift-I) | Slide: Page 26",
+    "slidePage": 26,
     "source": {
       "file": "Science Magnet · Botany",
-      "page": 27,
+      "page": 26,
       "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=27",
       "slide": "data/slides/botany-p27.webp"
     },
@@ -36375,8 +36378,8 @@
     "explanation": "Correct Answer: Option B | (Reproduction) | Exam: RRB Group-D, 26/12/2025 (Shift-3) | Slide: Page 17",
     "slidePage": 17,
     "source": {
-      "file": "Science Magnet · Cell",
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view"
+      "file": "Science Magnet · Biology Tests",
+      "page": 17
     },
     "check": {
       "text": false,
@@ -36426,7 +36429,8 @@
     "slidePage": 132,
     "source": {
       "file": "Science Magnet · Cell",
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view"
+      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view",
+      "page": 132
     },
     "check": {
       "text": false,
@@ -40092,11 +40096,11 @@
       "Flower"
     ],
     "correctAnswer": 1,
-    "explanation": " RRB Group-D 18-08-2022 (Shift-I) | Slide: Page 12",
-    "slidePage": 12,
+    "explanation": " RRB Group-D 18-08-2022 (Shift-I) | Slide: Page 23",
+    "slidePage": 23,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 12,
+      "page": 23,
       "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=12",
       "slide": "data/slides/environment-p12.webp"
     },
@@ -40670,11 +40674,11 @@
       "Plants"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB NTPC 22.01.2021 (Shift-I) Stage Ist | Slide: Page 64",
-    "slidePage": 64,
+    "explanation": " RRB NTPC 22.01.2021 (Shift-I) Stage Ist | Slide: Page 66",
+    "slidePage": 66,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 64,
+      "page": 66,
       "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
       "slide": "data/slides/environment-p64.webp"
     },
@@ -40716,17 +40720,17 @@
     "chapter": "Environment",
     "question": "Select the INCORRECT pair.",
     "options": [
-      "Plastic glass - non-biodegradable -",
-      "Kulhad-non-biodegradable -",
-      "Paper cup – biodegradable -",
-      "Vegetable – biodegradable -"
+      "Plastic glass - non-biodegradable",
+      "Kulhad-non-biodegradable",
+      "Paper cup – biodegradable",
+      "Vegetable – biodegradable"
     ],
     "correctAnswer": 1,
-    "explanation": " Railway Technician 24 12 2024 --> 1 st shift | Slide: Page 36",
-    "slidePage": 36,
+    "explanation": " Railway Technician 24 12 2024 --> 1 st shift | Slide: Page 68",
+    "slidePage": 68,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 36,
+      "page": 68,
       "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=36",
       "slide": "data/slides/environment-p36.webp"
     },
@@ -40901,11 +40905,11 @@
       "Nylon"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB Group-D-30 09 2022 (Shift-I) | Slide: Page 64",
-    "slidePage": 64,
+    "explanation": " RRB Group-D-30 09 2022 (Shift-I) | Slide: Page 76",
+    "slidePage": 76,
     "source": {
       "file": "Science Magnet · Environment",
-      "page": 64,
+      "page": 76,
       "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
       "slide": "data/slides/environment-p64.webp"
     },
@@ -41659,11 +41663,11 @@
       "79%"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D - 30 08 2022 (Shift-III) | Slide: Page 41",
-    "slidePage": 41,
+    "explanation": " RRB Group-D - 30 08 2022 (Shift-III) | Slide: Page 62",
+    "slidePage": 62,
     "source": {
       "file": "Science Magnet · Excretory System",
-      "page": 41,
+      "page": 62,
       "url": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/view#page=41",
       "slide": "data/slides/excretory-system-p41.webp"
     },
@@ -42264,11 +42268,11 @@
       "Pea plant"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB Group-D, 08 12 2025 (Shift-3) | Slide: Page 32",
-    "slidePage": 32,
+    "explanation": " RRB Group-D, 08 12 2025 (Shift-3) | Slide: Page 31",
+    "slidePage": 31,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 32,
+      "page": 31,
       "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=32",
       "slide": "data/slides/heredity-p32.webp"
     },
@@ -42545,11 +42549,11 @@
       "Thomas Hunt Morgan"
     ],
     "correctAnswer": 2,
-    "explanation": " RRB J.E 17 Dec 2024, Shift 3 | Slide: Page 51",
-    "slidePage": 51,
+    "explanation": " RRB J.E 17 Dec 2024, Shift 3 | Slide: Page 50",
+    "slidePage": 50,
     "source": {
       "file": "Science Magnet · Heredity",
-      "page": 51,
+      "page": 50,
       "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=51",
       "slide": "data/slides/heredity-p51.webp"
     },
@@ -43197,11 +43201,11 @@
       "Bhetki"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D, 15 12 2025 (Shift-2) | Slide: Page 98",
-    "slidePage": 98,
+    "explanation": " RRB Group-D, 15 12 2025 (Shift-2) | Slide: Page 106",
+    "slidePage": 106,
     "source": {
       "file": "Science Magnet · Improvement in Food Resources",
-      "page": 98,
+      "page": 106,
       "url": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/view#page=98",
       "slide": "data/slides/improvement-in-food-resources-p98.webp"
     },
@@ -44003,11 +44007,11 @@
       "Lichens"
     ],
     "correctAnswer": 2,
-    "explanation": " RRB Group-D- 16 09 2022 (Shift-III) | Slide: Page 7",
-    "slidePage": 7,
+    "explanation": " RRB Group-D- 16 09 2022 (Shift-III) | Slide: Page 9",
+    "slidePage": 9,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 7,
+      "page": 9,
       "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=7",
       "slide": "data/slides/nutrition-p7.webp"
     },
@@ -44738,11 +44742,11 @@
       "Niacin"
     ],
     "correctAnswer": 3,
-    "explanation": " RRB JE 28.05.2019 (Shift-I) | Slide: Page 81",
-    "slidePage": 81,
+    "explanation": " RRB JE 28.05.2019 (Shift-I) | Slide: Page 113",
+    "slidePage": 113,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "page": 81,
+      "page": 113,
       "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=81",
       "slide": "data/slides/nutrition-p81.webp"
     },
@@ -46368,11 +46372,11 @@
       "ovulation and implantation"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D 18-08-2022 (Shift-II) | Slide: Page 101",
-    "slidePage": 101,
+    "explanation": " RRB Group-D 18-08-2022 (Shift-II) | Slide: Page 99",
+    "slidePage": 99,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 101,
+      "page": 99,
       "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=101",
       "slide": "data/slides/reproduction-in-organisms-p101.webp"
     },
@@ -46742,14 +46746,14 @@
       "Pollination is the visit of insects to the flower.",
       "Pollination is the growth of pollen tube in ovule.",
       "Pollination is the germination of pollen grains.",
-      "stamen to stigma. ,"
+      "Pollination is the transfer of pollen grains from stamen to stigma."
     ],
     "correctAnswer": 3,
-    "explanation": " ALP Biology Questions | ALP 25 Nov 2024 3 rd Shift | Slide: Page 26",
-    "slidePage": 26,
+    "explanation": " ALP Biology Questions | ALP 25 Nov 2024 3 rd Shift | Slide: Page 136",
+    "slidePage": 136,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 26,
+      "page": 136,
       "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=26",
       "slide": "data/slides/reproduction-in-organisms-p26.webp"
     },
@@ -46866,17 +46870,17 @@
     "chapter": "Reproduction in Organisms",
     "question": "Seed dispersal helps in ______.",
     "options": [
-      "Promoting self-pollination -",
+      "Promoting self-pollination",
       "Growing plants in new geographical environments",
       "Producing new flowers on the same plant",
       "Increasing the size of seeds"
     ],
     "correctAnswer": 1,
-    "explanation": " RRB Group-D, 27 12 2025 (Shift-2) | Slide: Page 149",
-    "slidePage": 149,
+    "explanation": " RRB Group-D, 27 12 2025 (Shift-2) | Slide: Page 143",
+    "slidePage": 143,
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
-      "page": 149,
+      "page": 143,
       "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=149",
       "slide": "data/slides/reproduction-in-organisms-p149.webp"
     },
@@ -47524,11 +47528,11 @@
       "Ribs"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D-17 08 2022 (Shift-I) | Slide: Page 32",
-    "slidePage": 32,
+    "explanation": " RRB Group-D-17 08 2022 (Shift-I) | Slide: Page 36",
+    "slidePage": 36,
     "source": {
       "file": "Science Magnet · Respiratory System",
-      "page": 32,
+      "page": 36,
       "url": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/view#page=32",
       "slide": "data/slides/respiratory-system-p32.webp"
     },
@@ -47803,11 +47807,11 @@
       "Vacuoles block respiratory enzymes"
     ],
     "correctAnswer": 0,
-    "explanation": " RRB Group-D, 03 12 2025 (Shift-2) | Slide: Page 8",
-    "slidePage": 8,
+    "explanation": " RRB Group-D, 03 12 2025 (Shift-2) | Slide: Page 11",
+    "slidePage": 11,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 8,
+      "page": 11,
       "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=8",
       "slide": "data/slides/tissue-p8.webp"
     },
@@ -47905,11 +47909,11 @@
       "Vertical meristem"
     ],
     "correctAnswer": 1,
-    "explanation": " RRB ALP CBT 1 26th Nov 2024 | Slide: Page 12",
-    "slidePage": 12,
+    "explanation": " RRB ALP CBT 1 26th Nov 2024 | Slide: Page 20",
+    "slidePage": 20,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 12,
+      "page": 20,
       "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=12",
       "slide": "data/slides/tissue-p12.webp"
     },
@@ -48107,11 +48111,11 @@
       "Aerenchyma"
     ],
     "correctAnswer": 2,
-    "explanation": " RRB Group-D 07-12-2018 (Shift-III) | RRB Group-D 31-10-2018 (Shift-II) | Slide: Page 37",
-    "slidePage": 37,
+    "explanation": " RRB Group-D 07-12-2018 (Shift-III) | RRB Group-D 31-10-2018 (Shift-II) | Slide: Page 39",
+    "slidePage": 39,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 37,
+      "page": 39,
       "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=37",
       "slide": "data/slides/tissue-p37.webp"
     },
@@ -48284,11 +48288,11 @@
       "Conduction of lipid"
     ],
     "correctAnswer": 2,
-    "explanation": " ALP 25 Nov 2024 1st Shift | Slide: Page 33",
-    "slidePage": 33,
+    "explanation": " ALP 25 Nov 2024 1st Shift | Slide: Page 52",
+    "slidePage": 52,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 33,
+      "page": 52,
       "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=33",
       "slide": "data/slides/tissue-p33.webp"
     },
@@ -48536,11 +48540,11 @@
       "Lignin"
     ],
     "correctAnswer": 1,
-    "explanation": " RRB Group-D 05-12-2018 (Shift-I) | Slide: Page 64",
-    "slidePage": 64,
+    "explanation": " RRB Group-D 05-12-2018 (Shift-I) | Slide: Page 66",
+    "slidePage": 66,
     "source": {
       "file": "Science Magnet · Tissue",
-      "page": 64,
+      "page": 66,
       "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=64",
       "slide": "data/slides/tissue-p64.webp"
     },
@@ -49484,7 +49488,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "What is the colour of alkali? Previous years Questions",
+    "question": "What is the colour of alkali?",
     "options": [
       "Blue with phenolphthalein and yellow with methyl orange",
       "Pink with phenolphthalein and yellow with methyl orange",
@@ -49492,11 +49496,11 @@
       "Yellow with phenolphthalein and blue with methyl orange"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Pink with phenolphthalein and yellow with methyl orange) | Exam: RRB JE 24.05.2019 (Shift-III) | Slide: Page 15",
-    "slidePage": 15,
+    "explanation": "Correct Answer: Option B | (Pink with phenolphthalein and yellow with methyl orange) | Exam: RRB JE 24.05.2019 (Shift-III) | Slide: Page 18",
+    "slidePage": 18,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 15,
+      "page": 18,
       "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=15",
       "slide": "data/slides/acids-bases-salt-p15.webp"
     },
@@ -50471,11 +50475,11 @@
       "Sodium Hydroxide"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Washing soda) | Exam: ALP 29 Nov 2024 | 3 rd Shift | Slide: Page 110",
-    "slidePage": 110,
+    "explanation": "Correct Answer: Option C | (Washing soda) | Exam: ALP 29 Nov 2024 | 3 rd Shift | Slide: Page 113",
+    "slidePage": 113,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 110,
+      "page": 113,
       "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=110",
       "slide": "data/slides/acids-bases-salt-p110.webp"
     },
@@ -50498,11 +50502,11 @@
       "A basic salt"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (A basic salt) | Exam: Group-D- 16 09 2022 (Shift-III) | Slide: Page 93",
-    "slidePage": 93,
+    "explanation": "Correct Answer: Option D | (A basic salt) | Exam: Group-D- 16 09 2022 (Shift-III) | Slide: Page 114",
+    "slidePage": 114,
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
-      "page": 93,
+      "page": 114,
       "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=93",
       "slide": "data/slides/acids-bases-salt-p93.webp"
     },
@@ -51530,11 +51534,11 @@
       "C2H4, C2H6, C3H6, C4H8"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (C2H4, C2H6, C3H6, C4H8) | Exam: RRB JE 17-12-2024 (Shift-2) | Slide: Page 85",
-    "slidePage": 85,
+    "explanation": "Correct Answer: Option D | (C2H4, C2H6, C3H6, C4H8) | Exam: RRB JE 17-12-2024 (Shift-2) | Slide: Page 97",
+    "slidePage": 97,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 85,
+      "page": 97,
       "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
       "slide": "data/slides/carbon-and-its-compounds-p85.webp"
     },
@@ -51726,7 +51730,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Which of the following compounds is/are saturated?\n(i) C₂H₆\n(ii) C₃H₈\n(iii) C₂H₄",
+    "question": "Which of the following compounds is/are saturated?\n(i) C₂H₆\n(ii) C₃H₈\n(iii) C₂H₄\n(iv) C₄H₁₀",
     "options": [
       "i, ii and iv",
       "i, ii and iii",
@@ -51734,11 +51738,11 @@
       "ii, iii and iv"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A (i, ii and iv) | Exam: RRB ALP 29 11 24 Shift-I | Slide: Page 38",
-    "slidePage": 38,
+    "explanation": "Correct Answer: Option A (i, ii and iv) | Exam: RRB ALP 29 11 24 Shift-I | Slide: Page 39",
+    "slidePage": 39,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 38,
+      "page": 39,
       "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=38",
       "slide": "data/slides/carbon-and-its-compounds-p38.webp"
     },
@@ -52163,11 +52167,11 @@
       "-CO"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (-CHO) | Exam: RRB Group-D-12 2 25, Shift-II | Slide: Page 84",
-    "slidePage": 84,
+    "explanation": "Correct Answer: Option B | (-CHO) | Exam: RRB Group-D-12 2 25, Shift-II | Slide: Page 68",
+    "slidePage": 68,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 84,
+      "page": 68,
       "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=84",
       "slide": "data/slides/carbon-and-its-compounds-p84.webp"
     },
@@ -52411,17 +52415,17 @@
     "chapter": "Carbon and its Compounds",
     "question": "Which of the following is a homologous series?",
     "options": [
-      "Methane, Ethane, Ethene , ,",
-      "Ethene, Ethyne, Ethane , ,",
-      "Methane, Ethane, Propane , ,",
-      "Methane, Methanol, Methanoic acid , ,"
+      "Methane, Ethane, Ethene",
+      "Ethene, Ethyne, Ethane",
+      "Methane, Ethane, Propane",
+      "Methane, Methanol, Methanoic acid"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Methane, Ethane, Propane , ,) | Exam: RRB Group D 3 2 26 Shift-III | Slide: Page 85",
-    "slidePage": 85,
+    "explanation": "Correct Answer: Option C | (Methane, Ethane, Propane , ,) | Exam: RRB Group D 3 2 26 Shift-III | Slide: Page 94",
+    "slidePage": 94,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 85,
+      "page": 94,
       "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
       "slide": "data/slides/carbon-and-its-compounds-p85.webp"
     },
@@ -52968,14 +52972,14 @@
       "Ethane",
       "Bromoethane",
       "Ethanol",
-      "1,2-dibromoethane 1,2-"
+      "1,2-dibromoethane"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (1,2-dibromoethane 1,2-) | Exam: RRB Technician Grade III 09 03 26 Shift-II | Slide: Page 147",
-    "slidePage": 147,
+    "explanation": "Correct Answer: Option D | (1,2-dibromoethane 1,2-) | Exam: RRB Technician Grade III 09 03 26 Shift-II | Slide: Page 130",
+    "slidePage": 130,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
-      "page": 147,
+      "page": 130,
       "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=147",
       "slide": "data/slides/carbon-and-its-compounds-p147.webp"
     },
@@ -54298,15 +54302,15 @@
     "options": [
       "Burning of natural gas",
       "Calcium oxide reacts vigorously with water to produce slaked lime",
-      "Formation of water from H 2 (g) and O 2 (g) H 2 (g) O 2 (g)",
+      "Formation of water from H₂(g) and O₂(g)",
       "Silver chloride turns grey in sunlight"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Silver chloride turns grey in sunlight) | Exam: ALP 27 Nov 2024 | 2 nd Shift | Slide: Page 23",
-    "slidePage": 23,
+    "explanation": "Correct Answer: Option D | (Silver chloride turns grey in sunlight) | Exam: ALP 27 Nov 2024 | 2 nd Shift | Slide: Page 26",
+    "slidePage": 26,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 23,
+      "page": 26,
       "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=23",
       "slide": "data/slides/chemical-reactions-and-equations-p23.webp"
     },
@@ -54933,11 +54937,11 @@
       "Rough chemical equation"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Skeletal chemical equation) | Exam: RRB ALP & Tec. (31-08-18 Shift-II) | Slide: Page 6",
-    "slidePage": 6,
+    "explanation": "Correct Answer: Option B | (Skeletal chemical equation) | Exam: RRB ALP & Tec. (31-08-18 Shift-II) | Slide: Page 68",
+    "slidePage": 68,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 6,
+      "page": 68,
       "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=6",
       "slide": "data/slides/chemical-reactions-and-equations-p6.webp"
     },
@@ -55004,17 +55008,17 @@
     "chapter": "Chemical Reactions and Equations",
     "question": "In the reaction MnO 2  + 4HCI → MnCl 2  + 2H 2 O + Cl 2 :",
     "options": [
-      "MnO 2 is reduced to MnCl 2 MnO 2 , MnCl 2",
-      "MnCl 2 is reduced to MnO 2 MnCl 2 , MnO 2",
-      "MnO 2 is oxidized to MnCl 2 MnO 2 , MnCl 2",
-      "Mn does not undergo redox reaction Mn,"
+      "MnO₂ is reduced to MnCl₂",
+      "MnCl₂ is reduced to MnO₂",
+      "MnO₂ is oxidized to MnCl₂",
+      "Mn does not undergo redox reaction"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (MnO 2 is reduced to MnCl 2 MnO 2 , MnCl 2) | Exam: RRB Group-D- 02 09 2022 (Shift-III) | Slide: Page 61",
-    "slidePage": 61,
+    "explanation": "Correct Answer: Option A | (MnO 2 is reduced to MnCl 2 MnO 2 , MnCl 2) | Exam: RRB Group-D- 02 09 2022 (Shift-III) | Slide: Page 72",
+    "slidePage": 72,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
-      "page": 61,
+      "page": 72,
       "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=61",
       "slide": "data/slides/chemical-reactions-and-equations-p61.webp"
     },
@@ -55293,11 +55297,11 @@
       "Salt solution"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Sand and water) | Exam: RRB Group-D, 06 02 2026 (Shift-2) | Slide: Page 5",
-    "slidePage": 5,
+    "explanation": "Correct Answer: Option C | (Sand and water) | Exam: RRB Group-D, 06 02 2026 (Shift-2) | Slide: Page 8",
+    "slidePage": 8,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5,
+      "page": 8,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
       "slide": "data/slides/classification-of-matter-p5.webp"
     },
@@ -55470,11 +55474,11 @@
       "By filtration"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Chemically) | Exam: RRB Group-D, 09 01 2026 (Shift-3) | Slide: Page 4",
-    "slidePage": 4,
+    "explanation": "Correct Answer: Option A | (Chemically) | Exam: RRB Group-D, 09 01 2026 (Shift-3) | Slide: Page 37",
+    "slidePage": 37,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 4,
+      "page": 37,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=4",
       "slide": "data/slides/classification-of-matter-p4.webp"
     },
@@ -55491,17 +55495,17 @@
     "chapter": "Classification of Matter",
     "question": "Which of the following is a compound?",
     "options": [
-      "Salt (NaCl) ( NaCl)",
+      "Salt (NaCl)",
       "Soil",
       "Lemon juice",
       "Air"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Salt (NaCl) ( NaCl)) | Exam: RRB Group-D, 22 12 2025 (Shift-2) | Slide: Page 5",
-    "slidePage": 5,
+    "explanation": "Correct Answer: Option A | (Salt (NaCl) ( NaCl)) | Exam: RRB Group-D, 22 12 2025 (Shift-2) | Slide: Page 38",
+    "slidePage": 38,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5,
+      "page": 38,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
       "slide": "data/slides/classification-of-matter-p5.webp"
     },
@@ -55549,11 +55553,11 @@
       "Sand and iron filings"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Air) | Exam: RRB Group-D, 03 12 2025 (Shift-3) | Slide: Page 5",
-    "slidePage": 5,
+    "explanation": "Correct Answer: Option A | (Air) | Exam: RRB Group-D, 03 12 2025 (Shift-3) | Slide: Page 44",
+    "slidePage": 44,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 5,
+      "page": 44,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
       "slide": "data/slides/classification-of-matter-p5.webp"
     },
@@ -55651,11 +55655,11 @@
       "An element"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (A homogeneous mixture) | Exam: RRB Group-D, 17 12 2025 (Shift-3) | Slide: Page 20",
-    "slidePage": 20,
+    "explanation": "Correct Answer: Option B | (A homogeneous mixture) | Exam: RRB Group-D, 17 12 2025 (Shift-3) | Slide: Page 48",
+    "slidePage": 48,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 20,
+      "page": 48,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=20",
       "slide": "data/slides/classification-of-matter-p20.webp"
     },
@@ -56003,11 +56007,11 @@
       "Uniform mixture with large particles"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Heterogeneous mixture with fine particles) | Exam: RRB Group-D, 09 02 2026 (Shift-2) | Slide: Page 11",
-    "slidePage": 11,
+    "explanation": "Correct Answer: Option C | (Heterogeneous mixture with fine particles) | Exam: RRB Group-D, 09 02 2026 (Shift-2) | Slide: Page 71",
+    "slidePage": 71,
     "source": {
       "file": "Science Magnet · Classification of Matter",
-      "page": 11,
+      "page": 71,
       "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=11",
       "slide": "data/slides/classification-of-matter-p11.webp"
     },
@@ -57386,17 +57390,17 @@
     "chapter": "Matter",
     "question": "Which of the following is a suspension?",
     "options": [
-      "Gases are dispersed in solids ,",
-      "Gases are dispersed in liquids ,",
-      "Solids are dispersed in solids ,",
-      "Solids are dispersed in liquids ,"
+      "Gases are dispersed in solids",
+      "Gases are dispersed in liquids",
+      "Solids are dispersed in solids",
+      "Solids are dispersed in liquids"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Solids are dispersed in liquids ,) | Exam: RRB Technicians Grade 3 26 12 2024 Shift 3 | Slide: Page 66",
-    "slidePage": 66,
+    "explanation": "Correct Answer: Option D | (Solids are dispersed in liquids ,) | Exam: RRB Technicians Grade 3 26 12 2024 Shift 3 | Slide: Page 107",
+    "slidePage": 107,
     "source": {
       "file": "Science Magnet · Matter",
-      "page": 66,
+      "page": 107,
       "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=66",
       "slide": "data/slides/matter-p66.webp"
     },
@@ -57594,11 +57598,11 @@
       "C"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Au) | Exam: RRB ALP & Tec. (31-08-18 Shift-I) | Slide: Page 9",
-    "slidePage": 9,
+    "explanation": "Correct Answer: Option B | (Au) | Exam: RRB ALP & Tec. (31-08-18 Shift-I) | Slide: Page 14",
+    "slidePage": 14,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 9,
+      "page": 14,
       "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=9",
       "slide": "data/slides/metals-non-metals-p9.webp"
     },
@@ -57796,11 +57800,11 @@
       "Amphoteric"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Alkaline) | Exam: RRB Group-D - 24 08 2022 (Shift-I) | Slide: Page 23",
-    "slidePage": 23,
+    "explanation": "Correct Answer: Option A | (Alkaline) | Exam: RRB Group-D - 24 08 2022 (Shift-I) | Slide: Page 31",
+    "slidePage": 31,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 23,
+      "page": 31,
       "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=23",
       "slide": "data/slides/metals-non-metals-p23.webp"
     },
@@ -58150,11 +58154,11 @@
       "Water"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Kerosene) | Exam: RRB Group-D 22-10-2018 (Shift-I) | Slide: Page 39",
-    "slidePage": 39,
+    "explanation": "Correct Answer: Option A | (Kerosene) | Exam: RRB Group-D 22-10-2018 (Shift-I) | Slide: Page 51",
+    "slidePage": 51,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
-      "page": 39,
+      "page": 51,
       "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=39",
       "slide": "data/slides/metals-non-metals-p39.webp"
     },
@@ -59306,11 +59310,11 @@
       "Protons and neutrons"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Protons and neutrons) | Exam: RRB JE 29.05.2019 (Shift-I) | Slide: Page 8",
-    "slidePage": 8,
+    "explanation": "Correct Answer: Option D | (Protons and neutrons) | Exam: RRB JE 29.05.2019 (Shift-I) | Slide: Page 26",
+    "slidePage": 26,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 8,
+      "page": 26,
       "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=8",
       "slide": "data/slides/structure-of-atom-p8.webp"
     },
@@ -59883,11 +59887,11 @@
       "160 u"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (180 u) | Exam: RRB Group-D, 02 12 2025 (Shift-3) | Slide: Page 48",
-    "slidePage": 48,
+    "explanation": "Correct Answer: Option A | (180 u) | Exam: RRB Group-D, 02 12 2025 (Shift-3) | Slide: Page 57",
+    "slidePage": 57,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 48,
+      "page": 57,
       "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=48",
       "slide": "data/slides/structure-of-atom-p48.webp"
     },
@@ -59935,11 +59939,11 @@
       "2, 8"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (2, 6) | Exam: RRB Group-D, 12 12 2025 (Shift-2) | Slide: Page 81",
-    "slidePage": 81,
+    "explanation": "Correct Answer: Option C | (2, 6) | Exam: RRB Group-D, 12 12 2025 (Shift-2) | Slide: Page 94",
+    "slidePage": 94,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 81,
+      "page": 94,
       "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=81",
       "slide": "data/slides/structure-of-atom-p81.webp"
     },
@@ -60593,11 +60597,11 @@
       "Electrons"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Protons) | Exam: RRB Group-D, 29/12/2025 (Shift-3) | Slide: Page 62",
-    "slidePage": 62,
+    "explanation": "Correct Answer: Option B | (Protons) | Exam: RRB Group-D, 29/12/2025 (Shift-3) | Slide: Page 65",
+    "slidePage": 65,
     "source": {
       "file": "Science Magnet · Structure of Atom",
-      "page": 62,
+      "page": 65,
       "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=62",
       "slide": "data/slides/structure-of-atom-p62.webp"
     },
@@ -63586,7 +63590,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Gravitation",
-    "question": "What is the SI unit of pressure? Let’s Crack Science",
+    "question": "What is the SI unit of pressure?",
     "options": [
       "N m",
       "N",
@@ -63713,12 +63717,12 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Gravitation",
-    "question": "Density is the ratio of which of the following? Let’s Crack Science",
+    "question": "Density is the ratio of which of the following?",
     "options": [
-      "Mass + Volume +",
-      "Volume",
-      "Mass",
-      "Mass × Volume ×"
+      "Mass + Volume",
+      "Volume / Mass",
+      "Mass / Volume",
+      "Mass × Volume"
     ],
     "correctAnswer": 2,
     "explanation": "Correct Answer: Option C | (Mass) | Exam: RRB Group-D 05-12-2018 (Shift-II) | Slide: Page 81",
@@ -63873,11 +63877,11 @@
       "N m⁻²"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (N m⁻²) | Exam: RRB Technicians Grade III 30 12 2024 Shift 1 | Slide: Page 68",
-    "slidePage": 68,
+    "explanation": "Correct Answer: Option D | (N m⁻²) | Exam: RRB Technicians Grade III 30 12 2024 Shift 1 | Slide: Page 70",
+    "slidePage": 70,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 68,
+      "page": 70,
       "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=68",
       "slide": "data/slides/gravitation-p68.webp"
     },
@@ -64294,17 +64298,17 @@
     "chapter": "Gravitation",
     "question": "Which of the following is INCORRECT?",
     "options": [
-      "Buoyant force = weight of fluid displaced =",
+      "Buoyant force = weight of fluid displaced",
       "Buoyant force is maximum for fully submerged body.",
       "Buoyant force is independent of fluid density.",
       "Buoyant force acts upwards."
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Buoyant force is independent of fluid density.) | Exam: RRB Group-D, 30 12 2025 (Shift-2) | Slide: Page 76",
-    "slidePage": 76,
+    "explanation": "Correct Answer: Option C | (Buoyant force is independent of fluid density.) | Exam: RRB Group-D, 30 12 2025 (Shift-2) | Slide: Page 98",
+    "slidePage": 98,
     "source": {
       "file": "Science Magnet · Gravitation",
-      "page": 76,
+      "page": 98,
       "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=76",
       "slide": "data/slides/gravitation-p76.webp"
     },
@@ -64646,10 +64650,10 @@
     "chapter": "Gravitation",
     "question": "Which of the following equations is true, when two objects A and B of masses M and m are separated by a distance d? F is the force of attraction between them, and G is the universal gravitational constant.",
     "options": [
-      "F = G.M.m d 2",
-      "F = G.M d 2",
-      "F = G.M.m d",
-      "F = d 2 G"
+      "F = G.M.m / d²",
+      "F = G.M / d²",
+      "F = G.M.m / d",
+      "F = G / d²"
     ],
     "correctAnswer": 0,
     "explanation": "Correct Answer: Option A (F = G.M.m d 2) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 18",
@@ -65227,7 +65231,7 @@
     "options": [
       "Cylindrical",
       "Concave",
-      "convex-concave -",
+      "Convex-concave",
       "Convex"
     ],
     "correctAnswer": 1,
@@ -65316,7 +65320,8 @@
     "slidePage": 44,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view"
+      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view",
+      "page": 44
     },
     "check": {
       "text": false,
@@ -66935,17 +66940,17 @@
     "chapter": "Motion",
     "question": "In a v–t graph for uniform acceleration, which of the following is NOT correct?",
     "options": [
-      "The slope of the v–t graph is constant. v–t",
-      "The v–t graph is always curved. v–t",
+      "The slope of the v–t graph is constant.",
+      "The v–t graph is always curved.",
       "Positive slope indicates acceleration.",
-      "The area under the v–t graph gives displacement. v–t"
+      "The area under the v–t graph gives displacement."
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (The v–t graph is always curved. v–t) | Exam: RRB Group-D, 10 02 2026 (Shift-3) | Slide: Page 72",
-    "slidePage": 72,
+    "explanation": "Correct Answer: Option B | (The v–t graph is always curved. v–t) | Exam: RRB Group-D, 10 02 2026 (Shift-3) | Slide: Page 81",
+    "slidePage": 81,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 72,
+      "page": 81,
       "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=72",
       "slide": "data/slides/motion-p72.webp"
     },
@@ -67121,11 +67126,11 @@
       "Motion along a hemisphere"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (Uniform circular motion) | Exam: RRB Technicians Grade III 29 12 2024 Shift 3 | Slide: Page 87",
-    "slidePage": 87,
+    "explanation": "Correct Answer: Option B | (Uniform circular motion) | Exam: RRB Technicians Grade III 29 12 2024 Shift 3 | Slide: Page 94",
+    "slidePage": 94,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 87,
+      "page": 94,
       "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=87",
       "slide": "data/slides/motion-p87.webp"
     },
@@ -67198,11 +67203,11 @@
       "A car driving straight on a highway"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (A satellite in a circular orbit around the earth.) | Exam: RRB Technicians Grade III 20 12 2024 Shift 3 | Slide: Page 92",
-    "slidePage": 92,
+    "explanation": "Correct Answer: Option C | (A satellite in a circular orbit around the earth.) | Exam: RRB Technicians Grade III 20 12 2024 Shift 3 | Slide: Page 97",
+    "slidePage": 97,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 92,
+      "page": 97,
       "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=92",
       "slide": "data/slides/motion-p92.webp"
     },
@@ -67450,11 +67455,11 @@
       "5 m/s"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (25 m/s) | Exam: RRB Practice Question | Slide: Page 50",
-    "slidePage": 50,
+    "explanation": "Correct Answer: Option B | (25 m/s) | Exam: RRB Practice Question | Slide: Page 55",
+    "slidePage": 55,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 50,
+      "page": 55,
       "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
       "slide": "data/slides/motion-p50.webp"
     },
@@ -67654,11 +67659,11 @@
       "250 m"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (150 m) | Exam: RRB Practice Question | Slide: Page 50",
-    "slidePage": 50,
+    "explanation": "Correct Answer: Option A | (150 m) | Exam: RRB Practice Question | Slide: Page 64",
+    "slidePage": 64,
     "source": {
       "file": "Science Magnet · Motion",
-      "page": 50,
+      "page": 64,
       "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
       "slide": "data/slides/motion-p50.webp"
     },
@@ -68242,11 +68247,11 @@
       "R"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C (R/2) | Exam: RRB Group-D 23-08-2022 (Shift-II) | Slide: Page 33",
-    "slidePage": 33,
+    "explanation": "Correct Answer: Option C (R/2) | Exam: RRB Group-D 23-08-2022 (Shift-II) | Slide: Page 39",
+    "slidePage": 39,
     "source": {
       "file": "Science Magnet · Reflection of Light",
-      "page": 33,
+      "page": 39,
       "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=33",
       "slide": "data/slides/reflection-of-light-p33.webp"
     },
@@ -69169,7 +69174,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Refraction",
-    "question": "You are given three medium A, B and C of refractive index 1.33, 1.65 and 1.46. The medium in which the light will travel fastest is Refraction of Light",
+    "question": "You are given three medium A, B and C of refractive index 1.33, 1.65 and 1.46. The medium in which the light will travel fastest is",
     "options": [
       "A",
       "B",
@@ -69221,16 +69226,16 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Refraction",
-    "question": "Figure shows a ray of light as it travels from medium A to medium B. Refractive index of the medium B relative to medium A is Refraction of Light",
+    "question": "Figure shows a ray of light as it travels from medium A to medium B. Refractive index of the medium B relative to medium A is",
     "diagram": "data/diagrams/Physics_REFRACTION_Q3.png",
     "options": [
-      "root3/root2",
+      "√3 / √2",
       "2/3",
       "1/2",
       "2"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (2) | Slide: Page 19",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A | (√3 / √2 — Snell's Law: sin 60° / sin 45°) | Slide: Page 19",
     "slidePage": 19,
     "source": {
       "file": "Science Magnet · Refraction",
@@ -69427,17 +69432,17 @@
     "chapter": "Refraction",
     "question": "What is the speed of light in air?",
     "options": [
-      "3 × 10 5  m",
-      "3 × 10 4  m",
-      "3 × 10 8  m",
-      "3 × 10 6  m"
+      "3 × 10⁵ m/s",
+      "3 × 10⁴ m/s",
+      "3 × 10⁸ m/s",
+      "3 × 10⁶ m/s"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3 × 10 8  m) | Exam: RRB JE 24.05.2019 (Shift-I) | Slide: Page 5",
-    "slidePage": 5,
+    "explanation": "Correct Answer: Option C | (3 × 10 8  m) | Exam: RRB JE 24.05.2019 (Shift-I) | Slide: Page 28",
+    "slidePage": 28,
     "source": {
       "file": "Science Magnet · Refraction",
-      "page": 5,
+      "page": 28,
       "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=5",
       "slide": "data/slides/refraction-of-light-p5.webp"
     },
@@ -71243,7 +71248,7 @@
       "The child on the steeper slide reaches with a greater speed"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Both reach with the same speed) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). From conservation of mechanical energy on a frictionless track, m*g*h = (1/2)*m*v^2, which yields v = sqrt(2*g*h). The final speed depends only on the vertical drop height h, and is completely independent of the mass of the child and the shape of the slide.",
+    "explanation": "Correct Answer: Option C | (Both reach with the same speed) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). From conservation of mechanical energy on a frictionless track, m*g*h = (1/2)*m*v², which yields v = sqrt(2*g*h). The final speed depends only on the vertical drop height h, and is completely independent of the mass of the child and the shape of the slide.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 1",
       "page": 9
@@ -71603,7 +71608,7 @@
       "1.5 kW"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (3 kW) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Work done W = m * g * h = 600 kg * 10 m/s^2 * 25 m = 150,000 J. Power P = W / t = 150,000 J / 50 s = 3,000 W = 3 kW.",
+    "explanation": "Correct Answer: Option B | (3 kW) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Work done W = m * g * h = 600 kg * 10 m/s² * 25 m = 150,000 J. Power P = W / t = 150,000 J / 50 s = 3,000 W = 3 kW.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 2",
       "page": 14
@@ -71939,7 +71944,7 @@
       "7.2 × 10⁶ J"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7.2 × 10⁶ J) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Solar insolation = 1 kW/m^2 = 1,000 W/m^2. Incident power on 2 m^2 panel = 2,000 W. Over 1 hour (3600 seconds), energy = Power * time = 2,000 W * 3600 s = 7.2 * 10^6 J.",
+    "explanation": "Correct Answer: Option D | (7.2 × 10⁶ J) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Solar insolation = 1 kW/m² = 1,000 W/m^2. Incident power on 2 m² panel = 2,000 W. Over 1 hour (3600 seconds), energy = Power * time = 2,000 W * 3600 s = 7.2 * 10⁶ J.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 3_1 1",
       "page": 6
@@ -72229,7 +72234,7 @@
       "All of 1, 2 and 3"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (All of 1, 2 and 3) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: maximum shell capacity is given by Bohr-Bury rule 2*n^2; for L-shell (n=2), 2*(2^2) = 8 electrons. Statement 2 is correct: carbon (Z=6) has electron configuration K=2, L=4. Statement 3 is correct: sodium (Z=11) has configuration K=2, L=8, M=1.",
+    "explanation": "Correct Answer: Option D | (All of 1, 2 and 3) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: maximum shell capacity is given by Bohr-Bury rule 2*n²; for L-shell (n=2), 2*(2² = 8 electrons. Statement 2 is correct: carbon (Z=6) has electron configuration K=2, L=4. Statement 3 is correct: sodium (Z=11) has configuration K=2, L=8, M=1.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 3_1 1",
       "page": 32
@@ -72253,7 +72258,7 @@
       "2 : 3"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (1 : 2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). A magnesium atom loses two valence electrons to form Mg^2+, while each chlorine atom accepts one electron to form Cl^-. To achieve electrical neutrality, one Mg^2+ cation combines with two Cl^- anions, forming MgCl2 in a 1 : 2 ratio.",
+    "explanation": "Correct Answer: Option A | (1 : 2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). A magnesium atom loses two valence electrons to form Mg²+, while each chlorine atom accepts one electron to form Cl^-. To achieve electrical neutrality, one Mg²+ cation combines with two Cl^- anions, forming MgCl2 in a 1 : 2 ratio.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 3_1 1",
       "page": 33
@@ -72421,7 +72426,7 @@
       "7.2 × 10¹⁹"
     ],
     "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (7.2 × 10¹⁹) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Current I = 3 A, time t = 4 s. Total transferred charge Q = I * t = 3 * 4 = 12 C. The elementary charge of an electron is e ≈ 1.6 * 10^-19 C. Number of electrons n = Q / e = 12 / (1.6 * 10^-19) = 7.5 * 10^19 ≈ 7.2 * 10^19.",
+    "explanation": "Correct Answer: Option D | (7.2 × 10¹⁹) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Current I = 3 A, time t = 4 s. Total transferred charge Q = I * t = 3 * 4 = 12 C. The elementary charge of an electron is e ≈ 1.6 * 10⁻¹⁹ C. Number of electrons n = Q / e = 12 / (1.6 * 10⁻¹⁹ = 7.5 * 10¹⁹ ≈ 7.2 * 10^19.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 4",
       "page": 8
@@ -72973,7 +72978,7 @@
       "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | ((a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). K+ is the potassium cation (a-iv). Ca^2+ is the divalent calcium cation (b-iii). Fe^3+ is the trivalent ferric (iron III) cation (c-i). F^- is the fluoride anion (d-ii).",
+    "explanation": "Correct Answer: Option A | ((a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). K+ is the potassium cation (a-iv). Ca²+ is the divalent calcium cation (b-iii). Fe³+ is the trivalent ferric (iron III) cation (c-i). F^- is the fluoride anion (d-ii).",
     "source": {
       "file": "Science Magnet · 300 Questions Part 5",
       "page": 16
@@ -73501,7 +73506,7 @@
       "All of 1, 2 and 3"
     ],
     "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Only 1 and 3) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: soaps are water-soluble sodium or potassium salts of long-chain fatty acids (e.g., sodium stearate). Statement 2 is incorrect: colloidal soap micelles are large enough to scatter incident light beams, causing soap solutions to appear translucent or cloudy (Tyndall effect). Statement 3 is correct: synthetic detergents do not form insoluble scum with Ca^2+ and Mg^2+ ions in hard water.",
+    "explanation": "Correct Answer: Option C | (Only 1 and 3) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: soaps are water-soluble sodium or potassium salts of long-chain fatty acids (e.g., sodium stearate). Statement 2 is incorrect: colloidal soap micelles are large enough to scatter incident light beams, causing soap solutions to appear translucent or cloudy (Tyndall effect). Statement 3 is correct: synthetic detergents do not form insoluble scum with Ca²+ and Mg²+ ions in hard water.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 6",
       "page": 20
@@ -73573,7 +73578,7 @@
       "3.6"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (1.25) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). The relative refractive index of medium 2 with respect to medium 1 is n21 = v1 / v2 = (2.0 * 10^8 m/s) / (1.6 * 10^8 m/s) = 2.0 / 1.6 = 1.25.",
+    "explanation": "Correct Answer: Option B | (1.25) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). The relative refractive index of medium 2 with respect to medium 1 is n21 = v1 / v2 = (2.0 * 10⁸ m/s) / (1.6 * 10⁸ m/s) = 2.0 / 1.6 = 1.25.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 6",
       "page": 28
@@ -73623,7 +73628,7 @@
       "−2.67 m/s²"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (−2 m/s²) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Initial velocity u = 8 m/s, final velocity v = 2 m/s, time t = 3 s. Acceleration a = (v - u) / t = (2 - 8) / 3 = -6 / 3 = -2 m/s^2 (representing deceleration).",
+    "explanation": "Correct Answer: Option B | (−2 m/s²) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Initial velocity u = 8 m/s, final velocity v = 2 m/s, time t = 3 s. Acceleration a = (v - u) / t = (2 - 8) / 3 = -6 / 3 = -2 m/s² (representing deceleration).",
     "source": {
       "file": "Science Magnet · 300 Questions Part 6",
       "page": 31
@@ -74463,7 +74468,7 @@
       "10 Ω"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0.1 Ω) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Resistance R = ρ * L / A = (1.62 * 10^-8 Ω*m * 10 m) / (1.62 * 10^-6 m^2) = (1.62 * 10^-7) / (1.62 * 10^-6) = 0.1 Ω.",
+    "explanation": "Correct Answer: Option A | (0.1 Ω) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Resistance R = ρ * L / A = (1.62 * 10⁻⁸ Ω*m * 10 m) / (1.62 * 10⁻⁶ m² = (1.62 * 10⁻⁷ / (1.62 * 10⁻⁶ = 0.1 Ω.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 8 (fixed)",
       "page": 13
@@ -74703,7 +74708,7 @@
       "1.5"
     ],
     "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Refractive index n = speed of light in vacuum (c) / speed of light in medium (v) = (3 * 10^8 m/s) / (1.5 * 10^8 m/s) = 2.0.",
+    "explanation": "Correct Answer: Option B | (2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Refractive index n = speed of light in vacuum (c) / speed of light in medium (v) = (3 * 10⁸ m/s) / (1.5 * 10⁸ m/s) = 2.0.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 8 (fixed)",
       "page": 34
@@ -75183,7 +75188,7 @@
       "All of 1, 2 and 3"
     ],
     "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Only 1 and 2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: atmospheric CO2 dissolves into ocean surface waters, reacting with H2O to form carbonic acid, bicarbonate (HCO3-), and carbonate (CO3^2-) ions. Statement 2 is correct: marine phytoplankton fix dissolved inorganic carbon during aquatic photosynthesis. Statement 3 is incorrect: oceanic CO2 flux is a bidirectional dynamic equilibrium with outgassing occurring in warm tropical waters.",
+    "explanation": "Correct Answer: Option A | (Only 1 and 2) | Exam: RRB Science Top 300 Series (Group D / ALP / Tech / JE). Statement 1 is correct: atmospheric CO2 dissolves into ocean surface waters, reacting with H2O to form carbonic acid, bicarbonate (HCO3-), and carbonate (CO3²-) ions. Statement 2 is correct: marine phytoplankton fix dissolved inorganic carbon during aquatic photosynthesis. Statement 3 is incorrect: oceanic CO2 flux is a bidirectional dynamic equilibrium with outgassing occurring in warm tropical waters.",
     "source": {
       "file": "Science Magnet · 300 Questions Part 9",
       "page": 41
