@@ -4135,7 +4135,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -4733,7 +4733,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -5331,7 +5331,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -7879,7 +7879,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -8304,7 +8304,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -9860,7 +9860,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -16425,7 +16425,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -16475,7 +16475,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -17350,7 +17350,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -17725,7 +17725,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -17977,7 +17977,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -18813,7 +18813,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -18863,7 +18863,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -18988,7 +18988,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -19013,7 +19013,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -19163,7 +19163,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -19363,7 +19363,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -20572,7 +20572,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Discount",
-    "question": "Marked price of an article is ₹28000. It can be sold at one of the following ways: Way A: A single discount of 24 percent. Way B: Two successive discounts of 16 percent and 10 percent. Which way will have lowest selling price and what will be the value of it?",
+    "question": "Marked price of an article is ₹28000. It can be sold at one of the following ways:\nWay A: A single discount of 24 percent.\nWay B: Two successive discounts of 16 percent and 10 percent.\nWhich way will have lowest selling price and what will be the value of it?",
     "options": [
       "Way A, ₹21168",
       "Way B, ₹21280",
@@ -21272,7 +21272,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Discount",
-    "question": "A shopkeeper offers the following two discount schemes. A) Buy 3 get 4 free  B) Buy 5 get 6 free. Which scheme has the maximum discount percentage?",
+    "question": "A shopkeeper offers the following two discount schemes.\nA) Buy 3 get 4 free\nB) Buy 5 get 6 free.\nWhich scheme has the maximum discount percentage?",
     "options": [
       "A",
       "No discount is given in scheme A",
@@ -21738,7 +21738,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -21754,8 +21754,8 @@
       "20",
       "15"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D (15) | Exam: SSC CPO 2021",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (8) | Exam: SSC CPO 2021",
     "source": {
       "file": "Dixit Sir · Time & Work",
       "q": 13,
@@ -21989,7 +21989,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22064,7 +22064,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22189,7 +22189,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22264,7 +22264,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22641,7 +22641,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22716,7 +22716,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22891,7 +22891,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22941,7 +22941,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -22991,7 +22991,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -23066,7 +23066,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -23091,7 +23091,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -23516,7 +23516,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -24016,7 +24016,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -24141,7 +24141,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -25316,7 +25316,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -25391,7 +25391,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -26066,7 +26066,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -27246,8 +27246,8 @@
       "2:3",
       "Can’t be Determined"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D (Can’t be Determined)",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (7:5)",
     "source": {
       "file": "Dixit Sir · Time, Speed & Distance",
       "q": 1,
@@ -29472,7 +29472,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -31673,7 +31673,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -32464,7 +32464,7 @@
     "subject": "Quantitative Aptitude",
     "subSubject": "Quantitative Aptitude",
     "chapter": "Boat & Stream",
-    "question": "Time taken by boat to co ver a distance of x km upstream is 3 hours more than the time taken by the boat to cover the same distance downstream. Speed of the boat upstream is 8 km/hr. Which of the following statement(s) is/are correct? I. If the value of x is 48 km, then the speed of the boat in downstream is 16 km/hr. II. If the speed of boat in downstream is 12 km/hr, then the value of x is 48 km.",
+    "question": "Time taken by boat to co ver a distance of x km upstream is 3 hours more than the time taken by the boat to cover the same distance downstream. Speed of the boat upstream is 8 km/hr. Which of the following statement(s) is/are correct?\nI. If the value of x is 48 km, then the speed of the boat in downstream is 16 km/hr.\nII. If the speed of boat in downstream is 12 km/hr, then the value of x is 48 km.",
     "options": [
       "Neither I nor II",
       "Only II",
@@ -34155,7 +34155,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -34477,7 +34477,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -34542,8 +34542,8 @@
       "Ammonia, urea and amino acids ,",
       "Growth promoting substances"
     ],
-    "correctAnswer": 3,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 07-10-2022 (Shift-I) | RRB Group-D 25-08-2022 (Shift-II) | Slide: Page 10",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Resins and gums) | Official Science Magnet question. | Exam: RRB Group-D 07-10-2022 (Shift-I) | RRB Group-D 25-08-2022 (Shift-II) | Slide: Page 10",
     "slidePage": 10,
     "source": {
       "file": "Science Magnet · Botany",
@@ -34552,7 +34552,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -35117,8 +35117,8 @@
       "Muscle cell",
       "Ovum (Egg cell)"
     ],
-    "correctAnswer": 0,
-    "explanation": "Official Science Magnet question. | Slide: Page 22",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Ovum (Egg cell)) | Official Science Magnet question. | Slide: Page 22",
     "slidePage": 22,
     "source": {
       "file": "Science Magnet · Cell",
@@ -35127,7 +35127,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -35276,7 +35276,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -35292,8 +35292,8 @@
       "Diffusion",
       "Osmosis"
     ],
-    "correctAnswer": 1,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 22-09-2022 Level 1 (Shift-2) | Slide: Page 41",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Osmosis) | Official Science Magnet question. | Exam: RRB Group-D 22-09-2022 Level 1 (Shift-2) | Slide: Page 41",
     "slidePage": 41,
     "source": {
       "file": "Science Magnet · Cell",
@@ -35302,7 +35302,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -35876,7 +35876,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -36051,7 +36051,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -36484,7 +36484,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Circulatory System",
-    "question": "Circulatory System Match the columns. I-A; II-C: III-B Group-I Group-B I. Heart",
+    "question": "Circulatory System Match the columns. I-A; II-C: III-B\nGroup-I Group-B\nI. Heart",
     "options": [
       "Carries oxygenated blood",
       "Pumping organ",
@@ -36692,8 +36692,8 @@
       "Blood leaves the ventricle",
       "Blood enters the ventricle"
     ],
-    "correctAnswer": 2,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 18-08-2022 (Shift-II) | Slide: Page 36",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Blood enters the ventricle) | Official Science Magnet question. | Exam: RRB Group-D 18-08-2022 (Shift-II) | Slide: Page 36",
     "slidePage": 36,
     "source": {
       "file": "Science Magnet · Circulatory System",
@@ -36702,7 +36702,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -36810,7 +36810,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Circulatory System",
-    "question": "Match Column A (Organism) with Column B (Number of Heart Chambers): Column A Column B p. Fish 1. Two PRACTICE QUESTIONS",
+    "question": "Match Column A (Organism) with Column B (Number of Heart Chambers):\nColumn A Column B\np. Fish 1. Two PRACTICE QUESTIONS",
     "options": [
       "p-2, q-3, r-4, s-1",
       "p-3, q-2, r-4, s-1",
@@ -37135,7 +37135,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Circulatory System",
-    "question": "Match Column A (Valve) with Column B (Location): Column A Column B p. Tricuspid valve 1. Between left atrium & left ventricle q. Mitral valve 2. Between right atrium & right ventricle PRACTICE QUESTIONS 10",
+    "question": "Match Column A (Valve) with Column B (Location):\nColumn A Column B\np. Tricuspid valve 1. Between left atrium & left ventricle\nq. Mitral valve 2. Between right atrium & right ventricle PRACTICE QUESTIONS 10",
     "options": [
       "p-2, q-1, r-3, s-4",
       "p-1, q-2, r-4, s-3",
@@ -37292,8 +37292,8 @@
       "Increase in migratory bird populations",
       "Introduction of common widespread species"
     ],
-    "correctAnswer": 1,
-    "explanation": "Official Science Magnet question. | Exam: RRB GROUP D 20-08-2026 Shift 3 | Slide: Page 89",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (Loss of endemic species unique to the region) | Official Science Magnet question. | Exam: RRB GROUP D 20-08-2026 Shift 3 | Slide: Page 89",
     "slidePage": 89,
     "source": {
       "file": "Science Magnet · Classification of Organisms",
@@ -37302,7 +37302,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -38342,8 +38342,8 @@
       "10",
       "4"
     ],
-    "correctAnswer": 3,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 06 10 2022 (Shift-I) | Slide: Page 17",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (8) | Official Science Magnet question. | Exam: RRB Group-D 06 10 2022 (Shift-I) | Slide: Page 17",
     "slidePage": 17,
     "source": {
       "file": "Science Magnet · Digestive System",
@@ -38352,7 +38352,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -39794,8 +39794,8 @@
       "Kitchen garden",
       "Hydroponics"
     ],
-    "correctAnswer": 0,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group D 05 12 25 Shift-II | Slide: Page 7",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Forests) | Official Science Magnet question. | Exam: RRB Group D 05 12 25 Shift-II | Slide: Page 7",
     "slidePage": 7,
     "source": {
       "file": "Science Magnet · Environment",
@@ -39804,7 +39804,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -40295,8 +40295,8 @@
       "Degrading vegetables",
       "Pesticides"
     ],
-    "correctAnswer": 0,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group D 11 12 25 Shift-II | Slide: Page 43",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Pesticides) | Official Science Magnet question. | Exam: RRB Group D 11 12 25 Shift-II | Slide: Page 43",
     "slidePage": 43,
     "source": {
       "file": "Science Magnet · Environment",
@@ -40305,7 +40305,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -40470,8 +40470,8 @@
       "Conserving water",
       "Composting organic waste"
     ],
-    "correctAnswer": 0,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group D - 11 12 25 Shift - I | Slide: Page 58",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Using CFC-based refrigerants and spray cans CFC-) | Official Science Magnet question. | Exam: RRB Group D - 11 12 25 Shift - I | Slide: Page 58",
     "slidePage": 58,
     "source": {
       "file": "Science Magnet · Environment",
@@ -40480,7 +40480,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -40729,7 +40729,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -41247,8 +41247,8 @@
       "In the liver",
       "In the lungs"
     ],
-    "correctAnswer": 3,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 01-09-2022 Level-1 (Shift-II) | Slide: Page 38",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (In the kidney) | Official Science Magnet question. | Exam: RRB Group-D 01-09-2022 Level-1 (Shift-II) | Slide: Page 38",
     "slidePage": 38,
     "source": {
       "file": "Science Magnet · Excretory System",
@@ -41257,7 +41257,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -41959,7 +41959,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -42234,7 +42234,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -42284,7 +42284,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -43193,7 +43193,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Improvement in Food Resources",
-    "question": "Match the common name of the bee with its scientific name. Column I (Common Name) Column II (Scientific Name) 1. Indian bee A. Apis mellifera",
+    "question": "Match the common name of the bee with its scientific name.\nColumn I (Common Name) Column II (Scientific Name)\n1. Indian bee A. Apis mellifera",
     "options": [
       "1-C, 2-D, 3-B, 4-A",
       "1-B, 2-C, 3-D, 4-A",
@@ -43209,7 +43209,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -44095,7 +44095,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Nutrition",
-    "question": "Match the following types of carbohydrates with their corresponding examples: Carbohydrate Type Example",
+    "question": "Match the following types of carbohydrates with their corresponding examples:\nCarbohydrate Type Example",
     "options": [
       "p-2, q-3, r-1",
       "p-3, q-1, r-2",
@@ -44111,7 +44111,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -44636,7 +44636,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -45471,7 +45471,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
-    "question": "Read the given statements and select the most appropriate option. A: Small bulb like projection from yeast cell is bud. B: Chain of bud formation is found in the budding process of yeast.",
+    "question": "Read the given statements and select the most appropriate option.\nA: Small bulb like projection from yeast cell is bud.\nB: Chain of bud formation is found in the budding process of yeast.",
     "options": [
       "Both Statement A and Statement B are incorrect A B",
       "Statement B is correct and Statement A is incorrect B A",
@@ -45721,7 +45721,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
-    "question": "Which of the following statements are correct regarding vegetative propagation? Statement A: Roots, stems and leaves develop into new plants under suitable conditions. Statement B: Vegetative propagation is used in sugarcane, rose and grape.",
+    "question": "Which of the following statements are correct regarding vegetative propagation?\nStatement A: Roots, stems and leaves develop into new plants under suitable conditions.\nStatement B: Vegetative propagation is used in sugarcane, rose and grape.",
     "options": [
       "Only Statement B B",
       "Both Statement A and Statement B A B",
@@ -45796,7 +45796,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Reproduction in Organisms",
-    "question": "Read the given statements with regards to importance of variation produced by sexual reproduction in plants and select the most appropriate option. Statement A: Reproduction is linked to the stability of populations of species. Statement B: Variation is thus not useful for the survival of species over time.",
+    "question": "Read the given statements with regards to importance of variation produced by sexual reproduction in plants and select the most appropriate option.\nStatement A: Reproduction is linked to the stability of populations of species.\nStatement B: Variation is thus not useful for the survival of species over time.",
     "options": [
       "Both Statement A and statement B is incorrect A B",
       "Both Statement A and statement B is correct A B",
@@ -46978,8 +46978,8 @@
       "Lactic acid",
       "Water"
     ],
-    "correctAnswer": 1,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 23-08-2022 (Shift-II) | Slide: Page 6",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (Pyruvate) | Official Science Magnet question. | Exam: RRB Group-D 23-08-2022 (Shift-II) | Slide: Page 6",
     "slidePage": 6,
     "source": {
       "file": "Science Magnet · Respiratory System",
@@ -46988,7 +46988,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -47371,7 +47371,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Respiratory System",
-    "question": "Select the correct sentence(s): (a) The release of energy in the aerobic process is a lot greater than in the anaerobic process. (b) ATP is broken down giving rise to a fixed amount of energy which can drive the endothermic reactions taking place in the cell. (c) Pyruvate is a 3-carbon molecule.",
+    "question": "Select the correct sentence(s):\n(a) The release of energy in the aerobic process is a lot greater than in the anaerobic process.\n(b) ATP is broken down giving rise to a fixed amount of energy which can drive the endothermic reactions taking place in the cell.\n(c) Pyruvate is a 3-carbon molecule.",
     "options": [
       "Only a",
       "Only a and b",
@@ -48746,7 +48746,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Tissue",
-    "question": "Match the following animal tissues with their correct features. i. Cells are thin and flat and form a delicate lining",
+    "question": "Match the following animal tissues with their correct features.\ni. Cells are thin and flat and form a delicate lining",
     "options": [
       "Squamous",
       "Stratified Squamous",
@@ -48853,8 +48853,8 @@
       "4",
       "5"
     ],
-    "correctAnswer": 2,
-    "explanation": "Official Science Magnet question. | Exam: RRB Group-D 05-12-2018 (Shift-III) | Slide: Page 102",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (3) | Official Science Magnet question. | Exam: RRB Group-D 05-12-2018 (Shift-III) | Slide: Page 102",
     "slidePage": 102,
     "source": {
       "file": "Science Magnet · Tissue",
@@ -48863,7 +48863,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -48887,7 +48887,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": true
     }
   },
@@ -49112,7 +49112,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -50012,7 +50012,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": false
     }
   },
@@ -50246,7 +50246,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Acids, Bases and Salt",
-    "question": "Consider the below statements and identify the correct answer. Statement-I: The chemical formula for baking soda is NaHСО3. Statement-II: It is used in soda-acid fire extinguisher.",
+    "question": "Consider the below statements and identify the correct answer.\nStatement-I: The chemical formula for baking soda is NaHСО3.\nStatement-II: It is used in soda-acid fire extinguisher.",
     "options": [
       "Bothe the statements are true.",
       "Statements-II is true, and Statement-I is false. -II -I",
@@ -50838,7 +50838,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": false
     }
   },
@@ -50904,8 +50904,8 @@
       "NH₃ and CH₄ NH₃ CH₄",
       "C₂H₆O and PCl₃ C₂H₆O PCl₃"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (CO₂ and H₂O₂ CO₂ H₂O₂) | Exam: RRB Technician - III, 10-03-2026, Shift-1 | Slide: Page 28",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (H₂SO₄ and N₂O₅ H₂SO₄ N₂O₅) | Exam: RRB Technician - III, 10-03-2026, Shift-1 | Slide: Page 28",
     "slidePage": 28,
     "source": {
       "file": "Science Magnet · Atom and Molecule",
@@ -50914,7 +50914,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -51054,8 +51054,8 @@
       "0.02%",
       "7.8%"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (0.3%) | Exam: RRB Group D 5 9 22 Shift-III | Slide: Page 3",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C (0.02%) | Exam: RRB Group D 5 9 22 Shift-III | Slide: Page 3",
     "slidePage": 3,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
@@ -51064,7 +51064,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -51422,7 +51422,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Which of the following statements are correct for benzene? a. It is a six-membered cyclic carbon compound. b. It has three single and three double bonds. c. The molecular formula is C6H14.",
+    "question": "Which of the following statements are correct for benzene?\na. It is a six-membered cyclic carbon compound.\nb. It has three single and three double bonds.\nc. The molecular formula is C6H14.",
     "options": [
       "Only a and c",
       "Only b and c",
@@ -51829,8 +51829,8 @@
       "Butane",
       "Isobutane"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Butane) | Exam: RRB Group D 10 12 25 Shift-I | Slide: Page 51",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (Isobutane) | Exam: RRB Group D 10 12 25 Shift-I | Slide: Page 51",
     "slidePage": 51,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
@@ -51839,7 +51839,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -53129,8 +53129,8 @@
       "Ethanol",
       "Butanol"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Methanol) | Exam: ALP CBT-1 & Tec. (31-08-18 Shift-II) | Slide: Page 151",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C (Ethanol) | Exam: ALP CBT-1 & Tec. (31-08-18 Shift-II) | Slide: Page 151",
     "slidePage": 151,
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
@@ -53139,7 +53139,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -53272,7 +53272,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Consider the following statements and select the correct option. Statement A: Sugarcane juice can be fermented to give alcohol (ethanol). Statement B: Alcohol is added to petrol because it is a cleaner fuel.",
+    "question": "Consider the following statements and select the correct option.\nStatement A: Sugarcane juice can be fermented to give alcohol (ethanol).\nStatement B: Alcohol is added to petrol because it is a cleaner fuel.",
     "options": [
       "Statement A is incorrect, but B is correct. A , B",
       "Both statements A and B are correct. A B",
@@ -53447,7 +53447,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Refer to the two statements given below and select the correct option. Statement A: Carboxylic acids are strong acids that completely ionise in water. Statement B: Ethanoic acid is a weak acid compared to hydrochloric acid.",
+    "question": "Refer to the two statements given below and select the correct option.\nStatement A: Carboxylic acids are strong acids that completely ionise in water.\nStatement B: Ethanoic acid is a weak acid compared to hydrochloric acid.",
     "options": [
       "Both statements A and B are correct. A B",
       "Both statements A and B are incorrect. A B",
@@ -53797,7 +53797,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Carbon and its Compounds",
-    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason Assertion (A): Soap solution appears cloudy. Reason (R): The soap micelles are large enough to scatter light.",
+    "question": "Select the option that is true regarding the following two statements labelled Assertion (A) and Reason\nAssertion (A): Soap solution appears cloudy.\nReason (R): The soap micelles are large enough to scatter light.",
     "options": [
       "A is false, but R is true. A , R",
       "A is true, but R is false. A , R",
@@ -53879,8 +53879,8 @@
       "3",
       "1"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (3) | Exam: RRB Technicians Grade III 30 12 2024 Shift 3 | Slide: Page 8",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (4) | Exam: RRB Technicians Grade III 30 12 2024 Shift 3 | Slide: Page 8",
     "slidePage": 8,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
@@ -53889,7 +53889,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -54522,7 +54522,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Chemical Reactions and Equations",
-    "question": "Which of the following is/are the example(s) of double displacement reaction? 1) C (s) + O₂ (g) → CO₂ (g). 2) Na₂SO₄ (aq) + BaCl₂ (aq) → BaSO₄ (s) + 2NaCl (aq) 3) Pb (s) + CuCl₂ (aq) → PbCl₂ (aq) + Cu (s) 4) CaCO₃ (s) →CaO (s) + CO₂ (g)",
+    "question": "Which of the following is/are the example(s) of double displacement reaction?\n1) C (s) + O₂ (g) → CO₂ (g).\n2) Na₂SO₄ (aq) + BaCl₂ (aq) → BaSO₄ (s) + 2NaCl (aq)\n3) Pb (s) + CuCl₂ (aq) → PbCl₂ (aq) + Cu (s)\n4) CaCO₃ (s) →CaO (s) + CO₂ (g)",
     "options": [
       "1 and 4 only 1 4",
       "1, 2 and 3 only",
@@ -54579,8 +54579,8 @@
       "Conversion of ethanol into acetic acid",
       "Conversion of carbon into carbon dioxide"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Conversion of copper into copper oxide) | Exam: RRB Technicians Grade III 24 12 2024 Shift 1 | Slide: Page 59",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Conversion of copper oxide into copper) | Exam: RRB Technicians Grade III 24 12 2024 Shift 1 | Slide: Page 59",
     "slidePage": 59,
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
@@ -54589,7 +54589,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -54922,7 +54922,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Chemical Reactions and Equations",
-    "question": "The substance oxidized in PbO 2  + 4HCl → PbCl 2  + 2H 2 O+Cl, is • Pb: +4 → +2  →",
+    "question": "The substance oxidized in PbO 2  + 4HCl → PbCl 2  + 2H 2 O+Cl, is\n• Pb: +4 → +2  →",
     "options": [
       "Hydrogen",
       "Lead chloride",
@@ -54947,7 +54947,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Chemical Reactions and Equations",
-    "question": "CuSO 4  + Mg → MgSO 4  + Cu In the above reaction Mg is the : • Mg: 0 → +2   ⇒",
+    "question": "CuSO 4  + Mg → MgSO 4  + Cu In the above reaction Mg is the :\n• Mg: 0 → +2   ⇒",
     "options": [
       "Oxidising agent",
       "Dissolving agent",
@@ -55113,7 +55113,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -55179,8 +55179,8 @@
       "It is a pure substance.",
       "It cannot be separated physically."
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (It has a single composition.) | Exam: RRB ALP CBT - 1 13 02 2026 Shift 1 | Slide: Page 10",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Its components are visibly distinct.) | Exam: RRB ALP CBT - 1 13 02 2026 Shift 1 | Slide: Page 10",
     "slidePage": 10,
     "source": {
       "file": "Science Magnet · Classification of Matter",
@@ -55189,7 +55189,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -55597,7 +55597,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Classification of Matter",
-    "question": "Which of the following statements are correct? 1. Colloids appear homogeneous because their particles are very small. 2. At the molecular level, colloids are completely homogeneous.",
+    "question": "Which of the following statements are correct?\n1. Colloids appear homogeneous because their particles are very small.\n2. At the molecular level, colloids are completely homogeneous.",
     "options": [
       "1, 2, 3, and 4 1,2,3 4",
       "Only 1 and 2 1 2",
@@ -56279,8 +56279,8 @@
       "Sublimation",
       "Fusion"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (Sublimation) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 29",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Deposition) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 29",
     "slidePage": 29,
     "source": {
       "file": "Science Magnet · Matter",
@@ -56289,7 +56289,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -57754,8 +57754,8 @@
       "Sodium",
       "Calcium"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Calcium) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 42",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Magnesium) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 42",
     "slidePage": 42,
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
@@ -57764,7 +57764,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -58197,7 +58197,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Metals and Non-Metals",
-    "question": "Match the following: Ionic compound Melting point (K) i. NaCl ii. CaCl₂",
+    "question": "Match the following:\nIonic compound Melting point (K)\ni. NaCl\nii. CaCl₂",
     "options": [
       "i-c, ii-a, iii-b",
       "i-a, ii-b, iii-c",
@@ -58213,7 +58213,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -59579,8 +59579,8 @@
       "45",
       "32"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (32) | Exam: RRB Group-D, 12 12 2025 (Shift-1) | Slide: Page 53",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (40) | Exam: RRB Group-D, 12 12 2025 (Shift-1) | Slide: Page 53",
     "slidePage": 53,
     "source": {
       "file": "Science Magnet · Structure of Atom",
@@ -59589,7 +59589,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -59704,8 +59704,8 @@
       "C₄H₈O₄",
       "C₃H₆O₃"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (CH₂O) | Exam: RRB Technician - III, 09-03-2026, Shift-3 | Slide: Page 59",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (C₂H₄O₂) | Exam: RRB Technician - III, 09-03-2026, Shift-3 | Slide: Page 59",
     "slidePage": 59,
     "source": {
       "file": "Science Magnet · Structure of Atom",
@@ -59714,7 +59714,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -59838,7 +59838,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -60097,7 +60097,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Structure of Atom",
-    "question": "Match the elements in Column I with their correct electron distribution in Column II according to the Bohr-Bury rules. A-2, B-1, C-3, D-4 Electron Distribution 1.2,8,2",
+    "question": "Match the elements in Column I with their correct electron distribution in Column II according to the Bohr-Bury rules. A-2, B-1, C-3, D-4\nElectron Distribution\n1.2,8,2",
     "options": [
       "Sodium (Na)",
       "Magnesium (Mg)",
@@ -60113,7 +60113,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -60938,7 +60938,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -61523,7 +61523,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Electricity",
-    "question": "Which of the following factors do NOT affect the resistance of a conductor (at constant temperature)? i) Area of cross-section of the conductor. ii) Current flowing through the conductor. iii) Length of the conductor.",
+    "question": "Which of the following factors do NOT affect the resistance of a conductor (at constant temperature)?\ni) Area of cross-section of the conductor.\nii) Current flowing through the conductor.\niii) Length of the conductor.",
     "options": [
       "Both (i) and (iii)",
       "Both (i) and (ii)",
@@ -61680,8 +61680,8 @@
       "1 A 1",
       "0.5 A 0.5"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (1 A 1) | Exam: RRB Group-D, 10 12 2025 (Shift-3) | Slide: Page 68",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (0.5 A 0.5) | Exam: RRB Group-D, 10 12 2025 (Shift-3) | Slide: Page 68",
     "slidePage": 68,
     "source": {
       "file": "Science Magnet · Electricity",
@@ -61690,7 +61690,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -61881,8 +61881,8 @@
       "9 Ω",
       "18 Ω"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (9 Ω) | Slide: Page 78",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (6 Ω) | Slide: Page 78",
     "slidePage": 78,
     "source": {
       "file": "Science Magnet · Electricity",
@@ -61891,7 +61891,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -61940,7 +61940,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -61965,7 +61965,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -62181,8 +62181,8 @@
       "2.5A",
       "20A"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (5A) | Exam: RRB Group-D: 23 08 2022 (Shift -I) | Slide: Page 95",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C (2.5A) | Exam: RRB Group-D: 23 08 2022 (Shift -I) | Slide: Page 95",
     "slidePage": 95,
     "source": {
       "file": "Science Magnet · Electricity",
@@ -62191,7 +62191,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -62967,7 +62967,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -63042,7 +63042,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -63401,7 +63401,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Gravitation",
-    "question": "Which of the following statements of force is/are correct? Statement A: Weight is a force that acts vertically downward on an object. Statement B: Thrust is the force acting on an object perpendicular to the surface. Let’s Crack Science",
+    "question": "Which of the following statements of force is/are correct?\nStatement A: Weight is a force that acts vertically downward on an object.\nStatement B: Thrust is the force acting on an object perpendicular to the surface. Let’s Crack Science",
     "options": [
       "‘A’ is correct and ‘B’ is incorrect. 'A' 'B'",
       "Both ‘A’ and ‘B’ are incorrect. 'A' ' B'",
@@ -63433,8 +63433,8 @@
       "5 Pa",
       "30 Pa"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5 Pa) | Exam: RRB Technicians Grade III 23 12 2024 Shift 1 | Slide: Page 77",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (500 Pa) | Exam: RRB Technicians Grade III 23 12 2024 Shift 1 | Slide: Page 77",
     "slidePage": 77,
     "source": {
       "file": "Science Magnet · Gravitation",
@@ -63443,7 +63443,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -63776,7 +63776,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Gravitation",
-    "question": "Which of the following statements of force is/are correct? Statement A: Weight is a force that acts vertically downward on an object. Statement B: Thrust is the force acting on an object perpendicular to the surface.",
+    "question": "Which of the following statements of force is/are correct?\nStatement A: Weight is a force that acts vertically downward on an object.\nStatement B: Thrust is the force acting on an object perpendicular to the surface.",
     "options": [
       "‘A’ is correct and ‘B’ is incorrect. 'A' 'B'",
       "Both ‘A’ and ‘B’ are incorrect. 'A' ' B'",
@@ -63808,8 +63808,8 @@
       "5 Pa",
       "30 Pa"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (5 Pa) | Exam: RRB Technicians Grade III 23 12 2024 Shift 1 | Slide: Page 77",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (500 Pa) | Exam: RRB Technicians Grade III 23 12 2024 Shift 1 | Slide: Page 77",
     "slidePage": 77,
     "source": {
       "file": "Science Magnet · Gravitation",
@@ -63818,7 +63818,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -64383,8 +64383,8 @@
       "N m 2",
       "N m 2 kg"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (N m 2 kg −1) | Exam: RRB Technicians Grade III 27 12 2024 Shift 2 | Slide: Page 10",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (N m 2 kg −2) | Exam: RRB Technicians Grade III 27 12 2024 Shift 2 | Slide: Page 10",
     "slidePage": 10,
     "source": {
       "file": "Science Magnet · Gravitation",
@@ -64393,7 +64393,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -64408,8 +64408,8 @@
       "F = G.M.m d",
       "F = d 2 G"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (F = G.M.m d) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 18",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (F = G.M.m d 2) | Exam: RRB Technicians Grade III 27 12 2024 Shift 3 | Slide: Page 18",
     "slidePage": 18,
     "source": {
       "file": "Science Magnet · Gravitation",
@@ -64418,7 +64418,7 @@
     "check": {
       "text": true,
       "options": false,
-      "key": null
+      "key": true
     }
   },
   {
@@ -65809,8 +65809,8 @@
       "Velocity",
       "Speed"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Speed) | Exam: ALP 27 Nov 2024 1 st Shift | Slide: Page 11",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Distance) | Exam: ALP 27 Nov 2024 1 st Shift | Slide: Page 11",
     "slidePage": 11,
     "source": {
       "file": "Science Magnet · Motion",
@@ -65819,7 +65819,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -65909,8 +65909,8 @@
       "50 km",
       "85 km"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (50 km) | Exam: ALP 26 Nov 2024 2 nd Shift | Slide: Page 18",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (60 km) | Exam: ALP 26 Nov 2024 2 nd Shift | Slide: Page 18",
     "slidePage": 18,
     "source": {
       "file": "Science Magnet · Motion",
@@ -65919,7 +65919,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -68413,8 +68413,8 @@
       "At centre of curvature",
       "Zero"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (At centre of curvature) | Exam: RRB Technicians Grade III 26 12 2024 Shift 3 | Slide: Page 85",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Infinity) | Exam: RRB Technicians Grade III 26 12 2024 Shift 3 | Slide: Page 85",
     "slidePage": 85,
     "source": {
       "file": "Science Magnet · Reflection of Light",
@@ -68423,7 +68423,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -68522,7 +68522,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -68572,7 +68572,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -68638,8 +68638,8 @@
       "Concave mirror",
       "Planoconvex mirror"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (Convex mirror) | Exam: RRB Technicians Grade III 27 12 2024 Shift 2 | Slide: Page 99",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C (Concave mirror) | Exam: RRB Technicians Grade III 27 12 2024 Shift 2 | Slide: Page 99",
     "slidePage": 99,
     "source": {
       "file": "Science Magnet · Reflection of Light",
@@ -68648,7 +68648,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -68688,8 +68688,8 @@
       "beyond the centre of curvature",
       "between the focus and the centre of curvature"
     ],
-    "correctAnswer": 2,
-    "explanation": "Correct Answer: Option C | (beyond the centre of curvature) | Exam: RRB JE 18 12 2024 2nd shift | Slide: Page 102",
+    "correctAnswer": 3,
+    "explanation": "Correct Answer: Option D (between the focus and the centre of curvature) | Exam: RRB JE 18 12 2024 2nd shift | Slide: Page 102",
     "slidePage": 102,
     "source": {
       "file": "Science Magnet · Reflection of Light",
@@ -68698,7 +68698,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -69441,8 +69441,8 @@
       "Virtual, erect and larger ,",
       "Real, erect and point sized ,"
     ],
-    "correctAnswer": 3,
-    "explanation": "Correct Answer: Option D | (Real, erect and point sized ,) | Exam: RRB JE 18 12 2024 3rd shift | Slide: Page 77",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (Virtual, erect and point sized ,) | Exam: RRB JE 18 12 2024 3rd shift | Slide: Page 77",
     "slidePage": 77,
     "source": {
       "file": "Science Magnet · Refraction",
@@ -69451,7 +69451,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -70051,7 +70051,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": false
     }
   },
@@ -70076,7 +70076,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -70267,8 +70267,8 @@
       "1.96 J",
       "-1.96 J"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (0.98 J) | Exam: RRB ALP CBT-1 29 08 2018 | Slide: Page 15",
+    "correctAnswer": 2,
+    "explanation": "Correct Answer: Option C (1.96 J) | Exam: RRB ALP CBT-1 29 08 2018 | Slide: Page 15",
     "slidePage": 15,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
@@ -70277,7 +70277,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -70592,8 +70592,8 @@
       "20 J 20",
       "1.8 J 1.8"
     ],
-    "correctAnswer": 1,
-    "explanation": "Correct Answer: Option B | (200 J 200) | Exam: RRB Group-D, 09 12 2025 (Shift-3) | Slide: Page 39",
+    "correctAnswer": 0,
+    "explanation": "Correct Answer: Option A (180 J 180) | Exam: RRB Group-D, 09 12 2025 (Shift-3) | Slide: Page 39",
     "slidePage": 39,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
@@ -70602,7 +70602,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": null
+      "key": true
     }
   },
   {
@@ -70717,8 +70717,8 @@
       "40 J",
       "80 J"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (20 J) | Slide: Page 50",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (100 J) | Slide: Page 50",
     "slidePage": 50,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
@@ -70727,7 +70727,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -70751,7 +70751,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -70817,8 +70817,8 @@
       "100 W",
       "50 W"
     ],
-    "correctAnswer": 0,
-    "explanation": "Correct Answer: Option A | (500 W) | Exam: RRB ALP CBT - 1 17 02 2026 Shift 1 | Slide: Page 55",
+    "correctAnswer": 1,
+    "explanation": "Correct Answer: Option B (200 W) | Exam: RRB ALP CBT - 1 17 02 2026 Shift 1 | Slide: Page 55",
     "slidePage": 55,
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
@@ -70827,7 +70827,7 @@
     "check": {
       "text": true,
       "options": true,
-      "key": false
+      "key": true
     }
   },
   {
@@ -70883,7 +70883,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Ozone formed near the ground from vehicular emissions is harmful to human health. Reason (R): Ozone present in the stratosphere blocks harmful ultraviolet radiation coming from the Sun.",
+    "question": "Assertion (A): Ozone formed near the ground from vehicular emissions is harmful to human health.\nReason (R): Ozone present in the stratosphere blocks harmful ultraviolet radiation coming from the Sun.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -71003,7 +71003,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): A gas stove gives a clean blue flame when the air inlets at its base are open. Reason (R): When sufficient oxygen is available, the fuel undergoes incomplete combustion.",
+    "question": "Assertion (A): A gas stove gives a clean blue flame when the air inlets at its base are open.\nReason (R): When sufficient oxygen is available, the fuel undergoes incomplete combustion.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -71075,7 +71075,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements: 1. In a sound wave travelling through air, the air particles vibrate parallel to the direction in which the wave travels. 2. Light is a mechanical wave because it is a transverse wave. 3. The seismic waves detected first by a seismograph during an earthquake are longitudinal waves. Which of the statements is/are correct?",
+    "question": "Consider the following statements:\n1. In a sound wave travelling through air, the air particles vibrate parallel to the direction in which the wave travels.\n2. Light is a mechanical wave because it is a transverse wave.\n3. The seismic waves detected first by a seismograph during an earthquake are longitudinal waves.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -71147,7 +71147,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): While walking on a road, the force that moves a person forward is applied by the ground. Reason (R): The person pushes the ground backward with the feet, and the ground applies a force of the same size on the feet in the opposite direction.",
+    "question": "Assertion (A): While walking on a road, the force that moves a person forward is applied by the ground.\nReason (R): The person pushes the ground backward with the feet, and the ground applies a force of the same size on the feet in the opposite direction.",
     "options": [
       "Both A and R are true and R is the correct explanation of A",
       "Both A and R are true but R is not the correct explanation of A",
@@ -71315,7 +71315,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the chlor-alkali process: 1. Chlorine gas is given off at the anode. 2. Sodium hydroxide solution is formed near the anode. 3. The chlorine obtained is used to make bleaching powder. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the chlor-alkali process:\n1. Chlorine gas is given off at the anode.\n2. Sodium hydroxide solution is formed near the anode.\n3. The chlorine obtained is used to make bleaching powder.\nWhich of the statements given above are correct?",
     "options": [
       "1 and 2 only",
       "2 and 3 only",
@@ -71411,7 +71411,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the human brain: 1. Blood pressure, salivation and vomiting are controlled by the medulla in the hind-brain. 2. The cerebellum is the centre for thought-out actions such as moving a chair. 3. Inside the skull, the brain lies in a fluid-filled balloon that absorbs shocks. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the human brain:\n1. Blood pressure, salivation and vomiting are controlled by the medulla in the hind-brain.\n2. The cerebellum is the centre for thought-out actions such as moving a chair.\n3. Inside the skull, the brain lies in a fluid-filled balloon that absorbs shocks.\nWhich of the statements given above are correct?",
     "options": [
       "1 and 2 only",
       "1 and 3 only",
@@ -71435,7 +71435,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the centre of curvature of a spherical mirror: 1. It lies on the reflecting surface of the mirror. 2. It lies in front of a concave mirror but behind a convex mirror. 3. Its distance from the pole is equal to the radius of curvature. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the centre of curvature of a spherical mirror:\n1. It lies on the reflecting surface of the mirror.\n2. It lies in front of a concave mirror but behind a convex mirror.\n3. Its distance from the pole is equal to the radius of curvature.\nWhich of the statements given above are correct?",
     "options": [
       "1 and 2 only",
       "1 and 3 only",
@@ -71843,7 +71843,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about a flower: 1. The filament connects the stigma to the ovary. 2. The anther produces pollen grains containing male gametes. 3. The ovary contains ovules, and each ovule has an egg cell. Which of the statements is/are correct?",
+    "question": "Consider the following statements about a flower:\n1. The filament connects the stigma to the ovary.\n2. The anther produces pollen grains containing male gametes.\n3. The ovary contains ovules, and each ovule has an egg cell.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -71867,7 +71867,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about ethanoic acid: 1. A 5-8% solution of acetic acid in water is called vinegar. 2. Pure ethanoic acid has a melting point of 290 K, so it often freezes during winter in cold climates. 3. Like hydrochloric acid, carboxylic acids are completely ionised and are strong acids. Which of the statements given above are correct?",
+    "question": "Consider the following statements about ethanoic acid:\n1. A 5-8% solution of acetic acid in water is called vinegar.\n2. Pure ethanoic acid has a melting point of 290 K, so it often freezes during winter in cold climates.\n3. Like hydrochloric acid, carboxylic acids are completely ionised and are strong acids.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 3",
       "Only 2 and 3",
@@ -71915,7 +71915,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about electrons in atoms: 1. The L-shell can hold a maximum of 2 × 2² = 8 electrons. 2. A carbon atom has 2 electrons in the K-shell and 4 electrons in the L-shell. 3. A sodium atom has 1 electron in its M-shell. Which of the statements is/are correct?",
+    "question": "Consider the following statements about electrons in atoms:\n1. The L-shell can hold a maximum of 2 × 2² = 8 electrons.\n2. A carbon atom has 2 electrons in the K-shell and 4 electrons in the L-shell.\n3. A sodium atom has 1 electron in its M-shell.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -71963,7 +71963,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about plant tissues: 1. The lateral meristem, located along the circumference of a stem, increases the girth of the stem. 2. After a hedge is trimmed, more branches appear because of the intercalary meristem at the nodes. 3. Meristematic cells have large vacuoles and a small nucleus. Which of the statements is/are correct?",
+    "question": "Consider the following statements about plant tissues:\n1. The lateral meristem, located along the circumference of a stem, increases the girth of the stem.\n2. After a hedge is trimmed, more branches appear because of the intercalary meristem at the nodes.\n3. Meristematic cells have large vacuoles and a small nucleus.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72035,7 +72035,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about chemical change: 1. Milk left at room temperature during summers undergoes a chemical change. 2. In rusting and in digestion of food, the nature and identity of the initial substance remain unchanged. 3. Respiration is an example of a chemical change in daily life. Which of the statements given above are correct?",
+    "question": "Consider the following statements about chemical change:\n1. Milk left at room temperature during summers undergoes a chemical change.\n2. In rusting and in digestion of food, the nature and identity of the initial substance remain unchanged.\n3. Respiration is an example of a chemical change in daily life.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72059,7 +72059,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the human eye: 1. The far point of a normal eye is at 25 cm. 2. Cataract is the milky and cloudy condition of the crystalline lens and causes partial or complete loss of vision. 3. Myopia, hypermetropia and presbyopia are three common refractive defects of vision. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the human eye:\n1. The far point of a normal eye is at 25 cm.\n2. Cataract is the milky and cloudy condition of the crystalline lens and causes partial or complete loss of vision.\n3. Myopia, hypermetropia and presbyopia are three common refractive defects of vision.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72083,7 +72083,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): DNA copying during reproduction is absolutely accurate, so no variations arise in a population. Reason (R): Variations in a population are useful for ensuring the survival of the species.",
+    "question": "Assertion (A): DNA copying during reproduction is absolutely accurate, so no variations arise in a population.\nReason (R): Variations in a population are useful for ensuring the survival of the species.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72131,7 +72131,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Veins do not need thick walls. Reason (R): The blood in veins is no longer under pressure.",
+    "question": "Assertion (A): Veins do not need thick walls.\nReason (R): The blood in veins is no longer under pressure.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72275,7 +72275,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about mixtures: 1. A solution can turn into a heterogeneous mixture if it is left undisturbed for a long time. 2. Vinegar, which is acetic acid in water, is a homogeneous mixture. 3. A stirred mixture of sand and water is heterogeneous, because the sand particles are visible and settle with time. Which of the statements is/are correct?",
+    "question": "Consider the following statements about mixtures:\n1. A solution can turn into a heterogeneous mixture if it is left undisturbed for a long time.\n2. Vinegar, which is acetic acid in water, is a homogeneous mixture.\n3. A stirred mixture of sand and water is heterogeneous, because the sand particles are visible and settle with time.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72323,7 +72323,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements: 1. A metal reacts with an acid to give a salt and hydrogen gas. 2. A base gives hydrogen gas on reacting with every metal. 3. Sodium carbonate reacts with dilute HCl to give sodium chloride, water and carbon dioxide. Which of the statements given above are correct?",
+    "question": "Consider the following statements:\n1. A metal reacts with an acid to give a salt and hydrogen gas.\n2. A base gives hydrogen gas on reacting with every metal.\n3. Sodium carbonate reacts with dilute HCl to give sodium chloride, water and carbon dioxide.\nWhich of the statements given above are correct?",
     "options": [
       "1 and 2 only",
       "2 and 3 only",
@@ -72371,7 +72371,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Myopia is corrected by using a concave lens of suitable power. Reason (R): In a myopic eye the image of a distant object is formed behind the retina.",
+    "question": "Assertion (A): Myopia is corrected by using a concave lens of suitable power.\nReason (R): In a myopic eye the image of a distant object is formed behind the retina.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72395,7 +72395,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about transport in plants: 1. Xylem transports the products of photosynthesis from the leaves to other parts of the plant. 2. Evaporation of water from the leaf cells creates a suction that pulls water from the xylem cells of the roots. 3. The effect of root pressure in the transport of water is more important at night. Which of the statements given above are correct?",
+    "question": "Consider the following statements about transport in plants:\n1. Xylem transports the products of photosynthesis from the leaves to other parts of the plant.\n2. Evaporation of water from the leaf cells creates a suction that pulls water from the xylem cells of the roots.\n3. The effect of root pressure in the transport of water is more important at night.\nWhich of the statements given above are correct?",
     "options": [
       "1 and 2 only",
       "1 and 3 only",
@@ -72491,7 +72491,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements: 1. Fungi do not make their own food; they absorb nutrients from dead or decaying matter through a network of fine filaments called mycelium. 2. Yeast is unicellular, yet it is placed under Fungi because its cell wall is made of chitin. 3. All protists are autotrophs. Which of the statements is/are correct?",
+    "question": "Consider the following statements:\n1. Fungi do not make their own food; they absorb nutrients from dead or decaying matter through a network of fine filaments called mycelium.\n2. Yeast is unicellular, yet it is placed under Fungi because its cell wall is made of chitin.\n3. All protists are autotrophs.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72515,7 +72515,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): A dark coloured road heats up more quickly in sunlight than a light coloured surface. Reason (R): Dark surfaces reflect more sunlight than light coloured surfaces.",
+    "question": "Assertion (A): A dark coloured road heats up more quickly in sunlight than a light coloured surface.\nReason (R): Dark surfaces reflect more sunlight than light coloured surfaces.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72707,7 +72707,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Nearly all weather phenomena take place in the troposphere. Reason (R): The troposphere extends from 12 km to 50 km and contains the ozone layer.",
+    "question": "Assertion (A): Nearly all weather phenomena take place in the troposphere.\nReason (R): The troposphere extends from 12 km to 50 km and contains the ozone layer.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72731,7 +72731,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about ecosystems: 1. Temperature, rainfall and wind are biotic components of an ecosystem. 2. An aquarium is an example of a human-made ecosystem. 3. Frogs, insects and birds of a garden are its biotic components. Which of the statements given above are correct?",
+    "question": "Consider the following statements about ecosystems:\n1. Temperature, rainfall and wind are biotic components of an ecosystem.\n2. An aquarium is an example of a human-made ecosystem.\n3. Frogs, insects and birds of a garden are its biotic components.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -72755,7 +72755,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Hypermetropia arises because the eyeball has become too large. Reason (R): In hypermetropia, light rays from a close object are focussed at a point behind the retina.",
+    "question": "Assertion (A): Hypermetropia arises because the eyeball has become too large.\nReason (R): In hypermetropia, light rays from a close object are focussed at a point behind the retina.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -72947,7 +72947,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about a flowering plant after fertilisation: 1. The ovary enlarges and develops into a fruit. 2. The ovules develop into seeds inside the fruit. 3. The fertilised egg is called a zygote, which later develops into a seed. Which of the statements is/are correct?",
+    "question": "Consider the following statements about a flowering plant after fertilisation:\n1. The ovary enlarges and develops into a fruit.\n2. The ovules develop into seeds inside the fruit.\n3. The fertilised egg is called a zygote, which later develops into a seed.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73043,7 +73043,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the nucleus of a cell: 1. The nuclear membrane is a single layer without any pores. 2. The nucleolus is the dense round body in which ribosomal subunits are synthesised. 3. Chromosomes are composed of DNA and specific proteins. Which of the statements is/are correct?",
+    "question": "Consider the following statements about the nucleus of a cell:\n1. The nuclear membrane is a single layer without any pores.\n2. The nucleolus is the dense round body in which ribosomal subunits are synthesised.\n3. Chromosomes are composed of DNA and specific proteins.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73067,7 +73067,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about adrenaline: 1. It is secreted directly into the blood and carried to different parts of the body. 2. It makes the heart beat faster, so more oxygen reaches the muscles. 3. It reduces blood flow to the digestive system and skin. Which of the statements given above are correct?",
+    "question": "Consider the following statements about adrenaline:\n1. It is secreted directly into the blood and carried to different parts of the body.\n2. It makes the heart beat faster, so more oxygen reaches the muscles.\n3. It reduces blood flow to the digestive system and skin.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73091,7 +73091,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about sound: 20 1. Sound waves with a frequency above 20 kHz are called ultrasonic waves. kHz 2. Elephants can detect ultrasound. 3. A sound wave of larger amplitude is heard louder. Which of the statements is/are correct?",
+    "question": "Consider the following statements about sound: 20\n1. Sound waves with a frequency above 20 kHz are called ultrasonic waves. kHz\n2. Elephants can detect ultrasound.\n3. A sound wave of larger amplitude is heard louder.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73187,7 +73187,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about soaps and detergents: 1. Soap molecules are sodium or potassium salts of long-chain carboxylic acids. 2. Soap micelles are too small to scatter light. 3. Detergents do not form insoluble precipitates with calcium and magnesium ions in hard water. Which of the statements given above are correct?",
+    "question": "Consider the following statements about soaps and detergents:\n1. Soap molecules are sodium or potassium salts of long-chain carboxylic acids.\n2. Soap micelles are too small to scatter light.\n3. Detergents do not form insoluble precipitates with calcium and magnesium ions in hard water.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73298,7 +73298,7 @@
     },
     "check": {
       "text": true,
-      "options": true,
+      "options": false,
       "key": null
     }
   },
@@ -73355,7 +73355,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about carbon and its compounds: 1. The earth's crust contains about 20% carbon. 2. In a nitrogen molecule, the two atoms share three pairs of electrons, forming a triple bond. 3. Methane is a major component of bio-gas and Compressed Natural Gas (CNG). Which of the statements given above are correct?",
+    "question": "Consider the following statements about carbon and its compounds:\n1. The earth's crust contains about 20% carbon.\n2. In a nitrogen molecule, the two atoms share three pairs of electrons, forming a triple bond.\n3. Methane is a major component of bio-gas and Compressed Natural Gas (CNG).\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73427,7 +73427,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Without its atmosphere, the Earth would be too cold for life to survive. Reason (R): The ozone layer traps the heat that the Earth's surface radiates.",
+    "question": "Assertion (A): Without its atmosphere, the Earth would be too cold for life to survive.\nReason (R): The ozone layer traps the heat that the Earth's surface radiates.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -73475,7 +73475,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): A compass needle kept near a wire carrying current gets deflected. Reason (R): An electric current through a metallic conductor produces a magnetic field around it.",
+    "question": "Assertion (A): A compass needle kept near a wire carrying current gets deflected.\nReason (R): An electric current through a metallic conductor produces a magnetic field around it.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -73523,7 +73523,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about reproduction in humans: 1. Sperm and eggs have 46 chromosomes each, the same as body cells. 2. In males, gametogenesis produces numerous tiny, motile sperm, while in females it forms a single large egg. 3. The vas deferens opens into the urethra, which is a common passage for urine and sperm. Which of the statements is/are correct?",
+    "question": "Consider the following statements about reproduction in humans:\n1. Sperm and eggs have 46 chromosomes each, the same as body cells.\n2. In males, gametogenesis produces numerous tiny, motile sperm, while in females it forms a single large egg.\n3. The vas deferens opens into the urethra, which is a common passage for urine and sperm.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73547,7 +73547,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about work: 1. Pushing a rigid wall does no work on the wall, because the wall is not displaced. 2. If a force acts perpendicular to the displacement of an object, the work done by that force is zero. 3. Work has no direction; it is described by a number with a positive or negative sign. Which of the statements is/are correct?",
+    "question": "Consider the following statements about work:\n1. Pushing a rigid wall does no work on the wall, because the wall is not displaced.\n2. If a force acts perpendicular to the displacement of an object, the work done by that force is zero.\n3. Work has no direction; it is described by a number with a positive or negative sign.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73667,7 +73667,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the human female reproductive system: 1. The ovaries make the eggs and also produce some hormones. 2. When a girl is born, her ovaries already contain thousands of immature eggs. 3. After puberty, one egg is produced every month by one of the ovaries. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the human female reproductive system:\n1. The ovaries make the eggs and also produce some hormones.\n2. When a girl is born, her ovaries already contain thousands of immature eggs.\n3. After puberty, one egg is produced every month by one of the ovaries.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73787,7 +73787,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about cells: 1. Mature human red blood cells have no nucleus, which leaves more space for haemoglobin. 2. The genetic material of a prokaryotic cell lies inside a well-defined nucleus called the nucleoid. 3. Ribosomes are the sites of protein synthesis. Which of the statements is/are correct?",
+    "question": "Consider the following statements about cells:\n1. Mature human red blood cells have no nucleus, which leaves more space for haemoglobin.\n2. The genetic material of a prokaryotic cell lies inside a well-defined nucleus called the nucleoid.\n3. Ribosomes are the sites of protein synthesis.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73811,7 +73811,7 @@
     "subject": "General Science",
     "subSubject": "Chemistry",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about oxides and acids: 1. Metal oxides react with acids to give a salt and water, so they are called basic oxides. 2. Non-metallic oxides, such as carbon dioxide, are basic in nature. 3. Acids produce H⁺(aq) ions in solution, which are responsible for their acidic properties. Which of the statements given above are correct?",
+    "question": "Consider the following statements about oxides and acids:\n1. Metal oxides react with acids to give a salt and water, so they are called basic oxides.\n2. Non-metallic oxides, such as carbon dioxide, are basic in nature.\n3. Acids produce H⁺(aq) ions in solution, which are responsible for their acidic properties.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73859,7 +73859,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the placenta: 1. It is a disc embedded in the uterine wall. 2. Its villi and the surrounding maternal blood spaces provide a large surface area for glucose and oxygen to pass from the mother to the embryo. 3. Waste substances produced by the embryo are transferred into the mother's blood through it. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the placenta:\n1. It is a disc embedded in the uterine wall.\n2. Its villi and the surrounding maternal blood spaces provide a large surface area for glucose and oxygen to pass from the mother to the embryo.\n3. Waste substances produced by the embryo are transferred into the mother's blood through it.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73883,7 +73883,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Desert plants can take up carbon dioxide at night. Reason (R): The steps of photosynthesis need not take place one after the other immediately.",
+    "question": "Assertion (A): Desert plants can take up carbon dioxide at night.\nReason (R): The steps of photosynthesis need not take place one after the other immediately.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -73907,7 +73907,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about reproduction in human females: 1. An egg that is not fertilised remains viable for about a day and then degenerates. 2. Ovulation is the shedding of the uterine lining along with some blood. 3. The implantation of the zygote in the uterus marks the beginning of pregnancy. Which of the statements is/are correct?",
+    "question": "Consider the following statements about reproduction in human females:\n1. An egg that is not fertilised remains viable for about a day and then degenerates.\n2. Ovulation is the shedding of the uterine lining along with some blood.\n3. The implantation of the zygote in the uterus marks the beginning of pregnancy.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -73931,7 +73931,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): In the spectrum of white light formed by a glass prism, red light bends the most. Reason (R): Different colours of light bend through different angles with respect to the incident ray as they pass through a prism.",
+    "question": "Assertion (A): In the spectrum of white light formed by a glass prism, red light bends the most.\nReason (R): Different colours of light bend through different angles with respect to the incident ray as they pass through a prism.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -74051,7 +74051,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about plastids and vacuoles in plant cells: 1. Chromoplasts are colourless plastids that store starch. 2. Some leucoplasts in potato cells store starch. 3. The large central vacuole maintains pressure inside the cell, which keeps a plant cell firm. Which of the statements is/are correct?",
+    "question": "Consider the following statements about plastids and vacuoles in plant cells:\n1. Chromoplasts are colourless plastids that store starch.\n2. Some leucoplasts in potato cells store starch.\n3. The large central vacuole maintains pressure inside the cell, which keeps a plant cell firm.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74123,7 +74123,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about energy: 1. The SI unit of energy is the same as the SI unit of work. 2. Energy can be transferred only by doing mechanical work and never as heat. 3. When two objects at different temperatures come in contact, energy flows from the hotter object to the colder object. Which of the statements is/are correct?",
+    "question": "Consider the following statements about energy:\n1. The SI unit of energy is the same as the SI unit of work.\n2. Energy can be transferred only by doing mechanical work and never as heat.\n3. When two objects at different temperatures come in contact, energy flows from the hotter object to the colder object.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74363,7 +74363,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about the magnetic field produced by a current in a long straight wire: 1. Reversing the direction of the current does not change the direction of the field. 2. At a given point, the magnitude of the field increases as the current through the wire increases. 3. For an unchanged current, the field at a point decreases as its distance from the wire increases. Which of the statements given above are correct?",
+    "question": "Consider the following statements about the magnetic field produced by a current in a long straight wire:\n1. Reversing the direction of the current does not change the direction of the field.\n2. At a given point, the magnitude of the field increases as the current through the wire increases.\n3. For an unchanged current, the field at a point decreases as its distance from the wire increases.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74483,7 +74483,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about cell division: 1. Meiosis is the most common type of cell division by which cells increase in number. 2. Mitosis is important for normal growth, repair, maintenance and asexual reproduction. 3. Each new cell produced by mitosis gets the same DNA and the same number of chromosomes as the parent cell. Which of the statements is/are correct?",
+    "question": "Consider the following statements about cell division:\n1. Meiosis is the most common type of cell division by which cells increase in number.\n2. Mitosis is important for normal growth, repair, maintenance and asexual reproduction.\n3. Each new cell produced by mitosis gets the same DNA and the same number of chromosomes as the parent cell.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74603,7 +74603,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about nutrition: 1. Guard cells swell when water flows into them, and the stomatal pore opens. 2. Amoeba takes in food at a specific spot, to which the food is moved by the movement of cilia. 3. Cuscuta, ticks, leeches and tape-worms obtain nutrition from plants or animals without killing them. Which of the statements given above are correct?",
+    "question": "Consider the following statements about nutrition:\n1. Guard cells swell when water flows into them, and the stomatal pore opens.\n2. Amoeba takes in food at a specific spot, to which the food is moved by the movement of cilia.\n3. Cuscuta, ticks, leeches and tape-worms obtain nutrition from plants or animals without killing them.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74675,7 +74675,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): Objects seen through the hot air rising above a fire appear to waver. Reason (R): Hot air has a refractive index slightly greater than that of cooler air.",
+    "question": "Assertion (A): Objects seen through the hot air rising above a fire appear to waver.\nReason (R): Hot air has a refractive index slightly greater than that of cooler air.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -74699,7 +74699,7 @@
     "subject": "General Science",
     "subSubject": "Physics",
     "chapter": "Top 300 Questions",
-    "question": "Assertion (A): In the gold foil experiment, most of the alpha particles passed through the foil without any deflection. Reason (R): Most of the space inside an atom is empty.",
+    "question": "Assertion (A): In the gold foil experiment, most of the alpha particles passed through the foil without any deflection.\nReason (R): Most of the space inside an atom is empty.",
     "options": [
       "Both A and R are true and R is the correct explanation of",
       "Both A and R are true but R is not the correct explanation of",
@@ -74771,7 +74771,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about human reproduction: 1. The mother always contributes an X chromosome to the baby. 2. A child is female if the father contributes a Y chromosome. 3. From about the ninth week of pregnancy, the developing embryo is called a foetus. Which of the statements is/are correct?",
+    "question": "Consider the following statements about human reproduction:\n1. The mother always contributes an X chromosome to the baby.\n2. A child is female if the father contributes a Y chromosome.\n3. From about the ninth week of pregnancy, the developing embryo is called a foetus.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74819,7 +74819,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about contraception: 1. A condom works as a mechanical barrier so that sperm does not reach the egg. 2. Oral contraceptive pills change the hormonal balance of the body so that eggs are not released. 3. A copper-T placed in the uterus also protects a woman from sexually transmitted diseases. Which of the statements given above are correct?",
+    "question": "Consider the following statements about contraception:\n1. A condom works as a mechanical barrier so that sperm does not reach the egg.\n2. Oral contraceptive pills change the hormonal balance of the body so that eggs are not released.\n3. A copper-T placed in the uterus also protects a woman from sexually transmitted diseases.\nWhich of the statements given above are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
@@ -74867,7 +74867,7 @@
     "subject": "General Science",
     "subSubject": "Biology",
     "chapter": "Top 300 Questions",
-    "question": "Consider the following statements about carbon in the ocean: 1. Ocean water absorbs atmospheric CO₂ to form carbonate and bicarbonate ions. 2. Phytoplankton use carbonate and bicarbonate ions for photosynthesis. 3. CO₂ moves only from the atmosphere into the ocean and never in the opposite direction. Which of the statements is/are correct?",
+    "question": "Consider the following statements about carbon in the ocean:\n1. Ocean water absorbs atmospheric CO₂ to form carbonate and bicarbonate ions.\n2. Phytoplankton use carbonate and bicarbonate ions for photosynthesis.\n3. CO₂ moves only from the atmosphere into the ocean and never in the opposite direction.\nWhich of the statements is/are correct?",
     "options": [
       "Only 1 and 2",
       "Only 2 and 3",
