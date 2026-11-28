@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css?v=3.9.0">
+  <link rel="stylesheet" href="style.css?v=3.9.3">
   <script>
     // Instant anti-flicker router: determines initial view before layout paint
     (function() {
@@ -554,6 +554,7 @@
               <button onclick="app.togglePracticeDrawer()" class="lg:hidden text-zinc-400 hover:text-zinc-800 text-lg leading-none p-1">&times;</button>
             </div>
           </div>
+          <div id="practice-palette-legend" class="pal-legend" role="toolbar" aria-label="Filter questions"></div>
           <div id="practice-palette-grid" class="grid grid-cols-5 gap-1.5 overflow-y-auto pr-1">
             <!-- Palette buttons -->
           </div>
@@ -1602,7 +1603,7 @@
   <script src="js/services/storage.service.js"></script>
   <script src="js/services/scoring.service.js"></script>
   <script src="js/services/mock-generator.service.js"></script>
-  <script src="app.js?v=4.4.1"></script>
+  <script src="app.js?v=4.4.2"></script>
   <script src="js/utils/pwa.js"></script>
 </body>
 </html>

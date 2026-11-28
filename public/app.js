@@ -3794,39 +3794,42 @@ class AptiPrepApp {
     if (!grid) return;
 
     const isTestMode = (this.practice.modeType === 'test');
+    // state per question: current/marked are overlays; base state is correct | wrong | answered | left
+    const stateOf = (q, idx) => {
+      const sel = this.practice.userAnswers[idx];
+      if (sel === undefined || sel === null) return 'left';
+      if (isTestMode) return 'answered';
+      return sel === q.correctAnswer ? 'correct' : 'wrong';
+    };
+    const states = this.practice.questions.map(stateOf);
+    const marked = idx => !!(this.practice.reviewFlags && this.practice.reviewFlags[idx]);
+    const count = st => states.filter(x => x === st).length;
+    const markedCount = this.practice.questions.filter((_, i) => marked(i)).length;
 
+    const filters = isTestMode
+      ? [['answered', '●', 'Answered', count('answered')], ['marked', '★', 'Marked', markedCount], ['left', '○', 'Left', count('left')]]
+      : [['correct', '✓', 'Correct', count('correct')], ['wrong', '✗', 'Wrong', count('wrong')], ['marked', '★', 'Marked', markedCount], ['left', '○', 'Left', count('left')]];
+    const active = this.practice.paletteFilter || null;
+    const legend = document.getElementById('practice-palette-legend');
+    if (legend) {
+      legend.innerHTML = filters.map(([key, sym, label, n]) => `
+        <button type="button" onclick="app.setPracticePaletteFilter('${key}')" aria-pressed="${active === key}"
+                class="pal-chip pal-chip-${key} ${active === key ? 'is-active' : ''}" title="Show only ${label.toLowerCase()}">
+          <span aria-hidden="true">${sym}</span> ${n} <span class="pal-chip-label">${label}</span>
+        </button>`).join('');
+    }
+
+    const LABEL = { correct: 'correct', wrong: 'wrong', answered: 'answered', left: 'not answered' };
     grid.innerHTML = this.practice.questions.map((q, idx) => {
-      const selected = this.practice.userAnswers[idx];
-      const isAnswered = (selected !== undefined && selected !== null);
-      const isMarked = !!(this.practice.reviewFlags && this.practice.reviewFlags[idx]);
+      const st = states[idx];
+      const isMarked = marked(idx);
       const isCurrent = (idx === this.practice.currentIndex);
-
-      let btnClass = 'bg-zinc-50 text-zinc-600 hover:bg-zinc-100 border-zinc-200';
-
-      if (isMarked) {
-        btnClass = isAnswered
-          ? 'bg-purple-600 text-white font-bold border-purple-700 shadow-2xs'
-          : 'bg-purple-100 text-purple-900 font-semibold border-purple-300 shadow-2xs';
-      } else if (isAnswered) {
-        if (isTestMode) {
-          btnClass = 'bg-indigo-100 text-indigo-900 font-semibold border-indigo-300 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 transition';
-        } else {
-          btnClass = (selected === q.correctAnswer)
-            ? 'bg-emerald-600 text-white font-medium border-emerald-600'
-            : 'bg-rose-600 text-white font-medium border-rose-600';
-        }
-      }
-
-      const ringClass = isCurrent ? 'ring-2 ring-indigo-600 ring-offset-1 font-bold' : '';
-
+      const visible = !active || (active === 'marked' ? isMarked : st === active);
       return `
-        <button onclick="app.jumpPracticeQuestion(${idx})"
-                data-palette-idx="${idx}"
-                class="w-full py-1.5 rounded text-xs border ${btnClass} ${ringClass} transition relative">
-          ${idx + 1}
-          ${isMarked ? '<span class="absolute top-0.5 right-0.5 w-1.5 h-1.5 rounded-full bg-purple-500"></span>' : ''}
-        </button>
-      `;
+        <button onclick="app.jumpPracticeQuestion(${idx})" data-palette-idx="${idx}"
+                class="pal-cell pal-${st} ${isMarked ? 'pal-marked' : ''} ${isCurrent ? 'pal-current' : ''} ${visible ? '' : 'pal-dim'}"
+                aria-label="Question ${idx + 1}, ${LABEL[st]}${isMarked ? ', marked for review' : ''}${isCurrent ? ', current' : ''}"
+                ${isCurrent ? 'aria-current="true"' : ''}>${idx + 1}</button>`;
     }).join('');
 
     // Auto-scroll active question button into view inside the palette
@@ -3836,6 +3839,12 @@ class AptiPrepApp {
         currentBtn.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
       }
     });
+  }
+
+  // Legend chips double as filters (tap again to show all) - handy for revising only wrong / marked ones.
+  setPracticePaletteFilter(key) {
+    this.practice.paletteFilter = this.practice.paletteFilter === key ? null : key;
+    this.renderPracticePalette();
   }
 
   promptSubmitChapterTest() {
