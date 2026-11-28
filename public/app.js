@@ -20,7 +20,8 @@ function sourceHtml(q) {
   if (!src || !src.file) return '';
   const parts = [escapeHtml(src.file)];
   if (src.q) parts.push(`Q${src.q}`);
-  if (src.page) parts.push(`p. ${src.page}`);
+  const isSlides = src.file.startsWith('Science Magnet');   // slide decks, not printed pages
+  if (src.page) parts.push(isSlides ? `slide ${src.page}` : `p. ${src.page}`);
   const c = q.check || {};
   const qid = q.id || q.questionId;
   (window.APTI_SRC_Q = window.APTI_SRC_Q || {})[qid] = q;          // lets markVerified re-render this line
@@ -35,11 +36,10 @@ function sourceHtml(q) {
       ? sym('text-emerald-600', '✓', 'Verified by you') + (undoLeft(qid) ? btn(false, `Undo (${undoLeft(qid)}s)`) : '')
       : sym('text-amber-600', '⚠', 'Not yet verified - check the PDF') + btn(true, 'Mark verified');
   const a = (href, label) => ` &nbsp;<a href="${escapeHtml(href)}" target="_blank" rel="noopener" class="text-sky-700 underline underline-offset-2">${label}</a>`;
-  // Drive's viewer ignores #page, so the exact slide is a pre-rendered image; Drive link stays for the full PDF.
+  // Drive's viewer ignores #page, so unverified questions link a pre-rendered image of the exact slide/question.
   const crop = !verified && window.APTI_CROPS && window.APTI_CROPS.has(q.id || q.questionId) ? `data/crops/${q.id || q.questionId}.webp` : '';
-  const link = (!verified && /^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Open slide ↗') : '')
-    + (crop ? a(crop, 'Check slide ↗') : '')
-    + (!verified && /^https:\/\/drive\.google\.com\//.test(src.url || '') ? a(src.url.split('#')[0], 'Full PDF ↗') : '');
+  const link = (!verified && /^data\/slides\/[\w.-]+\.webp$/.test(src.slide || '') ? a(src.slide, 'Check slide ↗') : '')
+    + (crop ? a(crop, 'Check slide ↗') : '');
   return `<span data-src-id="${escapeHtml(qid)}"><span class="text-zinc-400">Source:</span> ${parts.join(' · ')} &nbsp;${badge}${link}</span>`;
 }
 

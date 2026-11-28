@@ -1,6 +1,6 @@
 // public/sw.js - Service worker that makes AptiPrep installable and usable offline.
 // Bump CACHE_VERSION whenever the app shell list changes.
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const SHELL_CACHE = `aptiprep-shell-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `aptiprep-runtime-${CACHE_VERSION}`;
 
@@ -107,6 +107,12 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (url.origin !== self.location.origin) return;
+
+  // Question data changes with every fix: always fetch it fresh, fall back to cache offline.
+  if (url.pathname.includes('/data/') && url.pathname.endsWith('.json')) {
+    event.respondWith(networkFirst(request));
+    return;
+  }
 
   if (url.pathname.includes('/data/') || url.pathname.includes('/icons/')) {
     event.respondWith(staleWhileRevalidate(request, event));

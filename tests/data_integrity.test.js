@@ -98,4 +98,12 @@ describe('Data Integrity Tests', () => {
       });
     });
   });
+
+  test('every slide image exists and matches its question\'s source page', () => {
+    const qs = JSON.parse(fs.readFileSync(questionsPath, 'utf8'));
+    qs.filter(q => q.source && q.source.slide).forEach(q => {
+      assert.ok(q.source.slide.endsWith(`-p${q.source.page}.webp`), `${q.id}: slide ${q.source.slide} does not match page ${q.source.page}`);
+      assert.ok(fs.existsSync(path.join(rootDir, 'public', q.source.slide)), `${q.id}: missing ${q.source.slide}`);
+    });
+  });
 });

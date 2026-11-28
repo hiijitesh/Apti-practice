@@ -33878,8 +33878,7 @@
     "source": {
       "file": "Science Magnet · Blood",
       "page": 5,
-      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=2",
-      "slide": "data/slides/blood-p2.webp"
+      "slide": "data/slides/blood-p5.webp"
     },
     "check": {
       "text": true,
@@ -34155,7 +34154,6 @@
     "source": {
       "file": "Science Magnet · Blood",
       "page": 35,
-      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=35",
       "slide": "data/slides/blood-p35.webp"
     },
     "check": {
@@ -34333,8 +34331,7 @@
     "source": {
       "file": "Science Magnet · Blood",
       "page": 51,
-      "url": "https://drive.google.com/file/d/19E53Gp_5Ga6NB2HNKEqO3WycApsqRz2q/view#page=20",
-      "slide": "data/slides/blood-p20.webp"
+      "slide": "data/slides/blood-p51.webp"
     },
     "check": {
       "text": true,
@@ -34385,8 +34382,7 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 25,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=25",
-      "slide": "data/slides/botany-p7.webp"
+      "slide": "data/slides/nutrition-p25.webp"
     },
     "check": {
       "text": false,
@@ -34411,8 +34407,8 @@
     "slidePage": 26,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=26",
-      "page": 26
+      "page": 26,
+      "slide": "data/slides/nutrition-p26.webp"
     },
     "check": {
       "text": false,
@@ -34437,8 +34433,8 @@
     "slidePage": 27,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=27",
-      "page": 27
+      "page": 27,
+      "slide": "data/slides/nutrition-p27.webp"
     },
     "check": {
       "text": false,
@@ -34463,8 +34459,8 @@
     "slidePage": 28,
     "source": {
       "file": "Science Magnet · Nutrition",
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=28",
-      "page": 28
+      "page": 28,
+      "slide": "data/slides/nutrition-p28.webp"
     },
     "check": {
       "text": false,
@@ -34490,7 +34486,6 @@
     "source": {
       "file": "Science Magnet · Botany",
       "page": 9,
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=9",
       "slide": "data/slides/botany-p9.webp"
     },
     "check": {
@@ -34541,7 +34536,8 @@
     "slidePage": 3,
     "source": {
       "file": "Science Magnet · Biology Tests",
-      "page": 3
+      "page": 3,
+      "slide": "data/slides/biology-tests-p3.webp"
     },
     "check": {
       "text": false,
@@ -34692,8 +34688,7 @@
     "source": {
       "file": "Science Magnet · Botany",
       "page": 26,
-      "url": "https://drive.google.com/file/d/18POw7KgKX6D9w3a5IS8CkzEN3LLwj0GT/view#page=27",
-      "slide": "data/slides/botany-p27.webp"
+      "slide": "data/slides/botany-p26.webp"
     },
     "check": {
       "text": true,
@@ -35294,7 +35289,6 @@
     "source": {
       "file": "Science Magnet · Cell",
       "page": 38,
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=38",
       "slide": "data/slides/cell-p38.webp"
     },
     "check": {
@@ -35522,7 +35516,6 @@
     "source": {
       "file": "Science Magnet · Cell",
       "page": 63,
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=63",
       "slide": "data/slides/cell-p63.webp"
     },
     "check": {
@@ -35574,7 +35567,6 @@
     "source": {
       "file": "Science Magnet · Cell",
       "page": 68,
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=68",
       "slide": "data/slides/cell-p68.webp"
     },
     "check": {
@@ -35901,7 +35893,6 @@
     "source": {
       "file": "Science Magnet · Cell",
       "page": 100,
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=100",
       "slide": "data/slides/cell-p100.webp"
     },
     "check": {
@@ -36078,7 +36069,6 @@
     "source": {
       "file": "Science Magnet · Cell",
       "page": 118,
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view#page=118",
       "slide": "data/slides/cell-p118.webp"
     },
     "check": {
@@ -36379,7 +36369,8 @@
     "slidePage": 17,
     "source": {
       "file": "Science Magnet · Biology Tests",
-      "page": 17
+      "page": 17,
+      "slide": "data/slides/biology-tests-p17.webp"
     },
     "check": {
       "text": false,
@@ -36429,8 +36420,8 @@
     "slidePage": 132,
     "source": {
       "file": "Science Magnet · Cell",
-      "url": "https://drive.google.com/file/d/1GfHB4eMk9atuIE8foLK2PbvQGqmb0ex7/view",
-      "page": 132
+      "page": 132,
+      "slide": "data/slides/cell-p132.webp"
     },
     "check": {
       "text": false,
@@ -37258,7 +37249,6 @@
     "source": {
       "file": "Science Magnet · Circulatory System",
       "page": 23,
-      "url": "https://drive.google.com/file/d/1mFWgbKJf2lX2nR2r9YS2lYFTSxNybgUq/view#page=23",
       "slide": "data/slides/circulatory-system-p23.webp"
     },
     "check": {
@@ -37885,7 +37875,6 @@
     "source": {
       "file": "Science Magnet · Classification of Organisms",
       "page": 118,
-      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=118",
       "slide": "data/slides/classification-of-organisms-p118.webp"
     },
     "check": {
@@ -37962,7 +37951,6 @@
     "source": {
       "file": "Science Magnet · Classification of Organisms",
       "page": 121,
-      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=121",
       "slide": "data/slides/classification-of-organisms-p121.webp"
     },
     "check": {
@@ -38039,7 +38027,6 @@
     "source": {
       "file": "Science Magnet · Classification of Organisms",
       "page": 127,
-      "url": "https://drive.google.com/file/d/14gYLRVnK8U5YBC-rt1qemFGWsQ3fWE8h/view#page=127",
       "slide": "data/slides/classification-of-organisms-p127.webp"
     },
     "check": {
@@ -38291,7 +38278,6 @@
     "source": {
       "file": "Science Magnet · Digestive System",
       "page": 7,
-      "url": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/view#page=7",
       "slide": "data/slides/digestive-system-p7.webp"
     },
     "check": {
@@ -38745,7 +38731,6 @@
     "source": {
       "file": "Science Magnet · Digestive System",
       "page": 55,
-      "url": "https://drive.google.com/file/d/1pgXZZSnzTH-xarWDx9GhNuqQoyvS_Z1c/view#page=55",
       "slide": "data/slides/digestive-system-p55.webp"
     },
     "check": {
@@ -39772,7 +39757,6 @@
     "source": {
       "file": "Science Magnet · Endocrine System",
       "page": 61,
-      "url": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/view#page=61",
       "slide": "data/slides/endocrine-system-p61.webp"
     },
     "check": {
@@ -39799,7 +39783,6 @@
     "source": {
       "file": "Science Magnet · Endocrine System",
       "page": 68,
-      "url": "https://drive.google.com/file/d/1VDc7bkTcGj-xfrUyC3568t1VNOXcCvak/view#page=68",
       "slide": "data/slides/endocrine-system-p68.webp"
     },
     "check": {
@@ -40101,8 +40084,7 @@
     "source": {
       "file": "Science Magnet · Environment",
       "page": 23,
-      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=12",
-      "slide": "data/slides/environment-p12.webp"
+      "slide": "data/slides/environment-p23.webp"
     },
     "check": {
       "text": true,
@@ -40679,8 +40661,7 @@
     "source": {
       "file": "Science Magnet · Environment",
       "page": 66,
-      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
-      "slide": "data/slides/environment-p64.webp"
+      "slide": "data/slides/environment-p66.webp"
     },
     "check": {
       "text": false,
@@ -40731,8 +40712,7 @@
     "source": {
       "file": "Science Magnet · Environment",
       "page": 68,
-      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=36",
-      "slide": "data/slides/environment-p36.webp"
+      "slide": "data/slides/environment-p68.webp"
     },
     "check": {
       "text": true,
@@ -40783,7 +40763,6 @@
     "source": {
       "file": "Science Magnet · Environment",
       "page": 71,
-      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=71",
       "slide": "data/slides/environment-p71.webp"
     },
     "check": {
@@ -40910,8 +40889,7 @@
     "source": {
       "file": "Science Magnet · Environment",
       "page": 76,
-      "url": "https://drive.google.com/file/d/1AXVQC56ENnHtEdE7Dwc_cDq3wSb7E3J7/view#page=64",
-      "slide": "data/slides/environment-p64.webp"
+      "slide": "data/slides/environment-p76.webp"
     },
     "check": {
       "text": true,
@@ -41464,7 +41442,6 @@
     "source": {
       "file": "Science Magnet · Excretory System",
       "page": 47,
-      "url": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/view#page=47",
       "slide": "data/slides/excretory-system-p47.webp"
     },
     "check": {
@@ -41668,8 +41645,7 @@
     "source": {
       "file": "Science Magnet · Excretory System",
       "page": 62,
-      "url": "https://drive.google.com/file/d/1AwfZ7PWkMoJvy01zWZwKk6KJxxP5K4ym/view#page=41",
-      "slide": "data/slides/excretory-system-p41.webp"
+      "slide": "data/slides/excretory-system-p62.webp"
     },
     "check": {
       "text": true,
@@ -42021,7 +41997,6 @@
     "source": {
       "file": "Science Magnet · Heredity",
       "page": 18,
-      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=18",
       "slide": "data/slides/heredity-p18.webp"
     },
     "check": {
@@ -42273,8 +42248,7 @@
     "source": {
       "file": "Science Magnet · Heredity",
       "page": 31,
-      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=32",
-      "slide": "data/slides/heredity-p32.webp"
+      "slide": "data/slides/heredity-p31.webp"
     },
     "check": {
       "text": false,
@@ -42300,7 +42274,6 @@
     "source": {
       "file": "Science Magnet · Heredity",
       "page": 32,
-      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=32",
       "slide": "data/slides/heredity-p32.webp"
     },
     "check": {
@@ -42352,7 +42325,6 @@
     "source": {
       "file": "Science Magnet · Heredity",
       "page": 35,
-      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=35",
       "slide": "data/slides/heredity-p35.webp"
     },
     "check": {
@@ -42554,8 +42526,7 @@
     "source": {
       "file": "Science Magnet · Heredity",
       "page": 50,
-      "url": "https://drive.google.com/file/d/1o2cqCsoXlrCBavGpVgtY9bS5mcNgSsC3/view#page=51",
-      "slide": "data/slides/heredity-p51.webp"
+      "slide": "data/slides/heredity-p50.webp"
     },
     "check": {
       "text": true,
@@ -43206,8 +43177,7 @@
     "source": {
       "file": "Science Magnet · Improvement in Food Resources",
       "page": 106,
-      "url": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/view#page=98",
-      "slide": "data/slides/improvement-in-food-resources-p98.webp"
+      "slide": "data/slides/improvement-in-food-resources-p106.webp"
     },
     "check": {
       "text": true,
@@ -43283,7 +43253,6 @@
     "source": {
       "file": "Science Magnet · Improvement in Food Resources",
       "page": 111,
-      "url": "https://drive.google.com/file/d/1LLfW3st9ckb_URXDpgS9h4vKzUiuQkBA/view#page=111",
       "slide": "data/slides/improvement-in-food-resources-p111.webp"
     },
     "check": {
@@ -44012,8 +43981,7 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 9,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=7",
-      "slide": "data/slides/nutrition-p7.webp"
+      "slide": "data/slides/nutrition-p9.webp"
     },
     "check": {
       "text": true,
@@ -44139,7 +44107,6 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 9,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=9",
       "slide": "data/slides/nutrition-p9.webp"
     },
     "check": {
@@ -44166,7 +44133,6 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 32,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=32",
       "slide": "data/slides/nutrition-p32.webp"
     },
     "check": {
@@ -44193,7 +44159,6 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 60,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=60",
       "slide": "data/slides/nutrition-p60.webp"
     },
     "check": {
@@ -44720,7 +44685,6 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 109,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=109",
       "slide": "data/slides/nutrition-p109.webp"
     },
     "check": {
@@ -44747,8 +44711,7 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 113,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=81",
-      "slide": "data/slides/nutrition-p81.webp"
+      "slide": "data/slides/nutrition-p113.webp"
     },
     "check": {
       "text": false,
@@ -44949,7 +44912,6 @@
     "source": {
       "file": "Science Magnet · Nutrition",
       "page": 27,
-      "url": "https://drive.google.com/file/d/1D2dLTvpIO68F4rwvHg6VSLGpjklNFscg/view#page=27",
       "slide": "data/slides/nutrition-p27.webp"
     },
     "check": {
@@ -46377,8 +46339,7 @@
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
       "page": 99,
-      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=101",
-      "slide": "data/slides/reproduction-in-organisms-p101.webp"
+      "slide": "data/slides/reproduction-in-organisms-p99.webp"
     },
     "check": {
       "text": true,
@@ -46754,8 +46715,7 @@
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
       "page": 136,
-      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=26",
-      "slide": "data/slides/reproduction-in-organisms-p26.webp"
+      "slide": "data/slides/reproduction-in-organisms-p136.webp"
     },
     "check": {
       "text": true,
@@ -46881,8 +46841,7 @@
     "source": {
       "file": "Science Magnet · Reproduction in Organisms",
       "page": 143,
-      "url": "https://drive.google.com/file/d/1-gz-2c--9ZD7il84LAC7Ne8HGu3Q9Rzd/view#page=149",
-      "slide": "data/slides/reproduction-in-organisms-p149.webp"
+      "slide": "data/slides/reproduction-in-organisms-p143.webp"
     },
     "check": {
       "text": false,
@@ -47533,8 +47492,7 @@
     "source": {
       "file": "Science Magnet · Respiratory System",
       "page": 36,
-      "url": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/view#page=32",
-      "slide": "data/slides/respiratory-system-p32.webp"
+      "slide": "data/slides/respiratory-system-p36.webp"
     },
     "check": {
       "text": false,
@@ -47635,7 +47593,6 @@
     "source": {
       "file": "Science Magnet · Respiratory System",
       "page": 47,
-      "url": "https://drive.google.com/file/d/1LtFQ-Wh0t2Jg54o0XwHM8Pl_8YVvmKSU/view#page=47",
       "slide": "data/slides/respiratory-system-p47.webp"
     },
     "check": {
@@ -47812,8 +47769,7 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 11,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=8",
-      "slide": "data/slides/tissue-p8.webp"
+      "slide": "data/slides/tissue-p11.webp"
     },
     "check": {
       "text": true,
@@ -47914,8 +47870,7 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 20,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=12",
-      "slide": "data/slides/tissue-p12.webp"
+      "slide": "data/slides/tissue-p20.webp"
     },
     "check": {
       "text": false,
@@ -48116,8 +48071,7 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 39,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=37",
-      "slide": "data/slides/tissue-p37.webp"
+      "slide": "data/slides/tissue-p39.webp"
     },
     "check": {
       "text": true,
@@ -48293,8 +48247,7 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 52,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=33",
-      "slide": "data/slides/tissue-p33.webp"
+      "slide": "data/slides/tissue-p52.webp"
     },
     "check": {
       "text": true,
@@ -48545,8 +48498,7 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 66,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=64",
-      "slide": "data/slides/tissue-p64.webp"
+      "slide": "data/slides/tissue-p66.webp"
     },
     "check": {
       "text": true,
@@ -48997,7 +48949,6 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 103,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=103",
       "slide": "data/slides/tissue-p103.webp"
     },
     "check": {
@@ -49224,7 +49175,6 @@
     "source": {
       "file": "Science Magnet · Tissue",
       "page": 118,
-      "url": "https://drive.google.com/file/d/1bFDcM0NFpBDpQYCUAjrJ7ivi5Ol_qEM2/view#page=118",
       "slide": "data/slides/tissue-p118.webp"
     },
     "check": {
@@ -50101,7 +50051,6 @@
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
       "page": 87,
-      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=87",
       "slide": "data/slides/acids-bases-salt-p87.webp"
     },
     "check": {
@@ -50453,8 +50402,7 @@
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
       "page": 113,
-      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=110",
-      "slide": "data/slides/acids-bases-salt-p110.webp"
+      "slide": "data/slides/acids-bases-salt-p113.webp"
     },
     "check": {
       "text": false,
@@ -50480,8 +50428,7 @@
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
       "page": 114,
-      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=93",
-      "slide": "data/slides/acids-bases-salt-p93.webp"
+      "slide": "data/slides/acids-bases-salt-p114.webp"
     },
     "check": {
       "text": true,
@@ -50632,7 +50579,6 @@
     "source": {
       "file": "Science Magnet · Acids, Bases and Salt",
       "page": 80,
-      "url": "https://drive.google.com/file/d/1whm5tezhuXNOvLM5aTZFyKGMK-MFaDXG/view#page=80",
       "slide": "data/slides/acids-bases-salt-p80.webp"
     },
     "check": {
@@ -50935,7 +50881,6 @@
     "source": {
       "file": "Science Magnet · Atom and Molecule",
       "page": 20,
-      "url": "https://drive.google.com/file/d/1DJIkd8a3U0Yzs9NmPqqGgseDFWxNHe-r/view#page=20",
       "slide": "data/slides/atom-molecule-p20.webp"
     },
     "check": {
@@ -51512,8 +51457,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 97,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
-      "slide": "data/slides/carbon-and-its-compounds-p85.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p97.webp"
     },
     "check": {
       "text": true,
@@ -51539,7 +51483,6 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 56,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=56",
       "slide": "data/slides/carbon-and-its-compounds-p56.webp"
     },
     "check": {
@@ -51716,8 +51659,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 39,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=38",
-      "slide": "data/slides/carbon-and-its-compounds-p38.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p39.webp"
     },
     "check": {
       "text": true,
@@ -51893,7 +51835,6 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 48,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=48",
       "slide": "data/slides/carbon-and-its-compounds-p48.webp"
     },
     "check": {
@@ -52145,8 +52086,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 68,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=84",
-      "slide": "data/slides/carbon-and-its-compounds-p84.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p68.webp"
     },
     "check": {
       "text": false,
@@ -52172,7 +52112,6 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 78,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=78",
       "slide": "data/slides/carbon-and-its-compounds-p78.webp"
     },
     "check": {
@@ -52399,8 +52338,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 94,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=85",
-      "slide": "data/slides/carbon-and-its-compounds-p85.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p94.webp"
     },
     "check": {
       "text": true,
@@ -52476,7 +52414,6 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 101,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=101",
       "slide": "data/slides/carbon-and-its-compounds-p101.webp"
     },
     "check": {
@@ -52953,8 +52890,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 130,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=147",
-      "slide": "data/slides/carbon-and-its-compounds-p147.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p130.webp"
     },
     "check": {
       "text": false,
@@ -53855,8 +53791,7 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 188,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=184",
-      "slide": "data/slides/carbon-and-its-compounds-p184.webp"
+      "slide": "data/slides/carbon-and-its-compounds-p188.webp"
     },
     "check": {
       "text": true,
@@ -53932,7 +53867,6 @@
     "source": {
       "file": "Science Magnet · Carbon and its Compounds",
       "page": 191,
-      "url": "https://drive.google.com/file/d/1fPqOCvnKh_U_6S-QgQPxPDQ6D0P24lns/view#page=191",
       "slide": "data/slides/carbon-and-its-compounds-p191.webp"
     },
     "check": {
@@ -54284,8 +54218,7 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 26,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=23",
-      "slide": "data/slides/chemical-reactions-and-equations-p23.webp"
+      "slide": "data/slides/chemical-reactions-and-equations-p26.webp"
     },
     "check": {
       "text": true,
@@ -54686,7 +54619,6 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 53,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=53",
       "slide": "data/slides/chemical-reactions-and-equations-p53.webp"
     },
     "check": {
@@ -54838,7 +54770,6 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 64,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=64",
       "slide": "data/slides/chemical-reactions-and-equations-p64.webp"
     },
     "check": {
@@ -54915,8 +54846,7 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 68,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=6",
-      "slide": "data/slides/chemical-reactions-and-equations-p6.webp"
+      "slide": "data/slides/chemical-reactions-and-equations-p68.webp"
     },
     "check": {
       "text": false,
@@ -54992,8 +54922,7 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 72,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=61",
-      "slide": "data/slides/chemical-reactions-and-equations-p61.webp"
+      "slide": "data/slides/chemical-reactions-and-equations-p72.webp"
     },
     "check": {
       "text": true,
@@ -55019,7 +54948,6 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 73,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=73",
       "slide": "data/slides/chemical-reactions-and-equations-p73.webp"
     },
     "check": {
@@ -55071,7 +54999,6 @@
     "source": {
       "file": "Science Magnet · Chemical Reactions and Equations",
       "page": 76,
-      "url": "https://drive.google.com/file/d/1JLhRTjPvCEKpTCn9c3RGQ5fcDswoU_OT/view#page=76",
       "slide": "data/slides/chemical-reactions-and-equations-p76.webp"
     },
     "check": {
@@ -55248,7 +55175,6 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 7,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=7",
       "slide": "data/slides/classification-of-matter-p7.webp"
     },
     "check": {
@@ -55275,8 +55201,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 8,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
-      "slide": "data/slides/classification-of-matter-p5.webp"
+      "slide": "data/slides/classification-of-matter-p8.webp"
     },
     "check": {
       "text": true,
@@ -55452,8 +55377,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 37,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=4",
-      "slide": "data/slides/classification-of-matter-p4.webp"
+      "slide": "data/slides/classification-of-matter-p37.webp"
     },
     "check": {
       "text": true,
@@ -55479,8 +55403,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 38,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
-      "slide": "data/slides/classification-of-matter-p5.webp"
+      "slide": "data/slides/classification-of-matter-p38.webp"
     },
     "check": {
       "text": true,
@@ -55531,8 +55454,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 44,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=5",
-      "slide": "data/slides/classification-of-matter-p5.webp"
+      "slide": "data/slides/classification-of-matter-p44.webp"
     },
     "check": {
       "text": true,
@@ -55633,8 +55555,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 48,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=20",
-      "slide": "data/slides/classification-of-matter-p20.webp"
+      "slide": "data/slides/classification-of-matter-p48.webp"
     },
     "check": {
       "text": false,
@@ -55985,8 +55906,7 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 71,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=11",
-      "slide": "data/slides/classification-of-matter-p11.webp"
+      "slide": "data/slides/classification-of-matter-p71.webp"
     },
     "check": {
       "text": true,
@@ -56187,7 +56107,6 @@
     "source": {
       "file": "Science Magnet · Classification of Matter",
       "page": 84,
-      "url": "https://drive.google.com/file/d/1B4DMl81jWHMSiUj6Etmez6u9ZU7xFMAM/view#page=84",
       "slide": "data/slides/classification-of-matter-p84.webp"
     },
     "check": {
@@ -56489,7 +56408,6 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 36,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=36",
       "slide": "data/slides/matter-p36.webp"
     },
     "check": {
@@ -56716,7 +56634,6 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 54,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=54",
       "slide": "data/slides/matter-p54.webp"
     },
     "check": {
@@ -56743,7 +56660,6 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 98,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=98",
       "slide": "data/slides/matter-p98.webp"
     },
     "check": {
@@ -56770,7 +56686,6 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 100,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=100",
       "slide": "data/slides/matter-p100.webp"
     },
     "check": {
@@ -56847,7 +56762,6 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 71,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=78",
       "slide": "data/slides/matter-p71.webp"
     },
     "check": {
@@ -57374,8 +57288,7 @@
     "source": {
       "file": "Science Magnet · Matter",
       "page": 107,
-      "url": "https://drive.google.com/file/d/1CSmfxZmeCGEYfs7wPIIZx5ZMQFIUNzip/view#page=66",
-      "slide": "data/slides/matter-p66.webp"
+      "slide": "data/slides/matter-p107.webp"
     },
     "check": {
       "text": true,
@@ -57576,8 +57489,7 @@
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
       "page": 14,
-      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=9",
-      "slide": "data/slides/metals-non-metals-p9.webp"
+      "slide": "data/slides/metals-non-metals-p14.webp"
     },
     "check": {
       "text": true,
@@ -57778,8 +57690,7 @@
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
       "page": 31,
-      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=23",
-      "slide": "data/slides/metals-non-metals-p23.webp"
+      "slide": "data/slides/metals-non-metals-p31.webp"
     },
     "check": {
       "text": true,
@@ -57830,7 +57741,6 @@
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
       "page": 33,
-      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=33",
       "slide": "data/slides/metals-non-metals-p33.webp"
     },
     "check": {
@@ -58132,8 +58042,7 @@
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
       "page": 51,
-      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=39",
-      "slide": "data/slides/metals-non-metals-p39.webp"
+      "slide": "data/slides/metals-non-metals-p51.webp"
     },
     "check": {
       "text": true,
@@ -58384,7 +58293,6 @@
     "source": {
       "file": "Science Magnet · Metals and Non-Metals",
       "page": 73,
-      "url": "https://drive.google.com/file/d/13HuV5UmIQMV_joQvTDhnEs8zpuH0pCiB/view#page=73",
       "slide": "data/slides/metals-non-metals-p73.webp"
     },
     "check": {
@@ -59161,7 +59069,6 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 20,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=20",
       "slide": "data/slides/structure-of-atom-p20.webp"
     },
     "check": {
@@ -59288,8 +59195,7 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 26,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=8",
-      "slide": "data/slides/structure-of-atom-p8.webp"
+      "slide": "data/slides/structure-of-atom-p26.webp"
     },
     "check": {
       "text": true,
@@ -59865,8 +59771,7 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 57,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=48",
-      "slide": "data/slides/structure-of-atom-p48.webp"
+      "slide": "data/slides/structure-of-atom-p57.webp"
     },
     "check": {
       "text": true,
@@ -59917,8 +59822,7 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 94,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=81",
-      "slide": "data/slides/structure-of-atom-p81.webp"
+      "slide": "data/slides/structure-of-atom-p94.webp"
     },
     "check": {
       "text": false,
@@ -60019,7 +59923,6 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 104,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=104",
       "slide": "data/slides/structure-of-atom-p104.webp"
     },
     "check": {
@@ -60296,7 +60199,6 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 118,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=118",
       "slide": "data/slides/structure-of-atom-p118.webp"
     },
     "check": {
@@ -60473,7 +60375,6 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 130,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=130",
       "slide": "data/slides/structure-of-atom-p130.webp"
     },
     "check": {
@@ -60575,8 +60476,7 @@
     "source": {
       "file": "Science Magnet · Structure of Atom",
       "page": 65,
-      "url": "https://drive.google.com/file/d/1kwYbb-aDq-NBxM_0QZpSioeWSPDaDaGY/view#page=62",
-      "slide": "data/slides/structure-of-atom-p62.webp"
+      "slide": "data/slides/structure-of-atom-p65.webp"
     },
     "check": {
       "text": true,
@@ -61127,7 +61027,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 9,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=9",
       "slide": "data/slides/electricity-p9.webp"
     },
     "check": {
@@ -61380,7 +61279,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 36,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=36",
       "slide": "data/slides/electricity-p36.webp"
     },
     "check": {
@@ -61932,7 +61830,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 70,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=70",
       "slide": "data/slides/electricity-p70.webp"
     },
     "check": {
@@ -62135,7 +62032,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 85,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=85",
       "slide": "data/slides/electricity-p85.webp"
     },
     "check": {
@@ -62162,7 +62058,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 86,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=86",
       "slide": "data/slides/electricity-p86.webp"
     },
     "check": {
@@ -62441,7 +62336,6 @@
     "source": {
       "file": "Science Magnet · Electricity",
       "page": 98,
-      "url": "https://drive.google.com/file/d/1luj2K_Sh6fbcsc2NAaRvWjFPJnLI1JwI/view#page=89",
       "slide": "data/slides/electricity-p98.webp"
     },
     "check": {
@@ -62918,7 +62812,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 30,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=30",
       "slide": "data/slides/gravitation-p30.webp"
     },
     "check": {
@@ -63170,7 +63063,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 47,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=47",
       "slide": "data/slides/gravitation-p47.webp"
     },
     "check": {
@@ -63197,7 +63089,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 48,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=48",
       "slide": "data/slides/gravitation-p48.webp"
     },
     "check": {
@@ -63249,7 +63140,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 50,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=50",
       "slide": "data/slides/gravitation-p50.webp"
     },
     "check": {
@@ -63576,7 +63466,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 70,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=70",
       "slide": "data/slides/gravitation-p70.webp"
     },
     "check": {
@@ -63703,7 +63592,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 81,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=81",
       "slide": "data/slides/gravitation-p81.webp"
     },
     "check": {
@@ -64230,8 +64118,7 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 98,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=76",
-      "slide": "data/slides/gravitation-p76.webp"
+      "slide": "data/slides/gravitation-p98.webp"
     },
     "check": {
       "text": true,
@@ -64582,7 +64469,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 18,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=18",
       "slide": "data/slides/gravitation-p18.webp"
     },
     "check": {
@@ -64609,7 +64495,6 @@
     "source": {
       "file": "Science Magnet · Gravitation",
       "page": 19,
-      "url": "https://drive.google.com/file/d/1EYFQfrAWkGi2Nhc5zMqaphL4CFNABxO4/view#page=19",
       "slide": "data/slides/gravitation-p19.webp"
     },
     "check": {
@@ -65161,7 +65046,6 @@
     "source": {
       "file": "Science Magnet · Human Eye",
       "page": 41,
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=41",
       "slide": "data/slides/human-eye-p41.webp"
     },
     "check": {
@@ -65188,7 +65072,6 @@
     "source": {
       "file": "Science Magnet · Human Eye",
       "page": 37,
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=37",
       "slide": "data/slides/human-eye-p37.webp"
     },
     "check": {
@@ -65215,7 +65098,6 @@
     "source": {
       "file": "Science Magnet · Human Eye",
       "page": 25,
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=25",
       "slide": "data/slides/human-eye-p25.webp"
     },
     "check": {
@@ -65241,8 +65123,8 @@
     "slidePage": 44,
     "source": {
       "file": "Science Magnet · Human Eye",
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view",
-      "page": 44
+      "page": 44,
+      "slide": "data/slides/human-eye-p44.webp"
     },
     "check": {
       "text": false,
@@ -65268,7 +65150,6 @@
     "source": {
       "file": "Science Magnet · Human Eye",
       "page": 46,
-      "url": "https://drive.google.com/file/d/1tall8eSqobi215in1UKv3xv-vw6yLSUJ/view#page=46",
       "slide": "data/slides/human-eye-p46.webp"
     },
     "check": {
@@ -66872,8 +66753,7 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 81,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=72",
-      "slide": "data/slides/motion-p72.webp"
+      "slide": "data/slides/motion-p81.webp"
     },
     "check": {
       "text": true,
@@ -66925,7 +66805,6 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 86,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=86",
       "slide": "data/slides/motion-p86.webp"
     },
     "check": {
@@ -67052,8 +66931,7 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 94,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=87",
-      "slide": "data/slides/motion-p87.webp"
+      "slide": "data/slides/motion-p94.webp"
     },
     "check": {
       "text": true,
@@ -67129,8 +67007,7 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 97,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=92",
-      "slide": "data/slides/motion-p92.webp"
+      "slide": "data/slides/motion-p97.webp"
     },
     "check": {
       "text": true,
@@ -67381,8 +67258,7 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 55,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
-      "slide": "data/slides/motion-p50.webp"
+      "slide": "data/slides/motion-p55.webp"
     },
     "check": {
       "text": false,
@@ -67533,7 +67409,6 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 62,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=62",
       "slide": "data/slides/motion-p62.webp"
     },
     "check": {
@@ -67585,8 +67460,7 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 64,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=50",
-      "slide": "data/slides/motion-p50.webp"
+      "slide": "data/slides/motion-p64.webp"
     },
     "check": {
       "text": false,
@@ -67613,7 +67487,6 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 83,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=83",
       "slide": "data/slides/motion-p83.webp"
     },
     "check": {
@@ -67641,7 +67514,6 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 84,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=84",
       "slide": "data/slides/motion-p84.webp"
     },
     "check": {
@@ -67669,7 +67541,6 @@
     "source": {
       "file": "Science Magnet · Motion",
       "page": 85,
-      "url": "https://drive.google.com/file/d/11fYuEkRGR14kMmM358h6ACtlMqUBgtn8/view#page=85",
       "slide": "data/slides/motion-p85.webp"
     },
     "check": {
@@ -67696,7 +67567,6 @@
     "source": {
       "file": "Science Magnet · Prism",
       "page": 3,
-      "url": "https://drive.google.com/file/d/12pnTlLIyejeCMAsRAekAIgMt2TtsjfSt/view#page=3",
       "slide": "data/slides/prism-p3.webp"
     },
     "check": {
@@ -68173,8 +68043,7 @@
     "source": {
       "file": "Science Magnet · Reflection of Light",
       "page": 39,
-      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=33",
-      "slide": "data/slides/reflection-of-light-p33.webp"
+      "slide": "data/slides/reflection-of-light-p39.webp"
     },
     "check": {
       "text": true,
@@ -68350,7 +68219,6 @@
     "source": {
       "file": "Science Magnet · Reflection of Light",
       "page": 62,
-      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=62",
       "slide": "data/slides/reflection-of-light-p62.webp"
     },
     "check": {
@@ -68727,7 +68595,6 @@
     "source": {
       "file": "Science Magnet · Reflection of Light",
       "page": 91,
-      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=91",
       "slide": "data/slides/reflection-of-light-p91.webp"
     },
     "check": {
@@ -68754,7 +68621,6 @@
     "source": {
       "file": "Science Magnet · Reflection of Light",
       "page": 92,
-      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=92",
       "slide": "data/slides/reflection-of-light-p92.webp"
     },
     "check": {
@@ -68781,7 +68647,6 @@
     "source": {
       "file": "Science Magnet · Reflection of Light",
       "page": 93,
-      "url": "https://drive.google.com/file/d/1VMWsishuFJYlMq1fCJ7sBmUJHKzrfWV0/view#page=93",
       "slide": "data/slides/reflection-of-light-p93.webp"
     },
     "check": {
@@ -69108,7 +68973,6 @@
     "source": {
       "file": "Science Magnet · Refraction",
       "page": 12,
-      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=12",
       "slide": "data/slides/refraction-of-light-p12.webp"
     },
     "check": {
@@ -69161,7 +69025,6 @@
     "source": {
       "file": "Science Magnet · Refraction",
       "page": 19,
-      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=19",
       "slide": "data/slides/refraction-of-light-p19.webp"
     },
     "check": {
@@ -69364,8 +69227,7 @@
     "source": {
       "file": "Science Magnet · Refraction",
       "page": 28,
-      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=5",
-      "slide": "data/slides/refraction-of-light-p5.webp"
+      "slide": "data/slides/refraction-of-light-p28.webp"
     },
     "check": {
       "text": false,
@@ -69392,7 +69254,6 @@
     "source": {
       "file": "Science Magnet · Refraction",
       "page": 29,
-      "url": "https://drive.google.com/file/d/1jhF6nNwWkQt1kRu46Pht8OhmFws30Zs9/view#page=29",
       "slide": "data/slides/refraction-of-light-p29.webp"
     },
     "check": {
@@ -70270,7 +70131,6 @@
     "source": {
       "file": "Science Magnet · Sound",
       "page": 52,
-      "url": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/view#page=52",
       "slide": "data/slides/sound-p52.webp"
     },
     "check": {
@@ -70297,7 +70157,6 @@
     "source": {
       "file": "Science Magnet · Sound",
       "page": 53,
-      "url": "https://drive.google.com/file/d/1OpRzmAIAqQj0YtTnMuMdueN0PMfQyN9H/view#page=53",
       "slide": "data/slides/sound-p53.webp"
     },
     "check": {
@@ -70899,7 +70758,6 @@
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
       "page": 43,
-      "url": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/view#page=43",
       "slide": "data/slides/work-energy-power-p43.webp"
     },
     "check": {
@@ -70976,7 +70834,6 @@
     "source": {
       "file": "Science Magnet · Work, Energy and Power",
       "page": 51,
-      "url": "https://drive.google.com/file/d/1TgnHVLo8iptUhJds0R3MvQ6oj-VhMGpR/view#page=51",
       "slide": "data/slides/work-energy-power-p51.webp"
     },
     "check": {
@@ -71917,7 +71774,6 @@
     "source": {
       "file": "Science Magnet · 300 Questions Part 3_1 1",
       "page": 9,
-      "url": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view",
       "slide": "data/slides/300-questions-part-3-1-1-p9.webp"
     },
     "check": {
@@ -73527,7 +73383,6 @@
     "source": {
       "file": "Science Magnet · 300 Questions Part 6",
       "page": 29,
-      "url": "https://drive.google.com/file/d/1AqtR8eN0lYdfbqKAMN91-Kursv6arXwl/view",
       "slide": "data/slides/300-questions-part-6-p29.webp"
     },
     "check": {
