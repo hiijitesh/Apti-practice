@@ -11,89 +11,129 @@
 </head>
 <body class="bg-zinc-50 text-zinc-900 min-h-screen">
   <header class="bg-white border-b border-zinc-200 sticky top-0 z-30">
-    <div class="max-w-3xl mx-auto px-4 h-12 flex items-center justify-between">
+    <div class="max-w-5xl mx-auto px-4 h-12 flex items-center justify-between">
       <a href="./" class="text-sm font-semibold tracking-tight">AptiPrep <span class="text-zinc-400 font-normal">/ Job Alerts</span></a>
       <a href="./" class="text-xs font-medium px-3 py-1.5 rounded-lg text-zinc-600 hover:bg-zinc-100">← Practice</a>
     </div>
   </header>
 
-  <main class="max-w-3xl mx-auto px-4 py-4 space-y-3">
-    <div class="flex flex-wrap gap-1.5 text-xs" id="filters"></div>
-    <input id="search" type="search" placeholder="Search company, post, source…"
-           class="w-full text-sm px-3 py-2 rounded-lg border border-zinc-200 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-200">
-    <p id="status" class="text-xs text-zinc-500">Loading…</p>
-    <ul id="list" class="space-y-2"></ul>
+  <main class="max-w-5xl mx-auto px-4 py-4 space-y-5">
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+      <input id="search" type="search" placeholder="Search company, post, source…"
+             class="flex-1 min-w-0 basis-60 text-sm px-3 py-2 rounded-lg border border-zinc-200 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-200">
+      <p id="status" class="text-xs text-zinc-500 shrink-0">Loading…</p>
+    </div>
+    <div id="sections" class="space-y-6"></div>
   </main>
+
+  <dialog id="detail" class="w-[min(32rem,calc(100vw-2rem))] rounded-2xl p-0 backdrop:bg-zinc-900/40">
+    <div class="p-5 space-y-3">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <div id="d-type" class="text-[11px] font-semibold uppercase tracking-wide text-zinc-500"></div>
+          <h2 id="d-company" class="text-base font-semibold mt-0.5"></h2>
+          <p id="d-role" class="text-sm text-zinc-700"></p>
+        </div>
+        <button id="d-close" aria-label="Close" class="p-1 rounded-md text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100">✕</button>
+      </div>
+      <dl id="d-fields" class="grid grid-cols-[auto,1fr] gap-x-4 gap-y-1.5 text-sm"></dl>
+      <div id="d-links" class="flex gap-2 pt-1 text-sm font-medium"></div>
+    </div>
+  </dialog>
 
   <script src="config.js"></script>
   <script>
     // Rows come from Telegram posts via the bot: render with textContent only, links http(s) only.
-    const GROUPS = {
-      'All': () => true,
-      'Openings': t => t === 'Job Alert' || t === 'Last Date',
-      'Admit Card': t => t === 'Admit Card',
-      'Result': t => t === 'Result' || t === 'Answer Key',
-      'Other': t => !['Job Alert', 'Last Date', 'Admit Card', 'Result', 'Answer Key'].includes(t),
-    };
-    const BADGE = {
-      'Job Alert': 'bg-emerald-50 text-emerald-700 border-emerald-200',
-      'Last Date': 'bg-red-50 text-red-700 border-red-200',
-      'Admit Card': 'bg-indigo-50 text-indigo-700 border-indigo-200',
-      'Result': 'bg-amber-50 text-amber-800 border-amber-200',
-    };
+    const SECTIONS = [
+      { title: 'Openings', types: ['Job Alert', 'Last Date'] },
+      { title: 'Admit Card & Exam', types: ['Admit Card', 'Exam Date', 'Interview', 'Mock Test'] },
+      { title: 'Results', types: ['Result', 'Answer Key'] },
+    ];
     const CACHE_KEY = 'apti_jobs_cache';
-    let jobs = [], group = 'All';
+    // Shown only while the sheet has no rows yet; delete once real alerts flow in.
+    const daysAgo = n => new Date(Date.now() - n * 864e5).toISOString();
+    const SAMPLE = [
+      { type: 'Last Date', company: 'Northern Coalfields Limited', role: 'Assistant Engineer (ECE)', deadline: 'Today', postedAt: daysAgo(0), vacancies: '270', source: 'sample' },
+      { type: 'Job Alert', company: 'NTPC Limited', role: 'Engineer Trainee', deadline: '15/12/2026', postedAt: daysAgo(1), vacancies: '120', source: 'sample' },
+      { type: 'Job Alert', company: 'Bharat Electronics Limited', role: 'Probationary Engineer', deadline: '20/12/2026', postedAt: daysAgo(2), vacancies: '350', source: 'sample' },
+      { type: 'Admit Card', company: 'SSC JE 2026', role: 'Junior Engineer (Electrical)', postedAt: daysAgo(1), source: 'sample' },
+      { type: 'Exam Date', company: 'RRB JE CBT-2', role: 'Junior Engineer', deadline: '12/01/2027', postedAt: daysAgo(3), source: 'sample' },
+      { type: 'Result', company: 'NMDC Limited', role: 'Junior Officer Trainee', postedAt: daysAgo(2), source: 'sample' },
+      { type: 'Answer Key', company: 'UPSC ESE 2027 Prelims', role: 'Engineering Services', postedAt: daysAgo(4), source: 'sample' },
+    ];
+    let jobs = [];
 
     const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; };
     const safeUrl = u => /^https?:\/\//i.test(String(u || '')) ? String(u) : '';
     const fmtDate = s => { const d = new Date(s); return isNaN(d) ? '' : d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short' }); };
+    const posts = j => j.vacancies && j.vacancies !== 'Refer Notification' ? String(j.vacancies) : '';
+    // Anything the bot tags with a type not listed above still lands in Openings.
+    const sectionOf = j => SECTIONS.find(s => s.types.includes(j.type)) || SECTIONS[0];
 
-    function renderFilters() {
-      const box = document.getElementById('filters');
-      box.replaceChildren(...Object.keys(GROUPS).map(name => {
-        const count = jobs.filter(j => GROUPS[name](j.type)).length;
-        const b = el('button', 'px-3 py-1.5 rounded-full border font-medium ' +
-          (name === group ? 'bg-zinc-900 text-white border-zinc-900' : 'bg-white text-zinc-600 border-zinc-200 hover:bg-zinc-100'),
-          `${name} ${count}`);
-        b.onclick = () => { group = name; render(); };
-        return b;
-      }));
+    function linkButton(label, url, primary) {
+      const a = el('a', 'px-3 py-1.5 rounded-lg ' + (primary ? 'bg-zinc-900 text-white' : 'border border-zinc-200 text-zinc-700'), label);
+      a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      return a;
+    }
+
+    function openDetail(j) {
+      document.getElementById('d-type').textContent = j.type || 'Job Alert';
+      document.getElementById('d-company').textContent = j.company || 'New Opening';
+      document.getElementById('d-role').textContent = j.role || '';
+      const fields = [['Posted', fmtDate(j.postedAt)], ['Last date', j.deadline], ['Posts', posts(j)], ['Source', j.source]];
+      document.getElementById('d-fields').replaceChildren(...fields.filter(f => f[1]).flatMap(([k, v]) =>
+        [el('dt', 'text-zinc-500', k), el('dd', 'text-zinc-900', String(v))]));
+      const links = [['Apply', safeUrl(j.applyLink), true], ['Open in Telegram', safeUrl(j.telegramLink), false]];
+      document.getElementById('d-links').replaceChildren(...links.filter(l => l[1]).map(l => linkButton(...l)));
+      document.getElementById('detail').showModal();
+    }
+
+    function table(rows) {
+      const wrap = el('div', 'bg-white border border-zinc-200 rounded-xl overflow-x-auto');
+      if (!rows.length) { wrap.append(el('p', 'px-4 py-3 text-sm text-zinc-500', 'Nothing here.')); return wrap; }
+      const t = el('table', 'w-full text-sm');
+      const head = el('tr', 'bg-zinc-50 text-left text-[11px] uppercase tracking-wide text-zinc-500');
+      [['Date', ''], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', 'hidden sm:table-cell']]
+        .forEach(([h, cls]) => head.append(el('th', `px-3 py-2 font-semibold ${cls}`, h)));
+      const body = el('tbody', 'divide-y divide-zinc-100');
+      rows.forEach(j => {
+        const tr = el('tr', 'cursor-pointer hover:bg-indigo-50/60 focus:bg-indigo-50/60 outline-none');
+        tr.tabIndex = 0;
+        tr.onclick = () => openDetail(j);
+        tr.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(j); } };
+        tr.append(el('td', 'px-3 py-2 whitespace-nowrap text-zinc-500', fmtDate(j.postedAt)));
+        const company = el('td', 'px-3 py-2 font-medium');
+        company.append(el('div', '', j.company || 'New Opening'));
+        if (j.role) company.append(el('div', 'sm:hidden text-xs font-normal text-zinc-500', j.role));
+        tr.append(company);
+        tr.append(el('td', 'px-3 py-2 text-zinc-700 hidden sm:table-cell', j.role || ''));
+        tr.append(el('td', 'px-3 py-2 whitespace-nowrap hidden sm:table-cell ' + (j.type === 'Last Date' ? 'text-red-700 font-medium' : 'text-zinc-700'), j.deadline || ''));
+        body.append(tr);
+      });
+      const thead = el('thead');
+      thead.append(head);
+      t.append(thead, body);
+      wrap.append(t);
+      return wrap;
     }
 
     function render() {
-      renderFilters();
       const q = document.getElementById('search').value.trim().toLowerCase();
-      const shown = jobs.filter(j => GROUPS[group](j.type) &&
-        (!q || [j.company, j.role, j.source, j.type].join(' ').toLowerCase().includes(q)));
-      const list = document.getElementById('list');
-      list.replaceChildren(...shown.map(j => {
-        const li = el('li', 'bg-white border border-zinc-200 rounded-xl p-3');
-        const top = el('div', 'flex items-center gap-2 text-[11px] text-zinc-500');
-        top.append(el('span', 'px-2 py-0.5 rounded-full border font-semibold ' + (BADGE[j.type] || 'bg-zinc-50 text-zinc-700 border-zinc-200'), j.type || 'Job Alert'));
-        top.append(el('span', '', fmtDate(j.postedAt)));
-        if (j.source) top.append(el('span', 'truncate', '· ' + j.source));
-        li.append(top);
-        li.append(el('div', 'mt-1.5 text-sm font-semibold', j.company || 'New Opening'));
-        if (j.role) li.append(el('div', 'text-sm text-zinc-700', j.role));
-        const meta = [j.vacancies && j.vacancies !== 'Refer Notification' ? `Posts: ${j.vacancies}` : '', j.deadline ? `Last date: ${j.deadline}` : ''].filter(Boolean).join('  ·  ');
-        if (meta) li.append(el('div', 'mt-1 text-xs text-zinc-500', meta));
-        const links = el('div', 'mt-2 flex gap-2 text-xs font-medium');
-        [['Apply', j.applyLink, 'bg-zinc-900 text-white'], ['Telegram', j.telegramLink, 'border border-zinc-200 text-zinc-700']].forEach(([label, url, cls]) => {
-          if (!safeUrl(url)) return;
-          const a = el('a', `px-3 py-1.5 rounded-lg ${cls}`, label);
-          a.href = safeUrl(url); a.target = '_blank'; a.rel = 'noopener noreferrer';
-          links.append(a);
-        });
-        if (links.childElementCount) li.append(links);
-        return li;
+      const shown = jobs.filter(j => !q || [j.company, j.role, j.source, j.type].join(' ').toLowerCase().includes(q));
+      document.getElementById('sections').replaceChildren(...SECTIONS.map(s => {
+        const rows = shown.filter(j => sectionOf(j) === s);
+        const sec = el('section', 'space-y-2');
+        const h = el('h2', 'text-sm font-semibold text-zinc-900', s.title);
+        h.append(el('span', 'ml-2 text-xs font-normal text-zinc-400', String(rows.length)));
+        sec.append(h, table(rows));
+        return sec;
       }));
-      if (!shown.length && jobs.length) list.replaceChildren(el('li', 'text-sm text-zinc-500', 'Nothing here.'));
     }
 
     async function load() {
       const status = document.getElementById('status');
       try { jobs = JSON.parse(localStorage.getItem(CACHE_KEY) || '[]'); } catch (e) { jobs = []; }
-      if (jobs.length) render();
+      render();
       const url = (window.APTIPREP_CONFIG && window.APTIPREP_CONFIG.GOOGLE_SHEET_URL || '').trim();
       if (!url) { status.textContent = 'No Google Sheet URL in config.js.'; return; }
       try {
@@ -102,13 +142,18 @@
         if (data.error) throw new Error(data.error);
         jobs = Array.isArray(data.jobs) ? data.jobs : [];
         try { localStorage.setItem(CACHE_KEY, JSON.stringify(jobs)); } catch (e) {}
-        status.textContent = jobs.length ? `${jobs.length} alerts · updated ${new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })}` : 'No alerts yet.';
+        status.textContent = `Updated ${new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })}`;
+        if (!jobs.length) { jobs = SAMPLE; status.textContent = 'Sample data — real alerts appear after the bot\'s next post'; }
       } catch (e) {
-        status.textContent = jobs.length ? 'Offline — showing last saved alerts.' : 'Could not load alerts.';
+        status.textContent = jobs.length ? 'Offline — last saved' : 'Could not load — showing sample data';
+        if (!jobs.length) jobs = SAMPLE;
       }
       render();
     }
 
+    const dialog = document.getElementById('detail');
+    document.getElementById('d-close').onclick = () => dialog.close();
+    dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); }); // backdrop click
     document.getElementById('search').addEventListener('input', render);
     load();
   </script>
