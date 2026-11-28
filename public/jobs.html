@@ -8,6 +8,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css?v=3.9.0">
 </head>
 <body class="bg-zinc-50 text-zinc-900 min-h-screen">
   <header class="bg-white border-b border-zinc-200 sticky top-0 z-30">
@@ -46,8 +47,8 @@
     // Rows come from Telegram posts via the bot: render with textContent only, links http(s) only.
     const SECTIONS = [
       { title: 'Openings', types: ['Job Alert', 'Last Date'] },
-      { title: 'Admit Card & Exam', types: ['Admit Card', 'Exam Date', 'Interview', 'Mock Test'] },
-      { title: 'Results', types: ['Result', 'Answer Key'] },
+      { title: 'Admit Card & Exam', types: ['Admit Card', 'Exam Date', 'Interview', 'Mock Test'], view: true },
+      { title: 'Results', types: ['Result', 'Answer Key'], view: true },
     ];
     const CACHE_KEY = 'apti_jobs_cache';
     // Shown only while the sheet has no rows yet; delete once real alerts flow in.
@@ -58,7 +59,7 @@
       { type: 'Job Alert', company: 'Bharat Electronics Limited', role: 'Probationary Engineer', deadline: '20-Dec', postedAt: daysAgo(2), vacancies: '350', source: 'sample', applyLink: 'https://bel-india.in' },
       { type: 'Admit Card', company: 'SSC JE 2026', role: 'Junior Engineer (Electrical)', postedAt: daysAgo(1), source: 'sample', applyLink: 'https://ssc.gov.in' },
       { type: 'Exam Date', company: 'RRB JE CBT-2', role: 'Junior Engineer', deadline: '12/01/2027', postedAt: daysAgo(3), source: 'sample' },
-      { type: 'Result', company: 'NMDC Limited', role: 'Junior Officer Trainee', postedAt: daysAgo(2), source: 'sample' },
+      { type: 'Result', company: 'NMDC Limited', role: 'Junior Officer Trainee', postedAt: daysAgo(2), source: 'sample', applyLink: 'https://www.nmdc.co.in' },
       { type: 'Answer Key', company: 'UPSC ESE 2027 Prelims', role: 'Engineering Services', postedAt: daysAgo(4), source: 'sample' },
     ];
     let jobs = [];
@@ -108,21 +109,25 @@
       render();
     }
 
-    function linkCell(j) {
-      const td = el('td', 'px-3 py-2 whitespace-nowrap text-right');
-      [['Apply', safeUrl(j.applyLink), 'bg-zinc-900 text-white'], ['TG', safeUrl(j.telegramLink), 'border border-sky-200 text-sky-700 bg-sky-50']]
-        .forEach(([label, url, cls]) => {
-          if (!url) return;
-          const a = el('a', `inline-block ml-1 px-2 py-1 rounded-md text-xs font-medium ${cls}`, label);
-          a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
-          a.onclick = e => e.stopPropagation(); // link, not the row popup
-          td.append(a);
-        });
+    function linkCell(j, withView) {
+      // Telegram link lives in the popup only. Admit Card / Results rows also get a View button.
+      const td = el('td', 'px-3 py-2 whitespace-nowrap text-right space-x-1');
+      if (withView) {
+        const v = el('button', 'inline-block px-2.5 py-1 rounded-md border text-xs font-medium btn-secondary', 'View');
+        v.onclick = e => { e.stopPropagation(); openDetail(j); };
+        td.append(v);
+      }
+      const url = safeUrl(j.applyLink);
+      if (!url) return td;
+      const a = el('a', 'inline-block px-2.5 py-1 rounded-md border text-xs font-medium btn-primary', 'Apply');
+      a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      a.onclick = e => e.stopPropagation(); // open the link, not the row popup
+      td.append(a);
       return td;
     }
 
     function linkButton(label, url, primary) {
-      const a = el('a', 'px-3 py-1.5 rounded-lg ' + (primary ? 'bg-zinc-900 text-white' : 'border border-zinc-200 text-zinc-700'), label);
+      const a = el('a', 'px-3 py-1.5 rounded-lg border ' + (primary ? 'btn-primary' : 'btn-secondary'), label);
       a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer';
       return a;
     }
@@ -139,12 +144,12 @@
       document.getElementById('detail').showModal();
     }
 
-    function table(rows) {
+    function table(rows, withView) {
       const wrap = el('div', 'bg-white border border-zinc-200 rounded-xl overflow-x-auto');
       if (!rows.length) { wrap.append(el('p', 'px-4 py-3 text-sm text-zinc-500', 'Nothing here.')); return wrap; }
       const t = el('table', 'w-full text-sm');
       const head = el('tr', 'bg-zinc-50 text-left text-[11px] uppercase tracking-wide text-zinc-500');
-      [['Date', '', 'posted'], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', '', 'deadline'], ['Links', 'text-right']]
+      [['Date', '', 'posted'], ['Company', ''], ['Post', 'hidden sm:table-cell'], ['Last date', '', 'deadline'], [withView ? 'Actions' : 'Apply', 'text-right']]
         .forEach(([h, cls, key]) => {
           const th = el('th', `px-3 py-2 font-semibold whitespace-nowrap ${cls}`);
           if (!key) { th.textContent = h; head.append(th); return; }
@@ -169,7 +174,7 @@
         tr.append(company);
         tr.append(el('td', 'px-3 py-2 text-zinc-700 hidden sm:table-cell', j.role || ''));
         tr.append(el('td', 'px-3 py-2 whitespace-nowrap ' + (j.type === 'Last Date' ? 'text-red-700 font-medium' : 'text-zinc-700'), j.deadline || ''));
-        tr.append(linkCell(j));
+        tr.append(linkCell(j, withView));
         body.append(tr);
       });
       const thead = el('thead');
@@ -187,7 +192,7 @@
         const sec = el('section', 'space-y-2');
         const h = el('h2', 'text-sm font-semibold text-zinc-900', s.title);
         h.append(el('span', 'ml-2 text-xs font-normal text-zinc-400', String(rows.length)));
-        sec.append(h, table(sortRows(rows)));
+        sec.append(h, table(sortRows(rows), s.view));
         return sec;
       }));
     }
