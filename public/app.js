@@ -1243,7 +1243,10 @@ class AptiPrepApp {
         if (sRes.ok) {
           const sData = await sRes.json();
           if (sData && Array.isArray(sData.attempts)) {
-            loaded = [...loaded, ...sData.attempts];
+            const sheetAttempts = sData.attempts
+              .map(a => this.normalizeSheetAttempt(a))
+              .filter(Boolean);
+            loaded = [...loaded, ...sheetAttempts];
           }
         }
       } catch (e) {
@@ -1263,6 +1266,45 @@ class AptiPrepApp {
     this.renderStudyAnalyticsWidget();
     this.renderAttemptSessionsSection();
     this.renderAttemptsHistory();
+  }
+
+  /**
+   * Google Sheet rows store display labels ("Mock Test", "All Chapters", "3m 5s").
+   * Convert them back to the shape the rest of the app expects, and drop
+   * connection-test ping rows so they don't show up as fake attempts.
+   */
+  normalizeSheetAttempt(raw) {
+    if (!raw || !raw.attemptId) return null;
+    const id = String(raw.attemptId);
+    const modeLabel = String(raw.mode || '').trim().toLowerCase();
+    if (id.startsWith('ping_') || modeLabel === 'connection_test' || raw.chapter === 'System Ping') {
+      return null;
+    }
+
+    let mode = 'practice';
+    if (modeLabel === 'mock' || modeLabel === 'mock test') mode = 'mock';
+    else if (modeLabel === 'chapter_test' || modeLabel === 'chapter test') mode = 'chapter_test';
+
+    let timeTakenSeconds = Number(raw.timeTakenSeconds);
+    if (!Number.isFinite(timeTakenSeconds)) {
+      const m = /(?:(\d+)\s*m)?\s*(?:(\d+)\s*s)?/i.exec(String(raw.timeTakenFormatted || ''));
+      timeTakenSeconds = m ? (Number(m[1] || 0) * 60 + Number(m[2] || 0)) : 0;
+    }
+
+    const chapter = (mode === 'mock' || raw.chapter === 'All Chapters') ? null : (raw.chapter || null);
+
+    return {
+      ...raw,
+      attemptId: id,
+      mode,
+      chapter,
+      timeTakenSeconds,
+      totalQuestions: Number(raw.totalQuestions) || 0,
+      correctCount: Number(raw.correctCount) || 0,
+      incorrectCount: Number(raw.incorrectCount) || 0,
+      unattemptedCount: Number(raw.unattemptedCount) || 0,
+      scorePercentage: parseFloat(raw.scorePercentage) || 0
+    };
   }
 
   // Keyboard Navigation for Distraction-Free Test Taking
@@ -4678,10 +4720,53 @@ class AptiPrepApp {
         attempt,
         ...(Array.isArray(all) ? all.filter(a => a && a.attemptId !== attempt.attemptId) : [])
       ];
-      localStorage.setItem('apti_attempts', JSON.stringify(all));
+      this.persistAttemptsWithinQuota(all);
     } catch (e) {
       console.warn('LocalStorage save error:', e);
     }
+  }
+
+  /**
+   * Each attempt carries full question text + explanations in `detailedAnswers`,
+   * which quickly fills the ~5MB localStorage quota. When a write fails, strip the
+   * heavy review payload from the oldest attempts (it can be rebuilt from
+   * `answers` + the question bank) until the history fits again.
+   */
+  persistAttemptsWithinQuota(all) {
+    const tryWrite = (list) => {
+      try {
+        localStorage.setItem('apti_attempts', JSON.stringify(list));
+        return true;
+      } catch (e) {
+        return false;
+      }
+    };
+
+    if (tryWrite(all)) return true;
+
+    const slim = all.map(a => ({ ...a }));
+    for (let i = slim.length - 1; i >= 1; i--) {
+      const a = slim[i];
+      if (a.detailedAnswers) {
+        if (!Array.isArray(a.answers) || a.answers.length < a.detailedAnswers.length) {
+          a.answers = a.detailedAnswers.map(d => ({
+            questionId: d.questionId,
+            userAnswer: d.userAnswer,
+            isCorrect: d.isCorrect
+          }));
+        }
+        delete a.detailedAnswers;
+        if (tryWrite(slim)) return true;
+      }
+    }
+
+    // Still too large: drop the oldest records rather than losing the newest one.
+    while (slim.length > 1) {
+      slim.pop();
+      if (tryWrite(slim)) return true;
+    }
+    console.warn('LocalStorage quota exceeded: unable to persist attempt history.');
+    return false;
   }
 
   // ==========================================
@@ -4696,7 +4781,8 @@ class AptiPrepApp {
     }
 
     try {
-      const res = await fetch(`/api/attempts/${attemptId}`);
+      if (this.isStaticMode) throw new Error('static mode: no local API');
+      const res = await fetch(`/api/attempts/${encodeURIComponent(attemptId)}`);
       if (res.ok) {
         const data = await res.json();
         if (data.attemptId) {

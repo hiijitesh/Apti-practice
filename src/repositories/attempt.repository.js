@@ -1,5 +1,6 @@
 const fs = require('fs');
-const { ATTEMPTS_FILE, DATA_DIR } = require('../config');
+const path = require('path');
+const { ATTEMPTS_FILE } = require('../config');
 
 class AttemptRepository {
   constructor(filePath = ATTEMPTS_FILE) {
@@ -8,8 +9,9 @@ class AttemptRepository {
   }
 
   _ensureFileExists() {
-    if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
+    const dir = path.dirname(this.filePath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
     }
     if (!fs.existsSync(this.filePath)) {
       fs.writeFileSync(this.filePath, JSON.stringify([], null, 2), 'utf8');
