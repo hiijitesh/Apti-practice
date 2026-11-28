@@ -3455,6 +3455,7 @@ class AptiPrepApp {
       const isSelected = (selected === idx);
       let radioState = '';
       let textStyle = 'text-zinc-800';
+      let stateClass = '';
 
       if (isTestMode) {
         if (isSelected) {
@@ -3466,11 +3467,14 @@ class AptiPrepApp {
           if (idx === q.correctAnswer) {
             radioState = '<span class="text-xs text-emerald-600 font-black">✓</span>';
             textStyle = 'text-emerald-950 font-bold';
+            stateClass = 'is-correct';
           } else if (idx === selected) {
             radioState = '<span class="text-xs text-rose-600 font-black">✕</span>';
             textStyle = 'text-rose-950 font-medium';
+            stateClass = 'is-wrong';
           } else {
             textStyle = 'text-zinc-400 opacity-60';
+            stateClass = 'is-dim';
           }
         } else if (isSelected) {
           radioState = '<span class="tb-option-radio-dot bg-indigo-600"></span>';
@@ -3479,8 +3483,8 @@ class AptiPrepApp {
       }
 
       return `
-        <label onclick="app.selectPracticeOption(${idx})"
-               class="tb-unboxed-option ${isSelected ? 'selected' : ''}">
+        <label onclick="app.selectPracticeOption(${idx})" tabindex="0" role="radio" aria-checked="${isSelected}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}"
+               class="tb-unboxed-option ${isSelected && !stateClass ? 'selected' : ''} ${stateClass}">
           <span class="tb-option-radio">
             ${radioState}
           </span>
@@ -4042,12 +4046,17 @@ class AptiPrepApp {
 
     updateTimerUI();
 
+    // Wall-clock deadline: Chrome throttles setInterval in background tabs / locked phones,
+    // so counting ticks would let the 30 minutes stretch.
+    const deadline = Date.now() + this.mock.timeLeftSeconds * 1000;
     this.mock.timerInterval = setInterval(() => {
-      this.mock.timeLeftSeconds--;
+      const prevLeft = this.mock.timeLeftSeconds;
+      this.mock.timeLeftSeconds = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      const elapsed = Math.max(0, prevLeft - this.mock.timeLeftSeconds);
 
-      if (this.mock.questions && this.mock.questions[this.mock.currentIndex]) {
+      if (elapsed > 0 && this.mock.questions && this.mock.questions[this.mock.currentIndex]) {
         const currentQ = this.mock.questions[this.mock.currentIndex];
-        this.mock.questionTimes[currentQ.id] = (this.mock.questionTimes[currentQ.id] || 0) + 1;
+        this.mock.questionTimes[currentQ.id] = (this.mock.questionTimes[currentQ.id] || 0) + elapsed;
       }
 
       updateTimerUI();
@@ -4162,7 +4171,7 @@ class AptiPrepApp {
       optContainer.innerHTML = (q.options || []).map((opt, idx) => {
         const isSelected = (selectedOption === idx);
         return `
-          <label onclick="app.selectMockOption(${idx})"
+          <label onclick="app.selectMockOption(${idx})" tabindex="0" role="radio" aria-checked="${isSelected}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}"
                  class="tb-mobile-option-card ${isSelected ? 'selected' : ''}">
             <span class="tb-option-radio">
               ${isSelected ? '<span class="tb-option-radio-dot"></span>' : ''}
